@@ -34,11 +34,11 @@ jobs:
 
       - name: Build
         env:
-          # Set these under Settings → Secrets and variables → Actions → Variables
           VITE_CONTACT_EMAIL: ${{ vars.VITE_CONTACT_EMAIL }}
           VITE_CONTACT_PHONE: ${{ vars.VITE_CONTACT_PHONE }}
-          VITE_SITE_URL: ${{ vars.VITE_SITE_URL }}
-          VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH }}
+          # Defaults match GitHub project Pages until custom domain Variables are set
+          VITE_SITE_URL: ${{ vars.VITE_SITE_URL || 'https://rtgs2017.github.io/pinjin-website' }}
+          VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH || '/pinjin-website/' }}
         run: npm run build
 
       - name: Upload Pages artifact

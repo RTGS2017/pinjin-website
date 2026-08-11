@@ -170,7 +170,15 @@ npm run preview
 3. 仓库 **Settings → Pages → Custom domain** 填同一主机名，勾选 **Enforce HTTPS**。
 4. 将本地与 Actions 中的 `VITE_SITE_URL` 改为 `https://www.yourdomain.com`，运行 `python deploy/generate_sitemaps.py`，更新 `index.html` 中 canonical 后重新 push。
 
-绑定自定义域名后站点路径为 `https://你的域名/`（`base` 为 `/`），不是 `...github.io/仓库名/`。
+绑定自定义域名后站点路径为 `https://你的域名/`（`VITE_BASE_PATH=/`），不是 `...github.io/仓库名/`。
+
+当前未绑定制域名时，项目站地址为：
+
+```text
+https://rtgs2017.github.io/pinjin-website/
+```
+
+构建默认 `VITE_BASE_PATH=/pinjin-website/`，否则 JS/CSS 会从站点根路径加载导致白屏。
 
 ---
 

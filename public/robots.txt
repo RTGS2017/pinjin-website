@@ -7,5 +7,5 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.example.com/sitemap.xml
-Sitemap: https://www.example.com/image-sitemap.xml
+Sitemap: https://rtgs2017.github.io/pinjin-website/sitemap.xml
+Sitemap: https://rtgs2017.github.io/pinjin-website/image-sitemap.xml

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ImageIcon } from 'lucide-react';
+import { withBase } from '@/config/site';
 
 interface ImagePlaceholderProps {
   src: string;
@@ -38,7 +39,7 @@ export function ImagePlaceholder({
     >
       {!failed ? (
         <img
-          src={src}
+          src={withBase(src)}
           alt={meaningfulAlt}
           width={width}
           height={height}

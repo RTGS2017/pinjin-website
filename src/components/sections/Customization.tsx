@@ -1,5 +1,6 @@
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Button } from '@/components/ui/Button';
+import { withBase } from '@/config/site';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function Customization() {
@@ -14,7 +15,7 @@ export function Customization() {
             subtitle={t.customization.subtitle}
           />
           <div className="lg:justify-self-end">
-            <Button href="/#contact" variant="secondary" size="lg">
+            <Button href={withBase('/#contact')} variant="secondary" size="lg">
               {t.customization.cta}
             </Button>
           </div>

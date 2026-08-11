@@ -1,10 +1,9 @@
 /** 全站 SEO 基础配置（域名、默认 OG、组织信息仅在此定义） */
 
 export const seoConfig = {
-  siteUrl: (import.meta.env.VITE_SITE_URL || 'https://www.example.com').replace(
-    /\/$/,
-    '',
-  ),
+  siteUrl: (
+    import.meta.env.VITE_SITE_URL || 'https://rtgs2017.github.io/pinjin-website'
+  ).replace(/\/$/, ''),
   siteName: 'Hebei Pinjin Machinery',
   companyLegalName: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
   defaultTitle: 'Concrete Pump Manufacturer China | Hebei Pinjin Machinery',

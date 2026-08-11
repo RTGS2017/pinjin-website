@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { getMailtoHref, navItems, siteConfig } from '@/config/site';
+import { getMailtoHref, navItems, siteConfig, withBase } from '@/config/site';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n/I18nContext';
 import type { Lang } from '@/i18n/types';
@@ -51,7 +51,7 @@ export function Header() {
             item.href.includes('#') ? (
               <a
                 key={item.key}
-                href={item.href}
+                href={withBase(item.href)}
                 className={[
                   'text-sm font-medium tracking-wide transition-colors',
                   lang === 'en' ? 'uppercase' : '',
@@ -133,7 +133,7 @@ export function Header() {
               item.href.includes('#') ? (
                 <a
                   key={item.key}
-                  href={item.href}
+                  href={withBase(item.href)}
                   className="px-2 py-3 text-sm font-medium tracking-wide text-white"
                   onClick={() => setOpen(false)}
                 >

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { getMailtoHref, getTelHref, siteConfig } from '@/config/site';
+import { getMailtoHref, getTelHref, siteConfig, withBase } from '@/config/site';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function Footer() {
@@ -88,7 +88,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="/#why-pinjin" className="hover:text-primary transition-colors">
+                <a href={withBase('/#why-pinjin')} className="hover:text-primary transition-colors">
                   {t.footer.why}
                 </a>
               </li>
