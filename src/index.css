@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #58d26b;
+  --color-primary-hover: #46be5a;
+  --color-dark: #252a31;
+  --color-dark-2: #303640;
+  --color-text: #252a31;
+  --color-text-secondary: #69717d;
+  --color-bg: #ffffff;
+  --color-bg-soft: #f5f6f7;
+  --color-border: #e5e7eb;
+  --color-success: #58d26b;
+
+  --font-sans: 'Inter', 'Noto Sans SC', Arial, Helvetica, sans-serif;
+
+  --max-width-site: 1280px;
+  --spacing-section: 5rem;
+  --spacing-section-sm: 3.5rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bg text-text font-sans antialiased;
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-primary) 28%, transparent);
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full px-4 sm:px-6 lg:px-8;
+    max-width: var(--max-width-site);
+  }
+
+  .section-y {
+    padding-top: var(--spacing-section);
+    padding-bottom: var(--spacing-section);
+  }
+
+  @media (max-width: 768px) {
+    .section-y {
+      padding-top: var(--spacing-section-sm);
+      padding-bottom: var(--spacing-section-sm);
+    }
+  }
+
+  .heading-display {
+    @apply font-semibold tracking-wide text-dark;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+  }
+
+  .fade-up {
+    animation: fadeUp 0.55s ease-out both;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

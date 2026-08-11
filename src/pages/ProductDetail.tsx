@@ -1,0 +1,332 @@
+import { Link, Navigate, useParams } from 'react-router-dom';
+import { getMailtoHref } from '@/config/site';
+import {
+  categoryMeta,
+  getProductBySlug,
+  getRelatedProducts,
+  resolveProductSlug,
+} from '@/data/products';
+import { getProductFaqs } from '@/data/productFaqs';
+import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
+import { SpecItem } from '@/components/ui/SpecItem';
+import { Button } from '@/components/ui/Button';
+import { ProductCard } from '@/components/ui/ProductCard';
+import { SEO, buildFaqPageJsonLd, buildProductJsonLd } from '@/components/SEO';
+import { useI18n } from '@/i18n/I18nContext';
+
+export function ProductDetail() {
+  const { slug } = useParams<{ slug: string }>();
+  const { lang, t, tx } = useI18n();
+
+  if (!slug) {
+    return <Navigate to="/products" replace />;
+  }
+
+  const resolved = resolveProductSlug(slug);
+  if (resolved !== slug) {
+    return <Navigate to={`/products/${resolved}`} replace />;
+  }
+
+  const product = getProductBySlug(slug);
+  if (!product) {
+    return <Navigate to="/products" replace />;
+  }
+
+  const name = tx(product.name);
+  const path = `/products/${product.slug}`;
+  const related = getRelatedProducts(product);
+  const faqs = getProductFaqs(product, lang);
+  const categoryLabel = tx(categoryMeta[product.category].label);
+  const seoTitle = tx(product.seo.title);
+  const seoDescription = tx(product.seo.description);
+  const keywords = [
+    product.seo.keywords.primary,
+    ...product.seo.keywords.secondary,
+    ...product.seo.keywords.longTail,
+  ].join(', ');
+
+  const highlightSpecs = product.specifications.slice(0, 4);
+
+  return (
+    <section className="section-y bg-bg">
+      <SEO
+        title={seoTitle}
+        description={seoDescription}
+        path={path}
+        image={product.image}
+        type="product"
+        keywords={keywords}
+        jsonLd={[
+          buildProductJsonLd({
+            name,
+            description: seoDescription,
+            image: product.image,
+            path,
+            category: categoryLabel,
+          }),
+          buildFaqPageJsonLd(faqs),
+        ]}
+      />
+      <div className="container-site">
+        <nav className="mb-8 text-sm text-text-secondary" aria-label="Breadcrumb">
+          <ol className="flex flex-wrap items-center gap-2">
+            <li>
+              <Link to="/" className="hover:text-primary">
+                {t.detail.home}
+              </Link>
+            </li>
+            <li aria-hidden>/</li>
+            <li>
+              <Link to="/products" className="hover:text-primary">
+                {t.detail.products}
+              </Link>
+            </li>
+            <li aria-hidden>/</li>
+            <li>
+              <Link
+                to={`/products/category/${categoryMeta[product.category].routeSlug}`}
+                className="hover:text-primary"
+              >
+                {categoryLabel}
+              </Link>
+            </li>
+            <li aria-hidden>/</li>
+            <li className="text-dark">{name}</li>
+          </ol>
+        </nav>
+
+        <div className="grid gap-10 lg:grid-cols-2">
+          <ImagePlaceholder
+            src={product.image}
+            alt={`${product.name.en} manufactured by Hebei Pinjin Machinery`}
+            label={t.productCard.imageComingSoon}
+            hint={t.placeholder.productHint}
+            priority
+            width={1200}
+            height={760}
+            className="aspect-square w-full border border-border"
+            imgClassName="object-contain p-8"
+          />
+
+          <div>
+            <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">
+              {categoryLabel}
+            </p>
+            <h1 className="mt-3 heading-display text-3xl sm:text-4xl">{name}</h1>
+            <p className="mt-5 text-text-secondary">{tx(product.shortDescription)}</p>
+
+            {highlightSpecs.length > 0 ? (
+              <div className="mt-8">
+                <h2 className="text-sm font-semibold tracking-[0.14em] text-dark">
+                  {t.detail.keySpecs}
+                </h2>
+                <dl className="mt-3 border border-border p-4">
+                  {highlightSpecs.map((spec) => (
+                    <SpecItem
+                      key={spec.label.en}
+                      label={tx(spec.label)}
+                      value={tx(spec.value)}
+                    />
+                  ))}
+                </dl>
+              </div>
+            ) : null}
+
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+              <Button
+                href={getMailtoHref(`${t.mailSubjectInquiry} - ${name}`)}
+                size="lg"
+                className="w-full sm:w-auto"
+              >
+                {t.detail.quote}
+              </Button>
+              <Button
+                to="/products"
+                variant="outline"
+                size="lg"
+                className="w-full sm:w-auto"
+              >
+                {t.detail.back}
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        <section className="mt-14 border border-border p-6">
+          <h2 className="heading-display text-2xl">{t.detail.entity}</h2>
+          <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+            <div>
+              <dt className="font-semibold text-dark">
+                {lang === 'zh' ? '制造商' : 'Manufacturer'}
+              </dt>
+              <dd className="mt-1 text-text-secondary">
+                {tx(product.geo.manufacturer)}
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">
+                {lang === 'zh' ? '行业' : 'Industry'}
+              </dt>
+              <dd className="mt-1 text-text-secondary">{tx(product.geo.industry)}</dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">
+                {lang === 'zh' ? '产品类别' : 'Product Category'}
+              </dt>
+              <dd className="mt-1 text-text-secondary">
+                {tx(product.geo.productCategory)}
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">
+                {lang === 'zh' ? '产地' : 'Manufactured In'}
+              </dt>
+              <dd className="mt-1 text-text-secondary">
+                {tx(product.geo.manufacturedIn)}
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">
+            {t.detail.overview}
+          </h2>
+          <p className="mt-4 max-w-4xl text-sm leading-relaxed text-text-secondary sm:text-base">
+            {tx(product.productIntroduction)}
+          </p>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {(
+              [
+                ['whatIs', lang === 'zh' ? '这是什么设备？' : 'What is this equipment?'],
+                ['whoNeeds', lang === 'zh' ? '谁需要这台设备？' : 'Who needs this equipment?'],
+                ['whereUsed', lang === 'zh' ? '可以用在哪里？' : 'Where can it be used?'],
+                ['advantages', lang === 'zh' ? '有哪些优势？' : 'What advantages does it provide?'],
+                ['howToInquire', lang === 'zh' ? '如何询价？' : 'How can I request a quotation?'],
+              ] as const
+            ).map(([key, label]) => (
+              <div key={key} className="border border-border p-5">
+                <h3 className="font-semibold text-dark">{label}</h3>
+                <p className="mt-2 text-sm text-text-secondary">
+                  {tx(product.geo.answers[key])}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">
+            {t.detail.applications}
+          </h2>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {product.applicationScenarios.map((item) => (
+              <div
+                key={item.en}
+                className="border border-border bg-bg-soft p-5"
+              >
+                <h3 className="font-semibold text-dark">{tx(item)}</h3>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">
+            {t.detail.techParams}
+          </h2>
+          {product.specifications.length > 0 ? (
+            <div className="mt-6 overflow-x-auto border border-border">
+              <table className="min-w-full text-left text-sm">
+                <thead className="bg-bg-soft text-dark">
+                  <tr>
+                    <th className="px-4 py-3 font-semibold">
+                      {lang === 'zh' ? '参数' : 'Parameter'}
+                    </th>
+                    <th className="px-4 py-3 font-semibold">
+                      {lang === 'zh' ? '数值' : 'Value'}
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {product.specifications.map((spec) => (
+                    <tr key={spec.label.en} className="border-t border-border">
+                      <td className="px-4 py-3 text-text-secondary">
+                        {tx(spec.label)}
+                      </td>
+                      <td className="px-4 py-3 font-medium text-dark">
+                        {tx(spec.value)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p className="mt-4 text-sm text-text-secondary">{t.detail.noSpecs}</p>
+          )}
+        </section>
+
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">
+            {t.detail.advantages}
+          </h2>
+          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-text-secondary sm:text-base">
+            {product.keyFeatures.map((item) => (
+              <li key={item.en}>{tx(item)}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.faq}</h2>
+          <div className="mt-6 space-y-4">
+            {faqs.map((item) => (
+              <div key={item.question} className="border border-border p-5">
+                <h3 className="font-semibold text-dark">{item.question}</h3>
+                <p className="mt-2 text-sm text-text-secondary">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-4 text-sm text-text-secondary">
+            <Link to="/faq" className="hover:text-primary">
+              {lang === 'zh' ? '查看全部 FAQ →' : 'View all FAQ →'}
+            </Link>
+            {' · '}
+            <Link to="/product-selection-guide" className="hover:text-primary">
+              {lang === 'zh' ? '产品选型指南 →' : 'Product Selection Guide →'}
+            </Link>
+          </p>
+        </section>
+
+        {related.length > 0 ? (
+          <div className="mt-16">
+            <h2 className="heading-display text-2xl sm:text-3xl">
+              {t.detail.related}
+            </h2>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              {related.map((item) => (
+                <ProductCard key={item.slug} product={item} />
+              ))}
+            </div>
+          </div>
+        ) : null}
+
+        <div className="mt-16 border border-border bg-bg-soft p-8 text-center">
+          <h2 className="heading-display text-2xl">{t.detail.customTitle}</h2>
+          <p className="mx-auto mt-3 max-w-xl text-text-secondary">
+            {t.detail.customBody}
+          </p>
+          <div className="mt-6">
+            <Button
+              href={getMailtoHref(`${t.mailSubjectQuote} - ${name}`)}
+              size="lg"
+            >
+              {t.detail.quote}
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

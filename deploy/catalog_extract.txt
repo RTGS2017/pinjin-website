@@ -1,0 +1,241 @@
+P0: 河北品锦机械制造有限公司产品目录
+
+P1: Enterprise Positioning 企业定位：Professional source manufacturer of delivery pumps 专业输送泵生产源头厂家
+
+P2: I. Company Profile 一、企业简介
+
+P3: Hebei Pinjin Machinery Manufacturing Co., Ltd. is an innovative enterprise focusing on the special equipment manufacturing industry. The company is located in Renze Industrial Park, Xingtai City, Hebei Province. It specializes in the R&D, production and sales of construction machinery such as concrete pumps. Since its establishment, adhering to the development philosophy of "Quality First, Innovation-Driven", the company has been committed to providing efficient and reliable mechanical equipment for the construction industry.
+河北品锦机械制造有限公司是一家专注于特种设备制造领域的创新型企业，公司坐落于河北省邢台市任泽工业园区。企业深耕混凝土输送泵等工程机械的研发、生产与销售，自成立以来，始终秉持“品质为先、创新驱动”的发展理念，致力于为建筑行业提供高效、可靠的机械设备。
+
+P4: The company is equipped with advanced production equipment and a complete testing system, implementing strict full-process quality control to ensure all delivered concrete pumps reach industry-leading standards. It serves the construction machinery market with stable product quality and considerate services.
+公司配备先进的生产设备与完善的检测体系，严控产品生产全流程，保障每一台出厂的混凝土泵设备均达到行业领先标准，凭借稳定的产品质量与优质的服务，深耕工程机械市场。
+
+P5: II. Core Values 二、企业核心价值观
+
+P6: 1. Quality Oriented 品质为本
+
+P7: Adhere to the principle of quality first, implement strict full-process quality control from raw material procurement to finished product delivery, fully guarantee the quality of each equipment, and keep product performance and quality at the leading industry level.
+坚守质量第一原则，从原材料采购到成品出厂，实施全流程严格质量管控，全方位保障每一台设备的品质，确保产品性能、质量稳居行业领先水平。
+
+P8: 2. Innovation Driven 创新驱动
+
+P9: Encourage innovative thinking, continuously increase R&D investment, explore new technologies and crafts, empower enterprise development through innovation, promote product iteration and upgrading, and stabilize the core competitiveness of the enterprise.
+鼓励技术创新思维，持续加大研发投入，不断探索新技术、新工艺，以创新赋能企业发展，助力产品迭代升级，稳固企业行业竞争优势。
+
+P10: 3. Environmental Friendly 绿色环保
+
+P11: Actively respond to the national green development initiative, implement green manufacturing modes, reduce environmental pollution during production, and realize sustainable and healthy enterprise development.
+积极响应国家绿色发展号召，推行绿色生产制造模式，有效降低生产过程中的环境污染，实现企业可持续健康发展。
+
+P12: 4. Customer First 客户至上
+
+P13: Always take customer needs as the core, provide comprehensive and personalized supporting services, and fully ensure customer experience and satisfaction.
+始终以客户需求为核心，为客户提供全方位、个性化的配套服务，全力保障客户合作体验与满意度。
+
+P14: III. Full Product Parameter Introduction 三、全系产品参数介绍
+
+P15: 1. Diesel 4100 Transfer Pump 柴油4100输送泵
+
+P16: Motor Power 电机功率：33kw
+
+P17: Max Aggregate Diameter 最大骨料粒径：0.5-3cm
+
+P18: Delivery Capacity 输送量：6-8m³/h
+
+P19: Vertical Conveying Height 垂直输送高度：25m
+
+P20: Machine Weight 设备重量：800kg
+
+P21: Horizontal Conveying Distance 水平输送距离：60m
+
+P22: 2. LL15 Diesel Version Transfer Pump LL15柴油版输送泵
+
+P23: Max Aggregate Diameter 最大骨料粒径：2cm
+
+P24: Horizontal Conveying Distance 水平输送距离：50m
+
+P25: Diesel Engine Power 柴油机功率：28HP
+
+P26: Vertical Conveying Height 垂直输送高度：20m
+
+P27: Theoretical Delivery Capacity 理论输送量：5-8m³/h
+
+P28: Dimension 设备尺寸：140*70*110cm
+
+P29: Delivery Pipe Diameter 输送管直径：80-100mm
+
+P30: Machine Weight 设备重量：650kg
+
+P31: 3. LL15 Motor Version Transfer Pump LL15电机版输送泵
+
+P32: Max Aggregate Diameter 最大骨料粒径：2cm
+
+P33: Horizontal Conveying Distance 水平输送距离：30m
+
+P34: Motor Power 电机功率：15kw
+
+P35: Vertical Conveying Height 垂直输送高度：15m
+
+P36: Theoretical Delivery Capacity 理论输送量：5-8m³/h
+
+P37: Dimension 设备尺寸：140*70*110cm
+
+P38: Rated Voltage 额定电压：380v
+
+P39: Machine Weight 设备重量：600kg
+
+P40: 4. ZS22-25 Concrete Pump ZS22-25输送泵
+
+P41: Motor Power 电机功率：18.5kw
+
+P42: Max Aggregate Diameter 最大骨料粒径：0.5-3cm
+
+P43: Delivery Capacity 输送量：7-8m³/h
+
+P44: Vertical Conveying Height 垂直输送高度：25m
+
+P45: Machine Weight 设备重量：600kg
+
+P46: Horizontal Conveying Distance 水平输送距离：60m
+
+P47: 5. LL28-32 Concrete Pump LL28-32输送泵
+
+P48: Max Aggregate Diameter 最大骨料粒径：2cm
+
+P49: Horizontal Conveying Distance 水平输送距离：100m
+
+P50: Diesel Engine Model 柴油机型号：4100
+
+P51: Vertical Conveying Height 垂直输送高度：60m
+
+P52: Theoretical Delivery Capacity 理论输送量：6-10m³/h
+
+P53: Dimension 设备尺寸：310*90*126cm
+
+P54: Delivery Pipe Diameter 输送管直径：80-100mm
+
+P55: Machine Weight 设备重量：1400kg
+
+P56: 6. Diesel Screw Mortar Spraying Machine 柴油螺杆砂浆喷涂机
+
+P57: Power Output 动力输出：15-18HP
+
+P58: Conveying Height 输送高度：40m (depends on materials 根据物料适配)
+
+P59: Horizontal Conveying Distance 水平输送距离：60m (depends on materials 根据物料适配)
+
+P60: Max Conveying Particle 输送颗粒粒径：≤10mm
+
+P61: Spraying Pressure 喷涂压力：6Mpa
+
+P62: Hopper Volume 料斗容积：70L
+
+P63: Machine Weight 设备重量：180kg
+
+P64: Overall Dimension 整体尺寸：1800*580*950mm
+
+P65: Customization 定制服务：Support customization 支持设备定制
+
+P66: 7. HBT30-37 Concrete Pump HBT30-37混凝土泵
+
+P67: Max Aggregate Diameter 最大骨料粒径：3cm
+
+P68: Horizontal Conveying Distance 水平输送距离：250m
+
+P69: Diesel Engine Model 柴油机型号：4105
+
+P70: Vertical Conveying Height 垂直输送高度：120m
+
+P71: Theoretical Delivery Capacity 理论输送量：15-20m³/h
+
+P72: Dimension 设备尺寸：360*145*146cm
+
+P73: Delivery Pipe Diameter 输送管直径：80-100mm
+
+P74: Machine Weight 设备重量：2400kg
+
+P75: 8. HBT45-40 Concrete Pump HBT45-40混凝土泵
+
+P76: Max Aggregate Diameter 最大骨料粒径：3cm
+
+P77: Horizontal Conveying Distance 水平输送距离：300m
+
+P78: Diesel Engine Model 柴油机型号：4108
+
+P79: Vertical Conveying Height 垂直输送高度：150m
+
+P80: Theoretical Delivery Capacity 理论输送量：18-20m³/h
+
+P81: Dimension 设备尺寸：420*145*150cm
+
+P82: Delivery Pipe Diameter 输送管直径：80-100-125mm
+
+P83: Machine Weight 设备重量：2700kg
+
+P84: 9. Fully Automatic Plaster Spraying Machine 全自动石膏喷涂机
+
+P85: Mixer Capacity 搅拌容积：115L
+
+P86: Power Supply 供电参数：380V/50Hz
+
+P87: Main Motor Power 主电机功率：5kw
+
+P88: Horizontal Conveying Distance 水平输送距离：20m
+
+P89: Vertical Conveying Height 垂直输送高度：10m
+
+P90: Max Particle Size 最大颗粒粒径：6mm
+
+P91: Air Compressor Power 空压机功率：3kw
+
+P92: 10. HBTT55-50 Concrete Pump HBTT55-50混凝土泵
+
+P93: Max Aggregate Diameter 最大骨料粒径：4cm
+
+P94: Horizontal Conveying Distance 水平输送距离：300-400m
+
+P95: Diesel Engine Model 柴油机型号：6105
+
+P96: Vertical Conveying Height 垂直输送高度：150-180m
+
+P97: Theoretical Delivery Capacity 理论输送量：35-40m³/h
+
+P98: Dimension 设备尺寸：420*145*150cm
+
+P99: Delivery Pipe Diameter 输送管直径：100-125mm
+
+P100: Machine Weight 设备重量：3000kg
+
+P101: 11. LL60-75 Concrete Pump LL60-75混凝土泵
+
+P102: Max Aggregate Diameter 最大骨料粒径：5cm
+
+P103: Horizontal Conveying Distance 水平输送距离：200-550m
+
+P104: Diesel Engine Model 柴油机型号：6110
+
+P105: Vertical Conveying Height 垂直输送高度：150-180m
+
+P106: Theoretical Delivery Capacity 理论输送量：40-45m³/h
+
+P107: Dimension 设备尺寸：430*160*170cm
+
+P108: Delivery Pipe Diameter 输送管直径：125mm
+
+P109: Machine Weight 设备重量：3300kg
+
+P110: 12. HBT80-18-140 Concrete Pump HBT80-18-140混凝土泵
+
+P111: Max Aggregate Diameter 最大骨料粒径：6cm
+
+P112: Horizontal Conveying Distance 水平输送距离：600m
+
+P113: Diesel Engine Parameter 柴油机参数：6-cylinder 216kw 六缸216kw
+
+P114: Vertical Conveying Height 垂直输送高度：300m
+
+P115: Theoretical Delivery Capacity 理论输送量：40-75m³/h
+
+P116: Dimension 设备尺寸：650*160*170cm
+
+P117: |（注：部分内容可能由 AI 生成）
