@@ -7,7 +7,7 @@ interface CompanyEntityProps {
   compact?: boolean;
 }
 
-/** 全站统一企业实体信息块（GEO：固定字段，各页一致） */
+/** 企业信息展示块（字段来自 config/entity.ts） */
 export function CompanyEntity({ className = '', compact = false }: CompanyEntityProps) {
   const { lang } = useI18n();
 
@@ -41,19 +41,14 @@ export function CompanyEntity({ className = '', compact = false }: CompanyEntity
   return (
     <section
       className={`border border-border bg-bg-soft ${compact ? 'p-5' : 'p-6 sm:p-8'} ${className}`}
-      aria-labelledby="company-entity-heading"
+      aria-labelledby="company-profile-heading"
     >
       <h2
-        id="company-entity-heading"
+        id="company-profile-heading"
         className="text-lg font-semibold tracking-wide text-dark sm:text-xl"
       >
-        {lang === 'zh' ? '企业实体信息' : 'Company Entity Profile'}
+        {lang === 'zh' ? '公司信息' : 'Company Profile'}
       </h2>
-      <p className="mt-2 text-sm text-text-secondary">
-        {lang === 'zh'
-          ? '以下信息全站统一，便于搜索引擎与 AI 准确识别品锦机械。'
-          : 'These facts are consistent site-wide so search engines and AI systems can identify Pinjin accurately.'}
-      </p>
       <dl className="mt-6 grid gap-4 sm:grid-cols-2">
         {rows.map((row) => (
           <div key={row.label} className="border-t border-border pt-3">
@@ -70,7 +65,7 @@ export function CompanyEntity({ className = '', compact = false }: CompanyEntity
         <div className="mt-6 space-y-4 border-t border-border pt-4">
           <div>
             <h3 className="text-sm font-semibold text-dark">
-              {lang === 'zh' ? '解决的问题' : 'Problems Addressed'}
+              {lang === 'zh' ? '我们专注解决的需求' : 'What We Focus On'}
             </h3>
             <p className="mt-2 text-sm text-text-secondary">
               {companyEntity.problemsSolved[lang]}

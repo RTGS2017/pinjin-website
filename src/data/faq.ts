@@ -105,8 +105,8 @@ export const siteFaqs: FaqItem[] = [
       zh: 'HBT80-18-140 混凝土泵有什么特点？',
     },
     answer: {
-      en: 'HBT80-18-140 is the catalogue flagship for long-distance and high-rise conveying among currently listed Pinjin pumps. Published parameters include theoretical delivery capacity 40–75 m³/h, horizontal conveying distance 600 m, vertical conveying height 300 m, max aggregate diameter 6 cm, and a 6-cylinder / 216 kW diesel engine parameter. Delivery pipe diameter and machine weight are not provided in the current catalogue, so those fields are left blank on the product page rather than estimated.',
-      zh: '在当前目录机型中，HBT80-18-140 面向长距离与高扬程输送。公开参数包括理论输送量 40–75 m³/h、水平输送距离 600 m、垂直输送高度 300 m、最大骨料粒径 6 cm，以及六缸 / 216 kW 柴油机参数。输送管直径与设备重量目录未提供，产品页保持空白，不作估算补全。',
+      en: 'HBT80-18-140 is positioned for long-distance and high-rise conveying among currently listed Pinjin pumps. Key parameters include theoretical delivery capacity 40–75 m³/h, horizontal conveying distance 600 m, vertical conveying height 300 m, max aggregate diameter 6 cm, and a 6-cylinder / 216 kW diesel engine.',
+      zh: '在当前目录机型中，HBT80-18-140 面向长距离与高扬程输送。主要参数包括理论输送量 40–75 m³/h、水平输送距离 600 m、垂直输送高度 300 m、最大骨料粒径 6 cm，以及六缸 / 216 kW 柴油机参数。',
     },
   },
   {
@@ -138,8 +138,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '是否支持混凝土泵或喷涂机定制？',
     },
     answer: {
-      en: 'Customization is confirmed in the product catalogue for the Diesel Screw Mortar Spraying Machine (“Support customization”). For other models, buyers can still send project requirements—capacity, conveying distance, power type and site constraints—and Pinjin can discuss whether a listed configuration fits or what adjustment is feasible. We do not claim OEM certifications or private-label programs unless separately confirmed.',
-      zh: '产品目录明确柴油螺杆砂浆喷涂机“支持设备定制”。其他型号欢迎提供产能、输送距离、动力形式与场地限制等需求，品锦可基于现有机型讨论适配或可行调整。未另行确认前，不宣称 OEM 认证或贴牌体系。',
+      en: 'Customization is confirmed in the product catalogue for the Diesel Screw Mortar Spraying Machine (“Support customization”). For other models, buyers can send project requirements—capacity, conveying distance, power type and site constraints—and Pinjin can discuss whether a listed configuration fits or what adjustment is feasible.',
+      zh: '产品目录明确柴油螺杆砂浆喷涂机“支持设备定制”。其他型号欢迎提供产能、输送距离、动力形式与场地限制等需求，品锦可基于现有机型讨论适配或可行调整。',
     },
   },
   {
@@ -149,8 +149,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '如何向厂家询价混凝土泵价格？',
     },
     answer: {
-      en: 'Pinjin does not publish fixed online prices because configuration depends on model, options and shipping terms. To request a quote from this China manufacturer, email the required model or duty parameters (delivery capacity, horizontal/vertical distance, aggregate size, diesel or motor). Use the website inquiry buttons or contact email. The team will respond with a suitable equipment recommendation based on catalogue models—without inventing unavailable certifications or project references.',
-      zh: '品锦不在网站公布固定价格，因为配置取决于型号、选配与贸易条款。向中国厂家询价时，请邮件说明型号或工况参数（输送量、水平/垂直距离、骨料粒径、柴油/电机）。可通过网站询盘按钮或联系邮箱发送，团队将按目录机型回复推荐方案，不编造未确认的认证或项目业绩。',
+      en: 'Pinjin does not publish fixed online prices because configuration depends on model, options and shipping terms. To request a quote, email the required model or duty parameters (delivery capacity, horizontal/vertical distance, aggregate size, diesel or motor). Use the website inquiry buttons or contact email, and the team will respond with a suitable equipment recommendation.',
+      zh: '品锦不在网站公布固定价格，因为配置取决于型号、选配与贸易条款。询价时请邮件说明型号或工况参数（输送量、水平/垂直距离、骨料粒径、柴油/电机）。可通过网站询盘按钮或联系邮箱发送，我们将回复合适设备方案。',
     },
   },
   {
@@ -160,8 +160,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦工厂在哪里？海外买家能否询盘？',
     },
     answer: {
-      en: 'Pinjin is located in Renze Industrial Park, Xingtai City, Hebei Province, China. The website is built for overseas B2B inquiry via email. Overseas buyers can request quotations by describing project needs and preferred models. Phone and WhatsApp numbers are not shown until real contacts are provided, so email remains the primary channel.',
-      zh: '品锦位于中国河北省邢台市任泽工业园区。网站面向海外 B2B 邮件询盘：海外买家可说明项目需求与意向型号获取报价。电话与 WhatsApp 在未提供真实号码前不展示，当前以邮箱为主要联系渠道。',
+      en: 'Pinjin is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Overseas buyers can request quotations by email with project needs and preferred models.',
+      zh: '品锦位于中国河北省邢台市任泽工业园区。海外买家可邮件说明项目需求与意向型号获取报价。',
     },
   },
   {

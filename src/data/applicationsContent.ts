@@ -49,8 +49,8 @@ export const applicationPages: ApplicationPageItem[] = [
       zh: '基建工程用混凝土泵',
     },
     summary: {
-      en: 'Infrastructure pours may require longer horizontal conveying. Pinjin’s catalogue lists horizontal distances from compact transfer pumps up to 600 m on HBT80-18-140, helping buyers shortlist models by pipeline length rather than generic “machine” keywords.',
-      zh: '基建浇筑可能需要更长水平输送。品锦目录中水平距离从紧凑输送泵到 HBT80-18-140 的 600 m 均有列出，便于按管路长度筛选，而不是搜索泛化的“机械”。',
+      en: 'Infrastructure pours may require longer horizontal conveying. Pinjin’s catalogue lists horizontal distances from compact transfer pumps up to 600 m on HBT80-18-140, helping buyers shortlist models by pipeline length.',
+      zh: '基建浇筑可能需要更长水平输送。品锦目录中水平距离从紧凑输送泵到 HBT80-18-140 的 600 m 均有列出，可按管路长度筛选型号。',
     },
     points: [
       {
@@ -62,8 +62,8 @@ export const applicationPages: ApplicationPageItem[] = [
         zh: '偏远工地优先核对柴油机型号与动力参数',
       },
       {
-        en: 'Use published specs only—no unverified project references are claimed',
-        zh: '仅使用公开参数，不宣称未核实的项目业绩',
+        en: 'Match delivery capacity to planned pour volume and schedule',
+        zh: '按计划浇筑量与工期匹配输送量参数',
       },
     ],
     relatedCategory: 'concrete-pump',

@@ -144,7 +144,7 @@ export const messages = {
       applications: 'Application Scenarios',
       advantages: 'Product Advantages',
       faq: 'Product FAQ',
-      entity: 'Manufacturer Information',
+      entity: 'Manufacturer',
       noSpecs: 'Detailed specifications are not provided in the current catalogue. Please inquire by email.',
       suitableFor: 'Suitable for',
       keyAdvantages: 'Key advantages',
@@ -169,7 +169,7 @@ export const messages = {
     selectionGuide: {
       title: 'Product Selection Guide',
       subtitle:
-        'Answer common buyer questions with catalogue-based model shortlists. No fake project claims.',
+        'Match project conditions to catalogue specifications and recommended models.',
       recommended: 'Recommended models',
       why: 'Based on catalogue parameters',
       viewProduct: 'View product',
@@ -354,7 +354,7 @@ export const messages = {
       applications: '应用场景',
       advantages: '产品优势',
       faq: '产品常见问题',
-      entity: '制造商信息',
+      entity: '生产厂家',
       noSpecs: '当前产品目录未提供详细技术参数，请邮件询盘确认。',
       suitableFor: '适用场景',
       keyAdvantages: '核心优势',
@@ -377,7 +377,7 @@ export const messages = {
     },
     selectionGuide: {
       title: '产品选型指南',
-      subtitle: '用目录公开参数回答常见选型问题，不编造项目案例。',
+      subtitle: '按工况与目录参数对照推荐合适型号。',
       recommended: '推荐对照型号',
       why: '依据目录参数',
       viewProduct: '查看产品',

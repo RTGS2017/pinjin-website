@@ -37,8 +37,8 @@ export function Faq() {
           }
           subtitle={
             lang === 'zh'
-              ? '面向采购与施工选型的问答。答案基于产品目录公开参数，不编造价格、认证或项目案例。'
-              : 'Buyer-intent answers based on published catalogue specifications. No invented prices, certifications or project claims.'
+              ? '面向采购与施工选型的常见问题解答。'
+              : 'Common questions from buyers and project teams.'
           }
         />
 
@@ -83,7 +83,7 @@ export function Faq() {
             <p className="mt-2 text-sm text-text-secondary">
               {lang === 'zh'
                 ? '发送输送量、水平/垂直距离与骨料粒径，获取目录机型建议。'
-                : 'Send capacity, conveying distance and aggregate size for a catalogue-based recommendation.'}
+                : 'Send capacity, conveying distance and aggregate size for a model recommendation.'}
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:flex-row">

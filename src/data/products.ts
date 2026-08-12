@@ -116,8 +116,8 @@ function buildGeo(
       whereUsed,
       advantages,
       howToInquire: L(
-        'Request a quotation by email through the Get Quote buttons on this website. Include the model name, required capacity, conveying distance and project conditions. Hebei Pinjin Machinery responds by email with a catalogue-based recommendation.',
-        '通过网站「获取报价」按钮发送邮件询盘，请注明型号、所需输送量/能力、输送距离与工况。河北品锦机械将按产品目录参数邮件回复推荐方案。',
+        'Request a quotation by email through the Get Quote buttons on this website. Include the model name, required capacity, conveying distance and project conditions. Hebei Pinjin Machinery will reply with a suitable recommendation.',
+        '通过网站「获取报价」按钮发送邮件询盘，请注明型号、所需输送量/能力、输送距离与工况。河北品锦机械将邮件回复合适方案。',
       ),
     },
   };

@@ -30,8 +30,8 @@ export function SelectionGuidePage() {
         <div className="mt-8 max-w-3xl text-sm text-text-secondary">
           <p>
             {lang === 'zh'
-              ? '本页回答采购常见问题：“我该选哪款混凝土泵/喷涂设备？”推荐仅依据产品目录公开参数，不编造项目案例。'
-              : 'This page answers a common buyer question: “Which concrete pump or spraying machine should I choose?” Recommendations use published catalogue parameters only—no fake project claims.'}
+              ? '根据输送量、输送距离、动力形式与工况，对照产品目录参数推荐合适型号。'
+              : 'Match capacity, conveying distance, power type and site conditions to catalogue parameters to shortlist suitable models.'}
           </p>
         </div>
 

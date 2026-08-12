@@ -17,8 +17,8 @@ export function ApplicationsPage() {
       : 'Applications | Concrete Pump for Building & Infrastructure | Hebei Pinjin';
   const description =
     lang === 'zh'
-      ? '品锦机械应用方向：建筑施工混凝土泵、基建输送、砂浆喷涂与石膏喷涂。按公开参数选型，不编造项目案例。'
-      : 'Pinjin application guides for building construction concrete pumps, infrastructure conveying, mortar spraying and plaster spraying—based on published specs, without fake project claims.';
+      ? '品锦机械应用方向：建筑施工混凝土泵、基建输送、砂浆喷涂与石膏喷涂。'
+      : 'Pinjin application guides for building construction concrete pumps, infrastructure conveying, mortar spraying and plaster spraying.';
 
   return (
     <section className="section-y bg-bg">
@@ -33,8 +33,8 @@ export function ApplicationsPage() {
           }
           subtitle={
             lang === 'zh'
-              ? '说明设备适用方向与选型要点。未提供真实案例前，不写“服务了某某项目”。'
-              : 'These pages explain suitable use cases and selection criteria. No named project references are claimed without verified case data.'
+              ? '说明设备适用方向与选型要点。'
+              : 'Typical use cases and selection points for Pinjin equipment.'
           }
         />
 

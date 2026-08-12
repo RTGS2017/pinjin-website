@@ -102,8 +102,8 @@ export function About() {
             </h2>
             <p className="mt-3">
               {lang === 'zh'
-                ? '品锦定位为专业输送泵生产源头厂家，强调研发、生产与销售一体。质量理念遵循目录中的品质为本、创新驱动、绿色环保、客户至上；制造侧强调先进生产设备与完善检测体系、全流程质量管控。网站不编造厂房面积、员工人数、认证或成立年限。'
-                : 'Pinjin positions itself as a professional source manufacturer of delivery pumps, covering R&D, production and sales. Quality philosophy follows the catalogue values: quality oriented, innovation driven, environmental friendly and customer first. Manufacturing communications emphasize advanced production equipment, a complete testing system and full-process quality control. This site does not invent factory area, headcount, certifications or years in business.'}
+                ? '品锦定位为专业输送泵生产源头厂家，强调研发、生产与销售一体。质量理念遵循品质为本、创新驱动、绿色环保、客户至上；制造侧强调先进生产设备与完善检测体系、全流程质量管控。'
+                : 'Pinjin is a professional source manufacturer of delivery pumps, covering R&D, production and sales. Quality philosophy follows quality oriented, innovation driven, environmental friendly and customer first. Manufacturing emphasizes advanced production equipment, a complete testing system and full-process quality control.'}
             </p>
           </section>
         </div>
