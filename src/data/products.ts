@@ -765,19 +765,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'HBTB016-110ES Spiral Feeder',
       'HBTB016-110ES螺旋给料机',
-      'HBTB016-110ES spiral feeder',
-      ['spiral feeder manufacturer China', 'construction equipment manufacturer China'],
-      ['spiral feeder with customizable head'],
-      'Hebei Pinjin Machinery manufactures HBTB016-110ES spiral feeders in China for construction material feeding applications with customizable rated head.',
-      '河北品锦机械在中国生产HBTB016-110ES螺旋给料机，适用于建筑物料给料，额定扬程可定制。',
+      'HBTB016-110ES spiral feeder manufacturer China',
+      [
+        'spiral feeder manufacturer China',
+        'construction material feeding equipment',
+        'spiral feeder 3-6 m3/h customizable head',
+      ],
+      [
+        'buy HBTB016-110ES spiral feeder from Hebei Pinjin Machinery',
+        'spiral feeder with customizable rated head 4 kW',
+      ],
+      'Hebei Pinjin Machinery manufactures HBTB016-110ES spiral feeders in China for construction material feeding, with 3–6 m³/h rated flow, 4 kW power and customizable rated head.',
+      '河北品锦机械在中国生产HBTB016-110ES螺旋给料机，额定流量3–6 m³/h、功率4 kW、扬程可定制，适用于建筑物料给料。',
     ),
     geo: buildGeo(
       'Material Handling Equipment',
       '物料输送设备',
-      L('A spiral feeder for controlled material feeding.', '用于物料给料的螺旋给料机。'),
-      L('Buyers needing feeding equipment with customizable head.', '需要可定制扬程给料设备的采购方。'),
-      L('Material handling setups with 380 V supply.', '具备380 V供电的物料输送场景。'),
-      L('Published flow range and customizable rated head.', '流量范围公开，扬程可定制。'),
+      L(
+        'A spiral feeder for controlled material feeding, manufactured by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的螺旋给料机，用于可控物料给料。',
+      ),
+      L(
+        'Buyers needing feeding equipment with customizable head and 3–6 m³/h flow.',
+        '需要可定制扬程、流量3–6 m³/h给料设备的采购方。',
+      ),
+      L(
+        'Material handling setups with 380 V supply on construction sites.',
+        '建筑现场具备380 V供电的物料输送场景。',
+      ),
+      L(
+        'Published flow range, power, weight and customizable rated head from the manufacturer catalogue.',
+        '厂家目录公开流量、功率、重量，扬程可定制。',
+      ),
     ),
   },
   {
@@ -811,19 +830,38 @@ export const products: Product[] = [
     seo: buildSeo(
       '4102 Diesel Four-cylinder Inclined Pump',
       '4102柴油四缸斜泵',
-      '4102 diesel inclined pump',
-      ['diesel concrete pump manufacturer', 'S pipe valve concrete pump'],
-      ['diesel four-cylinder inclined pump for construction'],
-      'Hebei Pinjin Machinery manufactures 4102 diesel four-cylinder inclined pumps in China for construction concrete transportation applications.',
-      '河北品锦机械在中国生产4102柴油四缸斜泵，适用于建筑混凝土输送。',
+      '4102 diesel inclined pump manufacturer China',
+      [
+        'diesel concrete pump manufacturer China',
+        'S pipe valve concrete pump',
+        'inclined diesel pump Xingtai Hebei',
+      ],
+      [
+        '4102 diesel four-cylinder inclined pump for construction concrete delivery',
+        'buy 4102 diesel inclined pump from China manufacturer',
+      ],
+      'Hebei Pinjin Machinery manufactures 4102 diesel four-cylinder inclined pumps in Xingtai, Hebei, China for construction concrete transportation with S pipe valve and published 15 m³/h capacity.',
+      '河北品锦机械在中国河北邢台生产4102柴油四缸斜泵，采用S管阀，目录最大理论输送量15 m³/h，适用于建筑混凝土输送。',
     ),
     geo: buildGeo(
       'Concrete Pump Equipment',
       '混凝土泵设备',
-      L('A diesel four-cylinder inclined concrete pump with S pipe valve.', '采用S管阀的柴油四缸斜泵。'),
-      L('Buyers specifying 4102 diesel engine and inclined pump layout.', '指定4102柴油机与斜泵结构的采购方。'),
-      L('Projects within 100 m / 40 m theoretical conveying listed.', '理论水平100 m、垂直40 m目录范围内的项目。'),
-      L('Clear working form and hydraulic system options in the catalogue.', '目录明确工作形式与液压系统选项。'),
+      L(
+        'A diesel four-cylinder inclined concrete pump with S pipe valve, manufactured by Hebei Pinjin Machinery in China.',
+        '由河北品锦机械在中国制造的柴油四缸斜泵，工作形式为S管阀。',
+      ),
+      L(
+        'Contractors and equipment buyers specifying 4102 diesel engine and inclined pump layout for building sites.',
+        '建筑工地指定4102柴油机与斜泵结构的承包商与设备采购方。',
+      ),
+      L(
+        'Construction projects within the catalogue theoretical conveying range of 100 m horizontal / 40 m vertical.',
+        '理论水平100 m、垂直40 m目录范围内的建筑施工项目。',
+      ),
+      L(
+        'Clear catalogue working form, hydraulic options, pipe diameter and diesel engine model from the source manufacturer.',
+        '源头厂家目录明确工作形式、液压选项、管径与柴油机型号。',
+      ),
     ),
   },
   {
@@ -860,19 +898,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'Type 311 Spraying Machine',
       '311型喷涂机',
-      'Type 311 spraying machine',
-      ['spraying machine manufacturer China', 'construction spraying equipment'],
-      ['type 311 spraying machine for construction'],
-      'Hebei Pinjin Machinery manufactures Type 311 spraying machines in China for construction spraying applications.',
-      '河北品锦机械在中国生产311型喷涂机，适用于施工喷涂应用。',
+      'Type 311 spraying machine manufacturer China',
+      [
+        'construction spraying machine China',
+        'mortar plaster spraying equipment manufacturer',
+        'compact spraying machine 4 kW',
+      ],
+      [
+        'Type 311 spraying machine for construction finishing within 20 m',
+        'buy Type 311 spraying machine from Hebei Pinjin Machinery',
+      ],
+      'Hebei Pinjin Machinery manufactures Type 311 spraying machines in China for construction spraying, with 3–4 m³ spray flow, 20 m conveying distance and 4 kW motor power.',
+      '河北品锦机械在中国生产311型喷涂机，喷涂流量3–4 m³、输送距离20 m、电机功率4 kW，适用于施工喷涂。',
     ),
     geo: buildGeo(
       'Spraying Machine Equipment',
       '喷涂设备',
-      L('A Type 311 construction spraying machine.', '311型施工喷涂机。'),
-      L('Buyers selecting compact spraying machines by catalogue specs.', '按目录参数选择紧凑喷涂机的采购方。'),
-      L('Sites within 20 m conveying distance and 10 m head listed.', '输送距离20 m、扬程10 m目录范围内的现场。'),
-      L('Published spray flow, power and machine dimensions.', '喷涂流量、功率与外形尺寸公开。'),
+      L(
+        'A Type 311 construction spraying machine made by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的311型施工喷涂机。',
+      ),
+      L(
+        'Buyers selecting compact spraying machines by catalogue spray flow, distance and power.',
+        '按目录喷涂流量、距离与功率选择紧凑喷涂机的采购方。',
+      ),
+      L(
+        'Finishing sites within 20 m conveying distance and 10 m head with 220/380 V supply.',
+        '输送距离20 m、扬程10 m、具备220/380 V供电的饰面喷涂现场。',
+      ),
+      L(
+        'Published spray flow, motor power, machine weight and overall dimensions from the manufacturer catalogue.',
+        '厂家目录公开喷涂流量、电机功率、设备重量与外形尺寸。',
+      ),
     ),
   },
   {
@@ -909,19 +966,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'Type 511 Spraying Machine',
       '511型喷涂机',
-      'Type 511 spraying machine',
-      ['spraying machine manufacturer China', 'construction spraying equipment'],
-      ['type 511 spraying machine for construction finishing'],
-      'Hebei Pinjin Machinery manufactures Type 511 spraying machines in China for construction spraying and finishing applications.',
-      '河北品锦机械在中国生产511型喷涂机，适用于施工喷涂与饰面应用。',
+      'Type 511 spraying machine manufacturer China',
+      [
+        'construction spraying machine China',
+        'high efficiency spraying equipment 300 m2/h',
+        'spraying machine 40 m conveying distance',
+      ],
+      [
+        'Type 511 vs Type 311 spraying machine selection guide',
+        'buy Type 511 spraying machine from China manufacturer',
+      ],
+      'Hebei Pinjin Machinery manufactures Type 511 spraying machines in China for larger-area construction finishing, with 300 m²/h work efficiency, 40 m conveying distance and 7.5 kW motor power.',
+      '河北品锦机械在中国生产511型喷涂机，工作效率300 m²/h、输送距离40 m、电机功率7.5 kW，适用于较大面积施工饰面喷涂。',
     ),
     geo: buildGeo(
       'Spraying Machine Equipment',
       '喷涂设备',
-      L('A Type 511 spraying machine with higher listed area efficiency.', '目录面积效率更高的511型喷涂机。'),
-      L('Buyers comparing Type 311 vs Type 511 by distance and power.', '按距离与功率对比311/511的采购方。'),
-      L('Sites within 40 m conveying distance listed.', '输送距离40 m目录范围内的现场。'),
-      L('Higher listed work efficiency and conveying distance than Type 311.', '目录工作效率与输送距离高于311型。'),
+      L(
+        'A Type 511 spraying machine with higher listed area efficiency, manufactured in China by Hebei Pinjin Machinery.',
+        '河北品锦机械在中国制造的511型喷涂机，目录面积效率更高。',
+      ),
+      L(
+        'Buyers comparing Type 311 vs Type 511 by conveying distance, power and area efficiency.',
+        '按输送距离、功率与面积效率对比311/511的采购方。',
+      ),
+      L(
+        'Construction finishing sites within 40 m conveying distance and 20 m head.',
+        '输送距离40 m、扬程20 m范围内的施工饰面现场。',
+      ),
+      L(
+        'Higher listed work efficiency and conveying distance than Type 311, with published motor power and weight.',
+        '目录工作效率与输送距离高于311型，并公开电机功率与重量。',
+      ),
     ),
   },
   {
@@ -958,19 +1034,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'Double Cylinder Plunger Type Spraying Machine',
       '双缸柱塞式喷涂机',
-      'double cylinder plunger spraying machine',
-      ['plunger spraying machine manufacturer', 'construction spraying equipment China'],
-      ['double cylinder spraying machine for long distance spraying'],
-      'Hebei Pinjin Machinery manufactures double cylinder plunger type spraying machines in China for longer-distance construction spraying applications.',
-      '河北品锦机械在中国生产双缸柱塞式喷涂机，适用于较长距离施工喷涂。',
+      'double cylinder plunger spraying machine manufacturer China',
+      [
+        'long distance spraying machine China',
+        'plunger spraying machine 100 m',
+        'construction spraying equipment manufacturer',
+      ],
+      [
+        'double cylinder plunger spraying machine for 100 m conveying distance',
+        'buy plunger spraying machine from Hebei Pinjin Machinery',
+      ],
+      'Hebei Pinjin Machinery manufactures double cylinder plunger type spraying machines in China for longer-distance construction spraying, with 100 m conveying distance, 40 m head and 11+4.6 kW motor power.',
+      '河北品锦机械在中国生产双缸柱塞式喷涂机，输送距离100 m、扬程40 m、电机功率11+4.6 kW，适用于较长距离施工喷涂。',
     ),
     geo: buildGeo(
       'Spraying Machine Equipment',
       '喷涂设备',
-      L('A double-cylinder plunger spraying machine.', '双缸柱塞式喷涂机。'),
-      L('Buyers needing longer spraying conveying distance than Type 511.', '需要比511型更长喷涂输送距离的采购方。'),
-      L('Sites within 100 m conveying distance / 40 m head listed.', '输送距离100 m、扬程40 m目录范围内的现场。'),
-      L('Longer listed conveying distance with dual motor power rating.', '更长输送距离与双电机功率标注。'),
+      L(
+        'A double-cylinder plunger spraying machine manufactured by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的双缸柱塞式喷涂机。',
+      ),
+      L(
+        'Buyers needing longer spraying conveying distance than Type 511 for construction finishing.',
+        '施工饰面需要比511型更长喷涂输送距离的采购方。',
+      ),
+      L(
+        'Sites within 100 m conveying distance / 40 m head with 380 V supply.',
+        '输送距离100 m、扬程40 m、具备380 V供电的现场。',
+      ),
+      L(
+        'Longer listed conveying distance with dual motor power rating and published spray flow.',
+        '更长输送距离，双电机功率标注，喷涂流量公开。',
+      ),
     ),
   },
   {
@@ -1023,16 +1118,28 @@ export const products: Product[] = [
       'concrete spraying machine',
       ['concrete spraying machine manufacturer China', 'shotcrete equipment supplier'],
       ['concrete spraying machine for tunnel and industrial projects'],
-      'Hebei Pinjin Machinery manufactures concrete spraying machines in China for professional concrete spraying applications with published capacity and pressure parameters.',
-      '河北品锦机械在中国生产混凝土喷浆机，适用于专业混凝土喷浆，并提供公开产能与压力参数。',
+      'Hebei Pinjin Machinery manufactures concrete spraying machines in China with up to 10 m³/h capacity, 6.1 MPa outlet pressure, rebound rate under 10% and published dust limits for professional spraying jobs.',
+      '河北品锦机械在中国生产混凝土喷浆机，最大产能10 m³/h、出口压力6.1 MPa、回弹率<10%，并公布机旁粉尘限值，适用于专业喷浆作业。',
     ),
     geo: buildGeo(
       'Concrete Spraying Equipment',
       '混凝土喷浆设备',
-      L('A concrete spraying machine with S pipe valve and motor drive.', '采用S管阀与电机驱动的混凝土喷浆机。'),
-      L('Buyers needing spraying rather than long-distance pumping.', '需要喷浆而非长距离泵送的采购方。'),
-      L('Spraying jobs matched to 10 m³/h capacity and listed aggregate/slump ranges.', '匹配10 m³/h产能及目录骨料/坍落度范围的喷浆作业。'),
-      L('Detailed catalogue specs including rebound rate and dust limit.', '目录参数详细，含回弹率与粉尘限值。'),
+      L(
+        'A concrete spraying machine with S pipe valve and motor drive, manufactured in China by Hebei Pinjin Machinery.',
+        '河北品锦机械在中国制造的混凝土喷浆机，采用S管阀与电机驱动。',
+      ),
+      L(
+        'Buyers needing spraying rather than long-distance pumping for tunnel or industrial jobs matching catalogue specs.',
+        '需要喷浆而非长距离泵送、且参数匹配目录的隧道或工业喷浆采购方。',
+      ),
+      L(
+        'Spraying jobs matched to 10 m³/h capacity and listed aggregate/slump ranges.',
+        '匹配10 m³/h产能及目录骨料/坍落度范围的喷浆作业。',
+      ),
+      L(
+        'Detailed catalogue specs including rebound rate and machine-side dust limit from the source manufacturer.',
+        '源头厂家目录参数详细，含回弹率与机旁粉尘限值。',
+      ),
     ),
   },
   {
@@ -1067,19 +1174,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'Four-wheel Drive Forklift Loader - Clamp Type',
       '四驱叉车装载机-夹抱式',
-      'four-wheel drive forklift loader clamp type',
-      ['forklift loader manufacturer China', 'construction material handling equipment'],
-      ['4WD forklift loader clamp type for construction sites'],
-      'Hebei Pinjin Machinery manufactures four-wheel drive forklift loaders (clamp type) in China for construction site material handling applications.',
-      '河北品锦机械在中国生产四驱叉车装载机（夹抱式），适用于建筑工地物料搬运。',
+      '4WD forklift loader clamp type manufacturer China',
+      [
+        'four-wheel drive forklift loader China',
+        'construction material handling equipment manufacturer',
+        'clamp type forklift loader for construction sites',
+      ],
+      [
+        'buy 4WD forklift loader clamp type from Hebei Pinjin Machinery',
+        'four-wheel drive clamp loader 2800 mm lifting height',
+      ],
+      'Hebei Pinjin Machinery manufactures four-wheel drive forklift loaders (clamp type) in China for construction site material handling, with 2800 mm max lifting height and about 490 kg rated load.',
+      '河北品锦机械在中国生产四驱叉车装载机（夹抱式），最大举升高度2800 mm、额定载重约490 kg，适用于建筑工地物料搬运。',
     ),
     geo: buildGeo(
       'Material Handling Equipment',
       '物料搬运设备',
-      L('A 4WD forklift loader in clamp-type configuration.', '夹抱式配置的四驱叉车装载机。'),
-      L('Sites needing compact loaders for material handling.', '需要紧凑装载设备进行物料搬运的现场。'),
-      L('Yards and construction areas matched to listed lift/unload heights.', '匹配目录举升/卸载高度的场区与工地。'),
-      L('Published lift heights, drive mode and color options.', '举升高度、驱动方式与颜色选项公开。'),
+      L(
+        'A 4WD forklift loader in clamp-type configuration, manufactured by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的夹抱式四驱叉车装载机。',
+      ),
+      L(
+        'Construction yards needing compact loaders for clamp-type material handling.',
+        '需要紧凑夹抱式装载设备进行物料搬运的工地与场区。',
+      ),
+      L(
+        'Yards and construction areas matched to listed lift/unload heights and 4WD drive.',
+        '匹配目录举升/卸载高度与四驱的场区与工地。',
+      ),
+      L(
+        'Published lift heights, drive mode, rated load and color options from the manufacturer catalogue.',
+        '厂家目录公开举升高度、驱动方式、额定载重与颜色选项。',
+      ),
     ),
   },
   {
@@ -1114,19 +1240,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'Four-wheel Drive Forklift Loader - Bucket Type',
       '四驱叉车装载机-铲斗式',
-      'four-wheel drive forklift loader bucket type',
-      ['forklift loader manufacturer China', 'bucket loader for construction sites'],
-      ['4WD forklift loader bucket type for material handling'],
-      'Hebei Pinjin Machinery manufactures four-wheel drive forklift loaders (bucket type) in China for construction material handling applications.',
-      '河北品锦机械在中国生产四驱叉车装载机（铲斗式），适用于建筑物料搬运。',
+      '4WD forklift loader bucket type manufacturer China',
+      [
+        'bucket forklift loader China',
+        'construction bulk material loader manufacturer',
+        'four-wheel drive bucket loader for yards',
+      ],
+      [
+        'buy 4WD forklift loader bucket type from Hebei Pinjin Machinery',
+        'bucket type forklift loader for construction material handling',
+      ],
+      'Hebei Pinjin Machinery manufactures four-wheel drive forklift loaders (bucket type) in China for bulk material handling, with 2800 mm max lifting height and about 490 kg rated load.',
+      '河北品锦机械在中国生产四驱叉车装载机（铲斗式），最大举升高度2800 mm、额定载重约490 kg，适用于工地散料铲装与搬运。',
     ),
     geo: buildGeo(
       'Material Handling Equipment',
       '物料搬运设备',
-      L('A 4WD forklift loader in bucket-type configuration.', '铲斗式配置的四驱叉车装载机。'),
-      L('Buyers choosing bucket vs clamp handling configurations.', '在铲斗/夹抱配置间选型的采购方。'),
-      L('Sites needing bucket loading within listed lift heights.', '需要在目录举升高度内进行铲装的现场。'),
-      L('Same published mobility specs with bucket configuration focus.', '行走参数公开，聚焦铲斗配置。'),
+      L(
+        'A 4WD forklift loader in bucket-type configuration, manufactured by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的铲斗式四驱叉车装载机。',
+      ),
+      L(
+        'Buyers choosing bucket vs clamp handling configurations for yard loading.',
+        '场内装卸在铲斗/夹抱配置间选型的采购方。',
+      ),
+      L(
+        'Sites needing bucket loading within listed lift/unload heights.',
+        '需要在目录举升/卸载高度内进行铲装的现场。',
+      ),
+      L(
+        'Bucket configuration with published 4WD drive, lift height and color options.',
+        '铲斗式配置，四驱、举升高度与颜色选项公开。',
+      ),
     ),
   },
   {
@@ -1164,19 +1309,38 @@ export const products: Product[] = [
     seo: buildSeo(
       'Fully Automatic CNC Steel Bar Bending Machine',
       '全自动数控钢筋弯箍机',
-      'CNC steel bar bending machine',
-      ['automatic rebar stirrup machine manufacturer', 'construction equipment manufacturer China'],
-      ['fully automatic CNC steel bar bending machine for stirrups'],
-      'Hebei Pinjin Machinery manufactures fully automatic CNC steel bar bending machines in China for rebar stirrup processing in construction projects.',
-      '河北品锦机械在中国生产全自动数控钢筋弯箍机，适用于建筑项目钢筋箍筋加工。',
+      'CNC steel bar bending machine manufacturer China',
+      [
+        'automatic rebar stirrup bending machine China',
+        'CNC stirrup machine manufacturer',
+        'rebar processing equipment Xingtai Hebei',
+      ],
+      [
+        'fully automatic CNC steel bar bending machine for stirrups 4-10 mm',
+        'buy CNC rebar bending machine from Hebei Pinjin Machinery',
+      ],
+      'Hebei Pinjin Machinery manufactures fully automatic CNC steel bar bending machines in China for rebar stirrup processing, with single-strand 4–10 mm range and 19.2 kW total power.',
+      '河北品锦机械在中国生产全自动数控钢筋弯箍机，单股加工直径4–10 mm、总功率19.2 kW，适用于建筑钢筋箍筋加工。',
     ),
     geo: buildGeo(
       'Rebar Processing Equipment',
       '钢筋加工设备',
-      L('A fully automatic CNC machine for steel bar / stirrup bending.', '全自动数控钢筋/箍筋弯曲设备。'),
-      L('Rebar yards and contractors automating stirrup bending.', '需要自动化箍筋弯曲的钢筋场与承包商。'),
-      L('Workshops matched to listed processing diameter and machine size.', '匹配目录加工直径与设备尺寸的加工车间。'),
-      L('Detailed CNC processing ranges and speed parameters published.', '数控加工范围与速度参数详细公开。'),
+      L(
+        'A fully automatic CNC machine for steel bar / stirrup bending, manufactured by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的全自动数控钢筋/箍筋弯曲设备。',
+      ),
+      L(
+        'Rebar yards and contractors automating stirrup bending for precast or site fabrication.',
+        '预制或现场加工中需要自动化箍筋弯曲的钢筋场与承包商。',
+      ),
+      L(
+        'Workshops matched to listed processing diameter ranges and machine size 3800 × 1100 × 1700 mm.',
+        '匹配目录加工直径范围与设备尺寸3800 × 1100 × 1700 mm的加工车间。',
+      ),
+      L(
+        'Detailed CNC processing ranges, bending speeds and power consumption published by the manufacturer.',
+        '厂家公开数控加工范围、弯曲速度与耗电参数。',
+      ),
     ),
   },
   {
@@ -1214,34 +1378,37 @@ export const products: Product[] = [
     seo: buildSeo(
       '13 Spiral Feeder',
       '13型螺旋泵',
-      '13 spiral feeder screw pump',
+      '13 spiral feeder screw pump manufacturer China',
       [
-        'secondary structure pouring pump',
+        'secondary structure pouring pump China',
         'screw pump manufacturer China',
-        'spiral feeder concrete',
+        'spiral feeder for secondary structure pouring',
       ],
-      ['13 spiral feeder for secondary structure pouring'],
-      'Hebei Pinjin Machinery manufactures the 13 Spiral Feeder (screw pump) in China for secondary structure pouring, with 3–6 m³/h rated flow and 4 kW power.',
-      '河北品锦机械在中国生产13型螺旋泵（螺旋给料机），用于二次结构浇筑，额定流量3–6 m³/h，功率4 kW。',
+      [
+        '13 spiral feeder secondary structure pouring expert 3-6 m3/h',
+        'buy 13 screw pump from Hebei Pinjin Machinery',
+      ],
+      'Hebei Pinjin Machinery manufactures the 13 Spiral Feeder (screw pump) in China as a secondary structure pouring specialist, with 3–6 m³/h rated flow, 4 kW power and 90 kg mobile weight.',
+      '河北品锦机械在中国生产13型螺旋泵（螺旋给料机），定位二次结构浇筑专家，额定流量3–6 m³/h、功率4 kW、重量90 kg。',
     ),
     geo: buildGeo(
       'Concrete Pump / Screw Pump Equipment',
       '混凝土泵 / 螺旋泵设备',
       L(
-        'A compact screw pump / spiral feeder for secondary structure pouring.',
-        '用于二次结构浇筑的紧凑型螺旋泵（螺旋给料机）。',
+        'A compact screw pump / spiral feeder for secondary structure pouring, manufactured by Hebei Pinjin Machinery in China.',
+        '河北品锦机械在中国制造的紧凑型螺旋泵，用于二次结构浇筑。',
       ),
       L(
         'Contractors pouring secondary structures who need a light, mobile screw pump.',
         '需要轻便移动螺旋泵进行二次结构浇筑的承包商。',
       ),
       L(
-        'Sites with 380 V supply and pour rates within 3–6 m³/h.',
-        '具备380 V供电、浇筑流量在3–6 m³/h范围内的现场。',
+        'Building sites with 380 V supply and pour rates within 3–6 m³/h.',
+        '具备380 V供电、浇筑流量在3–6 m³/h范围内的建筑现场。',
       ),
       L(
-        'Published flow, power and weight with customizable rated head.',
-        '流量、功率与重量公开，额定扬程可定制。',
+        'Positioned as secondary structure pouring expert with published flow, power, weight and customizable rated head.',
+        '定位二次结构浇筑专家，流量、功率、重量公开，扬程可定制。',
       ),
     ),
   }
