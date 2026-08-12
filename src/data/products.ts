@@ -137,6 +137,8 @@ export const productSlugRedirects: Record<string, string> = {
   'hbtt55-50': 'hbtt55-50-concrete-pump',
   'll60-75': 'll60-75-concrete-pump',
   'hbt80-18-140': 'hbt80-18-140-concrete-pump',
+  'hbt60-13-146rs-concrete-pump': '13-spiral-feeder',
+  'hbt60-13-146rs': '13-spiral-feeder',
 };
 
 export const categoryRouteSlugs: Record<ProductCategory, string> = {
@@ -1179,41 +1181,68 @@ export const products: Product[] = [
   },
   {
     id: '22',
-    name: L('HBT60-13-146RS Concrete Pump', 'HBT60-13-146RS混凝土泵'),
-    slug: 'hbt60-13-146rs-concrete-pump',
+    name: L('13 Spiral Feeder', '13型螺旋泵'),
+    slug: '13-spiral-feeder',
     category: 'concrete-pump',
-    ...imgPaths('hbt60-13-146rs-concrete-pump'),
-    shortDescription: L('HBT60-13-146RS concrete pump model listed in the catalogue without detailed parameters.', '目录列出的HBT60-13-146RS混凝土泵型号，暂无详细参数。'),
-    productIntroduction: L('HBT60-13-146RS Concrete Pump appears in the Hebei Pinjin Machinery product catalogue by model name only. Detailed technical parameters are not provided in the current catalogue document. Please contact Pinjin by email for the latest parameter sheet before selection.', 'HBT60-13-146RS混凝土泵在河北品锦机械产品目录中仅标注型号，当前目录未提供详细技术参数。选型前请邮件联系品锦索取最新参数表。'),
+    ...imgPaths('13-spiral-feeder'),
+    shortDescription: L(
+      'Screw pump / spiral feeder for secondary structure pouring, 3–6 m³/h, 4 kW.',
+      '用于二次结构浇筑的螺旋泵（螺旋给料），额定流量3–6 m³/h，功率4 kW。',
+    ),
+    productIntroduction: L(
+      '13 Spiral Feeder is a screw pump (螺旋泵) from Hebei Pinjin Machinery for secondary structure pouring. Published parameters: specification 4 kW, rated flow 3–6 m³/h, rated head custom made, rated power 4 kW, voltage 380 V, weight 90 kg. Positioned as a secondary structure pouring specialist for compact mobile pouring tasks.',
+      '13型螺旋泵（螺旋给料机）用于二次结构浇筑。公开参数：规格4 kW、额定流量3–6 m³/h、额定扬程可定制、额定功率4 kW、电压380 V、重量90 kg。定位为二次结构浇筑专家，适合紧凑移动浇筑工况。',
+    ),
     applicationScenarios: [
-      L('Concrete pump model inquiry', '混凝土泵型号询盘'),
-      L('Construction project equipment shortlisting', '建筑项目设备初选'),
-      L('Catalogue model confirmation with manufacturer', '与厂家确认目录型号')
+      L('Secondary structure pouring', '二次结构浇筑'),
+      L('Compact mobile screw-pump pouring on site', '现场紧凑移动式螺旋泵浇筑'),
+      L('Small-volume concrete / mortar delivery where 3–6 m³/h matches demand', '流量需求匹配3–6 m³/h的小方量混凝土/砂浆输送'),
     ],
     keyFeatures: [
-      L('Catalogue model HBT60-13-146RS', '目录型号HBT60-13-146RS'),
-      L('Parameter sheet available on inquiry', '可通过询盘获取参数表'),
-      L('Manufactured by Hebei Pinjin Machinery', '由河北品锦机械制造')
+      L('Secondary structure pouring specialist', '二次结构浇筑专家'),
+      L('Rated flow 3–6 m³/h', '额定流量3–6 m³/h'),
+      L('Lightweight 90 kg mobile unit', '重量90 kg，移动便捷'),
     ],
     specifications: [
-
+      spec('Specification', '规格', '4 kW'),
+      spec('Rated Flow', '额定流量', '3–6 m³/h'),
+      spec('Rated Head', '额定扬程', 'Custom made'),
+      spec('Rated Power', '额定功率', '4 kW'),
+      spec('Voltage', '电压', '380 V'),
+      spec('Weight', '重量', '90 kg'),
     ],
     seo: buildSeo(
-      'HBT60-13-146RS Concrete Pump',
-      'HBT60-13-146RS混凝土泵',
-      'HBT60-13-146RS concrete pump',
-      ['concrete pump manufacturer China', 'HBT concrete pump'],
-      ['HBT60-13-146RS concrete pump manufacturer inquiry'],
-      'Hebei Pinjin Machinery lists the HBT60-13-146RS concrete pump model in China. Contact the manufacturer for detailed specifications for construction applications.',
-      '河北品锦机械在中国提供HBT60-13-146RS混凝土泵型号，详细参数请联系厂家确认，适用于建筑相关选型询盘。',
+      '13 Spiral Feeder',
+      '13型螺旋泵',
+      '13 spiral feeder screw pump',
+      [
+        'secondary structure pouring pump',
+        'screw pump manufacturer China',
+        'spiral feeder concrete',
+      ],
+      ['13 spiral feeder for secondary structure pouring'],
+      'Hebei Pinjin Machinery manufactures the 13 Spiral Feeder (screw pump) in China for secondary structure pouring, with 3–6 m³/h rated flow and 4 kW power.',
+      '河北品锦机械在中国生产13型螺旋泵（螺旋给料机），用于二次结构浇筑，额定流量3–6 m³/h，功率4 kW。',
     ),
     geo: buildGeo(
-      'Concrete Pump Equipment',
-      '混凝土泵设备',
-      L('A concrete pump model listed in the catalogue without published detailed specs.', '目录列出但未公布详细参数的混凝土泵型号。'),
-      L('Buyers who need manufacturer confirmation of HBT60-13-146RS parameters.', '需要厂家确认HBT60-13-146RS参数的采购方。'),
-      L('Any project shortlisting this model pending parameter confirmation.', '将此型号列入候选并待确认参数的项目。'),
-      L('Direct manufacturer inquiry path for missing catalogue details.', '缺失目录细节时可直接向厂家询盘确认。'),
+      'Concrete Pump / Screw Pump Equipment',
+      '混凝土泵 / 螺旋泵设备',
+      L(
+        'A compact screw pump / spiral feeder for secondary structure pouring.',
+        '用于二次结构浇筑的紧凑型螺旋泵（螺旋给料机）。',
+      ),
+      L(
+        'Contractors pouring secondary structures who need a light, mobile screw pump.',
+        '需要轻便移动螺旋泵进行二次结构浇筑的承包商。',
+      ),
+      L(
+        'Sites with 380 V supply and pour rates within 3–6 m³/h.',
+        '具备380 V供电、浇筑流量在3–6 m³/h范围内的现场。',
+      ),
+      L(
+        'Published flow, power and weight with customizable rated head.',
+        '流量、功率与重量公开，额定扬程可定制。',
+      ),
     ),
   }
 ];

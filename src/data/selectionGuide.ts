@@ -158,6 +158,22 @@ export const selectionGuideItems: SelectionGuideItem[] = [
     },
   },
   {
+    id: 'secondary-structure',
+    question: {
+      en: 'Need a compact pump for secondary structure pouring?',
+      zh: '二次结构浇筑需要紧凑型泵送设备？',
+    },
+    recommendation: {
+      en: 'Choose 13 Spiral Feeder (screw pump): 3–6 m³/h, 4 kW, 90 kg mobile unit for secondary structure pouring.',
+      zh: '选择13型螺旋泵：额定流量3–6 m³/h、功率4 kW、重量90 kg，定位二次结构浇筑专家。',
+    },
+    productSlugs: ['13-spiral-feeder'],
+    rationale: {
+      en: 'Published as a secondary structure pouring specialist with customizable rated head.',
+      zh: '公开定位为二次结构浇筑专家，额定扬程可定制。',
+    },
+  },
+  {
     id: 'rebar',
     question: {
       en: 'Need automatic stirrup / rebar bending?',

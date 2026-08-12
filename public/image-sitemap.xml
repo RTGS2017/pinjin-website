@@ -93,6 +93,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/products/13-spiral-feeder/main.webp</image:loc>
+      <image:title>13 Spiral Feeder manufactured by Hebei Pinjin Machinery</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh</loc>
     <image:image>
       <image:loc>https://rtgs2017.github.io/pinjin-website/images/hero/hero-main-hebei-pinjin-machinery-factory.webp</image:loc>
@@ -181,6 +188,13 @@
     <image:image>
       <image:loc>https://rtgs2017.github.io/pinjin-website/images/products/hbt80-18-140-concrete-pump/main.webp</image:loc>
       <image:title>HBT80-18-140 Concrete Pump manufactured by Hebei Pinjin Machinery</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/13-spiral-feeder</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/products/13-spiral-feeder/main.webp</image:loc>
+      <image:title>13 Spiral Feeder manufactured by Hebei Pinjin Machinery</image:title>
     </image:image>
   </url>
 </urlset>

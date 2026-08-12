@@ -43,7 +43,7 @@ SLUGS = [
     "forklift-loader-clamp-type",
     "forklift-loader-bucket-type",
     "cnc-steel-bar-bending-machine",
-    "hbt60-13-146rs-concrete-pump",
+    "13-spiral-feeder",
 ]
 
 NAMES = {
@@ -68,7 +68,7 @@ NAMES = {
     "forklift-loader-clamp-type": "Four-wheel Drive Forklift Loader - Clamp Type",
     "forklift-loader-bucket-type": "Four-wheel Drive Forklift Loader - Bucket Type",
     "cnc-steel-bar-bending-machine": "Fully Automatic CNC Steel Bar Bending Machine",
-    "hbt60-13-146rs-concrete-pump": "HBT60-13-146RS Concrete Pump",
+    "13-spiral-feeder": "13 Spiral Feeder",
 }
 
 CATS = [

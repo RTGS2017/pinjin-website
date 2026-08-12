@@ -30,7 +30,7 @@ SLUGS = [
     "forklift-loader-clamp-type",
     "forklift-loader-bucket-type",
     "cnc-steel-bar-bending-machine",
-    "hbt60-13-146rs-concrete-pump",
+    "13-spiral-feeder",
 ]
 
 MAX_SIDE = 1200
