@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 import { selectionGuideItems } from '@/data/selectionGuide';
 import { getProductBySlug } from '@/data/products';
 import { SectionTitle } from '@/components/ui/SectionTitle';
@@ -64,12 +64,12 @@ export function SelectionGuidePage() {
                     if (!product) return null;
                     return (
                       <li key={slug}>
-                        <Link
+                        <LocaleLink
                           to={`/products/${slug}`}
                           className="inline-flex border border-border px-3 py-2 text-sm font-medium text-dark transition-colors hover:border-primary hover:text-primary"
                         >
                           {tx(product.name)} →
-                        </Link>
+                        </LocaleLink>
                       </li>
                     );
                   })}
@@ -80,9 +80,9 @@ export function SelectionGuidePage() {
         </div>
 
         <p className="mt-10 text-sm text-text-secondary">
-          <Link to="/products" className="hover:text-primary">
+          <LocaleLink to="/products" className="hover:text-primary">
             {t.detail.back} →
-          </Link>
+          </LocaleLink>
         </p>
       </div>
     </section>

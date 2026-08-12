@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 import { categoryMeta, type ProductCategory } from '@/data/products';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { useI18n } from '@/i18n/I18nContext';
@@ -22,7 +22,7 @@ export function ProductCategories() {
           {order.map((id) => {
             const meta = categoryMeta[id];
             return (
-              <Link
+              <LocaleLink
                 key={id}
                 to={`/products/category/${meta.routeSlug}`}
                 className="group border border-border bg-bg p-7 transition-shadow duration-200 hover:shadow-[0_8px_24px_rgba(37,42,49,0.06)]"
@@ -36,7 +36,7 @@ export function ProductCategories() {
                 <span className="mt-6 inline-block text-sm font-semibold tracking-wide text-dark transition-colors group-hover:text-primary">
                   {t.categories.view}
                 </span>
-              </Link>
+              </LocaleLink>
             );
           })}
         </div>

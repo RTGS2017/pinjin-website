@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 import { applicationItems } from '@/config/site';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
@@ -23,7 +23,7 @@ export function Applications() {
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {applicationItems.map((app) => (
-            <Link
+            <LocaleLink
               key={app.id}
               to="/applications"
               className="group overflow-hidden border border-border"
@@ -43,7 +43,7 @@ export function Applications() {
                   {t.applications[app.key]}
                 </h3>
               </div>
-            </Link>
+            </LocaleLink>
           ))}
         </div>
       </div>

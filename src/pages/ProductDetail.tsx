@@ -1,4 +1,5 @@
-import { Link, Navigate, useParams } from 'react-router-dom';
+﻿import { useParams } from 'react-router-dom';
+import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
 import { getMailtoHref } from '@/config/site';
 import {
   categoryMeta,
@@ -13,27 +14,29 @@ import { Button } from '@/components/ui/Button';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { SEO, buildFaqPageJsonLd, buildProductJsonLd } from '@/components/SEO';
 import { useI18n } from '@/i18n/I18nContext';
+import { localePath } from '@/i18n/paths';
 
 export function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { lang, t, tx } = useI18n();
 
   if (!slug) {
-    return <Navigate to="/products" replace />;
+    return <LocaleNavigate to="/products" replace />;
   }
 
   const resolved = resolveProductSlug(slug);
   if (resolved !== slug) {
-    return <Navigate to={`/products/${resolved}`} replace />;
+    return <LocaleNavigate to={`/products/${resolved}`} replace />;
   }
 
   const product = getProductBySlug(slug);
   if (!product) {
-    return <Navigate to="/products" replace />;
+    return <LocaleNavigate to="/products" replace />;
   }
 
   const name = tx(product.name);
   const path = `/products/${product.slug}`;
+  const localizedPath = localePath(path, lang);
   const related = getRelatedProducts(product);
   const faqs = getProductFaqs(product, lang);
   const categoryLabel = tx(categoryMeta[product.category].label);
@@ -61,7 +64,7 @@ export function ProductDetail() {
             name,
             description: seoDescription,
             image: product.image,
-            path,
+            path: localizedPath,
             category: categoryLabel,
           }),
           buildFaqPageJsonLd(faqs),
@@ -71,24 +74,24 @@ export function ProductDetail() {
         <nav className="mb-8 text-sm text-text-secondary" aria-label="Breadcrumb">
           <ol className="flex flex-wrap items-center gap-2">
             <li>
-              <Link to="/" className="hover:text-primary">
+              <LocaleLink to="/" className="hover:text-primary">
                 {t.detail.home}
-              </Link>
+              </LocaleLink>
             </li>
             <li aria-hidden>/</li>
             <li>
-              <Link to="/products" className="hover:text-primary">
+              <LocaleLink to="/products" className="hover:text-primary">
                 {t.detail.products}
-              </Link>
+              </LocaleLink>
             </li>
             <li aria-hidden>/</li>
             <li>
-              <Link
+              <LocaleLink
                 to={`/products/category/${categoryMeta[product.category].routeSlug}`}
                 className="hover:text-primary"
               >
                 {categoryLabel}
-              </Link>
+              </LocaleLink>
             </li>
             <li aria-hidden>/</li>
             <li className="text-dark">{name}</li>
@@ -289,13 +292,13 @@ export function ProductDetail() {
             ))}
           </div>
           <p className="mt-4 text-sm text-text-secondary">
-            <Link to="/faq" className="hover:text-primary">
+            <LocaleLink to="/faq" className="hover:text-primary">
               {lang === 'zh' ? '查看全部 FAQ →' : 'View all FAQ →'}
-            </Link>
+            </LocaleLink>
             {' · '}
-            <Link to="/product-selection-guide" className="hover:text-primary">
+            <LocaleLink to="/product-selection-guide" className="hover:text-primary">
               {lang === 'zh' ? '产品选型指南 →' : 'Product Selection Guide →'}
-            </Link>
+            </LocaleLink>
           </p>
         </section>
 

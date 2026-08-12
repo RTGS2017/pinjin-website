@@ -105,11 +105,21 @@ src/index.css
 
 请勿在多个文件重复定义同一变量。
 
-### 中英文切换
+### 中英文切换（URL 分语言）
 
-- 顶栏点击 **EN / 中文** 即时切换
-- 语言偏好保存在 `localStorage`（键名 `pinjin_lang`）
-- 首次访问按浏览器语言自动选择（`zh*` → 中文，否则英文）
+- 独立路径：`/en/...`、`/zh/...`（利于谷歌 SEO / hreflang）
+- 根路径 `/` 会跳到浏览器偏好或默认英文 `/en`
+- 旧链接如 `/products` 会自动转到 `/en/products`
+- 顶栏语言按钮会**切换 URL**（不是仅改 localStorage）
+- 语言偏好仍写入 `localStorage`（键名 `pinjin_lang`），用于根路径重定向
+
+#### 后期新增语言（例如西班牙语 `es`）
+
+1. 在 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages` 数组追加一项（code / htmlLang / hreflang / ogLocale / label）
+2. 在 [`src/i18n/messages.ts`](src/i18n/messages.ts) 增加对应文案表
+3. 产品等 `LocalizedText` 逐步补 `es` 字段（缺省回退英文 `en`）
+4. 同步 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 里的 `LANGS`
+5. 重新生成 sitemap：`python deploy/generate_sitemaps.py`
 
 ---
 

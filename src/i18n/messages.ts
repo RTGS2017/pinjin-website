@@ -430,5 +430,6 @@ export const messages = {
 export type Messages = (typeof messages)['en'];
 
 export function getMessages(lang: Lang): Messages {
-  return messages[lang] as Messages;
+  const table = messages as unknown as Record<Lang, Messages>;
+  return table[lang] ?? messages.en;
 }

@@ -3,17 +3,23 @@ import {
   useContext,
   useEffect,
   useMemo,
-  useState,
   type ReactNode,
 } from 'react';
 import { getMessages, type Messages } from './messages';
-import type { Lang, LocalizedText } from './types';
+import type { LocalizedText } from './types';
 import { pick } from './types';
+import {
+  defaultLang,
+  getLanguage,
+  isLang,
+  type Lang,
+} from './config';
 
 const STORAGE_KEY = 'pinjin_lang';
 
 interface I18nContextValue {
   lang: Lang;
+  /** 切换语言（会改 URL）；具体导航由 useSwitchLang / 调用方处理 */
   setLang: (lang: Lang) => void;
   t: Messages;
   tx: (text: LocalizedText) => string;
@@ -21,46 +27,59 @@ interface I18nContextValue {
 
 const I18nContext = createContext<I18nContextValue | null>(null);
 
-function detectInitialLang(): Lang {
+/** 从浏览器偏好推断语言（仅用于根路径重定向） */
+export function detectPreferredLang(): Lang {
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved === 'en' || saved === 'zh') return saved;
+    if (isLang(saved)) return saved;
   } catch {
     /* ignore */
   }
   const nav = navigator.language?.toLowerCase() ?? 'en';
-  return nav.startsWith('zh') ? 'zh' : 'en';
+  return nav.startsWith('zh') ? 'zh' : defaultLang;
 }
 
-export function I18nProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>(() =>
-    typeof window === 'undefined' ? 'en' : detectInitialLang(),
-  );
+export function persistLangPreference(lang: Lang) {
+  try {
+    localStorage.setItem(STORAGE_KEY, lang);
+  } catch {
+    /* ignore */
+  }
+}
 
-  const setLang = (next: Lang) => {
-    setLangState(next);
-    try {
-      localStorage.setItem(STORAGE_KEY, next);
-    } catch {
-      /* ignore */
-    }
-  };
-
+/**
+ * 语言由 URL `/:lang` 驱动；setLang 仅更新偏好，真正跳转请用 useSwitchLang。
+ */
+export function I18nProvider({
+  lang,
+  onLangChange,
+  children,
+}: {
+  lang: Lang;
+  onLangChange?: (lang: Lang) => void;
+  children: ReactNode;
+}) {
   useEffect(() => {
-    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+    document.documentElement.lang = getLanguage(lang).htmlLang;
+    persistLangPreference(lang);
   }, [lang]);
 
   const value = useMemo<I18nContextValue>(() => {
     const t = getMessages(lang);
     return {
       lang,
-      setLang,
+      setLang: (next) => {
+        persistLangPreference(next);
+        onLangChange?.(next);
+      },
       t,
       tx: (text: LocalizedText) => pick(text, lang),
     };
-  }, [lang]);
+  }, [lang, onLangChange]);
 
-  return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
+  return (
+    <I18nContext.Provider value={value}>{children}</I18nContext.Provider>
+  );
 }
 
 export function useI18n(): I18nContextValue {

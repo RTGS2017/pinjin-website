@@ -1,4 +1,4 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import { Home } from '@/pages/Home';
 import { Products } from '@/pages/Products';
@@ -9,6 +9,11 @@ import { About } from '@/pages/About';
 import { ContactPage } from '@/pages/ContactPage';
 import { Faq } from '@/pages/Faq';
 import { ApplicationsPage } from '@/pages/ApplicationsPage';
+import {
+  LangHomeRedirect,
+  LanguageRoot,
+  RootRedirect,
+} from '@/i18n/LanguageRoot';
 
 export default function App() {
   return (
@@ -16,23 +21,26 @@ export default function App() {
       basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}
     >
       <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="products" element={<Products />} />
-          <Route
-            path="products/category/:categorySlug"
-            element={<ProductCategoryPage />}
-          />
-          <Route path="products/:slug" element={<ProductDetail />} />
-          <Route
-            path="product-selection-guide"
-            element={<SelectionGuidePage />}
-          />
-          <Route path="about" element={<About />} />
-          <Route path="applications" element={<ApplicationsPage />} />
-          <Route path="faq" element={<Faq />} />
-          <Route path="contact" element={<ContactPage />} />
-          <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="/" element={<RootRedirect />} />
+        <Route path="/:lang" element={<LanguageRoot />}>
+          <Route element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="products" element={<Products />} />
+            <Route
+              path="products/category/:categorySlug"
+              element={<ProductCategoryPage />}
+            />
+            <Route path="products/:slug" element={<ProductDetail />} />
+            <Route
+              path="product-selection-guide"
+              element={<SelectionGuidePage />}
+            />
+            <Route path="about" element={<About />} />
+            <Route path="applications" element={<ApplicationsPage />} />
+            <Route path="faq" element={<Faq />} />
+            <Route path="contact" element={<ContactPage />} />
+            <Route path="*" element={<LangHomeRedirect />} />
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -3,7 +3,7 @@ import type {
   ButtonHTMLAttributes,
   ReactNode,
 } from 'react';
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 
 type Variant = 'primary' | 'secondary' | 'outline' | 'ghost';
 type Size = 'md' | 'lg';
@@ -65,9 +65,9 @@ export function Button(props: ButtonProps) {
 
   if ('to' in props && props.to) {
     return (
-      <Link to={props.to} className={classes} onClick={props.onClick}>
+      <LocaleLink to={props.to} className={classes} onClick={props.onClick}>
         {children}
-      </Link>
+      </LocaleLink>
     );
   }
 

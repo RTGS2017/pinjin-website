@@ -16,7 +16,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
-DEFAULT_BASE = "https://www.example.com"
+DEFAULT_BASE = "https://rtgs2017.github.io/pinjin-website"
+
+# 与 src/i18n/config.ts 保持一致；新增语言时同步改这里
+LANGS = ["en", "zh"]
 
 SLUGS = [
     "diesel-4100-transfer-pump",
@@ -117,7 +120,7 @@ def write_robots(base: str) -> None:
 
 def main() -> None:
     base = resolve_base()
-    urls = [
+    page_paths = [
         "/",
         "/products",
         "/product-selection-guide",
@@ -126,25 +129,48 @@ def main() -> None:
         "/faq",
         "/contact",
     ]
-    urls += [f"/products/category/{c}" for c in CATS]
-    urls += [f"/products/{s}" for s in SLUGS]
+    page_paths += [f"/products/category/{c}" for c in CATS]
+    page_paths += [f"/products/{s}" for s in SLUGS]
+
+    urls: list[str] = []
+    for lang in LANGS:
+        for p in page_paths:
+            if p == "/":
+                urls.append(f"/{lang}")
+            else:
+                urls.append(f"/{lang}{p}")
 
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
     ]
     for u in urls:
-        if u == "/":
+        # priority by page type (strip /{lang})
+        parts = u.strip("/").split("/", 1)
+        rest = f"/{parts[1]}" if len(parts) > 1 else "/"
+        if rest == "/":
             pri = "1.0"
-        elif u in ("/products", "/product-selection-guide"):
+        elif rest in ("/products", "/product-selection-guide"):
             pri = "0.9"
-        elif u.startswith("/products/"):
+        elif rest.startswith("/products/"):
             pri = "0.85"
         else:
             pri = "0.8"
         lines += [
             "  <url>",
             f"    <loc>{base}{u}</loc>",
+        ]
+        for lang in LANGS:
+            alt = f"/{lang}" if rest == "/" else f"/{lang}{rest}"
+            hreflang = "zh-CN" if lang == "zh" else lang
+            lines.append(
+                f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{base}{alt}" />'
+            )
+        lines.append(
+            f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}/en{"" if rest == "/" else rest}" />'
+        )
+        lines += [
             "    <changefreq>weekly</changefreq>",
             f"    <priority>{pri}</priority>",
             "  </url>",
@@ -156,34 +182,37 @@ def main() -> None:
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
         '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
-        "  <url>",
-        f"    <loc>{base}/</loc>",
-        "    <image:image>",
-        f"      <image:loc>{base}/images/hero/hero-main-hebei-pinjin-machinery-factory.webp</image:loc>",
-        "      <image:title>Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior</image:title>",
-        "    </image:image>",
-        "  </url>",
     ]
-    for s in SLUGS:
-        main_img = ROOT / "images" / "products" / s / "main.webp"
-        if not main_img.exists():
-            continue
-        n = NAMES[s]
+    for lang in LANGS:
         img_lines += [
             "  <url>",
-            f"    <loc>{base}/products/{s}</loc>",
+            f"    <loc>{base}/{lang}</loc>",
             "    <image:image>",
-            f"      <image:loc>{base}/images/products/{s}/main.webp</image:loc>",
-            f"      <image:title>{n} manufactured by Hebei Pinjin Machinery</image:title>",
+            f"      <image:loc>{base}/images/hero/hero-main-hebei-pinjin-machinery-factory.webp</image:loc>",
+            "      <image:title>Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior</image:title>",
             "    </image:image>",
             "  </url>",
         ]
+        for s in SLUGS:
+            main_img = ROOT / "images" / "products" / s / "main.webp"
+            if not main_img.exists():
+                continue
+            n = NAMES[s]
+            img_lines += [
+                "  <url>",
+                f"    <loc>{base}/{lang}/products/{s}</loc>",
+                "    <image:image>",
+                f"      <image:loc>{base}/images/products/{s}/main.webp</image:loc>",
+                f"      <image:title>{n} manufactured by Hebei Pinjin Machinery</image:title>",
+                "    </image:image>",
+                "  </url>",
+            ]
     img_lines.append("</urlset>")
     (ROOT / "image-sitemap.xml").write_text(
         "\n".join(img_lines) + "\n", encoding="utf-8"
     )
     write_robots(base)
-    print(f"base={base} sitemap urls={len(urls)}")
+    print(f"base={base} langs={LANGS} sitemap urls={len(urls)}")
 
 
 if __name__ == "__main__":

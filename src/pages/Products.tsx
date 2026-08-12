@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+﻿import { useMemo, useState } from 'react';
+import { LocaleLink } from '@/i18n/navigation';
 import {
   categoryMeta,
   products,
@@ -46,9 +46,9 @@ export function Products() {
         />
 
         <p className="mt-4 text-sm text-text-secondary">
-          <Link to="/product-selection-guide" className="hover:text-primary">
+          <LocaleLink to="/product-selection-guide" className="hover:text-primary">
             {t.productsPage.selectionCta} →
-          </Link>
+          </LocaleLink>
         </p>
 
         <div className="mt-8 flex flex-wrap gap-2">

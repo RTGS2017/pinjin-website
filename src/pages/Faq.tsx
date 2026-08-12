@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { LocaleLink } from '@/i18n/navigation';
 import { SEO } from '@/components/SEO';
 import { CompanyEntity } from '@/components/CompanyEntity';
 import { SectionTitle } from '@/components/ui/SectionTitle';
@@ -45,11 +45,11 @@ export function Faq() {
         <div className="mt-10">
           <CompanyEntity compact />
           <p className="mt-4 text-sm text-text-secondary">
-            <Link to="/product-selection-guide" className="hover:text-primary">
+            <LocaleLink to="/product-selection-guide" className="hover:text-primary">
               {lang === 'zh'
                 ? '不确定选哪款？查看产品选型指南 →'
                 : 'Not sure which model? Open the Product Selection Guide →'}
-            </Link>
+            </LocaleLink>
           </p>
         </div>
 
@@ -97,23 +97,23 @@ export function Faq() {
         </div>
 
         <p className="mt-8 text-sm text-text-secondary">
-          <Link to="/about" className="text-dark underline-offset-2 hover:text-primary hover:underline">
+          <LocaleLink to="/about" className="text-dark underline-offset-2 hover:text-primary hover:underline">
             {t.nav.about}
-          </Link>
+          </LocaleLink>
           {' · '}
-          <Link
+          <LocaleLink
             to="/applications"
             className="text-dark underline-offset-2 hover:text-primary hover:underline"
           >
             {t.nav.applications}
-          </Link>
+          </LocaleLink>
           {' · '}
-          <Link
+          <LocaleLink
             to="/contact"
             className="text-dark underline-offset-2 hover:text-primary hover:underline"
           >
             {t.nav.contact}
-          </Link>
+          </LocaleLink>
         </p>
       </div>
     </section>

@@ -1,4 +1,5 @@
-import { Link, Navigate, useParams } from 'react-router-dom';
+﻿import { useParams } from 'react-router-dom';
+import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
 import {
   categoryMeta,
   getCategoryByRouteSlug,
@@ -14,12 +15,12 @@ export function ProductCategoryPage() {
   const { t, tx } = useI18n();
 
   if (!categorySlug) {
-    return <Navigate to="/products" replace />;
+    return <LocaleNavigate to="/products" replace />;
   }
 
   const category = getCategoryByRouteSlug(categorySlug);
   if (!category) {
-    return <Navigate to="/products" replace />;
+    return <LocaleNavigate to="/products" replace />;
   }
 
   const meta = categoryMeta[category];
@@ -36,9 +37,9 @@ export function ProductCategoryPage() {
       />
       <div className="container-site">
         <nav className="mb-6 text-sm text-text-secondary">
-          <Link to="/products" className="hover:text-primary">
+          <LocaleLink to="/products" className="hover:text-primary">
             {t.detail.products}
-          </Link>
+          </LocaleLink>
           <span aria-hidden> / </span>
           <span className="text-dark">{tx(meta.label)}</span>
         </nav>

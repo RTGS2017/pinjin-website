@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { LocaleLink } from '@/i18n/navigation';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Button } from '@/components/ui/Button';
 import { CompanyEntity } from '@/components/CompanyEntity';
@@ -64,9 +64,9 @@ export function About() {
               ))}
             </ul>
             <p className="mt-3">
-              <Link to="/products" className="font-medium text-dark hover:text-primary">
+              <LocaleLink to="/products" className="font-medium text-dark hover:text-primary">
                 {lang === 'zh' ? '浏览全部产品 →' : 'Browse all products →'}
-              </Link>
+              </LocaleLink>
             </p>
           </section>
 
@@ -90,9 +90,9 @@ export function About() {
             <p className="mt-3">{companyEntity.customers[lang]}</p>
             <p className="mt-3">{companyEntity.problemsSolved[lang]}</p>
             <p className="mt-3">
-              <Link to="/applications" className="font-medium text-dark hover:text-primary">
+              <LocaleLink to="/applications" className="font-medium text-dark hover:text-primary">
                 {lang === 'zh' ? '查看应用方向 →' : 'View application guides →'}
-              </Link>
+              </LocaleLink>
             </p>
           </section>
 

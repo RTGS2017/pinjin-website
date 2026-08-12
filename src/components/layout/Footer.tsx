@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 import { getMailtoHref, getTelHref, siteConfig, withBase } from '@/config/site';
 import { useI18n } from '@/i18n/I18nContext';
+import { localePath } from '@/i18n/paths';
 
 export function Footer() {
-  const { t } = useI18n();
+  const { lang, t } = useI18n();
 
   return (
     <footer className="bg-dark text-white">
@@ -22,44 +23,44 @@ export function Footer() {
             </p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
               <li>
-                <Link
+                <LocaleLink
                   to="/products/category/concrete-pumps"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.concrete}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <Link
+                <LocaleLink
                   to="/products/category/spraying-machines"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.spraying}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <Link
+                <LocaleLink
                   to="/products/category/material-handling"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.material}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <Link
+                <LocaleLink
                   to="/products/category/rebar-equipment"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.rebar}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <Link
+                <LocaleLink
                   to="/product-selection-guide"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.selectionGuide}
-                </Link>
+                </LocaleLink>
               </li>
             </ul>
           </div>
@@ -70,25 +71,28 @@ export function Footer() {
             </p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
               <li>
-                <Link to="/about" className="hover:text-primary transition-colors">
+                <LocaleLink to="/about" className="hover:text-primary transition-colors">
                   {t.footer.about}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <Link
+                <LocaleLink
                   to="/applications"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.applications}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <Link to="/faq" className="hover:text-primary transition-colors">
+                <LocaleLink to="/faq" className="hover:text-primary transition-colors">
                   {t.footer.faq}
-                </Link>
+                </LocaleLink>
               </li>
               <li>
-                <a href={withBase('/#why-pinjin')} className="hover:text-primary transition-colors">
+                <a
+                  href={withBase(localePath('/#why-pinjin', lang))}
+                  className="hover:text-primary transition-colors"
+                >
                   {t.footer.why}
                 </a>
               </li>

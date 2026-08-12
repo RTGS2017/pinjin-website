@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 import type { Product } from '@/data/products';
 import { categoryMeta } from '@/data/products';
 import { getMailtoHref } from '@/config/site';
@@ -18,7 +18,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
   return (
     <article className="group flex h-full flex-col border border-border bg-bg transition-shadow duration-200 hover:shadow-[0_8px_24px_rgba(37,42,49,0.06)]">
-      <Link
+      <LocaleLink
         to={`/products/${product.slug}`}
         className="block overflow-hidden bg-bg-soft"
       >
@@ -32,19 +32,19 @@ export function ProductCard({ product }: ProductCardProps) {
           className="aspect-[4/3] w-full"
           imgClassName="object-contain p-6 transition-transform duration-300 group-hover:scale-[1.03]"
         />
-      </Link>
+      </LocaleLink>
 
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
           {tx(categoryMeta[product.category].label)}
         </p>
         <h3 className="mt-2 text-lg font-semibold tracking-wide text-dark">
-          <Link
+          <LocaleLink
             to={`/products/${product.slug}`}
             className="transition-colors hover:text-primary"
           >
             {name}
-          </Link>
+          </LocaleLink>
         </h3>
         <p className="mt-2 text-sm text-text-secondary line-clamp-3">
           {tx(product.shortDescription)}
@@ -86,12 +86,12 @@ export function ProductCard({ product }: ProductCardProps) {
           >
             {t.productCard.getQuote}
           </Button>
-          <Link
+          <LocaleLink
             to={`/products/${product.slug}`}
             className="inline-flex items-center justify-center text-sm font-semibold tracking-wide text-dark transition-colors hover:text-primary"
           >
             {t.productCard.viewDetails}
-          </Link>
+          </LocaleLink>
         </div>
       </div>
     </article>

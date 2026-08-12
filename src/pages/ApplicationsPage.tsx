@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { LocaleLink } from '@/i18n/navigation';
 import { SEO } from '@/components/SEO';
 import { CompanyEntity } from '@/components/CompanyEntity';
 import { SectionTitle } from '@/components/ui/SectionTitle';
@@ -105,12 +105,12 @@ export function ApplicationsPage() {
                       <ul className="mt-3 space-y-2 text-sm">
                         {related.map((p) => (
                           <li key={p.slug}>
-                            <Link
+                            <LocaleLink
                               to={`/products/${p.slug}`}
                               className="font-medium text-dark hover:text-primary"
                             >
                               {tx(p.name)}
-                            </Link>
+                            </LocaleLink>
                           </li>
                         ))}
                       </ul>

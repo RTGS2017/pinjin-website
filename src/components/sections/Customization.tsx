@@ -1,10 +1,11 @@
-import { SectionTitle } from '@/components/ui/SectionTitle';
-import { Button } from '@/components/ui/Button';
 import { withBase } from '@/config/site';
+import { Button } from '@/components/ui/Button';
+import { SectionTitle } from '@/components/ui/SectionTitle';
 import { useI18n } from '@/i18n/I18nContext';
+import { localePath } from '@/i18n/paths';
 
 export function Customization() {
-  const { t } = useI18n();
+  const { lang, t } = useI18n();
 
   return (
     <section className="section-y bg-bg-soft">
@@ -15,7 +16,11 @@ export function Customization() {
             subtitle={t.customization.subtitle}
           />
           <div className="lg:justify-self-end">
-            <Button href={withBase('/#contact')} variant="secondary" size="lg">
+            <Button
+              href={withBase(localePath('/#contact', lang))}
+              variant="secondary"
+              size="lg"
+            >
               {t.customization.cta}
             </Button>
           </div>
