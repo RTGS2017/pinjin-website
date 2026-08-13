@@ -68,9 +68,10 @@ const MADE_IN = L(
 
 function imgPaths(slug: string) {
   const base = `/images/products/${slug}`;
+  const image = `${base}/main.webp`;
   return {
-    image: `${base}/main.webp`,
-    gallery: [`${base}/main.webp`, `${base}/detail-1.webp`, `${base}/working.webp`],
+    image,
+    gallery: [image],
   };
 }
 

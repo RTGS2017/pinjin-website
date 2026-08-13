@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { ImageIcon } from 'lucide-react';
 import { withBase } from '@/config/site';
 
@@ -28,8 +28,12 @@ export function ImagePlaceholder({
   height,
 }: ImagePlaceholderProps) {
   const [failed, setFailed] = useState(false);
-  const [loaded, setLoaded] = useState(false);
   const meaningfulAlt = alt.trim() || 'Hebei Pinjin Machinery';
+  const resolved = withBase(src);
+
+  useEffect(() => {
+    setFailed(false);
+  }, [resolved]);
 
   return (
     <div
@@ -37,35 +41,36 @@ export function ImagePlaceholder({
       role="img"
       aria-label={meaningfulAlt}
     >
-      {!failed ? (
+      {src && !failed ? (
         <img
-          src={withBase(src)}
+          key={resolved}
+          src={resolved}
           alt={meaningfulAlt}
           width={width}
           height={height}
           loading={priority ? 'eager' : 'lazy'}
           decoding="async"
           fetchPriority={priority ? 'high' : 'auto'}
-          onLoad={() => setLoaded(true)}
+          onLoad={(event) => {
+            if (event.currentTarget.naturalWidth <= 1) setFailed(true);
+          }}
           onError={() => setFailed(true)}
-          className={`h-full w-full transition-opacity duration-300 ${imgClassName} ${
-            loaded ? 'opacity-100' : 'opacity-0'
-          }`}
+          className={`h-full w-full ${imgClassName}`}
         />
       ) : null}
 
-      {failed || !loaded ? (
+      {!src || failed ? (
         <div
-          className={`absolute inset-0 flex flex-col items-center justify-center gap-2 bg-dark-2 text-white/70 ${
-            failed ? '' : loaded ? 'hidden' : ''
-          }`}
-          aria-hidden={loaded && !failed}
+          className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-dark-2 text-white/70"
+          aria-hidden
         >
           <ImageIcon className="h-8 w-8 text-primary/80" strokeWidth={1.5} />
           <p className="text-xs font-semibold tracking-[0.16em] uppercase">
             {label}
           </p>
-          <p className="px-4 text-center text-[11px] text-white/45">{hint}</p>
+          {hint ? (
+            <p className="px-4 text-center text-[11px] text-white/45">{hint}</p>
+          ) : null}
         </div>
       ) : null}
     </div>

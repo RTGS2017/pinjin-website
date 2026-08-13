@@ -79,7 +79,7 @@ function Panel({
       id={id}
       role="region"
       aria-label={label}
-      className="mega-panel border-t border-border bg-white shadow-[0_16px_40px_rgba(37,42,49,0.12)]"
+      className="mega-panel w-full border-t border-border bg-white shadow-[0_18px_50px_rgba(37,42,49,0.16)]"
     >
       <div className="container-site py-8 lg:py-10">{children}</div>
     </div>

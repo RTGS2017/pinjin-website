@@ -8,55 +8,65 @@ interface ProductGalleryProps {
   alt: string;
 }
 
-function probeImage(src: string): Promise<boolean> {
+const OPTIONAL_FILES = ['detail-1.webp', 'working.webp'] as const;
+
+/** SPA 的 404.html 可能以 200 返回，用 naturalWidth 判断是否真图 */
+function confirmImage(src: string): Promise<boolean> {
   return new Promise((resolve) => {
     const img = new Image();
-    img.onload = () => resolve(true);
+    img.onload = () => resolve(img.naturalWidth > 1);
     img.onerror = () => resolve(false);
     img.src = withBase(src);
   });
 }
 
+function siblingOptional(mainSrc: string): string[] {
+  const slash = mainSrc.lastIndexOf('/');
+  if (slash < 0) return [];
+  const dir = mainSrc.slice(0, slash);
+  return OPTIONAL_FILES.map((file) => `${dir}/${file}`);
+}
+
 export function ProductGallery({ images, alt }: ProductGalleryProps) {
   const { t } = useI18n();
-  const candidateKey = images.filter(Boolean).join('|');
-  const candidates = candidateKey ? candidateKey.split('|') : [];
-  const [available, setAvailable] = useState<string[]>(() =>
-    candidates.slice(0, 1),
-  );
+  const unique = [...new Set(images.filter(Boolean))];
+  const main = unique[0] || '';
+  const extrasKey = unique.join('|');
+  const [readyExtras, setReadyExtras] = useState<string[]>([]);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
     let cancelled = false;
-    const list = candidateKey ? candidateKey.split('|') : [];
-
-    if (list.length === 0) {
-      setAvailable([]);
-      setActive(0);
-      return;
-    }
-
-    setAvailable(list.slice(0, 1));
+    setReadyExtras([]);
     setActive(0);
 
-    Promise.all(list.map((src) => probeImage(src))).then((flags) => {
+    const parts = extrasKey ? extrasKey.split('|') : [];
+    const mainSrc = parts[0] || '';
+    const listed = parts.slice(1);
+    const extras = [
+      ...listed,
+      ...siblingOptional(mainSrc).filter((src) => src !== mainSrc && !listed.includes(src)),
+    ];
+
+    if (!mainSrc || extras.length === 0) return;
+
+    void Promise.all(extras.map((src) => confirmImage(src))).then((flags) => {
       if (cancelled) return;
-      setAvailable(list.filter((_, index) => flags[index]));
+      setReadyExtras(extras.filter((_, index) => flags[index]));
     });
 
     return () => {
       cancelled = true;
     };
-  }, [candidateKey]);
+  }, [extrasKey]);
 
-  const gallery = available.length > 0 ? available : candidates.slice(0, 1);
-  const current = gallery[Math.min(active, Math.max(gallery.length - 1, 0))] || '';
+  const gallery = main ? [main, ...readyExtras] : readyExtras;
+  const current = gallery[Math.min(active, Math.max(gallery.length - 1, 0))] || main;
   const thumbCols = gallery.length === 2 ? 'grid-cols-2' : 'grid-cols-3';
 
   return (
     <div>
       <ImagePlaceholder
-        key={current}
         src={current}
         alt={alt}
         label={t.productCard.imageComingSoon}

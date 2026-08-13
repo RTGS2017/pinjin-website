@@ -10,39 +10,34 @@ import { languages } from '@/i18n/config';
 import { localePath, stripLangFromPath } from '@/i18n/paths';
 import { LocaleLink, LocaleNavLink, useSwitchLang } from '@/i18n/navigation';
 
-const OPEN_DELAY = 70;
-const CLOSE_DELAY = 200;
+const CLOSE_DELAY = 280;
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [expanded, setExpanded] = useState<NavLabelKey | null>(null);
   const [openKey, setOpenKey] = useState<NavLabelKey | null>(null);
-  const openTimer = useRef<number>(0);
   const closeTimer = useRef<number>(0);
-  const headerRef = useRef<HTMLElement>(null);
   const location = useLocation();
   const { lang, t } = useI18n();
   const switchLang = useSwitchLang();
   const pagePath = stripLangFromPath(location.pathname);
 
-  function clearTimers() {
-    window.clearTimeout(openTimer.current);
+  function cancelClose() {
     window.clearTimeout(closeTimer.current);
   }
 
   function openMega(key: NavLabelKey) {
-    window.clearTimeout(closeTimer.current);
-    window.clearTimeout(openTimer.current);
-    openTimer.current = window.setTimeout(() => setOpenKey(key), OPEN_DELAY);
+    cancelClose();
+    setOpenKey(key);
   }
 
   function scheduleClose() {
-    window.clearTimeout(openTimer.current);
+    window.clearTimeout(closeTimer.current);
     closeTimer.current = window.setTimeout(() => setOpenKey(null), CLOSE_DELAY);
   }
 
   function closeMegaNow() {
-    clearTimers();
+    cancelClose();
     setOpenKey(null);
   }
 
@@ -50,8 +45,7 @@ export function Header() {
     closeMegaNow();
     setMobileOpen(false);
     setExpanded(null);
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- close menus on route change
-  }, [location.pathname, location.hash]);
+  }, [location.pathname]);
 
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
@@ -64,7 +58,7 @@ export function Header() {
     return () => document.removeEventListener('keydown', onKey);
   }, []);
 
-  useEffect(() => () => clearTimers(), []);
+  useEffect(() => () => window.clearTimeout(closeTimer.current), []);
 
   const isChildActive = (href: string) => {
     const pathOnly = href.split('#')[0] || '/';
@@ -101,7 +95,7 @@ export function Header() {
 
   const linkClass = (active: boolean) =>
     [
-      'inline-flex items-center gap-1 px-3 py-2 text-sm font-medium tracking-wide transition-colors',
+      'inline-flex items-center gap-1 px-3 py-5 text-sm font-medium tracking-wide transition-colors',
       lang === 'en' ? 'uppercase' : '',
       active ? 'text-primary' : 'text-white/90 hover:text-primary',
     ].join(' ');
@@ -143,105 +137,88 @@ export function Header() {
   );
 
   return (
-    <header
-      ref={headerRef}
-      className="sticky top-0 z-50"
-      onMouseLeave={scheduleClose}
-      onMouseEnter={() => window.clearTimeout(closeTimer.current)}
-      onBlur={(event) => {
-        if (!event.currentTarget.contains(event.relatedTarget as Node)) {
-          scheduleClose();
-        }
-      }}
-    >
-      <div className="bg-dark text-white">
-        <div className="container-site flex h-16 items-center justify-between lg:h-[72px]">
-          <LocaleLink
-            to="/"
-            className="flex items-baseline gap-2"
-            onClick={() => {
-              setMobileOpen(false);
-              closeMegaNow();
-            }}
-          >
-            <span className="text-xl font-semibold tracking-[0.14em]">
-              {siteConfig.brandName}
-            </span>
-            <span className="hidden text-sm text-white/50 sm:inline">
-              {siteConfig.brandNameCn}
-            </span>
-          </LocaleLink>
+    <header className="sticky top-0 z-50">
+      <div className="relative" onMouseLeave={scheduleClose}>
+        <div className="bg-dark text-white">
+          <div className="container-site flex h-16 items-center justify-between lg:h-[72px]">
+            <LocaleLink
+              to="/"
+              className="flex items-baseline gap-2"
+              onClick={() => {
+                setMobileOpen(false);
+                closeMegaNow();
+              }}
+            >
+              <span className="text-xl font-semibold tracking-[0.14em]">
+                {siteConfig.brandName}
+              </span>
+              <span className="hidden text-sm text-white/50 sm:inline">
+                {siteConfig.brandNameCn}
+              </span>
+            </LocaleLink>
 
-          <nav className="hidden items-center gap-1 lg:flex" aria-label="Main">
-            {navItems.map((item) =>
-              item.mega ? (
-                <LocaleNavLink
-                  key={item.key}
-                  to={item.href}
-                  className={() =>
-                    linkClass(isGroupActive(item.key, item.href) || openKey === item.key)
-                  }
-                  aria-expanded={openKey === item.key}
-                  aria-haspopup="true"
-                  aria-controls={`mega-${item.key}`}
-                  onMouseEnter={() => openMega(item.key)}
-                  onFocus={() => openMega(item.key)}
-                >
-                  {t.nav[item.key]}
-                  <ChevronDown
-                    className={[
-                      'h-3.5 w-3.5 opacity-70 transition-transform',
-                      openKey === item.key ? 'rotate-180' : '',
-                    ].join(' ')}
-                    aria-hidden
-                  />
-                </LocaleNavLink>
-              ) : (
-                <LocaleNavLink
-                  key={item.key}
-                  to={item.href}
-                  className={() => linkClass(isGroupActive(item.key, item.href))}
-                  onMouseEnter={() => {
-                    window.clearTimeout(openTimer.current);
-                    scheduleClose();
-                  }}
-                >
-                  {t.nav[item.key]}
-                </LocaleNavLink>
-              ),
-            )}
-          </nav>
+            <nav className="hidden h-full items-center gap-1 lg:flex" aria-label="Main">
+              {navItems.map((item) =>
+                item.mega ? (
+                  <LocaleNavLink
+                    key={item.key}
+                    to={item.href}
+                    className={() =>
+                      linkClass(isGroupActive(item.key, item.href) || openKey === item.key)
+                    }
+                    aria-expanded={openKey === item.key}
+                    aria-haspopup="true"
+                    aria-controls={`mega-${item.key}`}
+                    onMouseEnter={() => openMega(item.key)}
+                    onFocus={() => openMega(item.key)}
+                  >
+                    {t.nav[item.key]}
+                    <ChevronDown
+                      className={[
+                        'h-3.5 w-3.5 opacity-70 transition-transform',
+                        openKey === item.key ? 'rotate-180' : '',
+                      ].join(' ')}
+                      aria-hidden
+                    />
+                  </LocaleNavLink>
+                ) : (
+                  <LocaleNavLink
+                    key={item.key}
+                    to={item.href}
+                    className={() => linkClass(isGroupActive(item.key, item.href))}
+                    onMouseEnter={closeMegaNow}
+                  >
+                    {t.nav[item.key]}
+                  </LocaleNavLink>
+                ),
+              )}
+            </nav>
 
-          <div
-            className="hidden items-center gap-4 lg:flex"
-            onMouseEnter={() => {
-              window.clearTimeout(openTimer.current);
-              scheduleClose();
-            }}
-          >
-            <LanguageSwitch />
-            <Button to={contactInquiryPath} size="md">
-              {t.nav.getQuote}
-            </Button>
+            <div className="hidden items-center gap-4 lg:flex" onMouseEnter={closeMegaNow}>
+              <LanguageSwitch />
+              <Button to={contactInquiryPath} size="md">
+                {t.nav.getQuote}
+              </Button>
+            </div>
+
+            <button
+              type="button"
+              className="inline-flex h-11 w-11 items-center justify-center rounded-sm text-white lg:hidden"
+              aria-label={mobileOpen ? t.nav.closeMenu : t.nav.openMenu}
+              aria-expanded={mobileOpen}
+              onClick={() => setMobileOpen((v) => !v)}
+            >
+              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
           </div>
-
-          <button
-            type="button"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-sm text-white lg:hidden"
-            aria-label={mobileOpen ? t.nav.closeMenu : t.nav.openMenu}
-            aria-expanded={mobileOpen}
-            onClick={() => setMobileOpen((v) => !v)}
-          >
-            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
         </div>
+
+        {openKey ? (
+          <div className="absolute top-full left-1/2 z-50 hidden w-screen max-w-[100vw] -translate-x-1/2 lg:block">
+            <MegaMenu navKey={openKey} onNavigate={closeMegaNow} />
+          </div>
+        ) : null}
       </div>
-
-      {openKey ? (
-        <div className="absolute inset-x-0 top-full hidden lg:block">
-          <MegaMenu navKey={openKey} onNavigate={closeMegaNow} />
-        </div>
-      ) : null}
 
       {mobileOpen ? (
         <div className="border-t border-white/10 bg-dark-2 lg:hidden">

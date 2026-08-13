@@ -149,7 +149,7 @@ src/index.css
 产品数据唯一来源：根目录《河北品锦机械制造有限公司产品目录》。  
 当前共 **22** 个产品实体，录入 `src/data/products.ts`。
 
-图片准备说明见 `图片准备清单.md`。缺图时由 `ImagePlaceholder` 显示占位。
+图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示（只上传 1 张就只显示 1 张）。同目录补传 `detail-1.webp` / `working.webp` 后重新构建，图集才会增加。文件不存在或 GitHub Pages 回落到 `404.html` 时显示占位，**不会挡住已有主图**。
 
 重新生成 sitemap / robots：
 
@@ -230,7 +230,7 @@ https://rtgs2017.github.io/pinjin-website/
 | `/blog/:slug` | 文章详情 |
 | `/contact` | 联系（询盘表单） |
 
-顶栏为全宽 Mega Menu（Products / Solutions / Resources / Company），配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。桌面悬停展开，移动端为手风琴。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮「询价」按钮；联系页隐藏以免重复。
+顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，白底面板贴在深色顶栏下方并与顶栏同宽；鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮「询价」按钮；联系页隐藏以免重复。
 
 ### 询盘表单
 
