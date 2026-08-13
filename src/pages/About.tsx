@@ -130,7 +130,7 @@ export function About() {
           </div>
         </div>
 
-        <div className="mt-16">
+        <div id="process" className="mt-16 scroll-mt-24">
           <ManufacturingProcess compact />
         </div>
 

@@ -76,10 +76,16 @@ python deploy/generate_sitemaps.py
 
 ## 统一配置
 
-结构配置（品牌名、分组导航、邮箱、Formspree、精选产品 slug 等）集中在：
+结构配置（品牌名、邮箱、Formspree、精选产品 slug 等）集中在：
 
 ```text
 src/config/site.ts
+```
+
+顶栏 Mega Menu 结构（路径、分类、精选 slug 引用）集中在：
+
+```text
+src/config/navigation.ts
 ```
 
 中英文对照文案集中在：
@@ -224,7 +230,7 @@ https://rtgs2017.github.io/pinjin-website/
 | `/blog/:slug` | 文章详情 |
 | `/contact` | 联系（询盘表单） |
 
-顶栏为分组下拉（Products / Solutions / Resources / Company / Contact），配置见 `src/config/site.ts` 的 `navItems`。右下角悬浮「询价」按钮；联系页隐藏以免重复。
+顶栏为全宽 Mega Menu（Products / Solutions / Resources / Company），配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。桌面悬停展开，移动端为手风琴。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮「询价」按钮；联系页隐藏以免重复。
 
 ### 询盘表单
 
