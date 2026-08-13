@@ -9,6 +9,8 @@ import { About } from '@/pages/About';
 import { ContactPage } from '@/pages/ContactPage';
 import { Faq } from '@/pages/Faq';
 import { ApplicationsPage } from '@/pages/ApplicationsPage';
+import { BlogList } from '@/pages/blog/BlogList';
+import { BlogDetail } from '@/pages/blog/BlogDetail';
 import {
   LangHomeRedirect,
   LanguageRoot,
@@ -38,6 +40,8 @@ export default function App() {
             <Route path="about" element={<About />} />
             <Route path="applications" element={<ApplicationsPage />} />
             <Route path="faq" element={<Faq />} />
+            <Route path="blog" element={<BlogList />} />
+            <Route path="blog/:slug" element={<BlogDetail />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="*" element={<LangHomeRedirect />} />
           </Route>

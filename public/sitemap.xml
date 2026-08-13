@@ -58,6 +58,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/concrete-pumps" />
@@ -266,6 +274,38 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/diesel-vs-electric-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/mortar-spraying-machine-buying-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh" />
@@ -320,6 +360,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/contact" />
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/products/category/concrete-pumps</loc>
@@ -526,6 +574,38 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/13-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-concrete-pump</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/diesel-vs-electric-concrete-pump</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/diesel-vs-electric-concrete-pump" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/mortar-spraying-machine-buying-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/mortar-spraying-machine-buying-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>

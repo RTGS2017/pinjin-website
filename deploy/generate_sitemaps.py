@@ -78,6 +78,14 @@ CATS = [
     "rebar-equipment",
 ]
 
+# 与 src/data/blog.ts 的 slug 保持一致
+BLOG_SLUGS = [
+    "how-to-choose-a-concrete-pump",
+    "diesel-vs-electric-concrete-pump",
+    "mortar-spraying-machine-buying-guide",
+    "concrete-pump-conveying-distance-guide",
+]
+
 
 def _read_vite_site_url() -> str | None:
     if not ENV_FILE.exists():
@@ -128,9 +136,11 @@ def main() -> None:
         "/applications",
         "/faq",
         "/contact",
+        "/blog",
     ]
     page_paths += [f"/products/category/{c}" for c in CATS]
     page_paths += [f"/products/{s}" for s in SLUGS]
+    page_paths += [f"/blog/{s}" for s in BLOG_SLUGS]
 
     urls: list[str] = []
     for lang in LANGS:
@@ -151,9 +161,9 @@ def main() -> None:
         rest = f"/{parts[1]}" if len(parts) > 1 else "/"
         if rest == "/":
             pri = "1.0"
-        elif rest in ("/products", "/product-selection-guide"):
+        elif rest in ("/products", "/product-selection-guide", "/blog"):
             pri = "0.9"
-        elif rest.startswith("/products/"):
+        elif rest.startswith("/products/") or rest.startswith("/blog/"):
             pri = "0.85"
         else:
             pri = "0.8"

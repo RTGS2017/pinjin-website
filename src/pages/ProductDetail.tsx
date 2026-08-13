@@ -1,4 +1,5 @@
-﻿import { useParams } from 'react-router-dom';
+﻿import { useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
 import { getMailtoHref } from '@/config/site';
 import {
@@ -8,17 +9,26 @@ import {
   resolveProductSlug,
 } from '@/data/products';
 import { getProductFaqs } from '@/data/productFaqs';
-import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { SpecItem } from '@/components/ui/SpecItem';
 import { Button } from '@/components/ui/Button';
 import { ProductCard } from '@/components/ui/ProductCard';
-import { SEO, buildFaqPageJsonLd, buildProductJsonLd } from '@/components/SEO';
+import { ProductGallery } from '@/components/ui/ProductGallery';
+import {
+  SEO,
+  buildBreadcrumbJsonLd,
+  buildFaqPageJsonLd,
+  buildProductJsonLd,
+} from '@/components/SEO';
+import { WhyFactory } from '@/components/sections/WhyFactory';
+import { ManufacturingProcess } from '@/components/sections/ManufacturingProcess';
+import { InquiryForm } from '@/components/forms/InquiryForm';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
 export function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { lang, t, tx } = useI18n();
+  const [catalogIntent, setCatalogIntent] = useState(false);
 
   if (!slug) {
     return <LocaleNavigate to="/products" replace />;
@@ -40,6 +50,7 @@ export function ProductDetail() {
   const related = getRelatedProducts(product);
   const faqs = getProductFaqs(product, lang);
   const categoryLabel = tx(categoryMeta[product.category].label);
+  const categoryPath = `/products/category/${categoryMeta[product.category].routeSlug}`;
   const seoTitle = tx(product.seo.title);
   const seoDescription = tx(product.seo.description);
   const keywords = [
@@ -49,6 +60,7 @@ export function ProductDetail() {
   ].join(', ');
 
   const highlightSpecs = product.specifications.slice(0, 4);
+  const gallery = product.gallery?.length ? product.gallery : [product.image];
 
   return (
     <section className="section-y bg-bg">
@@ -68,6 +80,12 @@ export function ProductDetail() {
             category: categoryLabel,
           }),
           buildFaqPageJsonLd(faqs),
+          buildBreadcrumbJsonLd([
+            { name: t.detail.home, path: localePath('/', lang) },
+            { name: t.detail.products, path: localePath('/products', lang) },
+            { name: categoryLabel, path: localePath(categoryPath, lang) },
+            { name, path: localizedPath },
+          ]),
         ]}
       />
       <div className="container-site">
@@ -86,10 +104,7 @@ export function ProductDetail() {
             </li>
             <li aria-hidden>/</li>
             <li>
-              <LocaleLink
-                to={`/products/category/${categoryMeta[product.category].routeSlug}`}
-                className="hover:text-primary"
-              >
+              <LocaleLink to={categoryPath} className="hover:text-primary">
                 {categoryLabel}
               </LocaleLink>
             </li>
@@ -99,16 +114,9 @@ export function ProductDetail() {
         </nav>
 
         <div className="grid gap-10 lg:grid-cols-2">
-          <ImagePlaceholder
-            src={product.image}
+          <ProductGallery
+            images={gallery}
             alt={`${product.name.en} manufactured by Hebei Pinjin Machinery`}
-            label={t.productCard.imageComingSoon}
-            hint={t.placeholder.productHint}
-            priority
-            width={1200}
-            height={760}
-            className="aspect-square w-full border border-border"
-            imgClassName="object-contain p-8"
           />
 
           <div>
@@ -135,21 +143,31 @@ export function ProductDetail() {
               </div>
             ) : null}
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Button
-                href={getMailtoHref(`${t.mailSubjectInquiry} - ${name}`)}
+                href="#inquiry"
                 size="lg"
                 className="w-full sm:w-auto"
+                onClick={() => setCatalogIntent(false)}
               >
                 {t.detail.quote}
               </Button>
               <Button
-                to="/products"
+                href={getMailtoHref(`${t.mailSubjectInquiry} - ${name}`)}
                 variant="outline"
                 size="lg"
                 className="w-full sm:w-auto"
               >
-                {t.detail.back}
+                {t.detail.contactEngineer}
+              </Button>
+              <Button
+                href="#inquiry"
+                variant="outline"
+                size="lg"
+                className="w-full sm:w-auto"
+                onClick={() => setCatalogIntent(true)}
+              >
+                {t.detail.requestCatalog}
               </Button>
             </div>
           </div>
@@ -281,6 +299,12 @@ export function ProductDetail() {
           </ul>
         </section>
 
+        <WhyFactory />
+
+        <div className="mt-14">
+          <ManufacturingProcess compact />
+        </div>
+
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.faq}</h2>
           <div className="mt-6 space-y-4">
@@ -302,6 +326,18 @@ export function ProductDetail() {
           </p>
         </section>
 
+        <div className="mt-16 border border-border bg-bg-soft p-8">
+          <h2 className="heading-display text-2xl">{t.detail.inquiryTitle}</h2>
+          <p className="mt-3 max-w-xl text-text-secondary">{t.detail.inquiryBody}</p>
+          <div className="mt-6">
+            <InquiryForm
+              key={catalogIntent ? 'catalog' : 'quote'}
+              defaultProduct={name}
+              defaultMessage={catalogIntent ? t.detail.catalogPrefill : ''}
+            />
+          </div>
+        </div>
+
         {related.length > 0 ? (
           <div className="mt-16">
             <h2 className="heading-display text-2xl sm:text-3xl">
@@ -314,21 +350,6 @@ export function ProductDetail() {
             </div>
           </div>
         ) : null}
-
-        <div className="mt-16 border border-border bg-bg-soft p-8 text-center">
-          <h2 className="heading-display text-2xl">{t.detail.customTitle}</h2>
-          <p className="mx-auto mt-3 max-w-xl text-text-secondary">
-            {t.detail.customBody}
-          </p>
-          <div className="mt-6">
-            <Button
-              href={getMailtoHref(`${t.mailSubjectQuote} - ${name}`)}
-              size="lg"
-            >
-              {t.detail.quote}
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   );

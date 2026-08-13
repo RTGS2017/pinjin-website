@@ -24,19 +24,12 @@ export const siteConfig = {
   },
   contactEmail: import.meta.env.VITE_CONTACT_EMAIL || '1912829892@qq.com',
   contactPhone: import.meta.env.VITE_CONTACT_PHONE || '19912003025',
+  /** Formspree 表单地址；未配置时询盘回退 mailto */
+  formspreeEndpoint: import.meta.env.VITE_FORMSPREE_ENDPOINT || '',
 } as const;
 
-export const navItems = [
-  { key: 'home' as const, href: '/' },
-  { key: 'products' as const, href: '/products' },
-  { key: 'selectionGuide' as const, href: '/product-selection-guide' },
-  { key: 'about' as const, href: '/about' },
-  { key: 'applications' as const, href: '/applications' },
-  { key: 'faq' as const, href: '/faq' },
-  { key: 'contact' as const, href: '/contact' },
-];
-
-export const performanceValues = ['600 m', '300 m', '40–75 m³/h', '6 cm'] as const;
+export const inquiryHash = 'inquiry';
+export const contactInquiryPath = '/contact#inquiry';
 
 export const productCategoryIds = [
   'concrete-pump',
@@ -44,6 +37,85 @@ export const productCategoryIds = [
   'material-handling',
   'rebar-equipment',
 ] as const;
+
+export type NavLabelKey =
+  | 'products'
+  | 'allProducts'
+  | 'selectionGuide'
+  | 'solutions'
+  | 'applications'
+  | 'customization'
+  | 'resources'
+  | 'blog'
+  | 'faq'
+  | 'company'
+  | 'about'
+  | 'factory'
+  | 'contact';
+
+export type NavChild =
+  | { key: NavLabelKey; href: string }
+  | { categoryId: (typeof productCategoryIds)[number]; href: string };
+
+export interface NavItem {
+  key: NavLabelKey;
+  href: string;
+  children?: readonly NavChild[];
+}
+
+export const navItems: readonly NavItem[] = [
+  {
+    key: 'products',
+    href: '/products',
+    children: [
+      { key: 'allProducts', href: '/products' },
+      {
+        categoryId: 'concrete-pump',
+        href: '/products/category/concrete-pumps',
+      },
+      {
+        categoryId: 'spraying-machine',
+        href: '/products/category/spraying-machines',
+      },
+      {
+        categoryId: 'material-handling',
+        href: '/products/category/material-handling',
+      },
+      {
+        categoryId: 'rebar-equipment',
+        href: '/products/category/rebar-equipment',
+      },
+      { key: 'selectionGuide', href: '/product-selection-guide' },
+    ],
+  },
+  {
+    key: 'solutions',
+    href: '/applications',
+    children: [
+      { key: 'applications', href: '/applications' },
+      { key: 'customization', href: '/#customization' },
+    ],
+  },
+  {
+    key: 'resources',
+    href: '/blog',
+    children: [
+      { key: 'blog', href: '/blog' },
+      { key: 'faq', href: '/faq' },
+    ],
+  },
+  {
+    key: 'company',
+    href: '/about',
+    children: [
+      { key: 'about', href: '/about' },
+      { key: 'factory', href: '/#factory' },
+    ],
+  },
+  { key: 'contact', href: '/contact' },
+];
+
+export const performanceValues = ['600 m', '300 m', '40–75 m³/h', '6 cm'] as const;
 
 /** Featured product slugs for homepage (order matters) */
 export const featuredProductSlugs = [
@@ -78,12 +150,44 @@ export const applicationItems = [
   },
 ] as const;
 
-export function getMailtoHref(subject?: string): string {
+export function getMailtoHref(subject?: string, body?: string): string {
   const email = siteConfig.contactEmail;
-  if (subject) {
-    return `mailto:${email}?subject=${encodeURIComponent(subject)}`;
-  }
-  return `mailto:${email}`;
+  const params = new URLSearchParams();
+  if (subject) params.set('subject', subject);
+  if (body) params.set('body', body);
+  const query = params.toString();
+  return query ? `mailto:${email}?${query}` : `mailto:${email}`;
+}
+
+export function buildInquiryMailtoBody(fields: {
+  name: string;
+  company: string;
+  country: string;
+  email: string;
+  product: string;
+  quantity: string;
+  message: string;
+}): string {
+  return [
+    `Name: ${fields.name}`,
+    `Company: ${fields.company}`,
+    `Country: ${fields.country}`,
+    `Email: ${fields.email}`,
+    `Product: ${fields.product || '-'}`,
+    `Quantity: ${fields.quantity || '-'}`,
+    '',
+    'Message:',
+    fields.message,
+  ].join('\n');
+}
+
+/** 当前页是否已内嵌询盘表单（悬浮按钮用 hash，其它页去联系页） */
+export function pageHasInquiryForm(pagePath: string): boolean {
+  if (pagePath === '/' || pagePath === '/contact') return true;
+  if (pagePath.startsWith('/blog/') && pagePath !== '/blog') return true;
+  return (
+    pagePath.startsWith('/products/') && !pagePath.includes('/category/')
+  );
 }
 
 export function getTelHref(): string {

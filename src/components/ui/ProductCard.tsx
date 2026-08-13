@@ -1,7 +1,6 @@
 import { LocaleLink } from '@/i18n/navigation';
 import type { Product } from '@/data/products';
 import { categoryMeta } from '@/data/products';
-import { getMailtoHref } from '@/config/site';
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { Button } from './Button';
 import { useI18n } from '@/i18n/I18nContext';
@@ -80,7 +79,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
         <div className="mt-5 flex flex-col gap-2 sm:flex-row">
           <Button
-            href={getMailtoHref(`${t.mailSubjectInquiry} - ${name}`)}
+            to={`/products/${product.slug}#inquiry`}
             size="md"
             className="w-full sm:w-auto"
           >

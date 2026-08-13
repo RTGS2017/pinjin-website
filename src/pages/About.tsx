@@ -2,9 +2,10 @@
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Button } from '@/components/ui/Button';
 import { CompanyEntity } from '@/components/CompanyEntity';
-import { getMailtoHref } from '@/config/site';
+import { contactInquiryPath } from '@/config/site';
 import { companyEntity } from '@/config/entity';
 import { SEO, buildOrganizationJsonLd } from '@/components/SEO';
+import { ManufacturingProcess } from '@/components/sections/ManufacturingProcess';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function About() {
@@ -129,8 +130,12 @@ export function About() {
           </div>
         </div>
 
+        <div className="mt-16">
+          <ManufacturingProcess compact />
+        </div>
+
         <div className="mt-12 flex flex-col gap-3 sm:flex-row">
-          <Button href={getMailtoHref(t.mailSubjectInquiry)} size="lg">
+          <Button to={contactInquiryPath} size="lg">
             {t.about.contact}
           </Button>
           <Button to="/faq" variant="outline" size="lg">

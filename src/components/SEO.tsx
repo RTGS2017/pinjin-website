@@ -66,7 +66,7 @@ export function SEO({
         <meta name="robots" content="index, follow" />
       )}
 
-      <meta property="og:type" content={type === 'product' ? 'product' : 'website'} />
+      <meta property="og:type" content={type === 'product' ? 'product' : type === 'article' ? 'article' : 'website'} />
       <meta property="og:site_name" content={seoConfig.siteName} />
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={pageDescription} />
@@ -170,5 +170,53 @@ export function buildFaqPageJsonLd(
         text: item.answer,
       },
     })),
+  };
+}
+
+export function buildBreadcrumbJsonLd(
+  items: Array<{ name: string; path: string }>,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: absoluteUrl(item.path),
+    })),
+  };
+}
+
+export function buildArticleJsonLd(input: {
+  headline: string;
+  description: string;
+  path: string;
+  datePublished: string;
+  keywords?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: input.headline,
+    description: input.description,
+    datePublished: input.datePublished,
+    dateModified: input.datePublished,
+    mainEntityOfPage: absoluteUrl(input.path),
+    keywords: input.keywords,
+    author: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+      url: seoConfig.siteUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+      url: seoConfig.siteUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: absoluteUrl(seoConfig.organization.logoPath),
+      },
+    },
   };
 }

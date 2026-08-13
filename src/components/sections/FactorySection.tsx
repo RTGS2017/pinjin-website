@@ -25,7 +25,7 @@ export function FactorySection() {
   const { t } = useI18n();
 
   return (
-    <section className="section-y bg-bg">
+    <section id="factory" className="section-y bg-bg scroll-mt-24">
       <div className="container-site">
         <SectionTitle title={t.factory.title} subtitle={t.factory.subtitle} />
 

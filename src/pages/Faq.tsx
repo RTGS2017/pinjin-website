@@ -3,7 +3,7 @@ import { SEO } from '@/components/SEO';
 import { CompanyEntity } from '@/components/CompanyEntity';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Button } from '@/components/ui/Button';
-import { getMailtoHref } from '@/config/site';
+import { contactInquiryPath } from '@/config/site';
 import { buildFaqPageJsonLd, siteFaqs } from '@/data/faq';
 import { useI18n } from '@/i18n/I18nContext';
 
@@ -87,7 +87,7 @@ export function Faq() {
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:flex-row">
-            <Button href={getMailtoHref(t.mailSubjectInquiry)} size="lg">
+            <Button to={contactInquiryPath} size="lg">
               {t.nav.getQuote}
             </Button>
             <Button to="/products" variant="outline" size="lg">

@@ -84,6 +84,19 @@ export function Footer() {
                 </LocaleLink>
               </li>
               <li>
+                <a
+                  href={withBase(localePath('/#factory', lang))}
+                  className="hover:text-primary transition-colors"
+                >
+                  {t.footer.factory}
+                </a>
+              </li>
+              <li>
+                <LocaleLink to="/blog" className="hover:text-primary transition-colors">
+                  {t.footer.blog}
+                </LocaleLink>
+              </li>
+              <li>
                 <LocaleLink to="/faq" className="hover:text-primary transition-colors">
                   {t.footer.faq}
                 </LocaleLink>

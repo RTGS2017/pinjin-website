@@ -1,4 +1,3 @@
-import { getMailtoHref } from '@/config/site';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n/I18nContext';
 
@@ -16,7 +15,7 @@ export function CTA() {
             {t.cta.subtitle}
           </p>
           <div className="mt-8">
-            <Button href={getMailtoHref(t.mailSubjectQuote)} size="lg">
+            <Button href="#inquiry" size="lg">
               {t.cta.button}
             </Button>
           </div>

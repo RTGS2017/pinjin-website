@@ -2,7 +2,7 @@
 
 面向海外客户的工程机械制造商静态官网（React + TypeScript + Vite + Tailwind）。
 
-当前阶段：前端展示 + 邮箱询盘（`mailto`），无后端、无 CMS、无电商。
+当前阶段：前端展示 + 页面询盘表单（Formspree，未配置时回退 `mailto`），无后端、无 CMS、无电商。
 
 **托管方式：GitHub Pages 静态托管**（适合海外访问）。自定义域名通过 DNS 指向 GitHub Pages，不再使用阿里云 ECS / Nginx。
 
@@ -39,12 +39,14 @@ VITE_CONTACT_EMAIL=1912829892@qq.com
 VITE_CONTACT_PHONE=19912003025
 VITE_SITE_URL=https://www.example.com
 # VITE_BASE_PATH=/
+# VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/xxxxxxxx
 ```
 
-- `VITE_CONTACT_EMAIL`：所有询盘 `mailto` 统一读取
+- `VITE_CONTACT_EMAIL`：询盘回退 `mailto` 与页脚邮箱统一读取
 - `VITE_CONTACT_PHONE`：联系页 / 页脚电话
 - `VITE_SITE_URL`：canonical / Open Graph / JSON-LD / sitemap 绝对地址前缀
 - `VITE_BASE_PATH`：仅在**无自定义域名**的项目站预览时需要（如 `/pinjin-website/`）；绑定自定义域名后保持默认 `/`
+- `VITE_FORMSPREE_ENDPOINT`：询盘表单 POST 地址。留空则提交时打开系统邮件客户端（`mailto`）。在 GitHub Actions Variables 中配置同名变量后重新部署即可生效。第一期不支持图纸上传。
 
 域名就绪后：把 `VITE_SITE_URL` 改成正式 `https://你的域名`，再运行：
 
@@ -56,16 +58,17 @@ python deploy/generate_sitemaps.py
 
 ### 技术 SEO / GEO
 
-- 页面组件：`src/components/SEO.tsx`（含 keywords、Product / FAQPage JSON-LD）
+- 页面组件：`src/components/SEO.tsx`（含 keywords、Product / FAQPage / Article / BreadcrumbList JSON-LD）
 - SEO 配置：`src/config/seo.ts`
 - 企业实体（全站统一）：`src/config/entity.ts` + `src/components/CompanyEntity.tsx`
-- 站点地图：`public/sitemap.xml`
+- 站点地图：`public/sitemap.xml`（含 `/blog` 与文章）
 - 图片地图：`public/image-sitemap.xml`
 - 爬虫规则：`public/robots.txt`
 - FAQ：`/faq`
 - 选型指南：`/product-selection-guide`
 - 应用页：`/applications`
-- 产品详情：Overview / Applications / Specs / Advantages / FAQ（≥5）+ Related + Manufacturer GEO 块
+- Blog：`/blog`、`/blog/:slug`（静态数据 `src/data/blog.ts`）
+- 产品详情：Overview / Applications / Specs / Advantages / Why Factory / Manufacturing Process / FAQ（≥5）+ Related + 询盘表单 + Manufacturer GEO 块
 - 组织 / 产品 JSON-LD：不含价格与评分
 - 图片：每产品独立目录 `{slug}/main.webp`（见 `图片准备清单.md`）
 
@@ -73,7 +76,7 @@ python deploy/generate_sitemaps.py
 
 ## 统一配置
 
-结构配置（品牌名、导航路径、邮箱、精选产品 slug 等）集中在：
+结构配置（品牌名、分组导航、邮箱、Formspree、精选产品 slug 等）集中在：
 
 ```text
 src/config/site.ts
@@ -95,6 +98,18 @@ src/i18n/I18nContext.tsx
 
 ```text
 src/data/products.ts
+```
+
+Blog 文章：
+
+```text
+src/data/blog.ts
+```
+
+制造流程 / 工厂决策要点（仅用已核实表述）：
+
+```text
+src/data/manufacturingProcess.ts
 ```
 
 颜色与间距 Token：
@@ -167,6 +182,7 @@ npm run preview
    - `VITE_CONTACT_PHONE`
    - `VITE_SITE_URL`（正式域名前可用 `https://YOUR_USER.github.io/YOUR_REPO`）
    - 可选：`VITE_BASE_PATH`（自定义域名根站不要设，或设为 `/`）
+   - 可选：`VITE_FORMSPREE_ENDPOINT`（Formspree 表单 URL；不设则询盘回退 mailto）
 4. push 到 `main` 后 Actions 自动构建并发布。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
@@ -199,21 +215,39 @@ https://rtgs2017.github.io/pinjin-website/
 | `/` | 首页 |
 | `/products` | 全部产品 |
 | `/products/category/:slug` | 分类 |
-| `/products/:slug` | 产品详情 |
+| `/products/:slug` | 产品详情（含询盘表单） |
 | `/product-selection-guide` | 选型指南 |
 | `/about` | 关于我们 |
 | `/applications` | 应用 |
 | `/faq` | FAQ |
-| `/contact` | 联系 |
+| `/blog` | 技术资讯列表 |
+| `/blog/:slug` | 文章详情 |
+| `/contact` | 联系（询盘表单） |
+
+顶栏为分组下拉（Products / Solutions / Resources / Company / Contact），配置见 `src/config/site.ts` 的 `navItems`。右下角悬浮「询价」按钮；联系页隐藏以免重复。
+
+### 询盘表单
+
+共享组件：`src/components/forms/InquiryForm.tsx`。字段：姓名、公司、国家、邮箱、意向产品、数量、留言。产品详情会预填型号；「索取目录」会预填目录请求（当前无 PDF 文件，不提供空下载）。
+
+配置了 `VITE_FORMSPREE_ENDPOINT` 则 POST 到 Formspree；否则回退 `mailto`。保留页脚/工程师直联邮箱。
+
+### 新增 Blog 文章
+
+1. 在 [`src/data/blog.ts`](src/data/blog.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、内链）。
+2. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`。
+3. 运行 `python deploy/generate_sitemaps.py`。
+
+不要编造认证、客户名、出口国。文章应链到真实产品页并在文末保留询盘。
 
 ---
 
 ## 内容真实性说明
 
 企业简介、地址、四项价值观、产品参数均来自产品目录文档。  
-未擅自添加认证、出口国、成立年份、WhatsApp 等未确认信息。
+未擅自添加认证、出口国、成立年份、WhatsApp、客户案例或 PDF 产品目录。制造流程模块只复述「原料采购 → 生产 → 检测 → 交付」的已有表述。
 
-提供真实邮箱后，修改 `.env` / GitHub Variables 中的 `VITE_CONTACT_EMAIL`，重新构建部署。
+提供真实邮箱后，修改 `.env` / GitHub Variables 中的 `VITE_CONTACT_EMAIL`，重新构建部署。Formspree 地址同样写入 Variables 中的 `VITE_FORMSPREE_ENDPOINT`。
 
 ---
 

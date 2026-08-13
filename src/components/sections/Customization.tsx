@@ -8,7 +8,7 @@ export function Customization() {
   const { lang, t } = useI18n();
 
   return (
-    <section className="section-y bg-bg-soft">
+    <section id="customization" className="section-y bg-bg-soft scroll-mt-24">
       <div className="container-site">
         <div className="grid items-center gap-8 lg:grid-cols-2">
           <SectionTitle
@@ -17,7 +17,7 @@ export function Customization() {
           />
           <div className="lg:justify-self-end">
             <Button
-              href={withBase(localePath('/#contact', lang))}
+              href={withBase(localePath('/#inquiry', lang))}
               variant="secondary"
               size="lg"
             >

@@ -1,4 +1,3 @@
-import { getMailtoHref } from '@/config/site';
 import { Button } from '@/components/ui/Button';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { useI18n } from '@/i18n/I18nContext';
@@ -38,12 +37,7 @@ export function Hero() {
             <Button to="/products" size="lg" className="w-full sm:w-auto">
               {t.hero.explore}
             </Button>
-            <Button
-              href={getMailtoHref(t.mailSubjectQuote)}
-              variant="ghost"
-              size="lg"
-              className="w-full sm:w-auto"
-            >
+            <Button href="#inquiry" variant="ghost" size="lg" className="w-full sm:w-auto">
               {t.hero.quote}
             </Button>
           </div>

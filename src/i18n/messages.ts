@@ -4,12 +4,18 @@ import type { Lang } from './types';
 export const messages = {
   en: {
     nav: {
-      home: 'HOME',
       products: 'PRODUCTS',
-      selectionGuide: 'SELECTION GUIDE',
-      about: 'ABOUT US',
-      applications: 'APPLICATIONS',
+      allProducts: 'All Products',
+      selectionGuide: 'Selection Guide',
+      solutions: 'SOLUTIONS',
+      applications: 'Industry Applications',
+      customization: 'Custom Solutions',
+      resources: 'RESOURCES',
+      blog: 'Blog',
       faq: 'FAQ',
+      company: 'COMPANY',
+      about: 'About Factory',
+      factory: 'Manufacturing',
       contact: 'CONTACT',
       getQuote: 'GET A QUOTE',
       openMenu: 'Open menu',
@@ -136,7 +142,9 @@ export const messages = {
       techParams: 'TECHNICAL PARAMETERS',
       related: 'RELATED PRODUCTS',
       back: 'BACK TO PRODUCTS',
-      quote: 'GET A QUOTE',
+      quote: 'REQUEST QUOTE',
+      contactEngineer: 'CONTACT ENGINEER',
+      requestCatalog: 'REQUEST CATALOG',
       customTitle: 'NEED A CUSTOM SOLUTION?',
       customBody:
         'Share your project requirements and we will recommend a suitable model.',
@@ -148,6 +156,11 @@ export const messages = {
       noSpecs: 'Detailed specifications are not provided in the current catalogue. Please inquire by email.',
       suitableFor: 'Suitable for',
       keyAdvantages: 'Key advantages',
+      inquiryTitle: 'Request a quotation',
+      inquiryBody:
+        'Tell us the model, quantity and project conditions. We will reply by email with a suitable recommendation.',
+      catalogPrefill:
+        'Please send the product catalogue / datasheet for this model.',
     },
     about: {
       eyebrow: 'About Us',
@@ -184,6 +197,8 @@ export const messages = {
       applications: 'Applications',
       faq: 'FAQ',
       selectionGuide: 'Selection Guide',
+      blog: 'Blog',
+      factory: 'Manufacturing',
       concrete: 'Concrete Pumps',
       spraying: 'Spraying Machines',
       material: 'Material Handling',
@@ -217,6 +232,51 @@ export const messages = {
         'Applications | Concrete Pump for Building Construction | Pinjin',
       selectionTitle:
         'Product Selection Guide | Which Concrete Pump Should I Choose | Pinjin',
+      blogTitle: 'Technical Guides | Concrete Pump Manufacturer | Pinjin',
+      blogDesc:
+        'Buying guides and technical articles on concrete pumps, spraying machines and construction equipment from Hebei Pinjin Machinery.',
+    },
+    inquiry: {
+      name: 'Name',
+      company: 'Company',
+      country: 'Country',
+      email: 'Email',
+      product: 'Product interested',
+      quantity: 'Quantity',
+      message: 'Message',
+      submit: 'Send inquiry',
+      submitting: 'Sending…',
+      success:
+        'Thank you. Your inquiry has been prepared. If your email client did not open, write to us at the address on this page.',
+      successFormspree:
+        'Thank you. We have received your inquiry and will reply by email.',
+      error:
+        'The form could not be sent. Please email us directly or try again.',
+      required: 'Please fill in the required fields.',
+      honeypot: 'Website',
+    },
+    process: {
+      title: 'Manufacturing Process',
+      subtitle:
+        'From incoming materials to factory packing, production follows full-process quality control described in the company profile.',
+    },
+    whyFactory: {
+      title: 'Why Choose Our Factory',
+    },
+    blog: {
+      title: 'Technical Guides',
+      subtitle:
+        'Practical buying and application notes for concrete pumps and spraying equipment.',
+      readMore: 'Read article →',
+      relatedProducts: 'Related products',
+      relatedGuides: 'Related pages',
+      back: 'Back to all articles',
+      inquiryCta: 'Need a model recommendation? Send an inquiry',
+      published: 'Published',
+      category: 'Category',
+    },
+    floating: {
+      quote: 'Request Quote',
     },
     companyName: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
     mailSubjectQuote: 'Quote Request - Pinjin',
@@ -224,12 +284,18 @@ export const messages = {
   },
   zh: {
     nav: {
-      home: '首页',
       products: '产品中心',
+      allProducts: '全部产品',
       selectionGuide: '选型指南',
-      about: '关于我们',
-      applications: '应用场景',
+      solutions: '解决方案',
+      applications: '行业应用',
+      customization: '定制方案',
+      resources: '资源',
+      blog: '技术资讯',
       faq: '常见问题',
+      company: '公司',
+      about: '关于工厂',
+      factory: '智造实力',
       contact: '联系我们',
       getQuote: '获取报价',
       openMenu: '打开菜单',
@@ -347,7 +413,9 @@ export const messages = {
       techParams: '技术参数',
       related: '相关产品',
       back: '返回产品列表',
-      quote: '获取报价',
+      quote: '立即询价',
+      contactEngineer: '联系工程师',
+      requestCatalog: '索取目录',
       customTitle: '需要定制方案？',
       customBody: '告诉我们项目需求，我们将推荐合适型号。',
       overview: '产品概述',
@@ -358,6 +426,10 @@ export const messages = {
       noSpecs: '当前产品目录未提供详细技术参数，请邮件询盘确认。',
       suitableFor: '适用场景',
       keyAdvantages: '核心优势',
+      inquiryTitle: '提交询价',
+      inquiryBody:
+        '请告知型号、数量与工况条件，我们将通过邮件回复合适方案。',
+      catalogPrefill: '请提供该型号的产品目录 / 技术参数表。',
     },
     about: {
       eyebrow: '关于我们',
@@ -392,6 +464,8 @@ export const messages = {
       applications: '应用场景',
       faq: '常见问题',
       selectionGuide: '选型指南',
+      blog: '技术资讯',
+      factory: '智造实力',
       concrete: '混凝土泵',
       spraying: '喷涂设备',
       material: '物料搬运',
@@ -420,6 +494,48 @@ export const messages = {
       faqTitle: '常见问题 | 中国混凝土泵厂家 | 品锦',
       applicationsTitle: '应用场景 | 建筑施工混凝土泵 | 品锦',
       selectionTitle: '产品选型指南 | 如何选择混凝土泵 | 品锦',
+      blogTitle: '技术资讯 | 混凝土泵厂家 | 品锦机械',
+      blogDesc:
+        '河北品锦机械关于混凝土泵、喷涂设备选型与使用的技术文章与采购指南。',
+    },
+    inquiry: {
+      name: '姓名',
+      company: '公司',
+      country: '国家',
+      email: '邮箱',
+      product: '意向产品',
+      quantity: '数量',
+      message: '需求说明',
+      submit: '发送询盘',
+      submitting: '发送中…',
+      success:
+        '感谢询盘。若邮件客户端未自动打开，请直接使用本页邮箱联系我们。',
+      successFormspree: '感谢询盘，我们已收到并将通过邮件回复。',
+      error: '表单发送失败，请直接发邮件或稍后重试。',
+      required: '请填写必填项。',
+      honeypot: '网站',
+    },
+    process: {
+      title: '制造流程',
+      subtitle:
+        '从原材料到出厂包装，按企业简介中的全流程质量管控组织生产。',
+    },
+    whyFactory: {
+      title: '为什么选择我们工厂',
+    },
+    blog: {
+      title: '技术资讯',
+      subtitle: '混凝土泵与喷涂设备的选型、应用与采购说明。',
+      readMore: '阅读全文 →',
+      relatedProducts: '相关产品',
+      relatedGuides: '相关页面',
+      back: '返回文章列表',
+      inquiryCta: '需要选型建议？提交询盘',
+      published: '发布日期',
+      category: '分类',
+    },
+    floating: {
+      quote: '立即询价',
     },
     companyName: '河北品锦机械制造有限公司',
     mailSubjectQuote: '询价 - 品锦机械',
