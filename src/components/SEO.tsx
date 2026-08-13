@@ -1,8 +1,10 @@
 ﻿import { Helmet } from 'react-helmet-async';
 import { absoluteUrl, seoConfig } from '@/config/seo';
+import { factorySlides, getFactoryImagePaths, type FactorySlide } from '@/data/factory';
 import { useI18n } from '@/i18n/I18nContext';
 import { defaultLang, getLanguage, languages } from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
+import { pick, type Lang } from '@/i18n/types';
 
 export interface SEOProps {
   title?: string;
@@ -108,6 +110,7 @@ export function buildOrganizationJsonLd() {
     description: seoConfig.organization.description,
     email: import.meta.env.VITE_CONTACT_EMAIL || undefined,
     telephone: import.meta.env.VITE_CONTACT_PHONE || undefined,
+    image: getFactoryImagePaths().map((path) => absoluteUrl(path)),
     knowsAbout: [
       'Concrete pump',
       'Concrete pump manufacturer',
@@ -126,6 +129,21 @@ export function buildOrganizationJsonLd() {
     },
     areaServed: 'Worldwide',
   };
+}
+
+export function buildImageObjectJsonLd(slide: FactorySlide, lang: Lang) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageObject',
+    name: pick(slide.schemaName, lang),
+    description: pick(slide.schemaDescription, lang),
+    contentUrl: absoluteUrl(slide.image),
+    caption: pick(slide.alt, lang),
+  };
+}
+
+export function buildFactoryImageJsonLdList(lang: Lang) {
+  return factorySlides.map((slide) => buildImageObjectJsonLd(slide, lang));
 }
 
 export function buildProductJsonLd(input: {

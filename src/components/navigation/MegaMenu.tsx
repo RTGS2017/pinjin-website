@@ -79,7 +79,7 @@ function Panel({
       id={id}
       role="region"
       aria-label={label}
-      className="mega-panel w-full border-t border-border bg-white shadow-[0_18px_50px_rgba(37,42,49,0.16)]"
+      className="mega-panel w-full border-t border-white/10 bg-dark/40 shadow-[0_18px_50px_rgba(37,42,49,0.28)] backdrop-blur-sm"
     >
       <div className="container-site py-8 lg:py-10">{children}</div>
     </div>
@@ -88,7 +88,7 @@ function Panel({
 
 function ColumnHeading({ children }: { children: ReactNode }) {
   return (
-    <p className="mb-4 text-xs font-semibold tracking-[0.16em] text-text-secondary uppercase">
+    <p className="mb-4 text-xs font-semibold tracking-[0.16em] text-white/50 uppercase">
       {children}
     </p>
   );
@@ -111,19 +111,19 @@ function ItemLink({
     <MegaMenuLink
       to={to}
       onClick={onNavigate}
-      className="group flex gap-3 rounded-md border border-transparent px-3 py-2.5 transition-colors hover:border-border hover:bg-bg-soft"
+      className="group flex gap-3 rounded-md border border-transparent px-3 py-2.5 transition-colors hover:border-white/15 hover:bg-white/10"
     >
       {Icon ? (
-        <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-bg-soft text-dark group-hover:bg-white group-hover:text-primary">
+        <span className="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-white/10 text-white group-hover:bg-white/15 group-hover:text-primary">
           <Icon className="h-4 w-4" aria-hidden />
         </span>
       ) : null}
       <span className="min-w-0">
-        <span className="block text-sm font-semibold text-dark group-hover:text-primary">
+        <span className="block text-sm font-semibold text-white group-hover:text-primary">
           {title}
         </span>
         {hint ? (
-          <span className="mt-0.5 block line-clamp-2 text-xs leading-relaxed text-text-secondary">
+          <span className="mt-0.5 block line-clamp-2 text-xs leading-relaxed text-white/55">
             {hint}
           </span>
         ) : null}
@@ -166,7 +166,7 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
         <MegaMenuLink
           to="/products"
           onClick={onNavigate}
-          className="mt-4 inline-flex items-center gap-1 px-3 text-sm font-semibold text-dark hover:text-primary"
+          className="mt-4 inline-flex items-center gap-1 px-3 text-sm font-semibold text-white/90 hover:text-primary"
         >
           {t.mega.allProducts}
           <ArrowRight className="h-4 w-4" aria-hidden />
@@ -181,7 +181,7 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
               key={product.slug}
               to={`/products/${product.slug}`}
               onClick={onNavigate}
-              className="group flex flex-col overflow-hidden rounded-md border border-border bg-white transition-colors hover:border-primary/40"
+              className="group flex flex-col overflow-hidden rounded-md border border-white/15 bg-white/5 transition-colors hover:border-primary/40"
             >
               <ImagePlaceholder
                 src={product.image}
@@ -190,17 +190,17 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
                 hint=""
                 width={600}
                 height={400}
-                className="aspect-[16/10] w-full"
+                className="aspect-[16/10] w-full !bg-white/10"
                 imgClassName="object-contain p-3"
               />
               <span className="flex flex-1 flex-col p-3">
-                <span className="text-sm font-semibold text-dark group-hover:text-primary">
+                <span className="text-sm font-semibold text-white group-hover:text-primary">
                   {tx(product.name)}
                 </span>
-                <span className="mt-1 line-clamp-2 text-xs text-text-secondary">
+                <span className="mt-1 line-clamp-2 text-xs text-white/55">
                   {tx(product.shortDescription)}
                 </span>
-                <span className="mt-2 text-xs font-semibold text-dark">
+                <span className="mt-2 text-xs font-semibold text-white/80">
                   {t.mega.viewProduct}
                 </span>
               </span>
@@ -210,10 +210,10 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
       </div>
 
       <div className="lg:col-span-3">
-        <div className="flex h-full flex-col justify-between rounded-md border border-border bg-bg-soft p-6">
+        <div className="flex h-full flex-col justify-between rounded-md border border-white/15 bg-white/5 p-6">
           <div>
-            <h3 className="text-lg font-semibold text-dark">{t.mega.needCustom}</h3>
-            <p className="mt-3 text-sm leading-relaxed text-text-secondary">
+            <h3 className="text-lg font-semibold text-white">{t.mega.needCustom}</h3>
+            <p className="mt-3 text-sm leading-relaxed text-white/70">
               {t.mega.engineerBody}
             </p>
             <div className="mt-6 flex flex-col gap-2">
@@ -222,7 +222,7 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
               </Button>
               <Button
                 href={getMailtoHref(t.mailSubjectInquiry)}
-                variant="outline"
+                variant="ghost"
                 size="md"
                 className="w-full"
                 onClick={onNavigate}
@@ -234,12 +234,12 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
           <MegaMenuLink
             to={contactInquiryPath}
             onClick={onNavigate}
-            className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-dark hover:text-primary"
+            className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-primary"
           >
             <FileText className="h-4 w-4" aria-hidden />
             {t.detail.requestCatalog}
           </MegaMenuLink>
-          <p className="mt-2 text-xs text-text-secondary">{t.mega.catalogHint}</p>
+          <p className="mt-2 text-xs text-white/50">{t.mega.catalogHint}</p>
         </div>
       </div>
     </div>
@@ -312,7 +312,7 @@ export function MegaMenu({ navKey, onNavigate }: MegaMenuProps) {
               <MegaMenuLink
                 to="/applications"
                 onClick={onNavigate}
-                className="mt-2 inline-flex items-center gap-1 px-3 text-sm font-semibold text-dark hover:text-primary"
+                className="mt-2 inline-flex items-center gap-1 px-3 text-sm font-semibold text-white/90 hover:text-primary"
               >
                 {t.mega.viewAllApps}
                 <ArrowRight className="h-4 w-4" aria-hidden />

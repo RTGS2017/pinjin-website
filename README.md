@@ -68,9 +68,9 @@ python deploy/generate_sitemaps.py
 - 选型指南：`/product-selection-guide`
 - 应用页：`/applications`
 - Blog：`/blog`、`/blog/:slug`（静态数据 `src/data/blog.ts`）
-- 产品详情：Overview / Applications / Specs / Advantages / Why Factory / Manufacturing Process / FAQ（≥5）+ Related + 询盘表单 + Manufacturer GEO 块
-- 组织 / 产品 JSON-LD：不含价格与评分
-- 图片：每产品独立目录 `{slug}/main.webp`（见 `图片准备清单.md`）
+- 产品详情：Overview / Applications / Specs / Advantages / Why Factory / Manufacturer Capability / Manufacturing Process / FAQ（≥5）+ Related + 询盘表单 + Manufacturer GEO 块
+- 组织 / 产品 JSON-LD：不含价格与评分；Organization 含工厂 Image 数组，工厂图另有 ImageObject
+- 图片：每产品独立目录 `{slug}/main.webp`；工厂图见 `图片准备清单.md`
 
 ---
 
@@ -112,6 +112,12 @@ Blog 文章：
 src/data/blog.ts
 ```
 
+工厂能力轮播（幻灯片路径 / ALT / 关键词）：
+
+```text
+src/data/factory.ts
+```
+
 制造流程 / 工厂决策要点（仅用已核实表述）：
 
 ```text
@@ -150,6 +156,15 @@ src/index.css
 当前共 **22** 个产品实体，录入 `src/data/products.ts`。
 
 图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示（只上传 1 张就只显示 1 张）。同目录补传 `detail-1.webp` / `working.webp` 后重新构建，图集才会增加。文件不存在或 GitHub Pages 回落到 `404.html` 时显示占位，**不会挡住已有主图**。
+
+工厂图放在 `public/images/factory/`。微信原图放入后运行：
+
+```powershell
+python deploy/process_factory_images.py
+python deploy/generate_sitemaps.py
+```
+
+会把全部工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名（见清单，当前 9 张全部使用）。首页 Hero 之后为全宽 **Manufacturing Capability** 轮播（标题/描述/GEO/CTA，不是空 Banner）；同一数据用于 About 工厂一览、产品详情厂商能力条、制造流程 Blog。
 
 重新生成 sitemap / robots：
 
@@ -218,7 +233,7 @@ https://rtgs2017.github.io/pinjin-website/
 
 | 路径 | 说明 |
 |------|------|
-| `/` | 首页 |
+| `/` | 首页（Hero 后为工厂能力轮播；主视觉保留深色渐变、背景图 CSS 水平镜像） |
 | `/products` | 全部产品 |
 | `/products/category/:slug` | 分类 |
 | `/products/:slug` | 产品详情（含询盘表单） |
@@ -230,7 +245,7 @@ https://rtgs2017.github.io/pinjin-website/
 | `/blog/:slug` | 文章详情 |
 | `/contact` | 联系（询盘表单） |
 
-顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，白底面板贴在深色顶栏下方并与顶栏同宽；鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮「询价」按钮；联系页隐藏以免重复。
+顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮「询价」按钮；联系页隐藏以免重复。
 
 ### 询盘表单
 
@@ -240,7 +255,7 @@ https://rtgs2017.github.io/pinjin-website/
 
 ### 新增 Blog 文章
 
-1. 在 [`src/data/blog.ts`](src/data/blog.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、内链）。
+1. 在 [`src/data/blog.ts`](src/data/blog.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、内链；可选 `image` 引用 `factory.ts`）。
 2. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`。
 3. 运行 `python deploy/generate_sitemaps.py`。
 
@@ -269,6 +284,7 @@ https://rtgs2017.github.io/pinjin-website/
 仍保留且继续使用的工具脚本：
 
 - `deploy/process_product_images.py`（产品图 WebP）
+- `deploy/process_factory_images.py`（工厂图 16:9 WebP + SEO 文件名）
 - `deploy/generate_sitemaps.py`（sitemap / robots）
 - `deploy/copy-spa-404.mjs`（构建后 SPA 404 回退）
 

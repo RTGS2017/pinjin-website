@@ -4,8 +4,9 @@ import { Button } from '@/components/ui/Button';
 import { CompanyEntity } from '@/components/CompanyEntity';
 import { contactInquiryPath } from '@/config/site';
 import { companyEntity } from '@/config/entity';
-import { SEO, buildOrganizationJsonLd } from '@/components/SEO';
+import { SEO, buildFactoryImageJsonLdList, buildOrganizationJsonLd } from '@/components/SEO';
 import { ManufacturingProcess } from '@/components/sections/ManufacturingProcess';
+import { FactoryOverview } from '@/components/sections/FactoryOverview';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function About() {
@@ -33,7 +34,7 @@ export function About() {
             : 'Learn who Hebei Pinjin Machinery is: a construction equipment manufacturer in Xingtai, China, producing concrete pumps, mortar spraying machines and plaster spraying machines.'
         }
         path="/about"
-        jsonLd={buildOrganizationJsonLd()}
+        jsonLd={[buildOrganizationJsonLd(), ...buildFactoryImageJsonLdList(lang)]}
       />
       <div className="container-site">
         <SectionTitle
@@ -107,6 +108,10 @@ export function About() {
                 : 'Pinjin is a professional source manufacturer of delivery pumps, covering R&D, production and sales. Quality philosophy follows quality oriented, innovation driven, environmental friendly and customer first. Manufacturing emphasizes advanced production equipment, a complete testing system and full-process quality control.'}
             </p>
           </section>
+        </div>
+
+        <div className="mt-16">
+          <FactoryOverview />
         </div>
 
         <div className="mt-12">

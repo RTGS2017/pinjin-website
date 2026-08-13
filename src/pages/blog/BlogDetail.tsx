@@ -7,6 +7,7 @@ import {
 } from '@/components/SEO';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { InquiryForm } from '@/components/forms/InquiryForm';
+import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { blogCategoryMeta, getBlogPost } from '@/data/blog';
 import { getProductBySlug } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
@@ -98,6 +99,25 @@ export function BlogDetail() {
                   {tx(paragraph)}
                 </p>
               ))}
+              {section.image ? (
+                <figure className="mt-5 overflow-hidden border border-border bg-bg-soft">
+                  <ImagePlaceholder
+                    src={section.image.src}
+                    alt={tx(section.image.alt)}
+                    label={t.placeholder.factory}
+                    hint=""
+                    width={1920}
+                    height={1080}
+                    className="aspect-video w-full"
+                    imgClassName="object-cover"
+                  />
+                  {section.image.caption ? (
+                    <figcaption className="px-4 py-3 text-sm text-text-secondary">
+                      {tx(section.image.caption)}
+                    </figcaption>
+                  ) : null}
+                </figure>
+              ) : null}
               {section.bullets?.length ? (
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-text-secondary">
                   {section.bullets.map((item) => (

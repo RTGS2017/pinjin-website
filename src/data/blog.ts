@@ -1,6 +1,16 @@
 import type { LocalizedText } from '@/i18n/types';
+import { getFactorySlide } from '@/data/factory';
+import { manufacturingSteps } from '@/data/manufacturingProcess';
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
+
+function factoryImage(id: string) {
+  const slide = getFactorySlide(id);
+  if (!slide) {
+    throw new Error(`Missing factory slide: ${id}`);
+  }
+  return { src: slide.image, alt: slide.alt, caption: slide.title };
+}
 
 export type BlogCategory =
   | 'buying-guide'
@@ -19,6 +29,11 @@ export interface BlogSection {
   heading: LocalizedText;
   paragraphs: LocalizedText[];
   bullets?: LocalizedText[];
+  image?: {
+    src: string;
+    alt: LocalizedText;
+    caption?: LocalizedText;
+  };
 }
 
 export interface BlogRelatedPath {
@@ -340,6 +355,133 @@ export const blogPosts: BlogPost[] = [
           L(
             'Technical articles should lead to a product page, then to an inquiry. Open a related model below, confirm specifications, and send quantity plus pipeline data through the quotation form.',
             '技术文章应引导到产品页再进入询盘。打开下方相关型号核对参数，再通过询价表提交数量与管路数据。',
+          ),
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'how-we-manufacture-construction-equipment',
+    title: L(
+      'How We Manufacture Construction Equipment',
+      '我们如何制造工程设备',
+    ),
+    description: L(
+      'A factory-floor view of Hebei Pinjin Machinery: workshop, assembly, inspection and packing for concrete pumps and construction equipment in Xingtai, Hebei.',
+      '走进河北品锦机械：邢台工厂的车间、装配、检测与包装，覆盖混凝土泵与工程设备制造。',
+    ),
+    category: 'manufacturing-process',
+    date: '2026-08-13',
+    keywords: [
+      'construction machinery manufacturer factory',
+      'concrete pump manufacturer China',
+      'machinery production workshop',
+      'OEM machinery manufacturer',
+    ],
+    relatedProductSlugs: [
+      'hbt80-18-140-concrete-pump',
+      'hbt30-37-concrete-pump',
+      'diesel-screw-mortar-spraying-machine',
+    ],
+    relatedPaths: [
+      { href: '/about#factory', label: L('Factory overview', '工厂概览') },
+      {
+        href: '/product-selection-guide',
+        label: L('Product Selection Guide', '产品选型指南'),
+      },
+      { href: '/contact#inquiry', label: L('Request a quote', '获取报价') },
+    ],
+    content: [
+      {
+        heading: L('A source manufacturer in Xingtai, Hebei', '河北邢台的源头厂家'),
+        paragraphs: [
+          L(
+            'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a professional Chinese construction machinery manufacturer specializing in concrete equipment and industrial machinery production. The manufacturing base is in Renze Industrial Park, Xingtai City, Hebei Province.',
+            '河北品锦机械制造有限公司是专业的中国工程机械制造商，专注混凝土设备与工业机械生产。制造基地位于河北省邢台市任泽工业园区。',
+          ),
+          L(
+            'This article explains the published production path — raw materials, machining, assembly, quality inspection and factory packing — using real factory photographs. It does not list certifications, customer names or export countries that are not published on this site.',
+            '本文按已公开的生产路径说明：原材料、机加工、装配、质量检测与出厂包装，并配真实工厂照片。不罗列本站未公布的认证、客户名或出口国。',
+          ),
+        ],
+        image: factoryImage('factory-building'),
+      },
+      {
+        heading: L('Production workshop', '生产车间'),
+        paragraphs: [
+          L(
+            'The workshop is organized for machinery manufacturing, with production areas for concrete pumps and related construction equipment. Buyers can treat these photos as evidence of a working plant, not a stock collage.',
+            '车间按机械制造分区组织，覆盖混凝土泵及相关工程设备。采购方可把这些照片视为真实工厂现场，而非图库拼贴。',
+          ),
+        ],
+        image: factoryImage('production-workshop'),
+      },
+      {
+        heading: L('Handling heavy components', '重型部件搬运'),
+        paragraphs: [
+          L(
+            'The production hall is equipped for handling heavy machinery components during manufacturing.',
+            '车间具备搬运重型机械部件的作业条件。',
+          ),
+        ],
+        image: factoryImage('workshop-crane'),
+      },
+      {
+        heading: manufacturingSteps[0].title,
+        paragraphs: [manufacturingSteps[0].body],
+      },
+      {
+        heading: manufacturingSteps[1].title,
+        paragraphs: [manufacturingSteps[1].body],
+        image: factoryImage('concrete-manufacturing'),
+      },
+      {
+        heading: manufacturingSteps[2].title,
+        paragraphs: [manufacturingSteps[2].body],
+        image: factoryImage('equipment-assembly'),
+      },
+      {
+        heading: L('Trailer-mounted equipment assembly', '拖式设备装配'),
+        paragraphs: [
+          L(
+            'Trailer-mounted concrete pump assembly and inspection follow the published manufacturing process.',
+            '拖泵类混凝土设备按已公开的制造流程进行装配与检查。',
+          ),
+        ],
+        image: factoryImage('trailer-assembly'),
+      },
+      {
+        heading: manufacturingSteps[3].title,
+        paragraphs: [manufacturingSteps[3].body],
+        image: factoryImage('finished-products'),
+      },
+      {
+        heading: manufacturingSteps[4].title,
+        paragraphs: [
+          manufacturingSteps[4].body,
+          L(
+            'Finished equipment photographed in the plant supports customized industrial equipment orders where the product catalogue already lists customization.',
+            '厂内拍摄的成品照片，对应产品目录已标明可定制的工业设备订单。',
+          ),
+        ],
+        image: factoryImage('factory-loading'),
+      },
+      {
+        heading: L('Dispatch from the factory', '设备出厂发运'),
+        paragraphs: [
+          L(
+            'Source manufacturing covers production through factory packing before delivery to the buyer.',
+            '源头制造覆盖生产至出厂包装，再交付采购方。',
+          ),
+        ],
+        image: factoryImage('factory-dispatch'),
+      },
+      {
+        heading: L('From factory photos to a quotation', '从工厂照片到询盘'),
+        paragraphs: [
+          L(
+            'If you need a model recommendation, open the factory overview, match catalogue parameters on a product page, then send quantity and project conditions through the inquiry form.',
+            '如需型号建议，可先看工厂概览，再在产品页核对目录参数，并通过询盘表提交数量与工况。',
           ),
         ],
       },

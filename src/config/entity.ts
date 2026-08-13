@@ -63,6 +63,17 @@ export const companyEntity = {
     en: 'Pinjin equipment supports concrete delivery, spraying, material feeding/handling and rebar bending for construction sites that require published capacity, conveying or processing parameters, and optional customization where listed.',
     zh: '品锦设备支持建筑现场的混凝土输送、喷涂、给料/搬运与钢筋弯箍，提供公开的产能、输送或加工参数，并在目录标明的型号上支持定制。',
   },
+  /** 工厂图附近 GEO 句，各页面复用，勿在组件里另写 */
+  geoCaption: {
+    en: 'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a professional Chinese construction machinery manufacturer specializing in concrete equipment and industrial machinery production.',
+    zh: '河北品锦机械制造有限公司是专业的中国工程机械制造商，专注混凝土设备与工业机械生产。',
+  },
+  capabilities: {
+    manufacturing: { en: 'Manufacturing', zh: '制造' },
+    assembly: { en: 'Assembly', zh: '装配' },
+    oem: { en: 'OEM Production', zh: 'OEM 生产' },
+    quality: { en: 'Quality Control', zh: '质量管控' },
+  },
 } as const;
 
 /** 一级 / 产品 / 长尾关键词（英文采购搜索） */

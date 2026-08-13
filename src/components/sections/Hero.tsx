@@ -16,8 +16,8 @@ export function Hero() {
           priority
           width={1920}
           height={814}
-          className="h-full w-full"
-          imgClassName="object-cover opacity-40"
+          className="h-full w-full !bg-transparent"
+          imgClassName="object-cover -scale-x-100"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/85 to-dark/40" />
       </div>

@@ -15,7 +15,7 @@ export const seoConfig = {
     name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
     alternateName: '河北品锦机械制造有限公司',
     description:
-      'Professional source manufacturer of delivery pumps. R&D, production and sales of construction machinery such as concrete pumps.',
+      'Professional source manufacturer of delivery pumps. Chinese construction machinery manufacturer specializing in concrete pumps, spraying equipment and industrial machinery. R&D, production and sales in Xingtai, Hebei.',
     address: {
       streetAddress: 'Renze Industrial Park',
       addressLocality: 'Xingtai',

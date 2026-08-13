@@ -84,6 +84,46 @@ BLOG_SLUGS = [
     "diesel-vs-electric-concrete-pump",
     "mortar-spraying-machine-buying-guide",
     "concrete-pump-conveying-distance-guide",
+    "how-we-manufacture-construction-equipment",
+]
+
+FACTORY_IMAGES = [
+    (
+        "pinjin-construction-machinery-factory-building.webp",
+        "Modern manufacturing facility of Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-machinery-production-workshop.webp",
+        "Production workshop of Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-machinery-workshop-overhead-crane.webp",
+        "Production workshop with overhead crane at Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-concrete-pump-manufacturing.webp",
+        "Concrete pump manufacturing at Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-trailer-concrete-pump-assembly.webp",
+        "Trailer concrete pump assembly at Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-equipment-assembly-line.webp",
+        "Equipment assembly workshop of Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-finished-machinery-products.webp",
+        "Finished construction machinery at Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-construction-machinery-factory-loading.webp",
+        "Factory packing and loading at Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-diesel-machinery-factory-dispatch.webp",
+        "Equipment dispatch from Hebei Pinjin Machinery factory",
+    ),
 ]
 
 
@@ -201,8 +241,27 @@ def main() -> None:
             f"      <image:loc>{base}/images/hero/hero-main-hebei-pinjin-machinery-factory.webp</image:loc>",
             "      <image:title>Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior</image:title>",
             "    </image:image>",
-            "  </url>",
         ]
+        for fname, title in FACTORY_IMAGES:
+            img_lines += [
+                "    <image:image>",
+                f"      <image:loc>{base}/images/factory/{fname}</image:loc>",
+                f"      <image:title>{title}</image:title>",
+                "    </image:image>",
+            ]
+        img_lines += [
+            "  </url>",
+            "  <url>",
+            f"    <loc>{base}/{lang}/about</loc>",
+        ]
+        for fname, title in FACTORY_IMAGES:
+            img_lines += [
+                "    <image:image>",
+                f"      <image:loc>{base}/images/factory/{fname}</image:loc>",
+                f"      <image:title>{title}</image:title>",
+                "    </image:image>",
+            ]
+        img_lines.append("  </url>")
         for s in SLUGS:
             main_img = ROOT / "images" / "products" / s / "main.webp"
             if not main_img.exists():

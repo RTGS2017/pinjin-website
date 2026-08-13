@@ -20,6 +20,7 @@ import {
   buildProductJsonLd,
 } from '@/components/SEO';
 import { WhyFactory } from '@/components/sections/WhyFactory';
+import { FactoryProofStrip } from '@/components/sections/FactoryOverview';
 import { ManufacturingProcess } from '@/components/sections/ManufacturingProcess';
 import { InquiryForm } from '@/components/forms/InquiryForm';
 import { useI18n } from '@/i18n/I18nContext';
@@ -300,6 +301,8 @@ export function ProductDetail() {
         </section>
 
         <WhyFactory />
+
+        <FactoryProofStrip />
 
         <div className="mt-14">
           <ManufacturingProcess compact />

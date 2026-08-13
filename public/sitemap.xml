@@ -306,6 +306,14 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-we-manufacture-construction-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh" />
@@ -606,6 +614,14 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/how-we-manufacture-construction-equipment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-we-manufacture-construction-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
