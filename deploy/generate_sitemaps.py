@@ -274,8 +274,23 @@ def main() -> None:
                 f"      <image:loc>{base}/images/products/{s}/main.webp</image:loc>",
                 f"      <image:title>{n} manufactured by Hebei Pinjin Machinery</image:title>",
                 "    </image:image>",
-                "  </url>",
             ]
+            extras = [
+                ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery"),
+                ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery"),
+                ("detail-1.webp", f"{n} product detail — Hebei Pinjin Machinery"),
+            ]
+            folder = ROOT / "images" / "products" / s
+            for fname, title in extras:
+                if not (folder / fname).exists():
+                    continue
+                img_lines += [
+                    "    <image:image>",
+                    f"      <image:loc>{base}/images/products/{s}/{fname}</image:loc>",
+                    f"      <image:title>{title}</image:title>",
+                    "    </image:image>",
+                ]
+            img_lines.append("  </url>")
     img_lines.append("</urlset>")
     (ROOT / "image-sitemap.xml").write_text(
         "\n".join(img_lines) + "\n", encoding="utf-8"

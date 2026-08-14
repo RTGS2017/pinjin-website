@@ -8,7 +8,21 @@ interface ProductGalleryProps {
   alt: string;
 }
 
-const OPTIONAL_FILES = ['detail-1.webp', 'working.webp'] as const;
+const OPTIONAL_FILES = ['detail-1.webp', 'working.webp', 'working-2.webp'] as const;
+
+function galleryAlt(src: string, baseAlt: string): string {
+  if (src.endsWith('/working-2.webp')) {
+    return `${baseAlt.replace(/ manufactured by Hebei Pinjin Machinery$/i, '')} construction site application manufactured by Hebei Pinjin Machinery`;
+  }
+  if (src.endsWith('/working.webp')) {
+    return `${baseAlt.replace(/ manufactured by Hebei Pinjin Machinery$/i, '')} working on a construction site manufactured by Hebei Pinjin Machinery`;
+  }
+  return baseAlt;
+}
+
+function isWorkingSrc(src: string): boolean {
+  return /\/working(?:-2)?\.webp$/.test(src);
+}
 
 /** SPA 的 404.html 可能以 200 返回，用 naturalWidth 判断是否真图 */
 function confirmImage(src: string): Promise<boolean> {
@@ -68,14 +82,14 @@ export function ProductGallery({ images, alt }: ProductGalleryProps) {
     <div>
       <ImagePlaceholder
         src={current}
-        alt={alt}
+        alt={galleryAlt(current, alt)}
         label={t.productCard.imageComingSoon}
         hint={t.placeholder.productHint}
         priority
-        width={1200}
-        height={760}
+        width={isWorkingSrc(current) ? 1600 : 1200}
+        height={isWorkingSrc(current) ? 1200 : 760}
         className="aspect-square w-full border border-border"
-        imgClassName="object-contain p-8"
+        imgClassName={isWorkingSrc(current) ? 'object-cover' : 'object-contain p-8'}
       />
       {gallery.length > 1 ? (
         <div className={`mt-3 grid gap-2 ${thumbCols}`}>
@@ -88,7 +102,7 @@ export function ProductGallery({ images, alt }: ProductGalleryProps) {
                 'border bg-bg-soft',
                 index === active ? 'border-primary' : 'border-border',
               ].join(' ')}
-              aria-label={`${alt} ${index + 1}`}
+              aria-label={`${galleryAlt(src, alt)} ${index + 1}`}
               aria-pressed={index === active}
             >
               <ImagePlaceholder
@@ -99,7 +113,7 @@ export function ProductGallery({ images, alt }: ProductGalleryProps) {
                 width={400}
                 height={400}
                 className="aspect-square w-full"
-                imgClassName="object-contain p-2"
+                imgClassName={isWorkingSrc(src) ? 'object-cover' : 'object-contain p-2'}
               />
             </button>
           ))}

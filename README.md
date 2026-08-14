@@ -155,7 +155,7 @@ src/index.css
 产品数据唯一来源：根目录《河北品锦机械制造有限公司产品目录》。  
 当前共 **22** 个产品实体，录入 `src/data/products.ts`。
 
-图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示（只上传 1 张就只显示 1 张）。同目录补传 `detail-1.webp` / `working.webp` 后重新构建，图集才会增加。文件不存在或 GitHub Pages 回落到 `404.html` 时显示占位，**不会挡住已有主图**。
+图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示。施工现场图放到 `public/images/products/` 根目录（中文产品名 JPG，第二张加 `2`）后运行 `python deploy/process_product_images.py`，会写入对应 `{slug}/working.webp`（及 `working-2.webp`），4:3 裁切、SEO 文件名，不在 URL 中保留中文文件名。
 
 工厂图放在 `public/images/factory/`。微信原图放入后运行：
 
