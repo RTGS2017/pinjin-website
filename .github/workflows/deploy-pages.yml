@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -41,6 +41,14 @@ jobs:
           VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH || '/pinjin-website/' }}
           VITE_FORMSPREE_ENDPOINT: ${{ vars.VITE_FORMSPREE_ENDPOINT }}
         run: npm run build
+
+      - name: Publish dist to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          force_orphan: true
+          destination_dir: .
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

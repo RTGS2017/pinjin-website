@@ -197,14 +197,17 @@ npm run preview
 ### 一次性设置
 
 1. 在 GitHub 新建仓库，将本目录推送到 `main`。
-2. **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**。
-3. **Settings → Secrets and variables → Actions → Variables** 配置：
+2. **Settings → Pages → Build and deployment → Source** 必须二选一（**不要选 `main` 根目录**）：
+   - 推荐：**GitHub Actions**
+   - 或 **Deploy from a branch**，Branch 选 **`gh-pages`** / `(root)`
+3. 若 Source 选了 `main` / `(root)`，GitHub 会用 Jekyll 直接发布源码 `index.html`（里面是 `/src/main.tsx`），浏览器无法运行 TypeScript，页面空白。工作流会把 Vite 的 `dist/` 同步到 `gh-pages`。
+4. **Settings → Secrets and variables → Actions → Variables** 配置：
    - `VITE_CONTACT_EMAIL`
    - `VITE_CONTACT_PHONE`
    - `VITE_SITE_URL`（正式域名前可用 `https://YOUR_USER.github.io/YOUR_REPO`）
    - 可选：`VITE_BASE_PATH`（自定义域名根站不要设，或设为 `/`）
    - 可选：`VITE_FORMSPREE_ENDPOINT`（Formspree 表单 URL；不设则询盘回退 mailto）
-4. push 到 `main` 后 Actions 自动构建并发布。
+5. push 到 `main` 后 Actions 自动构建并发布。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
 
