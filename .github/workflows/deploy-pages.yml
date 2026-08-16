@@ -36,10 +36,10 @@ jobs:
         env:
           VITE_CONTACT_EMAIL: ${{ vars.VITE_CONTACT_EMAIL }}
           VITE_CONTACT_PHONE: ${{ vars.VITE_CONTACT_PHONE }}
+          VITE_WHATSAPP_NUMBER: ${{ vars.VITE_WHATSAPP_NUMBER }}
           # Defaults match GitHub project Pages until custom domain Variables are set
           VITE_SITE_URL: ${{ vars.VITE_SITE_URL || 'https://rtgs2017.github.io/pinjin-website' }}
           VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH || '/pinjin-website/' }}
-          VITE_FORMSPREE_ENDPOINT: ${{ vars.VITE_FORMSPREE_ENDPOINT }}
         run: npm run build
 
       - name: Publish dist to gh-pages

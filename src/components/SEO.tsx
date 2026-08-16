@@ -1,6 +1,7 @@
-﻿import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 import { absoluteUrl, seoConfig } from '@/config/seo';
 import { factorySlides, getFactoryImagePaths, type FactorySlide } from '@/data/factory';
+import type { GalleryItem } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
 import { defaultLang, getLanguage, languages } from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
@@ -36,11 +37,19 @@ export function SEO({
   const ogImage = absoluteUrl(image);
   const langMeta = getLanguage(lang);
 
-  const schemas = jsonLd
+  const incoming = jsonLd
     ? Array.isArray(jsonLd)
       ? jsonLd
       : [jsonLd]
     : [];
+  const hasOrg = incoming.some((schema) => {
+    const type = schema['@type'];
+    return (
+      type === 'Organization' ||
+      (Array.isArray(type) && type.includes('Organization'))
+    );
+  });
+  const schemas = hasOrg ? incoming : [buildOrganizationJsonLd(), ...incoming];
 
   return (
     <Helmet>
@@ -112,14 +121,15 @@ export function buildOrganizationJsonLd() {
     telephone: import.meta.env.VITE_CONTACT_PHONE || undefined,
     image: getFactoryImagePaths().map((path) => absoluteUrl(path)),
     knowsAbout: [
-      'Concrete pump',
-      'Concrete pump manufacturer',
-      'Concrete pump supplier China',
-      'Mortar spraying machine',
-      'Plaster spraying machine',
-      'Construction equipment manufacturer China',
+      'Concrete Machinery Manufacturer China',
+      'Concrete Pump Manufacturer China',
+      'Concrete Spraying Equipment Manufacturer',
+      'Xingjiawan Concrete Machinery',
+      'Xingtai Construction Machinery Factory',
+      'OEM Concrete Equipment Manufacturer',
     ],
     brand: seoConfig.siteName,
+    industry: 'Construction Machinery Manufacturer',
     address: {
       '@type': 'PostalAddress',
       streetAddress: seoConfig.organization.address.streetAddress,
@@ -146,6 +156,52 @@ export function buildFactoryImageJsonLdList(lang: Lang) {
   return factorySlides.map((slide) => buildImageObjectJsonLd(slide, lang));
 }
 
+export function buildHeroGalleryJsonLdList(items: GalleryItem[], lang: Lang) {
+  return items.map((item) => ({
+    '@context': 'https://schema.org',
+    '@type': 'ImageObject',
+    name: pick(item.title, lang),
+    description: pick(item.alt, lang),
+    contentUrl: absoluteUrl(item.image),
+    caption: pick(item.alt, lang),
+    keywords: item.seoKeywords.join(', '),
+    creator: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+    },
+    contentLocation: {
+      '@type': 'Place',
+      name: 'Xingtai, Hebei, China',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: seoConfig.organization.address.addressLocality,
+        addressRegion: seoConfig.organization.address.addressRegion,
+        addressCountry: seoConfig.organization.address.addressCountry,
+      },
+    },
+    about: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+      industry: 'Concrete Machinery Manufacturer',
+    },
+  }));
+}
+
+export function buildMediaImageJsonLd(input: {
+  name: string;
+  description: string;
+  image: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageObject',
+    name: input.name,
+    description: input.description,
+    contentUrl: absoluteUrl(input.image),
+    caption: input.description,
+  };
+}
+
 export function buildProductJsonLd(input: {
   name: string;
   description: string;
@@ -159,7 +215,11 @@ export function buildProductJsonLd(input: {
     '@type': 'Product',
     name: input.name,
     description: input.description,
-    image: absoluteUrl(input.image),
+    image: {
+      '@type': 'ImageObject',
+      url: absoluteUrl(input.image),
+      name: input.name,
+    },
     url: absoluteUrl(input.path),
     category: input.category,
     brand: {
@@ -170,6 +230,13 @@ export function buildProductJsonLd(input: {
       '@type': 'Organization',
       name: seoConfig.organization.name,
       url: seoConfig.siteUrl,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: seoConfig.organization.address.streetAddress,
+        addressLocality: seoConfig.organization.address.addressLocality,
+        addressRegion: seoConfig.organization.address.addressRegion,
+        addressCountry: seoConfig.organization.address.addressCountry,
+      },
     },
   };
 }
@@ -212,6 +279,7 @@ export function buildArticleJsonLd(input: {
   path: string;
   datePublished: string;
   keywords?: string;
+  image?: string;
 }) {
   return {
     '@context': 'https://schema.org',
@@ -222,6 +290,13 @@ export function buildArticleJsonLd(input: {
     dateModified: input.datePublished,
     mainEntityOfPage: absoluteUrl(input.path),
     keywords: input.keywords,
+    image: input.image
+      ? {
+          '@type': 'ImageObject',
+          url: absoluteUrl(input.image),
+          name: input.headline,
+        }
+      : undefined,
     author: {
       '@type': 'Organization',
       name: seoConfig.organization.name,
@@ -235,6 +310,34 @@ export function buildArticleJsonLd(input: {
         '@type': 'ImageObject',
         url: absoluteUrl(seoConfig.organization.logoPath),
       },
+    },
+  };
+}
+
+export function buildCollectionPageJsonLd(input: {
+  name: string;
+  description: string;
+  path: string;
+  items: Array<{ name: string; path: string }>;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: input.name,
+    description: input.description,
+    url: absoluteUrl(input.path),
+    isPartOf: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: input.items.map((item, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: item.name,
+        url: absoluteUrl(item.path),
+      })),
     },
   };
 }

@@ -24,7 +24,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-white/80">
               <li>
                 <LocaleLink
-                  to="/products/category/concrete-pumps"
+                  to="/products/concrete-pumps"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.concrete}
@@ -32,7 +32,7 @@ export function Footer() {
               </li>
               <li>
                 <LocaleLink
-                  to="/products/category/spraying-machines"
+                  to="/products/spraying-machines"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.spraying}
@@ -40,7 +40,7 @@ export function Footer() {
               </li>
               <li>
                 <LocaleLink
-                  to="/products/category/material-handling"
+                  to="/products/material-handling"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.material}
@@ -48,7 +48,7 @@ export function Footer() {
               </li>
               <li>
                 <LocaleLink
-                  to="/products/category/rebar-equipment"
+                  to="/products/rebar-equipment"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.rebar}
@@ -77,19 +77,27 @@ export function Footer() {
               </li>
               <li>
                 <LocaleLink
-                  to="/applications"
+                  to="/solutions"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.applications}
                 </LocaleLink>
               </li>
               <li>
-                <a
-                  href={withBase(localePath('/#factory', lang))}
+                <LocaleLink
+                  to="/factory"
                   className="hover:text-primary transition-colors"
                 >
                   {t.footer.factory}
-                </a>
+                </LocaleLink>
+              </li>
+              <li>
+                <LocaleLink
+                  to="/resources"
+                  className="hover:text-primary transition-colors"
+                >
+                  {t.nav.resources}
+                </LocaleLink>
               </li>
               <li>
                 <LocaleLink to="/blog" className="hover:text-primary transition-colors">

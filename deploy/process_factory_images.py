@@ -18,11 +18,11 @@ WEBP_QUALITY = 82
 
 # 原文件名 → SEO WebP（9 张全部使用）
 SOURCE_TO_OUTPUT = {
-    "微信图片_2026-08-13_225635_834.jpg": "pinjin-equipment-assembly-line.webp",
+    "微信图片_2026-08-13_225635_834.jpg": "pinjin-machinery-assembly-area.webp",
     "微信图片_2026-08-13_225651_795.jpg": "pinjin-concrete-pump-manufacturing.webp",
-    "微信图片_2026-08-13_225700_779.jpg": "pinjin-machinery-production-workshop.webp",
-    "微信图片_2026-08-13_225824_931.jpg": "pinjin-finished-machinery-products.webp",
-    "微信图片_2026-08-13_225846_838.jpg": "pinjin-construction-machinery-factory-building.webp",
+    "微信图片_2026-08-13_225700_779.jpg": "pinjin-production-workshop.webp",
+    "微信图片_2026-08-13_225824_931.jpg": "pinjin-equipment-storage.webp",
+    "微信图片_2026-08-13_225846_838.jpg": "pinjin-xingjiawan-concrete-machinery-factory.webp",
     "微信图片_2026-08-13_225936_976.jpg": "pinjin-construction-machinery-factory-loading.webp",
     "微信图片_2026-08-13_230001_380.jpg": "pinjin-diesel-machinery-factory-dispatch.webp",
     "微信图片_2026-08-13_230018_881.jpg": "pinjin-trailer-concrete-pump-assembly.webp",

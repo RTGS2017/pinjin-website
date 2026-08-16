@@ -57,7 +57,7 @@ export function Button(props: ButtonProps) {
   } = props;
 
   const classes = [
-    'inline-flex items-center justify-center gap-2 font-semibold tracking-wide uppercase transition-colors duration-200 rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary',
+    'inline-flex items-center justify-center gap-2 font-semibold tracking-wide transition-colors duration-200 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary',
     variants[variant],
     sizes[size],
     className,

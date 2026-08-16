@@ -11,9 +11,15 @@ interface ImagePlaceholderProps {
   hint?: string;
   /** Hero / LCP 图使用 eager + high fetch priority */
   priority?: boolean;
+  /** 非 LCP 但仍需立即解码（如 Hero 后续幻灯），避免淡入闪白 */
+  eager?: boolean;
+  /** 装饰性缩略图：允许空 alt，避免重复朗读 */
+  decorative?: boolean;
   /** 固有宽高，减少 CLS；与容器比例一致即可 */
   width?: number;
   height?: number;
+  /** 响应式提示，配合单一 WebP 源即可 */
+  sizes?: string;
 }
 
 export function ImagePlaceholder({
@@ -24,11 +30,16 @@ export function ImagePlaceholder({
   label = 'IMAGE',
   hint = 'Replace with actual photo',
   priority = false,
+  eager = false,
+  decorative = false,
   width,
   height,
+  sizes = '(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px',
 }: ImagePlaceholderProps) {
   const [failed, setFailed] = useState(false);
-  const meaningfulAlt = alt.trim() || 'Hebei Pinjin Machinery';
+  const meaningfulAlt = decorative
+    ? ''
+    : alt.trim() || 'Hebei Pinjin Machinery';
   const resolved = withBase(src);
 
   useEffect(() => {
@@ -38,8 +49,8 @@ export function ImagePlaceholder({
   return (
     <div
       className={`relative overflow-hidden bg-bg-soft ${className}`}
-      role="img"
-      aria-label={meaningfulAlt}
+      role={decorative ? undefined : 'img'}
+      aria-label={decorative ? undefined : meaningfulAlt}
     >
       {src && !failed ? (
         <img
@@ -48,9 +59,10 @@ export function ImagePlaceholder({
           alt={meaningfulAlt}
           width={width}
           height={height}
-          loading={priority ? 'eager' : 'lazy'}
+          loading={priority || eager ? 'eager' : 'lazy'}
           decoding="async"
           fetchPriority={priority ? 'high' : 'auto'}
+          sizes={sizes}
           onLoad={(event) => {
             if (event.currentTarget.naturalWidth <= 1) setFailed(true);
           }}

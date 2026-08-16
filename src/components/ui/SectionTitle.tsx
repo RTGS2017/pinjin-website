@@ -22,12 +22,12 @@ export function SectionTitle({
   return (
     <div className={`max-w-3xl ${alignClass} ${className}`}>
       {eyebrow ? (
-        <p className="mb-3 text-xs font-semibold tracking-[0.18em] text-primary uppercase">
+        <p className="mb-3 text-xs font-semibold tracking-[0.16em] text-primary uppercase">
           {eyebrow}
         </p>
       ) : null}
       <h2
-        className={`heading-display text-3xl sm:text-4xl lg:text-[2.75rem] whitespace-pre-line ${titleColor}`}
+        className={`heading-display text-3xl sm:text-4xl lg:text-5xl whitespace-pre-line ${titleColor}`}
       >
         {title}
       </h2>

@@ -6,6 +6,11 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /src/
+Disallow: /dev
+Disallow: /dev/
 
 Sitemap: https://rtgs2017.github.io/pinjin-website/sitemap.xml
 Sitemap: https://rtgs2017.github.io/pinjin-website/image-sitemap.xml

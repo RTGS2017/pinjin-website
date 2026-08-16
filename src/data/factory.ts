@@ -3,7 +3,6 @@ import type { LocalizedText } from '@/i18n/types';
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
 export const FACTORY_ASPECT = '16 / 9';
-export const FACTORY_AUTOPLAY_MS = 7000;
 export const FACTORY_IMAGE_WIDTH = 1920;
 export const FACTORY_IMAGE_HEIGHT = 1080;
 
@@ -24,23 +23,29 @@ export interface FactorySlide {
   schemaName: LocalizedText;
   schemaDescription: LocalizedText;
   keywords: string[];
+  locationContext: LocalizedText;
   geoFocus: FactoryGeoFocus;
 }
+
+const CLUSTER = L(
+  'Xingjiawan concrete machinery manufacturing area, Xingtai, Hebei, China. Factory address: Renze Industrial Park.',
+  '中国河北邢台邢家湾混凝土机械制造集聚区。工厂地址：邢台市任泽工业园区。',
+);
 
 export const factorySlides: FactorySlide[] = [
   {
     id: 'factory-building',
-    image: '/images/factory/pinjin-construction-machinery-factory-building.webp',
+    image: '/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp',
     width: FACTORY_IMAGE_WIDTH,
     height: FACTORY_IMAGE_HEIGHT,
-    title: L('Modern Manufacturing Facility', '现代化制造厂房'),
+    title: L('Modern Manufacturing Workshop', '现代化制造厂房'),
     description: L(
-      'Our factory provides professional manufacturing capabilities for construction machinery and industrial equipment.',
-      '工厂为工程机械与工业设备提供专业制造能力。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a concrete machinery manufacturer in Xingjiawan, Xingtai, Hebei, China, with capability in concrete equipment manufacturing, spraying equipment production and customized machinery.',
+      '河北品锦机械制造有限公司是位于中国河北邢台邢家湾的混凝土机械制造商，具备混凝土设备制造、喷涂设备生产与机械定制能力。',
     ),
     alt: L(
-      'Modern manufacturing facility of Chinese construction machinery manufacturer',
-      '中国工程机械制造商的现代化厂房外观',
+      'Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China',
+      '河北品锦机械位于中国邢家湾混凝土机械制造集聚区的工厂厂房',
     ),
     schemaName: L('Pinjin Machinery Factory Building', '品锦机械工厂厂房'),
     schemaDescription: L(
@@ -48,25 +53,26 @@ export const factorySlides: FactorySlide[] = [
       '河北品锦机械制造有限公司位于中国河北邢台的工厂厂房。',
     ),
     keywords: [
+      'xingjiawan concrete machinery',
+      'china concrete machinery manufacturer',
       'construction machinery manufacturer factory',
-      'industrial equipment manufacturing facility China',
-      'Chinese machinery factory',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'manufacturing',
   },
   {
     id: 'production-workshop',
-    image: '/images/factory/pinjin-machinery-production-workshop.webp',
+    image: '/images/factory/pinjin-production-workshop.webp',
     width: FACTORY_IMAGE_WIDTH,
     height: FACTORY_IMAGE_HEIGHT,
-    title: L('Large-Scale Production Workshop', '大规模生产车间'),
+    title: L('Production Workshop', '生产车间'),
     description: L(
-      'Equipped with organized production areas for efficient machinery manufacturing.',
-      '车间分区明确，支撑高效的机械制造作业。',
+      'The production workshop of Hebei Pinjin Machinery Manufacturing Co., Ltd. supports concrete equipment manufacturing and spraying equipment production in Xingtai, Hebei.',
+      '河北品锦机械制造有限公司生产车间支撑混凝土设备与喷涂设备制造，位于河北邢台。',
     ),
     alt: L(
-      'Large production workshop of Pinjin Machinery industrial equipment factory',
-      '品锦机械工业设备工厂的大型生产车间',
+      'Production workshop of Hebei Pinjin Machinery in Xingjiawan Xingtai Hebei China',
+      '河北邢台邢家湾品锦机械生产车间',
     ),
     schemaName: L('Pinjin Machinery Production Workshop', '品锦机械生产车间'),
     schemaDescription: L(
@@ -75,9 +81,10 @@ export const factorySlides: FactorySlide[] = [
     ),
     keywords: [
       'machinery production workshop',
-      'construction equipment manufacturing plant',
-      'factory production line China',
+      'concrete equipment manufacturing',
+      'china concrete machinery manufacturer',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'manufacturing',
   },
   {
@@ -87,12 +94,12 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Workshop With Overhead Lifting', '配备起重能力的生产车间'),
     description: L(
-      'The production hall is equipped for handling heavy machinery components during manufacturing.',
-      '车间具备搬运重型机械部件的作业条件。',
+      'Hebei Pinjin Machinery handles heavy machinery components in the Xingjiawan concrete machinery manufacturing area during assembly and production.',
+      '品锦机械在邢家湾混凝土机械制造集聚区内完成重型部件吊运与生产作业。',
     ),
     alt: L(
-      'Pinjin Machinery production workshop with overhead crane for construction equipment manufacturing',
-      '品锦机械配备行车的工程设备生产车间',
+      'Pinjin Machinery workshop with overhead crane in Xingjiawan concrete machinery area China',
+      '邢家湾混凝土机械集聚区品锦机械配备行车的生产车间',
     ),
     schemaName: L('Pinjin Workshop Overhead Crane', '品锦机械车间行车'),
     schemaDescription: L(
@@ -102,8 +109,9 @@ export const factorySlides: FactorySlide[] = [
     keywords: [
       'construction equipment manufacturing plant',
       'machinery production workshop',
-      'industrial machinery factory China',
+      'xingjiawan concrete machinery',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'manufacturing',
   },
   {
@@ -111,17 +119,14 @@ export const factorySlides: FactorySlide[] = [
     image: '/images/factory/pinjin-concrete-pump-manufacturing.webp',
     width: FACTORY_IMAGE_WIDTH,
     height: FACTORY_IMAGE_HEIGHT,
-    title: L(
-      'Concrete Equipment Manufacturing Capability',
-      '混凝土设备制造能力',
-    ),
+    title: L('Concrete Pump Manufacturing', '混凝土泵制造'),
     description: L(
-      'Professional manufacturing process for concrete pumps and construction equipment.',
-      '面向混凝土泵与工程设备的专业制造过程。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. manufactures concrete pumps as a concrete machinery manufacturer in Xingtai, Hebei, China.',
+      '河北品锦机械制造有限公司作为混凝土机械制造商，在河北邢台制造混凝土泵。',
     ),
     alt: L(
-      'Concrete pump and construction equipment manufacturing factory in China',
-      '中国混凝土泵与工程设备制造现场',
+      'Concrete pump manufacturing at Hebei Pinjin Machinery factory in Xingjiawan China',
+      '中国邢家湾品锦机械工厂的混凝土泵制造现场',
     ),
     schemaName: L(
       'Pinjin Concrete Equipment Manufacturing',
@@ -133,9 +138,10 @@ export const factorySlides: FactorySlide[] = [
     ),
     keywords: [
       'concrete pump manufacturer China',
-      'concrete spraying equipment factory',
-      'construction machinery supplier',
+      'concrete equipment manufacturing',
+      'xingjiawan concrete machinery',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'oem',
   },
   {
@@ -143,14 +149,14 @@ export const factorySlides: FactorySlide[] = [
     image: '/images/factory/pinjin-trailer-concrete-pump-assembly.webp',
     width: FACTORY_IMAGE_WIDTH,
     height: FACTORY_IMAGE_HEIGHT,
-    title: L('Concrete Pump Assembly On Site', '混凝土泵现场装配'),
+    title: L('Concrete Pump Assembly', '混凝土泵装配'),
     description: L(
-      'Trailer-mounted concrete pump assembly and inspection follow the published manufacturing process.',
-      '拖泵类混凝土设备按已公开的制造流程进行装配与检查。',
+      'Trailer concrete pump assembly follows the published manufacturing process at Hebei Pinjin Machinery, a concrete machinery manufacturer offering customized machinery.',
+      '拖式混凝土泵按已公开制造流程在品锦机械装配。品锦是具备机械定制能力的混凝土机械制造商。',
     ),
     alt: L(
-      'Trailer concrete pump assembly at Pinjin Machinery construction equipment factory',
-      '品锦机械工程设备工厂的拖式混凝土泵装配现场',
+      'Trailer concrete pump assembly at Pinjin Machinery in Xingjiawan Xingtai Hebei',
+      '河北邢台邢家湾品锦机械拖式混凝土泵装配现场',
     ),
     schemaName: L('Pinjin Trailer Concrete Pump Assembly', '品锦拖式混凝土泵装配'),
     schemaDescription: L(
@@ -159,24 +165,25 @@ export const factorySlides: FactorySlide[] = [
     ),
     keywords: [
       'concrete pump manufacturer China',
+      'customized machinery',
       'machinery assembly factory',
-      'construction machinery supplier',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'assembly',
   },
   {
     id: 'equipment-assembly',
-    image: '/images/factory/pinjin-equipment-assembly-line.webp',
+    image: '/images/factory/pinjin-machinery-assembly-area.webp',
     width: FACTORY_IMAGE_WIDTH,
     height: FACTORY_IMAGE_HEIGHT,
-    title: L('Precision Equipment Assembly', '精密设备装配'),
+    title: L('Machinery Assembly Area', '设备装配区'),
     description: L(
-      'Professional assembly and testing processes ensure stable equipment performance.',
-      '专业装配与检测流程，保障设备运行稳定。',
+      'The assembly area of Hebei Pinjin Machinery Manufacturing Co., Ltd. supports concrete equipment manufacturing and spraying equipment production.',
+      '河北品锦机械制造有限公司装配区支撑混凝土设备制造与喷涂设备生产。',
     ),
     alt: L(
-      'Pinjin Machinery precision equipment assembly workshop for construction machinery manufacturing',
-      '品锦机械工程设备精密装配车间',
+      'Machinery assembly area at Hebei Pinjin Machinery factory in Xingjiawan China',
+      '中国邢家湾品锦机械工厂设备装配区',
     ),
     schemaName: L('Pinjin Machinery Assembly Workshop', '品锦机械装配车间'),
     schemaDescription: L(
@@ -185,35 +192,37 @@ export const factorySlides: FactorySlide[] = [
     ),
     keywords: [
       'machinery assembly factory',
-      'industrial equipment production',
+      'spraying equipment production',
       'OEM machinery manufacturer',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'assembly',
   },
   {
     id: 'finished-products',
-    image: '/images/factory/pinjin-finished-machinery-products.webp',
+    image: '/images/factory/pinjin-equipment-storage.webp',
     width: FACTORY_IMAGE_WIDTH,
     height: FACTORY_IMAGE_HEIGHT,
-    title: L('Finished Equipment Inventory', '成品设备待发'),
+    title: L('Equipment Storage', '成品设备存放'),
     description: L(
-      'Reliable production capacity supporting customized industrial equipment orders.',
-      '稳定的生产能力，支持目录范围内的工业设备定制订单。',
+      'Finished construction machinery is stored at the factory of Hebei Pinjin Machinery Manufacturing Co., Ltd. before packing in Xingtai, Hebei.',
+      '河北品锦机械制造有限公司成品工程机械在邢台工厂包装前存放。',
     ),
     alt: L(
-      'Finished construction machinery products ready for shipment',
-      '待发运的工程机械成品',
+      'Finished machinery storage at Hebei Pinjin Machinery in Xingjiawan Xingtai China',
+      '河北邢台邢家湾品锦机械成品设备存放区',
     ),
     schemaName: L('Pinjin Finished Machinery Products', '品锦机械成品设备'),
     schemaDescription: L(
-      'Finished construction machinery ready for packing at Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+      'Finished construction machinery at Hebei Pinjin Machinery Manufacturing Co., Ltd.',
       '河北品锦机械制造有限公司待包装出厂的工程机械成品。',
     ),
     keywords: [
+      'factory direct machinery supplier',
       'industrial equipment supplier',
-      'OEM manufacturing capability',
-      'bulk machinery production',
+      'xingjiawan concrete machinery',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'quality',
   },
   {
@@ -223,12 +232,12 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Factory Packing And Loading', '出厂包装与装车'),
     description: L(
-      'Finished equipment is packed at the factory in Renze Industrial Park, Xingtai, Hebei.',
-      '成品在河北省邢台市任泽工业园区工厂完成包装与装车。',
+      'Finished equipment is packed at Hebei Pinjin Machinery Manufacturing Co., Ltd. in Renze Industrial Park, Xingtai, Hebei, China.',
+      '成品在河北品锦机械制造有限公司（河北省邢台市任泽工业园区）完成包装与装车。',
     ),
     alt: L(
-      'Construction machinery loaded for dispatch at Pinjin Machinery factory in Xingtai Hebei',
-      '河北邢台品锦机械工厂装车待发的工程设备',
+      'Construction machinery loading at Pinjin factory in Xingjiawan area Xingtai Hebei',
+      '河北邢台邢家湾集聚区品锦机械工厂装车待发的工程设备',
     ),
     schemaName: L('Pinjin Factory Loading', '品锦工厂装车'),
     schemaDescription: L(
@@ -236,10 +245,11 @@ export const factorySlides: FactorySlide[] = [
       '河北品锦机械制造有限公司出厂包装与装车。',
     ),
     keywords: [
+      'factory direct machinery supplier',
       'construction machinery manufacturer factory',
-      'industrial equipment supplier',
-      'factory packing construction equipment',
+      'china concrete machinery manufacturer',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'quality',
   },
   {
@@ -249,12 +259,12 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Equipment Dispatch From Factory', '设备出厂发运'),
     description: L(
-      'Source manufacturing covers production through factory packing before delivery to the buyer.',
-      '源头制造覆盖生产至出厂包装，再交付采购方。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. dispatches concrete and spraying equipment from its Xingtai factory after production and inspection.',
+      '河北品锦机械制造有限公司在生产与检测后，从邢台工厂发出混凝土与喷涂设备。',
     ),
     alt: L(
-      'Diesel construction equipment dispatched from Pinjin Machinery manufacturing factory',
-      '品锦机械制造工厂发出的柴油工程设备',
+      'Diesel construction equipment dispatch from Pinjin Machinery in Xingjiawan China',
+      '中国邢家湾品锦机械工厂发出的柴油工程设备',
     ),
     schemaName: L('Pinjin Factory Dispatch', '品锦设备出厂'),
     schemaDescription: L(
@@ -262,10 +272,11 @@ export const factorySlides: FactorySlide[] = [
       '河北品锦机械制造有限公司位于邢台的设备出厂发运。',
     ),
     keywords: [
-      'industrial equipment supplier',
-      'construction machinery manufacturer factory',
-      'OEM manufacturing capability',
+      'china concrete machinery manufacturer',
+      'factory direct machinery supplier',
+      'customized machinery',
     ],
+    locationContext: CLUSTER,
     geoFocus: 'quality',
   },
 ];

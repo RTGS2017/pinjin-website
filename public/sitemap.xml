@@ -6,6 +6,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,6 +15,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -22,23 +24,44 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/product-selection-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/product-selection-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/product-selection-guide" />
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/about</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/about" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/about" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/en/applications</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/applications" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/applications" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/applications" />
+    <loc>https://rtgs2017.github.io/pinjin-website/en/factory</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/factory" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/factory" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/factory" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/resources</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/resources" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -46,15 +69,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/faq" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/faq" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/contact</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/contact" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/contact" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -62,47 +87,53 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/products/concrete-pumps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-pumps" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/concrete-pumps" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-pumps" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/concrete-pumps" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps" />
+    <loc>https://rtgs2017.github.io/pinjin-website/en/products/spraying-machines</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/spraying-machines" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/spraying-machines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/spraying-machines" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/en/products/category/spraying-machines</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/spraying-machines" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/spraying-machines" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/spraying-machines" />
+    <loc>https://rtgs2017.github.io/pinjin-website/en/products/material-handling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/material-handling" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/material-handling" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/material-handling" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/en/products/category/material-handling</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/material-handling" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/material-handling" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/material-handling" />
+    <loc>https://rtgs2017.github.io/pinjin-website/en/products/rebar-equipment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/rebar-equipment" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/rebar-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/rebar-equipment" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/en/products/category/rebar-equipment</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/rebar-equipment" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/rebar-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/rebar-equipment" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/products/diesel-4100-transfer-pump</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-4100-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/diesel-4100-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-4100-transfer-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -110,7 +141,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-diesel-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll15-diesel-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-diesel-transfer-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -118,7 +150,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-electric-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll15-electric-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-electric-transfer-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -126,7 +159,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/zs22-25-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/zs22-25-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/zs22-25-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -134,7 +168,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll28-32-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll28-32-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll28-32-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -142,7 +177,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-screw-mortar-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/diesel-screw-mortar-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-screw-mortar-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -150,7 +186,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt30-37-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbt30-37-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt30-37-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -158,7 +195,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt45-40-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbt45-40-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt45-40-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -166,7 +204,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/automatic-plaster-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/automatic-plaster-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/automatic-plaster-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -174,7 +213,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtt55-50-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbtt55-50-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtt55-50-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -182,7 +222,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll60-75-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll60-75-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll60-75-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -190,7 +231,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt80-18-140-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbt80-18-140-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt80-18-140-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -198,7 +240,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtb016-110es-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbtb016-110es-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtb016-110es-spiral-feeder" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -206,7 +249,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/4102-diesel-four-cylinder-inclined-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/4102-diesel-four-cylinder-inclined-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/4102-diesel-four-cylinder-inclined-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -214,7 +258,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/type-311-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/type-311-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/type-311-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -222,7 +267,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/type-511-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/type-511-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/type-511-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -230,7 +276,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/double-cylinder-plunger-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/double-cylinder-plunger-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/double-cylinder-plunger-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -238,7 +285,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/concrete-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -246,7 +294,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-clamp-type" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/forklift-loader-clamp-type" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-clamp-type" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -254,7 +303,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-bucket-type" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/forklift-loader-bucket-type" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-bucket-type" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -262,7 +312,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/cnc-steel-bar-bending-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/cnc-steel-bar-bending-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/cnc-steel-bar-bending-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -270,54 +321,151 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/13-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/construction</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/construction" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/construction" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/infrastructure</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/infrastructure" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/infrastructure" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/spraying</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/spraying" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/spraying" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/spraying" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/industrial-projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/industrial-projects" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/industrial-projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/industrial-projects" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/diesel-vs-electric-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/mortar-spraying-machine-buying-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-we-manufacture-construction-equipment" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/xingjiawan-concrete-machinery-manufacturing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/xingjiawan-concrete-machinery-manufacturing" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/xingjiawan-concrete-machinery-manufacturing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/xingjiawan-concrete-machinery-manufacturing" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/oem-concrete-machinery-manufacturing-process</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/oem-concrete-machinery-manufacturing-process" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/oem-concrete-machinery-manufacturing-process" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/oem-concrete-machinery-manufacturing-process" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/why-factory-direct-concrete-equipment-has-faster-customization</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/why-factory-direct-concrete-equipment-has-faster-customization" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/why-factory-direct-concrete-equipment-has-faster-customization" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/why-factory-direct-concrete-equipment-has-faster-customization" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/how-concrete-pumps-work</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-concrete-pumps-work" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-concrete-pumps-work" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-concrete-pumps-work" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-maintenance-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-maintenance-guide" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-maintenance-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-maintenance-guide" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -326,6 +474,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -334,23 +483,44 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/product-selection-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/product-selection-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/product-selection-guide" />
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/about</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/about" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/about" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/about" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/zh/applications</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/applications" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/applications" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/applications" />
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/factory</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/factory" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/factory" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/factory" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/resources</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/resources" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/resources" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/resources" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -358,15 +528,17 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/faq" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/faq" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/faq" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/contact</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/contact" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/contact" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/contact" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -374,47 +546,53 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/concrete-pumps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-pumps" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/concrete-pumps" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-pumps" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/category/concrete-pumps</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/concrete-pumps" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/concrete-pumps" />
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/spraying-machines</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/spraying-machines" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/spraying-machines" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/spraying-machines" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/category/spraying-machines</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/spraying-machines" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/spraying-machines" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/spraying-machines" />
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/material-handling</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/material-handling" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/material-handling" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/material-handling" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/category/material-handling</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/material-handling" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/material-handling" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/material-handling" />
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/rebar-equipment</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/rebar-equipment" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/rebar-equipment" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/rebar-equipment" />
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/zh/products/category/rebar-equipment</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/category/rebar-equipment" />
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/category/rebar-equipment" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/category/rebar-equipment" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/products/diesel-4100-transfer-pump</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-4100-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/diesel-4100-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-4100-transfer-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -422,7 +600,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-diesel-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll15-diesel-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-diesel-transfer-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -430,7 +609,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-electric-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll15-electric-transfer-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll15-electric-transfer-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -438,7 +618,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/zs22-25-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/zs22-25-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/zs22-25-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -446,7 +627,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll28-32-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll28-32-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll28-32-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -454,7 +636,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-screw-mortar-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/diesel-screw-mortar-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/diesel-screw-mortar-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -462,7 +645,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt30-37-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbt30-37-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt30-37-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -470,7 +654,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt45-40-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbt45-40-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt45-40-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -478,7 +663,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/automatic-plaster-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/automatic-plaster-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/automatic-plaster-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -486,7 +672,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtt55-50-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbtt55-50-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtt55-50-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -494,7 +681,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/ll60-75-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/ll60-75-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/ll60-75-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -502,7 +690,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt80-18-140-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbt80-18-140-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbt80-18-140-concrete-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -510,7 +699,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtb016-110es-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/hbtb016-110es-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/hbtb016-110es-spiral-feeder" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -518,7 +708,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/4102-diesel-four-cylinder-inclined-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/4102-diesel-four-cylinder-inclined-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/4102-diesel-four-cylinder-inclined-pump" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -526,7 +717,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/type-311-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/type-311-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/type-311-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -534,7 +726,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/type-511-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/type-511-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/type-511-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -542,7 +735,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/double-cylinder-plunger-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/double-cylinder-plunger-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/double-cylinder-plunger-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -550,7 +744,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/concrete-spraying-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/concrete-spraying-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -558,7 +753,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-clamp-type" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/forklift-loader-clamp-type" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-clamp-type" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -566,7 +762,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-bucket-type" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/forklift-loader-bucket-type" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/forklift-loader-bucket-type" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -574,7 +771,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/cnc-steel-bar-bending-machine" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/cnc-steel-bar-bending-machine" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/cnc-steel-bar-bending-machine" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
@@ -582,47 +780,143 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/products/13-spiral-feeder" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/products/13-spiral-feeder" />
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/construction</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/construction" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/construction" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/construction" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/infrastructure</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/infrastructure" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/infrastructure" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/infrastructure" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/spraying</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/spraying" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/spraying" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/spraying" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/industrial-projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/solutions/industrial-projects" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/solutions/industrial-projects" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/solutions/industrial-projects" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-concrete-pump</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-concrete-pump" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/diesel-vs-electric-concrete-pump</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/diesel-vs-electric-concrete-pump" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/diesel-vs-electric-concrete-pump" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/mortar-spraying-machine-buying-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/mortar-spraying-machine-buying-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/mortar-spraying-machine-buying-guide" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-conveying-distance-guide" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-conveying-distance-guide" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/how-we-manufacture-construction-equipment</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-we-manufacture-construction-equipment" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-we-manufacture-construction-equipment" />
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/xingjiawan-concrete-machinery-manufacturing</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/xingjiawan-concrete-machinery-manufacturing" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/xingjiawan-concrete-machinery-manufacturing" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/xingjiawan-concrete-machinery-manufacturing" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-to-choose-a-reliable-concrete-pump-manufacturer-in-china" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/oem-concrete-machinery-manufacturing-process</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/oem-concrete-machinery-manufacturing-process" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/oem-concrete-machinery-manufacturing-process" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/oem-concrete-machinery-manufacturing-process" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/why-factory-direct-concrete-equipment-has-faster-customization</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/why-factory-direct-concrete-equipment-has-faster-customization" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/why-factory-direct-concrete-equipment-has-faster-customization" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/why-factory-direct-concrete-equipment-has-faster-customization" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/how-concrete-pumps-work</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-concrete-pumps-work" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/how-concrete-pumps-work" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/how-concrete-pumps-work" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-maintenance-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-maintenance-guide" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://rtgs2017.github.io/pinjin-website/zh/blog/concrete-pump-maintenance-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rtgs2017.github.io/pinjin-website/en/blog/concrete-pump-maintenance-guide" />
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

@@ -102,7 +102,7 @@ export function Faq() {
           </LocaleLink>
           {' · '}
           <LocaleLink
-            to="/applications"
+            to="/solutions"
             className="text-dark underline-offset-2 hover:text-primary hover:underline"
           >
             {t.nav.applications}

@@ -6,10 +6,13 @@ import {
   buildBreadcrumbJsonLd,
 } from '@/components/SEO';
 import { ProductCard } from '@/components/ui/ProductCard';
-import { InquiryForm } from '@/components/forms/InquiryForm';
+import { ContactActions } from '@/components/ui/ContactActions';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
+import { InternalLinks } from '@/components/InternalLink';
 import { blogCategoryMeta, getBlogPost } from '@/data/blog';
-import { getProductBySlug } from '@/data/products';
+import { getCategoryPath, getProductBySlug } from '@/data/products';
+import { clusterForBlog } from '@/data/topicClusters';
+import { seoTemplates } from '@/config/seo';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
@@ -34,14 +37,22 @@ export function BlogDetail() {
     .map((item) => getProductBySlug(item))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
   const keywords = post.keywords.join(', ');
+  const seoTitle = post.seoTitle
+    ? tx(post.seoTitle)
+    : seoTemplates.blogTitle(title);
+  const firstImage = post.content.find((section) => section.image)?.image?.src;
+  const categoryHub = relatedProducts[0]
+    ? getCategoryPath(relatedProducts[0].category)
+    : '/products';
 
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={`${title} | Pinjin`}
+        title={seoTitle}
         description={description}
         path={path}
         type="article"
+        image={firstImage}
         keywords={keywords}
         jsonLd={[
           buildArticleJsonLd({
@@ -50,9 +61,11 @@ export function BlogDetail() {
             path: localizedPath,
             datePublished: post.date,
             keywords,
+            image: firstImage,
           }),
           buildBreadcrumbJsonLd([
             { name: t.detail.home, path: localePath('/', lang) },
+            { name: t.nav.resources, path: localePath('/resources', lang) },
             { name: t.blog.title, path: localePath('/blog', lang) },
             { name: title, path: localizedPath },
           ]),
@@ -64,6 +77,12 @@ export function BlogDetail() {
             <li>
               <LocaleLink to="/" className="hover:text-primary">
                 {t.detail.home}
+              </LocaleLink>
+            </li>
+            <li aria-hidden>/</li>
+            <li>
+              <LocaleLink to="/resources" className="hover:text-primary">
+                {t.nav.resources}
               </LocaleLink>
             </li>
             <li aria-hidden>/</li>
@@ -129,8 +148,29 @@ export function BlogDetail() {
           ))}
         </div>
 
+        <p className="mt-10 text-sm text-text-secondary">
+          <LocaleLink to={categoryHub} className="font-semibold hover:text-primary">
+            {lang === 'zh' ? '查看相关产品分类 →' : 'View related product category →'}
+          </LocaleLink>
+          {' · '}
+          {relatedProducts[0] ? (
+            <>
+              <LocaleLink
+                to={`/products/${relatedProducts[0].slug}`}
+                className="font-semibold hover:text-primary"
+              >
+                {lang === 'zh' ? '相关产品型号' : 'Related product model'}
+              </LocaleLink>
+              {' · '}
+            </>
+          ) : null}
+          <LocaleLink to="/contact" className="font-semibold hover:text-primary">
+            {lang === 'zh' ? '联系工程团队' : 'Contact engineering team'}
+          </LocaleLink>
+        </p>
+
         {post.relatedPaths.length > 0 ? (
-          <p className="mt-10 text-sm text-text-secondary">
+          <p className="mt-4 text-sm text-text-secondary">
             {t.blog.relatedGuides}:{' '}
             {post.relatedPaths.map((item, index) => (
               <span key={item.href}>
@@ -156,10 +196,15 @@ export function BlogDetail() {
           </div>
         ) : null}
 
+        <InternalLinks cluster={clusterForBlog(post.relatedProductSlugs)} />
+
         <div className="mt-16 border border-border bg-bg-soft p-8">
           <h2 className="heading-display text-2xl">{t.blog.inquiryCta}</h2>
           <div className="mt-6">
-            <InquiryForm defaultMessage={title} />
+            <ContactActions
+              subject={t.mailSubjectInquiry}
+              message={title}
+            />
           </div>
         </div>
 

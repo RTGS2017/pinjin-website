@@ -92,8 +92,8 @@ export function About() {
             <p className="mt-3">{companyEntity.customers[lang]}</p>
             <p className="mt-3">{companyEntity.problemsSolved[lang]}</p>
             <p className="mt-3">
-              <LocaleLink to="/applications" className="font-medium text-dark hover:text-primary">
-                {lang === 'zh' ? '查看应用方向 →' : 'View application guides →'}
+              <LocaleLink to="/solutions" className="font-medium text-dark hover:text-primary">
+            {lang === 'zh' ? '查看行业解决方案 →' : 'View industry solutions →'}
               </LocaleLink>
             </p>
           </section>
@@ -112,6 +112,11 @@ export function About() {
 
         <div className="mt-16">
           <FactoryOverview />
+          <p className="mt-6 text-sm">
+            <LocaleLink to="/factory" className="font-semibold hover:text-primary">
+              {lang === 'zh' ? '查看工厂制造能力 →' : 'View factory manufacturing capability →'}
+            </LocaleLink>
+          </p>
         </div>
 
         <div className="mt-12">

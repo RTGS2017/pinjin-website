@@ -1,7 +1,7 @@
-import { getMailtoHref, getTelHref, siteConfig } from '@/config/site';
+import { getMailtoHref, getTelHref, getWhatsAppHref, siteConfig } from '@/config/site';
 import { SectionTitle } from '@/components/ui/SectionTitle';
-import { InquiryForm } from '@/components/forms/InquiryForm';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Button } from '@/components/ui/Button';
+import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function Contact() {
@@ -69,8 +69,25 @@ export function Contact() {
               {t.contact.sendTitle}
             </h3>
             <p className="mt-3 text-sm text-text-secondary">{t.contact.sendBody}</p>
-            <div className="mt-6">
-              <InquiryForm />
+            <div className="mt-6 flex flex-col gap-3">
+              <Button
+                href={getWhatsAppHref(t.mailSubjectInquiry)}
+                target="_blank"
+                rel="noopener noreferrer"
+                size="lg"
+                className="w-full"
+              >
+                <MessageCircle className="h-4 w-4" aria-hidden />
+                {t.contact.whatsapp}
+              </Button>
+              <Button
+                href={getMailtoHref(t.mailSubjectInquiry)}
+                variant="outline"
+                size="lg"
+                className="w-full"
+              >
+                {t.contact.emailInquiry}
+              </Button>
             </div>
           </div>
         </div>

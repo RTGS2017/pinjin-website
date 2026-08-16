@@ -24,12 +24,17 @@ export const siteConfig = {
   },
   contactEmail: import.meta.env.VITE_CONTACT_EMAIL || '1912829892@qq.com',
   contactPhone: import.meta.env.VITE_CONTACT_PHONE || '19912003025',
-  /** Formspree 表单地址；未配置时询盘回退 mailto */
-  formspreeEndpoint: import.meta.env.VITE_FORMSPREE_ENDPOINT || '',
+  /**
+   * WhatsApp 国际号码（纯数字）。未单独配置时使用联系电话并补 86 前缀。
+   * 不另造号码；与 VITE_CONTACT_PHONE 同源。
+   */
+  whatsappNumber:
+    import.meta.env.VITE_WHATSAPP_NUMBER ||
+    import.meta.env.VITE_CONTACT_PHONE ||
+    '19912003025',
 } as const;
 
-export const inquiryHash = 'inquiry';
-export const contactInquiryPath = '/contact#inquiry';
+export const contactInquiryPath = '/contact';
 
 export const productCategoryIds = [
   'concrete-pump',
@@ -40,37 +45,20 @@ export const productCategoryIds = [
 
 export const performanceValues = ['600 m', '300 m', '40–75 m³/h', '6 cm'] as const;
 
-/** Featured product slugs for homepage (order matters) */
+/** 首页 Hero / 精选产品 / 应用案例共用的工业轮播参数 */
+export const carouselConfig = {
+  autoplayMs: 5000,
+  transitionMs: 700,
+  swipeThreshold: 40,
+} as const;
+
+/** Featured product slugs for homepage showcase (order matters, 5 models) */
 export const featuredProductSlugs = [
   'hbt80-18-140-concrete-pump',
-  'll60-75-concrete-pump',
-  'hbtt55-50-concrete-pump',
-  'hbt45-40-concrete-pump',
+  'diesel-screw-mortar-spraying-machine',
+  'forklift-loader-bucket-type',
+  'cnc-steel-bar-bending-machine',
   'hbt30-37-concrete-pump',
-  'll28-32-concrete-pump',
-] as const;
-
-export const applicationItems = [
-  {
-    id: 'construction',
-    key: 'construction' as const,
-    image: '/images/applications/construction-site-application.webp',
-  },
-  {
-    id: 'concrete-delivery',
-    key: 'concrete' as const,
-    image: '/images/applications/concrete-delivery-application.webp',
-  },
-  {
-    id: 'mortar-spraying',
-    key: 'mortar' as const,
-    image: '/images/applications/mortar-spraying-application.webp',
-  },
-  {
-    id: 'plaster-spraying',
-    key: 'plaster' as const,
-    image: '/images/applications/plaster-spraying-application.webp',
-  },
 ] as const;
 
 export function getMailtoHref(subject?: string, body?: string): string {
@@ -82,37 +70,19 @@ export function getMailtoHref(subject?: string, body?: string): string {
   return query ? `mailto:${email}?${query}` : `mailto:${email}`;
 }
 
-export function buildInquiryMailtoBody(fields: {
-  name: string;
-  company: string;
-  country: string;
-  email: string;
-  product: string;
-  quantity: string;
-  message: string;
-}): string {
-  return [
-    `Name: ${fields.name}`,
-    `Company: ${fields.company}`,
-    `Country: ${fields.country}`,
-    `Email: ${fields.email}`,
-    `Product: ${fields.product || '-'}`,
-    `Quantity: ${fields.quantity || '-'}`,
-    '',
-    'Message:',
-    fields.message,
-  ].join('\n');
-}
-
-/** 当前页是否已内嵌询盘表单（悬浮按钮用 hash，其它页去联系页） */
-export function pageHasInquiryForm(pagePath: string): boolean {
-  if (pagePath === '/' || pagePath === '/contact') return true;
-  if (pagePath.startsWith('/blog/') && pagePath !== '/blog') return true;
-  return (
-    pagePath.startsWith('/products/') && !pagePath.includes('/category/')
-  );
-}
-
 export function getTelHref(): string {
   return `tel:${siteConfig.contactPhone}`;
+}
+
+function whatsappDigits(): string {
+  const raw = String(siteConfig.whatsappNumber).replace(/\D/g, '');
+  if (!raw) return '';
+  return raw.startsWith('86') ? raw : `86${raw}`;
+}
+
+export function getWhatsAppHref(text?: string): string {
+  const digits = whatsappDigits();
+  const base = `https://wa.me/${digits}`;
+  if (!text) return base;
+  return `${base}?text=${encodeURIComponent(text)}`;
 }

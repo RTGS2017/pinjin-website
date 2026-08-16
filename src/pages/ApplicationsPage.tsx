@@ -74,13 +74,13 @@ export function ApplicationsPage() {
               >
                 <div className="grid gap-0 lg:grid-cols-2">
                   <ImagePlaceholder
-                    src={app.image}
-                    alt={`${tx(app.title)} - Hebei Pinjin Machinery`}
+                    src={app.images[0]?.src ?? ''}
+                    alt={app.images[0] ? tx(app.images[0].alt) : `${tx(app.title)} - Hebei Pinjin Machinery`}
                     label={t.placeholder.application}
                     hint={t.placeholder.applicationHint}
-                    width={1600}
-                    height={1000}
-                    className="aspect-[16/10] w-full lg:aspect-auto lg:min-h-full"
+                    width={app.images[0]?.width ?? 1600}
+                    height={app.images[0]?.height ?? 1200}
+                    className="aspect-[4/3] w-full lg:aspect-auto lg:min-h-full"
                     imgClassName="object-cover"
                   />
                   <div className="p-6 sm:p-8">

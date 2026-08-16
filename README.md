@@ -2,7 +2,7 @@
 
 面向海外客户的工程机械制造商静态官网（React + TypeScript + Vite + Tailwind）。
 
-当前阶段：前端展示 + 页面询盘表单（Formspree，未配置时回退 `mailto`），无后端、无 CMS、无电商。
+当前阶段：前端展示 + WhatsApp / 邮件询盘（无表单后端），无 CMS、无电商。
 
 **托管方式：GitHub Pages 静态托管**（适合海外访问）。自定义域名通过 DNS 指向 GitHub Pages，不再使用阿里云 ECS / Nginx。
 
@@ -39,14 +39,14 @@ VITE_CONTACT_EMAIL=1912829892@qq.com
 VITE_CONTACT_PHONE=19912003025
 VITE_SITE_URL=https://www.example.com
 # VITE_BASE_PATH=/
-# VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/xxxxxxxx
+# VITE_WHATSAPP_NUMBER=8619912003025
 ```
 
-- `VITE_CONTACT_EMAIL`：询盘回退 `mailto` 与页脚邮箱统一读取
+- `VITE_CONTACT_EMAIL`：`mailto` 询盘与页脚邮箱统一读取
 - `VITE_CONTACT_PHONE`：联系页 / 页脚电话
+- `VITE_WHATSAPP_NUMBER`：WhatsApp 国际号码（纯数字）。不设则使用 `VITE_CONTACT_PHONE` 并补 `86` 前缀，生成 `wa.me` 链接
 - `VITE_SITE_URL`：canonical / Open Graph / JSON-LD / sitemap 绝对地址前缀
 - `VITE_BASE_PATH`：仅在**无自定义域名**的项目站预览时需要（如 `/pinjin-website/`）；绑定自定义域名后保持默认 `/`
-- `VITE_FORMSPREE_ENDPOINT`：询盘表单 POST 地址。留空则提交时打开系统邮件客户端（`mailto`）。在 GitHub Actions Variables 中配置同名变量后重新部署即可生效。第一期不支持图纸上传。
 
 域名就绪后：把 `VITE_SITE_URL` 改成正式 `https://你的域名`，再运行：
 
@@ -58,25 +58,40 @@ python deploy/generate_sitemaps.py
 
 ### 技术 SEO / GEO
 
-- 页面组件：`src/components/SEO.tsx`（含 keywords、Product / FAQPage / Article / BreadcrumbList JSON-LD）
-- SEO 配置：`src/config/seo.ts`
+- 页面组件：`src/components/SEO.tsx`（Organization / Product / Article / BreadcrumbList / ImageObject / FAQPage JSON-LD）
+- Title 模板：`src/config/seo.ts` 的 `seoTemplates`（产品 `{Name} Manufacturer China | Pinjin Machinery`；博客 `{Topic} | Construction Machinery Knowledge | Pinjin`）
 - 企业实体（全站统一）：`src/config/entity.ts` + `src/components/CompanyEntity.tsx`
-- 站点地图：`public/sitemap.xml`（含 `/blog` 与文章）
+- 主题集群与内链：`src/data/categoryHubs.ts`、`src/data/topicClusters.ts`、`src/components/InternalLink.tsx`
+- 站点地图：`public/sitemap.xml`（含分类 Hub、产品、解决方案、工厂、博客；含 `lastmod` / `changefreq` / `priority`）
 - 图片地图：`public/image-sitemap.xml`
-- 爬虫规则：`public/robots.txt`
+- 爬虫规则：`public/robots.txt`（允许 Google；拦截 `/admin` `/src/` `/dev`；指向 sitemap）
 - FAQ：`/faq`
 - 选型指南：`/product-selection-guide`
-- 应用页：`/applications`
-- Blog：`/blog`、`/blog/:slug`（静态数据 `src/data/blog.ts`）
-- 产品详情：Overview / Applications / Specs / Advantages / Why Factory / Manufacturer Capability / Manufacturing Process / FAQ（≥5）+ Related + 询盘表单 + Manufacturer GEO 块
-- 组织 / 产品 JSON-LD：不含价格与评分；Organization 含工厂 Image 数组，工厂图另有 ImageObject
-- 图片：每产品独立目录 `{slug}/main.webp`；工厂图见 `图片准备清单.md`
+- 解决方案：`/solutions`、`/solutions/:slug`（旧 `/applications` 客户端重定向）
+- 工厂能力：`/factory`
+- 资源中心：`/resources`（博客、选型、索取参数；无虚构 PDF）
+- Blog：`/blog`、`/blog/:slug`（静态数据 `src/data/blog.ts`；分类为制造知识 / 行业指南 / 产品指南 / 工厂洞察）
+- 产品分类 Hub：`/products/concrete-pumps` 等（旧 `/products/category/:slug` 重定向）
+- 产品详情：保持 `/products/:slug`（GitHub Pages 无法做 HTTP 301，不改为嵌套型号 URL）
+- 产品页结构：Hero + 优势 + 参数 + 应用 + 定制 + FAQ（最多 5 条）+ 相关产品 + GEO 块 + 相关主题内链
+- 组织 / 产品 JSON-LD：不含价格与评分；Product.image 为 ImageObject；Organization.industry 为 Construction Machinery Manufacturer
+- 核心关键词围绕：Concrete Machinery Manufacturer China、Concrete Pump Manufacturer China、Concrete Spraying Equipment Manufacturer、Xingjiawan Concrete Machinery、Xingtai Construction Machinery Factory、OEM Concrete Equipment Manufacturer
+- 品牌色板（厂房深灰 + 工业红，避免亮橙/纯蓝模板）：主色 `#1D1F21`、强调 `#B32126`、背景 `#F3F3F1`，定义于 [`src/index.css`](src/index.css)
+- 首页定位：B2B 工业制造商站（产品理解 / 导航清晰 / 询盘转化），不是作品集或电商画廊
+- 首页顺序：Hero 单视觉（工厂+设备背景自动切换）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心 → Footer
+- 首页 Hero：全宽单画面 + 公司介绍/标题/CTA；无缩略图、无悬停切图。底部仅一条红色自动播放进度条。背景图数据：[`src/data/gallery.ts`](src/data/gallery.ts)。完整工厂说明页仍在 `/factory` 与 `/about`
+- 精选产品：左信息（型号、简介、2–3 条优势、OEM 定制说明）/ 右产品图。可见上一张/下一张按钮 + 页码 `01/05` + 5 秒红色进度条。点击按钮会重置计时。型号列表：`featuredProductSlugs`（[`src/config/site.ts`](src/config/site.ts)）
+- 共用轮播：[`src/components/ui/IndustrialCarousel.tsx`](src/components/ui/IndustrialCarousel.tsx)（上一张/下一张、自动播放、进度条、键盘左右键、移动端滑动）。时长参数：`carouselConfig`（[`src/config/site.ts`](src/config/site.ts)）
+- 工厂能力：车间 / 装配 / 成品 / 厂房外观，大图 + 下方缩略图，不是第二块全屏 Banner
+- 应用案例：中间大图 + 两侧可见按钮；图下为标题、说明、查看应用；红色进度条。现场图为真实应用方向，不虚构客户项目业绩；搬运场景复用叉车 `working.webp`
+- 产品区定制说明：OEM customization available；参数可按项目调整；确认技术规格后可尽快安排生产；突出工厂直供。组件：[`src/components/ui/OemNote.tsx`](src/components/ui/OemNote.tsx)
+- 图片：每产品独立目录 `{slug}/main.webp`；工厂图见 `图片准备清单.md` 与 `src/data/factory.ts`（含 ALT、keywords、locationContext）
 
 ---
 
 ## 统一配置
 
-结构配置（品牌名、邮箱、Formspree、精选产品 slug 等）集中在：
+结构配置（品牌名、邮箱、WhatsApp、精选产品 slug 等）集中在：
 
 ```text
 src/config/site.ts
@@ -130,6 +145,12 @@ src/data/manufacturingProcess.ts
 src/index.css
 ```
 
+首页 Hero / 工厂能力画廊 / 知识中心封面图：
+
+```text
+src/data/gallery.ts
+```
+
 请勿在多个文件重复定义同一变量。
 
 ### 中英文切换（URL 分语言）
@@ -155,7 +176,7 @@ src/index.css
 产品数据唯一来源：根目录《河北品锦机械制造有限公司产品目录》。  
 当前共 **22** 个产品实体，录入 `src/data/products.ts`。
 
-图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示。施工现场图放到 `public/images/products/` 根目录（中文产品名 JPG，第二张加 `2`）后运行 `python deploy/process_product_images.py`，会写入对应 `{slug}/working.webp`（及 `working-2.webp`），4:3 裁切、SEO 文件名，不在 URL 中保留中文文件名。
+图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示。施工现场图放到 `public/images/products/` 根目录（中文产品名 JPG，第二张加 `2`）后运行 `python deploy/process_product_images.py`，会写入对应 `{slug}/working.webp`（及 `working-2.webp`），4:3 裁切、SEO 文件名，不在 URL 中保留中文文件名。首页 Hero 使用部分 `working.webp` / 工厂实拍，见 [`src/data/gallery.ts`](src/data/gallery.ts)；精选产品轮播使用目录型号 `main.webp` 抠图。
 
 工厂图放在 `public/images/factory/`。微信原图放入后运行：
 
@@ -164,7 +185,16 @@ python deploy/process_factory_images.py
 python deploy/generate_sitemaps.py
 ```
 
-会把全部工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名（见清单，当前 9 张全部使用）。首页 Hero 之后为全宽 **Manufacturing Capability** 轮播（标题/描述/GEO/CTA，不是空 Banner）；同一数据用于 About 工厂一览、产品详情厂商能力条、制造流程 Blog。
+会把全部工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名（见清单，当前 9 张全部使用）。首页 Hero 为产品实拍与工厂实拍交错的交互画廊（5 张），数据见 [`src/data/gallery.ts`](src/data/gallery.ts)。About 工厂一览、产品详情厂商能力条、制造流程 Blog 仍用完整 `factorySlides`。
+
+应用现场图放到 `public/images/applications/` 后运行：
+
+```powershell
+python deploy/process_application_images.py
+python deploy/generate_sitemaps.py
+```
+
+会裁成 4:3 WebP 并写成 SEO 文件名，用于首页应用区块与 `/solutions/*`。ALT 见 [`src/data/applicationsContent.ts`](src/data/applicationsContent.ts)。物料搬运暂无独立现场图时，首页与方案页使用叉车装载机 `working.webp`，不要用喷涂/泵送照片顶替。
 
 重新生成 sitemap / robots：
 
@@ -206,7 +236,7 @@ npm run preview
    - `VITE_CONTACT_PHONE`
    - `VITE_SITE_URL`（正式域名前可用 `https://YOUR_USER.github.io/YOUR_REPO`）
    - 可选：`VITE_BASE_PATH`（自定义域名根站不要设，或设为 `/`）
-   - 可选：`VITE_FORMSPREE_ENDPOINT`（Formspree 表单 URL；不设则询盘回退 mailto）
+   - 可选：`VITE_WHATSAPP_NUMBER`（WhatsApp 国际号码；不设则用联系电话补 86）
 5. push 到 `main` 后 Actions 自动构建并发布。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
@@ -236,42 +266,54 @@ https://rtgs2017.github.io/pinjin-website/
 
 | 路径 | 说明 |
 |------|------|
-| `/` | 首页（Hero 后为工厂能力轮播；主视觉保留深色渐变、背景图 CSS 水平镜像） |
+| `/` | 首页：Hero 单视觉 + 进度条 → 5 款精选产品轮播 → 工厂能力画廊 → Why Pinjin → 应用案例轮播 → 知识中心 |
 | `/products` | 全部产品 |
-| `/products/category/:slug` | 分类 |
-| `/products/:slug` | 产品详情（含询盘表单） |
+| `/products/concrete-pumps` 等 | 分类 Hub（介绍 / 应用 / 优势 / 型号 / FAQ / 相关文章） |
+| `/products/:slug` | 产品详情（WhatsApp / 邮件 CTA，无长表单） |
 | `/product-selection-guide` | 选型指南 |
-| `/about` | 关于我们 |
-| `/applications` | 应用 |
+| `/solutions` | 行业解决方案索引 |
+| `/solutions/:slug` | 解决方案详情（construction / infrastructure / spraying / industrial-projects） |
+| `/about` | 公司介绍 |
+| `/factory` | 工厂制造能力 |
+| `/resources` | 资源中心（博客、选型、索取参数） |
 | `/faq` | FAQ |
-| `/blog` | 技术资讯列表 |
-| `/blog/:slug` | 文章详情 |
-| `/contact` | 联系（询盘表单） |
+| `/blog` | 知识中心列表 |
+| `/blog/:slug` | 文章详情（链到分类 Hub → 产品 → 联系） |
+| `/contact` | 联系（WhatsApp + 邮件 + 电话） |
 
-顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮「询价」按钮；联系页隐藏以免重复。
+兼容旧地址（客户端 `replace`，不进 sitemap）：`/products/category/:slug` → 对应分类 Hub；`/applications` → `/solutions`；`/company` → `/about`；`/company/factory` 与 `/company/manufacturing-capability` → `/factory`；`/resources/blog/xingjiawan-concrete-machinery` → 现有邢家湾文章。不单独做 mining 方案页（目录未发布该内容）。
 
-### 询盘表单
+顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮 **WhatsApp** 按钮；联系页隐藏以免重复。路由切换时 [`ScrollToTop`](src/components/layout/ScrollToTop.tsx) 将页面滚到顶部。
 
-共享组件：`src/components/forms/InquiryForm.tsx`。字段：姓名、公司、国家、邮箱、意向产品、数量、留言。产品详情会预填型号；「索取目录」会预填目录请求（当前无 PDF 文件，不提供空下载）。
+sitemap 只收录规范 URL（含 `/en` 与 `/zh` 及 hreflang）。结构改完后再生成 sitemap，再提交 Google Search Console，避免把孤立旧地址当成站点主题。
 
-配置了 `VITE_FORMSPREE_ENDPOINT` 则 POST 到 Formspree；否则回退 `mailto`。保留页脚/工程师直联邮箱。
+### 询盘入口（无后端表单）
+
+静态站不使用 Formspree / 自建表单。统一组件：[`src/components/ui/ContactActions.tsx`](src/components/ui/ContactActions.tsx)。
+
+- **WhatsApp**：`https://wa.me/{国际号码}`，号码来自 `VITE_WHATSAPP_NUMBER`，未设则用 `VITE_CONTACT_PHONE` 补 `86`
+- **Email**：`mailto:` 预填主题/正文
+- 产品页按钮：WhatsApp Contact、Email Inquiry、Request Custom Solution
 
 ### 新增 Blog 文章
 
-1. 在 [`src/data/blog.ts`](src/data/blog.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、内链；可选 `image` 引用 `factory.ts`）。
-2. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`。
-3. 运行 `python deploy/generate_sitemaps.py`。
+1. 在 [`src/data/blog.ts`](src/data/blog.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、内链到分类 Hub / 产品 / 联系；可选 `image` 引用 `factory.ts`）。
+2. 如属于某产品主题，把文章链加入 [`src/data/topicClusters.ts`](src/data/topicClusters.ts) 对应分类。
+3. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`。
+4. 运行 `python deploy/generate_sitemaps.py`。
 
-不要编造认证、客户名、出口国。文章应链到真实产品页并在文末保留询盘。
+不要编造认证、客户名、出口国。文章应链到真实产品页，文末用 WhatsApp / 邮件 CTA。
+
+邢家湾相关表述：法定厂址仍为「邢台市任泽工业园区」；邢家湾仅作为区域产业集聚事实（“Located in Xingtai, Hebei, Xingjiawan is known as an important manufacturing area for concrete machinery.”），不改街道地址。
 
 ---
 
 ## 内容真实性说明
 
 企业简介、地址、四项价值观、产品参数均来自产品目录文档。  
-未擅自添加认证、出口国、成立年份、WhatsApp、客户案例或 PDF 产品目录。制造流程模块只复述「原料采购 → 生产 → 检测 → 交付」的已有表述。
+未擅自添加认证、出口国、成立年份、客户案例或 PDF 产品目录。WhatsApp 使用已公布联系电话（或 `VITE_WHATSAPP_NUMBER`），不另造号码。制造流程模块只复述「原料采购 → 生产 → 检测 → 交付」的已有表述。定制交期只写「确认规格后可尽快安排」，不承诺未核实的天数。
 
-提供真实邮箱后，修改 `.env` / GitHub Variables 中的 `VITE_CONTACT_EMAIL`，重新构建部署。Formspree 地址同样写入 Variables 中的 `VITE_FORMSPREE_ENDPOINT`。
+提供真实邮箱 / WhatsApp 后，修改 `.env` / GitHub Variables 中的 `VITE_CONTACT_EMAIL`、`VITE_WHATSAPP_NUMBER`，重新构建部署。
 
 ---
 
@@ -288,6 +330,7 @@ https://rtgs2017.github.io/pinjin-website/
 
 - `deploy/process_product_images.py`（产品图 WebP）
 - `deploy/process_factory_images.py`（工厂图 16:9 WebP + SEO 文件名）
+- `deploy/process_application_images.py`（应用现场图 4:3 WebP + SEO 文件名）
 - `deploy/generate_sitemaps.py`（sitemap / robots）
 - `deploy/copy-spa-404.mjs`（构建后 SPA 404 回退）
 

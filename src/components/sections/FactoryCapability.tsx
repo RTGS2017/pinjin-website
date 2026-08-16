@@ -1,157 +1,91 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '@/components/ui/Button';
+import { useState } from 'react';
+import { LocaleLink } from '@/i18n/navigation';
+import { factoryShowcase } from '@/data/gallery';
+import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
-import { contactInquiryPath } from '@/config/site';
-import { companyEntity } from '@/config/entity';
-import {
-  FACTORY_ASPECT,
-  FACTORY_AUTOPLAY_MS,
-  factorySlides,
-} from '@/data/factory';
+import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function FactoryCapability() {
-  const { lang, t, tx } = useI18n();
+  const { t, tx } = useI18n();
   const [active, setActive] = useState(0);
-  const [paused, setPaused] = useState(false);
-  const reduceMotion = useRef(false);
-
-  const go = useCallback((index: number) => {
-    const total = factorySlides.length;
-    setActive(((index % total) + total) % total);
-  }, []);
-
-  useEffect(() => {
-    reduceMotion.current = window.matchMedia(
-      '(prefers-reduced-motion: reduce)',
-    ).matches;
-  }, []);
-
-  useEffect(() => {
-    if (paused || reduceMotion.current) return;
-    const id = window.setInterval(() => {
-      if (document.visibilityState !== 'visible') return;
-      go(active + 1);
-    }, FACTORY_AUTOPLAY_MS);
-    return () => window.clearInterval(id);
-  }, [active, go, paused]);
-
-  const slide = factorySlides[active];
-  const chips = [t.factory.chipFactory, t.factory.chipCapability, t.factory.chipQuality];
+  const current = factoryShowcase[active] ?? factoryShowcase[0];
+  const points = [
+    t.factoryCapability.i1,
+    t.factoryCapability.i2,
+    t.factoryCapability.i3,
+    t.factoryCapability.i4,
+  ];
 
   return (
-    <section
-      id="factory"
-      className="relative scroll-mt-24 overflow-hidden bg-dark text-white"
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      aria-roledescription="carousel"
-      aria-label={t.factory.title}
-    >
-      <div className="relative min-h-[70vh] lg:min-h-[78vh]" style={{ aspectRatio: FACTORY_ASPECT }}>
-        {factorySlides.map((item, index) => (
-          <div
-            key={item.id}
-            className={[
-              'absolute inset-0 transition-opacity duration-700',
-              index === active ? 'opacity-100' : 'pointer-events-none opacity-0',
-            ].join(' ')}
-            aria-hidden={index !== active}
-          >
+    <section className="section-y bg-bg-soft">
+      <div className="container-site">
+        <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+          <SectionTitle
+            eyebrow={t.factoryCapability.eyebrow}
+            title={t.factoryCapability.title}
+            subtitle={t.factoryCapability.body}
+          />
+          <ul className="grid max-w-xl grid-cols-2 gap-x-8 gap-y-2 text-sm text-dark">
+            {points.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="mt-10">
+          <div className="overflow-hidden rounded-[1.6rem]">
             <ImagePlaceholder
-              src={item.image}
-              alt={tx(item.alt)}
+              src={current.image}
+              alt={tx(current.alt)}
               label={t.placeholder.factory}
               hint=""
-              priority={index === 0}
-              width={item.width}
-              height={item.height}
-              className="h-full w-full !bg-dark"
-              imgClassName="object-cover"
+              width={current.width}
+              height={current.height}
+              sizes="(max-width: 1280px) 100vw, 1200px"
+              className="aspect-[16/9] w-full"
+              imgClassName="object-cover transition-transform duration-700 ease-out"
             />
           </div>
-        ))}
-        <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/80 to-dark/35" />
-      </div>
-
-      <div className="pointer-events-none absolute inset-0">
-        <div className="container-site flex h-full min-h-[70vh] items-center py-16 lg:min-h-[78vh]">
-          <div className="pointer-events-auto max-w-2xl fade-up">
-            <p className="text-xs font-semibold tracking-[0.2em] text-primary uppercase">
-              {t.factory.title}
-            </p>
-            <p className="mt-4 text-sm font-medium text-white/90">
-              {companyEntity.legalName[lang]}
-            </p>
-            <p className="mt-1 text-xs tracking-[0.14em] text-white/55 uppercase">
-              {companyEntity.industry[lang]}
-            </p>
-            <h2 className="mt-4 heading-display text-3xl text-white sm:text-4xl lg:text-5xl">
-              {tx(slide.title)}
-            </h2>
-            <p className="mt-4 max-w-xl text-base text-white/80 sm:text-lg">
-              {tx(slide.description)}
-            </p>
-            <p className="mt-4 text-xs font-semibold tracking-[0.12em] text-white/50 uppercase">
-              {chips.join(' | ')}
-            </p>
-            <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/70">
-              {companyEntity.geoCaption[lang]}
-            </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <Button to="/about#factory" size="lg" className="w-full sm:w-auto">
-                {t.factory.explore}
-              </Button>
-              <Button
-                to={contactInquiryPath}
-                variant="ghost"
-                size="lg"
-                className="w-full sm:w-auto"
-              >
-                {t.factory.quote}
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="absolute inset-x-0 bottom-6 z-10">
-        <div className="container-site flex items-center justify-between gap-4">
-          <div className="flex gap-2" role="tablist" aria-label={t.factory.title}>
-            {factorySlides.map((item, index) => (
+          <div className="mt-4 flex justify-center gap-2 sm:gap-3">
+            {factoryShowcase.map((frame, index) => (
               <button
-                key={item.id}
+                key={frame.id}
                 type="button"
-                role="tab"
-                aria-selected={index === active}
-                aria-label={tx(item.title)}
                 className={[
-                  'h-2.5 rounded-full transition-all',
-                  index === active ? 'w-8 bg-primary' : 'w-2.5 bg-white/35 hover:bg-white/60',
+                  'w-[4.5rem] overflow-hidden rounded-lg transition duration-300 sm:w-20',
+                  index === active
+                    ? 'opacity-100 ring-2 ring-primary ring-offset-2 ring-offset-bg-soft'
+                    : 'opacity-55 hover:opacity-100',
                 ].join(' ')}
-                onClick={() => go(index)}
-              />
+                onMouseEnter={() => setActive(index)}
+                onClick={() => setActive(index)}
+                aria-label={tx(frame.label)}
+              >
+                <ImagePlaceholder
+                  src={frame.image}
+                  alt=""
+                  label=""
+                  hint=""
+                  decorative
+                  width={320}
+                  height={180}
+                  sizes="80px"
+                  className="aspect-[16/10] w-full"
+                  imgClassName="object-cover"
+                />
+              </button>
             ))}
           </div>
-          <div className="flex gap-2">
-            <button
-              type="button"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-sm border border-white/30 bg-dark/40 text-white hover:border-primary hover:text-primary"
-              aria-label={t.factory.prev}
-              onClick={() => go(active - 1)}
-            >
-              <ChevronLeft className="h-5 w-5" aria-hidden />
-            </button>
-            <button
-              type="button"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-sm border border-white/30 bg-dark/40 text-white hover:border-primary hover:text-primary"
-              aria-label={t.factory.next}
-              onClick={() => go(active + 1)}
-            >
-              <ChevronRight className="h-5 w-5" aria-hidden />
-            </button>
-          </div>
+        </div>
+
+        <div className="mt-8 flex items-center gap-6">
+          <Button to="/factory" variant="outline">
+            {t.factoryCapability.view}
+          </Button>
+          <LocaleLink to="/about" className="text-sm font-medium text-text-secondary hover:text-primary">
+            {t.factory.viewFactory} →
+          </LocaleLink>
         </div>
       </div>
     </section>

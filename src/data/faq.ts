@@ -149,8 +149,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '如何向厂家询价混凝土泵价格？',
     },
     answer: {
-      en: 'Pinjin does not publish fixed online prices because configuration depends on model, options and shipping terms. To request a quote, email the required model or duty parameters (delivery capacity, horizontal/vertical distance, aggregate size, diesel or motor). Use the website inquiry buttons or contact email, and the team will respond with a suitable equipment recommendation.',
-      zh: '品锦不在网站公布固定价格，因为配置取决于型号、选配与贸易条款。询价时请邮件说明型号或工况参数（输送量、水平/垂直距离、骨料粒径、柴油/电机）。可通过网站询盘按钮或联系邮箱发送，我们将回复合适设备方案。',
+      en: 'Pinjin does not publish fixed online prices because configuration depends on model, options and shipping terms. To request a quote, send the required model or duty parameters (delivery capacity, horizontal/vertical distance, aggregate size, diesel or motor) by WhatsApp or email. The team will respond with a suitable equipment recommendation.',
+      zh: '品锦不在网站公布固定价格，因为配置取决于型号、选配与贸易条款。询价时请通过 WhatsApp 或邮件说明型号或工况参数（输送量、水平/垂直距离、骨料粒径、柴油/电机），我们将回复合适设备方案。',
     },
   },
   {
@@ -160,8 +160,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦工厂在哪里？海外买家能否询盘？',
     },
     answer: {
-      en: 'Pinjin is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Overseas buyers can request quotations by email with project needs and preferred models.',
-      zh: '品锦位于中国河北省邢台市任泽工业园区。海外买家可邮件说明项目需求与意向型号获取报价。',
+      en: 'Pinjin is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Located in Xingtai, Hebei, Xingjiawan is known as an important manufacturing area for concrete machinery. Overseas buyers can request quotations by WhatsApp or email with project needs and preferred models.',
+      zh: '品锦位于中国河北省邢台市任泽工业园区。邢台邢家湾是中国重要的混凝土机械制造集聚区之一。海外买家可通过 WhatsApp 或邮件说明项目需求与意向型号获取报价。',
     },
   },
   {

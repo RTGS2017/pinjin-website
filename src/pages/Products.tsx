@@ -2,13 +2,15 @@
 import { LocaleLink } from '@/i18n/navigation';
 import {
   categoryMeta,
+  getCategoryPath,
   products,
   type ProductCategory,
 } from '@/data/products';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ProductCard } from '@/components/ui/ProductCard';
-import { SEO } from '@/components/SEO';
+import { SEO, buildBreadcrumbJsonLd } from '@/components/SEO';
 import { useI18n } from '@/i18n/I18nContext';
+import { localePath } from '@/i18n/paths';
 
 const filters: Array<'all' | ProductCategory> = [
   'all',
@@ -19,7 +21,7 @@ const filters: Array<'all' | ProductCategory> = [
 ];
 
 export function Products() {
-  const { t, tx } = useI18n();
+  const { lang, t, tx } = useI18n();
   const [filter, setFilter] = useState<'all' | ProductCategory>('all');
 
   const list = useMemo(() => {
@@ -38,6 +40,10 @@ export function Products() {
         title={t.seo.productsTitle}
         description={t.productsPage.subtitle}
         path="/products"
+        jsonLd={buildBreadcrumbJsonLd([
+          { name: t.detail.home, path: localePath('/', lang) },
+          { name: t.detail.products, path: localePath('/products', lang) },
+        ])}
       />
       <div className="container-site">
         <SectionTitle
@@ -45,7 +51,18 @@ export function Products() {
           subtitle={t.productsPage.subtitle}
         />
 
-        <p className="mt-4 text-sm text-text-secondary">
+        <p className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm text-text-secondary">
+          {filters
+            .filter((key): key is ProductCategory => key !== 'all')
+            .map((key) => (
+              <LocaleLink
+                key={key}
+                to={getCategoryPath(key)}
+                className="hover:text-primary"
+              >
+                {tx(categoryMeta[key].label)}
+              </LocaleLink>
+            ))}
           <LocaleLink to="/product-selection-guide" className="hover:text-primary">
             {t.productsPage.selectionCta} →
           </LocaleLink>

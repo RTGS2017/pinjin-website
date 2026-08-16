@@ -1,14 +1,25 @@
 import type { LocalizedText } from '@/i18n/types';
 import type { ProductCategory } from '@/data/products';
 
+const L = (en: string, zh: string): LocalizedText => ({ en, zh });
+
+export interface ApplicationImage {
+  src: string;
+  alt: LocalizedText;
+  width: number;
+  height: number;
+  keywords: string[];
+}
+
 export interface ApplicationPageItem {
   id: string;
   slug: string;
+  solutionSlug: string;
   title: LocalizedText;
   summary: LocalizedText;
   points: LocalizedText[];
   relatedCategory: ProductCategory;
-  image: string;
+  images: ApplicationImage[];
 }
 
 /** 应用页内容：只写应用方向，不写虚假项目业绩 */
@@ -16,6 +27,7 @@ export const applicationPages: ApplicationPageItem[] = [
   {
     id: 'building',
     slug: 'building-construction',
+    solutionSlug: 'construction',
     title: {
       en: 'Concrete Pump for Building Construction',
       zh: '建筑施工用混凝土泵',
@@ -39,11 +51,39 @@ export const applicationPages: ApplicationPageItem[] = [
       },
     ],
     relatedCategory: 'concrete-pump',
-    image: '/images/applications/construction-site-application.webp',
+    images: [
+      {
+        src: '/images/applications/pinjin-concrete-pump-building-construction.webp',
+        alt: L(
+          'Hebei Pinjin Machinery concrete pump working on a building construction site in China',
+          '河北品锦机械混凝土泵在建筑工地浇筑作业',
+        ),
+        width: 1600,
+        height: 1200,
+        keywords: [
+          'concrete pump manufacturer China',
+          'concrete pump for building construction',
+        ],
+      },
+      {
+        src: '/images/applications/pinjin-concrete-pump-construction-site.webp',
+        alt: L(
+          'Hebei Pinjin compact concrete pump on a construction site with operators',
+          '品锦紧凑型混凝土泵在施工现场作业',
+        ),
+        width: 1280,
+        height: 960,
+        keywords: [
+          'concrete pump manufacturer China',
+          'construction site concrete pump',
+        ],
+      },
+    ],
   },
   {
     id: 'infrastructure',
     slug: 'infrastructure-projects',
+    solutionSlug: 'infrastructure',
     title: {
       en: 'Concrete Pump for Infrastructure Projects',
       zh: '基建工程用混凝土泵',
@@ -67,11 +107,26 @@ export const applicationPages: ApplicationPageItem[] = [
       },
     ],
     relatedCategory: 'concrete-pump',
-    image: '/images/applications/concrete-delivery-application.webp',
+    images: [
+      {
+        src: '/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp',
+        alt: L(
+          'Hebei Pinjin construction equipment working on a highway infrastructure project',
+          '品锦工程设备用于公路基建现场作业',
+        ),
+        width: 1280,
+        height: 960,
+        keywords: [
+          'china concrete machinery manufacturer',
+          'infrastructure concrete equipment',
+        ],
+      },
+    ],
   },
   {
     id: 'spraying',
     slug: 'spraying-applications',
+    solutionSlug: 'spraying',
     title: {
       en: 'Spraying Machines for Construction Finishing',
       zh: '施工饰面与喷浆设备',
@@ -95,11 +150,39 @@ export const applicationPages: ApplicationPageItem[] = [
       },
     ],
     relatedCategory: 'spraying-machine',
-    image: '/images/applications/mortar-spraying-application.webp',
+    images: [
+      {
+        src: '/images/applications/pinjin-mortar-spraying-machine-building-interior.webp',
+        alt: L(
+          'Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery',
+          '砂浆喷涂机用于建筑室内饰面施工 — 河北品锦机械',
+        ),
+        width: 1600,
+        height: 1200,
+        keywords: [
+          'concrete spraying equipment manufacturer',
+          'mortar spraying machine',
+        ],
+      },
+      {
+        src: '/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp',
+        alt: L(
+          'Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery',
+          '液压砂浆喷涂机在室外工地作业 — 河北品锦机械',
+        ),
+        width: 1600,
+        height: 1200,
+        keywords: [
+          'mortar spraying machine manufacturer',
+          'construction spraying equipment',
+        ],
+      },
+    ],
   },
   {
     id: 'handling',
     slug: 'material-handling',
+    solutionSlug: 'industrial-projects',
     title: {
       en: 'Material Handling for Construction Sites',
       zh: '建筑工地物料搬运',
@@ -123,6 +206,32 @@ export const applicationPages: ApplicationPageItem[] = [
       },
     ],
     relatedCategory: 'material-handling',
-    image: '/images/applications/plaster-spraying-application.webp',
+    images: [
+      {
+        src: '/images/products/forklift-loader-bucket-type/working.webp',
+        alt: L(
+          'Pinjin Machinery material handling equipment on a construction site in Xingtai Hebei China — custom concrete equipment manufacturer',
+          '品锦机械物料搬运设备在中国邢台施工现场 — 定制混凝土设备制造商',
+        ),
+        width: 1600,
+        height: 1200,
+        keywords: [
+          'Xingtai concrete machinery manufacturer',
+          'custom concrete equipment manufacturer',
+        ],
+      },
+    ],
   },
 ];
+
+export function getSolutionBySlug(slug: string) {
+  return applicationPages.find(
+    (item) => item.solutionSlug === slug || item.slug === slug,
+  );
+}
+
+export function getApplicationHero(
+  item: ApplicationPageItem,
+): ApplicationImage | undefined {
+  return item.images[0];
+}

@@ -90,8 +90,8 @@ function buildSeo(
 ): ProductSeo {
   return {
     title: L(
-      `${nameEn} Manufacturer | Hebei Pinjin Machinery`,
-      `${nameZh}厂家 | 河北品锦机械`,
+      `${nameEn} Manufacturer China | Pinjin Machinery`,
+      `${nameZh}厂家 | 品锦机械`,
     ),
     description: L(descEn, descZh),
     keywords: { primary, secondary, longTail },
@@ -1433,6 +1433,16 @@ export function getCategoryByRouteSlug(routeSlug: string): ProductCategory | und
     [ProductCategory, (typeof categoryMeta)[ProductCategory]]
   >).find(([, meta]) => meta.routeSlug === routeSlug);
   return entry?.[0];
+}
+
+export function getCategoryPath(category: ProductCategory): string {
+  return `/products/${categoryMeta[category].routeSlug}`;
+}
+
+export function isCategoryRouteSlug(slug: string): boolean {
+  return Object.values(categoryRouteSlugs).includes(
+    slug as (typeof categoryRouteSlugs)[ProductCategory],
+  );
 }
 
 export function getFeaturedProducts(slugs: readonly string[]): Product[] {

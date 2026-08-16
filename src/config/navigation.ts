@@ -28,29 +28,29 @@ export interface NavItem {
 
 export const navItems: readonly NavItem[] = [
   { key: 'products', href: '/products', mega: 'products' },
-  { key: 'solutions', href: '/applications', mega: 'columns' },
-  { key: 'resources', href: '/blog', mega: 'columns' },
+  { key: 'solutions', href: '/solutions', mega: 'columns' },
+  { key: 'resources', href: '/resources', mega: 'columns' },
   { key: 'company', href: '/about', mega: 'columns' },
   { key: 'contact', href: '/contact' },
 ];
 
 export const productCategoryLinks = productCategoryIds.map((id) => ({
   categoryId: id,
-  href: `/products/category/${categoryMeta[id].routeSlug}`,
+  href: `/products/${categoryMeta[id].routeSlug}`,
 }));
 
 export const megaFeaturedSlugs = featuredProductSlugs.slice(0, 4);
 
 export const solutionsIndustryLinks = [
-  { href: '/applications#building-construction', appId: 'building' },
-  { href: '/applications#infrastructure-projects', appId: 'infrastructure' },
-  { href: '/applications#spraying-applications', appId: 'spraying' },
-  { href: '/applications#material-handling', appId: 'handling' },
+  { href: '/solutions/construction', appId: 'building' },
+  { href: '/solutions/infrastructure', appId: 'infrastructure' },
+  { href: '/solutions/spraying', appId: 'spraying' },
+  { href: '/solutions/industrial-projects', appId: 'handling' },
 ] as const;
 
 export const solutionsOemLinks = [
-  { href: '/#customization', megaKey: 'customDesign' as const },
-  { href: '/about#process', megaKey: 'process' as const },
+  { href: '/contact', megaKey: 'customDesign' as const },
+  { href: '/factory#process', megaKey: 'process' as const },
   { href: '/#why-pinjin', megaKey: 'quality' as const },
 ] as const;
 
@@ -67,7 +67,7 @@ export const resourcesDownloadLinks = [
 
 export const companyLinks = [
   { href: '/about', megaKey: 'factoryOverview' as const },
-  { href: '/#factory', megaKey: 'capability' as const },
+  { href: '/factory', megaKey: 'capability' as const },
   { href: '/#why-pinjin', megaKey: 'quality' as const },
   { href: '/contact', megaKey: 'contact' as const },
 ] as const;

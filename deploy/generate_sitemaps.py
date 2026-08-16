@@ -11,7 +11,6 @@ Also rewrites public/robots.txt Sitemap lines to the same origin.
 from __future__ import annotations
 
 import os
-import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "public"
@@ -85,15 +84,30 @@ BLOG_SLUGS = [
     "mortar-spraying-machine-buying-guide",
     "concrete-pump-conveying-distance-guide",
     "how-we-manufacture-construction-equipment",
+    "xingjiawan-concrete-machinery-manufacturing",
+    "how-to-choose-a-reliable-concrete-pump-manufacturer-in-china",
+    "oem-concrete-machinery-manufacturing-process",
+    "why-factory-direct-concrete-equipment-has-faster-customization",
+    "how-concrete-pumps-work",
+    "concrete-pump-maintenance-guide",
 ]
+
+SOLUTION_SLUGS = [
+    "construction",
+    "infrastructure",
+    "spraying",
+    "industrial-projects",
+]
+
+LASTMOD = "2026-08-15"
 
 FACTORY_IMAGES = [
     (
-        "pinjin-construction-machinery-factory-building.webp",
-        "Modern manufacturing facility of Hebei Pinjin Machinery",
+        "pinjin-xingjiawan-concrete-machinery-factory.webp",
+        "Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China",
     ),
     (
-        "pinjin-machinery-production-workshop.webp",
+        "pinjin-production-workshop.webp",
         "Production workshop of Hebei Pinjin Machinery",
     ),
     (
@@ -109,11 +123,11 @@ FACTORY_IMAGES = [
         "Trailer concrete pump assembly at Hebei Pinjin Machinery",
     ),
     (
-        "pinjin-equipment-assembly-line.webp",
+        "pinjin-machinery-assembly-area.webp",
         "Equipment assembly workshop of Hebei Pinjin Machinery",
     ),
     (
-        "pinjin-finished-machinery-products.webp",
+        "pinjin-equipment-storage.webp",
         "Finished construction machinery at Hebei Pinjin Machinery",
     ),
     (
@@ -123,6 +137,44 @@ FACTORY_IMAGES = [
     (
         "pinjin-diesel-machinery-factory-dispatch.webp",
         "Equipment dispatch from Hebei Pinjin Machinery factory",
+    ),
+]
+
+APPLICATION_IMAGES = [
+    (
+        "construction",
+        [
+            (
+                "pinjin-concrete-pump-building-construction.webp",
+                "Hebei Pinjin Machinery concrete pump working on a building construction site in China",
+            ),
+            (
+                "pinjin-concrete-pump-construction-site.webp",
+                "Hebei Pinjin compact concrete pump on a construction site with operators",
+            ),
+        ],
+    ),
+    (
+        "infrastructure",
+        [
+            (
+                "pinjin-concrete-equipment-highway-infrastructure.webp",
+                "Hebei Pinjin construction equipment working on a highway infrastructure project",
+            ),
+        ],
+    ),
+    (
+        "spraying",
+        [
+            (
+                "pinjin-mortar-spraying-machine-building-interior.webp",
+                "Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery",
+            ),
+            (
+                "pinjin-hydraulic-mortar-spraying-machine-site.webp",
+                "Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery",
+            ),
+        ],
     ),
 ]
 
@@ -151,19 +203,46 @@ def resolve_base() -> str:
 
 
 def write_robots(base: str) -> None:
-    robots = ROOT / "robots.txt"
-    text = robots.read_text(encoding="utf-8") if robots.exists() else ""
-    # Drop existing Sitemap lines; append the pair for current base
-    body = "\n".join(
-        line
-        for line in text.splitlines()
-        if not re.match(r"(?i)^\s*sitemap\s*:", line)
-    ).rstrip()
-    if body:
-        body += "\n\n"
-    body += f"Sitemap: {base}/sitemap.xml\n"
-    body += f"Sitemap: {base}/image-sitemap.xml\n"
-    robots.write_text(body, encoding="utf-8")
+    text = (
+        "User-agent: Googlebot\n"
+        "Allow: /\n"
+        "\n"
+        "User-agent: Bingbot\n"
+        "Allow: /\n"
+        "\n"
+        "User-agent: *\n"
+        "Allow: /\n"
+        "Disallow: /admin\n"
+        "Disallow: /admin/\n"
+        "Disallow: /src/\n"
+        "Disallow: /dev\n"
+        "Disallow: /dev/\n"
+        "\n"
+        f"Sitemap: {base}/sitemap.xml\n"
+        f"Sitemap: {base}/image-sitemap.xml\n"
+    )
+    (ROOT / "robots.txt").write_text(text, encoding="utf-8")
+
+
+def page_meta(rest: str) -> tuple[str, str]:
+    """Return (changefreq, priority) for a language-stripped path."""
+    if rest == "/":
+        return "weekly", "1.0"
+    if rest in {f"/products/{c}" for c in CATS} or rest == "/factory":
+        return "weekly", "0.9"
+    if rest in ("/products", "/solutions"):
+        return "weekly", "0.9"
+    if rest.startswith("/solutions/"):
+        return "monthly", "0.8"
+    if rest.startswith("/products/"):
+        return "monthly", "0.85"
+    if rest == "/blog":
+        return "weekly", "0.8"
+    if rest.startswith("/blog/"):
+        return "monthly", "0.7"
+    if rest in ("/about", "/contact", "/resources"):
+        return "monthly", "0.8"
+    return "monthly", "0.7"
 
 
 def main() -> None:
@@ -173,13 +252,16 @@ def main() -> None:
         "/products",
         "/product-selection-guide",
         "/about",
-        "/applications",
+        "/factory",
+        "/solutions",
+        "/resources",
         "/faq",
         "/contact",
         "/blog",
     ]
-    page_paths += [f"/products/category/{c}" for c in CATS]
+    page_paths += [f"/products/{c}" for c in CATS]
     page_paths += [f"/products/{s}" for s in SLUGS]
+    page_paths += [f"/solutions/{s}" for s in SOLUTION_SLUGS]
     page_paths += [f"/blog/{s}" for s in BLOG_SLUGS]
 
     urls: list[str] = []
@@ -200,13 +282,9 @@ def main() -> None:
         parts = u.strip("/").split("/", 1)
         rest = f"/{parts[1]}" if len(parts) > 1 else "/"
         if rest == "/":
-            pri = "1.0"
-        elif rest in ("/products", "/product-selection-guide", "/blog"):
-            pri = "0.9"
-        elif rest.startswith("/products/") or rest.startswith("/blog/"):
-            pri = "0.85"
+            freq, pri = page_meta("/")
         else:
-            pri = "0.8"
+            freq, pri = page_meta(rest)
         lines += [
             "  <url>",
             f"    <loc>{base}{u}</loc>",
@@ -221,7 +299,8 @@ def main() -> None:
             f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}/en{"" if rest == "/" else rest}" />'
         )
         lines += [
-            "    <changefreq>weekly</changefreq>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
+            f"    <changefreq>{freq}</changefreq>",
             f"    <priority>{pri}</priority>",
             "  </url>",
         ]
@@ -249,6 +328,14 @@ def main() -> None:
                 f"      <image:title>{title}</image:title>",
                 "    </image:image>",
             ]
+        for _slug, images in APPLICATION_IMAGES:
+            for fname, title in images:
+                img_lines += [
+                    "    <image:image>",
+                    f"      <image:loc>{base}/images/applications/{fname}</image:loc>",
+                    f"      <image:title>{title}</image:title>",
+                    "    </image:image>",
+                ]
         img_lines += [
             "  </url>",
             "  <url>",
@@ -262,6 +349,31 @@ def main() -> None:
                 "    </image:image>",
             ]
         img_lines.append("  </url>")
+        img_lines += [
+            "  <url>",
+            f"    <loc>{base}/{lang}/factory</loc>",
+        ]
+        for fname, title in FACTORY_IMAGES:
+            img_lines += [
+                "    <image:image>",
+                f"      <image:loc>{base}/images/factory/{fname}</image:loc>",
+                f"      <image:title>{title}</image:title>",
+                "    </image:image>",
+            ]
+        img_lines.append("  </url>")
+        for slug, images in APPLICATION_IMAGES:
+            img_lines += [
+                "  <url>",
+                f"    <loc>{base}/{lang}/solutions/{slug}</loc>",
+            ]
+            for fname, title in images:
+                img_lines += [
+                    "    <image:image>",
+                    f"      <image:loc>{base}/images/applications/{fname}</image:loc>",
+                    f"      <image:title>{title}</image:title>",
+                    "    </image:image>",
+                ]
+            img_lines.append("  </url>")
         for s in SLUGS:
             main_img = ROOT / "images" / "products" / s / "main.webp"
             if not main_img.exists():

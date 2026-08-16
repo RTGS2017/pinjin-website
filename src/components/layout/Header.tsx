@@ -77,10 +77,17 @@ export function Header() {
       return pagePath === '/products' || pagePath.startsWith('/products/');
     }
     if (key === 'solutions') {
-      return pagePath === '/applications' || pagePath.startsWith('/applications');
+      return (
+        pagePath === '/solutions' ||
+        pagePath.startsWith('/solutions/') ||
+        pagePath === '/applications' ||
+        pagePath.startsWith('/applications')
+      );
     }
     if (key === 'resources') {
       return (
+        pagePath === '/resources' ||
+        pagePath.startsWith('/resources/') ||
         pagePath === '/blog' ||
         pagePath.startsWith('/blog/') ||
         pagePath === '/faq' ||
@@ -88,7 +95,11 @@ export function Header() {
       );
     }
     if (key === 'company') {
-      return pagePath === '/about';
+      return (
+        pagePath === '/about' ||
+        pagePath === '/factory' ||
+        pagePath.startsWith('/company')
+      );
     }
     return false;
   };

@@ -1,34 +1,31 @@
+import { Factory, Headphones, Settings2, ShieldCheck } from 'lucide-react';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function WhyPinjin() {
   const { t } = useI18n();
   const items = [
-    { id: '01', title: t.why.v1t, subtitle: t.why.v1s, description: t.why.v1d },
-    { id: '02', title: t.why.v2t, subtitle: t.why.v2s, description: t.why.v2d },
-    { id: '03', title: t.why.v3t, subtitle: t.why.v3s, description: t.why.v3d },
-    { id: '04', title: t.why.v4t, subtitle: t.why.v4s, description: t.why.v4d },
+    { icon: Factory, title: t.homeWhy.c1t, description: t.homeWhy.c1d },
+    { icon: Settings2, title: t.homeWhy.c2t, description: t.homeWhy.c2d },
+    { icon: Headphones, title: t.homeWhy.c3t, description: t.homeWhy.c3d },
+    { icon: ShieldCheck, title: t.homeWhy.c4t, description: t.homeWhy.c4d },
   ];
 
   return (
-    <section id="why-pinjin" className="section-y bg-bg-soft scroll-mt-24">
+    <section id="why-pinjin" className="section-y bg-bg scroll-mt-24">
       <div className="container-site">
-        <SectionTitle title={t.why.title} />
+        <SectionTitle title={t.homeWhy.title} />
 
-        <div className="mt-10 grid gap-6 md:grid-cols-2">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {items.map((item) => (
-            <div
-              key={item.id}
-              className="border border-border bg-bg p-7 transition-transform duration-200 hover:-translate-y-0.5"
-            >
-              <p className="text-xs font-semibold tracking-[0.18em] text-primary">
-                {item.id}
-              </p>
-              <h3 className="mt-3 text-lg font-semibold tracking-wide text-dark">
+            <div key={item.title} className="glass-card p-7 sm:p-8">
+              <item.icon className="h-7 w-7 text-primary" strokeWidth={1.5} aria-hidden />
+              <h3 className="mt-6 text-lg font-semibold tracking-tight text-dark">
                 {item.title}
               </h3>
-              <p className="mt-1 text-sm font-medium text-text">{item.subtitle}</p>
-              <p className="mt-3 text-sm text-text-secondary">{item.description}</p>
+              <p className="mt-3 text-sm leading-relaxed text-text-secondary">
+                {item.description}
+              </p>
             </div>
           ))}
         </div>

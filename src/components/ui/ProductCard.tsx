@@ -3,6 +3,7 @@ import type { Product } from '@/data/products';
 import { categoryMeta } from '@/data/products';
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { Button } from './Button';
+import { OemNote } from './OemNote';
 import { useI18n } from '@/i18n/I18nContext';
 
 interface ProductCardProps {
@@ -16,7 +17,7 @@ export function ProductCard({ product }: ProductCardProps) {
   const features = product.keyFeatures.slice(0, 3);
 
   return (
-    <article className="group flex h-full flex-col border border-border bg-bg transition-shadow duration-200 hover:shadow-[0_8px_24px_rgba(37,42,49,0.06)]">
+    <article className="group card-surface flex h-full flex-col overflow-hidden bg-bg transition-shadow duration-300 hover:shadow-[0_12px_36px_rgba(0,0,0,0.06)]">
       <LocaleLink
         to={`/products/${product.slug}`}
         className="block overflow-hidden bg-bg-soft"
@@ -77,9 +78,11 @@ export function ProductCard({ product }: ProductCardProps) {
           <div className="flex-1" />
         )}
 
+        <OemNote compact className="mt-4" />
+
         <div className="mt-5 flex flex-col gap-2 sm:flex-row">
           <Button
-            to={`/products/${product.slug}#inquiry`}
+            to={`/products/${product.slug}`}
             size="md"
             className="w-full sm:w-auto"
           >

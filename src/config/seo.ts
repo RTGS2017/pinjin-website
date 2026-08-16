@@ -15,7 +15,7 @@ export const seoConfig = {
     name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
     alternateName: '河北品锦机械制造有限公司',
     description:
-      'Professional source manufacturer of delivery pumps. Chinese construction machinery manufacturer specializing in concrete pumps, spraying equipment and industrial machinery. R&D, production and sales in Xingtai, Hebei.',
+      'Concrete machinery manufacturer in China. Hebei Pinjin Machinery builds concrete pumps and spraying equipment in Xingtai, Hebei, in the Xingjiawan concrete machinery manufacturing area.',
     address: {
       streetAddress: 'Renze Industrial Park',
       addressLocality: 'Xingtai',
@@ -31,3 +31,17 @@ export function absoluteUrl(path = '/'): string {
   const normalized = path.startsWith('/') ? path : `/${path}`;
   return `${seoConfig.siteUrl}${normalized}`;
 }
+
+/** 页面 Title / Description 模板（产品详情优先用 products.ts 的 seo 字段） */
+export const seoTemplates = {
+  productTitle: (name: string) => `${name} Manufacturer China | Pinjin Machinery`,
+  productDescription: (product: string) =>
+    `Professional ${product} manufacturer in China. Factory direct supply with customization capability from Hebei Pinjin Machinery in Xingtai.`,
+  categoryTitle: (label: string) => `${label} Manufacturer China | Pinjin Machinery`,
+  blogTitle: (topic: string) =>
+    `${topic} | Construction Machinery Knowledge | Pinjin`,
+  factoryTitle:
+    'Xingtai Construction Machinery Factory | Pinjin Machinery',
+  factoryDescription:
+    'Hebei Pinjin Machinery factory in Xingtai, Hebei, China — concrete machinery manufacturer in the Xingjiawan manufacturing area. Factory address: Renze Industrial Park.',
+} as const;

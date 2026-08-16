@@ -8,11 +8,11 @@
       <image:title>Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-construction-machinery-factory-building.webp</image:loc>
-      <image:title>Modern manufacturing facility of Hebei Pinjin Machinery</image:title>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-production-workshop.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-production-workshop.webp</image:loc>
       <image:title>Production workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -28,11 +28,70 @@
       <image:title>Trailer concrete pump assembly at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-assembly-line.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-assembly-area.webp</image:loc>
       <image:title>Equipment assembly workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-finished-machinery-products.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-storage.webp</image:loc>
+      <image:title>Finished construction machinery at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-construction-machinery-factory-loading.webp</image:loc>
+      <image:title>Factory packing and loading at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-diesel-machinery-factory-dispatch.webp</image:loc>
+      <image:title>Equipment dispatch from Hebei Pinjin Machinery factory</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-building-construction.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery concrete pump working on a building construction site in China</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-construction-site.webp</image:loc>
+      <image:title>Hebei Pinjin compact concrete pump on a construction site with operators</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp</image:loc>
+      <image:title>Hebei Pinjin construction equipment working on a highway infrastructure project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-mortar-spraying-machine-building-interior.webp</image:loc>
+      <image:title>Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp</image:loc>
+      <image:title>Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/about</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-production-workshop.webp</image:loc>
+      <image:title>Production workshop of Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-workshop-overhead-crane.webp</image:loc>
+      <image:title>Production workshop with overhead crane at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-concrete-pump-manufacturing.webp</image:loc>
+      <image:title>Concrete pump manufacturing at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-trailer-concrete-pump-assembly.webp</image:loc>
+      <image:title>Trailer concrete pump assembly at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-assembly-area.webp</image:loc>
+      <image:title>Equipment assembly workshop of Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-storage.webp</image:loc>
       <image:title>Finished construction machinery at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -45,13 +104,13 @@
     </image:image>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/en/about</loc>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/factory</loc>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-construction-machinery-factory-building.webp</image:loc>
-      <image:title>Modern manufacturing facility of Hebei Pinjin Machinery</image:title>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-production-workshop.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-production-workshop.webp</image:loc>
       <image:title>Production workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -67,11 +126,11 @@
       <image:title>Trailer concrete pump assembly at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-assembly-line.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-assembly-area.webp</image:loc>
       <image:title>Equipment assembly workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-finished-machinery-products.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-storage.webp</image:loc>
       <image:title>Finished construction machinery at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -81,6 +140,35 @@
     <image:image>
       <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-diesel-machinery-factory-dispatch.webp</image:loc>
       <image:title>Equipment dispatch from Hebei Pinjin Machinery factory</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/construction</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-building-construction.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery concrete pump working on a building construction site in China</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-construction-site.webp</image:loc>
+      <image:title>Hebei Pinjin compact concrete pump on a construction site with operators</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/infrastructure</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp</image:loc>
+      <image:title>Hebei Pinjin construction equipment working on a highway infrastructure project</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/en/solutions/spraying</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-mortar-spraying-machine-building-interior.webp</image:loc>
+      <image:title>Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp</image:loc>
+      <image:title>Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery</image:title>
     </image:image>
   </url>
   <url>
@@ -276,11 +364,11 @@
       <image:title>Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-construction-machinery-factory-building.webp</image:loc>
-      <image:title>Modern manufacturing facility of Hebei Pinjin Machinery</image:title>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-production-workshop.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-production-workshop.webp</image:loc>
       <image:title>Production workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -296,11 +384,70 @@
       <image:title>Trailer concrete pump assembly at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-assembly-line.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-assembly-area.webp</image:loc>
       <image:title>Equipment assembly workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-finished-machinery-products.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-storage.webp</image:loc>
+      <image:title>Finished construction machinery at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-construction-machinery-factory-loading.webp</image:loc>
+      <image:title>Factory packing and loading at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-diesel-machinery-factory-dispatch.webp</image:loc>
+      <image:title>Equipment dispatch from Hebei Pinjin Machinery factory</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-building-construction.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery concrete pump working on a building construction site in China</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-construction-site.webp</image:loc>
+      <image:title>Hebei Pinjin compact concrete pump on a construction site with operators</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp</image:loc>
+      <image:title>Hebei Pinjin construction equipment working on a highway infrastructure project</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-mortar-spraying-machine-building-interior.webp</image:loc>
+      <image:title>Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp</image:loc>
+      <image:title>Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/about</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-production-workshop.webp</image:loc>
+      <image:title>Production workshop of Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-workshop-overhead-crane.webp</image:loc>
+      <image:title>Production workshop with overhead crane at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-concrete-pump-manufacturing.webp</image:loc>
+      <image:title>Concrete pump manufacturing at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-trailer-concrete-pump-assembly.webp</image:loc>
+      <image:title>Trailer concrete pump assembly at Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-assembly-area.webp</image:loc>
+      <image:title>Equipment assembly workshop of Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-storage.webp</image:loc>
       <image:title>Finished construction machinery at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -313,13 +460,13 @@
     </image:image>
   </url>
   <url>
-    <loc>https://rtgs2017.github.io/pinjin-website/zh/about</loc>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/factory</loc>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-construction-machinery-factory-building.webp</image:loc>
-      <image:title>Modern manufacturing facility of Hebei Pinjin Machinery</image:title>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-production-workshop.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-production-workshop.webp</image:loc>
       <image:title>Production workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -335,11 +482,11 @@
       <image:title>Trailer concrete pump assembly at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-assembly-line.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-machinery-assembly-area.webp</image:loc>
       <image:title>Equipment assembly workshop of Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-finished-machinery-products.webp</image:loc>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-equipment-storage.webp</image:loc>
       <image:title>Finished construction machinery at Hebei Pinjin Machinery</image:title>
     </image:image>
     <image:image>
@@ -349,6 +496,35 @@
     <image:image>
       <image:loc>https://rtgs2017.github.io/pinjin-website/images/factory/pinjin-diesel-machinery-factory-dispatch.webp</image:loc>
       <image:title>Equipment dispatch from Hebei Pinjin Machinery factory</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/construction</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-building-construction.webp</image:loc>
+      <image:title>Hebei Pinjin Machinery concrete pump working on a building construction site in China</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-pump-construction-site.webp</image:loc>
+      <image:title>Hebei Pinjin compact concrete pump on a construction site with operators</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/infrastructure</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp</image:loc>
+      <image:title>Hebei Pinjin construction equipment working on a highway infrastructure project</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://rtgs2017.github.io/pinjin-website/zh/solutions/spraying</loc>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-mortar-spraying-machine-building-interior.webp</image:loc>
+      <image:title>Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://rtgs2017.github.io/pinjin-website/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp</image:loc>
+      <image:title>Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery</image:title>
     </image:image>
   </url>
   <url>

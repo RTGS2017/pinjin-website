@@ -310,7 +310,7 @@ export function MegaMenu({ navKey, onNavigate }: MegaMenuProps) {
                 );
               })}
               <MegaMenuLink
-                to="/applications"
+                to="/solutions"
                 onClick={onNavigate}
                 className="mt-2 inline-flex items-center gap-1 px-3 text-sm font-semibold text-white/90 hover:text-primary"
               >
@@ -342,15 +342,27 @@ export function MegaMenu({ navKey, onNavigate }: MegaMenuProps) {
         <ColumnsMega
           leftTitle={t.mega.technicalGroup}
           rightTitle={t.mega.downloadsGroup}
-          left={resourcesTechnicalLinks.map((item) => (
-            <ItemLink
-              key={item.href}
-              to={item.href}
-              icon={technicalIcons[item.megaKey]}
-              title={technicalLabel(t, item.megaKey)}
-              onNavigate={onNavigate}
-            />
-          ))}
+          left={
+            <>
+              {resourcesTechnicalLinks.map((item) => (
+                <ItemLink
+                  key={item.href}
+                  to={item.href}
+                  icon={technicalIcons[item.megaKey]}
+                  title={technicalLabel(t, item.megaKey)}
+                  onNavigate={onNavigate}
+                />
+              ))}
+              <MegaMenuLink
+                to="/resources"
+                onClick={onNavigate}
+                className="mt-2 inline-flex items-center gap-1 px-3 text-sm font-semibold text-white/90 hover:text-primary"
+              >
+                {t.nav.resources}
+                <ArrowRight className="h-4 w-4" aria-hidden />
+              </MegaMenuLink>
+            </>
+          }
           right={
             <>
               {resourcesDownloadLinks.map((item) => (
@@ -464,6 +476,9 @@ export function MobileMegaLinks({
             {t.mega[item.megaKey]}
           </MegaMenuLink>
         ))}
+        <MegaMenuLink to="/resources" className={linkClass} onClick={onNavigate}>
+          {t.nav.resources}
+        </MegaMenuLink>
       </div>
     );
   }

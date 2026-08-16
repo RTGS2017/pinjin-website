@@ -1,22 +1,25 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-primary: #58d26b;
-  --color-primary-hover: #46be5a;
-  --color-dark: #252a31;
-  --color-dark-2: #303640;
-  --color-text: #252a31;
-  --color-text-secondary: #69717d;
-  --color-bg: #ffffff;
-  --color-bg-soft: #f5f6f7;
-  --color-border: #e5e7eb;
-  --color-success: #58d26b;
+  --color-primary: #b32126;
+  --color-primary-hover: #961b20;
+  --color-dark: #1d1f21;
+  --color-dark-2: #2b2e31;
+  --color-text: #1d1f21;
+  --color-text-secondary: #6b6e72;
+  --color-bg: #f3f3f1;
+  --color-bg-soft: #eaeae6;
+  --color-border: #d6d6d2;
+  --color-silver: #b8bcc2;
+  --color-card: #fafaf8;
+  --color-success: #b32126;
 
   --font-sans: 'Inter', 'Noto Sans SC', Arial, Helvetica, sans-serif;
 
   --max-width-site: 1280px;
-  --spacing-section: 5rem;
-  --spacing-section-sm: 3.5rem;
+  --spacing-section: 7rem;
+  --spacing-section-sm: 4.5rem;
+  --radius-card: 1.25rem;
 }
 
 @layer base {
@@ -54,24 +57,126 @@
   }
 
   .heading-display {
-    @apply font-semibold tracking-wide text-dark;
-    letter-spacing: 0.02em;
-    line-height: 1.15;
+    @apply font-semibold text-dark;
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+  }
+
+  .card-surface {
+    border-radius: var(--radius-card);
+    background: var(--color-card);
+    box-shadow: 0 8px 32px rgba(28, 30, 32, 0.05);
+  }
+
+  .product-stage {
+    background:
+      radial-gradient(ellipse at 50% 78%, rgba(184, 188, 194, 0.38), transparent 58%),
+      linear-gradient(180deg, #f7f7f4 0%, #ecece8 100%);
+    box-shadow: 0 28px 56px rgba(28, 30, 32, 0.12);
+  }
+
+  .glass-card {
+    border-radius: var(--radius-card);
+    border: 1px solid var(--color-border);
+    background: var(--color-card);
+    box-shadow: 0 8px 24px rgba(29, 31, 33, 0.04);
+    transition:
+      transform 300ms ease,
+      box-shadow 300ms ease,
+      background-color 300ms ease,
+      border-color 300ms ease;
+  }
+
+  .glass-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-primary);
+    background: #fff;
+    box-shadow:
+      0 16px 36px rgba(29, 31, 33, 0.12),
+      0 0 0 1px var(--color-primary),
+      0 0 22px color-mix(in srgb, var(--color-primary) 26%, transparent);
+  }
+
+  .carousel-nav {
+    @apply inline-flex h-11 w-11 items-center justify-center rounded-full border border-dark/20 bg-white text-dark;
+    transition:
+      border-color 300ms ease,
+      color 300ms ease,
+      box-shadow 300ms ease;
+  }
+
+  .carousel-nav:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    box-shadow: 0 6px 16px rgba(29, 31, 33, 0.08);
+  }
+
+  .carousel-nav-on-dark {
+    @apply border-white/35 bg-dark/40 text-white;
+    backdrop-filter: blur(8px);
+  }
+
+  .carousel-nav-on-dark:hover {
+    border-color: var(--color-primary);
+    color: #fff;
+    background: color-mix(in srgb, var(--color-primary) 85%, black);
   }
 
   .fade-up {
-    animation: fadeUp 0.55s ease-out both;
+    animation: fadeUp 0.7s ease-out both;
   }
 }
 
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(16px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes kenburns {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06);
+  }
+}
+
+.hero-kenburns {
+  animation: kenburns 12s ease-out forwards;
+}
+
+@keyframes carousel-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.carousel-progress-fill {
+  transform: scaleX(0);
+  transform-origin: left center;
+  animation-name: carousel-progress;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-kenburns,
+  .glass-card,
+  .glass-card:hover,
+  .product-stage img,
+  .carousel-progress-fill {
+    animation: none;
+    transition: none;
+    transform: none;
   }
 }
 

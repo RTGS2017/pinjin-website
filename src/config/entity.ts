@@ -68,6 +68,19 @@ export const companyEntity = {
     en: 'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a professional Chinese construction machinery manufacturer specializing in concrete equipment and industrial machinery production.',
     zh: '河北品锦机械制造有限公司是专业的中国工程机械制造商，专注混凝土设备与工业机械生产。',
   },
+  /** 邢家湾产业集聚区说明：区域事实，不改变任泽工业园区法定厂址 */
+  clusterNote: {
+    en: 'Located in Xingtai, Hebei, Xingjiawan is known as an important manufacturing area for concrete machinery. Pinjin’s factory address is Renze Industrial Park, Xingtai.',
+    zh: '邢台邢家湾是中国重要的混凝土机械制造集聚区之一。品锦工厂地址为河北省邢台市任泽工业园区。',
+  },
+  specialization: {
+    en: 'Concrete machinery manufacturing',
+    zh: '混凝土机械制造',
+  },
+  customization: {
+    en: 'OEM equipment solutions',
+    zh: 'OEM 设备方案',
+  },
   capabilities: {
     manufacturing: { en: 'Manufacturing', zh: '制造' },
     assembly: { en: 'Assembly', zh: '装配' },
@@ -79,9 +92,12 @@ export const companyEntity = {
 /** 一级 / 产品 / 长尾关键词（英文采购搜索） */
 export const seoKeywords = {
   primary: [
-    'concrete pump manufacturer',
-    'concrete pump supplier China',
-    'construction equipment manufacturer China',
+    'Concrete Machinery Manufacturer China',
+    'Concrete Pump Manufacturer China',
+    'Concrete Spraying Equipment Manufacturer',
+    'Xingjiawan Concrete Machinery',
+    'Xingtai Construction Machinery Factory',
+    'OEM Concrete Equipment Manufacturer',
   ],
   product: [
     'HBT80-18-140 concrete pump',
@@ -94,5 +110,8 @@ export const seoKeywords = {
     'Concrete pump price from China manufacturer',
     'Diesel concrete pump for building construction',
     'Concrete pump horizontal conveying distance',
+    'xingjiawan concrete machinery',
+    'factory direct machinery supplier',
+    'custom concrete equipment manufacturer',
   ],
 } as const;

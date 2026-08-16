@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/Button';
+import { ContactActions } from '@/components/ui/ContactActions';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function CTA() {
@@ -15,9 +15,7 @@ export function CTA() {
             {t.cta.subtitle}
           </p>
           <div className="mt-8">
-            <Button href="#inquiry" size="lg">
-              {t.cta.button}
-            </Button>
+            <ContactActions tone="dark" />
           </div>
         </div>
       </div>

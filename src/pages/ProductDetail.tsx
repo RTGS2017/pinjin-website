@@ -1,35 +1,34 @@
-﻿import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
-import { getMailtoHref } from '@/config/site';
+import { companyEntity } from '@/config/entity';
 import {
   categoryMeta,
+  getCategoryPath,
   getProductBySlug,
   getRelatedProducts,
   resolveProductSlug,
 } from '@/data/products';
+import { clusterForProduct } from '@/data/topicClusters';
+import { InternalLinks } from '@/components/InternalLink';
 import { getProductFaqs } from '@/data/productFaqs';
 import { SpecItem } from '@/components/ui/SpecItem';
-import { Button } from '@/components/ui/Button';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ProductGallery } from '@/components/ui/ProductGallery';
+import { ContactActions } from '@/components/ui/ContactActions';
+import { Customization } from '@/components/sections/Customization';
+import { OemNote } from '@/components/ui/OemNote';
 import {
   SEO,
   buildBreadcrumbJsonLd,
   buildFaqPageJsonLd,
   buildProductJsonLd,
 } from '@/components/SEO';
-import { WhyFactory } from '@/components/sections/WhyFactory';
-import { FactoryProofStrip } from '@/components/sections/FactoryOverview';
-import { ManufacturingProcess } from '@/components/sections/ManufacturingProcess';
-import { InquiryForm } from '@/components/forms/InquiryForm';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
 export function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { lang, t, tx } = useI18n();
-  const [catalogIntent, setCatalogIntent] = useState(false);
 
   if (!slug) {
     return <LocaleNavigate to="/products" replace />;
@@ -49,9 +48,9 @@ export function ProductDetail() {
   const path = `/products/${product.slug}`;
   const localizedPath = localePath(path, lang);
   const related = getRelatedProducts(product);
-  const faqs = getProductFaqs(product, lang);
+  const faqs = getProductFaqs(product, lang).slice(0, 5);
   const categoryLabel = tx(categoryMeta[product.category].label);
-  const categoryPath = `/products/category/${categoryMeta[product.category].routeSlug}`;
+  const categoryPath = getCategoryPath(product.category);
   const seoTitle = tx(product.seo.title);
   const seoDescription = tx(product.seo.description);
   const keywords = [
@@ -62,6 +61,8 @@ export function ProductDetail() {
 
   const highlightSpecs = product.specifications.slice(0, 4);
   const gallery = product.gallery?.length ? product.gallery : [product.image];
+  const advantages = product.keyFeatures.slice(0, 5);
+  const inquireMessage = `${name}\n${t.detail.inquiryBody}`;
 
   return (
     <section className="section-y bg-bg">
@@ -144,32 +145,13 @@ export function ProductDetail() {
               </div>
             ) : null}
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-              <Button
-                href="#inquiry"
-                size="lg"
-                className="w-full sm:w-auto"
-                onClick={() => setCatalogIntent(false)}
-              >
-                {t.detail.quote}
-              </Button>
-              <Button
-                href={getMailtoHref(`${t.mailSubjectInquiry} - ${name}`)}
-                variant="outline"
-                size="lg"
-                className="w-full sm:w-auto"
-              >
-                {t.detail.contactEngineer}
-              </Button>
-              <Button
-                href="#inquiry"
-                variant="outline"
-                size="lg"
-                className="w-full sm:w-auto"
-                onClick={() => setCatalogIntent(true)}
-              >
-                {t.detail.requestCatalog}
-              </Button>
+            <div className="mt-6">
+              <OemNote className="mb-5" />
+              <ContactActions
+                subject={`${t.mailSubjectInquiry} - ${name}`}
+                message={inquireMessage}
+                showCustom
+              />
             </div>
           </div>
         </div>
@@ -178,80 +160,44 @@ export function ProductDetail() {
           <h2 className="heading-display text-2xl">{t.detail.entity}</h2>
           <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
             <div>
-              <dt className="font-semibold text-dark">
-                {lang === 'zh' ? '制造商' : 'Manufacturer'}
-              </dt>
+              <dt className="font-semibold text-dark">{t.detail.entityManufacturer}</dt>
               <dd className="mt-1 text-text-secondary">
-                {tx(product.geo.manufacturer)}
+                {companyEntity.legalName[lang]}
               </dd>
             </div>
             <div>
-              <dt className="font-semibold text-dark">
-                {lang === 'zh' ? '行业' : 'Industry'}
-              </dt>
-              <dd className="mt-1 text-text-secondary">{tx(product.geo.industry)}</dd>
-            </div>
-            <div>
-              <dt className="font-semibold text-dark">
-                {lang === 'zh' ? '产品类别' : 'Product Category'}
-              </dt>
+              <dt className="font-semibold text-dark">{t.detail.entityLocation}</dt>
               <dd className="mt-1 text-text-secondary">
-                {tx(product.geo.productCategory)}
+                {`${companyEntity.location.locality}, ${companyEntity.location.region}, ${companyEntity.location.country}`}
               </dd>
             </div>
             <div>
-              <dt className="font-semibold text-dark">
-                {lang === 'zh' ? '产地' : 'Manufactured In'}
-              </dt>
+              <dt className="font-semibold text-dark">{t.detail.entitySpecialization}</dt>
               <dd className="mt-1 text-text-secondary">
-                {tx(product.geo.manufacturedIn)}
+                {companyEntity.specialization[lang]}
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">{t.detail.entityCustomization}</dt>
+              <dd className="mt-1 text-text-secondary">
+                {companyEntity.customization[lang]}
               </dd>
             </div>
           </dl>
         </section>
 
-        <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">
-            {t.detail.overview}
-          </h2>
-          <p className="mt-4 max-w-4xl text-sm leading-relaxed text-text-secondary sm:text-base">
-            {tx(product.productIntroduction)}
-          </p>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {(
-              [
-                ['whatIs', lang === 'zh' ? '这是什么设备？' : 'What is this equipment?'],
-                ['whoNeeds', lang === 'zh' ? '谁需要这台设备？' : 'Who needs this equipment?'],
-                ['whereUsed', lang === 'zh' ? '可以用在哪里？' : 'Where can it be used?'],
-                ['advantages', lang === 'zh' ? '有哪些优势？' : 'What advantages does it provide?'],
-                ['howToInquire', lang === 'zh' ? '如何询价？' : 'How can I request a quotation?'],
-              ] as const
-            ).map(([key, label]) => (
-              <div key={key} className="border border-border p-5">
-                <h3 className="font-semibold text-dark">{label}</h3>
-                <p className="mt-2 text-sm text-text-secondary">
-                  {tx(product.geo.answers[key])}
-                </p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">
-            {t.detail.applications}
-          </h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {product.applicationScenarios.map((item) => (
-              <div
-                key={item.en}
-                className="border border-border bg-bg-soft p-5"
-              >
-                <h3 className="font-semibold text-dark">{tx(item)}</h3>
-              </div>
-            ))}
-          </div>
-        </section>
+        {advantages.length > 0 ? (
+          <section className="mt-14">
+            <h2 className="heading-display text-2xl sm:text-3xl">
+              {t.detail.advantages}
+            </h2>
+            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-text-secondary sm:text-base">
+              {advantages.map((item) => (
+                <li key={item.en}>{tx(item)}</li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">
@@ -291,22 +237,21 @@ export function ProductDetail() {
 
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">
-            {t.detail.advantages}
+            {t.detail.applications}
           </h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-text-secondary sm:text-base">
-            {product.keyFeatures.map((item) => (
-              <li key={item.en}>{tx(item)}</li>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {product.applicationScenarios.map((item) => (
+              <div
+                key={item.en}
+                className="border border-border bg-bg-soft p-5"
+              >
+                <h3 className="font-semibold text-dark">{tx(item)}</h3>
+              </div>
             ))}
-          </ul>
+          </div>
         </section>
 
-        <WhyFactory />
-
-        <FactoryProofStrip />
-
-        <div className="mt-14">
-          <ManufacturingProcess compact />
-        </div>
+        <Customization compact />
 
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.faq}</h2>
@@ -329,18 +274,6 @@ export function ProductDetail() {
           </p>
         </section>
 
-        <div className="mt-16 border border-border bg-bg-soft p-8">
-          <h2 className="heading-display text-2xl">{t.detail.inquiryTitle}</h2>
-          <p className="mt-3 max-w-xl text-text-secondary">{t.detail.inquiryBody}</p>
-          <div className="mt-6">
-            <InquiryForm
-              key={catalogIntent ? 'catalog' : 'quote'}
-              defaultProduct={name}
-              defaultMessage={catalogIntent ? t.detail.catalogPrefill : ''}
-            />
-          </div>
-        </div>
-
         {related.length > 0 ? (
           <div className="mt-16">
             <h2 className="heading-display text-2xl sm:text-3xl">
@@ -353,6 +286,8 @@ export function ProductDetail() {
             </div>
           </div>
         ) : null}
+
+        <InternalLinks cluster={clusterForProduct(product.category)} />
       </div>
     </section>
   );

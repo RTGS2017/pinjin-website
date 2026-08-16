@@ -1,5 +1,5 @@
 import { LocaleLink } from '@/i18n/navigation';
-import { categoryMeta, type ProductCategory } from '@/data/products';
+import { categoryMeta, getCategoryPath, type ProductCategory } from '@/data/products';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { useI18n } from '@/i18n/I18nContext';
 
@@ -24,7 +24,7 @@ export function ProductCategories() {
             return (
               <LocaleLink
                 key={id}
-                to={`/products/category/${meta.routeSlug}`}
+                to={getCategoryPath(id)}
                 className="group border border-border bg-bg p-7 transition-shadow duration-200 hover:shadow-[0_8px_24px_rgba(37,42,49,0.06)]"
               >
                 <h3 className="text-xl font-semibold tracking-wide text-dark">
