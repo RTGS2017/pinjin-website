@@ -157,9 +157,12 @@ export const messages = {
     knowledge: {
       title: 'Knowledge Center',
       subtitle: 'Practical notes on equipment, manufacturing and site selection.',
-      industry: 'Industry Insights',
+      industry: 'Industry Trends',
       manufacturing: 'Manufacturing Knowledge',
       equipment: 'Equipment Guide',
+      application: 'Application Solutions',
+      trends: 'Industry Trends',
+      factoryInsights: 'Factory Insights',
       viewAll: 'View all articles',
     },
     factory: {
@@ -226,6 +229,7 @@ export const messages = {
       spraying: 'Spraying Machines',
       material: 'Material Handling',
       rebar: 'Rebar Equipment',
+      customMachinery: 'OEM Custom Machinery',
       selectionCta: 'Not sure which model? Open the Product Selection Guide',
     },
     detail: {
@@ -243,6 +247,12 @@ export const messages = {
       customBody:
         'Share your project requirements and we will recommend a suitable model.',
       overview: 'Product Overview',
+      definition: 'Definition',
+      whoNeeds: 'Who needs this equipment',
+      whereUsed: 'Where it is used',
+      relatedCases: 'Related engineering applications',
+      contactEngineerLead:
+        'Tell the factory engineering team the model, quantity and site conditions.',
       applications: 'Application Scenarios',
       advantages: 'Key Advantages',
       faq: 'Product FAQ',
@@ -371,7 +381,9 @@ export const messages = {
       back: 'Back to all articles',
       inquiryCta: 'Need a model recommendation? Contact our engineering team',
       published: 'Published',
+      updated: 'Updated',
       category: 'Category',
+      filterAll: 'All articles',
     },
     floating: {
       quote: 'Request Quote',
@@ -533,9 +545,12 @@ export const messages = {
     knowledge: {
       title: '知识中心',
       subtitle: '关于设备、制造与现场选型的实用说明。',
-      industry: '行业洞察',
+      industry: '行业趋势',
       manufacturing: '制造知识',
       equipment: '设备指南',
+      application: '应用方案',
+      trends: '行业趋势',
+      factoryInsights: '工厂洞察',
       viewAll: '查看全部文章',
     },
     factory: {
@@ -596,6 +611,7 @@ export const messages = {
       spraying: '喷涂设备',
       material: '物料搬运',
       rebar: '钢筋设备',
+      customMachinery: 'OEM 定制机械',
       selectionCta: '不确定选哪款？打开产品选型指南',
     },
     detail: {
@@ -612,6 +628,11 @@ export const messages = {
       customTitle: '需要定制方案？',
       customBody: '告诉我们项目需求，我们将推荐合适型号。',
       overview: '产品概述',
+      definition: '定义',
+      whoNeeds: '谁需要这台设备',
+      whereUsed: '应用场合',
+      relatedCases: '相关工程应用',
+      contactEngineerLead: '请告知工厂工程团队型号、数量与工况条件。',
       applications: '应用场景',
       advantages: '核心优势',
       faq: '产品常见问题',
@@ -729,7 +750,9 @@ export const messages = {
       back: '返回文章列表',
       inquiryCta: '需要选型建议？联系工程团队',
       published: '发布日期',
+      updated: '更新日期',
       category: '分类',
+      filterAll: '全部文章',
     },
     floating: {
       quote: '立即询价',

@@ -75,9 +75,10 @@ CATS = [
     "spraying-machines",
     "material-handling",
     "rebar-equipment",
+    "custom-machinery",
 ]
 
-# 与 src/data/blog.ts 的 slug 保持一致
+# 与 src/data/blog.ts + knowledgeArticles.ts 的 slug 保持一致
 BLOG_SLUGS = [
     "how-to-choose-a-concrete-pump",
     "diesel-vs-electric-concrete-pump",
@@ -90,6 +91,13 @@ BLOG_SLUGS = [
     "why-factory-direct-concrete-equipment-has-faster-customization",
     "how-concrete-pumps-work",
     "concrete-pump-maintenance-guide",
+    "trailer-pump-vs-truck-mounted-concrete-pump",
+    "shotcrete-machine-application-guide",
+    "dry-mix-vs-wet-mix-spraying-machine",
+    "tunnel-concrete-spraying-solution",
+    "why-choose-a-chinese-concrete-machinery-manufacturer",
+    "xingtai-concrete-machinery-factory-inspection-guide",
+    "concrete-mixing-and-pumping-for-construction-projects",
 ]
 
 SOLUTION_SLUGS = [
@@ -99,7 +107,13 @@ SOLUTION_SLUGS = [
     "industrial-projects",
 ]
 
-LASTMOD = "2026-08-15"
+LASTMOD = "2026-08-17"
+IMAGE_GEO = "Xingtai, Hebei, China"
+IMAGE_KEYWORD_CAPTION = (
+    "Xingtai concrete machinery manufacturer. "
+    "China concrete pump factory. "
+    "custom concrete equipment supplier."
+)
 
 FACTORY_IMAGES = [
     (
@@ -224,6 +238,29 @@ def write_robots(base: str) -> None:
     (ROOT / "robots.txt").write_text(text, encoding="utf-8")
 
 
+def xml_esc(text: str) -> str:
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
+def image_nodes(loc: str, title: str, alt: str | None = None) -> list[str]:
+    caption = alt or title
+    if IMAGE_KEYWORD_CAPTION not in caption:
+        caption = f"{caption} {IMAGE_KEYWORD_CAPTION}"
+    return [
+        "    <image:image>",
+        f"      <image:loc>{xml_esc(loc)}</image:loc>",
+        f"      <image:title>{xml_esc(title)}</image:title>",
+        f"      <image:caption>{xml_esc(caption)}</image:caption>",
+        f"      <image:geo_location>{IMAGE_GEO}</image:geo_location>",
+        "    </image:image>",
+    ]
+
+
 def page_meta(rest: str) -> tuple[str, str]:
     """Return (changefreq, priority) for a language-stripped path."""
     if rest == "/":
@@ -312,81 +349,99 @@ def main() -> None:
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
         '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
     ]
+    factory_exterior_alt = (
+        "Concrete machinery manufacturing factory in Xingtai Hebei China"
+    )
     for lang in LANGS:
         img_lines += [
             "  <url>",
             f"    <loc>{base}/{lang}</loc>",
-            "    <image:image>",
-            f"      <image:loc>{base}/images/hero/hero-main-hebei-pinjin-machinery-factory.webp</image:loc>",
-            "      <image:title>Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior</image:title>",
-            "    </image:image>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
         ]
+        img_lines += image_nodes(
+            f"{base}/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp",
+            "Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior",
+            factory_exterior_alt,
+        )
         for fname, title in FACTORY_IMAGES:
-            img_lines += [
-                "    <image:image>",
-                f"      <image:loc>{base}/images/factory/{fname}</image:loc>",
-                f"      <image:title>{title}</image:title>",
-                "    </image:image>",
-            ]
+            img_lines += image_nodes(
+                f"{base}/images/factory/{fname}",
+                title,
+                title,
+            )
         for _slug, images in APPLICATION_IMAGES:
             for fname, title in images:
-                img_lines += [
-                    "    <image:image>",
-                    f"      <image:loc>{base}/images/applications/{fname}</image:loc>",
-                    f"      <image:title>{title}</image:title>",
-                    "    </image:image>",
-                ]
+                img_lines += image_nodes(
+                    f"{base}/images/applications/{fname}",
+                    title,
+                    title,
+                )
+        img_lines.append("  </url>")
         img_lines += [
-            "  </url>",
             "  <url>",
             f"    <loc>{base}/{lang}/about</loc>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in FACTORY_IMAGES:
-            img_lines += [
-                "    <image:image>",
-                f"      <image:loc>{base}/images/factory/{fname}</image:loc>",
-                f"      <image:title>{title}</image:title>",
-                "    </image:image>",
-            ]
+            img_lines += image_nodes(
+                f"{base}/images/factory/{fname}",
+                title,
+                title,
+            )
         img_lines.append("  </url>")
         img_lines += [
             "  <url>",
             f"    <loc>{base}/{lang}/factory</loc>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in FACTORY_IMAGES:
-            img_lines += [
-                "    <image:image>",
-                f"      <image:loc>{base}/images/factory/{fname}</image:loc>",
-                f"      <image:title>{title}</image:title>",
-                "    </image:image>",
-            ]
+            img_lines += image_nodes(
+                f"{base}/images/factory/{fname}",
+                title,
+                title,
+            )
+        img_lines.append("  </url>")
+        img_lines += [
+            "  <url>",
+            f"    <loc>{base}/{lang}/products/custom-machinery</loc>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
+        ]
+        for fname, title in FACTORY_IMAGES[:4]:
+            img_lines += image_nodes(
+                f"{base}/images/factory/{fname}",
+                title,
+                title,
+            )
         img_lines.append("  </url>")
         for slug, images in APPLICATION_IMAGES:
             img_lines += [
                 "  <url>",
                 f"    <loc>{base}/{lang}/solutions/{slug}</loc>",
+                f"    <lastmod>{LASTMOD}</lastmod>",
             ]
             for fname, title in images:
-                img_lines += [
-                    "    <image:image>",
-                    f"      <image:loc>{base}/images/applications/{fname}</image:loc>",
-                    f"      <image:title>{title}</image:title>",
-                    "    </image:image>",
-                ]
+                img_lines += image_nodes(
+                    f"{base}/images/applications/{fname}",
+                    title,
+                    title,
+                )
             img_lines.append("  </url>")
         for s in SLUGS:
             main_img = ROOT / "images" / "products" / s / "main.webp"
             if not main_img.exists():
                 continue
             n = NAMES[s]
+            alt = f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
             img_lines += [
                 "  <url>",
                 f"    <loc>{base}/{lang}/products/{s}</loc>",
-                "    <image:image>",
-                f"      <image:loc>{base}/images/products/{s}/main.webp</image:loc>",
-                f"      <image:title>{n} manufactured by Hebei Pinjin Machinery</image:title>",
-                "    </image:image>",
+                f"    <lastmod>{LASTMOD}</lastmod>",
             ]
+            img_lines += image_nodes(
+                f"{base}/images/products/{s}/main.webp",
+                f"{n} manufactured by Hebei Pinjin Machinery",
+                alt,
+            )
             extras = [
                 ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery"),
                 ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery"),
@@ -396,12 +451,11 @@ def main() -> None:
             for fname, title in extras:
                 if not (folder / fname).exists():
                     continue
-                img_lines += [
-                    "    <image:image>",
-                    f"      <image:loc>{base}/images/products/{s}/{fname}</image:loc>",
-                    f"      <image:title>{title}</image:title>",
-                    "    </image:image>",
-                ]
+                img_lines += image_nodes(
+                    f"{base}/images/products/{s}/{fname}",
+                    title,
+                    title,
+                )
             img_lines.append("  </url>")
     img_lines.append("</urlset>")
     (ROOT / "image-sitemap.xml").write_text(

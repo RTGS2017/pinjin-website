@@ -58,24 +58,28 @@ python deploy/generate_sitemaps.py
 
 ### 技术 SEO / GEO
 
-- 页面组件：`src/components/SEO.tsx`（Organization / Product / Article / BreadcrumbList / ImageObject / FAQPage JSON-LD）
+- 页面组件：`src/components/SEO.tsx`（Organization / LocalBusiness / WebSite / Product / Article / BreadcrumbList / ImageObject / FAQPage / CollectionPage JSON-LD；canonical、hreflang、Open Graph、Twitter Card）
 - Title 模板：`src/config/seo.ts` 的 `seoTemplates`（产品 `{Name} Manufacturer China | Pinjin Machinery`；博客 `{Topic} | Construction Machinery Knowledge | Pinjin`）
 - 企业实体（全站统一）：`src/config/entity.ts` + `src/components/CompanyEntity.tsx`
-- 主题集群与内链：`src/data/categoryHubs.ts`、`src/data/topicClusters.ts`、`src/components/InternalLink.tsx`
-- 站点地图：`public/sitemap.xml`（含分类 Hub、产品、解决方案、工厂、博客；含 `lastmod` / `changefreq` / `priority`）
-- 图片地图：`public/image-sitemap.xml`
+- 语义架构与别名：`src/config/seoRoutes.ts`（规范 URL 进 sitemap；采购侧别名只做客户端 `replace`）
+- 主题集群与内链：`src/data/categoryHubs.ts`、`src/data/topicClusters.ts`、`src/data/knowledgeArticles.ts`、`src/components/InternalLink.tsx`（锚文本含关键词，不用 click here）
+- 站点地图：`public/sitemap.xml`（首页、分类 Hub、OEM 定制、产品、解决方案/案例、工厂、博客、联系；含 `lastmod` / `changefreq` / `priority` / hreflang）
+- 图片地图：`public/image-sitemap.xml`（`image:loc` / `title` / `caption` / `geo_location=Xingtai, Hebei, China`；页面 HTML 提供 ALT）
 - 爬虫规则：`public/robots.txt`（允许 Google；拦截 `/admin` `/src/` `/dev`；指向 sitemap）
 - FAQ：`/faq`
 - 选型指南：`/product-selection-guide`
-- 解决方案：`/solutions`、`/solutions/:slug`（旧 `/applications` 客户端重定向）
-- 工厂能力：`/factory`
+- 解决方案（工程应用）：规范路径 `/solutions`、`/solutions/:slug`；别名 `/cases` 重定向到同一内容
+- 工厂能力：`/factory`（邢台制造基地 / 河北产业 / 中国供应商定义 + FAQ + 工厂照片 + 制造流程）
 - 资源中心：`/resources`（博客、选型、索取参数；无虚构 PDF）
-- Blog：`/blog`、`/blog/:slug`（静态数据 `src/data/blog.ts`；分类为制造知识 / 行业指南 / 产品指南 / 工厂洞察）
-- 产品分类 Hub：`/products/concrete-pumps` 等（旧 `/products/category/:slug` 重定向）
+- Blog / 知识中心：`/blog`、`/blog/:slug`（`src/data/blog.ts` + `src/data/knowledgeArticles.ts`；分类：设备指南 / 应用方案 / 制造知识 / 行业趋势 / 工厂洞察）
+- 产品分类 Hub：`/products/concrete-pumps`、`/products/spraying-machines` 等
+- OEM 定制专题：`/products/custom-machinery`（真实可定制范围；不虚构搅拌站产品线）
 - 产品详情：保持 `/products/:slug`（GitHub Pages 无法做 HTTP 301，不改为嵌套型号 URL）
-- 产品页结构：Hero + 优势 + 参数 + 应用 + 定制 + FAQ（最多 5 条）+ 相关产品 + GEO 块 + 相关主题内链
-- 组织 / 产品 JSON-LD：不含价格与评分；Product.image 为 ImageObject；Organization.industry 为 Construction Machinery Manufacturer
-- 核心关键词围绕：Concrete Machinery Manufacturer China、Concrete Pump Manufacturer China、Concrete Spraying Equipment Manufacturer、Xingjiawan Concrete Machinery、Xingtai Construction Machinery Factory、OEM Concrete Equipment Manufacturer
+- 产品页结构：介绍（含定义）→ 优势 → 技术参数表 → 应用场景（链到 `/solutions/*`）→ 定制 → 工厂制造 → FAQ → 联系工程师
+- 组织 JSON-LD：`industry=Construction Machinery Manufacturer`；`makesOffer` 为目录产品（混凝土泵、喷涂机、搬运、钢筋），不含搅拌站；产品 JSON-LD 含 `brand` / `model` / `additionalProperty`
+- 关键词集群：混凝土泵厂家、喷涂设备、搅拌与泵送关系说明、中国厂家信任（邢台工厂考察 / OEM 流程）。不单独堆砌过宽的 “concrete machine”
+- **不虚构搅拌站分类页**：`/products/concrete-mixing-plant` 重定向到搅拌与泵送说明文章；目录未销售搅拌站
+- 图片：WebP、`loading=lazy`（LCP 图 eager）、每产品 `{slug}/main.webp`；工厂图见 `图片准备清单.md`。不引入重量级 SEO 插件
 - 品牌色板（厂房深灰 + 工业红，避免亮橙/纯蓝模板）：主色 `#1D1F21`、强调 `#B32126`、背景 `#F3F3F1`，定义于 [`src/index.css`](src/index.css)
 - 首页定位：B2B 工业制造商站（产品理解 / 导航清晰 / 询盘转化），不是作品集或电商画廊
 - 首页顺序：Hero 单视觉（工厂+设备背景自动切换）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心 → Footer
@@ -125,6 +129,13 @@ Blog 文章：
 
 ```text
 src/data/blog.ts
+src/data/knowledgeArticles.ts
+```
+
+SEO 规范路径与别名：
+
+```text
+src/config/seoRoutes.ts
 ```
 
 工厂能力轮播（幻灯片路径 / ALT / 关键词）：
@@ -176,7 +187,7 @@ src/data/gallery.ts
 产品数据唯一来源：根目录《河北品锦机械制造有限公司产品目录》。  
 当前共 **22** 个产品实体，录入 `src/data/products.ts`。
 
-图片准备说明见 `图片准备清单.md`。产品数据只登记主图 `main.webp`；详情页按实际文件显示。施工现场图放到 `public/images/products/` 根目录（中文产品名 JPG，第二张加 `2`）后运行 `python deploy/process_product_images.py`，会写入对应 `{slug}/working.webp`（及 `working-2.webp`），4:3 裁切、SEO 文件名，不在 URL 中保留中文文件名。首页 Hero 使用部分 `working.webp` / 工厂实拍，见 [`src/data/gallery.ts`](src/data/gallery.ts)；精选产品轮播使用目录型号 `main.webp` 抠图。
+图片准备说明见 `图片准备清单.md`。素材目录按当前界面只用四类：`brand/`、`products/{slug}/`、`factory/`、`applications/`。已删除不再调用的 `hero/`（旧主视图）、空的 `icons/`、以及 `products/concrete-pumps/` 等分类备份目录。产品只登记 `main.webp`；现场图生成 `{slug}/working.webp`。首页 Hero 复用现场图与工厂实拍（`src/data/gallery.ts`），精选轮播用 `main.webp`，默认 OG 用厂房外观。
 
 工厂图放在 `public/images/factory/`。微信原图放入后运行：
 
@@ -185,7 +196,7 @@ python deploy/process_factory_images.py
 python deploy/generate_sitemaps.py
 ```
 
-会把全部工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名（见清单，当前 9 张全部使用）。首页 Hero 为产品实拍与工厂实拍交错的交互画廊（5 张），数据见 [`src/data/gallery.ts`](src/data/gallery.ts)。About 工厂一览、产品详情厂商能力条、制造流程 Blog 仍用完整 `factorySlides`。
+会把全部工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名（见清单，当前 9 张全部使用）。首页 Hero 5 帧复用产品现场图 + 工厂实拍，数据见 [`src/data/gallery.ts`](src/data/gallery.ts)。About、Factory 页、产品详情厂商能力条、制造流程 Blog 仍用完整 `factorySlides`。
 
 应用现场图放到 `public/images/applications/` 后运行：
 
@@ -268,20 +279,32 @@ https://rtgs2017.github.io/pinjin-website/
 |------|------|
 | `/` | 首页：Hero 单视觉 + 进度条 → 5 款精选产品轮播 → 工厂能力画廊 → Why Pinjin → 应用案例轮播 → 知识中心 |
 | `/products` | 全部产品 |
-| `/products/concrete-pumps` 等 | 分类 Hub（介绍 / 应用 / 优势 / 型号 / FAQ / 相关文章） |
+| `/products/concrete-pumps` 等 | 分类 Hub（制造商 H1 / 介绍 / 应用 / 优势 / 型号 / FAQ / 相关文章） |
+| `/products/custom-machinery` | OEM 定制机械专题 |
 | `/products/:slug` | 产品详情（WhatsApp / 邮件 CTA，无长表单） |
 | `/product-selection-guide` | 选型指南 |
-| `/solutions` | 行业解决方案索引 |
-| `/solutions/:slug` | 解决方案详情（construction / infrastructure / spraying / industrial-projects） |
+| `/solutions` | 工程应用索引（案例 Hub） |
+| `/solutions/:slug` | 工程应用详情（construction / infrastructure / spraying / industrial-projects） |
 | `/about` | 公司介绍 |
-| `/factory` | 工厂制造能力 |
+| `/factory` | 工厂制造能力（邢台 GEO + 照片 + 流程 + FAQ） |
 | `/resources` | 资源中心（博客、选型、索取参数） |
 | `/faq` | FAQ |
-| `/blog` | 知识中心列表 |
-| `/blog/:slug` | 文章详情（链到分类 Hub → 产品 → 联系） |
-| `/contact` | 联系（WhatsApp + 邮件 + 电话） |
+| `/blog` | 工业知识中心列表（可按分类筛选） |
+| `/blog/:slug` | 文章详情（关键词锚文本链到分类 Hub → 产品 → 联系） |
+| `/contact` | 联系制造商（WhatsApp + 邮件 + 电话） |
 
-兼容旧地址（客户端 `replace`，不进 sitemap）：`/products/category/:slug` → 对应分类 Hub；`/applications` → `/solutions`；`/company` → `/about`；`/company/factory` 与 `/company/manufacturing-capability` → `/factory`；`/resources/blog/xingjiawan-concrete-machinery` → 现有邢家湾文章。不单独做 mining 方案页（目录未发布该内容）。
+兼容旧地址与采购侧别名（客户端 `replace`，**不进 sitemap**）：
+
+- `/products/category/:slug` → 对应分类 Hub
+- `/products/concrete-pump` → `/products/concrete-pumps`
+- `/products/concrete-spraying-machine` → `/products/spraying-machines`
+- `/products/concrete-mixing-plant` → 搅拌与泵送说明文（目录未销售搅拌站）
+- `/cases`、`/cases/:slug` → `/solutions` 对应页
+- `/applications` → `/solutions`
+- `/company` → `/about`；`/company/factory` 与 `/company/manufacturing-capability` → `/factory`
+- `/resources/blog/xingjiawan-concrete-machinery` → 现有邢家湾文章
+
+不单独做 mining 方案页或搅拌站产品分类（目录未发布该内容）。
 
 顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮 **WhatsApp** 按钮；联系页隐藏以免重复。路由切换时 [`ScrollToTop`](src/components/layout/ScrollToTop.tsx) 将页面滚到顶部。
 
@@ -297,7 +320,7 @@ sitemap 只收录规范 URL（含 `/en` 与 `/zh` 及 hreflang）。结构改完
 
 ### 新增 Blog 文章
 
-1. 在 [`src/data/blog.ts`](src/data/blog.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、内链到分类 Hub / 产品 / 联系；可选 `image` 引用 `factory.ts`）。
+1. 在 [`src/data/blog.ts`](src/data/blog.ts) 或 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、关键词锚文本内链到分类 Hub / 产品 / 工厂 / 联系；可选 `image` 引用 `factory.ts`）。分类使用：`product-guide`（设备指南）、`application-solutions`（应用方案）、`manufacturing-knowledge`（制造知识）、`industry-guide`（行业趋势）、`factory-insights`（工厂洞察）。
 2. 如属于某产品主题，把文章链加入 [`src/data/topicClusters.ts`](src/data/topicClusters.ts) 对应分类。
 3. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`。
 4. 运行 `python deploy/generate_sitemaps.py`。

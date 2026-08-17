@@ -49,6 +49,7 @@ export function Products() {
         <SectionTitle
           title={t.productsPage.title}
           subtitle={t.productsPage.subtitle}
+          heading="h1"
         />
 
         <p className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-sm text-text-secondary">
@@ -63,6 +64,9 @@ export function Products() {
                 {tx(categoryMeta[key].label)}
               </LocaleLink>
             ))}
+          <LocaleLink to="/products/custom-machinery" className="hover:text-primary">
+            {t.productsPage.customMachinery}
+          </LocaleLink>
           <LocaleLink to="/product-selection-guide" className="hover:text-primary">
             {t.productsPage.selectionCta} →
           </LocaleLink>

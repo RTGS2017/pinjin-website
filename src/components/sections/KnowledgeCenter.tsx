@@ -12,7 +12,9 @@ const knowledgeLabel = (
 ) => {
   if (category === 'manufacturing-knowledge') return t.knowledge.manufacturing;
   if (category === 'product-guide') return t.knowledge.equipment;
-  return t.knowledge.industry;
+  if (category === 'application-solutions') return t.knowledge.application;
+  if (category === 'factory-insights') return t.knowledge.factoryInsights;
+  return t.knowledge.trends;
 };
 
 export function KnowledgeCenter() {

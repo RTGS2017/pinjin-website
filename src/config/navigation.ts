@@ -49,7 +49,7 @@ export const solutionsIndustryLinks = [
 ] as const;
 
 export const solutionsOemLinks = [
-  { href: '/contact', megaKey: 'customDesign' as const },
+  { href: '/products/custom-machinery', megaKey: 'customDesign' as const },
   { href: '/factory#process', megaKey: 'process' as const },
   { href: '/#why-pinjin', megaKey: 'quality' as const },
 ] as const;

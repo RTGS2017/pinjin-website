@@ -9,7 +9,8 @@ export const seoConfig = {
   defaultTitle: 'Concrete Pump Manufacturer China | Hebei Pinjin Machinery',
   defaultDescription:
     'Concrete pump manufacturer and supplier in China. Hebei Pinjin Machinery builds concrete pumps, mortar spraying machines and plaster spraying machines in Xingtai, Hebei.',
-  defaultOgImage: '/images/hero/hero-main-hebei-pinjin-machinery-factory.webp',
+  defaultOgImage:
+    '/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp',
   twitterCard: 'summary_large_image' as const,
   organization: {
     name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',

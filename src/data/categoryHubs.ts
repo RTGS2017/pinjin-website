@@ -9,6 +9,7 @@ export interface CategoryHubFaq {
 }
 
 export interface CategoryHub {
+  h1: LocalizedText;
   intro: LocalizedText;
   applications: LocalizedText[];
   advantages: LocalizedText[];
@@ -18,6 +19,7 @@ export interface CategoryHub {
 
 export const categoryHubs: Record<ProductCategory, CategoryHub> = {
   'concrete-pump': {
+    h1: L('Concrete Pump Manufacturer', '混凝土泵厂家'),
     intro: L(
       'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a concrete pump manufacturer in China. Catalogue models cover compact transfer pumps through high-capacity trailer pumps, with published delivery capacity, conveying distance and aggregate size. The factory is in Renze Industrial Park, Xingtai, Hebei, in the Xingjiawan concrete machinery manufacturing area.',
       '河北品锦机械制造有限公司是中国混凝土泵制造商。目录机型覆盖紧凑输送泵至大排量拖泵，并公布输送量、输送距离与骨料粒径。工厂位于河北省邢台市任泽工业园区，地处邢家湾混凝土机械制造集聚区。',
@@ -71,6 +73,7 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
     ],
   },
   'spraying-machine': {
+    h1: L('Concrete Spraying Equipment Manufacturer', '混凝土喷涂设备厂家'),
     intro: L(
       'Pinjin is a concrete spraying equipment manufacturer listing mortar, plaster, plunger and concrete spraying machines with published pressure, flow and distance. Equipment is produced at the Xingtai factory as factory-direct OEM machinery.',
       '品锦是混凝土喷涂设备制造商，目录含砂浆、石膏、柱塞与混凝土喷浆机，并公布压力、流量与距离。设备在邢台工厂生产，属工厂直供 OEM 机械。',
@@ -114,6 +117,7 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
     ],
   },
   'material-handling': {
+    h1: L('Material Handling Equipment Manufacturer', '物料搬运设备厂家'),
     intro: L(
       'Material handling equipment from Hebei Pinjin Machinery includes spiral feeders and four-wheel-drive forklift loaders with published lift and drive parameters for construction-site feeding and handling.',
       '河北品锦机械的物料搬运设备包括螺旋给料机与四驱叉车装载机，公布举升与驱动参数，用于工地给料与搬运。',
@@ -145,6 +149,7 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
     ],
   },
   'rebar-equipment': {
+    h1: L('Rebar Processing Equipment Manufacturer', '钢筋加工设备厂家'),
     intro: L(
       'Pinjin lists CNC steel bar bending equipment for stirrup processing, manufactured at the Xingtai construction machinery factory.',
       '品锦目录提供数控钢筋弯箍设备，用于箍筋加工，由邢台工程机械工厂制造。',

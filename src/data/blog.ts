@@ -1,6 +1,7 @@
 import type { LocalizedText } from '@/i18n/types';
 import { getFactorySlide } from '@/data/factory';
 import { manufacturingSteps } from '@/data/manufacturingProcess';
+import { knowledgeArticles } from '@/data/knowledgeArticles';
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
@@ -16,13 +17,23 @@ export type BlogCategory =
   | 'manufacturing-knowledge'
   | 'industry-guide'
   | 'product-guide'
-  | 'factory-insights';
+  | 'factory-insights'
+  | 'application-solutions';
+
+export const blogCategoryOrder: BlogCategory[] = [
+  'product-guide',
+  'application-solutions',
+  'manufacturing-knowledge',
+  'industry-guide',
+  'factory-insights',
+];
 
 export const blogCategoryMeta: Record<BlogCategory, LocalizedText> = {
   'manufacturing-knowledge': L('Manufacturing Knowledge', '制造知识'),
-  'industry-guide': L('Industry Guide', '行业指南'),
-  'product-guide': L('Product Guide', '产品指南'),
+  'industry-guide': L('Industry Trends', '行业趋势'),
+  'product-guide': L('Equipment Guide', '设备指南'),
   'factory-insights': L('Factory Insights', '工厂洞察'),
+  'application-solutions': L('Application Solutions', '应用方案'),
 };
 
 export interface BlogSection {
@@ -48,6 +59,7 @@ export interface BlogPost {
   description: LocalizedText;
   category: BlogCategory;
   date: string;
+  dateModified?: string;
   keywords: string[];
   relatedProductSlugs: string[];
   relatedPaths: BlogRelatedPath[];
@@ -961,12 +973,16 @@ export const blogPosts: BlogPost[] = [
   },
 ];
 
+function allBlogPosts(): BlogPost[] {
+  return [...blogPosts, ...knowledgeArticles];
+}
+
 export function getBlogPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((post) => post.slug === slug);
+  return allBlogPosts().find((post) => post.slug === slug);
 }
 
 export function getBlogPosts(): BlogPost[] {
-  return [...blogPosts].sort((a, b) => (a.date < b.date ? 1 : -1));
+  return allBlogPosts().sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
 export function getBlogCover(post: BlogPost) {

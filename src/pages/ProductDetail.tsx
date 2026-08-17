@@ -16,6 +16,7 @@ import { ProductCard } from '@/components/ui/ProductCard';
 import { ProductGallery } from '@/components/ui/ProductGallery';
 import { ContactActions } from '@/components/ui/ContactActions';
 import { Customization } from '@/components/sections/Customization';
+import { FactoryProofStrip } from '@/components/sections/FactoryOverview';
 import { OemNote } from '@/components/ui/OemNote';
 import {
   SEO,
@@ -80,6 +81,12 @@ export function ProductDetail() {
             image: product.image,
             path: localizedPath,
             category: categoryLabel,
+            model: name,
+            brand: 'Pinjin',
+            specifications: product.specifications.map((spec) => ({
+              name: tx(spec.label),
+              value: tx(spec.value),
+            })),
           }),
           buildFaqPageJsonLd(faqs),
           buildBreadcrumbJsonLd([
@@ -186,6 +193,27 @@ export function ProductDetail() {
           </dl>
         </section>
 
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">
+            {t.detail.overview}
+          </h2>
+          <p className="mt-4 text-text-secondary">{tx(product.productIntroduction)}</p>
+          <div className="mt-6 border border-border bg-bg-soft p-5">
+            <h3 className="font-semibold text-dark">{t.detail.definition}</h3>
+            <p className="mt-2 text-sm text-text-secondary">
+              {tx(product.geo.answers.whatIs)}
+            </p>
+            <h3 className="mt-4 font-semibold text-dark">{t.detail.whoNeeds}</h3>
+            <p className="mt-2 text-sm text-text-secondary">
+              {tx(product.geo.answers.whoNeeds)}
+            </p>
+            <h3 className="mt-4 font-semibold text-dark">{t.detail.whereUsed}</h3>
+            <p className="mt-2 text-sm text-text-secondary">
+              {tx(product.geo.answers.whereUsed)}
+            </p>
+          </div>
+        </section>
+
         {advantages.length > 0 ? (
           <section className="mt-14">
             <h2 className="heading-display text-2xl sm:text-3xl">
@@ -249,9 +277,23 @@ export function ProductDetail() {
               </div>
             ))}
           </div>
+          <p className="mt-4 text-sm text-text-secondary">{t.detail.relatedCases}</p>
+          <ul className="mt-2 space-y-2 text-sm">
+            {clusterForProduct(product.category)
+              .relatedSolutions.filter((link) => link.href.startsWith('/solutions'))
+              .map((link) => (
+                <li key={link.href}>
+                  <LocaleLink to={link.href} className="font-medium text-dark hover:text-primary">
+                    {lang === 'zh' ? link.zh : link.en}
+                  </LocaleLink>
+                </li>
+              ))}
+          </ul>
         </section>
 
         <Customization compact />
+
+        <FactoryProofStrip />
 
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.faq}</h2>
@@ -288,6 +330,20 @@ export function ProductDetail() {
         ) : null}
 
         <InternalLinks cluster={clusterForProduct(product.category)} />
+
+        <div className="mt-16 border border-border bg-bg-soft p-8">
+          <h2 className="heading-display text-2xl">{t.detail.contactEngineer}</h2>
+          <p className="mt-3 text-sm text-text-secondary">
+            {t.detail.contactEngineerLead}
+          </p>
+          <div className="mt-6">
+            <ContactActions
+              subject={`${t.mailSubjectInquiry} - ${name}`}
+              message={inquireMessage}
+              showCustom
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -1,14 +1,26 @@
+import { useMemo, useState } from 'react';
 import { LocaleLink } from '@/i18n/navigation';
 import { SEO, buildBreadcrumbJsonLd } from '@/components/SEO';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
-import { blogCategoryMeta, getBlogCover, getBlogPosts } from '@/data/blog';
+import {
+  blogCategoryMeta,
+  blogCategoryOrder,
+  getBlogCover,
+  getBlogPosts,
+  type BlogCategory,
+} from '@/data/blog';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
 export function BlogList() {
   const { lang, t, tx } = useI18n();
   const posts = getBlogPosts();
+  const [filter, setFilter] = useState<'all' | BlogCategory>('all');
+  const visible = useMemo(
+    () => (filter === 'all' ? posts : posts.filter((post) => post.category === filter)),
+    [filter, posts],
+  );
 
   return (
     <section className="section-y bg-bg">
@@ -30,9 +42,41 @@ export function BlogList() {
           <span aria-hidden> / </span>
           <span className="text-dark">{t.blog.title}</span>
         </nav>
-        <SectionTitle title={t.knowledge.title} subtitle={t.knowledge.subtitle} />
+        <SectionTitle title={t.knowledge.title} subtitle={t.knowledge.subtitle} heading="h1" />
+        <div className="mt-8 flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => setFilter('all')}
+            className={[
+              'rounded-sm border px-4 py-2 text-xs font-semibold tracking-wide',
+              filter === 'all'
+                ? 'border-primary bg-primary text-white'
+                : 'border-border text-text-secondary hover:border-primary',
+            ].join(' ')}
+          >
+            {t.blog.filterAll}
+          </button>
+          {blogCategoryOrder.map((key) => {
+            const active = filter === key;
+            return (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setFilter(key)}
+                className={[
+                  'rounded-sm border px-4 py-2 text-xs font-semibold tracking-wide',
+                  active
+                    ? 'border-primary bg-primary text-white'
+                    : 'border-border text-text-secondary hover:border-primary',
+                ].join(' ')}
+              >
+                {tx(blogCategoryMeta[key])}
+              </button>
+            );
+          })}
+        </div>
         <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((post) => {
+          {visible.map((post) => {
             const cover = getBlogCover(post);
             return (
               <article key={post.slug} className="card-surface flex flex-col overflow-hidden">

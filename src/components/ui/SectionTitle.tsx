@@ -5,6 +5,8 @@ interface SectionTitleProps {
   align?: 'left' | 'center';
   light?: boolean;
   className?: string;
+  /** 页面主标题用 h1，区块标题保持默认 h2 */
+  heading?: 'h1' | 'h2';
 }
 
 export function SectionTitle({
@@ -14,10 +16,12 @@ export function SectionTitle({
   align = 'left',
   light = false,
   className = '',
+  heading = 'h2',
 }: SectionTitleProps) {
   const alignClass = align === 'center' ? 'text-center mx-auto' : 'text-left';
   const titleColor = light ? 'text-white' : 'text-dark';
   const subColor = light ? 'text-white/75' : 'text-text-secondary';
+  const HeadingTag = heading;
 
   return (
     <div className={`max-w-3xl ${alignClass} ${className}`}>
@@ -26,11 +30,11 @@ export function SectionTitle({
           {eyebrow}
         </p>
       ) : null}
-      <h2
+      <HeadingTag
         className={`heading-display text-3xl sm:text-4xl lg:text-5xl whitespace-pre-line ${titleColor}`}
       >
         {title}
-      </h2>
+      </HeadingTag>
       {subtitle ? (
         <p className={`mt-4 text-base sm:text-lg ${subColor}`}>{subtitle}</p>
       ) : null}

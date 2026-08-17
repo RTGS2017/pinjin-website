@@ -6,6 +6,7 @@ import { useI18n } from '@/i18n/I18nContext';
 import { defaultLang, getLanguage, languages } from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
 import { pick, type Lang } from '@/i18n/types';
+import { companyEntity } from '@/config/entity';
 
 export interface SEOProps {
   title?: string;
@@ -113,6 +114,7 @@ export function buildOrganizationJsonLd() {
     '@context': 'https://schema.org',
     '@type': ['Organization', 'LocalBusiness'],
     name: seoConfig.organization.name,
+    legalName: seoConfig.organization.name,
     alternateName: seoConfig.organization.alternateName,
     url: seoConfig.siteUrl,
     logo: absoluteUrl(seoConfig.organization.logoPath),
@@ -124,9 +126,12 @@ export function buildOrganizationJsonLd() {
       'Concrete Machinery Manufacturer China',
       'Concrete Pump Manufacturer China',
       'Concrete Spraying Equipment Manufacturer',
+      'Concrete Mixing Equipment',
       'Xingjiawan Concrete Machinery',
       'Xingtai Construction Machinery Factory',
       'OEM Concrete Equipment Manufacturer',
+      'China concrete pump factory',
+      'custom concrete equipment supplier',
     ],
     brand: seoConfig.siteName,
     industry: 'Construction Machinery Manufacturer',
@@ -138,6 +143,39 @@ export function buildOrganizationJsonLd() {
       addressCountry: seoConfig.organization.address.addressCountry,
     },
     areaServed: 'Worldwide',
+    makesOffer: companyEntity.products.map((item) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Product',
+        name: item.en,
+        category: 'Construction Machinery',
+      },
+    })),
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Pinjin construction machinery catalogue',
+      itemListElement: [
+        { '@type': 'OfferCatalog', name: 'Concrete Pump' },
+        { '@type': 'OfferCatalog', name: 'Concrete Spraying Machine' },
+        { '@type': 'OfferCatalog', name: 'Material Handling Equipment' },
+        { '@type': 'OfferCatalog', name: 'Rebar Processing Equipment' },
+      ],
+    },
+  };
+}
+
+export function buildWebSiteJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: seoConfig.siteName,
+    url: seoConfig.siteUrl,
+    inLanguage: ['en', 'zh-CN'],
+    publisher: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+      url: seoConfig.siteUrl,
+    },
   };
 }
 
@@ -149,6 +187,17 @@ export function buildImageObjectJsonLd(slide: FactorySlide, lang: Lang) {
     description: pick(slide.schemaDescription, lang),
     contentUrl: absoluteUrl(slide.image),
     caption: pick(slide.alt, lang),
+    keywords: slide.keywords.join(', '),
+    contentLocation: {
+      '@type': 'Place',
+      name: 'Xingtai, Hebei, China',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: seoConfig.organization.address.addressLocality,
+        addressRegion: seoConfig.organization.address.addressRegion,
+        addressCountry: seoConfig.organization.address.addressCountry,
+      },
+    },
   };
 }
 
@@ -209,22 +258,31 @@ export function buildProductJsonLd(input: {
   /** 建议传入已带语言前缀的 path，如 `/en/products/slug` */
   path: string;
   category?: string;
+  model?: string;
+  brand?: string;
+  specifications?: Array<{ name: string; value: string }>;
 }) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: input.name,
     description: input.description,
+    model: input.model ?? input.name,
     image: {
       '@type': 'ImageObject',
       url: absoluteUrl(input.image),
       name: input.name,
+      caption: `${input.name} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`,
+      contentLocation: {
+        '@type': 'Place',
+        name: 'Xingtai, Hebei, China',
+      },
     },
     url: absoluteUrl(input.path),
     category: input.category,
     brand: {
       '@type': 'Brand',
-      name: seoConfig.siteName,
+      name: input.brand ?? seoConfig.siteName,
     },
     manufacturer: {
       '@type': 'Organization',
@@ -238,6 +296,11 @@ export function buildProductJsonLd(input: {
         addressCountry: seoConfig.organization.address.addressCountry,
       },
     },
+    additionalProperty: input.specifications?.map((spec) => ({
+      '@type': 'PropertyValue',
+      name: spec.name,
+      value: spec.value,
+    })),
   };
 }
 
@@ -278,6 +341,7 @@ export function buildArticleJsonLd(input: {
   description: string;
   path: string;
   datePublished: string;
+  dateModified?: string;
   keywords?: string;
   image?: string;
 }) {
@@ -287,7 +351,7 @@ export function buildArticleJsonLd(input: {
     headline: input.headline,
     description: input.description,
     datePublished: input.datePublished,
-    dateModified: input.datePublished,
+    dateModified: input.dateModified ?? input.datePublished,
     mainEntityOfPage: absoluteUrl(input.path),
     keywords: input.keywords,
     image: input.image
@@ -295,6 +359,10 @@ export function buildArticleJsonLd(input: {
           '@type': 'ImageObject',
           url: absoluteUrl(input.image),
           name: input.headline,
+          contentLocation: {
+            '@type': 'Place',
+            name: 'Xingtai, Hebei, China',
+          },
         }
       : undefined,
     author: {

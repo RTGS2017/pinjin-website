@@ -10,7 +10,7 @@ import { ContactActions } from '@/components/ui/ContactActions';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { InternalLinks } from '@/components/InternalLink';
 import { blogCategoryMeta, getBlogPost } from '@/data/blog';
-import { getCategoryPath, getProductBySlug } from '@/data/products';
+import { getCategoryPath, getProductBySlug, categoryMeta } from '@/data/products';
 import { clusterForBlog } from '@/data/topicClusters';
 import { seoTemplates } from '@/config/seo';
 import { useI18n } from '@/i18n/I18nContext';
@@ -60,6 +60,7 @@ export function BlogDetail() {
             description,
             path: localizedPath,
             datePublished: post.date,
+            dateModified: post.dateModified ?? post.date,
             keywords,
             image: firstImage,
           }),
@@ -105,6 +106,9 @@ export function BlogDetail() {
         <p className="mt-4 max-w-3xl text-text-secondary">{description}</p>
         <p className="mt-3 text-sm text-text-secondary">
           {t.blog.published}: {post.date}
+          {post.dateModified && post.dateModified !== post.date
+            ? ` · ${t.blog.updated}: ${post.dateModified}`
+            : null}
         </p>
 
         <div className="mt-10 max-w-3xl space-y-10">
@@ -150,7 +154,13 @@ export function BlogDetail() {
 
         <p className="mt-10 text-sm text-text-secondary">
           <LocaleLink to={categoryHub} className="font-semibold hover:text-primary">
-            {lang === 'zh' ? '查看相关产品分类 →' : 'View related product category →'}
+            {relatedProducts[0]
+              ? lang === 'zh'
+                ? `${tx(categoryMeta[relatedProducts[0].category].label)}厂家`
+                : `${tx(categoryMeta[relatedProducts[0].category].label)} manufacturer`
+              : lang === 'zh'
+                ? '查看相关产品分类'
+                : 'Related product category'}
           </LocaleLink>
           {' · '}
           {relatedProducts[0] ? (
@@ -159,13 +169,13 @@ export function BlogDetail() {
                 to={`/products/${relatedProducts[0].slug}`}
                 className="font-semibold hover:text-primary"
               >
-                {lang === 'zh' ? '相关产品型号' : 'Related product model'}
+                {tx(relatedProducts[0].name)}
               </LocaleLink>
               {' · '}
             </>
           ) : null}
           <LocaleLink to="/contact" className="font-semibold hover:text-primary">
-            {lang === 'zh' ? '联系工程团队' : 'Contact engineering team'}
+            {lang === 'zh' ? '联系混凝土机械厂家' : 'Contact concrete machinery manufacturer'}
           </LocaleLink>
         </p>
 

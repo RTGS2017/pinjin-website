@@ -16,11 +16,16 @@ import { FactoryPage } from '@/pages/FactoryPage';
 import { ResourcesPage } from '@/pages/Resources';
 import { BlogList } from '@/pages/blog/BlogList';
 import { BlogDetail } from '@/pages/blog/BlogDetail';
+import { CustomMachineryPage } from '@/pages/CustomMachineryPage';
 import {
   LegacyApplicationsRedirect,
+  LegacyCasesRedirect,
   LegacyCompanyFactoryRedirect,
   LegacyCompanyRedirect,
+  LegacyConcretePumpHubRedirect,
+  LegacyMixingPlantRedirect,
   LegacyResourcesBlogRedirect,
+  LegacySprayingHubRedirect,
 } from '@/pages/LegacyRedirects';
 import {
   LangHomeRedirect,
@@ -59,6 +64,22 @@ export default function App() {
               path="products/rebar-equipment"
               element={<ProductCategoryPage />}
             />
+            <Route
+              path="products/custom-machinery"
+              element={<CustomMachineryPage />}
+            />
+            <Route
+              path="products/concrete-pump"
+              element={<LegacyConcretePumpHubRedirect />}
+            />
+            <Route
+              path="products/concrete-spraying-machine"
+              element={<LegacySprayingHubRedirect />}
+            />
+            <Route
+              path="products/concrete-mixing-plant"
+              element={<LegacyMixingPlantRedirect />}
+            />
             <Route path="products/:slug" element={<ProductDetail />} />
             <Route
               path="product-selection-guide"
@@ -66,6 +87,8 @@ export default function App() {
             />
             <Route path="solutions" element={<SolutionsIndex />} />
             <Route path="solutions/:slug" element={<SolutionDetail />} />
+            <Route path="cases" element={<LegacyCasesRedirect />} />
+            <Route path="cases/:slug" element={<LegacyCasesRedirect />} />
             <Route
               path="applications"
               element={<LegacyApplicationsRedirect />}

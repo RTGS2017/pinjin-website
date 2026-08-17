@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { LocaleNavigate } from '@/i18n/navigation';
+import { isSolutionSlug } from '@/config/seoRoutes';
 
 /** 旧应用页 hash slug → 解决方案路径 */
 const APPLICATION_TO_SOLUTION: Record<string, string> = {
@@ -11,6 +12,36 @@ const APPLICATION_TO_SOLUTION: Record<string, string> = {
 
 export function LegacyApplicationsRedirect() {
   return <LocaleNavigate to="/solutions" replace />;
+}
+
+export function LegacyCasesRedirect() {
+  const { slug } = useParams<{ slug: string }>();
+  if (slug && isSolutionSlug(slug)) {
+    return <LocaleNavigate to={`/solutions/${slug}`} replace />;
+  }
+  if (slug && APPLICATION_TO_SOLUTION[slug]) {
+    return (
+      <LocaleNavigate to={`/solutions/${APPLICATION_TO_SOLUTION[slug]}`} replace />
+    );
+  }
+  return <LocaleNavigate to="/solutions" replace />;
+}
+
+export function LegacyConcretePumpHubRedirect() {
+  return <LocaleNavigate to="/products/concrete-pumps" replace />;
+}
+
+export function LegacySprayingHubRedirect() {
+  return <LocaleNavigate to="/products/spraying-machines" replace />;
+}
+
+export function LegacyMixingPlantRedirect() {
+  return (
+    <LocaleNavigate
+      to="/blog/concrete-mixing-and-pumping-for-construction-projects"
+      replace
+    />
+  );
 }
 
 export function LegacyCompanyRedirect() {

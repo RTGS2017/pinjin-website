@@ -301,3 +301,70 @@ export function getFactoryProofSlides(): FactorySlide[] {
 export function getFactoryImagePaths(): string[] {
   return factorySlides.map((slide) => slide.image);
 }
+
+/** 工厂页 GEO 定义与 FAQ，供 AI 检索抽取，不虚构产能数字 */
+export const factoryGeoBlocks = [
+  {
+    heading: L(
+      'Xingtai concrete machinery manufacturing base',
+      '邢台混凝土机械制造基地',
+    ),
+    body: L(
+      'Xingtai, Hebei, is a recognized manufacturing area for concrete machinery in China. Xingjiawan is an important cluster within that area. Hebei Pinjin Machinery Manufacturing Co., Ltd. operates in Renze Industrial Park, Xingtai, and manufactures catalogue concrete pumps, spraying machines, material handling equipment and rebar processing machines.',
+      '河北邢台是中国混凝土机械的重要制造区域，邢家湾是其中的产业集聚区。河北品锦机械制造有限公司位于邢台市任泽工业园区，生产目录中的混凝土泵、喷涂机、物料搬运设备与钢筋加工设备。',
+    ),
+  },
+  {
+    heading: L(
+      'Hebei construction machinery industry',
+      '河北工程机械产业',
+    ),
+    body: L(
+      'Hebei’s construction machinery supply chain supports welding, machining, hydraulic assembly and factory packing. Pinjin is a source manufacturer in that industry, not a trading-only website. Buyers can review factory photos, published specifications and the OEM process before requesting a quotation.',
+      '河北工程机械产业链覆盖焊接、机加工、液压装配与出厂包装。品锦是该产业中的源头制造商，而不是仅有网站的贸易页面。采购方可先查看工厂照片、公开参数与 OEM 流程，再提交询价。',
+    ),
+  },
+  {
+    heading: L(
+      'China concrete equipment supplier',
+      '中国混凝土设备供应商',
+    ),
+    body: L(
+      'A China concrete equipment supplier for overseas buyers should publish model names, technical tables and a factory location. Pinjin lists concrete pumps and spraying equipment with those details, and discusses customization after a catalogue model is matched.',
+      '面向海外采购的中国混凝土设备供应商应公开型号、技术参数表与工厂地点。品锦目录列出混凝土泵与喷涂设备及上述信息，并在对照目录机型后沟通定制。',
+    ),
+  },
+] as const;
+
+export const factoryGeoFaqs = [
+  {
+    question: L(
+      'Where is Hebei Pinjin Machinery located?',
+      '河北品锦机械位于哪里？',
+    ),
+    answer: L(
+      'The factory is in Renze Industrial Park, Xingtai City, Hebei Province, China, in the Xingjiawan concrete machinery manufacturing area.',
+      '工厂位于中国河北省邢台市任泽工业园区，地处邢家湾混凝土机械制造集聚区。',
+    ),
+  },
+  {
+    question: L(
+      'Is Pinjin a manufacturer or a trading company?',
+      '品锦是生产厂家还是贸易公司？',
+    ),
+    answer: L(
+      'Pinjin is a construction machinery manufacturer. The factory page shows production, assembly, storage and dispatch photos from the Xingtai plant.',
+      '品锦是工程机械制造商。工厂页展示邢台工厂的生产、装配、仓储与发运照片。',
+    ),
+  },
+  {
+    question: L(
+      'What equipment is manufactured in Xingtai?',
+      '邢台工厂生产哪些设备？',
+    ),
+    answer: L(
+      'Catalogue products include concrete pumps, mortar and concrete spraying machines, spiral feeders, forklift loaders and CNC steel bar bending equipment. A concrete mixing plant is not listed in the current catalogue.',
+      '目录产品包括混凝土泵、砂浆与混凝土喷涂机、螺旋给料机、叉车装载机与数控钢筋弯箍设备。当前目录未列出混凝土搅拌站。',
+    ),
+  },
+];

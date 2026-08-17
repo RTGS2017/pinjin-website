@@ -19,7 +19,6 @@ import {
   buildCollectionPageJsonLd,
   buildFaqPageJsonLd,
 } from '@/components/SEO';
-import { seoTemplates } from '@/config/seo';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
@@ -50,7 +49,8 @@ export function ProductCategoryPage() {
   const path = getCategoryPath(category);
   const localizedPath = localePath(path, lang);
   const label = tx(meta.label);
-  const title = seoTemplates.categoryTitle(label);
+  const heading = tx(hub.h1);
+  const title = `${heading} | Pinjin Machinery China`;
   const description = tx(hub.intro);
   const faqs = hub.faqs.map((item) => ({
     question: tx(item.question),
@@ -71,7 +71,7 @@ export function ProductCategoryPage() {
         keywords={hub.keywords.join(', ')}
         jsonLd={[
           buildCollectionPageJsonLd({
-            name: label,
+            name: heading,
             description,
             path: localizedPath,
             items: list.map((item) => ({
@@ -100,7 +100,7 @@ export function ProductCategoryPage() {
           <span className="text-dark">{label}</span>
         </nav>
 
-        <SectionTitle title={label} subtitle={description} />
+        <SectionTitle title={heading} subtitle={description} heading="h1" />
 
         {hub.applications.length > 0 ? (
           <section className="mt-10">

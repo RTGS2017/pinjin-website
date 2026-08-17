@@ -59,8 +59,10 @@ export function FactoryProofStrip() {
         ))}
       </div>
       <p className="mt-4 text-sm">
-        <LocaleLink to="/about#factory" className="font-semibold text-dark hover:text-primary">
-          {t.factory.viewFactory} →
+        <LocaleLink to="/factory" className="font-semibold text-dark hover:text-primary">
+          {lang === 'zh'
+            ? '邢台工程机械工厂能力'
+            : 'Xingtai construction machinery factory'}
         </LocaleLink>
       </p>
     </section>
