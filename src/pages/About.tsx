@@ -1,4 +1,4 @@
-﻿import { LocaleLink } from '@/i18n/navigation';
+import { LocaleLink } from '@/i18n/navigation';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Button } from '@/components/ui/Button';
 import { CompanyEntity } from '@/components/CompanyEntity';

@@ -1,4 +1,4 @@
-﻿import { LocaleLink } from '@/i18n/navigation';
+import { LocaleLink } from '@/i18n/navigation';
 import { SEO } from '@/components/SEO';
 import { CompanyEntity } from '@/components/CompanyEntity';
 import { SectionTitle } from '@/components/ui/SectionTitle';
