@@ -105,9 +105,9 @@ export function ProductCategoryPage() {
         {hub.applications.length > 0 ? (
           <section className="mt-10">
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '应用方向' : 'Applications'}
+              {t.page.applications}
             </h2>
-            <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-text-secondary">
+            <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
               {hub.applications.map((item) => (
                 <li key={item.en}>{tx(item)}</li>
               ))}
@@ -118,9 +118,9 @@ export function ProductCategoryPage() {
         {hub.advantages.length > 0 ? (
           <section className="mt-10">
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '分类优势' : 'Advantages'}
+              {t.page.advantages}
             </h2>
-            <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-text-secondary">
+            <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
               {hub.advantages.map((item) => (
                 <li key={item.en}>{tx(item)}</li>
               ))}
@@ -129,7 +129,7 @@ export function ProductCategoryPage() {
         ) : null}
 
         <h2 className="mt-14 heading-display text-2xl sm:text-3xl">
-          {lang === 'zh' ? '相关型号' : 'Related models'}
+          {t.page.relatedModels}
         </h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
           {list.map((product) => (
@@ -154,7 +154,7 @@ export function ProductCategoryPage() {
         {relatedPosts.length > 0 ? (
           <section className="mt-14">
             <h2 className="heading-display text-2xl">
-              {lang === 'zh' ? '技术资料' : 'Technical resources'}
+              {t.page.technicalResources}
             </h2>
             <ul className="mt-4 space-y-2 text-sm">
               {relatedPosts.map((post) => (

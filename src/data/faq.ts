@@ -1,4 +1,6 @@
 import type { LocalizedText } from '@/i18n/types';
+import type { Lang } from '@/i18n/config';
+import { pick } from '@/i18n/types';
 
 export interface FaqItem {
   id: string;
@@ -177,16 +179,16 @@ export const siteFaqs: FaqItem[] = [
   },
 ];
 
-export function buildFaqPageJsonLd(faqs: FaqItem[], lang: 'en' | 'zh') {
+export function buildFaqPageJsonLd(faqs: FaqItem[], lang: Lang) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: faqs.map((item) => ({
       '@type': 'Question',
-      name: item.question[lang],
+      name: pick(item.question, lang),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: item.answer[lang],
+        text: pick(item.answer, lang),
       },
     })),
   };

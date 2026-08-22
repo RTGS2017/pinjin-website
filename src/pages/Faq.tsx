@@ -10,45 +10,26 @@ import { useI18n } from '@/i18n/I18nContext';
 export function Faq() {
   const { lang, t, tx } = useI18n();
 
-  const title =
-    lang === 'zh'
-      ? '常见问题 | 混凝土泵与喷涂设备 | 河北品锦机械'
-      : 'FAQ | Concrete Pump Manufacturer China | Hebei Pinjin Machinery';
-  const description =
-    lang === 'zh'
-      ? '品锦机械 FAQ：如何选型混凝土泵、最大输送距离、柴油/电机差异、砂浆与石膏喷涂机、定制与询价方式。'
-      : 'Pinjin FAQ for buyers: how to choose a concrete pump, conveying distance, diesel vs motor, mortar/plaster spraying machines, customization and quotes from a China manufacturer.';
-
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={title}
-        description={description}
+        title={t.seo.faqTitle}
+        description={t.page.faqSubtitle}
         path="/faq"
         jsonLd={buildFaqPageJsonLd(siteFaqs, lang)}
       />
       <div className="container-site">
         <SectionTitle
           eyebrow="FAQ"
-          title={
-            lang === 'zh'
-              ? '混凝土泵与工程设备常见问题'
-              : 'Concrete Pump & Equipment FAQ'
-          }
-          subtitle={
-            lang === 'zh'
-              ? '面向采购与施工选型的常见问题解答。'
-              : 'Common questions from buyers and project teams.'
-          }
+          title={t.page.faqHeading}
+          subtitle={t.page.faqSubtitle}
         />
 
         <div className="mt-10">
           <CompanyEntity compact />
           <p className="mt-4 text-sm text-text-secondary">
             <LocaleLink to="/product-selection-guide" className="hover:text-primary">
-              {lang === 'zh'
-                ? '不确定选哪款？查看产品选型指南 →'
-                : 'Not sure which model? Open the Product Selection Guide →'}
+              {t.productsPage.selectionCta} →
             </LocaleLink>
           </p>
         </div>
@@ -78,12 +59,10 @@ export function Faq() {
         <div className="mt-12 flex flex-col gap-3 border border-border bg-bg-soft p-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '仍需选型协助？' : 'Need help selecting a model?'}
+              {t.page.needHelpSelecting}
             </h2>
             <p className="mt-2 text-sm text-text-secondary">
-              {lang === 'zh'
-                ? '发送输送量、水平/垂直距离与骨料粒径，获取目录机型建议。'
-                : 'Send capacity, conveying distance and aggregate size for a model recommendation.'}
+              {t.page.needHelpBody}
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:flex-row">

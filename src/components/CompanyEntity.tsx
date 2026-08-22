@@ -9,32 +9,33 @@ interface CompanyEntityProps {
 
 /** 企业信息展示块（字段来自 config/entity.ts） */
 export function CompanyEntity({ className = '', compact = false }: CompanyEntityProps) {
-  const { lang } = useI18n();
+  const { lang, t } = useI18n();
+  const listSep = lang === 'zh' ? '、' : lang === 'ar' ? '، ' : ', ';
 
   const rows = [
     {
-      label: lang === 'zh' ? '公司名称' : 'Company Name',
-      value: companyEntity.legalName[lang],
+      label: t.page.companyName,
+      value: companyEntity.legalName[lang] || companyEntity.legalName.en,
     },
     {
-      label: lang === 'zh' ? '所属行业' : 'Industry',
-      value: companyEntity.industry[lang],
+      label: t.page.industry,
+      value: companyEntity.industry[lang] || companyEntity.industry.en,
     },
     {
-      label: lang === 'zh' ? '企业定位' : 'Positioning',
-      value: companyEntity.positioning[lang],
+      label: t.page.positioning,
+      value: companyEntity.positioning[lang] || companyEntity.positioning.en,
     },
     {
-      label: lang === 'zh' ? '所在地' : 'Location',
-      value: `${companyEntity.location.line1[lang]}, ${companyEntity.location.line2[lang]}`,
+      label: t.page.location,
+      value: `${companyEntity.location.line1[lang] || companyEntity.location.line1.en}, ${companyEntity.location.line2[lang] || companyEntity.location.line2.en}`,
     },
     {
-      label: lang === 'zh' ? '主要产品' : 'Products',
-      value: companyEntity.products.map((p) => p[lang]).join(lang === 'zh' ? '、' : ', '),
+      label: t.page.products,
+      value: companyEntity.products.map((p) => p[lang] || p.en).join(listSep),
     },
     {
-      label: lang === 'zh' ? '服务对象' : 'Customers',
-      value: companyEntity.customers[lang],
+      label: t.page.customers,
+      value: companyEntity.customers[lang] || companyEntity.customers.en,
     },
   ];
 
@@ -47,7 +48,7 @@ export function CompanyEntity({ className = '', compact = false }: CompanyEntity
         id="company-profile-heading"
         className="text-lg font-semibold tracking-wide text-dark sm:text-xl"
       >
-        {lang === 'zh' ? '公司信息' : 'Company Profile'}
+        {t.page.companyProfile}
       </h2>
       <dl className="mt-6 grid gap-4 sm:grid-cols-2">
         {rows.map((row) => (
@@ -65,15 +66,15 @@ export function CompanyEntity({ className = '', compact = false }: CompanyEntity
         <div className="mt-6 space-y-4 border-t border-border pt-4">
           <div>
             <h3 className="text-sm font-semibold text-dark">
-              {lang === 'zh' ? '我们专注解决的需求' : 'What We Focus On'}
+              {t.page.whatWeFocus}
             </h3>
             <p className="mt-2 text-sm text-text-secondary">
-              {companyEntity.problemsSolved[lang]}
+              {companyEntity.problemsSolved[lang] || companyEntity.problemsSolved.en}
             </p>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-dark">
-              {lang === 'zh' ? '联系邮箱' : 'Contact Email'}
+              {t.page.contactEmail}
             </h3>
             <p className="mt-2 break-all text-sm text-dark">
               {siteConfig.contactEmail}

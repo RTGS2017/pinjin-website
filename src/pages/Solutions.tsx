@@ -15,35 +15,23 @@ import { ContactActions } from '@/components/ui/ContactActions';
 
 export function SolutionsIndex() {
   const { lang, t, tx } = useI18n();
-  const title =
-    lang === 'zh'
-      ? '行业解决方案 | 混凝土机械制造商 | 品锦机械'
-      : 'Industry Solutions | Concrete Machinery Manufacturer China | Pinjin';
-  const description =
-    lang === 'zh'
-      ? '建筑、基建、喷涂与现场搬运方向的混凝土机械选型说明。不编造未核实的矿业项目。'
-      : 'Concrete machinery selection notes for construction, infrastructure, spraying and site handling. Mining projects are not listed because they are not published in the catalogue.';
 
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={title}
-        description={description}
+        title={t.seo.applicationsTitle}
+        description={t.seo.solutionsDesc}
         path="/solutions"
         jsonLd={buildBreadcrumbJsonLd([
           { name: t.detail.home, path: localePath('/', lang) },
-          { name: lang === 'zh' ? '解决方案' : 'Solutions', path: localePath('/solutions', lang) },
+          { name: t.page.solutions, path: localePath('/solutions', lang) },
         ])}
       />
       <div className="container-site">
         <SectionTitle
           eyebrow={t.nav.solutions}
-          title={
-            lang === 'zh'
-              ? '混凝土机械行业解决方案'
-              : 'Concrete machinery industry solutions'
-          }
-          subtitle={description}
+          title={t.page.solutions}
+          subtitle={t.seo.solutionsDesc}
         />
         <div className="mt-8">
           <CompanyEntity compact />
@@ -80,7 +68,7 @@ export function SolutionsIndex() {
                   to={`/solutions/${app.solutionSlug}`}
                   className="font-semibold text-dark hover:text-primary"
                 >
-                  {lang === 'zh' ? '查看方案 →' : 'View solution →'}
+                  {t.page.viewSolution}
                 </LocaleLink>
               </p>
               </div>
@@ -121,7 +109,7 @@ export function SolutionDetail() {
         jsonLd={[
           buildBreadcrumbJsonLd([
             { name: t.detail.home, path: localePath('/', lang) },
-            { name: lang === 'zh' ? '解决方案' : 'Solutions', path: localePath('/solutions', lang) },
+            { name: t.page.solutions, path: localePath('/solutions', lang) },
             { name: tx(app.title), path: localePath(path, lang) },
           ]),
           ...app.images.map((item) =>
@@ -136,7 +124,7 @@ export function SolutionDetail() {
       <div className="container-site">
         <nav className="mb-6 text-sm text-text-secondary">
           <LocaleLink to="/solutions" className="hover:text-primary">
-            {lang === 'zh' ? '解决方案' : 'Solutions'}
+            {t.page.solutions}
           </LocaleLink>
           <span aria-hidden> / </span>
           <span className="text-dark">{tx(app.title)}</span>
@@ -168,9 +156,9 @@ export function SolutionDetail() {
             <h1 className="heading-display text-3xl sm:text-4xl">{tx(app.title)}</h1>
             <p className="mt-4 text-text-secondary">{tx(app.summary)}</p>
             <h2 className="mt-8 text-lg font-semibold text-dark">
-              {lang === 'zh' ? '选型要点' : 'Selection checklist'}
+              {t.page.selectionChecklist}
             </h2>
-            <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-text-secondary">
+            <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
               {app.points.map((point) => (
                 <li key={point.en}>{tx(point)}</li>
               ))}
@@ -197,7 +185,7 @@ export function SolutionDetail() {
         ) : null}
 
         <h2 className="mt-14 heading-display text-2xl">
-          {lang === 'zh' ? '相关产品' : 'Related products'}
+          {t.page.relatedProducts}
         </h2>
         <ul className="mt-4 space-y-2 text-sm">
           {related.map((p) => (
@@ -215,7 +203,7 @@ export function SolutionDetail() {
               to={getCategoryPath(app.relatedCategory)}
               className="font-semibold text-dark hover:text-primary"
             >
-              {lang === 'zh' ? '查看该分类全部型号 →' : 'View all models in this category →'}
+              {t.page.viewAllModels}
             </LocaleLink>
           </li>
         </ul>

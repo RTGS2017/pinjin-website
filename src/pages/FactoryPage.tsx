@@ -42,7 +42,7 @@ export function FactoryPage() {
             { name: t.detail.home, path: localePath('/', lang) },
             { name: t.footer.about, path: localePath('/about', lang) },
             {
-              name: lang === 'zh' ? '工厂能力' : 'Factory capability',
+              name: t.page.factoryCapability,
               path: localePath('/factory', lang),
             },
           ]),
@@ -51,16 +51,12 @@ export function FactoryPage() {
       <div className="container-site">
         <SectionTitle
           eyebrow={t.factory.title}
-          title={
-            lang === 'zh'
-              ? '邢台工厂制造能力'
-              : 'Xingtai factory manufacturing capability'
-          }
-          subtitle={companyEntity.clusterNote[lang]}
+          title={t.page.xingtaiFactoryTitle}
+          subtitle={companyEntity.clusterNote[lang] || companyEntity.clusterNote.en}
           heading="h1"
         />
         <p className="mt-6 max-w-3xl text-sm text-text-secondary">
-          {companyEntity.geoCaption[lang]}
+          {companyEntity.geoCaption[lang] || companyEntity.geoCaption.en}
         </p>
         <div className="mt-10 grid gap-6 lg:grid-cols-3">
           {factoryGeoBlocks.map((block) => (
@@ -96,7 +92,7 @@ export function FactoryPage() {
         </div>
         <p className="mt-8 text-sm">
           <LocaleLink to="/about" className="font-semibold hover:text-primary">
-            {lang === 'zh' ? '返回公司介绍 →' : 'Back to company profile →'}
+            {t.page.backToAbout}
           </LocaleLink>
         </p>
       </div>

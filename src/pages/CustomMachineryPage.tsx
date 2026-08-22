@@ -64,7 +64,7 @@ export function CustomMachineryPage() {
           <h2 className="heading-display text-2xl sm:text-3xl">
             {tx(content.whatTitle)}
           </h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-text-secondary sm:text-base">
+          <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary sm:text-base">
             {content.whatItems.map((item) => (
               <li key={item.en}>{tx(item)}</li>
             ))}

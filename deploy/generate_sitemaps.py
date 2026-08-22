@@ -18,7 +18,13 @@ ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_BASE = "https://rtgs2017.github.io/pinjin-website"
 
 # 与 src/i18n/config.ts 保持一致；新增语言时同步改这里
-LANGS = ["en", "zh"]
+LANGS = ["en", "zh", "pt", "ar"]
+HREFLANG = {
+    "en": "en",
+    "zh": "zh-CN",
+    "pt": "pt-BR",
+    "ar": "ar",
+}
 
 SLUGS = [
     "diesel-4100-transfer-pump",
@@ -328,7 +334,7 @@ def main() -> None:
         ]
         for lang in LANGS:
             alt = f"/{lang}" if rest == "/" else f"/{lang}{rest}"
-            hreflang = "zh-CN" if lang == "zh" else lang
+            hreflang = HREFLANG.get(lang, lang)
             lines.append(
                 f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{base}{alt}" />'
             )

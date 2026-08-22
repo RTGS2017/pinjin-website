@@ -54,7 +54,7 @@ export function SEO({
 
   return (
     <Helmet>
-      <html lang={langMeta.htmlLang} />
+      <html lang={langMeta.htmlLang} dir={langMeta.dir} />
       <title>{pageTitle}</title>
       <meta name="description" content={pageDescription} />
       {keywords ? <meta name="keywords" content={keywords} /> : null}
@@ -170,7 +170,7 @@ export function buildWebSiteJsonLd() {
     '@type': 'WebSite',
     name: seoConfig.siteName,
     url: seoConfig.siteUrl,
-    inLanguage: ['en', 'zh-CN'],
+    inLanguage: ['en', 'zh-CN', 'pt-BR', 'ar'],
     publisher: {
       '@type': 'Organization',
       name: seoConfig.organization.name,

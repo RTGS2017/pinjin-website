@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build && node deploy/copy-spa-404.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "i18n:export": "npx --yes vite-node deploy/export_i18n_catalog.ts"
   },
   "dependencies": {
     "lucide-react": "^0.511.0",

@@ -52,25 +52,14 @@ interface InternalLinksProps {
 
 /** 相关产品分类 / 文章 / 解决方案，用于主题集群内链 */
 export function InternalLinks({ cluster, className = '' }: InternalLinksProps) {
-  const { lang } = useI18n();
+  const { t } = useI18n();
   return (
     <section className={`mt-14 border border-border bg-bg-soft p-6 ${className}`}>
-      <h2 className="heading-display text-2xl">
-        {lang === 'zh' ? '相关主题' : 'Related topics'}
-      </h2>
+      <h2 className="heading-display text-2xl">{t.page.relatedTopics}</h2>
       <div className="mt-6 grid gap-8 sm:grid-cols-3">
-        <LinkGroup
-          title={lang === 'zh' ? '相关产品' : 'Related products'}
-          items={cluster.relatedCategories}
-        />
-        <LinkGroup
-          title={lang === 'zh' ? '相关文章' : 'Related articles'}
-          items={cluster.relatedArticles}
-        />
-        <LinkGroup
-          title={lang === 'zh' ? '相关方案' : 'Related solutions'}
-          items={cluster.relatedSolutions}
-        />
+        <LinkGroup title={t.page.relatedProducts} items={cluster.relatedCategories} />
+        <LinkGroup title={t.page.relatedArticles} items={cluster.relatedArticles} />
+        <LinkGroup title={t.page.relatedSolutions} items={cluster.relatedSolutions} />
       </div>
     </section>
   );

@@ -19,38 +19,25 @@ export function About() {
     { id: '04', title: t.why.v4t, description: t.why.v4d },
   ];
 
-  const title =
-    lang === 'zh'
-      ? '关于品锦 | 中国混凝土泵制造商 | 河北品锦机械'
-      : 'About Pinjin | Concrete Pump Manufacturer China | Hebei Pinjin Machinery';
-
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={title}
-        description={
-          lang === 'zh'
-            ? '了解河北品锦机械：邢台任泽工业园区的工程机械制造商，专业生产混凝土泵、砂浆喷涂机与石膏喷涂机。'
-            : 'Learn who Hebei Pinjin Machinery is: a construction equipment manufacturer in Xingtai, China, producing concrete pumps, mortar spraying machines and plaster spraying machines.'
-        }
+        title={t.seo.aboutTitle}
+        description={t.hero.intro}
         path="/about"
         jsonLd={[buildOrganizationJsonLd(), ...buildFactoryImageJsonLdList(lang)]}
       />
       <div className="container-site">
         <SectionTitle
           eyebrow={t.about.eyebrow}
-          title={
-            lang === 'zh'
-              ? '河北品锦机械是谁？'
-              : 'Who is Hebei Pinjin Machinery?'
-          }
-          subtitle={companyEntity.positioning[lang]}
+          title={t.page.whoAreYou}
+          subtitle={companyEntity.positioning[lang] || companyEntity.positioning.en}
         />
 
         <div className="mt-10 max-w-3xl space-y-6 text-text-secondary">
           <section>
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '公司介绍' : 'Company introduction'}
+              {t.page.companyIntro}
             </h2>
             <p className="mt-3">{t.company.p1}</p>
             <p className="mt-3">{t.company.p2}</p>
@@ -58,54 +45,50 @@ export function About() {
 
           <section>
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '品锦生产什么产品？' : 'What products does Pinjin manufacture?'}
+              {t.page.whatProducts}
             </h2>
-            <ul className="mt-3 list-disc space-y-2 pl-5">
+            <ul className="mt-3 list-disc space-y-2 ps-5">
               {companyEntity.products.map((p) => (
-                <li key={p.id}>{p[lang]}</li>
+                <li key={p.id}>{p[lang] || p.en}</li>
               ))}
             </ul>
             <p className="mt-3">
               <LocaleLink to="/products" className="font-medium text-dark hover:text-primary">
-                {lang === 'zh' ? '浏览全部产品 →' : 'Browse all products →'}
+                {t.page.browseProducts}
               </LocaleLink>
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '公司在哪里？' : 'Where is the company located?'}
+              {t.page.whereLocated}
             </h2>
             <p className="mt-3">
-              {companyEntity.location.line1[lang]}
+              {companyEntity.location.line1[lang] || companyEntity.location.line1.en}
               <br />
-              {companyEntity.location.line2[lang]}
+              {companyEntity.location.line2[lang] || companyEntity.location.line2.en}
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh'
-                ? '哪些行业会用到这些设备？'
-                : 'What industries use these machines?'}
+              {t.page.whoCustomers}
             </h2>
-            <p className="mt-3">{companyEntity.customers[lang]}</p>
-            <p className="mt-3">{companyEntity.problemsSolved[lang]}</p>
+            <p className="mt-3">{companyEntity.customers[lang] || companyEntity.customers.en}</p>
+            <p className="mt-3">{companyEntity.problemsSolved[lang] || companyEntity.problemsSolved.en}</p>
             <p className="mt-3">
               <LocaleLink to="/solutions" className="font-medium text-dark hover:text-primary">
-            {lang === 'zh' ? '查看行业解决方案 →' : 'View industry solutions →'}
+            {t.page.viewSolutions}
               </LocaleLink>
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-semibold text-dark">
-              {lang === 'zh' ? '制造与质量理念' : 'Manufacturing focus & quality philosophy'}
+              {t.page.manufacturingFocus}
             </h2>
             <p className="mt-3">
-              {lang === 'zh'
-                ? '品锦定位为专业输送泵生产源头厂家，强调研发、生产与销售一体。质量理念遵循品质为本、创新驱动、绿色环保、客户至上；制造侧强调先进生产设备与完善检测体系、全流程质量管控。'
-                : 'Pinjin is a professional source manufacturer of delivery pumps, covering R&D, production and sales. Quality philosophy follows quality oriented, innovation driven, environmental friendly and customer first. Manufacturing emphasizes advanced production equipment, a complete testing system and full-process quality control.'}
+              {t.why.v1d}
             </p>
           </section>
         </div>
@@ -114,7 +97,7 @@ export function About() {
           <FactoryOverview />
           <p className="mt-6 text-sm">
             <LocaleLink to="/factory" className="font-semibold hover:text-primary">
-              {lang === 'zh' ? '查看工厂制造能力 →' : 'View factory manufacturing capability →'}
+              {t.page.viewFactoryCapability}
             </LocaleLink>
           </p>
         </div>

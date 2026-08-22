@@ -142,7 +142,7 @@ export function BlogDetail() {
                 </figure>
               ) : null}
               {section.bullets?.length ? (
-                <ul className="mt-3 list-disc space-y-2 pl-5 text-text-secondary">
+                <ul className="mt-3 list-disc space-y-2 ps-5 text-text-secondary">
                   {section.bullets.map((item) => (
                     <li key={item.en}>{tx(item)}</li>
                   ))}
@@ -155,12 +155,8 @@ export function BlogDetail() {
         <p className="mt-10 text-sm text-text-secondary">
           <LocaleLink to={categoryHub} className="font-semibold hover:text-primary">
             {relatedProducts[0]
-              ? lang === 'zh'
-                ? `${tx(categoryMeta[relatedProducts[0].category].label)}厂家`
-                : `${tx(categoryMeta[relatedProducts[0].category].label)} manufacturer`
-              : lang === 'zh'
-                ? '查看相关产品分类'
-                : 'Related product category'}
+              ? tx(categoryMeta[relatedProducts[0].category].label)
+              : t.page.relatedProducts}
           </LocaleLink>
           {' · '}
           {relatedProducts[0] ? (
@@ -175,7 +171,7 @@ export function BlogDetail() {
             </>
           ) : null}
           <LocaleLink to="/contact" className="font-semibold hover:text-primary">
-            {lang === 'zh' ? '联系混凝土机械厂家' : 'Contact concrete machinery manufacturer'}
+            {t.page.contactManufacturer}
           </LocaleLink>
         </p>
 

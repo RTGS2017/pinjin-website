@@ -114,8 +114,8 @@ export function Header() {
   const LanguageSwitch = ({ compact = false }: { compact?: boolean }) => (
     <div
       className={[
-        'flex items-center gap-1 tracking-wider',
-        compact ? 'text-sm' : 'text-xs',
+        'flex flex-wrap items-center justify-end gap-1 tracking-wider',
+        compact ? 'text-sm' : 'text-[11px] lg:text-xs',
       ].join(' ')}
       role="group"
       aria-label="Language"
@@ -257,7 +257,7 @@ export function Header() {
                     />
                   </button>
                   {expanded === item.key ? (
-                    <div className="mb-1 ml-2 border-l border-white/15 pb-2">
+                    <div className="mb-1 ms-2 border-s border-white/15 pb-2">
                       <MobileMegaLinks
                         navKey={item.key}
                         onNavigate={() => setMobileOpen(false)}

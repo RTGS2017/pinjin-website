@@ -1,6 +1,8 @@
 import type { Lang } from './types';
+import { messagesAr } from './ui/ar';
+import { messagesPt } from './ui/pt';
 
-/** 全站 UI / 企业文案中英文对照（来源：产品目录对照文档） */
+/** 全站 UI 文案：en / zh 在此文件；pt / ar 见 src/i18n/ui/ */
 export const messages = {
   en: {
     nav: {
@@ -343,6 +345,15 @@ export const messages = {
       blogTitle: 'Construction Machinery Knowledge | Pinjin',
       blogDesc:
         'Manufacturing knowledge, industry guides and product guides on concrete pumps, spraying equipment and Xingjiawan concrete machinery from Hebei Pinjin.',
+      applicationsDesc:
+        'Typical use cases and selection points for concrete pumps, infrastructure conveying, mortar spraying and plaster spraying.',
+      solutionsDesc:
+        'Concrete machinery selection notes for construction, infrastructure, spraying and site handling. Mining projects are not listed because they are not published in the catalogue.',
+      resourcesTitle: 'Resources | Construction Machinery Knowledge | Pinjin',
+      resourcesDesc:
+        'Guides on concrete pumps, OEM manufacturing and the Xingjiawan cluster. PDF catalogues are not published; request parameters by WhatsApp or email.',
+      selectionDesc:
+        'Catalogue-based shortlists for high-rise, compact sites, diesel vs electric, mortar/plaster spraying, shotcrete and material handling.',
     },
     inquiry: {
       name: 'Name',
@@ -393,6 +404,68 @@ export const messages = {
     mailSubjectQuote: 'Quote Request - Pinjin',
     mailSubjectInquiry: 'Inquiry - Pinjin Machinery',
     mailSubjectCustom: 'Custom Solution Request - Pinjin Machinery',
+    page: {
+      factoryCapability: 'Factory capability',
+      xingtaiFactoryTitle: 'Xingtai factory manufacturing capability',
+      backToAbout: 'Back to company profile →',
+      applications: 'Applications',
+      advantages: 'Advantages',
+      relatedModels: 'Related models',
+      technicalResources: 'Technical resources',
+      parameter: 'Parameter',
+      value: 'Value',
+      viewAllFaq: 'View all FAQ →',
+      productSelectionGuide: 'Product Selection Guide →',
+      xingtaiFactory: 'Xingtai construction machinery factory',
+      contactManufacturer: 'Contact concrete machinery manufacturer',
+      relatedTopics: 'Related topics',
+      relatedProducts: 'Related products',
+      relatedArticles: 'Related articles',
+      relatedSolutions: 'Related solutions',
+      solutions: 'Solutions',
+      viewSolution: 'View solution →',
+      selectionChecklist: 'Selection checklist',
+      viewAllModels: 'View all models in this category →',
+      openBlog: 'Open blog →',
+      openSelectionGuide: 'Open selection guide →',
+      downloads: 'Downloads',
+      downloadsHint:
+        'PDF catalogues are not published yet. Request parameters by WhatsApp or email.',
+      latestArticles: 'Latest articles',
+      companyIntro: 'Company introduction',
+      whatProducts: 'What products does Pinjin manufacture?',
+      browseProducts: 'Browse all products →',
+      whereLocated: 'Where is the company located?',
+      whoCustomers: 'Who do you serve, and what problems do you solve?',
+      viewSolutions: 'View industry solutions →',
+      manufacturingFocus: 'Manufacturing focus & quality philosophy',
+      viewFactoryCapability: 'View factory manufacturing capability →',
+      whoAreYou: 'Who are you?',
+      whoAreYouBody:
+        'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a construction machinery manufacturer in Xingtai, Hebei, China.',
+      whatProblems: 'What problems do the products solve?',
+      whatProblemsBody:
+        'Catalogue equipment supports concrete delivery, spraying, material handling and rebar processing with published parameters.',
+      needHelpSelecting: 'Need help selecting a model?',
+      needHelpBody:
+        'Send capacity, conveying distance and aggregate size for a model recommendation.',
+      faqHeading: 'Concrete Pump & Equipment FAQ',
+      faqSubtitle: 'Common questions from buyers and project teams.',
+      companyName: 'Company Name',
+      industry: 'Industry',
+      positioning: 'Positioning',
+      location: 'Location',
+      products: 'Products',
+      customers: 'Customers',
+      companyProfile: 'Company Profile',
+      whatWeFocus: 'What We Focus On',
+      contactEmail: 'Contact Email',
+      applicationsHeading: 'Concrete Pump & Spraying Applications',
+      applicationsSubtitle:
+        'Typical use cases and selection points for Pinjin equipment.',
+      selectionIntro:
+        'Match capacity, conveying distance, power type and site conditions to catalogue parameters to shortlist suitable models.',
+    },
   },
   zh: {
     nav: {
@@ -715,6 +788,15 @@ export const messages = {
       blogTitle: '工程机械知识 | 品锦机械',
       blogDesc:
         '品锦机械关于混凝土泵、喷涂设备、OEM 制造与邢家湾产业带的制造知识、行业指南与产品指南。',
+      applicationsDesc:
+        '品锦机械应用方向：建筑施工混凝土泵、基建输送、砂浆喷涂与石膏喷涂。',
+      solutionsDesc:
+        '建筑、基建、喷涂与现场搬运方向的混凝土机械选型说明。不编造未核实的矿业项目。',
+      resourcesTitle: '技术资源 | 混凝土机械知识 | 品锦机械',
+      resourcesDesc:
+        '混凝土泵选型、OEM 制造与邢家湾产业带说明。产品目录 PDF 尚未发布，可通过 WhatsApp 或邮件索取参数。',
+      selectionDesc:
+        '品锦产品选型指南：按高层/小型工地、柴油/电机、砂浆石膏喷涂、喷浆与物料搬运等目录参数对照推荐型号。',
     },
     inquiry: {
       name: '姓名',
@@ -762,7 +844,68 @@ export const messages = {
     mailSubjectQuote: '询价 - 品锦机械',
     mailSubjectInquiry: '询盘 - 品锦机械',
     mailSubjectCustom: '定制方案咨询 - 品锦机械',
+    page: {
+      factoryCapability: '工厂能力',
+      xingtaiFactoryTitle: '邢台工厂制造能力',
+      backToAbout: '返回公司介绍 →',
+      applications: '应用方向',
+      advantages: '分类优势',
+      relatedModels: '相关型号',
+      technicalResources: '技术资料',
+      parameter: '参数',
+      value: '数值',
+      viewAllFaq: '查看全部 FAQ →',
+      productSelectionGuide: '产品选型指南 →',
+      xingtaiFactory: '邢台工程机械工厂能力',
+      contactManufacturer: '联系混凝土机械厂家',
+      relatedTopics: '相关主题',
+      relatedProducts: '相关产品',
+      relatedArticles: '相关文章',
+      relatedSolutions: '相关方案',
+      solutions: '解决方案',
+      viewSolution: '查看方案 →',
+      selectionChecklist: '选型要点',
+      viewAllModels: '查看该分类全部型号 →',
+      openBlog: '进入博客 →',
+      openSelectionGuide: '打开选型指南 →',
+      downloads: '资料下载',
+      downloadsHint: '当前未发布 PDF 目录，可通过 WhatsApp 或邮件索取参数。',
+      latestArticles: '最新文章',
+      companyIntro: '公司介绍',
+      whatProducts: '品锦生产什么产品？',
+      browseProducts: '浏览全部产品 →',
+      whereLocated: '公司在哪里？',
+      whoCustomers: '服务对象与解决的问题？',
+      viewSolutions: '查看行业解决方案 →',
+      manufacturingFocus: '制造与质量理念',
+      viewFactoryCapability: '查看工厂制造能力 →',
+      whoAreYou: '你们是谁？',
+      whoAreYouBody:
+        '河北品锦机械制造有限公司是位于中国河北邢台的工程机械制造商。',
+      whatProblems: '产品解决什么问题？',
+      whatProblemsBody:
+        '目录设备支持混凝土输送、喷涂、物料搬运与钢筋加工，并公布参数。',
+      needHelpSelecting: '仍需选型协助？',
+      needHelpBody: '发送输送量、水平/垂直距离与骨料粒径，获取目录机型建议。',
+      faqHeading: '混凝土泵与工程设备常见问题',
+      faqSubtitle: '面向采购与施工选型的常见问题解答。',
+      companyName: '公司名称',
+      industry: '所属行业',
+      positioning: '企业定位',
+      location: '所在地',
+      products: '主要产品',
+      customers: '服务对象',
+      companyProfile: '公司信息',
+      whatWeFocus: '我们专注解决的需求',
+      contactEmail: '联系邮箱',
+      applicationsHeading: '混凝土泵与喷涂设备应用方向',
+      applicationsSubtitle: '说明设备适用方向与选型要点。',
+      selectionIntro:
+        '根据输送量、输送距离、动力形式与工况，对照产品目录参数推荐合适型号。',
+    },
   },
+  pt: messagesPt,
+  ar: messagesAr,
 } as const;
 
 export type Messages = (typeof messages)['en'];

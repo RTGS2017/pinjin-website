@@ -7,18 +7,13 @@ import { CompanyEntity } from '@/components/CompanyEntity';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function SelectionGuidePage() {
-  const { lang, t, tx } = useI18n();
-
-  const description =
-    lang === 'zh'
-      ? '品锦产品选型指南：按高层/小型工地、柴油/电机、砂浆石膏喷涂、喷浆与物料搬运等目录参数对照推荐型号。'
-      : 'Pinjin product selection guide: catalogue-based shortlists for high-rise, compact sites, diesel vs electric, mortar/plaster spraying, shotcrete and material handling.';
+  const { t, tx } = useI18n();
 
   return (
     <section className="section-y bg-bg">
       <SEO
         title={t.seo.selectionTitle}
-        description={description}
+        description={t.seo.selectionDesc}
         path="/product-selection-guide"
       />
       <div className="container-site">
@@ -28,11 +23,7 @@ export function SelectionGuidePage() {
         />
 
         <div className="mt-8 max-w-3xl text-sm text-text-secondary">
-          <p>
-            {lang === 'zh'
-              ? '根据输送量、输送距离、动力形式与工况，对照产品目录参数推荐合适型号。'
-              : 'Match capacity, conveying distance, power type and site conditions to catalogue parameters to shortlist suitable models.'}
-          </p>
+          <p>{t.page.selectionIntro}</p>
         </div>
 
         <div className="mt-8">

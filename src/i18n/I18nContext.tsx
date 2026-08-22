@@ -36,7 +36,10 @@ export function detectPreferredLang(): Lang {
     /* ignore */
   }
   const nav = navigator.language?.toLowerCase() ?? 'en';
-  return nav.startsWith('zh') ? 'zh' : defaultLang;
+  if (nav.startsWith('zh')) return 'zh';
+  if (nav.startsWith('pt')) return 'pt';
+  if (nav.startsWith('ar')) return 'ar';
+  return defaultLang;
 }
 
 export function persistLangPreference(lang: Lang) {
@@ -60,7 +63,9 @@ export function I18nProvider({
   children: ReactNode;
 }) {
   useEffect(() => {
-    document.documentElement.lang = getLanguage(lang).htmlLang;
+    const meta = getLanguage(lang);
+    document.documentElement.lang = meta.htmlLang;
+    document.documentElement.dir = meta.dir;
     persistLangPreference(lang);
   }, [lang]);
 

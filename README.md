@@ -166,17 +166,33 @@ src/data/gallery.ts
 
 ### 中英文切换（URL 分语言）
 
-- 独立路径：`/en/...`、`/zh/...`（利于谷歌 SEO / hreflang）
-- 根路径 `/` 会跳到浏览器偏好或默认英文 `/en`
+- 独立路径：`/en/...`、`/zh/...`、`/pt/...`（巴西葡萄牙语）、`/ar/...`（阿拉伯语，页面 `dir=rtl`）
+- 根路径 `/` 会跳到浏览器偏好或默认英文 `/en`（`pt` / `ar` 前缀也会识别）
 - 旧链接如 `/products` 会自动转到 `/en/products`
 - 顶栏语言按钮会**切换 URL**（不是仅改 localStorage）
 - 语言偏好仍写入 `localStorage`（键名 `pinjin_lang`），用于根路径重定向
+- **界面 chrome**（导航、按钮、页眉页脚、页面 SEO title）已有 en / zh / pt / ar；产品长文、博客、知识文章未译时回退英文（`LocalizedText` 的 `en` 必填）
+- 葡萄牙语 UI 在 [`src/i18n/ui/pt.ts`](src/i18n/ui/pt.ts)；阿拉伯语 UI 在 [`src/i18n/ui/ar.ts`](src/i18n/ui/ar.ts)；中英文仍在 [`src/i18n/messages.ts`](src/i18n/messages.ts)
+- 阿拉伯语使用 Noto Sans Arabic，并在 `html[dir=rtl]` 下调字距
 
 #### 后期新增语言（例如西班牙语 `es`）
 
+**不要只改 `messages.ts`。** 产品 SEO、GEO 定义、工厂 ALT、知识文章都在 `src/data/*` 的 `{ en, zh }` 字段里。
+
+交给 Gemini 的汇总位置：
+
+```text
+src/i18n/locales/catalog.json
+src/i18n/locales/GEMINI-PROMPT.md
+```
+
+生成/刷新总表：`npx vite-node deploy/export_i18n_catalog.ts`（或 `npm run i18n:export`，需已安装 vite-node）。说明见 [`src/i18n/locales/README.md`](src/i18n/locales/README.md)。
+
+译完后：
+
 1. 在 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages` 数组追加一项（code / htmlLang / hreflang / ogLocale / label）
-2. 在 [`src/i18n/messages.ts`](src/i18n/messages.ts) 增加对应文案表
-3. 产品等 `LocalizedText` 逐步补 `es` 字段（缺省回退英文 `en`）
+2. 把 `catalog.json` 的 `ui.{新语言}` 写入 [`src/i18n/ui/{code}.ts`](src/i18n/ui/)（或中英文仍写入 [`src/i18n/messages.ts`](src/i18n/messages.ts)）
+3. 把各 `{ en, zh }` 上的新语言字段写回对应 `src/data/*`（缺省仍回退 `en`）
 4. 同步 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 里的 `LANGS`
 5. 重新生成 sitemap：`python deploy/generate_sitemaps.py`
 
@@ -306,9 +322,9 @@ https://rtgs2017.github.io/pinjin-website/
 
 不单独做 mining 方案页或搅拌站产品分类（目录未发布该内容）。
 
-顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh`），不指向未发布的 PDF / 认证页。右下角悬浮 **WhatsApp** 按钮；联系页隐藏以免重复。路由切换时 [`ScrollToTop`](src/components/layout/ScrollToTop.tsx) 将页面滚到顶部。
+顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh` `/pt` `/ar`），不指向未发布的 PDF / 认证页。右下角悬浮 **WhatsApp** 按钮；联系页隐藏以免重复。路由切换时 [`ScrollToTop`](src/components/layout/ScrollToTop.tsx) 将页面滚到顶部。
 
-sitemap 只收录规范 URL（含 `/en` 与 `/zh` 及 hreflang）。结构改完后再生成 sitemap，再提交 Google Search Console，避免把孤立旧地址当成站点主题。
+sitemap 只收录规范 URL（含 `/en`、`/zh`、`/pt`、`/ar` 及对应 hreflang：`en` / `zh-CN` / `pt-BR` / `ar`）。结构改完后再生成 sitemap，再提交 Google Search Console，避免把孤立旧地址当成站点主题。
 
 ### 询盘入口（无后端表单）
 

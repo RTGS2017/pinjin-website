@@ -169,7 +169,7 @@ export function ProductDetail() {
             <div>
               <dt className="font-semibold text-dark">{t.detail.entityManufacturer}</dt>
               <dd className="mt-1 text-text-secondary">
-                {companyEntity.legalName[lang]}
+                {companyEntity.legalName[lang] || companyEntity.legalName.en}
               </dd>
             </div>
             <div>
@@ -181,13 +181,13 @@ export function ProductDetail() {
             <div>
               <dt className="font-semibold text-dark">{t.detail.entitySpecialization}</dt>
               <dd className="mt-1 text-text-secondary">
-                {companyEntity.specialization[lang]}
+                {companyEntity.specialization[lang] || companyEntity.specialization.en}
               </dd>
             </div>
             <div>
               <dt className="font-semibold text-dark">{t.detail.entityCustomization}</dt>
               <dd className="mt-1 text-text-secondary">
-                {companyEntity.customization[lang]}
+                {companyEntity.customization[lang] || companyEntity.customization.en}
               </dd>
             </div>
           </dl>
@@ -219,7 +219,7 @@ export function ProductDetail() {
             <h2 className="heading-display text-2xl sm:text-3xl">
               {t.detail.advantages}
             </h2>
-            <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-text-secondary sm:text-base">
+            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary sm:text-base">
               {advantages.map((item) => (
                 <li key={item.en}>{tx(item)}</li>
               ))}
@@ -237,10 +237,10 @@ export function ProductDetail() {
                 <thead className="bg-bg-soft text-dark">
                   <tr>
                     <th className="px-4 py-3 font-semibold">
-                      {lang === 'zh' ? '参数' : 'Parameter'}
+                    {t.page.parameter}
                     </th>
                     <th className="px-4 py-3 font-semibold">
-                      {lang === 'zh' ? '数值' : 'Value'}
+                    {t.page.value}
                     </th>
                   </tr>
                 </thead>
@@ -284,7 +284,7 @@ export function ProductDetail() {
               .map((link) => (
                 <li key={link.href}>
                   <LocaleLink to={link.href} className="font-medium text-dark hover:text-primary">
-                    {lang === 'zh' ? link.zh : link.en}
+                    {link.zh && lang === 'zh' ? link.zh : link.en}
                   </LocaleLink>
                 </li>
               ))}
@@ -307,11 +307,11 @@ export function ProductDetail() {
           </div>
           <p className="mt-4 text-sm text-text-secondary">
             <LocaleLink to="/faq" className="hover:text-primary">
-              {lang === 'zh' ? '查看全部 FAQ →' : 'View all FAQ →'}
+              {t.page.viewAllFaq}
             </LocaleLink>
             {' · '}
             <LocaleLink to="/product-selection-guide" className="hover:text-primary">
-              {lang === 'zh' ? '产品选型指南 →' : 'Product Selection Guide →'}
+              {t.page.productSelectionGuide}
             </LocaleLink>
           </p>
         </section>
