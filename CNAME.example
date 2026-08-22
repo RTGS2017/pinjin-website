@@ -1,0 +1,7 @@
+# Copy to CNAME (no extension) when your custom domain is ready.
+# File must contain a single hostname, e.g.:
+# www.yourdomain.com
+#
+# Vite copies public/CNAME into dist/ on build so GitHub Pages picks it up.
+# Also set the same domain in GitHub → Settings → Pages → Custom domain,
+# and point DNS (CNAME www → YOUR_USER.github.io). See README.
