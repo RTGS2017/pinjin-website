@@ -18,6 +18,7 @@ export const messagesAr = {
     getQuote: 'طلب عرض سعر',
     openMenu: 'فتح القائمة',
     closeMenu: 'إغلاق القائمة',
+    language: 'اللغة',
   },
   mega: {
     featured: 'منتجات مميزة',

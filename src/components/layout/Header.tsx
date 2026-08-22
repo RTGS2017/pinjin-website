@@ -2,13 +2,13 @@ import { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { MegaMenu, MobileMegaLinks } from '@/components/navigation/MegaMenu';
+import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
 import { navItems, type NavLabelKey } from '@/config/navigation';
 import { contactInquiryPath, siteConfig } from '@/config/site';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n/I18nContext';
-import { languages } from '@/i18n/config';
 import { localePath, stripLangFromPath } from '@/i18n/paths';
-import { LocaleLink, LocaleNavLink, useSwitchLang } from '@/i18n/navigation';
+import { LocaleLink, LocaleNavLink } from '@/i18n/navigation';
 
 const CLOSE_DELAY = 280;
 
@@ -19,7 +19,6 @@ export function Header() {
   const closeTimer = useRef<number>(0);
   const location = useLocation();
   const { lang, t } = useI18n();
-  const switchLang = useSwitchLang();
   const pagePath = stripLangFromPath(location.pathname);
 
   function cancelClose() {
@@ -111,41 +110,10 @@ export function Header() {
       active ? 'text-primary' : 'text-white/90 hover:text-primary',
     ].join(' ');
 
-  const LanguageSwitch = ({ compact = false }: { compact?: boolean }) => (
-    <div
-      className={[
-        'flex flex-wrap items-center justify-end gap-1 tracking-wider',
-        compact ? 'text-sm' : 'text-[11px] lg:text-xs',
-      ].join(' ')}
-      role="group"
-      aria-label="Language"
-    >
-      {languages.map((l, index) => (
-        <span key={l.code} className="contents">
-          {index > 0 ? (
-            <span className="text-white/30" aria-hidden>
-              |
-            </span>
-          ) : null}
-          <button
-            type="button"
-            onClick={() => {
-              switchLang(l.code);
-              setMobileOpen(false);
-              closeMegaNow();
-            }}
-            className={[
-              'px-1.5 py-1 transition-colors',
-              lang === l.code ? 'text-primary' : 'text-white/40 hover:text-white',
-            ].join(' ')}
-            aria-pressed={lang === l.code}
-          >
-            {l.label}
-          </button>
-        </span>
-      ))}
-    </div>
-  );
+  const closeLangAndNav = () => {
+    setMobileOpen(false);
+    closeMegaNow();
+  };
 
   return (
     <header className="sticky top-0 z-50">
@@ -206,7 +174,7 @@ export function Header() {
             </nav>
 
             <div className="hidden items-center gap-4 lg:flex" onMouseEnter={closeMegaNow}>
-              <LanguageSwitch />
+              <LanguageSwitcher onPicked={closeLangAndNav} />
               <Button to={contactInquiryPath} size="md">
                 {t.nav.getQuote}
               </Button>
@@ -277,7 +245,7 @@ export function Header() {
               ),
             )}
             <div className="mt-2 px-2">
-              <LanguageSwitch compact />
+              <LanguageSwitcher compact onPicked={closeLangAndNav} />
             </div>
             <div className="mt-2 px-2 pb-2">
               <Button

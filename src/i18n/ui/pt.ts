@@ -18,6 +18,7 @@ export const messagesPt = {
     getQuote: 'PEDIR ORÇAMENTO',
     openMenu: 'Abrir menu',
     closeMenu: 'Fechar menu',
+    language: 'Idioma',
   },
   mega: {
     featured: 'Produtos em destaque',

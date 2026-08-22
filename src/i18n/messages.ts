@@ -22,6 +22,7 @@ export const messages = {
       getQuote: 'GET A QUOTE',
       openMenu: 'Open menu',
       closeMenu: 'Close menu',
+      language: 'Language',
     },
     mega: {
       featured: 'Featured Products',
@@ -485,6 +486,7 @@ export const messages = {
       getQuote: '获取报价',
       openMenu: '打开菜单',
       closeMenu: '关闭菜单',
+      language: '语言',
     },
     mega: {
       featured: '精选产品',

@@ -169,7 +169,7 @@ src/data/gallery.ts
 - 独立路径：`/en/...`、`/zh/...`、`/pt/...`（巴西葡萄牙语）、`/ar/...`（阿拉伯语，页面 `dir=rtl`）
 - 根路径 `/` 会跳到浏览器偏好或默认英文 `/en`（`pt` / `ar` 前缀也会识别）
 - 旧链接如 `/products` 会自动转到 `/en/products`
-- 顶栏语言按钮会**切换 URL**（不是仅改 localStorage）
+- 顶栏语言为**下拉菜单**（[`LanguageSwitcher`](src/components/layout/LanguageSwitcher.tsx)），列出 English / 中文 / Português / العربية（数据来自 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages`），选择后**切换 URL**（不是仅改 localStorage）
 - 语言偏好仍写入 `localStorage`（键名 `pinjin_lang`），用于根路径重定向
 - **界面 chrome**（导航、按钮、页眉页脚、页面 SEO title）已有 en / zh / pt / ar；产品长文、博客、知识文章未译时回退英文（`LocalizedText` 的 `en` 必填）
 - 葡萄牙语 UI 在 [`src/i18n/ui/pt.ts`](src/i18n/ui/pt.ts)；阿拉伯语 UI 在 [`src/i18n/ui/ar.ts`](src/i18n/ui/ar.ts)；中英文仍在 [`src/i18n/messages.ts`](src/i18n/messages.ts)
