@@ -1,12 +1,11 @@
 ﻿import { Navigate, Outlet, useLocation, useParams } from 'react-router-dom';
-import { I18nProvider, detectPreferredLang } from '@/i18n/I18nContext';
+import { I18nProvider } from '@/i18n/I18nContext';
 import { defaultLang, isLang } from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
 
-/** `/` → `/{preferredLang}` */
+/** `/` → `/{defaultLang}`，海外站入口固定英文 */
 export function RootRedirect() {
-  const preferred = detectPreferredLang();
-  return <Navigate to={`/${preferred}`} replace />;
+  return <Navigate to={`/${defaultLang}`} replace />;
 }
 
 /**

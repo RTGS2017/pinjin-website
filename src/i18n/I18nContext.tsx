@@ -27,7 +27,7 @@ interface I18nContextValue {
 
 const I18nContext = createContext<I18nContextValue | null>(null);
 
-/** 从浏览器偏好推断语言（仅用于根路径重定向） */
+/** 从浏览器偏好推断语言（站点入口已固定 /en，此函数留给需要时使用） */
 export function detectPreferredLang(): Lang {
   try {
     const saved = localStorage.getItem(STORAGE_KEY);

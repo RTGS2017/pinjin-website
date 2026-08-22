@@ -167,10 +167,10 @@ src/data/gallery.ts
 ### 中英文切换（URL 分语言）
 
 - 独立路径：`/en/...`、`/zh/...`、`/pt/...`（巴西葡萄牙语）、`/ar/...`（阿拉伯语，页面 `dir=rtl`）
-- 根路径 `/` 会跳到浏览器偏好或默认英文 `/en`（`pt` / `ar` 前缀也会识别）
+- 根路径 `/` **固定进入英文** `/en/`（不按浏览器语言或 localStorage 改入口）
 - 旧链接如 `/products` 会自动转到 `/en/products`
 - 顶栏语言为**下拉菜单**（[`LanguageSwitcher`](src/components/layout/LanguageSwitcher.tsx)），列出 English / 中文 / Português / العربية（数据来自 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages`），选择后**切换 URL**（不是仅改 localStorage）
-- 语言偏好仍写入 `localStorage`（键名 `pinjin_lang`），用于根路径重定向
+- 语言偏好仍写入 `localStorage`（键名 `pinjin_lang`），供根路径以外的回访识别；**站点入口始终是英文**
 - **界面 chrome**（导航、按钮、页眉页脚、页面 SEO title）已有 en / zh / pt / ar；产品长文、博客、知识文章未译时回退英文（`LocalizedText` 的 `en` 必填）
 - 葡萄牙语 UI 在 [`src/i18n/ui/pt.ts`](src/i18n/ui/pt.ts)；阿拉伯语 UI 在 [`src/i18n/ui/ar.ts`](src/i18n/ui/ar.ts)；中英文仍在 [`src/i18n/messages.ts`](src/i18n/messages.ts)
 - 阿拉伯语使用 Noto Sans Arabic，并在 `html[dir=rtl]` 下调字距
@@ -237,7 +237,7 @@ python deploy/generate_sitemaps.py
 npm run build
 ```
 
-产物目录：`dist/`。构建末尾会自动复制 `dist/index.html` → `dist/404.html`，供 GitHub Pages 在深链刷新时回落到 SPA（替代原 Nginx `try_files`）。
+产物目录：`dist/`。构建末尾会复制 `dist/index.html` → `dist/404.html`（深链刷新）以及 `dist/en|zh|pt|ar/index.html`（各语言首页走真实文件，避免 GitHub Pages 对 `/en/` 直接 404）。
 
 预览：
 
@@ -264,7 +264,7 @@ npm run preview
    - `VITE_SITE_URL`（正式域名前可用 `https://YOUR_USER.github.io/YOUR_REPO`）
    - 可选：`VITE_BASE_PATH`（自定义域名根站不要设，或设为 `/`）
    - 可选：`VITE_WHATSAPP_NUMBER`（WhatsApp 国际号码；不设则用联系电话补 86）
-5. push 到 `main` 后 Actions 自动构建并发布。
+5. push 到 `main` 后 Actions 自动构建并发布。工作流会尝试把 Pages Source 设为 **GitHub Actions**；若仍空白，请到 Settings → Pages 确认 Source **不是** `main` 根目录。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
 
