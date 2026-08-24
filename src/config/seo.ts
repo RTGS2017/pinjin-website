@@ -2,7 +2,7 @@
 
 export const seoConfig = {
   siteUrl: (
-    import.meta.env.VITE_SITE_URL || 'https://rtgs2017.github.io/pinjin-website'
+    import.meta.env.VITE_SITE_URL || 'https://pinjinpump.com'
   ).replace(/\/$/, ''),
   siteName: 'Hebei Pinjin Machinery',
   companyLegalName: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',

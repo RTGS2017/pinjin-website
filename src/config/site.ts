@@ -1,7 +1,7 @@
 /** 全站统一结构配置（文案见 src/i18n/messages.ts，勿在此重复定义文案） */
 
 /**
- * 为 public 静态资源 / 裸 `<a href>` 加上 Vite base（GitHub 项目站为 /pinjin-website/）。
+ * 为 public 静态资源 / 裸 `<a href>` 加上 Vite base（正式站为 /）。
  * React Router 的 `to` 不要用此函数（basename 已处理）。
  */
 export function withBase(path: string): string {

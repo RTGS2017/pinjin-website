@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
-DEFAULT_BASE = "https://rtgs2017.github.io/pinjin-website"
+DEFAULT_BASE = "https://pinjinpump.com"
 
 # 与 src/i18n/config.ts 保持一致；新增语言时同步改这里
 LANGS = ["en", "zh", "pt", "ar"]

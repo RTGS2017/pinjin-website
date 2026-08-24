@@ -37,8 +37,8 @@ npm run dev
 ```env
 VITE_CONTACT_EMAIL=1912829892@qq.com
 VITE_CONTACT_PHONE=19912003025
-VITE_SITE_URL=https://www.example.com
-# VITE_BASE_PATH=/
+VITE_SITE_URL=https://pinjinpump.com
+VITE_BASE_PATH=/
 # VITE_WHATSAPP_NUMBER=8619912003025
 ```
 
@@ -46,7 +46,7 @@ VITE_SITE_URL=https://www.example.com
 - `VITE_CONTACT_PHONE`：联系页 / 页脚电话
 - `VITE_WHATSAPP_NUMBER`：WhatsApp 国际号码（纯数字）。不设则使用 `VITE_CONTACT_PHONE` 并补 `86` 前缀，生成 `wa.me` 链接
 - `VITE_SITE_URL`：canonical / Open Graph / JSON-LD / sitemap 绝对地址前缀
-- `VITE_BASE_PATH`：仅在**无自定义域名**的项目站预览时需要（如 `/pinjin-website/`）；绑定自定义域名后保持默认 `/`
+- `VITE_BASE_PATH`：正式站为 `/`。只有在没有自定义域名、用 `https://user.github.io/仓库名/` 预览时才设为 `/pinjin-website/`
 
 域名就绪后：把 `VITE_SITE_URL` 改成正式 `https://你的域名`，再运行：
 
@@ -254,17 +254,15 @@ npm run preview
 ### 一次性设置
 
 1. 在 GitHub 新建仓库，将本目录推送到 `main`。
-2. **Settings → Pages → Build and deployment → Source** 必须二选一（**不要选 `main` 根目录**）：
-   - 推荐：**GitHub Actions**
-   - 或 **Deploy from a branch**，Branch 选 **`gh-pages`** / `(root)`
-3. 若 Source 选了 `main` / `(root)`，GitHub 会用 Jekyll 直接发布源码 `index.html`（里面是 `/src/main.tsx`），浏览器无法运行 TypeScript，页面空白。工作流会把 Vite 的 `dist/` 同步到 `gh-pages`。
+2. **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**（**不要选 `main` 根目录**，也不再使用 `gh-pages` 分支）。
+3. 若 Source 选了 `main` / `(root)`，GitHub 会用 Jekyll 直接发布源码 `index.html`（里面是 `/src/main.tsx`），浏览器无法运行 TypeScript，页面空白。
 4. **Settings → Secrets and variables → Actions → Variables** 配置：
    - `VITE_CONTACT_EMAIL`
    - `VITE_CONTACT_PHONE`
-   - `VITE_SITE_URL`（正式域名前可用 `https://YOUR_USER.github.io/YOUR_REPO`）
-   - 可选：`VITE_BASE_PATH`（自定义域名根站不要设，或设为 `/`）
+   - `VITE_SITE_URL`（正式站为 `https://pinjinpump.com`）
+   - **不要**再设 `VITE_BASE_PATH=/pinjin-website/`；正式站资源路径必须是 `/`
    - 可选：`VITE_WHATSAPP_NUMBER`（WhatsApp 国际号码；不设则用联系电话补 86）
-5. push 到 `main` 后 Actions 自动构建并发布。工作流会尝试把 Pages Source 设为 **GitHub Actions**；若仍空白，请到 Settings → Pages 确认 Source **不是** `main` 根目录。
+5. push 到 `main` 后 Actions 自动构建并发布。工作流会尝试把 Pages Source 设为 **GitHub Actions**；若仍空白，请到 Settings → Pages 确认 Source **不是** `main` 根目录。若 Variables 里仍有 `VITE_BASE_PATH=/pinjin-website/`，请删掉或改成 `/`。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
 
@@ -275,17 +273,15 @@ npm run preview
    - 根域名（apex）按 [GitHub 文档](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site) 配置 A/AAAA，或把根跳转到 `www`
 2. 复制 `public/CNAME.example` 为 `public/CNAME`，写入一行主机名（如 `www.yourdomain.com`）。
 3. 仓库 **Settings → Pages → Custom domain** 填同一主机名，勾选 **Enforce HTTPS**。
-4. 将本地与 Actions 中的 `VITE_SITE_URL` 改为 `https://www.yourdomain.com`，运行 `python deploy/generate_sitemaps.py`，更新 `index.html` 中 canonical 后重新 push。
+4. 将本地与 Actions 中的 `VITE_SITE_URL` 改为正式域名（当前为 `https://pinjinpump.com`），运行 `python deploy/generate_sitemaps.py`，更新 `index.html` 中 canonical 后重新 push。
 
-绑定自定义域名后站点路径为 `https://你的域名/`（`VITE_BASE_PATH=/`），不是 `...github.io/仓库名/`。
+绑定自定义域名后站点路径为 `https://你的域名/`（`VITE_BASE_PATH=/`），资源在 `https://你的域名/assets/...`。若仍写成 `/pinjin-website/assets/`，自定义域名会 404 白屏。
 
-当前未绑定制域名时，项目站地址为：
+当前正式站：
 
 ```text
-https://rtgs2017.github.io/pinjin-website/
+https://pinjinpump.com/
 ```
-
-构建默认 `VITE_BASE_PATH=/pinjin-website/`，否则 JS/CSS 会从站点根路径加载导致白屏。
 
 ---
 

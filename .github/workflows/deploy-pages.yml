@@ -37,21 +37,13 @@ jobs:
           VITE_CONTACT_EMAIL: ${{ vars.VITE_CONTACT_EMAIL }}
           VITE_CONTACT_PHONE: ${{ vars.VITE_CONTACT_PHONE }}
           VITE_WHATSAPP_NUMBER: ${{ vars.VITE_WHATSAPP_NUMBER }}
-          # Defaults match GitHub project Pages until custom domain Variables are set
-          VITE_SITE_URL: ${{ vars.VITE_SITE_URL || 'https://rtgs2017.github.io/pinjin-website' }}
-          VITE_BASE_PATH: ${{ vars.VITE_BASE_PATH || '/pinjin-website/' }}
+          # 正式站为自定义域名根路径；勿再用 /pinjin-website/，否则 pinjinpump.com 会 404
+          VITE_SITE_URL: ${{ vars.VITE_SITE_URL || 'https://pinjinpump.com' }}
+          VITE_BASE_PATH: '/'
         run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      - name: Publish dist to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          force_orphan: true
-          destination_dir: .
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
