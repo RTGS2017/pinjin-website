@@ -3,7 +3,7 @@
  * Copy index.html → 404.html so SPA deep links work on refresh.
  * Also write .nojekyll so GitHub Pages does not run Jekyll on dist.
  */
-import { copyFileSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -16,6 +16,20 @@ const LANGS = ['en', 'zh', 'pt', 'ar'];
 
 if (!existsSync(indexHtml)) {
   console.error('dist/index.html not found; run vite build first');
+  process.exit(1);
+}
+
+const built = readFileSync(indexHtml, 'utf8');
+if (built.includes('%BASE_URL%')) {
+  console.error('dist/index.html still contains %BASE_URL%; this is not a Vite production build');
+  process.exit(1);
+}
+if (built.includes('/pinjin-website/')) {
+  console.error('dist/index.html still contains /pinjin-website/; Vite base must be /');
+  process.exit(1);
+}
+if (!/\/assets\/[^"']+\.js/.test(built)) {
+  console.error('dist/index.html has no hashed /assets/*.js; refusing to deploy source HTML');
   process.exit(1);
 }
 

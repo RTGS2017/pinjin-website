@@ -35,9 +35,7 @@ import {
 
 export default function App() {
   return (
-    <BrowserRouter
-      basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}
-    >
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
       <Routes>
         <Route path="/" element={<RootRedirect />} />
         <Route path="/:lang" element={<LanguageRoot />}>

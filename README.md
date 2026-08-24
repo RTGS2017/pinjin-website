@@ -38,7 +38,6 @@ npm run dev
 VITE_CONTACT_EMAIL=1912829892@qq.com
 VITE_CONTACT_PHONE=19912003025
 VITE_SITE_URL=https://pinjinpump.com
-VITE_BASE_PATH=/
 # VITE_WHATSAPP_NUMBER=8619912003025
 ```
 
@@ -46,7 +45,7 @@ VITE_BASE_PATH=/
 - `VITE_CONTACT_PHONE`：联系页 / 页脚电话
 - `VITE_WHATSAPP_NUMBER`：WhatsApp 国际号码（纯数字）。不设则使用 `VITE_CONTACT_PHONE` 并补 `86` 前缀，生成 `wa.me` 链接
 - `VITE_SITE_URL`：canonical / Open Graph / JSON-LD / sitemap 绝对地址前缀
-- `VITE_BASE_PATH`：正式站为 `/`。只有在没有自定义域名、用 `https://user.github.io/仓库名/` 预览时才设为 `/pinjin-website/`
+- 正式站 Vite `base` 固定为 `/`（见 `vite.config.ts`）。语言路径 `/en/` `/zh/` `/pt/` `/ar/` 由 React Router 处理，不要写进 Vite `base`，也不要再设 `VITE_BASE_PATH=/pinjin-website/`
 
 域名就绪后：把 `VITE_SITE_URL` 改成正式 `https://你的域名`，再运行：
 
@@ -260,9 +259,9 @@ npm run preview
    - `VITE_CONTACT_EMAIL`
    - `VITE_CONTACT_PHONE`
    - `VITE_SITE_URL`（正式站为 `https://pinjinpump.com`）
-   - **不要**再设 `VITE_BASE_PATH=/pinjin-website/`；正式站资源路径必须是 `/`
+   - **不要**再设 `VITE_BASE_PATH=/pinjin-website/`（工作流不再读取该变量）
    - 可选：`VITE_WHATSAPP_NUMBER`（WhatsApp 国际号码；不设则用联系电话补 86）
-5. push 到 `main` 后 Actions 自动构建并发布。工作流会尝试把 Pages Source 设为 **GitHub Actions**；若仍空白，请到 Settings → Pages 确认 Source **不是** `main` 根目录。若 Variables 里仍有 `VITE_BASE_PATH=/pinjin-website/`，请删掉或改成 `/`。
+5. push 到 `main` 后 Actions 执行 `npm ci` → `npm run build` → 只发布 `dist/`。**Settings → Pages → Source 必须是 GitHub Actions**，不要选 `main` 或 `gh-pages` 分支（那会把源码 `index.html` 原样上网，出现 `%BASE_URL%` 和错误 MIME）。构建会拒绝仍含 `%BASE_URL%` 或 `/pinjin-website/` 的 HTML。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
 

@@ -39,7 +39,6 @@ jobs:
           VITE_WHATSAPP_NUMBER: ${{ vars.VITE_WHATSAPP_NUMBER }}
           # 正式站为自定义域名根路径；勿再用 /pinjin-website/，否则 pinjinpump.com 会 404
           VITE_SITE_URL: ${{ vars.VITE_SITE_URL || 'https://pinjinpump.com' }}
-          VITE_BASE_PATH: '/'
         run: npm run build
 
       - name: Setup Pages
