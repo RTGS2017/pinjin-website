@@ -48,6 +48,7 @@ export const companyEntity = {
   products: [
     {
       id: 'concrete-pumps',
+      path: '/products/concrete-pumps',
       en: 'Concrete Pumps',
       zh: '混凝土泵 / 输送泵',
       pt: 'Bombas de concreto',
@@ -55,6 +56,7 @@ export const companyEntity = {
     },
     {
       id: 'spraying-machines',
+      path: '/products/spraying-machines',
       en: 'Spraying Machines',
       zh: '喷涂设备',
       pt: 'Máquinas de projeção',
@@ -62,6 +64,7 @@ export const companyEntity = {
     },
     {
       id: 'material-handling',
+      path: '/products/material-handling',
       en: 'Material Handling Equipment',
       zh: '物料搬运设备',
       pt: 'Equipamentos de movimentação de materiais',
@@ -69,6 +72,7 @@ export const companyEntity = {
     },
     {
       id: 'rebar-equipment',
+      path: '/products/rebar-equipment',
       en: 'Rebar Processing Equipment',
       zh: '钢筋加工设备',
       pt: 'Equipamentos para aço',

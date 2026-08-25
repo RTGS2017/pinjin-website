@@ -390,10 +390,15 @@ export const messagesPt = {
     relatedGuides: 'Páginas relacionadas',
     back: 'Voltar a todos os artigos',
     inquiryCta: 'Precisa de uma recomendação de modelo? Fale com a engenharia',
+    ctaTitle: 'Precisa de uma solução confiável de bomba de concreto?',
+    ctaBody:
+      'Fale com a Pinjin Pump para soluções profissionais de equipamentos de construção.',
     published: 'Publicado',
     updated: 'Atualizado',
     category: 'Categoria',
     filterAll: 'Todos os artigos',
+    empty:
+      'Os artigos serão publicados depois de escritos com factos da fábrica e do catálogo. Entretanto, use as páginas de produtos, a fábrica ou contacte a engenharia.',
   },
   floating: {
     quote: 'Pedir orçamento',

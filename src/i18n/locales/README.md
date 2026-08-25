@@ -24,8 +24,8 @@ npx vite-node deploy/export_i18n_catalog.ts
 | 默认 Title、组织 JSON-LD 英文 | `src/config/seo.ts` |
 | 产品名称/介绍/**产品 SEO**/**产品 GEO 定义** | `src/data/products.ts`（字段 `{ en, zh }`） |
 | 分类 Hub | `src/data/categoryHubs.ts` |
-| 博客原文 | `src/data/blog.ts` |
-| 知识中心增补文 | `src/data/knowledgeArticles.ts` |
+| 博客原文 | `src/data/blog.ts`（类型与读取函数） |
+| 知识中心增补文 | `src/data/knowledgeArticles.ts`（当前 5 篇行业文） |
 | 工厂图 ALT / GEO FAQ | `src/data/factory.ts` |
 | OEM 专题 | `src/data/customMachinery.ts` |
 | 工程应用页 | `src/data/applicationsContent.ts` |

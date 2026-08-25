@@ -62,14 +62,14 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
-        href: '/blog/how-to-choose-a-concrete-pump',
-        en: 'How to choose a concrete pump for construction projects',
-        zh: '如何为工程项目选择混凝土泵',
+        href: '/blog/what-is-a-concrete-pump',
+        en: 'What is a concrete pump and how it works',
+        zh: '什么是混凝土泵及工作原理',
       },
       {
-        href: '/blog/how-concrete-pumps-work',
-        en: 'Concrete pump working principle',
-        zh: '混凝土泵工作原理',
+        href: '/blog/concrete-pump-types',
+        en: 'Trailer pump vs boom pump selection',
+        zh: '拖式泵与臂架泵选型',
       },
       {
         href: '/blog/concrete-pump-maintenance-guide',
@@ -77,14 +77,9 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         zh: '混凝土泵维护指南',
       },
       {
-        href: '/blog/trailer-pump-vs-truck-mounted-concrete-pump',
-        en: 'Truck mounted concrete pump vs trailer pump',
-        zh: '车载泵与拖式混凝土泵对比',
-      },
-      {
-        href: '/blog/concrete-mixing-and-pumping-for-construction-projects',
-        en: 'Concrete mixing plant capacity and pumping',
-        zh: '搅拌站产能与混凝土泵送',
+        href: '/product-selection-guide',
+        en: 'Concrete pump product selection guide',
+        zh: '混凝土泵产品选型指南',
       },
     ],
     relatedSolutions: [
@@ -104,25 +99,16 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
-        href: '/blog/shotcrete-machine-application-guide',
-        en: 'Shotcrete machine application',
-        zh: '喷浆机应用',
+        href: '/blog/shotcrete-machine-working-principle',
+        en: 'Shotcrete machine working principle',
+        zh: '喷浆机工作原理',
       },
       {
-        href: '/blog/dry-mix-vs-wet-mix-spraying-machine',
-        en: 'Dry mix vs wet mix spraying machine',
-        zh: '干喷与湿喷喷涂机对比',
+        href: '/product-selection-guide',
+        en: 'Spraying machine product selection guide',
+        zh: '喷涂设备产品选型指南',
       },
-      {
-        href: '/blog/tunnel-concrete-spraying-solution',
-        en: 'Mining tunnel concrete spraying solution',
-        zh: '矿山巷道混凝土喷浆方案',
-      },
-      {
-        href: '/blog/mortar-spraying-machine-buying-guide',
-        en: 'Mortar spraying machine buying guide',
-        zh: '砂浆喷涂机采购指南',
-      },
+      { href: '/faq', en: 'Construction machinery FAQ', zh: '工程机械常见问题' },
     ],
     relatedSolutions: [
       { href: '/solutions/spraying', en: 'Spraying application cases', zh: '喷涂应用场景' },
@@ -140,15 +126,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
-        href: '/blog/how-we-manufacture-construction-equipment',
-        en: 'How we manufacture construction equipment',
-        zh: '工程设备如何制造',
+        href: '/factory',
+        en: 'Xingtai construction machinery factory',
+        zh: '邢台工程机械工厂',
       },
-      {
-        href: '/blog/oem-concrete-machinery-manufacturing-process',
-        en: 'OEM machinery customization process',
-        zh: 'OEM 机械定制流程',
-      },
+      oemLink,
     ],
     relatedSolutions: [
       {
@@ -169,14 +151,19 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
-        href: '/blog/xingjiawan-concrete-machinery-manufacturing',
-        en: 'Xingjiawan concrete machinery manufacturing base',
-        zh: '邢家湾混凝土机械制造基地',
+        href: '/blog/choose-construction-equipment-suppliers-from-china',
+        en: 'How to choose construction equipment suppliers from China',
+        zh: '如何选择中国工程设备供应商',
       },
       {
-        href: '/blog/why-choose-a-chinese-concrete-machinery-manufacturer',
-        en: 'Why choose a Chinese concrete machinery manufacturer',
-        zh: '为什么选择中国混凝土机械厂家',
+        href: '/factory',
+        en: 'Xingtai construction machinery factory',
+        zh: '邢台工程机械工厂',
+      },
+      {
+        href: '/about',
+        en: 'Hebei Pinjin Machinery company profile',
+        zh: '河北品锦机械公司介绍',
       },
     ],
     relatedSolutions: [
@@ -188,19 +175,19 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
 
 export const trustClusterArticles: TopicLink[] = [
   {
-    href: '/blog/why-choose-a-chinese-concrete-machinery-manufacturer',
-    en: 'Why choose a Chinese concrete machinery manufacturer',
-    zh: '为什么选择中国混凝土机械厂家',
+    href: '/blog/choose-construction-equipment-suppliers-from-china',
+    en: 'How to choose construction equipment suppliers from China',
+    zh: '如何选择中国工程设备供应商',
   },
   {
-    href: '/blog/xingtai-concrete-machinery-factory-inspection-guide',
-    en: 'Factory inspection guide for Xingtai concrete machinery',
-    zh: '邢台混凝土机械工厂考察指南',
+    href: '/factory',
+    en: 'Xingtai construction machinery factory',
+    zh: '邢台工程机械工厂',
   },
   {
-    href: '/blog/oem-concrete-machinery-manufacturing-process',
-    en: 'OEM machinery customization process',
-    zh: 'OEM 机械定制流程',
+    href: '/products/custom-machinery',
+    en: 'OEM custom machinery manufacturer',
+    zh: 'OEM 定制机械厂家',
   },
 ];
 

@@ -4,6 +4,7 @@ import {
   SEO,
   buildArticleJsonLd,
   buildBreadcrumbJsonLd,
+  buildFaqPageJsonLd,
 } from '@/components/SEO';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ContactActions } from '@/components/ui/ContactActions';
@@ -44,6 +45,28 @@ export function BlogDetail() {
   const categoryHub = relatedProducts[0]
     ? getCategoryPath(relatedProducts[0].category)
     : '/products';
+  const faqs = (post.faqs ?? []).map((item) => ({
+    question: tx(item.question),
+    answer: tx(item.answer),
+  }));
+  const jsonLd = [
+    buildArticleJsonLd({
+      headline: title,
+      description,
+      path: localizedPath,
+      datePublished: post.date,
+      dateModified: post.dateModified ?? post.date,
+      keywords,
+      image: firstImage,
+    }),
+    buildBreadcrumbJsonLd([
+      { name: t.detail.home, path: localePath('/', lang) },
+      { name: t.nav.resources, path: localePath('/resources', lang) },
+      { name: t.blog.title, path: localePath('/blog', lang) },
+      { name: title, path: localizedPath },
+    ]),
+    ...(faqs.length > 0 ? [buildFaqPageJsonLd(faqs)] : []),
+  ];
 
   return (
     <section className="section-y bg-bg">
@@ -54,23 +77,7 @@ export function BlogDetail() {
         type="article"
         image={firstImage}
         keywords={keywords}
-        jsonLd={[
-          buildArticleJsonLd({
-            headline: title,
-            description,
-            path: localizedPath,
-            datePublished: post.date,
-            dateModified: post.dateModified ?? post.date,
-            keywords,
-            image: firstImage,
-          }),
-          buildBreadcrumbJsonLd([
-            { name: t.detail.home, path: localePath('/', lang) },
-            { name: t.nav.resources, path: localePath('/resources', lang) },
-            { name: t.blog.title, path: localePath('/blog', lang) },
-            { name: title, path: localizedPath },
-          ]),
-        ]}
+        jsonLd={jsonLd}
       />
       <article className="container-site">
         <nav className="mb-8 text-sm text-text-secondary" aria-label="Breadcrumb">
@@ -202,10 +209,25 @@ export function BlogDetail() {
           </div>
         ) : null}
 
+        {faqs.length > 0 ? (
+          <section className="mt-14 max-w-3xl">
+            <h2 className="heading-display text-2xl">{t.detail.faq}</h2>
+            <div className="mt-6 space-y-4">
+              {faqs.map((item) => (
+                <div key={item.question} className="border border-border p-5">
+                  <h3 className="font-semibold text-dark">{item.question}</h3>
+                  <p className="mt-2 text-sm text-text-secondary">{item.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        ) : null}
+
         <InternalLinks cluster={clusterForBlog(post.relatedProductSlugs)} />
 
         <div className="mt-16 border border-border bg-bg-soft p-8">
-          <h2 className="heading-display text-2xl">{t.blog.inquiryCta}</h2>
+          <h2 className="heading-display text-2xl">{t.blog.ctaTitle}</h2>
+          <p className="mt-3 max-w-2xl text-sm text-text-secondary">{t.blog.ctaBody}</p>
           <div className="mt-6">
             <ContactActions
               subject={t.mailSubjectInquiry}

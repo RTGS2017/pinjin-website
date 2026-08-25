@@ -180,8 +180,9 @@ export const factoryShowcase = [
   },
 ] as const;
 
+/** 首页知识中心三张卡片（与 knowledgeArticles slug 一致）。 */
 export const homeKnowledgeSlugs = [
-  'diesel-vs-electric-concrete-pump',
-  'how-we-manufacture-construction-equipment',
-  'how-to-choose-a-concrete-pump',
+  'what-is-a-concrete-pump',
+  'concrete-pump-types',
+  'shotcrete-machine-working-principle',
 ] as const;

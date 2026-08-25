@@ -84,26 +84,14 @@ CATS = [
     "custom-machinery",
 ]
 
-# 与 src/data/blog.ts + knowledgeArticles.ts 的 slug 保持一致
-BLOG_SLUGS = [
-    "how-to-choose-a-concrete-pump",
-    "diesel-vs-electric-concrete-pump",
-    "mortar-spraying-machine-buying-guide",
-    "concrete-pump-conveying-distance-guide",
-    "how-we-manufacture-construction-equipment",
-    "xingjiawan-concrete-machinery-manufacturing",
-    "how-to-choose-a-reliable-concrete-pump-manufacturer-in-china",
-    "oem-concrete-machinery-manufacturing-process",
-    "why-factory-direct-concrete-equipment-has-faster-customization",
-    "how-concrete-pumps-work",
+# 与 src/data/blog.ts + knowledgeArticles.ts 的 slug 保持一致。
+# 知识中心文章已清空，待有基于工厂/产品事实的原文后再填入。
+BLOG_SLUGS: list[str] = [
+    "what-is-a-concrete-pump",
+    "concrete-pump-types",
     "concrete-pump-maintenance-guide",
-    "trailer-pump-vs-truck-mounted-concrete-pump",
-    "shotcrete-machine-application-guide",
-    "dry-mix-vs-wet-mix-spraying-machine",
-    "tunnel-concrete-spraying-solution",
-    "why-choose-a-chinese-concrete-machinery-manufacturer",
-    "xingtai-concrete-machinery-factory-inspection-guide",
-    "concrete-mixing-and-pumping-for-construction-projects",
+    "shotcrete-machine-working-principle",
+    "choose-construction-equipment-suppliers-from-china",
 ]
 
 SOLUTION_SLUGS = [
@@ -113,7 +101,7 @@ SOLUTION_SLUGS = [
     "industrial-projects",
 ]
 
-LASTMOD = "2026-08-17"
+LASTMOD = "2026-08-25"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "

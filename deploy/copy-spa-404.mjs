@@ -40,6 +40,32 @@ for (const lang of LANGS) {
   mkdirSync(dir, { recursive: true });
   copyFileSync(indexHtml, join(dir, 'index.html'));
 }
+
+const sitemapXml = join(distDir, 'sitemap.xml');
+const imageSitemapXml = join(distDir, 'image-sitemap.xml');
+const robotsTxt = join(distDir, 'robots.txt');
+for (const file of [sitemapXml, imageSitemapXml, robotsTxt]) {
+  if (!existsSync(file)) {
+    console.error(`${file} missing; Vite must copy public/ into dist/`);
+    process.exit(1);
+  }
+}
+const sitemapText = readFileSync(sitemapXml, 'utf8');
+if (!sitemapText.includes('<?xml') || !sitemapText.includes('<urlset') || !sitemapText.includes('<loc>')) {
+  console.error('dist/sitemap.xml is not a valid urlset sitemap');
+  process.exit(1);
+}
+if (sitemapText.includes('<html') || sitemapText.includes('%BASE_URL%')) {
+  console.error('dist/sitemap.xml looks like HTML or source, not XML');
+  process.exit(1);
+}
+const robotsText = readFileSync(robotsTxt, 'utf8');
+if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
+  console.error('dist/robots.txt must point Google to https://pinjinpump.com/sitemap.xml');
+  process.exit(1);
+}
+
 console.log('Copied dist/index.html → dist/404.html');
 console.log(`Copied dist/index.html → dist/{${LANGS.join(',')}}/index.html`);
 console.log('Wrote dist/.nojekyll');
+console.log('Verified dist/sitemap.xml, dist/image-sitemap.xml, dist/robots.txt');

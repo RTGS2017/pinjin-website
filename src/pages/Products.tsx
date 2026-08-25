@@ -8,7 +8,7 @@ import {
 } from '@/data/products';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ProductCard } from '@/components/ui/ProductCard';
-import { SEO, buildBreadcrumbJsonLd } from '@/components/SEO';
+import { SEO, buildBreadcrumbJsonLd, buildCollectionPageJsonLd } from '@/components/SEO';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
@@ -40,10 +40,21 @@ export function Products() {
         title={t.seo.productsTitle}
         description={t.productsPage.subtitle}
         path="/products"
-        jsonLd={buildBreadcrumbJsonLd([
-          { name: t.detail.home, path: localePath('/', lang) },
-          { name: t.detail.products, path: localePath('/products', lang) },
-        ])}
+        jsonLd={[
+          buildCollectionPageJsonLd({
+            name: t.productsPage.title,
+            description: t.productsPage.subtitle,
+            path: localePath('/products', lang),
+            items: products.map((item) => ({
+              name: tx(item.name),
+              path: localePath(`/products/${item.slug}`, lang),
+            })),
+          }),
+          buildBreadcrumbJsonLd([
+            { name: t.detail.home, path: localePath('/', lang) },
+            { name: t.detail.products, path: localePath('/products', lang) },
+          ]),
+        ]}
       />
       <div className="container-site">
         <SectionTitle

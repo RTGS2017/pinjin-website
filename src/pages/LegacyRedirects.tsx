@@ -36,12 +36,7 @@ export function LegacySprayingHubRedirect() {
 }
 
 export function LegacyMixingPlantRedirect() {
-  return (
-    <LocaleNavigate
-      to="/blog/concrete-mixing-and-pumping-for-construction-projects"
-      replace
-    />
-  );
+  return <LocaleNavigate to="/products/concrete-pumps" replace />;
 }
 
 export function LegacyCompanyRedirect() {
@@ -53,26 +48,13 @@ export function LegacyCompanyFactoryRedirect() {
 }
 
 export function LegacyXingjiawanRedirect() {
-  return (
-    <LocaleNavigate
-      to="/blog/xingjiawan-concrete-machinery-manufacturing"
-      replace
-    />
-  );
+  return <LocaleNavigate to="/factory" replace />;
 }
 
 export function LegacyResourcesBlogRedirect() {
   const { slug } = useParams<{ slug: string }>();
   if (slug === 'xingjiawan-concrete-machinery') {
-    return (
-      <LocaleNavigate
-        to="/blog/xingjiawan-concrete-machinery-manufacturing"
-        replace
-      />
-    );
-  }
-  if (slug) {
-    return <LocaleNavigate to={`/blog/${slug}`} replace />;
+    return <LocaleNavigate to="/factory" replace />;
   }
   return <LocaleNavigate to="/blog" replace />;
 }

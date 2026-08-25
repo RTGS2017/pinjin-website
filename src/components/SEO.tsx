@@ -143,23 +143,17 @@ export function buildOrganizationJsonLd() {
       addressCountry: seoConfig.organization.address.addressCountry,
     },
     areaServed: 'Worldwide',
-    makesOffer: companyEntity.products.map((item) => ({
-      '@type': 'Offer',
-      itemOffered: {
-        '@type': 'Product',
-        name: item.en,
-        category: 'Construction Machinery',
-      },
-    })),
+    // 四个条目是产品分类，不是单品。禁止写成 Product（会触发 GSC
+    // “Either offers, review, or aggregateRating should be specified”）。
+    // 也不在此虚构 price / review / aggregateRating。
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Pinjin construction machinery catalogue',
-      itemListElement: [
-        { '@type': 'OfferCatalog', name: 'Concrete Pump' },
-        { '@type': 'OfferCatalog', name: 'Concrete Spraying Machine' },
-        { '@type': 'OfferCatalog', name: 'Material Handling Equipment' },
-        { '@type': 'OfferCatalog', name: 'Rebar Processing Equipment' },
-      ],
+      itemListElement: companyEntity.products.map((item) => ({
+        '@type': 'OfferCatalog',
+        name: item.en,
+        url: absoluteUrl(localePath(item.path, defaultLang)),
+      })),
     },
   };
 }
@@ -251,6 +245,8 @@ export function buildMediaImageJsonLd(input: {
   };
 }
 
+/** 仅用于真正的单个产品详情页。不要给分类/集合使用。
+ *  无公开价格、用户评价时不要添加 offers / review / aggregateRating。 */
 export function buildProductJsonLd(input: {
   name: string;
   description: string;

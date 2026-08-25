@@ -392,10 +392,15 @@ export const messages = {
       relatedGuides: 'Related pages',
       back: 'Back to all articles',
       inquiryCta: 'Need a model recommendation? Contact our engineering team',
+      ctaTitle: 'Need a reliable concrete pump solution?',
+      ctaBody:
+        'Contact Pinjin Pump for professional construction equipment solutions.',
       published: 'Published',
       updated: 'Updated',
       category: 'Category',
       filterAll: 'All articles',
+      empty:
+        'Articles will be added after they are written from factory and catalogue facts. Use the product pages, factory page or contact the engineering team in the meantime.',
     },
     floating: {
       quote: 'Request Quote',
@@ -833,10 +838,14 @@ export const messages = {
       relatedGuides: '相关页面',
       back: '返回文章列表',
       inquiryCta: '需要选型建议？联系工程团队',
+      ctaTitle: '需要可靠的混凝土泵方案？',
+      ctaBody: '联系 Pinjin Pump，获取专业工程设备方案。',
       published: '发布日期',
       updated: '更新日期',
       category: '分类',
       filterAll: '全部文章',
+      empty:
+        '知识文章将在基于工厂与产品目录事实撰写后再发布。目前请浏览产品页、工厂页，或联系工程团队。',
     },
     floating: {
       quote: '立即询价',

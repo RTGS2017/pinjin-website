@@ -63,6 +63,9 @@ export function ResourcesPage() {
         <h2 className="mt-14 heading-display text-2xl">
           {t.page.latestArticles}
         </h2>
+        {posts.length === 0 ? (
+          <p className="mt-4 max-w-2xl text-sm text-text-secondary">{t.blog.empty}</p>
+        ) : (
         <ul className="mt-4 space-y-3">
           {posts.map((post) => (
             <li key={post.slug} className="text-sm">
@@ -79,6 +82,7 @@ export function ResourcesPage() {
             </li>
           ))}
         </ul>
+        )}
 
         <div className="mt-12">
           <ContactActions />

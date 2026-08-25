@@ -6,6 +6,31 @@
 
 **托管方式：GitHub Pages 静态托管**（适合海外访问）。自定义域名通过 DNS 指向 GitHub Pages，不再使用阿里云 ECS / Nginx。
 
+正式站：**https://pinjinpump.com/**（根路径）。旧项目页 `https://rtgs2017.github.io/pinjin-website/` 不再作为发布目标。仓库只保留 `main` 分支。
+
+---
+
+## 本次修改说明（自定义域名白屏）
+
+站点从 GitHub 项目页迁到 `pinjinpump.com` 后曾出现白屏。原因不是腾讯云 DNS 本身，而是 **发布出去的不是 Vite 构建产物**，或 **资源路径仍按旧项目页写**：
+
+| 现象 | 原因 |
+|------|------|
+| 地址栏是 `pinjinpump.com`，控制台 404 `/pinjin-website/assets/...` | Vite `base` 仍是 `/pinjin-website/`，自定义域根路径下没有该子目录 |
+| 源码里看到 `/%BASE_URL%images/...`、`/src/main.tsx` | Pages 发布了仓库根目录的源码 `index.html`，没有跑 `npm run build` |
+| CSS/JS 变成 `octet-stream`、503 | 源码或错误产物被 CDN 缓存；正确产物应是 `dist/` 里的 `/assets/index-*.js` |
+
+本次代码侧已固定：
+
+- `vite.config.ts`：`base: '/'`（语言路径 `/en/` `/zh/` `/pt/` `/ar/` 由 React Router 处理，**不要**写进 Vite `base`）
+- `index.html`：favicon 用 `/images/brand/favicon.svg`，不再使用 `%BASE_URL%`
+- `src/App.tsx`：`basename` 取 `import.meta.env.BASE_URL`（现为 `/`），不要写死 `/pinjin-website`
+- `.github/workflows/deploy-pages.yml`：`npm ci` → `npm run build` → **只上传 `dist/`**；不再使用 `gh-pages` 分支
+- `deploy/copy-spa-404.mjs`：若 `dist/index.html` 仍含 `%BASE_URL%` 或 `/pinjin-website/`，构建失败
+- `public/CNAME`：`pinjinpump.com`
+
+**GitHub Pages Source 必须选 GitHub Actions。** 若选 `main` 或 `gh-pages` 分支，会再次把源码 HTML 上网。白屏时先看 `https://pinjinpump.com/assets/` 是否 404，不要先改 DNS。
+
 ---
 
 ## 技术栈
@@ -58,6 +83,9 @@ python deploy/generate_sitemaps.py
 ### 技术 SEO / GEO
 
 - 页面组件：`src/components/SEO.tsx`（Organization / LocalBusiness / WebSite / Product / Article / BreadcrumbList / ImageObject / FAQPage / CollectionPage JSON-LD；canonical、hreflang、Open Graph、Twitter Card）
+- **Product JSON-LD 仅用于真正的单个产品详情页**（`/products/:slug`）。四个产品分类（Concrete Pumps / Spraying Machines / Material Handling Equipment / Rebar Processing Equipment）是集合，不是单品，禁止标成 Product，也不要虚构 `offers` / `review` / `aggregateRating`
+- 产品分类页与产品总列表：`CollectionPage` + `ItemList`（ListItem 仅 name/url）+ `BreadcrumbList`
+- 首页：`Organization` + `WebSite` + `ImageObject`；Organization 用 `hasOfferCatalog`（OfferCatalog）描述产品线，**不再**用 `makesOffer` 嵌套 Product
 - Title 模板：`src/config/seo.ts` 的 `seoTemplates`（产品 `{Name} Manufacturer China | Pinjin Machinery`；博客 `{Topic} | Construction Machinery Knowledge | Pinjin`）
 - 企业实体（全站统一）：`src/config/entity.ts` + `src/components/CompanyEntity.tsx`
 - 语义架构与别名：`src/config/seoRoutes.ts`（规范 URL 进 sitemap；采购侧别名只做客户端 `replace`）
@@ -69,19 +97,19 @@ python deploy/generate_sitemaps.py
 - 选型指南：`/product-selection-guide`
 - 解决方案（工程应用）：规范路径 `/solutions`、`/solutions/:slug`；别名 `/cases` 重定向到同一内容
 - 工厂能力：`/factory`（邢台制造基地 / 河北产业 / 中国供应商定义 + FAQ + 工厂照片 + 制造流程）
-- 资源中心：`/resources`（博客、选型、索取参数；无虚构 PDF）
-- Blog / 知识中心：`/blog`、`/blog/:slug`（`src/data/blog.ts` + `src/data/knowledgeArticles.ts`；分类：设备指南 / 应用方案 / 制造知识 / 行业趋势 / 工厂洞察）
+- 资源中心：`/resources`（知识中心入口、选型、索取参数；无虚构 PDF）
+- Blog / 知识中心：`/blog`、`/blog/:slug`。当前 5 篇行业文在 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)（混凝土泵原理、拖式/臂架对照、维护、喷浆机、中国供应商核查）。不虚构臂架泵产品线、搅拌站、认证或客户名单。首页三张卡片见 `homeKnowledgeSlugs`
 - 产品分类 Hub：`/products/concrete-pumps`、`/products/spraying-machines` 等
 - OEM 定制专题：`/products/custom-machinery`（真实可定制范围；不虚构搅拌站产品线）
 - 产品详情：保持 `/products/:slug`（GitHub Pages 无法做 HTTP 301，不改为嵌套型号 URL）
 - 产品页结构：介绍（含定义）→ 优势 → 技术参数表 → 应用场景（链到 `/solutions/*`）→ 定制 → 工厂制造 → FAQ → 联系工程师
-- 组织 JSON-LD：`industry=Construction Machinery Manufacturer`；`makesOffer` 为目录产品（混凝土泵、喷涂机、搬运、钢筋），不含搅拌站；产品 JSON-LD 含 `brand` / `model` / `additionalProperty`
+- 组织 JSON-LD：`industry=Construction Machinery Manufacturer`；产品线写入 `hasOfferCatalog`（OfferCatalog，指向分类 URL），不含搅拌站。**不要**把分类写成 Product。单品 JSON-LD 仅在详情页，含 `brand` / `model` / `additionalProperty`；无公开价格与真实评价时不加 `offers` / `review` / `aggregateRating`
 - 关键词集群：混凝土泵厂家、喷涂设备、搅拌与泵送关系说明、中国厂家信任（邢台工厂考察 / OEM 流程）。不单独堆砌过宽的 “concrete machine”
-- **不虚构搅拌站分类页**：`/products/concrete-mixing-plant` 重定向到搅拌与泵送说明文章；目录未销售搅拌站
+- **不虚构搅拌站分类页**：`/products/concrete-mixing-plant` 重定向到混凝土泵分类；目录未销售搅拌站
 - 图片：WebP、`loading=lazy`（LCP 图 eager）、每产品 `{slug}/main.webp`；工厂图见 `图片准备清单.md`。不引入重量级 SEO 插件
 - 品牌色板（厂房深灰 + 工业红，避免亮橙/纯蓝模板）：主色 `#1D1F21`、强调 `#B32126`、背景 `#F3F3F1`，定义于 [`src/index.css`](src/index.css)
 - 首页定位：B2B 工业制造商站（产品理解 / 导航清晰 / 询盘转化），不是作品集或电商画廊
-- 首页顺序：Hero 单视觉（工厂+设备背景自动切换）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心 → Footer
+- 首页顺序：Hero 单视觉（工厂+设备背景自动切换）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心（3 篇）→ Footer
 - 首页 Hero：全宽单画面 + 公司介绍/标题/CTA；无缩略图、无悬停切图。底部仅一条红色自动播放进度条。背景图数据：[`src/data/gallery.ts`](src/data/gallery.ts)。完整工厂说明页仍在 `/factory` 与 `/about`
 - 精选产品：左信息（型号、简介、2–3 条优势、OEM 定制说明）/ 右产品图。可见上一张/下一张按钮 + 页码 `01/05` + 5 秒红色进度条。点击按钮会重置计时。型号列表：`featuredProductSlugs`（[`src/config/site.ts`](src/config/site.ts)）
 - 共用轮播：[`src/components/ui/IndustrialCarousel.tsx`](src/components/ui/IndustrialCarousel.tsx)（上一张/下一张、自动播放、进度条、键盘左右键、移动端滑动）。时长参数：`carouselConfig`（[`src/config/site.ts`](src/config/site.ts)）
@@ -238,30 +266,138 @@ npm run build
 
 产物目录：`dist/`。构建末尾会复制 `dist/index.html` → `dist/404.html`（深链刷新）以及 `dist/en|zh|pt|ar/index.html`（各语言首页走真实文件，避免 GitHub Pages 对 `/en/` 直接 404）。
 
-预览：
+发布前请核对 `dist/index.html`：必须是 `/assets/index-*.js`，不能出现 `%BASE_URL%` 或 `/pinjin-website/`。完整发布步骤见下一节。
+
+---
+
+## 以后构建与发布流程
+
+日常改完代码后按下面做即可，不必改 DNS、不必再设 `VITE_BASE_PATH`。
+
+### 1. 本地构建（发布前建议跑一次）
+
+```powershell
+cd pinjin-website
+npm run build
+```
+
+构建成功后检查 `dist/index.html`：
+
+- 必须出现 hashed 资源，例如 `/assets/index-xxxxx.js`、`/assets/index-xxxxx.css`
+- **不能**出现 `%BASE_URL%`
+- **不能**出现 `/pinjin-website/assets/`
+- favicon 应为 `/images/brand/favicon.svg`
+- 必须带上 `dist/sitemap.xml`、`dist/image-sitemap.xml`、`dist/robots.txt`（Vite 从 `public/` 复制；缺文件则构建失败）
+
+本地预览：
 
 ```powershell
 npm run preview
 ```
 
+浏览器打开提示的地址，确认首页会进入 `/en/`，顶栏语言下拉可切到中文 / 葡语 / 阿语。
+
+### 2. 推送到 GitHub（自动发布）
+
+仓库根就是本目录（`pinjin-website`），只维护 `main`：
+
+```powershell
+git add -A
+git status
+git commit -m "说明这次改了什么"
+git push origin main
+```
+
+推送后 GitHub Actions 工作流 [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) 会自动：
+
+1. `npm ci`
+2. `npm run build`（`VITE_SITE_URL` 默认 `https://pinjinpump.com`）
+3. 校验 `dist/index.html` 不是源码、不是旧子路径
+4. 只把 **`dist/`** 发给 GitHub Pages
+
+在仓库 **Actions** 里等 `Deploy GitHub Pages` 成功。成功后等 1～3 分钟再打开：
+
+```text
+https://pinjinpump.com/en/
+https://pinjinpump.com/zh/
+https://pinjinpump.com/pt/
+https://pinjinpump.com/ar/
+```
+
+### 3. Pages 后台必须保持的设置
+
+| 项 | 正确值 |
+|----|--------|
+| Settings → Pages → Source | **GitHub Actions** |
+| Custom domain | `pinjinpump.com` |
+| Enforce HTTPS | 勾选 |
+| Actions Variables | `VITE_SITE_URL=https://pinjinpump.com`；联系邮箱/电话；**不要**设 `VITE_BASE_PATH=/pinjin-website/` |
+
+不要把 Source 改回 `Deploy from a branch`（`main` / `gh-pages`）。不要再创建 `gh-pages` 分支。
+
+### 4. 发布失败或再次白屏时
+
+1. 看 Actions 日志是否 `npm run build` 失败（常见：产物里还有 `%BASE_URL%` 或 `/pinjin-website/`）
+2. 打开 `https://pinjinpump.com/` 查看源代码：应是 `/assets/index-*.js`，不应是 `/src/main.tsx` 或 `%BASE_URL%`
+3. 打开 `https://pinjinpump.com/assets/`：应能列到 js/css，不应 404
+4. 以上都对仍白屏：清 CDN/浏览器缓存后再试。**不要先改腾讯云 DNS**
+
+### 5. Google Search Console 提交 Sitemap（不是上传文件）
+
+Search Console **不会**让你把 `sitemap.xml` 上传到 Google。正确顺序是：先把文件放到自己的网站上，再把**网址**告诉 Google。
+
+本站文件来源与线上地址：
+
+```text
+public/sitemap.xml        → 构建进 dist/  →  https://pinjinpump.com/sitemap.xml
+public/image-sitemap.xml  → 构建进 dist/  →  https://pinjinpump.com/image-sitemap.xml
+public/robots.txt         → 构建进 dist/  →  https://pinjinpump.com/robots.txt
+```
+
+`robots.txt` 里已有：
+
+```text
+Sitemap: https://pinjinpump.com/sitemap.xml
+Sitemap: https://pinjinpump.com/image-sitemap.xml
+```
+
+提交前先用浏览器打开，必须看到 XML，例如：
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+```
+
+不能是网站 HTML、不能是 `%BASE_URL%`、不能是 404 空白页。当前正式站该文件已经随 GitHub Pages 的 `dist/` 发布（HTTP 200，`Content-Type: application/xml`）。
+
+然后在 Search Console：
+
+1. 属性用 `https://pinjinpump.com`（或域名属性 `pinjinpump.com`），不要用旧的 `rtgs2017.github.io`
+2. **索引 → Sitemaps → 添加新的 Sitemap**，只填路径：`sitemap.xml`
+3. 同样可再提交：`image-sitemap.xml`
+4. 点「提交」。Google 去抓 `https://pinjinpump.com/sitemap.xml`，不是把文件传到 Google 服务器
+
+若状态仍是 **Couldn't fetch**：
+
+- 先确认浏览器能打开上面的 XML（现在可以打开的话，多半是站点以前白屏/503 时抓过一次，状态还没刷新）
+- 在同一条 Sitemap 上再点提交，或删掉后重新添加 `sitemap.xml`
+- 新域名首次抓取可能要几小时到一两天，**不要改腾讯云 DNS**
+- 不要提交 `https://rtgs2017.github.io/pinjin-website/sitemap.xml` 这类旧地址
+
 ---
 
-## GitHub Pages 部署（推荐）
+## GitHub Pages 一次性设置（新仓库或重绑域名时）
 
-本仓库按「单独推送 `pinjin-website` 为 Git 仓库根」编写工作流：[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml)。
-
-### 一次性设置
+本仓库按「单独推送 `pinjin-website` 为 Git 仓库根」编写工作流。
 
 1. 在 GitHub 新建仓库，将本目录推送到 `main`。
-2. **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**（**不要选 `main` 根目录**，也不再使用 `gh-pages` 分支）。
-3. 若 Source 选了 `main` / `(root)`，GitHub 会用 Jekyll 直接发布源码 `index.html`（里面是 `/src/main.tsx`），浏览器无法运行 TypeScript，页面空白。
-4. **Settings → Secrets and variables → Actions → Variables** 配置：
+2. **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**。
+3. **Settings → Secrets and variables → Actions → Variables** 配置：
    - `VITE_CONTACT_EMAIL`
    - `VITE_CONTACT_PHONE`
    - `VITE_SITE_URL`（正式站为 `https://pinjinpump.com`）
-   - **不要**再设 `VITE_BASE_PATH=/pinjin-website/`（工作流不再读取该变量）
-   - 可选：`VITE_WHATSAPP_NUMBER`（WhatsApp 国际号码；不设则用联系电话补 86）
-5. push 到 `main` 后 Actions 执行 `npm ci` → `npm run build` → 只发布 `dist/`。**Settings → Pages → Source 必须是 GitHub Actions**，不要选 `main` 或 `gh-pages` 分支（那会把源码 `index.html` 原样上网，出现 `%BASE_URL%` 和错误 MIME）。构建会拒绝仍含 `%BASE_URL%` 或 `/pinjin-website/` 的 HTML。
+   - 可选：`VITE_WHATSAPP_NUMBER`
+4. 自定义域名：按下一节配置 DNS 与 `public/CNAME`。
 
 ### 自定义域名（与以前「域名指向 ECS」同类）
 
@@ -274,7 +410,7 @@ npm run preview
 3. 仓库 **Settings → Pages → Custom domain** 填同一主机名，勾选 **Enforce HTTPS**。
 4. 将本地与 Actions 中的 `VITE_SITE_URL` 改为正式域名（当前为 `https://pinjinpump.com`），运行 `python deploy/generate_sitemaps.py`，更新 `index.html` 中 canonical 后重新 push。
 
-绑定自定义域名后站点路径为 `https://你的域名/`（`VITE_BASE_PATH=/`），资源在 `https://你的域名/assets/...`。若仍写成 `/pinjin-website/assets/`，自定义域名会 404 白屏。
+绑定自定义域名后站点路径为 `https://你的域名/`（Vite `base` 固定为 `/`），资源在 `https://你的域名/assets/...`。若仍写成 `/pinjin-website/assets/`，自定义域名会 404 白屏。
 
 当前正式站：
 
@@ -300,8 +436,8 @@ https://pinjinpump.com/
 | `/factory` | 工厂制造能力（邢台 GEO + 照片 + 流程 + FAQ） |
 | `/resources` | 资源中心（博客、选型、索取参数） |
 | `/faq` | FAQ |
-| `/blog` | 工业知识中心列表（可按分类筛选） |
-| `/blog/:slug` | 文章详情（关键词锚文本链到分类 Hub → 产品 → 联系） |
+| `/blog` | 知识中心列表（5 篇行业文，可按分类筛选） |
+| `/blog/:slug` | 文章详情（Article + FAQ JSON-LD、产品内链、询盘 CTA） |
 | `/contact` | 联系制造商（WhatsApp + 邮件 + 电话） |
 
 兼容旧地址与采购侧别名（客户端 `replace`，**不进 sitemap**）：
@@ -309,11 +445,11 @@ https://pinjinpump.com/
 - `/products/category/:slug` → 对应分类 Hub
 - `/products/concrete-pump` → `/products/concrete-pumps`
 - `/products/concrete-spraying-machine` → `/products/spraying-machines`
-- `/products/concrete-mixing-plant` → 搅拌与泵送说明文（目录未销售搅拌站）
+- `/products/concrete-mixing-plant` → `/products/concrete-pumps`（目录未销售搅拌站）
 - `/cases`、`/cases/:slug` → `/solutions` 对应页
 - `/applications` → `/solutions`
 - `/company` → `/about`；`/company/factory` 与 `/company/manufacturing-capability` → `/factory`
-- `/resources/blog/xingjiawan-concrete-machinery` → 现有邢家湾文章
+- `/resources/blog/xingjiawan-concrete-machinery` → `/factory`
 
 不单独做 mining 方案页或搅拌站产品分类（目录未发布该内容）。
 
@@ -331,12 +467,14 @@ sitemap 只收录规范 URL（含 `/en`、`/zh`、`/pt`、`/ar` 及对应 hrefla
 
 ### 新增 Blog 文章
 
-1. 在 [`src/data/blog.ts`](src/data/blog.ts) 或 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、关键词锚文本内链到分类 Hub / 产品 / 工厂 / 联系；可选 `image` 引用 `factory.ts`）。分类使用：`product-guide`（设备指南）、`application-solutions`（应用方案）、`manufacturing-knowledge`（制造知识）、`industry-guide`（行业趋势）、`factory-insights`（工厂洞察）。
-2. 如属于某产品主题，把文章链加入 [`src/data/topicClusters.ts`](src/data/topicClusters.ts) 对应分类。
-3. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`。
+当前知识中心有 5 篇行业文（[`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)）。继续追加时：
+
+1. 在 [`src/data/blog.ts`](src/data/blog.ts) 或 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、`faqs`、关键词锚文本内链；图片 ALT 含检索词）。分类：`product-guide` / `application-solutions` / `manufacturing-knowledge` / `industry-guide` / `factory-insights`。
+2. 把文章链加入 [`src/data/topicClusters.ts`](src/data/topicClusters.ts) 对应分类。
+3. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`；若上首页再写入 `homeKnowledgeSlugs`。
 4. 运行 `python deploy/generate_sitemaps.py`。
 
-不要编造认证、客户名、出口国。文章应链到真实产品页，文末用 WhatsApp / 邮件 CTA。
+不要编造认证、客户名、出口国、车载臂架泵或搅拌站产品线。文章应链到真实产品页，文末用 WhatsApp / 邮件 CTA。详情页会输出 Article、FAQPage、BreadcrumbList JSON-LD。
 
 邢家湾相关表述：法定厂址仍为「邢台市任泽工业园区」；邢家湾仅作为区域产业集聚事实（“Located in Xingtai, Hebei, Xingjiawan is known as an important manufacturing area for concrete machinery.”），不改街道地址。
 

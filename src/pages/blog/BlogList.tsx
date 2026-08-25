@@ -43,82 +43,90 @@ export function BlogList() {
           <span className="text-dark">{t.blog.title}</span>
         </nav>
         <SectionTitle title={t.knowledge.title} subtitle={t.knowledge.subtitle} heading="h1" />
-        <div className="mt-8 flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={() => setFilter('all')}
-            className={[
-              'rounded-sm border px-4 py-2 text-xs font-semibold tracking-wide',
-              filter === 'all'
-                ? 'border-primary bg-primary text-white'
-                : 'border-border text-text-secondary hover:border-primary',
-            ].join(' ')}
-          >
-            {t.blog.filterAll}
-          </button>
-          {blogCategoryOrder.map((key) => {
-            const active = filter === key;
-            return (
+        {posts.length === 0 ? (
+          <p className="mt-8 max-w-2xl text-sm leading-relaxed text-text-secondary">
+            {t.blog.empty}
+          </p>
+        ) : (
+          <>
+            <div className="mt-8 flex flex-wrap gap-2">
               <button
-                key={key}
                 type="button"
-                onClick={() => setFilter(key)}
+                onClick={() => setFilter('all')}
                 className={[
                   'rounded-sm border px-4 py-2 text-xs font-semibold tracking-wide',
-                  active
+                  filter === 'all'
                     ? 'border-primary bg-primary text-white'
                     : 'border-border text-text-secondary hover:border-primary',
                 ].join(' ')}
               >
-                {tx(blogCategoryMeta[key])}
+                {t.blog.filterAll}
               </button>
-            );
-          })}
-        </div>
-        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {visible.map((post) => {
-            const cover = getBlogCover(post);
-            return (
-              <article key={post.slug} className="card-surface flex flex-col overflow-hidden">
-                <LocaleLink to={`/blog/${post.slug}`} className="block">
-                  <ImagePlaceholder
-                    src={cover.src}
-                    alt={tx(cover.alt)}
-                    label={t.placeholder.image}
-                    hint=""
-                    width={1600}
-                    height={900}
-                    className="aspect-[16/10] w-full"
-                    imgClassName="object-cover"
-                  />
-                </LocaleLink>
-                <div className="flex flex-1 flex-col p-6">
-                  <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
-                    {tx(blogCategoryMeta[post.category])}
-                  </p>
-                  <h2 className="mt-3 text-xl font-semibold tracking-tight text-dark">
-                    <LocaleLink
-                      to={`/blog/${post.slug}`}
-                      className="hover:text-primary"
-                    >
-                      {tx(post.title)}
-                    </LocaleLink>
-                  </h2>
-                  <p className="mt-2 flex-1 text-sm text-text-secondary">{tx(post.description)}</p>
-                  <p className="mt-4 text-xs text-text-secondary">
-                    {t.blog.published}: {post.date}
-                  </p>
-                  <LocaleLink
-                    to={`/blog/${post.slug}`}
-                    className="mt-4 text-sm font-semibold text-dark hover:text-primary"
+              {blogCategoryOrder.map((key) => {
+                const active = filter === key;
+                return (
+                  <button
+                    key={key}
+                    type="button"
+                    onClick={() => setFilter(key)}
+                    className={[
+                      'rounded-sm border px-4 py-2 text-xs font-semibold tracking-wide',
+                      active
+                        ? 'border-primary bg-primary text-white'
+                        : 'border-border text-text-secondary hover:border-primary',
+                    ].join(' ')}
                   >
-                    {t.blog.readMore}
-                  </LocaleLink>
-                </div>
-              </article>
-            );
-          })}
-        </div>
+                    {tx(blogCategoryMeta[key])}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {visible.map((post) => {
+                const cover = getBlogCover(post);
+                return (
+                  <article key={post.slug} className="card-surface flex flex-col overflow-hidden">
+                    <LocaleLink to={`/blog/${post.slug}`} className="block">
+                      <ImagePlaceholder
+                        src={cover.src}
+                        alt={tx(cover.alt)}
+                        label={t.placeholder.image}
+                        hint=""
+                        width={1600}
+                        height={900}
+                        className="aspect-[16/10] w-full"
+                        imgClassName="object-cover"
+                      />
+                    </LocaleLink>
+                    <div className="flex flex-1 flex-col p-6">
+                      <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
+                        {tx(blogCategoryMeta[post.category])}
+                      </p>
+                      <h2 className="mt-3 text-xl font-semibold tracking-tight text-dark">
+                        <LocaleLink
+                          to={`/blog/${post.slug}`}
+                          className="hover:text-primary"
+                        >
+                          {tx(post.title)}
+                        </LocaleLink>
+                      </h2>
+                      <p className="mt-2 flex-1 text-sm text-text-secondary">{tx(post.description)}</p>
+                      <p className="mt-4 text-xs text-text-secondary">
+                        {t.blog.published}: {post.date}
+                      </p>
+                      <LocaleLink
+                        to={`/blog/${post.slug}`}
+                        className="mt-4 text-sm font-semibold text-dark hover:text-primary"
+                      >
+                        {t.blog.readMore}
+                      </LocaleLink>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </>
+        )}
       </div>
     </section>
   );

@@ -23,6 +23,8 @@ export function KnowledgeCenter() {
     .map((slug) => getBlogPost(slug))
     .filter((post): post is NonNullable<typeof post> => Boolean(post));
 
+  if (!posts.length) return null;
+
   return (
     <section className="section-y bg-bg">
       <div className="container-site">
