@@ -29,107 +29,45 @@ export interface GalleryItem {
 /** 轮播时长见 src/config/site.ts 的 carouselConfig */
 
 const workshop = factoryImage('production-workshop');
-const crane = factoryImage('workshop-crane');
 const finished = factoryImage('finished-products');
 const building = factoryImage('factory-building');
 const assembly = factoryImage('equipment-assembly');
 
+export const HERO_IMAGE_PATH =
+  '/images/hero/pinjin-machinery-factory-xingtai-china.webp';
+export const HERO_IMAGE_WIDTH = 2560;
+export const HERO_IMAGE_HEIGHT = 1086;
+
 /**
- * 首页 Hero 背景序列：工厂实拍与设备实拍交错，自动播放，无缩略图导航。
- * 图片路径复用 public/images 已有 WebP，不另造文件。
+ * 首页 Hero 主视图：只展示工厂外观一张，不自动轮播。
  */
 export const heroGallery: GalleryItem[] = [
   {
-    id: 'hero-concrete-pump',
-    image: '/images/products/hbt30-37-concrete-pump/working.webp',
-    title: L('Concrete Pump Product Showcase', '混凝土泵产品展示'),
+    id: 'hero-factory-exterior',
+    image: HERO_IMAGE_PATH,
+    title: L(
+      'Pinjin Machinery Factory in Xingtai China',
+      '品锦机械邢台工厂',
+    ),
     description: L(
-      'Hebei Pinjin concrete pump working on a construction site.',
-      '品锦混凝土泵在建筑工地作业。',
+      'Hebei Pinjin Machinery factory exterior in Xingtai, Hebei, China — a concrete pump manufacturer and construction equipment supplier.',
+      '河北品锦机械邢台工厂外观，混凝土泵厂家与工程设备供应商。',
     ),
-    category: 'product',
+    category: 'hero',
     alt: L(
-      'Pinjin Machinery concrete pump at a China construction site — Xingtai concrete machinery manufacturer and China concrete pump factory',
-      '品锦机械混凝土泵在中国工地作业 — 邢台混凝土机械制造商、中国混凝土泵工厂',
+      'Hebei Pinjin Machinery factory exterior in Xingtai Hebei China — concrete pump manufacturer and construction equipment supplier',
+      '河北品锦机械邢台工厂外观 — 混凝土泵厂家与工程设备供应商',
     ),
     seoKeywords: [
+      'concrete pump manufacturer',
+      'concrete pump supplier',
+      'construction equipment',
       'Xingtai concrete machinery manufacturer',
       'China concrete pump factory',
-      'custom concrete equipment manufacturer',
-    ],
-    thumbLabel: L('Pump', '泵送'),
-    width: 1600,
-    height: 1200,
-  },
-  {
-    id: 'hero-factory-production',
-    image: workshop.image,
-    title: L('Factory Production Capability', '工厂生产能力'),
-    description: workshop.description,
-    category: 'factory',
-    alt: L(
-      'Pinjin Machinery concrete pump manufacturing factory in Xingtai Hebei China',
-      '品锦机械位于中国河北邢台的混凝土泵制造工厂',
-    ),
-    seoKeywords: [
-      'Xingtai concrete machinery manufacturer',
-      'China concrete pump factory',
-      'custom concrete equipment manufacturer',
     ],
     thumbLabel: L('Factory', '工厂'),
-    width: workshop.width,
-    height: workshop.height,
-  },
-  {
-    id: 'hero-spraying-equipment',
-    image: '/images/applications/pinjin-mortar-spraying-machine-building-interior.webp',
-    title: L('Concrete Spraying Equipment', '混凝土喷涂设备'),
-    description: L(
-      'Mortar spraying equipment for building interior finishing.',
-      '用于建筑室内饰面的砂浆喷涂设备。',
-    ),
-    category: 'product',
-    alt: L(
-      'Pinjin Machinery spraying equipment for construction finishing — custom concrete equipment manufacturer in Xingtai China',
-      '品锦机械喷涂设备用于建筑饰面 — 邢台定制混凝土设备制造商',
-    ),
-    seoKeywords: [
-      'Xingtai concrete machinery manufacturer',
-      'custom concrete equipment manufacturer',
-    ],
-    thumbLabel: L('Spraying', '喷涂'),
-    width: 1600,
-    height: 1200,
-  },
-  {
-    id: 'hero-workshop',
-    image: crane.image,
-    title: L('Manufacturing Workshop', '制造车间'),
-    description: crane.description,
-    category: 'factory',
-    alt: L(
-      'Pinjin Machinery manufacturing workshop in Xingtai Hebei China — China concrete pump factory',
-      '品锦机械邢台制造车间 — 中国混凝土泵工厂',
-    ),
-    seoKeywords: crane.keywords,
-    thumbLabel: L('Workshop', '车间'),
-    width: crane.width,
-    height: crane.height,
-  },
-  {
-    id: 'hero-finished',
-    image: finished.image,
-    title: L('Finished Equipment', '成品设备'),
-    description: finished.description,
-    category: 'factory',
-    alt: L(
-      'Finished construction machinery at Pinjin Machinery factory in Xingtai Hebei China',
-      '品锦机械邢台工厂的工程机械成品',
-    ),
-    seoKeywords: finished.keywords,
-    thumbLabel: L('Finished', '成品'),
-    width: finished.width,
-    height: finished.height,
+    width: HERO_IMAGE_WIDTH,
+    height: HERO_IMAGE_HEIGHT,
   },
 ];
 

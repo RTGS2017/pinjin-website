@@ -14,10 +14,21 @@ export interface SEOProps {
   /** 不含语言前缀的页面路径，如 `/products`；组件会自动加当前语言并输出 hreflang */
   path?: string;
   image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
   type?: 'website' | 'product' | 'article';
   noindex?: boolean;
   keywords?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+function ogImageType(path: string) {
+  const lower = path.split('?')[0]?.toLowerCase() ?? '';
+  if (lower.endsWith('.svg')) return 'image/svg+xml';
+  if (lower.endsWith('.png')) return 'image/png';
+  if (lower.endsWith('.jpg') || lower.endsWith('.jpeg')) return 'image/jpeg';
+  return 'image/webp';
 }
 
 export function SEO({
@@ -25,6 +36,9 @@ export function SEO({
   description,
   path = '/',
   image = seoConfig.defaultOgImage,
+  imageAlt,
+  imageWidth,
+  imageHeight,
   type = 'website',
   noindex = false,
   keywords,
@@ -84,6 +98,14 @@ export function SEO({
       <meta property="og:description" content={pageDescription} />
       <meta property="og:url" content={canonical} />
       <meta property="og:image" content={ogImage} />
+      {imageAlt ? <meta property="og:image:alt" content={imageAlt} /> : null}
+      {imageWidth ? (
+        <meta property="og:image:width" content={String(imageWidth)} />
+      ) : null}
+      {imageHeight ? (
+        <meta property="og:image:height" content={String(imageHeight)} />
+      ) : null}
+      <meta property="og:image:type" content={ogImageType(image)} />
       <meta property="og:locale" content={langMeta.ogLocale} />
       {languages
         .filter((l) => l.code !== lang)
@@ -99,6 +121,7 @@ export function SEO({
       <meta name="twitter:title" content={pageTitle} />
       <meta name="twitter:description" content={pageDescription} />
       <meta name="twitter:image" content={ogImage} />
+      {imageAlt ? <meta name="twitter:image:alt" content={imageAlt} /> : null}
 
       {schemas.map((schema, index) => (
         <script key={index} type="application/ld+json">
@@ -121,7 +144,12 @@ export function buildOrganizationJsonLd() {
     description: seoConfig.organization.description,
     email: import.meta.env.VITE_CONTACT_EMAIL || undefined,
     telephone: import.meta.env.VITE_CONTACT_PHONE || undefined,
-    image: getFactoryImagePaths().map((path) => absoluteUrl(path)),
+    image: [
+      absoluteUrl(seoConfig.defaultOgImage),
+      ...getFactoryImagePaths()
+        .filter((path) => path !== seoConfig.defaultOgImage)
+        .map((path) => absoluteUrl(path)),
+    ],
     knowsAbout: [
       'Concrete Machinery Manufacturer China',
       'Concrete Pump Manufacturer China',
@@ -206,8 +234,13 @@ export function buildHeroGalleryJsonLdList(items: GalleryItem[], lang: Lang) {
     name: pick(item.title, lang),
     description: pick(item.alt, lang),
     contentUrl: absoluteUrl(item.image),
+    url: absoluteUrl(item.image),
     caption: pick(item.alt, lang),
     keywords: item.seoKeywords.join(', '),
+    encodingFormat: 'image/webp',
+    width: item.width,
+    height: item.height,
+    representativeOfPage: true,
     creator: {
       '@type': 'Organization',
       name: seoConfig.organization.name,

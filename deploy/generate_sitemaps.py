@@ -85,7 +85,6 @@ CATS = [
 ]
 
 # 与 src/data/blog.ts + knowledgeArticles.ts 的 slug 保持一致。
-# 知识中心文章已清空，待有基于工厂/产品事实的原文后再填入。
 BLOG_SLUGS: list[str] = [
     "what-is-a-concrete-pump",
     "concrete-pump-types",
@@ -107,6 +106,12 @@ IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "
     "China concrete pump factory. "
     "custom concrete equipment supplier."
+)
+
+HERO_IMAGE = (
+    "hero/pinjin-machinery-factory-xingtai-china.webp",
+    "Hebei Pinjin Machinery factory exterior in Xingtai China",
+    "Hebei Pinjin Machinery factory exterior in Xingtai Hebei China — concrete pump manufacturer and construction equipment supplier",
 )
 
 FACTORY_IMAGES = [
@@ -352,6 +357,11 @@ def main() -> None:
             f"    <loc>{base}/{lang}</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
+        img_lines += image_nodes(
+            f"{base}/images/{HERO_IMAGE[0]}",
+            HERO_IMAGE[1],
+            HERO_IMAGE[2],
+        )
         img_lines += image_nodes(
             f"{base}/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp",
             "Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior",

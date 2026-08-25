@@ -229,7 +229,7 @@ export function IndustrialCarousel({
     <div
       className={`relative ${className}`}
       role="region"
-      aria-roledescription="carousel"
+      aria-roledescription={count > 1 ? 'carousel' : undefined}
       aria-label={label}
       tabIndex={0}
       onKeyDown={onKeyDown}

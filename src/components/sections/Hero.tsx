@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <section id="factory" className="bg-dark text-white">
       <Helmet>
-        <link rel="preload" as="image" href={withBase(heroGallery[0].image)} />
+        <link rel="preload" as="image" type="image/webp" href={withBase(heroGallery[0].image)} />
       </Helmet>
 
       <IndustrialCarousel

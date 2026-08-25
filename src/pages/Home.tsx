@@ -9,7 +9,8 @@ import { heroGallery } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function Home() {
-  const { lang, t } = useI18n();
+  const { lang, t, tx } = useI18n();
+  const hero = heroGallery[0];
 
   return (
     <>
@@ -17,7 +18,11 @@ export function Home() {
         title={t.seo.homeTitle}
         description={t.seo.homeDesc}
         path="/"
-        image={heroGallery[0].image}
+        image={hero.image}
+        imageAlt={tx(hero.alt)}
+        imageWidth={hero.width}
+        imageHeight={hero.height}
+        keywords={hero.seoKeywords.join(', ')}
         jsonLd={[buildOrganizationJsonLd(), buildWebSiteJsonLd(), ...buildHeroGalleryJsonLdList(heroGallery, lang)]}
       />
       <Hero />
