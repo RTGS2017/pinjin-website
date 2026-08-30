@@ -17,6 +17,10 @@ dist-ssr
 # Local deploy artifacts (ECS era)
 deploy/out/
 
+# GPT catalogue working copies (pages use {slug}/main.webp)
+.tmp-gpt-identify/
+public/images/products/ChatGPT Image *.png
+
 # Editor
 .vscode/*
 !.vscode/extensions.json

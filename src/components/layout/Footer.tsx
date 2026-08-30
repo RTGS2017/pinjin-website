@@ -1,10 +1,17 @@
 import { LocaleLink } from '@/i18n/navigation';
-import { getMailtoHref, getTelHref, siteConfig, withBase } from '@/config/site';
+import { productCategoryLinks } from '@/config/navigation';
+import {
+  getMailtoHref,
+  getTelHref,
+  siteConfig,
+  withBase,
+} from '@/config/site';
+import { categoryMeta } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
 export function Footer() {
-  const { lang, t } = useI18n();
+  const { lang, t, tx } = useI18n();
 
   return (
     <footer className="bg-dark text-white">
@@ -22,38 +29,16 @@ export function Footer() {
               {t.footer.products}
             </p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
-              <li>
-                <LocaleLink
-                  to="/products/concrete-pumps"
-                  className="hover:text-primary transition-colors"
-                >
-                  {t.footer.concrete}
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink
-                  to="/products/spraying-machines"
-                  className="hover:text-primary transition-colors"
-                >
-                  {t.footer.spraying}
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink
-                  to="/products/material-handling"
-                  className="hover:text-primary transition-colors"
-                >
-                  {t.footer.material}
-                </LocaleLink>
-              </li>
-              <li>
-                <LocaleLink
-                  to="/products/rebar-equipment"
-                  className="hover:text-primary transition-colors"
-                >
-                  {t.footer.rebar}
-                </LocaleLink>
-              </li>
+              {productCategoryLinks.map((item) => (
+                <li key={item.categoryId}>
+                  <LocaleLink
+                    to={item.href}
+                    className="hover:text-primary transition-colors"
+                  >
+                    {tx(categoryMeta[item.categoryId].label)}
+                  </LocaleLink>
+                </li>
+              ))}
               <li>
                 <LocaleLink
                   to="/product-selection-guide"

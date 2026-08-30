@@ -78,33 +78,34 @@ VITE_SITE_URL=https://pinjinpump.com
 python deploy/generate_sitemaps.py
 ```
 
-会同步更新 `public/sitemap.xml`、`public/image-sitemap.xml`、`public/robots.txt` 中的 Sitemap 行。并按 `public/CNAME.example` 说明创建 `public/CNAME`（单行主机名）。
+会同步更新 `public/sitemap.xml`（索引）、`public/sitemap-pages.xml`、`public/image-sitemap.xml`、`public/robots.txt`。并按 `public/CNAME.example` 说明创建 `public/CNAME`（单行主机名）。
 
 ### 技术 SEO / GEO
 
 - 页面组件：`src/components/SEO.tsx`（Organization / LocalBusiness / WebSite / Product / Article / BreadcrumbList / ImageObject / FAQPage / CollectionPage JSON-LD；canonical、hreflang、Open Graph、Twitter Card）
-- **Product JSON-LD 仅用于真正的单个产品详情页**（`/products/:slug`）。四个产品分类（Concrete Pumps / Spraying Machines / Material Handling Equipment / Rebar Processing Equipment）是集合，不是单品，禁止标成 Product，也不要虚构 `offers` / `review` / `aggregateRating`
+- **Product JSON-LD 仅用于真正的单个产品详情页**（`/products/:slug`）。三个产品分类（Electric Concrete Pumps / Diesel Concrete Pumps / Mixer Pumps）是集合，不是单品，禁止标成 Product，也不要虚构 `offers` / `review` / `aggregateRating`
 - 产品分类页与产品总列表：`CollectionPage` + `ItemList`（ListItem 仅 name/url）+ `BreadcrumbList`
 - 首页：`Organization` + `WebSite` + `ImageObject`；Organization 用 `hasOfferCatalog`（OfferCatalog）描述产品线，**不再**用 `makesOffer` 嵌套 Product
 - Title 模板：`src/config/seo.ts` 的 `seoTemplates`（产品 `{Name} Manufacturer China | Pinjin Machinery`；博客 `{Topic} | Construction Machinery Knowledge | Pinjin`）
 - 企业实体（全站统一）：`src/config/entity.ts` + `src/components/CompanyEntity.tsx`
 - 语义架构与别名：`src/config/seoRoutes.ts`（规范 URL 进 sitemap；采购侧别名只做客户端 `replace`）
 - 主题集群与内链：`src/data/categoryHubs.ts`、`src/data/topicClusters.ts`、`src/data/knowledgeArticles.ts`、`src/components/InternalLink.tsx`（锚文本含关键词，不用 click here）
-- 站点地图：`public/sitemap.xml`（首页、分类 Hub、OEM 定制、产品、解决方案/案例、工厂、博客、联系；含 `lastmod` / `changefreq` / `priority` / hreflang）
-- 图片地图：`public/image-sitemap.xml`（`image:loc` / `title` / `caption` / `geo_location=Xingtai, Hebei, China`；页面 HTML 提供 ALT）
-- 爬虫规则：`public/robots.txt`（允许 Google；拦截 `/admin` `/src/` `/dev`；指向 sitemap）
+- 站点地图索引：`public/sitemap.xml`（指向页面地图与图片地图）
+- 页面地图：`public/sitemap-pages.xml`（首页 → 三类 Hub → 精选型号 → 电动/柴油/搅拌泵 → 方案/知识/工厂；含 `lastmod` / `changefreq` / `priority` / hreflang）
+- 图片地图：`public/image-sitemap.xml`（图片挂到实际展示该图的页面；`image:loc` / `title` / `caption` / `geo_location=Xingtai, Hebei, China`）
+- 爬虫规则：`public/robots.txt`（允许 Google；拦截 `/admin` `/src/` `/dev`；只指向 sitemap 索引）
 - FAQ：`/faq`
 - 选型指南：`/product-selection-guide`
 - 解决方案（工程应用）：规范路径 `/solutions`、`/solutions/:slug`；别名 `/cases` 重定向到同一内容
 - 工厂能力：`/factory`（邢台制造基地 / 河北产业 / 中国供应商定义 + FAQ + 工厂照片 + 制造流程）
 - 资源中心：`/resources`（知识中心入口、选型、索取参数；无虚构 PDF）
 - Blog / 知识中心：`/blog`、`/blog/:slug`。当前 5 篇行业文在 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)（混凝土泵原理、拖式/臂架对照、维护、喷浆机、中国供应商核查）。不虚构臂架泵产品线、搅拌站、认证或客户名单。首页三张卡片见 `homeKnowledgeSlugs`
-- 产品分类 Hub：`/products/concrete-pumps`、`/products/spraying-machines` 等
+- 产品分类 Hub：`/products/electric-concrete-pumps`、`/products/diesel-concrete-pumps`、`/products/mixer-pumps`
 - OEM 定制专题：`/products/custom-machinery`（真实可定制范围；不虚构搅拌站产品线）
 - 产品详情：保持 `/products/:slug`（GitHub Pages 无法做 HTTP 301，不改为嵌套型号 URL）
 - 产品页结构：介绍（含定义）→ 优势 → 技术参数表 → 应用场景（链到 `/solutions/*`）→ 定制 → 工厂制造 → FAQ → 联系工程师
 - 组织 JSON-LD：`industry=Construction Machinery Manufacturer`；产品线写入 `hasOfferCatalog`（OfferCatalog，指向分类 URL），不含搅拌站。**不要**把分类写成 Product。单品 JSON-LD 仅在详情页，含 `brand` / `model` / `additionalProperty`；无公开价格与真实评价时不加 `offers` / `review` / `aggregateRating`
-- 关键词集群：混凝土泵厂家、喷涂设备、搅拌与泵送关系说明、中国厂家信任（邢台工厂考察 / OEM 流程）。不单独堆砌过宽的 “concrete machine”
+- 关键词集群：电动/柴油混凝土泵厂家、搅拌泵（不是搅拌站）、中国厂家信任（邢台工厂考察 / OEM 流程）。不单独堆砌过宽的 “concrete machine”
 - **不虚构搅拌站分类页**：`/products/concrete-mixing-plant` 重定向到混凝土泵分类；目录未销售搅拌站
 - 图片：WebP、`loading=lazy`（LCP 图 eager）、每产品 `{slug}/main.webp`；工厂图见 `图片准备清单.md`。不引入重量级 SEO 插件
 - 品牌色板（厂房深灰 + 工业红，避免亮橙/纯蓝模板）：主色 `#1D1F21`、强调 `#B32126`、背景 `#F3F3F1`，定义于 [`src/index.css`](src/index.css)
@@ -114,7 +115,7 @@ python deploy/generate_sitemaps.py
 - 精选产品：左信息（型号、简介、2–3 条优势、OEM 定制说明）/ 右产品图。可见上一张/下一张按钮 + 页码 `01/05` + 5 秒红色进度条。点击按钮会重置计时。型号列表：`featuredProductSlugs`（[`src/config/site.ts`](src/config/site.ts)）
 - 共用轮播：[`src/components/ui/IndustrialCarousel.tsx`](src/components/ui/IndustrialCarousel.tsx)（上一张/下一张、自动播放、进度条、键盘左右键、移动端滑动）。时长参数：`carouselConfig`（[`src/config/site.ts`](src/config/site.ts)）
 - 工厂能力：车间 / 装配 / 成品 / 厂房外观，大图 + 下方缩略图，不是第二块全屏 Banner
-- 应用案例：中间大图 + 两侧可见按钮；图下为标题、说明、查看应用；红色进度条。现场图为真实应用方向，不虚构客户项目业绩；搬运场景复用叉车 `working.webp`
+- 应用案例：中间大图 + 两侧可见按钮；图下为标题、说明、查看应用；红色进度条。现场图为真实应用方向，不虚构客户项目业绩
 - 产品区定制说明：OEM customization available；参数可按项目调整；确认技术规格后可尽快安排生产；突出工厂直供。组件：[`src/components/ui/OemNote.tsx`](src/components/ui/OemNote.tsx)
 - 图片：每产品独立目录 `{slug}/main.webp`；工厂图见 `图片准备清单.md` 与 `src/data/factory.ts`（含 ALT、keywords、locationContext）
 
@@ -248,7 +249,7 @@ python deploy/process_application_images.py
 python deploy/generate_sitemaps.py
 ```
 
-会裁成 4:3 WebP 并写成 SEO 文件名，用于首页应用区块与 `/solutions/*`。ALT 见 [`src/data/applicationsContent.ts`](src/data/applicationsContent.ts)。物料搬运暂无独立现场图时，首页与方案页使用叉车装载机 `working.webp`，不要用喷涂/泵送照片顶替。
+会裁成 4:3 WebP 并写成 SEO 文件名，用于首页应用区块与 `/solutions/*`。ALT 见 [`src/data/applicationsContent.ts`](src/data/applicationsContent.ts)。无电网工地方案页使用泵送现场图，不再引用已下架叉车图片。
 
 重新生成 sitemap / robots：
 
@@ -287,7 +288,7 @@ npm run build
 - **不能**出现 `%BASE_URL%`
 - **不能**出现 `/pinjin-website/assets/`
 - favicon 应为 `/images/brand/favicon.svg`
-- 必须带上 `dist/sitemap.xml`、`dist/image-sitemap.xml`、`dist/robots.txt`（Vite 从 `public/` 复制；缺文件则构建失败）
+- 必须带上 `dist/sitemap.xml`、`dist/sitemap-pages.xml`、`dist/image-sitemap.xml`、`dist/robots.txt`（Vite 从 `public/` 复制；缺文件则构建失败）
 
 本地预览：
 
@@ -349,23 +350,23 @@ Search Console **不会**让你把 `sitemap.xml` 上传到 Google。正确顺序
 本站文件来源与线上地址：
 
 ```text
-public/sitemap.xml        → 构建进 dist/  →  https://pinjinpump.com/sitemap.xml
-public/image-sitemap.xml  → 构建进 dist/  →  https://pinjinpump.com/image-sitemap.xml
-public/robots.txt         → 构建进 dist/  →  https://pinjinpump.com/robots.txt
+public/sitemap.xml         → 构建进 dist/  →  https://pinjinpump.com/sitemap.xml
+public/sitemap-pages.xml   → 构建进 dist/  →  https://pinjinpump.com/sitemap-pages.xml
+public/image-sitemap.xml   → 构建进 dist/  →  https://pinjinpump.com/image-sitemap.xml
+public/robots.txt          → 构建进 dist/  →  https://pinjinpump.com/robots.txt
 ```
 
-`robots.txt` 里已有：
+`robots.txt` 里只指向索引：
 
 ```text
 Sitemap: https://pinjinpump.com/sitemap.xml
-Sitemap: https://pinjinpump.com/image-sitemap.xml
 ```
 
-提交前先用浏览器打开，必须看到 XML，例如：
+提交前先用浏览器打开 `sitemap.xml`，必须看到 XML 索引，例如：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ```
 
 不能是网站 HTML、不能是 `%BASE_URL%`、不能是 404 空白页。当前正式站该文件已经随 GitHub Pages 的 `dist/` 发布（HTTP 200，`Content-Type: application/xml`）。
@@ -374,8 +375,7 @@ Sitemap: https://pinjinpump.com/image-sitemap.xml
 
 1. 属性用 `https://pinjinpump.com`（或域名属性 `pinjinpump.com`），不要用旧的 `rtgs2017.github.io`
 2. **索引 → Sitemaps → 添加新的 Sitemap**，只填路径：`sitemap.xml`
-3. 同样可再提交：`image-sitemap.xml`
-4. 点「提交」。Google 去抓 `https://pinjinpump.com/sitemap.xml`，不是把文件传到 Google 服务器
+3. 点「提交」。Google 会跟随索引抓取 `sitemap-pages.xml` 与 `image-sitemap.xml`
 
 若状态仍是 **Couldn't fetch**：
 
@@ -443,9 +443,11 @@ https://pinjinpump.com/
 兼容旧地址与采购侧别名（客户端 `replace`，**不进 sitemap**）：
 
 - `/products/category/:slug` → 对应分类 Hub
-- `/products/concrete-pump` → `/products/concrete-pumps`
-- `/products/concrete-spraying-machine` → `/products/spraying-machines`
-- `/products/concrete-mixing-plant` → `/products/concrete-pumps`（目录未销售搅拌站）
+- `/products/concrete-pump` → `/products/electric-concrete-pumps`
+- `/products/concrete-pumps` → `/products/electric-concrete-pumps`
+- `/products/spraying-machines`、`/products/material-handling`、`/products/rebar-equipment` → `/products`
+- `/products/concrete-spraying-machine` → `/products`
+- `/products/concrete-mixing-plant` → `/products/electric-concrete-pumps`（目录未销售搅拌站）
 - `/cases`、`/cases/:slug` → `/solutions` 对应页
 - `/applications` → `/solutions`
 - `/company` → `/about`；`/company/factory` 与 `/company/manufacturing-capability` → `/factory`

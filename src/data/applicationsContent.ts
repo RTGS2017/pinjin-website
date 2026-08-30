@@ -50,7 +50,7 @@ export const applicationPages: ApplicationPageItem[] = [
         zh: '按配合比核对最大骨料粒径',
       },
     ],
-    relatedCategory: 'concrete-pump',
+    relatedCategory: 'electric-concrete-pump',
     images: [
       {
         src: '/images/applications/pinjin-concrete-pump-building-construction.webp',
@@ -89,8 +89,8 @@ export const applicationPages: ApplicationPageItem[] = [
       zh: '基建工程用混凝土泵',
     },
     summary: {
-      en: 'Infrastructure pours may require longer horizontal conveying. Pinjin’s catalogue lists horizontal distances from compact transfer pumps up to 600 m on HBT80-18-140, helping buyers shortlist models by pipeline length.',
-      zh: '基建浇筑可能需要更长水平输送。品锦目录中水平距离从紧凑输送泵到 HBT80-18-140 的 600 m 均有列出，可按管路长度筛选型号。',
+      en: 'Infrastructure pours may require longer horizontal conveying. Pinjin’s catalogue lists horizontal distances up to 900 m on Electric 80 (HBT80-1816-110), helping buyers shortlist models by pipeline length.',
+      zh: '基建浇筑可能需要更长水平输送。品锦目录中水平距离最高为电动80（HBT80-1816-110）的 900 m，可按管路长度筛选型号。',
     },
     points: [
       {
@@ -106,7 +106,7 @@ export const applicationPages: ApplicationPageItem[] = [
         zh: '按计划浇筑量与工期匹配输送量参数',
       },
     ],
-    relatedCategory: 'concrete-pump',
+    relatedCategory: 'electric-concrete-pump',
     images: [
       {
         src: '/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp',
@@ -128,53 +128,53 @@ export const applicationPages: ApplicationPageItem[] = [
     slug: 'spraying-applications',
     solutionSlug: 'spraying',
     title: {
-      en: 'Spraying Machines for Construction Finishing',
-      zh: '施工饰面与喷浆设备',
+      en: 'Spraying Jobs vs Pipeline Pumping',
+      zh: '喷浆作业与管道泵送',
     },
     summary: {
-      en: 'For mortar, plaster and concrete spraying, Pinjin lists diesel screw mortar, automatic plaster, Type 311/511, plunger spraying and concrete spraying machines with published pressure, flow and distance parameters.',
-      zh: '砂浆、石膏与混凝土喷浆方面，品锦目录提供柴油螺杆砂浆机、全自动石膏机、311/511、柱塞喷涂机与混凝土喷浆机，并公开压力、流量与距离参数。',
+      en: 'Shotcrete and mortar spraying are finishing methods, not the same as pipeline pumping. Pinjin’s current catalogue lists electric and diesel concrete pumps and mixer pumps. A dedicated spraying-machine line is not published on this website.',
+      zh: '喷浆与砂浆喷涂是饰面施工方法，不同于管道泵送。品锦当前目录列出电动/柴油混凝土泵与搅拌泵，本站未公布独立喷涂机产品线。',
     },
     points: [
       {
-        en: 'Select mortar/plaster machines separately from long-distance concrete pumps',
-        zh: '砂浆/石膏设备与长距离混凝土泵分开选型',
+        en: 'Do not treat a concrete pump table as shotcrete equipment data',
+        zh: '不要把混凝土泵参数表当作喷浆机数据',
       },
       {
-        en: 'Compare Type 311 / 511 / plunger models by catalogue conveying distance',
-        zh: '按目录输送距离对照 311 / 511 / 柱塞机型',
+        en: 'If the job is pipeline placement, match capacity and conveying distance on pump pages',
+        zh: '若工况是管道浇筑，请在泵产品页对照输送量与输送距离',
       },
       {
-        en: 'Discuss customization where the catalogue explicitly supports it',
-        zh: '仅在目录明确支持定制的型号上沟通定制需求',
+        en: 'Contact the Xingtai factory if the project needs spraying equipment that is not listed',
+        zh: '若项目需要未列入目录的喷涂设备，请联系邢台工厂',
       },
     ],
-    relatedCategory: 'spraying-machine',
+    relatedCategory: 'electric-concrete-pump',
     images: [
       {
         src: '/images/applications/pinjin-mortar-spraying-machine-building-interior.webp',
         alt: L(
-          'Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery',
-          '砂浆喷涂机用于建筑室内饰面施工 — 河北品锦机械',
+          'Construction finishing spraying work — industry application context, Hebei Pinjin Machinery',
+          '施工饰面喷浆作业（行业应用说明）— 河北品锦机械',
         ),
         width: 1600,
         height: 1200,
         keywords: [
-          'concrete spraying equipment manufacturer',
-          'mortar spraying machine',
+          'concrete pumping vs spraying',
+          'construction finishing application',
         ],
       },
       {
         src: '/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp',
         alt: L(
-          'Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery',
-          '液压砂浆喷涂机在室外工地作业 — 河北品锦机械',
+          'Outdoor construction finishing spraying — industry application context, Hebei Pinjin Machinery',
+          '室外施工饰面喷浆（行业应用说明）— 河北品锦机械',
         ),
         width: 1600,
         height: 1200,
         keywords: [
-          'mortar spraying machine manufacturer',
-          'construction spraying equipment',
+          'construction site conveying',
+          'concrete pump manufacturer China',
         ],
       },
     ],
@@ -184,40 +184,40 @@ export const applicationPages: ApplicationPageItem[] = [
     slug: 'material-handling',
     solutionSlug: 'industrial-projects',
     title: {
-      en: 'Material Handling for Construction Sites',
-      zh: '建筑工地物料搬运',
+      en: 'Diesel Pumping on Sites Without Grid Power',
+      zh: '无电网工地的柴油泵送',
     },
     summary: {
-      en: 'Pinjin also lists spiral feeders and four-wheel drive forklift loaders (clamp/bucket) for site material feeding and handling, with published lift heights and drive parameters.',
-      zh: '品锦目录同时提供螺旋给料机与四驱叉车装载机（夹抱/铲斗），用于现场给料与搬运，并公开举升高度与驱动参数。',
+      en: 'Rural houses, remote infrastructure and sites without stable electricity use diesel trailer pumps or tractor-driven units. Pinjin lists Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and rural diesel pumps with published engine power, output and conveying distance.',
+      zh: '农村自建房、偏远基建和供电不稳的工地使用柴油拖泵或拖拉机带动泵。品锦目录列出柴油30–120、LZ-60 / LZ-80、拖拉机带动4100与农村柴油泵，并公开发动机功率、输送量与输送距离。',
     },
     points: [
       {
-        en: 'Spiral feeder rated head is customizable per catalogue',
-        zh: '螺旋给料机额定扬程按目录可定制',
+        en: 'Match engine kW and output to daily pour volume',
+        zh: '按日浇筑量对照发动机功率与输送量',
       },
       {
-        en: 'Choose clamp or bucket loader configuration by handling task',
-        zh: '按搬运任务选择夹抱或铲斗装载配置',
+        en: 'Use compact rural or tractor-driven models on constrained sites',
+        zh: '场地受限时对照农村紧凑型或拖拉机带动型号',
       },
       {
-        en: 'Confirm rated load units with the manufacturer when needed',
-        zh: '载重单位如需换算可与厂家确认',
+        en: 'This page is about diesel pumping, not forklifts or spiral feeders',
+        zh: '本页说明柴油泵送，不是叉车或螺旋给料机产品线',
       },
     ],
-    relatedCategory: 'material-handling',
+    relatedCategory: 'diesel-concrete-pump',
     images: [
       {
-        src: '/images/products/forklift-loader-bucket-type/working.webp',
+        src: '/images/applications/pinjin-concrete-pump-construction-site.webp',
         alt: L(
-          'Pinjin Machinery material handling equipment on a construction site in Xingtai Hebei China — custom concrete equipment manufacturer',
-          '品锦机械物料搬运设备在中国邢台施工现场 — 定制混凝土设备制造商',
+          'Hebei Pinjin compact concrete pump on a construction site with operators',
+          '品锦紧凑型混凝土泵在施工现场作业',
         ),
-        width: 1600,
-        height: 1200,
+        width: 1280,
+        height: 960,
         keywords: [
+          'diesel concrete pump manufacturer China',
           'Xingtai concrete machinery manufacturer',
-          'custom concrete equipment manufacturer',
         ],
       },
     ],

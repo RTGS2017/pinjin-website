@@ -37,13 +37,12 @@ export const siteConfig = {
 export const contactInquiryPath = '/contact';
 
 export const productCategoryIds = [
-  'concrete-pump',
-  'spraying-machine',
-  'material-handling',
-  'rebar-equipment',
+  'electric-concrete-pump',
+  'diesel-concrete-pump',
+  'mixer-pump',
 ] as const;
 
-export const performanceValues = ['600 m', '300 m', '40–75 m³/h', '6 cm'] as const;
+export const performanceValues = ['900 m', '600 m', '100 m³/h', '6 cm'] as const;
 
 /** 首页 Hero / 精选产品 / 应用案例共用的工业轮播参数 */
 export const carouselConfig = {
@@ -54,11 +53,11 @@ export const carouselConfig = {
 
 /** Featured product slugs for homepage showcase (order matters, 5 models) */
 export const featuredProductSlugs = [
-  'hbt80-18-140-concrete-pump',
-  'diesel-screw-mortar-spraying-machine',
-  'forklift-loader-bucket-type',
-  'cnc-steel-bar-bending-machine',
-  'hbt30-37-concrete-pump',
+  'electric-40-concrete-pump',
+  'diesel-50-concrete-pump',
+  'electric-80-concrete-pump',
+  'integrated-mixer-pump',
+  'electric-15-concrete-pump',
 ] as const;
 
 export function getMailtoHref(subject?: string, body?: string): string {

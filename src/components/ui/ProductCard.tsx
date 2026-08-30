@@ -24,7 +24,7 @@ export function ProductCard({ product }: ProductCardProps) {
       >
         <ImagePlaceholder
           src={product.image}
-          alt={`${product.name.en} manufactured by Hebei Pinjin Machinery`}
+          alt={`${product.name.en} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`}
           label={t.productCard.imageComingSoon}
           hint={t.placeholder.productHint}
           width={1200}

@@ -28,15 +28,15 @@ export function LegacyCasesRedirect() {
 }
 
 export function LegacyConcretePumpHubRedirect() {
-  return <LocaleNavigate to="/products/concrete-pumps" replace />;
+  return <LocaleNavigate to="/products/electric-concrete-pumps" replace />;
 }
 
 export function LegacySprayingHubRedirect() {
-  return <LocaleNavigate to="/products/spraying-machines" replace />;
+  return <LocaleNavigate to="/products" replace />;
 }
 
 export function LegacyMixingPlantRedirect() {
-  return <LocaleNavigate to="/products/concrete-pumps" replace />;
+  return <LocaleNavigate to="/products/electric-concrete-pumps" replace />;
 }
 
 export function LegacyCompanyRedirect() {

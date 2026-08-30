@@ -44,13 +44,13 @@ export const knowledgeArticles: BlogPost[] = [
       'construction equipment',
     ],
     relatedProductSlugs: [
-      'hbt80-18-140-concrete-pump',
-      'hbt30-37-concrete-pump',
-      'diesel-4100-transfer-pump',
+      'electric-80-concrete-pump',
+      'electric-30-concrete-pump',
+      'diesel-40-concrete-pump',
     ],
     relatedPaths: [
       {
-        href: '/products/concrete-pumps',
+        href: '/products/electric-concrete-pumps',
         label: L('Concrete pump manufacturer catalogue', '混凝土泵厂家目录'),
       },
       {
@@ -210,14 +210,14 @@ export const knowledgeArticles: BlogPost[] = [
       'concrete pump manufacturer',
     ],
     relatedProductSlugs: [
-      'll15-diesel-transfer-pump',
-      'hbt45-40-concrete-pump',
-      'hbtt55-50-concrete-pump',
+      'diesel-30-concrete-pump',
+      'electric-40-concrete-pump',
+      'electric-50-concrete-pump',
     ],
     relatedPaths: [
       {
-        href: '/products/concrete-pumps',
-        label: L('Trailer and transfer concrete pumps', '拖式与输送混凝土泵'),
+        href: '/products/electric-concrete-pumps',
+        label: L('Electric trailer concrete pumps', '电动拖式混凝土泵'),
       },
       {
         href: '/blog/what-is-a-concrete-pump',
@@ -348,13 +348,13 @@ export const knowledgeArticles: BlogPost[] = [
       'concrete pump manufacturer',
     ],
     relatedProductSlugs: [
-      'zs22-25-concrete-pump',
-      'll60-75-concrete-pump',
-      '4102-diesel-four-cylinder-inclined-pump',
+      'electric-20-concrete-pump',
+      'electric-low-pressure-60-concrete-pump',
+      'rural-diesel-concrete-pump',
     ],
     relatedPaths: [
       {
-        href: '/products/concrete-pumps',
+        href: '/products/electric-concrete-pumps',
         label: L('Concrete pump product list', '混凝土泵产品列表'),
       },
       { href: '/factory', label: L('Xingtai manufacturing factory', '邢台制造工厂') },
@@ -470,8 +470,8 @@ export const knowledgeArticles: BlogPost[] = [
       '喷浆机说明 | 喷涂设备厂家 | 品锦',
     ),
     description: L(
-      'How a shotcrete machine sprays concrete or mortar, where it is used, and how to match Pinjin’s listed spraying machines to pressure, flow and distance.',
-      '喷浆机如何喷射混凝土或砂浆、常用场合，以及如何按压力、流量与距离对照品锦已列出的喷涂机。',
+      'How a shotcrete machine sprays concrete or mortar, where it is used, and how that differs from Pinjin’s listed electric and diesel concrete pumps.',
+      '喷浆机如何喷射混凝土或砂浆、常用场合，以及它与品锦已列出的电动/柴油混凝土泵有何不同。',
     ),
     category: 'application-solutions',
     date: '2026-08-25',
@@ -481,14 +481,14 @@ export const knowledgeArticles: BlogPost[] = [
       'construction equipment',
     ],
     relatedProductSlugs: [
-      'concrete-spraying-machine',
-      'diesel-screw-mortar-spraying-machine',
-      'type-511-spraying-machine',
+      'electric-40-concrete-pump',
+      'diesel-40-concrete-pump',
+      'integrated-mixer-pump',
     ],
     relatedPaths: [
       {
-        href: '/products/spraying-machines',
-        label: L('Shotcrete and spraying machine catalogue', '喷浆与喷涂设备目录'),
+        href: '/products',
+        label: L('Pinjin construction equipment catalogue', '品锦工程设备目录'),
       },
       {
         href: '/solutions/spraying',
@@ -513,8 +513,8 @@ export const knowledgeArticles: BlogPost[] = [
           '品锦目录是否有喷浆机？',
         ),
         answer: L(
-          'Yes. The spraying category includes a concrete spraying machine with published capacity, outlet pressure and rebound figures, plus mortar and plaster spraying models. Open the spraying machines page and compare the tables.',
-          '有。喷涂分类中有公布产能、出口压力与回弹数据的混凝土喷浆机，以及砂浆、石膏喷涂机型。请打开喷涂设备页对照参数表。',
+          'The current Pinjin catalogue lists electric and diesel concrete pumps and mixer pumps. A dedicated shotcrete / spraying machine line is not published on this website. Compare pump tables or contact the factory if your job needs spraying equipment.',
+          '当前品锦目录列出电动/柴油混凝土泵与搅拌泵，本站未公布独立喷浆机产品线。若工况需要喷涂设备，请对照泵送参数表或联系工厂。',
         ),
       },
       {
@@ -539,16 +539,16 @@ export const knowledgeArticles: BlogPost[] = [
         ],
         image: articleImage(
           'finished-products',
-          'Shotcrete machine and construction equipment at a China spraying equipment manufacturer',
-          '中国喷涂设备厂家的喷浆机与工程设备成品',
+          'Concrete pump and construction equipment at a China concrete pump manufacturer',
+          '中国混凝土泵厂家的混凝土泵与工程设备成品',
         ),
       },
       {
         heading: L('What is a shotcrete machine?', '什么是喷浆机？'),
         paragraphs: [
           L(
-            'A shotcrete machine transports a concrete or mortar mix and uses compressed air to accelerate it through a nozzle onto the target. It can cover vertical and overhead surfaces that are hard to pour. Pinjin’s catalogue lists a concrete spraying machine with published maximum capacity, outlet pressure and rebound, plus mortar and plaster spraying machines with their own flow and distance figures.',
-            '喷浆机输送混凝土或砂浆拌合物，并用压缩空气经喷头加速喷到目标面，可覆盖不易浇筑的立面和顶面。品锦目录列出公布最大产能、出口压力与回弹的混凝土喷浆机，以及各有流量与距离参数的砂浆、石膏喷涂机。',
+            'A shotcrete machine transports a concrete or mortar mix and uses compressed air to accelerate it through a nozzle onto the target. It can cover vertical and overhead surfaces that are hard to pour. Pinjin’s current catalogue focuses on electric and diesel concrete pumps and mixer pumps; spraying models are not listed as a separate product line on this website.',
+            '喷浆机输送混凝土或砂浆拌合物，并用压缩空气经喷头加速喷到目标面，可覆盖不易浇筑的立面和顶面。品锦当前目录以电动/柴油混凝土泵与搅拌泵为主，本站未单列喷涂机产品线。',
           ),
         ],
       },
@@ -556,8 +556,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('How does a shotcrete machine work?', '喷浆机如何工作？'),
         paragraphs: [
           L(
-            'The sequence is: mix enters the hopper; the machine moves it through a pipeline; compressed air sprays it onto the surface; the layer builds up as the nozzle is moved. Exact pressure, flow and distance are those printed for the model — for example the concrete spraying machine page lists capacity, outlet pressure and rebound. Do not copy another brand’s figures onto Pinjin equipment.',
-            '顺序是：拌合物进入料斗；机器经管道输送；压缩空气喷到作业面；移动喷头形成喷层。压力、流量与距离以该型号公布值为准——例如混凝土喷浆机页列出产能、出口压力与回弹。不要把其他品牌的数字套到品锦设备上。',
+            'The sequence is: mix enters the hopper; the machine moves it through a pipeline; compressed air sprays it onto the surface; the layer builds up as the nozzle is moved. Pressure, flow and distance belong to the spraying machine’s own table. Pinjin’s current website lists concrete pumps and mixer pumps, not a separate spraying-machine line. Do not copy another brand’s figures onto Pinjin equipment.',
+            '顺序是：拌合物进入料斗；机器经管道输送；压缩空气喷到作业面；移动喷头形成喷层。压力、流量与距离属于喷浆机自身参数表。品锦当前网站列出混凝土泵与搅拌泵，没有独立喷涂机产品线。不要把其他品牌的数字套到品锦设备上。',
           ),
         ],
         bullets: [
@@ -571,8 +571,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('Where shotcrete is used', '喷浆用在哪些场合'),
         paragraphs: [
           L(
-            'Typical jobs include tunnel lining, slope protection, underground structures, pools and repair patches. Pinjin does not publish a separate mining-only product line; if a tunnel or slope job matches a listed spraying model’s pressure, flow and distance, use that table. Open spraying applications and the spraying machines category to compare.',
-            '常见作业包括隧道衬砌、边坡防护、地下结构、水池和修补。品锦未单独发布矿山专用产品线；若隧道或边坡工况落在已列喷涂机型的压力、流量与距离内，就用该表。请打开喷涂应用与喷涂设备分类对照。',
+            'Typical jobs include tunnel lining, slope protection, underground structures, pools and repair patches. Pinjin does not publish a separate mining-only product line. If the job is pipeline placement, open the electric or diesel pump category. If it is spraying, contact the factory rather than using a pump table.',
+            '常见作业包括隧道衬砌、边坡防护、地下结构、水池和修补。品锦未单独发布矿山专用产品线。若工况是管道浇筑，请打开电动或柴油泵分类；若是喷浆，请联系工厂，不要套用泵送参数表。',
           ),
         ],
       },
@@ -580,8 +580,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('Practical benefits', '实际作用'),
         paragraphs: [
           L(
-            'Spraying can cover a surface faster than building full formwork for every face. Many jobs need less mould work. Bond depends on surface preparation and nozzle technique as much as on machine pressure. Select from listed models (concrete spraying, mortar screw spraying, plaster spraying, plunger spraying) rather than a generic “shotcrete” label.',
-            '喷射覆盖作业面往往比每一面都支模更快，许多场合模具更少。粘结既取决于表面处理和喷头手法，也取决于机压。请从已列机型（混凝土喷浆、砂浆螺杆喷涂、石膏喷涂、柱塞喷涂）中选，而不是只用笼统的“喷浆”名称。',
+            'Spraying can cover a surface faster than building full formwork for every face. Many jobs need less mould work. Bond depends on surface preparation and nozzle technique as much as on machine pressure. Do not select a Pinjin concrete pump as if it were a shotcrete machine.',
+            '喷射覆盖作业面往往比每一面都支模更快，许多场合模具更少。粘结既取决于表面处理和喷头手法，也取决于机压。不要把品锦混凝土泵当成喷浆机来选型。',
           ),
         ],
       },
@@ -607,19 +607,18 @@ export const knowledgeArticles: BlogPost[] = [
       'construction equipment',
       'concrete pump manufacturer',
       'concrete pump supplier',
-      'rebar processing equipment',
-      'shotcrete machine',
+      'mixer pump',
     ],
     relatedProductSlugs: [
-      'hbt80-18-140-concrete-pump',
-      'concrete-spraying-machine',
-      'cnc-steel-bar-bending-machine',
+      'electric-80-concrete-pump',
+      'integrated-mixer-pump',
+      'diesel-50-concrete-pump',
     ],
     relatedPaths: [
       { href: '/products', label: L('Construction equipment catalogue', '工程设备目录') },
       {
-        href: '/products/rebar-equipment',
-        label: L('Rebar processing equipment', '钢筋加工设备'),
+        href: '/products/mixer-pumps',
+        label: L('Concrete mixer pumps', '混凝土搅拌泵'),
       },
       { href: '/factory', label: L('Visit the Xingtai factory page', '查看邢台工厂页') },
       {
@@ -654,8 +653,8 @@ export const knowledgeArticles: BlogPost[] = [
           '品锦目录有哪些产品组？',
         ),
         answer: L(
-          'The site lists concrete pumps (trailer and transfer), spraying machines including a shotcrete / concrete spraying model, material handling equipment, and rebar processing equipment (CNC stirrup bending). There is no mixing-plant product line on this catalogue.',
-          '本站列出混凝土泵（拖式与输送）、含混凝土喷浆机的喷涂设备、物料搬运设备，以及钢筋加工设备（数控弯箍）。本目录没有搅拌站产品线。',
+          'The site lists electric concrete pumps, diesel concrete pumps and integrated mixer pumps. There is no mixing-plant, spraying-machine or rebar line on the current catalogue.',
+          '本站列出电动混凝土泵、柴油混凝土泵与搅拌泵一体机。当前目录不含搅拌站、喷涂机或钢筋设备产品线。',
         ),
       },
     ],
@@ -705,8 +704,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('4. Product range that matches real catalogue pages', '4. 与真实目录页相符的产品范围'),
         paragraphs: [
           L(
-            'Look for a manufacturer who publishes several related machines, not only a keyword. Pinjin’s catalogue includes concrete pumps, shotcrete / spraying machines, material handling equipment and rebar processing equipment (CNC steel bar bending). It does not include a concrete mixing plant line. Solutions are combinations of these listed machines plus OEM changes where the product page says customization is available.',
-            '应找公布多类相关设备的厂家，而不是只有一个关键词。品锦目录包括混凝土泵、喷浆/喷涂机、物料搬运设备和钢筋加工设备（数控钢筋弯箍），不含混凝土搅拌站产品线。方案是这些已列设备的组合，以及产品页标明可定制时的 OEM 调整。',
+            'Look for a manufacturer who publishes several related machines, not only a keyword. Pinjin’s catalogue includes electric concrete pumps, diesel concrete pumps and mixer pumps. It does not include a concrete mixing plant line. Solutions are combinations of these listed machines plus OEM changes where the product page says customization is available.',
+            '应找公布多类相关设备的厂家，而不是只有一个关键词。品锦目录包括电动混凝土泵、柴油混凝土泵与搅拌泵，不含混凝土搅拌站产品线。方案是这些已列设备的组合，以及产品页标明可定制时的 OEM 调整。',
           ),
         ],
       },
@@ -723,8 +722,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('Conclusion', '结语'),
         paragraphs: [
           L(
-            'Choosing a construction equipment supplier affects uptime and spare-part lead time more than a slogan. Use factory address, published tables and a clear enquiry channel. Then open the product pages for concrete pumps, spraying machines and rebar equipment, and send the model plus site conditions to the engineering team.',
-            '选择工程设备供应商，影响的是停机时间和配件周期，而不是口号。应核对厂址、已公布参数表和清晰询盘渠道。然后打开混凝土泵、喷涂机与钢筋设备产品页，把型号与工况发给工程团队。',
+            'Choosing a construction equipment supplier affects uptime and spare-part lead time more than a slogan. Use factory address, published tables and a clear enquiry channel. Then open the electric, diesel or mixer-pump product pages and send the model plus site conditions to the engineering team.',
+            '选择工程设备供应商，影响的是停机时间和配件周期，而不是口号。应核对厂址、已公布参数表和清晰询盘渠道。然后打开电动泵、柴油泵或搅拌泵产品页，把型号与工况发给工程团队。',
           ),
         ],
       },

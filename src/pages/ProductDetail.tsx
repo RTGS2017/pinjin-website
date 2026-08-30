@@ -125,7 +125,7 @@ export function ProductDetail() {
         <div className="grid gap-10 lg:grid-cols-2">
           <ProductGallery
             images={gallery}
-            alt={`${product.name.en} manufactured by Hebei Pinjin Machinery`}
+            alt={`${product.name.en} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`}
           />
 
           <div>

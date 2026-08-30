@@ -14,10 +14,9 @@ import { localePath } from '@/i18n/paths';
 
 const filters: Array<'all' | ProductCategory> = [
   'all',
-  'concrete-pump',
-  'spraying-machine',
-  'material-handling',
-  'rebar-equipment',
+  'electric-concrete-pump',
+  'diesel-concrete-pump',
+  'mixer-pump',
 ];
 
 export function Products() {

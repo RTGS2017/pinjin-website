@@ -40,8 +40,8 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Modern Manufacturing Workshop', '现代化制造厂房'),
     description: L(
-      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a concrete machinery manufacturer in Xingjiawan, Xingtai, Hebei, China, with capability in concrete equipment manufacturing, spraying equipment production and customized machinery.',
-      '河北品锦机械制造有限公司是位于中国河北邢台邢家湾的混凝土机械制造商，具备混凝土设备制造、喷涂设备生产与机械定制能力。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a concrete machinery manufacturer in Xingjiawan, Xingtai, Hebei, China, with capability in concrete pump manufacturing and customized machinery.',
+      '河北品锦机械制造有限公司是位于中国河北邢台邢家湾的混凝土机械制造商，具备混凝土泵制造与机械定制能力。',
     ),
     alt: L(
       'Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China',
@@ -67,8 +67,8 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Production Workshop', '生产车间'),
     description: L(
-      'The production workshop of Hebei Pinjin Machinery Manufacturing Co., Ltd. supports concrete equipment manufacturing and spraying equipment production in Xingtai, Hebei.',
-      '河北品锦机械制造有限公司生产车间支撑混凝土设备与喷涂设备制造，位于河北邢台。',
+      'The production workshop of Hebei Pinjin Machinery Manufacturing Co., Ltd. supports concrete pump manufacturing in Xingtai, Hebei.',
+      '河北品锦机械制造有限公司生产车间支撑混凝土泵制造，位于河北邢台。',
     ),
     alt: L(
       'Production workshop of Hebei Pinjin Machinery in Xingjiawan Xingtai Hebei China',
@@ -178,8 +178,8 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Machinery Assembly Area', '设备装配区'),
     description: L(
-      'The assembly area of Hebei Pinjin Machinery Manufacturing Co., Ltd. supports concrete equipment manufacturing and spraying equipment production.',
-      '河北品锦机械制造有限公司装配区支撑混凝土设备制造与喷涂设备生产。',
+      'The assembly area of Hebei Pinjin Machinery Manufacturing Co., Ltd. supports concrete pump manufacturing.',
+      '河北品锦机械制造有限公司装配区支撑混凝土泵制造。',
     ),
     alt: L(
       'Machinery assembly area at Hebei Pinjin Machinery factory in Xingjiawan China',
@@ -192,7 +192,7 @@ export const factorySlides: FactorySlide[] = [
     ),
     keywords: [
       'machinery assembly factory',
-      'spraying equipment production',
+      'concrete pump manufacturing',
       'OEM machinery manufacturer',
     ],
     locationContext: CLUSTER,
@@ -259,8 +259,8 @@ export const factorySlides: FactorySlide[] = [
     height: FACTORY_IMAGE_HEIGHT,
     title: L('Equipment Dispatch From Factory', '设备出厂发运'),
     description: L(
-      'Hebei Pinjin Machinery Manufacturing Co., Ltd. dispatches concrete and spraying equipment from its Xingtai factory after production and inspection.',
-      '河北品锦机械制造有限公司在生产与检测后，从邢台工厂发出混凝土与喷涂设备。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. dispatches concrete pumps from its Xingtai factory after production and inspection.',
+      '河北品锦机械制造有限公司在生产与检测后，从邢台工厂发出混凝土泵。',
     ),
     alt: L(
       'Diesel construction equipment dispatch from Pinjin Machinery in Xingjiawan China',
@@ -310,8 +310,8 @@ export const factoryGeoBlocks = [
       '邢台混凝土机械制造基地',
     ),
     body: L(
-      'Xingtai, Hebei, is a recognized manufacturing area for concrete machinery in China. Xingjiawan is an important cluster within that area. Hebei Pinjin Machinery Manufacturing Co., Ltd. operates in Renze Industrial Park, Xingtai, and manufactures catalogue concrete pumps, spraying machines, material handling equipment and rebar processing machines.',
-      '河北邢台是中国混凝土机械的重要制造区域，邢家湾是其中的产业集聚区。河北品锦机械制造有限公司位于邢台市任泽工业园区，生产目录中的混凝土泵、喷涂机、物料搬运设备与钢筋加工设备。',
+      'Xingtai, Hebei, is a recognized manufacturing area for concrete machinery in China. Xingjiawan is an important cluster within that area. Hebei Pinjin Machinery Manufacturing Co., Ltd. operates in Renze Industrial Park, Xingtai, and manufactures catalogue electric concrete pumps, diesel concrete pumps and mixer pumps.',
+      '河北邢台是中国混凝土机械的重要制造区域，邢家湾是其中的产业集聚区。河北品锦机械制造有限公司位于邢台市任泽工业园区，生产目录中的电动混凝土泵、柴油混凝土泵与搅拌泵。',
     ),
   },
   {
@@ -330,8 +330,8 @@ export const factoryGeoBlocks = [
       '中国混凝土设备供应商',
     ),
     body: L(
-      'A China concrete equipment supplier for overseas buyers should publish model names, technical tables and a factory location. Pinjin lists concrete pumps and spraying equipment with those details, and discusses customization after a catalogue model is matched.',
-      '面向海外采购的中国混凝土设备供应商应公开型号、技术参数表与工厂地点。品锦目录列出混凝土泵与喷涂设备及上述信息，并在对照目录机型后沟通定制。',
+      'A China concrete equipment supplier for overseas buyers should publish model names, technical tables and a factory location. Pinjin lists electric pumps, diesel pumps and mixer pumps with those details, and discusses customization after a catalogue model is matched.',
+      '面向海外采购的中国混凝土设备供应商应公开型号、技术参数表与工厂地点。品锦目录列出电动泵、柴油泵与搅拌泵及上述信息，并在对照目录机型后沟通定制。',
     ),
   },
 ] as const;
@@ -363,8 +363,8 @@ export const factoryGeoFaqs = [
       '邢台工厂生产哪些设备？',
     ),
     answer: L(
-      'Catalogue products include concrete pumps, mortar and concrete spraying machines, spiral feeders, forklift loaders and CNC steel bar bending equipment. A concrete mixing plant is not listed in the current catalogue.',
-      '目录产品包括混凝土泵、砂浆与混凝土喷涂机、螺旋给料机、叉车装载机与数控钢筋弯箍设备。当前目录未列出混凝土搅拌站。',
+      'Catalogue products include electric concrete pumps, diesel concrete pumps and mixer pumps. A concrete mixing plant, spraying-machine or rebar line is not listed in the current catalogue.',
+      '目录产品包括电动混凝土泵、柴油混凝土泵与搅拌泵。当前目录未列出混凝土搅拌站、喷涂机或钢筋设备产品线。',
     ),
   },
 ];

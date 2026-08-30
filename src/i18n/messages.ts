@@ -54,7 +54,7 @@ export const messages = {
         'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a source manufacturer in Renze Industrial Park, Xingtai, Hebei, focused on R&D, production and sales of construction machinery such as concrete pumps.',
       title: 'China Professional Concrete Machinery Manufacturer',
       subtitle:
-        'Concrete pumps, spraying equipment and customized construction machinery.',
+        'Electric concrete pumps, diesel concrete pumps, mixer pumps and OEM customization from Xingtai.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
     },
@@ -72,7 +72,7 @@ export const messages = {
     categories: {
       title: 'OUR PRODUCT RANGE',
       subtitle:
-        'Construction equipment for concrete delivery, spraying, material handling and rebar processing.',
+        'Electric concrete pumps, diesel concrete pumps and mixer pumps from the Xingtai factory catalogue.',
       view: 'View Products →',
       concrete: 'CONCRETE PUMPS',
       concreteDesc: 'Transfer and concrete pumps for reliable material delivery.',
@@ -85,7 +85,8 @@ export const messages = {
     },
     featured: {
       title: 'Featured Products',
-      subtitle: 'Selected catalogue models for construction sites.',
+      subtitle:
+        'Typical models: Electric 40, Diesel 50, Electric 80, mixer pump and compact Electric 15.',
       viewAll: 'View all products',
       capacity: 'Capacity',
       application: 'Application',
@@ -226,7 +227,7 @@ export const messages = {
     productsPage: {
       title: 'ALL PRODUCTS',
       subtitle:
-        'Browse concrete pumps, spraying machines, material handling and rebar equipment.',
+        'Browse electric concrete pumps, diesel concrete pumps and mixer pumps.',
       all: 'All',
       concrete: 'Concrete Pumps',
       spraying: 'Spraying Machines',
@@ -332,7 +333,7 @@ export const messages = {
       homeTitle:
         'Concrete Pump Manufacturer China | Hebei Pinjin Machinery',
       homeDesc:
-        'Concrete machinery manufacturer in China. Hebei Pinjin Machinery builds concrete pumps and spraying equipment in Xingtai, Hebei, in the Xingjiawan manufacturing area.',
+        'Concrete machinery manufacturer in China. Hebei Pinjin Machinery builds electric and diesel concrete pumps and mixer pumps in Xingtai, Hebei, in the Xingjiawan manufacturing area.',
       productsTitle:
         'Concrete Pump Manufacturer China | Pinjin Machinery',
       aboutTitle:
@@ -345,16 +346,16 @@ export const messages = {
         'Product Selection Guide | Concrete Pump Manufacturer China | Pinjin',
       blogTitle: 'Construction Machinery Knowledge | Pinjin',
       blogDesc:
-        'Manufacturing knowledge, industry guides and product guides on concrete pumps, spraying equipment and Xingjiawan concrete machinery from Hebei Pinjin.',
+        'Manufacturing knowledge, industry guides and product guides on electric and diesel concrete pumps, mixer pumps and Xingjiawan concrete machinery from Hebei Pinjin.',
       applicationsDesc:
-        'Typical use cases and selection points for concrete pumps, infrastructure conveying, mortar spraying and plaster spraying.',
+        'Typical use cases and selection points for electric and diesel concrete pumps, mixer pumps and on-site conveying.',
       solutionsDesc:
-        'Concrete machinery selection notes for construction, infrastructure, spraying and site handling. Mining projects are not listed because they are not published in the catalogue.',
+        'Concrete machinery selection notes for construction, infrastructure and diesel sites without grid power. Mining projects are not listed because they are not published in the catalogue.',
       resourcesTitle: 'Resources | Construction Machinery Knowledge | Pinjin',
       resourcesDesc:
         'Guides on concrete pumps, OEM manufacturing and the Xingjiawan cluster. PDF catalogues are not published; request parameters by WhatsApp or email.',
       selectionDesc:
-        'Catalogue-based shortlists for high-rise, compact sites, diesel vs electric, mortar/plaster spraying, shotcrete and material handling.',
+        'Catalogue-based shortlists for high-rise, compact sites, diesel vs electric and mixer-pump jobs.',
     },
     inquiry: {
       name: 'Name',
@@ -451,7 +452,7 @@ export const messages = {
         'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a construction machinery manufacturer in Xingtai, Hebei, China.',
       whatProblems: 'What problems do the products solve?',
       whatProblemsBody:
-        'Catalogue equipment supports concrete delivery, spraying, material handling and rebar processing with published parameters.',
+        'Catalogue equipment supports pipeline concrete delivery with electric pumps, diesel pumps and mixer pumps, using published parameters.',
       needHelpSelecting: 'Need help selecting a model?',
       needHelpBody:
         'Send capacity, conveying distance and aggregate size for a model recommendation.',
@@ -466,7 +467,7 @@ export const messages = {
       companyProfile: 'Company Profile',
       whatWeFocus: 'What We Focus On',
       contactEmail: 'Contact Email',
-      applicationsHeading: 'Concrete Pump & Spraying Applications',
+      applicationsHeading: 'Concrete Pump Applications',
       applicationsSubtitle:
         'Typical use cases and selection points for Pinjin equipment.',
       selectionIntro:
@@ -521,7 +522,7 @@ export const messages = {
       intro:
         '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，是混凝土泵等工程机械的源头制造商，从事研发、生产与销售。',
       title: '中国专业混凝土机械制造商',
-      subtitle: '混凝土泵、喷涂设备与定制工程机械。',
+      subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵，以及来自邢台的 OEM 定制。',
       explore: '浏览产品',
       quote: '联系工程师',
     },
@@ -538,7 +539,7 @@ export const messages = {
     },
     categories: {
       title: '产品系列',
-      subtitle: '覆盖混凝土输送、喷涂、物料搬运与钢筋加工的工程设备。',
+      subtitle: '邢台工厂目录中的电动混凝土泵、柴油混凝土泵与搅拌泵。',
       view: '查看产品 →',
       concrete: '混凝土泵',
       concreteDesc: '可靠的输送泵与混凝土泵系列。',
@@ -551,7 +552,7 @@ export const messages = {
     },
     featured: {
       title: '精选产品',
-      subtitle: '选自目录、面向施工现场的重点型号。',
+      subtitle: '典型机型：电动40、柴油50、电动80、搅拌泵与紧凑型电动15。',
       viewAll: '查看全部产品',
       capacity: '产能参数',
       application: '适用场景',
@@ -685,7 +686,7 @@ export const messages = {
     },
     productsPage: {
       title: '全部产品',
-      subtitle: '浏览混凝土泵、喷涂设备、物料搬运与钢筋设备。',
+      subtitle: '浏览电动混凝土泵、柴油混凝土泵与搅拌泵。',
       all: '全部',
       concrete: '混凝土泵',
       spraying: '喷涂设备',
@@ -785,7 +786,7 @@ export const messages = {
     seo: {
       homeTitle: '中国混凝土泵厂家 | 河北品锦机械',
       homeDesc:
-        '河北品锦机械是中国混凝土机械制造商，在河北邢台（邢家湾混凝土机械集聚区语境）生产混凝土泵与喷涂设备，工厂地址为任泽工业园区。',
+        '河北品锦机械是中国混凝土机械制造商，在河北邢台（邢家湾混凝土机械集聚区语境）生产电动/柴油混凝土泵与搅拌泵，工厂地址为任泽工业园区。',
       productsTitle: '中国混凝土泵厂家 | 品锦机械',
       aboutTitle: '邢台工程机械工厂 | 品锦机械',
       contactTitle: '联系中国混凝土泵厂家 | 品锦',
@@ -794,16 +795,16 @@ export const messages = {
       selectionTitle: '产品选型指南 | 中国混凝土泵厂家 | 品锦',
       blogTitle: '工程机械知识 | 品锦机械',
       blogDesc:
-        '品锦机械关于混凝土泵、喷涂设备、OEM 制造与邢家湾产业带的制造知识、行业指南与产品指南。',
+        '品锦机械关于电动/柴油混凝土泵、搅拌泵、OEM 制造与邢家湾产业带的制造知识、行业指南与产品指南。',
       applicationsDesc:
-        '品锦机械应用方向：建筑施工混凝土泵、基建输送、砂浆喷涂与石膏喷涂。',
+        '品锦机械应用方向：建筑施工混凝土泵、基建输送与无电网工地柴油泵送。',
       solutionsDesc:
-        '建筑、基建、喷涂与现场搬运方向的混凝土机械选型说明。不编造未核实的矿业项目。',
+        '建筑、基建与无电网工地方向的混凝土机械选型说明。不编造未核实的矿业项目。',
       resourcesTitle: '技术资源 | 混凝土机械知识 | 品锦机械',
       resourcesDesc:
         '混凝土泵选型、OEM 制造与邢家湾产业带说明。产品目录 PDF 尚未发布，可通过 WhatsApp 或邮件索取参数。',
       selectionDesc:
-        '品锦产品选型指南：按高层/小型工地、柴油/电机、砂浆石膏喷涂、喷浆与物料搬运等目录参数对照推荐型号。',
+        '品锦产品选型指南：按高层/小型工地、柴油/电机与搅拌泵等目录参数对照推荐型号。',
     },
     inquiry: {
       name: '姓名',
@@ -895,7 +896,7 @@ export const messages = {
         '河北品锦机械制造有限公司是位于中国河北邢台的工程机械制造商。',
       whatProblems: '产品解决什么问题？',
       whatProblemsBody:
-        '目录设备支持混凝土输送、喷涂、物料搬运与钢筋加工，并公布参数。',
+        '目录设备支持管道混凝土输送：电动泵、柴油泵与搅拌泵均公布参数。',
       needHelpSelecting: '仍需选型协助？',
       needHelpBody: '发送输送量、水平/垂直距离与骨料粒径，获取目录机型建议。',
       faqHeading: '混凝土泵与工程设备常见问题',
@@ -909,7 +910,7 @@ export const messages = {
       companyProfile: '公司信息',
       whatWeFocus: '我们专注解决的需求',
       contactEmail: '联系邮箱',
-      applicationsHeading: '混凝土泵与喷涂设备应用方向',
+      applicationsHeading: '混凝土泵应用方向',
       applicationsSubtitle: '说明设备适用方向与选型要点。',
       selectionIntro:
         '根据输送量、输送距离、动力形式与工况，对照产品目录参数推荐合适型号。',

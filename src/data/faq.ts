@@ -30,8 +30,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '河北品锦机械是一家什么样的公司？',
     },
     answer: {
-      en: 'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a construction machinery manufacturer focused on special equipment. The company is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Its positioning is a professional source manufacturer of delivery pumps. Core activities include R&D, production and sales of construction machinery such as concrete pumps, with additional mortar spraying and plaster spraying equipment in the product range.',
-      zh: '河北品锦机械制造有限公司是专注特种设备制造的工程机械企业，位于河北省邢台市任泽工业园区，定位为专业输送泵生产源头厂家。主营混凝土泵等工程机械的研发、生产与销售，产品线还包括砂浆喷涂机与石膏喷涂机。',
+      en: 'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a construction machinery manufacturer focused on special equipment. The company is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Its positioning is a professional source manufacturer of delivery pumps. Core activities include R&D, production and sales of electric concrete pumps, diesel concrete pumps and mixer pumps.',
+      zh: '河北品锦机械制造有限公司是专注特种设备制造的工程机械企业，位于河北省邢台市任泽工业园区，定位为专业输送泵生产源头厂家。主营电动混凝土泵、柴油混凝土泵与搅拌泵的研发、生产与销售。',
     },
   },
   {
@@ -41,8 +41,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦主要生产哪些产品？',
     },
     answer: {
-      en: 'Pinjin manufactures three main equipment groups: concrete pumps / transfer pumps, mortar spraying machines, and plaster spraying machines. Concrete pump models include Diesel 4100, LL15 diesel/motor versions, ZS22-25, LL28-32, HBT30-37, HBT45-40, HBTT55-50, LL60-75 and HBT80-18-140. The mortar line includes a diesel screw mortar spraying machine. The plaster line includes a fully automatic plaster spraying machine.',
-      zh: '品锦产品主要包括三类：混凝土泵/输送泵、砂浆喷涂机、石膏喷涂机。混凝土泵型号含 Diesel 4100、LL15 柴油/电机版、ZS22-25、LL28-32、HBT30-37、HBT45-40、HBTT55-50、LL60-75、HBT80-18-140；砂浆类有柴油螺杆砂浆喷涂机；石膏类有全自动石膏喷涂机。',
+      en: 'Pinjin manufactures three catalogue groups: electric concrete pumps, diesel concrete pumps and mixer pumps. Typical electric models include Electric 15 / 20 / 40 / 50 / 60 / 80 and HBT8018 / HBT80-16. Diesel models include Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and rural diesel pumps. Mixer pumps include an electric integrated unit and a diesel mixer-integrated pump. A mixing plant, spraying-machine or rebar line is not listed on this website.',
+      zh: '品锦目录分为三类：电动混凝土泵、柴油混凝土泵与搅拌泵。电动典型型号包括电动15 / 20 / 40 / 50 / 60 / 80 以及 HBT8018 / HBT80-16。柴油包括柴油30–120、LZ-60 / LZ-80、拖拉机带动4100与农村柴油泵。搅拌泵包括电动一体机与柴油搅拌泵一体机。本站未列出搅拌站、喷涂机或钢筋设备产品线。',
     },
   },
   {
@@ -52,8 +52,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '施工项目如何选择混凝土泵？',
     },
     answer: {
-      en: 'Start with four catalogue parameters: theoretical delivery capacity, horizontal conveying distance, vertical conveying height, and max aggregate diameter. Then check power type (diesel or motor), machine dimensions and weight for site access. For smaller jobs, LL15 or Diesel 4100 class pumps may fit. For longer reach and higher output, compare HBT30-37, HBT45-40, HBTT55-50, LL60-75 and HBT80-18-140. Share your pour volume, pipe layout and aggregate size with Pinjin so the team can recommend a suitable model from published specs.',
-      zh: '优先对照四类目录参数：理论输送量、水平输送距离、垂直输送高度、最大骨料粒径；再确认动力形式（柴油/电机）、外形尺寸与整机重量是否便于进场。小型工况可看 LL15、Diesel 4100 一类；更长距离与更高产量可对比 HBT30-37、HBT45-40、HBTT55-50、LL60-75、HBT80-18-140。把浇筑量、管路布置与骨料粒径发给品锦，可按公开参数推荐型号。',
+      en: 'Start with four catalogue parameters: theoretical delivery capacity, horizontal conveying distance, vertical conveying height, and max aggregate diameter. Then check power type (diesel or electric), machine dimensions and weight for site access. For smaller jobs, Electric 15, Electric 10 Series, Tractor-Driven 4100 or the rural diesel pump may fit. For medium buildings, compare Electric 40 / 50 and Diesel 40 / 50. For longer reach and higher output, compare Electric 80, Electric 60, HBT8018 and Diesel 120. Share pour volume, pipe layout and aggregate size with Pinjin so the team can recommend a suitable listed model.',
+      zh: '优先对照四类目录参数：理论输送量、水平输送距离、垂直输送高度、最大骨料粒径；再确认动力形式（柴油/电机）、外形尺寸与整机重量是否便于进场。小型工况可看电动15、电动10系列、拖拉机带动4100或农村柴油泵；中型建筑对照电动40 / 50 与柴油40 / 50；更长距离与更高产量对照电动80、电动60、HBT8018 与柴油120。把浇筑量、管路布置与骨料粒径发给品锦，可按已列机型推荐。',
     },
   },
   {
@@ -63,8 +63,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦混凝土泵最大水平输送距离是多少？',
     },
     answer: {
-      en: 'In the current product catalogue, the highest listed horizontal conveying distance is 600 m on the HBT80-18-140 concrete pump. Other models list shorter ranges according to their design, for example LL15 diesel at 50 m, LL28-32 at 100 m, HBT30-37 at 250 m, and HBT45-40 at 300 m. Always select by the specific model page rather than assuming one distance for the whole range.',
-      zh: '当前产品目录中，列出的最大水平输送距离为 HBT80-18-140 的 600 m。其他型号按设计不同，例如 LL15 柴油版 50 m、LL28-32 为 100 m、HBT30-37 为 250 m、HBT45-40 为 300 m。请以具体型号页面参数为准，不要把单一距离套用到全系列。',
+      en: 'In the current product catalogue, the highest listed horizontal conveying distance is 900 m on the Electric 80 concrete pump (HBT80-1816-110). Other models list shorter ranges according to their design, for example Electric 15 at 60–80 m, Diesel 30 at 60 m, and Electric 60 fine-stone at 200 m. Always select by the specific model page rather than assuming one distance for the whole range.',
+      zh: '当前产品目录中，列出的最大水平输送距离为电动80（HBT80-1816-110）的 900 m。其他型号按设计不同，例如电动15 为 60–80 m、柴油30 为 60 m、电动60 细石 200 m。请以具体型号页面参数为准，不要把单一距离套用到全系列。',
     },
   },
   {
@@ -74,8 +74,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦泵的垂直输送高度能到多少？',
     },
     answer: {
-      en: 'The highest listed vertical conveying height in the catalogue is 300 m for HBT80-18-140. Mid and large models such as HBT30-37 list 120 m, while HBT45-40 lists 150 m and HBTT55-50 / LL60-75 list 150–180 m. Compact transfer pumps are lower, for example LL15 motor version at 15 m and Diesel 4100 at 25 m. Match vertical height to building floors or placement elevation before ordering.',
-      zh: '目录中最高列出的垂直输送高度为 HBT80-18-140 的 300 m。中大型如 HBT30-37 为 120 m，HBT45-40 为 150 m，HBTT55-50 / LL60-75 为 150–180 m；紧凑型更低，如 LL15 电机版 15 m、Diesel 4100 为 25 m。下单前请按楼层或浇筑高度匹配型号。',
+      en: 'The highest listed vertical conveying height in the catalogue is 600 m for Electric 60 on fine stone. Diesel 120 lists 500 m. Compact pumps are lower, for example Electric 15 at 15–20 m. Match vertical height to building floors or placement elevation before ordering, and use the figure printed on that model page.',
+      zh: '目录中最高列出的垂直输送高度为电动60细石工况的 600 m。柴油120 为 500 m。紧凑型更低，如电动15 为 15–20 m。下单前请按楼层或浇筑高度匹配型号，并以该型号页面公布值为准。',
     },
   },
   {
@@ -85,8 +85,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '应该选柴油泵还是电机泵？',
     },
     answer: {
-      en: 'Choose by site power availability and mobility. Diesel units suit remote or power-limited sites; for example LL15 diesel lists 28 HP diesel engine power. Motor versions suit stable industrial power supply; LL15 motor lists 15 kW motor power and 380 V rated voltage. Many larger Pinjin pumps are diesel-engine based (models such as 4100/4105/4108/6105/6110 listed in the catalogue). Confirm local fuel and electricity conditions before selection.',
-      zh: '按现场供电与机动性选择。柴油机适合偏远或供电不便工地，如 LL15 柴油版目录列出 28 HP；电机版适合稳定工业用电，LL15 电机版列出 15 kW、额定电压 380 V。多数中大型品锦泵为柴油动力（目录含 4100/4105/4108/6105/6110 等机型标注）。请结合燃油与供电条件选型。',
+      en: 'Choose by site power availability. Diesel trailer or rural diesel units suit remote or power-limited sites; for example Diesel 50 lists a diesel engine and 30 m³/h output. Electric models suit stable industrial power; Electric 40 lists motor power and 21 m³/h. Confirm local fuel and electricity conditions before selection.',
+      zh: '按现场供电选择。柴油拖泵或农村柴油泵适合偏远或供电不便工地，如柴油50列出柴油机与 30 m³/h；电机型适合稳定工业用电，电动40列出电机功率与 21 m³/h。请结合燃油与供电条件选型。',
     },
   },
   {
@@ -96,19 +96,19 @@ export const siteFaqs: FaqItem[] = [
       zh: '哪些品锦型号适合小型混凝土输送工况？',
     },
     answer: {
-      en: 'For compact transfer needs, start with Diesel 4100 (delivery capacity 6–8 m³/h, horizontal 60 m, vertical 25 m), LL15 diesel (5–8 m³/h, horizontal 50 m, vertical 20 m) and LL15 motor (5–8 m³/h, horizontal 30 m, vertical 15 m). ZS22-25 is another practical option with 7–8 m³/h capacity and 60 m horizontal distance. These models are lighter than the large HBT/LL high-capacity pumps and easier to position on constrained sites.',
-      zh: '紧凑输送可优先看 Diesel 4100（输送量 6–8 m³/h，水平 60 m，垂直 25 m）、LL15 柴油版（5–8 m³/h，水平 50 m，垂直 20 m）与 LL15 电机版（5–8 m³/h，水平 30 m，垂直 15 m）。ZS22-25 也较实用（7–8 m³/h，水平 60 m）。相对大型 HBT/LL 机型更轻便，适合场地受限工况。',
+      en: 'For compact transfer needs, start with Electric 15 (8–10 m³/h, 60–80 m horizontal, 450 kg), Electric 10 Series, Tractor-Driven 4100 or the rural diesel pump. These models are lighter than Electric 80 / Diesel 120 class pumps and easier to position on constrained sites.',
+      zh: '紧凑输送可优先看电动15（8–10 m³/h，水平 60–80 m，重量 450 kg）、电动10系列、拖拉机带动4100或农村柴油泵。相对电动80 / 柴油120 一类更轻便，适合场地受限工况。',
     },
   },
   {
-    id: 'hbt80',
+    id: 'electric-80',
     question: {
-      en: 'What is special about the HBT80-18-140 concrete pump?',
-      zh: 'HBT80-18-140 混凝土泵有什么特点？',
+      en: 'What is special about the Electric 80 concrete pump?',
+      zh: '电动80型混凝土泵有什么特点？',
     },
     answer: {
-      en: 'HBT80-18-140 is positioned for long-distance and high-rise conveying among currently listed Pinjin pumps. Key parameters include theoretical delivery capacity 40–75 m³/h, horizontal conveying distance 600 m, vertical conveying height 300 m, max aggregate diameter 6 cm, and a 6-cylinder / 216 kW diesel engine.',
-      zh: '在当前目录机型中，HBT80-18-140 面向长距离与高扬程输送。主要参数包括理论输送量 40–75 m³/h、水平输送距离 600 m、垂直输送高度 300 m、最大骨料粒径 6 cm，以及六缸 / 216 kW 柴油机参数。',
+      en: 'Electric 80 (HBT80-1816-110) is positioned for long-distance conveying among currently listed Pinjin electric pumps. Key parameters include theoretical delivery capacity 60 m³/h, horizontal conveying distance 900 m, vertical conveying height 300 m, outlet pressure 40 MPa, and a 110 kW motor.',
+      zh: '在当前目录电动泵中，电动80（HBT80-1816-110）面向长距离输送。主要参数包括理论输送量 60 m³/h、水平输送距离 900 m、垂直输送高度 300 m、出口压力 40 MPa，以及 110 kW 电机。',
     },
   },
   {
@@ -118,8 +118,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '你们是否生产砂浆喷涂机？',
     },
     answer: {
-      en: 'Yes. Pinjin lists a Diesel Screw Mortar Spraying Machine. Catalogue parameters include power output 15–18 HP, conveying height up to 40 m (depends on materials), horizontal conveying distance up to 60 m (depends on materials), max conveying particle ≤10 mm, spraying pressure 6 MPa, hopper volume 70 L, and machine weight 180 kg. The same product page explicitly states that customization is supported.',
-      zh: '是的。目录含柴油螺杆砂浆喷涂机，参数包括动力输出 15–18 HP、输送高度可达 40 m（根据物料适配）、水平输送距离可达 60 m（根据物料适配）、输送颗粒粒径 ≤10 mm、喷涂压力 6 MPa、料斗容积 70 L、设备重量 180 kg，并明确支持设备定制。',
+      en: 'No. The current website catalogue lists electric concrete pumps, diesel concrete pumps and mixer pumps. A dedicated mortar spraying machine is not published here. If a project needs spraying equipment, contact the Xingtai factory rather than using a pump table.',
+      zh: '否。当前网站目录列出电动混凝土泵、柴油混凝土泵与搅拌泵，未公布独立砂浆喷涂机。若项目需要喷涂设备，请联系邢台工厂，不要套用泵送参数表。',
     },
   },
   {
@@ -129,19 +129,19 @@ export const siteFaqs: FaqItem[] = [
       zh: '你们有哪些石膏喷涂设备？',
     },
     answer: {
-      en: 'Pinjin offers a Fully Automatic Plaster Spraying Machine. Listed specifications include mixer capacity 115 L, power supply 380 V / 50 Hz, main motor power 5 kW, horizontal conveying distance 20 m, vertical conveying height 10 m, max particle size 6 mm, and air compressor power 3 kW. It is intended for plaster spraying finishing work rather than long-distance concrete pumping.',
-      zh: '品锦提供全自动石膏喷涂机。目录参数包括搅拌容积 115 L、供电 380 V / 50 Hz、主电机功率 5 kW、水平输送距离 20 m、垂直输送高度 10 m、最大颗粒粒径 6 mm、空压机功率 3 kW，面向石膏喷涂饰面施工，而非长距离混凝土泵送。',
+      en: 'A dedicated plaster spraying machine is not listed on the current website catalogue. Pinjin’s published models are electric pumps, diesel pumps and mixer pumps. Contact the factory if the job is finishing spraying rather than pipeline pumping.',
+      zh: '当前网站目录未列出独立石膏喷涂机。已公布型号为电动泵、柴油泵与搅拌泵。若工况是饰面喷涂而不是管道泵送，请联系工厂。',
     },
   },
   {
     id: 'customization',
     question: {
-      en: 'Do you support customized concrete pumps or spraying machines?',
-      zh: '是否支持混凝土泵或喷涂机定制？',
+      en: 'Do you support customized concrete pumps or mixer pumps?',
+      zh: '是否支持混凝土泵或搅拌泵定制？',
     },
     answer: {
-      en: 'Customization is confirmed in the product catalogue for the Diesel Screw Mortar Spraying Machine (“Support customization”). For other models, buyers can send project requirements—capacity, conveying distance, power type and site constraints—and Pinjin can discuss whether a listed configuration fits or what adjustment is feasible.',
-      zh: '产品目录明确柴油螺杆砂浆喷涂机“支持设备定制”。其他型号欢迎提供产能、输送距离、动力形式与场地限制等需求，品锦可基于现有机型讨论适配或可行调整。',
+      en: 'Customization starts from a listed electric pump, diesel pump or mixer pump. Buyers can send project requirements—capacity, conveying distance, power type and site constraints—and Pinjin can discuss whether a listed configuration fits or what adjustment is feasible. Unpublished performance figures are not promised.',
+      zh: '定制从已列电动泵、柴油泵或搅拌泵出发。欢迎提供产能、输送距离、动力形式与场地限制等需求，品锦可基于现有机型讨论适配或可行调整。不承诺未公布的性能数字。',
     },
   },
   {
@@ -173,8 +173,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦混凝土泵可输送多大骨料？',
     },
     answer: {
-      en: 'Max aggregate diameter depends on the model. Catalogue examples include 0.5–3 cm on Diesel 4100 and ZS22-25, 2 cm on LL15 and LL28-32, 3 cm on HBT30-37 and HBT45-40, 4 cm on HBTT55-50, 5 cm on LL60-75, and 6 cm on HBT80-18-140. Choosing a pump with insufficient aggregate allowance can cause pipe blockage, so always verify this parameter against your concrete mix.',
-      zh: '最大骨料粒径因型号而异。目录示例：Diesel 4100 与 ZS22-25 为 0.5–3 cm，LL15 与 LL28-32 为 2 cm，HBT30-37 与 HBT45-40 为 3 cm，HBTT55-50 为 4 cm，LL60-75 为 5 cm，HBT80-18-140 为 6 cm。骨料允许值不足易堵管，请务必对照配合比核对该参数。',
+      en: 'Max aggregate diameter depends on the model. Catalogue examples include 1–3 cm on Electric 15, ≤2 cm on Electric 80, and 6 cm and below on Diesel 120 and LZ-80. Choosing a pump with insufficient aggregate allowance can cause pipe blockage, so always verify this parameter against your concrete mix.',
+      zh: '最大骨料粒径因型号而异。目录示例：电动15 为 1–3 cm，电动80 为 ≤2 cm，柴油120 与 LZ-80 为 6 cm 及以下。骨料允许值不足易堵管，请务必对照配合比核对该参数。',
     },
   },
 ];

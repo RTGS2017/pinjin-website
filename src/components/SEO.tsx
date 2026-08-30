@@ -153,7 +153,9 @@ export function buildOrganizationJsonLd() {
     knowsAbout: [
       'Concrete Machinery Manufacturer China',
       'Concrete Pump Manufacturer China',
-      'Concrete Spraying Equipment Manufacturer',
+      'Electric Concrete Pump Manufacturer',
+      'Diesel Concrete Pump Manufacturer',
+      'Concrete Mixer Pump Manufacturer',
       'Concrete Mixing Equipment',
       'Xingjiawan Concrete Machinery',
       'Xingtai Construction Machinery Factory',
@@ -171,7 +173,7 @@ export function buildOrganizationJsonLd() {
       addressCountry: seoConfig.organization.address.addressCountry,
     },
     areaServed: 'Worldwide',
-    // 四个条目是产品分类，不是单品。禁止写成 Product（会触发 GSC
+    // 三个条目是产品分类，不是单品。禁止写成 Product（会触发 GSC
     // “Either offers, review, or aggregateRating should be specified”）。
     // 也不在此虚构 price / review / aggregateRating。
     hasOfferCatalog: {

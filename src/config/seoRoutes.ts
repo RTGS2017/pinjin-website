@@ -8,9 +8,9 @@
 
 export const canonicalHubPaths = {
   products: '/products',
-  concretePumps: '/products/concrete-pumps',
-  sprayingMachines: '/products/spraying-machines',
-  mixingPlant: '/products/material-handling',
+  concretePumps: '/products/electric-concrete-pumps',
+  dieselPumps: '/products/diesel-concrete-pumps',
+  mixerPumps: '/products/mixer-pumps',
   customMachinery: '/products/custom-machinery',
   factory: '/factory',
   cases: '/solutions',

@@ -7,13 +7,13 @@ import {
   Cog,
   Factory,
   FileText,
-  Forklift,
+  Fuel,
   HelpCircle,
   Layers,
   ListChecks,
   Mail,
   Newspaper,
-  SprayCan,
+  Zap,
 } from 'lucide-react';
 import {
   companyLinks,
@@ -41,10 +41,9 @@ interface MegaMenuProps {
 }
 
 const categoryIcons: Record<ProductCategory, LucideIcon> = {
-  'concrete-pump': Layers,
-  'spraying-machine': SprayCan,
-  'material-handling': Forklift,
-  'rebar-equipment': Cog,
+  'electric-concrete-pump': Zap,
+  'diesel-concrete-pump': Fuel,
+  'mixer-pump': Layers,
 };
 
 const technicalIcons: Record<(typeof resourcesTechnicalLinks)[number]['megaKey'], LucideIcon> = {

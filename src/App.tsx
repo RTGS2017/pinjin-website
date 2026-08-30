@@ -47,20 +47,32 @@ export default function App() {
               element={<LegacyCategoryRedirect />}
             />
             <Route
-              path="products/concrete-pumps"
+              path="products/electric-concrete-pumps"
               element={<ProductCategoryPage />}
+            />
+            <Route
+              path="products/diesel-concrete-pumps"
+              element={<ProductCategoryPage />}
+            />
+            <Route
+              path="products/mixer-pumps"
+              element={<ProductCategoryPage />}
+            />
+            <Route
+              path="products/concrete-pumps"
+              element={<LegacyConcretePumpHubRedirect />}
             />
             <Route
               path="products/spraying-machines"
-              element={<ProductCategoryPage />}
+              element={<LegacySprayingHubRedirect />}
             />
             <Route
               path="products/material-handling"
-              element={<ProductCategoryPage />}
+              element={<LegacySprayingHubRedirect />}
             />
             <Route
               path="products/rebar-equipment"
-              element={<ProductCategoryPage />}
+              element={<LegacySprayingHubRedirect />}
             />
             <Route
               path="products/custom-machinery"

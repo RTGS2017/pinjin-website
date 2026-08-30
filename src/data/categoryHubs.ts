@@ -17,165 +17,131 @@ export interface CategoryHub {
   faqs: CategoryHubFaq[];
 }
 
+const madeInFaq = {
+  question: L(
+    'Are these machines made in China?',
+    '这些设备是否在中国制造？',
+  ),
+  answer: L(
+    'Yes. Hebei Pinjin Machinery manufactures the listed models in Xingtai, Hebei, China.',
+    '是。河北品锦机械在中国河北邢台制造目录所列机型。',
+  ),
+};
+
+const customFaq = {
+  question: L('Can specifications be customized?', '规格能否定制？'),
+  answer: L(
+    'After confirming specifications against a listed model, customized production can be arranged. This site does not publish a fixed number of production days.',
+    '对照已列机型确认规格后，可安排定制生产。本站不公布固定生产天数。',
+  ),
+};
+
 export const categoryHubs: Record<ProductCategory, CategoryHub> = {
-  'concrete-pump': {
-    h1: L('Concrete Pump Manufacturer', '混凝土泵厂家'),
+  'electric-concrete-pump': {
+    h1: L('Electric Concrete Pump Manufacturer', '电动混凝土泵厂家'),
     intro: L(
-      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a concrete pump manufacturer in China. Catalogue models cover compact transfer pumps through high-capacity trailer pumps, with published delivery capacity, conveying distance and aggregate size. The factory is in Renze Industrial Park, Xingtai, Hebei, in the Xingjiawan concrete machinery manufacturing area.',
-      '河北品锦机械制造有限公司是中国混凝土泵制造商。目录机型覆盖紧凑输送泵至大排量拖泵，并公布输送量、输送距离与骨料粒径。工厂位于河北省邢台市任泽工业园区，地处邢家湾混凝土机械制造集聚区。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is an electric concrete pump manufacturer in Xingtai, Hebei, China. Catalogue models cover compact Electric 10 / 15 units through Electric 80 and HBT80 trailer pumps, with published motor power, output, pressure and conveying distance.',
+      '河北品锦机械制造有限公司是中国河北邢台的电动混凝土泵厂家。目录覆盖紧凑型电动10/15至电动80与HBT80拖泵，并公布电机功率、输送量、压力与输送距离。',
     ),
     applications: [
-      L('Building construction concrete placement', '建筑施工混凝土浇筑'),
-      L('Infrastructure pours with longer pipelines', '较长管路的基建浇筑'),
-      L('Secondary structure / fine-stone pumping where listed', '目录所列二次结构 / 细石泵送'),
+      L('Building construction with grid power', '有电网供电的建筑施工'),
+      L('Fine-stone and high-rise pipeline pumping', '细石与高层管道泵送'),
+      L('Sites matching listed kW, m³/h and distance', '对照目录功率、输送量与距离的工地'),
     ],
     advantages: [
-      L('Factory-direct concrete pump manufacturer in Xingtai, Hebei', '河北邢台工厂直供混凝土泵厂家'),
-      L('Published capacity and conveying parameters on each model page', '各型号页公布产能与输送参数'),
-      L('OEM specification discussion after catalogue matching', '对照目录后可沟通 OEM 规格'),
+      L('Factory-direct electric concrete pump manufacturer in Xingtai', '邢台工厂直供电动混凝土泵厂家'),
+      L('Published motor power, output and conveying tables', '公开电机功率、输送量与输送距离表'),
+      L('OEM discussion after matching a listed model', '对照已列机型后沟通 OEM'),
     ],
     keywords: [
-      'Concrete Pump Manufacturer China',
-      'concrete pump factory China',
-      'Xingjiawan concrete machinery',
+      'Electric Concrete Pump Manufacturer China',
+      'electric trailer concrete pump factory',
+      'Xingtai concrete pump manufacturer',
     ],
     faqs: [
+      madeInFaq,
       {
         question: L(
-          'Are these concrete pumps made in China?',
-          '这些混凝土泵是否在中国制造？',
+          'How do I choose an electric concrete pump?',
+          '如何选择电动混凝土泵？',
         ),
         answer: L(
-          'Yes. Hebei Pinjin Machinery manufactures concrete pumps in Xingtai, Hebei, China.',
-          '是。河北品锦机械在中国河北邢台制造混凝土泵。',
+          'Match motor power, theoretical output, outlet pressure and horizontal/vertical distance to the catalogue table, then contact the engineering team.',
+          '按目录表对照电机功率、理论输送量、出口压力与水平/垂直距离，再联系工程团队。',
         ),
       },
-      {
-        question: L(
-          'How should I choose a concrete pump model?',
-          '如何选择混凝土泵型号？',
-        ),
-        answer: L(
-          'Match delivery capacity, horizontal/vertical distance, aggregate size and power type to the catalogue table on each product page, then contact the engineering team.',
-          '按各产品页目录表对照输送量、水平/垂直距离、骨料粒径与动力形式，再联系工程团队。',
-        ),
-      },
-      {
-        question: L(
-          'Can specifications be customized?',
-          '规格能否定制？',
-        ),
-        answer: L(
-          'After confirming specifications against a listed model, customized production can be arranged quickly. This site does not publish a fixed number of production days.',
-          '对照已列机型确认规格后，可尽快安排定制生产。本站不公布固定生产天数。',
-        ),
-      },
+      customFaq,
     ],
   },
-  'spraying-machine': {
-    h1: L('Concrete Spraying Equipment Manufacturer', '混凝土喷涂设备厂家'),
+  'diesel-concrete-pump': {
+    h1: L('Diesel Concrete Pump Manufacturer', '柴油混凝土泵厂家'),
     intro: L(
-      'Pinjin is a concrete spraying equipment manufacturer listing mortar, plaster, plunger and concrete spraying machines with published pressure, flow and distance. Equipment is produced at the Xingtai factory as factory-direct OEM machinery.',
-      '品锦是混凝土喷涂设备制造商，目录含砂浆、石膏、柱塞与混凝土喷浆机，并公布压力、流量与距离。设备在邢台工厂生产，属工厂直供 OEM 机械。',
+      'Pinjin diesel concrete pumps are built in Xingtai for sites without stable grid power. The catalogue includes Diesel 30–120 trailer pumps, LZ-60 / LZ-80, tractor-driven 4100 units and compact rural diesel pumps, with published engine power, output and conveying distance.',
+      '品锦柴油混凝土泵在邢台制造，面向电网供电不便的工地。目录含柴油30–120拖泵、LZ-60 / LZ-80、拖拉机带动4100与农村紧凑柴油泵，并公布发动机功率、输送量与输送距离。',
     ),
     applications: [
-      L('Mortar spraying on construction finishing', '建筑饰面砂浆喷涂'),
-      L('Plaster spraying', '石膏喷涂'),
-      L('Concrete spraying where a spraying machine is listed', '目录所列混凝土喷浆'),
+      L('Rural and self-built house pouring', '农村与自建房浇筑'),
+      L('Infrastructure jobs without reliable electricity', '供电不稳的基建工程'),
+      L('Trailer-mounted diesel pumping', '拖式柴油泵送'),
     ],
     advantages: [
-      L('Separate spraying line from long-distance concrete pumps', '喷涂设备与长距离混凝土泵分开选型'),
-      L('Catalogue parameters for pressure, flow and conveying distance', '目录公布压力、流量与输送距离'),
-      L('Customization where the catalogue explicitly supports it', '仅在目录明确支持处提供定制'),
+      L('Diesel trailer pumps from a Xingtai source manufacturer', '邢台源头厂家柴油拖泵'),
+      L('Published engine kW, output and aggregate size', '公开发动机功率、输送量与骨料粒径'),
+      L('Compact rural models listed separately from high-output LZ / 120 series', '农村紧凑机型与大排量 LZ / 120 系列分开列出'),
     ],
     keywords: [
-      'Concrete Spraying Equipment Manufacturer',
-      'mortar spraying machine manufacturer',
-      'OEM Concrete Equipment Manufacturer',
+      'Diesel Concrete Pump Manufacturer China',
+      'diesel trailer concrete pump factory',
+      'rural concrete pump supplier China',
     ],
     faqs: [
+      madeInFaq,
       {
         question: L(
-          'Is a spraying machine the same as a concrete pump?',
-          '喷涂机与混凝土泵是否同一类设备？',
+          'When should I choose diesel instead of electric?',
+          '什么时候选柴油而不是电动？',
         ),
         answer: L(
-          'No. Spraying machines are selected for mortar, plaster or spray applications. Long-distance concrete placement uses concrete pump models.',
-          '不是。喷涂机用于砂浆、石膏或喷浆；长距离浇筑应选混凝土泵型号。',
+          'Choose a diesel model when the site has no stable grid supply. Match engine power and conveying distance on the product page, then inquire.',
+          '工地没有稳定电网时应选柴油机型。对照产品页发动机功率与输送距离后再询盘。',
         ),
       },
-      {
-        question: L(
-          'Which spraying models support customization?',
-          '哪些喷涂机型支持定制？',
-        ),
-        answer: L(
-          'The product catalogue confirms customization on listed items such as the diesel screw mortar spraying machine. Other models are reviewed case by case.',
-          '产品目录明确柴油螺杆砂浆喷涂机支持定制。其他型号按项目评估。',
-        ),
-      },
+      customFaq,
     ],
   },
-  'material-handling': {
-    h1: L('Material Handling Equipment Manufacturer', '物料搬运设备厂家'),
+  'mixer-pump': {
+    h1: L('Concrete Mixer Pump Manufacturer', '混凝土搅拌泵厂家'),
     intro: L(
-      'Material handling equipment from Hebei Pinjin Machinery includes spiral feeders and four-wheel-drive forklift loaders with published lift and drive parameters for construction-site feeding and handling.',
-      '河北品锦机械的物料搬运设备包括螺旋给料机与四驱叉车装载机，公布举升与驱动参数，用于工地给料与搬运。',
+      'Pinjin lists integrated mixer pumps that mix and convey concrete in one machine — electric and diesel versions — manufactured in Xingtai, Hebei. This is not a concrete mixing plant (batching plant) product line.',
+      '品锦目录提供搅拌与泵送一体机（电动与柴油），在河北邢台制造。这不是混凝土搅拌站产品线。',
     ),
     applications: [
-      L('Site material feeding with spiral feeders', '螺旋给料机现场给料'),
-      L('Clamp or bucket loader handling', '夹抱或铲斗装载搬运'),
+      L('Sites that need mixing and pumping together', '需要搅拌与泵送一体的工地'),
+      L('Rural and compact pours within listed output', '目录输送量范围内的农村与紧凑浇筑'),
     ],
     advantages: [
-      L('Factory-direct handling equipment from Xingtai, Hebei', '河北邢台工厂直供搬运设备'),
-      L('Published lift height and drive parameters', '公布举升高度与驱动参数'),
-      L('Spiral feeder rated head is customizable per catalogue', '螺旋给料机额定扬程按目录可定制'),
+      L('Mixer pump, not a mixing plant', '搅拌泵，不是搅拌站'),
+      L('Published main/mixer motor or diesel kW and output', '公开主电机/搅拌电机或柴油功率与输送量'),
+      L('Factory-direct OEM from Xingtai', '邢台工厂直供 OEM'),
     ],
     keywords: [
-      'Xingtai Construction Machinery Factory',
-      'OEM Concrete Equipment Manufacturer',
+      'Concrete Mixer Pump Manufacturer China',
+      'integrated mixer pump factory',
+      'Xingtai concrete machinery manufacturer',
     ],
     faqs: [
+      madeInFaq,
       {
         question: L(
-          'Can feeder head be customized?',
-          '给料机扬程能否定制？',
+          'Is a mixer pump the same as a mixing plant?',
+          '搅拌泵是不是搅拌站？',
         ),
         answer: L(
-          'The catalogue states that spiral feeder rated head is customizable. Confirm the required head with the engineering team.',
-          '目录标明螺旋给料机额定扬程可定制。请与工程团队确认所需扬程。',
+          'No. A mixer pump is a mobile machine that mixes and pumps. Pinjin does not list a concrete batching plant on this catalogue.',
+          '不是。搅拌泵是移动式搅拌+泵送设备。本品锦目录不含混凝土搅拌站。',
         ),
       },
-    ],
-  },
-  'rebar-equipment': {
-    h1: L('Rebar Processing Equipment Manufacturer', '钢筋加工设备厂家'),
-    intro: L(
-      'Pinjin lists CNC steel bar bending equipment for stirrup processing, manufactured at the Xingtai construction machinery factory.',
-      '品锦目录提供数控钢筋弯箍设备，用于箍筋加工，由邢台工程机械工厂制造。',
-    ),
-    applications: [
-      L('Stirrup processing for reinforced concrete work', '钢筋混凝土工程箍筋加工'),
-    ],
-    advantages: [
-      L('Factory-direct rebar processing equipment', '工厂直供钢筋加工设备'),
-      L('Published CNC bending model on the product page', '产品页公布数控弯箍型号'),
-    ],
-    keywords: [
-      'Xingtai Construction Machinery Factory',
-      'OEM Concrete Equipment Manufacturer',
-    ],
-    faqs: [
-      {
-        question: L(
-          'Is rebar equipment made at the same factory?',
-          '钢筋设备是否同一工厂生产？',
-        ),
-        answer: L(
-          'Yes. It is listed in the Pinjin catalogue and manufactured by Hebei Pinjin Machinery in Xingtai, Hebei.',
-          '是。该设备列入品锦目录，由河北品锦机械在河北邢台制造。',
-        ),
-      },
+      customFaq,
     ],
   },
 };

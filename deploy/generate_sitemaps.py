@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
-"""Generate public/sitemap.xml and public/image-sitemap.xml.
+"""Generate sitemap index + page/image sitemaps.
+
+Layout (information architecture, not GPT file order):
+  sitemap.xml            sitemapindex
+  sitemap-pages.xml      canonical pages, grouped by hub then featured then category
+  image-sitemap.xml      images attached only to pages that actually show them
 
 Site origin is read once from (in order):
   1. PINJIN_SITE_URL env
   2. VITE_SITE_URL in pinjin-website/.env
-  3. placeholder https://www.example.com
+  3. https://pinjinpump.com
 
-Also rewrites public/robots.txt Sitemap lines to the same origin.
+Also rewrites public/robots.txt Sitemap line to the index.
 """
 from __future__ import annotations
 
@@ -17,7 +22,6 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_BASE = "https://pinjinpump.com"
 
-# 与 src/i18n/config.ts 保持一致；新增语言时同步改这里
 LANGS = ["en", "zh", "pt", "ar"]
 HREFLANG = {
     "en": "en",
@@ -26,66 +30,85 @@ HREFLANG = {
     "ar": "ar",
 }
 
-SLUGS = [
-    "diesel-4100-transfer-pump",
-    "ll15-diesel-transfer-pump",
-    "ll15-electric-transfer-pump",
-    "zs22-25-concrete-pump",
-    "ll28-32-concrete-pump",
-    "diesel-screw-mortar-spraying-machine",
-    "hbt30-37-concrete-pump",
-    "hbt45-40-concrete-pump",
-    "automatic-plaster-spraying-machine",
-    "hbtt55-50-concrete-pump",
-    "ll60-75-concrete-pump",
-    "hbt80-18-140-concrete-pump",
-    "hbtb016-110es-spiral-feeder",
-    "4102-diesel-four-cylinder-inclined-pump",
-    "type-311-spraying-machine",
-    "type-511-spraying-machine",
-    "double-cylinder-plunger-spraying-machine",
-    "concrete-spraying-machine",
-    "forklift-loader-clamp-type",
-    "forklift-loader-bucket-type",
-    "cnc-steel-bar-bending-machine",
-    "13-spiral-feeder",
+FEATURED = [
+    "electric-40-concrete-pump",
+    "diesel-50-concrete-pump",
+    "electric-80-concrete-pump",
+    "integrated-mixer-pump",
+    "electric-15-concrete-pump",
+]
+
+ELECTRIC = [
+    "electric-10-series-concrete-pump",
+    "electric-15-concrete-pump",
+    "electric-20-concrete-pump",
+    "electric-30-concrete-pump",
+    "electric-low-pressure-40-concrete-pump",
+    "electric-40-concrete-pump",
+    "electric-50-concrete-pump",
+    "electric-low-pressure-60-concrete-pump",
+    "electric-60-concrete-pump",
+    "electric-80-concrete-pump",
+    "hbt80-16-concrete-pump",
+    "hbt8018-concrete-pump",
+]
+
+DIESEL = [
+    "tractor-4100-concrete-pump",
+    "rural-diesel-concrete-pump",
+    "diesel-30-concrete-pump",
+    "diesel-40-concrete-pump",
+    "diesel-50-concrete-pump",
+    "diesel-60-concrete-pump",
+    "lz-60-diesel-concrete-pump",
+    "lz-80-diesel-concrete-pump",
+    "diesel-120-concrete-pump",
+]
+
+MIXER = [
+    "integrated-mixer-pump",
+    "diesel-mixer-integrated-pump",
 ]
 
 NAMES = {
-    "diesel-4100-transfer-pump": "Diesel 4100 Transfer Pump",
-    "ll15-diesel-transfer-pump": "LL15 Diesel Version Transfer Pump",
-    "ll15-electric-transfer-pump": "LL15 Motor Version Transfer Pump",
-    "zs22-25-concrete-pump": "ZS22-25 Concrete Pump",
-    "ll28-32-concrete-pump": "LL28-32 Concrete Pump",
-    "diesel-screw-mortar-spraying-machine": "Diesel Screw Mortar Spraying Machine",
-    "hbt30-37-concrete-pump": "HBT30-37 Concrete Pump",
-    "hbt45-40-concrete-pump": "HBT45-40 Concrete Pump",
-    "automatic-plaster-spraying-machine": "Fully Automatic Plaster Spraying Machine",
-    "hbtt55-50-concrete-pump": "HBTT55-50 Concrete Pump",
-    "ll60-75-concrete-pump": "LL60-75 Concrete Pump",
-    "hbt80-18-140-concrete-pump": "HBT80-18-140 Concrete Pump",
-    "hbtb016-110es-spiral-feeder": "HBTB016-110ES Spiral Feeder",
-    "4102-diesel-four-cylinder-inclined-pump": "4102 Diesel Four-cylinder Inclined Pump",
-    "type-311-spraying-machine": "Type 311 Spraying Machine",
-    "type-511-spraying-machine": "Type 511 Spraying Machine",
-    "double-cylinder-plunger-spraying-machine": "Double Cylinder Plunger Type Spraying Machine",
-    "concrete-spraying-machine": "Concrete Spraying Machine",
-    "forklift-loader-clamp-type": "Four-wheel Drive Forklift Loader - Clamp Type",
-    "forklift-loader-bucket-type": "Four-wheel Drive Forklift Loader - Bucket Type",
-    "cnc-steel-bar-bending-machine": "Fully Automatic CNC Steel Bar Bending Machine",
-    "13-spiral-feeder": "13 Spiral Feeder",
+    "electric-20-concrete-pump": "Electric 20 Concrete Pump",
+    "electric-30-concrete-pump": "Electric 30 Concrete Pump",
+    "electric-low-pressure-40-concrete-pump": "Electric Low Pressure 40 Concrete Pump",
+    "electric-40-concrete-pump": "Electric 40 Concrete Pump",
+    "electric-80-concrete-pump": "Electric 80 Concrete Pump",
+    "diesel-30-concrete-pump": "Diesel 30 Concrete Pump",
+    "diesel-40-concrete-pump": "Diesel 40 Concrete Pump",
+    "diesel-50-concrete-pump": "Diesel 50 Concrete Pump",
+    "diesel-60-concrete-pump": "Diesel 60 Concrete Pump",
+    "electric-10-series-concrete-pump": "Electric 10 Series Concrete Pump",
+    "integrated-mixer-pump": "Integrated Mixer Pump",
+    "hbt8018-concrete-pump": "HBT8018 Concrete Pump",
+    "hbt80-16-concrete-pump": "HBT80-16 Concrete Pump",
+    "lz-60-diesel-concrete-pump": "LZ-60 Diesel Concrete Pump",
+    "lz-80-diesel-concrete-pump": "LZ-80 Diesel Concrete Pump",
+    "diesel-120-concrete-pump": "Diesel 120 Concrete Pump",
+    "diesel-mixer-integrated-pump": "Diesel Mixer Integrated Pump",
+    "tractor-4100-concrete-pump": "Tractor-Driven 4100 Concrete Pump",
+    "electric-15-concrete-pump": "Electric 15 Concrete Pump",
+    "rural-diesel-concrete-pump": "Rural Diesel Concrete Pump",
+    "electric-50-concrete-pump": "Electric 50 Concrete Pump",
+    "electric-low-pressure-60-concrete-pump": "Electric Low Pressure 60 Concrete Pump",
+    "electric-60-concrete-pump": "Electric 60 Concrete Pump",
 }
 
-CATS = [
-    "concrete-pumps",
-    "spraying-machines",
-    "material-handling",
-    "rebar-equipment",
-    "custom-machinery",
+CATEGORY_HUBS = [
+    "electric-concrete-pumps",
+    "diesel-concrete-pumps",
+    "mixer-pumps",
 ]
 
-# 与 src/data/blog.ts + knowledgeArticles.ts 的 slug 保持一致。
-BLOG_SLUGS: list[str] = [
+HUB_IMAGE_SLUG = {
+    "electric-concrete-pumps": "electric-40-concrete-pump",
+    "diesel-concrete-pumps": "diesel-50-concrete-pump",
+    "mixer-pumps": "integrated-mixer-pump",
+}
+
+BLOG_SLUGS = [
     "what-is-a-concrete-pump",
     "concrete-pump-types",
     "concrete-pump-maintenance-guide",
@@ -96,11 +119,11 @@ BLOG_SLUGS: list[str] = [
 SOLUTION_SLUGS = [
     "construction",
     "infrastructure",
-    "spraying",
     "industrial-projects",
+    "spraying",
 ]
 
-LASTMOD = "2026-08-25"
+LASTMOD = "2026-08-30"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "
@@ -113,6 +136,26 @@ HERO_IMAGE = (
     "Hebei Pinjin Machinery factory exterior in Xingtai China",
     "Hebei Pinjin Machinery factory exterior in Xingtai Hebei China — concrete pump manufacturer and construction equipment supplier",
 )
+
+# 首页工厂能力画廊 4 张（与 src/data/gallery.ts factoryShowcase 一致）
+HOME_FACTORY_IMAGES = [
+    (
+        "pinjin-production-workshop.webp",
+        "Production workshop of Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-machinery-assembly-area.webp",
+        "Equipment assembly workshop of Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-equipment-storage.webp",
+        "Finished construction machinery at Hebei Pinjin Machinery",
+    ),
+    (
+        "pinjin-xingjiawan-concrete-machinery-factory.webp",
+        "Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China",
+    ),
+]
 
 FACTORY_IMAGES = [
     (
@@ -177,19 +220,68 @@ APPLICATION_IMAGES = [
         ],
     ),
     (
+        "industrial-projects",
+        [
+            (
+                "pinjin-concrete-pump-construction-site.webp",
+                "Hebei Pinjin compact concrete pump on a construction site with operators",
+            ),
+        ],
+    ),
+    (
         "spraying",
         [
             (
                 "pinjin-mortar-spraying-machine-building-interior.webp",
-                "Mortar spraying machine in a building interior finishing job — Hebei Pinjin Machinery",
+                "Construction finishing spraying work — industry application context, Hebei Pinjin Machinery",
             ),
             (
                 "pinjin-hydraulic-mortar-spraying-machine-site.webp",
-                "Hydraulic mortar spraying machine operating on an outdoor construction site — Hebei Pinjin Machinery",
+                "Outdoor construction finishing spraying — industry application context, Hebei Pinjin Machinery",
             ),
         ],
     ),
 ]
+
+
+def ordered_product_slugs() -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for slug in FEATURED + ELECTRIC + DIESEL + MIXER:
+        if slug in seen:
+            continue
+        seen.add(slug)
+        out.append(slug)
+    missing = set(NAMES) - seen
+    if missing:
+        raise SystemExit(f"sitemap product list missing slugs: {sorted(missing)}")
+    extra = seen - set(NAMES)
+    if extra:
+        raise SystemExit(f"sitemap product list has unknown slugs: {sorted(extra)}")
+    return out
+
+
+def page_paths() -> list[str]:
+    slugs = ordered_product_slugs()
+    return (
+        [
+            "/",
+            "/products",
+            *[f"/products/{hub}" for hub in CATEGORY_HUBS],
+            "/products/custom-machinery",
+            *[f"/products/{s}" for s in slugs],
+            "/product-selection-guide",
+            "/solutions",
+            *[f"/solutions/{s}" for s in SOLUTION_SLUGS],
+            "/blog",
+            *[f"/blog/{s}" for s in BLOG_SLUGS],
+            "/resources",
+            "/factory",
+            "/about",
+            "/faq",
+            "/contact",
+        ]
+    )
 
 
 def _read_vite_site_url() -> str | None:
@@ -232,7 +324,6 @@ def write_robots(base: str) -> None:
         "Disallow: /dev/\n"
         "\n"
         f"Sitemap: {base}/sitemap.xml\n"
-        f"Sitemap: {base}/image-sitemap.xml\n"
     )
     (ROOT / "robots.txt").write_text(text, encoding="utf-8")
 
@@ -261,212 +352,281 @@ def image_nodes(loc: str, title: str, alt: str | None = None) -> list[str]:
 
 
 def page_meta(rest: str) -> tuple[str, str]:
-    """Return (changefreq, priority) for a language-stripped path."""
     if rest == "/":
         return "weekly", "1.0"
-    if rest in {f"/products/{c}" for c in CATS} or rest == "/factory":
+    if rest in ("/products", "/factory"):
         return "weekly", "0.9"
-    if rest in ("/products", "/solutions"):
+    if rest in {f"/products/{c}" for c in CATEGORY_HUBS}:
         return "weekly", "0.9"
-    if rest.startswith("/solutions/"):
-        return "monthly", "0.8"
-    if rest.startswith("/products/"):
-        return "monthly", "0.85"
+    if rest in {f"/products/{s}" for s in FEATURED}:
+        return "weekly", "0.9"
+    if rest.startswith("/products/") and rest != "/products/custom-machinery":
+        return "weekly", "0.8"
+    if rest in (
+        "/products/custom-machinery",
+        "/product-selection-guide",
+        "/contact",
+        "/solutions",
+    ):
+        return "weekly", "0.8"
+    if rest in ("/solutions/construction", "/solutions/infrastructure"):
+        return "monthly", "0.75"
+    if rest == "/solutions/industrial-projects":
+        return "monthly", "0.7"
+    if rest == "/solutions/spraying":
+        return "monthly", "0.55"
     if rest == "/blog":
         return "weekly", "0.8"
     if rest.startswith("/blog/"):
         return "monthly", "0.7"
-    if rest in ("/about", "/contact", "/resources"):
-        return "monthly", "0.8"
+    if rest in ("/about", "/resources", "/faq"):
+        return "monthly", "0.75"
     return "monthly", "0.7"
 
 
-def main() -> None:
-    base = resolve_base()
-    page_paths = [
-        "/",
-        "/products",
-        "/product-selection-guide",
-        "/about",
-        "/factory",
-        "/solutions",
-        "/resources",
-        "/faq",
-        "/contact",
-        "/blog",
-    ]
-    page_paths += [f"/products/{c}" for c in CATS]
-    page_paths += [f"/products/{s}" for s in SLUGS]
-    page_paths += [f"/solutions/{s}" for s in SOLUTION_SLUGS]
-    page_paths += [f"/blog/{s}" for s in BLOG_SLUGS]
+def loc_for(lang: str, rest: str) -> str:
+    return f"/{lang}" if rest == "/" else f"/{lang}{rest}"
 
-    urls: list[str] = []
-    for lang in LANGS:
-        for p in page_paths:
-            if p == "/":
-                urls.append(f"/{lang}")
-            else:
-                urls.append(f"/{lang}{p}")
 
+def write_pages_sitemap(base: str, paths: list[str]) -> int:
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
         '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
     ]
-    for u in urls:
-        # priority by page type (strip /{lang})
-        parts = u.strip("/").split("/", 1)
-        rest = f"/{parts[1]}" if len(parts) > 1 else "/"
-        if rest == "/":
-            freq, pri = page_meta("/")
-        else:
-            freq, pri = page_meta(rest)
-        lines += [
-            "  <url>",
-            f"    <loc>{base}{u}</loc>",
-        ]
+    count = 0
+    for rest in paths:
+        freq, pri = page_meta(rest)
         for lang in LANGS:
-            alt = f"/{lang}" if rest == "/" else f"/{lang}{rest}"
-            hreflang = HREFLANG.get(lang, lang)
+            loc = loc_for(lang, rest)
+            lines += [
+                "  <url>",
+                f"    <loc>{base}{loc}</loc>",
+            ]
+            for alt_lang in LANGS:
+                alt = loc_for(alt_lang, rest)
+                hreflang = HREFLANG.get(alt_lang, alt_lang)
+                lines.append(
+                    f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{base}{alt}" />'
+                )
             lines.append(
-                f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{base}{alt}" />'
+                f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{loc_for("en", rest)}" />'
             )
-        lines.append(
-            f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}/en{"" if rest == "/" else rest}" />'
-        )
-        lines += [
-            f"    <lastmod>{LASTMOD}</lastmod>",
-            f"    <changefreq>{freq}</changefreq>",
-            f"    <priority>{pri}</priority>",
-            "  </url>",
-        ]
+            lines += [
+                f"    <lastmod>{LASTMOD}</lastmod>",
+                f"    <changefreq>{freq}</changefreq>",
+                f"    <priority>{pri}</priority>",
+                "  </url>",
+            ]
+            count += 1
     lines.append("</urlset>")
-    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (ROOT / "sitemap-pages.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return count
 
-    img_lines = [
+
+def product_image_block(base: str, lang: str, slug: str) -> list[str]:
+    main_img = ROOT / "images" / "products" / slug / "main.webp"
+    if not main_img.exists():
+        return []
+    n = NAMES[slug]
+    alt = f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
+    lines = [
+        "  <url>",
+        f"    <loc>{base}/{lang}/products/{slug}</loc>",
+        f"    <lastmod>{LASTMOD}</lastmod>",
+    ]
+    lines += image_nodes(
+        f"{base}/images/products/{slug}/main.webp",
+        f"{n} manufactured by Hebei Pinjin Machinery",
+        alt,
+    )
+    folder = ROOT / "images" / "products" / slug
+    extras = [
+        ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery"),
+        ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery"),
+        ("detail-1.webp", f"{n} product detail — Hebei Pinjin Machinery"),
+    ]
+    for fname, title in extras:
+        if not (folder / fname).exists():
+            continue
+        lines += image_nodes(
+            f"{base}/images/products/{slug}/{fname}",
+            title,
+            title,
+        )
+    lines.append("  </url>")
+    return lines
+
+
+def write_image_sitemap(base: str, slugs: list[str]) -> int:
+    lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
         '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
     ]
-    factory_exterior_alt = (
-        "Concrete machinery manufacturing factory in Xingtai Hebei China"
-    )
+    url_count = 0
     for lang in LANGS:
-        img_lines += [
+        lines += [
             "  <url>",
             f"    <loc>{base}/{lang}</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
-        img_lines += image_nodes(
+        lines += image_nodes(
             f"{base}/images/{HERO_IMAGE[0]}",
             HERO_IMAGE[1],
             HERO_IMAGE[2],
         )
-        img_lines += image_nodes(
-            f"{base}/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp",
-            "Hebei Pinjin Machinery Manufacturing Co., Ltd. factory exterior",
-            factory_exterior_alt,
-        )
-        for fname, title in FACTORY_IMAGES:
-            img_lines += image_nodes(
+        for slug in FEATURED:
+            n = NAMES[slug]
+            lines += image_nodes(
+                f"{base}/images/products/{slug}/main.webp",
+                f"{n} manufactured by Hebei Pinjin Machinery",
+                f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+            )
+        for fname, title in HOME_FACTORY_IMAGES:
+            lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
                 title,
             )
         for _slug, images in APPLICATION_IMAGES:
-            for fname, title in images:
-                img_lines += image_nodes(
-                    f"{base}/images/applications/{fname}",
-                    title,
-                    title,
-                )
-        img_lines.append("  </url>")
-        img_lines += [
+            hero = images[0]
+            lines += image_nodes(
+                f"{base}/images/applications/{hero[0]}",
+                hero[1],
+                hero[1],
+            )
+        lines.append("  </url>")
+        url_count += 1
+
+        lines += [
+            "  <url>",
+            f"    <loc>{base}/{lang}/products</loc>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
+        ]
+        for slug in FEATURED:
+            n = NAMES[slug]
+            lines += image_nodes(
+                f"{base}/images/products/{slug}/main.webp",
+                f"{n} manufactured by Hebei Pinjin Machinery",
+                f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+            )
+        lines.append("  </url>")
+        url_count += 1
+
+        for hub, slug in HUB_IMAGE_SLUG.items():
+            n = NAMES[slug]
+            lines += [
+                "  <url>",
+                f"    <loc>{base}/{lang}/products/{hub}</loc>",
+                f"    <lastmod>{LASTMOD}</lastmod>",
+            ]
+            lines += image_nodes(
+                f"{base}/images/products/{slug}/main.webp",
+                f"{n} manufactured by Hebei Pinjin Machinery",
+                f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+            )
+            lines.append("  </url>")
+            url_count += 1
+
+        lines += [
             "  <url>",
             f"    <loc>{base}/{lang}/about</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in FACTORY_IMAGES:
-            img_lines += image_nodes(
+            lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
                 title,
             )
-        img_lines.append("  </url>")
-        img_lines += [
+        lines.append("  </url>")
+        url_count += 1
+
+        lines += [
             "  <url>",
             f"    <loc>{base}/{lang}/factory</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in FACTORY_IMAGES:
-            img_lines += image_nodes(
+            lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
                 title,
             )
-        img_lines.append("  </url>")
-        img_lines += [
+        lines.append("  </url>")
+        url_count += 1
+
+        lines += [
             "  <url>",
             f"    <loc>{base}/{lang}/products/custom-machinery</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in FACTORY_IMAGES[:4]:
-            img_lines += image_nodes(
+            lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
                 title,
             )
-        img_lines.append("  </url>")
+        lines.append("  </url>")
+        url_count += 1
+
         for slug, images in APPLICATION_IMAGES:
-            img_lines += [
+            lines += [
                 "  <url>",
                 f"    <loc>{base}/{lang}/solutions/{slug}</loc>",
                 f"    <lastmod>{LASTMOD}</lastmod>",
             ]
             for fname, title in images:
-                img_lines += image_nodes(
+                lines += image_nodes(
                     f"{base}/images/applications/{fname}",
                     title,
                     title,
                 )
-            img_lines.append("  </url>")
-        for s in SLUGS:
-            main_img = ROOT / "images" / "products" / s / "main.webp"
-            if not main_img.exists():
+            lines.append("  </url>")
+            url_count += 1
+
+        for slug in slugs:
+            block = product_image_block(base, lang, slug)
+            if not block:
                 continue
-            n = NAMES[s]
-            alt = f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
-            img_lines += [
-                "  <url>",
-                f"    <loc>{base}/{lang}/products/{s}</loc>",
-                f"    <lastmod>{LASTMOD}</lastmod>",
-            ]
-            img_lines += image_nodes(
-                f"{base}/images/products/{s}/main.webp",
-                f"{n} manufactured by Hebei Pinjin Machinery",
-                alt,
-            )
-            extras = [
-                ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery"),
-                ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery"),
-                ("detail-1.webp", f"{n} product detail — Hebei Pinjin Machinery"),
-            ]
-            folder = ROOT / "images" / "products" / s
-            for fname, title in extras:
-                if not (folder / fname).exists():
-                    continue
-                img_lines += image_nodes(
-                    f"{base}/images/products/{s}/{fname}",
-                    title,
-                    title,
-                )
-            img_lines.append("  </url>")
-    img_lines.append("</urlset>")
-    (ROOT / "image-sitemap.xml").write_text(
-        "\n".join(img_lines) + "\n", encoding="utf-8"
-    )
+            lines += block
+            url_count += 1
+
+    lines.append("</urlset>")
+    (ROOT / "image-sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return url_count
+
+
+def write_index(base: str) -> None:
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        "  <sitemap>",
+        f"    <loc>{base}/sitemap-pages.xml</loc>",
+        f"    <lastmod>{LASTMOD}</lastmod>",
+        "  </sitemap>",
+        "  <sitemap>",
+        f"    <loc>{base}/image-sitemap.xml</loc>",
+        f"    <lastmod>{LASTMOD}</lastmod>",
+        "  </sitemap>",
+        "</sitemapindex>",
+    ]
+    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    base = resolve_base()
+    slugs = ordered_product_slugs()
+    paths = page_paths()
+    page_count = write_pages_sitemap(base, paths)
+    image_url_count = write_image_sitemap(base, slugs)
+    write_index(base)
     write_robots(base)
-    print(f"base={base} langs={LANGS} sitemap urls={len(urls)}")
+    print(
+        f"base={base} langs={LANGS} "
+        f"page urls={page_count} image urls={image_url_count} products={len(slugs)}"
+    )
 
 
 if __name__ == "__main__":

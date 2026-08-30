@@ -4,10 +4,9 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { useI18n } from '@/i18n/I18nContext';
 
 const order: ProductCategory[] = [
-  'concrete-pump',
-  'spraying-machine',
-  'material-handling',
-  'rebar-equipment',
+  'electric-concrete-pump',
+  'diesel-concrete-pump',
+  'mixer-pump',
 ];
 
 export function ProductCategories() {
@@ -18,7 +17,7 @@ export function ProductCategories() {
       <div className="container-site">
         <SectionTitle title={t.categories.title} subtitle={t.categories.subtitle} />
 
-        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-10 grid gap-6 md:grid-cols-3">
           {order.map((id) => {
             const meta = categoryMeta[id];
             return (

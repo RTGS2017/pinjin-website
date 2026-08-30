@@ -20,21 +20,17 @@ export interface TopicCluster {
 }
 
 const hubAnchor: Record<ProductCategory, Omit<TopicLink, 'href'>> = {
-  'concrete-pump': {
-    en: 'Concrete pump manufacturer China',
-    zh: '中国混凝土泵厂家',
+  'electric-concrete-pump': {
+    en: 'Electric concrete pump manufacturer China',
+    zh: '中国电动混凝土泵厂家',
   },
-  'spraying-machine': {
-    en: 'Concrete spraying equipment manufacturer',
-    zh: '混凝土喷涂设备厂家',
+  'diesel-concrete-pump': {
+    en: 'Diesel concrete pump manufacturer China',
+    zh: '中国柴油混凝土泵厂家',
   },
-  'material-handling': {
-    en: 'Material handling equipment from Xingtai factory',
-    zh: '邢台工厂物料搬运设备',
-  },
-  'rebar-equipment': {
-    en: 'Rebar processing equipment manufacturer',
-    zh: '钢筋加工设备厂家',
+  'mixer-pump': {
+    en: 'Concrete mixer pump manufacturer China',
+    zh: '中国搅拌泵厂家',
   },
 };
 
@@ -51,12 +47,12 @@ const factoryLink: TopicLink = {
 };
 
 export const categoryClusters: Record<ProductCategory, TopicCluster> = {
-  'concrete-pump': {
+  'electric-concrete-pump': {
     relatedCategories: [
       {
-        href: '/products/spraying-machines',
-        en: 'Concrete spraying equipment manufacturer',
-        zh: '混凝土喷涂设备厂家',
+        href: '/products/diesel-concrete-pumps',
+        en: 'Diesel concrete pump manufacturer China',
+        zh: '中国柴油混凝土泵厂家',
       },
       oemLink,
     ],
@@ -88,86 +84,62 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
       factoryLink,
     ],
   },
-  'spraying-machine': {
+  'diesel-concrete-pump': {
     relatedCategories: [
       {
-        href: '/products/concrete-pumps',
-        en: 'Concrete pump manufacturer China',
-        zh: '中国混凝土泵厂家',
+        href: '/products/electric-concrete-pumps',
+        en: 'Electric concrete pump manufacturer China',
+        zh: '中国电动混凝土泵厂家',
       },
       oemLink,
     ],
     relatedArticles: [
       {
-        href: '/blog/shotcrete-machine-working-principle',
-        en: 'Shotcrete machine working principle',
-        zh: '喷浆机工作原理',
+        href: '/blog/what-is-a-concrete-pump',
+        en: 'What is a concrete pump and how it works',
+        zh: '什么是混凝土泵及工作原理',
+      },
+      {
+        href: '/blog/concrete-pump-types',
+        en: 'Trailer pump vs boom pump selection',
+        zh: '拖式泵与臂架泵选型',
       },
       {
         href: '/product-selection-guide',
-        en: 'Spraying machine product selection guide',
-        zh: '喷涂设备产品选型指南',
+        en: 'Diesel concrete pump selection guide',
+        zh: '柴油混凝土泵选型指南',
       },
-      { href: '/faq', en: 'Construction machinery FAQ', zh: '工程机械常见问题' },
     ],
     relatedSolutions: [
-      { href: '/solutions/spraying', en: 'Spraying application cases', zh: '喷涂应用场景' },
+      { href: '/solutions/construction', en: 'Building construction pumping', zh: '建筑施工泵送应用' },
+      { href: '/solutions/infrastructure', en: 'Infrastructure concrete pumping', zh: '基建混凝土泵送' },
       factoryLink,
     ],
   },
-  'material-handling': {
+  'mixer-pump': {
     relatedCategories: [
       {
-        href: '/products/concrete-pumps',
-        en: 'Concrete pump manufacturer China',
-        zh: '中国混凝土泵厂家',
+        href: '/products/electric-concrete-pumps',
+        en: 'Electric concrete pump manufacturer China',
+        zh: '中国电动混凝土泵厂家',
       },
       oemLink,
     ],
     relatedArticles: [
       {
-        href: '/factory',
-        en: 'Xingtai construction machinery factory',
-        zh: '邢台工程机械工厂',
+        href: '/blog/what-is-a-concrete-pump',
+        en: 'What is a concrete pump and how it works',
+        zh: '什么是混凝土泵及工作原理',
       },
-      oemLink,
-    ],
-    relatedSolutions: [
-      {
-        href: '/solutions/industrial-projects',
-        en: 'Industrial material handling applications',
-        zh: '工业物料搬运应用',
-      },
-      factoryLink,
-    ],
-  },
-  'rebar-equipment': {
-    relatedCategories: [
-      {
-        href: '/products/concrete-pumps',
-        en: 'Concrete pump manufacturer China',
-        zh: '中国混凝土泵厂家',
-      },
-    ],
-    relatedArticles: [
       {
         href: '/blog/choose-construction-equipment-suppliers-from-china',
         en: 'How to choose construction equipment suppliers from China',
         zh: '如何选择中国工程设备供应商',
       },
-      {
-        href: '/factory',
-        en: 'Xingtai construction machinery factory',
-        zh: '邢台工程机械工厂',
-      },
-      {
-        href: '/about',
-        en: 'Hebei Pinjin Machinery company profile',
-        zh: '河北品锦机械公司介绍',
-      },
+      { href: '/factory', en: 'Xingtai construction machinery factory', zh: '邢台工程机械工厂' },
     ],
     relatedSolutions: [
-      { href: '/solutions/construction', en: 'Building construction applications', zh: '建筑施工应用' },
+      { href: '/solutions/construction', en: 'Building construction pumping', zh: '建筑施工泵送应用' },
       factoryLink,
     ],
   },
@@ -214,21 +186,21 @@ export function clusterForBlog(relatedProductSlugs: string[]): TopicCluster {
   const product = relatedProductSlugs
     .map((slug) => getProductBySlug(slug))
     .find((item): item is NonNullable<typeof item> => Boolean(item));
-  return clusterForProduct(product?.category ?? 'concrete-pump');
+  return clusterForProduct(product?.category ?? 'electric-concrete-pump');
 }
 
 export function clusterForCustomMachinery(): TopicCluster {
   return {
     relatedCategories: [
       {
-        href: '/products/concrete-pumps',
-        en: 'Concrete pump manufacturer China',
-        zh: '中国混凝土泵厂家',
+        href: '/products/electric-concrete-pumps',
+        en: 'Electric concrete pump manufacturer China',
+        zh: '中国电动混凝土泵厂家',
       },
       {
-        href: '/products/spraying-machines',
-        en: 'Concrete spraying equipment manufacturer',
-        zh: '混凝土喷涂设备厂家',
+        href: '/products/diesel-concrete-pumps',
+        en: 'Diesel concrete pump manufacturer China',
+        zh: '中国柴油混凝土泵厂家',
       },
     ],
     relatedArticles: trustClusterArticles,
@@ -243,9 +215,9 @@ export function clusterForFactory(): TopicCluster {
   return {
     relatedCategories: [
       {
-        href: '/products/concrete-pumps',
-        en: 'Concrete pump manufacturer China',
-        zh: '中国混凝土泵厂家',
+        href: '/products/electric-concrete-pumps',
+        en: 'Electric concrete pump manufacturer China',
+        zh: '中国电动混凝土泵厂家',
       },
       oemLink,
     ],

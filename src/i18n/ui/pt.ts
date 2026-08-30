@@ -51,7 +51,7 @@ export const messagesPt = {
       'A Hebei Pinjin Machinery Manufacturing Co., Ltd. é fabricante de origem no Parque Industrial Renze, Xingtai, Hebei, com foco em P&D, produção e venda de máquinas de construção, como bombas de concreto.',
     title: 'Fabricante profissional de máquinas de concreto na China',
     subtitle:
-      'Bombas de concreto, equipamentos de projeção e máquinas de construção sob medida.',
+      'Bombas de concreto elétricas, a diesel, misturadoras e customização OEM a partir de Xingtai.',
     explore: 'Ver produtos',
     quote: 'Falar com engenheiro',
   },
@@ -69,7 +69,7 @@ export const messagesPt = {
   categories: {
     title: 'NOSSA LINHA DE PRODUTOS',
     subtitle:
-      'Equipamentos para transporte de concreto, projeção, movimentação de materiais e processamento de aço.',
+      'Bombas de concreto elétricas, a diesel e misturadoras do catálogo da fábrica de Xingtai.',
     view: 'Ver produtos →',
     concrete: 'BOMBAS DE CONCRETO',
     concreteDesc: 'Bombas de transferência e bombas de concreto para entrega confiável.',
@@ -223,7 +223,7 @@ export const messagesPt = {
   productsPage: {
     title: 'TODOS OS PRODUTOS',
     subtitle:
-      'Bombas de concreto, máquinas de projeção, movimentação de materiais e equipamentos para aço.',
+      'Navegue por bombas de concreto elétricas, a diesel e misturadoras.',
     all: 'Todos',
     concrete: 'Bombas de concreto',
     spraying: 'Máquinas de projeção',
@@ -330,7 +330,7 @@ export const messagesPt = {
     homeTitle:
       'Fabricante de Bomba de Concreto China | Hebei Pinjin Machinery',
     homeDesc:
-      'Fabricante de máquinas de concreto na China. A Hebei Pinjin produz bombas de concreto e equipamentos de projeção em Xingtai, Hebei, na área de Xingjiawan.',
+      'Fabricante de máquinas de concreto na China. A Hebei Pinjin produz bombas de concreto elétricas e a diesel e misturadoras em Xingtai, Hebei, na área de Xingjiawan.',
     productsTitle:
       'Fabricante de Bomba de Concreto China | Pinjin Machinery',
     aboutTitle:
@@ -343,16 +343,16 @@ export const messagesPt = {
       'Guia de Seleção | Fabricante de Bomba de Concreto China | Pinjin',
     blogTitle: 'Conhecimento de Máquinas de Construção | Pinjin',
     blogDesc:
-      'Conhecimento de fabricação, guias e produtos sobre bombas de concreto, projeção e máquinas de Xingjiawan da Hebei Pinjin.',
+      'Conhecimento de fabricação, guias e produtos sobre bombas de concreto elétricas e a diesel, misturadoras e máquinas de Xingjiawan da Hebei Pinjin.',
     applicationsDesc:
-      'Aplicações típicas e pontos de seleção para bombas de concreto, transporte em infraestrutura, projeção de argamassa e gesso.',
+      'Aplicações típicas e pontos de seleção para bombas elétricas e a diesel, misturadoras e transporte no canteiro.',
     solutionsDesc:
-      'Notas de seleção para construção, infraestrutura, projeção e movimentação no canteiro. Projetos de mineração não são listados porque não constam do catálogo.',
+      'Notas de seleção para construção, infraestrutura e obras sem rede elétrica. Projetos de mineração não são listados porque não constam do catálogo.',
     resourcesTitle: 'Recursos | Conhecimento de Máquinas de Construção | Pinjin',
     resourcesDesc:
       'Guias sobre bombas de concreto, fabricação OEM e o cluster Xingjiawan. Ainda não há PDF; solicite parâmetros por WhatsApp ou e-mail.',
     selectionDesc:
-      'Listas curtas com base no catálogo para obras altas, canteiros compactos, diesel vs elétrico, projeção de argamassa/gesso, shotcrete e movimentação de materiais.',
+      'Listas curtas com base no catálogo para obras altas, canteiros compactos, diesel vs elétrico e bombas misturadoras.',
   },
   inquiry: {
     name: 'Nome',
@@ -449,7 +449,7 @@ export const messagesPt = {
       'A Hebei Pinjin Machinery Manufacturing Co., Ltd. é fabricante de máquinas de construção em Xingtai, Hebei, China.',
     whatProblems: 'Que problemas os produtos resolvem?',
     whatProblemsBody:
-      'Os equipamentos do catálogo cobrem transporte de concreto, projeção, movimentação de materiais e processamento de aço, com parâmetros publicados.',
+      'Os equipamentos do catálogo cobrem transporte de concreto por tubulação: bombas elétricas, a diesel e misturadoras, com parâmetros publicados.',
     needHelpSelecting: 'Ainda precisa de ajuda na seleção?',
     needHelpBody:
       'Envie vazão, distância de transporte e diâmetro do agregado para uma recomendação do catálogo.',
@@ -464,7 +464,7 @@ export const messagesPt = {
     companyProfile: 'Perfil da empresa',
     whatWeFocus: 'No que nos concentramos',
     contactEmail: 'E-mail de contato',
-    applicationsHeading: 'Aplicações de bombas de concreto e projeção',
+    applicationsHeading: 'Aplicações de bombas de concreto',
     applicationsSubtitle:
       'Casos de uso típicos e pontos de seleção dos equipamentos Pinjin.',
     selectionIntro:

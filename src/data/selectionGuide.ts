@@ -8,7 +8,7 @@ export interface SelectionGuideItem {
   rationale: LocalizedText;
 }
 
-/** 选型指南：仅依据目录公开参数做对照推荐，不编造案例 */
+/** 选型指南：仅依据新目录公开参数做对照推荐 */
 export const selectionGuideItems: SelectionGuideItem[] = [
   {
     id: 'high-rise-long-distance',
@@ -17,18 +17,18 @@ export const selectionGuideItems: SelectionGuideItem[] = [
       zh: '需要高层或长距离混凝土输送？',
     },
     recommendation: {
-      en: 'Start with HBT80-18-140, then compare LL60-75 / HBTT55-50 / HBT45-40 by capacity and distance.',
-      zh: '优先对照 HBT80-18-140，再按输送量与距离比较 LL60-75 / HBTT55-50 / HBT45-40。',
+      en: 'Start with Electric 80 (900 m / 300 m, 60 m³/h), then compare Electric 60, HBT8018 and Diesel 120.',
+      zh: '优先对照电动80（水平900 m / 垂直300 m、60 m³/h），再比较电动60、HBT8018 与柴油120。',
     },
     productSlugs: [
-      'hbt80-18-140-concrete-pump',
-      'll60-75-concrete-pump',
-      'hbtt55-50-concrete-pump',
-      'hbt45-40-concrete-pump',
+      'electric-80-concrete-pump',
+      'electric-60-concrete-pump',
+      'hbt8018-concrete-pump',
+      'diesel-120-concrete-pump',
     ],
     rationale: {
-      en: 'Catalogue peak values: HBT80 lists 600 m horizontal / 300 m vertical / 40–75 m³/h.',
-      zh: '目录峰值：HBT80 列出水平 600 m / 垂直 300 m / 理论输送量 40–75 m³/h。',
+      en: 'Electric 80 lists 900 m horizontal / 300 m vertical at 60 m³/h. Diesel 120 lists 150 m / 500 m at 100 m³/h.',
+      zh: '电动80目录：水平900 m / 垂直300 m、60 m³/h。柴油120：150 m / 500 m、100 m³/h。',
     },
   },
   {
@@ -38,13 +38,18 @@ export const selectionGuideItems: SelectionGuideItem[] = [
       zh: '中型建筑项目如何选泵？',
     },
     recommendation: {
-      en: 'Compare HBT30-37 and HBT45-40 against your pipeline length and vertical height.',
-      zh: '按管路长度与垂直高度对照 HBT30-37 与 HBT45-40。',
+      en: 'Compare Electric 40, Electric 50 and Diesel 40 / Diesel 50 against pipeline length and power type.',
+      zh: '按管长与动力形式对照电动40、电动50与柴油40 / 柴油50。',
     },
-    productSlugs: ['hbt30-37-concrete-pump', 'hbt45-40-concrete-pump', 'll28-32-concrete-pump'],
+    productSlugs: [
+      'electric-40-concrete-pump',
+      'electric-50-concrete-pump',
+      'diesel-40-concrete-pump',
+      'diesel-50-concrete-pump',
+    ],
     rationale: {
-      en: 'HBT30-37 lists 250 m / 120 m; HBT45-40 lists 300 m / 150 m; LL28-32 lists 100 m / 60 m.',
-      zh: 'HBT30-37：250 m / 120 m；HBT45-40：300 m / 150 m；LL28-32：100 m / 60 m。',
+      en: 'Electric 40 lists 21 m³/h and fine-stone 120 m / 360 m. Diesel 50 lists 30 m³/h and 150 m / 450 m.',
+      zh: '电动40：21 m³/h、细石 120 m / 360 m。柴油50：30 m³/h、150 m / 450 m。',
     },
   },
   {
@@ -54,139 +59,70 @@ export const selectionGuideItems: SelectionGuideItem[] = [
       zh: '小型工地如何选紧凑型泵？',
     },
     recommendation: {
-      en: 'Shortlist Diesel 4100, LL15 (diesel/motor) or ZS22-25.',
-      zh: '优先对照柴油4100、LL15（柴油/电机）或 ZS22-25。',
+      en: 'Shortlist Electric 15, Electric 10 Series, Tractor-Driven 4100 or the rural diesel pump.',
+      zh: '优先对照电动15、电动10系列、拖拉机带动4100或农村柴油泵。',
     },
     productSlugs: [
-      'diesel-4100-transfer-pump',
-      'll15-diesel-transfer-pump',
-      'll15-electric-transfer-pump',
-      'zs22-25-concrete-pump',
+      'electric-15-concrete-pump',
+      'electric-10-series-concrete-pump',
+      'tractor-4100-concrete-pump',
+      'rural-diesel-concrete-pump',
     ],
     rationale: {
-      en: 'These models list shorter conveying distances and lower machine weights in the catalogue.',
-      zh: '上述型号在目录中水平/垂直距离与机重相对更紧凑。',
+      en: 'These models list lower weights (400–1300 kg) and shorter conveying distances in the catalogue.',
+      zh: '上述型号目录机重约 400–1300 kg，输送距离相对更短。',
     },
   },
   {
     id: 'diesel-vs-electric',
     question: {
-      en: 'Diesel or electric transfer pump?',
-      zh: '选柴油版还是电机版输送泵？',
+      en: 'Diesel or electric concrete pump?',
+      zh: '选柴油泵还是电动泵？',
     },
     recommendation: {
-      en: 'No stable electricity → LL15 Diesel. Stable 380 V → LL15 Motor Version.',
-      zh: '供电不便 → LL15 柴油版；稳定 380 V → LL15 电机版。',
-    },
-    productSlugs: ['ll15-diesel-transfer-pump', 'll15-electric-transfer-pump'],
-    rationale: {
-      en: 'Catalogue lists 28 HP diesel vs 15 kW / 380 V motor for the LL15 series.',
-      zh: '目录中 LL15 系列分别标注 28 HP 柴油与 15 kW / 380 V 电机。',
-    },
-  },
-  {
-    id: 'mortar',
-    question: {
-      en: 'Need mortar spraying?',
-      zh: '需要砂浆喷涂？',
-    },
-    recommendation: {
-      en: 'Choose Diesel Screw Mortar Spraying Machine (customization supported).',
-      zh: '选择柴油螺杆砂浆喷涂机（目录支持定制）。',
-    },
-    productSlugs: ['diesel-screw-mortar-spraying-machine'],
-    rationale: {
-      en: 'Catalogue lists 6 MPa spraying pressure, 70 L hopper and customization support.',
-      zh: '目录列出喷涂压力 6 MPa、料斗 70 L，并支持定制。',
-    },
-  },
-  {
-    id: 'plaster',
-    question: {
-      en: 'Need plaster spraying for interior finishing?',
-      zh: '室内石膏喷涂如何选型？',
-    },
-    recommendation: {
-      en: 'Choose Fully Automatic Plaster Spraying Machine.',
-      zh: '选择全自动石膏喷涂机。',
-    },
-    productSlugs: ['automatic-plaster-spraying-machine'],
-    rationale: {
-      en: 'Catalogue lists 115 L mixer capacity and 380 V / 50 Hz supply with 20 m / 10 m conveying limits.',
-      zh: '目录列出搅拌容积 115 L、供电 380 V / 50 Hz，输送限值水平 20 m / 垂直 10 m。',
-    },
-  },
-  {
-    id: 'spraying-compare',
-    question: {
-      en: 'Which spraying machine series fits longer distance?',
-      zh: '喷涂机系列如何按距离选型？',
-    },
-    recommendation: {
-      en: 'Type 311 (20 m) → Type 511 (40 m) → Double Cylinder Plunger (100 m). For concrete spraying, see Concrete Spraying Machine.',
-      zh: '311型（20 m）→ 511型（40 m）→ 双缸柱塞式（100 m）；混凝土喷浆见混凝土喷浆机。',
+      en: 'No stable grid → diesel trailer or rural diesel. Stable power → Electric 20–80 / HBT series.',
+      zh: '电网不稳 → 柴油拖泵或农村柴油泵；供电稳定 → 电动20–80 / HBT 系列。',
     },
     productSlugs: [
-      'type-311-spraying-machine',
-      'type-511-spraying-machine',
-      'double-cylinder-plunger-spraying-machine',
-      'concrete-spraying-machine',
+      'diesel-40-concrete-pump',
+      'electric-40-concrete-pump',
+      'rural-diesel-concrete-pump',
     ],
     rationale: {
-      en: 'Distances above are conveying distances published in the catalogue for each model.',
-      zh: '以上距离均为各型号目录公布的输送距离。',
+      en: 'Electric models list motor kW; diesel models list engine type/kW. Match the site power first.',
+      zh: '电动型号列出电机功率，柴油型号列出发动机型号/功率。先对照现场动力。',
     },
   },
   {
-    id: 'feeding-handling',
+    id: 'mixer-pump',
     question: {
-      en: 'Need material feeding or site handling?',
-      zh: '需要给料或现场搬运？',
+      en: 'Need mixing and pumping in one machine?',
+      zh: '需要搅拌与泵送一体？',
     },
     recommendation: {
-      en: 'Spiral feeder for feeding; clamp/bucket forklift loaders for handling.',
-      zh: '给料选螺旋给料机；搬运选夹抱式/铲斗式四驱叉车装载机。',
+      en: 'Choose Integrated Mixer Pump (electric) or Diesel Mixer Integrated Pump. These are not mixing plants.',
+      zh: '选择电动搅拌泵一体机或柴油搅拌泵一体机。它们不是搅拌站。',
     },
-    productSlugs: [
-      'hbtb016-110es-spiral-feeder',
-      'forklift-loader-clamp-type',
-      'forklift-loader-bucket-type',
-    ],
+    productSlugs: ['integrated-mixer-pump', 'diesel-mixer-integrated-pump'],
     rationale: {
-      en: 'Feeder lists customizable head; loaders list lift/unload heights and 4WD drive.',
-      zh: '给料机目录扬程可定制；装载机列出举升/卸载高度与四驱。',
+      en: 'Electric unit lists 45 kW + 14 kW and 21 m³/h. Diesel unit lists 66–75 kW and 25 m³/h.',
+      zh: '电机型：主电机45 kW + 搅拌14 kW、21 m³/h。柴油型：66–75 kW、25 m³/h。',
     },
   },
   {
-    id: 'secondary-structure',
+    id: 'high-output-diesel',
     question: {
-      en: 'Need a compact pump for secondary structure pouring?',
-      zh: '二次结构浇筑需要紧凑型泵送设备？',
+      en: 'Need high output on a diesel site?',
+      zh: '柴油工地需要大排量？',
     },
     recommendation: {
-      en: 'Choose 13 Spiral Feeder (screw pump): 3–6 m³/h, 4 kW, 90 kg mobile unit for secondary structure pouring.',
-      zh: '选择13型螺旋泵：额定流量3–6 m³/h、功率4 kW、重量90 kg，定位二次结构浇筑专家。',
+      en: 'Compare LZ-80 (up to 95 m³/h low pressure) and Diesel 120 (100 m³/h, twin 145 kW).',
+      zh: '对照 LZ-80（低压可达95 m³/h）与柴油120（100 m³/h、双机145 kW）。',
     },
-    productSlugs: ['13-spiral-feeder'],
+    productSlugs: ['lz-80-diesel-concrete-pump', 'diesel-120-concrete-pump', 'lz-60-diesel-concrete-pump'],
     rationale: {
-      en: 'Published as a secondary structure pouring specialist with customizable rated head.',
-      zh: '公开定位为二次结构浇筑专家，额定扬程可定制。',
-    },
-  },
-  {
-    id: 'rebar',
-    question: {
-      en: 'Need automatic stirrup / rebar bending?',
-      zh: '需要自动弯箍 / 钢筋弯曲？',
-    },
-    recommendation: {
-      en: 'Choose Fully Automatic CNC Steel Bar Bending Machine.',
-      zh: '选择全自动数控钢筋弯箍机。',
-    },
-    productSlugs: ['cnc-steel-bar-bending-machine'],
-    rationale: {
-      en: 'Catalogue publishes single/double strand diameter ranges and CNC speed parameters.',
-      zh: '目录公布单/双股加工直径范围与数控速度参数。',
+      en: 'LZ-80 lists Yuchai 256 kW. Diesel 120 lists 290 kW total and 150 m / 500 m.',
+      zh: 'LZ-80 目录玉柴256 kW。柴油120 合计290 kW、150 m / 500 m。',
     },
   },
 ];
