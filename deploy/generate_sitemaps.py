@@ -123,7 +123,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-08-30"
+LASTMOD = "2026-08-31"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "

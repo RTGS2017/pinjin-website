@@ -1,4 +1,4 @@
-﻿import { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { LocaleLink } from '@/i18n/navigation';
 import {
   categoryMeta,
