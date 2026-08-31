@@ -16,43 +16,33 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1] / "public" / "images" / "products"
 
 SLUGS = [
-    "diesel-4100-transfer-pump",
-    "ll15-diesel-transfer-pump",
-    "ll15-electric-transfer-pump",
-    "zs22-25-concrete-pump",
-    "ll28-32-concrete-pump",
-    "diesel-screw-mortar-spraying-machine",
-    "hbt30-37-concrete-pump",
-    "hbt45-40-concrete-pump",
-    "automatic-plaster-spraying-machine",
-    "hbtt55-50-concrete-pump",
-    "ll60-75-concrete-pump",
-    "hbt80-18-140-concrete-pump",
-    "hbtb016-110es-spiral-feeder",
-    "4102-diesel-four-cylinder-inclined-pump",
-    "type-311-spraying-machine",
-    "type-511-spraying-machine",
-    "double-cylinder-plunger-spraying-machine",
-    "concrete-spraying-machine",
-    "forklift-loader-clamp-type",
-    "forklift-loader-bucket-type",
-    "cnc-steel-bar-bending-machine",
-    "13-spiral-feeder",
+    "electric-10-series-concrete-pump",
+    "electric-15-concrete-pump",
+    "electric-20-concrete-pump",
+    "electric-30-concrete-pump",
+    "electric-low-pressure-40-concrete-pump",
+    "electric-40-concrete-pump",
+    "electric-50-concrete-pump",
+    "electric-low-pressure-60-concrete-pump",
+    "electric-60-concrete-pump",
+    "electric-80-concrete-pump",
+    "hbt80-16-concrete-pump",
+    "hbt8018-concrete-pump",
+    "tractor-4100-concrete-pump",
+    "rural-diesel-concrete-pump",
+    "diesel-30-concrete-pump",
+    "diesel-40-concrete-pump",
+    "diesel-50-concrete-pump",
+    "diesel-60-concrete-pump",
+    "lz-60-diesel-concrete-pump",
+    "lz-80-diesel-concrete-pump",
+    "diesel-120-concrete-pump",
+    "integrated-mixer-pump",
+    "diesel-mixer-integrated-pump",
 ]
 
-# 产品图根目录可读文件名 → slug（大小写敏感匹配文件名）
-ROOT_FILE_MAP: dict[str, str] = {
-    "4102 Diesel Four-cylinder Inclined Pump.png": "4102-diesel-four-cylinder-inclined-pump",
-    "Concrete Spraying Machine.png": "concrete-spraying-machine",
-    "Double Cylinder Plunger Type Spraying.png": "double-cylinder-plunger-spraying-machine",
-    "Four-wheel Drive Forklift Loader - Bucket Type.png": "forklift-loader-bucket-type",
-    "Four-wheel Drive Forklift Loader - Clamp Type.png": "forklift-loader-clamp-type",
-    "Fully Automatic CNC Steel Bar Bending Machine.png": "cnc-steel-bar-bending-machine",
-    "HBTB016-110ES.png": "hbtb016-110es-spiral-feeder",
-    "Spiral feeder.png": "13-spiral-feeder",
-    "Type 311.png": "type-311-spraying-machine",
-    "Type 511.png": "type-511-spraying-machine",
-}
+# 产品图根目录可读文件名 → slug（实拍入库见 ingest_real_product_photos.py）
+ROOT_FILE_MAP: dict[str, str] = {}
 
 MAX_SIDE = 1200
 WORKING_MAX_WIDTH = 1600
@@ -60,16 +50,7 @@ WORKING_ASPECT = (4, 3)
 SOURCE_NAMES = ("source.png", "source.jpg", "source.jpeg", "source.webp")
 
 # 根目录施工现场图 → (slug, 输出文件名)。working = 第 2 张，working-2 = 第 3 张
-WORKING_ROOT_MAP: tuple[tuple[str, str, str], ...] = (
-    ("HBT30-37混凝土泵.jpg", "hbt30-37-concrete-pump", "working.webp"),
-    ("HBTT55-50混凝土泵.jpg", "hbtt55-50-concrete-pump", "working.webp"),
-    ("HBTT55-50混凝土泵2.jpg", "hbtt55-50-concrete-pump", "working-2.webp"),
-    ("全自动石膏喷涂机.jpg", "automatic-plaster-spraying-machine", "working.webp"),
-    ("双缸柱塞式喷涂机.jpg", "double-cylinder-plunger-spraying-machine", "working.webp"),
-    ("双缸柱塞式喷涂机2.jpg", "double-cylinder-plunger-spraying-machine", "working-2.webp"),
-    ("四驱叉车装载机-铲斗式.jpg", "forklift-loader-bucket-type", "working.webp"),
-    ("柴油4100输送泵.jpg", "diesel-4100-transfer-pump", "working.webp"),
-)
+WORKING_ROOT_MAP: tuple[tuple[str, str, str], ...] = ()
 
 
 def convert(src: Path, dest: Path) -> None:

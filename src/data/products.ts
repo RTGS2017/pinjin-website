@@ -814,8 +814,8 @@ export const products: Product[] = [
     slug: 'lz-60-diesel-concrete-pump',
     category: 'diesel-concrete-pump',
     ...imgPaths('lz-60-diesel-concrete-pump'),
-    shortDescription: L('diesel trailer concrete pump from the Xingtai factory catalogue — 6105 diesel 145 kW, 50 m³/h, 35 MPa, 100 m conveying / 300 m height, HBT60-13.', '邢台工厂目录中的柴油拖式混凝土泵，6105柴油机145 kW、输送量50 m³/h、压力35 MPa、水平100 m / 高度300 m，机身标识 HBT60-13.132。'),
-    productIntroduction: L('LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 6105 diesel 145 kW, 50 m³/h, 35 MPa, 100 m conveying / 300 m height, HBT60-13.132 on the unit.', 'LZ-60柴油混凝土泵由河北品锦机械在中国河北邢台制造，属于柴油拖式混凝土泵。目录参数：6105柴油机145 kW、输送量50 m³/h、压力35 MPa、水平100 m / 高度300 m，机身标识 HBT60-13.132。'),
+    shortDescription: L('diesel trailer concrete pump from the Xingtai factory catalogue — 6105 diesel 145 kW, 50 m³/h, 35 MPa, 100 m conveying / 300 m height.', '邢台工厂目录中的柴油拖式混凝土泵，6105柴油机145 kW、输送量50 m³/h、压力35 MPa、水平100 m / 高度300 m。'),
+    productIntroduction: L('LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 6105 diesel 145 kW, 50 m³/h, 35 MPa, 100 m conveying / 300 m height.', 'LZ-60柴油混凝土泵由河北品锦机械在中国河北邢台制造，属于柴油拖式混凝土泵。目录参数：6105柴油机145 kW、输送量50 m³/h、压力35 MPa、水平100 m / 高度300 m。'),
     applicationScenarios: [
       L('Sites without stable grid power', '电网供电不便的工地'),
       L('Rural and infrastructure concrete placement', '农村与基建混凝土浇筑'),
@@ -844,8 +844,8 @@ export const products: Product[] = [
       'LZ-60 diesel concrete pump manufacturer China',
       ['lz-60 diesel concrete pump manufacturer China', 'concrete pump manufacturer China', 'Xingtai concrete pump factory'],
       ['buy lz-60 diesel concrete pump from Hebei Pinjin Machinery Xingtai', 'lz-60 diesel concrete pump supplier China factory'],
-      'Hebei Pinjin Machinery manufactures the LZ-60 Diesel Concrete Pump in Xingtai, Hebei, China. Catalogue data: 6105 diesel 145 kW, 50 m³/h, 35 MPa, 100 m conveying / 300 m height, HBT60-13.132 on the unit.',
-      '河北品锦机械在中国河北邢台生产LZ-60柴油混凝土泵。目录数据：6105柴油机145 kW、输送量50 m³/h、压力35 MPa、水平100 m / 高度300 m，机身标识 HBT60-13.132。',
+      'Hebei Pinjin Machinery manufactures the LZ-60 Diesel Concrete Pump in Xingtai, Hebei, China. Catalogue data: 6105 diesel 145 kW, 50 m³/h, 35 MPa, 100 m conveying / 300 m height.',
+      '河北品锦机械在中国河北邢台生产LZ-60柴油混凝土泵。目录数据：6105柴油机145 kW、输送量50 m³/h、压力35 MPa、水平100 m / 高度300 m。',
     ),
     geo: buildGeo(
       'Diesel Concrete Pump',

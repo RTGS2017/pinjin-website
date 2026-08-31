@@ -1,7 +1,7 @@
 """Convert WeChat application JPGs into 4:3 SEO-named WebP files.
 
 原图放在 public/images/applications/ 或 applications/source/。
-站点只引用 SEO 文件名；原 JPG 备份到 applications/source/。
+已有 WebP 且源文件缺失时跳过。残留的 微信图片_*.jpg 必须映射，否则失败。
 """
 
 from __future__ import annotations
@@ -75,30 +75,62 @@ def find_source(name: str) -> Path | None:
     return None
 
 
+def wechat_jpgs() -> list[Path]:
+    found: list[Path] = []
+    for folder in (ROOT, SOURCE_DIR):
+        if not folder.is_dir():
+            continue
+        found.extend(sorted(folder.glob("微信图片*.jpg")))
+        found.extend(sorted(folder.glob("微信图片*.jpeg")))
+    return found
+
+
+def backup_source(src: Path) -> None:
+    if src.parent.resolve() == SOURCE_DIR.resolve():
+        return
+    SOURCE_DIR.mkdir(parents=True, exist_ok=True)
+    target = SOURCE_DIR / src.name
+    if target.exists():
+        src.unlink()
+    else:
+        src.rename(target)
+    print(f"BACKUP {src.name} -> source/")
+
+
 def main() -> None:
     ROOT.mkdir(parents=True, exist_ok=True)
     SOURCE_DIR.mkdir(parents=True, exist_ok=True)
 
     missing: list[str] = []
     converted = 0
+    skipped = 0
     for src_name, dest_name in SOURCE_TO_OUTPUT.items():
         src = find_source(src_name)
+        dest = ROOT / dest_name
         if not src:
+            if dest.is_file():
+                print(f"SKIP missing source (webp exists): {src_name} -> {dest_name}")
+                skipped += 1
+                continue
             missing.append(src_name)
             continue
-        convert(src, ROOT / dest_name)
+        convert(src, dest)
         converted += 1
-        if src.parent.resolve() != SOURCE_DIR.resolve():
-            target = SOURCE_DIR / src.name
-            if target.exists():
-                src.unlink()
-            else:
-                src.rename(target)
-            print(f"BACKUP {src.name} -> source/")
+        backup_source(src)
 
+    unmapped = [
+        path.name
+        for path in wechat_jpgs()
+        if path.name not in SOURCE_TO_OUTPUT
+    ]
+    if unmapped:
+        raise SystemExit(
+            "Unmapped application JPGs — add them to SOURCE_TO_OUTPUT: "
+            + ", ".join(sorted(set(unmapped)))
+        )
     if missing:
-        raise SystemExit(f"Missing source JPGs: {', '.join(missing)}")
-    print(f"DONE webp={converted}")
+        raise SystemExit(f"Missing source JPGs (and no webp yet): {', '.join(missing)}")
+    print(f"DONE webp={converted} skipped={skipped}")
 
 
 if __name__ == "__main__":

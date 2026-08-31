@@ -141,7 +141,7 @@ HERO_IMAGE = (
 HOME_FACTORY_IMAGES = [
     (
         "pinjin-production-workshop.webp",
-        "Production workshop of Hebei Pinjin Machinery",
+        "Diesel trailer concrete pump assembly in Hebei Pinjin Machinery production workshop",
     ),
     (
         "pinjin-machinery-assembly-area.webp",
@@ -164,7 +164,7 @@ FACTORY_IMAGES = [
     ),
     (
         "pinjin-production-workshop.webp",
-        "Production workshop of Hebei Pinjin Machinery",
+        "Diesel trailer concrete pump assembly in Hebei Pinjin Machinery production workshop",
     ),
     (
         "pinjin-machinery-workshop-overhead-crane.webp",
@@ -444,7 +444,15 @@ def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     extras = [
         ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery"),
         ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery"),
-        ("detail-1.webp", f"{n} product detail — Hebei Pinjin Machinery"),
+        ("detail-1.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-2.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-3.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-4.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-5.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-6.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-7.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("detail-8.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
+        ("catalog.webp", f"{n} catalogue specification sheet — Hebei Pinjin Machinery"),
     ]
     for fname, title in extras:
         if not (folder / fname).exists():

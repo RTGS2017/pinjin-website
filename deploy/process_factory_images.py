@@ -1,7 +1,8 @@
-"""Convert all WeChat factory JPGs into 16:9 SEO-named WebP files.
+"""Convert factory source JPGs into 16:9 SEO-named WebP files.
 
-从 factory/ 或 factory/source/ 读取全部原图，每张都输出 WebP。
-站点只引用 SEO 文件名；原 JPG 备份到 factory/source/。
+从 factory/ 或 factory/source/ 读取原图。已有 WebP 且源文件缺失时跳过，
+避免旧微信图备份后脚本无法重跑。根目录残留的 微信图片_*.jpg 必须写入
+SOURCE_TO_OUTPUT，否则构建前会失败，避免新工厂图扫不到。
 """
 
 from __future__ import annotations
@@ -16,7 +17,7 @@ ASPECT_W, ASPECT_H = 16, 9
 MAX_WIDTH = 1920
 WEBP_QUALITY = 82
 
-# 原文件名 → SEO WebP（9 张全部使用）
+# 原文件名 → SEO WebP
 SOURCE_TO_OUTPUT = {
     "微信图片_2026-08-13_225635_834.jpg": "pinjin-machinery-assembly-area.webp",
     "微信图片_2026-08-13_225651_795.jpg": "pinjin-concrete-pump-manufacturing.webp",
@@ -27,6 +28,8 @@ SOURCE_TO_OUTPUT = {
     "微信图片_2026-08-13_230001_380.jpg": "pinjin-diesel-machinery-factory-dispatch.webp",
     "微信图片_2026-08-13_230018_881.jpg": "pinjin-trailer-concrete-pump-assembly.webp",
     "微信图片_20260813225534.jpg": "pinjin-machinery-workshop-overhead-crane.webp",
+    # 新车间实拍：打开侧板的柴油拖泵装配现场，覆盖生产车间图
+    "微信图片_2026-08-30_150541_565.jpg": "pinjin-production-workshop.webp",
 }
 
 
@@ -76,30 +79,62 @@ def find_source(name: str) -> Path | None:
     return None
 
 
+def wechat_jpgs() -> list[Path]:
+    found: list[Path] = []
+    for folder in (ROOT, SOURCE_DIR):
+        if not folder.is_dir():
+            continue
+        found.extend(sorted(folder.glob("微信图片*.jpg")))
+        found.extend(sorted(folder.glob("微信图片*.jpeg")))
+    return found
+
+
+def backup_source(src: Path) -> None:
+    if src.parent.resolve() == SOURCE_DIR.resolve():
+        return
+    SOURCE_DIR.mkdir(parents=True, exist_ok=True)
+    target = SOURCE_DIR / src.name
+    if target.exists():
+        src.unlink()
+    else:
+        src.rename(target)
+    print(f"BACKUP {src.name} -> source/")
+
+
 def main() -> None:
     ROOT.mkdir(parents=True, exist_ok=True)
     SOURCE_DIR.mkdir(parents=True, exist_ok=True)
 
     missing: list[str] = []
     converted = 0
+    skipped = 0
     for src_name, dest_name in SOURCE_TO_OUTPUT.items():
         src = find_source(src_name)
+        dest = ROOT / dest_name
         if not src:
+            if dest.is_file():
+                print(f"SKIP missing source (webp exists): {src_name} -> {dest_name}")
+                skipped += 1
+                continue
             missing.append(src_name)
             continue
-        convert(src, ROOT / dest_name)
+        convert(src, dest)
         converted += 1
-        if src.parent.resolve() != SOURCE_DIR.resolve():
-            target = SOURCE_DIR / src.name
-            if target.exists():
-                src.unlink()
-            else:
-                src.rename(target)
-            print(f"BACKUP {src.name} -> source/")
+        backup_source(src)
 
+    unmapped = [
+        path.name
+        for path in wechat_jpgs()
+        if path.name not in SOURCE_TO_OUTPUT
+    ]
+    if unmapped:
+        raise SystemExit(
+            "Unmapped factory JPGs — add them to SOURCE_TO_OUTPUT: "
+            + ", ".join(sorted(set(unmapped)))
+        )
     if missing:
-        raise SystemExit(f"Missing source JPGs: {', '.join(missing)}")
-    print(f"DONE webp={converted}")
+        raise SystemExit(f"Missing source JPGs (and no webp yet): {', '.join(missing)}")
+    print(f"DONE webp={converted} skipped={skipped}")
 
 
 if __name__ == "__main__":

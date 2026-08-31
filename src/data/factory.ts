@@ -71,8 +71,8 @@ export const factorySlides: FactorySlide[] = [
       '河北品锦机械制造有限公司生产车间支撑混凝土泵制造，位于河北邢台。',
     ),
     alt: L(
-      'Production workshop of Hebei Pinjin Machinery in Xingjiawan Xingtai Hebei China',
-      '河北邢台邢家湾品锦机械生产车间',
+      'Diesel trailer concrete pump with side panel open during assembly in Hebei Pinjin Machinery production workshop, Xingjiawan Xingtai Hebei China',
+      '河北邢台邢家湾品锦机械生产车间内打开侧板装配中的柴油拖式混凝土泵',
     ),
     schemaName: L('Pinjin Machinery Production Workshop', '品锦机械生产车间'),
     schemaDescription: L(

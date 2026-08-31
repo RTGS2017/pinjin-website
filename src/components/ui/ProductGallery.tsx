@@ -8,7 +8,19 @@ interface ProductGalleryProps {
   alt: string;
 }
 
-const OPTIONAL_FILES = ['detail-1.webp', 'working.webp', 'working-2.webp'] as const;
+const OPTIONAL_FILES = [
+  'detail-1.webp',
+  'detail-2.webp',
+  'detail-3.webp',
+  'detail-4.webp',
+  'detail-5.webp',
+  'detail-6.webp',
+  'detail-7.webp',
+  'detail-8.webp',
+  'working.webp',
+  'working-2.webp',
+  'catalog.webp',
+] as const;
 
 function galleryAlt(src: string, baseAlt: string): string {
   if (src.endsWith('/working-2.webp')) {
@@ -16,6 +28,12 @@ function galleryAlt(src: string, baseAlt: string): string {
   }
   if (src.endsWith('/working.webp')) {
     return `${baseAlt.replace(/ manufactured by Hebei Pinjin Machinery$/i, '')} working on a construction site manufactured by Hebei Pinjin Machinery`;
+  }
+  if (src.endsWith('/catalog.webp')) {
+    return `${baseAlt.replace(/ manufactured by Hebei Pinjin Machinery$/i, '')} catalogue specification sheet manufactured by Hebei Pinjin Machinery`;
+  }
+  if (/\/detail-\d+\.webp$/.test(src)) {
+    return `${baseAlt.replace(/ manufactured by Hebei Pinjin Machinery$/i, '')} studio product photo manufactured by Hebei Pinjin Machinery`;
   }
   return baseAlt;
 }

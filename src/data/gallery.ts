@@ -76,8 +76,8 @@ export const factoryShowcase = [
     id: 'workshop',
     image: workshop.image,
     alt: L(
-      'Pinjin Machinery production workshop in Xingtai Hebei China — Xingtai concrete machinery manufacturer',
-      '品锦机械邢台生产车间 — 邢台混凝土机械制造商',
+      'Diesel trailer concrete pump under assembly in Pinjin Machinery production workshop, Xingtai Hebei China — Xingtai concrete machinery manufacturer',
+      '品锦机械邢台生产车间装配中的柴油拖式混凝土泵 — 邢台混凝土机械制造商',
     ),
     label: L('Workshop', '车间'),
     width: workshop.width,
