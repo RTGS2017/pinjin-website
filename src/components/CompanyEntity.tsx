@@ -27,7 +27,11 @@ export function CompanyEntity({ className = '', compact = false }: CompanyEntity
     },
     {
       label: t.page.location,
-      value: `${companyEntity.location.line1[lang] || companyEntity.location.line1.en}, ${companyEntity.location.line2[lang] || companyEntity.location.line2.en}`,
+      value: [
+        companyEntity.location.line1[lang] || companyEntity.location.line1.en,
+        companyEntity.location.line2[lang] || companyEntity.location.line2.en,
+        companyEntity.location.postalCode,
+      ].join(', '),
     },
     {
       label: t.page.products,

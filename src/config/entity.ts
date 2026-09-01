@@ -44,6 +44,7 @@ export const companyEntity = {
     locality: 'Xingtai',
     region: 'Hebei',
     country: 'China',
+    postalCode: '055150',
   },
   products: [
     {

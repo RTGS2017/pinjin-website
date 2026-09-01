@@ -218,7 +218,7 @@ export const messagesAr = {
     whatsapp: 'واتساب',
     emailInquiry: 'استفسار بالبريد',
     location1: 'مجمع رينزه الصناعي',
-    location2: 'شينغتاي، خبي، الصين',
+    location2: 'شينغتاي، خبي، الصين 055150',
   },
   productsPage: {
     title: 'جميع المنتجات',

@@ -218,7 +218,7 @@ export const messagesPt = {
     whatsapp: 'Contato WhatsApp',
     emailInquiry: 'Consulta por e-mail',
     location1: 'Parque Industrial Renze',
-    location2: 'Xingtai, Hebei, China',
+    location2: 'Xingtai, Hebei, China 055150',
   },
   productsPage: {
     title: 'TODOS OS PRODUTOS',

@@ -132,6 +132,18 @@ export function SEO({
   );
 }
 
+function organizationPostalAddress() {
+  const address = seoConfig.organization.address;
+  return {
+    '@type': 'PostalAddress',
+    streetAddress: address.streetAddress,
+    addressLocality: address.addressLocality,
+    addressRegion: address.addressRegion,
+    postalCode: address.postalCode,
+    addressCountry: address.addressCountry,
+  };
+}
+
 export function buildOrganizationJsonLd() {
   return {
     '@context': 'https://schema.org',
@@ -165,13 +177,7 @@ export function buildOrganizationJsonLd() {
     ],
     brand: seoConfig.siteName,
     industry: 'Construction Machinery Manufacturer',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: seoConfig.organization.address.streetAddress,
-      addressLocality: seoConfig.organization.address.addressLocality,
-      addressRegion: seoConfig.organization.address.addressRegion,
-      addressCountry: seoConfig.organization.address.addressCountry,
-    },
+    address: organizationPostalAddress(),
     areaServed: 'Worldwide',
     // 三个条目是产品分类，不是单品。禁止写成 Product（会触发 GSC
     // “Either offers, review, or aggregateRating should be specified”）。
@@ -230,12 +236,7 @@ export function buildImageObjectJsonLd(slide: FactorySlide, lang: Lang) {
     contentLocation: {
       '@type': 'Place',
       name: 'Xingtai, Hebei, China',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: seoConfig.organization.address.addressLocality,
-        addressRegion: seoConfig.organization.address.addressRegion,
-        addressCountry: seoConfig.organization.address.addressCountry,
-      },
+      address: organizationPostalAddress(),
     },
   };
 }
@@ -262,12 +263,7 @@ export function buildHeroGalleryJsonLdList(items: GalleryItem[], lang: Lang) {
     contentLocation: {
       '@type': 'Place',
       name: 'Xingtai, Hebei, China',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: seoConfig.organization.address.addressLocality,
-        addressRegion: seoConfig.organization.address.addressRegion,
-        addressCountry: seoConfig.organization.address.addressCountry,
-      },
+      address: organizationPostalAddress(),
     },
     about: {
       '@type': 'Organization',
@@ -340,12 +336,7 @@ export function buildProductJsonLd(input: {
     contentLocation: {
       '@type': 'Place',
       name: 'Xingtai, Hebei, China',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: seoConfig.organization.address.addressLocality,
-        addressRegion: seoConfig.organization.address.addressRegion,
-        addressCountry: seoConfig.organization.address.addressCountry,
-      },
+      address: organizationPostalAddress(),
     },
   }));
 
@@ -366,13 +357,7 @@ export function buildProductJsonLd(input: {
       '@type': 'Organization',
       name: seoConfig.organization.name,
       url: seoConfig.siteUrl,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: seoConfig.organization.address.streetAddress,
-        addressLocality: seoConfig.organization.address.addressLocality,
-        addressRegion: seoConfig.organization.address.addressRegion,
-        addressCountry: seoConfig.organization.address.addressCountry,
-      },
+      address: organizationPostalAddress(),
     },
     additionalProperty: input.specifications?.map((spec) => ({
       '@type': 'PropertyValue',
@@ -444,6 +429,7 @@ export function buildArticleJsonLd(input: {
           contentLocation: {
             '@type': 'Place',
             name: 'Xingtai, Hebei, China',
+            address: organizationPostalAddress(),
           },
         }
       : undefined,

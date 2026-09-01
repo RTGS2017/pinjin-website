@@ -182,7 +182,7 @@ export function ProductDetail() {
             <div>
               <dt className="font-semibold text-dark">{t.detail.entityLocation}</dt>
               <dd className="mt-1 text-text-secondary">
-                {`${companyEntity.location.locality}, ${companyEntity.location.region}, ${companyEntity.location.country}`}
+                {`${companyEntity.location.line1[lang] || companyEntity.location.line1.en}, ${companyEntity.location.locality}, ${companyEntity.location.region}, ${companyEntity.location.country} ${companyEntity.location.postalCode}`}
               </dd>
             </div>
             <div>

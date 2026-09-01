@@ -21,6 +21,7 @@ export const seoConfig = {
       streetAddress: 'Renze Industrial Park',
       addressLocality: 'Xingtai',
       addressRegion: 'Hebei',
+      postalCode: '055150',
       addressCountry: 'CN',
     },
     logoPath: '/images/brand/logo.svg',

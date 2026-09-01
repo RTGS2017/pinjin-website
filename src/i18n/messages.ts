@@ -222,7 +222,7 @@ export const messages = {
       whatsapp: 'WhatsApp Contact',
       emailInquiry: 'Email Inquiry',
       location1: 'Renze Industrial Park',
-      location2: 'Xingtai City, Hebei Province, China',
+      location2: 'Xingtai City, Hebei Province, China 055150',
     },
     productsPage: {
       title: 'ALL PRODUCTS',
@@ -697,7 +697,7 @@ export const messages = {
       whatsapp: 'WhatsApp 联系',
       emailInquiry: '邮件询盘',
       location1: '河北省邢台市任泽工业园区',
-      location2: '中国',
+      location2: '中国 055150',
     },
     productsPage: {
       title: '全部产品',
