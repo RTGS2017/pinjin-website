@@ -25,6 +25,9 @@ function quoteAnswer(lang: Lang, name: string, priceText: string, inquire: strin
   if (lang === 'ar') {
     return `السعر التقريبي EXW شينغتاي لـ ${name}: ${priceText}. الشحن الدولي إضافي ويدفعه المشتري. ${inquire}`;
   }
+  if (lang === 'ru') {
+    return `Ориентировочная цена EXW Синтай для ${name}: ${priceText}. Международная доставка оплачивается покупателем отдельно. ${inquire}`;
+  }
   return `Indicative EXW Xingtai price for ${name}: ${priceText}. International freight is extra and paid by the buyer. ${inquire}`;
 }
 
@@ -102,6 +105,26 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
         answer: `يُصنَّع ${name} بواسطة ${manufacturer} في ${madeIn}.`,
       },
       { question: `كم سعر ${name} وكيف أطلب عرض سعر؟`, answer: quote },
+    ];
+  }
+
+  if (lang === 'ru') {
+    return [
+      { question: `Что такое ${name}?`, answer: what },
+      { question: `Кому нужен ${name}?`, answer: who },
+      {
+        question: hasSpecs
+          ? `Какие ключевые параметры у ${name}?`
+          : `Есть ли подробные технические параметры для ${name}?`,
+        answer: hasSpecs
+          ? `По каталогу: ${keySpecs}. Полная таблица — на этой странице.`
+          : 'В текущем каталоге указано только название модели без подробных технических параметров. Запросите актуальный лист параметров по почте или WhatsApp до выбора.',
+      },
+      {
+        question: `Кто производит ${name} и где?`,
+        answer: `${name} производит ${manufacturer}, место производства: ${madeIn}.`,
+      },
+      { question: `Сколько стоит ${name} и как запросить цену?`, answer: quote },
     ];
   }
 

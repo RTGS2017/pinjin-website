@@ -12,7 +12,7 @@ const distDir = join(root, 'dist');
 const indexHtml = join(distDir, 'index.html');
 const notFoundHtml = join(distDir, '404.html');
 /** 与 src/i18n/config.ts 的 languages.code 保持一致 */
-const LANGS = ['en', 'zh', 'pt', 'ar'];
+const LANGS = ['en', 'zh', 'pt', 'ar', 'ru'];
 
 if (!existsSync(indexHtml)) {
   console.error('dist/index.html not found; run vite build first');

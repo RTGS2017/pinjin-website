@@ -39,6 +39,7 @@ export function detectPreferredLang(): Lang {
   if (nav.startsWith('zh')) return 'zh';
   if (nav.startsWith('pt')) return 'pt';
   if (nav.startsWith('ar')) return 'ar';
+  if (nav.startsWith('ru')) return 'ru';
   return defaultLang;
 }
 

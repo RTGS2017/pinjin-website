@@ -23,12 +23,13 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_BASE = "https://pinjinpump.com"
 
-LANGS = ["en", "zh", "pt", "ar"]
+LANGS = ["en", "zh", "pt", "ar", "ru"]
 HREFLANG = {
     "en": "en",
     "zh": "zh-CN",
     "pt": "pt-BR",
     "ar": "ar",
+    "ru": "ru",
 }
 
 FEATURED = [

@@ -1,8 +1,9 @@
 import type { Lang } from './types';
 import { messagesAr } from './ui/ar';
 import { messagesPt } from './ui/pt';
+import { messagesRu } from './ui/ru';
 
-/** 全站 UI 文案：en / zh 在此文件；pt / ar 见 src/i18n/ui/ */
+/** 全站 UI 文案：en / zh 在此文件；pt / ar / ru 见 src/i18n/ui/ */
 export const messages = {
   en: {
     nav: {
@@ -954,6 +955,7 @@ export const messages = {
   },
   pt: messagesPt,
   ar: messagesAr,
+  ru: messagesRu,
 } as const;
 
 export type Messages = (typeof messages)['en'];

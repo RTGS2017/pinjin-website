@@ -197,27 +197,30 @@ export const categoryMeta: Record<
 > = {
   'electric-concrete-pump': {
     routeSlug: 'electric-concrete-pumps',
-    label: L('Electric Concrete Pumps', '电动混凝土泵'),
-    description: L(
-      'Electric trailer and compact concrete pumps with published motor power, output and conveying distance.',
-      '电动拖式与紧凑型混凝土泵，目录公布电机功率、输送量与输送距离。',
-    ),
+    label: { en: 'Electric Concrete Pumps', zh: '电动混凝土泵', ru: 'Электрические бетононасосы' },
+    description: {
+      en: 'Electric trailer and compact concrete pumps with published motor power, output and conveying distance.',
+      zh: '电动拖式与紧凑型混凝土泵，目录公布电机功率、输送量与输送距离。',
+      ru: 'Электрические прицепные и компактные бетононасосы с опубликованными мощностью двигателя, производительностью и дальностью подачи.',
+    },
   },
   'diesel-concrete-pump': {
     routeSlug: 'diesel-concrete-pumps',
-    label: L('Diesel Concrete Pumps', '柴油混凝土泵'),
-    description: L(
-      'Diesel trailer pumps and rural tractor-driven pumps for sites without stable grid power.',
-      '柴油拖式泵与农村拖拉机带动泵，适用于电网供电不便的工地。',
-    ),
+    label: { en: 'Diesel Concrete Pumps', zh: '柴油混凝土泵', ru: 'Дизельные бетононасосы' },
+    description: {
+      en: 'Diesel trailer pumps and rural tractor-driven pumps for sites without stable grid power.',
+      zh: '柴油拖式泵与农村拖拉机带动泵，适用于电网供电不便的工地。',
+      ru: 'Дизельные прицепные насосы и тракторные насосы для объектов без стабильной электросети.',
+    },
   },
   'mixer-pump': {
     routeSlug: 'mixer-pumps',
-    label: L('Mixer Pumps', '搅拌泵'),
-    description: L(
-      'Integrated mixer pumps that mix and convey concrete in one machine. This is not a concrete mixing plant line.',
-      '搅拌与泵送一体机。这不是混凝土搅拌站产品线。',
-    ),
+    label: { en: 'Mixer Pumps', zh: '搅拌泵', ru: 'Насосы-смесители' },
+    description: {
+      en: 'Integrated mixer pumps that mix and convey concrete in one machine. This is not a concrete mixing plant line.',
+      zh: '搅拌与泵送一体机。这不是混凝土搅拌站产品线。',
+      ru: 'Насосы-смесители, которые одновременно готовят и подают бетон. Это не линия бетонных заводов.',
+    },
   },
 };
 

@@ -39,6 +39,15 @@ export const languages = [
     label: 'AR',
     labelNative: 'العربية',
   },
+  {
+    code: 'ru',
+    htmlLang: 'ru',
+    hreflang: 'ru',
+    ogLocale: 'ru_RU',
+    dir: 'ltr',
+    label: 'RU',
+    labelNative: 'Русский',
+  },
 ] as const;
 
 export type Lang = (typeof languages)[number]['code'];

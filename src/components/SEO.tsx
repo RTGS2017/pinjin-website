@@ -200,7 +200,7 @@ export function buildWebSiteJsonLd() {
     '@type': 'WebSite',
     name: seoConfig.siteName,
     url: seoConfig.siteUrl,
-    inLanguage: ['en', 'zh-CN', 'pt-BR', 'ar'],
+    inLanguage: languages.map((item) => item.htmlLang),
     publisher: {
       '@type': 'Organization',
       name: seoConfig.organization.name,
