@@ -117,6 +117,7 @@ export function SolutionDetail() {
               name: tx(app.title),
               description: tx(item.alt),
               image: item.src,
+              lang,
             }),
           ),
         ]}

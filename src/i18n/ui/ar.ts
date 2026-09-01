@@ -37,7 +37,7 @@ export const messagesAr = {
     guides: 'أدلة المنتجات',
     catalog: 'كتالوج المنتجات',
     catalogHint:
-      'اطلب الكتالوج عبر واتساب أو البريد. لا يوجد ملف PDF منشور حالياً.',
+      'اطلب الكتالوج عبر واتساب أو البريد.',
     datasheets: 'المواصفات التقنية',
     datasheetsHint: 'المعايير منشورة في صفحة كل منتج.',
     factoryOverview: 'نظرة على المصنع',
@@ -135,7 +135,7 @@ export const messagesAr = {
   },
   factoryCapability: {
     eyebrow: 'المصنع',
-    title: 'قدرة تصنيع حقيقية',
+    title: 'قدرة التصنيع',
     body: 'تصنيع مصدر في شينغتاي بخبي: إنتاج وتجميع وفحص وتعبئة آلات الخرسانة.',
     i1: 'ورشة الإنتاج',
     i2: 'قدرة التجميع',
@@ -179,7 +179,7 @@ export const messagesAr = {
     next: 'صورة المصنع التالية',
     overviewTitle: 'نظرة على المصنع',
     overviewSubtitle:
-      'صور إنتاج حقيقية من قاعدة التصنيع في شينغتاي بخبي.',
+      'صور الورشة والتجميع والشحن من مصنع شينغتاي.',
     proofTitle: 'قدرة المصنّع',
     viewFactory: 'عرض المصنع',
   },
@@ -308,6 +308,7 @@ export const messagesAr = {
     selectionGuide: 'دليل الاختيار',
     blog: 'المدونة',
     factory: 'التصنيع',
+    copyright: 'حقوق الصور',
     concrete: 'مضخات الخرسانة',
     spraying: 'آلات الرش',
     material: 'مناولة المواد',
@@ -319,12 +320,12 @@ export const messagesAr = {
     product: 'صورة المنتج',
     productHint: 'صورة المنتج قريباً',
     hero: 'الصورة الرئيسية',
-    heroHint: 'استبدل بصورة المصنع أو المعدة',
+    heroHint: 'صورة المصنع أو المعدة',
     factory: 'صورة المصنع',
-    factoryHint: 'استبدل بصورة حقيقية للمصنع',
+    factoryHint: 'صورة المصنع',
     application: 'تطبيق',
-    applicationHint: 'استبدل بصورة موقع العمل',
-    replace: 'استبدل بصورة حقيقية',
+    applicationHint: 'صورة موقع العمل',
+    replace: 'الصورة غير متوفرة',
   },
   seo: {
     homeTitle:
@@ -347,10 +348,11 @@ export const messagesAr = {
     applicationsDesc:
       'حالات استخدام ونقاط اختيار لمضخات الخرسانة الكهربائية والديزل ومضخات الخلط والنقل في الموقع.',
     solutionsDesc:
-      'ملاحظات اختيار لآلات الخرسانة في البناء والبنية التحتية والمواقع دون شبكة كهرباء. لا تُدرج مشاريع التعدين لأنها غير منشورة في الكتالوج.',
+      'ملاحظات اختيار لآلات الخرسانة في البناء والبنية التحتية والمواقع دون شبكة كهرباء.',
     resourcesTitle: 'الموارد | معرفة آلات البناء | Pinjin',
     resourcesDesc:
-      'أدلة عن مضخات الخرسانة وتصنيع OEM وتجمع شينغجياوان. لا يوجد كتالوج PDF بعد؛ اطلب المعايير عبر واتساب أو البريد.',
+      'أدلة عن مضخات الخرسانة وتصنيع OEM وتجمع شينغجياوان. اطلب المعايير عبر واتساب أو البريد.',
+    copyrightTitle: 'حقوق الصور | Pinjin Machinery',
     selectionDesc:
       'قوائم مختصرة حسب الكتالوج للمباني العالية والمواقع الصغيرة والديزل مقابل الكهرباء ومضخات الخلط.',
   },
@@ -398,13 +400,26 @@ export const messagesAr = {
     category: 'التصنيف',
     filterAll: 'جميع المقالات',
     empty:
-      'ستُضاف المقالات بعد كتابتها اعتماداً على حقائق المصنع والكتالوج. حالياً استخدم صفحات المنتجات أو المصنع أو تواصل مع فريق الهندسة.',
+      'ستُضاف المزيد من المقالات هنا. حالياً استخدم صفحات المنتجات أو المصنع أو تواصل مع فريق الهندسة.',
   },
   floating: {
     quote: 'طلب عرض سعر',
     whatsapp: 'واتساب',
   },
   companyName: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+  copyright: {
+    title: 'حقوق الصور',
+    lead: 'حقوق النشر وترخيص الصور وصفحات الكتالوج على هذا الموقع.',
+    notice: '© Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+    credit: 'النسبة: Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+    licenseHeading: 'الترخيص',
+    licenseBody:
+      'جميع الصور وصفحات الكتالوج على هذا الموقع مملوكة لشركة Hebei Pinjin Machinery Manufacturing Co., Ltd. لا يجوز نسخها أو تعديلها أو استخدامها تجارياً دون إذن كتابي.',
+    requestHeading: 'طلب الإذن',
+    requestBody:
+      'لاستخدام صورة، أرسل رابط الصفحة والغرض عبر واتساب أو البريد.',
+    contact: 'تواصل مع المصنع',
+  },
   mailSubjectQuote: 'طلب عرض سعر - Pinjin',
   mailSubjectInquiry: 'استفسار - Pinjin Machinery',
   mailSubjectCustom: 'طلب حل مخصص - Pinjin Machinery',
@@ -434,7 +449,7 @@ export const messagesAr = {
     openSelectionGuide: 'فتح دليل الاختيار ←',
     downloads: 'التنزيلات',
     downloadsHint:
-      'لا يوجد كتالوج PDF بعد. اطلب المعايير عبر واتساب أو البريد.',
+      'اطلب المعايير عبر واتساب أو البريد.',
     latestArticles: 'أحدث المقالات',
     companyIntro: 'مقدمة الشركة',
     whatProducts: 'ما المنتجات التي تصنّعها بينجين؟',

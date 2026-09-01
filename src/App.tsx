@@ -10,6 +10,7 @@ import {
 import { SelectionGuidePage } from '@/pages/SelectionGuidePage';
 import { About } from '@/pages/About';
 import { ContactPage } from '@/pages/ContactPage';
+import { CopyrightPage } from '@/pages/CopyrightPage';
 import { Faq } from '@/pages/Faq';
 import { SolutionDetail, SolutionsIndex } from '@/pages/Solutions';
 import { FactoryPage } from '@/pages/FactoryPage';
@@ -128,6 +129,7 @@ export default function App() {
             <Route path="blog" element={<BlogList />} />
             <Route path="blog/:slug" element={<BlogDetail />} />
             <Route path="contact" element={<ContactPage />} />
+            <Route path="copyright" element={<CopyrightPage />} />
             <Route path="*" element={<LangHomeRedirect />} />
           </Route>
         </Route>

@@ -92,6 +92,7 @@ export function ProductDetail() {
             category: categoryLabel,
             model: name,
             brand: 'Pinjin',
+            lang,
             specifications: product.specifications.map((spec) => ({
               name: tx(spec.label),
               value: tx(spec.value),

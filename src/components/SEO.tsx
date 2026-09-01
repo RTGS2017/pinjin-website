@@ -203,6 +203,20 @@ export function buildWebSiteJsonLd() {
   };
 }
 
+function imageRightsJsonLd(lang: Lang) {
+  const owner = seoConfig.organization.name;
+  return {
+    creator: {
+      '@type': 'Organization',
+      name: owner,
+    },
+    creditText: owner,
+    copyrightNotice: `© ${owner}`,
+    license: absoluteUrl(localePath('/copyright', lang)),
+    acquireLicensePage: absoluteUrl(localePath('/contact', lang)),
+  };
+}
+
 export function buildImageObjectJsonLd(slide: FactorySlide, lang: Lang) {
   return {
     '@context': 'https://schema.org',
@@ -212,6 +226,7 @@ export function buildImageObjectJsonLd(slide: FactorySlide, lang: Lang) {
     contentUrl: absoluteUrl(slide.image),
     caption: pick(slide.alt, lang),
     keywords: slide.keywords.join(', '),
+    ...imageRightsJsonLd(lang),
     contentLocation: {
       '@type': 'Place',
       name: 'Xingtai, Hebei, China',
@@ -243,10 +258,7 @@ export function buildHeroGalleryJsonLdList(items: GalleryItem[], lang: Lang) {
     width: item.width,
     height: item.height,
     representativeOfPage: true,
-    creator: {
-      '@type': 'Organization',
-      name: seoConfig.organization.name,
-    },
+    ...imageRightsJsonLd(lang),
     contentLocation: {
       '@type': 'Place',
       name: 'Xingtai, Hebei, China',
@@ -269,7 +281,9 @@ export function buildMediaImageJsonLd(input: {
   name: string;
   description: string;
   image: string;
+  lang?: Lang;
 }) {
+  const lang = input.lang ?? defaultLang;
   return {
     '@context': 'https://schema.org',
     '@type': 'ImageObject',
@@ -277,6 +291,7 @@ export function buildMediaImageJsonLd(input: {
     description: input.description,
     contentUrl: absoluteUrl(input.image),
     caption: input.description,
+    ...imageRightsJsonLd(lang),
   };
 }
 
@@ -298,8 +313,10 @@ export function buildProductJsonLd(input: {
   category?: string;
   model?: string;
   brand?: string;
+  lang?: Lang;
   specifications?: Array<{ name: string; value: string }>;
 }) {
+  const lang = input.lang ?? defaultLang;
   const imageObjects = (input.images?.length
     ? input.images
     : [
@@ -319,6 +336,7 @@ export function buildProductJsonLd(input: {
     description: img.description,
     keywords: img.keywords,
     encodingFormat: 'image/webp',
+    ...imageRightsJsonLd(lang),
     contentLocation: {
       '@type': 'Place',
       name: 'Xingtai, Hebei, China',
@@ -404,7 +422,9 @@ export function buildArticleJsonLd(input: {
   dateModified?: string;
   keywords?: string;
   image?: string;
+  lang?: Lang;
 }) {
+  const lang = input.lang ?? defaultLang;
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -414,11 +434,13 @@ export function buildArticleJsonLd(input: {
     dateModified: input.dateModified ?? input.datePublished,
     mainEntityOfPage: absoluteUrl(input.path),
     keywords: input.keywords,
-    image: input.image
+        image: input.image
       ? {
           '@type': 'ImageObject',
           url: absoluteUrl(input.image),
+          contentUrl: absoluteUrl(input.image),
           name: input.headline,
+          ...imageRightsJsonLd(lang),
           contentLocation: {
             '@type': 'Place',
             name: 'Xingtai, Hebei, China',
@@ -437,6 +459,8 @@ export function buildArticleJsonLd(input: {
       logo: {
         '@type': 'ImageObject',
         url: absoluteUrl(seoConfig.organization.logoPath),
+        contentUrl: absoluteUrl(seoConfig.organization.logoPath),
+        ...imageRightsJsonLd(lang),
       },
     },
   };

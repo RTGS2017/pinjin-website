@@ -273,6 +273,7 @@ def page_paths() -> list[str]:
             "/about",
             "/faq",
             "/contact",
+            "/copyright",
         ]
     )
 
@@ -359,6 +360,7 @@ def page_meta(rest: str) -> tuple[str, str]:
         "/products/custom-machinery",
         "/product-selection-guide",
         "/contact",
+        "/copyright",
         "/solutions",
     ):
         return "weekly", "0.8"

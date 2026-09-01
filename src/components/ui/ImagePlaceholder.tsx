@@ -28,7 +28,7 @@ export function ImagePlaceholder({
   className = '',
   imgClassName = 'object-contain',
   label = 'IMAGE',
-  hint = 'Replace with actual photo',
+          hint = 'Image unavailable',
   priority = false,
   eager = false,
   decorative = false,

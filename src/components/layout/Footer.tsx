@@ -136,7 +136,10 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-6 text-xs text-white/45">
-          © 2026 {t.companyName}. {t.footer.rights}
+          © 2026 {t.companyName}. {t.footer.rights}{' '}
+          <LocaleLink to="/copyright" className="hover:text-primary">
+            {t.footer.copyright}
+          </LocaleLink>
         </div>
       </div>
     </footer>

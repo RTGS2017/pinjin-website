@@ -598,8 +598,8 @@ export const knowledgeArticles: BlogPost[] = [
       '中国工程设备供应商核查清单 | 混凝土泵厂家 | 品锦',
     ),
     description: L(
-      'A buyer checklist for Chinese construction equipment suppliers: published specifications, factory location, product range and export communication — without invented certificates or client lists.',
-      '采购中国工程设备供应商的核查清单：已公布参数、工厂地址、产品范围与出口沟通——不编造证书或客户名单。',
+      'A buyer checklist for Chinese construction equipment suppliers: published specifications, factory location, product range and export communication.',
+      '采购中国工程设备供应商的核查清单：已公布参数、工厂地址、产品范围与出口沟通。',
     ),
     category: 'industry-guide',
     date: '2026-08-25',
@@ -633,8 +633,8 @@ export const knowledgeArticles: BlogPost[] = [
           '海外买家应向中国混凝土泵厂家核对什么？',
         ),
         answer: L(
-          'Ask for the legal factory address, published model tables (capacity, distance, power), and how to request a quotation. Do not rely on unspecified “certificates” or unnamed export countries unless the factory can show the actual documents.',
-          '询问法定厂址、已公布的型号表（输送量、距离、动力）以及如何询价。不要依赖未出示的“证书”或未点名的出口国，除非工厂能提供相应文件。',
+          'Ask for the legal factory address, published model tables (capacity, distance, power), and how to request a quotation.',
+          '询问法定厂址、已公布的型号表（输送量、距离、动力）以及如何询价。',
         ),
       },
       {
@@ -663,8 +663,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('Introduction', '引言'),
         paragraphs: [
           L(
-            'China supplies a large share of the world’s construction machinery. For an overseas buyer, the risk is not “China” as a label, but a supplier who cannot show a factory address, model tables or a clear enquiry path. This article lists checks that do not depend on invented awards or unnamed customers.',
-            '中国供应全球很大一部分工程机械。对海外买家，风险不在“中国”这个标签，而在无法出示厂址、型号表或清晰询价路径的供应商。本文列出的核查不依赖编造的奖项或未具名客户。',
+            'China supplies a large share of the world’s construction machinery. For an overseas buyer, the useful checks are a factory address, model tables and a clear enquiry path.',
+            '中国供应全球很大一部分工程机械。对海外买家，有用的核对项是厂址、型号表和清晰询价路径。',
           ),
         ],
         image: articleImage(
@@ -677,8 +677,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('1. Manufacturing location and capability', '1. 制造地点与能力'),
         paragraphs: [
           L(
-            'Ask where the machines are built and whether you can see workshop photos that match that address. Pinjin publishes the Xingtai / Renze Industrial Park address and factory images of production, assembly and dispatch. Capability claims should match what is on the factory page (workshop, assembly, inspection, packing) rather than a number of “years” or “export countries” that this site does not state.',
-            '询问设备在何处制造，以及车间照片是否与该地址相符。品锦公布邢台任泽工业园区地址，以及生产、装配与发运的工厂照片。能力说明应与工厂页内容（车间、装配、检验、包装）一致，而不是本站未写明的“年限”或“出口国”数字。',
+            'Ask where the machines are built and whether you can see workshop photos that match that address. Pinjin publishes the Xingtai / Renze Industrial Park address and factory images of production, assembly and dispatch.',
+            '询问设备在何处制造，以及车间照片是否与该地址相符。品锦公布邢台任泽工业园区地址，以及生产、装配与发运的工厂照片。',
           ),
         ],
       },
@@ -686,8 +686,8 @@ export const knowledgeArticles: BlogPost[] = [
         heading: L('2. Product quality — what you can actually verify', '2. 产品质量——你能核实的部分'),
         paragraphs: [
           L(
-            'Before purchase, compare published specifications, materials described on the product page, and any test or inspection steps the factory will confirm in writing. If a seller advertises certificates, ask for the document, the issuing body and the machine it covers. This website does not list certificate names, so we do not claim them here.',
-            '采购前对照已公布参数、产品页对材料的说明，以及工厂书面确认的检测或检验步骤。若卖方宣传证书，请索取文件、颁发机构和覆盖的设备。本站未列出证书名称，因此这里也不声称拥有它们。',
+            'Before purchase, compare published specifications, materials described on the product page, and any test or inspection steps the factory will confirm in writing.',
+            '采购前对照已公布参数、产品页对材料的说明，以及工厂书面确认的检测或检验步骤。',
           ),
         ],
       },
@@ -701,7 +701,7 @@ export const knowledgeArticles: BlogPost[] = [
         ],
       },
       {
-        heading: L('4. Product range that matches real catalogue pages', '4. 与真实目录页相符的产品范围'),
+        heading: L('4. Product range listed in the catalogue', '4. 目录中列出的产品范围'),
         paragraphs: [
           L(
             'Look for a manufacturer who publishes several related machines, not only a keyword. Pinjin’s catalogue includes electric concrete pumps, diesel concrete pumps and mixer pumps. It does not include a concrete mixing plant line. Solutions are combinations of these listed machines plus OEM changes where the product page says customization is available.',

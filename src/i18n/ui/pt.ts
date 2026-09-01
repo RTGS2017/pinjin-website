@@ -37,7 +37,7 @@ export const messagesPt = {
     guides: 'Guias de produto',
     catalog: 'Catálogo de produtos',
     catalogHint:
-      'Solicite o catálogo por WhatsApp ou e-mail. Ainda não há PDF publicado.',
+      'Solicite o catálogo por WhatsApp ou e-mail.',
     datasheets: 'Especificações técnicas',
     datasheetsHint: 'Parâmetros publicados em cada página de produto.',
     factoryOverview: 'Visão da fábrica',
@@ -135,7 +135,7 @@ export const messagesPt = {
   },
   factoryCapability: {
     eyebrow: 'Fábrica',
-    title: 'Capacidade real de fabricação',
+    title: 'Capacidade de fabricação',
     body: 'Fabricação de origem em Xingtai, Hebei: produção, montagem, inspeção e embalagem de máquinas de concreto.',
     i1: 'Oficina de produção',
     i2: 'Capacidade de montagem',
@@ -179,7 +179,7 @@ export const messagesPt = {
     next: 'Próxima foto da fábrica',
     overviewTitle: 'Visão da fábrica',
     overviewSubtitle:
-      'Fotos reais de produção na base de Xingtai, Hebei.',
+      'Fotos da oficina, montagem e expedição da fábrica de Xingtai.',
     proofTitle: 'Capacidade do fabricante',
     viewFactory: 'Ver a fábrica',
   },
@@ -308,6 +308,7 @@ export const messagesPt = {
     selectionGuide: 'Guia de seleção',
     blog: 'Blog',
     factory: 'Fabricação',
+    copyright: 'Direitos de imagem',
     concrete: 'Bombas de concreto',
     spraying: 'Máquinas de projeção',
     material: 'Movimentação de materiais',
@@ -319,12 +320,12 @@ export const messagesPt = {
     product: 'IMAGEM DO PRODUTO',
     productHint: 'Imagem do produto em breve',
     hero: 'IMAGEM PRINCIPAL',
-    heroHint: 'Substituir por foto da fábrica ou do equipamento',
+    heroHint: 'Foto da fábrica ou do equipamento',
     factory: 'IMAGEM DA FÁBRICA',
-    factoryHint: 'Substituir por foto real da fábrica',
+    factoryHint: 'Foto da fábrica',
     application: 'APLICAÇÃO',
-    applicationHint: 'Substituir por foto de obra',
-    replace: 'Substituir por foto real',
+    applicationHint: 'Foto de obra',
+    replace: 'Imagem indisponível',
   },
   seo: {
     homeTitle:
@@ -347,10 +348,11 @@ export const messagesPt = {
     applicationsDesc:
       'Aplicações típicas e pontos de seleção para bombas elétricas e a diesel, misturadoras e transporte no canteiro.',
     solutionsDesc:
-      'Notas de seleção para construção, infraestrutura e obras sem rede elétrica. Projetos de mineração não são listados porque não constam do catálogo.',
+      'Notas de seleção para construção, infraestrutura e obras sem rede elétrica.',
     resourcesTitle: 'Recursos | Conhecimento de Máquinas de Construção | Pinjin',
     resourcesDesc:
-      'Guias sobre bombas de concreto, fabricação OEM e o cluster Xingjiawan. Ainda não há PDF; solicite parâmetros por WhatsApp ou e-mail.',
+      'Guias sobre bombas de concreto, fabricação OEM e o cluster Xingjiawan. Solicite parâmetros por WhatsApp ou e-mail.',
+    copyrightTitle: 'Direitos de imagem | Pinjin Machinery',
     selectionDesc:
       'Listas curtas com base no catálogo para obras altas, canteiros compactos, diesel vs elétrico e bombas misturadoras.',
   },
@@ -398,13 +400,26 @@ export const messagesPt = {
     category: 'Categoria',
     filterAll: 'Todos os artigos',
     empty:
-      'Os artigos serão publicados depois de escritos com factos da fábrica e do catálogo. Entretanto, use as páginas de produtos, a fábrica ou contacte a engenharia.',
+      'Mais artigos serão publicados aqui. Entretanto, use as páginas de produtos, a fábrica ou contacte a engenharia.',
   },
   floating: {
     quote: 'Pedir orçamento',
     whatsapp: 'WhatsApp',
   },
   companyName: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+  copyright: {
+    title: 'Direitos de imagem',
+    lead: 'Copyright e licença das fotografias e fichas de catálogo neste site.',
+    notice: '© Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+    credit: 'Crédito: Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+    licenseHeading: 'Licença',
+    licenseBody:
+      'Todas as fotografias e fichas de catálogo neste site são propriedade da Hebei Pinjin Machinery Manufacturing Co., Ltd. Não podem ser copiadas, modificadas ou usadas comercialmente sem autorização por escrito.',
+    requestHeading: 'Pedir autorização',
+    requestBody:
+      'Para usar uma imagem, envie o URL da página e o uso pretendido por WhatsApp ou e-mail.',
+    contact: 'Contactar a fábrica',
+  },
   mailSubjectQuote: 'Pedido de orçamento - Pinjin',
   mailSubjectInquiry: 'Consulta - Pinjin Machinery',
   mailSubjectCustom: 'Solução sob medida - Pinjin Machinery',
@@ -434,7 +449,7 @@ export const messagesPt = {
     openSelectionGuide: 'Abrir o guia de seleção →',
     downloads: 'Downloads',
     downloadsHint:
-      'Ainda não há PDF. Solicite parâmetros por WhatsApp ou e-mail.',
+      'Solicite parâmetros por WhatsApp ou e-mail.',
     latestArticles: 'Artigos recentes',
     companyIntro: 'Apresentação da empresa',
     whatProducts: 'Que produtos a Pinjin fabrica?',

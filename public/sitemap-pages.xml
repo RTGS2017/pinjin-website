@@ -2025,4 +2025,48 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://pinjinpump.com/en/copyright</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/copyright" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/copyright" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pinjinpump.com/pt/copyright" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/copyright" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/copyright" />
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/zh/copyright</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/copyright" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/copyright" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pinjinpump.com/pt/copyright" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/copyright" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/copyright" />
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/pt/copyright</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/copyright" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/copyright" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pinjinpump.com/pt/copyright" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/copyright" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/copyright" />
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/ar/copyright</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/copyright" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/copyright" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://pinjinpump.com/pt/copyright" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/copyright" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/copyright" />
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

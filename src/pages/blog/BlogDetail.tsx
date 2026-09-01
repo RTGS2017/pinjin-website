@@ -58,6 +58,7 @@ export function BlogDetail() {
       dateModified: post.dateModified ?? post.date,
       keywords,
       image: firstImage,
+      lang,
     }),
     buildBreadcrumbJsonLd([
       { name: t.detail.home, path: localePath('/', lang) },
