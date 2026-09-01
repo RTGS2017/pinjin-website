@@ -48,7 +48,7 @@ export function ImagePlaceholder({
 
   return (
     <div
-      className={`relative overflow-hidden bg-bg-soft ${className}`}
+      className={`relative overflow-hidden ${className.includes('bg-') ? '' : 'bg-bg-soft'} ${className}`}
       role={decorative ? undefined : 'img'}
       aria-label={decorative ? undefined : meaningfulAlt}
     >
@@ -67,7 +67,7 @@ export function ImagePlaceholder({
             if (event.currentTarget.naturalWidth <= 1) setFailed(true);
           }}
           onError={() => setFailed(true)}
-          className={`h-full w-full ${imgClassName}`}
+          className={`${imgClassName.includes('h-auto') ? 'w-full' : 'h-full w-full'} ${imgClassName}`}
         />
       ) : null}
 

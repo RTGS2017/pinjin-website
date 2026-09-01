@@ -6,6 +6,7 @@ import {
   getCategoryPath,
   getProductBySlug,
   getRelatedProducts,
+  productImageAlt,
   resolveProductSlug,
 } from '@/data/products';
 import { clusterForProduct } from '@/data/topicClusters';
@@ -72,6 +73,7 @@ export function ProductDetail() {
         description={seoDescription}
         path={path}
         image={product.image}
+        imageAlt={productImageAlt(product, product.image, lang)}
         type="product"
         keywords={keywords}
         jsonLd={[
@@ -79,6 +81,13 @@ export function ProductDetail() {
             name,
             description: seoDescription,
             image: product.image,
+            images: gallery.map((src) => ({
+              url: src,
+              name,
+              caption: productImageAlt(product, src, lang),
+              description: tx(product.productIntroduction),
+              keywords: keywords,
+            })),
             path: localizedPath,
             category: categoryLabel,
             model: name,
@@ -123,10 +132,7 @@ export function ProductDetail() {
         </nav>
 
         <div className="grid gap-10 lg:grid-cols-2">
-          <ProductGallery
-            images={gallery}
-            alt={`${product.name.en} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`}
-          />
+          <ProductGallery product={product} images={gallery} />
 
           <div>
             <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">

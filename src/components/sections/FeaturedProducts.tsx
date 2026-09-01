@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { featuredProductSlugs, withBase } from '@/config/site';
-import { getFeaturedProducts } from '@/data/products';
+import { getFeaturedProducts, productImageAlt } from '@/data/products';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { Button } from '@/components/ui/Button';
@@ -12,7 +12,7 @@ import {
 import { useI18n } from '@/i18n/I18nContext';
 
 export function FeaturedProducts() {
-  const { t, tx } = useI18n();
+  const { lang, t, tx } = useI18n();
   const products = getFeaturedProducts(featuredProductSlugs);
   const total = products.length;
 
@@ -83,19 +83,19 @@ export function FeaturedProducts() {
                     </div>
                   </div>
 
-                  <div className="product-stage rounded-[1.25rem]">
+                  <div className="product-stage">
                     <ImagePlaceholder
                       src={product.image}
-                      alt={`${name} manufactured by Pinjin Machinery in Xingtai Hebei China — China concrete pump factory`}
+                      alt={productImageAlt(product, product.image, lang)}
                       label={t.productCard.imageComingSoon}
                       hint=""
                       priority={index === 0}
                       eager={index === 1}
-                      width={1200}
-                      height={900}
+                      width={1536}
+                      height={1024}
                       sizes="(max-width: 1024px) 100vw, 560px"
-                      className="aspect-[4/3] w-full rounded-[1.25rem] !bg-transparent"
-                      imgClassName="object-contain p-8 sm:p-12"
+                      className="w-full bg-transparent"
+                      imgClassName="h-auto w-full object-contain"
                     />
                   </div>
                 </article>

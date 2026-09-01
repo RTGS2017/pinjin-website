@@ -1,6 +1,6 @@
 import { LocaleLink } from '@/i18n/navigation';
 import type { Product } from '@/data/products';
-import { categoryMeta } from '@/data/products';
+import { categoryMeta, productImageAlt } from '@/data/products';
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { Button } from './Button';
 import { OemNote } from './OemNote';
@@ -11,7 +11,7 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product }: ProductCardProps) {
-  const { t, tx } = useI18n();
+  const { lang, t, tx } = useI18n();
   const name = tx(product.name);
   const apps = product.applicationScenarios.slice(0, 4);
   const features = product.keyFeatures.slice(0, 3);
@@ -20,17 +20,17 @@ export function ProductCard({ product }: ProductCardProps) {
     <article className="group card-surface flex h-full flex-col overflow-hidden bg-bg transition-shadow duration-300 hover:shadow-[0_12px_36px_rgba(0,0,0,0.06)]">
       <LocaleLink
         to={`/products/${product.slug}`}
-        className="block overflow-hidden bg-bg-soft"
+        className="block overflow-hidden bg-transparent"
       >
         <ImagePlaceholder
           src={product.image}
-          alt={`${product.name.en} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`}
+          alt={productImageAlt(product, product.image, lang)}
           label={t.productCard.imageComingSoon}
           hint={t.placeholder.productHint}
-          width={1200}
-          height={760}
-          className="aspect-[4/3] w-full"
-          imgClassName="object-contain p-6 transition-transform duration-300 group-hover:scale-[1.03]"
+          width={1536}
+          height={1024}
+          className="w-full bg-transparent"
+          imgClassName="h-auto w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
         />
       </LocaleLink>
 

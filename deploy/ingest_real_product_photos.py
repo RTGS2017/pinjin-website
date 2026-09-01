@@ -186,16 +186,44 @@ def unique_root_photos() -> dict[str, Path]:
     return keepers
 
 
+def trim_studio_white(img: Image.Image, pad_ratio: float = 0.03) -> Image.Image:
+    """Crop near-white studio margin and punch remaining white to alpha."""
+    from PIL import ImageChops, ImageOps
+
+    rgb = img.convert("RGB")
+    white = Image.new("RGB", rgb.size, (255, 255, 255))
+    diff = ImageOps.grayscale(ImageChops.difference(rgb, white))
+    mask = diff.point(lambda p: 255 if p > 10 else 0)
+    box = mask.getbbox()
+    if not box:
+        return img.convert("RGBA")
+
+    w, h = rgb.size
+    pad_x = max(8, int(w * pad_ratio))
+    pad_y = max(8, int(h * pad_ratio))
+    left, top, right, bottom = box
+    crop = (
+        max(0, left - pad_x),
+        max(0, top - pad_y),
+        min(w, right + pad_x),
+        min(h, bottom + pad_y),
+    )
+    rgb = rgb.crop(crop)
+    diff = diff.crop(crop)
+    alpha = diff.point(lambda p: 0 if p < 12 else 255)
+    out = rgb.convert("RGBA")
+    out.putalpha(alpha)
+    return out
+
+
 def convert_studio(src: Path, dest: Path) -> None:
     img = Image.open(src)
     if img.mode == "P":
         img = img.convert("RGBA")
-    if img.mode == "RGBA":
-        bg = Image.new("RGB", img.size, (255, 255, 255))
-        bg.paste(img, mask=img.split()[-1])
-        img = bg
-    elif img.mode != "RGB":
-        img = img.convert("RGB")
+    if img.mode not in ("RGB", "RGBA"):
+        img = img.convert("RGBA")
+
+    img = trim_studio_white(img)
 
     w, h = img.size
     scale = min(1.0, MAX_SIDE / max(w, h))

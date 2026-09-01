@@ -27,7 +27,7 @@ import {
 } from '@/config/navigation';
 import { contactInquiryPath, getMailtoHref } from '@/config/site';
 import { applicationPages } from '@/data/applicationsContent';
-import { categoryMeta, getFeaturedProducts } from '@/data/products';
+import { categoryMeta, getFeaturedProducts, productImageAlt } from '@/data/products';
 import { Button } from '@/components/ui/Button';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { MegaMenuLink } from '@/components/navigation/MegaMenuLink';
@@ -132,7 +132,7 @@ function ItemLink({
 }
 
 function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
-  const { t, tx } = useI18n();
+  const { lang, t, tx } = useI18n();
   const featured = getFeaturedProducts(megaFeaturedSlugs);
 
   return (
@@ -184,13 +184,13 @@ function ProductsMega({ onNavigate }: { onNavigate: () => void }) {
             >
               <ImagePlaceholder
                 src={product.image}
-                alt={`${product.name.en} manufactured by Hebei Pinjin Machinery`}
+                alt={productImageAlt(product, product.image, lang)}
                 label={t.productCard.imageComingSoon}
                 hint=""
                 width={600}
                 height={400}
-                className="aspect-[16/10] w-full !bg-white/10"
-                imgClassName="object-contain p-3"
+                className="w-full bg-transparent"
+                imgClassName="h-auto w-full object-contain"
               />
               <span className="flex flex-1 flex-col p-3">
                 <span className="text-sm font-semibold text-white group-hover:text-primary">
