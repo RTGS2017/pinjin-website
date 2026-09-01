@@ -47,7 +47,7 @@ export function FactoryCapability() {
               imgClassName="object-cover transition-transform duration-700 ease-out"
             />
           </div>
-          <div className="mt-4 flex justify-center gap-2 sm:gap-3">
+          <div className="mt-4 flex flex-wrap justify-center gap-2 sm:gap-3">
             {factoryShowcase.map((frame, index) => (
               <button
                 key={frame.id}

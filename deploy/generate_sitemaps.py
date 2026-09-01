@@ -15,6 +15,7 @@ Also rewrites public/robots.txt Sitemap line to the index.
 """
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
 
@@ -137,26 +138,6 @@ HERO_IMAGE = (
     "Hebei Pinjin Machinery factory exterior in Xingtai Hebei China — concrete pump manufacturer and construction equipment supplier",
 )
 
-# 首页工厂能力画廊 4 张（与 src/data/gallery.ts factoryShowcase 一致）
-HOME_FACTORY_IMAGES = [
-    (
-        "pinjin-production-workshop.webp",
-        "Diesel trailer concrete pump assembly in Hebei Pinjin Machinery production workshop",
-    ),
-    (
-        "pinjin-machinery-assembly-area.webp",
-        "Equipment assembly workshop of Hebei Pinjin Machinery",
-    ),
-    (
-        "pinjin-equipment-storage.webp",
-        "Finished construction machinery at Hebei Pinjin Machinery",
-    ),
-    (
-        "pinjin-xingjiawan-concrete-machinery-factory.webp",
-        "Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China",
-    ),
-]
-
 FACTORY_IMAGES = [
     (
         "pinjin-xingjiawan-concrete-machinery-factory.webp",
@@ -242,6 +223,18 @@ APPLICATION_IMAGES = [
         ],
     ),
 ]
+
+
+def existing_images(folder: str, items: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    root = ROOT / "images" / folder
+    found = [(name, title) for name, title in items if (root / name).is_file()]
+    listed = {name for name, _ in items}
+    extras: list[tuple[str, str]] = []
+    if root.is_dir():
+        for path in sorted(root.glob("*.webp")):
+            if path.name not in listed:
+                extras.append((path.name, path.stem.replace("-", " ")))
+    return found + extras
 
 
 def ordered_product_slugs() -> list[str]:
@@ -442,23 +435,34 @@ def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     )
     folder = ROOT / "images" / "products" / slug
     extras = [
-        ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery"),
-        ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery"),
-        ("detail-1.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-2.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-3.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-4.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-5.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-6.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-7.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("detail-8.webp", f"{n} studio product photo — Hebei Pinjin Machinery"),
-        ("catalog.webp", f"{n} catalogue specification sheet — Hebei Pinjin Machinery"),
+        ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery Xingtai Hebei China"),
+        ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery Xingtai Hebei China"),
+        ("detail-1.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-2.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-3.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-4.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-5.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-6.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-7.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("detail-8.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
+        ("catalog.webp", f"{n} catalogue specification sheet manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
     ]
+    used = {"main.webp"}
     for fname, title in extras:
         if not (folder / fname).exists():
             continue
+        used.add(fname)
         lines += image_nodes(
             f"{base}/images/products/{slug}/{fname}",
+            title,
+            title,
+        )
+    for path in sorted(folder.glob("*.webp")):
+        if path.name in used:
+            continue
+        title = f"{n} {path.stem.replace('-', ' ')} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
+        lines += image_nodes(
+            f"{base}/images/products/{slug}/{path.name}",
             title,
             title,
         )
@@ -467,6 +471,8 @@ def product_image_block(base: str, lang: str, slug: str) -> list[str]:
 
 
 def write_image_sitemap(base: str, slugs: list[str]) -> int:
+    factory_images = existing_images("factory", FACTORY_IMAGES)
+    home_factory_images = factory_images
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
@@ -491,7 +497,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
                 f"{n} manufactured by Hebei Pinjin Machinery",
                 f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
-        for fname, title in HOME_FACTORY_IMAGES:
+        for fname, title in home_factory_images:
             lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
@@ -542,7 +548,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             f"    <loc>{base}/{lang}/about</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
-        for fname, title in FACTORY_IMAGES:
+        for fname, title in factory_images:
             lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
@@ -556,7 +562,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             f"    <loc>{base}/{lang}/factory</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
-        for fname, title in FACTORY_IMAGES:
+        for fname, title in factory_images:
             lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
@@ -570,7 +576,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             f"    <loc>{base}/{lang}/products/custom-machinery</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
-        for fname, title in FACTORY_IMAGES[:4]:
+        for fname, title in factory_images[:3]:
             lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,
@@ -623,6 +629,80 @@ def write_index(base: str) -> None:
     (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+SRC_DATA = Path(__file__).resolve().parents[1] / "src" / "data"
+PRODUCT_ORDER = [
+    "main.webp",
+    "catalog.webp",
+    "working.webp",
+    "working-2.webp",
+    *[f"detail-{i}.webp" for i in range(1, 9)],
+]
+
+
+def write_image_inventory() -> None:
+    factory = [
+        f"/images/factory/{path.name}"
+        for path in sorted((ROOT / "images" / "factory").glob("*.webp"))
+    ]
+    applications = [
+        f"/images/applications/{path.name}"
+        for path in sorted((ROOT / "images" / "applications").glob("*.webp"))
+    ]
+    hero = [
+        f"/images/hero/{path.name}"
+        for path in sorted((ROOT / "images" / "hero").glob("*.webp"))
+    ]
+    products: dict[str, list[str]] = {}
+    products_root = ROOT / "images" / "products"
+    if products_root.is_dir():
+        for folder in sorted(products_root.iterdir()):
+            if not folder.is_dir():
+                continue
+            files = [path.name for path in folder.glob("*.webp")]
+
+            def sort_key(name: str) -> tuple[int, str]:
+                try:
+                    return (PRODUCT_ORDER.index(name), name)
+                except ValueError:
+                    return (len(PRODUCT_ORDER), name)
+
+            files.sort(key=sort_key)
+            products[folder.name] = [
+                f"/images/products/{folder.name}/{name}" for name in files
+            ]
+
+    def ts_list(paths: list[str]) -> str:
+        if not paths:
+            return "[]"
+        inner = ",\n".join(f"  {json.dumps(path)}" for path in paths)
+        return "[\n" + inner + ",\n]"
+
+    product_entries = []
+    for slug, paths in products.items():
+        inner = ",\n".join(f"    {json.dumps(path)}" for path in paths)
+        product_entries.append(f"  {json.dumps(slug)}: [\n{inner},\n  ]")
+    product_block = "{\n" + ",\n".join(product_entries) + ",\n}" if product_entries else "{}"
+
+    text = (
+        "/* Generated by deploy/generate_sitemaps.py — do not edit by hand. */\n"
+        "export const factoryPublicImages = "
+        + ts_list(factory)
+        + " as const;\n\n"
+        "export const applicationPublicImages = "
+        + ts_list(applications)
+        + " as const;\n\n"
+        "export const heroPublicImages = "
+        + ts_list(hero)
+        + " as const;\n\n"
+        "export const productPublicImagesBySlug: Record<string, readonly string[]> = "
+        + product_block
+        + ";\n"
+    )
+    dest = SRC_DATA / "imageInventory.generated.ts"
+    dest.write_text(text, encoding="utf-8")
+    print(f"wrote {dest.relative_to(SRC_DATA.parent.parent)} factory={len(factory)} products={len(products)}")
+
+
 def main() -> None:
     base = resolve_base()
     slugs = ordered_product_slugs()
@@ -631,10 +711,12 @@ def main() -> None:
     image_url_count = write_image_sitemap(base, slugs)
     write_index(base)
     write_robots(base)
+    write_image_inventory()
     print(
         f"base={base} langs={LANGS} "
         f"page urls={page_count} image urls={image_url_count} products={len(slugs)}"
     )
+
 
 
 if __name__ == "__main__":

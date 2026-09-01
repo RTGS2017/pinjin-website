@@ -78,7 +78,7 @@ VITE_SITE_URL=https://pinjinpump.com
 python deploy/generate_sitemaps.py
 ```
 
-会同步更新 `public/sitemap.xml`（索引）、`public/sitemap-pages.xml`、`public/image-sitemap.xml`、`public/robots.txt`。并按 `public/CNAME.example` 说明创建 `public/CNAME`（单行主机名）。
+会同步更新 `public/sitemap.xml`（索引）、`public/sitemap-pages.xml`、`public/image-sitemap.xml`、`public/robots.txt`，以及 `src/data/imageInventory.generated.ts`（页面只引用实际存在的 WebP 路径）。并按 `public/CNAME.example` 说明创建 `public/CNAME`（单行主机名）。
 
 ### 技术 SEO / GEO
 
@@ -107,17 +107,17 @@ python deploy/generate_sitemaps.py
 - 组织 JSON-LD：`industry=Construction Machinery Manufacturer`；产品线写入 `hasOfferCatalog`（OfferCatalog，指向分类 URL），不含搅拌站。**不要**把分类写成 Product。单品 JSON-LD 仅在详情页，含 `brand` / `model` / `additionalProperty`；无公开价格与真实评价时不加 `offers` / `review` / `aggregateRating`
 - 关键词集群：电动/柴油混凝土泵厂家、搅拌泵（不是搅拌站）、中国厂家信任（邢台工厂考察 / OEM 流程）。不单独堆砌过宽的 “concrete machine”
 - **不虚构搅拌站分类页**：`/products/concrete-mixing-plant` 重定向到混凝土泵分类；目录未销售搅拌站
-- 图片：WebP、`loading=lazy`（LCP 图 eager）、每产品 `{slug}/main.webp`；工厂图见 `图片准备清单.md`。不引入重量级 SEO 插件
+- 图片：WebP、`loading=lazy`（LCP 图 eager）；产品 `{slug}/main.webp` + 同目录现存 catalog/detail/working；工厂图见 `图片准备清单.md`。不引入重量级 SEO 插件
 - 品牌色板（厂房深灰 + 工业红，避免亮橙/纯蓝模板）：主色 `#1D1F21`、强调 `#B32126`、背景 `#F3F3F1`，定义于 [`src/index.css`](src/index.css)
 - 首页定位：B2B 工业制造商站（产品理解 / 导航清晰 / 询盘转化），不是作品集或电商画廊
 - 首页顺序：Hero 单视觉（工厂外观主视图，不轮播）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心（3 篇）→ Footer
 - 首页 Hero：全宽单画面 + 公司介绍/标题/CTA；无缩略图、无自动播放。主视图：`public/images/hero/pinjin-machinery-factory-xingtai-china.webp`，数据见 [`src/data/gallery.ts`](src/data/gallery.ts)。完整工厂说明页仍在 `/factory` 与 `/about`
 - 精选产品：左信息（型号、简介、2–3 条优势、OEM 定制说明）/ 右产品图。可见上一张/下一张按钮 + 页码 `01/05` + 5 秒红色进度条。点击按钮会重置计时。型号列表：`featuredProductSlugs`（[`src/config/site.ts`](src/config/site.ts)）
 - 共用轮播：[`src/components/ui/IndustrialCarousel.tsx`](src/components/ui/IndustrialCarousel.tsx)（上一张/下一张、自动播放、进度条、键盘左右键、移动端滑动）。时长参数：`carouselConfig`（[`src/config/site.ts`](src/config/site.ts)）
-- 工厂能力：车间 / 装配 / 成品 / 厂房外观，大图 + 下方缩略图，不是第二块全屏 Banner
+- 工厂能力：`public/images/factory/` 里全部现存实拍，大图 + 下方缩略图，不是第二块全屏 Banner。
 - 应用案例：中间大图 + 两侧可见按钮；图下为标题、说明、查看应用；红色进度条。现场图为真实应用方向，不虚构客户项目业绩
 - 产品区定制说明：OEM customization available；参数可按项目调整；确认技术规格后可尽快安排生产；突出工厂直供。组件：[`src/components/ui/OemNote.tsx`](src/components/ui/OemNote.tsx)
-- 图片：每产品独立目录 `{slug}/main.webp`；工厂图见 `图片准备清单.md` 与 `src/data/factory.ts`（含 ALT、keywords、locationContext）
+- 图片：每产品独立目录 `{slug}/main.webp`，详情页同时展示同目录现存 `catalog.webp` / `detail-*.webp` / `working.webp`；工厂图见 `图片准备清单.md` 与 `src/data/factory.ts`（含 ALT、keywords、locationContext）。产品 ALT / ImageObject 按产品介绍 + 邢台产地生成。
 
 ---
 
@@ -231,7 +231,7 @@ src/i18n/locales/GEMINI-PROMPT.md
 产品数据唯一来源：根目录《河北品锦机械制造有限公司产品目录》。  
 当前共 **22** 个产品实体，录入 `src/data/products.ts`。
 
-图片准备说明见 `图片准备清单.md`。素材目录：`brand/`、`hero/`、`products/{slug}/`、`factory/`、`applications/`。产品只登记 `main.webp`；现场图生成 `{slug}/working.webp`。首页 Hero 使用 `hero/pinjin-machinery-factory-xingtai-china.webp`，精选轮播用 `main.webp`，默认 OG 用同一张主视图。
+图片准备说明见 `图片准备清单.md`。素材目录：`brand/`、`hero/`、`products/{slug}/`、`factory/`、`applications/`。产品详情展示该型号目录下全部现存 WebP（`main.webp`、`catalog.webp`、`detail-*.webp` 等）；现场图生成 `{slug}/working.webp`。source 备份不进入页面。首页 Hero 使用 `hero/pinjin-machinery-factory-xingtai-china.webp`，精选轮播用 `main.webp`，默认 OG 用同一张主视图。
 
 工厂图放在 `public/images/factory/`。微信原图放入后运行：
 
@@ -240,7 +240,7 @@ python deploy/process_factory_images.py
 python deploy/generate_sitemaps.py
 ```
 
-会把全部工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名（见清单，当前 9 张全部使用）。首页 Hero 使用独立主视图 `hero/pinjin-machinery-factory-xingtai-china.webp`（`src/data/gallery.ts`）。About、Factory 页、产品详情厂商能力条仍用完整 `factorySlides`。
+会把工厂 JPG 居中裁成 16:9 WebP，并改成 SEO 文件名。页面只引用实际存在的 WebP：首页工厂能力、`/factory`、`/about` 使用同一套 `factorySlides`。首页 Hero 仍使用独立主视图 `hero/pinjin-machinery-factory-xingtai-china.webp`。
 
 应用现场图放到 `public/images/applications/` 后运行：
 

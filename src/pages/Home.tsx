@@ -4,7 +4,7 @@ import { FactoryCapability } from '@/components/sections/FactoryCapability';
 import { WhyPinjin } from '@/components/sections/WhyPinjin';
 import { Applications } from '@/components/sections/Applications';
 import { KnowledgeCenter } from '@/components/sections/KnowledgeCenter';
-import { SEO, buildHeroGalleryJsonLdList, buildOrganizationJsonLd, buildWebSiteJsonLd } from '@/components/SEO';
+import { SEO, buildFactoryImageJsonLdList, buildHeroGalleryJsonLdList, buildOrganizationJsonLd, buildWebSiteJsonLd } from '@/components/SEO';
 import { heroGallery } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
 
@@ -23,7 +23,7 @@ export function Home() {
         imageWidth={hero.width}
         imageHeight={hero.height}
         keywords={hero.seoKeywords.join(', ')}
-        jsonLd={[buildOrganizationJsonLd(), buildWebSiteJsonLd(), ...buildHeroGalleryJsonLdList(heroGallery, lang)]}
+        jsonLd={[buildOrganizationJsonLd(), buildWebSiteJsonLd(), ...buildHeroGalleryJsonLdList(heroGallery, lang), ...buildFactoryImageJsonLdList(lang)]}
       />
       <Hero />
       <FeaturedProducts />

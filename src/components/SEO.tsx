@@ -286,6 +286,13 @@ export function buildProductJsonLd(input: {
   name: string;
   description: string;
   image: string;
+  images?: Array<{
+    url: string;
+    name: string;
+    caption: string;
+    description: string;
+    keywords?: string;
+  }>;
   /** 建议传入已带语言前缀的 path，如 `/en/products/slug` */
   path: string;
   category?: string;
@@ -293,22 +300,44 @@ export function buildProductJsonLd(input: {
   brand?: string;
   specifications?: Array<{ name: string; value: string }>;
 }) {
+  const imageObjects = (input.images?.length
+    ? input.images
+    : [
+        {
+          url: input.image,
+          name: input.name,
+          caption: `${input.name} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`,
+          description: input.description,
+        },
+      ]
+  ).map((img) => ({
+    '@type': 'ImageObject',
+    url: absoluteUrl(img.url),
+    contentUrl: absoluteUrl(img.url),
+    name: img.name,
+    caption: img.caption,
+    description: img.description,
+    keywords: img.keywords,
+    encodingFormat: 'image/webp',
+    contentLocation: {
+      '@type': 'Place',
+      name: 'Xingtai, Hebei, China',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: seoConfig.organization.address.addressLocality,
+        addressRegion: seoConfig.organization.address.addressRegion,
+        addressCountry: seoConfig.organization.address.addressCountry,
+      },
+    },
+  }));
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: input.name,
     description: input.description,
     model: input.model ?? input.name,
-    image: {
-      '@type': 'ImageObject',
-      url: absoluteUrl(input.image),
-      name: input.name,
-      caption: `${input.name} manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`,
-      contentLocation: {
-        '@type': 'Place',
-        name: 'Xingtai, Hebei, China',
-      },
-    },
+    image: imageObjects,
     url: absoluteUrl(input.path),
     category: input.category,
     brand: {

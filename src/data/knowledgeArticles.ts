@@ -538,7 +538,7 @@ export const knowledgeArticles: BlogPost[] = [
           ),
         ],
         image: articleImage(
-          'finished-products',
+          'factory-loading',
           'Concrete pump and construction equipment at a China concrete pump manufacturer',
           '中国混凝土泵厂家的混凝土泵与工程设备成品',
         ),

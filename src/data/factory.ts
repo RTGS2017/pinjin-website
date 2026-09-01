@@ -1,4 +1,5 @@
 import type { LocalizedText } from '@/i18n/types';
+import { hasPublicImage } from '@/data/imageInventory';
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
@@ -32,7 +33,7 @@ const CLUSTER = L(
   '中国河北邢台邢家湾混凝土机械制造集聚区。工厂地址：邢台市任泽工业园区。',
 );
 
-export const factorySlides: FactorySlide[] = [
+const factorySlideCatalog: FactorySlide[] = [
   {
     id: 'factory-building',
     image: '/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp',
@@ -281,20 +282,25 @@ export const factorySlides: FactorySlide[] = [
   },
 ];
 
-/** 产品详情紧凑条：外观 / 车间 / 装配 */
+/** 只展示 public 里实际存在的工厂图 */
+export const factorySlides: FactorySlide[] = factorySlideCatalog.filter((slide) =>
+  hasPublicImage(slide.image),
+);
+
+/** 产品详情紧凑条：外观 / 车间 / 装配（均需为现存文件） */
 export const factoryProofIds = [
   'factory-building',
-  'production-workshop',
+  'workshop-crane',
   'equipment-assembly',
 ] as const;
 
 export function getFactorySlide(id: string): FactorySlide | undefined {
-  return factorySlides.find((slide) => slide.id === id);
+  return factorySlideCatalog.find((slide) => slide.id === id);
 }
 
 export function getFactoryProofSlides(): FactorySlide[] {
   return factoryProofIds
-    .map((id) => getFactorySlide(id))
+    .map((id) => factorySlides.find((slide) => slide.id === id))
     .filter((slide): slide is FactorySlide => Boolean(slide));
 }
 
