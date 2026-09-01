@@ -9,6 +9,62 @@ export interface StageGalleryFrame {
   height: number;
 }
 
+interface GalleryThumbsProps {
+  frames: StageGalleryFrame[];
+  active: number;
+  onChange: (index: number) => void;
+  fit?: 'cover' | 'contain';
+  ringOffsetClassName?: string;
+  className?: string;
+}
+
+export function GalleryThumbs({
+  frames,
+  active,
+  onChange,
+  fit = 'cover',
+  ringOffsetClassName = 'ring-offset-bg-soft',
+  className = 'mt-4',
+}: GalleryThumbsProps) {
+  if (frames.length < 2) return null;
+
+  const contain = fit === 'contain';
+
+  return (
+    <div className={`${className} flex flex-wrap justify-center gap-2 sm:gap-3`}>
+      {frames.map((frame, index) => (
+        <button
+          key={frame.id}
+          type="button"
+          className={[
+            'w-[4.5rem] overflow-hidden rounded-lg transition duration-300 sm:w-20',
+            index === active
+              ? `opacity-100 ring-2 ring-primary ring-offset-2 ${ringOffsetClassName}`
+              : 'opacity-55 hover:opacity-100',
+          ].join(' ')}
+          onMouseEnter={() => onChange(index)}
+          onClick={() => onChange(index)}
+          aria-label={frame.label}
+          aria-pressed={index === active}
+        >
+          <ImagePlaceholder
+            src={frame.src}
+            alt=""
+            label=""
+            hint=""
+            decorative
+            width={320}
+            height={180}
+            sizes="80px"
+            className={`aspect-[16/10] w-full ${contain ? 'bg-transparent' : ''}`}
+            imgClassName={contain ? 'object-contain' : 'object-cover'}
+          />
+        </button>
+      ))}
+    </div>
+  );
+}
+
 interface StageGalleryProps {
   frames: StageGalleryFrame[];
   active: number;
@@ -54,39 +110,13 @@ export function StageGallery({
           }
         />
       </div>
-      {frames.length > 1 ? (
-        <div className="mt-4 flex flex-wrap justify-center gap-2 sm:gap-3">
-          {frames.map((frame, index) => (
-            <button
-              key={frame.id}
-              type="button"
-              className={[
-                'w-[4.5rem] overflow-hidden rounded-lg transition duration-300 sm:w-20',
-                index === active
-                  ? `opacity-100 ring-2 ring-primary ring-offset-2 ${ringOffsetClassName}`
-                  : 'opacity-55 hover:opacity-100',
-              ].join(' ')}
-              onMouseEnter={() => onChange(index)}
-              onClick={() => onChange(index)}
-              aria-label={frame.label}
-              aria-pressed={index === active}
-            >
-              <ImagePlaceholder
-                src={frame.src}
-                alt=""
-                label=""
-                hint=""
-                decorative
-                width={320}
-                height={180}
-                sizes="80px"
-                className={`aspect-[16/10] w-full ${contain ? 'bg-transparent' : ''}`}
-                imgClassName={contain ? 'object-contain' : 'object-cover'}
-              />
-            </button>
-          ))}
-        </div>
-      ) : null}
+      <GalleryThumbs
+        frames={frames}
+        active={active}
+        onChange={onChange}
+        fit={fit}
+        ringOffsetClassName={ringOffsetClassName}
+      />
     </div>
   );
 }
