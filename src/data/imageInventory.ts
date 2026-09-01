@@ -15,6 +15,15 @@ export function productDisplayImages(slug: string): string[] {
   return [`/images/products/${slug}/main.webp`];
 }
 
+/** Product detail page: catalogue spec sheet only, not studio machine photos. */
+export function productDetailImages(slug: string): string[] {
+  const paths = productDisplayImages(slug);
+  const catalog = paths.find((path) => path.endsWith('/catalog.webp'));
+  if (catalog) return [catalog];
+  const main = paths.find((path) => path.endsWith('/main.webp'));
+  return [main ?? paths[0]];
+}
+
 export function hasPublicImage(path: string): boolean {
   return (
     factoryPublicImages.includes(path) ||

@@ -124,7 +124,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-08-31"
+LASTMOD = "2026-09-01"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "
@@ -418,54 +418,30 @@ def write_pages_sitemap(base: str, paths: list[str]) -> int:
 
 
 def product_image_block(base: str, lang: str, slug: str) -> list[str]:
-    main_img = ROOT / "images" / "products" / slug / "main.webp"
-    if not main_img.exists():
+    folder = ROOT / "images" / "products" / slug
+    catalog = folder / "catalog.webp"
+    main_img = folder / "main.webp"
+    sheet = catalog if catalog.exists() else main_img
+    if not sheet.exists():
         return []
     n = NAMES[slug]
-    alt = f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
+    if sheet.name == "catalog.webp":
+        title = (
+            f"{n} catalogue specification sheet manufactured by "
+            "Hebei Pinjin Machinery in Xingtai Hebei China"
+        )
+    else:
+        title = f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
     lines = [
         "  <url>",
         f"    <loc>{base}/{lang}/products/{slug}</loc>",
         f"    <lastmod>{LASTMOD}</lastmod>",
     ]
     lines += image_nodes(
-        f"{base}/images/products/{slug}/main.webp",
-        f"{n} manufactured by Hebei Pinjin Machinery",
-        alt,
+        f"{base}/images/products/{slug}/{sheet.name}",
+        title,
+        title,
     )
-    folder = ROOT / "images" / "products" / slug
-    extras = [
-        ("working.webp", f"{n} working on a construction site — Hebei Pinjin Machinery Xingtai Hebei China"),
-        ("working-2.webp", f"{n} construction site application — Hebei Pinjin Machinery Xingtai Hebei China"),
-        ("detail-1.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-2.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-3.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-4.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-5.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-6.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-7.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("detail-8.webp", f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-        ("catalog.webp", f"{n} catalogue specification sheet manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"),
-    ]
-    used = {"main.webp"}
-    for fname, title in extras:
-        if not (folder / fname).exists():
-            continue
-        used.add(fname)
-        lines += image_nodes(
-            f"{base}/images/products/{slug}/{fname}",
-            title,
-            title,
-        )
-    for path in sorted(folder.glob("*.webp")):
-        if path.name in used:
-            continue
-        title = f"{n} {path.stem.replace('-', ' ')} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
-        lines += image_nodes(
-            f"{base}/images/products/{slug}/{path.name}",
-            title,
-            title,
-        )
     lines.append("  </url>")
     return lines
 

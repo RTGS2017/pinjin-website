@@ -1,5 +1,5 @@
 import { pick, type Lang, type LocalizedText } from '@/i18n/types';
-import { productDisplayImages } from '@/data/imageInventory';
+import { productDetailImages, productDisplayImages } from '@/data/imageInventory';
 
 export type ProductCategory =
   | 'electric-concrete-pump'
@@ -74,7 +74,7 @@ function imgPaths(slug: string) {
     `/images/products/${slug}/main.webp`;
   return {
     image,
-    gallery: gallery.length ? gallery : [image],
+    gallery: productDetailImages(slug),
   };
 }
 

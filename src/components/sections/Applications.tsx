@@ -1,20 +1,15 @@
 import { useState } from 'react';
 import { applicationPages, getApplicationHero } from '@/data/applicationsContent';
 import { SectionTitle } from '@/components/ui/SectionTitle';
-import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
+import { StageGallery } from '@/components/ui/StageGallery';
 import { Button } from '@/components/ui/Button';
-import {
-  IndustrialCarousel,
-  carouselPanelStyle,
-  formatSlideIndex,
-} from '@/components/ui/IndustrialCarousel';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function Applications() {
   const { t, tx } = useI18n();
   const cases = applicationPages.filter((app) => getApplicationHero(app));
-  const total = cases.length;
   const [active, setActive] = useState(0);
+  const current = cases[active] ?? cases[0];
 
   const labels: Record<string, string> = {
     building: t.applications.construction,
@@ -23,9 +18,8 @@ export function Applications() {
     handling: t.applications.plaster,
   };
 
-  if (!total) return null;
+  if (!current) return null;
 
-  const current = cases[active] ?? cases[0];
   const title = labels[current.id] || tx(current.title);
 
   return (
@@ -41,51 +35,27 @@ export function Applications() {
           </Button>
         </div>
 
-        <IndustrialCarousel
-          count={total}
-          label={t.applications.title}
-          chrome="sides"
-          className="mt-12"
-          onChange={setActive}
-        >
-          {({ active: index, direction }) => (
-            <div className="relative overflow-hidden rounded-[1.25rem] bg-card">
-              {cases.map((item, itemIndex) => {
-                const hero = getApplicationHero(item);
-                if (!hero) return null;
-                const selected = itemIndex === index;
-                return (
-                  <div
-                    key={item.id}
-                    className={selected ? 'relative z-10' : 'absolute inset-0'}
-                    style={carouselPanelStyle(selected, direction)}
-                    aria-hidden={!selected}
-                  >
-                    <ImagePlaceholder
-                      src={hero.src}
-                      alt={`${tx(hero.alt)} — Xingtai concrete machinery manufacturer, China concrete pump factory`}
-                      label={t.placeholder.application}
-                      hint=""
-                      priority={itemIndex === 0}
-                      eager={itemIndex === 1}
-                      width={hero.width}
-                      height={hero.height}
-                      sizes="(max-width: 1024px) 100vw, 900px"
-                      className="aspect-[16/9] w-full"
-                      imgClassName="object-cover"
-                    />
-                  </div>
-                );
-              })}
-            </div>
-          )}
-        </IndustrialCarousel>
+        <div className="mt-10">
+          <StageGallery
+            frames={cases.map((item) => {
+              const image = getApplicationHero(item)!;
+              return {
+                id: item.id,
+                src: image.src,
+                alt: `${tx(image.alt)} — Xingtai concrete machinery manufacturer, China concrete pump factory`,
+                label: labels[item.id] || tx(item.title),
+                width: image.width,
+                height: image.height,
+              };
+            })}
+            active={active}
+            onChange={setActive}
+            placeholderLabel={t.placeholder.application}
+          />
+        </div>
 
         <div className="mx-auto mt-8 max-w-3xl text-center sm:text-left">
-          <p className="text-sm font-semibold tracking-[0.14em] text-silver tabular-nums">
-            {formatSlideIndex(active, total)}
-          </p>
-          <h3 className="mt-2 heading-display text-2xl sm:text-3xl">{title}</h3>
+          <h3 className="heading-display text-2xl sm:text-3xl">{title}</h3>
           <p className="mt-3 text-sm leading-relaxed text-text-secondary sm:text-base">
             {tx(current.summary)}
           </p>
