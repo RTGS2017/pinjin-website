@@ -1,4 +1,5 @@
 import type { Product } from '@/data/products';
+import { formatIndicativeUsd, getIndicativePrice } from '@/data/productPricing';
 import type { Lang } from '@/i18n/types';
 import { pick } from '@/i18n/types';
 
@@ -13,6 +14,20 @@ function specJoiner(lang: Lang): string {
   return '; ';
 }
 
+function quoteAnswer(lang: Lang, name: string, priceText: string, inquire: string): string {
+  if (!priceText) return inquire;
+  if (lang === 'zh') {
+    return `${name} 参考出厂价 ${priceText}（邢台 EXW）。国际运费另计，由买方承担。${inquire}`;
+  }
+  if (lang === 'pt') {
+    return `Preço EXW Xingtai indicativo de ${name}: ${priceText}. O frete internacional é extra e pago pelo comprador. ${inquire}`;
+  }
+  if (lang === 'ar') {
+    return `السعر التقريبي EXW شينغتاي لـ ${name}: ${priceText}. الشحن الدولي إضافي ويدفعه المشتري. ${inquire}`;
+  }
+  return `Indicative EXW Xingtai price for ${name}: ${priceText}. International freight is extra and paid by the buyer. ${inquire}`;
+}
+
 /** 每产品最多 5 条 FAQ，基于产品实体字段生成（不编造参数） */
 export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
   const name = pick(product.name, lang);
@@ -21,11 +36,14 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
   const manufacturer = pick(product.geo.manufacturer, lang);
   const madeIn = pick(product.geo.manufacturedIn, lang);
   const inquire = pick(product.geo.answers.howToInquire, lang);
+  const price = getIndicativePrice(product.slug);
+  const priceText = price ? formatIndicativeUsd(price.usd) : '';
   const hasSpecs = product.specifications.length > 0;
   const keySpecs = product.specifications
     .slice(0, 4)
     .map((s) => `${pick(s.label, lang)}: ${pick(s.value, lang)}`)
     .join(specJoiner(lang));
+  const quote = quoteAnswer(lang, name, priceText, inquire);
 
   if (lang === 'zh') {
     return [
@@ -43,7 +61,7 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
         question: `${name} 由谁制造？在哪里生产？`,
         answer: `${name} 由 ${manufacturer} 制造，产地：${madeIn}。`,
       },
-      { question: `如何就 ${name} 获取报价？`, answer: inquire },
+      { question: `${name} 大概多少钱？如何报价？`, answer: quote },
     ];
   }
 
@@ -63,7 +81,7 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
         question: `Quem fabrica ${name} e onde?`,
         answer: `${name} é fabricado por ${manufacturer}, em ${madeIn}.`,
       },
-      { question: `Como solicitar uma cotação de ${name}?`, answer: inquire },
+      { question: `Qual o preço de ${name} e como cotar?`, answer: quote },
     ];
   }
 
@@ -83,7 +101,7 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
         question: `من يصنّع ${name} وأين؟`,
         answer: `يُصنَّع ${name} بواسطة ${manufacturer} في ${madeIn}.`,
       },
-      { question: `كيف أطلب عرض سعر لـ ${name}؟`, answer: inquire },
+      { question: `كم سعر ${name} وكيف أطلب عرض سعر؟`, answer: quote },
     ];
   }
 
@@ -102,6 +120,6 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
       question: `Who manufactures ${name} and where?`,
       answer: `${name} is manufactured by ${manufacturer}, located at ${madeIn}.`,
     },
-    { question: `How can I request a quotation for ${name}?`, answer: inquire },
+    { question: `What is the price of ${name} and how do I get a quote?`, answer: quote },
   ];
 }

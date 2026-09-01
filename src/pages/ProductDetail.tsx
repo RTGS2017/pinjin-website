@@ -1,6 +1,8 @@
 import { useParams } from 'react-router-dom';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
 import { companyEntity } from '@/config/entity';
+import { getIndicativePrice } from '@/data/productPricing';
+import { ProductPrice } from '@/components/ui/ProductPrice';
 import {
   categoryMeta,
   getCategoryPath,
@@ -62,7 +64,9 @@ export function ProductDetail() {
   ].join(', ');
 
   const highlightSpecs = product.specifications.slice(0, 4);
-  const gallery = product.gallery?.length ? product.gallery : [product.image];
+  const gallery = product.gallery;
+  const catalogImage = gallery[0] ?? '';
+  const price = getIndicativePrice(product.slug);
   const advantages = product.keyFeatures.slice(0, 5);
   const inquireMessage = `${name}\n${t.detail.inquiryBody}`;
 
@@ -72,15 +76,17 @@ export function ProductDetail() {
         title={seoTitle}
         description={seoDescription}
         path={path}
-        image={product.image}
-        imageAlt={productImageAlt(product, product.image, lang)}
+        image={catalogImage}
+        imageAlt={productImageAlt(product, catalogImage, lang)}
+        imageWidth={1054}
+        imageHeight={1492}
         type="product"
         keywords={keywords}
         jsonLd={[
           buildProductJsonLd({
             name,
             description: seoDescription,
-            image: product.image,
+            image: catalogImage,
             images: gallery.map((src) => ({
               url: src,
               name,
@@ -93,6 +99,8 @@ export function ProductDetail() {
             model: name,
             brand: 'Pinjin',
             lang,
+            priceUsd: price?.usd,
+            priceNote: t.productCard.freightNote,
             specifications: product.specifications.map((spec) => ({
               name: tx(spec.label),
               value: tx(spec.value),
@@ -141,6 +149,7 @@ export function ProductDetail() {
             </p>
             <h1 className="mt-3 heading-display text-3xl sm:text-4xl">{name}</h1>
             <p className="mt-5 text-text-secondary">{tx(product.shortDescription)}</p>
+            <ProductPrice slug={product.slug} />
 
             {highlightSpecs.length > 0 ? (
               <div className="mt-8">

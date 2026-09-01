@@ -1098,7 +1098,7 @@ function imgPaths(slug: string) {
   const base = `/images/products/${slug}`;
   return {
     image: `${base}/main.webp`,
-    gallery: [`${base}/main.webp`, `${base}/detail-1.webp`, `${base}/working.webp`],
+    gallery: [`${base}/catalog.webp`],
   };
 }
 

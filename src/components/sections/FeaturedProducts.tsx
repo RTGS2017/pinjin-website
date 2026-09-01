@@ -5,6 +5,7 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { StageGallery } from '@/components/ui/StageGallery';
 import { Button } from '@/components/ui/Button';
 import { OemNote } from '@/components/ui/OemNote';
+import { ProductPrice } from '@/components/ui/ProductPrice';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function FeaturedProducts() {
@@ -51,6 +52,7 @@ export function FeaturedProducts() {
           <p className="mt-4 text-base leading-relaxed text-text-secondary">
             {tx(product.shortDescription)}
           </p>
+          <ProductPrice slug={product.slug} />
           {advantages.length ? (
             <ul className="mt-6 space-y-2 text-sm text-text-secondary">
               {advantages.map((item) => (

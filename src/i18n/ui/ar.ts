@@ -270,6 +270,7 @@ export const messagesAr = {
       'أخبرنا بالطراز والكمية وظروف المشروع. سنرد بالبريد بتوصية مناسبة.',
     catalogPrefill:
       'يرجى إرسال كتالوج / ورقة بيانات هذا الطراز.',
+    indicativePrice: 'سعر EXW تقريبي',
   },
   about: {
     eyebrow: 'من نحن',
@@ -287,6 +288,9 @@ export const messagesAr = {
     suitableFor: 'مناسب لـ',
     keyAdvantages: 'المزايا الرئيسية',
     imageComingSoon: 'صورة المنتج قريباً',
+    priceFrom: 'سعر EXW تقريبي',
+    freightNote:
+      'EXW شينغتاي. الشحن الدولي إضافي ويدفعه المشتري.',
   },
   selectionGuide: {
     title: 'دليل اختيار المنتج',

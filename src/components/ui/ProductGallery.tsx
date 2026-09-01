@@ -20,7 +20,7 @@ export function ProductGallery({ product, images }: ProductGalleryProps) {
   const { lang, t } = useI18n();
   const gallery = [...new Set(images.filter(Boolean))];
   const [active, setActive] = useState(0);
-  const current = gallery[Math.min(active, Math.max(gallery.length - 1, 0))] || product.image;
+  const current = gallery[Math.min(active, Math.max(gallery.length - 1, 0))] ?? '';
   const thumbCols = gallery.length === 2 ? 'grid-cols-2' : 'grid-cols-3';
   const catalog = isCatalogSrc(current);
   const working = isWorkingSrc(current);

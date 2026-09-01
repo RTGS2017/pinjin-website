@@ -270,6 +270,7 @@ export const messagesPt = {
       'Informe o modelo, a quantidade e as condições da obra. Responderemos por e-mail com uma recomendação.',
     catalogPrefill:
       'Por favor, enviem o catálogo / ficha técnica deste modelo.',
+    indicativePrice: 'EXW indicativo',
   },
   about: {
     eyebrow: 'Sobre nós',
@@ -287,6 +288,9 @@ export const messagesPt = {
     suitableFor: 'Adequado para',
     keyAdvantages: 'Vantagens principais',
     imageComingSoon: 'Imagem do produto em breve',
+    priceFrom: 'EXW indicativo',
+    freightNote:
+      'EXW Xingtai. O frete internacional é extra e pago pelo comprador.',
   },
   selectionGuide: {
     title: 'Guia de seleção de produtos',

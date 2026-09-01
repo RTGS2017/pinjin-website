@@ -9,7 +9,7 @@ export interface FaqItem {
 }
 
 /**
- * 15 条采购意图 FAQ（答案仅基于产品目录已公开参数与公司事实，不编造项目/价格/认证）
+ * 15 条采购意图 FAQ（答案仅基于产品目录已公开参数、参考出厂价与公司事实，不编造项目/认证）
  */
 export const siteFaqs: FaqItem[] = [
   {
@@ -151,8 +151,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '如何向厂家询价混凝土泵价格？',
     },
     answer: {
-      en: 'Pinjin does not publish fixed online prices because configuration depends on model, options and shipping terms. To request a quote, send the required model or duty parameters (delivery capacity, horizontal/vertical distance, aggregate size, diesel or motor) by WhatsApp or email. The team will respond with a suitable equipment recommendation.',
-      zh: '品锦不在网站公布固定价格，因为配置取决于型号、选配与贸易条款。询价时请通过 WhatsApp 或邮件说明型号或工况参数（输送量、水平/垂直距离、骨料粒径、柴油/电机），我们将回复合适设备方案。',
+      en: 'Each product page lists an indicative USD factory price (EXW Xingtai). That figure is a starting reference — options and quantity can change the final quote. International freight is extra and paid by the buyer. Send the model, quantity and destination by WhatsApp or email for a confirmed quotation.',
+      zh: '每个产品页标有美金参考出厂价（邢台 EXW）。该数字是起步参考，选配与数量会影响最终报价。国际运费另计，由买方承担。请通过 WhatsApp 或邮件告知型号、数量与目的地以确认报价。',
     },
   },
   {

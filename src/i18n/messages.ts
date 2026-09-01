@@ -273,6 +273,7 @@ export const messages = {
         'Tell us the model, quantity and project conditions. We will reply by email with a suitable recommendation.',
       catalogPrefill:
         'Please send the product catalogue / datasheet for this model.',
+      indicativePrice: 'Indicative EXW',
     },
     about: {
       eyebrow: 'About Us',
@@ -290,6 +291,9 @@ export const messages = {
       suitableFor: 'Suitable for',
       keyAdvantages: 'Key advantages',
       imageComingSoon: 'Product Image Coming Soon',
+      priceFrom: 'Indicative EXW',
+      freightNote:
+        'EXW Xingtai. International freight is extra and paid by the buyer.',
     },
     selectionGuide: {
       title: 'Product Selection Guide',
@@ -744,6 +748,7 @@ export const messages = {
       inquiryBody:
         '请告知型号、数量与工况条件，我们将通过邮件回复合适方案。',
       catalogPrefill: '请提供该型号的产品目录 / 技术参数表。',
+      indicativePrice: '参考出厂价',
     },
     about: {
       eyebrow: '关于我们',
@@ -760,6 +765,8 @@ export const messages = {
       suitableFor: '适用场景',
       keyAdvantages: '核心优势',
       imageComingSoon: '产品图片即将上传',
+      priceFrom: '参考出厂价',
+      freightNote: '邢台 EXW 出厂价。国际运费另计，由买方承担。',
     },
     selectionGuide: {
       title: '产品选型指南',

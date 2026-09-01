@@ -291,8 +291,7 @@ export function buildMediaImageJsonLd(input: {
   };
 }
 
-/** 仅用于真正的单个产品详情页。不要给分类/集合使用。
- *  无公开价格、用户评价时不要添加 offers / review / aggregateRating。 */
+/** 仅用于真正的单个产品详情页。不要给分类/集合使用。 */
 export function buildProductJsonLd(input: {
   name: string;
   description: string;
@@ -310,6 +309,8 @@ export function buildProductJsonLd(input: {
   model?: string;
   brand?: string;
   lang?: Lang;
+  priceUsd?: number;
+  priceNote?: string;
   specifications?: Array<{ name: string; value: string }>;
 }) {
   const lang = input.lang ?? defaultLang;
@@ -364,6 +365,25 @@ export function buildProductJsonLd(input: {
       name: spec.name,
       value: spec.value,
     })),
+    ...(input.priceUsd != null
+      ? {
+          offers: {
+            '@type': 'Offer',
+            url: absoluteUrl(input.path),
+            priceCurrency: 'USD',
+            price: input.priceUsd.toFixed(2),
+            availability: 'https://schema.org/InStock',
+            itemCondition: 'https://schema.org/NewCondition',
+            description: input.priceNote,
+            priceSpecification: {
+              '@type': 'UnitPriceSpecification',
+              price: input.priceUsd.toFixed(2),
+              priceCurrency: 'USD',
+              valueAddedTaxIncluded: false,
+            },
+          },
+        }
+      : {}),
   };
 }
 

@@ -421,19 +421,14 @@ def write_pages_sitemap(base: str, paths: list[str]) -> int:
 
 def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     folder = ROOT / "images" / "products" / slug
-    catalog = folder / "catalog.webp"
-    main_img = folder / "main.webp"
-    sheet = catalog if catalog.exists() else main_img
+    sheet = folder / "catalog.webp"
     if not sheet.exists():
         return []
     n = NAMES[slug]
-    if sheet.name == "catalog.webp":
-        title = (
-            f"{n} catalogue specification sheet manufactured by "
-            "Hebei Pinjin Machinery in Xingtai Hebei China"
-        )
-    else:
-        title = f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
+    title = (
+        f"{n} catalogue specification sheet manufactured by "
+        "Hebei Pinjin Machinery in Xingtai Hebei China"
+    )
     lines = [
         "  <url>",
         f"    <loc>{base}/{lang}/products/{slug}</loc>",
@@ -613,7 +608,6 @@ PRODUCT_ORDER = [
     "catalog.webp",
     "working.webp",
     "working-2.webp",
-    *[f"detail-{i}.webp" for i in range(1, 9)],
 ]
 
 

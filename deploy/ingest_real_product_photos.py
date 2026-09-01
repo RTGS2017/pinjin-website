@@ -21,7 +21,7 @@ PRODUCTS_ROOT = REPO / "public" / "images" / "products"
 MAX_SIDE = 1600
 WEBP_QUALITY = 85
 
-# slug → main studio photo, then extra studio angles (detail-N.webp)
+# slug → main studio photo. Extra angles are not published (detail pages use catalog only).
 ASSIGNMENTS: dict[str, dict[str, str | tuple[str, ...]]] = {
     "electric-20-concrete-pump": {
         "main": "07-creative-custom-1788172880665.png",
@@ -274,10 +274,7 @@ def main() -> None:
         (folder / "source-photo.png").write_bytes(main_src.read_bytes())
         written += 1
 
-        for index, extra_name in enumerate(spec["extras"], start=1):
-            extra_src = keepers.get(extra_name) or (REPO / extra_name)
-            convert_studio(extra_src, folder / f"detail-{index}.webp")
-            written += 1
+        # extras stay in ASSIGNMENTS for photo accounting; they are not written as detail-N.
 
     removed = 0
     for path in REPO.glob("*-creative-custom-*.png"):

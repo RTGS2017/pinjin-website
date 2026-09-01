@@ -4,6 +4,7 @@ import { categoryMeta, productImageAlt } from '@/data/products';
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { Button } from './Button';
 import { OemNote } from './OemNote';
+import { ProductPrice } from './ProductPrice';
 import { useI18n } from '@/i18n/I18nContext';
 
 interface ProductCardProps {
@@ -49,6 +50,7 @@ export function ProductCard({ product }: ProductCardProps) {
         <p className="mt-2 text-sm text-text-secondary line-clamp-3">
           {tx(product.shortDescription)}
         </p>
+        <ProductPrice slug={product.slug} compact />
 
         {apps.length > 0 ? (
           <div className="mt-4">
