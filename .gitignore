@@ -16,6 +16,8 @@ dist-ssr
 
 # Local deploy artifacts (ECS era)
 deploy/out/
+deploy/__pycache__/
+deploy/inbox/
 
 # GPT catalogue working copies (pages use {slug}/main.webp)
 .tmp-gpt-identify/

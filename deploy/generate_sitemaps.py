@@ -15,6 +15,7 @@ Also rewrites public/robots.txt Sitemap line to the index.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -125,7 +126,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-01"
+LASTMOD = "2026-09-03"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "
@@ -650,6 +651,20 @@ def write_image_inventory() -> None:
         inner = ",\n".join(f"  {json.dumps(path)}" for path in paths)
         return "[\n" + inner + ",\n]"
 
+    revs: dict[str, str] = {}
+    images_root = ROOT / "images"
+    if images_root.is_dir():
+        for path in sorted(images_root.rglob("*")):
+            if not path.is_file() or path.suffix.lower() not in {".webp", ".svg", ".png"}:
+                continue
+            rel = "/" + path.relative_to(ROOT).as_posix()
+            digest = hashlib.md5(path.read_bytes()).hexdigest()[:10]
+            revs[rel] = digest
+    rev_entries = [
+        f"  {json.dumps(rel)}: {json.dumps(rev)}" for rel, rev in revs.items()
+    ]
+    rev_block = "{\n" + ",\n".join(rev_entries) + ",\n}" if rev_entries else "{}"
+
     product_entries = []
     for slug, paths in products.items():
         inner = ",\n".join(f"    {json.dumps(path)}" for path in paths)
@@ -669,6 +684,9 @@ def write_image_inventory() -> None:
         + " as const;\n\n"
         "export const productPublicImagesBySlug: Record<string, readonly string[]> = "
         + product_block
+        + ";\n\n"
+        "export const publicImageRev: Record<string, string> = "
+        + rev_block
         + ";\n"
     )
     dest = SRC_DATA / "imageInventory.generated.ts"

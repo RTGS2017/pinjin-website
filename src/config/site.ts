@@ -1,5 +1,7 @@
 /** 全站统一结构配置（文案见 src/i18n/messages.ts，勿在此重复定义文案） */
 
+import { withAssetRev } from './assetRev';
+
 /**
  * 为 public 静态资源 / 裸 `<a href>` 加上 Vite base（正式站为 /）。
  * React Router 的 `to` 不要用此函数（basename 已处理）。
@@ -7,11 +9,12 @@
 export function withBase(path: string): string {
   if (!path) return import.meta.env.BASE_URL || '/';
   if (/^(https?:|mailto:|tel:|data:)/i.test(path)) return path;
+  const versioned = withAssetRev(path);
   const base = import.meta.env.BASE_URL || '/';
-  if (base !== '/' && (path === base.slice(0, -1) || path.startsWith(base))) {
-    return path;
+  if (base !== '/' && (versioned === base.slice(0, -1) || versioned.startsWith(base))) {
+    return versioned;
   }
-  const normalized = path.startsWith('/') ? path.slice(1) : path;
+  const normalized = versioned.startsWith('/') ? versioned.slice(1) : versioned;
   return `${base}${normalized}`;
 }
 

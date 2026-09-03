@@ -1,4 +1,4 @@
-/** 全站 SEO 基础配置（域名、默认 OG、组织信息仅在此定义） */
+import { withAssetRev } from './assetRev';
 
 export const seoConfig = {
   siteUrl: (
@@ -31,7 +31,8 @@ export const seoConfig = {
 export function absoluteUrl(path = '/'): string {
   if (/^https?:\/\//i.test(path)) return path;
   const normalized = path.startsWith('/') ? path : `/${path}`;
-  return `${seoConfig.siteUrl}${normalized}`;
+  const versioned = withAssetRev(normalized);
+  return `${seoConfig.siteUrl}${versioned}`;
 }
 
 /** 页面 Title / Description 模板（产品详情优先用 products.ts 的 seo 字段） */
