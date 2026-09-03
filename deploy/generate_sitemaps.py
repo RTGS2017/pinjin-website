@@ -177,6 +177,10 @@ FACTORY_IMAGES = [
         "pinjin-diesel-machinery-factory-dispatch.webp",
         "Equipment dispatch from Hebei Pinjin Machinery factory",
     ),
+    (
+        "pinjin-hydraulic-mortar-spraying-machine-interior.webp",
+        "Hydraulic mortar spraying machine at a construction interior photographed by Hebei Pinjin Machinery",
+    ),
 ]
 
 APPLICATION_IMAGES = [

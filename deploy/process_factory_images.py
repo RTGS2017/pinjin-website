@@ -30,6 +30,8 @@ SOURCE_TO_OUTPUT = {
     "微信图片_20260813225534.jpg": "pinjin-machinery-workshop-overhead-crane.webp",
     # 新车间实拍：打开侧板的柴油拖泵装配现场，覆盖生产车间图
     "微信图片_2026-08-30_150541_565.jpg": "pinjin-production-workshop.webp",
+    # 工地室内：液压砂浆喷涂机作业实拍（非目录喷涂机产品线）
+    "微信图片_20260814203308_51318_140.jpeg": "pinjin-hydraulic-mortar-spraying-machine-interior.webp",
 }
 
 
@@ -72,7 +74,8 @@ def convert(src: Path, dest: Path) -> None:
 
 
 def find_source(name: str) -> Path | None:
-    for folder in (ROOT, SOURCE_DIR):
+    inbox = Path(__file__).resolve().parents[1] / "deploy" / "inbox"
+    for folder in (ROOT, SOURCE_DIR, inbox):
         path = folder / name
         if path.is_file():
             return path

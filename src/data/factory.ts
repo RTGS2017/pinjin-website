@@ -280,6 +280,36 @@ const factorySlideCatalog: FactorySlide[] = [
     locationContext: CLUSTER,
     geoFocus: 'quality',
   },
+  {
+    id: 'mortar-spraying-interior',
+    image: '/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp',
+    width: FACTORY_IMAGE_WIDTH,
+    height: FACTORY_IMAGE_HEIGHT,
+    title: L('Hydraulic Mortar Spraying On Site', '工地液压砂浆喷涂作业'),
+    description: L(
+      'Hydraulic mortar spraying machine photographed inside a construction building, from the Hebei Pinjin Machinery factory photo set in Xingtai, Hebei, China.',
+      '工地室内液压砂浆喷涂机实拍，收录于河北品锦机械邢台工厂图集。',
+    ),
+    alt: L(
+      'Hydraulic mortar spraying machine with operators in safety gear inside a construction building, photographed for Hebei Pinjin Machinery Xingtai Hebei China',
+      '建筑室内液压砂浆喷涂机与佩戴安全帽的作业人员，河北邢台品锦机械工厂/现场实拍',
+    ),
+    schemaName: L(
+      'Hydraulic Mortar Spraying Site Photo',
+      '液压砂浆喷涂现场实拍',
+    ),
+    schemaDescription: L(
+      'Construction-interior photograph of a hydraulic mortar spraying machine associated with Hebei Pinjin Machinery Manufacturing Co., Ltd. in Xingtai, Hebei, China.',
+      '河北品锦机械制造有限公司相关的工地室内液压砂浆喷涂机实拍，地点在中国河北邢台产业背景下。',
+    ),
+    keywords: [
+      'hydraulic mortar spraying machine',
+      'construction machinery manufacturer factory',
+      'xingjiawan concrete machinery',
+    ],
+    locationContext: CLUSTER,
+    geoFocus: 'manufacturing',
+  },
 ];
 
 /** 只展示 public 里实际存在的工厂图 */
