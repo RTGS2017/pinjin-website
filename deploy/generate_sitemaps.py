@@ -142,14 +142,6 @@ HERO_IMAGE = (
 
 FACTORY_IMAGES = [
     (
-        "pinjin-xingjiawan-concrete-machinery-factory.webp",
-        "Hebei Pinjin Machinery factory in Xingjiawan concrete machinery manufacturing area China",
-    ),
-    (
-        "pinjin-production-workshop.webp",
-        "Diesel trailer concrete pump assembly in Hebei Pinjin Machinery production workshop",
-    ),
-    (
         "pinjin-machinery-workshop-overhead-crane.webp",
         "Production workshop with overhead crane at Hebei Pinjin Machinery",
     ),
@@ -160,14 +152,6 @@ FACTORY_IMAGES = [
     (
         "pinjin-trailer-concrete-pump-assembly.webp",
         "Trailer concrete pump assembly at Hebei Pinjin Machinery",
-    ),
-    (
-        "pinjin-machinery-assembly-area.webp",
-        "Equipment assembly workshop of Hebei Pinjin Machinery",
-    ),
-    (
-        "pinjin-equipment-storage.webp",
-        "Finished construction machinery at Hebei Pinjin Machinery",
     ),
     (
         "pinjin-construction-machinery-factory-loading.webp",

@@ -84,5 +84,5 @@ export function getBlogPosts(): BlogPost[] {
 export function getBlogCover(post: BlogPost) {
   const found = post.content.find((section) => section.image)?.image;
   if (found) return found;
-  return factoryImage('factory-building');
+  return factoryImage('workshop-crane');
 }

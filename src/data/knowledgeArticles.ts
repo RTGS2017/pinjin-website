@@ -402,7 +402,7 @@ export const knowledgeArticles: BlogPost[] = [
           ),
         ],
         image: articleImage(
-          'equipment-assembly',
+          'trailer-assembly',
           'Construction equipment assembly area at a concrete pump manufacturer in Xingtai',
           '邢台混凝土泵厂家的工程设备装配区',
         ),
@@ -668,7 +668,7 @@ export const knowledgeArticles: BlogPost[] = [
           ),
         ],
         image: articleImage(
-          'factory-building',
+          'workshop-crane',
           'Construction equipment manufacturer factory of a concrete pump supplier in Xingtai China',
           '中国邢台混凝土泵供应商的工程设备制造工厂',
         ),

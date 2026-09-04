@@ -10,7 +10,7 @@ export function withAssetRev(path: string): string {
   const rev = publicImageRev[pathname];
   if (!rev) return path;
   const params = new URLSearchParams(search);
-  // r2: force browsers / Pages to drop stale same-path factory WebP after local rebuilds
-  params.set('v', `${rev}r2`);
+  // r3: drop deleted factory WebP paths after gallery now follows files on disk
+  params.set('v', `${rev}r3`);
   return `${pathname}?${params.toString()}`;
 }

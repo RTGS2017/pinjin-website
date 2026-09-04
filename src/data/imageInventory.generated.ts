@@ -3,13 +3,9 @@ export const factoryPublicImages = [
   "/images/factory/pinjin-concrete-pump-manufacturing.webp",
   "/images/factory/pinjin-construction-machinery-factory-loading.webp",
   "/images/factory/pinjin-diesel-machinery-factory-dispatch.webp",
-  "/images/factory/pinjin-equipment-storage.webp",
   "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp",
-  "/images/factory/pinjin-machinery-assembly-area.webp",
   "/images/factory/pinjin-machinery-workshop-overhead-crane.webp",
-  "/images/factory/pinjin-production-workshop.webp",
   "/images/factory/pinjin-trailer-concrete-pump-assembly.webp",
-  "/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp",
 ] as const;
 
 export const applicationPublicImages = [
@@ -131,13 +127,9 @@ export const publicImageRev: Record<string, string> = {
   "/images/factory/pinjin-concrete-pump-manufacturing.webp": "e2e2af31e8",
   "/images/factory/pinjin-construction-machinery-factory-loading.webp": "883f2ae44a",
   "/images/factory/pinjin-diesel-machinery-factory-dispatch.webp": "404f97e01b",
-  "/images/factory/pinjin-equipment-storage.webp": "fb1607a1aa",
   "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp": "54327c74c2",
-  "/images/factory/pinjin-machinery-assembly-area.webp": "2e53c70da2",
   "/images/factory/pinjin-machinery-workshop-overhead-crane.webp": "91d9bdb9cf",
-  "/images/factory/pinjin-production-workshop.webp": "b5de3347bd",
   "/images/factory/pinjin-trailer-concrete-pump-assembly.webp": "a5518066ad",
-  "/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp": "1e0fe86f35",
   "/images/hero/pinjin-machinery-factory-xingtai-china.webp": "4a9dd89f52",
   "/images/products/diesel-120-concrete-pump/catalog.webp": "8fdd6553a1",
   "/images/products/diesel-120-concrete-pump/main.webp": "89773e5428",

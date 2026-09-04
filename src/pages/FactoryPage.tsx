@@ -32,7 +32,7 @@ export function FactoryPage() {
         title={seoTemplates.factoryTitle}
         description={seoTemplates.factoryDescription}
         path="/factory"
-        image="/images/factory/pinjin-xingjiawan-concrete-machinery-factory.webp"
+        image="/images/hero/pinjin-machinery-factory-xingtai-china.webp"
         keywords="Xingjiawan Concrete Machinery, Xingtai Construction Machinery Factory, Concrete Machinery Manufacturer China"
         jsonLd={[
           buildOrganizationJsonLd(),

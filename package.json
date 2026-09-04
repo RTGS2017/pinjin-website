@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predev": "node deploy/sync-image-inventory.mjs",
+    "prebuild": "node deploy/sync-image-inventory.mjs",
     "build": "tsc --noEmit && vite build && node deploy/copy-spa-404.mjs",
     "preview": "vite preview",
     "i18n:export": "npx --yes vite-node deploy/export_i18n_catalog.ts"
