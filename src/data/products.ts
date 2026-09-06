@@ -4,7 +4,8 @@ import { productDetailImages, productDisplayImages } from '@/data/imageInventory
 export type ProductCategory =
   | 'electric-concrete-pump'
   | 'diesel-concrete-pump'
-  | 'mixer-pump';
+  | 'mixer-pump'
+  | 'spare-parts';
 
 export interface ProductSpec {
   label: LocalizedText;
@@ -51,6 +52,8 @@ export interface Product {
   specifications: ProductSpec[];
   seo: ProductSeo;
   geo: ProductGeo;
+  /** Wear / pipeline parts: quote only, no published list price. */
+  inquiryOnly?: boolean;
 }
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
@@ -111,6 +114,15 @@ function spec(labelEn: string, labelZh: string, value: string): ProductSpec {
   return { label: L(labelEn, labelZh), value: V(value) };
 }
 
+function specLoc(
+  labelEn: string,
+  labelZh: string,
+  valueEn: string,
+  valueZh: string,
+): ProductSpec {
+  return { label: L(labelEn, labelZh), value: L(valueEn, valueZh) };
+}
+
 function buildSeo(
   nameEn: string,
   nameZh: string,
@@ -137,6 +149,7 @@ function buildGeo(
   whoNeeds: LocalizedText,
   whereUsed: LocalizedText,
   advantages: LocalizedText,
+  howToInquire?: LocalizedText,
 ): ProductGeo {
   return {
     manufacturer: MANUFACTURER,
@@ -148,13 +161,18 @@ function buildGeo(
       whoNeeds,
       whereUsed,
       advantages,
-      howToInquire: L(
+      howToInquire: howToInquire ?? L(
         'Confirm the quotation by email through the Get Quote buttons. Include the model, quantity and destination.',
         '请通过「获取报价」按钮邮件确认报价，并注明型号、数量与目的地。',
       ),
     },
   };
 }
+
+const SPARE_INQUIRE = L(
+  'Request a quote by email or WhatsApp. Include the pump model, diameter (DN), length and quantity. These replacement parts are not sold in small batches and have no published list price.',
+  '请通过邮件或 WhatsApp 询价，并注明泵型号、管径（DN）、长度与数量。此类替换件不支持小批量发货，也没有公开标价。',
+);
 
 /** 旧 slug → 新目录最近机型（兼容已收录链接） */
 export const productSlugRedirects: Record<string, string> = {
@@ -189,6 +207,7 @@ export const categoryRouteSlugs: Record<ProductCategory, string> = {
   'electric-concrete-pump': 'electric-concrete-pumps',
   'diesel-concrete-pump': 'diesel-concrete-pumps',
   'mixer-pump': 'mixer-pumps',
+  'spare-parts': 'concrete-pump-parts',
 };
 
 export const categoryMeta: Record<
@@ -220,6 +239,15 @@ export const categoryMeta: Record<
       en: 'Integrated mixer pumps that mix and convey concrete in one machine. This is not a concrete mixing plant line.',
       zh: '搅拌与泵送一体机。这不是混凝土搅拌站产品线。',
       ru: 'Насосы-смесители, которые одновременно готовят и подают бетон. Это не линия бетонных заводов.',
+    },
+  },
+  'spare-parts': {
+    routeSlug: 'concrete-pump-parts',
+    label: { en: 'Concrete Pump Parts', zh: '混凝土泵配件', ru: 'Запчасти для бетононасосов' },
+    description: {
+      en: 'Pipeline spare parts for Pinjin concrete pumps — delivery pipes, elbows, clamps and hoses. Quote only; not sold in small batches.',
+      zh: '品锦混凝土泵管路配件：输送管、弯管、管卡与胶管。询价报价，不支持小批量发货。',
+      ru: 'Трубопроводные запчасти для бетононасосов Pinjin: трубы, колена, хомуты и рукава. Только запрос цены, без мелких партий.',
     },
   },
 };
@@ -1327,7 +1355,289 @@ export const products: Product[] = [
       L('Construction sites in China and export projects whose pipeline length and aggregate size stay within the listed table.', '管路长度与骨料粒径落在目录表范围内的国内与出口工地。'),
       L('Factory-direct Xingtai manufacturer with published catalogue tables for output, pressure, hopper and conveying distance.', '邢台工厂直供，目录公开输送量、压力、料斗与输送距离。'),
     ),
-  }
+  },
+  {
+    id: '24',
+    name: L('Concrete Pump Delivery Pipe', '混凝土泵输送管'),
+    slug: 'concrete-pump-delivery-pipe',
+    category: 'spare-parts',
+    inquiryOnly: true,
+    ...imgPaths('concrete-pump-delivery-pipe'),
+    shortDescription: L(
+      'Straight high-pressure concrete pump delivery pipes with coupling ends, manufactured in Xingtai for Pinjin trailer and mixer pumps. Diameter and length are confirmed against the pump model. Not sold in small batches; no published list price.',
+      '高压混凝土泵直管，带快接/法兰端，邢台制造，配套品锦拖泵与搅拌泵。管径与长度按泵型号确认。不支持小批量发货，无公开标价。',
+    ),
+    productIntroduction: L(
+      'Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Factory photos show red enamel pipes with reinforced coupling ends and identification labels. Inner diameter, wall thickness and length are quoted after matching the concrete pump model — this page does not publish a fixed size table or a list price.',
+      '混凝土泵输送管由河北品锦机械在中国河北邢台制造，属于管路替换件。工厂实拍为红色涂层直管，端部为加强快接结构并带识别标签。内径、壁厚与长度需对照混凝土泵型号后报价；本页不公布固定尺寸表，也没有公开标价。',
+    ),
+    applicationScenarios: [
+      L('Pipeline replacement on Pinjin trailer concrete pumps', '品锦拖式混凝土泵管路更换'),
+      L('Mixer-pump delivery line extensions', '搅拌泵输送管路加长'),
+      L('Project or container quantities, not small-batch parcels', '工程量或整柜数量，非整件小包裹'),
+    ],
+    keyFeatures: [
+      L('Straight delivery pipe with coupling ends', '直管，带快接端部'),
+      L('Quoted by pump model, DN and length', '按泵型号、管径与长度报价'),
+      L('No small-batch shipping, no list price', '不支持小批量发货，无公开标价'),
+    ],
+    specifications: [
+      specLoc('Part type', '配件类型', 'Straight concrete pump delivery pipe', '混凝土泵直管'),
+      specLoc('End connection', '端部连接', 'Reinforced coupling / flange ends', '加强快接 / 法兰端'),
+      specLoc('Finish', '表面', 'Factory red enamel', '工厂红色涂层'),
+      specLoc('Diameter / length', '管径 / 长度', 'Quoted after confirming the pump model', '对照泵型号后确认报价'),
+      specLoc('Commercial terms', '商务条款', 'No small-batch shipping; no published list price', '不支持小批量发货；无公开标价'),
+    ],
+    seo: buildSeo(
+      'Concrete Pump Delivery Pipe',
+      '混凝土泵输送管',
+      'concrete pump delivery pipe manufacturer China',
+      [
+        'concrete pump pipe supplier China',
+        'trailer concrete pump delivery pipe',
+        'Xingtai concrete pump spare parts',
+      ],
+      [
+        'buy concrete pump delivery pipe from Hebei Pinjin Machinery Xingtai',
+        'concrete pump pipeline spare parts factory China',
+      ],
+      'Hebei Pinjin Machinery manufactures concrete pump delivery pipes in Xingtai, Hebei, China. Straight high-pressure pipes with coupling ends, quoted by pump model, diameter and length. Not sold in small batches; no published list price.',
+      '河北品锦机械在中国河北邢台生产混凝土泵输送管。高压直管带快接端部，按泵型号、管径与长度报价。不支持小批量发货，无公开标价。',
+    ),
+    geo: buildGeo(
+      'Concrete Pump Parts',
+      '混凝土泵配件',
+      L(
+        'A straight high-pressure delivery pipe used on Pinjin concrete pump pipelines, manufactured in Xingtai, China.',
+        '品锦混凝土泵管路上的高压直管，在中国邢台制造。',
+      ),
+      L(
+        'Contractors and service teams replacing or extending the delivery line on a listed Pinjin pump model.',
+        '需要为已列品锦泵型号更换或加长输送管路的承包商与维保团队。',
+      ),
+      L(
+        'Construction sites running Pinjin electric, diesel or mixer concrete pumps that use a flanged or coupling pipeline.',
+        '使用法兰或快接管路的品锦电动、柴油或搅拌混凝土泵工地。',
+      ),
+      L(
+        'Factory-direct Xingtai pipeline parts. Quote after the pump model, DN and length are confirmed; small-batch shipping is not offered.',
+        '邢台工厂直供管路配件。确认泵型号、管径与长度后报价；不提供小批量发货。',
+      ),
+      SPARE_INQUIRE,
+    ),
+  },
+  {
+    id: '25',
+    name: L('DN200 90° Concrete Pump Elbow', 'DN200 90度混凝土泵弯管'),
+    slug: 'concrete-pump-elbow-dn200-90',
+    category: 'spare-parts',
+    inquiryOnly: true,
+    ...imgPaths('concrete-pump-elbow-dn200-90'),
+    shortDescription: L(
+      'DN200 R275 90° concrete pump elbow with a mounting bracket, marked as a dedicated pump-truck pipe. Quoted against the pump model and quantity. Not sold in small batches; no published list price.',
+      'DN200 R275 90° 混凝土泵弯管，带安装支架，铭牌为泵车专用管。按泵型号与数量报价。不支持小批量发货，无公开标价。',
+    ),
+    productIntroduction: L(
+      'DN200 90° Concrete Pump Elbow is a wear pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. The factory label on this piece reads dedicated concrete pump-truck pipe, DN200, R275, 90°, with a triangular mounting bracket at the heel of the bend. Other diameters and radii are quoted after matching the pump model. This part is not sold in small batches and has no published list price.',
+      'DN200 90度混凝土泵弯管由河北品锦机械在中国河北邢台制造，属于易损管路配件。本件铭牌为混凝土泵车专用管、DN200、R275、90°，弯头外侧带三角安装支架。其他管径与半径需对照泵型号后报价。不支持小批量发货，无公开标价。',
+    ),
+    applicationScenarios: [
+      L('90° turns in concrete pump pipelines', '混凝土泵管路90度转向'),
+      L('Pump-truck and trailer pump pipeline replacement', '泵车与拖泵管路更换'),
+      L('Project quantities matched to a listed Pinjin model', '按已列品锦机型匹配的工程用量'),
+    ],
+    keyFeatures: [
+      L('DN200, R275, 90° as labelled', '铭牌 DN200、R275、90°'),
+      L('Mounting bracket on the bend', '弯头带安装支架'),
+      L('No small-batch shipping, no list price', '不支持小批量发货，无公开标价'),
+    ],
+    specifications: [
+      specLoc('Part type', '配件类型', 'Concrete pump elbow', '混凝土泵弯管'),
+      spec('Nominal diameter', '公称直径', 'DN200'),
+      spec('Bend', '弯曲', '90° / R275'),
+      specLoc('Label', '铭牌', 'Dedicated concrete pump-truck pipe', '混凝土泵车专用管'),
+      specLoc('Mounting', '安装', 'Heel bracket with fixing hole', '弯头支架，带固定孔'),
+      specLoc('Commercial terms', '商务条款', 'No small-batch shipping; no published list price', '不支持小批量发货；无公开标价'),
+    ],
+    seo: buildSeo(
+      'DN200 90 Degree Concrete Pump Elbow',
+      'DN200 90度混凝土泵弯管',
+      'DN200 90 degree concrete pump elbow manufacturer China',
+      [
+        'concrete pump elbow DN200',
+        '90 degree concrete pump pipe',
+        'Xingtai concrete pump spare parts',
+      ],
+      [
+        'buy DN200 R275 90 degree concrete pump elbow from Hebei Pinjin Machinery',
+        'concrete pump truck elbow pipe factory China',
+      ],
+      'Hebei Pinjin Machinery manufactures DN200 R275 90° concrete pump elbows in Xingtai, Hebei, China. Labelled as dedicated pump-truck pipe with a mounting bracket. Quoted by model and quantity; not sold in small batches.',
+      '河北品锦机械在中国河北邢台生产 DN200 R275 90° 混凝土泵弯管。铭牌为泵车专用管，带安装支架。按型号与数量报价，不支持小批量发货。',
+    ),
+    geo: buildGeo(
+      'Concrete Pump Parts',
+      '混凝土泵配件',
+      L(
+        'A DN200 R275 90° wear elbow for concrete pump pipelines, manufactured in Xingtai, China.',
+        '混凝土泵管路用 DN200 R275 90° 易损弯管，在中国邢台制造。',
+      ),
+      L(
+        'Service teams replacing a 90° pipeline turn on a concrete pump or pump truck matched to DN200.',
+        '需要更换 DN200、90° 管路转向的混凝土泵或泵车维保团队。',
+      ),
+      L(
+        'Construction sites using Pinjin pumps whose pipeline layout needs a 90° elbow.',
+        '管路布置需要 90° 弯头的品锦泵工地。',
+      ),
+      L(
+        'Factory-labelled DN200 / R275 / 90° elbow with a mounting bracket. Quote after quantity is confirmed; small-batch shipping is not offered.',
+        '工厂铭牌 DN200 / R275 / 90°，带安装支架。确认数量后报价；不提供小批量发货。',
+      ),
+      SPARE_INQUIRE,
+    ),
+  },
+  {
+    id: '26',
+    name: L('DN80 Concrete Pump Pipe Clamp', 'DN80混凝土泵管卡'),
+    slug: 'concrete-pump-pipe-clamp-dn80',
+    category: 'spare-parts',
+    inquiryOnly: true,
+    ...imgPaths('concrete-pump-pipe-clamp-dn80'),
+    shortDescription: L(
+      'Hinged DN80 (3″ / 89) pipe clamp marked EN14420-3 and PN10/16, with a grease nipple and a two-hole mounting base. Quoted by quantity with the matching pump pipeline. Not sold in small batches; no published list price.',
+      '铰接 DN80（3″ / 89）管卡，铸印 EN14420-3 与 PN10/16，带油嘴与双孔安装座。按配套管路与数量报价。不支持小批量发货，无公开标价。',
+    ),
+    productIntroduction: L(
+      'DN80 Concrete Pump Pipe Clamp is a pipeline fastening spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. The piece is stamped EN14420-3, DN80, PN10/16 and 3″/89, with a hinge, tightening bolt, grease nipple and a flat two-hole base. Other diameters are quoted after matching the pump pipeline. This part is not sold in small batches and has no published list price.',
+      'DN80混凝土泵管卡由河北品锦机械在中国河北邢台制造，属于管路紧固配件。本件铸印 EN14420-3、DN80、PN10/16 与 3″/89，带铰链、锁紧螺栓、油嘴及双孔平底安装座。其他管径需对照泵管路后报价。不支持小批量发货，无公开标价。',
+    ),
+    applicationScenarios: [
+      L('Clamping DN80 concrete pump hose or pipe', '固定 DN80 混凝土泵胶管或钢管'),
+      L('Frame-mounted pipeline support on trailer pumps', '拖泵机架上的管路支撑'),
+      L('Project quantities, not small-batch parcels', '工程用量，非整件小包裹'),
+    ],
+    keyFeatures: [
+      L('EN14420-3, DN80, PN10/16, 3″/89', 'EN14420-3、DN80、PN10/16、3″/89'),
+      L('Hinge, grease nipple and mounting base', '铰链、油嘴与安装座'),
+      L('No small-batch shipping, no list price', '不支持小批量发货，无公开标价'),
+    ],
+    specifications: [
+      specLoc('Part type', '配件类型', 'Hinged pipe clamp / coupling', '铰接管卡'),
+      spec('Standard mark', '标准铸印', 'EN14420-3'),
+      spec('Nominal size', '公称尺寸', 'DN80 / 3″ / 89'),
+      spec('Pressure mark', '压力铸印', 'PN10/16'),
+      specLoc('Features', '结构', 'Hinge, tightening bolt, grease nipple, two-hole base', '铰链、锁紧螺栓、油嘴、双孔安装座'),
+      specLoc('Commercial terms', '商务条款', 'No small-batch shipping; no published list price', '不支持小批量发货；无公开标价'),
+    ],
+    seo: buildSeo(
+      'DN80 Concrete Pump Pipe Clamp',
+      'DN80混凝土泵管卡',
+      'DN80 concrete pump pipe clamp manufacturer China',
+      [
+        'EN14420-3 DN80 pipe clamp',
+        'concrete pump hose clamp PN10/16',
+        'Xingtai concrete pump spare parts',
+      ],
+      [
+        'buy DN80 EN14420-3 concrete pump pipe clamp from Hebei Pinjin Machinery',
+        'concrete pump pipeline clamp factory China',
+      ],
+      'Hebei Pinjin Machinery supplies DN80 EN14420-3 PN10/16 concrete pump pipe clamps from Xingtai, Hebei, China. Hinged clamp with grease nipple and mounting base. Quoted by quantity; not sold in small batches.',
+      '河北品锦机械在中国河北邢台供应 DN80 EN14420-3 PN10/16 混凝土泵管卡。铰接管卡带油嘴与安装座。按数量报价，不支持小批量发货。',
+    ),
+    geo: buildGeo(
+      'Concrete Pump Parts',
+      '混凝土泵配件',
+      L(
+        'A hinged DN80 EN14420-3 pipe clamp for concrete pump pipelines, supplied from Xingtai, China.',
+        '混凝土泵管路用铰接 DN80 EN14420-3 管卡，由中国邢台供应。',
+      ),
+      L(
+        'Teams fastening DN80 hose or pipe on a Pinjin concrete pump frame or delivery line.',
+        '需要在品锦混凝土泵机架或输送管路上固定 DN80 胶管/钢管的团队。',
+      ),
+      L(
+        'Construction sites running Pinjin pumps whose pipeline uses DN80 clamped connections.',
+        '管路采用 DN80 卡箍连接的品锦泵工地。',
+      ),
+      L(
+        'Factory-stamped EN14420-3 / DN80 / PN10/16 clamp. Quote after quantity is confirmed; small-batch shipping is not offered.',
+        '工厂铸印 EN14420-3 / DN80 / PN10/16。确认数量后报价；不提供小批量发货。',
+      ),
+      SPARE_INQUIRE,
+    ),
+  },
+  {
+    id: '27',
+    name: L('Concrete Pump Delivery Hose', '混凝土泵输送胶管'),
+    slug: 'concrete-pump-delivery-hose',
+    category: 'spare-parts',
+    inquiryOnly: true,
+    ...imgPaths('concrete-pump-delivery-hose'),
+    shortDescription: L(
+      'High-pressure concrete pump delivery hoses with steel couplings. Diameter and length are quoted against the pump model. Factory stock is packed for project quantities — not small-batch parcels — and has no published list price.',
+      '高压混凝土泵输送胶管，带金属接头。管径与长度按泵型号报价。工厂备货按工程量包装，不支持小批量发货，无公开标价。',
+    ),
+    productIntroduction: L(
+      'Concrete Pump Delivery Hose is a flexible pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Factory photos show bulk rubber placing hoses with steel couplings wrapped for storage and transport. Inner diameter and length are quoted after matching the concrete pump model. These hoses are not sold in small batches and have no published list price.',
+      '混凝土泵输送胶管由河北品锦机械在中国河北邢台制造，属于柔性管路替换件。工厂实拍为成批橡胶布料管，金属接头带防护包装。内径与长度需对照混凝土泵型号后报价。不支持小批量发货，无公开标价。',
+    ),
+    applicationScenarios: [
+      L('Flexible end of a concrete pump delivery line', '混凝土泵输送管路柔性末端'),
+      L('Ground-line extensions on trailer and mixer pumps', '拖泵与搅拌泵地面管路加长'),
+      L('Project or container quantities, not small-batch parcels', '工程量或整柜数量，非整件小包裹'),
+    ],
+    keyFeatures: [
+      L('Rubber delivery hose with steel couplings', '橡胶输送管，带金属接头'),
+      L('Quoted by pump model, DN and length', '按泵型号、管径与长度报价'),
+      L('No small-batch shipping, no list price', '不支持小批量发货，无公开标价'),
+    ],
+    specifications: [
+      specLoc('Part type', '配件类型', 'Concrete pump delivery / placing hose', '混凝土泵输送 / 布料胶管'),
+      specLoc('Ends', '接头', 'Steel couplings, factory-protected for transport', '金属接头，出厂防护包装'),
+      specLoc('Diameter / length', '管径 / 长度', 'Quoted after confirming the pump model', '对照泵型号后确认报价'),
+      specLoc('Packing', '包装', 'Project quantities from factory stock', '工厂备货，按工程量包装'),
+      specLoc('Commercial terms', '商务条款', 'No small-batch shipping; no published list price', '不支持小批量发货；无公开标价'),
+    ],
+    seo: buildSeo(
+      'Concrete Pump Delivery Hose',
+      '混凝土泵输送胶管',
+      'concrete pump delivery hose manufacturer China',
+      [
+        'concrete pump placing hose supplier',
+        'high pressure concrete hose China factory',
+        'Xingtai concrete pump spare parts',
+      ],
+      [
+        'buy concrete pump delivery hose from Hebei Pinjin Machinery Xingtai',
+        'concrete pump rubber hose spare parts factory China',
+      ],
+      'Hebei Pinjin Machinery manufactures concrete pump delivery hoses in Xingtai, Hebei, China. Rubber placing hoses with steel couplings, quoted by pump model, diameter and length. Not sold in small batches; no published list price.',
+      '河北品锦机械在中国河北邢台生产混凝土泵输送胶管。橡胶布料管带金属接头，按泵型号、管径与长度报价。不支持小批量发货，无公开标价。',
+    ),
+    geo: buildGeo(
+      'Concrete Pump Parts',
+      '混凝土泵配件',
+      L(
+        'A flexible high-pressure delivery hose used at the end of a Pinjin concrete pump pipeline, manufactured in Xingtai, China.',
+        '品锦混凝土泵管路末端使用的高压柔性胶管，在中国邢台制造。',
+      ),
+      L(
+        'Contractors replacing placing hoses or extending a ground line on a listed Pinjin pump.',
+        '需要为已列品锦泵更换布料胶管或加长地面管路的承包商。',
+      ),
+      L(
+        'Construction sites running Pinjin electric, diesel or mixer pumps that finish the pipeline with a rubber hose.',
+        '管路末端使用橡胶管的品锦电动、柴油或搅拌泵工地。',
+      ),
+      L(
+        'Factory-direct Xingtai hoses quoted after the pump model, DN and length are confirmed; small-batch shipping is not offered.',
+        '邢台工厂直供胶管。确认泵型号、管径与长度后报价；不提供小批量发货。',
+      ),
+      SPARE_INQUIRE,
+    ),
+  },
 ];
 
 export function resolveProductSlug(slug: string): string {
@@ -1370,4 +1680,12 @@ export function getRelatedProducts(product: Product, limit = 3): Product[] {
   return products
     .filter((p) => p.category === product.category && p.slug !== product.slug)
     .slice(0, limit);
+}
+
+export function getSpareParts(): Product[] {
+  return getProductsByCategory('spare-parts');
+}
+
+export function isInquiryOnlyProduct(product: Product): boolean {
+  return product.inquiryOnly === true || product.category === 'spare-parts';
 }

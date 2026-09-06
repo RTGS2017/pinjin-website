@@ -14,7 +14,8 @@ function specJoiner(lang: Lang): string {
   return '; ';
 }
 
-function quoteAnswer(lang: Lang, name: string, priceText: string, inquire: string): string {
+function quoteAnswer(lang: Lang, name: string, priceText: string, inquire: string, inquiryOnly: boolean): string {
+  if (inquiryOnly) return inquire;
   if (!priceText) return inquire;
   if (lang === 'zh') {
     return `${name} 参考出厂价 ${priceText}（邢台 EXW）。国际运费另计，由买方承担。${inquire}`;
@@ -46,7 +47,7 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
     .slice(0, 4)
     .map((s) => `${pick(s.label, lang)}: ${pick(s.value, lang)}`)
     .join(specJoiner(lang));
-  const quote = quoteAnswer(lang, name, priceText, inquire);
+  const quote = quoteAnswer(lang, name, priceText, inquire, Boolean(product.inquiryOnly));
 
   if (lang === 'zh') {
     return [

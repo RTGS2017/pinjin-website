@@ -1,11 +1,14 @@
 import { LocaleLink } from '@/i18n/navigation';
 import type { Product } from '@/data/products';
-import { categoryMeta, productImageAlt } from '@/data/products';
+import { categoryMeta, isInquiryOnlyProduct, productImageAlt } from '@/data/products';
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { Button } from './Button';
 import { OemNote } from './OemNote';
 import { ProductPrice } from './ProductPrice';
+import { SparePartTerms } from './SparePartTerms';
 import { useI18n } from '@/i18n/I18nContext';
+import { useCompare } from '@/hooks/useCompare';
+import { Scale } from 'lucide-react';
 
 interface ProductCardProps {
   product: Product;
@@ -13,9 +16,12 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   const { lang, t, tx } = useI18n();
+  const { toggle, isSelected, count, max } = useCompare();
   const name = tx(product.name);
   const apps = product.applicationScenarios.slice(0, 4);
   const features = product.keyFeatures.slice(0, 3);
+  const selected = isSelected(product.slug);
+  const canAdd = selected || count < max;
 
   return (
     <article className="group card-surface flex h-full flex-col overflow-hidden bg-bg transition-shadow duration-300 hover:shadow-[0_12px_36px_rgba(0,0,0,0.06)]">
@@ -36,9 +42,23 @@ export function ProductCard({ product }: ProductCardProps) {
       </LocaleLink>
 
       <div className="flex flex-1 flex-col p-5 sm:p-6">
-        <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
-          {tx(categoryMeta[product.category].label)}
-        </p>
+        <div className="flex items-start justify-between gap-2">
+          <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
+            {tx(categoryMeta[product.category].label)}
+          </p>
+          <label className={`inline-flex cursor-pointer items-center gap-1 rounded-full border px-2 py-1 text-[10px] font-semibold tracking-wide transition-colors ${selected ? 'border-primary bg-primary text-white' : canAdd ? 'border-border text-text-secondary hover:border-primary hover:text-primary' : 'border-border text-text-secondary opacity-40 cursor-not-allowed'}`}>
+            <Scale className="h-3 w-3" />
+            <input
+              type="checkbox"
+              className="sr-only"
+              checked={selected}
+              disabled={!canAdd}
+              onChange={() => toggle(product.slug)}
+            />
+            {selected ? 'Comparing' : 'Compare'}
+          </label>
+        </div>
+
         <h3 className="mt-2 text-lg font-semibold tracking-wide text-dark">
           <LocaleLink
             to={`/products/${product.slug}`}
@@ -50,7 +70,11 @@ export function ProductCard({ product }: ProductCardProps) {
         <p className="mt-2 text-sm text-text-secondary line-clamp-3">
           {tx(product.shortDescription)}
         </p>
-        <ProductPrice slug={product.slug} compact />
+        {isInquiryOnlyProduct(product) ? (
+          <SparePartTerms compact />
+        ) : (
+          <ProductPrice slug={product.slug} compact />
+        )}
 
         {apps.length > 0 ? (
           <div className="mt-4">
@@ -101,3 +125,4 @@ export function ProductCard({ product }: ProductCardProps) {
     </article>
   );
 }
+

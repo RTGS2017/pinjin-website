@@ -80,6 +80,15 @@ export const companyEntity = {
       ar: 'مضخات خلط وضخ',
       ru: 'Насосы-смесители',
     },
+    {
+      id: 'concrete-pump-parts',
+      path: '/products/concrete-pump-parts',
+      en: 'Concrete Pump Parts',
+      zh: '混凝土泵配件',
+      pt: 'Peças para bomba de concreto',
+      ar: 'قطع مضخة الخرسانة',
+      ru: 'Запчасти для бетононасосов',
+    },
   ],
   customers: {
     en: 'Construction contractors, equipment buyers and project teams that need catalogue electric pumps, diesel pumps or integrated mixer pumps.',
@@ -141,6 +150,7 @@ export const seoKeywords = {
     'Electric Concrete Pump Manufacturer',
     'Diesel Concrete Pump Manufacturer',
     'Concrete Mixer Pump Manufacturer',
+    'Concrete Pump Parts Manufacturer',
     'Xingjiawan Concrete Machinery',
     'Xingtai Construction Machinery Factory',
     'OEM Concrete Equipment Manufacturer',
@@ -150,6 +160,7 @@ export const seoKeywords = {
     'diesel concrete pump manufacturer',
     'small concrete pump supplier',
     'concrete mixer pump manufacturer',
+    'concrete pump delivery pipe manufacturer',
   ],
   longTail: [
     'How to choose a concrete pump for construction project',

@@ -6,6 +6,7 @@ import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
 import { navItems, type NavLabelKey } from '@/config/navigation';
 import { contactInquiryPath, siteConfig } from '@/config/site';
 import { Button } from '@/components/ui/Button';
+import { ProductSearch } from '@/components/ui/ProductSearch';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath, stripLangFromPath } from '@/i18n/paths';
 import { LocaleLink, LocaleNavLink } from '@/i18n/navigation';
@@ -174,6 +175,7 @@ export function Header() {
             </nav>
 
             <div className="hidden items-center gap-4 lg:flex" onMouseEnter={closeMegaNow}>
+              <ProductSearch />
               <LanguageSwitcher onPicked={closeLangAndNav} />
               <Button to={contactInquiryPath} size="md">
                 {t.nav.getQuote}
@@ -262,3 +264,4 @@ export function Header() {
     </header>
   );
 }
+

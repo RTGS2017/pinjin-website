@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
+import { featuredProductSlugs } from '@/config/site';
 import { companyEntity } from '@/config/entity';
 import { getIndicativePrice } from '@/data/productPricing';
 import { ProductPrice } from '@/components/ui/ProductPrice';
@@ -8,6 +9,9 @@ import {
   getCategoryPath,
   getProductBySlug,
   getRelatedProducts,
+  getSpareParts,
+  getFeaturedProducts,
+  isInquiryOnlyProduct,
   productImageAlt,
   resolveProductSlug,
 } from '@/data/products';
@@ -21,6 +25,7 @@ import { ContactActions } from '@/components/ui/ContactActions';
 import { Customization } from '@/components/sections/Customization';
 import { FactoryProofStrip } from '@/components/sections/FactoryOverview';
 import { OemNote } from '@/components/ui/OemNote';
+import { SparePartTerms } from '@/components/ui/SparePartTerms';
 import {
   SEO,
   buildBreadcrumbJsonLd,
@@ -65,10 +70,14 @@ export function ProductDetail() {
 
   const highlightSpecs = product.specifications.slice(0, 4);
   const gallery = product.gallery;
-  const catalogImage = gallery[0] ?? '';
+  const catalogImage = gallery[0] ?? product.image;
+  const catalogShot = catalogImage.endsWith('/catalog.webp');
   const price = getIndicativePrice(product.slug);
+  const quoteOnly = isInquiryOnlyProduct(product);
   const advantages = product.keyFeatures.slice(0, 5);
-  const inquireMessage = `${name}\n${t.detail.inquiryBody}`;
+  const inquireMessage = `${name}\n${quoteOnly ? t.detail.spareInquiryBody : t.detail.inquiryBody}`;
+  const spareParts = quoteOnly ? [] : getSpareParts();
+  const relatedPumps = quoteOnly ? getFeaturedProducts(featuredProductSlugs).slice(0, 3) : [];
 
   return (
     <section className="section-y bg-bg">
@@ -78,8 +87,8 @@ export function ProductDetail() {
         path={path}
         image={catalogImage}
         imageAlt={productImageAlt(product, catalogImage, lang)}
-        imageWidth={1054}
-        imageHeight={1492}
+        imageWidth={catalogShot ? 1054 : 1200}
+        imageHeight={catalogShot ? 1492 : 800}
         type="product"
         keywords={keywords}
         jsonLd={[
@@ -99,8 +108,9 @@ export function ProductDetail() {
             model: name,
             brand: 'Pinjin',
             lang,
-            priceUsd: price?.usd,
-            priceNote: t.productCard.freightNote,
+            priceUsd: quoteOnly ? undefined : price?.usd,
+            quoteOnly,
+            priceNote: quoteOnly ? t.productCard.noListPrice : t.productCard.freightNote,
             specifications: product.specifications.map((spec) => ({
               name: tx(spec.label),
               value: tx(spec.value),
@@ -149,7 +159,7 @@ export function ProductDetail() {
             </p>
             <h1 className="mt-3 heading-display text-3xl sm:text-4xl">{name}</h1>
             <p className="mt-5 text-text-secondary">{tx(product.shortDescription)}</p>
-            <ProductPrice slug={product.slug} />
+            {quoteOnly ? <SparePartTerms /> : <ProductPrice slug={product.slug} />}
 
             {highlightSpecs.length > 0 ? (
               <div className="mt-8">
@@ -331,6 +341,35 @@ export function ProductDetail() {
             </LocaleLink>
           </p>
         </section>
+
+        {spareParts.length > 0 ? (
+          <div className="mt-16">
+            <h2 className="heading-display text-2xl sm:text-3xl">
+              {t.detail.spareRelated}
+            </h2>
+            <p className="mt-3 text-sm text-text-secondary">
+              {t.productCard.noSmallBatch}
+            </p>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+              {spareParts.map((item) => (
+                <ProductCard key={item.slug} product={item} />
+              ))}
+            </div>
+          </div>
+        ) : null}
+
+        {relatedPumps.length > 0 ? (
+          <div className="mt-16">
+            <h2 className="heading-display text-2xl sm:text-3xl">
+              {t.detail.fitsPumps}
+            </h2>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              {relatedPumps.map((item) => (
+                <ProductCard key={item.slug} product={item} />
+              ))}
+            </div>
+          </div>
+        ) : null}
 
         {related.length > 0 ? (
           <div className="mt-16">

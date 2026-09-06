@@ -311,6 +311,7 @@ export function buildProductJsonLd(input: {
   lang?: Lang;
   priceUsd?: number;
   priceNote?: string;
+  quoteOnly?: boolean;
   specifications?: Array<{ name: string; value: string }>;
 }) {
   const lang = input.lang ?? defaultLang;
@@ -365,25 +366,35 @@ export function buildProductJsonLd(input: {
       name: spec.name,
       value: spec.value,
     })),
-    ...(input.priceUsd != null
+    ...(input.quoteOnly
       ? {
           offers: {
             '@type': 'Offer',
             url: absoluteUrl(input.path),
-            priceCurrency: 'USD',
-            price: input.priceUsd.toFixed(2),
             availability: 'https://schema.org/InStock',
             itemCondition: 'https://schema.org/NewCondition',
             description: input.priceNote,
-            priceSpecification: {
-              '@type': 'UnitPriceSpecification',
-              price: input.priceUsd.toFixed(2),
-              priceCurrency: 'USD',
-              valueAddedTaxIncluded: false,
-            },
           },
         }
-      : {}),
+      : input.priceUsd != null
+        ? {
+            offers: {
+              '@type': 'Offer',
+              url: absoluteUrl(input.path),
+              priceCurrency: 'USD',
+              price: input.priceUsd.toFixed(2),
+              availability: 'https://schema.org/InStock',
+              itemCondition: 'https://schema.org/NewCondition',
+              description: input.priceNote,
+              priceSpecification: {
+                '@type': 'UnitPriceSpecification',
+                price: input.priceUsd.toFixed(2),
+                priceCurrency: 'USD',
+                valueAddedTaxIncluded: false,
+              },
+            },
+          }
+        : {}),
   };
 }
 

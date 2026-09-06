@@ -39,10 +39,19 @@ SLUGS = [
     "diesel-120-concrete-pump",
     "integrated-mixer-pump",
     "diesel-mixer-integrated-pump",
+    "concrete-pump-delivery-pipe",
+    "concrete-pump-elbow-dn200-90",
+    "concrete-pump-pipe-clamp-dn80",
+    "concrete-pump-delivery-hose",
 ]
 
 # 产品图根目录可读文件名 → slug（实拍入库见 ingest_real_product_photos.py）
-ROOT_FILE_MAP: dict[str, str] = {}
+ROOT_FILE_MAP: dict[str, str] = {
+    "creative-custom-1788684604652-1.png": "concrete-pump-delivery-pipe",
+    "creative-custom-1788684612345-1.png": "concrete-pump-elbow-dn200-90",
+    "creative-custom-1788684623123-1.png": "concrete-pump-pipe-clamp-dn80",
+    "creative-custom-1788684625763-1.png": "concrete-pump-delivery-hose",
+}
 
 MAX_SIDE = 1200
 WORKING_MAX_WIDTH = 1600

@@ -85,11 +85,6 @@ export function Footer() {
                 </LocaleLink>
               </li>
               <li>
-                <LocaleLink to="/blog" className="hover:text-primary transition-colors">
-                  {t.footer.blog}
-                </LocaleLink>
-              </li>
-              <li>
                 <LocaleLink to="/faq" className="hover:text-primary transition-colors">
                   {t.footer.faq}
                 </LocaleLink>
@@ -145,3 +140,4 @@ export function Footer() {
     </footer>
   );
 }
+

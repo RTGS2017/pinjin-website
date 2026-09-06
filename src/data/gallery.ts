@@ -70,7 +70,8 @@ export const factoryShowcase = factorySlides.map((slide) => ({
 
 /** 首页知识中心三张卡片（与 knowledgeArticles slug 一致）。 */
 export const homeKnowledgeSlugs = [
-  'what-is-a-concrete-pump',
-  'concrete-pump-types',
-  'shotcrete-machine-working-principle',
+  'electric-15-concrete-pump-applications',
+  'diesel-concrete-pump-no-electricity',
+  'high-rise-building-concrete-pump-selection',
 ] as const;
+

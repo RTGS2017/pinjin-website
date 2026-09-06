@@ -32,6 +32,10 @@ const hubAnchor: Record<ProductCategory, Omit<TopicLink, 'href'>> = {
     en: 'Concrete mixer pump manufacturer China',
     zh: '中国搅拌泵厂家',
   },
+  'spare-parts': {
+    en: 'Concrete pump parts manufacturer China',
+    zh: '中国混凝土泵配件厂家',
+  },
 };
 
 const oemLink: TopicLink = {
@@ -54,23 +58,28 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         en: 'Diesel concrete pump manufacturer China',
         zh: '中国柴油混凝土泵厂家',
       },
+      {
+        href: '/products/concrete-pump-parts',
+        en: 'Concrete pump parts manufacturer China',
+        zh: '中国混凝土泵配件厂家',
+      },
       oemLink,
     ],
     relatedArticles: [
       {
-        href: '/blog/what-is-a-concrete-pump',
-        en: 'What is a concrete pump and how it works',
-        zh: '什么是混凝土泵及工作原理',
+        href: '/blog/electric-15-concrete-pump-applications',
+        en: 'Electric 15 compact concrete pump applications',
+        zh: '电动15型混凝土泵适用工地',
       },
       {
-        href: '/blog/concrete-pump-types',
-        en: 'Trailer pump vs boom pump selection',
-        zh: '拖式泵与臂架泵选型',
+        href: '/blog/electric-20-vs-30-concrete-pump',
+        en: 'Electric 20 vs 30 concrete pump comparison',
+        zh: '电动20与电动30混凝土泵对比',
       },
       {
-        href: '/blog/concrete-pump-maintenance-guide',
-        en: 'Concrete pump maintenance guide',
-        zh: '混凝土泵维护指南',
+        href: '/blog/concrete-pump-daily-maintenance-checklist',
+        en: 'Concrete pump daily maintenance checklist',
+        zh: '混凝土泵日常保养清单',
       },
       {
         href: '/product-selection-guide',
@@ -91,18 +100,23 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         en: 'Electric concrete pump manufacturer China',
         zh: '中国电动混凝土泵厂家',
       },
+      {
+        href: '/products/concrete-pump-parts',
+        en: 'Concrete pump parts manufacturer China',
+        zh: '中国混凝土泵配件厂家',
+      },
       oemLink,
     ],
     relatedArticles: [
       {
-        href: '/blog/what-is-a-concrete-pump',
-        en: 'What is a concrete pump and how it works',
-        zh: '什么是混凝土泵及工作原理',
+        href: '/blog/diesel-concrete-pump-no-electricity',
+        en: 'Diesel concrete pump for sites without electricity',
+        zh: '没有电力时如何选柴油混凝土泵',
       },
       {
-        href: '/blog/concrete-pump-types',
-        en: 'Trailer pump vs boom pump selection',
-        zh: '拖式泵与臂架泵选型',
+        href: '/blog/tractor-4100-concrete-pump-rural',
+        en: 'Tractor 4100 rural concrete pump',
+        zh: '拖拉机带动4100农村混凝土泵',
       },
       {
         href: '/product-selection-guide',
@@ -123,18 +137,54 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         en: 'Electric concrete pump manufacturer China',
         zh: '中国电动混凝土泵厂家',
       },
+      {
+        href: '/products/concrete-pump-parts',
+        en: 'Concrete pump parts manufacturer China',
+        zh: '中国混凝土泵配件厂家',
+      },
       oemLink,
     ],
     relatedArticles: [
       {
-        href: '/blog/what-is-a-concrete-pump',
-        en: 'What is a concrete pump and how it works',
-        zh: '什么是混凝土泵及工作原理',
+        href: '/blog/mixer-pump-vs-concrete-mixing-plant',
+        en: 'Mixer pump vs concrete mixing plant',
+        zh: '搅拌泵一体机不是搅拌站',
       },
       {
-        href: '/blog/choose-construction-equipment-suppliers-from-china',
-        en: 'How to choose construction equipment suppliers from China',
-        zh: '如何选择中国工程设备供应商',
+        href: '/blog/concrete-pump-pipe-dn-selection',
+        en: 'Concrete pump pipe DN selection',
+        zh: '混凝土泵输送管DN怎么选',
+      },
+      { href: '/factory', en: 'Xingtai construction machinery factory', zh: '邢台工程机械工厂' },
+    ],
+    relatedSolutions: [
+      { href: '/solutions/construction', en: 'Building construction pumping', zh: '建筑施工泵送应用' },
+      factoryLink,
+    ],
+  },
+  'spare-parts': {
+    relatedCategories: [
+      {
+        href: '/products/electric-concrete-pumps',
+        en: 'Electric concrete pump manufacturer China',
+        zh: '中国电动混凝土泵厂家',
+      },
+      {
+        href: '/products/diesel-concrete-pumps',
+        en: 'Diesel concrete pump manufacturer China',
+        zh: '中国柴油混凝土泵厂家',
+      },
+    ],
+    relatedArticles: [
+      {
+        href: '/blog/concrete-pump-pipe-dn-selection',
+        en: 'Concrete pump pipe DN selection',
+        zh: '混凝土泵输送管DN怎么选',
+      },
+      {
+        href: '/blog/concrete-pump-daily-maintenance-checklist',
+        en: 'Concrete pump daily maintenance checklist',
+        zh: '混凝土泵日常保养清单',
       },
       { href: '/factory', en: 'Xingtai construction machinery factory', zh: '邢台工程机械工厂' },
     ],
@@ -147,9 +197,9 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
 
 export const trustClusterArticles: TopicLink[] = [
   {
-    href: '/blog/choose-construction-equipment-suppliers-from-china',
-    en: 'How to choose construction equipment suppliers from China',
-    zh: '如何选择中国工程设备供应商',
+    href: '/blog/high-rise-building-concrete-pump-selection',
+    en: 'High-rise building concrete pump selection',
+    zh: '高层建筑混凝土泵选型',
   },
   {
     href: '/factory',

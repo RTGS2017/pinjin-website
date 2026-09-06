@@ -15,8 +15,13 @@ export function productDisplayImages(slug: string): string[] {
   return [`/images/products/${slug}/main.webp`];
 }
 
-/** Product detail page: catalogue spec sheet only — never main or detail photos. */
+/** Product detail gallery: catalogue sheet when present, otherwise studio main photo. */
 export function productDetailImages(slug: string): string[] {
+  const listed = productPublicImagesBySlug[slug] ?? [];
+  const catalog = listed.filter((path) => path.endsWith('/catalog.webp'));
+  if (catalog.length) return catalog;
+  const studio = listed.filter((path) => path.endsWith('/main.webp'));
+  if (studio.length) return studio;
   return [`/images/products/${slug}/catalog.webp`];
 }
 

@@ -25,7 +25,7 @@ export const siteConfig = {
     maxWidthClass: 'max-w-site',
     sectionYClass: 'section-y',
   },
-  contactEmail: import.meta.env.VITE_CONTACT_EMAIL || '1912829892@qq.com',
+  contactEmail: import.meta.env.VITE_CONTACT_EMAIL || 'PinjinHebei@Outlook.com',
   contactPhone: import.meta.env.VITE_CONTACT_PHONE || '19912003025',
   /**
    * WhatsApp 国际号码（纯数字）。未单独配置时使用联系电话并补 86 前缀。
@@ -43,6 +43,7 @@ export const productCategoryIds = [
   'electric-concrete-pump',
   'diesel-concrete-pump',
   'mixer-pump',
+  'spare-parts',
 ] as const;
 
 export const performanceValues = ['900 m', '600 m', '100 m³/h', '6 cm'] as const;
@@ -88,3 +89,4 @@ export function getWhatsAppHref(text?: string): string {
   if (!text) return base;
   return `${base}?text=${encodeURIComponent(text)}`;
 }
+

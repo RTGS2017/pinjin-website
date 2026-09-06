@@ -24,6 +24,11 @@ export const messages = {
       openMenu: 'Open menu',
       closeMenu: 'Close menu',
       language: 'Language',
+      search: 'Search',
+      searchPlaceholder: 'Search concrete pumps...',
+      noResults: 'No products found.',
+      close: 'close',
+      searchHint: 'Type to search products',
     },
     mega: {
       featured: 'Featured Products',
@@ -55,7 +60,7 @@ export const messages = {
         'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a source manufacturer in Renze Industrial Park, Xingtai, Hebei, focused on R&D, production and sales of construction machinery such as concrete pumps.',
       title: 'China Professional Concrete Machinery Manufacturer',
       subtitle:
-        'Electric concrete pumps, diesel concrete pumps, mixer pumps and OEM customization from Xingtai.',
+        'Electric concrete pumps, diesel concrete pumps, mixer pumps, pipeline spare parts and OEM customization from Xingtai.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
     },
@@ -73,7 +78,7 @@ export const messages = {
     categories: {
       title: 'OUR PRODUCT RANGE',
       subtitle:
-        'Electric concrete pumps, diesel concrete pumps and mixer pumps from the Xingtai factory catalogue.',
+        'Electric concrete pumps, diesel concrete pumps, mixer pumps and pipeline spare parts from the Xingtai factory catalogue.',
       view: 'View Products →',
       concrete: 'CONCRETE PUMPS',
       concreteDesc: 'Transfer and concrete pumps for reliable material delivery.',
@@ -228,7 +233,7 @@ export const messages = {
     productsPage: {
       title: 'ALL PRODUCTS',
       subtitle:
-        'Browse electric concrete pumps, diesel concrete pumps and mixer pumps.',
+        'Browse electric concrete pumps, diesel concrete pumps, mixer pumps and concrete pump parts.',
       all: 'All',
       concrete: 'Concrete Pumps',
       spraying: 'Spraying Machines',
@@ -272,9 +277,13 @@ export const messages = {
       inquiryTitle: 'Request a quotation',
       inquiryBody:
         'Tell us the model, quantity and project conditions. We will reply by email with a suitable recommendation.',
+      spareInquiryBody:
+        'Tell us the pump model, diameter (DN), length and quantity. These replacement parts are not sold in small batches and have no published list price.',
       catalogPrefill:
         'Please send the product catalogue / datasheet for this model.',
       indicativePrice: 'Indicative EXW',
+      spareRelated: 'Concrete pump spare parts',
+      fitsPumps: 'Related concrete pumps',
     },
     about: {
       eyebrow: 'About Us',
@@ -295,6 +304,11 @@ export const messages = {
       priceFrom: 'Indicative EXW',
       freightNote:
         'EXW Xingtai. International freight is extra and paid by the buyer.',
+      quoteOnly: 'Quote on request',
+      noListPrice:
+        'No published list price. Quote after the pump model, diameter, length and quantity are confirmed.',
+      noSmallBatch:
+        'These replacement parts are not sold in small batches. Shipping is arranged for project quantities.',
     },
     selectionGuide: {
       title: 'Product Selection Guide',
@@ -513,6 +527,11 @@ export const messages = {
       openMenu: '打开菜单',
       closeMenu: '关闭菜单',
       language: '语言',
+      search: '搜索',
+      searchPlaceholder: '搜索混凝土泵...',
+      noResults: '未找到相关产品。',
+      close: '关闭',
+      searchHint: '输入关键词搜索产品',
     },
     mega: {
       featured: '精选产品',
@@ -542,7 +561,7 @@ export const messages = {
       intro:
         '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，是混凝土泵等工程机械的源头制造商，从事研发、生产与销售。',
       title: '中国专业混凝土机械制造商',
-      subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵，以及来自邢台的 OEM 定制。',
+      subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵、管路配件，以及来自邢台的 OEM 定制。',
       explore: '浏览产品',
       quote: '联系工程师',
     },
@@ -559,7 +578,7 @@ export const messages = {
     },
     categories: {
       title: '产品系列',
-      subtitle: '邢台工厂目录中的电动混凝土泵、柴油混凝土泵与搅拌泵。',
+      subtitle: '邢台工厂目录中的电动混凝土泵、柴油混凝土泵、搅拌泵与管路配件。',
       view: '查看产品 →',
       concrete: '混凝土泵',
       concreteDesc: '可靠的输送泵与混凝土泵系列。',
@@ -706,7 +725,7 @@ export const messages = {
     },
     productsPage: {
       title: '全部产品',
-      subtitle: '浏览电动混凝土泵、柴油混凝土泵与搅拌泵。',
+      subtitle: '浏览电动混凝土泵、柴油混凝土泵、搅拌泵与混凝土泵配件。',
       all: '全部',
       concrete: '混凝土泵',
       spraying: '喷涂设备',
@@ -748,8 +767,12 @@ export const messages = {
       inquiryTitle: '提交询价',
       inquiryBody:
         '请告知型号、数量与工况条件，我们将通过邮件回复合适方案。',
+      spareInquiryBody:
+        '请告知泵型号、管径（DN）、长度与数量。此类替换件不支持小批量发货，也没有公开标价。',
       catalogPrefill: '请提供该型号的产品目录 / 技术参数表。',
       indicativePrice: '参考出厂价',
+      spareRelated: '混凝土泵配件',
+      fitsPumps: '相关混凝土泵',
     },
     about: {
       eyebrow: '关于我们',
@@ -768,6 +791,9 @@ export const messages = {
       imageComingSoon: '产品图片即将上传',
       priceFrom: '参考出厂价',
       freightNote: '邢台 EXW 出厂价。国际运费另计，由买方承担。',
+      quoteOnly: '询价报价',
+      noListPrice: '无公开标价。确认泵型号、管径、长度与数量后报价。',
+      noSmallBatch: '此类替换件不支持小批量发货，按工程量安排发运。',
     },
     selectionGuide: {
       title: '产品选型指南',
@@ -964,3 +990,4 @@ export function getMessages(lang: Lang): Messages {
   const table = messages as unknown as Record<Lang, Messages>;
   return table[lang] ?? messages.en;
 }
+

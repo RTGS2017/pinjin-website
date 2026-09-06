@@ -12,7 +12,7 @@ import {
   Layers,
   ListChecks,
   Mail,
-  Newspaper,
+  Wrench,
   Zap,
 } from 'lucide-react';
 import {
@@ -44,14 +44,13 @@ const categoryIcons: Record<ProductCategory, LucideIcon> = {
   'electric-concrete-pump': Zap,
   'diesel-concrete-pump': Fuel,
   'mixer-pump': Layers,
+  'spare-parts': Wrench,
 };
 
 const technicalIcons: Record<(typeof resourcesTechnicalLinks)[number]['megaKey'], LucideIcon> = {
-  blog: Newspaper,
   guides: ClipboardList,
   faq: HelpCircle,
 };
-
 const downloadIcons: Record<(typeof resourcesDownloadLinks)[number]['megaKey'], LucideIcon> = {
   catalog: FileText,
   datasheets: ClipboardList,
@@ -496,3 +495,5 @@ export function MobileMegaLinks({
 
   return null;
 }
+
+

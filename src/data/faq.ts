@@ -41,8 +41,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦主要生产哪些产品？',
     },
     answer: {
-      en: 'Pinjin manufactures three catalogue groups: electric concrete pumps, diesel concrete pumps and mixer pumps. Typical electric models include Electric 15 / 20 / 40 / 50 / 60 / 80 and HBT8018 / HBT80-16. Diesel models include Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and rural diesel pumps. Mixer pumps include an electric integrated unit and a diesel mixer-integrated pump. A mixing plant, spraying-machine or rebar line is not listed on this website.',
-      zh: '品锦目录分为三类：电动混凝土泵、柴油混凝土泵与搅拌泵。电动典型型号包括电动15 / 20 / 40 / 50 / 60 / 80 以及 HBT8018 / HBT80-16。柴油包括柴油30–120、LZ-60 / LZ-80、拖拉机带动4100与农村柴油泵。搅拌泵包括电动一体机与柴油搅拌泵一体机。本站未列出搅拌站、喷涂机或钢筋设备产品线。',
+      en: 'Pinjin manufactures three catalogue pump groups plus pipeline spare parts: electric concrete pumps, diesel concrete pumps, mixer pumps, and replacement pipes, elbows, clamps and hoses. Typical electric models include Electric 15 / 20 / 40 / 50 / 60 / 80 and HBT8018 / HBT80-16. Diesel models include Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and rural diesel pumps. Mixer pumps include an electric integrated unit and a diesel mixer-integrated pump. Spare parts are quoted after the pump model, diameter and quantity are confirmed; they are not sold in small batches. A mixing plant, spraying-machine or rebar line is not listed on this website.',
+      zh: '品锦目录分为混凝土泵三类再加管路配件：电动混凝土泵、柴油混凝土泵、搅拌泵，以及输送管、弯管、管卡与胶管替换件。电动典型型号包括电动15 / 20 / 40 / 50 / 60 / 80 以及 HBT8018 / HBT80-16。柴油包括柴油30–120、LZ-60 / LZ-80、拖拉机带动4100与农村柴油泵。搅拌泵包括电动一体机与柴油搅拌泵一体机。配件在确认泵型号、管径与数量后报价，不支持小批量发货。本站未列出搅拌站、喷涂机或钢筋设备产品线。',
     },
   },
   {

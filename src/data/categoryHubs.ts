@@ -144,4 +144,49 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
       customFaq,
     ],
   },
+  'spare-parts': {
+    h1: L('Concrete Pump Parts Manufacturer', '混凝土泵配件厂家'),
+    intro: L(
+      'Hebei Pinjin Machinery supplies pipeline spare parts for its Xingtai-built concrete pumps: delivery pipes, DN200 90° elbows, DN80 clamps and delivery hoses. These replacement parts are quoted after the pump model, diameter and quantity are confirmed. They are not sold in small batches and have no published list price.',
+      '河北品锦机械为邢台产混凝土泵提供管路配件：输送管、DN200 90° 弯管、DN80 管卡与输送胶管。替换件在确认泵型号、管径与数量后报价，不支持小批量发货，也没有公开标价。',
+    ),
+    applications: [
+      L('Wear-part replacement on listed Pinjin pumps', '已列品锦泵的易损件更换'),
+      L('Pipeline extensions matched to a catalogue model', '对照目录机型加长管路'),
+      L('Project or container quantities, not parcel lots', '工程量或整柜，不是小包裹批次'),
+    ],
+    advantages: [
+      L('Same Xingtai factory as the concrete pumps', '与混凝土泵同一邢台工厂'),
+      L('Quote by pump model, DN, length and quantity', '按泵型号、管径、长度与数量报价'),
+      L('No small-batch shipping and no published list price', '不支持小批量发货，无公开标价'),
+    ],
+    keywords: [
+      'Concrete Pump Parts Manufacturer China',
+      'concrete pump delivery pipe factory',
+      'Xingtai concrete pump spare parts',
+    ],
+    faqs: [
+      madeInFaq,
+      {
+        question: L(
+          'Do these spare parts have a published price?',
+          '这些配件有没有公开价格？',
+        ),
+        answer: L(
+          'No. Pipeline replacement parts have no list price on this site. Send the pump model, diameter, length and quantity for a factory quote. Small-batch shipping is not offered.',
+          '没有。本站管路替换件不公布标价。请提供泵型号、管径、长度与数量以便工厂报价。不支持小批量发货。',
+        ),
+      },
+      {
+        question: L(
+          'Can I order one or two pieces for a trial?',
+          '能不能只买一两件试用？',
+        ),
+        answer: L(
+          'These replacement parts are packed and shipped for project quantities, not small-batch parcels. Ask the factory what minimum quantity applies to the part you need.',
+          '此类替换件按工程量包装发运，不支持小批量包裹。请向工厂确认你所需配件的起订数量。',
+        ),
+      },
+    ],
+  },
 };

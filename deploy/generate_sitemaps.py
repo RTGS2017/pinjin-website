@@ -73,6 +73,13 @@ MIXER = [
     "diesel-mixer-integrated-pump",
 ]
 
+SPARE = [
+    "concrete-pump-delivery-pipe",
+    "concrete-pump-elbow-dn200-90",
+    "concrete-pump-pipe-clamp-dn80",
+    "concrete-pump-delivery-hose",
+]
+
 NAMES = {
     "electric-20-concrete-pump": "Electric 20 Concrete Pump",
     "electric-30-concrete-pump": "Electric 30 Concrete Pump",
@@ -97,26 +104,37 @@ NAMES = {
     "electric-50-concrete-pump": "Electric 50 Concrete Pump",
     "electric-low-pressure-60-concrete-pump": "Electric Low Pressure 60 Concrete Pump",
     "electric-60-concrete-pump": "Electric 60 Concrete Pump",
+    "concrete-pump-delivery-pipe": "Concrete Pump Delivery Pipe",
+    "concrete-pump-elbow-dn200-90": "DN200 90 Degree Concrete Pump Elbow",
+    "concrete-pump-pipe-clamp-dn80": "DN80 Concrete Pump Pipe Clamp",
+    "concrete-pump-delivery-hose": "Concrete Pump Delivery Hose",
 }
 
 CATEGORY_HUBS = [
     "electric-concrete-pumps",
     "diesel-concrete-pumps",
     "mixer-pumps",
+    "concrete-pump-parts",
 ]
 
 HUB_IMAGE_SLUG = {
     "electric-concrete-pumps": "electric-40-concrete-pump",
     "diesel-concrete-pumps": "diesel-50-concrete-pump",
     "mixer-pumps": "integrated-mixer-pump",
+    "concrete-pump-parts": "concrete-pump-delivery-pipe",
 }
 
 BLOG_SLUGS = [
-    "what-is-a-concrete-pump",
-    "concrete-pump-types",
-    "concrete-pump-maintenance-guide",
-    "shotcrete-machine-working-principle",
-    "choose-construction-equipment-suppliers-from-china",
+    "electric-15-concrete-pump-applications",
+    "diesel-concrete-pump-no-electricity",
+    "high-rise-building-concrete-pump-selection",
+    "electric-20-vs-30-concrete-pump",
+    "concrete-pump-pipe-dn-selection",
+    "mixer-pump-vs-concrete-mixing-plant",
+    "tractor-4100-concrete-pump-rural",
+    "bridge-construction-concrete-pump-requirements",
+    "low-pressure-40-concrete-pump-guide",
+    "concrete-pump-daily-maintenance-checklist",
 ]
 
 SOLUTION_SLUGS = [
@@ -126,7 +144,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-03"
+LASTMOD = "2026-09-06"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "
@@ -230,7 +248,7 @@ def existing_images(folder: str, items: list[tuple[str, str]]) -> list[tuple[str
 def ordered_product_slugs() -> list[str]:
     seen: set[str] = set()
     out: list[str] = []
-    for slug in FEATURED + ELECTRIC + DIESEL + MIXER:
+    for slug in FEATURED + ELECTRIC + DIESEL + MIXER + SPARE:
         if slug in seen:
             continue
         seen.add(slug)
@@ -412,20 +430,27 @@ def write_pages_sitemap(base: str, paths: list[str]) -> int:
 def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     folder = ROOT / "images" / "products" / slug
     sheet = folder / "catalog.webp"
-    if not sheet.exists():
+    studio = folder / "main.webp"
+    image = sheet if sheet.exists() else studio
+    if not image.exists():
         return []
     n = NAMES[slug]
-    title = (
-        f"{n} catalogue specification sheet manufactured by "
-        "Hebei Pinjin Machinery in Xingtai Hebei China"
-    )
+    if sheet.exists():
+        title = (
+            f"{n} catalogue specification sheet manufactured by "
+            "Hebei Pinjin Machinery in Xingtai Hebei China"
+        )
+    else:
+        title = (
+            f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
+        )
     lines = [
         "  <url>",
         f"    <loc>{base}/{lang}/products/{slug}</loc>",
         f"    <lastmod>{LASTMOD}</lastmod>",
     ]
     lines += image_nodes(
-        f"{base}/images/products/{slug}/{sheet.name}",
+        f"{base}/images/products/{slug}/{image.name}",
         title,
         title,
     )

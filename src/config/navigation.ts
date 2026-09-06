@@ -55,7 +55,6 @@ export const solutionsOemLinks = [
 ] as const;
 
 export const resourcesTechnicalLinks = [
-  { href: '/blog', megaKey: 'blog' as const },
   { href: '/product-selection-guide', megaKey: 'guides' as const },
   { href: '/faq', megaKey: 'faq' as const },
 ] as const;
@@ -71,3 +70,4 @@ export const companyLinks = [
   { href: '/#why-pinjin', megaKey: 'quality' as const },
   { href: '/contact', megaKey: 'contact' as const },
 ] as const;
+

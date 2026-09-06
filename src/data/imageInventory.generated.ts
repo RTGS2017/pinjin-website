@@ -21,6 +21,18 @@ export const heroPublicImages = [
 ] as const;
 
 export const productPublicImagesBySlug: Record<string, readonly string[]> = {
+  "concrete-pump-delivery-hose": [
+    "/images/products/concrete-pump-delivery-hose/main.webp",
+  ],
+  "concrete-pump-delivery-pipe": [
+    "/images/products/concrete-pump-delivery-pipe/main.webp",
+  ],
+  "concrete-pump-elbow-dn200-90": [
+    "/images/products/concrete-pump-elbow-dn200-90/main.webp",
+  ],
+  "concrete-pump-pipe-clamp-dn80": [
+    "/images/products/concrete-pump-pipe-clamp-dn80/main.webp",
+  ],
   "diesel-120-concrete-pump": [
     "/images/products/diesel-120-concrete-pump/main.webp",
     "/images/products/diesel-120-concrete-pump/catalog.webp",
@@ -131,6 +143,14 @@ export const publicImageRev: Record<string, string> = {
   "/images/factory/pinjin-machinery-workshop-overhead-crane.webp": "91d9bdb9cf",
   "/images/factory/pinjin-trailer-concrete-pump-assembly.webp": "a5518066ad",
   "/images/hero/pinjin-machinery-factory-xingtai-china.webp": "4a9dd89f52",
+  "/images/products/concrete-pump-delivery-hose/main.webp": "25b7607028",
+  "/images/products/concrete-pump-delivery-hose/source.png": "930b749a38",
+  "/images/products/concrete-pump-delivery-pipe/main.webp": "55daf3f6bc",
+  "/images/products/concrete-pump-delivery-pipe/source.png": "b6b40fe898",
+  "/images/products/concrete-pump-elbow-dn200-90/main.webp": "d761be20dd",
+  "/images/products/concrete-pump-elbow-dn200-90/source.png": "837ba66f0f",
+  "/images/products/concrete-pump-pipe-clamp-dn80/main.webp": "9965fd27d3",
+  "/images/products/concrete-pump-pipe-clamp-dn80/source.png": "8ca4fca8d6",
   "/images/products/diesel-120-concrete-pump/catalog.webp": "8fdd6553a1",
   "/images/products/diesel-120-concrete-pump/main.webp": "89773e5428",
   "/images/products/diesel-120-concrete-pump/source-photo.png": "59bb276afc",

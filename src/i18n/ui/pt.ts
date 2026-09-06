@@ -223,7 +223,7 @@ export const messagesPt = {
   productsPage: {
     title: 'TODOS OS PRODUTOS',
     subtitle:
-      'Navegue por bombas de concreto elétricas, a diesel e misturadoras.',
+      'Navegue por bombas de concreto elétricas, a diesel, misturadoras e peças.',
     all: 'Todos',
     concrete: 'Bombas de concreto',
     spraying: 'Máquinas de projeção',
@@ -271,6 +271,10 @@ export const messagesPt = {
     catalogPrefill:
       'Por favor, enviem o catálogo / ficha técnica deste modelo.',
     indicativePrice: 'EXW indicativo',
+    spareInquiryBody:
+      'Informe o modelo da bomba, o diâmetro (DN), o comprimento e a quantidade. Estas peças de reposição não são vendidas em pequenos lotes e não têm preço de lista.',
+    spareRelated: 'Peças para bomba de concreto',
+    fitsPumps: 'Bombas de concreto relacionadas',
   },
   about: {
     eyebrow: 'Sobre nós',
@@ -291,6 +295,11 @@ export const messagesPt = {
     priceFrom: 'EXW indicativo',
     freightNote:
       'EXW Xingtai. O frete internacional é extra e pago pelo comprador.',
+    quoteOnly: 'Preço sob consulta',
+    noListPrice:
+      'Sem preço de lista. Cotação após confirmar modelo da bomba, diâmetro, comprimento e quantidade.',
+    noSmallBatch:
+      'Estas peças de reposição não são vendidas em pequenos lotes. O envio é para quantidades de obra.',
   },
   selectionGuide: {
     title: 'Guia de seleção de produtos',
