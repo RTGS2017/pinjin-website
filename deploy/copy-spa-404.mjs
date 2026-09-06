@@ -1,9 +1,15 @@
 /**
  * GitHub Pages has no Nginx try_files; unknown paths serve 404.html.
- * Copy index.html → 404.html so SPA deep links work on refresh.
- * Also write .nojekyll so GitHub Pages does not run Jekyll on dist.
+ *
+ * 1. Copy index.html → 404.html so a missed deep link still boots the SPA.
+ *    404.html is noindex so Google does not treat those as the homepage.
+ * 2. Materialize a real HTML file for every URL in sitemap-pages.xml so
+ *    product/blog/locale paths return HTTP 200 instead of 404.
+ * 3. Write both `path.html` and `path/index.html` so `/path` and `/path/` work.
+ * 4. Stamp the matching canonical on each copy (static index.html otherwise
+ *    claims every URL is https://pinjinpump.com/en/).
  */
-import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -11,8 +17,7 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const distDir = join(root, 'dist');
 const indexHtml = join(distDir, 'index.html');
 const notFoundHtml = join(distDir, '404.html');
-/** 与 src/i18n/config.ts 的 languages.code 保持一致 */
-const LANGS = ['en', 'zh', 'pt', 'ar', 'ru'];
+const SITE = 'https://pinjinpump.com';
 
 if (!existsSync(indexHtml)) {
   console.error('dist/index.html not found; run vite build first');
@@ -33,14 +38,6 @@ if (!/\/assets\/[^"']+\.js/.test(built)) {
   process.exit(1);
 }
 
-copyFileSync(indexHtml, notFoundHtml);
-writeFileSync(join(distDir, '.nojekyll'), '');
-for (const lang of LANGS) {
-  const dir = join(distDir, lang);
-  mkdirSync(dir, { recursive: true });
-  copyFileSync(indexHtml, join(dir, 'index.html'));
-}
-
 const sitemapXml = join(distDir, 'sitemap.xml');
 const pagesSitemapXml = join(distDir, 'sitemap-pages.xml');
 const imageSitemapXml = join(distDir, 'image-sitemap.xml');
@@ -51,6 +48,7 @@ for (const file of [sitemapXml, pagesSitemapXml, imageSitemapXml, robotsTxt]) {
     process.exit(1);
   }
 }
+
 function assertXmlSitemap(file, kind) {
   const text = readFileSync(file, 'utf8');
   const okRoot =
@@ -75,8 +73,76 @@ if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
   process.exit(1);
 }
 
-console.log('Copied dist/index.html → dist/404.html');
-console.log(`Copied dist/index.html → dist/{${LANGS.join(',')}}/index.html`);
+function htmlForCanonical(canonical) {
+  let html = built;
+  if (/<link rel="canonical" href="[^"]*"\s*\/?>/.test(html)) {
+    html = html.replace(
+      /<link rel="canonical" href="[^"]*"\s*\/?>/,
+      `<link rel="canonical" href="${canonical}" />`,
+    );
+  } else {
+    html = html.replace(
+      '</head>',
+      `    <link rel="canonical" href="${canonical}" />\n  </head>`,
+    );
+  }
+  return html;
+}
+
+function writeSpaShell(absPath, html) {
+  mkdirSync(dirname(absPath), { recursive: true });
+  writeFileSync(absPath, html);
+}
+
+const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
+const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
+const uniqueLocs = [...new Set(locs)];
+if (uniqueLocs.length < 10) {
+  console.error(`sitemap-pages.xml has too few <loc> entries: ${uniqueLocs.length}`);
+  process.exit(1);
+}
+
+let written = 0;
+for (const loc of uniqueLocs) {
+  let pathname;
+  try {
+    const url = new URL(loc);
+    if (url.origin !== SITE) {
+      console.error(`sitemap loc is not on ${SITE}: ${loc}`);
+      process.exit(1);
+    }
+    pathname = url.pathname;
+  } catch {
+    console.error(`invalid sitemap loc: ${loc}`);
+    process.exit(1);
+  }
+
+  const canonical = `${SITE}${pathname.replace(/\/+$/, '') || '/'}`;
+  const html = htmlForCanonical(canonical);
+  const rel = pathname.replace(/^\//, '').replace(/\/+$/, '');
+  const parts = rel ? rel.split('/').filter(Boolean) : [];
+
+  if (parts.length === 0) {
+    writeSpaShell(join(distDir, 'index.html'), html);
+    written += 1;
+    continue;
+  }
+
+  writeSpaShell(join(distDir, ...parts, 'index.html'), html);
+  written += 1;
+  writeSpaShell(join(distDir, ...parts.slice(0, -1), `${parts[parts.length - 1]}.html`), html);
+  written += 1;
+}
+
+const notFound = built.replace(
+  '</head>',
+  '    <meta name="robots" content="noindex" />\n  </head>',
+);
+writeFileSync(notFoundHtml, notFound);
+writeFileSync(join(distDir, '.nojekyll'), '');
+
+console.log(`Wrote ${written} SPA HTML shells from ${uniqueLocs.length} sitemap URLs`);
+console.log('Copied dist/index.html → dist/404.html (noindex)');
 console.log('Wrote dist/.nojekyll');
 console.log(
   'Verified dist/sitemap.xml (index), dist/sitemap-pages.xml, dist/image-sitemap.xml, dist/robots.txt',
