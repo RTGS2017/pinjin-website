@@ -289,26 +289,24 @@ for (const [from, to] of Object.entries(productSlugRedirects)) {
   restCanonical.set(`/products/${from}`, `/products/${to}`);
 }
 
-const indexedSet = new Set<string>(indexedLangs);
 const pages: PageRecord[] = [];
 for (const lang of languages.map((item) => item.code)) {
-  const indexed = indexedSet.has(lang);
+  const indexed = true;
   const meta = getLanguage(lang);
   for (const rest of pageRests()) {
     const copy = pageCopy(rest, lang);
     const path = loc(lang, rest);
-    const canonicalPath = loc(indexed ? lang : 'en', rest);
     pages.push({
       path,
       rest,
       lang,
       url: `${SITE}${path}`,
-      canonicalUrl: `${SITE}${canonicalPath}`,
+      canonicalUrl: `${SITE}${path}`,
       title: copy.title,
       description: copy.description,
       h1: copy.h1,
       htmlLang: meta.htmlLang,
-      robots: indexed ? 'index, follow' : 'noindex, follow',
+      robots: 'index, follow',
       indexed,
       lastmod: copy.lastmod,
     });

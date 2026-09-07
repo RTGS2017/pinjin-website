@@ -222,7 +222,7 @@ src/i18n/locales/GEMINI-PROMPT.md
 1. 在 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages` 数组追加一项（code / htmlLang / hreflang / ogLocale / label）
 2. 把 `catalog.json` 的 `ui.{新语言}` 写入 [`src/i18n/ui/{code}.ts`](src/i18n/ui/)（或中英文仍写入 [`src/i18n/messages.ts`](src/i18n/messages.ts)）
 3. 把各 `{ en, zh }` 上的新语言字段写回对应 `src/data/*`（缺省仍回退 `en`）
-4. 仅当该语言正文已翻译时，才加入 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `indexedLangs` 与 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `LANGS`
+4. 在 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages` 与 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `LANGS` / `HREFLANG` 同步该项（每种界面语言都进 sitemap）
 5. 重新生成预渲染元数据与 sitemap：`npx vite-node deploy/export_prerender_meta.ts`；`python deploy/generate_sitemaps.py`
 
 ---
@@ -458,7 +458,7 @@ https://pinjinpump.com/
 
 顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh` `/pt` `/ar`），不指向未发布的 PDF / 认证页。右下角悬浮 **WhatsApp** 按钮；联系页隐藏以免重复。路由切换时 [`ScrollToTop`](src/components/layout/ScrollToTop.tsx) 将页面滚到顶部。
 
-sitemap 只收录规范 URL（`/en`、`/zh` 及对应 hreflang：`en` / `zh-CN` / `x-default`）。`/pt` `/ar` `/ru` 保留站点 UI，但不进 sitemap（产品与长文尚未翻译）。结构改完后再生成 sitemap，再提交 Google Search Console，避免把孤立旧地址当成站点主题。
+sitemap 收录五语规范 URL（`/en` `/zh` `/pt` `/ar` `/ru` 及对应 hreflang：`en` / `zh-CN` / `pt` / `ar` / `ru` / `x-default`）。每种语言页面使用 **self-canonical**，旧地址与尾斜杠副本不进 sitemap。结构改完后再提交 Google Search Console。
 
 ### 询盘入口（无后端表单）
 

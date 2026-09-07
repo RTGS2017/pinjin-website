@@ -147,8 +147,14 @@ function insertHead(html, snippet) {
 }
 
 function hreflangBlock(rest) {
-  const langs = meta.indexedLangs ?? ['en', 'zh'];
-  const map = meta.hreflang ?? { en: 'en', zh: 'zh-CN' };
+  const langs = meta.indexedLangs ?? ['en', 'zh', 'pt', 'ar', 'ru'];
+  const map = meta.hreflang ?? {
+    en: 'en',
+    zh: 'zh-CN',
+    pt: 'pt',
+    ar: 'ar',
+    ru: 'ru',
+  };
   const lines = langs.map((lang) => {
     const path = rest === '/' ? `/${lang}` : `/${lang}${rest}`;
     const hl = map[lang] || lang;
@@ -275,17 +281,22 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 100 || uniqueLocs.length > 130) {
-  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~114 en+zh)`);
+if (uniqueLocs.length < 270 || uniqueLocs.length > 300) {
+  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~285, 5 langs)`);
   process.exit(1);
 }
-if (uniqueLocs.some((loc) => /\/(ar|pt|ru)(\/|$)/.test(new URL(loc).pathname))) {
-  console.error('sitemap-pages.xml must not include ar/pt/ru URLs');
-  process.exit(1);
+const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
+for (const lang of ['en', 'zh', 'pt', 'ar', 'ru']) {
+  if (!sitemapPaths.some((path) => path === `/${lang}` || path.startsWith(`/${lang}/`))) {
+    console.error(`sitemap-pages.xml missing ${lang} URLs`);
+    process.exit(1);
+  }
 }
-if (pagesXml.includes('hreflang="pt-BR"') || pagesXml.includes('hreflang="ar"') || pagesXml.includes('hreflang="ru"')) {
-  console.error('sitemap-pages.xml hreflang must be en + zh-CN + x-default only');
-  process.exit(1);
+for (const token of ['hreflang="en"', 'hreflang="zh-CN"', 'hreflang="pt"', 'hreflang="ar"', 'hreflang="ru"', 'hreflang="x-default"']) {
+  if (!pagesXml.includes(token)) {
+    console.error(`sitemap-pages.xml missing ${token}`);
+    process.exit(1);
+  }
 }
 
 const productShell = join(distDir, 'en', 'products', 'electric-20-concrete-pump.html');
@@ -299,8 +310,8 @@ if (!productTitle || productTitle === HOME_TITLE) {
   console.error(`product shell still has homepage title: ${productTitle}`);
   process.exit(1);
 }
-if (!productHtml.includes('hreflang="zh-CN"') || !productHtml.includes('hreflang="x-default"')) {
-  console.error('product shell missing en/zh hreflang');
+if (!productHtml.includes('hreflang="zh-CN"') || !productHtml.includes('hreflang="ar"') || !productHtml.includes('hreflang="pt"') || !productHtml.includes('hreflang="ru"') || !productHtml.includes('hreflang="x-default"')) {
+  console.error('product shell missing full hreflang cluster');
   process.exit(1);
 }
 
@@ -359,17 +370,17 @@ if (!existsSync(arShell)) {
   process.exit(1);
 }
 const arHtml = readFileSync(arShell, 'utf8');
-if (!arHtml.includes('noindex')) {
-  console.error('/ar/products must be noindex');
+if (!arHtml.includes('name="robots" content="index, follow"')) {
+  console.error('/ar/products must be index, follow');
   process.exit(1);
 }
-if (!arHtml.includes('https://pinjinpump.com/en/products')) {
-  console.error('/ar/products canonical must point at the English URL');
+if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/ar\/products"/.test(arHtml)) {
+  console.error('/ar/products canonical must be self-referencing');
   process.exit(1);
 }
 
 console.log(`Wrote ${written} HTML files from ${meta.pages.length} pages + ${(meta.redirects ?? []).length} redirects`);
-console.log(`sitemap-pages.xml locs=${uniqueLocs.length} (en+zh only)`);
+console.log(`sitemap-pages.xml locs=${uniqueLocs.length} (en+zh+pt+ar+ru)`);
 console.log('Copied dist/index.html → dist/404.html (noindex, no homepage canonical)');
 console.log('Wrote dist/.nojekyll');
 console.log(

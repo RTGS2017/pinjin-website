@@ -24,7 +24,7 @@ export const languages = [
   {
     code: 'pt',
     htmlLang: 'pt-BR',
-    hreflang: 'pt-BR',
+    hreflang: 'pt',
     ogLocale: 'pt_BR',
     dir: 'ltr',
     label: 'PT',
@@ -55,17 +55,17 @@ export type Lang = (typeof languages)[number]['code'];
 /** 海外站默认英文；根路径 / 会跳到 /{defaultLang} */
 export const defaultLang: Lang = 'en';
 
-/**
- * 进入 sitemap / hreflang 的语言。ar / pt / ru 保留 UI，但产品与长文
- * 尚未翻译，输出 noindex 且不进地图，避免 GSC Discovered-not-indexed。
- */
-export const indexedLangs = ['en', 'zh'] as const;
-export type IndexedLang = (typeof indexedLangs)[number];
-
 export const langCodes: readonly Lang[] = languages.map((l) => l.code);
 
+/**
+ * 进入 sitemap / hreflang 的语言。每种界面语言都是独立 SEO 页面，
+ * 使用 self-canonical，不用 noindex 把流量并到英文。
+ */
+export const indexedLangs = langCodes;
+export type IndexedLang = Lang;
+
 export function isIndexedLang(value: string | undefined | null): value is IndexedLang {
-  return !!value && (indexedLangs as readonly string[]).includes(value);
+  return isLang(value);
 }
 
 const langSet = new Set<string>(langCodes);

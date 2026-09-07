@@ -24,11 +24,14 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_BASE = "https://pinjinpump.com"
 
-# UI 仍有五语；sitemap / hreflang 只收已翻译的 en + zh。
-LANGS = ["en", "zh"]
+# 五种界面语言都是独立 SEO 页面，全部进入 sitemap / hreflang。
+LANGS = ["en", "zh", "pt", "ar", "ru"]
 HREFLANG = {
     "en": "en",
     "zh": "zh-CN",
+    "pt": "pt",
+    "ar": "ar",
+    "ru": "ru",
 }
 
 FEATURED = [
