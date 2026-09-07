@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
+import { NotFound } from '@/pages/NotFound';
 import { featuredProductSlugs } from '@/config/site';
 import { companyEntity } from '@/config/entity';
 import { getIndicativePrice } from '@/data/productPricing';
@@ -40,7 +41,7 @@ export function ProductDetail() {
   const { lang, t, tx } = useI18n();
 
   if (!slug) {
-    return <LocaleNavigate to="/products" replace />;
+    return <NotFound />;
   }
 
   const resolved = resolveProductSlug(slug);
@@ -50,7 +51,7 @@ export function ProductDetail() {
 
   const product = getProductBySlug(slug);
   if (!product) {
-    return <LocaleNavigate to="/products" replace />;
+    return <NotFound />;
   }
 
   const name = tx(product.name);

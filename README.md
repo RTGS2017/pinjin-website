@@ -75,6 +75,7 @@ VITE_SITE_URL=https://pinjinpump.com
 域名就绪后：把 `VITE_SITE_URL` 改成正式 `https://你的域名`，再运行：
 
 ```powershell
+npx vite-node deploy/export_prerender_meta.ts
 python deploy/generate_sitemaps.py
 ```
 
@@ -99,7 +100,7 @@ python deploy/generate_sitemaps.py
 - 解决方案（工程应用）：规范路径 `/solutions`、`/solutions/:slug`；别名 `/cases` 重定向到同一内容
 - 工厂能力：`/factory`（邢台制造基地 / 河北产业 / 中国供应商定义 + FAQ + 工厂照片 + 制造流程）
 - 资源中心：`/resources`（知识中心入口、选型、索取参数；无虚构 PDF）
-- Blog / 知识中心：`/blog`、`/blog/:slug`。当前 5 篇行业文在 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)（混凝土泵原理、拖式/臂架对照、维护、喷浆机、中国供应商核查）。不虚构臂架泵产品线、搅拌站、认证或客户名单。首页三张卡片见 `homeKnowledgeSlugs`
+- Blog / 知识中心：`/blog`、`/blog/:slug`。当前 10 篇行业文在 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)。不虚构臂架泵产品线、搅拌站、认证或客户名单。首页六张卡片见 `homeKnowledgeSlugs`
 - 产品分类 Hub：`/products/electric-concrete-pumps`、`/products/diesel-concrete-pumps`、`/products/mixer-pumps`
 - OEM 定制专题：`/products/custom-machinery`（真实可定制范围；不虚构搅拌站产品线）
 - 产品详情：保持 `/products/:slug`（GitHub Pages 无法做 HTTP 301，不改为嵌套型号 URL）
@@ -110,7 +111,7 @@ python deploy/generate_sitemaps.py
 - 图片：WebP、`loading=lazy`（LCP 图 eager）；产品 `{slug}/main.webp` + 同目录现存 catalog/detail/working；工厂图见 `图片准备清单.md`。不引入重量级 SEO 插件
 - 品牌色板（厂房深灰 + 工业红，避免亮橙/纯蓝模板）：主色 `#1D1F21`、强调 `#B32126`、背景 `#F3F3F1`，定义于 [`src/index.css`](src/index.css)
 - 首页定位：B2B 工业制造商站（产品理解 / 导航清晰 / 询盘转化），不是作品集或电商画廊
-- 首页顺序：Hero 单视觉（工厂外观主视图，不轮播）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心（3 篇）→ Footer
+- 首页顺序：Hero 单视觉（工厂外观主视图，不轮播）→ 精选产品轮播 → 工厂能力画廊 → Why Choose Pinjin → 应用案例轮播 → 知识中心（6 篇）→ Footer
 - 首页 Hero：全宽单画面 + 公司介绍/标题/CTA；无缩略图、无自动播放。主视图：`public/images/hero/pinjin-machinery-factory-xingtai-china.webp`，数据见 [`src/data/gallery.ts`](src/data/gallery.ts)。完整工厂说明页仍在 `/factory` 与 `/about`
 - 精选产品：左信息（型号、简介、2–3 条优势、OEM 定制说明）/ 右产品图。可见上一张/下一张按钮 + 页码 `01/05` + 5 秒红色进度条。点击按钮会重置计时。型号列表：`featuredProductSlugs`（[`src/config/site.ts`](src/config/site.ts)）
 - 共用轮播：[`src/components/ui/IndustrialCarousel.tsx`](src/components/ui/IndustrialCarousel.tsx)（上一张/下一张、自动播放、进度条、键盘左右键、移动端滑动）。时长参数：`carouselConfig`（[`src/config/site.ts`](src/config/site.ts)）
@@ -221,8 +222,8 @@ src/i18n/locales/GEMINI-PROMPT.md
 1. 在 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `languages` 数组追加一项（code / htmlLang / hreflang / ogLocale / label）
 2. 把 `catalog.json` 的 `ui.{新语言}` 写入 [`src/i18n/ui/{code}.ts`](src/i18n/ui/)（或中英文仍写入 [`src/i18n/messages.ts`](src/i18n/messages.ts)）
 3. 把各 `{ en, zh }` 上的新语言字段写回对应 `src/data/*`（缺省仍回退 `en`）
-4. 同步 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 里的 `LANGS`
-5. 重新生成 sitemap：`python deploy/generate_sitemaps.py`
+4. 仅当该语言正文已翻译时，才加入 [`src/i18n/config.ts`](src/i18n/config.ts) 的 `indexedLangs` 与 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `LANGS`
+5. 重新生成预渲染元数据与 sitemap：`npx vite-node deploy/export_prerender_meta.ts`；`python deploy/generate_sitemaps.py`
 
 ---
 
@@ -436,7 +437,7 @@ https://pinjinpump.com/
 | `/factory` | 工厂制造能力（邢台 GEO + 照片 + 流程 + FAQ） |
 | `/resources` | 资源中心（博客、选型、索取参数） |
 | `/faq` | FAQ |
-| `/blog` | 知识中心列表（5 篇行业文，可按分类筛选） |
+| `/blog` | 知识中心列表（10 篇行业文，可按分类筛选） |
 | `/blog/:slug` | 文章详情（Article + FAQ JSON-LD、产品内链、询盘 CTA） |
 | `/contact` | 联系制造商（WhatsApp + 邮件 + 电话） |
 
@@ -457,7 +458,7 @@ https://pinjinpump.com/
 
 顶栏为**视口全宽** Mega Menu（Products / Solutions / Resources / Company）：桌面（≥1024px）悬停导航项即展开，面板贴在深色顶栏下方并与顶栏同宽、同色（`bg-dark`），背景透明度 40%，文字为浅色。鼠标可从导航移入面板而不会立刻关闭。移动端为汉堡手风琴。配置见 [`src/config/navigation.ts`](src/config/navigation.ts)，组件见 [`src/components/navigation/MegaMenu.tsx`](src/components/navigation/MegaMenu.tsx)。链接均为真实路由（含 `/en` `/zh` `/pt` `/ar`），不指向未发布的 PDF / 认证页。右下角悬浮 **WhatsApp** 按钮；联系页隐藏以免重复。路由切换时 [`ScrollToTop`](src/components/layout/ScrollToTop.tsx) 将页面滚到顶部。
 
-sitemap 只收录规范 URL（含 `/en`、`/zh`、`/pt`、`/ar` 及对应 hreflang：`en` / `zh-CN` / `pt-BR` / `ar`）。结构改完后再生成 sitemap，再提交 Google Search Console，避免把孤立旧地址当成站点主题。
+sitemap 只收录规范 URL（`/en`、`/zh` 及对应 hreflang：`en` / `zh-CN` / `x-default`）。`/pt` `/ar` `/ru` 保留站点 UI，但不进 sitemap（产品与长文尚未翻译）。结构改完后再生成 sitemap，再提交 Google Search Console，避免把孤立旧地址当成站点主题。
 
 ### 询盘入口（无后端表单）
 
@@ -469,12 +470,12 @@ sitemap 只收录规范 URL（含 `/en`、`/zh`、`/pt`、`/ar` 及对应 hrefla
 
 ### 新增 Blog 文章
 
-当前知识中心有 5 篇行业文（[`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)）。继续追加时：
+当前知识中心有 10 篇行业文（[`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts)）。继续追加时：
 
 1. 在 [`src/data/blog.ts`](src/data/blog.ts) 或 [`src/data/knowledgeArticles.ts`](src/data/knowledgeArticles.ts) 追加一篇（`slug`、中英标题/正文、`relatedProductSlugs`、`faqs`、关键词锚文本内链；图片 ALT 含检索词）。分类：`product-guide` / `application-solutions` / `manufacturing-knowledge` / `industry-guide` / `factory-insights`。
 2. 把文章链加入 [`src/data/topicClusters.ts`](src/data/topicClusters.ts) 对应分类。
 3. 把同一 `slug` 写入 [`deploy/generate_sitemaps.py`](deploy/generate_sitemaps.py) 的 `BLOG_SLUGS`；若上首页再写入 `homeKnowledgeSlugs`。
-4. 运行 `python deploy/generate_sitemaps.py`。
+4. 运行 `npx vite-node deploy/export_prerender_meta.ts` 与 `python deploy/generate_sitemaps.py`。
 
 不要编造认证、客户名、出口国、车载臂架泵或搅拌站产品线。文章应链到真实产品页，文末用 WhatsApp / 邮件 CTA。详情页会输出 Article、FAQPage、BreadcrumbList JSON-LD。
 
@@ -506,7 +507,9 @@ sitemap 只收录规范 URL（含 `/en`、`/zh`、`/pt`、`/ar` 及对应 hrefla
 - `deploy/process_factory_images.py`（工厂图 16:9 WebP + SEO 文件名）
 - `deploy/process_application_images.py`（应用现场图 4:3 WebP + SEO 文件名）
 - `deploy/generate_sitemaps.py`（sitemap / robots）
-- `deploy/copy-spa-404.mjs`（构建后 SPA 404 回退）
+- `deploy/export_prerender_meta.ts`（每页 title / description / H1，供静态壳写入）
+- `deploy/copy-spa-404.mjs`（构建后写入每页 SEO 壳、旧 URL 跳转壳、SPA 404）
+- `deploy/retest_preview_seo.py`（本地 preview 或线上抽查 canonical / title / sitemap）
 
 ---
 

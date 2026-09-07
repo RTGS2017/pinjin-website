@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
-import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
+import { LocaleLink } from '@/i18n/navigation';
+import { NotFound } from '@/pages/NotFound';
 import {
   SEO,
   buildArticleJsonLd,
@@ -22,12 +23,12 @@ export function BlogDetail() {
   const { lang, t, tx } = useI18n();
 
   if (!slug) {
-    return <LocaleNavigate to="/blog" replace />;
+    return <NotFound />;
   }
 
   const post = getBlogPost(slug);
   if (!post) {
-    return <LocaleNavigate to="/blog" replace />;
+    return <NotFound />;
   }
 
   const title = tx(post.title);

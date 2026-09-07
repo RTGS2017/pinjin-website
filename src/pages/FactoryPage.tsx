@@ -29,8 +29,10 @@ export function FactoryPage() {
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={seoTemplates.factoryTitle}
-        description={seoTemplates.factoryDescription}
+        title={t.seo.aboutTitle}
+        description={
+          lang === 'zh' ? t.seo.homeDesc : seoTemplates.factoryDescription
+        }
         path="/factory"
         image="/images/hero/pinjin-machinery-factory-xingtai-china.webp"
         keywords="Xingjiawan Concrete Machinery, Xingtai Construction Machinery Factory, Concrete Machinery Manufacturer China"

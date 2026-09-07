@@ -1,7 +1,7 @@
 ﻿import { Navigate, Outlet, useLocation, useParams } from 'react-router-dom';
 import { I18nProvider } from '@/i18n/I18nContext';
 import { defaultLang, isLang } from '@/i18n/config';
-import { localePath } from '@/i18n/paths';
+import { NotFound } from '@/pages/NotFound';
 
 /** `/` → `/{defaultLang}`，海外站入口固定英文 */
 export function RootRedirect() {
@@ -28,9 +28,7 @@ export function LanguageRoot() {
   );
 }
 
-/** 未知子路径 → 当前语言首页（已在 I18nProvider 内） */
+/** 未知子路径 → 404（noindex），不要吞到首页 */
 export function LangHomeRedirect() {
-  const { lang } = useParams<{ lang: string }>();
-  const code = isLang(lang) ? lang : defaultLang;
-  return <Navigate to={localePath('/', code)} replace />;
+  return <NotFound />;
 }

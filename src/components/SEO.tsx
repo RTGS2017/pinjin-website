@@ -3,7 +3,13 @@ import { absoluteUrl, seoConfig } from '@/config/seo';
 import { factorySlides, getFactoryImagePaths, type FactorySlide } from '@/data/factory';
 import type { GalleryItem } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
-import { defaultLang, getLanguage, languages } from '@/i18n/config';
+import {
+  defaultLang,
+  getLanguage,
+  indexedLangs,
+  isIndexedLang,
+  languages,
+} from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
 import { pick, type Lang } from '@/i18n/types';
 import { companyEntity } from '@/config/entity';
@@ -47,10 +53,13 @@ export function SEO({
   const { lang } = useI18n();
   const pageTitle = title?.trim() || seoConfig.defaultTitle;
   const pageDescription = description?.trim() || seoConfig.defaultDescription;
-  const localizedPath = localePath(path, lang);
+  const indexable = !noindex && isIndexedLang(lang);
+  const canonicalLang = isIndexedLang(lang) ? lang : defaultLang;
+  const localizedPath = localePath(path, canonicalLang);
   const canonical = absoluteUrl(localizedPath);
   const ogImage = absoluteUrl(image);
   const langMeta = getLanguage(lang);
+  const hreflangLangs = indexedLangs.map((code) => getLanguage(code));
 
   const incoming = jsonLd
     ? Array.isArray(jsonLd)
@@ -73,7 +82,7 @@ export function SEO({
       <meta name="description" content={pageDescription} />
       {keywords ? <meta name="keywords" content={keywords} /> : null}
       <link rel="canonical" href={canonical} />
-      {languages.map((l) => (
+      {hreflangLangs.map((l) => (
         <link
           key={l.code}
           rel="alternate"
@@ -86,11 +95,10 @@ export function SEO({
         hrefLang="x-default"
         href={absoluteUrl(localePath(path, defaultLang))}
       />
-      {noindex ? (
-        <meta name="robots" content="noindex, nofollow" />
-      ) : (
-        <meta name="robots" content="index, follow" />
-      )}
+      <meta
+        name="robots"
+        content={indexable ? 'index, follow' : 'noindex, follow'}
+      />
 
       <meta property="og:type" content={type === 'product' ? 'product' : type === 'article' ? 'article' : 'website'} />
       <meta property="og:site_name" content={seoConfig.siteName} />
@@ -107,7 +115,7 @@ export function SEO({
       ) : null}
       <meta property="og:image:type" content={ogImageType(image)} />
       <meta property="og:locale" content={langMeta.ogLocale} />
-      {languages
+      {hreflangLangs
         .filter((l) => l.code !== lang)
         .map((l) => (
           <meta

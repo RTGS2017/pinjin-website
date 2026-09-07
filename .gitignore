@@ -18,6 +18,7 @@ dist-ssr
 deploy/out/
 deploy/__pycache__/
 deploy/inbox/
+deploy/prerender-meta.json
 
 # GPT catalogue working copies (pages use {slug}/main.webp)
 .tmp-gpt-identify/

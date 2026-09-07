@@ -68,10 +68,13 @@ export const factoryShowcase = factorySlides.map((slide) => ({
   height: slide.height,
 }));
 
-/** 首页知识中心三张卡片（与 knowledgeArticles slug 一致）。 */
+/** 首页知识中心六张卡片（与 knowledgeArticles slug 一致）。 */
 export const homeKnowledgeSlugs = [
   'electric-15-concrete-pump-applications',
   'diesel-concrete-pump-no-electricity',
   'high-rise-building-concrete-pump-selection',
+  'electric-20-vs-30-concrete-pump',
+  'concrete-pump-pipe-dn-selection',
+  'concrete-pump-daily-maintenance-checklist',
 ] as const;
 

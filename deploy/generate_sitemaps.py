@@ -24,13 +24,11 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_BASE = "https://pinjinpump.com"
 
-LANGS = ["en", "zh", "pt", "ar", "ru"]
+# UI 仍有五语；sitemap / hreflang 只收已翻译的 en + zh。
+LANGS = ["en", "zh"]
 HREFLANG = {
     "en": "en",
     "zh": "zh-CN",
-    "pt": "pt-BR",
-    "ar": "ar",
-    "ru": "ru",
 }
 
 FEATURED = [
@@ -144,7 +142,8 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-06"
+LASTMOD = "2026-09-07"
+META_FILE = Path(__file__).resolve().parents[1] / "deploy" / "prerender-meta.json"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
     "Xingtai concrete machinery manufacturer. "
@@ -391,7 +390,25 @@ def loc_for(lang: str, rest: str) -> str:
     return f"/{lang}" if rest == "/" else f"/{lang}{rest}"
 
 
-def write_pages_sitemap(base: str, paths: list[str]) -> int:
+def load_lastmods() -> dict[str, str]:
+    if not META_FILE.exists():
+        return {}
+    try:
+        data = json.loads(META_FILE.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    out: dict[str, str] = {}
+    for page in data.get("pages", []):
+        url = page.get("url")
+        lastmod = page.get("lastmod")
+        if url and lastmod:
+            out[url] = lastmod
+    return out
+
+
+def write_pages_sitemap(
+    base: str, paths: list[str], lastmods: dict[str, str]
+) -> int:
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
@@ -402,6 +419,7 @@ def write_pages_sitemap(base: str, paths: list[str]) -> int:
         freq, pri = page_meta(rest)
         for lang in LANGS:
             loc = loc_for(lang, rest)
+            lastmod = lastmods.get(f"{base}{loc}", LASTMOD)
             lines += [
                 "  <url>",
                 f"    <loc>{base}{loc}</loc>",
@@ -416,7 +434,7 @@ def write_pages_sitemap(base: str, paths: list[str]) -> int:
                 f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{loc_for("en", rest)}" />'
             )
             lines += [
-                f"    <lastmod>{LASTMOD}</lastmod>",
+                f"    <lastmod>{lastmod}</lastmod>",
                 f"    <changefreq>{freq}</changefreq>",
                 f"    <priority>{pri}</priority>",
                 "  </url>",
@@ -711,7 +729,7 @@ def main() -> None:
     base = resolve_base()
     slugs = ordered_product_slugs()
     paths = page_paths()
-    page_count = write_pages_sitemap(base, paths)
+    page_count = write_pages_sitemap(base, paths, load_lastmods())
     image_url_count = write_image_sitemap(base, slugs)
     write_index(base)
     write_robots(base)

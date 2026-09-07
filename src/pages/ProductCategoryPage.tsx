@@ -1,5 +1,6 @@
 import { useLocation, useParams } from 'react-router-dom';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
+import { NotFound } from '@/pages/NotFound';
 import {
   categoryMeta,
   getCategoryByRouteSlug,
@@ -35,12 +36,12 @@ export function ProductCategoryPage() {
     location.pathname.split('/').filter(Boolean).pop();
 
   if (!pathSlug) {
-    return <LocaleNavigate to="/products" replace />;
+    return <NotFound />;
   }
 
   const category = getCategoryByRouteSlug(pathSlug);
   if (!category) {
-    return <LocaleNavigate to="/products" replace />;
+    return <NotFound />;
   }
 
   const meta = categoryMeta[category];

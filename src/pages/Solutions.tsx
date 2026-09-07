@@ -1,4 +1,5 @@
 import { LocaleLink } from '@/i18n/navigation';
+import { NotFound } from '@/pages/NotFound';
 import { SEO, buildBreadcrumbJsonLd, buildMediaImageJsonLd } from '@/components/SEO';
 import { CompanyEntity } from '@/components/CompanyEntity';
 import { SectionTitle } from '@/components/ui/SectionTitle';
@@ -9,7 +10,6 @@ import { categoryClusters } from '@/data/topicClusters';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 import { useParams } from 'react-router-dom';
-import { LocaleNavigate } from '@/i18n/navigation';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { ContactActions } from '@/components/ui/ContactActions';
 
@@ -87,7 +87,7 @@ export function SolutionDetail() {
   const app = slug ? getSolutionBySlug(slug) : undefined;
 
   if (!app) {
-    return <LocaleNavigate to="/solutions" replace />;
+    return <NotFound />;
   }
 
   const related = products
