@@ -8,8 +8,8 @@
  * 3. Never write both `name.html` and `name/index.html`. GitHub Pages treats
  *    that pair as a conflict: `/en` may still 200 from `en.html`, but nested
  *    URLs like `/en/products` return HTTP 404 to Googlebot.
- *    Branches (paths with children) → `name/index.html`.
- *    Leaves (no children) → `name.html`.
+ *    Always write `path/index.html` and publish trailing-slash sitemap locs
+ *    so Googlebot gets HTTP 200 without a 301.
  * 4. Stamp title, description, canonical, hreflang, robots, html lang, and a
  *    noscript H1 onto the single file that GitHub will actually serve.
  * 5. Write static redirect shells for legacy / alias / unprefixed paths so
@@ -159,11 +159,11 @@ function hreflangBlock(rest) {
     ru: 'ru',
   };
   const lines = langs.map((lang) => {
-    const path = rest === '/' ? `/${lang}` : `/${lang}${rest}`;
+  const path = rest === '/' ? `/${lang}/` : `/${lang}${rest}/`;
     const hl = map[lang] || lang;
     return `    <link rel="alternate" hreflang="${hl}" href="${SITE}${path}" />`;
   });
-  const defaultPath = rest === '/' ? '/en' : `/en${rest}`;
+  const defaultPath = rest === '/' ? '/en/' : `/en${rest}/`;
   lines.push(
     `    <link rel="alternate" hreflang="x-default" href="${SITE}${defaultPath}" />`,
   );
@@ -224,30 +224,13 @@ function writeSpaShell(absPath, html) {
   writeFileSync(absPath, html);
 }
 
-const allPublishedPaths = [
-  ...meta.pages.map((page) => page.path),
-  ...(meta.redirects ?? []).map((item) => item.path),
-];
-
-function isBranchPath(pathname) {
-  const prefix = pathname.endsWith('/') ? pathname : `${pathname}/`;
-  return allPublishedPaths.some((item) => item.startsWith(prefix));
-}
-
 function writeGitHubPage(pathname, html) {
-  const parts = pathname.replace(/^\//, '').split('/').filter(Boolean);
+  const parts = pathname.replace(/\/+$/, '').replace(/^\//, '').split('/').filter(Boolean);
   if (parts.length === 0) {
     writeSpaShell(join(distDir, 'index.html'), html);
     return 1;
   }
-  if (isBranchPath(pathname)) {
-    writeSpaShell(join(distDir, ...parts, 'index.html'), html);
-  } else {
-    writeSpaShell(
-      join(distDir, ...parts.slice(0, -1), `${parts[parts.length - 1]}.html`),
-      html,
-    );
-  }
+  writeSpaShell(join(distDir, ...parts, 'index.html'), html);
   return 1;
 }
 
@@ -260,7 +243,7 @@ for (const redirect of meta.redirects ?? []) {
   written += writeGitHubPage(redirect.path, redirectDocument(redirect.targetUrl));
 }
 
-const rootCanonical = `${SITE}/en`;
+const rootCanonical = `${SITE}/en/`;
 let rootHtml = built;
 rootHtml = setCanonical(rootHtml, rootCanonical);
 rootHtml = setNamedMeta(rootHtml, 'robots', 'noindex, follow');
@@ -284,8 +267,12 @@ if (uniqueLocs.length < 270 || uniqueLocs.length > 300) {
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
+if (sitemapPaths.some((path) => !path.endsWith('/'))) {
+  console.error('sitemap locs must use trailing slashes so GitHub Pages returns HTTP 200');
+  process.exit(1);
+}
 for (const lang of ['en', 'zh', 'pt', 'ar', 'ru']) {
-  if (!sitemapPaths.some((path) => path === `/${lang}` || path.startsWith(`/${lang}/`))) {
+if (!sitemapPaths.some((path) => path === `/${lang}/` || path.startsWith(`/${lang}/`))) {
     console.error(`sitemap-pages.xml missing ${lang} URLs`);
     process.exit(1);
   }
@@ -297,7 +284,7 @@ for (const token of ['hreflang="en"', 'hreflang="zh-CN"', 'hreflang="pt"', 'href
   }
 }
 
-const productShell = join(distDir, 'en', 'products', 'electric-20-concrete-pump.html');
+const productShell = join(distDir, 'en', 'products', 'electric-20-concrete-pump', 'index.html');
 if (!existsSync(productShell)) {
   console.error('missing prerendered product shell for /en/products/electric-20-concrete-pump');
   process.exit(1);
@@ -332,8 +319,8 @@ if (!homeHtml.includes('name="robots" content="index, follow"')) {
   console.error('/en/index.html must be index, follow');
   process.exit(1);
 }
-if (!homeHtml.includes('https://pinjinpump.com/en"') && !homeHtml.includes('https://pinjinpump.com/en\'')) {
-  console.error('/en/index.html must canonical to /en');
+if (!homeHtml.includes('https://pinjinpump.com/en/"') && !homeHtml.includes("https://pinjinpump.com/en/'")) {
+  console.error('/en/index.html must canonical to /en/');
   process.exit(1);
 }
 
@@ -342,8 +329,8 @@ if (!rootOut.includes('noindex')) {
   console.error('dist/index.html must be noindex');
   process.exit(1);
 }
-if (!rootOut.includes('href="https://pinjinpump.com/en"')) {
-  console.error('dist/index.html canonical must be https://pinjinpump.com/en');
+if (!rootOut.includes('href="https://pinjinpump.com/en/"')) {
+  console.error('dist/index.html canonical must be https://pinjinpump.com/en/');
   process.exit(1);
 }
 
@@ -357,7 +344,7 @@ if (/rel="canonical" href="https:\/\/pinjinpump\.com\/en\/?"/.test(notFoundOut))
   process.exit(1);
 }
 
-const legacyShell = join(distDir, 'en', 'products', 'concrete-pumps.html');
+const legacyShell = join(distDir, 'en', 'products', 'concrete-pumps', 'index.html');
 if (!existsSync(legacyShell)) {
   console.error('missing legacy redirect shell /en/products/concrete-pumps');
   process.exit(1);
@@ -378,13 +365,13 @@ if (!arHtml.includes('name="robots" content="index, follow"')) {
   console.error('/ar/products must be index, follow');
   process.exit(1);
 }
-if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/ar\/products"/.test(arHtml)) {
+if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/ar\/products\/"/.test(arHtml)) {
   console.error('/ar/products canonical must be self-referencing');
   process.exit(1);
 }
 
 function githubLookup(pathname) {
-  const parts = pathname.replace(/^\//, '').split('/').filter(Boolean);
+  const parts = pathname.replace(/\/+$/, '').replace(/^\//, '').split('/').filter(Boolean);
   if (parts.length === 0) {
     if (!existsSync(join(distDir, 'index.html'))) {
       console.error('missing dist/index.html');
@@ -394,12 +381,12 @@ function githubLookup(pathname) {
   }
   const asHtml = join(distDir, ...parts.slice(0, -1), `${parts[parts.length - 1]}.html`);
   const asIndex = join(distDir, ...parts, 'index.html');
-  if (existsSync(asHtml) && existsSync(asIndex)) {
-    console.error(`GitHub Pages conflict: ${asHtml} and ${asIndex}`);
+  if (existsSync(asHtml)) {
+    console.error(`GitHub Pages conflict file should not exist: ${asHtml}`);
     process.exit(1);
   }
-  if (!existsSync(asHtml) && !existsSync(asIndex)) {
-    console.error(`no GitHub Pages file for ${pathname}`);
+  if (!existsSync(asIndex)) {
+    console.error(`no GitHub Pages index.html for ${pathname}`);
     process.exit(1);
   }
 }

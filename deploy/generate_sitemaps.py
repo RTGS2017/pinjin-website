@@ -390,7 +390,9 @@ def page_meta(rest: str) -> tuple[str, str]:
 
 
 def loc_for(lang: str, rest: str) -> str:
-    return f"/{lang}" if rest == "/" else f"/{lang}{rest}"
+    if rest == "/":
+        return f"/{lang}/"
+    return f"/{lang}{rest}/"
 
 
 def load_lastmods() -> dict[str, str]:
@@ -467,7 +469,7 @@ def product_image_block(base: str, lang: str, slug: str) -> list[str]:
         )
     lines = [
         "  <url>",
-        f"    <loc>{base}/{lang}/products/{slug}</loc>",
+        f"    <loc>{base}/{lang}/products/{slug}/</loc>",
         f"    <lastmod>{LASTMOD}</lastmod>",
     ]
     lines += image_nodes(
@@ -491,7 +493,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
     for lang in LANGS:
         lines += [
             "  <url>",
-            f"    <loc>{base}/{lang}</loc>",
+            f"    <loc>{base}/{lang}/</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         lines += image_nodes(
@@ -524,7 +526,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
 
         lines += [
             "  <url>",
-            f"    <loc>{base}/{lang}/products</loc>",
+            f"    <loc>{base}/{lang}/products/</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for slug in FEATURED:
@@ -541,7 +543,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             n = NAMES[slug]
             lines += [
                 "  <url>",
-                f"    <loc>{base}/{lang}/products/{hub}</loc>",
+                f"    <loc>{base}/{lang}/products/{hub}/</loc>",
                 f"    <lastmod>{LASTMOD}</lastmod>",
             ]
             lines += image_nodes(
@@ -554,7 +556,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
 
         lines += [
             "  <url>",
-            f"    <loc>{base}/{lang}/about</loc>",
+            f"    <loc>{base}/{lang}/about/</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in factory_images:
@@ -568,7 +570,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
 
         lines += [
             "  <url>",
-            f"    <loc>{base}/{lang}/factory</loc>",
+            f"    <loc>{base}/{lang}/factory/</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in factory_images:
@@ -582,7 +584,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
 
         lines += [
             "  <url>",
-            f"    <loc>{base}/{lang}/products/custom-machinery</loc>",
+            f"    <loc>{base}/{lang}/products/custom-machinery/</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in factory_images[:3]:
@@ -597,7 +599,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
         for slug, images in APPLICATION_IMAGES:
             lines += [
                 "  <url>",
-                f"    <loc>{base}/{lang}/solutions/{slug}</loc>",
+                f"    <loc>{base}/{lang}/solutions/{slug}/</loc>",
                 f"    <lastmod>{LASTMOD}</lastmod>",
             ]
             for fname, title in images:

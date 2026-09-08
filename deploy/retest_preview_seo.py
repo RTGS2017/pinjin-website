@@ -80,7 +80,7 @@ def check(name: str, passed: bool, key: str, value: object) -> None:
 status, html = get("/")
 check("/", status == 200, "status", status)
 check("/", "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
-check("/", canon(html) == f"{SITE}/en", "canonical", canon(html))
+check("/", canon(html) == f"{SITE}/en/", "canonical", canon(html))
 
 for lang, expect_title_part in (
     ("en", "Concrete Pump Manufacturer"),
@@ -89,7 +89,7 @@ for lang, expect_title_part in (
     ("pt", "Bomba de Concreto"),
     ("ru", "бетононасос"),
 ):
-    path = f"/{lang}"
+    path = f"/{lang}/"
     status, html = get(path)
     page_title = title_of(html)
     check(path, status == 200, "status", status)
@@ -102,9 +102,9 @@ for lang, expect_title_part in (
 status, html = get("/en/")
 check("/en/", status == 200, "status", status)
 check("/en/", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
-check("/en/", canon(html) == f"{SITE}/en", "canonical", canon(html))
+check("/en/", canon(html) == f"{SITE}/en/", "canonical", canon(html))
 
-status, html = get("/en/products/electric-20-concrete-pump")
+status, html = get("/en/products/electric-20-concrete-pump/")
 page_title = title_of(html)
 check("/en/products/electric-20", status == 200, "status", status)
 check(
@@ -117,28 +117,28 @@ missing = [item for item in HREFLANG_REQUIRED if item not in hreflangs(html)]
 check("/en/products/electric-20", not missing, "hreflang", missing or "ok")
 check("/en/products/electric-20", 'hreflang="pt-BR"' not in html, "hreflang-pt", True)
 
-status, html = get("/ar/products")
+status, html = get("/ar/products/")
 check("/ar/products", status == 200, "status", status)
 check("/ar/products", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
-check("/ar/products", canon(html) == f"{SITE}/ar/products", "canonical", canon(html))
+check("/ar/products", canon(html) == f"{SITE}/ar/products/", "canonical", canon(html))
 
-status, html = get("/en/products/concrete-pumps")
-check("/en/products/concrete-pumps", status == 200, "status", status)
+status, html = get("/en/products/concrete-pumps/")
+check("/en/products/concrete-pumps/", status == 200, "status", status)
 check(
-    "/en/products/concrete-pumps",
+    "/en/products/concrete-pumps/",
     "/en/products/electric-concrete-pumps" in html,
     "target",
     True,
 )
-check("/en/products/concrete-pumps", "noindex" in html, "noindex", True)
+check("/en/products/concrete-pumps/", "noindex" in html, "noindex", True)
 
-status, html = get("/products")
-check("/products", status == 200, "status", status)
-check("/products", "/en/products" in html, "redirect-en", True)
+status, html = get("/products/")
+check("/products/", status == 200, "status", status)
+check("/products/", "/en/products/" in html, "redirect-en", True)
 
-status, html = get("/en/products/zs22-25")
-check("/en/products/zs22-25", status == 200, "status", status)
-check("/en/products/zs22-25", "electric-20-concrete-pump" in html, "alias", True)
+status, html = get("/en/products/zs22-25/")
+check("/en/products/zs22-25/", status == 200, "status", status)
+check("/en/products/zs22-25/", "electric-20-concrete-pump" in html, "alias", True)
 
 status, sitemap_xml = get("/sitemap-pages.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)

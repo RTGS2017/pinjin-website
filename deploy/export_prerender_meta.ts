@@ -55,7 +55,7 @@ type RedirectRecord = {
 };
 
 function loc(lang: Lang, rest: string): string {
-  return rest === '/' ? `/${lang}` : `/${lang}${rest}`;
+  return rest === '/' ? `/${lang}/` : `/${lang}${rest}/`;
 }
 
 function tx(text: { en: string } & Partial<Record<Lang, string>>, lang: Lang): string {

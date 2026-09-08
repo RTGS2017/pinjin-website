@@ -5,7 +5,7 @@ import { NotFound } from '@/pages/NotFound';
 
 /** `/` → `/{defaultLang}`，海外站入口固定英文 */
 export function RootRedirect() {
-  return <Navigate to={`/${defaultLang}`} replace />;
+  return <Navigate to={`/${defaultLang}/`} replace />;
 }
 
 /**

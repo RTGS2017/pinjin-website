@@ -18,7 +18,7 @@ export function stripLangFromPath(pathname: string): string {
  * `products` / `/products` / `/en/products` → `/{lang}/products`
  */
 export function localePath(path: string, lang: Lang = defaultLang): string {
-  if (!path || path === '/') return `/${lang}`;
+  if (!path || path === '/') return `/${lang}/`;
 
   const hashIndex = path.indexOf('#');
   const hash = hashIndex >= 0 ? path.slice(hashIndex) : '';
@@ -30,10 +30,10 @@ export function localePath(path: string, lang: Lang = defaultLang): string {
 
   const pagePath = stripLangFromPath(
     pathnameOnly.startsWith('/') ? pathnameOnly : `/${pathnameOnly}`,
-  );
+  ).replace(/\/+$/, '') || '/';
 
-  if (pagePath === '/') return `/${lang}${search}${hash}`;
-  return `/${lang}${pagePath}${search}${hash}`;
+  if (pagePath === '/') return `/${lang}/${search}${hash}`;
+  return `/${lang}${pagePath}/${search}${hash}`;
 }
 
 /** 解析当前浏览器路径中的语言；无效则返回默认语言 */
