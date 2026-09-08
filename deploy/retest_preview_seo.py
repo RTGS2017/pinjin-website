@@ -101,7 +101,7 @@ for lang, expect_title_part in (
 
 status, html = get("/en/")
 check("/en/", status == 200, "status", status)
-check("/en/", "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
+check("/en/", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
 check("/en/", canon(html) == f"{SITE}/en", "canonical", canon(html))
 
 status, html = get("/en/products/electric-20-concrete-pump")

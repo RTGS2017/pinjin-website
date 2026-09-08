@@ -1,5 +1,12 @@
 import { Suspense, lazy } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import {
+  BrowserRouter,
+  Navigate,
+  Outlet,
+  Route,
+  Routes,
+  useLocation,
+} from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import {
   LangHomeRedirect,
@@ -36,7 +43,6 @@ const BlogList = lazy(() => import('@/pages/blog/BlogList').then((m) => ({ defau
 const BlogDetail = lazy(() => import('@/pages/blog/BlogDetail').then((m) => ({ default: m.BlogDetail })));
 const CustomMachineryPage = lazy(() => import('@/pages/CustomMachineryPage').then((m) => ({ default: m.CustomMachineryPage })));
 
-/* ---------- loading fallback ---------- */
 function PageLoader() {
   return (
     <div className='flex min-h-[50vh] items-center justify-center'>
@@ -45,11 +51,26 @@ function PageLoader() {
   );
 }
 
+/** GitHub Pages serves both /path and /path/ from the same index.html. Keep the SPA URL slashless. */
+function StripTrailingSlash() {
+  const location = useLocation();
+  if (location.pathname.length > 1 && location.pathname.endsWith('/')) {
+    return (
+      <Navigate
+        to={`${location.pathname.replace(/\/+$/, '')}${location.search}${location.hash}`}
+        replace
+      />
+    );
+  }
+  return <Outlet />;
+}
+
 export default function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
       <Suspense fallback={<PageLoader />}>
         <Routes>
+          <Route element={<StripTrailingSlash />}>
           <Route path='/' element={<RootRedirect />} />
           <Route path='/:lang' element={<LanguageRoot />}>
             <Route element={<Layout />}>
@@ -91,6 +112,7 @@ export default function App() {
               <Route path='copyright' element={<CopyrightPage />} />
               <Route path='*' element={<LangHomeRedirect />} />
             </Route>
+          </Route>
           </Route>
         </Routes>
       </Suspense>

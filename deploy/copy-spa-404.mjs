@@ -5,10 +5,13 @@
  *    404.html is noindex and must NOT reuse the homepage canonical.
  * 2. Materialize a real HTML file for every prerendered URL so product/blog
  *    /locale paths return HTTP 200 instead of 404.
- * 3. Write `path.html` (no trailing slash) and `path/index.html` (slash).
- *    Pretty URL `/path` serves path.html; `/path/` serves the directory index.
+ * 3. Never write both `name.html` and `name/index.html`. GitHub Pages treats
+ *    that pair as a conflict: `/en` may still 200 from `en.html`, but nested
+ *    URLs like `/en/products` return HTTP 404 to Googlebot.
+ *    Branches (paths with children) → `name/index.html`.
+ *    Leaves (no children) → `name.html`.
  * 4. Stamp title, description, canonical, hreflang, robots, html lang, and a
- *    noscript H1. Slash copies are noindex and point at the slashless URL.
+ *    noscript H1 onto the single file that GitHub will actually serve.
  * 5. Write static redirect shells for legacy / alias / unprefixed paths so
  *    crawlers no longer hit HTTP 404.
  */
@@ -175,31 +178,18 @@ function insertNoscript(html, h1, description) {
   return html.replace(/<body>/i, `<body>\n${block}`);
 }
 
-function stampPage(page, { slashAlias = false } = {}) {
+function stampPage(page) {
   let html = built;
   html = setHtmlLang(html, page.htmlLang || 'en');
   html = setTitle(html, page.title);
   html = setNamedMeta(html, 'description', page.description);
   html = setCanonical(html, page.canonicalUrl);
   html = stripHreflang(html);
-  if (slashAlias) {
-    html = setNamedMeta(html, 'robots', 'noindex, follow');
-    const dest = page.path;
-    html = insertHead(
-      html,
-      `    <meta http-equiv="refresh" content="0;url=${escapeHtml(page.canonicalUrl)}" />`,
-    );
-    html = html.replace(
-      /<body>/i,
-      `<body>\n    <script>location.replace(${JSON.stringify(dest)}+location.search+location.hash);</script>`,
-    );
-  } else {
-    html = setNamedMeta(html, 'robots', page.robots);
-    if (page.indexed) {
-      html = insertHead(html, hreflangBlock(page.rest));
-    }
-    html = insertNoscript(html, page.h1, page.description);
+  html = setNamedMeta(html, 'robots', page.robots);
+  if (page.indexed) {
+    html = insertHead(html, hreflangBlock(page.rest));
   }
+  html = insertNoscript(html, page.h1, page.description);
   return html;
 }
 
@@ -234,32 +224,40 @@ function writeSpaShell(absPath, html) {
   writeFileSync(absPath, html);
 }
 
-function writePathPair(pathname, prettyHtml, slashHtml) {
+const allPublishedPaths = [
+  ...meta.pages.map((page) => page.path),
+  ...(meta.redirects ?? []).map((item) => item.path),
+];
+
+function isBranchPath(pathname) {
+  const prefix = pathname.endsWith('/') ? pathname : `${pathname}/`;
+  return allPublishedPaths.some((item) => item.startsWith(prefix));
+}
+
+function writeGitHubPage(pathname, html) {
   const parts = pathname.replace(/^\//, '').split('/').filter(Boolean);
   if (parts.length === 0) {
-    writeSpaShell(join(distDir, 'index.html'), prettyHtml);
+    writeSpaShell(join(distDir, 'index.html'), html);
     return 1;
   }
-  writeSpaShell(
-    join(distDir, ...parts.slice(0, -1), `${parts[parts.length - 1]}.html`),
-    prettyHtml,
-  );
-  writeSpaShell(join(distDir, ...parts, 'index.html'), slashHtml);
-  return 2;
+  if (isBranchPath(pathname)) {
+    writeSpaShell(join(distDir, ...parts, 'index.html'), html);
+  } else {
+    writeSpaShell(
+      join(distDir, ...parts.slice(0, -1), `${parts[parts.length - 1]}.html`),
+      html,
+    );
+  }
+  return 1;
 }
 
 let written = 0;
 for (const page of meta.pages) {
-  written += writePathPair(
-    page.path,
-    stampPage(page, { slashAlias: false }),
-    stampPage(page, { slashAlias: true }),
-  );
+  written += writeGitHubPage(page.path, stampPage(page));
 }
 
 for (const redirect of meta.redirects ?? []) {
-  const html = redirectDocument(redirect.targetUrl);
-  written += writePathPair(redirect.path, html, html);
+  written += writeGitHubPage(redirect.path, redirectDocument(redirect.targetUrl));
 }
 
 const rootCanonical = `${SITE}/en`;
@@ -315,21 +313,27 @@ if (!productHtml.includes('hreflang="zh-CN"') || !productHtml.includes('hreflang
   process.exit(1);
 }
 
-const homeShell = join(distDir, 'en.html');
+const homeShell = join(distDir, 'en', 'index.html');
 const homeHtml = readFileSync(homeShell, 'utf8');
 const homeTitle = homeHtml.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
 if (productTitle === homeTitle) {
   console.error('product title matches home title after prerender');
   process.exit(1);
 }
-
-const slashHome = readFileSync(join(distDir, 'en', 'index.html'), 'utf8');
-if (!slashHome.includes('noindex')) {
-  console.error('/en/ shell must be noindex');
+if (existsSync(join(distDir, 'en.html'))) {
+  console.error('do not write en.html; it conflicts with en/ on GitHub Pages');
   process.exit(1);
 }
-if (!slashHome.includes('https://pinjinpump.com/en"') && !slashHome.includes('https://pinjinpump.com/en\'')) {
-  console.error('/en/ shell must canonical to /en');
+if (existsSync(join(distDir, 'en', 'products.html'))) {
+  console.error('do not write en/products.html; it conflicts with en/products/');
+  process.exit(1);
+}
+if (!homeHtml.includes('name="robots" content="index, follow"')) {
+  console.error('/en/index.html must be index, follow');
+  process.exit(1);
+}
+if (!homeHtml.includes('https://pinjinpump.com/en"') && !homeHtml.includes('https://pinjinpump.com/en\'')) {
+  console.error('/en/index.html must canonical to /en');
   process.exit(1);
 }
 
@@ -364,7 +368,7 @@ if (!legacyHtml.includes('/en/products/electric-concrete-pumps')) {
   process.exit(1);
 }
 
-const arShell = join(distDir, 'ar', 'products.html');
+const arShell = join(distDir, 'ar', 'products', 'index.html');
 if (!existsSync(arShell)) {
   console.error('missing /ar/products SPA shell');
   process.exit(1);
@@ -377,6 +381,30 @@ if (!arHtml.includes('name="robots" content="index, follow"')) {
 if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/ar\/products"/.test(arHtml)) {
   console.error('/ar/products canonical must be self-referencing');
   process.exit(1);
+}
+
+function githubLookup(pathname) {
+  const parts = pathname.replace(/^\//, '').split('/').filter(Boolean);
+  if (parts.length === 0) {
+    if (!existsSync(join(distDir, 'index.html'))) {
+      console.error('missing dist/index.html');
+      process.exit(1);
+    }
+    return;
+  }
+  const asHtml = join(distDir, ...parts.slice(0, -1), `${parts[parts.length - 1]}.html`);
+  const asIndex = join(distDir, ...parts, 'index.html');
+  if (existsSync(asHtml) && existsSync(asIndex)) {
+    console.error(`GitHub Pages conflict: ${asHtml} and ${asIndex}`);
+    process.exit(1);
+  }
+  if (!existsSync(asHtml) && !existsSync(asIndex)) {
+    console.error(`no GitHub Pages file for ${pathname}`);
+    process.exit(1);
+  }
+}
+for (const loc of uniqueLocs) {
+  githubLookup(new URL(loc).pathname);
 }
 
 console.log(`Wrote ${written} HTML files from ${meta.pages.length} pages + ${(meta.redirects ?? []).length} redirects`);
