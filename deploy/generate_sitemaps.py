@@ -43,6 +43,7 @@ FEATURED = [
 ]
 
 ELECTRIC = [
+    "b500s-83d-two-stage-pump",
     "electric-10-series-concrete-pump",
     "electric-15-concrete-pump",
     "electric-20-concrete-pump",
@@ -91,6 +92,7 @@ NAMES = {
     "diesel-40-concrete-pump": "Diesel 40 Concrete Pump",
     "diesel-50-concrete-pump": "Diesel 50 Concrete Pump",
     "diesel-60-concrete-pump": "Diesel 60 Concrete Pump",
+    "b500s-83d-two-stage-pump": "B500S-83D Two-Stage Structure Pump",
     "electric-10-series-concrete-pump": "Electric 10 Series Concrete Pump",
     "integrated-mixer-pump": "Integrated Mixer Pump",
     "hbt8018-concrete-pump": "HBT8018 Concrete Pump",

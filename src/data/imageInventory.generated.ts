@@ -21,6 +21,10 @@ export const heroPublicImages = [
 ] as const;
 
 export const productPublicImagesBySlug: Record<string, readonly string[]> = {
+  "b500s-83d-two-stage-pump": [
+    "/images/products/b500s-83d-two-stage-pump/main.webp",
+    "/images/products/b500s-83d-two-stage-pump/catalog.webp",
+  ],
   "concrete-pump-delivery-hose": [
     "/images/products/concrete-pump-delivery-hose/main.webp",
   ],
@@ -143,6 +147,10 @@ export const publicImageRev: Record<string, string> = {
   "/images/factory/pinjin-machinery-workshop-overhead-crane.webp": "91d9bdb9cf",
   "/images/factory/pinjin-trailer-concrete-pump-assembly.webp": "a5518066ad",
   "/images/hero/pinjin-machinery-factory-xingtai-china.webp": "4a9dd89f52",
+  "/images/products/b500s-83d-two-stage-pump/catalog.webp": "d3e5ebd6e5",
+  "/images/products/b500s-83d-two-stage-pump/main.webp": "66c07a73ea",
+  "/images/products/b500s-83d-two-stage-pump/source-catalog.png": "4d5a66fc6f",
+  "/images/products/b500s-83d-two-stage-pump/source-photo.png": "f980eb42a7",
   "/images/products/concrete-pump-delivery-hose/main.webp": "25b7607028",
   "/images/products/concrete-pump-delivery-hose/source.png": "930b749a38",
   "/images/products/concrete-pump-delivery-pipe/main.webp": "55daf3f6bc",

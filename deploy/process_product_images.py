@@ -16,6 +16,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parents[1] / "public" / "images" / "products"
 
 SLUGS = [
+    "b500s-83d-two-stage-pump",
     "electric-10-series-concrete-pump",
     "electric-15-concrete-pump",
     "electric-20-concrete-pump",

@@ -59,18 +59,19 @@ export const selectionGuideItems: SelectionGuideItem[] = [
       zh: '小型工地如何选紧凑型泵？',
     },
     recommendation: {
-      en: 'Shortlist Electric 15, Electric 10 Series, Tractor-Driven 4100 or the rural diesel pump.',
-      zh: '优先对照电动15、电动10系列、拖拉机带动4100或农村柴油泵。',
+      en: 'Shortlist B500S-83D for 5 m short-reach sand and small stone, then Electric 15, Electric 10 Series, Tractor-Driven 4100 or the rural diesel pump.',
+      zh: '5 m 短距离砂石优先对照 B500S-83D，再对照电动15、电动10系列、拖拉机带动4100或农村柴油泵。',
     },
     productSlugs: [
+      'b500s-83d-two-stage-pump',
       'electric-15-concrete-pump',
       'electric-10-series-concrete-pump',
       'tractor-4100-concrete-pump',
       'rural-diesel-concrete-pump',
     ],
     rationale: {
-      en: 'These models list lower weights (400–1300 kg) and shorter conveying distances in the catalogue.',
-      zh: '上述型号目录机重约 400–1300 kg，输送距离相对更短。',
+      en: 'B500S-83D lists 280 kg and 5 m height / 5 m horizontal. The other compact models list 400–1300 kg and longer catalogue distances.',
+      zh: 'B500S-83D 目录机重 280 kg、垂直/水平各 5 m。其余紧凑机型约 400–1300 kg，目录输送距离更长。',
     },
   },
   {

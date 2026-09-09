@@ -263,7 +263,7 @@ const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
 if (uniqueLocs.length < 270 || uniqueLocs.length > 300) {
-  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~285, 5 langs)`);
+  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~290, 5 langs)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);

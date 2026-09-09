@@ -728,6 +728,80 @@ export const products: Product[] = [
     ),
   },
   {
+    id: '28',
+    name: L('B500S-83D Two-Stage Structure Pump', 'B500S-83D 两级结构泵'),
+    slug: 'b500s-83d-two-stage-pump',
+    category: 'electric-concrete-pump',
+    ...imgPaths('b500s-83d-two-stage-pump'),
+    shortDescription: L(
+      'compact two-stage manual/electric pump from the Xingtai factory catalogue — B500S-83D, 7.5 kW, 380 V, 5 m delivery height and 5 m horizontal distance, 280 kg, short boom, for sand and small stone 5–16 mm.',
+      '邢台工厂目录中的紧凑型两级手动/电动泵，型号 B500S-83D，电机 7.5 kW、380 V、垂直与水平输送各 5 m、机重 280 kg、短臂架，适用砂与 5–16 mm 小石。',
+    ),
+    productIntroduction: L(
+      'B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 7.5 kW motor, 380 V, 5 m delivery height, 5 m horizontal delivery distance, standard delivery hose, 915 × 550 × 550 mm, 280 kg. The listed short boom is part of this compact unit; it is not a truck-mounted placing boom. Applicable materials on the sheet are sand and small stone up to 5–16 mm.',
+      'B500S-83D 两级结构泵由河北品锦机械在中国河北邢台制造，属于紧凑型两级手动/电动泵。目录参数：电机 7.5 kW、380 V、垂直输送高度 5 m、水平输送距离 5 m、标准输送胶管、外形 915 × 550 × 550 mm、机重 280 kg。目录短臂架属于本机，不是车载布料杆。适用材料为砂与 5–16 mm 小石。',
+    ),
+    applicationScenarios: [
+      L('Short-reach sand and small-stone conveying within 5 m', '5 m 范围内的砂与小石输送'),
+      L('Indoor or tight sites that need a 280 kg wheeled compact unit', '需要 280 kg 轮式紧凑机的室内或狭小场地'),
+      L('Jobs matching 7.5 kW / 380 V and 5–16 mm aggregate on the catalogue sheet', '对照目录 7.5 kW / 380 V 与 5–16 mm 骨料的工况'),
+    ],
+    keyFeatures: [
+      L('7.5 kW / 380 V compact unit', '电机 7.5 kW / 380 V'),
+      L('5 m height and 5 m horizontal delivery', '垂直 5 m / 水平 5 m'),
+      L('Weight 280 kg with short boom', '机重 280 kg，带短臂架'),
+    ],
+    specifications: [
+      spec('Model', '型号', 'B500S-83D'),
+      specLoc('Type', '型式', 'Two-stage structure pump, manual / electric', '两级结构泵，手动 / 电动'),
+      spec('Motor Power', '电机功率', '7.5 kW'),
+      spec('Rated Voltage', '额定电压', '380 V'),
+      spec('Delivery Height', '垂直输送高度', '5 m'),
+      spec('Horizontal Delivery Distance', '水平输送距离', '5 m'),
+      specLoc('Boom', '臂架', 'Short boom on the compact unit, not a truck-mounted placing boom', '本机短臂架，不是车载布料杆'),
+      specLoc('Applicable Materials', '适用材料', 'Sand and small stone, 5–16 mm', '砂与小石，5–16 mm'),
+      specLoc('Delivery Hose', '输送胶管', 'Standard', '标准'),
+      spec('Dimensions (L×W×H)', '外形尺寸', '915 × 550 × 550 mm'),
+      spec('Net Weight', '整机重量', '280 kg'),
+    ],
+    seo: buildSeo(
+      'B500S-83D Two-Stage Structure Pump',
+      'B500S-83D 两级结构泵',
+      'B500S-83D two-stage structure pump manufacturer China',
+      [
+        'B500S-83D two-stage structure pump manufacturer China',
+        'two-stage manual electric pump China factory',
+        'Xingtai compact short boom pump',
+      ],
+      [
+        'buy B500S-83D two-stage structure pump from Hebei Pinjin Machinery Xingtai',
+        'B500S-83D 7.5 kW 5 m compact pump supplier China factory',
+      ],
+      'Hebei Pinjin Machinery manufactures the B500S-83D Two-Stage Structure Pump in Xingtai, Hebei, China. Catalogue data: 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal distance, 280 kg, short boom, sand and small stone 5–16 mm.',
+      '河北品锦机械在中国河北邢台生产 B500S-83D 两级结构泵。目录数据：电机 7.5 kW、380 V、垂直 5 m、水平 5 m、机重 280 kg、短臂架，适用砂与 5–16 mm 小石。',
+    ),
+    geo: buildGeo(
+      'Compact Two-Stage Pump',
+      '两级结构泵',
+      L(
+        'A compact two-stage manual/electric pump listed as B500S-83D in the Hebei Pinjin Machinery catalogue and manufactured in Xingtai, China.',
+        '河北品锦机械目录中的 B500S-83D 紧凑型两级手动/电动泵，在中国邢台制造。',
+      ),
+      L(
+        'Buyers who need a 280 kg wheeled compact pump for sand or small stone within 5 m height and 5 m horizontal distance.',
+        '需要 280 kg 轮式紧凑泵、在 5 m 高度与 5 m 水平距离内输送砂或小石的买家。',
+      ),
+      L(
+        'Tight indoor or short-reach sites whose aggregate stays within 5–16 mm and whose power is 380 V.',
+        '骨料不超过 5–16 mm、电源为 380 V 的室内或短距离场地。',
+      ),
+      L(
+        'Factory-direct Xingtai manufacturer with a published B500S-83D sheet for 7.5 kW, 5 m reach, 280 kg and short boom. This is not a truck-mounted placing boom.',
+        '邢台工厂直供，目录公开 B500S-83D 的 7.5 kW、5 m 输送、280 kg 与短臂架。这不是车载布料杆。',
+      ),
+    ),
+  },
+  {
     id: '11',
     name: L('Integrated Mixer Pump', '搅拌泵一体机'),
     slug: 'integrated-mixer-pump',

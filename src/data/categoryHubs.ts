@@ -40,8 +40,8 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
   'electric-concrete-pump': {
     h1: L('Electric Concrete Pump Manufacturer', '电动混凝土泵厂家'),
     intro: L(
-      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is an electric concrete pump manufacturer in Xingtai, Hebei, China. Catalogue models cover compact Electric 10 / 15 units through Electric 80 and HBT80 trailer pumps, with published motor power, output, pressure and conveying distance.',
-      '河北品锦机械制造有限公司是中国河北邢台的电动混凝土泵厂家。目录覆盖紧凑型电动10/15至电动80与HBT80拖泵，并公布电机功率、输送量、压力与输送距离。',
+      'Hebei Pinjin Machinery Manufacturing Co., Ltd. is an electric concrete pump manufacturer in Xingtai, Hebei, China. Catalogue models cover the compact B500S-83D two-stage unit, Electric 10 / 15, through Electric 80 and HBT80 trailer pumps, with published motor power and conveying figures.',
+      '河北品锦机械制造有限公司是中国河北邢台的电动混凝土泵厂家。目录覆盖紧凑型 B500S-83D 两级结构泵、电动10/15，直至电动80与HBT80拖泵，并公布电机功率与输送参数。',
     ),
     applications: [
       L('Building construction with grid power', '有电网供电的建筑施工'),

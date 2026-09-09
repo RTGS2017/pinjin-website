@@ -143,10 +143,10 @@ check("/en/products/zs22-25/", "electric-20-concrete-pump" in html, "alias", Tru
 status, sitemap_xml = get("/sitemap-pages.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)
 check("sitemap", status == 200, "status", status)
-check("sitemap", len(locs) == 285, "count", len(locs))
+check("sitemap", len(locs) == 290, "count", len(locs))
 by_lang = Counter(lang_of(url) for url in locs)
 for lang in LANGS:
-    check("sitemap", by_lang[lang] == 57, f"{lang}-count", by_lang[lang])
+    check("sitemap", by_lang[lang] == 58, f"{lang}-count", by_lang[lang])
 for token in HREFLANG_REQUIRED:
     check("sitemap", f'hreflang="{token}"' in sitemap_xml, f"hreflang-{token}", True)
 
