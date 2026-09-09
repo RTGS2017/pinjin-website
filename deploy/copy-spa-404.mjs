@@ -77,10 +77,10 @@ assertXmlSitemap(pagesSitemapXml, 'urlset');
 assertXmlSitemap(imageSitemapXml, 'urlset');
 const imageXml = readFileSync(imageSitemapXml, 'utf8');
 if (
-  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/main.webp') ||
-  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/catalog.webp')
+  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp') ||
+  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump-catalogue.webp')
 ) {
-  console.error('image-sitemap.xml must list B500S-83D main.webp and catalog.webp');
+  console.error('image-sitemap.xml must list B500S-83D studio photo and catalogue WebP');
   process.exit(1);
 }
 const robotsText = readFileSync(robotsTxt, 'utf8');
@@ -345,7 +345,7 @@ if (!existsSync(b500sShell)) {
   process.exit(1);
 }
 const b500sHtml = readFileSync(b500sShell, 'utf8');
-if (!b500sHtml.includes('property="og:image"') || !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/main.webp')) {
+if (!b500sHtml.includes('property="og:image"') || !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp')) {
   console.error('B500S-83D shell must stamp og:image to the product photo');
   process.exit(1);
 }

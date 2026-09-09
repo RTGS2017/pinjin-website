@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
+import { isProductCatalogImage } from '@/data/imageInventory';
 import { productImageAlt, type Product } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
 
@@ -13,7 +14,7 @@ function isWorkingSrc(src: string): boolean {
 }
 
 function isCatalogSrc(src: string): boolean {
-  return /\/catalog\.webp$/.test(src);
+  return isProductCatalogImage(src);
 }
 
 export function ProductGallery({ product, images }: ProductGalleryProps) {

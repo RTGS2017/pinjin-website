@@ -1,5 +1,10 @@
 import { pick, type Lang, type LocalizedText } from '@/i18n/types';
-import { productDetailImages, productDisplayImages } from '@/data/imageInventory';
+import {
+  isProductCatalogImage,
+  isProductStudioImage,
+  productDetailImages,
+  productDisplayImages,
+} from '@/data/imageInventory';
 
 export type ProductCategory =
   | 'electric-concrete-pump'
@@ -72,9 +77,9 @@ const MADE_IN = L(
 function imgPaths(slug: string) {
   const gallery = productDisplayImages(slug);
   const image =
-    gallery.find((path) => path.endsWith('/main.webp')) ??
+    gallery.find((path) => isProductStudioImage(path, slug)) ??
     gallery[0] ??
-    `/images/products/${slug}/main.webp`;
+    `/images/products/${slug}/${slug}.webp`;
   return {
     image,
     gallery: productDetailImages(slug),
@@ -92,12 +97,12 @@ export function productImageAlt(
   const category = pick(product.geo.productCategory, lang);
   const file = src.slice(src.lastIndexOf('/') + 1);
 
-  if (file === 'catalog.webp') {
+  if (isProductCatalogImage(src)) {
     return lang === 'zh'
       ? `${name}产品目录规格页，${category}，由河北品锦机械制造，${location}`
       : `${name} catalogue specification sheet, ${category}, manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`;
   }
-  if (file === 'main.webp') {
+  if (isProductStudioImage(src, product.slug) || file === 'main.webp') {
     return lang === 'zh'
       ? `${name}工厂产品图，${category}，由河北品锦机械制造，${location}`
       : `${name} factory product photo, ${category}, manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`;

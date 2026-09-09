@@ -452,21 +452,38 @@ def write_pages_sitemap(
     return count
 
 
-def product_image_block(base: str, lang: str, slug: str) -> list[str]:
+def product_studio_name(slug: str) -> str | None:
     folder = ROOT / "images" / "products" / slug
+    for name in (f"{slug}.webp", "main.webp"):
+        if (folder / name).is_file():
+            return name
+    return None
+
+
+def product_catalog_name(slug: str) -> str | None:
+    folder = ROOT / "images" / "products" / slug
+    for name in (f"{slug}-catalogue.webp", "catalog.webp"):
+        if (folder / name).is_file():
+            return name
+    return None
+
+
+def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     n = NAMES[slug]
     images: list[tuple[str, str]] = []
-    if (folder / "main.webp").is_file():
+    studio = product_studio_name(slug)
+    catalog = product_catalog_name(slug)
+    if studio:
         images.append(
             (
-                "main.webp",
+                studio,
                 f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
         )
-    if (folder / "catalog.webp").is_file():
+    if catalog:
         images.append(
             (
-                "catalog.webp",
+                catalog,
                 f"{n} catalogue specification sheet manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
         )
@@ -509,8 +526,11 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
         )
         for slug in FEATURED:
             n = NAMES[slug]
+            studio = product_studio_name(slug)
+            if not studio:
+                continue
             lines += image_nodes(
-                f"{base}/images/products/{slug}/main.webp",
+                f"{base}/images/products/{slug}/{studio}",
                 f"{n} manufactured by Hebei Pinjin Machinery",
                 f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
@@ -536,12 +556,12 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for slug in slugs:
-            main = ROOT / "images" / "products" / slug / "main.webp"
-            if not main.is_file():
+            studio = product_studio_name(slug)
+            if not studio:
                 continue
             n = NAMES[slug]
             lines += image_nodes(
-                f"{base}/images/products/{slug}/main.webp",
+                f"{base}/images/products/{slug}/{studio}",
                 f"{n} manufactured by Hebei Pinjin Machinery",
                 f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
@@ -555,12 +575,12 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
                 f"    <lastmod>{LASTMOD}</lastmod>",
             ]
             for slug in hub_slugs:
-                main = ROOT / "images" / "products" / slug / "main.webp"
-                if not main.is_file():
+                studio = product_studio_name(slug)
+                if not studio:
                     continue
                 n = NAMES[slug]
                 lines += image_nodes(
-                    f"{base}/images/products/{slug}/main.webp",
+                    f"{base}/images/products/{slug}/{studio}",
                     f"{n} manufactured by Hebei Pinjin Machinery",
                     f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
                 )
@@ -683,11 +703,16 @@ def write_image_inventory() -> None:
                 continue
             files = [path.name for path in folder.glob("*.webp")]
 
-            def sort_key(name: str) -> tuple[int, str]:
-                try:
-                    return (PRODUCT_ORDER.index(name), name)
-                except ValueError:
-                    return (len(PRODUCT_ORDER), name)
+            def sort_key(name: str, slug: str = folder.name) -> tuple[int, str]:
+                if name in {f"{slug}.webp", "main.webp"}:
+                    return (0, name)
+                if name in {f"{slug}-catalogue.webp", "catalog.webp"}:
+                    return (1, name)
+                if name == "working.webp":
+                    return (2, name)
+                if name == "working-2.webp":
+                    return (3, name)
+                return (9, name)
 
             files.sort(key=sort_key)
             products[folder.name] = [

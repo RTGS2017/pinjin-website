@@ -25,6 +25,14 @@ const PRODUCT_ORDER = [
   'working-2.webp',
 ];
 
+function productFileRank(slug, name) {
+  if (name === `${slug}.webp` || name === 'main.webp') return 0;
+  if (name === `${slug}-catalogue.webp` || name === 'catalog.webp') return 1;
+  if (name === 'working.webp') return 2;
+  if (name === 'working-2.webp') return 3;
+  return PRODUCT_ORDER.length;
+}
+
 function listWebp(dir, prefix) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir)
@@ -66,10 +74,8 @@ if (existsSync(productsRoot)) {
       name.toLowerCase().endsWith('.webp'),
     );
     files.sort((a, b) => {
-      const ia = PRODUCT_ORDER.indexOf(a);
-      const ib = PRODUCT_ORDER.indexOf(b);
-      const sa = ia === -1 ? PRODUCT_ORDER.length : ia;
-      const sb = ib === -1 ? PRODUCT_ORDER.length : ib;
+      const sa = productFileRank(folder, a);
+      const sb = productFileRank(folder, b);
       return sa === sb ? a.localeCompare(b) : sa - sb;
     });
     products[folder] = files.map((name) => `/images/products/${folder}/${name}`);

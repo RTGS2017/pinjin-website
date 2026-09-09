@@ -1,10 +1,14 @@
 """Convert uploaded product images into per-slug WebP paths used by the site.
 
 支持放图方式：
-1. public/images/products/{slug}/source.png|jpg|webp → main.webp
-2. public/images/products/{可读英文文件名}.png（ROOT_FILE_MAP）→ 对应 slug/main.webp
-3. public/images/products/{中文产品名}.jpg（WORKING_ROOT_MAP）→ 对应 slug/working.webp
+1. public/images/products/{slug}/source-photo.png|source.png → {slug}.webp
+2. public/images/products/{slug}/source-catalog.png → {slug}-catalogue.webp
+3. public/images/products/{可读英文文件名}.png（ROOT_FILE_MAP）→ 对应 slug/{slug}.webp
+4. public/images/products/{中文产品名}.jpg（WORKING_ROOT_MAP）→ 对应 slug/working.webp
    若文件名带「2」则为 working-2.webp（第 3 张施工现场图）
+
+Published filenames keep the product keywords. Generic main.webp / catalog.webp
+are removed after a successful SEO convert so crawlers do not keep two URLs.
 """
 
 from __future__ import annotations
@@ -54,21 +58,52 @@ ROOT_FILE_MAP: dict[str, str] = {
     "creative-custom-1788684625763-1.png": "concrete-pump-delivery-hose",
 }
 
-MAX_SIDE = 1200
+MAX_SIDE = 1600
 WORKING_MAX_WIDTH = 1600
 WORKING_ASPECT = (4, 3)
-SOURCE_NAMES = ("source.png", "source.jpg", "source.jpeg", "source.webp")
+STUDIO_SOURCE_NAMES = (
+    "source-photo.png",
+    "source-photo.jpg",
+    "source-photo.jpeg",
+    "source-photo.webp",
+)
+FALLBACK_SOURCE_NAMES = ("source.png", "source.jpg", "source.jpeg", "source.webp")
+CATALOG_SOURCE_NAMES = (
+    "source-catalog.png",
+    "source-catalog.jpg",
+    "source-catalog.jpeg",
+    "source-catalog.webp",
+)
 
 # 根目录施工现场图 → (slug, 输出文件名)。working = 第 2 张，working-2 = 第 3 张
 WORKING_ROOT_MAP: tuple[tuple[str, str, str], ...] = ()
 
 
+def studio_dest(folder: Path, slug: str) -> Path:
+    return folder / f"{slug}.webp"
+
+
+def catalog_dest(folder: Path, slug: str) -> Path:
+    return folder / f"{slug}-catalogue.webp"
+
+
+def first_existing(folder: Path, names: tuple[str, ...]) -> Path | None:
+    return next((folder / name for name in names if (folder / name).exists()), None)
+
+
+def convert_if_newer(src: Path, dest: Path) -> bool:
+    if dest.exists() and src.stat().st_mtime <= dest.stat().st_mtime:
+        return False
+    convert(src, dest)
+    return True
+
+
 def convert(src: Path, dest: Path) -> None:
     img = Image.open(src)
-    if img.mode not in ("RGB", "RGBA"):
-        img = img.convert("RGBA" if "A" in img.getbands() else "RGB")
     if img.mode == "P":
         img = img.convert("RGBA")
+    elif img.mode not in ("RGB", "RGBA"):
+        img = img.convert("RGBA" if "A" in img.getbands() else "RGB")
 
     w, h = img.size
     scale = min(1.0, MAX_SIDE / max(w, h))
@@ -156,7 +191,10 @@ def ingest_root_files() -> int:
         folder.mkdir(parents=True, exist_ok=True)
         dest_source = folder / "source.png"
         dest_source.write_bytes(src.read_bytes())
-        convert(dest_source, folder / "main.webp")
+        convert(dest_source, studio_dest(folder, slug))
+        stale = folder / "main.webp"
+        if stale.exists():
+            stale.unlink()
         src.unlink()
         count += 1
         print(f"INGESTED root:{filename} -> {slug}/")
@@ -167,21 +205,51 @@ def main() -> None:
     ingested = ingest_root_files()
     ingested_working = ingest_working_root_files()
     converted = 0
+    catalogs = 0
     for slug in SLUGS:
         folder = ROOT / slug
         folder.mkdir(parents=True, exist_ok=True)
-        src = next((folder / name for name in SOURCE_NAMES if (folder / name).exists()), None)
-        if not src:
-            continue
-        # 根目录刚 ingest 过的已转换，跳过重复；其他 source 仍转换
-        main = folder / "main.webp"
-        if main.exists() and src.stat().st_mtime <= main.stat().st_mtime:
-            continue
-        convert(src, main)
-        converted += 1
+        studio_src = first_existing(folder, STUDIO_SOURCE_NAMES) or first_existing(
+            folder, FALLBACK_SOURCE_NAMES
+        )
+        dest = studio_dest(folder, slug)
+        generic_main = folder / "main.webp"
+        published = dest if dest.exists() else (generic_main if generic_main.exists() else None)
+        if studio_src and (
+            published is None or studio_src.stat().st_mtime > published.stat().st_mtime
+        ):
+            convert(studio_src, dest)
+            converted += 1
+        if dest.exists() and generic_main.exists():
+            generic_main.unlink()
+            print(f"REMOVED stale {slug}/main.webp")
+        catalog_src = first_existing(folder, CATALOG_SOURCE_NAMES)
+        cdest = catalog_dest(folder, slug)
+        generic_catalog = folder / "catalog.webp"
+        if catalog_src and (
+            not cdest.exists() or catalog_src.stat().st_mtime > cdest.stat().st_mtime
+        ):
+            if (
+                generic_catalog.exists()
+                and not cdest.exists()
+                and catalog_src.stat().st_mtime <= generic_catalog.stat().st_mtime
+            ):
+                generic_catalog.replace(cdest)
+                catalogs += 1
+                print(f"RENAMED {slug}/catalog.webp -> {cdest.name}")
+            else:
+                convert(catalog_src, cdest)
+                catalogs += 1
+        elif dest.exists() and generic_catalog.exists() and not cdest.exists():
+            generic_catalog.replace(cdest)
+            catalogs += 1
+            print(f"RENAMED {slug}/catalog.webp -> {cdest.name}")
+        if cdest.exists() and generic_catalog.exists():
+            generic_catalog.unlink()
+            print(f"REMOVED stale {slug}/catalog.webp")
     print(
         f"DONE ingested_root={ingested} ingested_working={ingested_working} "
-        f"converted_extra={converted} / folders={len(SLUGS)}"
+        f"converted_studio={converted} catalogs={catalogs} / folders={len(SLUGS)}"
     )
 
 

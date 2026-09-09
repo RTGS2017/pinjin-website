@@ -16,6 +16,7 @@ import {
   productImageAlt,
   resolveProductSlug,
 } from '@/data/products';
+import { isProductCatalogImage } from '@/data/imageInventory';
 import { clusterForProduct } from '@/data/topicClusters';
 import { InternalLinks } from '@/components/InternalLink';
 import { getProductFaqs } from '@/data/productFaqs';
@@ -72,7 +73,7 @@ export function ProductDetail() {
   const highlightSpecs = product.specifications.slice(0, 4);
   const gallery = product.gallery;
   const catalogImage = gallery[0] ?? product.image;
-  const catalogShot = catalogImage.endsWith('/catalog.webp');
+  const catalogShot = isProductCatalogImage(catalogImage);
   const price = getIndicativePrice(product.slug);
   const quoteOnly = isInquiryOnlyProduct(product);
   const advantages = product.keyFeatures.slice(0, 5);
