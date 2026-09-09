@@ -19,6 +19,7 @@ import {
   categoryMeta,
   productSlugRedirects,
   products,
+  productImageAlt,
   type ProductCategory,
 } from '@/data/products';
 import { categoryHubs } from '@/data/categoryHubs';
@@ -45,6 +46,8 @@ type PageRecord = {
   robots: string;
   indexed: boolean;
   lastmod: string;
+  ogImage?: string;
+  imageAlt?: string;
 };
 
 type RedirectRecord = {
@@ -296,6 +299,7 @@ for (const lang of languages.map((item) => item.code)) {
   for (const rest of pageRests()) {
     const copy = pageCopy(rest, lang);
     const path = loc(lang, rest);
+    const product = products.find((item) => rest === `/products/${item.slug}`);
     pages.push({
       path,
       rest,
@@ -309,6 +313,10 @@ for (const lang of languages.map((item) => item.code)) {
       robots: 'index, follow',
       indexed,
       lastmod: copy.lastmod,
+      ogImage: product ? `${SITE}${product.image}` : undefined,
+      imageAlt: product
+        ? productImageAlt(product, product.image, lang)
+        : undefined,
     });
   }
 }

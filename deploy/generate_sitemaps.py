@@ -120,11 +120,11 @@ CATEGORY_HUBS = [
     "concrete-pump-parts",
 ]
 
-HUB_IMAGE_SLUG = {
-    "electric-concrete-pumps": "electric-40-concrete-pump",
-    "diesel-concrete-pumps": "diesel-50-concrete-pump",
-    "mixer-pumps": "integrated-mixer-pump",
-    "concrete-pump-parts": "concrete-pump-delivery-pipe",
+HUB_PRODUCTS = {
+    "electric-concrete-pumps": ELECTRIC,
+    "diesel-concrete-pumps": DIESEL,
+    "mixer-pumps": MIXER,
+    "concrete-pump-parts": SPARE,
 }
 
 BLOG_SLUGS = [
@@ -454,31 +454,35 @@ def write_pages_sitemap(
 
 def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     folder = ROOT / "images" / "products" / slug
-    sheet = folder / "catalog.webp"
-    studio = folder / "main.webp"
-    image = sheet if sheet.exists() else studio
-    if not image.exists():
-        return []
     n = NAMES[slug]
-    if sheet.exists():
-        title = (
-            f"{n} catalogue specification sheet manufactured by "
-            "Hebei Pinjin Machinery in Xingtai Hebei China"
+    images: list[tuple[str, str]] = []
+    if (folder / "main.webp").is_file():
+        images.append(
+            (
+                "main.webp",
+                f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+            )
         )
-    else:
-        title = (
-            f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China"
+    if (folder / "catalog.webp").is_file():
+        images.append(
+            (
+                "catalog.webp",
+                f"{n} catalogue specification sheet manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+            )
         )
+    if not images:
+        return []
     lines = [
         "  <url>",
         f"    <loc>{base}/{lang}/products/{slug}/</loc>",
         f"    <lastmod>{LASTMOD}</lastmod>",
     ]
-    lines += image_nodes(
-        f"{base}/images/products/{slug}/{image.name}",
-        title,
-        title,
-    )
+    for filename, title in images:
+        lines += image_nodes(
+            f"{base}/images/products/{slug}/{filename}",
+            title,
+            title,
+        )
     lines.append("  </url>")
     return lines
 
@@ -531,28 +535,35 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             f"    <loc>{base}/{lang}/products/</loc>",
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
-        for slug in FEATURED:
+        for slug in slugs:
+            main = ROOT / "images" / "products" / slug / "main.webp"
+            if not main.is_file():
+                continue
             n = NAMES[slug]
             lines += image_nodes(
                 f"{base}/images/products/{slug}/main.webp",
                 f"{n} manufactured by Hebei Pinjin Machinery",
-                f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+                f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
         lines.append("  </url>")
         url_count += 1
 
-        for hub, slug in HUB_IMAGE_SLUG.items():
-            n = NAMES[slug]
+        for hub, hub_slugs in HUB_PRODUCTS.items():
             lines += [
                 "  <url>",
                 f"    <loc>{base}/{lang}/products/{hub}/</loc>",
                 f"    <lastmod>{LASTMOD}</lastmod>",
             ]
-            lines += image_nodes(
-                f"{base}/images/products/{slug}/main.webp",
-                f"{n} manufactured by Hebei Pinjin Machinery",
-                f"{n} manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
-            )
+            for slug in hub_slugs:
+                main = ROOT / "images" / "products" / slug / "main.webp"
+                if not main.is_file():
+                    continue
+                n = NAMES[slug]
+                lines += image_nodes(
+                    f"{base}/images/products/{slug}/main.webp",
+                    f"{n} manufactured by Hebei Pinjin Machinery",
+                    f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
+                )
             lines.append("  </url>")
             url_count += 1
 

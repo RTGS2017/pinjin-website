@@ -75,6 +75,14 @@ function assertXmlSitemap(file, kind) {
 assertXmlSitemap(sitemapXml, 'index');
 assertXmlSitemap(pagesSitemapXml, 'urlset');
 assertXmlSitemap(imageSitemapXml, 'urlset');
+const imageXml = readFileSync(imageSitemapXml, 'utf8');
+if (
+  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/main.webp') ||
+  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/catalog.webp')
+) {
+  console.error('image-sitemap.xml must list B500S-83D main.webp and catalog.webp');
+  process.exit(1);
+}
 const robotsText = readFileSync(robotsTxt, 'utf8');
 if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
   console.error('dist/robots.txt must point Google to https://pinjinpump.com/sitemap.xml');
@@ -126,6 +134,16 @@ function setNamedMeta(html, name, content) {
   return html.replace('</head>', `    ${tag}\n  </head>`);
 }
 
+function setPropertyMeta(html, property, content) {
+  const tag = `<meta property="${property}" content="${escapeHtml(content)}" />`;
+  const re = new RegExp(
+    `<meta\\s+property="${property}"\\s+content="[^"]*"\\s*/?>`,
+    'i',
+  );
+  if (re.test(html)) return html.replace(re, tag);
+  return html.replace('</head>', `    ${tag}\n  </head>`);
+}
+
 function setCanonical(html, canonical) {
   const tag = `<link rel="canonical" href="${escapeHtml(canonical)}" />`;
   if (/<link rel="canonical" href="[^"]*"\s*\/?>/.test(html)) {
@@ -170,8 +188,11 @@ function hreflangBlock(rest) {
   return lines.join('\n');
 }
 
-function insertNoscript(html, h1, description) {
-  const block = `    <noscript><h1>${escapeHtml(h1)}</h1><p>${escapeHtml(description)}</p></noscript>\n`;
+function insertNoscript(html, h1, description, image, imageAlt) {
+  const img = image
+    ? `<p><img src="${escapeHtml(image)}" alt="${escapeHtml(imageAlt || h1)}" width="1200" height="800" /></p>`
+    : '';
+  const block = `    <noscript><h1>${escapeHtml(h1)}</h1><p>${escapeHtml(description)}</p>${img}</noscript>\n`;
   if (html.includes('<div id="root"></div>')) {
     return html.replace('<div id="root"></div>', `${block}    <div id="root"></div>`);
   }
@@ -189,7 +210,16 @@ function stampPage(page) {
   if (page.indexed) {
     html = insertHead(html, hreflangBlock(page.rest));
   }
-  html = insertNoscript(html, page.h1, page.description);
+  if (page.ogImage) {
+    html = setPropertyMeta(html, 'og:image', page.ogImage);
+    html = setPropertyMeta(html, 'og:image:type', 'image/webp');
+    html = setNamedMeta(html, 'twitter:image', page.ogImage);
+    if (page.imageAlt) {
+      html = setPropertyMeta(html, 'og:image:alt', page.imageAlt);
+      html = setNamedMeta(html, 'twitter:image:alt', page.imageAlt);
+    }
+  }
+  html = insertNoscript(html, page.h1, page.description, page.ogImage, page.imageAlt);
   return html;
 }
 
@@ -297,6 +327,21 @@ if (!productTitle || productTitle === HOME_TITLE) {
 }
 if (!productHtml.includes('hreflang="zh-CN"') || !productHtml.includes('hreflang="ar"') || !productHtml.includes('hreflang="pt"') || !productHtml.includes('hreflang="ru"') || !productHtml.includes('hreflang="x-default"')) {
   console.error('product shell missing full hreflang cluster');
+  process.exit(1);
+}
+
+const b500sShell = join(distDir, 'en', 'products', 'b500s-83d-two-stage-pump', 'index.html');
+if (!existsSync(b500sShell)) {
+  console.error('missing prerendered product shell for /en/products/b500s-83d-two-stage-pump');
+  process.exit(1);
+}
+const b500sHtml = readFileSync(b500sShell, 'utf8');
+if (!b500sHtml.includes('property="og:image"') || !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/main.webp')) {
+  console.error('B500S-83D shell must stamp og:image to the product photo');
+  process.exit(1);
+}
+if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
+  console.error('B500S-83D shell must include image alt and noscript img');
   process.exit(1);
 }
 

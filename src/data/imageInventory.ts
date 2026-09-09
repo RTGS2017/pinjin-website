@@ -15,14 +15,14 @@ export function productDisplayImages(slug: string): string[] {
   return [`/images/products/${slug}/main.webp`];
 }
 
-/** Product detail gallery: catalogue sheet when present, otherwise studio main photo. */
+/** Product detail gallery: studio photo first, then catalogue sheet when both exist. */
 export function productDetailImages(slug: string): string[] {
   const listed = productPublicImagesBySlug[slug] ?? [];
-  const catalog = listed.filter((path) => path.endsWith('/catalog.webp'));
-  if (catalog.length) return catalog;
   const studio = listed.filter((path) => path.endsWith('/main.webp'));
-  if (studio.length) return studio;
-  return [`/images/products/${slug}/catalog.webp`];
+  const catalog = listed.filter((path) => path.endsWith('/catalog.webp'));
+  const ordered = [...studio, ...catalog];
+  if (ordered.length) return [...new Set(ordered)];
+  return [`/images/products/${slug}/main.webp`];
 }
 
 export function hasPublicImage(path: string): boolean {

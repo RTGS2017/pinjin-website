@@ -97,6 +97,11 @@ export function productImageAlt(
       ? `${name}产品目录规格页，${category}，由河北品锦机械制造，${location}`
       : `${name} catalogue specification sheet, ${category}, manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`;
   }
+  if (file === 'main.webp') {
+    return lang === 'zh'
+      ? `${name}工厂产品图，${category}，由河北品锦机械制造，${location}`
+      : `${name} factory product photo, ${category}, manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China`;
+  }
   if (file.startsWith('detail-')) {
     return lang === 'zh'
       ? `${name}工厂实拍，${category}，${location}`
