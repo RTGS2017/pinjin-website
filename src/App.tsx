@@ -43,7 +43,8 @@ const BlogList = lazy(() => import('@/pages/blog/BlogList').then((m) => ({ defau
 const BlogDetail = lazy(() => import('@/pages/blog/BlogDetail').then((m) => ({ default: m.BlogDetail })));
 const CustomMachineryPage = lazy(() => import('@/pages/CustomMachineryPage').then((m) => ({ default: m.CustomMachineryPage })));
 
-function P({ path, element }: { path: string; element: ReactElement }) {
+/** Direct <Route> / Fragment only — a custom <P> component crashes React Router. */
+function r(path: string, element: ReactElement) {
   return (
     <>
       <Route path={path} element={element} />
@@ -52,45 +53,45 @@ function P({ path, element }: { path: string; element: ReactElement }) {
   );
 }
 
-function LocalePages() {
+function localePages() {
   return (
     <Route element={<Layout />}>
       <Route index element={<Home />} />
-      <P path='products' element={<Products />} />
-      <P path='products/category/:categorySlug' element={<LegacyCategoryRedirect />} />
-      <P path='products/electric-concrete-pumps' element={<ProductCategoryPage />} />
-      <P path='products/diesel-concrete-pumps' element={<ProductCategoryPage />} />
-      <P path='products/mixer-pumps' element={<ProductCategoryPage />} />
-      <P path='products/concrete-pump-parts' element={<ProductCategoryPage />} />
-      <P path='products/concrete-pumps' element={<LegacyConcretePumpHubRedirect />} />
-      <P path='products/spraying-machines' element={<LegacySprayingHubRedirect />} />
-      <P path='products/material-handling' element={<LegacySprayingHubRedirect />} />
-      <P path='products/rebar-equipment' element={<LegacySprayingHubRedirect />} />
-      <P path='products/custom-machinery' element={<CustomMachineryPage />} />
-      <P path='products/concrete-pump' element={<LegacyConcretePumpHubRedirect />} />
-      <P path='products/concrete-spraying-machine' element={<LegacySprayingHubRedirect />} />
-      <P path='products/concrete-mixing-plant' element={<LegacyMixingPlantRedirect />} />
-      <P path='products/:slug' element={<ProductDetail />} />
-      <P path='product-selection-guide' element={<SelectionGuidePage />} />
-      <P path='solutions' element={<SolutionsIndex />} />
-      <P path='solutions/:slug' element={<SolutionDetail />} />
-      <P path='cases' element={<LegacyCasesRedirect />} />
-      <P path='cases/:slug' element={<LegacyCasesRedirect />} />
-      <P path='applications' element={<LegacyApplicationsRedirect />} />
-      <P path='about' element={<About />} />
-      <P path='company' element={<LegacyCompanyRedirect />} />
-      <P path='company/factory' element={<LegacyCompanyFactoryRedirect />} />
-      <P path='company/manufacturing-capability' element={<LegacyCompanyFactoryRedirect />} />
-      <P path='factory' element={<FactoryPage />} />
-      <P path='resources' element={<ResourcesPage />} />
-      <P path='resources/blog' element={<LegacyResourcesBlogRedirect />} />
-      <P path='resources/blog/:slug' element={<LegacyResourcesBlogRedirect />} />
-      <P path='resources/downloads' element={<ResourcesPage />} />
-      <P path='faq' element={<Faq />} />
-      <P path='blog' element={<BlogList />} />
-      <P path='blog/:slug' element={<BlogDetail />} />
-      <P path='contact' element={<ContactPage />} />
-      <P path='copyright' element={<CopyrightPage />} />
+      {r('products', <Products />)}
+      {r('products/category/:categorySlug', <LegacyCategoryRedirect />)}
+      {r('products/electric-concrete-pumps', <ProductCategoryPage />)}
+      {r('products/diesel-concrete-pumps', <ProductCategoryPage />)}
+      {r('products/mixer-pumps', <ProductCategoryPage />)}
+      {r('products/concrete-pump-parts', <ProductCategoryPage />)}
+      {r('products/concrete-pumps', <LegacyConcretePumpHubRedirect />)}
+      {r('products/spraying-machines', <LegacySprayingHubRedirect />)}
+      {r('products/material-handling', <LegacySprayingHubRedirect />)}
+      {r('products/rebar-equipment', <LegacySprayingHubRedirect />)}
+      {r('products/custom-machinery', <CustomMachineryPage />)}
+      {r('products/concrete-pump', <LegacyConcretePumpHubRedirect />)}
+      {r('products/concrete-spraying-machine', <LegacySprayingHubRedirect />)}
+      {r('products/concrete-mixing-plant', <LegacyMixingPlantRedirect />)}
+      {r('products/:slug', <ProductDetail />)}
+      {r('product-selection-guide', <SelectionGuidePage />)}
+      {r('solutions', <SolutionsIndex />)}
+      {r('solutions/:slug', <SolutionDetail />)}
+      {r('cases', <LegacyCasesRedirect />)}
+      {r('cases/:slug', <LegacyCasesRedirect />)}
+      {r('applications', <LegacyApplicationsRedirect />)}
+      {r('about', <About />)}
+      {r('company', <LegacyCompanyRedirect />)}
+      {r('company/factory', <LegacyCompanyFactoryRedirect />)}
+      {r('company/manufacturing-capability', <LegacyCompanyFactoryRedirect />)}
+      {r('factory', <FactoryPage />)}
+      {r('resources', <ResourcesPage />)}
+      {r('resources/blog', <LegacyResourcesBlogRedirect />)}
+      {r('resources/blog/:slug', <LegacyResourcesBlogRedirect />)}
+      {r('resources/downloads', <ResourcesPage />)}
+      {r('faq', <Faq />)}
+      {r('blog', <BlogList />)}
+      {r('blog/:slug', <BlogDetail />)}
+      {r('contact', <ContactPage />)}
+      {r('copyright', <CopyrightPage />)}
       <Route path='*' element={<LangHomeRedirect />} />
     </Route>
   );
@@ -126,10 +127,10 @@ export default function App() {
           <Route element={<EnsureTrailingSlash />}>
             <Route path='/' element={<RootRedirect />} />
             <Route path='/:lang' element={<LanguageRoot />}>
-              {LocalePages()}
+              {localePages()}
             </Route>
             <Route path='/:lang/' element={<LanguageRoot />}>
-              {LocalePages()}
+              {localePages()}
             </Route>
           </Route>
         </Routes>
@@ -137,4 +138,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-
