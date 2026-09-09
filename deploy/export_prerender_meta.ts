@@ -313,9 +313,11 @@ for (const lang of languages.map((item) => item.code)) {
       robots: 'index, follow',
       indexed,
       lastmod: copy.lastmod,
-      ogImage: product ? `${SITE}${product.image}` : undefined,
+      ogImage: product
+        ? `${SITE}${product.gallery[0] ?? product.image}`
+        : undefined,
       imageAlt: product
-        ? productImageAlt(product, product.image, lang)
+        ? productImageAlt(product, product.gallery[0] ?? product.image, lang)
         : undefined,
     });
   }

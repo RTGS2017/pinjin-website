@@ -31,13 +31,17 @@ export function productDisplayImages(slug: string): string[] {
   return [`/images/products/${slug}/${slug}.webp`];
 }
 
-/** Product detail gallery: studio photo first, then catalogue sheet when both exist. */
+/** Product detail gallery: catalogue / working / detail shots — no studio machine photo. */
 export function productDetailImages(slug: string): string[] {
   const listed = productPublicImagesBySlug[slug] ?? [];
-  const studio = listed.filter((path) => isProductStudioImage(path, slug));
   const catalog = listed.filter((path) => isProductCatalogImage(path));
-  const ordered = [...studio, ...catalog];
+  const extras = listed.filter(
+    (path) => !isProductStudioImage(path, slug) && !isProductCatalogImage(path),
+  );
+  const ordered = [...catalog, ...extras];
   if (ordered.length) return [...new Set(ordered)];
+  const studio = listed.filter((path) => isProductStudioImage(path, slug));
+  if (studio.length) return [...studio];
   return [`/images/products/${slug}/${slug}.webp`];
 }
 

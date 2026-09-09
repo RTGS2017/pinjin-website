@@ -345,8 +345,15 @@ if (!existsSync(b500sShell)) {
   process.exit(1);
 }
 const b500sHtml = readFileSync(b500sShell, 'utf8');
-if (!b500sHtml.includes('property="og:image"') || !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp')) {
-  console.error('B500S-83D shell must stamp og:image to the product photo');
+if (
+  !b500sHtml.includes('property="og:image"') ||
+  !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump-catalogue.webp')
+) {
+  console.error('B500S-83D detail shell must stamp og:image to the catalogue sheet');
+  process.exit(1);
+}
+if (b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp')) {
+  console.error('B500S-83D detail shell must not include the studio machine photo');
   process.exit(1);
 }
 if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
