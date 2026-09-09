@@ -1,11 +1,8 @@
 import { Suspense, lazy, type ReactElement } from 'react';
 import {
   BrowserRouter,
-  Navigate,
-  Outlet,
   Route,
   Routes,
-  useLocation,
 } from 'react-router-dom';
 import { Layout } from '@/components/layout/Layout';
 import {
@@ -105,33 +102,17 @@ function PageLoader() {
   );
 }
 
-/** GitHub Pages only 200s directory URLs with a trailing slash. Keep the SPA on that form. */
-function EnsureTrailingSlash() {
-  const location = useLocation();
-  if (location.pathname !== '/' && !location.pathname.endsWith('/')) {
-    return (
-      <Navigate
-        to={`${location.pathname}/${location.search}${location.hash}`}
-        replace
-      />
-    );
-  }
-  return <Outlet />;
-}
-
 export default function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
       <Suspense fallback={<PageLoader />}>
         <Routes>
-          <Route element={<EnsureTrailingSlash />}>
-            <Route path='/' element={<RootRedirect />} />
-            <Route path='/:lang' element={<LanguageRoot />}>
-              {localePages()}
-            </Route>
-            <Route path='/:lang/' element={<LanguageRoot />}>
-              {localePages()}
-            </Route>
+          <Route path='/' element={<RootRedirect />} />
+          <Route path='/:lang' element={<LanguageRoot />}>
+            {localePages()}
+          </Route>
+          <Route path='/:lang/' element={<LanguageRoot />}>
+            {localePages()}
           </Route>
         </Routes>
       </Suspense>

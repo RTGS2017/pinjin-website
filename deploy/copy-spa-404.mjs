@@ -1,8 +1,8 @@
 /**
  * GitHub Pages has no Nginx try_files; unknown paths serve 404.html.
  *
- * 1. Copy index.html → 404.html so a missed deep link still boots the SPA.
- *    404.html is noindex and must NOT reuse the homepage canonical.
+ * 1. Unknown paths must be a real HTTP 404. Write a static 404.html with
+ *    no React bundle, so GitHub Pages cannot boot the SPA as a fallback.
  * 2. Materialize a real HTML file for every prerendered URL so product/blog
  *    /locale paths return HTTP 200 instead of 404.
  * 3. Never write both `name.html` and `name/index.html`. GitHub Pages treats
@@ -281,11 +281,20 @@ rootHtml = stripHreflang(rootHtml);
 rootHtml = setTitle(rootHtml, HOME_TITLE);
 writeSpaShell(join(distDir, 'index.html'), rootHtml);
 
-let notFound = built;
-notFound = stripCanonical(notFound);
-notFound = setNamedMeta(notFound, 'robots', 'noindex, follow');
-notFound = setTitle(notFound, 'Page not found | Hebei Pinjin Machinery');
-notFound = stripHreflang(notFound);
+const notFound = `<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Not Found</title>
+  </head>
+  <body>
+    <h1>Not Found</h1>
+    <p>This page does not exist.</p>
+  </body>
+</html>
+`;
 writeFileSync(notFoundHtml, notFound);
 writeFileSync(join(distDir, '.nojekyll'), '');
 
@@ -384,6 +393,10 @@ if (!notFoundOut.includes('noindex')) {
   console.error('404.html must be noindex');
   process.exit(1);
 }
+if (/\/assets\/[^"']+\.js/.test(notFoundOut)) {
+  console.error('404.html must not load the SPA bundle');
+  process.exit(1);
+}
 if (/rel="canonical" href="https:\/\/pinjinpump\.com\/en\/?"/.test(notFoundOut)) {
   console.error('404.html must not reuse the homepage canonical');
   process.exit(1);
@@ -441,7 +454,7 @@ for (const loc of uniqueLocs) {
 
 console.log(`Wrote ${written} HTML files from ${meta.pages.length} pages + ${(meta.redirects ?? []).length} redirects`);
 console.log(`sitemap-pages.xml locs=${uniqueLocs.length} (en+zh+pt+ar+ru)`);
-console.log('Copied dist/index.html → dist/404.html (noindex, no homepage canonical)');
+console.log('Wrote dist/404.html as a static HTTP 404 page (no SPA fallback)');
 console.log('Wrote dist/.nojekyll');
 console.log(
   'Verified dist/sitemap.xml (index), dist/sitemap-pages.xml, dist/image-sitemap.xml, dist/robots.txt',

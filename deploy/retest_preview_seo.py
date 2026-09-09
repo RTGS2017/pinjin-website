@@ -199,6 +199,7 @@ for loc in locs:
 status, html = get("/404.html")
 check("/404.html", status == 200, "status", status)
 check("/404.html", "noindex" in html, "noindex", True)
+check("/404.html", "/assets/" not in html, "no spa bundle", True)
 canonical = canon(html)
 check(
     "/404.html",
@@ -206,6 +207,12 @@ check(
     "no home canonical",
     canonical,
 )
+
+unknown = "/this-page-does-not-exist-pinjin-seo-test/"
+if "pinjinpump.com" in BASE:
+    status, html = get(unknown)
+    check(unknown, status == 404, "status", status)
+    check(unknown, "/assets/" not in html, "no spa bundle", True)
 
 status, html = get("/robots.txt")
 check(
