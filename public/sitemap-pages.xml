@@ -3302,6 +3302,66 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://pinjinpump.com/en/markets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/markets/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/markets/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pinjinpump.com/pt/markets/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/markets/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pinjinpump.com/ru/markets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/markets/" />
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/zh/markets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/markets/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/markets/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pinjinpump.com/pt/markets/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/markets/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pinjinpump.com/ru/markets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/markets/" />
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/pt/markets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/markets/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/markets/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pinjinpump.com/pt/markets/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/markets/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pinjinpump.com/ru/markets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/markets/" />
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/ar/markets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/markets/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/markets/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pinjinpump.com/pt/markets/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/markets/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pinjinpump.com/ru/markets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/markets/" />
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://pinjinpump.com/ru/markets/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/markets/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/markets/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pinjinpump.com/pt/markets/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pinjinpump.com/ar/markets/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pinjinpump.com/ru/markets/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pinjinpump.com/en/markets/" />
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://pinjinpump.com/en/faq/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://pinjinpump.com/en/faq/" />
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://pinjinpump.com/zh/faq/" />

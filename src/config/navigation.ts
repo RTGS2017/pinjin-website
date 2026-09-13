@@ -66,6 +66,7 @@ export const resourcesDownloadLinks = [
 
 export const companyLinks = [
   { href: '/about', megaKey: 'factoryOverview' as const },
+  { href: '/markets', megaKey: 'markets' as const },
   { href: '/factory', megaKey: 'capability' as const },
   { href: '/#why-pinjin', megaKey: 'quality' as const },
   { href: '/contact', megaKey: 'contact' as const },

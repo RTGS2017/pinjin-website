@@ -56,6 +56,10 @@ export function About() {
               <LocaleLink to="/products" className="font-medium text-dark hover:text-primary">
                 {t.page.browseProducts}
               </LocaleLink>
+              {' · '}
+              <LocaleLink to="/markets" className="font-medium text-dark hover:text-primary">
+                {t.footer.markets}
+              </LocaleLink>
             </p>
           </section>
 

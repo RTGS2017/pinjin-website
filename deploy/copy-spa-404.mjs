@@ -188,11 +188,124 @@ function hreflangBlock(rest) {
   return lines.join('\n');
 }
 
-function insertNoscript(html, h1, description, image, imageAlt) {
-  const img = image
-    ? `<p><img src="${escapeHtml(image)}" alt="${escapeHtml(imageAlt || h1)}" width="1200" height="800" /></p>`
+function jsonLdTag(data) {
+  const json = JSON.stringify(data).replace(/</g, '\\u003c');
+  return `    <script type="application/ld+json">${json}</script>`;
+}
+
+function toSrc(url) {
+  if (!url) return '';
+  return String(url).replace(/^https?:\/\/pinjinpump\.com/i, '');
+}
+
+function jsonLdFor(page) {
+  if (page.kind === 'home') {
+    return [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+        url: SITE,
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'Hebei Pinjin Machinery',
+        url: SITE,
+      },
+    ];
+  }
+  if (page.kind === 'product') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: page.h1,
+      description: page.description,
+      image: page.ogImage,
+      url: page.canonicalUrl,
+      brand: { '@type': 'Brand', name: 'Hebei Pinjin Machinery' },
+      additionalProperty: (page.specs || []).map((spec) => ({
+        '@type': 'PropertyValue',
+        name: spec.label,
+        value: spec.value,
+      })),
+    };
+  }
+  if (page.kind === 'collection') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: page.h1,
+      description: page.description,
+      url: page.canonicalUrl,
+    };
+  }
+  if (page.kind === 'article') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: page.h1,
+      description: page.description,
+      mainEntityOfPage: page.canonicalUrl,
+    };
+  }
+  return null;
+}
+
+function linkList(pages) {
+  return pages
+    .map((item) => `<a href="${escapeHtml(item.path)}">${escapeHtml(item.h1 || item.title)}</a>`)
+    .join(' ');
+}
+
+function pickSlice(items, seed, count) {
+  const list = items.filter((item) => item && item.path);
+  if (!list.length || count <= 0) return [];
+  let hash = 0;
+  for (const ch of String(seed)) hash = (hash + ch.charCodeAt(0) * 17) % 997;
+  const start = hash % list.length;
+  const out = [];
+  for (let i = 0; i < Math.min(count, list.length); i += 1) {
+    out.push(list[(start + i) % list.length]);
+  }
+  return out;
+}
+
+function insertSeoStatic(html, page) {
+  const siblings = (meta.pages || []).filter((item) => item.lang === page.lang);
+  const hubs = siblings.filter
+    ? siblings.filter((item) =>
+        ['/', '/products', '/solutions', '/blog', '/factory', '/about', '/markets', '/faq', '/contact', '/resources', '/product-selection-guide', '/copyright'].includes(item.rest),
+      )
+    : [];
+  const products = siblings.filter((item) => item.kind === 'product' && item.path !== page.path);
+  const articles = siblings.filter((item) => item.kind === 'article' && item.path !== page.path);
+  const collections = siblings.filter((item) => item.kind === 'collection' && item.path !== page.path);
+  const langs = (meta.indexedLangs || ['en', 'zh', 'pt', 'ar', 'ru']).map((lang) => {
+    const path = page.rest === '/' ? `/${lang}/` : `/${lang}${page.rest}/`;
+    return `<a href="${escapeHtml(path)}" hreflang="${escapeHtml((meta.hreflang && meta.hreflang[lang]) || lang)}">${escapeHtml(lang)}</a>`;
+  });
+  const specs = (page.specs || [])
+    .map((spec) => `<li>${escapeHtml(spec.label)}: ${escapeHtml(spec.value)}</li>`)
+    .join('');
+  const specBlock = specs ? `<h2>Specifications</h2><ul>${specs}</ul>` : '';
+  const img = page.ogImage
+    ? `<p><img src="${escapeHtml(toSrc(page.ogImage))}" alt="${escapeHtml(page.imageAlt || page.h1)}" width="1200" height="800" /></p>`
     : '';
-  const block = `    <noscript><h1>${escapeHtml(h1)}</h1><p>${escapeHtml(description)}</p>${img}</noscript>\n`;
+  const contact = `/${page.lang}/contact/`;
+  const block = `    <style>#seo-static{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+    <main id="seo-static">
+      <nav>${linkList(hubs)} ${langs.join(' ')}</nav>
+      <h1>${escapeHtml(page.h1)}</h1>
+      <p>${escapeHtml(page.title)}. ${escapeHtml(page.body || page.description)}</p>
+      ${specBlock}
+      ${img}
+      <p><a href="${escapeHtml(contact)}">Contact inquiry WhatsApp email</a></p>
+      <nav>${linkList(pickSlice(products, page.rest, 4))}</nav>
+      <nav>${linkList(pickSlice(collections, page.rest, 3))}</nav>
+      <nav>${linkList(pickSlice(articles, page.rest, 2))}</nav>
+    </main>
+`;
   if (html.includes('<div id="root"></div>')) {
     return html.replace('<div id="root"></div>', `${block}    <div id="root"></div>`);
   }
@@ -210,6 +323,11 @@ function stampPage(page) {
   if (page.indexed) {
     html = insertHead(html, hreflangBlock(page.rest));
   }
+  const schema = jsonLdFor(page);
+  if (schema) {
+    const tags = (Array.isArray(schema) ? schema : [schema]).map(jsonLdTag).join('\n');
+    html = insertHead(html, tags);
+  }
   if (page.ogImage) {
     html = setPropertyMeta(html, 'og:image', page.ogImage);
     html = setPropertyMeta(html, 'og:image:type', 'image/webp');
@@ -219,11 +337,11 @@ function stampPage(page) {
       html = setNamedMeta(html, 'twitter:image:alt', page.imageAlt);
     }
   }
-  html = insertNoscript(html, page.h1, page.description, page.ogImage, page.imageAlt);
+  html = insertSeoStatic(html, page);
   return html;
 }
 
-function redirectDocument(targetUrl, htmlLang = 'en') {
+function redirectDocument(targetUrl, htmlLang = 'en', heading = 'Continue') {
   let pathname = '/en';
   try {
     pathname = new URL(targetUrl).pathname;
@@ -231,19 +349,23 @@ function redirectDocument(targetUrl, htmlLang = 'en') {
     pathname = targetUrl.replace(SITE, '') || '/en';
   }
   const href = escapeHtml(targetUrl);
+  const relative = pathname.endsWith('/') ? pathname : `${pathname}/`;
+  const title = escapeHtml(heading);
   return `<!doctype html>
 <html lang="${htmlLang}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, follow" />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="${href}" />
     <meta http-equiv="refresh" content="0;url=${href}" />
-    <title>Moved</title>
+    <title>${title}</title>
     <script>location.replace(${JSON.stringify(pathname)}+location.search+location.hash);</script>
   </head>
   <body>
-    <p><a href="${href}">Continue to the current page</a></p>
+    <h1>${title}</h1>
+    <p>This address continues to the current canonical page.</p>
+    <p><a href="${escapeHtml(relative)}">Continue to the current page</a></p>
   </body>
 </html>
 `;
@@ -270,7 +392,17 @@ for (const page of meta.pages) {
 }
 
 for (const redirect of meta.redirects ?? []) {
-  written += writeGitHubPage(redirect.path, redirectDocument(redirect.targetUrl));
+  const targetPage = (meta.pages || []).find(
+    (item) => item.url === redirect.targetUrl || item.canonicalUrl === redirect.targetUrl,
+  );
+  written += writeGitHubPage(
+    redirect.path,
+    redirectDocument(
+      redirect.targetUrl,
+      targetPage?.htmlLang || 'en',
+      targetPage?.h1 || targetPage?.title || 'Continue',
+    ),
+  );
 }
 
 const rootCanonical = `${SITE}/en/`;
@@ -279,6 +411,16 @@ rootHtml = setCanonical(rootHtml, rootCanonical);
 rootHtml = setNamedMeta(rootHtml, 'robots', 'noindex, follow');
 rootHtml = stripHreflang(rootHtml);
 rootHtml = setTitle(rootHtml, HOME_TITLE);
+rootHtml = insertHead(
+  rootHtml,
+  '<meta http-equiv="refresh" content="0;url=https://pinjinpump.com/en/" />',
+);
+rootHtml = rootHtml.includes('<div id="root"></div>')
+  ? rootHtml.replace(
+      '<div id="root"></div>',
+      `    <p><a href="/en/">English site</a> <a href="/zh/">中文</a> <a href="/pt/">Português</a> <a href="/ar/">العربية</a> <a href="/ru/">Русский</a></p>\n    <div id="root"></div>`,
+    )
+  : rootHtml;
 writeSpaShell(join(distDir, 'index.html'), rootHtml);
 
 const notFound = `<!doctype html>
@@ -301,8 +443,8 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 270 || uniqueLocs.length > 300) {
-  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~290, 5 langs)`);
+if (uniqueLocs.length < 280 || uniqueLocs.length > 310) {
+  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~295, 5 langs)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -361,6 +503,36 @@ if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
   process.exit(1);
 }
 
+const aliasShell = join(distDir, 'en', 'products', 'zs22-25', 'index.html');
+if (!existsSync(aliasShell)) {
+  console.error('missing redirect shell for /en/products/zs22-25');
+  process.exit(1);
+}
+const aliasHtml = readFileSync(aliasShell, 'utf8');
+if (!aliasHtml.includes('name="robots" content="index, follow"')) {
+  console.error('legacy product alias must be index, follow with canonical');
+  process.exit(1);
+}
+if (!aliasHtml.includes('rel="canonical"') || !aliasHtml.includes('electric-20-concrete-pump')) {
+  console.error('legacy product alias must canonical to the current product URL');
+  process.exit(1);
+}
+
+const marketsShell = join(distDir, 'en', 'markets', 'index.html');
+if (!existsSync(marketsShell)) {
+  console.error('missing prerendered /en/markets');
+  process.exit(1);
+}
+const marketsHtml = readFileSync(marketsShell, 'utf8');
+if (!marketsHtml.includes('name="robots" content="index, follow"')) {
+  console.error('/en/markets must be index, follow');
+  process.exit(1);
+}
+if (!marketsHtml.includes('Target Markets')) {
+  console.error('/en/markets must mention Target Markets');
+  process.exit(1);
+}
+
 const homeShell = join(distDir, 'en', 'index.html');
 const homeHtml = readFileSync(homeShell, 'utf8');
 const homeTitle = homeHtml.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
@@ -388,6 +560,10 @@ if (!homeHtml.includes('https://pinjinpump.com/en/"') && !homeHtml.includes("htt
 const rootOut = readFileSync(join(distDir, 'index.html'), 'utf8');
 if (!rootOut.includes('noindex')) {
   console.error('dist/index.html must be noindex');
+  process.exit(1);
+}
+if (!/http-equiv="refresh"/i.test(rootOut)) {
+  console.error('dist/index.html must refresh to /en/ so root noindex is intentional');
   process.exit(1);
 }
 if (!rootOut.includes('href="https://pinjinpump.com/en/"')) {

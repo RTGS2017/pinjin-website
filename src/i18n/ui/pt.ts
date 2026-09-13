@@ -41,6 +41,7 @@ export const messagesPt = {
     datasheets: 'Especificações técnicas',
     datasheetsHint: 'Parâmetros publicados em cada página de produto.',
     factoryOverview: 'Visão da fábrica',
+    markets: 'Mercados-alvo',
     capability: 'Capacidade de fabricação',
     contact: 'Fale conosco',
     viewAllApps: 'Ver todas as aplicações →',
@@ -315,6 +316,7 @@ export const messagesPt = {
     company: 'EMPRESA',
     contact: 'CONTATO',
     about: 'Sobre nós',
+    markets: 'Mercados-alvo',
     why: 'Por que a Pinjin',
     applications: 'Aplicações',
     faq: 'FAQ',
@@ -366,6 +368,9 @@ export const messagesPt = {
     resourcesDesc:
       'Guias sobre bombas de concreto, fabricação OEM e o cluster Xingjiawan. Solicite parâmetros por WhatsApp ou e-mail.',
     copyrightTitle: 'Direitos de imagem | Pinjin Machinery',
+    marketsTitle: 'Mercados-alvo | Fabricante de bomba de concreto China | Pinjin',
+    marketsDesc:
+      'Mercados da fábrica de Xingtai: empreiteiras em obras na China e projetos de exportação que batem com os dados publicados de bombas elétricas, a diesel e misturadoras.',
     selectionDesc:
       'Listas curtas com base no catálogo para obras altas, canteiros compactos, diesel vs elétrico e bombas misturadoras.',
   },

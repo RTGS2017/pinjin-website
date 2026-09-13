@@ -41,6 +41,7 @@ export const messagesAr = {
     datasheets: 'المواصفات التقنية',
     datasheetsHint: 'المعايير منشورة في صفحة كل منتج.',
     factoryOverview: 'نظرة على المصنع',
+    markets: 'الأسواق المستهدفة',
     capability: 'قدرة التصنيع',
     contact: 'اتصل بنا',
     viewAllApps: 'عرض جميع التطبيقات ←',
@@ -315,6 +316,7 @@ export const messagesAr = {
     company: 'الشركة',
     contact: 'اتصل بنا',
     about: 'من نحن',
+    markets: 'الأسواق المستهدفة',
     why: 'لماذا بينجين',
     applications: 'التطبيقات',
     faq: 'الأسئلة الشائعة',
@@ -366,6 +368,9 @@ export const messagesAr = {
     resourcesDesc:
       'أدلة عن مضخات الخرسانة وتصنيع OEM وتجمع شينغجياوان. اطلب المعايير عبر واتساب أو البريد.',
     copyrightTitle: 'حقوق الصور | Pinjin Machinery',
+    marketsTitle: 'الأسواق المستهدفة | مصنّع مضخات خرسانة في الصين | Pinjin',
+    marketsDesc:
+      'أسواق مصنع شينغتاي: مقاولون في مواقع صينية ومشاريع تصدير يطابقون بيانات مضخات الكهرباء والديزل والخلط المنشورة.',
     selectionDesc:
       'قوائم مختصرة حسب الكتالوج للمباني العالية والمواقع الصغيرة والديزل مقابل الكهرباء ومضخات الخلط.',
   },

@@ -50,6 +50,7 @@ export const messages = {
       datasheets: 'Technical Specifications',
       datasheetsHint: 'Published parameters on each product page.',
       factoryOverview: 'Factory Overview',
+      markets: 'Target Markets',
       capability: 'Manufacturing Capability',
       contact: 'Contact Us',
       viewAllApps: 'View all applications →',
@@ -324,6 +325,7 @@ export const messages = {
       company: 'COMPANY',
       contact: 'CONTACT',
       about: 'About Us',
+      markets: 'Target Markets',
       why: 'Why Pinjin',
       applications: 'Applications',
       faq: 'FAQ',
@@ -375,6 +377,9 @@ export const messages = {
       resourcesDesc:
         'Guides on concrete pumps, OEM manufacturing and the Xingjiawan cluster. Request parameters by WhatsApp or email.',
       copyrightTitle: 'Image Copyright | Pinjin Machinery',
+      marketsTitle: 'Target Markets | Concrete Pump Manufacturer China | Pinjin',
+      marketsDesc:
+        'Xingtai factory target markets: contractors on Chinese construction sites and export projects that match published electric, diesel and mixer-pump catalogue data.',
       selectionDesc:
         'Catalogue-based shortlists for high-rise, compact sites, diesel vs electric and mixer-pump jobs.',
     },
@@ -552,6 +557,7 @@ export const messages = {
       datasheets: '技术参数',
       datasheetsHint: '各产品页已公布目录参数。',
       factoryOverview: '工厂概览',
+      markets: '目标市场',
       capability: '制造能力',
       contact: '联系我们',
       viewAllApps: '查看全部应用 →',
@@ -808,6 +814,7 @@ export const messages = {
       company: '公司',
       contact: '联系',
       about: '关于我们',
+      markets: '目标市场',
       why: '为什么选择品锦',
       applications: '应用场景',
       faq: '常见问题',
@@ -854,6 +861,9 @@ export const messages = {
       resourcesDesc:
         '混凝土泵选型、OEM 制造与邢家湾产业带说明。可通过 WhatsApp 或邮件索取参数。',
       copyrightTitle: '图片版权 | 品锦机械',
+      marketsTitle: '目标市场 | 中国混凝土泵厂家 | 品锦',
+      marketsDesc:
+        '邢台工厂目标市场：国内工地与出口项目的承包商，对照已公布的电动、柴油与搅拌泵目录参数选型。',
       selectionDesc:
         '品锦产品选型指南：按高层/小型工地、柴油/电机与搅拌泵等目录参数对照推荐型号。',
     },

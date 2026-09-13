@@ -81,6 +81,7 @@ status, html = get("/")
 check("/", status == 200, "status", status)
 check("/", "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
 check("/", canon(html) == f"{SITE}/en/", "canonical", canon(html))
+check("/", "refresh" in html.lower(), "refresh", True)
 
 for lang, expect_title_part in (
     ("en", "Concrete Pump Manufacturer"),
@@ -130,23 +131,30 @@ check(
     "target",
     True,
 )
-check("/en/products/concrete-pumps/", "noindex" in html, "noindex", True)
+check("/en/products/concrete-pumps/", "noindex" not in html, "indexable-alias", True)
 
 status, html = get("/products/")
 check("/products/", status == 200, "status", status)
 check("/products/", "/en/products/" in html, "redirect-en", True)
+check("/products/", "noindex" not in html, "indexable-unprefixed", True)
 
 status, html = get("/en/products/zs22-25/")
 check("/en/products/zs22-25/", status == 200, "status", status)
 check("/en/products/zs22-25/", "electric-20-concrete-pump" in html, "alias", True)
+check("/en/products/zs22-25/", "noindex" not in html, "indexable-alias", True)
+
+status, html = get("/en/markets/")
+check("/en/markets/", status == 200, "status", status)
+check("/en/markets/", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
+check("/en/markets/", "Target Markets" in title_of(html), "title", title_of(html))
 
 status, sitemap_xml = get("/sitemap-pages.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)
 check("sitemap", status == 200, "status", status)
-check("sitemap", len(locs) == 290, "count", len(locs))
+check("sitemap", len(locs) == 295, "count", len(locs))
 by_lang = Counter(lang_of(url) for url in locs)
 for lang in LANGS:
-    check("sitemap", by_lang[lang] == 58, f"{lang}-count", by_lang[lang])
+    check("sitemap", by_lang[lang] == 59, f"{lang}-count", by_lang[lang])
 for token in HREFLANG_REQUIRED:
     check("sitemap", f'hreflang="{token}"' in sitemap_xml, f"hreflang-{token}", True)
 

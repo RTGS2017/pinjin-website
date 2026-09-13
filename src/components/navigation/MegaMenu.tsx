@@ -12,6 +12,7 @@ import {
   Layers,
   ListChecks,
   Mail,
+  MapPin,
   Wrench,
   Zap,
 } from 'lucide-react';
@@ -58,6 +59,7 @@ const downloadIcons: Record<(typeof resourcesDownloadLinks)[number]['megaKey'], 
 
 const companyIcons: Record<(typeof companyLinks)[number]['megaKey'], LucideIcon> = {
   factoryOverview: Factory,
+  markets: MapPin,
   capability: Cog,
   quality: BadgeCheck,
   contact: Mail,

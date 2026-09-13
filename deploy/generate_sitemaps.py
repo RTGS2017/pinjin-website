@@ -283,6 +283,7 @@ def page_paths() -> list[str]:
             "/resources",
             "/factory",
             "/about",
+            "/markets",
             "/faq",
             "/contact",
             "/copyright",
@@ -386,7 +387,7 @@ def page_meta(rest: str) -> tuple[str, str]:
         return "weekly", "0.8"
     if rest.startswith("/blog/"):
         return "monthly", "0.7"
-    if rest in ("/about", "/resources", "/faq"):
+    if rest in ("/about", "/markets", "/resources", "/faq"):
         return "monthly", "0.75"
     return "monthly", "0.7"
 
@@ -593,6 +594,20 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             f"    <lastmod>{LASTMOD}</lastmod>",
         ]
         for fname, title in factory_images:
+            lines += image_nodes(
+                f"{base}/images/factory/{fname}",
+                title,
+                title,
+            )
+        lines.append("  </url>")
+        url_count += 1
+
+        lines += [
+            "  <url>",
+            f"    <loc>{base}/{lang}/markets/</loc>",
+            f"    <lastmod>{LASTMOD}</lastmod>",
+        ]
+        for fname, title in factory_images[:2]:
             lines += image_nodes(
                 f"{base}/images/factory/{fname}",
                 title,

@@ -25,6 +25,7 @@ import {
 import { categoryHubs } from '@/data/categoryHubs';
 import { getBlogPosts } from '@/data/blog';
 import { applicationPages } from '@/data/applicationsContent';
+import { marketsContent } from '@/data/markets';
 import { customMachineryContent } from '@/data/customMachinery';
 
 const SITE = 'https://pinjinpump.com';
@@ -32,6 +33,8 @@ const DEFAULT_LASTMOD = '2026-09-07';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outFile = join(root, 'deploy', 'prerender-meta.json');
+
+type PageKind = 'home' | 'product' | 'collection' | 'article' | 'other';
 
 type PageRecord = {
   path: string;
@@ -42,12 +45,15 @@ type PageRecord = {
   title: string;
   description: string;
   h1: string;
+  body: string;
   htmlLang: string;
   robots: string;
   indexed: boolean;
   lastmod: string;
+  kind: PageKind;
   ogImage?: string;
   imageAlt?: string;
+  specs?: Array<{ label: string; value: string }>;
 };
 
 type RedirectRecord = {
@@ -86,6 +92,7 @@ function pageRests(): string[] {
     '/resources',
     '/factory',
     '/about',
+    '/markets',
     '/faq',
     '/contact',
     '/copyright',
@@ -126,9 +133,9 @@ function pageCopy(rest: string, lang: Lang): {
   }
   if (rest === '/product-selection-guide') {
     return {
-      title: t.seo.selectionTitle,
+      title: `${t.seo.selectionTitle} | Selection Guide`,
       description: t.seo.selectionDesc,
-      h1: t.selectionGuide.title,
+      h1: `${t.selectionGuide.title} · Selection Guide`,
       lastmod: DEFAULT_LASTMOD,
     };
   }
@@ -142,57 +149,64 @@ function pageCopy(rest: string, lang: Lang): {
   }
   if (rest === '/blog') {
     return {
-      title: t.seo.blogTitle,
+      title: `${t.seo.blogTitle} | Blog`,
       description: t.seo.blogDesc,
-      h1: t.seo.blogTitle,
+      h1: `${t.seo.blogTitle} · Blog`,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/resources') {
     return {
-      title: t.seo.resourcesTitle,
+      title: `${t.seo.resourcesTitle} | Resources`,
       description: t.seo.resourcesDesc,
-      h1: t.nav.resources,
+      h1: `${t.nav.resources} · Resources`,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/factory') {
     return {
-      title: t.seo.aboutTitle,
-      description:
-        lang === 'zh' ? t.seo.homeDesc : seoTemplates.factoryDescription,
-      h1: t.seo.aboutTitle,
+      title: seoTemplates.factoryTitle,
+      description: seoTemplates.factoryDescription,
+      h1: seoTemplates.factoryTitle,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/about') {
     return {
-      title: t.seo.aboutTitle,
+      title: `${t.seo.aboutTitle} | About`,
       description: t.hero.intro,
-      h1: t.page.whoAreYou,
+      h1: `${t.page.whoAreYou} · About`,
+      lastmod: DEFAULT_LASTMOD,
+    };
+  }
+  if (rest === '/markets') {
+    return {
+      title: t.seo.marketsTitle,
+      description: t.seo.marketsDesc,
+      h1: tx(marketsContent.h1, lang),
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/faq') {
     return {
-      title: t.seo.faqTitle,
+      title: `${t.seo.faqTitle} | FAQ`,
       description: t.page.faqSubtitle,
-      h1: t.page.faqHeading,
+      h1: `${t.page.faqHeading} · FAQ`,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/contact') {
     return {
-      title: t.seo.contactTitle,
+      title: `${t.seo.contactTitle} | Contact`,
       description: t.contact.sendBody,
-      h1: t.seo.contactTitle,
+      h1: `${t.seo.contactTitle} · Contact`,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/copyright') {
     return {
-      title: t.seo.copyrightTitle,
-      description: t.copyright.lead,
+      title: `${t.seo.copyrightTitle} | Pinjin Machinery`,
+      description: t.copyright.lead.length >= 40 ? t.copyright.lead : `${t.copyright.lead} Image and catalogue copyright for Hebei Pinjin Machinery.`,
       h1: t.copyright.title,
       lastmod: DEFAULT_LASTMOD,
     };
@@ -251,6 +265,45 @@ function pageCopy(rest: string, lang: Lang): {
   throw new Error(`No prerender copy for ${rest}`);
 }
 
+function pageKind(rest: string): PageKind {
+  if (rest === '/') return 'home';
+  if (products.some((item) => rest === `/products/${item.slug}`)) return 'product';
+  if (posts.some((item) => rest === `/blog/${item.slug}`)) return 'article';
+  if (
+    rest === '/products' ||
+    rest === '/solutions' ||
+    rest === '/blog' ||
+    rest === '/markets' ||
+    rest === '/products/custom-machinery' ||
+    Object.values(categoryMeta).some((item) => rest === `/products/${item.routeSlug}`) ||
+    applicationPages.some((item) => rest === `/solutions/${item.solutionSlug}`)
+  ) {
+    return 'collection';
+  }
+  return 'other';
+}
+
+function uniquify(pages: PageRecord[], key: 'title' | 'description') {
+  const counts = new Map<string, number>();
+  for (const page of pages) counts.set(page[key], (counts.get(page[key]) || 0) + 1);
+  for (const page of pages) {
+    if ((counts.get(page[key]) || 0) > 1) {
+      const suffix = ` · ${page.lang}`;
+      const next = `${page[key]}${suffix}`;
+      page[key] = key === 'title' && next.length > 70 ? `${page[key].slice(0, Math.max(12, 70 - suffix.length))}${suffix}` : next;
+    }
+  }
+  const again = new Map<string, number>();
+  for (const page of pages) again.set(page[key], (again.get(page[key]) || 0) + 1);
+  for (const page of pages) {
+    if ((again.get(page[key]) || 0) > 1) {
+      const suffix = ` · ${page.lang}${page.rest}`;
+      const next = `${page[key]}${suffix}`;
+      page[key] = key === 'title' && next.length > 70 ? `${page.h1.slice(0, 40)}${suffix}` : next;
+    }
+  }
+}
+
 const legacyRestRedirects: Array<[string, string]> = [
   ['/products/category/electric-concrete-pumps', '/products/electric-concrete-pumps'],
   ['/products/category/diesel-concrete-pumps', '/products/diesel-concrete-pumps'],
@@ -300,6 +353,17 @@ for (const lang of languages.map((item) => item.code)) {
     const copy = pageCopy(rest, lang);
     const path = loc(lang, rest);
     const product = products.find((item) => rest === `/products/${item.slug}`);
+    const kind = pageKind(rest);
+    const specRows = product
+      ? product.specifications.slice(0, 8).map((item) => ({
+          label: tx(item.label, lang),
+          value: tx(item.value, lang),
+        }))
+      : undefined;
+    const extra =
+      product
+        ? `${tx(product.productIntroduction, lang)} ${specRows?.map((item) => `${item.label} ${item.value}`).join(' ') || ''}`
+        : copy.description;
     pages.push({
       path,
       rest,
@@ -309,10 +373,13 @@ for (const lang of languages.map((item) => item.code)) {
       title: copy.title,
       description: copy.description,
       h1: copy.h1,
+      body: `${copy.h1}. ${extra} Page ${path}.`,
       htmlLang: meta.htmlLang,
       robots: 'index, follow',
       indexed,
       lastmod: copy.lastmod,
+      kind,
+      specs: specRows,
       ogImage: product
         ? `${SITE}${product.gallery[0] ?? product.image}`
         : undefined,
@@ -361,6 +428,9 @@ const payload = {
   pages,
   redirects,
 };
+
+uniquify(pages, 'title');
+uniquify(pages, 'description');
 
 mkdirSync(dirname(outFile), { recursive: true });
 writeFileSync(outFile, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');

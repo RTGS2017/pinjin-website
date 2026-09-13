@@ -97,6 +97,7 @@ export function Header() {
     if (key === 'company') {
       return (
         pagePath === '/about' ||
+        pagePath === '/markets' ||
         pagePath === '/factory' ||
         pagePath.startsWith('/company')
       );

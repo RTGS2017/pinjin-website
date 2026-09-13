@@ -61,6 +61,11 @@ export function Footer() {
                 </LocaleLink>
               </li>
               <li>
+                <LocaleLink to="/markets" className="hover:text-primary transition-colors">
+                  {t.footer.markets}
+                </LocaleLink>
+              </li>
+              <li>
                 <LocaleLink
                   to="/solutions"
                   className="hover:text-primary transition-colors"

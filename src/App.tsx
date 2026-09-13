@@ -31,6 +31,7 @@ const SelectionGuidePage = lazy(() => import('@/pages/SelectionGuidePage').then(
 const About = lazy(() => import('@/pages/About').then((m) => ({ default: m.About })));
 const ContactPage = lazy(() => import('@/pages/ContactPage').then((m) => ({ default: m.ContactPage })));
 const CopyrightPage = lazy(() => import('@/pages/CopyrightPage').then((m) => ({ default: m.CopyrightPage })));
+const MarketsPage = lazy(() => import('@/pages/MarketsPage').then((m) => ({ default: m.MarketsPage })));
 const Faq = lazy(() => import('@/pages/Faq').then((m) => ({ default: m.Faq })));
 const SolutionsIndex = lazy(() => import('@/pages/Solutions').then((m) => ({ default: m.SolutionsIndex })));
 const SolutionDetail = lazy(() => import('@/pages/Solutions').then((m) => ({ default: m.SolutionDetail })));
@@ -76,6 +77,7 @@ function localePages() {
       {r('cases/:slug', <LegacyCasesRedirect />)}
       {r('applications', <LegacyApplicationsRedirect />)}
       {r('about', <About />)}
+      {r('markets', <MarketsPage />)}
       {r('company', <LegacyCompanyRedirect />)}
       {r('company/factory', <LegacyCompanyFactoryRedirect />)}
       {r('company/manufacturing-capability', <LegacyCompanyFactoryRedirect />)}
