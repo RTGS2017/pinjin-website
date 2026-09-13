@@ -17,7 +17,6 @@ import { pick } from '@/i18n/types';
 import { seoTemplates } from '@/config/seo';
 import {
   categoryMeta,
-  productSlugRedirects,
   products,
   productImageAlt,
   type ProductCategory,
@@ -55,13 +54,6 @@ type PageRecord = {
   imageAlt?: string;
   specs?: Array<{ label: string; value: string }>;
   categoryRest?: string;
-};
-
-type RedirectRecord = {
-  path: string;
-  target: string;
-  url: string;
-  targetUrl: string;
 };
 
 function loc(lang: Lang, rest: string): string {
@@ -305,47 +297,6 @@ function uniquify(pages: PageRecord[], key: 'title' | 'description') {
   }
 }
 
-const legacyRestRedirects: Array<[string, string]> = [
-  ['/products/category/electric-concrete-pumps', '/products/electric-concrete-pumps'],
-  ['/products/category/diesel-concrete-pumps', '/products/diesel-concrete-pumps'],
-  ['/products/category/mixer-pumps', '/products/mixer-pumps'],
-  ['/products/category/concrete-pump-parts', '/products/concrete-pump-parts'],
-  ['/products/concrete-pumps', '/products/electric-concrete-pumps'],
-  ['/products/concrete-pump', '/products/electric-concrete-pumps'],
-  ['/products/spraying-machines', '/products'],
-  ['/products/material-handling', '/products'],
-  ['/products/rebar-equipment', '/products'],
-  ['/products/concrete-spraying-machine', '/products'],
-  ['/products/concrete-mixing-plant', '/products/electric-concrete-pumps'],
-  ['/cases', '/solutions'],
-  ['/cases/construction', '/solutions/construction'],
-  ['/cases/infrastructure', '/solutions/infrastructure'],
-  ['/cases/spraying', '/solutions/spraying'],
-  ['/cases/industrial-projects', '/solutions/industrial-projects'],
-  ['/cases/building-construction', '/solutions/construction'],
-  ['/cases/infrastructure-projects', '/solutions/infrastructure'],
-  ['/cases/spraying-applications', '/solutions/spraying'],
-  ['/cases/material-handling', '/solutions/industrial-projects'],
-  ['/applications', '/solutions'],
-  ['/company', '/about'],
-  ['/company/factory', '/factory'],
-  ['/company/manufacturing-capability', '/factory'],
-  ['/resources/blog', '/blog'],
-  ['/resources/blog/xingjiawan-concrete-machinery', '/factory'],
-  ['/resources/downloads', '/resources'],
-];
-
-const restCanonical = new Map<string, string>();
-for (const rest of pageRests()) {
-  restCanonical.set(rest, rest);
-}
-for (const [from, to] of legacyRestRedirects) {
-  restCanonical.set(from, to);
-}
-for (const [from, to] of Object.entries(productSlugRedirects)) {
-  restCanonical.set(`/products/${from}`, `/products/${to}`);
-}
-
 const pages: PageRecord[] = [];
 for (const lang of languages.map((item) => item.code)) {
   const indexed = true;
@@ -394,32 +345,6 @@ for (const lang of languages.map((item) => item.code)) {
   }
 }
 
-const redirects: RedirectRecord[] = [];
-const redirectSeen = new Set<string>();
-
-function addRedirect(path: string, target: string) {
-  if (path === target || redirectSeen.has(path)) return;
-  redirectSeen.add(path);
-  redirects.push({
-    path,
-    target,
-    url: `${SITE}${path}`,
-    targetUrl: `${SITE}${target}`,
-  });
-}
-
-for (const lang of languages.map((item) => item.code)) {
-  for (const [from, to] of restCanonical) {
-    if (from === to) continue;
-    addRedirect(loc(lang, from), loc(lang, to));
-  }
-}
-
-for (const [from, to] of restCanonical) {
-  if (from === '/') continue;
-  addRedirect(from, loc('en', to));
-}
-
 const payload = {
   generatedAt: new Date().toISOString().slice(0, 10),
   site: SITE,
@@ -430,7 +355,7 @@ const payload = {
     indexedLangs.map((code) => [code, getLanguage(code).hreflang]),
   ),
   pages,
-  redirects,
+  redirects: [] as Array<{ path: string; target: string; url: string; targetUrl: string }>,
 };
 
 uniquify(pages, 'title');
@@ -442,5 +367,5 @@ writeFileSync(outFile, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');
 const indexedPages = pages.filter((page) => page.indexed).length;
 console.log(
   `wrote ${outFile.replace(root + '\\', '').replace(root + '/', '')} ` +
-    `pages=${pages.length} indexed=${indexedPages} redirects=${redirects.length}`,
+    `pages=${pages.length} indexed=${indexedPages}`,
 );

@@ -12,8 +12,8 @@
  *    so Googlebot gets HTTP 200 without a 301.
  * 4. Stamp title, description, canonical, hreflang, robots, html lang, and a
  *    noscript H1 onto the single file that GitHub will actually serve.
- * 5. Write static redirect shells for legacy / alias / unprefixed paths so
- *    crawlers no longer hit HTTP 404.
+ * 5. Do not write legacy / alias / unprefixed HTML shells. Those paths are
+ *    HTTP 404 (static 404.html, noindex). Only language UI routes are indexed.
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -97,6 +97,12 @@ if (!existsSync(metaFile)) {
 const meta = JSON.parse(readFileSync(metaFile, 'utf8'));
 if (!Array.isArray(meta.pages) || meta.pages.length < 10) {
   console.error('prerender-meta.json has too few pages');
+  process.exit(1);
+}
+if (Array.isArray(meta.redirects) && meta.redirects.length > 0) {
+  console.error(
+    `prerender-meta.json still lists ${meta.redirects.length} redirect shells; leave redirects empty`,
+  );
   process.exit(1);
 }
 
@@ -252,19 +258,6 @@ function jsonLdFor(page) {
   return null;
 }
 
-function hrefPath(value) {
-  let path = String(value || '/');
-  if (/^https?:\/\//i.test(path)) {
-    try {
-      path = new URL(path).pathname;
-    } catch {
-      path = '/';
-    }
-  }
-  if (path === '' || path === '/') return '/';
-  return path.endsWith('/') ? path : `${path}/`;
-}
-
 function linkList(pages) {
   return pages
     .map((item) => `<a href="${escapeHtml(item.path)}">${escapeHtml(item.h1 || item.title)}</a>`)
@@ -282,16 +275,6 @@ function pickSlice(items, seed, count) {
     out.push(list[(start + i) % list.length]);
   }
   return out;
-}
-
-function formerLinksFor(page) {
-  return (meta.redirects || [])
-    .filter((item) => item.targetUrl === page.url || item.targetUrl === page.canonicalUrl)
-    .map((item) => {
-      const path = hrefPath(item.path);
-      return `<a href="${escapeHtml(path)}">${escapeHtml(path)}</a>`;
-    })
-    .join(' ');
 }
 
 function insertSeoStatic(html, page) {
@@ -326,8 +309,6 @@ function insertSeoStatic(html, page) {
     ? `<p><img src="${escapeHtml(toSrc(page.ogImage))}" alt="${escapeHtml(page.imageAlt || page.h1)}" width="1200" height="800" /></p>`
     : '';
   const contact = `/${page.lang}/contact/`;
-  const former = formerLinksFor(page);
-  const formerNav = former ? `<nav>${former}</nav>` : '';
   const block = `    <style>#seo-static{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
     <main id="seo-static">
       <nav>${linkList(hubs)} ${langs.join(' ')}</nav>
@@ -339,7 +320,6 @@ function insertSeoStatic(html, page) {
       <nav>${linkList(productNav)}</nav>
       <nav>${linkList(collectionNav)}</nav>
       <nav>${linkList(articleNav)}</nav>
-      ${formerNav}
     </main>
 `;
   if (html.includes('<div id="root"></div>')) {
@@ -377,95 +357,6 @@ function stampPage(page) {
   return html;
 }
 
-function redirectHreflang(fromPath) {
-  const langs = meta.indexedLangs ?? ['en', 'zh', 'pt', 'ar', 'ru'];
-  const map = meta.hreflang ?? {
-    en: 'en',
-    zh: 'zh-CN',
-    pt: 'pt',
-    ar: 'ar',
-    ru: 'ru',
-  };
-  const langMatch = fromPath.match(/^\/(en|zh|pt|ar|ru)\//);
-  if (!langMatch) {
-    return `    <link rel="alternate" hreflang="${map.en || 'en'}" href="${SITE}${fromPath}" />`;
-  }
-  const restPart = fromPath.replace(/^\/(en|zh|pt|ar|ru)/, '');
-  const lines = langs.map((lang) => {
-    const hl = map[lang] || lang;
-    return `    <link rel="alternate" hreflang="${hl}" href="${SITE}/${lang}${restPart}" />`;
-  });
-  lines.push(`    <link rel="alternate" hreflang="x-default" href="${SITE}/en${restPart}" />`);
-  return lines.join('\n');
-}
-
-function redirectDocument(redirect, targetPage) {
-  const targetUrl = redirect.targetUrl;
-  let pathname = '/en/';
-  try {
-    pathname = hrefPath(new URL(targetUrl).pathname);
-  } catch {
-    pathname = hrefPath(String(targetUrl).replace(SITE, '') || '/en/');
-  }
-  const fromPath = hrefPath(redirect.path);
-  const heading = targetPage?.h1 || targetPage?.title || 'Continue';
-  const title = `Former URL ${fromPath} | ${heading}`;
-  const description = `Former address ${fromPath} continues to ${pathname}. ${targetPage?.description || heading}`;
-  const htmlLang = targetPage?.htmlLang || 'en';
-  const lang = targetPage?.lang || 'en';
-  const href = escapeHtml(targetUrl);
-  const specs = (targetPage?.specs || [])
-    .map((spec) => `<li>${escapeHtml(spec.label)}: ${escapeHtml(spec.value)}</li>`)
-    .join('');
-  const specBlock = specs ? `<h2>Specifications</h2><ul>${specs}</ul>` : '';
-  const img = targetPage?.ogImage
-    ? `<p><img src="${escapeHtml(toSrc(targetPage.ogImage))}" alt="${escapeHtml(targetPage.imageAlt || heading)}" width="1200" height="800" /></p>`
-    : '';
-  const contact = `/${lang}/contact/`;
-  const home = `/${lang}/`;
-  const schema =
-    targetPage?.kind === 'product' && /\/products\/[^/]+\/$/.test(fromPath)
-      ? `${jsonLdTag({
-          '@context': 'https://schema.org',
-          '@type': 'Product',
-          name: targetPage.h1,
-          description: targetPage.description,
-          image: targetPage.ogImage,
-          url: targetPage.canonicalUrl,
-          brand: { '@type': 'Brand', name: 'Hebei Pinjin Machinery' },
-          additionalProperty: (targetPage.specs || []).map((spec) => ({
-            '@type': 'PropertyValue',
-            name: spec.label,
-            value: spec.value,
-          })),
-        })}\n`
-      : '';
-  return `<!doctype html>
-<html lang="${htmlLang}">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="${escapeHtml(description)}" />
-    <link rel="canonical" href="${href}" />
-${redirectHreflang(fromPath)}
-    <meta http-equiv="refresh" content="0;url=${href}" />
-    <title>${escapeHtml(title)}</title>
-${schema}    <script>location.replace(${JSON.stringify(pathname.replace(/\/$/, '') || '/en')}+location.search+location.hash);</script>
-  </head>
-  <body>
-    <h1>${escapeHtml(title)}</h1>
-    <p>Former address ${escapeHtml(fromPath)} is kept so crawlers do not hit HTTP 404. It is not a separate product or article. The live page is ${escapeHtml(pathname)} for ${escapeHtml(heading)}.</p>
-    <p>${escapeHtml(targetPage?.description || heading)}</p>
-    ${specBlock}
-    ${img}
-    <p><a href="${escapeHtml(pathname)}">Continue to the current canonical page</a></p>
-    <p><a href="${escapeHtml(contact)}">Contact inquiry WhatsApp email</a> <a href="${escapeHtml(home)}">Home</a></p>
-  </body>
-</html>
-`;
-}
-
 function writeSpaShell(absPath, html) {
   mkdirSync(dirname(absPath), { recursive: true });
   writeFileSync(absPath, html);
@@ -484,13 +375,6 @@ function writeGitHubPage(pathname, html) {
 let written = 0;
 for (const page of meta.pages) {
   written += writeGitHubPage(page.path, stampPage(page));
-}
-
-for (const redirect of meta.redirects ?? []) {
-  const targetPage = (meta.pages || []).find(
-    (item) => item.url === redirect.targetUrl || item.canonicalUrl === redirect.targetUrl,
-  );
-  written += writeGitHubPage(redirect.path, redirectDocument(redirect, targetPage));
 }
 
 const rootCanonical = `${SITE}/en/`;
@@ -591,33 +475,35 @@ if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
   process.exit(1);
 }
 
-const aliasShell = join(distDir, 'en', 'products', 'zs22-25', 'index.html');
-if (!existsSync(aliasShell)) {
-  console.error('missing redirect shell for /en/products/zs22-25');
-  process.exit(1);
-}
-const aliasHtml = readFileSync(aliasShell, 'utf8');
-if (!aliasHtml.includes('name="robots" content="index, follow"')) {
-  console.error('legacy product alias must be index, follow with canonical');
-  process.exit(1);
-}
-if (!aliasHtml.includes('rel="canonical"') || !aliasHtml.includes('electric-20-concrete-pump')) {
-  console.error('legacy product alias must canonical to the current product URL');
-  process.exit(1);
-}
-if (!aliasHtml.includes('name="description"') || !aliasHtml.includes('Former address')) {
-  console.error('legacy product alias must have a unique meta description');
-  process.exit(1);
-}
-if (!aliasHtml.includes(`hreflang="en" href="https://pinjinpump.com/en/products/zs22-25/"`)) {
-  console.error('legacy product alias must self-reference hreflang');
-  process.exit(1);
+const gone = [
+  ['applications'],
+  ['about'],
+  ['company'],
+  ['products'],
+  ['cases'],
+  ['en', 'applications'],
+  ['en', 'company'],
+  ['en', 'cases'],
+  ['en', 'products', 'zs22-25'],
+  ['en', 'products', 'concrete-pumps'],
+  ['en', 'products', 'category', 'electric-concrete-pumps'],
+  ['ar', 'applications'],
+  ['ar', 'cases', 'spraying-applications'],
+  ['ar', 'products', '13-spiral-feeder'],
+  ['ar', 'products', '4102-diesel-four-cylinder-inclined-pump'],
+];
+for (const parts of gone) {
+  const stale = join(distDir, ...parts, 'index.html');
+  if (existsSync(stale)) {
+    console.error(`legacy shell must not exist: /${parts.join('/')}/`);
+    process.exit(1);
+  }
 }
 
 const aboutShell = join(distDir, 'en', 'about', 'index.html');
 const aboutHtml = readFileSync(aboutShell, 'utf8');
-if (!aboutHtml.includes('href="/about/"') || !aboutHtml.includes('href="/en/company/"')) {
-  console.error('/en/about must link former /about/ and /en/company/ so they are not orphans');
+if (aboutHtml.includes('href="/about/"') || aboutHtml.includes('href="/en/company/"')) {
+  console.error('/en/about must not link removed unprefixed or alias paths');
   process.exit(1);
 }
 const productsIndex = readFileSync(join(distDir, 'en', 'products', 'index.html'), 'utf8');
@@ -693,17 +579,6 @@ if (/rel="canonical" href="https:\/\/pinjinpump\.com\/en\/?"/.test(notFoundOut))
   process.exit(1);
 }
 
-const legacyShell = join(distDir, 'en', 'products', 'concrete-pumps', 'index.html');
-if (!existsSync(legacyShell)) {
-  console.error('missing legacy redirect shell /en/products/concrete-pumps');
-  process.exit(1);
-}
-const legacyHtml = readFileSync(legacyShell, 'utf8');
-if (!legacyHtml.includes('/en/products/electric-concrete-pumps')) {
-  console.error('legacy concrete-pumps shell must point at electric-concrete-pumps');
-  process.exit(1);
-}
-
 const arShell = join(distDir, 'ar', 'products', 'index.html');
 if (!existsSync(arShell)) {
   console.error('missing /ar/products SPA shell');
@@ -743,7 +618,7 @@ for (const loc of uniqueLocs) {
   githubLookup(new URL(loc).pathname);
 }
 
-console.log(`Wrote ${written} HTML files from ${meta.pages.length} pages + ${(meta.redirects ?? []).length} redirects`);
+console.log(`Wrote ${written} HTML files from ${meta.pages.length} UI pages (no legacy shells)`);
 console.log(`sitemap-pages.xml locs=${uniqueLocs.length} (en+zh+pt+ar+ru)`);
 console.log('Wrote dist/404.html as a static HTTP 404 page (no SPA fallback)');
 console.log('Wrote dist/.nojekyll');

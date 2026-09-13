@@ -6,6 +6,7 @@ import sys
 import urllib.error
 import urllib.request
 from collections import Counter
+from pathlib import Path
 from urllib.parse import urlparse
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -13,6 +14,8 @@ if hasattr(sys.stdout, "reconfigure"):
 
 BASE = sys.argv[1].rstrip("/") if len(sys.argv) > 1 else "http://127.0.0.1:4173"
 SITE = "https://pinjinpump.com"
+DIST = Path(__file__).resolve().parents[1] / "dist"
+LIVE = "pinjinpump.com" in BASE
 HOME = "Concrete Pump Manufacturer China | Hebei Pinjin Machinery"
 HREFLANG_REQUIRED = ("en", "zh-CN", "pt", "ar", "ru", "x-default")
 LANGS = ("en", "zh", "pt", "ar", "ru")
@@ -77,6 +80,20 @@ def check(name: str, passed: bool, key: str, value: object) -> None:
         fail.append((name, key, value))
 
 
+def dist_shell(url_path: str) -> Path:
+    parts = [part for part in url_path.strip("/").split("/") if part]
+    return DIST.joinpath(*parts, "index.html")
+
+
+def is_static_not_found(status: int, html: str) -> bool:
+    robots = meta(html, "robots")
+    return status == 404 or (
+        "noindex" in robots
+        and "/assets/" not in html
+        and ("Not Found" in html or "This page does not exist" in html)
+    )
+
+
 status, html = get("/")
 check("/", status == 200, "status", status)
 check("/", "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
@@ -123,43 +140,30 @@ check("/ar/products", status == 200, "status", status)
 check("/ar/products", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
 check("/ar/products", canon(html) == f"{SITE}/ar/products/", "canonical", canon(html))
 
-status, html = get("/en/products/concrete-pumps/")
-check("/en/products/concrete-pumps/", status == 200, "status", status)
-check(
+GONE_PATHS = (
+    "/about/",
+    "/products/",
+    "/applications/",
+    "/company/",
     "/en/products/concrete-pumps/",
-    "/en/products/electric-concrete-pumps" in html,
-    "target",
-    True,
+    "/en/products/zs22-25/",
+    "/ar/applications/",
 )
-check("/en/products/concrete-pumps/", "noindex" not in html, "indexable-alias", True)
-
-status, html = get("/products/")
-check("/products/", status == 200, "status", status)
-check("/products/", "/en/products/" in html, "redirect-en", True)
-check("/products/", "noindex" not in html, "indexable-unprefixed", True)
-
-status, html = get("/en/products/zs22-25/")
-check("/en/products/zs22-25/", status == 200, "status", status)
-check("/en/products/zs22-25/", "electric-20-concrete-pump" in html, "alias", True)
-check("/en/products/zs22-25/", "noindex" not in html, "indexable-alias", True)
-check("/en/products/zs22-25/", bool(meta(html, "description")), "description", meta(html, "description")[:80])
-check("/en/products/zs22-25/", 'hreflang="en"' in html, "hreflang-self", True)
+for path in GONE_PATHS:
+    check(path, not dist_shell(path).exists(), "no-dist-shell", dist_shell(path).exists())
+    if LIVE:
+        status, html = get(path)
+        check(path, is_static_not_found(status, html), "gone", status)
 
 status, html = get("/en/about/")
 check("/en/about/", status == 200, "status", status)
-check("/en/about/", 'href="/about/"' in html, "link-unprefixed", True)
-check("/en/about/", "/en/company/" in html, "link-company-alias", True)
+check("/en/about/", 'href="/about/"' not in html, "no-unprefixed-link", True)
+check("/en/about/", 'href="/en/company/"' not in html, "no-company-alias", True)
 
 status, html = get("/en/products/")
 check("/en/products/", status == 200, "status", status)
 check("/en/products/", "/en/products/electric-20-concrete-pump/" in html, "graph-electric-20", True)
 check("/en/products/", "/en/products/b500s-83d-two-stage-pump/" in html, "graph-b500s", True)
-
-status, html = get("/about/")
-check("/about/", status == 200, "status", status)
-check("/about/", "/en/about/" in html, "target", True)
-check("/about/", "noindex" not in html, "indexable-unprefixed", True)
-check("/about/", bool(meta(html, "description")), "description", True)
 
 status, html = get("/en/markets/")
 check("/en/markets/", status == 200, "status", status)
