@@ -54,6 +54,7 @@ type PageRecord = {
   ogImage?: string;
   imageAlt?: string;
   specs?: Array<{ label: string; value: string }>;
+  categoryRest?: string;
 };
 
 type RedirectRecord = {
@@ -380,6 +381,9 @@ for (const lang of languages.map((item) => item.code)) {
       lastmod: copy.lastmod,
       kind,
       specs: specRows,
+      categoryRest: product
+        ? `/products/${categoryMeta[product.category].routeSlug}`
+        : undefined,
       ogImage: product
         ? `${SITE}${product.gallery[0] ?? product.image}`
         : undefined,

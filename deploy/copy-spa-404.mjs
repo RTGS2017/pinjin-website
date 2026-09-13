@@ -252,6 +252,19 @@ function jsonLdFor(page) {
   return null;
 }
 
+function hrefPath(value) {
+  let path = String(value || '/');
+  if (/^https?:\/\//i.test(path)) {
+    try {
+      path = new URL(path).pathname;
+    } catch {
+      path = '/';
+    }
+  }
+  if (path === '' || path === '/') return '/';
+  return path.endsWith('/') ? path : `${path}/`;
+}
+
 function linkList(pages) {
   return pages
     .map((item) => `<a href="${escapeHtml(item.path)}">${escapeHtml(item.h1 || item.title)}</a>`)
@@ -271,16 +284,36 @@ function pickSlice(items, seed, count) {
   return out;
 }
 
+function formerLinksFor(page) {
+  return (meta.redirects || [])
+    .filter((item) => item.targetUrl === page.url || item.targetUrl === page.canonicalUrl)
+    .map((item) => {
+      const path = hrefPath(item.path);
+      return `<a href="${escapeHtml(path)}">${escapeHtml(path)}</a>`;
+    })
+    .join(' ');
+}
+
 function insertSeoStatic(html, page) {
   const siblings = (meta.pages || []).filter((item) => item.lang === page.lang);
-  const hubs = siblings.filter
-    ? siblings.filter((item) =>
-        ['/', '/products', '/solutions', '/blog', '/factory', '/about', '/markets', '/faq', '/contact', '/resources', '/product-selection-guide', '/copyright'].includes(item.rest),
-      )
-    : [];
+  const hubs = siblings.filter((item) =>
+    ['/', '/products', '/solutions', '/blog', '/factory', '/about', '/markets', '/faq', '/contact', '/resources', '/product-selection-guide', '/copyright'].includes(item.rest),
+  );
   const products = siblings.filter((item) => item.kind === 'product' && item.path !== page.path);
   const articles = siblings.filter((item) => item.kind === 'article' && item.path !== page.path);
   const collections = siblings.filter((item) => item.kind === 'collection' && item.path !== page.path);
+  const categoryProducts = products.filter((item) => item.categoryRest === page.rest);
+  let productNav = pickSlice(products, page.rest, 4);
+  if (page.rest === '/' || page.rest === '/products') {
+    productNav = products;
+  } else if (page.kind === 'collection' && categoryProducts.length) {
+    productNav = categoryProducts;
+  }
+  const collectionNav =
+    page.rest === '/' || page.rest === '/solutions' || page.rest === '/products'
+      ? collections
+      : pickSlice(collections, page.rest, 3);
+  const articleNav = page.rest === '/blog' ? articles : pickSlice(articles, page.rest, 2);
   const langs = (meta.indexedLangs || ['en', 'zh', 'pt', 'ar', 'ru']).map((lang) => {
     const path = page.rest === '/' ? `/${lang}/` : `/${lang}${page.rest}/`;
     return `<a href="${escapeHtml(path)}" hreflang="${escapeHtml((meta.hreflang && meta.hreflang[lang]) || lang)}">${escapeHtml(lang)}</a>`;
@@ -293,6 +326,8 @@ function insertSeoStatic(html, page) {
     ? `<p><img src="${escapeHtml(toSrc(page.ogImage))}" alt="${escapeHtml(page.imageAlt || page.h1)}" width="1200" height="800" /></p>`
     : '';
   const contact = `/${page.lang}/contact/`;
+  const former = formerLinksFor(page);
+  const formerNav = former ? `<nav>${former}</nav>` : '';
   const block = `    <style>#seo-static{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
     <main id="seo-static">
       <nav>${linkList(hubs)} ${langs.join(' ')}</nav>
@@ -301,9 +336,10 @@ function insertSeoStatic(html, page) {
       ${specBlock}
       ${img}
       <p><a href="${escapeHtml(contact)}">Contact inquiry WhatsApp email</a></p>
-      <nav>${linkList(pickSlice(products, page.rest, 4))}</nav>
-      <nav>${linkList(pickSlice(collections, page.rest, 3))}</nav>
-      <nav>${linkList(pickSlice(articles, page.rest, 2))}</nav>
+      <nav>${linkList(productNav)}</nav>
+      <nav>${linkList(collectionNav)}</nav>
+      <nav>${linkList(articleNav)}</nav>
+      ${formerNav}
     </main>
 `;
   if (html.includes('<div id="root"></div>')) {
@@ -341,31 +377,90 @@ function stampPage(page) {
   return html;
 }
 
-function redirectDocument(targetUrl, htmlLang = 'en', heading = 'Continue') {
-  let pathname = '/en';
-  try {
-    pathname = new URL(targetUrl).pathname;
-  } catch {
-    pathname = targetUrl.replace(SITE, '') || '/en';
+function redirectHreflang(fromPath) {
+  const langs = meta.indexedLangs ?? ['en', 'zh', 'pt', 'ar', 'ru'];
+  const map = meta.hreflang ?? {
+    en: 'en',
+    zh: 'zh-CN',
+    pt: 'pt',
+    ar: 'ar',
+    ru: 'ru',
+  };
+  const langMatch = fromPath.match(/^\/(en|zh|pt|ar|ru)\//);
+  if (!langMatch) {
+    return `    <link rel="alternate" hreflang="${map.en || 'en'}" href="${SITE}${fromPath}" />`;
   }
+  const restPart = fromPath.replace(/^\/(en|zh|pt|ar|ru)/, '');
+  const lines = langs.map((lang) => {
+    const hl = map[lang] || lang;
+    return `    <link rel="alternate" hreflang="${hl}" href="${SITE}/${lang}${restPart}" />`;
+  });
+  lines.push(`    <link rel="alternate" hreflang="x-default" href="${SITE}/en${restPart}" />`);
+  return lines.join('\n');
+}
+
+function redirectDocument(redirect, targetPage) {
+  const targetUrl = redirect.targetUrl;
+  let pathname = '/en/';
+  try {
+    pathname = hrefPath(new URL(targetUrl).pathname);
+  } catch {
+    pathname = hrefPath(String(targetUrl).replace(SITE, '') || '/en/');
+  }
+  const fromPath = hrefPath(redirect.path);
+  const heading = targetPage?.h1 || targetPage?.title || 'Continue';
+  const title = `Former URL ${fromPath} | ${heading}`;
+  const description = `Former address ${fromPath} continues to ${pathname}. ${targetPage?.description || heading}`;
+  const htmlLang = targetPage?.htmlLang || 'en';
+  const lang = targetPage?.lang || 'en';
   const href = escapeHtml(targetUrl);
-  const relative = pathname.endsWith('/') ? pathname : `${pathname}/`;
-  const title = escapeHtml(heading);
+  const specs = (targetPage?.specs || [])
+    .map((spec) => `<li>${escapeHtml(spec.label)}: ${escapeHtml(spec.value)}</li>`)
+    .join('');
+  const specBlock = specs ? `<h2>Specifications</h2><ul>${specs}</ul>` : '';
+  const img = targetPage?.ogImage
+    ? `<p><img src="${escapeHtml(toSrc(targetPage.ogImage))}" alt="${escapeHtml(targetPage.imageAlt || heading)}" width="1200" height="800" /></p>`
+    : '';
+  const contact = `/${lang}/contact/`;
+  const home = `/${lang}/`;
+  const schema =
+    targetPage?.kind === 'product' && /\/products\/[^/]+\/$/.test(fromPath)
+      ? `${jsonLdTag({
+          '@context': 'https://schema.org',
+          '@type': 'Product',
+          name: targetPage.h1,
+          description: targetPage.description,
+          image: targetPage.ogImage,
+          url: targetPage.canonicalUrl,
+          brand: { '@type': 'Brand', name: 'Hebei Pinjin Machinery' },
+          additionalProperty: (targetPage.specs || []).map((spec) => ({
+            '@type': 'PropertyValue',
+            name: spec.label,
+            value: spec.value,
+          })),
+        })}\n`
+      : '';
   return `<!doctype html>
 <html lang="${htmlLang}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
+    <meta name="description" content="${escapeHtml(description)}" />
     <link rel="canonical" href="${href}" />
+${redirectHreflang(fromPath)}
     <meta http-equiv="refresh" content="0;url=${href}" />
-    <title>${title}</title>
-    <script>location.replace(${JSON.stringify(pathname)}+location.search+location.hash);</script>
+    <title>${escapeHtml(title)}</title>
+${schema}    <script>location.replace(${JSON.stringify(pathname.replace(/\/$/, '') || '/en')}+location.search+location.hash);</script>
   </head>
   <body>
-    <h1>${title}</h1>
-    <p>This address continues to the current canonical page.</p>
-    <p><a href="${escapeHtml(relative)}">Continue to the current page</a></p>
+    <h1>${escapeHtml(title)}</h1>
+    <p>Former address ${escapeHtml(fromPath)} is kept so crawlers do not hit HTTP 404. It is not a separate product or article. The live page is ${escapeHtml(pathname)} for ${escapeHtml(heading)}.</p>
+    <p>${escapeHtml(targetPage?.description || heading)}</p>
+    ${specBlock}
+    ${img}
+    <p><a href="${escapeHtml(pathname)}">Continue to the current canonical page</a></p>
+    <p><a href="${escapeHtml(contact)}">Contact inquiry WhatsApp email</a> <a href="${escapeHtml(home)}">Home</a></p>
   </body>
 </html>
 `;
@@ -395,14 +490,7 @@ for (const redirect of meta.redirects ?? []) {
   const targetPage = (meta.pages || []).find(
     (item) => item.url === redirect.targetUrl || item.canonicalUrl === redirect.targetUrl,
   );
-  written += writeGitHubPage(
-    redirect.path,
-    redirectDocument(
-      redirect.targetUrl,
-      targetPage?.htmlLang || 'en',
-      targetPage?.h1 || targetPage?.title || 'Continue',
-    ),
-  );
+  written += writeGitHubPage(redirect.path, redirectDocument(redirect, targetPage));
 }
 
 const rootCanonical = `${SITE}/en/`;
@@ -515,6 +603,26 @@ if (!aliasHtml.includes('name="robots" content="index, follow"')) {
 }
 if (!aliasHtml.includes('rel="canonical"') || !aliasHtml.includes('electric-20-concrete-pump')) {
   console.error('legacy product alias must canonical to the current product URL');
+  process.exit(1);
+}
+if (!aliasHtml.includes('name="description"') || !aliasHtml.includes('Former address')) {
+  console.error('legacy product alias must have a unique meta description');
+  process.exit(1);
+}
+if (!aliasHtml.includes(`hreflang="en" href="https://pinjinpump.com/en/products/zs22-25/"`)) {
+  console.error('legacy product alias must self-reference hreflang');
+  process.exit(1);
+}
+
+const aboutShell = join(distDir, 'en', 'about', 'index.html');
+const aboutHtml = readFileSync(aboutShell, 'utf8');
+if (!aboutHtml.includes('href="/about/"') || !aboutHtml.includes('href="/en/company/"')) {
+  console.error('/en/about must link former /about/ and /en/company/ so they are not orphans');
+  process.exit(1);
+}
+const productsIndex = readFileSync(join(distDir, 'en', 'products', 'index.html'), 'utf8');
+if (!productsIndex.includes('/en/products/electric-20-concrete-pump/') || !productsIndex.includes('/en/products/b500s-83d-two-stage-pump/')) {
+  console.error('/en/products must list current product URLs in the static graph');
   process.exit(1);
 }
 
