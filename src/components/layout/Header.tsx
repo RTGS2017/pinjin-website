@@ -4,7 +4,7 @@ import { ChevronDown, Menu, X } from 'lucide-react';
 import { MegaMenu, MobileMegaLinks } from '@/components/navigation/MegaMenu';
 import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
 import { navItems, type NavLabelKey } from '@/config/navigation';
-import { contactInquiryPath, siteConfig } from '@/config/site';
+import { contactInquiryPath, siteConfig, withBase } from '@/config/site';
 import { Button } from '@/components/ui/Button';
 import { ProductSearch } from '@/components/ui/ProductSearch';
 import { useI18n } from '@/i18n/I18nContext';
@@ -124,17 +124,26 @@ export function Header() {
           <div className="container-site flex h-16 items-center justify-between lg:h-[72px]">
             <LocaleLink
               to="/"
-              className="flex items-baseline gap-2"
+              className="flex items-center gap-2.5"
               onClick={() => {
                 setMobileOpen(false);
                 closeMegaNow();
               }}
             >
-              <span className="text-xl font-semibold tracking-[0.14em]">
-                {siteConfig.brandName}
-              </span>
-              <span className="hidden text-sm text-white/50 sm:inline">
-                {siteConfig.brandNameCn}
+              <img
+                src={withBase(siteConfig.logoPath)}
+                alt=""
+                width={40}
+                height={40}
+                className="h-10 w-10 shrink-0 object-contain"
+              />
+              <span className="flex items-baseline gap-2">
+                <span className="text-xl font-semibold tracking-[0.14em]">
+                  {siteConfig.brandName}
+                </span>
+                <span className="hidden text-sm text-white/50 sm:inline">
+                  {siteConfig.brandNameCn}
+                </span>
               </span>
             </LocaleLink>
 

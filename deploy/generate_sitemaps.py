@@ -80,6 +80,14 @@ SPARE = [
     "concrete-pump-elbow-dn200-90",
     "concrete-pump-pipe-clamp-dn80",
     "concrete-pump-delivery-hose",
+    "concrete-pump-split-piston",
+    "concrete-pump-integral-piston",
+    "concrete-pump-s-tube-seal",
+    "concrete-pump-mixing-seal",
+    "concrete-pump-main-cylinder-seal",
+    "concrete-pump-swing-cylinder-seal",
+    "concrete-pump-rubber-spring",
+    "concrete-pump-swing-arm-ball",
 ]
 
 NAMES = {
@@ -111,6 +119,14 @@ NAMES = {
     "concrete-pump-elbow-dn200-90": "DN200 90 Degree Concrete Pump Elbow",
     "concrete-pump-pipe-clamp-dn80": "DN80 Concrete Pump Pipe Clamp",
     "concrete-pump-delivery-hose": "Concrete Pump Delivery Hose",
+    "concrete-pump-split-piston": "Concrete Pump Split Piston",
+    "concrete-pump-integral-piston": "Concrete Pump Integral Piston",
+    "concrete-pump-s-tube-seal": "Concrete Pump S-Tube Seal",
+    "concrete-pump-mixing-seal": "Concrete Pump Mixing Seal",
+    "concrete-pump-main-cylinder-seal": "Concrete Pump Main Cylinder Seal",
+    "concrete-pump-swing-cylinder-seal": "Concrete Pump Swing Cylinder Seal",
+    "concrete-pump-rubber-spring": "Concrete Pump Rubber Spring",
+    "concrete-pump-swing-arm-ball": "Concrete Pump Swing-Arm Ball",
 }
 
 CATEGORY_HUBS = [

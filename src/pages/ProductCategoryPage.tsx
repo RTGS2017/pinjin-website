@@ -130,13 +130,33 @@ export function ProductCategoryPage() {
         ) : null}
 
         <h2 className="mt-14 heading-display text-2xl sm:text-3xl">
-          {t.page.relatedModels}
+          {category === 'spare-parts' ? t.page.pipelineParts : t.page.relatedModels}
         </h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-          {list.map((product) => (
+          {(category === 'spare-parts'
+            ? list.filter((item) => item.partKind !== 'wear')
+            : list
+          ).map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}
         </div>
+        {category === 'spare-parts' ? (
+          <>
+            <h2 className="mt-14 heading-display text-2xl sm:text-3xl">
+              {t.page.wearParts}
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm text-text-secondary">
+              {t.page.wearPartsLead}
+            </p>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+              {list
+                .filter((item) => item.partKind === 'wear')
+                .map((product) => (
+                  <ProductCard key={product.slug} product={product} />
+                ))}
+            </div>
+          </>
+        ) : null}
 
         {faqs.length > 0 ? (
           <section className="mt-14">

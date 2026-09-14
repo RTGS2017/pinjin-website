@@ -77,7 +77,13 @@ export function ProductDetail() {
   const price = getIndicativePrice(product.slug);
   const quoteOnly = isInquiryOnlyProduct(product);
   const advantages = product.keyFeatures.slice(0, 5);
-  const inquireMessage = `${name}\n${quoteOnly ? t.detail.spareInquiryBody : t.detail.inquiryBody}`;
+  const inquireMessage = `${name}\n${
+    quoteOnly
+      ? product.partKind === 'wear'
+        ? t.detail.spareWearInquiryBody
+        : t.detail.spareInquiryBody
+      : t.detail.inquiryBody
+  }`;
   const spareParts = quoteOnly ? [] : getSpareParts();
   const relatedPumps = quoteOnly ? getFeaturedProducts(featuredProductSlugs).slice(0, 3) : [];
 
@@ -113,10 +119,18 @@ export function ProductDetail() {
             priceUsd: quoteOnly ? undefined : price?.usd,
             quoteOnly,
             priceNote: quoteOnly ? t.productCard.noListPrice : t.productCard.freightNote,
-            specifications: product.specifications.map((spec) => ({
-              name: tx(spec.label),
-              value: tx(spec.value),
-            })),
+            specifications: [
+              ...product.specifications.map((spec) => ({
+                name: tx(spec.label),
+                value: tx(spec.value),
+              })),
+              ...(product.catalogSizes ?? []).map((row) => ({
+                name: `${t.detail.catalogSize} ${row.size}`,
+                value: [row.form ? tx(row.form) : '', row.unit ? tx(row.unit) : '']
+                  .filter(Boolean)
+                  .join(' · '),
+              })),
+            ],
           }),
           buildFaqPageJsonLd(faqs),
           buildBreadcrumbJsonLd([
@@ -289,6 +303,41 @@ export function ProductDetail() {
           ) : (
             <p className="mt-4 text-sm text-text-secondary">{t.detail.noSpecs}</p>
           )}
+          {product.catalogSizes && product.catalogSizes.length > 0 ? (
+            <div className="mt-8 overflow-x-auto border border-border">
+              <h3 className="bg-bg-soft px-4 py-3 text-sm font-semibold text-dark">
+                {t.detail.catalogSizes}
+              </h3>
+              <table className="min-w-full text-left text-sm">
+                <thead className="bg-bg-soft text-dark">
+                  <tr>
+                    <th className="px-4 py-3 font-semibold">{t.detail.catalogSize}</th>
+                    <th className="px-4 py-3 font-semibold">{t.detail.catalogForm}</th>
+                    <th className="px-4 py-3 font-semibold">{t.detail.catalogUnit}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {product.catalogSizes.map((row) => (
+                    <tr
+                      key={`${row.size}-${row.form?.en ?? ''}`}
+                      className="border-t border-border"
+                    >
+                      <td className="px-4 py-3 font-medium text-dark">{row.size}</td>
+                      <td className="px-4 py-3 text-text-secondary">
+                        {row.form ? tx(row.form) : '—'}
+                      </td>
+                      <td className="px-4 py-3 text-text-secondary">
+                        {row.unit ? tx(row.unit) : '—'}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+              <p className="border-t border-border px-4 py-3 text-xs text-text-secondary">
+                {t.detail.wearReplacementNote}
+              </p>
+            </div>
+          ) : null}
         </section>
 
         <section className="mt-14">

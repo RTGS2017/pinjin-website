@@ -274,6 +274,14 @@ export const messagesPt = {
     indicativePrice: 'EXW indicativo',
     spareInquiryBody:
       'Informe o modelo da bomba, o diâmetro (DN), o comprimento e a quantidade. Estas peças de reposição não são vendidas em pequenos lotes e não têm preço de lista.',
+    spareWearInquiryBody:
+      'Informe o nome da peça, o diâmetro externo ou o kit, e a quantidade. Confirme a medida na bomba. São peças de desgaste de reposição de Xingtai, não peças originais de outras marcas. Sem venda em pequenos lotes e sem preço de lista.',
+    catalogSizes: 'Medidas do catálogo',
+    catalogSize: 'Medida',
+    catalogForm: 'Forma',
+    catalogUnit: 'Unidade',
+    wearReplacementNote:
+      'Confirme o diâmetro externo ou o kit na bomba antes de pedir. Peças de reposição de Xingtai, não originais de outras marcas. Somente orçamento; sem preço de lista.',
     spareRelated: 'Peças para bomba de concreto',
     fitsPumps: 'Bombas de concreto relacionadas',
   },
@@ -448,6 +456,10 @@ export const messagesPt = {
     applications: 'Aplicações',
     advantages: 'Vantagens',
     relatedModels: 'Modelos relacionados',
+    pipelineParts: 'Peças de tubulação',
+    wearParts: 'Pistões, vedações e molas da válvula S',
+    wearPartsLead:
+      'Pistões de reposição, vedações do tubo S e da mistura, vedações de cilindro, molas de borracha e esferas do braço. Confirme o diâmetro externo na bomba. Reposição de Xingtai, não peças originais de outras marcas. Somente orçamento; sem pequenos lotes.',
     technicalResources: 'Recursos técnicos',
     parameter: 'Parâmetro',
     value: 'Valor',

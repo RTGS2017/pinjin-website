@@ -147,23 +147,26 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
   'spare-parts': {
     h1: L('Concrete Pump Parts Manufacturer', '混凝土泵配件厂家'),
     intro: L(
-      'Hebei Pinjin Machinery supplies pipeline spare parts for its Xingtai-built concrete pumps: delivery pipes, DN200 90° elbows, DN80 clamps and delivery hoses. These replacement parts are quoted after the pump model, diameter and quantity are confirmed. They are not sold in small batches and have no published list price.',
-      '河北品锦机械为邢台产混凝土泵提供管路配件：输送管、DN200 90° 弯管、DN80 管卡与输送胶管。替换件在确认泵型号、管径与数量后报价，不支持小批量发货，也没有公开标价。',
+      'Hebei Pinjin Machinery supplies pipeline parts and S-valve wear parts from Xingtai: delivery pipes, DN200 90° elbows, DN80 clamps, delivery hoses, split and integral pistons, S-tube seals, mixing seals, cylinder seals, rubber springs and swing-arm balls. Replacement parts are quoted after size and quantity are confirmed. They are not sold in small batches and have no published list price. Wear parts are Xingtai replacements — confirm the outer diameter on the pump; they are not OEM parts of other pump brands.',
+      '河北品锦机械从邢台供应管路件与S阀易损件：输送管、DN200 90° 弯管、DN80 管卡、输送胶管、分体/整体活塞、S管密封、搅拌密封、油缸密封、橡胶弹簧与摆臂球头。确认尺寸与数量后报价，不支持小批量发货，也没有公开标价。易损件为邢台替换件，请在泵上核对外径；不是其他泵品牌的原厂件。',
     ),
     applications: [
       L('Wear-part replacement on listed Pinjin pumps', '已列品锦泵的易损件更换'),
+      L('S-valve piston, seal and spring replacement by OD', '按外径更换S阀活塞、密封与弹簧'),
       L('Pipeline extensions matched to a catalogue model', '对照目录机型加长管路'),
       L('Project or container quantities, not parcel lots', '工程量或整柜，不是小包裹批次'),
     ],
     advantages: [
       L('Same Xingtai factory as the concrete pumps', '与混凝土泵同一邢台工厂'),
-      L('Quote by pump model, DN, length and quantity', '按泵型号、管径、长度与数量报价'),
+      L('Published OD / kit table for pistons, seals and springs', '活塞、密封与弹簧公布外径/套件表'),
+      L('Quote by pump model, size and quantity', '按泵型号、尺寸与数量报价'),
       L('No small-batch shipping and no published list price', '不支持小批量发货，无公开标价'),
     ],
     keywords: [
       'Concrete Pump Parts Manufacturer China',
       'concrete pump delivery pipe factory',
       'Xingtai concrete pump spare parts',
+      'concrete pump split piston seal spring',
     ],
     faqs: [
       madeInFaq,
@@ -173,8 +176,8 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
           '这些配件有没有公开价格？',
         ),
         answer: L(
-          'No. Pipeline replacement parts have no list price on this site. Send the pump model, diameter, length and quantity for a factory quote. Small-batch shipping is not offered.',
-          '没有。本站管路替换件不公布标价。请提供泵型号、管径、长度与数量以便工厂报价。不支持小批量发货。',
+          'No. Replacement parts have no list price on this site. Send the part name, size (DN or outer diameter) and quantity for a factory quote. Small-batch shipping is not offered. Wear parts are Xingtai replacements, not OEM parts of other pump brands.',
+          '没有。本站替换件不公布标价。请提供配件名称、尺寸（管径或外径）与数量以便工厂报价。不支持小批量发货。易损件为邢台替换件，不是其他泵品牌的原厂件。',
         ),
       },
       {

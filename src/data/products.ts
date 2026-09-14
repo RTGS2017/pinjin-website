@@ -5,6 +5,7 @@ import {
   productDetailImages,
   productDisplayImages,
 } from '@/data/imageInventory';
+import { wearPartProducts } from '@/data/wearParts';
 
 export type ProductCategory =
   | 'electric-concrete-pump'
@@ -59,6 +60,14 @@ export interface Product {
   geo: ProductGeo;
   /** Wear / pipeline parts: quote only, no published list price. */
   inquiryOnly?: boolean;
+  /** Spare-part grouping on the category page. */
+  partKind?: 'pipeline' | 'wear';
+  /** Catalogue size rows transcribed from the factory wear-part list (no prices). */
+  catalogSizes?: Array<{
+    size: string;
+    form?: LocalizedText;
+    unit?: LocalizedText;
+  }>;
 }
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
@@ -255,9 +264,9 @@ export const categoryMeta: Record<
     routeSlug: 'concrete-pump-parts',
     label: { en: 'Concrete Pump Parts', zh: '混凝土泵配件', ru: 'Запчасти для бетононасосов' },
     description: {
-      en: 'Pipeline spare parts for Pinjin concrete pumps — delivery pipes, elbows, clamps and hoses. Quote only; not sold in small batches.',
-      zh: '品锦混凝土泵管路配件：输送管、弯管、管卡与胶管。询价报价，不支持小批量发货。',
-      ru: 'Трубопроводные запчасти для бетононасосов Pinjin: трубы, колена, хомуты и рукава. Только запрос цены, без мелких партий.',
+      en: 'Pipeline parts and S-valve wear parts for concrete pumps — pipes, elbows, clamps, hoses, pistons, seals and springs. Quote only; not sold in small batches.',
+      zh: '混凝土泵管路件与S阀易损件：输送管、弯管、管卡、胶管、活塞、密封与弹簧。询价报价，不支持小批量发货。',
+      ru: 'Трубопровод и изнашиваемые детали S-клапана: трубы, колена, хомуты, рукава, поршни, уплотнения и пружины. Только запрос цены, без мелких партий.',
     },
   },
 };
@@ -1446,6 +1455,7 @@ export const products: Product[] = [
     slug: 'concrete-pump-delivery-pipe',
     category: 'spare-parts',
     inquiryOnly: true,
+    partKind: 'pipeline',
     ...imgPaths('concrete-pump-delivery-pipe'),
     shortDescription: L(
       'Straight high-pressure concrete pump delivery pipes with coupling ends, manufactured in Xingtai for Pinjin trailer and mixer pumps. Diameter and length are confirmed against the pump model. Not sold in small batches; no published list price.',
@@ -1516,6 +1526,7 @@ export const products: Product[] = [
     slug: 'concrete-pump-elbow-dn200-90',
     category: 'spare-parts',
     inquiryOnly: true,
+    partKind: 'pipeline',
     ...imgPaths('concrete-pump-elbow-dn200-90'),
     shortDescription: L(
       'DN200 R275 90° concrete pump elbow with a mounting bracket, marked as a dedicated pump-truck pipe. Quoted against the pump model and quantity. Not sold in small batches; no published list price.',
@@ -1587,6 +1598,7 @@ export const products: Product[] = [
     slug: 'concrete-pump-pipe-clamp-dn80',
     category: 'spare-parts',
     inquiryOnly: true,
+    partKind: 'pipeline',
     ...imgPaths('concrete-pump-pipe-clamp-dn80'),
     shortDescription: L(
       'Hinged DN80 (3″ / 89) pipe clamp marked EN14420-3 and PN10/16, with a grease nipple and a two-hole mounting base. Quoted by quantity with the matching pump pipeline. Not sold in small batches; no published list price.',
@@ -1658,6 +1670,7 @@ export const products: Product[] = [
     slug: 'concrete-pump-delivery-hose',
     category: 'spare-parts',
     inquiryOnly: true,
+    partKind: 'pipeline',
     ...imgPaths('concrete-pump-delivery-hose'),
     shortDescription: L(
       'High-pressure concrete pump delivery hoses with steel couplings. Diameter and length are quoted against the pump model. Factory stock is packed for project quantities — not small-batch parcels — and has no published list price.',
@@ -1722,6 +1735,7 @@ export const products: Product[] = [
       SPARE_INQUIRE,
     ),
   },
+  ...wearPartProducts,
 ];
 
 export function resolveProductSlug(slug: string): string {

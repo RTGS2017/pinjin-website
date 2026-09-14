@@ -21,6 +21,7 @@ export function withBase(path: string): string {
 export const siteConfig = {
   brandName: 'PINJIN',
   brandNameCn: '品锦',
+  logoPath: '/images/brand/logo-mark.webp',
   layout: {
     maxWidthClass: 'max-w-site',
     sectionYClass: 'section-y',

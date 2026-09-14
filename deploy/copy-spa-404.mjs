@@ -415,8 +415,8 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 280 || uniqueLocs.length > 310) {
-  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~295, 5 langs)`);
+if (uniqueLocs.length < 320 || uniqueLocs.length > 360) {
+  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~335, 5 langs)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -472,6 +472,21 @@ if (b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-
 }
 if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
   console.error('B500S-83D shell must include image alt and noscript img');
+  process.exit(1);
+}
+
+const splitPistonShell = join(distDir, 'en', 'products', 'concrete-pump-split-piston', 'index.html');
+if (!existsSync(splitPistonShell)) {
+  console.error('missing prerendered product shell for /en/products/concrete-pump-split-piston');
+  process.exit(1);
+}
+const splitPistonHtml = readFileSync(splitPistonShell, 'utf8');
+if (!splitPistonHtml.includes('Catalogue sizes') || !splitPistonHtml.includes('φ150')) {
+  console.error('split piston shell must include catalogue size table text');
+  process.exit(1);
+}
+if (/Putzmeister|Schwing|Zoomlion|SANY|XCMG|三一|中联|普茨迈斯特/i.test(splitPistonHtml)) {
+  console.error('split piston shell must not name competing pump brands');
   process.exit(1);
 }
 

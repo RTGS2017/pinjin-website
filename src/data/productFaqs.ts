@@ -48,10 +48,11 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
     .map((s) => `${pick(s.label, lang)}: ${pick(s.value, lang)}`)
     .join(specJoiner(lang));
   const quote = quoteAnswer(lang, name, priceText, inquire, Boolean(product.inquiryOnly));
+  const wear = product.partKind === 'wear';
 
   if (lang === 'zh') {
     return [
-      { question: `${name} 是什么设备？`, answer: what },
+      { question: wear ? `${name} 是什么配件？` : `${name} 是什么设备？`, answer: what },
       { question: `谁需要 ${name}？`, answer: who },
       {
         question: hasSpecs

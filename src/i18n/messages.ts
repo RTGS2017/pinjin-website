@@ -280,6 +280,14 @@ export const messages = {
         'Tell us the model, quantity and project conditions. We will reply by email with a suitable recommendation.',
       spareInquiryBody:
         'Tell us the pump model, diameter (DN), length and quantity. These replacement parts are not sold in small batches and have no published list price.',
+      spareWearInquiryBody:
+        'Tell us the part name, outer diameter or kit size, and quantity. Confirm the size on the pump. These are Xingtai replacement wear parts, not OEM parts of other pump brands. Not sold in small batches; no published list price.',
+      catalogSizes: 'Catalogue sizes',
+      catalogSize: 'Size',
+      catalogForm: 'Form',
+      catalogUnit: 'Unit',
+      wearReplacementNote:
+        'Confirm the outer diameter or kit on the pump before ordering. Xingtai replacement wear parts, not OEM parts of other pump brands. Quote only; no published list price.',
       catalogPrefill:
         'Please send the product catalogue / datasheet for this model.',
       indicativePrice: 'Indicative EXW',
@@ -457,6 +465,10 @@ export const messages = {
       applications: 'Applications',
       advantages: 'Advantages',
       relatedModels: 'Related models',
+      pipelineParts: 'Pipeline parts',
+      wearParts: 'S-valve pistons, seals and springs',
+      wearPartsLead:
+        'Replacement pistons, S-tube and mixing seals, cylinder seals, rubber springs and swing-arm balls. Confirm the outer diameter on the pump. Xingtai replacements, not OEM parts of other pump brands. Quote only; not sold in small batches.',
       technicalResources: 'Technical resources',
       parameter: 'Parameter',
       value: 'Value',
@@ -775,6 +787,14 @@ export const messages = {
         '请告知型号、数量与工况条件，我们将通过邮件回复合适方案。',
       spareInquiryBody:
         '请告知泵型号、管径（DN）、长度与数量。此类替换件不支持小批量发货，也没有公开标价。',
+      spareWearInquiryBody:
+        '请告知配件名称、外径或套件尺寸与数量。请先在泵上核对尺寸。邢台替换易损件，不是其他泵品牌的原厂件。不支持小批量发货，也没有公开标价。',
+      catalogSizes: '目录尺寸',
+      catalogSize: '尺寸',
+      catalogForm: '形式',
+      catalogUnit: '单位',
+      wearReplacementNote:
+        '下单前请在泵上核对外径或套件。邢台替换易损件，不是其他泵品牌的原厂件。询价报价，无公开标价。',
       catalogPrefill: '请提供该型号的产品目录 / 技术参数表。',
       indicativePrice: '参考出厂价',
       spareRelated: '混凝土泵配件',
@@ -936,6 +956,10 @@ export const messages = {
       applications: '应用方向',
       advantages: '分类优势',
       relatedModels: '相关型号',
+      pipelineParts: '管路配件',
+      wearParts: 'S阀活塞、密封与弹簧',
+      wearPartsLead:
+        '替换活塞、S管与搅拌密封、油缸密封、橡胶弹簧与摆臂球头。请在泵上核对外径。邢台替换件，不是其他泵品牌的原厂件。询价报价，不支持小批量发货。',
       technicalResources: '技术资料',
       parameter: '参数',
       value: '数值',

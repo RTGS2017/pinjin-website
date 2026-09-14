@@ -306,15 +306,26 @@ for (const lang of languages.map((item) => item.code)) {
     const path = loc(lang, rest);
     const product = products.find((item) => rest === `/products/${item.slug}`);
     const kind = pageKind(rest);
+    const t = getMessages(lang);
     const specRows = product
-      ? product.specifications.slice(0, 8).map((item) => ({
-          label: tx(item.label, lang),
-          value: tx(item.value, lang),
-        }))
+      ? [
+          ...product.specifications.slice(0, 8).map((item) => ({
+            label: tx(item.label, lang),
+            value: tx(item.value, lang),
+          })),
+          ...(product.catalogSizes ?? []).map((row) => ({
+            label: `${t.detail.catalogSize} ${row.size}`,
+            value: [row.form ? tx(row.form, lang) : '', row.unit ? tx(row.unit, lang) : '']
+              .filter(Boolean)
+              .join(' · '),
+          })),
+        ]
       : undefined;
     const extra =
       product
-        ? `${tx(product.productIntroduction, lang)} ${specRows?.map((item) => `${item.label} ${item.value}`).join(' ') || ''}`
+        ? `${tx(product.productIntroduction, lang)} ${
+            product.catalogSizes?.length ? `${t.detail.catalogSizes} ${t.detail.wearReplacementNote}` : ''
+          } ${specRows?.map((item) => `${item.label} ${item.value}`).join(' ') || ''}`
         : copy.description;
     pages.push({
       path,
