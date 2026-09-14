@@ -103,18 +103,34 @@ export function ProductCategoryPage() {
 
         <SectionTitle title={heading} subtitle={description} heading="h1" />
 
-        {hub.applications.length > 0 ? (
-          <section className="mt-10">
-            <h2 className="text-lg font-semibold text-dark">
-              {t.page.applications}
-            </h2>
-            <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
-              {hub.applications.map((item) => (
-                <li key={item.en}>{tx(item)}</li>
-              ))}
-            </ul>
-          </section>
-        ) : null}
+        <p className="mt-6 max-w-3xl text-text-secondary">{tx(hub.directAnswer)}</p>
+
+        <section className="mt-10 grid gap-6 lg:grid-cols-2">
+          {hub.applications.length > 0 ? (
+            <div className="border border-border p-5">
+              <h2 className="text-lg font-semibold text-dark">
+                {t.page.applications}
+              </h2>
+              <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+                {hub.applications.map((item) => (
+                  <li key={item.en}>{tx(item)}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+          {hub.notSuitable.length > 0 ? (
+            <div className="border border-border p-5">
+              <h2 className="text-lg font-semibold text-dark">
+                {t.detail.notSuitable}
+              </h2>
+              <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+                {hub.notSuitable.map((item) => (
+                  <li key={item.en}>{tx(item)}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+        </section>
 
         {hub.advantages.length > 0 ? (
           <section className="mt-10">

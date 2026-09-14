@@ -39,6 +39,10 @@ export interface BlogSection {
   heading: LocalizedText;
   paragraphs: LocalizedText[];
   bullets?: LocalizedText[];
+  table?: {
+    headers: LocalizedText[];
+    rows: LocalizedText[][];
+  };
   image?: {
     src: string;
     alt: LocalizedText;
@@ -64,6 +68,7 @@ export interface BlogPost {
   relatedPaths: BlogRelatedPath[];
   content: BlogSection[];
   faqs?: Array<{ question: LocalizedText; answer: LocalizedText }>;
+  directAnswer?: LocalizedText;
 }
 
 /** 知识中心正文在 knowledgeArticles.ts；本文件只放类型与读取函数。 */

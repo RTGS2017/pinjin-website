@@ -62,6 +62,8 @@ export const messages = {
       title: 'China Professional Concrete Machinery Manufacturer',
       subtitle:
         'Electric concrete pumps, diesel concrete pumps, mixer pumps, pipeline spare parts and OEM customization from Xingtai.',
+      directAnswer:
+        'Hebei Pinjin Machinery manufactures electric and diesel trailer concrete pumps and mixer pumps in Xingtai, Hebei, China. Match mix, aggregate, pipeline distance and site power to the published catalogue. These are not truck-mounted boom pumps, mortar sprayers or batching plants. Spare parts are quoted after size confirmation, with no list price and no overseas warehouse claimed.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
     },
@@ -261,7 +263,8 @@ export const messages = {
       definition: 'Definition',
       whoNeeds: 'Who needs this equipment',
       whereUsed: 'Where it is used',
-      relatedCases: 'Related engineering applications',
+      relatedCases:
+        'Photos on this page are factory or catalogue shots from Xingtai. They are not third-party project case studies.',
       contactEngineerLead:
         'Tell the factory engineering team the model, quantity and site conditions.',
       applications: 'Application Scenarios',
@@ -293,6 +296,11 @@ export const messages = {
       indicativePrice: 'Indicative EXW',
       spareRelated: 'Concrete pump spare parts',
       fitsPumps: 'Related concrete pumps',
+      notSuitable: 'Not suitable for',
+      howToSelect: 'How to choose',
+      buyProcess: 'From inquiry to shipment',
+      evidence: 'Evidence on this page',
+      inquiryBrief: 'Site conditions for a quote',
     },
     about: {
       eyebrow: 'About Us',
@@ -326,6 +334,11 @@ export const messages = {
       recommended: 'Recommended models',
       why: 'Based on catalogue parameters',
       viewProduct: 'View product',
+      colModel: 'Model',
+      colPower: 'Power',
+      colOutput: 'Catalogue output',
+      colDistance: 'Catalogue distance',
+      colBound: 'Bound',
     },
     footer: {
       tagline: 'Professional source manufacturer of delivery pumps.',
@@ -363,7 +376,7 @@ export const messages = {
       homeTitle:
         'Concrete Pump Manufacturer China | Hebei Pinjin Machinery',
       homeDesc:
-        'Concrete machinery manufacturer in China. Hebei Pinjin Machinery builds electric and diesel concrete pumps and mixer pumps in Xingtai, Hebei, in the Xingjiawan manufacturing area.',
+        'Hebei Pinjin Machinery in Xingtai, China manufactures electric and diesel trailer concrete pumps and mixer pumps. Match catalogue output, distance and power. Not boom pumps or batching plants. No overseas warehouse claimed.',
       productsTitle:
         'Concrete Pump Manufacturer China | Pinjin Machinery',
       aboutTitle:
@@ -398,6 +411,20 @@ export const messages = {
       email: 'Email',
       product: 'Product interested',
       quantity: 'Quantity',
+      material: 'Material / mix',
+      aggregateSize: 'Maximum aggregate size',
+      targetOutput: 'Required output',
+      distanceH: 'Horizontal pumping distance',
+      distanceV: 'Vertical pumping distance',
+      powerCondition: 'Power condition (diesel or voltage / frequency)',
+      roleTiming: 'Buyer role and timing',
+      contactChannel: 'Preferred contact',
+      partName: 'Part name',
+      outerDiameter: 'Outer diameter or kit',
+      dn: 'Diameter (DN)',
+      length: 'Length',
+      formLead:
+        'Fill what you know. WhatsApp or email still opens with this list. Empty fields are omitted. No overseas warehouse is claimed.',
       message: 'Message',
       submit: 'Send inquiry',
       submitting: 'Sending…',
@@ -580,6 +607,8 @@ export const messages = {
         '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，是混凝土泵等工程机械的源头制造商，从事研发、生产与销售。',
       title: '中国专业混凝土机械制造商',
       subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵、管路配件，以及来自邢台的 OEM 定制。',
+      directAnswer:
+        '河北品锦机械在中国河北邢台制造电动、柴油拖式混凝土泵与搅拌泵。请按已公布目录对照配合比、骨料、管路距离与现场动力。这些不是车载臂架泵、砂浆喷涂机或搅拌站。配件确认尺寸后报价，无公开标价，也不声称拥有海外仓。',
       explore: '浏览产品',
       quote: '联系工程师',
     },
@@ -769,7 +798,7 @@ export const messages = {
       definition: '定义',
       whoNeeds: '谁需要这台设备',
       whereUsed: '应用场合',
-      relatedCases: '相关工程应用',
+      relatedCases: '本页照片为邢台工厂或目录实拍，不是第三方工程案例。',
       contactEngineerLead: '请告知工厂工程团队型号、数量与工况条件。',
       applications: '应用场景',
       advantages: '核心优势',
@@ -799,6 +828,11 @@ export const messages = {
       indicativePrice: '参考出厂价',
       spareRelated: '混凝土泵配件',
       fitsPumps: '相关混凝土泵',
+      notSuitable: '不适用',
+      howToSelect: '怎么选',
+      buyProcess: '从询盘到发货',
+      evidence: '本页证据',
+      inquiryBrief: '报价所需工况',
     },
     about: {
       eyebrow: '关于我们',
@@ -827,6 +861,11 @@ export const messages = {
       recommended: '推荐对照型号',
       why: '依据目录参数',
       viewProduct: '查看产品',
+      colModel: '型号',
+      colPower: '动力',
+      colOutput: '目录产量',
+      colDistance: '目录距离',
+      colBound: '边界',
     },
     footer: {
       tagline: '专业输送泵生产源头厂家。',
@@ -863,7 +902,7 @@ export const messages = {
     seo: {
       homeTitle: '中国混凝土泵厂家 | 河北品锦机械',
       homeDesc:
-        '河北品锦机械是中国混凝土机械制造商，在河北邢台（邢家湾混凝土机械集聚区语境）生产电动/柴油混凝土泵与搅拌泵，工厂地址为任泽工业园区。',
+        '河北品锦机械在中国邢台制造电动、柴油拖式混凝土泵与搅拌泵。请按目录对照产量、距离与动力。不是臂架泵或搅拌站。不声称拥有海外仓。',
       productsTitle: '中国混凝土泵厂家 | 品锦机械',
       aboutTitle: '邢台工程机械工厂 | 品锦机械',
       contactTitle: '联系中国混凝土泵厂家 | 品锦',
@@ -894,6 +933,20 @@ export const messages = {
       email: '邮箱',
       product: '意向产品',
       quantity: '数量',
+      material: '材料 / 配合比',
+      aggregateSize: '最大骨料粒径',
+      targetOutput: '目标产量',
+      distanceH: '水平输送距离',
+      distanceV: '垂直输送距离',
+      powerCondition: '动力条件（柴油或电压/频率）',
+      roleTiming: '买家角色与采购时间',
+      contactChannel: '首选联系方式',
+      partName: '配件名称',
+      outerDiameter: '外径或套件',
+      dn: '管径（DN）',
+      length: '长度',
+      formLead:
+        '知道多少填多少。WhatsApp 或邮件会带上这份清单，空项会省略。本站不声称拥有海外仓。',
       message: '需求说明',
       submit: '发送询盘',
       submitting: '发送中…',

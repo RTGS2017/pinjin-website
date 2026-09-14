@@ -95,6 +95,25 @@ export const article: BlogPost = {
         'Electric 20 Concrete Pump',
         '电动20型混凝土泵',
       ),
+      table: {
+        headers: [
+          L('Catalogue line', '目录行'),
+          L('Electric 20', '电动20'),
+          L('Electric 30', '电动30'),
+        ],
+        rows: [
+          [L('Motor power', '电机功率'), L('22 kW', '22 kW'), L('30 kW', '30 kW')],
+          [L('Theoretical output', '理论输送量'), L('8–10 m³/h', '8–10 m³/h'), L('12–15 m³/h', '12–15 m³/h')],
+          [L('Outlet pressure', '出口压力'), L('10 MPa', '10 MPa'), L('20 MPa', '20 MPa')],
+          [L('Hopper', '料斗'), L('0.25 m³', '0.25 m³'), L('0.3 m³', '0.3 m³')],
+          [
+            L('Published distance', '已公布距离'),
+            L('120 m horizontal / 40 m vertical', '水平 120 m / 40 m'),
+            L('Fine-stone 60 m / 180 m', '细石 60 m / 180 m'),
+          ],
+          [L('Weight', '整机重量'), L('900 kg', '900 kg'), L('1200 kg', '1200 kg')],
+        ],
+      },
     },
     {
       heading: L(

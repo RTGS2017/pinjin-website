@@ -68,6 +68,12 @@ export interface Product {
     form?: LocalizedText;
     unit?: LocalizedText;
   }>;
+  /** P01 40–80 word answer. If omitted, derived from productIntroduction + catalogue bounds. */
+  directAnswer?: LocalizedText;
+  /** Explicit “not suitable” bounds. If omitted, derived by category. */
+  notSuitable?: LocalizedText[];
+  /** How to choose / what to send. If omitted, derived by category. */
+  howToSelect?: LocalizedText;
 }
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });

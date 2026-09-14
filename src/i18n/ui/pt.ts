@@ -53,6 +53,8 @@ export const messagesPt = {
     title: 'Fabricante profissional de máquinas de concreto na China',
     subtitle:
       'Bombas de concreto elétricas, a diesel, misturadoras e customização OEM a partir de Xingtai.',
+    directAnswer:
+      'A Hebei Pinjin Machinery fabrica bombas de concreto reboque elétricas e a diesel e bombas misturadoras em Xingtai, Hebei, China. Compare mistura, agregado, distância e energia com o catálogo publicado. Não são bombas com lança, pulverizadores nem usinas de concreto. Peças são cotadas após confirmar medidas, sem preço de lista e sem armazém no exterior.',
     explore: 'Ver produtos',
     quote: 'Falar com engenheiro',
   },
@@ -251,7 +253,8 @@ export const messagesPt = {
     definition: 'Definição',
     whoNeeds: 'Quem precisa deste equipamento',
     whereUsed: 'Onde é usado',
-    relatedCases: 'Aplicações de engenharia relacionadas',
+    relatedCases:
+      'As fotos nesta página são da fábrica ou do catálogo em Xingtai. Não são estudos de caso de terceiros.',
     contactEngineerLead:
       'Informe à engenharia da fábrica o modelo, a quantidade e as condições da obra.',
     applications: 'Cenários de aplicação',
@@ -284,6 +287,11 @@ export const messagesPt = {
       'Confirme o diâmetro externo ou o kit na bomba antes de pedir. Peças de reposição de Xingtai, não originais de outras marcas. Somente orçamento; sem preço de lista.',
     spareRelated: 'Peças para bomba de concreto',
     fitsPumps: 'Bombas de concreto relacionadas',
+    notSuitable: 'Não adequado para',
+    howToSelect: 'Como escolher',
+    buyProcess: 'Da consulta ao envio',
+    evidence: 'Evidência nesta página',
+    inquiryBrief: 'Condições da obra para cotação',
   },
   about: {
     eyebrow: 'Sobre nós',
@@ -317,6 +325,11 @@ export const messagesPt = {
     recommended: 'Modelos recomendados',
     why: 'Com base nos parâmetros do catálogo',
     viewProduct: 'Ver produto',
+    colModel: 'Modelo',
+    colPower: 'Potência',
+    colOutput: 'Vazão do catálogo',
+    colDistance: 'Distância do catálogo',
+    colBound: 'Limite',
   },
   footer: {
     tagline: 'Fabricante de origem de bombas de transporte.',
@@ -389,6 +402,20 @@ export const messagesPt = {
     email: 'E-mail',
     product: 'Produto de interesse',
     quantity: 'Quantidade',
+    material: 'Material / mistura',
+    aggregateSize: 'Tamanho máximo do agregado',
+    targetOutput: 'Vazão necessária',
+    distanceH: 'Distância horizontal de bombeamento',
+    distanceV: 'Distância vertical de bombeamento',
+    powerCondition: 'Energia (diesel ou tensão / frequência)',
+    roleTiming: 'Função do comprador e prazo',
+    contactChannel: 'Contacto preferido',
+    partName: 'Nome da peça',
+    outerDiameter: 'Diâmetro externo ou kit',
+    dn: 'Diâmetro (DN)',
+    length: 'Comprimento',
+    formLead:
+      'Preencha o que souber. WhatsApp ou e-mail abre com esta lista. Campos vazios são omitidos. Não reivindicamos armazém no exterior.',
     message: 'Mensagem',
     submit: 'Enviar consulta',
     submitting: 'Enviando…',

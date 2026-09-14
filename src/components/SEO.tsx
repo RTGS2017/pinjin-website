@@ -415,6 +415,27 @@ export function buildFaqPageJsonLd(
   };
 }
 
+export function buildHowToJsonLd(input: {
+  name: string;
+  description: string;
+  path: string;
+  steps: string[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: input.name,
+    description: input.description,
+    url: absoluteUrl(input.path),
+    step: input.steps.map((text, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: text,
+      text,
+    })),
+  };
+}
+
 export function buildBreadcrumbJsonLd(
   items: Array<{ name: string; path: string }>,
 ) {

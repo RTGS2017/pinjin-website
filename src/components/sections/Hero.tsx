@@ -63,8 +63,8 @@ export function Hero() {
                   <h1 className="mt-5 heading-display text-4xl text-white sm:text-5xl lg:text-[3.25rem]">
                     {t.hero.title}
                   </h1>
-                  <p className="mt-5 max-w-xl text-base leading-relaxed text-white/82 sm:text-lg">
-                    {t.hero.subtitle}
+                  <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/82 sm:text-lg">
+                    {t.hero.directAnswer}
                   </p>
                   <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                     <Button to="/products" size="lg" className="w-full sm:w-auto">

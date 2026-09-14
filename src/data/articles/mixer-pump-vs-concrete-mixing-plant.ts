@@ -64,6 +64,30 @@ export const article: BlogPost = {
           '任泽工业园区里，我们已公布的产品线覆盖电动拖泵、柴油拖泵和搅拌泵一体机。目录里没有配料站、没有车载臂架泵、也没有喷浆机。工地若要从搅拌站拉商品混凝土，搅拌泵替不了那个场地。工地若要在现场拌料再经管道浇筑，搅拌泵才是我们真正发货的机型。',
         ),
       ],
+      table: {
+        headers: [
+          L('Point', '对照点'),
+          L('Mixer pump (Pinjin catalogue)', '搅拌泵（品锦目录）'),
+          L('Mixing plant', '搅拌站'),
+        ],
+        rows: [
+          [
+            L('What it is', '是什么'),
+            L('Mix and pump on one trailer', '同一拖车搅拌并泵送'),
+            L('Yard batching that loads trucks', '场地计量搅拌并装车'),
+          ],
+          [
+            L('Published output', '已公布产量'),
+            L('Electric 21 m³/h; diesel 25 m³/h', '电动 21 m³/h；柴油 25 m³/h'),
+            L('Not listed — Pinjin does not manufacture plants', '未列入——品锦不生产搅拌站'),
+          ],
+          [
+            L('Power on this site', '本站动力'),
+            L('Electric 45 kW + 14 kW, or diesel 4108 66–75 kW', '电动 45 kW + 14 kW，或柴油 4108 66–75 kW'),
+            L('Not a Pinjin catalogue line', '不是品锦目录行'),
+          ],
+        ],
+      },
     },
     {
       heading: L(

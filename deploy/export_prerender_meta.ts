@@ -23,6 +23,9 @@ import {
 } from '@/data/products';
 import { categoryHubs } from '@/data/categoryHubs';
 import { getBlogPosts } from '@/data/blog';
+import { getBlogDirectAnswer, getBlogFaqs } from '@/data/blogGeo';
+import { getDirectAnswer, getHowToSelect, getNotSuitable } from '@/data/productP01';
+import { getProductFaqs } from '@/data/productFaqs';
 import { applicationPages } from '@/data/applicationsContent';
 import { marketsContent } from '@/data/markets';
 import { customMachineryContent } from '@/data/customMachinery';
@@ -321,12 +324,66 @@ for (const lang of languages.map((item) => item.code)) {
           })),
         ]
       : undefined;
-    const extra =
-      product
-        ? `${tx(product.productIntroduction, lang)} ${
-            product.catalogSizes?.length ? `${t.detail.catalogSizes} ${t.detail.wearReplacementNote}` : ''
-          } ${specRows?.map((item) => `${item.label} ${item.value}`).join(' ') || ''}`
-        : copy.description;
+    const extra = product
+      ? [
+          tx(getDirectAnswer(product), lang),
+          getNotSuitable(product).map((item) => tx(item, lang)).join(' '),
+          tx(getHowToSelect(product), lang),
+          [
+            t.inquiry.material,
+            t.inquiry.aggregateSize,
+            t.inquiry.targetOutput,
+            t.inquiry.distanceH,
+            t.inquiry.distanceV,
+            t.inquiry.powerCondition,
+            t.inquiry.country,
+            t.inquiry.roleTiming,
+            t.inquiry.partName,
+            t.inquiry.outerDiameter,
+            t.inquiry.dn,
+            t.inquiry.quantity,
+          ].join(' '),
+          getProductFaqs(product, lang)
+            .map((item) => `${item.question} ${item.answer}`)
+            .join(' '),
+          specRows?.map((item) => `${item.label} ${item.value}`).join(' ') || '',
+          product.catalogSizes?.length
+            ? `${t.detail.catalogSizes} ${t.detail.wearReplacementNote}`
+            : '',
+        ].join(' ')
+      : rest === '/'
+        ? t.hero.directAnswer
+        : (() => {
+            const hubEntry = categoryEntries.find(
+              ([category]) => `/products/${categoryMeta[category].routeSlug}` === rest,
+            );
+            if (hubEntry) {
+              const [, hub] = hubEntry;
+              return [
+                tx(hub.directAnswer, lang),
+                hub.notSuitable.map((item) => tx(item, lang)).join(' '),
+                hub.faqs.map((item) => `${tx(item.question, lang)} ${tx(item.answer, lang)}`).join(' '),
+              ].join(' ');
+            }
+            const post = posts.find((item) => rest === `/blog/${item.slug}`);
+            if (post) {
+              return [
+                tx(getBlogDirectAnswer(post), lang),
+                getBlogFaqs(post)
+                  .map((item) => `${tx(item.question, lang)} ${tx(item.answer, lang)}`)
+                  .join(' '),
+              ].join(' ');
+            }
+            if (rest === '/markets') {
+              return [
+                tx(marketsContent.intro, lang),
+                marketsContent.faqs
+                  .map((item) => `${tx(item.question, lang)} ${tx(item.answer, lang)}`)
+                  .join(' '),
+              ].join(' ');
+            }
+            return copy.description;
+          })();
     pages.push({
       path,
       rest,

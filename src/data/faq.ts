@@ -177,6 +177,39 @@ export const siteFaqs: FaqItem[] = [
       zh: '最大骨料粒径因型号而异。目录示例：电动15 为 1–3 cm，电动80 为 ≤2 cm，柴油120 与 LZ-80 为 6 cm 及以下。骨料允许值不足易堵管，请务必对照配合比核对该参数。',
     },
   },
+  {
+    id: 'not-suitable',
+    question: {
+      en: 'What is Pinjin equipment not suitable for?',
+      zh: '品锦设备不适用什么工况？',
+    },
+    answer: {
+      en: 'Listed pumps are not truck-mounted placing booms, dedicated mortar sprayers, grout pumps or concrete mixing plants. Electric models need the listed grid supply. Compact frames such as Electric 15 are not substitutes for Electric 60 / 80 high-rise or 900 m rows. Mixer pumps mix and pump on one trailer; they are not a batching-plant line.',
+      zh: '已列泵不是车载布料杆、独立砂浆喷涂机、灌浆泵或混凝土搅拌站。电机型需要目录所列电网。电动15一类紧凑机不能替代电动60/80高层或 900 m 行。搅拌泵是同一拖车搅拌并泵送，不是搅拌站产品线。',
+    },
+  },
+  {
+    id: 'inquiry-fields',
+    question: {
+      en: 'What should a quote inquiry include?',
+      zh: '报价询盘要带哪些信息？',
+    },
+    answer: {
+      en: 'Send mix or material, maximum aggregate, required output, horizontal and vertical pumping distance, diesel or site voltage/frequency, country, buyer role and timing. Spare parts: part name, DN or outer diameter, and quantity. Use WhatsApp or email. Empty fields can be omitted.',
+      zh: '请发送材料/配合比、最大骨料、目标产量、水平与垂直输送距离、柴油或现场电压频率、国家、买家角色与采购时间。配件请带名称、管径或外径与数量。使用 WhatsApp 或邮件。空项可省略。',
+    },
+  },
+  {
+    id: 'no-overseas-warehouse',
+    question: {
+      en: 'Do you have an overseas warehouse or a published dealer network?',
+      zh: '是否有海外仓或公开经销网络？',
+    },
+    answer: {
+      en: 'No. Equipment ships from Xingtai. Target-market pages describe catalogue matching for export jobs; they do not mean a local warehouse, exclusive distributors or a global after-sales network.',
+      zh: '没有。设备从邢台发货。目标市场页说明的是按目录参数匹配出口工况，不表示当地仓库、独家经销商或全球售后网络。',
+    },
+  },
 ];
 
 export function buildFaqPageJsonLd(faqs: FaqItem[], lang: Lang) {

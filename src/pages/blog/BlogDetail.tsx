@@ -6,11 +6,13 @@ import {
   buildArticleJsonLd,
   buildBreadcrumbJsonLd,
   buildFaqPageJsonLd,
+  buildHowToJsonLd,
 } from '@/components/SEO';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ContactActions } from '@/components/ui/ContactActions';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { InternalLinks } from '@/components/InternalLink';
+import { getBlogDirectAnswer, getBlogFaqPlain, maintenanceHowToSteps } from '@/data/blogGeo';
 import { blogCategoryMeta, getBlogPost } from '@/data/blog';
 import { getCategoryPath, getProductBySlug, categoryMeta } from '@/data/products';
 import { clusterForBlog } from '@/data/topicClusters';
@@ -46,10 +48,7 @@ export function BlogDetail() {
   const categoryHub = relatedProducts[0]
     ? getCategoryPath(relatedProducts[0].category)
     : '/products';
-  const faqs = (post.faqs ?? []).map((item) => ({
-    question: tx(item.question),
-    answer: tx(item.answer),
-  }));
+  const faqs = getBlogFaqPlain(post, lang);
   const jsonLd = [
     buildArticleJsonLd({
       headline: title,
@@ -68,6 +67,16 @@ export function BlogDetail() {
       { name: title, path: localizedPath },
     ]),
     ...(faqs.length > 0 ? [buildFaqPageJsonLd(faqs)] : []),
+    ...(post.slug === 'concrete-pump-daily-maintenance-checklist'
+      ? [
+          buildHowToJsonLd({
+            name: title,
+            description,
+            path: localizedPath,
+            steps: maintenanceHowToSteps.map((step) => tx(step)),
+          }),
+        ]
+      : []),
   ];
 
   return (
@@ -112,7 +121,7 @@ export function BlogDetail() {
         <h1 className="mt-3 heading-display max-w-4xl text-3xl sm:text-4xl">
           {title}
         </h1>
-        <p className="mt-4 max-w-3xl text-text-secondary">{description}</p>
+        <p className="mt-4 max-w-3xl text-text-secondary">{tx(getBlogDirectAnswer(post))}</p>
         <p className="mt-3 text-sm text-text-secondary">
           {t.blog.published}: {post.date}
           {post.dateModified && post.dateModified !== post.date
@@ -156,6 +165,32 @@ export function BlogDetail() {
                     <li key={item.en}>{tx(item)}</li>
                   ))}
                 </ul>
+              ) : null}
+              {section.table ? (
+                <div className="mt-5 overflow-x-auto border border-border">
+                  <table className="min-w-full text-left text-sm">
+                    <thead className="bg-bg-soft text-dark">
+                      <tr>
+                        {section.table.headers.map((header) => (
+                          <th key={header.en} className="px-3 py-2 font-semibold">
+                            {tx(header)}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {section.table.rows.map((row) => (
+                        <tr key={row.map((cell) => cell.en).join('|')} className="border-t border-border">
+                          {row.map((cell) => (
+                            <td key={cell.en} className="px-3 py-2 text-text-secondary">
+                              {tx(cell)}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
               ) : null}
             </section>
           ))}

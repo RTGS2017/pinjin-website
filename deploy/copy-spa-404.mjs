@@ -88,6 +88,15 @@ if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
   console.error('dist/robots.txt must point Google to https://pinjinpump.com/sitemap.xml');
   process.exit(1);
 }
+if (!robotsText.includes('OAI-SearchBot')) {
+  console.error('dist/robots.txt must allow OAI-SearchBot');
+  process.exit(1);
+}
+const llmsTxt = join(distDir, 'llms.txt');
+if (!existsSync(llmsTxt)) {
+  console.error('dist/llms.txt missing');
+  process.exit(1);
+}
 
 if (!existsSync(metaFile)) {
   console.error('deploy/prerender-meta.json missing; run deploy/export_prerender_meta.ts first');

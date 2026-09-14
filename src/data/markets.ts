@@ -126,5 +126,67 @@ export const marketsContent = {
         },
       ),
     },
+    {
+      heading: L(
+        'No overseas warehouse and no exclusive dealer list',
+        '不声称海外仓，也无独家经销名单',
+        {
+          pt: 'Sem armazém no exterior e sem lista exclusiva de distribuidores',
+          ar: 'لا مستودع خارجي ولا قائمة وكلاء حصريين',
+          ru: 'Без зарубежного склада и без списка эксклюзивных дистрибьюторов',
+        },
+      ),
+      body: L(
+        'Saudi Arabia, Brazil and Indonesia appear in internal topic planning because those export jobs often match published diesel or electric tables. This page does not mean Pinjin keeps a warehouse, exclusive distributor or after-sales desk in those countries. Model choice still follows the Xingtai catalogue.',
+        '沙特、巴西与印尼出现在内部选题里，是因为这类出口工况常能对上已公布的柴油或电机目录表。本页不表示品锦在这些国家设有仓库、独家经销商或售后网点。选型仍对照邢台目录。',
+        {
+          pt: 'Arábia Saudita, Brasil e Indonésia entram no planejamento interno porque essas obras de exportação costumam caber nas tabelas a diesel ou elétricas. Esta página não significa armazém, distribuidor exclusivo ou pós-venda nesses países. A escolha segue o catálogo de Xingtai.',
+          ar: 'تظهر السعودية والبرازيل وإندونيسيا في التخطيط الداخلي لأن تلك المشاريع غالباً تطابق جداول الديزل أو الكهرباء المنشورة. هذه الصفحة لا تعني مستودعاً أو وكيلاً حصرياً أو خدمة ما بعد البيع في تلك الدول. الاختيار يبقى حسب كتالوج شينغتاي.',
+          ru: 'Саудовская Аравия, Бразилия и Индонезия есть во внутреннем плане тем, потому что такие экспортные задачи часто совпадают с дизельными или электрическими таблицами. Страница не означает склад, эксклюзивного дистрибьютора или сервис в этих странах. Выбор модели — по каталогу Синтая.',
+        },
+      ),
+    },
+  ],
+  faqs: [
+    {
+      question: L(
+        'Do target markets mean you stock machines in those countries?',
+        '目标市场是不是表示在那些国家有库存？',
+        {
+          pt: 'Mercados-alvo significam estoque nesses países?',
+          ar: 'هل الأسواق المستهدفة تعني مخزوناً في تلك الدول؟',
+          ru: 'Целевые рынки означают склад в этих странах?',
+        },
+      ),
+      answer: L(
+        'No. Equipment ships from Xingtai. The page describes which catalogue rows often match export site conditions. It does not claim a local warehouse or exclusive dealer list.',
+        '不是。设备从邢台发货。本页说明哪些目录行常能对上出口工况，不声称当地仓库或独家经销名单。',
+        {
+          pt: 'Não. O equipamento sai de Xingtai. A página descreve linhas do catálogo que costumam caber em obras de exportação. Não afirma armazém local nem lista exclusiva.',
+          ar: 'لا. تُشحن المعدات من شينغتاي. الصفحة تصف صفوف الكتالوج التي غالباً تناسب ظروف التصدير. لا ندّعي مستودعاً محلياً أو قائمة وكلاء حصريين.',
+          ru: 'Нет. Отгрузка из Синтая. Страница описывает строки каталога, которые часто совпадают с экспортными условиями. Без местного склада и без эксклюзивного списка.',
+        },
+      ),
+    },
+    {
+      question: L(
+        'How should an export inquiry be written?',
+        '出口询盘应写什么？',
+        {
+          pt: 'Como escrever uma consulta de exportação?',
+          ar: 'كيف تُكتب استفسار التصدير؟',
+          ru: 'Как писать экспортный запрос?',
+        },
+      ),
+      answer: L(
+        'Send mix, aggregate size, required output, horizontal and vertical distance, diesel or voltage/frequency, country and timing. Pinjin quotes from Xingtai by WhatsApp or email.',
+        '请发送配合比、骨料粒径、目标产量、水平与垂直距离、柴油或电压频率、国家与时间。品锦由邢台通过 WhatsApp 或邮件报价。',
+        {
+          pt: 'Envie mistura, agregado, vazão, distância horizontal e vertical, diesel ou tensão/frequência, país e prazo. A Pinjin cotiza de Xingtai por WhatsApp ou e-mail.',
+          ar: 'أرسل الخلطة وحجم الركام والإنتاج والمسافة الأفقية والرأسية والديزل أو الجهد/التردد والبلد والتوقيت. تسعّر بينجين من شينغتاي عبر واتساب أو البريد.',
+          ru: 'Пришлите смесь, фракцию, производительность, горизонталь и вертикаль, дизель или напряжение/частоту, страну и срок. Pinjin котирует из Синтая в WhatsApp или на почту.',
+        },
+      ),
+    },
   ],
 } as const;

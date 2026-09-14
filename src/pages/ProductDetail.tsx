@@ -20,10 +20,16 @@ import { isProductCatalogImage } from '@/data/imageInventory';
 import { clusterForProduct } from '@/data/topicClusters';
 import { InternalLinks } from '@/components/InternalLink';
 import { getProductFaqs } from '@/data/productFaqs';
-import { SpecItem } from '@/components/ui/SpecItem';
+import {
+  getBuyProcess,
+  getDirectAnswer,
+  getHowToSelect,
+  getNotSuitable,
+} from '@/data/productP01';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ProductGallery } from '@/components/ui/ProductGallery';
 import { ContactActions } from '@/components/ui/ContactActions';
+import { InquiryBrief } from '@/components/ui/InquiryBrief';
 import { Customization } from '@/components/sections/Customization';
 import { FactoryProofStrip } from '@/components/sections/FactoryOverview';
 import { OemNote } from '@/components/ui/OemNote';
@@ -59,7 +65,7 @@ export function ProductDetail() {
   const path = `/products/${product.slug}`;
   const localizedPath = localePath(path, lang);
   const related = getRelatedProducts(product);
-  const faqs = getProductFaqs(product, lang).slice(0, 5);
+  const faqs = getProductFaqs(product, lang);
   const categoryLabel = tx(categoryMeta[product.category].label);
   const categoryPath = getCategoryPath(product.category);
   const seoTitle = tx(product.seo.title);
@@ -70,13 +76,11 @@ export function ProductDetail() {
     ...product.seo.keywords.longTail,
   ].join(', ');
 
-  const highlightSpecs = product.specifications.slice(0, 4);
   const gallery = product.gallery;
   const catalogImage = gallery[0] ?? product.image;
   const catalogShot = isProductCatalogImage(catalogImage);
   const price = getIndicativePrice(product.slug);
   const quoteOnly = isInquiryOnlyProduct(product);
-  const advantages = product.keyFeatures.slice(0, 5);
   const inquireMessage = `${name}\n${
     quoteOnly
       ? product.partKind === 'wear'
@@ -86,6 +90,11 @@ export function ProductDetail() {
   }`;
   const spareParts = quoteOnly ? [] : getSpareParts();
   const relatedPumps = quoteOnly ? getFeaturedProducts(featuredProductSlugs).slice(0, 3) : [];
+  const notSuitable = getNotSuitable(product);
+  const buySteps = getBuyProcess(product);
+  const solutionLinks = clusterForProduct(product.category).relatedSolutions.filter((link) =>
+    link.href.startsWith('/solutions'),
+  );
 
   return (
     <section className="section-y bg-bg">
@@ -174,100 +183,34 @@ export function ProductDetail() {
               {categoryLabel}
             </p>
             <h1 className="mt-3 heading-display text-3xl sm:text-4xl">{name}</h1>
-            <p className="mt-5 text-text-secondary">{tx(product.shortDescription)}</p>
+            <p className="mt-5 text-text-secondary">{tx(getDirectAnswer(product))}</p>
             {quoteOnly ? <SparePartTerms /> : <ProductPrice slug={product.slug} />}
-
-            {highlightSpecs.length > 0 ? (
-              <div className="mt-8">
-                <h2 className="text-sm font-semibold tracking-[0.14em] text-dark">
-                  {t.detail.keySpecs}
-                </h2>
-                <dl className="mt-3 border border-border p-4">
-                  {highlightSpecs.map((spec) => (
-                    <SpecItem
-                      key={spec.label.en}
-                      label={tx(spec.label)}
-                      value={tx(spec.value)}
-                    />
-                  ))}
-                </dl>
-              </div>
-            ) : null}
-
-            <div className="mt-6">
-              <OemNote className="mb-5" />
-              <ContactActions
-                subject={`${t.mailSubjectInquiry} - ${name}`}
-                message={inquireMessage}
-                showCustom
-              />
-            </div>
+            <p className="mt-6">
+              <a href="#inquiry" className="text-sm font-semibold text-primary hover:underline">
+                {t.detail.inquiryBrief} →
+              </a>
+            </p>
           </div>
         </div>
 
-        <section className="mt-14 border border-border p-6">
-          <h2 className="heading-display text-2xl">{t.detail.entity}</h2>
-          <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
-            <div>
-              <dt className="font-semibold text-dark">{t.detail.entityManufacturer}</dt>
-              <dd className="mt-1 text-text-secondary">
-                {companyEntity.legalName[lang] || companyEntity.legalName.en}
-              </dd>
-            </div>
-            <div>
-              <dt className="font-semibold text-dark">{t.detail.entityLocation}</dt>
-              <dd className="mt-1 text-text-secondary">
-                {`${companyEntity.location.line1[lang] || companyEntity.location.line1.en}, ${companyEntity.location.locality}, ${companyEntity.location.region}, ${companyEntity.location.country} ${companyEntity.location.postalCode}`}
-              </dd>
-            </div>
-            <div>
-              <dt className="font-semibold text-dark">{t.detail.entitySpecialization}</dt>
-              <dd className="mt-1 text-text-secondary">
-                {companyEntity.specialization[lang] || companyEntity.specialization.en}
-              </dd>
-            </div>
-            <div>
-              <dt className="font-semibold text-dark">{t.detail.entityCustomization}</dt>
-              <dd className="mt-1 text-text-secondary">
-                {companyEntity.customization[lang] || companyEntity.customization.en}
-              </dd>
-            </div>
-          </dl>
-        </section>
-
-        <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">
-            {t.detail.overview}
-          </h2>
-          <p className="mt-4 text-text-secondary">{tx(product.productIntroduction)}</p>
-          <div className="mt-6 border border-border bg-bg-soft p-5">
-            <h3 className="font-semibold text-dark">{t.detail.definition}</h3>
-            <p className="mt-2 text-sm text-text-secondary">
-              {tx(product.geo.answers.whatIs)}
-            </p>
-            <h3 className="mt-4 font-semibold text-dark">{t.detail.whoNeeds}</h3>
-            <p className="mt-2 text-sm text-text-secondary">
-              {tx(product.geo.answers.whoNeeds)}
-            </p>
-            <h3 className="mt-4 font-semibold text-dark">{t.detail.whereUsed}</h3>
-            <p className="mt-2 text-sm text-text-secondary">
-              {tx(product.geo.answers.whereUsed)}
-            </p>
-          </div>
-        </section>
-
-        {advantages.length > 0 ? (
-          <section className="mt-14">
-            <h2 className="heading-display text-2xl sm:text-3xl">
-              {t.detail.advantages}
-            </h2>
-            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary sm:text-base">
-              {advantages.map((item) => (
+        <section className="mt-14 grid gap-6 lg:grid-cols-2">
+          <div className="border border-border p-6">
+            <h2 className="heading-display text-2xl">{t.productCard.suitableFor}</h2>
+            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+              {product.applicationScenarios.map((item) => (
                 <li key={item.en}>{tx(item)}</li>
               ))}
             </ul>
-          </section>
-        ) : null}
+          </div>
+          <div className="border border-border p-6">
+            <h2 className="heading-display text-2xl">{t.detail.notSuitable}</h2>
+            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+              {notSuitable.map((item) => (
+                <li key={item.en}>{tx(item)}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
 
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">
@@ -278,23 +221,15 @@ export function ProductDetail() {
               <table className="min-w-full text-left text-sm">
                 <thead className="bg-bg-soft text-dark">
                   <tr>
-                    <th className="px-4 py-3 font-semibold">
-                    {t.page.parameter}
-                    </th>
-                    <th className="px-4 py-3 font-semibold">
-                    {t.page.value}
-                    </th>
+                    <th className="px-4 py-3 font-semibold">{t.page.parameter}</th>
+                    <th className="px-4 py-3 font-semibold">{t.page.value}</th>
                   </tr>
                 </thead>
                 <tbody>
                   {product.specifications.map((spec) => (
                     <tr key={spec.label.en} className="border-t border-border">
-                      <td className="px-4 py-3 text-text-secondary">
-                        {tx(spec.label)}
-                      </td>
-                      <td className="px-4 py-3 font-medium text-dark">
-                        {tx(spec.value)}
-                      </td>
+                      <td className="px-4 py-3 text-text-secondary">{tx(spec.label)}</td>
+                      <td className="px-4 py-3 font-medium text-dark">{tx(spec.value)}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -341,32 +276,74 @@ export function ProductDetail() {
         </section>
 
         <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">
-            {t.detail.applications}
-          </h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {product.applicationScenarios.map((item) => (
-              <div
-                key={item.en}
-                className="border border-border bg-bg-soft p-5"
-              >
-                <h3 className="font-semibold text-dark">{tx(item)}</h3>
-              </div>
+          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.howToSelect}</h2>
+          <p className="mt-4 max-w-3xl text-text-secondary">{tx(getHowToSelect(product))}</p>
+        </section>
+
+        <section id="inquiry" className="mt-14 scroll-mt-24 border border-border p-6">
+          <OemNote className="mb-6" />
+          <InquiryBrief product={product} quoteOnly={quoteOnly} />
+        </section>
+
+        <section className="mt-14 border border-border p-6">
+          <h2 className="heading-display text-2xl">{t.detail.evidence}</h2>
+          <p className="mt-3 text-sm text-text-secondary">{t.detail.relatedCases}</p>
+          <p className="mt-2 text-sm text-text-secondary">{tx(product.productIntroduction)}</p>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.buyProcess}</h2>
+          <ol className="mt-4 list-decimal space-y-2 ps-5 text-sm text-text-secondary">
+            {buySteps.map((step) => (
+              <li key={step.en}>{tx(step)}</li>
             ))}
-          </div>
-          <p className="mt-4 text-sm text-text-secondary">{t.detail.relatedCases}</p>
-          <ul className="mt-2 space-y-2 text-sm">
-            {clusterForProduct(product.category)
-              .relatedSolutions.filter((link) => link.href.startsWith('/solutions'))
-              .map((link) => (
+          </ol>
+        </section>
+
+        <section className="mt-14 border border-border p-6">
+          <h2 className="heading-display text-2xl">{t.detail.entity}</h2>
+          <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
+            <div>
+              <dt className="font-semibold text-dark">{t.detail.entityManufacturer}</dt>
+              <dd className="mt-1 text-text-secondary">
+                {companyEntity.legalName[lang] || companyEntity.legalName.en}
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">{t.detail.entityLocation}</dt>
+              <dd className="mt-1 text-text-secondary">
+                {`${companyEntity.location.line1[lang] || companyEntity.location.line1.en}, ${companyEntity.location.locality}, ${companyEntity.location.region}, ${companyEntity.location.country} ${companyEntity.location.postalCode}`}
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">{t.detail.entitySpecialization}</dt>
+              <dd className="mt-1 text-text-secondary">
+                {companyEntity.specialization[lang] || companyEntity.specialization.en}
+              </dd>
+            </div>
+            <div>
+              <dt className="font-semibold text-dark">{t.detail.entityCustomization}</dt>
+              <dd className="mt-1 text-text-secondary">
+                {companyEntity.customization[lang] || companyEntity.customization.en}
+              </dd>
+            </div>
+          </dl>
+        </section>
+
+        {solutionLinks.length > 0 ? (
+          <section className="mt-14">
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.applications}</h2>
+            <ul className="mt-4 space-y-2 text-sm">
+              {solutionLinks.map((link) => (
                 <li key={link.href}>
                   <LocaleLink to={link.href} className="font-medium text-dark hover:text-primary">
                     {link.zh && lang === 'zh' ? link.zh : link.en}
                   </LocaleLink>
                 </li>
               ))}
-          </ul>
-        </section>
+            </ul>
+          </section>
+        ) : null}
 
         <Customization compact />
 
