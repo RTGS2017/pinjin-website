@@ -71,6 +71,18 @@ export function getNotSuitable(product: Product): LocalizedText[] {
     }
     return rows;
   }
+  if (product.category === 'spraying-machine') {
+    return [
+      L(
+        'Not a trailer concrete pump, mixing plant or truck-mounted boom pump.',
+        '不是拖式混凝土泵、搅拌站或车载臂架泵。',
+      ),
+      L(
+        'Not for particle sizes above the printed row on this model page.',
+        '粒径超过本页已印上限时不适用。',
+      ),
+    ];
+  }
   const rows = [
     L(
       'Not a truck-mounted placing boom and not a concrete batching plant.',
@@ -130,6 +142,12 @@ export function getHowToSelect(product: Product): LocalizedText {
       '请提供泵型号、管径（DN）、长度与数量。管路替换件在确认尺寸后报价。',
     );
   }
+  if (product.category === 'spraying-machine') {
+    return L(
+      'Shortlist from this page’s table: material, maximum particle size, required output, hose diameter, horizontal and vertical distance, 380 V or diesel, country and purchase timing. Then send those conditions for a factory quote.',
+      '对照本页目录表短名单：材料、最大粒径、目标产量、管径、水平与垂直距离、380V 或柴油、国家与采购时间。再把这些工况发给工厂报价。',
+    );
+  }
   return L(
     'Shortlist from this page’s table: mix or material, maximum aggregate, required output, horizontal and vertical distance, diesel or site voltage/frequency, country and purchase timing. Then send those conditions for a factory quote.',
     '对照本页目录表短名单：材料/配合比、最大骨料、目标产量、水平与垂直距离、柴油或现场电压频率、国家与采购时间。再把这些工况发给工厂报价。',
@@ -143,6 +161,14 @@ export function getBuyProcess(product: Product): LocalizedText[] {
       L('Send quantity. The factory quotes from Xingtai.', '发送数量，由邢台工厂报价。'),
       L('No small-batch shipping and no published list price.', '不支持小批量发货，无公开标价。'),
       L('Shipping is arranged after the quote is accepted.', '接受报价后再安排发运。'),
+    ];
+  }
+  if (product.category === 'spraying-machine') {
+    return [
+      L('Match material, particle size, hose, distance and 380 V or diesel to this catalogue table.', '按本页目录表对照材料、粒径、管径、距离与 380V 或柴油。'),
+      L('Send those site conditions by WhatsApp or email.', '通过 WhatsApp 或邮件发送上述工况。'),
+      L('Xingtai factory recommends a listed spraying machine and quotes EXW.', '邢台工厂按已列喷涂机推荐并给出 EXW 报价。'),
+      L('Packing and freight are confirmed after the quote; international freight is paid by the buyer.', '报价确认后再谈包装与运费；国际运费由买方承担。'),
     ];
   }
   return [

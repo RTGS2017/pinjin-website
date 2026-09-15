@@ -149,7 +149,7 @@ export const article: BlogPost = {
           '柴油30不是巷道专用机。它是我们给“没有稳定电网的正经工地”列的第一档柴油拖泵：4105柴油机56 kW、15 m³/h、20 MPa、料斗0.3 m³、60 m / 180 m、骨料≤3 cm、4000 × 1500 × 1800 mm、2000 kg。输送量是单一的15 m³/h，高于4100的6–12 m³/h。压力从15 MPa升到20 MPa。公布管路60 m / 180 m，和4100的40–100 m / 15–45 m不是同一档，也不该靠把4100“开满”去凑。',
         ),
         L(
-          'If the pour is a multi-house contract, a workshop slab with a long hose run, or a floor that needs the 180 m vertical number, we do not stretch the 4100. We put Diesel 30 on the shortlist and ask for pipeline sketches. If the site cannot accept 2000 kg or 1500 mm width, we stay with the tractor concrete pump and cut the pipe, not the other way around. We also do not sell the 4100 as a substitute for a mixing plant or a spraying machine—those are not catalogue products we manufacture.',
+          'If the pour is a multi-house contract, a workshop slab with a long hose run, or a floor that needs the 180 m vertical number, we do not stretch the 4100. We put Diesel 30 on the shortlist and ask for pipeline sketches. If the site cannot accept 2000 kg or 1500 mm width, we stay with the tractor concrete pump and cut the pipe, not the other way around. We also do not sell the 4100 as a substitute for a mixing plant or a spraying machine—sprayers are listed separately, and mixing plants are not catalogue products.',
           '如果是连片几栋、厂房长软管，或楼层要用到180 m垂直这个数，我们不会把4100硬拉长，而是把柴油30放进短名单并要管路草图。现场吃不住2000 kg或1500 mm宽度，就留在拖拉机混凝土泵上、把管子改短，而不是反过来硬上拖泵。我们也不会把4100当成搅拌站或喷涂机的替代品——那些不是我们制造的目录产品。',
         ),
       ],

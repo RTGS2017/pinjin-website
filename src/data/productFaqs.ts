@@ -69,9 +69,10 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
   const quote = quoteAnswer(lang, name, priceText, inquire, Boolean(product.inquiryOnly));
   const wear = product.partKind === 'wear';
   const spare = product.category === 'spare-parts';
-  const aggregate = specText(product, lang, ['aggregate']);
+  const aggregate = specText(product, lang, ['aggregate', 'particle']);
   const distance = specText(product, lang, [
     'pumping distance',
+    'delivery distance',
     'fine stone',
     'horizontal',
     'conveying',

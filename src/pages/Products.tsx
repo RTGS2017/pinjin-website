@@ -17,6 +17,7 @@ const filters: Array<'all' | ProductCategory> = [
   'electric-concrete-pump',
   'diesel-concrete-pump',
   'mixer-pump',
+  'spraying-machine',
   'spare-parts',
 ];
 

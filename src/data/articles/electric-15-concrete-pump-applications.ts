@@ -67,7 +67,7 @@ export const article: BlogPost = {
           "客户常问电动15型够不够用。我们邢台工厂先把浇筑工况对照已公布窗口：15 kW、8–10 m³/h、垂直15–20 m、水平60–80 m。管路与1–3 cm石子落在窗口内，这台紧凑型混凝土泵就可以作为小型建筑混凝土泵来谈；落在窗口外，我们会明说，并改看其他已列机型。目录表上的外形、管径和机重，下文只按公布数字写，不补未列出的压力或料斗。",
         ),
         L(
-          "Enough depends on the site, not the model name. Two or three floors with a short hose is one job; a long courtyard line is another; secondary structure with 1–3 cm stone is a third. We manufacture electric trailer pumps in Renze Industrial Park, Xingtai. We do not list mixing plants, truck-mounted boom pumps, or spraying machines. Electric 15 is for grid-powered sites whose height and pipe stay inside the catalogue window.",
+          "Enough depends on the site, not the model name. Two or three floors with a short hose is one job; a long courtyard line is another; secondary structure with 1–3 cm stone is a third. We manufacture electric trailer pumps in Renze Industrial Park, Xingtai. We do not list mixing plants or truck-mounted boom pumps. Spraying machines are listed separately. Electric 15 is for grid-powered sites whose height and pipe stay inside the catalogue window.",
           "够不够用，是工地问题，不是型号叫什么。两三层、管路短，是一类；院子绕管水平很长，是另一类；二次结构、石子仍在1–3 cm，又是一类。我们在邢台任泽工业园区制造电动拖式混凝土泵，不把搅拌站、车载臂架泵或喷涂机写成在售产品。电动15型只面向有电网、高度与管长落在目录窗口内的紧凑工地，不拿它去冒充高层泵。",
         ),
         L(
@@ -153,8 +153,8 @@ export const article: BlogPost = {
           "两三层自建房是我们听到的第一类问题。按每层约3 m粗算，三层垂直大约9 m，还没计弯头。电动15型目录垂直15–20 m，仅高度一项，这类小型建筑混凝土泵经常对得上。真正卡人的，多半是宅基地绕管的水平米数和弯头。水平要落在目录的60–80 m以内。管子若要绕院子两圈，请用皮尺量通到浇筑点的实长，不要按建筑轴线估一个整数就下单。",
         ),
         L(
-          "Secondary structure is the second fit: stairs, ring beams, small columns, and infill pours where the pipe is short and stone stays in the 1–3 cm band. The listed 100–125 mm pipe is what we publish for that mix. We still ask for slump and stone size, because 3 cm stone is not the same as fine-stone grout. We do not list a spraying machine, and we do not stretch this pump into plaster work.",
-          "二次结构是第二类对口工况：室内楼梯、圈梁、小柱、填充浇筑，管路短、石子仍在1–3 cm。电动15型公布的100–125 mm管，就是这条配合比下我们列出的管径。询盘里我们仍要塌落度和石子粒径，因为表上上限3 cm的石子，和细石灌浆不是一回事；二次结构若改用更细的料，也请写明，便于对照10系列已列的2 cm及以下骨料。目录不列喷涂机，我们也不会把这台泵拉伸去干抹灰喷涂。",
+          "Secondary structure is the second fit: stairs, ring beams, small columns, and infill pours where the pipe is short and stone stays in the 1–3 cm band. The listed 100–125 mm pipe is what we publish for that mix. We still ask for slump and stone size, because 3 cm stone is not the same as fine-stone grout. This pump is not a spraying machine; plaster work belongs on /products/spraying-machines.",
+          "二次结构是第二类对口工况：室内楼梯、圈梁、小柱、填充浇筑，管路短、石子仍在1–3 cm。电动15型公布的100–125 mm管，就是这条配合比下我们列出的管径。询盘里我们仍要塌落度和石子粒径，因为表上上限3 cm的石子，和细石灌浆不是一回事；二次结构若改用更细的料，也请写明，便于对照10系列已列的2 cm及以下骨料。这台泵不是喷涂机，抹灰喷涂请到 /products/spraying-machines。",
         ),
         L(
           "High-rise is not an Electric 15 job. Twenty floors at about 3 m is already around 60 m vertical, plus horizontal loss, far above 15–20 m. Compare larger listed electric trailer pumps on the electric hub. Do not buy a compact concrete pump and hope the pipe will carry the rest. Match metres first.",

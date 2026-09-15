@@ -90,6 +90,10 @@ export const productPublicImagesBySlug: Record<string, readonly string[]> = {
     "/images/products/diesel-60-concrete-pump/main.webp",
     "/images/products/diesel-60-concrete-pump/catalog.webp",
   ],
+  "diesel-concrete-spraying-machine": [
+    "/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine.webp",
+    "/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine-catalogue.webp",
+  ],
   "diesel-mixer-integrated-pump": [
     "/images/products/diesel-mixer-integrated-pump/main.webp",
     "/images/products/diesel-mixer-integrated-pump/catalog.webp",
@@ -142,6 +146,14 @@ export const productPublicImagesBySlug: Record<string, readonly string[]> = {
     "/images/products/hbt8018-concrete-pump/main.webp",
     "/images/products/hbt8018-concrete-pump/catalog.webp",
   ],
+  "high-flow-hydraulic-concrete-spraying-machine": [
+    "/images/products/high-flow-hydraulic-concrete-spraying-machine/high-flow-hydraulic-concrete-spraying-machine.webp",
+    "/images/products/high-flow-hydraulic-concrete-spraying-machine/high-flow-hydraulic-concrete-spraying-machine-catalogue.webp",
+  ],
+  "hydraulic-concrete-spraying-machine": [
+    "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp",
+    "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine-catalogue.webp",
+  ],
   "integrated-mixer-pump": [
     "/images/products/integrated-mixer-pump/main.webp",
     "/images/products/integrated-mixer-pump/catalog.webp",
@@ -153,6 +165,10 @@ export const productPublicImagesBySlug: Record<string, readonly string[]> = {
   "lz-80-diesel-concrete-pump": [
     "/images/products/lz-80-diesel-concrete-pump/main.webp",
     "/images/products/lz-80-diesel-concrete-pump/catalog.webp",
+  ],
+  "m9-automatic-plaster-spraying-machine": [
+    "/images/products/m9-automatic-plaster-spraying-machine/m9-automatic-plaster-spraying-machine.webp",
+    "/images/products/m9-automatic-plaster-spraying-machine/m9-automatic-plaster-spraying-machine-catalogue.webp",
   ],
   "rural-diesel-concrete-pump": [
     "/images/products/rural-diesel-concrete-pump/main.webp",
@@ -231,6 +247,10 @@ export const publicImageRev: Record<string, string> = {
   "/images/products/diesel-60-concrete-pump/main.webp": "a9f2247d03",
   "/images/products/diesel-60-concrete-pump/source-photo.png": "f49a75a329",
   "/images/products/diesel-60-concrete-pump/source.png": "99e64b64a7",
+  "/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine-catalogue.webp": "c221d0d938",
+  "/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine.webp": "8c34973967",
+  "/images/products/diesel-concrete-spraying-machine/source-catalog.png": "b1e513052e",
+  "/images/products/diesel-concrete-spraying-machine/source-photo.png": "81cc8904de",
   "/images/products/diesel-mixer-integrated-pump/catalog.webp": "2f194220c2",
   "/images/products/diesel-mixer-integrated-pump/main.webp": "83e1b0f4dd",
   "/images/products/diesel-mixer-integrated-pump/source-photo.png": "83592bf95e",
@@ -283,6 +303,14 @@ export const publicImageRev: Record<string, string> = {
   "/images/products/hbt8018-concrete-pump/main.webp": "2c81dca713",
   "/images/products/hbt8018-concrete-pump/source-photo.png": "4114499456",
   "/images/products/hbt8018-concrete-pump/source.png": "d0d15ab233",
+  "/images/products/high-flow-hydraulic-concrete-spraying-machine/high-flow-hydraulic-concrete-spraying-machine-catalogue.webp": "ada9d6c80c",
+  "/images/products/high-flow-hydraulic-concrete-spraying-machine/high-flow-hydraulic-concrete-spraying-machine.webp": "da167cbed6",
+  "/images/products/high-flow-hydraulic-concrete-spraying-machine/source-catalog.png": "cfba4e9890",
+  "/images/products/high-flow-hydraulic-concrete-spraying-machine/source-photo.png": "0a2363e314",
+  "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine-catalogue.webp": "222e6b0d4a",
+  "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp": "73e8203761",
+  "/images/products/hydraulic-concrete-spraying-machine/source-catalog.png": "bd10025a06",
+  "/images/products/hydraulic-concrete-spraying-machine/source-photo.png": "f0f9f1b538",
   "/images/products/integrated-mixer-pump/catalog.webp": "cafd2839ff",
   "/images/products/integrated-mixer-pump/main.webp": "23659f254a",
   "/images/products/integrated-mixer-pump/source-photo.png": "62768fbe5f",
@@ -295,6 +323,10 @@ export const publicImageRev: Record<string, string> = {
   "/images/products/lz-80-diesel-concrete-pump/main.webp": "d4c31ff090",
   "/images/products/lz-80-diesel-concrete-pump/source-photo.png": "2d43c6843a",
   "/images/products/lz-80-diesel-concrete-pump/source.png": "24b0f05973",
+  "/images/products/m9-automatic-plaster-spraying-machine/m9-automatic-plaster-spraying-machine-catalogue.webp": "988f888a1a",
+  "/images/products/m9-automatic-plaster-spraying-machine/m9-automatic-plaster-spraying-machine.webp": "864bf3a8fc",
+  "/images/products/m9-automatic-plaster-spraying-machine/source-catalog.png": "46c9c0acd6",
+  "/images/products/m9-automatic-plaster-spraying-machine/source-photo.png": "778292134b",
   "/images/products/rural-diesel-concrete-pump/catalog.webp": "91fae980a9",
   "/images/products/rural-diesel-concrete-pump/main.webp": "28f458ffe6",
   "/images/products/rural-diesel-concrete-pump/source-photo.png": "f2e3306260",

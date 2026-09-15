@@ -126,4 +126,25 @@ export const selectionGuideItems: SelectionGuideItem[] = [
       zh: 'LZ-80 目录玉柴256 kW。柴油120 合计290 kW、150 m / 500 m。',
     },
   },
+  {
+    id: 'spraying-machine',
+    question: {
+      en: 'Need a mortar, plaster or concrete spraying machine?',
+      zh: '需要砂浆、石膏或混凝土喷涂机？',
+    },
+    recommendation: {
+      en: 'Plaster ≤4 mm → M9. 380 V concrete/mortar ≤8 mm → hydraulic 5 m³/h or high-flow 7 m³/h. No grid → diesel 5 m³/h / ≤6 mm. These are not trailer pumps.',
+      zh: '石膏 ≤4 mm → M9。380V 混凝土/砂浆 ≤8 mm → 液压 5 m³/h 或大流量 7 m³/h。无电网 → 柴油 5 m³/h / ≤6 mm。它们不是拖式泵。',
+    },
+    productSlugs: [
+      'hydraulic-concrete-spraying-machine',
+      'high-flow-hydraulic-concrete-spraying-machine',
+      'm9-automatic-plaster-spraying-machine',
+      'diesel-concrete-spraying-machine',
+    ],
+    rationale: {
+      en: 'M9 lists 30 L/min, 25 mm hose and ≤4 mm. Hydraulic rows list 5 or 7 m³/h and ≤8 mm. Diesel lists 28/32 HP, 5 m³/h and ≤6 mm.',
+      zh: 'M9 目录 30 L/min、管径 25 mm、粒径 ≤4 mm。液压行 5 或 7 m³/h、≤8 mm。柴油行 28/32 HP、5 m³/h、≤6 mm。',
+    },
+  },
 ];

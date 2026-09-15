@@ -62,7 +62,7 @@ export const article: BlogPost = {
           '我们在河北邢台装配拖式混凝土泵，工厂是河北品锦机械，地址在任泽工业园区。不少采购会来信，希望我们发一份带油品品牌和更换小时的保养表。我们不会编造那张表。配合比、管路长度、骨料以及上一班是否把料斗冲洗干净，对磨损的影响都大于日历上的整数。',
         ),
         L(
-          'This page is the daily checklist we issue with the machine: hopper, pipeline, hydraulic leaks, S-valve observation, then after-pour wash. It is not a lubrication catalogue. We do not publish fuel consumption. We do not list spraying machines, mixing plants, or truck-mounted boom pumps.',
+          'This page is the daily checklist we issue with the machine: hopper, pipeline, hydraulic leaks, S-valve observation, then after-pour wash. It is not a lubrication catalogue. We do not publish fuel consumption. We do not list mixing plants or truck-mounted boom pumps on this pump page. Spraying machines sit on /products/spraying-machines.',
           '这一页就是我们随设备发出的每日点检。工厂口吻：料斗、管路、液压渗漏、S管与易损件观察，再做浇筑后冲洗。它不是润滑油目录，也不是配件价目。我们不公布油耗。目录里没有喷涂机。搅拌站和车载布料杆泵也不是我们的目录产品。',
         ),
         L(

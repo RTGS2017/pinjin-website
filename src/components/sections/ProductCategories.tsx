@@ -7,6 +7,7 @@ const order: ProductCategory[] = [
   'electric-concrete-pump',
   'diesel-concrete-pump',
   'mixer-pump',
+  'spraying-machine',
   'spare-parts',
 ];
 
@@ -18,7 +19,7 @@ export function ProductCategories() {
       <div className="container-site">
         <SectionTitle title={t.categories.title} subtitle={t.categories.subtitle} />
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
           {order.map((id) => {
             const meta = categoryMeta[id];
             return (

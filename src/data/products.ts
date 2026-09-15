@@ -5,12 +5,14 @@ import {
   productDetailImages,
   productDisplayImages,
 } from '@/data/imageInventory';
+import { sprayingMachineProducts } from '@/data/sprayingMachines';
 import { wearPartProducts } from '@/data/wearParts';
 
 export type ProductCategory =
   | 'electric-concrete-pump'
   | 'diesel-concrete-pump'
   | 'mixer-pump'
+  | 'spraying-machine'
   | 'spare-parts';
 
 export interface ProductSpec {
@@ -232,6 +234,7 @@ export const categoryRouteSlugs: Record<ProductCategory, string> = {
   'electric-concrete-pump': 'electric-concrete-pumps',
   'diesel-concrete-pump': 'diesel-concrete-pumps',
   'mixer-pump': 'mixer-pumps',
+  'spraying-machine': 'spraying-machines',
   'spare-parts': 'concrete-pump-parts',
 };
 
@@ -264,6 +267,15 @@ export const categoryMeta: Record<
       en: 'Integrated mixer pumps that mix and convey concrete in one machine. This is not a concrete mixing plant line.',
       zh: '搅拌与泵送一体机。这不是混凝土搅拌站产品线。',
       ru: 'Насосы-смесители, которые одновременно готовят и подают бетон. Это не линия бетонных заводов.',
+    },
+  },
+  'spraying-machine': {
+    routeSlug: 'spraying-machines',
+    label: { en: 'Spraying Machines', zh: '喷涂机', ru: 'Штукатурные машины' },
+    description: {
+      en: 'Hydraulic and diesel concrete spraying machines and the M9 automatic plaster sprayer, with published output, hose size and particle size. Quote only.',
+      zh: '液压/柴油混凝土喷涂机与 M9 全自动石膏喷涂机，目录公布产量、管径与粒径。询价报价。',
+      ru: 'Гидравлические и дизельные машины для набрызга бетона и автоматическая штукатурная машина M9 с опубликованными производительностью, шлангом и фракцией. Только запрос цены.',
     },
   },
   'spare-parts': {
@@ -1741,6 +1753,7 @@ export const products: Product[] = [
       SPARE_INQUIRE,
     ),
   },
+  ...sprayingMachineProducts,
   ...wearPartProducts,
 ];
 

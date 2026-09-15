@@ -183,7 +183,7 @@ export const article: BlogPost = {
           '河北品锦机械在邢台任泽工业园区公布的是电动拖式泵、柴油拖式泵和搅拌泵。我们不销售车载布料杆，目录里也没有臂架泵。若图纸要的是底盘上 30 m 或 50 m 布料杆，那是另一类设备。我们的高层答案是从泵料斗到楼面的固定或拖式管路，按上面的目录水平/垂直表来对照。',
         ),
         L(
-          'We also do not manufacture mixing plants or spraying machines as catalogue products. For building work, start on the electric hub and the construction solutions page, then use the product selection guide with floor height, pipe plan and aggregate written down. When those three numbers are on the inquiry, our engineers can compare Electric 40, Electric 60 and Electric 80 without padding the table.',
+          'We also do not manufacture mixing plants as catalogue products. Spraying machines are listed separately. For building work, start on the electric hub and the construction solutions page, then use the product selection guide with floor height, pipe plan and aggregate written down. When those three numbers are on the inquiry, our engineers can compare Electric 40, Electric 60 and Electric 80 without padding the table.',
           '搅拌站和喷涂机也不是我们的目录产品。建筑项目请从电动泵枢纽页和建筑施工方案页入手，再打开选型指南，把层高、管路布置和骨料写清楚。选型指南把高层/中型/小型目录型号并列，便于把 60 m 立管放到电动40、60、80 之间比较。询价里有这三项，我们的工程师就可以对照这三台泵，不必往参数表里添数字。',
         ),
       ],

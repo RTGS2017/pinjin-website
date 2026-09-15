@@ -90,6 +90,13 @@ SPARE = [
     "concrete-pump-swing-arm-ball",
 ]
 
+SPRAYING = [
+    "hydraulic-concrete-spraying-machine",
+    "high-flow-hydraulic-concrete-spraying-machine",
+    "m9-automatic-plaster-spraying-machine",
+    "diesel-concrete-spraying-machine",
+]
+
 NAMES = {
     "electric-20-concrete-pump": "Electric 20 Concrete Pump",
     "electric-30-concrete-pump": "Electric 30 Concrete Pump",
@@ -127,12 +134,17 @@ NAMES = {
     "concrete-pump-swing-cylinder-seal": "Concrete Pump Swing Cylinder Seal",
     "concrete-pump-rubber-spring": "Concrete Pump Rubber Spring",
     "concrete-pump-swing-arm-ball": "Concrete Pump Swing-Arm Ball",
+    "hydraulic-concrete-spraying-machine": "Hydraulic Concrete Spraying Machine",
+    "high-flow-hydraulic-concrete-spraying-machine": "High-Flow Hydraulic Concrete Spraying Machine",
+    "m9-automatic-plaster-spraying-machine": "M9 Automatic Plaster Spraying Machine",
+    "diesel-concrete-spraying-machine": "Diesel Concrete Spraying Machine",
 }
 
 CATEGORY_HUBS = [
     "electric-concrete-pumps",
     "diesel-concrete-pumps",
     "mixer-pumps",
+    "spraying-machines",
     "concrete-pump-parts",
 ]
 
@@ -140,6 +152,7 @@ HUB_PRODUCTS = {
     "electric-concrete-pumps": ELECTRIC,
     "diesel-concrete-pumps": DIESEL,
     "mixer-pumps": MIXER,
+    "spraying-machines": SPRAYING,
     "concrete-pump-parts": SPARE,
 }
 
@@ -163,7 +176,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-07"
+LASTMOD = "2026-09-15"
 META_FILE = Path(__file__).resolve().parents[1] / "deploy" / "prerender-meta.json"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
@@ -268,7 +281,7 @@ def existing_images(folder: str, items: list[tuple[str, str]]) -> list[tuple[str
 def ordered_product_slugs() -> list[str]:
     seen: set[str] = set()
     out: list[str] = []
-    for slug in FEATURED + ELECTRIC + DIESEL + MIXER + SPARE:
+    for slug in FEATURED + ELECTRIC + DIESEL + MIXER + SPRAYING + SPARE:
         if slug in seen:
             continue
         seen.add(slug)

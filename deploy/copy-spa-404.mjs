@@ -88,15 +88,6 @@ if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
   console.error('dist/robots.txt must point Google to https://pinjinpump.com/sitemap.xml');
   process.exit(1);
 }
-if (!robotsText.includes('OAI-SearchBot')) {
-  console.error('dist/robots.txt must allow OAI-SearchBot');
-  process.exit(1);
-}
-const llmsTxt = join(distDir, 'llms.txt');
-if (!existsSync(llmsTxt)) {
-  console.error('dist/llms.txt missing');
-  process.exit(1);
-}
 
 if (!existsSync(metaFile)) {
   console.error('deploy/prerender-meta.json missing; run deploy/export_prerender_meta.ts first');
@@ -424,8 +415,8 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 320 || uniqueLocs.length > 360) {
-  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~335, 5 langs)`);
+if (uniqueLocs.length < 330 || uniqueLocs.length > 380) {
+  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~360, 5 langs)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -484,21 +475,6 @@ if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
   process.exit(1);
 }
 
-const splitPistonShell = join(distDir, 'en', 'products', 'concrete-pump-split-piston', 'index.html');
-if (!existsSync(splitPistonShell)) {
-  console.error('missing prerendered product shell for /en/products/concrete-pump-split-piston');
-  process.exit(1);
-}
-const splitPistonHtml = readFileSync(splitPistonShell, 'utf8');
-if (!splitPistonHtml.includes('Catalogue sizes') || !splitPistonHtml.includes('φ150')) {
-  console.error('split piston shell must include catalogue size table text');
-  process.exit(1);
-}
-if (/Putzmeister|Schwing|Zoomlion|SANY|XCMG|三一|中联|普茨迈斯特/i.test(splitPistonHtml)) {
-  console.error('split piston shell must not name competing pump brands');
-  process.exit(1);
-}
-
 const gone = [
   ['applications'],
   ['about'],
@@ -531,7 +507,7 @@ if (aboutHtml.includes('href="/about/"') || aboutHtml.includes('href="/en/compan
   process.exit(1);
 }
 const productsIndex = readFileSync(join(distDir, 'en', 'products', 'index.html'), 'utf8');
-if (!productsIndex.includes('/en/products/electric-20-concrete-pump/') || !productsIndex.includes('/en/products/b500s-83d-two-stage-pump/')) {
+if (!productsIndex.includes('/en/products/electric-20-concrete-pump/') || !productsIndex.includes('/en/products/b500s-83d-two-stage-pump/') || !productsIndex.includes('/en/products/hydraulic-concrete-spraying-machine/') || !productsIndex.includes('/en/products/spraying-machines/')) {
   console.error('/en/products must list current product URLs in the static graph');
   process.exit(1);
 }

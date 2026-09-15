@@ -48,6 +48,10 @@ SLUGS = [
     "concrete-pump-elbow-dn200-90",
     "concrete-pump-pipe-clamp-dn80",
     "concrete-pump-delivery-hose",
+    "hydraulic-concrete-spraying-machine",
+    "high-flow-hydraulic-concrete-spraying-machine",
+    "m9-automatic-plaster-spraying-machine",
+    "diesel-concrete-spraying-machine",
 ]
 
 # 产品图根目录可读文件名 → slug（实拍入库见 ingest_real_product_photos.py）

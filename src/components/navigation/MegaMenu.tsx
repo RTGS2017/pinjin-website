@@ -5,6 +5,7 @@ import {
   BadgeCheck,
   ClipboardList,
   Cog,
+  Droplets,
   Factory,
   FileText,
   Fuel,
@@ -45,6 +46,7 @@ const categoryIcons: Record<ProductCategory, LucideIcon> = {
   'electric-concrete-pump': Zap,
   'diesel-concrete-pump': Fuel,
   'mixer-pump': Layers,
+  'spraying-machine': Droplets,
   'spare-parts': Wrench,
 };
 

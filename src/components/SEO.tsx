@@ -168,6 +168,7 @@ export function buildOrganizationJsonLd() {
       'Electric Concrete Pump Manufacturer',
       'Diesel Concrete Pump Manufacturer',
       'Concrete Mixer Pump Manufacturer',
+      'Concrete Spraying Machine Manufacturer',
       'Concrete Mixing Equipment',
       'Xingjiawan Concrete Machinery',
       'Xingtai Construction Machinery Factory',

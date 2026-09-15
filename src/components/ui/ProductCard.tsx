@@ -71,7 +71,11 @@ export function ProductCard({ product }: ProductCardProps) {
           {tx(product.shortDescription)}
         </p>
         {isInquiryOnlyProduct(product) ? (
-          <SparePartTerms compact />
+          product.category === 'spare-parts' ? (
+            <SparePartTerms compact />
+          ) : (
+            <p className="mt-3 text-sm text-text-secondary">{t.productCard.inquiryNoListPrice}</p>
+          )
         ) : (
           <ProductPrice slug={product.slug} compact />
         )}

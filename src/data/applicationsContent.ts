@@ -132,24 +132,24 @@ export const applicationPages: ApplicationPageItem[] = [
       zh: '喷浆作业与管道泵送',
     },
     summary: {
-      en: 'Shotcrete and mortar spraying are finishing methods, not the same as pipeline pumping. Pinjin’s current catalogue lists electric and diesel concrete pumps and mixer pumps. A dedicated spraying-machine line is not published on this website.',
-      zh: '喷浆与砂浆喷涂是饰面施工方法，不同于管道泵送。品锦当前目录列出电动/柴油混凝土泵与搅拌泵，本站未公布独立喷涂机产品线。',
+      en: 'Shotcrete and mortar spraying are finishing methods, not the same as pipeline pumping. Pinjin lists four spraying machines on /products/spraying-machines: two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h), M9 automatic plaster (30 L/min) and a diesel concrete sprayer (5 m³/h). Trailer pumps remain on the pump hubs.',
+      zh: '喷浆与砂浆喷涂是饰面施工方法，不同于管道泵送。品锦在 /products/spraying-machines 列出四台喷涂机：两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h）、M9 全自动石膏喷涂机（30 L/min）与柴油混凝土喷涂机（5 m³/h）。拖式泵仍在泵分类页。',
     },
     points: [
       {
-        en: 'Do not treat a concrete pump table as shotcrete equipment data',
-        zh: '不要把混凝土泵参数表当作喷浆机数据',
+        en: 'Do not treat a concrete pump table as spraying-machine data',
+        zh: '不要把混凝土泵参数表当作喷涂机数据',
       },
       {
         en: 'If the job is pipeline placement, match capacity and conveying distance on pump pages',
         zh: '若工况是管道浇筑，请在泵产品页对照输送量与输送距离',
       },
       {
-        en: 'Contact the Xingtai factory if the project needs spraying equipment that is not listed',
-        zh: '若项目需要未列入目录的喷涂设备，请联系邢台工厂',
+        en: 'If the job is mortar, plaster or listed concrete spraying, open the spraying-machines hub',
+        zh: '若工况是砂浆、石膏或目录所列混凝土喷涂，请打开喷涂机分类页',
       },
     ],
-    relatedCategory: 'electric-concrete-pump',
+    relatedCategory: 'spraying-machine',
     images: [
       {
         src: '/images/applications/pinjin-mortar-spraying-machine-building-interior.webp',

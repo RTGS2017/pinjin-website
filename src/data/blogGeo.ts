@@ -22,8 +22,8 @@ const sharedFaqs = [
       '品锦是否销售臂架泵、喷涂机或搅拌站？',
     ),
     answer: L(
-      'No. The published catalogue is trailer and compact transfer concrete pumps, mixer pumps that mix and pump on one trailer, and replacement parts. Mixing plants, truck-mounted placing booms and dedicated sprayers are not listed.',
-      '否。已公布目录是拖式与紧凑输送泵、同一拖车搅拌并泵送的搅拌泵，以及替换件。搅拌站、车载布料杆与独立喷涂机未列入。',
+      'Spraying machines are listed on /products/spraying-machines (hydraulic/diesel concrete sprayers and M9 plaster). Mixing plants and truck-mounted placing booms are not listed. Trailer pumps remain on the pump hubs.',
+      '喷涂机列在 /products/spraying-machines（液压/柴油混凝土喷涂机与 M9 石膏机）。搅拌站与车载布料杆未列入。拖式泵仍在泵分类页。',
     ),
   },
   {

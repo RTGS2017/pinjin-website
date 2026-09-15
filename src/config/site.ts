@@ -44,6 +44,7 @@ export const productCategoryIds = [
   'electric-concrete-pump',
   'diesel-concrete-pump',
   'mixer-pump',
+  'spraying-machine',
   'spare-parts',
 ] as const;
 

@@ -339,8 +339,8 @@ export const factoryGeoFaqs = [
       '邢台工厂生产哪些设备？',
     ),
     answer: L(
-      'Catalogue products include electric concrete pumps, diesel concrete pumps and mixer pumps. A concrete mixing plant, spraying-machine or rebar line is not listed in the current catalogue.',
-      '目录产品包括电动混凝土泵、柴油混凝土泵与搅拌泵。当前目录未列出混凝土搅拌站、喷涂机或钢筋设备产品线。',
+      'Catalogue products include electric concrete pumps, diesel concrete pumps, mixer pumps and spraying machines. A concrete mixing plant, boom pump or rebar line is not listed in the current catalogue.',
+      '目录产品包括电动混凝土泵、柴油混凝土泵、搅拌泵与喷涂机。当前目录未列出混凝土搅拌站、臂架泵或钢筋设备产品线。',
     ),
   },
 ];

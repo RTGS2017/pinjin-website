@@ -35,6 +35,10 @@ export function LegacySprayingHubRedirect() {
   return <LocaleNavigate to="/products" replace />;
 }
 
+export function LegacyToSprayingHubRedirect() {
+  return <LocaleNavigate to="/products/spraying-machines" replace />;
+}
+
 export function LegacyMixingPlantRedirect() {
   return <LocaleNavigate to="/products/electric-concrete-pumps" replace />;
 }

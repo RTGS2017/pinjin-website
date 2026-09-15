@@ -66,8 +66,8 @@ const boomFaq = {
     '这些是车载臂架泵或搅拌站吗？',
   ),
   answer: L(
-    'No. The published lines are trailer and compact transfer concrete pumps, mixer pumps that mix and pump on one trailer, and replacement parts. Mixing plants, boom pumps and dedicated sprayers are not catalogue products.',
-    '不是。已公布产品线是拖式与紧凑输送泵、同一拖车搅拌并泵送的搅拌泵，以及替换件。搅拌站、臂架泵与独立喷涂机不是目录产品。',
+    'No. The published pump lines are trailer and compact transfer concrete pumps, mixer pumps that mix and pump on one trailer, and replacement parts. Mixing plants and boom pumps are not catalogue products. Dedicated spraying machines are listed on the spraying-machines hub.',
+    '不是。已公布泵产品线是拖式与紧凑输送泵、同一拖车搅拌并泵送的搅拌泵，以及替换件。搅拌站与臂架泵不是目录产品。独立喷涂机列在喷涂机分类页。',
   ),
 };
 
@@ -224,7 +224,7 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
     ],
     notSuitable: [
       L('Projects that already run a mixing plant and only need long-distance pumping', '已有搅拌站、只需长距离泵送的工程'),
-      L('Buyers asking for a batching plant, boom pump or spraying machine', '要搅拌站、臂架泵或喷涂机的采购'),
+      L('Buyers asking for a batching plant or boom pump — spraying machines are listed separately', '要搅拌站或臂架泵的采购——喷涂机另列分类页'),
     ],
     advantages: [
       L('Mixer pump, not a mixing plant', '搅拌泵，不是搅拌站'),
@@ -351,6 +351,93 @@ export const categoryHubs: Record<ProductCategory, CategoryHub> = {
         ),
       },
       customFaq,
+    ],
+  },
+  'spraying-machine': {
+    h1: L('Concrete and Plaster Spraying Machine Manufacturer', '混凝土与石膏喷涂机厂家'),
+    intro: L(
+      'Hebei Pinjin Machinery lists four spraying machines from Xingtai: a 380 V hydraulic concrete sprayer (5 m³/h), a high-flow hydraulic concrete sprayer (7 m³/h), the M9 automatic plaster sprayer (30 L/min) and a diesel concrete sprayer (5 m³/h). Quote only. These are not trailer concrete pumps, mixing plants or truck-mounted boom pumps.',
+      '河北品锦机械从邢台列出四台喷涂机：380V 液压混凝土喷涂机（5 m³/h）、大流量液压混凝土喷涂机（7 m³/h）、M9 全自动石膏喷涂机（30 L/min）与柴油混凝土喷涂机（5 m³/h）。询价报价。它们不是拖式混凝土泵、搅拌站或车载臂架泵。',
+    ),
+    directAnswer: L(
+      'Pinjin spraying machines are finishing sprayers printed in the Xingtai catalogue. Compare particle size, hose diameter, output and 380 V versus diesel on each model page. They are not trailer concrete pumps. M9 is plaster at ≤4 mm; the hydraulic rows are ≤8 mm; the diesel row is ≤6 mm. No list price; inquire by WhatsApp or email.',
+      '品锦喷涂机是邢台目录中的饰面喷涂设备。请在各型号页对照粒径、管径、产量以及 380V 或柴油。它们不是拖式混凝土泵。M9 为粒径 ≤4 mm 的石膏喷涂；液压行为 ≤8 mm；柴油行为 ≤6 mm。无公开标价，请 WhatsApp 或邮件询盘。',
+    ),
+    applications: [
+      L('Cement-mortar or concrete spraying inside the listed particle and hose rows', '粒径与管径落在目录行内的水泥砂浆或混凝土喷涂'),
+      L('Indoor plaster finishing on the M9 30 L/min / ≤4 mm row', 'M9 的 30 L/min / ≤4 mm 室内石膏饰面'),
+      L('Off-grid spraying on the diesel 28/32 HP row', '柴油 28/32 HP 行上的无电网喷涂'),
+    ],
+    notSuitable: [
+      L('Trailer pipeline pumping, high-rise concrete pours or mixing-plant production', '管道泵送、高层混凝土浇筑或搅拌站生产'),
+      L('Truck-mounted boom pumping', '车载臂架泵送'),
+      L('Particle sizes above the printed row on that model page', '粒径超过该型号页已印上限'),
+    ],
+    advantages: [
+      L('Four printed spraying tables, not a pump table reused as shotcrete data', '四份已印喷涂参数表，不是把泵表当成喷浆数据'),
+      L('380 V hydraulic rows and one diesel row', '380V 液压行与一台柴油行'),
+      L('Factory-direct Xingtai quote; no published list price', '邢台工厂直供询价，无公开标价'),
+    ],
+    keywords: [
+      'concrete spraying machine manufacturer China',
+      'plaster spraying machine factory Xingtai',
+      'diesel concrete spraying machine China',
+    ],
+    faqs: [
+      madeInFaq,
+      {
+        question: L(
+          'Are these trailer concrete pumps?',
+          '这些是拖式混凝土泵吗？',
+        ),
+        answer: L(
+          'No. These four machines are spraying machines. Trailer pumps sit on the electric, diesel and mixer-pump hubs. Do not copy a pump table onto a spraying job.',
+          '不是。这四台是喷涂机。拖式泵在电动、柴油与搅拌泵分类页。不要把泵参数表套用到喷涂工况。',
+        ),
+      },
+      {
+        question: L(
+          'How do I choose among the four spraying machines?',
+          '四台喷涂机怎么选？',
+        ),
+        answer: L(
+          'M9: plaster, ≤4 mm, 30 L/min, 380 V/50 Hz. Compact hydraulic: 5 m³/h, ≤8 mm, 7.5/9 kW. High-flow hydraulic: 7 m³/h, ≤8 mm, 11/15 kW. Diesel: 5 m³/h, ≤6 mm, 28/32 HP when there is no 380 V.',
+          'M9：石膏、≤4 mm、30 L/min、380V/50Hz。紧凑液压：5 m³/h、≤8 mm、7.5/9 kW。大流量液压：7 m³/h、≤8 mm、11/15 kW。柴油：无 380V 时 5 m³/h、≤6 mm、28/32 HP。',
+        ),
+      },
+      {
+        question: L(
+          'Is the diesel sprayer the same as Diesel 30 pump?',
+          '柴油喷涂机是不是柴油30泵？',
+        ),
+        answer: L(
+          'No. The diesel spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and 480 kg. Diesel 30 is a trailer concrete pump on the diesel-pump hub. Compare the printed table on each page.',
+          '不是。柴油喷涂机目录为 28/32 HP、5 m³/h、8 MPa、80 m / 40 m、480 kg。柴油30是柴油泵分类页上的拖式混凝土泵。请对照各页已印表格。',
+        ),
+      },
+      {
+        question: L(
+          'Do you publish a list price for spraying machines?',
+          '喷涂机有公开标价吗？',
+        ),
+        answer: L(
+          'No. Spraying machines are quoted after the model, material, particle size, distance and power are confirmed. This site does not publish a list price.',
+          '没有。喷涂机在确认型号、材料、粒径、距离与动力后报价。本站不公布标价。',
+        ),
+      },
+      customFaq,
+      warehouseFaq,
+      inquireFaq,
+      {
+        question: L(
+          'Can a concrete pump replace these sprayers?',
+          '混凝土泵能否代替这些喷涂机？',
+        ),
+        answer: L(
+          'No. Pumps place concrete through pipeline. Sprayers finish mortar, plaster or listed concrete mixes through a spray hose. Use the matching hub.',
+          '不能。泵是管道浇筑混凝土。喷涂机通过喷管做砂浆、石膏或目录所列混凝土喷涂。请使用对应分类页。',
+        ),
+      },
     ],
   },
 };

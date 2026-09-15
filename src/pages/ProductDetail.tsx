@@ -184,7 +184,18 @@ export function ProductDetail() {
             </p>
             <h1 className="mt-3 heading-display text-3xl sm:text-4xl">{name}</h1>
             <p className="mt-5 text-text-secondary">{tx(getDirectAnswer(product))}</p>
-            {quoteOnly ? <SparePartTerms /> : <ProductPrice slug={product.slug} />}
+            {quoteOnly ? (
+              product.category === 'spare-parts' ? (
+                <SparePartTerms />
+              ) : (
+                <div className="mt-5 space-y-2 border border-border bg-bg-soft p-4 text-sm text-text-secondary">
+                  <p className="font-semibold tracking-wide text-dark">{t.productCard.quoteOnly}</p>
+                  <p>{t.productCard.inquiryNoListPrice}</p>
+                </div>
+              )
+            ) : (
+              <ProductPrice slug={product.slug} />
+            )}
             <p className="mt-6">
               <a href="#inquiry" className="text-sm font-semibold text-primary hover:underline">
                 {t.detail.inquiryBrief} →

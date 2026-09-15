@@ -105,7 +105,7 @@ export const article: BlogPost = {
       ),
       paragraphs: [
         L(
-          'For most no-grid house work and small-site pours, we keep three diesel options. The ladder is power, output, hopper, and distance. We do not list mixing plants, truck-mounted boom pumps, or spraying machines as catalogue products, so the choice is which trailer table covers your pipe.',
+          'For most no-grid house work and small-site pours, we keep three diesel options. The ladder is power, output, hopper, and distance. We do not list mixing plants or truck-mounted boom pumps as catalogue products, so the pump choice is which trailer table covers your pipe. Spraying machines sit on /products/spraying-machines.',
           '无电网的住房和小型工地，我们常用三档柴油机型。阶梯比的是功率、输送量、料斗和距离。目录不生产搅拌站、车载布料杆泵或喷涂机，选型就是哪一张拖式泵表格能覆盖你的管路。',
         ),
       ],

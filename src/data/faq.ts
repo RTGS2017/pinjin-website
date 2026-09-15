@@ -30,8 +30,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '河北品锦机械是一家什么样的公司？',
     },
     answer: {
-      en: 'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a construction machinery manufacturer focused on special equipment. The company is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Its positioning is a professional source manufacturer of delivery pumps. Core activities include R&D, production and sales of electric concrete pumps, diesel concrete pumps and mixer pumps.',
-      zh: '河北品锦机械制造有限公司是专注特种设备制造的工程机械企业，位于河北省邢台市任泽工业园区，定位为专业输送泵生产源头厂家。主营电动混凝土泵、柴油混凝土泵与搅拌泵的研发、生产与销售。',
+      en: 'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a construction machinery manufacturer focused on special equipment. The company is located in Renze Industrial Park, Xingtai City, Hebei Province, China. Its positioning is a professional source manufacturer of delivery pumps. Core activities include R&D, production and sales of electric concrete pumps, diesel concrete pumps, mixer pumps and spraying machines.',
+      zh: '河北品锦机械制造有限公司是专注特种设备制造的工程机械企业，位于河北省邢台市任泽工业园区，定位为专业输送泵生产源头厂家。主营电动混凝土泵、柴油混凝土泵、搅拌泵与喷涂机的研发、生产与销售。',
     },
   },
   {
@@ -41,8 +41,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '品锦主要生产哪些产品？',
     },
     answer: {
-      en: 'Pinjin manufactures three catalogue pump groups plus pipeline spare parts: electric concrete pumps, diesel concrete pumps, mixer pumps, and replacement pipes, elbows, clamps and hoses. Typical electric models include Electric 15 / 20 / 40 / 50 / 60 / 80 and HBT8018 / HBT80-16. Diesel models include Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and rural diesel pumps. Mixer pumps include an electric integrated unit and a diesel mixer-integrated pump. Spare parts are quoted after the pump model, diameter and quantity are confirmed; they are not sold in small batches. A mixing plant, spraying-machine or rebar line is not listed on this website.',
-      zh: '品锦目录分为混凝土泵三类再加管路配件：电动混凝土泵、柴油混凝土泵、搅拌泵，以及输送管、弯管、管卡与胶管替换件。电动典型型号包括电动15 / 20 / 40 / 50 / 60 / 80 以及 HBT8018 / HBT80-16。柴油包括柴油30–120、LZ-60 / LZ-80、拖拉机带动4100与农村柴油泵。搅拌泵包括电动一体机与柴油搅拌泵一体机。配件在确认泵型号、管径与数量后报价，不支持小批量发货。本站未列出搅拌站、喷涂机或钢筋设备产品线。',
+      en: 'Pinjin manufactures four catalogue groups plus pipeline spare parts: electric concrete pumps, diesel concrete pumps, mixer pumps, spraying machines, and replacement pipes, elbows, clamps and hoses. Typical electric models include Electric 15 / 20 / 40 / 50 / 60 / 80 and HBT8018 / HBT80-16. Diesel models include Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and rural diesel pumps. Mixer pumps include an electric integrated unit and a diesel mixer-integrated pump. Spraying machines include two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h), M9 automatic plaster (30 L/min) and a diesel concrete sprayer (5 m³/h). Spare parts are quoted after the pump model, diameter and quantity are confirmed; they are not sold in small batches. A mixing plant, boom pump or rebar line is not listed on this website.',
+      zh: '品锦目录分为四类再加管路配件：电动混凝土泵、柴油混凝土泵、搅拌泵、喷涂机，以及输送管、弯管、管卡与胶管替换件。电动典型型号包括电动15 / 20 / 40 / 50 / 60 / 80 以及 HBT8018 / HBT80-16。柴油包括柴油30–120、LZ-60 / LZ-80、拖拉机带动4100与农村柴油泵。搅拌泵包括电动一体机与柴油搅拌泵一体机。喷涂机包括两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h）、M9 全自动石膏喷涂机（30 L/min）与柴油混凝土喷涂机（5 m³/h）。配件在确认泵型号、管径与数量后报价，不支持小批量发货。本站未列出搅拌站、臂架泵或钢筋设备产品线。',
     },
   },
   {
@@ -118,8 +118,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '你们是否生产砂浆喷涂机？',
     },
     answer: {
-      en: 'No. The current website catalogue lists electric concrete pumps, diesel concrete pumps and mixer pumps. A dedicated mortar spraying machine is not published here. If a project needs spraying equipment, contact the Xingtai factory rather than using a pump table.',
-      zh: '否。当前网站目录列出电动混凝土泵、柴油混凝土泵与搅拌泵，未公布独立砂浆喷涂机。若项目需要喷涂设备，请联系邢台工厂，不要套用泵送参数表。',
+      en: 'Yes. The spraying-machines hub lists two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h, particle ≤8 mm) and a diesel concrete sprayer (5 m³/h, particle ≤6 mm). They are not trailer concrete pumps. Open /products/spraying-machines and match particle size, hose and power, then inquire. No list price.',
+      zh: '是。喷涂机分类页列出两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h，粒径 ≤8 mm）与一台柴油混凝土喷涂机（5 m³/h，粒径 ≤6 mm）。它们不是拖式混凝土泵。请打开 /products/spraying-machines 对照粒径、管径与动力后再询盘。无公开标价。',
     },
   },
   {
@@ -129,8 +129,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '你们有哪些石膏喷涂设备？',
     },
     answer: {
-      en: 'A dedicated plaster spraying machine is not listed on the current website catalogue. Pinjin’s published models are electric pumps, diesel pumps and mixer pumps. Contact the factory if the job is finishing spraying rather than pipeline pumping.',
-      zh: '当前网站目录未列出独立石膏喷涂机。已公布型号为电动泵、柴油泵与搅拌泵。若工况是饰面喷涂而不是管道泵送，请联系工厂。',
+      en: 'The M9 automatic plaster spraying machine is listed on /products/m9-automatic-plaster-spraying-machine: 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm, 50 m / 20 m. It is not a hydraulic concrete sprayer. Quote only; no published list price.',
+      zh: 'M9 全自动石膏喷涂机列在 /products/m9-automatic-plaster-spraying-machine：380V/50Hz、30 L/min、50 bar、管径 25 mm、料斗 115 L、粒径 ≤4 mm、50 m / 20 m。它不是液压混凝土喷涂机。询价报价，无公开标价。',
     },
   },
   {
@@ -140,8 +140,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '是否支持混凝土泵或搅拌泵定制？',
     },
     answer: {
-      en: 'Customization starts from a listed electric pump, diesel pump or mixer pump. Buyers can send project requirements—capacity, conveying distance, power type and site constraints—and Pinjin can discuss whether a listed configuration fits or what adjustment is feasible. Unpublished performance figures are not promised.',
-      zh: '定制从已列电动泵、柴油泵或搅拌泵出发。欢迎提供产能、输送距离、动力形式与场地限制等需求，品锦可基于现有机型讨论适配或可行调整。不承诺未公布的性能数字。',
+      en: 'Customization starts from a listed electric pump, diesel pump, mixer pump or spraying machine. Buyers can send project requirements—capacity, conveying or spray distance, power type and site constraints—and Pinjin can discuss whether a listed configuration fits or what adjustment is feasible. Unpublished performance figures are not promised.',
+      zh: '定制从已列电动泵、柴油泵、搅拌泵或喷涂机出发。欢迎提供产能、输送或喷涂距离、动力形式与场地限制等需求，品锦可基于现有机型讨论适配或可行调整。不承诺未公布的性能数字。',
     },
   },
   {

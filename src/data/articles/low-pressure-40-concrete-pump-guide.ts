@@ -66,7 +66,7 @@ export const article: BlogPost = {
           '目录名称里带“低压”，很容易被读成功率不够、压力不够。在我们车间里，这句话只表示按细石混凝土调校，而不是为了省成本砍掉液压件。川崎112液压泵与标准电动40同属一系。拖泵外形与电动30同为3300 × 1500 × 1500 mm、整机同样1200 kg。真正变化的是电机功率、目录输送量，以及已公布的细石水平/垂直输送距离表。采购时请对这三行，而不是对“40”这个称呼。',
         ),
         L(
-          'We do not manufacture mixing plants, truck-mounted boom pumps, or spraying machines. If your pour needs a boom or a batching plant, that is a different supplier. This guide stays inside our published electric trailer range on /products/electric-concrete-pumps.',
+          'We do not manufacture mixing plants or truck-mounted boom pumps. Spraying machines are listed separately. If your pour needs a boom or a batching plant, that is a different supplier. This guide stays inside our published electric trailer range on /products/electric-concrete-pumps.',
           '我们不生产搅拌站、车载臂架泵或喷浆机，目录里也没有这三类产品。如果浇筑必须用臂架或搅拌站，那是另一类供应商的事，我们不会把拖泵说成臂架泵。本指南只谈已公布的电动拖泵系列，可从 /products/electric-concrete-pumps 进入对照。',
         ),
       ],
@@ -231,7 +231,7 @@ export const article: BlogPost = {
         '品锦有没有把臂架泵或搅拌站列进同一工况？',
       ),
       answer: L(
-        'No. We manufacture catalogue electric trailer pumps, diesel trailer pumps, and mixer pumps in Xingtai. We do not list mixing plants, truck-mounted boom pumps, or spraying machines. Inquire with mix, pipe length, and weight limit on /contact.',
+        'No. We manufacture catalogue electric trailer pumps, diesel trailer pumps, mixer pumps and spraying machines in Xingtai. We do not list mixing plants or truck-mounted boom pumps. Inquire with mix, pipe length, and weight limit on /contact.',
         '没有。我们在邢台生产目录中的电动拖泵、柴油拖泵和搅拌泵，不列搅拌站、车载臂架泵或喷浆机。请把拌合物、管长和重量限制发到 /contact，由工厂按已公布参数对照。',
       ),
     },

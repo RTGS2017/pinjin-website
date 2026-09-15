@@ -80,7 +80,7 @@ export const article: BlogPost = {
           '买方写信到河北品锦机械邢台工厂时，问的往往不是我们是否做混凝土泵，而是该选电动20还是电动30。两台都是同一份工厂目录里的电动拖式泵，在任泽工业园区车间里经常停在相邻工位。差别不是营销形容词，而是料斗容积、出口压力、理论输送量、已公布输送距离、目录写明的管径、骨料粒径和整机重量。',
         ),
         L(
-          'We do not manufacture mixing plants, truck-mounted boom pumps, or spraying machines as catalogue products. This comparison is trailer pump against trailer pump. Every number below is copied from the product pages. If a cell is blank — cylinder bore or stroke — we leave it blank. Our engineers will still walk you around the pumping cylinders, but we will not invent millimetres the catalogue does not print.',
+          'We do not manufacture mixing plants or truck-mounted boom pumps. Spraying machines are listed separately on /products/spraying-machines. This comparison is trailer pump against trailer pump. Every number below is copied from the product pages. If a cell is blank — cylinder bore or stroke — we leave it blank. Our engineers will still walk you around the pumping cylinders, but we will not invent millimetres the catalogue does not print.',
           '我们不以搅拌站、车载臂架泵或喷浆机作为目录产品。下面只做拖式泵对拖式泵。数字全部抄自已公布的产品页。产品页空着的格子——例如缸径、行程——这里同样空着。工程师仍会在车间带着你看泵送缸，但不会编造目录没有印出的毫米数。',
         ),
         L(
@@ -275,7 +275,7 @@ export const article: BlogPost = {
         '品锦是否生产车载臂架泵或搅拌站？',
       ),
       answer: L(
-        'No. We manufacture trailer and compact transfer concrete pumps in Xingtai. Mixing plants, truck-mounted boom pumps and spraying machines are not catalogue products. Compare Electric 20, Electric 30 and Electric 15 on the product pages, then contact us with site conditions.',
+        'No. We manufacture trailer and compact transfer concrete pumps in Xingtai. Mixing plants and truck-mounted boom pumps are not catalogue products. Spraying machines sit on /products/spraying-machines. Compare Electric 20, Electric 30 and Electric 15 on the product pages, then contact us with site conditions.',
         '否。我们在邢台制造拖式与紧凑输送混凝土泵。搅拌站、车载臂架泵和喷浆机不是目录产品。请在产品页对照电动20、电动30和电动15，再把工况发给我们。',
       ),
     },

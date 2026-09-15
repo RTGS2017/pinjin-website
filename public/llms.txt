@@ -5,12 +5,13 @@ Chinese name: 河北品锦机械制造有限公司
 Factory: Renze Industrial Park, Xingtai, Hebei, China (postal code 055150)
 Site: https://pinjinpump.com/
 
-Pinjin manufactures electric trailer concrete pumps, diesel trailer concrete pumps, mixer pumps (mix and pump on one trailer), and replacement pipeline / S-valve wear parts. These are not truck-mounted boom pumps, mortar sprayers, grout pumps, or concrete mixing plants.
+Pinjin manufactures electric trailer concrete pumps, diesel trailer concrete pumps, mixer pumps (mix and pump on one trailer), spraying machines (hydraulic/diesel concrete sprayers and M9 plaster), and replacement pipeline / S-valve wear parts. These are not truck-mounted boom pumps or concrete mixing plants. Trailer pumps are not spraying machines.
 
 ## Catalogue indexes
 - Electric pumps: https://pinjinpump.com/en/products/electric-concrete-pumps/
 - Diesel pumps: https://pinjinpump.com/en/products/diesel-concrete-pumps/
 - Mixer pumps: https://pinjinpump.com/en/products/mixer-pumps/
+- Spraying machines: https://pinjinpump.com/en/products/spraying-machines/
 - Spare parts: https://pinjinpump.com/en/products/concrete-pump-parts/
 - Selection guide: https://pinjinpump.com/en/product-selection-guide/
 - Contact: https://pinjinpump.com/en/contact/

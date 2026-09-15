@@ -32,6 +32,10 @@ const hubAnchor: Record<ProductCategory, Omit<TopicLink, 'href'>> = {
     en: 'Concrete mixer pump manufacturer China',
     zh: '中国搅拌泵厂家',
   },
+  'spraying-machine': {
+    en: 'Concrete spraying machine manufacturer China',
+    zh: '中国混凝土喷涂机厂家',
+  },
   'spare-parts': {
     en: 'Concrete pump parts manufacturer China',
     zh: '中国混凝土泵配件厂家',
@@ -190,6 +194,33 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedSolutions: [
       { href: '/solutions/construction', en: 'Building construction pumping', zh: '建筑施工泵送应用' },
+      factoryLink,
+    ],
+  },
+  'spraying-machine': {
+    relatedCategories: [
+      {
+        href: '/products/electric-concrete-pumps',
+        en: 'Electric concrete pump manufacturer China',
+        zh: '中国电动混凝土泵厂家',
+      },
+      {
+        href: '/products/diesel-concrete-pumps',
+        en: 'Diesel concrete pump manufacturer China',
+        zh: '中国柴油混凝土泵厂家',
+      },
+      oemLink,
+    ],
+    relatedArticles: [
+      {
+        href: '/blog/mixer-pump-vs-concrete-mixing-plant',
+        en: 'Mixer pump vs concrete mixing plant',
+        zh: '搅拌泵与混凝土搅拌站的区别',
+      },
+      { href: '/factory', en: 'Xingtai construction machinery factory', zh: '邢台工程机械工厂' },
+    ],
+    relatedSolutions: [
+      { href: '/solutions/spraying', en: 'Spraying jobs vs pipeline pumping', zh: '喷浆作业与管道泵送' },
       factoryLink,
     ],
   },

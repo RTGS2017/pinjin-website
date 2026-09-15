@@ -19,6 +19,7 @@ import {
   LegacyMixingPlantRedirect,
   LegacyResourcesBlogRedirect,
   LegacySprayingHubRedirect,
+  LegacyToSprayingHubRedirect,
 } from '@/pages/LegacyRedirects';
 
 /* ---------- lazy-loaded pages ---------- */
@@ -62,12 +63,12 @@ function localePages() {
       {r('products/mixer-pumps', <ProductCategoryPage />)}
       {r('products/concrete-pump-parts', <ProductCategoryPage />)}
       {r('products/concrete-pumps', <LegacyConcretePumpHubRedirect />)}
-      {r('products/spraying-machines', <LegacySprayingHubRedirect />)}
+      {r('products/spraying-machines', <ProductCategoryPage />)}
       {r('products/material-handling', <LegacySprayingHubRedirect />)}
       {r('products/rebar-equipment', <LegacySprayingHubRedirect />)}
       {r('products/custom-machinery', <CustomMachineryPage />)}
       {r('products/concrete-pump', <LegacyConcretePumpHubRedirect />)}
-      {r('products/concrete-spraying-machine', <LegacySprayingHubRedirect />)}
+      {r('products/concrete-spraying-machine', <LegacyToSprayingHubRedirect />)}
       {r('products/concrete-mixing-plant', <LegacyMixingPlantRedirect />)}
       {r('products/:slug', <ProductDetail />)}
       {r('product-selection-guide', <SelectionGuidePage />)}

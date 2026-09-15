@@ -60,7 +60,7 @@ export const article: BlogPost = {
           '搅拌站固定在搅拌场地。它把水泥、砂、石和水按配比计量，再装进搅拌车。它需要基础、料仓和生产布置。它不会开到两层自建房旁边，也不会把混凝土压进输送管。如果你的工程确实要搅拌站，需要找另一类厂家。我们会在第一通电话里把话说清楚，而不是把目录往外撑。',
         ),
         L(
-          "Our published line in Renze Industrial Park covers electric trailer pumps, diesel trailer pumps, and integrated mixer pumps. It does not list a batching plant, a truck-mounted boom pump, or a spraying machine. When the site must mix on the ground and place through pipe, we ship a mixer pump.",
+          "Our published pump line in Renze Industrial Park covers electric trailer pumps, diesel trailer pumps, and integrated mixer pumps. It does not list a batching plant or a truck-mounted boom pump. Spraying machines are listed separately. When the site must mix on the ground and place through pipe, we ship a mixer pump.",
           '任泽工业园区里，我们已公布的产品线覆盖电动拖泵、柴油拖泵和搅拌泵一体机。目录里没有配料站、没有车载臂架泵、也没有喷浆机。工地若要从搅拌站拉商品混凝土，搅拌泵替不了那个场地。工地若要在现场拌料再经管道浇筑，搅拌泵才是我们真正发货的机型。',
         ),
       ],
@@ -176,7 +176,7 @@ export const article: BlogPost = {
           '对得上这台设备的，是在现场拌料的紧凑浇筑：农村与自建房、二次结构、搅拌车没法按点停靠的小型建筑。建筑施工泵送说明在 /solutions/construction。当班组就在拖车旁边配料，再经100 / 125 mm管道浇筑，4500 kg或4200 kg的搅拌泵才值这个重量。',
         ),
         L(
-          "It does not fit a project that already runs a mixing plant and only needs long-distance pumping. For that work we point to pump-only trailers. We do not quote a plant, a boom pump, or a spraying machine; those items are not in the Xingtai catalogue.",
+          "It does not fit a project that already runs a mixing plant and only needs long-distance pumping. For that work we point to pump-only trailers. We do not quote a plant or a boom pump; those items are not in the Xingtai catalogue. Spraying machines are listed on a separate hub.",
           '已经在跑搅拌站、只需要长距离泵送的工程，对不上。那种活我们指向仅泵送的拖泵。想让我们报搅拌站、臂架泵或喷浆机的买家，也对不上。那些不在邢台目录里，我们不会为了拿订单把它们写进去。',
         ),
         L(
@@ -227,7 +227,7 @@ export const article: BlogPost = {
         '品锦生产混凝土搅拌站吗？',
       ),
       answer: L(
-        'No. Xingtai does not manufacture mixing plants, truck-mounted boom pumps, or spraying machines. We manufacture trailer concrete pumps and integrated mixer pumps: mix plus pump on one trailer.',
+        'No. Xingtai does not manufacture mixing plants or truck-mounted boom pumps. Spraying machines are listed separately. We manufacture trailer concrete pumps and integrated mixer pumps: mix plus pump on one trailer.',
         '不生产。河北品锦机械在邢台不制造搅拌站、车载臂架泵或喷浆机。我们制造拖式混凝土泵和搅拌泵一体机：搅拌与泵送在同一辆拖车上。',
       ),
     },

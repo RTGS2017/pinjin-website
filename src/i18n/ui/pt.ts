@@ -52,9 +52,9 @@ export const messagesPt = {
       'A Hebei Pinjin Machinery Manufacturing Co., Ltd. é fabricante de origem no Parque Industrial Renze, Xingtai, Hebei, com foco em P&D, produção e venda de máquinas de construção, como bombas de concreto.',
     title: 'Fabricante profissional de máquinas de concreto na China',
     subtitle:
-      'Bombas de concreto elétricas, a diesel, misturadoras e customização OEM a partir de Xingtai.',
+      'Bombas de concreto elétricas, a diesel, misturadoras, máquinas de projeção e customização OEM a partir de Xingtai.',
     directAnswer:
-      'A Hebei Pinjin Machinery fabrica bombas de concreto reboque elétricas e a diesel e bombas misturadoras em Xingtai, Hebei, China. Compare mistura, agregado, distância e energia com o catálogo publicado. Não são bombas com lança, pulverizadores nem usinas de concreto. Peças são cotadas após confirmar medidas, sem preço de lista e sem armazém no exterior.',
+      'A Hebei Pinjin Machinery fabrica bombas de concreto reboque elétricas e a diesel, bombas misturadoras e máquinas de projeção em Xingtai, Hebei, China. Compare mistura ou material de spray, agregado ou partícula, distância e energia com o catálogo publicado. As bombas reboque não são bombas com lança nem usinas de concreto. As máquinas de projeção estão numa categoria própria. Peças são cotadas após confirmar medidas, sem preço de lista e sem armazém no exterior.',
     explore: 'Ver produtos',
     quote: 'Falar com engenheiro',
   },
@@ -72,7 +72,7 @@ export const messagesPt = {
   categories: {
     title: 'NOSSA LINHA DE PRODUTOS',
     subtitle:
-      'Bombas de concreto elétricas, a diesel e misturadoras do catálogo da fábrica de Xingtai.',
+      'Bombas de concreto elétricas, a diesel, misturadoras, máquinas de projeção e peças do catálogo da fábrica de Xingtai.',
     view: 'Ver produtos →',
     concrete: 'BOMBAS DE CONCRETO',
     concreteDesc: 'Bombas de transferência e bombas de concreto para entrega confiável.',
@@ -226,7 +226,7 @@ export const messagesPt = {
   productsPage: {
     title: 'TODOS OS PRODUTOS',
     subtitle:
-      'Navegue por bombas de concreto elétricas, a diesel, misturadoras e peças.',
+      'Navegue por bombas de concreto elétricas, a diesel, misturadoras, máquinas de projeção e peças.',
     all: 'Todos',
     concrete: 'Bombas de concreto',
     spraying: 'Máquinas de projeção',
@@ -315,6 +315,8 @@ export const messagesPt = {
     quoteOnly: 'Preço sob consulta',
     noListPrice:
       'Sem preço de lista. Cotação após confirmar modelo da bomba, diâmetro, comprimento e quantidade.',
+    inquiryNoListPrice:
+      'Sem preço de lista. Peça cotação da fábrica com modelo, material, granulometria, distância e energia.',
     noSmallBatch:
       'Estas peças de reposição não são vendidas em pequenos lotes. O envio é para quantidades de obra.',
   },
@@ -367,7 +369,7 @@ export const messagesPt = {
     homeTitle:
       'Fabricante de Bomba de Concreto China | Hebei Pinjin Machinery',
     homeDesc:
-      'Fabricante de máquinas de concreto na China. A Hebei Pinjin produz bombas de concreto elétricas e a diesel e misturadoras em Xingtai, Hebei, na área de Xingjiawan.',
+      'Fabricante de máquinas de concreto na China. A Hebei Pinjin produz bombas de concreto elétricas e a diesel, misturadoras e máquinas de projeção em Xingtai, Hebei, na área de Xingjiawan.',
     productsTitle:
       'Fabricante de Bomba de Concreto China | Pinjin Machinery',
     aboutTitle:

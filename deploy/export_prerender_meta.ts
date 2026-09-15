@@ -31,7 +31,7 @@ import { marketsContent } from '@/data/markets';
 import { customMachineryContent } from '@/data/customMachinery';
 
 const SITE = 'https://pinjinpump.com';
-const DEFAULT_LASTMOD = '2026-09-07';
+const DEFAULT_LASTMOD = '2026-09-15';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outFile = join(root, 'deploy', 'prerender-meta.json');

@@ -180,7 +180,7 @@ export const article: BlogPost = {
       ),
       paragraphs: [
         L(
-          'Buyers sometimes send a boom-pump photo from another job. We need to be direct. Hebei Pinjin Machinery does not manufacture truck-mounted boom pumps, mixing plants or spraying machines as catalogue products. What we build and dispatch from Xingtai are trailer pipeline pumps — electric, diesel and mixer-pump combinations. For bridge construction, the pump sits at a planned station and concrete travels in pipe to the pier or deck.',
+          'Buyers sometimes send a boom-pump photo from another job. We need to be direct. Hebei Pinjin Machinery does not manufacture truck-mounted boom pumps or mixing plants as catalogue products. Spraying machines are listed separately. What we build and dispatch from Xingtai for bridge pours are trailer pipeline pumps — electric, diesel and mixer-pump combinations. For bridge construction, the pump sits at a planned station and concrete travels in pipe to the pier or deck.',
           '有时客户会发来其他工地的臂架泵照片。我们需要说清楚：河北品锦机械的目录产品不含车载臂架泵、搅拌站或喷涂机。邢台制造并发运的是拖式管道泵——电动、柴油和搅拌泵一体机。桥梁施工时，泵停在预定泵站，混凝土经管道送到墩柱或桥面。',
         ),
         L(
