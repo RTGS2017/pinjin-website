@@ -19,6 +19,7 @@ import { clusterForBlog } from '@/data/topicClusters';
 import { seoTemplates } from '@/config/seo';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
+import { brandedTitle, withLocaleDescription } from '@/seo/documentCopy';
 
 export function BlogDetail() {
   const { slug } = useParams<{ slug: string }>();
@@ -41,9 +42,11 @@ export function BlogDetail() {
     .map((item) => getProductBySlug(item))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
   const keywords = post.keywords.join(', ');
-  const seoTitle = post.seoTitle
-    ? tx(post.seoTitle)
-    : seoTemplates.blogTitle(title);
+  const seoTitle = brandedTitle(
+    post.seoTitle ? tx(post.seoTitle) : seoTemplates.blogTitle(title),
+    lang,
+  );
+  const seoDescription = withLocaleDescription(description, lang);
   const firstImage = post.content.find((section) => section.image)?.image?.src;
   const categoryHub = relatedProducts[0]
     ? getCategoryPath(relatedProducts[0].category)
@@ -83,7 +86,7 @@ export function BlogDetail() {
     <section className="section-y bg-bg">
       <SEO
         title={seoTitle}
-        description={description}
+        description={seoDescription}
         path={path}
         type="article"
         image={firstImage}

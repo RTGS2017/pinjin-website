@@ -26,12 +26,22 @@ import { getBlogPosts } from '@/data/blog';
 import { getBlogDirectAnswer, getBlogFaqs } from '@/data/blogGeo';
 import { getDirectAnswer, getHowToSelect, getNotSuitable } from '@/data/productP01';
 import { getProductFaqs } from '@/data/productFaqs';
+import { getNearbyComparisonText } from '@/data/productCompare';
 import { applicationPages } from '@/data/applicationsContent';
 import { marketsContent } from '@/data/markets';
 import { customMachineryContent } from '@/data/customMachinery';
+import {
+  brandedTitle,
+  factoryDocumentDescription,
+  factoryDocumentTitle,
+  productDocumentDescription,
+  productDocumentTitle,
+  solutionContrast,
+  withLocaleDescription,
+} from '@/seo/documentCopy';
 
 const SITE = 'https://pinjinpump.com';
-const DEFAULT_LASTMOD = '2026-09-15';
+const DEFAULT_LASTMOD = '2026-09-18';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outFile = join(root, 'deploy', 'prerender-meta.json');
@@ -121,17 +131,17 @@ function pageCopy(rest: string, lang: Lang): {
   }
   if (rest === '/products/custom-machinery') {
     return {
-      title: tx(customMachineryContent.title, lang),
-      description: tx(customMachineryContent.description, lang),
+      title: brandedTitle(tx(customMachineryContent.title, lang), lang),
+      description: withLocaleDescription(tx(customMachineryContent.description, lang), lang),
       h1: tx(customMachineryContent.h1, lang),
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/product-selection-guide') {
     return {
-      title: `${t.seo.selectionTitle} | Selection Guide`,
+      title: t.seo.selectionTitle,
       description: t.seo.selectionDesc,
-      h1: `${t.selectionGuide.title} · Selection Guide`,
+      h1: t.selectionGuide.title,
       lastmod: DEFAULT_LASTMOD,
     };
   }
@@ -145,33 +155,33 @@ function pageCopy(rest: string, lang: Lang): {
   }
   if (rest === '/blog') {
     return {
-      title: `${t.seo.blogTitle} | Blog`,
+      title: t.seo.blogTitle,
       description: t.seo.blogDesc,
-      h1: `${t.seo.blogTitle} · Blog`,
+      h1: t.seo.blogTitle,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/resources') {
     return {
-      title: `${t.seo.resourcesTitle} | Resources`,
+      title: t.seo.resourcesTitle,
       description: t.seo.resourcesDesc,
-      h1: `${t.nav.resources} · Resources`,
+      h1: t.nav.resources,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/factory') {
     return {
-      title: seoTemplates.factoryTitle,
-      description: seoTemplates.factoryDescription,
-      h1: seoTemplates.factoryTitle,
+      title: factoryDocumentTitle(lang),
+      description: factoryDocumentDescription(lang, t.seo.homeDesc),
+      h1: factoryDocumentTitle(lang),
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/about') {
     return {
-      title: `${t.seo.aboutTitle} | About`,
+      title: t.seo.aboutTitle,
       description: t.hero.intro,
-      h1: `${t.page.whoAreYou} · About`,
+      h1: t.page.whoAreYou,
       lastmod: DEFAULT_LASTMOD,
     };
   }
@@ -185,23 +195,23 @@ function pageCopy(rest: string, lang: Lang): {
   }
   if (rest === '/faq') {
     return {
-      title: `${t.seo.faqTitle} | FAQ`,
+      title: t.seo.faqTitle,
       description: t.page.faqSubtitle,
-      h1: `${t.page.faqHeading} · FAQ`,
+      h1: t.page.faqHeading,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/contact') {
     return {
-      title: `${t.seo.contactTitle} | Contact`,
+      title: t.seo.contactTitle,
       description: t.contact.sendBody,
-      h1: `${t.seo.contactTitle} · Contact`,
+      h1: t.seo.contactTitle,
       lastmod: DEFAULT_LASTMOD,
     };
   }
   if (rest === '/copyright') {
     return {
-      title: `${t.seo.copyrightTitle} | Pinjin Machinery`,
+      title: t.seo.copyrightTitle,
       description: t.copyright.lead.length >= 40 ? t.copyright.lead : `${t.copyright.lead} Image and catalogue copyright for Hebei Pinjin Machinery.`,
       h1: t.copyright.title,
       lastmod: DEFAULT_LASTMOD,
@@ -215,8 +225,8 @@ function pageCopy(rest: string, lang: Lang): {
     const [, hub] = hubEntry;
     const heading = tx(hub.h1, lang);
     return {
-      title: `${heading} | Pinjin Machinery China`,
-      description: tx(hub.intro, lang),
+      title: brandedTitle(heading, lang),
+      description: withLocaleDescription(tx(hub.intro, lang), lang),
       h1: heading,
       lastmod: DEFAULT_LASTMOD,
     };
@@ -225,8 +235,8 @@ function pageCopy(rest: string, lang: Lang): {
   const product = products.find((item) => `/products/${item.slug}` === rest);
   if (product) {
     return {
-      title: tx(product.seo.title, lang),
-      description: tx(product.seo.description, lang),
+      title: productDocumentTitle(product, lang),
+      description: productDocumentDescription(product, lang),
       h1: tx(product.name, lang),
       lastmod: DEFAULT_LASTMOD,
     };
@@ -235,11 +245,11 @@ function pageCopy(rest: string, lang: Lang): {
   const post = posts.find((item) => `/blog/${item.slug}` === rest);
   if (post) {
     const title = post.seoTitle
-      ? tx(post.seoTitle, lang)
-      : seoTemplates.blogTitle(tx(post.title, lang));
+      ? brandedTitle(tx(post.seoTitle, lang), lang)
+      : brandedTitle(seoTemplates.blogTitle(tx(post.title, lang)), lang);
     return {
       title,
-      description: tx(post.description, lang),
+      description: withLocaleDescription(tx(post.description, lang), lang),
       h1: tx(post.title, lang),
       lastmod: post.dateModified ?? post.date ?? DEFAULT_LASTMOD,
     };
@@ -251,8 +261,8 @@ function pageCopy(rest: string, lang: Lang): {
   if (solution) {
     const heading = tx(solution.title, lang);
     return {
-      title: `${heading} | Pinjin Machinery`,
-      description: tx(solution.summary, lang),
+      title: brandedTitle(heading, lang),
+      description: withLocaleDescription(tx(solution.summary, lang), lang),
       h1: heading,
       lastmod: DEFAULT_LASTMOD,
     };
@@ -279,23 +289,41 @@ function pageKind(rest: string): PageKind {
   return 'other';
 }
 
+const LANG_WORD: Record<Lang, string> = {
+  en: 'English',
+  zh: '中文',
+  pt: 'Português',
+  ar: 'العربية',
+  ru: 'Русский',
+};
+
+/** 最后兜底：不再写 ` · en`。优先靠分语种模板把标题拆开。 */
 function uniquify(pages: PageRecord[], key: 'title' | 'description') {
-  const counts = new Map<string, number>();
+  const bump = (page: PageRecord) => {
+    const current = page[key];
+    const word = LANG_WORD[page.lang];
+    if (key === 'description') {
+      page.description = withLocaleDescription(current, page.lang);
+      if (page.description === current) {
+        page.description = `${current} (${word})`;
+      }
+      return;
+    }
+    const branded = brandedTitle(current, page.lang);
+    page.title = branded === current ? `${current} (${word})` : branded;
+  };
+
+  let counts = new Map<string, number>();
+  for (const page of pages) counts.set(page[key], (counts.get(page[key]) || 0) + 1);
+  for (const page of pages) {
+    if ((counts.get(page[key]) || 0) > 1) bump(page);
+  }
+  counts = new Map<string, number>();
   for (const page of pages) counts.set(page[key], (counts.get(page[key]) || 0) + 1);
   for (const page of pages) {
     if ((counts.get(page[key]) || 0) > 1) {
-      const suffix = ` · ${page.lang}`;
-      const next = `${page[key]}${suffix}`;
-      page[key] = key === 'title' && next.length > 70 ? `${page[key].slice(0, Math.max(12, 70 - suffix.length))}${suffix}` : next;
-    }
-  }
-  const again = new Map<string, number>();
-  for (const page of pages) again.set(page[key], (again.get(page[key]) || 0) + 1);
-  for (const page of pages) {
-    if ((again.get(page[key]) || 0) > 1) {
-      const suffix = ` · ${page.lang}${page.rest}`;
-      const next = `${page[key]}${suffix}`;
-      page[key] = key === 'title' && next.length > 70 ? `${page.h1.slice(0, 40)}${suffix}` : next;
+      const word = LANG_WORD[page.lang];
+      page[key] = `${page.h1} | ${word}`;
     }
   }
 }
@@ -327,6 +355,7 @@ for (const lang of languages.map((item) => item.code)) {
     const extra = product
       ? [
           tx(getDirectAnswer(product), lang),
+          getNearbyComparisonText(product, lang),
           getNotSuitable(product).map((item) => tx(item, lang)).join(' '),
           tx(getHowToSelect(product), lang),
           [
@@ -382,6 +411,16 @@ for (const lang of languages.map((item) => item.code)) {
                   .join(' '),
               ].join(' ');
             }
+            const solution = applicationPages.find(
+              (item) => rest === `/solutions/${item.solutionSlug}`,
+            );
+            if (solution) {
+              return [
+                tx(solution.summary, lang),
+                solution.points.map((item) => tx(item, lang)).join(' '),
+                solutionContrast(solution, lang),
+              ].join(' ');
+            }
             return copy.description;
           })();
     pages.push({
@@ -428,6 +467,12 @@ const payload = {
 
 uniquify(pages, 'title');
 uniquify(pages, 'description');
+
+for (const page of pages) {
+  if (page.title.includes(' · en') || page.title.includes(' · zh') || page.description.includes(' · en')) {
+    throw new Error(`machine lang suffix leaked into ${page.path}: ${page.title}`);
+  }
+}
 
 mkdirSync(dirname(outFile), { recursive: true });
 writeFileSync(outFile, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');

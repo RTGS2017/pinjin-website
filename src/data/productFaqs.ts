@@ -5,6 +5,7 @@ import {
   getNotSuitable,
   specText,
 } from '@/data/productP01';
+import { getNearbyComparisonText } from '@/data/productCompare';
 import type { Lang } from '@/i18n/types';
 import { pick } from '@/i18n/types';
 
@@ -257,6 +258,20 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
         }),
       });
     }
+  }
+
+  const nearby = getNearbyComparisonText(product, lang);
+  if (nearby) {
+    items.push({
+      question: t(lang, {
+        en: `How does ${name} differ from nearby catalogue models?`,
+        zh: `${name} 和相邻目录机型差在哪？`,
+        pt: `Como ${name} difere dos modelos vizinhos do catálogo?`,
+        ar: `كيف يختلف ${name} عن الطرازات المجاورة في الكتالوج؟`,
+        ru: `Чем ${name} отличается от соседних моделей каталога?`,
+      }),
+      answer: nearby,
+    });
   }
 
   items.push({

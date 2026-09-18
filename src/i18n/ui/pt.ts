@@ -289,6 +289,10 @@ export const messagesPt = {
     fitsPumps: 'Bombas de concreto relacionadas',
     notSuitable: 'Não adequado para',
     howToSelect: 'Como escolher',
+    vsNearby: 'Comparado com modelos vizinhos do catálogo',
+    vsNearbyLead:
+      'As linhas abaixo só repetem números impressos nesta página e nas páginas ligadas. Desempenho não publicado não é prometido.',
+    otherSolutions: 'Não é a mesma página que estas outras soluções',
     buyProcess: 'Da consulta ao envio',
     evidence: 'Evidência nesta página',
     inquiryBrief: 'Condições da obra para cotação',

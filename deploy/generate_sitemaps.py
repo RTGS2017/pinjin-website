@@ -176,7 +176,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-15"
+LASTMOD = "2026-09-18"
 META_FILE = Path(__file__).resolve().parents[1] / "deploy" / "prerender-meta.json"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (

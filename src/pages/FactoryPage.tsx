@@ -10,14 +10,14 @@ import {
   buildFaqPageJsonLd,
   buildOrganizationJsonLd,
 } from '@/components/SEO';
-import { seoTemplates } from '@/config/seo';
 import { companyEntity } from '@/config/entity';
+import { useI18n } from '@/i18n/I18nContext';
+import { localePath } from '@/i18n/paths';
+import { factoryDocumentDescription, factoryDocumentTitle } from '@/seo/documentCopy';
 import { ManufacturingProcess } from '@/components/sections/ManufacturingProcess';
 import { FactoryOverview } from '@/components/sections/FactoryOverview';
 import { factoryGeoBlocks, factoryGeoFaqs } from '@/data/factory';
 import { clusterForFactory } from '@/data/topicClusters';
-import { useI18n } from '@/i18n/I18nContext';
-import { localePath } from '@/i18n/paths';
 
 export function FactoryPage() {
   const { lang, t, tx } = useI18n();
@@ -29,10 +29,8 @@ export function FactoryPage() {
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={t.seo.aboutTitle}
-        description={
-          lang === 'zh' ? t.seo.homeDesc : seoTemplates.factoryDescription
-        }
+        title={factoryDocumentTitle(lang)}
+        description={factoryDocumentDescription(lang, t.seo.homeDesc)}
         path="/factory"
         image="/images/hero/pinjin-machinery-factory-xingtai-china.webp"
         keywords="Xingjiawan Concrete Machinery, Xingtai Construction Machinery Factory, Concrete Machinery Manufacturer China"

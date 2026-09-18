@@ -22,6 +22,7 @@ import {
 } from '@/components/SEO';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
+import { brandedTitle, withLocaleDescription } from '@/seo/documentCopy';
 
 export function ProductCategoryPage() {
   const { categorySlug, slug } = useParams<{
@@ -51,8 +52,8 @@ export function ProductCategoryPage() {
   const localizedPath = localePath(path, lang);
   const label = tx(meta.label);
   const heading = tx(hub.h1);
-  const title = `${heading} | Pinjin Machinery China`;
-  const description = tx(hub.intro);
+  const title = brandedTitle(heading, lang);
+  const description = withLocaleDescription(tx(hub.intro), lang);
   const faqs = hub.faqs.map((item) => ({
     question: tx(item.question),
     answer: tx(item.answer),

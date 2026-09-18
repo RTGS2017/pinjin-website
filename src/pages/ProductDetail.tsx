@@ -26,6 +26,8 @@ import {
   getHowToSelect,
   getNotSuitable,
 } from '@/data/productP01';
+import { getNearbyComparisons } from '@/data/productCompare';
+import { productDocumentDescription, productDocumentTitle } from '@/seo/documentCopy';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ProductGallery } from '@/components/ui/ProductGallery';
 import { ContactActions } from '@/components/ui/ContactActions';
@@ -68,8 +70,8 @@ export function ProductDetail() {
   const faqs = getProductFaqs(product, lang);
   const categoryLabel = tx(categoryMeta[product.category].label);
   const categoryPath = getCategoryPath(product.category);
-  const seoTitle = tx(product.seo.title);
-  const seoDescription = tx(product.seo.description);
+  const seoTitle = productDocumentTitle(product, lang);
+  const seoDescription = productDocumentDescription(product, lang);
   const keywords = [
     product.seo.keywords.primary,
     ...product.seo.keywords.secondary,
@@ -91,6 +93,7 @@ export function ProductDetail() {
   const spareParts = quoteOnly ? [] : getSpareParts();
   const relatedPumps = quoteOnly ? getFeaturedProducts(featuredProductSlugs).slice(0, 3) : [];
   const notSuitable = getNotSuitable(product);
+  const nearby = getNearbyComparisons(product, lang);
   const buySteps = getBuyProcess(product);
   const solutionLinks = clusterForProduct(product.category).relatedSolutions.filter((link) =>
     link.href.startsWith('/solutions'),
@@ -290,6 +293,26 @@ export function ProductDetail() {
           <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.howToSelect}</h2>
           <p className="mt-4 max-w-3xl text-text-secondary">{tx(getHowToSelect(product))}</p>
         </section>
+
+        {nearby.length > 0 ? (
+          <section className="mt-14 border border-border p-6">
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.vsNearby}</h2>
+            <p className="mt-3 max-w-3xl text-sm text-text-secondary">{t.detail.vsNearbyLead}</p>
+            <ul className="mt-4 space-y-3 text-sm text-text-secondary">
+              {nearby.map((item) => (
+                <li key={item.slug}>
+                  <LocaleLink
+                    to={`/products/${item.slug}`}
+                    className="font-semibold text-dark hover:text-primary"
+                  >
+                    {item.name}
+                  </LocaleLink>
+                  <span> — {item.diff}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
 
         <section id="inquiry" className="mt-14 scroll-mt-24 border border-border p-6">
           <OemNote className="mb-6" />

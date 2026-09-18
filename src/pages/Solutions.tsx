@@ -9,6 +9,7 @@ import { products, getCategoryPath } from '@/data/products';
 import { categoryClusters } from '@/data/topicClusters';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
+import { brandedTitle, solutionContrast, withLocaleDescription } from '@/seo/documentCopy';
 import { useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { ContactActions } from '@/components/ui/ContactActions';
@@ -94,7 +95,9 @@ export function SolutionDetail() {
     .filter((p) => p.category === app.relatedCategory)
     .slice(0, 6);
   const path = `/solutions/${app.solutionSlug}`;
-  const title = `${tx(app.title)} | Pinjin Machinery`;
+  const title = brandedTitle(tx(app.title), lang);
+  const description = withLocaleDescription(tx(app.summary), lang);
+  const contrast = solutionContrast(app, lang);
   const hero = app.images[0];
   const keywords = app.images.flatMap((item) => item.keywords).join(', ');
 
@@ -102,7 +105,7 @@ export function SolutionDetail() {
     <section className="section-y bg-bg">
       <SEO
         title={title}
-        description={tx(app.summary)}
+        description={description}
         path={path}
         image={hero?.src}
         keywords={keywords || undefined}
@@ -156,6 +159,24 @@ export function SolutionDetail() {
           <div>
             <h1 className="heading-display text-3xl sm:text-4xl">{tx(app.title)}</h1>
             <p className="mt-4 text-text-secondary">{tx(app.summary)}</p>
+            <p className="mt-4 text-sm text-text-secondary">{contrast}</p>
+            <h2 className="mt-8 text-lg font-semibold text-dark">
+              {t.detail.otherSolutions}
+            </h2>
+            <ul className="mt-3 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+              {applicationPages
+                .filter((item) => item.id !== app.id)
+                .map((item) => (
+                  <li key={item.id}>
+                    <LocaleLink
+                      to={`/solutions/${item.solutionSlug}`}
+                      className="font-medium text-dark hover:text-primary"
+                    >
+                      {tx(item.title)}
+                    </LocaleLink>
+                  </li>
+                ))}
+            </ul>
             <h2 className="mt-8 text-lg font-semibold text-dark">
               {t.page.selectionChecklist}
             </h2>

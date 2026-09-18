@@ -12,6 +12,7 @@ import { customMachineryContent } from '@/data/customMachinery';
 import { clusterForCustomMachinery } from '@/data/topicClusters';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
+import { brandedTitle, withLocaleDescription } from '@/seo/documentCopy';
 
 export function CustomMachineryPage() {
   const { lang, t, tx } = useI18n();
@@ -25,8 +26,8 @@ export function CustomMachineryPage() {
   return (
     <section className="section-y bg-bg">
       <SEO
-        title={tx(content.title)}
-        description={tx(content.description)}
+        title={brandedTitle(tx(content.title), lang)}
+        description={withLocaleDescription(tx(content.description), lang)}
         path={path}
         keywords={content.keywords.join(', ')}
         jsonLd={[

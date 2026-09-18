@@ -380,13 +380,17 @@ for (const page of meta.pages) {
 const rootCanonical = `${SITE}/en/`;
 let rootHtml = built;
 rootHtml = setCanonical(rootHtml, rootCanonical);
-rootHtml = setNamedMeta(rootHtml, 'robots', 'noindex, follow');
+// GitHub Pages cannot emit HTTP 301. Canonical + refresh without noindex is the
+// closest signal: Google can consolidate `/` into `/en/` instead of dropping both.
+rootHtml = setNamedMeta(rootHtml, 'robots', 'index, follow');
 rootHtml = stripHreflang(rootHtml);
 rootHtml = setTitle(rootHtml, HOME_TITLE);
-rootHtml = insertHead(
-  rootHtml,
-  '<meta http-equiv="refresh" content="0;url=https://pinjinpump.com/en/" />',
-);
+if (!/http-equiv="refresh"/i.test(rootHtml)) {
+  rootHtml = insertHead(
+    rootHtml,
+    '<meta http-equiv="refresh" content="0;url=https://pinjinpump.com/en/" />',
+  );
+}
 rootHtml = rootHtml.includes('<div id="root"></div>')
   ? rootHtml.replace(
       '<div id="root"></div>',
@@ -552,16 +556,24 @@ if (!homeHtml.includes('https://pinjinpump.com/en/"') && !homeHtml.includes("htt
 }
 
 const rootOut = readFileSync(join(distDir, 'index.html'), 'utf8');
-if (!rootOut.includes('noindex')) {
-  console.error('dist/index.html must be noindex');
+if (/name="robots" content="noindex/i.test(rootOut)) {
+  console.error('dist/index.html must not noindex; GitHub Pages cannot 301 `/` to `/en/`');
   process.exit(1);
 }
 if (!/http-equiv="refresh"/i.test(rootOut)) {
-  console.error('dist/index.html must refresh to /en/ so root noindex is intentional');
+  console.error('dist/index.html must refresh to /en/');
   process.exit(1);
 }
 if (!rootOut.includes('href="https://pinjinpump.com/en/"')) {
   console.error('dist/index.html canonical must be https://pinjinpump.com/en/');
+  process.exit(1);
+}
+if (productTitle.includes(' · en') || productTitle.includes(' · zh')) {
+  console.error(`product title still has machine lang suffix: ${productTitle}`);
+  process.exit(1);
+}
+if (/http-equiv="refresh"/i.test(productHtml)) {
+  console.error('product shells must not inherit the root meta refresh to /en/');
   process.exit(1);
 }
 

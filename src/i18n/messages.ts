@@ -298,6 +298,10 @@ export const messages = {
       fitsPumps: 'Related concrete pumps',
       notSuitable: 'Not suitable for',
       howToSelect: 'How to choose',
+      vsNearby: 'Compared with nearby catalogue models',
+      vsNearbyLead:
+        'The lines below only repeat numbers printed on this page and the linked model pages. Unpublished performance is not promised.',
+      otherSolutions: 'Not the same as these other solution pages',
       buyProcess: 'From inquiry to shipment',
       evidence: 'Evidence on this page',
       inquiryBrief: 'Site conditions for a quote',
@@ -832,6 +836,10 @@ export const messages = {
       fitsPumps: '相关混凝土泵',
       notSuitable: '不适用',
       howToSelect: '怎么选',
+      vsNearby: '与相邻目录机型对照',
+      vsNearbyLead:
+        '下列对照只重复本页与链接型号页已印数字。未公布性能不作承诺。',
+      otherSolutions: '与下列其他方案页不是同一页',
       buyProcess: '从询盘到发货',
       evidence: '本页证据',
       inquiryBrief: '报价所需工况',
