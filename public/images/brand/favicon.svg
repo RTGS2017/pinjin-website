@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pinjin">
-  <rect width="64" height="64" fill="#252A31"/>
-  <text x="32" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#58D26B">P</text>
+  <rect width="64" height="64" fill="#111111"/>
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#b32126" stroke-width="4"/>
+  <path fill="#b32126" d="M22 16.5h14.2c7.4 0 12.3 4.1 12.3 10.6 0 6.6-5 10.8-12.5 10.8H29.4V47.5H22V16.5zm7.4 15.2h6.3c3.7 0 5.9-2 5.9-5 0-3-2.2-4.9-5.9-4.9H29.4v9.9z"/>
 </svg>

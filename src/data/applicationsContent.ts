@@ -235,3 +235,22 @@ export function getApplicationHero(
 ): ApplicationImage | undefined {
   return item.images[0];
 }
+
+export function getApplicationImagesForCategory(category: ProductCategory): ApplicationImage[] {
+  const fallbackCategory: ProductCategory =
+    category === 'mixer-pump' || category === 'spare-parts'
+      ? 'electric-concrete-pump'
+      : category;
+  const matched = applicationPages.filter((page) => page.relatedCategory === fallbackCategory);
+  const pages = matched.length ? matched : applicationPages.slice(0, 1);
+  const seen = new Set<string>();
+  const images: ApplicationImage[] = [];
+  for (const page of pages) {
+    for (const image of page.images) {
+      if (seen.has(image.src)) continue;
+      seen.add(image.src);
+      images.push(image);
+    }
+  }
+  return images.slice(0, 2);
+}

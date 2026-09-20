@@ -186,7 +186,7 @@ export const publicImageRev: Record<string, string> = {
   "/images/applications/pinjin-concrete-pump-construction-site.webp": "ab0266a842",
   "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp": "501c8f2c74",
   "/images/applications/pinjin-mortar-spraying-machine-building-interior.webp": "4fe60523a0",
-  "/images/brand/favicon.svg": "12278f6ca5",
+  "/images/brand/favicon.svg": "6f5796b21e",
   "/images/brand/logo-mark.webp": "84608251e3",
   "/images/brand/logo-white.svg": "6bf0c0e174",
   "/images/brand/logo.svg": "ba307d39f6",

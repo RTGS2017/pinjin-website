@@ -4,7 +4,6 @@ import { categoryMeta, isInquiryOnlyProduct, productImageAlt } from '@/data/prod
 import { ImagePlaceholder } from './ImagePlaceholder';
 import { Button } from './Button';
 import { OemNote } from './OemNote';
-import { ProductPrice } from './ProductPrice';
 import { SparePartTerms } from './SparePartTerms';
 import { useI18n } from '@/i18n/I18nContext';
 import { useCompare } from '@/hooks/useCompare';
@@ -12,9 +11,10 @@ import { Scale } from 'lucide-react';
 
 interface ProductCardProps {
   product: Product;
+  variant?: 'full' | 'related';
 }
 
-export function ProductCard({ product }: ProductCardProps) {
+export function ProductCard({ product, variant = 'full' }: ProductCardProps) {
   const { lang, t, tx } = useI18n();
   const { toggle, isSelected, count, max } = useCompare();
   const name = tx(product.name);
@@ -22,6 +22,33 @@ export function ProductCard({ product }: ProductCardProps) {
   const features = product.keyFeatures.slice(0, 3);
   const selected = isSelected(product.slug);
   const canAdd = selected || count < max;
+
+  if (variant === 'related') {
+    return (
+      <article className="group h-full">
+        <LocaleLink to={`/products/${product.slug}`} className="flex h-full flex-col">
+          <div className="border border-border bg-card px-3 pt-3">
+            <ImagePlaceholder
+              src={product.image}
+              alt={productImageAlt(product, product.image, lang)}
+              label={t.productCard.imageComingSoon}
+              hint=""
+              width={1536}
+              height={1024}
+              className="aspect-[4/3] w-full bg-transparent"
+              imgClassName="h-full w-full object-contain transition-transform duration-300 group-hover:scale-[1.03]"
+            />
+          </div>
+          <h3 className="mt-3 text-sm font-semibold tracking-wide text-dark group-hover:text-primary">
+            {name}
+          </h3>
+          <p className="mt-1 text-xs text-text-secondary">
+            {tx(categoryMeta[product.category].label)}
+          </p>
+        </LocaleLink>
+      </article>
+    );
+  }
 
   return (
     <article className="group card-surface flex h-full flex-col overflow-hidden bg-bg transition-shadow duration-300 hover:shadow-[0_12px_36px_rgba(0,0,0,0.06)]">
@@ -77,7 +104,7 @@ export function ProductCard({ product }: ProductCardProps) {
             <p className="mt-3 text-sm text-text-secondary">{t.productCard.inquiryNoListPrice}</p>
           )
         ) : (
-          <ProductPrice slug={product.slug} compact />
+          <p className="mt-3 text-sm font-semibold text-dark">{t.productCard.quoteOnly}</p>
         )}
 
         {apps.length > 0 ? (

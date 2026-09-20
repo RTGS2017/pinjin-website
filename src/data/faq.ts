@@ -9,7 +9,7 @@ export interface FaqItem {
 }
 
 /**
- * 15 条采购意图 FAQ（答案仅基于产品目录已公开参数、参考出厂价与公司事实，不编造项目/认证）
+ * 15 条采购意图 FAQ（答案仅基于产品目录已公开参数与公司事实，不编造项目/认证/标价）
  */
 export const siteFaqs: FaqItem[] = [
   {
@@ -151,8 +151,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '如何向厂家询价混凝土泵价格？',
     },
     answer: {
-      en: 'Each product page lists an indicative USD factory price (EXW Xingtai). That figure is a starting reference — options and quantity can change the final quote. International freight is extra and paid by the buyer. Send the model, quantity and destination by WhatsApp or email for a confirmed quotation.',
-      zh: '每个产品页标有美金参考出厂价（邢台 EXW）。该数字是起步参考，选配与数量会影响最终报价。国际运费另计，由买方承担。请通过 WhatsApp 或邮件告知型号、数量与目的地以确认报价。',
+      en: 'Product pages do not publish a list price. Send the model, quantity and destination by WhatsApp or email for a confirmed factory quotation. International freight is extra and paid by the buyer.',
+      zh: '产品页不公布标价。请通过 WhatsApp 或邮件告知型号、数量与目的地，由工厂确认报价。国际运费另计，由买方承担。',
     },
   },
   {

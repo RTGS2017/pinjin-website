@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-"""Generate sitemap index + page/image sitemaps.
+"""Generate a single page sitemap and robots.txt.
 
-Layout (information architecture, not GPT file order):
-  sitemap.xml            sitemapindex
-  sitemap-pages.xml      canonical pages, grouped by hub then featured then category
-  image-sitemap.xml      images attached only to pages that actually show them
+Layout:
+  sitemap.xml   canonical en/zh pages (urlset + hreflang)
+  robots.txt    points only at sitemap.xml
+
+Do not emit sitemap-pages.xml, image-sitemap.xml, or a sitemap index.
+Images are discovered from page HTML.
 
 Site origin is read once from (in order):
   1. PINJIN_SITE_URL env
   2. VITE_SITE_URL in pinjin-website/.env
   3. https://pinjinpump.com
-
-Also rewrites public/robots.txt Sitemap line to the index.
 """
 from __future__ import annotations
 
@@ -24,8 +24,8 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 ENV_FILE = Path(__file__).resolve().parents[1] / ".env"
 DEFAULT_BASE = "https://pinjinpump.com"
 
-# 五种界面语言都是独立 SEO 页面，全部进入 sitemap / hreflang。
-LANGS = ["en", "zh", "pt", "ar", "ru"]
+# 仅 en + zh 进入 sitemap / hreflang。pt/ar/ru 界面仍可打开，暂不作为独立索引语言。
+LANGS = ["en", "zh"]
 HREFLANG = {
     "en": "en",
     "zh": "zh-CN",
@@ -176,7 +176,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-18"
+LASTMOD = "2026-09-20"
 META_FILE = Path(__file__).resolve().parents[1] / "deploy" / "prerender-meta.json"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
@@ -468,7 +468,6 @@ def write_pages_sitemap(
     ]
     count = 0
     for rest in paths:
-        freq, pri = page_meta(rest)
         for lang in LANGS:
             loc = loc_for(lang, rest)
             lastmod = lastmods.get(f"{base}{loc}", LASTMOD)
@@ -487,13 +486,11 @@ def write_pages_sitemap(
             )
             lines += [
                 f"    <lastmod>{lastmod}</lastmod>",
-                f"    <changefreq>{freq}</changefreq>",
-                f"    <priority>{pri}</priority>",
                 "  </url>",
             ]
             count += 1
     lines.append("</urlset>")
-    (ROOT / "sitemap-pages.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return count
 
 
@@ -715,30 +712,14 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
     return url_count
 
 
-def write_index(base: str) -> None:
-    lines = [
-        '<?xml version="1.0" encoding="UTF-8"?>',
-        '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-        "  <sitemap>",
-        f"    <loc>{base}/sitemap-pages.xml</loc>",
-        f"    <lastmod>{LASTMOD}</lastmod>",
-        "  </sitemap>",
-        "  <sitemap>",
-        f"    <loc>{base}/image-sitemap.xml</loc>",
-        f"    <lastmod>{LASTMOD}</lastmod>",
-        "  </sitemap>",
-        "</sitemapindex>",
-    ]
-    (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+def drop_extra_sitemaps() -> None:
+    for name in ("sitemap-pages.xml", "image-sitemap.xml"):
+        path = ROOT / name
+        if path.exists():
+            path.unlink()
 
 
 SRC_DATA = Path(__file__).resolve().parents[1] / "src" / "data"
-PRODUCT_ORDER = [
-    "main.webp",
-    "catalog.webp",
-    "working.webp",
-    "working-2.webp",
-]
 
 
 def write_image_inventory() -> None:
@@ -832,14 +813,10 @@ def main() -> None:
     slugs = ordered_product_slugs()
     paths = page_paths()
     page_count = write_pages_sitemap(base, paths, load_lastmods())
-    image_url_count = write_image_sitemap(base, slugs)
-    write_index(base)
+    drop_extra_sitemaps()
     write_robots(base)
     write_image_inventory()
-    print(
-        f"base={base} langs={LANGS} "
-        f"page urls={page_count} image urls={image_url_count} products={len(slugs)}"
-    )
+    print(f"base={base} langs={LANGS} page urls={page_count} products={len(slugs)}")
 
 
 

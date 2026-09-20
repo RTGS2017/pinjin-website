@@ -12,6 +12,12 @@ const COMPACT_SLUGS = new Set([
   'rural-diesel-concrete-pump',
 ]);
 
+const POWER = ['motor power', 'diesel engine', 'engine'];
+const OUTPUT = ['output', 'capacity', 'theoretical'];
+const PRESSURE = ['outlet pressure'];
+const DISTANCE = ['pumping distance', 'fine stone', 'delivery distance', 'conveying'];
+const AGGREGATE = ['aggregate', 'particle'];
+
 export function findSpec(product: Product, needles: string[]): ProductSpec | undefined {
   return product.specifications.find((row) => {
     const label = row.label.en.toLowerCase();
@@ -22,6 +28,18 @@ export function findSpec(product: Product, needles: string[]): ProductSpec | und
 export function specText(product: Product, lang: Lang, needles: string[]): string | undefined {
   const row = findSpec(product, needles);
   return row ? pick(row.value, lang) : undefined;
+}
+
+export function catalogueRow(product: Product, lang: Lang): string {
+  return [
+    specText(product, lang, POWER),
+    specText(product, lang, OUTPUT),
+    specText(product, lang, PRESSURE),
+    specText(product, lang, DISTANCE),
+    specText(product, lang, AGGREGATE),
+  ]
+    .filter(Boolean)
+    .join(' · ');
 }
 
 function clipEn(text: string, maxWords: number): string {
@@ -125,7 +143,27 @@ export function getNotSuitable(product: Product): LocalizedText[] {
       ),
     );
   }
+  const rowEn = catalogueRow(product, 'en');
+  const rowZh = catalogueRow(product, 'zh');
+  if (rowEn) {
+    rows.push(
+      L(
+        `Not a neighbour model’s catalogue row. This page is only ${pick(product.name, 'en')} (${rowEn}).`,
+        `不能替代邻型号目录行。本页只覆盖 ${pick(product.name, 'zh')}（${rowZh}）。`,
+      ),
+    );
+  }
   return rows;
+}
+
+export function getSelectionBound(product: Product): LocalizedText {
+  const rowEn = catalogueRow(product, 'en');
+  const rowZh = catalogueRow(product, 'zh');
+  if (!rowEn) return L('', '');
+  return L(
+    `This page is only the ${pick(product.name, 'en')} catalogue row (${rowEn}). Open a neighbour model page if that row fits the site better.`,
+    `本页只覆盖 ${pick(product.name, 'zh')} 目录行（${rowZh}）。若邻型号更贴现场，请打开那一页。`,
+  );
 }
 
 export function getHowToSelect(product: Product): LocalizedText {
@@ -146,6 +184,16 @@ export function getHowToSelect(product: Product): LocalizedText {
     return L(
       'Shortlist from this page’s table: material, maximum particle size, required output, hose diameter, horizontal and vertical distance, 380 V or diesel, country and purchase timing. Then send those conditions for a factory quote.',
       '对照本页目录表短名单：材料、最大粒径、目标产量、管径、水平与垂直距离、380V 或柴油、国家与采购时间。再把这些工况发给工厂报价。',
+    );
+  }
+  const nameEn = pick(product.name, 'en');
+  const nameZh = pick(product.name, 'zh');
+  const rowEn = catalogueRow(product, 'en');
+  const rowZh = catalogueRow(product, 'zh');
+  if (rowEn) {
+    return L(
+      `Choose ${nameEn} when the site matches this page’s row (${rowEn}). If a neighbour model’s power, output or distance fits better, open that product page instead of copying its numbers here. Then send mix, aggregate, distance, power, country and timing for a factory quote.`,
+      `现场对照得上本页 ${nameZh} 目录行（${rowZh}）时才选这一型。若邻型号的功率、产量或距离更合适，请打开那一页，不要把邻机数字抄到本页。再把配合比、骨料、距离、动力、国家与时间发给工厂报价。`,
     );
   }
   return L(

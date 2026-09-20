@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { LocaleLink } from '@/i18n/navigation';
 import { factoryShowcase } from '@/data/gallery';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { StageGallery } from '@/components/ui/StageGallery';
@@ -17,7 +16,7 @@ export function FactoryCapability() {
   ];
 
   return (
-    <section className="section-y bg-bg-soft">
+    <section className="section-y bg-bg">
       <div className="container-site">
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <SectionTitle
@@ -48,13 +47,10 @@ export function FactoryCapability() {
           />
         </div>
 
-        <div className="mt-8 flex items-center gap-6">
+        <div className="mt-8">
           <Button to="/factory" variant="outline">
             {t.factoryCapability.view}
           </Button>
-          <LocaleLink to="/about" className="text-sm font-medium text-text-secondary hover:text-primary">
-            {t.factory.viewFactory} →
-          </LocaleLink>
         </div>
       </div>
     </section>

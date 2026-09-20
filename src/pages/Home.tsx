@@ -1,7 +1,7 @@
 import { Hero } from '@/components/sections/Hero';
+import { AboutPinjin } from '@/components/sections/AboutPinjin';
 import { FeaturedProducts } from '@/components/sections/FeaturedProducts';
 import { FactoryCapability } from '@/components/sections/FactoryCapability';
-import { WhyPinjin } from '@/components/sections/WhyPinjin';
 import { Applications } from '@/components/sections/Applications';
 import { KnowledgeCenter } from '@/components/sections/KnowledgeCenter';
 import { SEO, buildFactoryImageJsonLdList, buildHeroGalleryJsonLdList, buildOrganizationJsonLd, buildWebSiteJsonLd } from '@/components/SEO';
@@ -26,9 +26,9 @@ export function Home() {
         jsonLd={[buildOrganizationJsonLd(), buildWebSiteJsonLd(), ...buildHeroGalleryJsonLdList(heroGallery, lang), ...buildFactoryImageJsonLdList(lang)]}
       />
       <Hero />
+      <AboutPinjin />
       <FeaturedProducts />
       <FactoryCapability />
-      <WhyPinjin />
       <Applications />
       <KnowledgeCenter />
     </>

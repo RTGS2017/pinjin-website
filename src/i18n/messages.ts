@@ -95,7 +95,7 @@ export const messages = {
     featured: {
       title: 'Featured Products',
       subtitle:
-        'Typical models: Electric 40, Diesel 50, Electric 80, mixer pump and compact Electric 15.',
+        'Typical Xingtai factory models. Open a product page for the full catalogue table.',
       viewAll: 'View all products',
       capacity: 'Capacity',
       application: 'Application',
@@ -431,7 +431,7 @@ export const messages = {
       length: 'Length',
       formLead:
         'Fill what you know. WhatsApp or email still opens with this list. Empty fields are omitted. No overseas warehouse is claimed.',
-      message: 'Message',
+      message: 'Project requirement',
       submit: 'Send inquiry',
       submitting: 'Sending…',
       success:
@@ -644,7 +644,7 @@ export const messages = {
     },
     featured: {
       title: '精选产品',
-      subtitle: '典型机型：电动40、柴油50、电动80、搅拌泵与紧凑型电动15。',
+      subtitle: '邢台工厂代表机型。完整参数见产品详情页。',
       viewAll: '查看全部产品',
       capacity: '产能参数',
       application: '适用场景',
@@ -958,7 +958,7 @@ export const messages = {
       length: '长度',
       formLead:
         '知道多少填多少。WhatsApp 或邮件会带上这份清单，空项会省略。本站不声称拥有海外仓。',
-      message: '需求说明',
+      message: '项目需求',
       submit: '发送询盘',
       submitting: '发送中…',
       success:

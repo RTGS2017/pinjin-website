@@ -1,10 +1,9 @@
 import { useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { LocaleLink, LocaleNavigate } from '@/i18n/navigation';
 import { NotFound } from '@/pages/NotFound';
 import { featuredProductSlugs } from '@/config/site';
 import { companyEntity } from '@/config/entity';
-import { getIndicativePrice } from '@/data/productPricing';
-import { ProductPrice } from '@/components/ui/ProductPrice';
 import {
   categoryMeta,
   getCategoryPath,
@@ -13,10 +12,12 @@ import {
   getSpareParts,
   getFeaturedProducts,
   isInquiryOnlyProduct,
+  keySpecifications,
   productImageAlt,
   resolveProductSlug,
 } from '@/data/products';
 import { isProductCatalogImage } from '@/data/imageInventory';
+import { getApplicationImagesForCategory } from '@/data/applicationsContent';
 import { clusterForProduct } from '@/data/topicClusters';
 import { InternalLinks } from '@/components/InternalLink';
 import { getProductFaqs } from '@/data/productFaqs';
@@ -25,17 +26,18 @@ import {
   getDirectAnswer,
   getHowToSelect,
   getNotSuitable,
+  getSelectionBound,
 } from '@/data/productP01';
 import { getNearbyComparisons } from '@/data/productCompare';
 import { productDocumentDescription, productDocumentTitle } from '@/seo/documentCopy';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ProductGallery } from '@/components/ui/ProductGallery';
-import { ContactActions } from '@/components/ui/ContactActions';
 import { InquiryBrief } from '@/components/ui/InquiryBrief';
-import { Customization } from '@/components/sections/Customization';
 import { FactoryProofStrip } from '@/components/sections/FactoryOverview';
 import { OemNote } from '@/components/ui/OemNote';
 import { SparePartTerms } from '@/components/ui/SparePartTerms';
+import { Button } from '@/components/ui/Button';
+import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import {
   SEO,
   buildBreadcrumbJsonLd,
@@ -48,6 +50,11 @@ import { localePath } from '@/i18n/paths';
 export function ProductDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { lang, t, tx } = useI18n();
+  const [shot, setShot] = useState(0);
+
+  useEffect(() => {
+    setShot(0);
+  }, [slug]);
 
   if (!slug) {
     return <NotFound />;
@@ -79,25 +86,21 @@ export function ProductDetail() {
   ].join(', ');
 
   const gallery = product.gallery;
-  const catalogImage = gallery[0] ?? product.image;
-  const catalogShot = isProductCatalogImage(catalogImage);
-  const price = getIndicativePrice(product.slug);
+  const heroImage = gallery[0] ?? product.image;
+  const catalogShot = isProductCatalogImage(heroImage);
   const quoteOnly = isInquiryOnlyProduct(product);
-  const inquireMessage = `${name}\n${
-    quoteOnly
-      ? product.partKind === 'wear'
-        ? t.detail.spareWearInquiryBody
-        : t.detail.spareInquiryBody
-      : t.detail.inquiryBody
-  }`;
   const spareParts = quoteOnly ? [] : getSpareParts();
   const relatedPumps = quoteOnly ? getFeaturedProducts(featuredProductSlugs).slice(0, 3) : [];
   const notSuitable = getNotSuitable(product);
   const nearby = getNearbyComparisons(product, lang);
+  const selectionBound = getSelectionBound(product);
   const buySteps = getBuyProcess(product);
   const solutionLinks = clusterForProduct(product.category).relatedSolutions.filter((link) =>
     link.href.startsWith('/solutions'),
   );
+  const keySpecs = keySpecifications(product, 5);
+  const applicationImages =
+    product.category === 'spare-parts' ? [] : getApplicationImagesForCategory(product.category);
 
   return (
     <section className="section-y bg-bg">
@@ -105,8 +108,8 @@ export function ProductDetail() {
         title={seoTitle}
         description={seoDescription}
         path={path}
-        image={catalogImage}
-        imageAlt={productImageAlt(product, catalogImage, lang)}
+        image={heroImage}
+        imageAlt={productImageAlt(product, heroImage, lang)}
         imageWidth={catalogShot ? 1054 : 1200}
         imageHeight={catalogShot ? 1492 : 800}
         type="product"
@@ -115,7 +118,7 @@ export function ProductDetail() {
           buildProductJsonLd({
             name,
             description: seoDescription,
-            image: catalogImage,
+            image: heroImage,
             images: gallery.map((src) => ({
               url: src,
               name,
@@ -128,8 +131,6 @@ export function ProductDetail() {
             model: name,
             brand: 'Pinjin',
             lang,
-            priceUsd: quoteOnly ? undefined : price?.usd,
-            quoteOnly,
             priceNote: quoteOnly ? t.productCard.noListPrice : t.productCard.freightNote,
             specifications: [
               ...product.specifications.map((spec) => ({
@@ -178,58 +179,81 @@ export function ProductDetail() {
           </ol>
         </nav>
 
-        <div className="grid gap-10 lg:grid-cols-2">
-          <ProductGallery product={product} images={gallery} />
+        <div className="grid gap-6 lg:grid-cols-2 lg:items-start">
+          <ProductGallery
+            product={product}
+            images={gallery}
+            active={shot}
+            onChange={setShot}
+            showThumbs={false}
+          />
 
           <div>
             <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">
               {categoryLabel}
             </p>
             <h1 className="mt-3 heading-display text-3xl sm:text-4xl">{name}</h1>
-            <p className="mt-5 text-text-secondary">{tx(getDirectAnswer(product))}</p>
+            <p className="mt-4 text-sm leading-relaxed text-text-secondary sm:text-base">
+              {tx(product.shortDescription)}
+            </p>
+            {keySpecs.length > 0 ? (
+              <dl className="mt-6 divide-y divide-border border border-border">
+                <div className="bg-bg-soft px-4 py-2">
+                  <dt className="text-xs font-semibold tracking-[0.12em] text-text-secondary uppercase">
+                    {t.detail.keySpecs}
+                  </dt>
+                </div>
+                {keySpecs.map((spec, index) => (
+                  <div
+                    key={spec.label.en}
+                    className={`items-baseline justify-between gap-4 px-4 py-2.5 ${index >= 3 ? 'hidden sm:flex' : 'flex'}`}
+                  >
+                    <dt className="text-sm text-text-secondary">{tx(spec.label)}</dt>
+                    <dd className="text-sm font-semibold text-dark">{tx(spec.value)}</dd>
+                  </div>
+                ))}
+              </dl>
+            ) : null}
             {quoteOnly ? (
               product.category === 'spare-parts' ? (
                 <SparePartTerms />
               ) : (
-                <div className="mt-5 space-y-2 border border-border bg-bg-soft p-4 text-sm text-text-secondary">
-                  <p className="font-semibold tracking-wide text-dark">{t.productCard.quoteOnly}</p>
-                  <p>{t.productCard.inquiryNoListPrice}</p>
-                </div>
+                <p className="mt-4 text-sm text-text-secondary">{t.productCard.inquiryNoListPrice}</p>
               )
             ) : (
-              <ProductPrice slug={product.slug} />
+              <p className="mt-4 text-sm text-text-secondary">{t.productCard.quoteOnly}</p>
             )}
-            <p className="mt-6">
-              <a href="#inquiry" className="text-sm font-semibold text-primary hover:underline">
-                {t.detail.inquiryBrief} →
-              </a>
-            </p>
+            <div className="mt-6">
+              <Button href="#inquiry" size="lg" className="w-full sm:w-auto">
+                {t.nav.getQuote}
+              </Button>
+            </div>
           </div>
+
+          {gallery.length > 1 ? (
+            <div className="lg:col-start-1">
+              <ProductGallery
+                product={product}
+                images={gallery}
+                active={shot}
+                onChange={setShot}
+                showStage={false}
+              />
+            </div>
+          ) : null}
         </div>
 
-        <section className="mt-14 grid gap-6 lg:grid-cols-2">
-          <div className="border border-border p-6">
-            <h2 className="heading-display text-2xl">{t.productCard.suitableFor}</h2>
-            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary">
-              {product.applicationScenarios.map((item) => (
-                <li key={item.en}>{tx(item)}</li>
-              ))}
-            </ul>
-          </div>
-          <div className="border border-border p-6">
-            <h2 className="heading-display text-2xl">{t.detail.notSuitable}</h2>
-            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary">
-              {notSuitable.map((item) => (
-                <li key={item.en}>{tx(item)}</li>
-              ))}
-            </ul>
-          </div>
+        <section className="mt-14">
+          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.overview}</h2>
+          <p className="mt-4 max-w-3xl text-text-secondary">{tx(getDirectAnswer(product))}</p>
+          {selectionBound.en ? (
+            <p className="mt-4 max-w-3xl text-sm text-text-secondary">{tx(selectionBound)}</p>
+          ) : null}
+          <p className="mt-4 max-w-3xl text-sm text-text-secondary">{tx(product.productIntroduction)}</p>
         </section>
 
         <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">
-            {t.detail.techParams}
-          </h2>
+          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.techParams}</h2>
           {product.specifications.length > 0 ? (
             <div className="mt-6 overflow-x-auto border border-border">
               <table className="min-w-full text-left text-sm">
@@ -289,14 +313,75 @@ export function ProductDetail() {
           ) : null}
         </section>
 
-        <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.howToSelect}</h2>
-          <p className="mt-4 max-w-3xl text-text-secondary">{tx(getHowToSelect(product))}</p>
+        <section className="mt-14 grid gap-6 lg:grid-cols-2">
+          <div className="border border-border p-6">
+            <h2 className="heading-display text-2xl">{t.productCard.suitableFor}</h2>
+            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+              {product.applicationScenarios.map((item) => (
+                <li key={item.en}>{tx(item)}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="border border-border p-6">
+            <h2 className="heading-display text-2xl">{t.detail.notSuitable}</h2>
+            <ul className="mt-4 list-disc space-y-2 ps-5 text-sm text-text-secondary">
+              {notSuitable.map((item) => (
+                <li key={item.en}>{tx(item)}</li>
+              ))}
+            </ul>
+          </div>
         </section>
 
+        {applicationImages.length > 0 || solutionLinks.length > 0 ? (
+          <section className="mt-14">
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.applications}</h2>
+            {applicationImages.length > 0 ? (
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {applicationImages.map((image) => (
+                  <figure key={image.src} className="overflow-hidden border border-border bg-bg-soft">
+                    <ImagePlaceholder
+                      src={image.src}
+                      alt={tx(image.alt)}
+                      label={t.placeholder.image}
+                      hint=""
+                      width={image.width}
+                      height={image.height}
+                      className="aspect-[4/3] w-full"
+                      imgClassName="object-cover"
+                    />
+                  </figure>
+                ))}
+              </div>
+            ) : null}
+            <p className="mt-3 text-xs text-text-secondary">{t.detail.relatedCases}</p>
+            {solutionLinks.length > 0 ? (
+              <ul className="mt-4 space-y-2 text-sm">
+                {solutionLinks.map((link) => (
+                  <li key={link.href}>
+                    <LocaleLink to={link.href} className="font-medium text-dark hover:text-primary">
+                      {link.zh && lang === 'zh' ? link.zh : link.en}
+                    </LocaleLink>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+          </section>
+        ) : null}
+
+        <FactoryProofStrip />
+
+        <details className="mt-14 border border-border p-6">
+          <summary className="cursor-pointer">
+            <h2 className="heading-display inline text-2xl sm:text-3xl">{t.detail.howToSelect}</h2>
+          </summary>
+          <p className="mt-4 max-w-3xl text-text-secondary">{tx(getHowToSelect(product))}</p>
+        </details>
+
         {nearby.length > 0 ? (
-          <section className="mt-14 border border-border p-6">
-            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.vsNearby}</h2>
+          <details className="mt-6 border border-border p-6">
+            <summary className="cursor-pointer">
+              <h2 className="heading-display inline text-2xl sm:text-3xl">{t.detail.vsNearby}</h2>
+            </summary>
             <p className="mt-3 max-w-3xl text-sm text-text-secondary">{t.detail.vsNearbyLead}</p>
             <ul className="mt-4 space-y-3 text-sm text-text-secondary">
               {nearby.map((item) => (
@@ -311,31 +396,24 @@ export function ProductDetail() {
                 </li>
               ))}
             </ul>
-          </section>
+          </details>
         ) : null}
 
-        <section id="inquiry" className="mt-14 scroll-mt-24 border border-border p-6">
-          <OemNote className="mb-6" />
-          <InquiryBrief product={product} quoteOnly={quoteOnly} />
-        </section>
-
-        <section className="mt-14 border border-border p-6">
-          <h2 className="heading-display text-2xl">{t.detail.evidence}</h2>
-          <p className="mt-3 text-sm text-text-secondary">{t.detail.relatedCases}</p>
-          <p className="mt-2 text-sm text-text-secondary">{tx(product.productIntroduction)}</p>
-        </section>
-
-        <section className="mt-14">
-          <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.buyProcess}</h2>
+        <details className="mt-6 border border-border p-6">
+          <summary className="cursor-pointer">
+            <h2 className="heading-display inline text-2xl sm:text-3xl">{t.detail.buyProcess}</h2>
+          </summary>
           <ol className="mt-4 list-decimal space-y-2 ps-5 text-sm text-text-secondary">
             {buySteps.map((step) => (
               <li key={step.en}>{tx(step)}</li>
             ))}
           </ol>
-        </section>
+        </details>
 
-        <section className="mt-14 border border-border p-6">
-          <h2 className="heading-display text-2xl">{t.detail.entity}</h2>
+        <details className="mt-6 border border-border p-6">
+          <summary className="cursor-pointer">
+            <h2 className="heading-display inline text-2xl sm:text-3xl">{t.detail.entity}</h2>
+          </summary>
           <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2">
             <div>
               <dt className="font-semibold text-dark">{t.detail.entityManufacturer}</dt>
@@ -362,35 +440,16 @@ export function ProductDetail() {
               </dd>
             </div>
           </dl>
-        </section>
-
-        {solutionLinks.length > 0 ? (
-          <section className="mt-14">
-            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.applications}</h2>
-            <ul className="mt-4 space-y-2 text-sm">
-              {solutionLinks.map((link) => (
-                <li key={link.href}>
-                  <LocaleLink to={link.href} className="font-medium text-dark hover:text-primary">
-                    {link.zh && lang === 'zh' ? link.zh : link.en}
-                  </LocaleLink>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ) : null}
-
-        <Customization compact />
-
-        <FactoryProofStrip />
+        </details>
 
         <section className="mt-14">
           <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.faq}</h2>
           <div className="mt-6 space-y-4">
             {faqs.map((item) => (
-              <div key={item.question} className="border border-border p-5">
-                <h3 className="font-semibold text-dark">{item.question}</h3>
+              <details key={item.question} className="border border-border p-5">
+                <summary className="cursor-pointer font-semibold text-dark">{item.question}</summary>
                 <p className="mt-2 text-sm text-text-secondary">{item.answer}</p>
-              </div>
+              </details>
             ))}
           </div>
           <p className="mt-4 text-sm text-text-secondary">
@@ -406,28 +465,30 @@ export function ProductDetail() {
 
         {spareParts.length > 0 ? (
           <div className="mt-16">
-            <h2 className="heading-display text-2xl sm:text-3xl">
-              {t.detail.spareRelated}
-            </h2>
-            <p className="mt-3 text-sm text-text-secondary">
-              {t.productCard.noSmallBatch}
-            </p>
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.spareRelated}</h2>
+            <p className="mt-3 text-sm text-text-secondary">{t.productCard.noSmallBatch}</p>
             <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
-              {spareParts.map((item) => (
-                <ProductCard key={item.slug} product={item} />
+              {spareParts.slice(0, 4).map((item) => (
+                <ProductCard key={item.slug} product={item} variant="related" />
               ))}
             </div>
+            <p className="mt-4 text-sm">
+              <LocaleLink
+                to={getCategoryPath('spare-parts')}
+                className="font-semibold text-dark hover:text-primary"
+              >
+                {t.featured.viewAll} →
+              </LocaleLink>
+            </p>
           </div>
         ) : null}
 
         {relatedPumps.length > 0 ? (
           <div className="mt-16">
-            <h2 className="heading-display text-2xl sm:text-3xl">
-              {t.detail.fitsPumps}
-            </h2>
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.fitsPumps}</h2>
             <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
               {relatedPumps.map((item) => (
-                <ProductCard key={item.slug} product={item} />
+                <ProductCard key={item.slug} product={item} variant="related" />
               ))}
             </div>
           </div>
@@ -435,12 +496,10 @@ export function ProductDetail() {
 
         {related.length > 0 ? (
           <div className="mt-16">
-            <h2 className="heading-display text-2xl sm:text-3xl">
-              {t.detail.related}
-            </h2>
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.related}</h2>
             <div className="mt-8 grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
               {related.map((item) => (
-                <ProductCard key={item.slug} product={item} />
+                <ProductCard key={item.slug} product={item} variant="related" />
               ))}
             </div>
           </div>
@@ -448,19 +507,10 @@ export function ProductDetail() {
 
         <InternalLinks cluster={clusterForProduct(product.category)} />
 
-        <div className="mt-16 border border-border bg-bg-soft p-8">
-          <h2 className="heading-display text-2xl">{t.detail.contactEngineer}</h2>
-          <p className="mt-3 text-sm text-text-secondary">
-            {t.detail.contactEngineerLead}
-          </p>
-          <div className="mt-6">
-            <ContactActions
-              subject={`${t.mailSubjectInquiry} - ${name}`}
-              message={inquireMessage}
-              showCustom
-            />
-          </div>
-        </div>
+        <section id="inquiry" className="mt-16 scroll-mt-24 border border-border p-6">
+          <OemNote className="mb-6" />
+          <InquiryBrief product={product} />
+        </section>
       </div>
     </section>
   );

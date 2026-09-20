@@ -422,7 +422,7 @@ export const messagesPt = {
     length: 'Comprimento',
     formLead:
       'Preencha o que souber. WhatsApp ou e-mail abre com esta lista. Campos vazios são omitidos. Não reivindicamos armazém no exterior.',
-    message: 'Mensagem',
+    message: 'Necessidade do projeto',
     submit: 'Enviar consulta',
     submitting: 'Enviando…',
     success:

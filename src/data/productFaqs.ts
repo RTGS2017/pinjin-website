@@ -1,5 +1,4 @@
 import type { Product } from '@/data/products';
-import { formatIndicativeUsd, getIndicativePrice } from '@/data/productPricing';
 import {
   getHowToSelect,
   getNotSuitable,
@@ -20,28 +19,21 @@ function specJoiner(lang: Lang): string {
   return '; ';
 }
 
-function quoteAnswer(
-  lang: Lang,
-  name: string,
-  priceText: string,
-  inquire: string,
-  inquiryOnly: boolean,
-): string {
+function quoteAnswer(lang: Lang, name: string, inquire: string, inquiryOnly: boolean): string {
   if (inquiryOnly) return inquire;
-  if (!priceText) return inquire;
   if (lang === 'zh') {
-    return `${name} 参考出厂价 ${priceText}（邢台 EXW）。国际运费另计，由买方承担。${inquire}`;
+    return `${name} 无公开标价。国际运费另计，由买方承担。${inquire}`;
   }
   if (lang === 'pt') {
-    return `Preço EXW Xingtai indicativo de ${name}: ${priceText}. O frete internacional é extra e pago pelo comprador. ${inquire}`;
+    return `${name} não tem preço de tabela publicado. O frete internacional é extra e pago pelo comprador. ${inquire}`;
   }
   if (lang === 'ar') {
-    return `السعر التقريبي EXW شينغتاي لـ ${name}: ${priceText}. الشحن الدولي إضافي ويدفعه المشتري. ${inquire}`;
+    return `لا يوجد سعر قائمة منشور لـ ${name}. الشحن الدولي إضافي ويدفعه المشتري. ${inquire}`;
   }
   if (lang === 'ru') {
-    return `Ориентировочная цена EXW Синтай для ${name}: ${priceText}. Международная доставка оплачивается покупателем отдельно. ${inquire}`;
+    return `Для ${name} нет опубликованной прайс-цены. Международная доставка оплачивается покупателем отдельно. ${inquire}`;
   }
-  return `Indicative EXW Xingtai price for ${name}: ${priceText}. International freight is extra and paid by the buyer. ${inquire}`;
+  return `There is no published list price for ${name}. International freight is extra and paid by the buyer. ${inquire}`;
 }
 
 function t(lang: Lang, table: Record<Lang, string>): string {
@@ -60,14 +52,12 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
   const notSuitable = getNotSuitable(product)
     .map((item) => pick(item, lang))
     .join(specJoiner(lang));
-  const price = getIndicativePrice(product.slug);
-  const priceText = price ? formatIndicativeUsd(price.usd) : '';
   const hasSpecs = product.specifications.length > 0;
   const keySpecs = product.specifications
     .slice(0, 4)
     .map((s) => `${pick(s.label, lang)}: ${pick(s.value, lang)}`)
     .join(specJoiner(lang));
-  const quote = quoteAnswer(lang, name, priceText, inquire, Boolean(product.inquiryOnly));
+  const quote = quoteAnswer(lang, name, inquire, Boolean(product.inquiryOnly));
   const wear = product.partKind === 'wear';
   const spare = product.category === 'spare-parts';
   const aggregate = specText(product, lang, ['aggregate', 'particle']);

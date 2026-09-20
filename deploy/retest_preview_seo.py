@@ -17,8 +17,10 @@ SITE = "https://pinjinpump.com"
 DIST = Path(__file__).resolve().parents[1] / "dist"
 LIVE = "pinjinpump.com" in BASE
 HOME = "Concrete Pump Manufacturer China | Hebei Pinjin Machinery"
-HREFLANG_REQUIRED = ("en", "zh-CN", "pt", "ar", "ru", "x-default")
-LANGS = ("en", "zh", "pt", "ar", "ru")
+HREFLANG_REQUIRED = ("en", "zh-CN", "x-default")
+HREFLANG_FORBIDDEN = ("pt", "ar", "ru", "pt-BR")
+INDEXED_LANGS = ("en", "zh")
+UI_LANGS = ("en", "zh", "pt", "ar", "ru")
 fail: list[tuple[str, str, object]] = []
 
 
@@ -70,7 +72,7 @@ def hreflangs(html: str) -> set[str]:
 
 def lang_of(url: str) -> str:
     first = urlparse(url).path.strip("/").split("/", 1)[0]
-    return first if first in LANGS else ""
+    return first if first in UI_LANGS else ""
 
 
 def check(name: str, passed: bool, key: str, value: object) -> None:
@@ -96,16 +98,14 @@ def is_static_not_found(status: int, html: str) -> bool:
 
 status, html = get("/")
 check("/", status == 200, "status", status)
-check("/", "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
+check("/", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
+check("/", "noindex" not in meta(html, "robots").lower(), "not-noindex", meta(html, "robots"))
 check("/", canon(html) == f"{SITE}/en/", "canonical", canon(html))
-check("/", "refresh" in html.lower(), "refresh", True)
+check("/", 'http-equiv="refresh"' in html.lower(), "refresh", True)
 
 for lang, expect_title_part in (
     ("en", "Concrete Pump Manufacturer"),
     ("zh", "混凝土泵"),
-    ("ar", "مضخات"),
-    ("pt", "Bomba de Concreto"),
-    ("ru", "бетононасос"),
 ):
     path = f"/{lang}/"
     status, html = get(path)
@@ -116,6 +116,21 @@ for lang, expect_title_part in (
     check(path, expect_title_part.lower() in page_title.lower(), "title-lang", page_title)
     missing = [item for item in HREFLANG_REQUIRED if item not in hreflangs(html)]
     check(path, not missing, "hreflang", missing or "ok")
+    extra = [item for item in HREFLANG_FORBIDDEN if item in hreflangs(html)]
+    check(path, not extra, "no-thin-locale-hreflang", extra or "ok")
+
+for lang, expect_title_part in (
+    ("ar", "مضخات"),
+    ("pt", "Bomba de Concreto"),
+    ("ru", "бетононасос"),
+):
+    path = f"/{lang}/"
+    status, html = get(path)
+    page_title = title_of(html)
+    check(path, status == 200, "status", status)
+    check(path, "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
+    check(path, canon(html) == f"{SITE}{path}", "canonical", canon(html))
+    check(path, expect_title_part.lower() in page_title.lower(), "title-lang", page_title)
 
 status, html = get("/en/")
 check("/en/", status == 200, "status", status)
@@ -134,10 +149,24 @@ check(
 missing = [item for item in HREFLANG_REQUIRED if item not in hreflangs(html)]
 check("/en/products/electric-20", not missing, "hreflang", missing or "ok")
 check("/en/products/electric-20", 'hreflang="pt-BR"' not in html, "hreflang-pt", True)
+extra = [item for item in HREFLANG_FORBIDDEN if item in hreflangs(html)]
+check("/en/products/electric-20", not extra, "no-thin-locale-hreflang", extra or "ok")
+check("/en/products/electric-20", "catalogue row" in html.lower() or "目录行" in html, "unique-row", True)
+
+status, html30 = get("/en/products/electric-30-concrete-pump/")
+title30 = title_of(html30)
+check("/en/products/electric-30", status == 200, "status", status)
+check(
+    "/en/products/electric-30",
+    title30 != page_title and "Electric 30" in title30,
+    "title-distinct",
+    title30,
+)
+check("/en/products/electric-30", "catalogue row" in html30.lower(), "unique-row", True)
 
 status, html = get("/ar/products/")
 check("/ar/products", status == 200, "status", status)
-check("/ar/products", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
+check("/ar/products", "noindex" in meta(html, "robots"), "robots", meta(html, "robots"))
 check("/ar/products", canon(html) == f"{SITE}/ar/products/", "canonical", canon(html))
 
 GONE_PATHS = (
@@ -170,15 +199,27 @@ check("/en/markets/", status == 200, "status", status)
 check("/en/markets/", meta(html, "robots").startswith("index"), "robots", meta(html, "robots"))
 check("/en/markets/", "Target Markets" in title_of(html), "title", title_of(html))
 
-status, sitemap_xml = get("/sitemap-pages.xml")
+status, sitemap_xml = get("/sitemap.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)
 check("sitemap", status == 200, "status", status)
-check("sitemap", len(locs) == 335, "count", len(locs))
+check("sitemap", "<urlset" in sitemap_xml and "<sitemapindex" not in sitemap_xml, "urlset", True)
+check("sitemap", 130 <= len(locs) <= 160, "count", len(locs))
 by_lang = Counter(lang_of(url) for url in locs)
-for lang in LANGS:
-    check("sitemap", by_lang[lang] == 67, f"{lang}-count", by_lang[lang])
+for lang in INDEXED_LANGS:
+    check("sitemap", by_lang[lang] > 50, f"{lang}-count", by_lang[lang])
+for lang in ("pt", "ar", "ru"):
+    check("sitemap", by_lang[lang] == 0, f"{lang}-absent", by_lang[lang])
 for token in HREFLANG_REQUIRED:
     check("sitemap", f'hreflang="{token}"' in sitemap_xml, f"hreflang-{token}", True)
+for token in ("pt", "ar", "ru"):
+    check("sitemap", f'hreflang="{token}"' not in sitemap_xml, f"no-hreflang-{token}", True)
+
+check("sitemap-pages.xml", not (DIST / "sitemap-pages.xml").exists(), "removed", True)
+check("image-sitemap.xml", not (DIST / "image-sitemap.xml").exists(), "removed", True)
+if LIVE:
+    for extra in ("/sitemap-pages.xml", "/image-sitemap.xml"):
+        extra_status, extra_html = get(extra)
+        check(extra, is_static_not_found(extra_status, extra_html), "gone", extra_status)
 
 indexable = 0
 noindex_pages = 0

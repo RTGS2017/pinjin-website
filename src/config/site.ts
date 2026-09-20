@@ -57,13 +57,12 @@ export const carouselConfig = {
   swipeThreshold: 40,
 } as const;
 
-/** Featured product slugs for homepage showcase (order matters, 5 models) */
+/** Featured product slugs for homepage showcase (order matters, 4 models) */
 export const featuredProductSlugs = [
   'electric-40-concrete-pump',
   'diesel-50-concrete-pump',
   'electric-80-concrete-pump',
   'integrated-mixer-pump',
-  'electric-15-concrete-pump',
 ] as const;
 
 export function getMailtoHref(subject?: string, body?: string): string {

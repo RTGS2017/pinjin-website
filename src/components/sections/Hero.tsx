@@ -54,7 +54,7 @@ export function Hero() {
 
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-dark/88 via-dark/55 to-dark/20" />
 
-            <div className="relative z-10 flex min-h-[calc(100svh-4rem)] items-end pb-16 pt-28 lg:min-h-[calc(100svh-4.5rem)] lg:pb-20">
+            <div className="relative z-10 flex min-h-[calc(100svh-4rem)] items-end pb-28 pt-28 lg:min-h-[calc(100svh-4.5rem)] lg:pb-20">
               <div className="container-site w-full">
                 <div className="max-w-2xl fade-up">
                   <p className="max-w-xl text-sm leading-relaxed text-white/78 sm:text-base">
@@ -76,7 +76,7 @@ export function Hero() {
                       size="lg"
                       className="w-full sm:w-auto"
                     >
-                      {t.hero.quote}
+                      {t.nav.getQuote}
                     </Button>
                   </div>
                 </div>

@@ -1,0 +1,55 @@
+{
+  "updated": "2026-09-20",
+  "note": "Fixed cohort for recrawl checks. Do not bulk-request indexing. Judge success on these URLs after the next deploy, not on the GSC all-URL green ratio.",
+  "doNotRequestIndexing": true,
+  "targets": [
+    {
+      "url": "https://pinjinpump.com/sitemap.xml",
+      "expect": "HTTP 200 urlset; only /en/ and /zh/ locs; no sitemap-pages.xml or image-sitemap.xml"
+    },
+    {
+      "url": "https://pinjinpump.com/en/",
+      "expect": "200, index,follow, self-canonical, unique home title"
+    },
+    {
+      "url": "https://pinjinpump.com/zh/",
+      "expect": "200, index,follow, self-canonical, Chinese title"
+    },
+    {
+      "url": "https://pinjinpump.com/en/products/",
+      "expect": "200, index,follow, links to current product URLs"
+    },
+    {
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "expect": "200, index,follow, unique title, catalogue-row sentence, en/zh hreflang only"
+    },
+    {
+      "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+      "expect": "200, index,follow, unique title different from Electric 20, own catalogue row"
+    },
+    {
+      "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+      "expect": "200, index,follow, unique diesel catalogue row"
+    },
+    {
+      "url": "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+      "expect": "200, index,follow, Chinese body, self-canonical"
+    },
+    {
+      "url": "https://pinjinpump.com/ar/products/electric-20-concrete-pump/",
+      "expect": "200 UI page, noindex,follow, not in sitemap; keep until Arabic copy is independent"
+    },
+    {
+      "url": "https://pinjinpump.com/",
+      "expect": "200, canonical https://pinjinpump.com/en/, refresh to /en/; not a ranking target"
+    },
+    {
+      "url": "https://pinjinpump.com/en/products/zs22-25/",
+      "expect": "HTTP 404 + static noindex 404.html; do not index"
+    },
+    {
+      "url": "https://pinjinpump.com/about/",
+      "expect": "HTTP 404; do not index"
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 import { Helmet } from 'react-helmet-async';
 import { absoluteUrl, seoConfig } from '@/config/seo';
+import { siteConfig } from '@/config/site';
 import { factorySlides, getFactoryImagePaths, type FactorySlide } from '@/data/factory';
 import type { GalleryItem } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
-import { defaultLang, getLanguage, languages } from '@/i18n/config';
+import { defaultLang, getLanguage, indexedLangs, isIndexedLang, languages } from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
 import { pick, type Lang } from '@/i18n/types';
 import { companyEntity } from '@/config/entity';
@@ -47,7 +48,7 @@ export function SEO({
   const { lang } = useI18n();
   const pageTitle = title?.trim() || seoConfig.defaultTitle;
   const pageDescription = description?.trim() || seoConfig.defaultDescription;
-  const indexable = !noindex;
+  const indexable = !noindex && isIndexedLang(lang);
   const localizedPath = localePath(path, lang);
   const canonical = absoluteUrl(localizedPath);
   const ogImage = absoluteUrl(image);
@@ -71,22 +72,31 @@ export function SEO({
     <Helmet>
       <html lang={langMeta.htmlLang} dir={langMeta.dir} />
       <title>{pageTitle}</title>
+      <link rel="icon" type="image/webp" href={absoluteUrl(siteConfig.logoPath)} />
+      <link rel="apple-touch-icon" href={absoluteUrl(siteConfig.logoPath)} />
       <meta name="description" content={pageDescription} />
       {keywords ? <meta name="keywords" content={keywords} /> : null}
       <link rel="canonical" href={canonical} />
-      {languages.map((l) => (
+      {indexable
+        ? indexedLangs.map((code) => {
+            const l = getLanguage(code);
+            return (
+              <link
+                key={l.code}
+                rel="alternate"
+                hrefLang={l.hreflang}
+                href={absoluteUrl(localePath(path, l.code))}
+              />
+            );
+          })
+        : null}
+      {indexable ? (
         <link
-          key={l.code}
           rel="alternate"
-          hrefLang={l.hreflang}
-          href={absoluteUrl(localePath(path, l.code))}
+          hrefLang="x-default"
+          href={absoluteUrl(localePath(path, defaultLang))}
         />
-      ))}
-      <link
-        rel="alternate"
-        hrefLang="x-default"
-        href={absoluteUrl(localePath(path, defaultLang))}
-      />
+      ) : null}
       <meta
         name="robots"
         content={indexable ? 'index, follow' : 'noindex, follow'}
@@ -310,9 +320,7 @@ export function buildProductJsonLd(input: {
   model?: string;
   brand?: string;
   lang?: Lang;
-  priceUsd?: number;
   priceNote?: string;
-  quoteOnly?: boolean;
   specifications?: Array<{ name: string; value: string }>;
 }) {
   const lang = input.lang ?? defaultLang;
@@ -367,35 +375,13 @@ export function buildProductJsonLd(input: {
       name: spec.name,
       value: spec.value,
     })),
-    ...(input.quoteOnly
-      ? {
-          offers: {
-            '@type': 'Offer',
-            url: absoluteUrl(input.path),
-            availability: 'https://schema.org/InStock',
-            itemCondition: 'https://schema.org/NewCondition',
-            description: input.priceNote,
-          },
-        }
-      : input.priceUsd != null
-        ? {
-            offers: {
-              '@type': 'Offer',
-              url: absoluteUrl(input.path),
-              priceCurrency: 'USD',
-              price: input.priceUsd.toFixed(2),
-              availability: 'https://schema.org/InStock',
-              itemCondition: 'https://schema.org/NewCondition',
-              description: input.priceNote,
-              priceSpecification: {
-                '@type': 'UnitPriceSpecification',
-                price: input.priceUsd.toFixed(2),
-                priceCurrency: 'USD',
-                valueAddedTaxIncluded: false,
-              },
-            },
-          }
-        : {}),
+    offers: {
+      '@type': 'Offer',
+      url: absoluteUrl(input.path),
+      availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+      description: input.priceNote,
+    },
   };
 }
 

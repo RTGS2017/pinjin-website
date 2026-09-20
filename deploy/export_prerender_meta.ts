@@ -9,12 +9,14 @@ import { fileURLToPath } from 'node:url';
 import {
   getLanguage,
   indexedLangs,
+  isIndexedLang,
   languages,
   type Lang,
 } from '@/i18n/config';
 import { getMessages } from '@/i18n/messages';
 import { pick } from '@/i18n/types';
 import { seoTemplates } from '@/config/seo';
+import { isProductCatalogImage } from '@/data/imageInventory';
 import {
   categoryMeta,
   products,
@@ -24,7 +26,7 @@ import {
 import { categoryHubs } from '@/data/categoryHubs';
 import { getBlogPosts } from '@/data/blog';
 import { getBlogDirectAnswer, getBlogFaqs } from '@/data/blogGeo';
-import { getDirectAnswer, getHowToSelect, getNotSuitable } from '@/data/productP01';
+import { getDirectAnswer, getHowToSelect, getNotSuitable, getSelectionBound } from '@/data/productP01';
 import { getProductFaqs } from '@/data/productFaqs';
 import { getNearbyComparisonText } from '@/data/productCompare';
 import { applicationPages } from '@/data/applicationsContent';
@@ -42,6 +44,7 @@ import {
 
 const SITE = 'https://pinjinpump.com';
 const DEFAULT_LASTMOD = '2026-09-18';
+const PRODUCT_COPY_LASTMOD = '2026-09-20';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outFile = join(root, 'deploy', 'prerender-meta.json');
@@ -238,7 +241,7 @@ function pageCopy(rest: string, lang: Lang): {
       title: productDocumentTitle(product, lang),
       description: productDocumentDescription(product, lang),
       h1: tx(product.name, lang),
-      lastmod: DEFAULT_LASTMOD,
+      lastmod: PRODUCT_COPY_LASTMOD,
     };
   }
 
@@ -330,7 +333,7 @@ function uniquify(pages: PageRecord[], key: 'title' | 'description') {
 
 const pages: PageRecord[] = [];
 for (const lang of languages.map((item) => item.code)) {
-  const indexed = true;
+    const indexed = isIndexedLang(lang);
   const meta = getLanguage(lang);
   for (const rest of pageRests()) {
     const copy = pageCopy(rest, lang);
@@ -355,6 +358,7 @@ for (const lang of languages.map((item) => item.code)) {
     const extra = product
       ? [
           tx(getDirectAnswer(product), lang),
+          tx(getSelectionBound(product), lang),
           getNearbyComparisonText(product, lang),
           getNotSuitable(product).map((item) => tx(item, lang)).join(' '),
           tx(getHowToSelect(product), lang),
@@ -434,7 +438,7 @@ for (const lang of languages.map((item) => item.code)) {
       h1: copy.h1,
       body: `${copy.h1}. ${extra} Page ${path}.`,
       htmlLang: meta.htmlLang,
-      robots: 'index, follow',
+      robots: indexed ? 'index, follow' : 'noindex, follow',
       indexed,
       lastmod: copy.lastmod,
       kind,
@@ -443,10 +447,20 @@ for (const lang of languages.map((item) => item.code)) {
         ? `/products/${categoryMeta[product.category].routeSlug}`
         : undefined,
       ogImage: product
-        ? `${SITE}${product.gallery[0] ?? product.image}`
+        ? `${SITE}${
+            product.gallery.find((path) => isProductCatalogImage(path)) ??
+            product.gallery[0] ??
+            product.image
+          }`
         : undefined,
       imageAlt: product
-        ? productImageAlt(product, product.gallery[0] ?? product.image, lang)
+        ? productImageAlt(
+            product,
+            product.gallery.find((path) => isProductCatalogImage(path)) ??
+              product.gallery[0] ??
+              product.image,
+            lang,
+          )
         : undefined,
     });
   }

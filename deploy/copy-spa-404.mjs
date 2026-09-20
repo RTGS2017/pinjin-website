@@ -32,27 +32,32 @@ if (!existsSync(indexHtml)) {
   process.exit(1);
 }
 
-const built = readFileSync(indexHtml, 'utf8');
-if (built.includes('%BASE_URL%')) {
+const sourceHtml = readFileSync(indexHtml, 'utf8');
+if (sourceHtml.includes('%BASE_URL%')) {
   console.error('dist/index.html still contains %BASE_URL%; this is not a Vite production build');
   process.exit(1);
 }
-if (built.includes('/pinjin-website/')) {
+if (sourceHtml.includes('/pinjin-website/')) {
   console.error('dist/index.html still contains /pinjin-website/; Vite base must be /');
   process.exit(1);
 }
-if (!/\/assets\/[^"']+\.js/.test(built)) {
+if (!/\/assets\/[^"']+\.js/.test(sourceHtml)) {
   console.error('dist/index.html has no hashed /assets/*.js; refusing to deploy source HTML');
   process.exit(1);
 }
+const built = stripRefresh(sourceHtml);
 
 const sitemapXml = join(distDir, 'sitemap.xml');
-const pagesSitemapXml = join(distDir, 'sitemap-pages.xml');
-const imageSitemapXml = join(distDir, 'image-sitemap.xml');
 const robotsTxt = join(distDir, 'robots.txt');
-for (const file of [sitemapXml, pagesSitemapXml, imageSitemapXml, robotsTxt]) {
+for (const file of [sitemapXml, robotsTxt]) {
   if (!existsSync(file)) {
     console.error(`${file} missing; Vite must copy public/ into dist/`);
+    process.exit(1);
+  }
+}
+for (const extra of ['sitemap-pages.xml', 'image-sitemap.xml']) {
+  if (existsSync(join(distDir, extra))) {
+    console.error(`extra sitemap must not ship: ${extra}`);
     process.exit(1);
   }
 }
@@ -67,22 +72,12 @@ function assertXmlSitemap(file, kind) {
     console.error(`${file} is not a valid ${kind} sitemap`);
     process.exit(1);
   }
-  if (text.includes('<html') || text.includes('%BASE_URL%')) {
-    console.error(`${file} looks like HTML or source, not XML`);
+  if (text.includes('<html') || text.includes('%BASE_URL%') || text.includes('<sitemapindex')) {
+    console.error(`${file} looks like HTML, a sitemap index, or source, not a page urlset`);
     process.exit(1);
   }
 }
-assertXmlSitemap(sitemapXml, 'index');
-assertXmlSitemap(pagesSitemapXml, 'urlset');
-assertXmlSitemap(imageSitemapXml, 'urlset');
-const imageXml = readFileSync(imageSitemapXml, 'utf8');
-if (
-  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp') ||
-  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump-catalogue.webp')
-) {
-  console.error('image-sitemap.xml must list B500S-83D studio photo and catalogue WebP');
-  process.exit(1);
-}
+assertXmlSitemap(sitemapXml, 'urlset');
 const robotsText = readFileSync(robotsTxt, 'utf8');
 if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
   console.error('dist/robots.txt must point Google to https://pinjinpump.com/sitemap.xml');
@@ -112,6 +107,10 @@ function escapeHtml(value) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
+}
+
+function stripRefresh(html) {
+  return html.replace(/<meta[^>]*http-equiv=["']refresh["'][^>]*>\s*/gi, '');
 }
 
 function setHtmlLang(html, htmlLang) {
@@ -174,7 +173,7 @@ function insertHead(html, snippet) {
 }
 
 function hreflangBlock(rest) {
-  const langs = meta.indexedLangs ?? ['en', 'zh', 'pt', 'ar', 'ru'];
+  const langs = meta.indexedLangs ?? ['en', 'zh'];
   const map = meta.hreflang ?? {
     en: 'en',
     zh: 'zh-CN',
@@ -297,9 +296,9 @@ function insertSeoStatic(html, page) {
       ? collections
       : pickSlice(collections, page.rest, 3);
   const articleNav = page.rest === '/blog' ? articles : pickSlice(articles, page.rest, 2);
-  const langs = (meta.indexedLangs || ['en', 'zh', 'pt', 'ar', 'ru']).map((lang) => {
+  const langs = (meta.allLangs || ['en', 'zh', 'pt', 'ar', 'ru']).map((lang) => {
     const path = page.rest === '/' ? `/${lang}/` : `/${lang}${page.rest}/`;
-    return `<a href="${escapeHtml(path)}" hreflang="${escapeHtml((meta.hreflang && meta.hreflang[lang]) || lang)}">${escapeHtml(lang)}</a>`;
+    return `<a href="${escapeHtml(path)}">${escapeHtml(lang)}</a>`;
   });
   const specs = (page.specs || [])
     .map((spec) => `<li>${escapeHtml(spec.label)}: ${escapeHtml(spec.value)}</li>`)
@@ -416,11 +415,11 @@ const notFound = `<!doctype html>
 writeFileSync(notFoundHtml, notFound);
 writeFileSync(join(distDir, '.nojekyll'), '');
 
-const pagesXml = readFileSync(pagesSitemapXml, 'utf8');
+const pagesXml = readFileSync(sitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 330 || uniqueLocs.length > 380) {
-  console.error(`sitemap-pages.xml loc count ${uniqueLocs.length} (expected ~360, 5 langs)`);
+if (uniqueLocs.length < 130 || uniqueLocs.length > 160) {
+  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected ~144, en+zh)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -428,15 +427,19 @@ if (sitemapPaths.some((path) => !path.endsWith('/'))) {
   console.error('sitemap locs must use trailing slashes so GitHub Pages returns HTTP 200');
   process.exit(1);
 }
-for (const lang of ['en', 'zh', 'pt', 'ar', 'ru']) {
+if (sitemapPaths.some((path) => path.startsWith('/pt/') || path.startsWith('/ar/') || path.startsWith('/ru/'))) {
+  console.error('sitemap.xml must not list pt/ar/ru until those locales have independent copy');
+  process.exit(1);
+}
+for (const lang of ['en', 'zh']) {
 if (!sitemapPaths.some((path) => path === `/${lang}/` || path.startsWith(`/${lang}/`))) {
-    console.error(`sitemap-pages.xml missing ${lang} URLs`);
+    console.error(`sitemap.xml missing ${lang} URLs`);
     process.exit(1);
   }
 }
-for (const token of ['hreflang="en"', 'hreflang="zh-CN"', 'hreflang="pt"', 'hreflang="ar"', 'hreflang="ru"', 'hreflang="x-default"']) {
+for (const token of ['hreflang="en"', 'hreflang="zh-CN"', 'hreflang="x-default"']) {
   if (!pagesXml.includes(token)) {
-    console.error(`sitemap-pages.xml missing ${token}`);
+    console.error(`sitemap.xml missing ${token}`);
     process.exit(1);
   }
 }
@@ -452,8 +455,27 @@ if (!productTitle || productTitle === HOME_TITLE) {
   console.error(`product shell still has homepage title: ${productTitle}`);
   process.exit(1);
 }
-if (!productHtml.includes('hreflang="zh-CN"') || !productHtml.includes('hreflang="ar"') || !productHtml.includes('hreflang="pt"') || !productHtml.includes('hreflang="ru"') || !productHtml.includes('hreflang="x-default"')) {
-  console.error('product shell missing full hreflang cluster');
+if (!productHtml.includes('hreflang="zh-CN"') || !productHtml.includes('hreflang="en"') || !productHtml.includes('hreflang="x-default"')) {
+  console.error('product shell missing en/zh hreflang cluster');
+  process.exit(1);
+}
+if (
+  /rel="alternate"[^>]*hreflang="(?:ar|pt|ru)"/i.test(productHtml) ||
+  /hreflang="(?:ar|pt|ru)"[^>]*rel="alternate"/i.test(productHtml)
+) {
+  console.error('indexed product shell must not advertise ar/pt/ru hreflang until those locales have independent copy');
+  process.exit(1);
+}
+if (!productHtml.includes('catalogue row') && !productHtml.includes('目录行')) {
+  console.error('English product shell must include the catalogue-row uniqueness sentence');
+  process.exit(1);
+}
+
+const product30Shell = join(distDir, 'en', 'products', 'electric-30-concrete-pump', 'index.html');
+const product30Html = readFileSync(product30Shell, 'utf8');
+const product30Title = product30Html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
+if (!product30Title || product30Title === productTitle) {
+  console.error(`Electric 30 title must differ from Electric 20: ${product30Title}`);
   process.exit(1);
 }
 
@@ -597,8 +619,8 @@ if (!existsSync(arShell)) {
   process.exit(1);
 }
 const arHtml = readFileSync(arShell, 'utf8');
-if (!arHtml.includes('name="robots" content="index, follow"')) {
-  console.error('/ar/products must be index, follow');
+if (!arHtml.includes('name="robots" content="noindex, follow"')) {
+  console.error('/ar/products must be noindex until Arabic product copy is independent');
   process.exit(1);
 }
 if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/ar\/products\/"/.test(arHtml)) {
@@ -631,9 +653,7 @@ for (const loc of uniqueLocs) {
 }
 
 console.log(`Wrote ${written} HTML files from ${meta.pages.length} UI pages (no legacy shells)`);
-console.log(`sitemap-pages.xml locs=${uniqueLocs.length} (en+zh+pt+ar+ru)`);
+console.log(`sitemap.xml locs=${uniqueLocs.length} (en+zh; no extra sitemaps)`);
 console.log('Wrote dist/404.html as a static HTTP 404 page (no SPA fallback)');
 console.log('Wrote dist/.nojekyll');
-console.log(
-  'Verified dist/sitemap.xml (index), dist/sitemap-pages.xml, dist/image-sitemap.xml, dist/robots.txt',
-);
+console.log('Verified dist/sitemap.xml and dist/robots.txt');

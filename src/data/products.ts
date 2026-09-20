@@ -1806,3 +1806,13 @@ export function getSpareParts(): Product[] {
 export function isInquiryOnlyProduct(product: Product): boolean {
   return product.inquiryOnly === true || product.category === 'spare-parts';
 }
+
+const KEY_SPEC_HINT =
+  /power|output|pressure|distance|engine|motor|flow|aggregate|delivery|convey/i;
+
+export function keySpecifications(product: Product, limit = 4): ProductSpec[] {
+  const specs = product.specifications ?? [];
+  const ranked = specs.filter((item) => KEY_SPEC_HINT.test(item.label.en));
+  const fallback = specs.filter((item) => !/^model$/i.test(item.label.en.trim()));
+  return (ranked.length ? ranked : fallback).slice(0, limit);
+}
