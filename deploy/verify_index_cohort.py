@@ -75,12 +75,22 @@ def main() -> None:
         expect = item["expect"]
         path = urlparse(url).path
         if path.endswith(".xml"):
-            check(url, (DIST / path.lstrip("/")).exists(), expect)
-            check(url, "<?xml" in sitemap and "<urlset" in sitemap and "<sitemapindex" not in sitemap, "xml-urlset")
-            check(url, "/ar/" not in sitemap and "/pt/" not in sitemap and "/ru/" not in sitemap, "no-thin-locales")
+            file = DIST / path.lstrip("/")
+            check(url, file.exists(), expect)
+            text = file.read_text(encoding="utf-8") if file.exists() else ""
+            if path.endswith("image-sitemap.xml"):
+                check(url, "<?xml" in text and "<urlset" in text and "xmlns:image" in text, "image-urlset")
+                check(
+                    url,
+                    "b500s-83d-two-stage-pump.webp" in text
+                    and "b500s-83d-two-stage-pump-catalogue.webp" in text,
+                    "b500s-images",
+                )
+                continue
+            check(url, "<?xml" in text and "<urlset" in text and "<sitemapindex" not in text, "xml-urlset")
+            check(url, "/ar/" not in text and "/pt/" not in text and "/ru/" not in text, "no-thin-locales")
             check(url, 130 <= len(locs) <= 160, f"loc-count={len(locs)}")
             check(url, not (DIST / "sitemap-pages.xml").exists(), "no-sitemap-pages")
-            check(url, not (DIST / "image-sitemap.xml").exists(), "no-image-sitemap")
             continue
 
         shell = dist_path(url)

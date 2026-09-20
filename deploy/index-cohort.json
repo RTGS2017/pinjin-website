@@ -5,7 +5,11 @@
   "targets": [
     {
       "url": "https://pinjinpump.com/sitemap.xml",
-      "expect": "HTTP 200 urlset; only /en/ and /zh/ locs; no sitemap-pages.xml or image-sitemap.xml"
+      "expect": "HTTP 200 urlset; only /en/ and /zh/ locs; no sitemap-pages.xml"
+    },
+    {
+      "url": "https://pinjinpump.com/image-sitemap.xml",
+      "expect": "HTTP 200 image urlset with product studio and catalogue WebP"
     },
     {
       "url": "https://pinjinpump.com/en/",

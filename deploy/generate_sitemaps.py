@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
-"""Generate a single page sitemap and robots.txt.
+"""Generate the page sitemap, image sitemap, and robots.txt.
 
 Layout:
-  sitemap.xml   canonical en/zh pages (urlset + hreflang)
-  robots.txt    points only at sitemap.xml
+  sitemap.xml        canonical en/zh pages (urlset + hreflang)
+  image-sitemap.xml  images attached to the pages that show them
+  robots.txt         lists both sitemaps
 
-Do not emit sitemap-pages.xml, image-sitemap.xml, or a sitemap index.
-Images are discovered from page HTML.
+Do not emit sitemap-pages.xml or a sitemap index. That file duplicated the
+page list and is the extra sitemap to drop.
 
 Site origin is read once from (in order):
   1. PINJIN_SITE_URL env
@@ -375,6 +376,7 @@ def write_robots(base: str) -> None:
         "Disallow: /dev/\n"
         "\n"
         f"Sitemap: {base}/sitemap.xml\n"
+        f"Sitemap: {base}/image-sitemap.xml\n"
     )
     (ROOT / "robots.txt").write_text(text, encoding="utf-8")
 
@@ -713,10 +715,9 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
 
 
 def drop_extra_sitemaps() -> None:
-    for name in ("sitemap-pages.xml", "image-sitemap.xml"):
-        path = ROOT / name
-        if path.exists():
-            path.unlink()
+    path = ROOT / "sitemap-pages.xml"
+    if path.exists():
+        path.unlink()
 
 
 SRC_DATA = Path(__file__).resolve().parents[1] / "src" / "data"
@@ -813,10 +814,14 @@ def main() -> None:
     slugs = ordered_product_slugs()
     paths = page_paths()
     page_count = write_pages_sitemap(base, paths, load_lastmods())
+    image_url_count = write_image_sitemap(base, slugs)
     drop_extra_sitemaps()
     write_robots(base)
     write_image_inventory()
-    print(f"base={base} langs={LANGS} page urls={page_count} products={len(slugs)}")
+    print(
+        f"base={base} langs={LANGS} "
+        f"page urls={page_count} image urls={image_url_count} products={len(slugs)}"
+    )
 
 
 

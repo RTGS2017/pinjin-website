@@ -215,11 +215,19 @@ for token in ("pt", "ar", "ru"):
     check("sitemap", f'hreflang="{token}"' not in sitemap_xml, f"no-hreflang-{token}", True)
 
 check("sitemap-pages.xml", not (DIST / "sitemap-pages.xml").exists(), "removed", True)
-check("image-sitemap.xml", not (DIST / "image-sitemap.xml").exists(), "removed", True)
+status, image_xml = get("/image-sitemap.xml")
+check("image-sitemap", status == 200, "status", status)
+check("image-sitemap", "<urlset" in image_xml and "xmlns:image" in image_xml, "image-ns", True)
+check(
+    "image-sitemap",
+    "b500s-83d-two-stage-pump-catalogue.webp" in image_xml
+    and "b500s-83d-two-stage-pump.webp" in image_xml,
+    "b500s-images",
+    True,
+)
 if LIVE:
-    for extra in ("/sitemap-pages.xml", "/image-sitemap.xml"):
-        extra_status, extra_html = get(extra)
-        check(extra, is_static_not_found(extra_status, extra_html), "gone", extra_status)
+    extra_status, extra_html = get("/sitemap-pages.xml")
+    check("/sitemap-pages.xml", is_static_not_found(extra_status, extra_html), "gone", extra_status)
 
 indexable = 0
 noindex_pages = 0
@@ -288,8 +296,10 @@ if "pinjinpump.com" in BASE:
 status, html = get("/robots.txt")
 check(
     "robots",
-    status == 200 and f"Sitemap: {SITE}/sitemap.xml" in html,
-    "sitemap line",
+    status == 200
+    and f"Sitemap: {SITE}/sitemap.xml" in html
+    and f"Sitemap: {SITE}/image-sitemap.xml" in html,
+    "sitemap lines",
     True,
 )
 

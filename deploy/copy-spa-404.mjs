@@ -48,18 +48,17 @@ if (!/\/assets\/[^"']+\.js/.test(sourceHtml)) {
 const built = stripRefresh(sourceHtml);
 
 const sitemapXml = join(distDir, 'sitemap.xml');
+const imageSitemapXml = join(distDir, 'image-sitemap.xml');
 const robotsTxt = join(distDir, 'robots.txt');
-for (const file of [sitemapXml, robotsTxt]) {
+for (const file of [sitemapXml, imageSitemapXml, robotsTxt]) {
   if (!existsSync(file)) {
     console.error(`${file} missing; Vite must copy public/ into dist/`);
     process.exit(1);
   }
 }
-for (const extra of ['sitemap-pages.xml', 'image-sitemap.xml']) {
-  if (existsSync(join(distDir, extra))) {
-    console.error(`extra sitemap must not ship: ${extra}`);
-    process.exit(1);
-  }
+if (existsSync(join(distDir, 'sitemap-pages.xml'))) {
+  console.error('extra sitemap must not ship: sitemap-pages.xml');
+  process.exit(1);
 }
 
 function assertXmlSitemap(file, kind) {
@@ -72,15 +71,33 @@ function assertXmlSitemap(file, kind) {
     console.error(`${file} is not a valid ${kind} sitemap`);
     process.exit(1);
   }
-  if (text.includes('<html') || text.includes('%BASE_URL%') || text.includes('<sitemapindex')) {
-    console.error(`${file} looks like HTML, a sitemap index, or source, not a page urlset`);
+  if (text.includes('<html') || text.includes('%BASE_URL%')) {
+    console.error(`${file} looks like HTML or source, not XML`);
     process.exit(1);
   }
 }
 assertXmlSitemap(sitemapXml, 'urlset');
+if (readFileSync(sitemapXml, 'utf8').includes('<sitemapindex')) {
+  console.error('sitemap.xml must be a page urlset, not a sitemap index');
+  process.exit(1);
+}
+assertXmlSitemap(imageSitemapXml, 'urlset');
+const imageXml = readFileSync(imageSitemapXml, 'utf8');
+if (
+  !imageXml.includes('xmlns:image') ||
+  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp') ||
+  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump-catalogue.webp')
+) {
+  console.error('image-sitemap.xml must list B500S-83D studio photo and catalogue WebP');
+  process.exit(1);
+}
 const robotsText = readFileSync(robotsTxt, 'utf8');
 if (!robotsText.includes('Sitemap: https://pinjinpump.com/sitemap.xml')) {
   console.error('dist/robots.txt must point Google to https://pinjinpump.com/sitemap.xml');
+  process.exit(1);
+}
+if (!robotsText.includes('Sitemap: https://pinjinpump.com/image-sitemap.xml')) {
+  console.error('dist/robots.txt must also point Google to https://pinjinpump.com/image-sitemap.xml');
   process.exit(1);
 }
 
@@ -653,7 +670,7 @@ for (const loc of uniqueLocs) {
 }
 
 console.log(`Wrote ${written} HTML files from ${meta.pages.length} UI pages (no legacy shells)`);
-console.log(`sitemap.xml locs=${uniqueLocs.length} (en+zh; no extra sitemaps)`);
+console.log(`sitemap.xml locs=${uniqueLocs.length} (en+zh pages; image-sitemap.xml kept)`);
 console.log('Wrote dist/404.html as a static HTTP 404 page (no SPA fallback)');
 console.log('Wrote dist/.nojekyll');
-console.log('Verified dist/sitemap.xml and dist/robots.txt');
+console.log('Verified dist/sitemap.xml, dist/image-sitemap.xml, dist/robots.txt');
