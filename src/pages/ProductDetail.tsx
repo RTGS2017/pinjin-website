@@ -16,8 +16,8 @@ import {
   productImageAlt,
   resolveProductSlug,
 } from '@/data/products';
-import { isProductCatalogImage } from '@/data/imageInventory';
 import { getApplicationImagesForCategory } from '@/data/applicationsContent';
+import { getRelatedKnowledgePosts } from '@/data/blog';
 import { clusterForProduct } from '@/data/topicClusters';
 import { InternalLinks } from '@/components/InternalLink';
 import { getProductFaqs } from '@/data/productFaqs';
@@ -74,6 +74,7 @@ export function ProductDetail() {
   const path = `/products/${product.slug}`;
   const localizedPath = localePath(path, lang);
   const related = getRelatedProducts(product);
+  const knowledgePosts = getRelatedKnowledgePosts(product.slug, lang);
   const faqs = getProductFaqs(product, lang);
   const categoryLabel = tx(categoryMeta[product.category].label);
   const categoryPath = getCategoryPath(product.category);
@@ -87,7 +88,6 @@ export function ProductDetail() {
 
   const gallery = product.gallery;
   const heroImage = gallery[0] ?? product.image;
-  const catalogShot = isProductCatalogImage(heroImage);
   const quoteOnly = isInquiryOnlyProduct(product);
   const spareParts = quoteOnly ? [] : getSpareParts();
   const relatedPumps = quoteOnly ? getFeaturedProducts(featuredProductSlugs).slice(0, 3) : [];
@@ -110,8 +110,8 @@ export function ProductDetail() {
         path={path}
         image={heroImage}
         imageAlt={productImageAlt(product, heroImage, lang)}
-        imageWidth={catalogShot ? 1054 : 1200}
-        imageHeight={catalogShot ? 1492 : 800}
+        imageWidth={1200}
+        imageHeight={800}
         type="product"
         keywords={keywords}
         jsonLd={[
@@ -229,18 +229,6 @@ export function ProductDetail() {
               </Button>
             </div>
           </div>
-
-          {gallery.length > 1 ? (
-            <div className="lg:col-start-1">
-              <ProductGallery
-                product={product}
-                images={gallery}
-                active={shot}
-                onChange={setShot}
-                showStage={false}
-              />
-            </div>
-          ) : null}
         </div>
 
         <section className="mt-14">
@@ -491,6 +479,24 @@ export function ProductDetail() {
                 <ProductCard key={item.slug} product={item} variant="related" />
               ))}
             </div>
+          </div>
+        ) : null}
+
+        {knowledgePosts.length > 0 ? (
+          <div className="mt-16">
+            <h2 className="heading-display text-2xl sm:text-3xl">{t.blog.relatedKnowledge}</h2>
+            <ul className="mt-6 space-y-2 text-sm">
+              {knowledgePosts.map((item) => (
+                <li key={item.slug}>
+                  <LocaleLink
+                    to={`/blog/${item.slug}`}
+                    className="font-medium text-dark hover:text-primary"
+                  >
+                    {tx(item.title)}
+                  </LocaleLink>
+                </li>
+              ))}
+            </ul>
           </div>
         ) : null}
 

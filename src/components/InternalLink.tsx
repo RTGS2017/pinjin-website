@@ -1,6 +1,7 @@
 import { LocaleLink } from '@/i18n/navigation';
 import { useI18n } from '@/i18n/I18nContext';
 import type { TopicCluster, TopicLink } from '@/data/topicClusters';
+import { getBlogPost, isIndexablePost, postAvailableInLang } from '@/data/blog';
 
 interface InternalLinkProps {
   href: string;
@@ -28,12 +29,19 @@ function LinkGroup({
   items: TopicLink[];
 }) {
   const { lang } = useI18n();
-  if (!items.length) return null;
+  const visible = items.filter((item) => {
+    if (!item.href.startsWith('/blog/')) return true;
+    const slug = item.href.replace(/^\/blog\//, '').replace(/\/$/, '');
+    const post = getBlogPost(slug);
+    if (!post) return true;
+    return isIndexablePost(post) && postAvailableInLang(post, lang);
+  });
+  if (!visible.length) return null;
   return (
     <div>
       <h3 className="text-sm font-semibold tracking-wide text-dark">{title}</h3>
       <ul className="mt-3 space-y-2 text-sm">
-        {items.map((item) => (
+        {visible.map((item) => (
           <li key={item.href}>
             <InternalLink href={item.href}>
               {lang === 'zh' ? item.zh : item.en}

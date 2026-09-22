@@ -25,22 +25,22 @@ export function isProductStudioImage(path: string, slug: string): boolean {
   return file === 'main.webp' || file === `${slug}.webp`;
 }
 
+function withoutCatalog(paths: readonly string[] | undefined): string[] {
+  return (paths ?? []).filter((path) => !isProductCatalogImage(path));
+}
+
 export function productDisplayImages(slug: string): string[] {
-  const listed = productPublicImagesBySlug[slug];
-  if (listed?.length) return [...listed];
+  const listed = withoutCatalog(productPublicImagesBySlug[slug]);
+  if (listed.length) return listed;
   return [`/images/products/${slug}/${slug}.webp`];
 }
 
-/** Product detail gallery: machine photo first, then detail/working shots, catalogue last. */
+/** Product detail: one machine photo only. No catalogue sheets, no thumbnail strip. */
 export function productDetailImages(slug: string): string[] {
-  const listed = productPublicImagesBySlug[slug] ?? [];
+  const listed = withoutCatalog(productPublicImagesBySlug[slug]);
   const studio = listed.filter((path) => isProductStudioImage(path, slug));
-  const extras = listed.filter(
-    (path) => !isProductStudioImage(path, slug) && !isProductCatalogImage(path),
-  );
-  const catalog = listed.filter((path) => isProductCatalogImage(path));
-  const ordered = [...studio, ...extras, ...catalog];
-  if (ordered.length) return [...new Set(ordered)];
+  if (studio.length) return [studio[0]];
+  if (listed.length) return [listed[0]];
   return [`/images/products/${slug}/${slug}.webp`];
 }
 

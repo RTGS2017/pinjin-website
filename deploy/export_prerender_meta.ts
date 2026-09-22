@@ -16,7 +16,6 @@ import {
 import { getMessages } from '@/i18n/messages';
 import { pick } from '@/i18n/types';
 import { seoTemplates } from '@/config/seo';
-import { isProductCatalogImage } from '@/data/imageInventory';
 import {
   categoryMeta,
   products,
@@ -24,7 +23,7 @@ import {
   type ProductCategory,
 } from '@/data/products';
 import { categoryHubs } from '@/data/categoryHubs';
-import { getBlogPosts } from '@/data/blog';
+import { getBlogPosts, postAvailableInLang } from '@/data/blog';
 import { getBlogDirectAnswer, getBlogFaqs } from '@/data/blogGeo';
 import { getDirectAnswer, getHowToSelect, getNotSuitable, getSelectionBound } from '@/data/productP01';
 import { getProductFaqs } from '@/data/productFaqs';
@@ -336,6 +335,10 @@ for (const lang of languages.map((item) => item.code)) {
     const indexed = isIndexedLang(lang);
   const meta = getLanguage(lang);
   for (const rest of pageRests()) {
+    if (rest.startsWith('/blog/') && rest !== '/blog') {
+      const post = posts.find((item) => rest === `/blog/${item.slug}`);
+      if (post && !postAvailableInLang(post, lang)) continue;
+    }
     const copy = pageCopy(rest, lang);
     const path = loc(lang, rest);
     const product = products.find((item) => rest === `/products/${item.slug}`);
@@ -447,20 +450,10 @@ for (const lang of languages.map((item) => item.code)) {
         ? `/products/${categoryMeta[product.category].routeSlug}`
         : undefined,
       ogImage: product
-        ? `${SITE}${
-            product.gallery.find((path) => isProductCatalogImage(path)) ??
-            product.gallery[0] ??
-            product.image
-          }`
+        ? `${SITE}${product.gallery[0] ?? product.image}`
         : undefined,
       imageAlt: product
-        ? productImageAlt(
-            product,
-            product.gallery.find((path) => isProductCatalogImage(path)) ??
-              product.gallery[0] ??
-              product.image,
-            lang,
-          )
+        ? productImageAlt(product, product.gallery[0] ?? product.image, lang)
         : undefined,
     });
   }

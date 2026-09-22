@@ -1,21 +1,27 @@
 """Convert uploaded product images into per-slug WebP paths used by the site.
 
 支持放图方式：
-1. public/images/products/{slug}/source-photo.png|source.png → {slug}.webp
-2. public/images/products/{slug}/source-catalog.png → {slug}-catalogue.webp
+1. public/images/products/{slug}/source-photo.png|source.png → {slug}.webp（白底去底）
+2. public/images/products/{slug}/source-catalog.* 仅作参数源，不再发布 catalogue WebP
 3. public/images/products/{可读英文文件名}.png（ROOT_FILE_MAP）→ 对应 slug/{slug}.webp
 4. public/images/products/{中文产品名}.jpg（WORKING_ROOT_MAP）→ 对应 slug/working.webp
    若文件名带「2」则为 working-2.webp（第 3 张施工现场图）
 
 Published filenames keep the product keywords. Generic main.webp / catalog.webp
-are removed after a successful SEO convert so crawlers do not keep two URLs.
+are not used as public product photos.
 """
 
 from __future__ import annotations
 
 from pathlib import Path
+import sys
 
 from PIL import Image
+
+_DEPLOY = Path(__file__).resolve().parent
+if str(_DEPLOY) not in sys.path:
+    sys.path.insert(0, str(_DEPLOY))
+from remove_white_background import remove_white_background
 
 ROOT = Path(__file__).resolve().parents[1] / "public" / "images" / "products"
 
@@ -52,6 +58,9 @@ SLUGS = [
     "high-flow-hydraulic-concrete-spraying-machine",
     "m9-automatic-plaster-spraying-machine",
     "diesel-concrete-spraying-machine",
+    "double-cylinder-plunger-mortar-spraying-machine",
+    "type-311-mortar-spraying-machine",
+    "type-511-mortar-spraying-machine",
 ]
 
 # 产品图根目录可读文件名 → slug（实拍入库见 ingest_real_product_photos.py）
@@ -104,6 +113,7 @@ def convert_if_newer(src: Path, dest: Path) -> bool:
 
 def convert(src: Path, dest: Path) -> None:
     img = Image.open(src)
+    img = remove_white_background(img)
     if img.mode == "P":
         img = img.convert("RGBA")
     elif img.mode not in ("RGB", "RGBA"):
@@ -209,7 +219,6 @@ def main() -> None:
     ingested = ingest_root_files()
     ingested_working = ingest_working_root_files()
     converted = 0
-    catalogs = 0
     for slug in SLUGS:
         folder = ROOT / slug
         folder.mkdir(parents=True, exist_ok=True)
@@ -227,33 +236,9 @@ def main() -> None:
         if dest.exists() and generic_main.exists():
             generic_main.unlink()
             print(f"REMOVED stale {slug}/main.webp")
-        catalog_src = first_existing(folder, CATALOG_SOURCE_NAMES)
-        cdest = catalog_dest(folder, slug)
-        generic_catalog = folder / "catalog.webp"
-        if catalog_src and (
-            not cdest.exists() or catalog_src.stat().st_mtime > cdest.stat().st_mtime
-        ):
-            if (
-                generic_catalog.exists()
-                and not cdest.exists()
-                and catalog_src.stat().st_mtime <= generic_catalog.stat().st_mtime
-            ):
-                generic_catalog.replace(cdest)
-                catalogs += 1
-                print(f"RENAMED {slug}/catalog.webp -> {cdest.name}")
-            else:
-                convert(catalog_src, cdest)
-                catalogs += 1
-        elif dest.exists() and generic_catalog.exists() and not cdest.exists():
-            generic_catalog.replace(cdest)
-            catalogs += 1
-            print(f"RENAMED {slug}/catalog.webp -> {cdest.name}")
-        if cdest.exists() and generic_catalog.exists():
-            generic_catalog.unlink()
-            print(f"REMOVED stale {slug}/catalog.webp")
     print(
         f"DONE ingested_root={ingested} ingested_working={ingested_working} "
-        f"converted_studio={converted} catalogs={catalogs} / folders={len(SLUGS)}"
+        f"converted_studio={converted} catalogs=0 / folders={len(SLUGS)}"
     )
 
 

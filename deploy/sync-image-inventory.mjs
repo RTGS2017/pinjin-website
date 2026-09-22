@@ -20,16 +20,18 @@ const IMAGES = join(PUBLIC, 'images');
 const DEST = join(ROOT, 'src', 'data', 'imageInventory.generated.ts');
 const PRODUCT_ORDER = [
   'main.webp',
-  'catalog.webp',
   'working.webp',
   'working-2.webp',
 ];
 
+function isCatalogFile(slug, name) {
+  return name === 'catalog.webp' || name === `${slug}-catalogue.webp` || name.endsWith('-catalogue.webp');
+}
+
 function productFileRank(slug, name) {
   if (name === `${slug}.webp` || name === 'main.webp') return 0;
-  if (name === `${slug}-catalogue.webp` || name === 'catalog.webp') return 1;
-  if (name === 'working.webp') return 2;
-  if (name === 'working-2.webp') return 3;
+  if (name === 'working.webp') return 1;
+  if (name === 'working-2.webp') return 2;
   return PRODUCT_ORDER.length;
 }
 
@@ -71,7 +73,7 @@ if (existsSync(productsRoot)) {
     const dir = join(productsRoot, folder);
     if (!statSync(dir).isDirectory()) continue;
     const files = readdirSync(dir).filter((name) =>
-      name.toLowerCase().endsWith('.webp'),
+      name.toLowerCase().endsWith('.webp') && !isCatalogFile(folder, name),
     );
     files.sort((a, b) => {
       const sa = productFileRank(folder, a);

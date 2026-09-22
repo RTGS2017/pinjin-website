@@ -118,8 +118,8 @@ export const siteFaqs: FaqItem[] = [
       zh: '你们是否生产砂浆喷涂机？',
     },
     answer: {
-      en: 'Yes. The spraying-machines hub lists two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h, particle ≤8 mm) and a diesel concrete sprayer (5 m³/h, particle ≤6 mm). They are not trailer concrete pumps. Open /products/spraying-machines and match particle size, hose and power, then inquire. No list price.',
-      zh: '是。喷涂机分类页列出两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h，粒径 ≤8 mm）与一台柴油混凝土喷涂机（5 m³/h，粒径 ≤6 mm）。它们不是拖式混凝土泵。请打开 /products/spraying-machines 对照粒径、管径与动力后再询盘。无公开标价。',
+      en: 'Yes. The spraying-machines hub lists Type 311 (4 kW, 2 m³/h, ≤2 mm), Type 511 (7.5 kW, 3 m³/h, ≤6 mm), the double-cylinder plunger unit (9/11 kW, 4 m³/h, 8 MPa), two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h, particle ≤8 mm) and a diesel concrete sprayer (5 m³/h, particle ≤6 mm). They are not trailer concrete pumps. Open /products/spraying-machines and match particle size, hose and power, then inquire. No list price.',
+      zh: '是。喷涂机分类页列出 311（4 kW、2 m³/h、≤2 mm）、511（7.5 kW、3 m³/h、≤6 mm）、双缸柱塞式（9/11 kW、4 m³/h、8 MPa）、两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h，粒径 ≤8 mm）与一台柴油混凝土喷涂机（5 m³/h，粒径 ≤6 mm）。它们不是拖式混凝土泵。请打开 /products/spraying-machines 对照粒径、管径与动力后再询盘。无公开标价。',
     },
   },
   {

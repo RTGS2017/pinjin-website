@@ -6,16 +6,18 @@ import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import {
   blogCategoryMeta,
   blogCategoryOrder,
+  blogResourceTypeMeta,
   getBlogCover,
   getBlogPosts,
   type BlogCategory,
 } from '@/data/blog';
+import { getProductBySlug } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 
 export function BlogList() {
   const { lang, t, tx } = useI18n();
-  const posts = getBlogPosts();
+  const posts = getBlogPosts(lang);
   const [filter, setFilter] = useState<'all' | BlogCategory>('all');
   const visible = useMemo(
     () => (filter === 'all' ? posts : posts.filter((post) => post.category === filter)),
@@ -101,6 +103,9 @@ export function BlogList() {
                     <div className="flex flex-1 flex-col p-6">
                       <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
                         {tx(blogCategoryMeta[post.category])}
+                        {post.resourceType
+                          ? ` · ${tx(blogResourceTypeMeta[post.resourceType])}`
+                          : null}
                       </p>
                       <h2 className="mt-3 text-xl font-semibold tracking-tight text-dark">
                         <LocaleLink
@@ -114,6 +119,22 @@ export function BlogList() {
                       <p className="mt-4 text-xs text-text-secondary">
                         {t.blog.published}: {post.date}
                       </p>
+                      {post.relatedProductSlugs.length > 0 ? (
+                        <p className="mt-2 text-xs text-text-secondary">
+                          {t.blog.relatedProducts}:{' '}
+                          {post.relatedProductSlugs
+                            .map((item) => getProductBySlug(item))
+                            .filter((item): item is NonNullable<typeof item> => Boolean(item))
+                            .slice(0, 3)
+                            .map((item) => tx(item.name))
+                            .join(' · ')}
+                        </p>
+                      ) : null}
+                      {post.tags && post.tags.length > 0 ? (
+                        <p className="mt-2 text-xs text-text-secondary">
+                          {t.blog.tags}: {post.tags.slice(0, 4).join(' · ')}
+                        </p>
+                      ) : null}
                       <LocaleLink
                         to={`/blog/${post.slug}`}
                         className="mt-4 text-sm font-semibold text-dark hover:text-primary"

@@ -236,11 +236,8 @@ def convert_studio(src: Path, dest: Path) -> None:
 
 
 def preserve_catalog(folder: Path) -> None:
-    main = folder / "main.webp"
-    catalog = folder / "catalog.webp"
-    if main.exists() and not catalog.exists():
-        catalog.write_bytes(main.read_bytes())
-        print(f"KEEP catalog {folder.name}/catalog.webp")
+    # Catalogue sheets are no longer published on the site.
+    return
 
 
 def main() -> None:

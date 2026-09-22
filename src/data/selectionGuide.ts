@@ -133,10 +133,13 @@ export const selectionGuideItems: SelectionGuideItem[] = [
       zh: '需要砂浆、石膏或混凝土喷涂机？',
     },
     recommendation: {
-      en: 'Plaster ≤4 mm → M9. 380 V concrete/mortar ≤8 mm → hydraulic 5 m³/h or high-flow 7 m³/h. No grid → diesel 5 m³/h / ≤6 mm. These are not trailer pumps.',
-      zh: '石膏 ≤4 mm → M9。380V 混凝土/砂浆 ≤8 mm → 液压 5 m³/h 或大流量 7 m³/h。无电网 → 柴油 5 m³/h / ≤6 mm。它们不是拖式泵。',
+      en: 'Fine mortar ≤2 mm / 2 m³/h → Type 311. ≤6 mm / 3 m³/h → Type 511. Dual-motor plunger 4 m³/h / 8 MPa → double-cylinder plunger. Plaster ≤4 mm → M9. 380 V concrete/mortar ≤8 mm → hydraulic 5 m³/h or high-flow 7 m³/h. No grid → diesel 5 m³/h / ≤6 mm. These are not trailer pumps.',
+      zh: '细砂浆 ≤2 mm / 2 m³/h → 311。≤6 mm / 3 m³/h → 511。双缸柱塞 4 m³/h / 8 MPa → 双缸柱塞式。石膏 ≤4 mm → M9。380V 混凝土/砂浆 ≤8 mm → 液压 5 m³/h 或大流量 7 m³/h。无电网 → 柴油 5 m³/h / ≤6 mm。它们不是拖式泵。',
     },
     productSlugs: [
+      'type-311-mortar-spraying-machine',
+      'type-511-mortar-spraying-machine',
+      'double-cylinder-plunger-mortar-spraying-machine',
       'hydraulic-concrete-spraying-machine',
       'high-flow-hydraulic-concrete-spraying-machine',
       'm9-automatic-plaster-spraying-machine',

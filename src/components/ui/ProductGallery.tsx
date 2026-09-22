@@ -27,7 +27,7 @@ export function ProductGallery({
   active: activeProp,
   onChange,
   showStage = true,
-  showThumbs = true,
+  showThumbs = false,
 }: ProductGalleryProps) {
   const { lang, t } = useI18n();
   const gallery = [...new Set(images.filter(Boolean))];

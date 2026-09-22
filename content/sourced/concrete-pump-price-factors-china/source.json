@@ -1,0 +1,69 @@
+{
+  "title": "Concrete Pump Price Factors in China",
+  "seoTitle": "Concrete Pump Price Factors in China | Pinjin Xingtai",
+  "description": "What moves a China concrete pump quotation: model and power, configuration, wear-part kits, destination and Incoterms. Pinjin pages have no published list price and no EXW number on this site. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+  "primaryKeyword": "concrete pump price China",
+  "secondaryKeywords": [
+    "concrete pump quotation",
+    "China concrete pump cost factors",
+    "EXW concrete pump"
+  ],
+  "category": "industry-guide",
+  "resourceType": "procurement-guide",
+  "tags": ["price", "quotation", "procurement"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-40-concrete-pump",
+    "diesel-50-concrete-pump",
+    "integrated-mixer-pump"
+  ],
+  "relatedArticleSlugs": [
+    "how-to-compare-small-concrete-pumps-china",
+    "concrete-pump-output-m3h-guide",
+    "electric-20-vs-30-concrete-pump"
+  ],
+  "relatedPaths": [
+    { "href": "/products", "label": "Pinjin concrete machinery products" },
+    { "href": "/blog/how-to-compare-small-concrete-pumps-china", "label": "How to compare small concrete pumps from China" },
+    { "href": "/factory", "label": "Xingtai construction machinery factory" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "A China concrete pump price is a factory quotation, not a scraped listing. On pinjinpump.com there is no published list price and no EXW figure on product pages. Factors we actually use: catalogue model (kW, output, pressure, distance), electric versus diesel, extra pipe and wear parts, destination, and Incoterms. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+    "who": "Importers collecting quotes who need the cost drivers without a fake price band.",
+    "factors": [
+      "Which published model — compact 8–10 m³/h versus 21 m³/h versus 60–100 m³/h",
+      "Power: electric kW versus diesel engine row",
+      "Pipeline and wear-part quantity (quote-only, no small batches)",
+      "Destination, packing and who pays freight"
+    ],
+    "relatedModels": [
+      "electric-40-concrete-pump",
+      "diesel-50-concrete-pump",
+      "integrated-mixer-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Pinjin’s EXW price for Electric 40?",
+      "answer": "This website does not publish it. Product pages state that international freight is extra and paid by the buyer. Send the model and destination for a factory quotation."
+    },
+    {
+      "question": "Can I use an Alibaba listing as the market price?",
+      "answer": "Not as a Pinjin figure. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. We do not copy those numbers."
+    }
+  ],
+  "image": {
+    "src": "/images/factory/pinjin-construction-machinery-factory-loading.webp",
+    "alt": "Factory packing and loading at Hebei Pinjin Machinery in Xingtai, Hebei, China",
+    "caption": "Packing and loading at the Xingtai factory — freight is extra and paid by the buyer"
+  },
+  "sources": [
+    { "name": "Pinjin FAQ: concrete pump price from China manufacturer", "url": "https://pinjinpump.com/en/faq/", "type": "pinjin" },
+    { "name": "Pinjin Electric 40 product page (no list price)", "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin contact / inquiry", "url": "https://pinjinpump.com/en/contact/", "type": "pinjin" },
+    { "name": "Alibaba search observation: concrete pump (listing prices not used)", "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump", "type": "marketplace" }
+  ],
+  "contentStatus": "ready"
+}

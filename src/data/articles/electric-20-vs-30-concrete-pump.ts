@@ -67,6 +67,13 @@ export const article: BlogPost = {
       href: '/contact',
       label: L('Contact the Xingtai factory', '联系邢台工厂'),
     },
+    {
+      href: '/blog/concrete-pump-output-m3h-guide',
+      label: L(
+        'Concrete pump output: how many m³/h do you need?',
+        '混凝土泵输送量需要多少立方米每小时',
+      ),
+    },
   ],
   content: [
     {

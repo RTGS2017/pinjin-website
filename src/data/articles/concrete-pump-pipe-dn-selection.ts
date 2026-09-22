@@ -51,6 +51,13 @@ export const article: BlogPost = {
       href: '/contact',
       label: L('Contact Xingtai manufacturer', '联系邢台厂家'),
     },
+    {
+      href: '/blog/concrete-pump-spare-parts-wear-parts',
+      label: L(
+        'Concrete pump spare parts: pistons, valves and pipes',
+        '混凝土泵活塞阀门管路配件',
+      ),
+    },
   ],
   content: [
     {

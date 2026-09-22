@@ -1,0 +1,71 @@
+{
+  "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer",
+  "seoTitle": "Fine Stone Concrete Pump vs Mortar Sprayer | Pinjin",
+  "description": "Fine-stone trailer pumps move stone concrete in pipe. Pinjin spraying machines spray mortar, concrete or plaster through a hose at ≤8 mm or ≤4 mm particle. Compare Electric Low Pressure 40 (12–15 m³/h, fine-stone 80/240 m) with the hydraulic sprayer (5 m³/h, ≤8 mm) and M9 plaster (30 L/min, ≤4 mm).",
+  "primaryKeyword": "fine stone concrete pump vs mortar sprayer",
+  "secondaryKeywords": [
+    "mortar spraying machine",
+    "plaster sprayer vs concrete pump",
+    "fine stone pump"
+  ],
+  "category": "product-guide",
+  "resourceType": "equipment-guide",
+  "tags": ["fine-stone", "spraying", "comparison"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-low-pressure-40-concrete-pump",
+    "hydraulic-concrete-spraying-machine",
+    "m9-automatic-plaster-spraying-machine",
+    "electric-30-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "low-pressure-40-concrete-pump-guide",
+    "fine-stone-concrete-pump-aggregate-size",
+    "fine-stone-concrete-pump-floor-heating"
+  ],
+  "relatedPaths": [
+    { "href": "/products/spraying-machines", "label": "Concrete spraying machine manufacturer China" },
+    { "href": "/blog/low-pressure-40-concrete-pump-guide", "label": "Low pressure fine-stone Electric 40 guide" },
+    { "href": "/solutions/spraying", "label": "Spraying jobs vs pipeline pumping" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "A fine-stone concrete pump is a trailer that pipelines concrete whose stone sits in the published aggregate / fine-stone row (example: Electric Low Pressure 40, 12–15 m³/h, 20 MPa, fine-stone 80 m / 240 m). A mortar or plaster sprayer is a finishing machine: Pinjin hydraulic concrete sprayers list 5 or 7 m³/h, 8 MPa, particle ≤8 mm; M9 plaster lists 30 L/min, 50 bar, particle ≤4 mm. They are not interchangeable.",
+    "who": "Buyers who were quoted both a ‘fine stone pump’ and a ‘mortar sprayer’ for floor or wall work and need the particle-size split.",
+    "factors": [
+      "Particle / stone size: centimetres on trailers versus ≤8 mm or ≤4 mm on sprayers",
+      "Output units: m³/h on pumps versus m³/h or L/min on sprayers",
+      "Hose versus pipeline DN",
+      "Job: structural / floor fill versus finishing spray"
+    ],
+    "relatedModels": [
+      "electric-low-pressure-40-concrete-pump",
+      "hydraulic-concrete-spraying-machine",
+      "high-flow-hydraulic-concrete-spraying-machine",
+      "m9-automatic-plaster-spraying-machine"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I pump 1–3 cm stone with a Pinjin spraying machine?",
+      "answer": "No. Hydraulic sprayers list particle ≤8 mm; the diesel sprayer lists ≤6 mm; M9 lists ≤4 mm. 1–3 cm stone belongs on a trailer pump such as Electric 15 or Electric 30."
+    },
+    {
+      "question": "Is the M9 a fine-stone concrete pump?",
+      "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+    }
+  ],
+  "image": {
+    "src": "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp",
+    "alt": "Hydraulic concrete spraying machine from Hebei Pinjin Machinery Xingtai, particle ≤8 mm",
+    "caption": "Hydraulic concrete spraying machine, Xingtai catalogue — 5 m³/h, particle ≤8 mm, not a trailer pump"
+  },
+  "sources": [
+    { "name": "Pinjin Electric Low Pressure 40 product page", "url": "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin hydraulic concrete spraying machine product page", "url": "https://pinjinpump.com/en/products/hydraulic-concrete-spraying-machine/", "type": "pinjin" },
+    { "name": "Pinjin M9 plaster spraying machine product page", "url": "https://pinjinpump.com/en/products/m9-automatic-plaster-spraying-machine/", "type": "pinjin" },
+    { "name": "Pinjin spraying machines hub", "url": "https://pinjinpump.com/en/products/spraying-machines/", "type": "pinjin" }
+  ],
+  "contentStatus": "ready"
+}

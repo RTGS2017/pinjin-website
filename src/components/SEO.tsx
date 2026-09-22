@@ -4,9 +4,9 @@ import { siteConfig } from '@/config/site';
 import { factorySlides, getFactoryImagePaths, type FactorySlide } from '@/data/factory';
 import type { GalleryItem } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
-import { defaultLang, getLanguage, indexedLangs, isIndexedLang, languages } from '@/i18n/config';
+import { defaultLang, getLanguage, indexedLangs, isIndexedLang, languages, type Lang } from '@/i18n/config';
 import { localePath } from '@/i18n/paths';
-import { pick, type Lang } from '@/i18n/types';
+import { pick } from '@/i18n/types';
 import { companyEntity } from '@/config/entity';
 
 export interface SEOProps {
@@ -22,6 +22,12 @@ export interface SEOProps {
   noindex?: boolean;
   keywords?: string;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /**
+   * Languages that have a real translation for this URL.
+   * Defaults to indexedLangs (en, zh). English-only sourced pages pass `['en']`
+   * so zh is not advertised in hreflang.
+   */
+  hreflangLangs?: readonly Lang[];
 }
 
 function ogImageType(path: string) {
@@ -44,11 +50,16 @@ export function SEO({
   noindex = false,
   keywords,
   jsonLd,
+  hreflangLangs,
 }: SEOProps) {
   const { lang } = useI18n();
   const pageTitle = title?.trim() || seoConfig.defaultTitle;
   const pageDescription = description?.trim() || seoConfig.defaultDescription;
-  const indexable = !noindex && isIndexedLang(lang);
+  const alternateLangs = (hreflangLangs ?? indexedLangs).filter((code) =>
+    isIndexedLang(code),
+  );
+  const indexable =
+    !noindex && isIndexedLang(lang) && alternateLangs.includes(lang);
   const localizedPath = localePath(path, lang);
   const canonical = absoluteUrl(localizedPath);
   const ogImage = absoluteUrl(image);
@@ -78,7 +89,7 @@ export function SEO({
       {keywords ? <meta name="keywords" content={keywords} /> : null}
       <link rel="canonical" href={canonical} />
       {indexable
-        ? indexedLangs.map((code) => {
+        ? alternateLangs.map((code) => {
             const l = getLanguage(code);
             return (
               <link

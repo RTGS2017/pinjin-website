@@ -1,0 +1,69 @@
+{
+  "title": "Concrete Pump Blockage: Causes, Prevention and Safe Response",
+  "seoTitle": "Concrete Pump Blockage Causes and Safe Response | Pinjin",
+  "description": "Prevent trailer-pump blockages with mix, pipeline and wash-down practice from the Xingtai daily checklist. If a plug forms, ACPA requires relieving line pressure before opening the system and forbids compressed air to force a blockage.",
+  "primaryKeyword": "concrete pump blockage",
+  "secondaryKeywords": [
+    "concrete pump plug",
+    "pipeline blockage safety",
+    "concrete pump reverse pumping"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "safety-guide",
+  "tags": ["blockage", "safety", "maintenance"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-40-concrete-pump",
+    "concrete-pump-delivery-pipe",
+    "concrete-pump-split-piston"
+  ],
+  "relatedArticleSlugs": [
+    "concrete-pump-daily-maintenance-checklist",
+    "concrete-pump-spare-parts-wear-parts",
+    "concrete-pump-pipe-dn-selection"
+  ],
+  "relatedPaths": [
+    { "href": "/products/concrete-pump-parts", "label": "Concrete pump parts manufacturer China" },
+    { "href": "/blog/concrete-pump-daily-maintenance-checklist", "label": "Concrete pump daily maintenance checklist" },
+    { "href": "/solutions/construction", "label": "Building construction pumping" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "A blockage (plug) is concrete that has stopped moving in the valve, reducer or pipeline. Prevention on Pinjin trailers is the Xingtai daily checklist: hopper, clamps, leaks, S-valve observation, after-pour wash. If a plug forms, the American Concrete Pumping Association (ACPA) instructs operators to reverse-pump to relieve line pressure, locate the plug, and remove the section by hand. Never use compressed air to remove a blockage.",
+    "who": "Operators and site leads running trailer concrete pumps who need a sourced safety sequence, not a homemade air-blow trick.",
+    "factors": [
+      "Mix stability and max aggregate versus pipe DN (see ACI 304.2R-17 and the Pinjin aggregate page)",
+      "Clamps, gaskets and pipeline support before the first load",
+      "Hopper not sucked empty (air in the line)",
+      "ACPA: relieve pressure, never compressed air on a plug"
+    ],
+    "relatedModels": [
+      "electric-40-concrete-pump",
+      "concrete-pump-delivery-pipe",
+      "concrete-pump-split-piston"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I blow a pipeline blockage out with an air compressor?",
+      "answer": "No. ACPA’s safety alert states: never use compressed air to remove a blockage. Air stores energy; a concrete pump already produces far higher pressure than a typical compressor. Relieve line pressure by reverse pumping, then remove the plugged section."
+    },
+    {
+      "question": "Does Pinjin publish a blockage-hour table or a guaranteed unplug method?",
+      "answer": "No. We publish a daily checklist and we cite ACPA for the pressure-release rule. Mix, pipe and yesterday’s wash change wear. Photograph the valve and pipe and send the model slug to the Xingtai factory."
+    }
+  ],
+  "image": {
+    "src": "/images/factory/pinjin-trailer-concrete-pump-assembly.webp",
+    "alt": "Trailer concrete pump assembly at Hebei Pinjin Machinery Xingtai factory",
+    "caption": "Trailer pump assembly, Xingtai factory — pipeline and valve access are part of daily inspection"
+  },
+  "sources": [
+    { "name": "ACPA Safety Alert: Steps to Safely Remove a Blockage (1 Nov 2022)", "url": "https://www.concretepumpers.com/acpa-news/2022/11/01/safety-alert-steps-safely-remove-blockage", "type": "industry" },
+    { "name": "ACPA Safety Procedures / Mechanics Manual (compressed-air warning)", "url": "https://www.concretepumpers.com/sites/concretepumpers.com/files/attachments/safety_procedures_mechanics_manual_rs_0.pdf", "type": "industry" },
+    { "name": "Pinjin daily maintenance knowledge page", "url": "https://pinjinpump.com/en/blog/concrete-pump-daily-maintenance-checklist/", "type": "pinjin" },
+    { "name": "ACI PRC-304.2-17 Guide to Placing Concrete by Pumping Methods", "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=304217", "type": "industry" }
+  ],
+  "contentStatus": "ready"
+}

@@ -6,6 +6,7 @@ import {
   getProductBySlug,
   type ProductCategory,
 } from '@/data/products';
+import { getBlogPost } from '@/data/blog';
 
 export interface TopicLink {
   href: string;
@@ -81,6 +82,16 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         zh: '电动20与电动30混凝土泵对比',
       },
       {
+        href: '/blog/fine-stone-concrete-pump-aggregate-size',
+        en: 'Fine stone concrete pump aggregate size',
+        zh: '细石混凝土泵骨料粒径选型',
+      },
+      {
+        href: '/blog/small-concrete-pump-floor-screed-slab',
+        en: 'Small concrete pump for floor screed and slab',
+        zh: '楼面找平与楼板小型混凝土泵',
+      },
+      {
         href: '/blog/concrete-pump-daily-maintenance-checklist',
         en: 'Concrete pump daily maintenance checklist',
         zh: '混凝土泵日常保养清单',
@@ -121,6 +132,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         href: '/blog/tractor-4100-concrete-pump-rural',
         en: 'Tractor 4100 rural concrete pump',
         zh: '拖拉机带动4100农村混凝土泵',
+      },
+      {
+        href: '/blog/mini-concrete-pump-narrow-space',
+        en: 'Compact pumps for narrow construction sites',
+        zh: '狭窄工地紧凑型混凝土泵',
       },
       {
         href: '/product-selection-guide',
@@ -186,6 +202,16 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         zh: '混凝土泵输送管DN怎么选',
       },
       {
+        href: '/blog/concrete-pump-spare-parts-wear-parts',
+        en: 'Concrete pump spare parts and wear parts',
+        zh: '混凝土泵活塞阀门管路配件',
+      },
+      {
+        href: '/blog/concrete-pump-blockage-causes-prevention',
+        en: 'Concrete pump blockage causes and safe response',
+        zh: '混凝土泵堵管原因与安全处理',
+      },
+      {
         href: '/blog/concrete-pump-daily-maintenance-checklist',
         en: 'Concrete pump daily maintenance checklist',
         zh: '混凝土泵日常保养清单',
@@ -212,6 +238,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
       oemLink,
     ],
     relatedArticles: [
+      {
+        href: '/blog/fine-stone-concrete-pump-vs-mortar-sprayer',
+        en: 'Fine stone concrete pump vs mortar and plaster sprayer',
+        zh: '细石混凝土泵与砂浆喷涂机的区别',
+      },
       {
         href: '/blog/mixer-pump-vs-concrete-mixing-plant',
         en: 'Mixer pump vs concrete mixing plant',
@@ -263,11 +294,33 @@ export function clusterForProduct(
   };
 }
 
-export function clusterForBlog(relatedProductSlugs: string[]): TopicCluster {
-  const product = relatedProductSlugs
+export function clusterForBlog(post: {
+  relatedProductSlugs: string[];
+  relatedArticleSlugs?: string[];
+}): TopicCluster {
+  const product = post.relatedProductSlugs
     .map((slug) => getProductBySlug(slug))
     .find((item): item is NonNullable<typeof item> => Boolean(item));
-  return clusterForProduct(product?.category ?? 'electric-concrete-pump');
+  const base = clusterForProduct(product?.category ?? 'electric-concrete-pump');
+  const extraArticles: TopicLink[] = (post.relatedArticleSlugs ?? [])
+    .map((slug) => {
+      const article = getBlogPost(slug);
+      if (!article) return null;
+      return {
+        href: `/blog/${article.slug}`,
+        en: article.title.en,
+        zh: article.title.zh ?? article.title.en,
+      };
+    })
+    .filter((item): item is TopicLink => Boolean(item));
+  const seen = new Set(extraArticles.map((item) => item.href));
+  return {
+    ...base,
+    relatedArticles: [
+      ...extraArticles,
+      ...base.relatedArticles.filter((item) => !seen.has(item.href)),
+    ],
+  };
 }
 
 export function clusterForCustomMachinery(): TopicCluster {

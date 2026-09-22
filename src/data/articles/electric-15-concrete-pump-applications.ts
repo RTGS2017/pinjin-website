@@ -54,6 +54,13 @@ export const article: BlogPost = {
       href: "/contact",
       label: L("Contact Hebei Pinjin Machinery", "联系河北品锦机械"),
     },
+    {
+      href: "/blog/secondary-structure-concrete-pump-column-beam",
+      label: L(
+        "Concrete pump for secondary structure columns and beams",
+        "二次结构梁柱混凝土泵",
+      ),
+    },
   ],
   content: [
     {

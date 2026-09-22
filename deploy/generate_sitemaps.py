@@ -96,6 +96,9 @@ SPRAYING = [
     "high-flow-hydraulic-concrete-spraying-machine",
     "m9-automatic-plaster-spraying-machine",
     "diesel-concrete-spraying-machine",
+    "double-cylinder-plunger-mortar-spraying-machine",
+    "type-311-mortar-spraying-machine",
+    "type-511-mortar-spraying-machine",
 ]
 
 NAMES = {
@@ -139,6 +142,9 @@ NAMES = {
     "high-flow-hydraulic-concrete-spraying-machine": "High-Flow Hydraulic Concrete Spraying Machine",
     "m9-automatic-plaster-spraying-machine": "M9 Automatic Plaster Spraying Machine",
     "diesel-concrete-spraying-machine": "Diesel Concrete Spraying Machine",
+    "double-cylinder-plunger-mortar-spraying-machine": "Double-Cylinder Plunger Mortar Spraying Machine",
+    "type-311-mortar-spraying-machine": "Type 311 Mortar Spraying Machine",
+    "type-511-mortar-spraying-machine": "Type 511 Mortar Spraying Machine",
 }
 
 CATEGORY_HUBS = [
@@ -177,7 +183,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-20"
+LASTMOD = "2026-09-22"
 META_FILE = Path(__file__).resolve().parents[1] / "deploy" / "prerender-meta.json"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
@@ -321,6 +327,43 @@ def page_paths() -> list[str]:
     )
 
 
+CONTENT_SOURCED = Path(__file__).resolve().parents[1] / "content" / "sourced"
+
+
+def load_sourced_blogs() -> list[dict]:
+    """English-only sourced knowledge pages with contentStatus=ready."""
+    out: list[dict] = []
+    if not CONTENT_SOURCED.is_dir():
+        return out
+    for folder in sorted(CONTENT_SOURCED.iterdir()):
+        src = folder / "source.json"
+        if not src.is_file():
+            continue
+        data = json.loads(src.read_text(encoding="utf-8"))
+        if data.get("contentStatus") != "ready":
+            continue
+        slug = data.get("slug") or folder.name
+        langs = [lang for lang in data.get("availableLangs") or ["en"] if lang in LANGS]
+        if not langs:
+            continue
+        image = (data.get("image") or {}).get("src")
+        out.append({"slug": slug, "langs": langs, "image": image, "title": data.get("title") or slug})
+    return out
+
+
+def sitemap_entries() -> list[dict]:
+    sourced = load_sourced_blogs()
+    sourced_slugs = {item["slug"] for item in sourced}
+    entries = [{"rest": path, "langs": list(LANGS)} for path in page_paths()]
+    for item in sourced:
+        if item["slug"] in BLOG_SLUGS or item["slug"] in sourced_slugs:
+            rest = f"/blog/{item['slug']}"
+            if any(entry["rest"] == rest for entry in entries):
+                continue
+            entries.append({"rest": rest, "langs": item["langs"]})
+    return entries
+
+
 def _read_vite_site_url() -> str | None:
     if not ENV_FILE.exists():
         return None
@@ -461,7 +504,7 @@ def load_lastmods() -> dict[str, str]:
 
 
 def write_pages_sitemap(
-    base: str, paths: list[str], lastmods: dict[str, str]
+    base: str, entries: list[dict], lastmods: dict[str, str]
 ) -> int:
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
@@ -469,22 +512,25 @@ def write_pages_sitemap(
         '        xmlns:xhtml="http://www.w3.org/1999/xhtml">',
     ]
     count = 0
-    for rest in paths:
-        for lang in LANGS:
+    for item in entries:
+        rest = item["rest"]
+        langs = item["langs"]
+        default_lang = "en" if "en" in langs else langs[0]
+        for lang in langs:
             loc = loc_for(lang, rest)
             lastmod = lastmods.get(f"{base}{loc}", LASTMOD)
             lines += [
                 "  <url>",
                 f"    <loc>{base}{loc}</loc>",
             ]
-            for alt_lang in LANGS:
+            for alt_lang in langs:
                 alt = loc_for(alt_lang, rest)
                 hreflang = HREFLANG.get(alt_lang, alt_lang)
                 lines.append(
                     f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{base}{alt}" />'
                 )
             lines.append(
-                f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{loc_for("en", rest)}" />'
+                f'    <xhtml:link rel="alternate" hreflang="x-default" href="{base}{loc_for(default_lang, rest)}" />'
             )
             lines += [
                 f"    <lastmod>{lastmod}</lastmod>",
@@ -504,31 +550,15 @@ def product_studio_name(slug: str) -> str | None:
     return None
 
 
-def product_catalog_name(slug: str) -> str | None:
-    folder = ROOT / "images" / "products" / slug
-    for name in (f"{slug}-catalogue.webp", "catalog.webp"):
-        if (folder / name).is_file():
-            return name
-    return None
-
-
 def product_image_block(base: str, lang: str, slug: str) -> list[str]:
     n = NAMES[slug]
     images: list[tuple[str, str]] = []
     studio = product_studio_name(slug)
-    catalog = product_catalog_name(slug)
     if studio:
         images.append(
             (
                 studio,
                 f"{n} factory product photo manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
-            )
-        )
-    if catalog:
-        images.append(
-            (
-                catalog,
-                f"{n} catalogue specification sheet manufactured by Hebei Pinjin Machinery in Xingtai Hebei China",
             )
         )
     if not images:
@@ -709,6 +739,26 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             lines += block
             url_count += 1
 
+        for blog in load_sourced_blogs():
+            if lang not in blog["langs"]:
+                continue
+            image = blog.get("image")
+            if not image:
+                continue
+            title = blog["title"]
+            lines += [
+                "  <url>",
+                f"    <loc>{base}/{lang}/blog/{blog['slug']}/</loc>",
+                f"    <lastmod>{LASTMOD}</lastmod>",
+            ]
+            lines += image_nodes(
+                f"{base}{image}" if str(image).startswith("/") else f"{base}/{image}",
+                title,
+                f"{title} — Hebei Pinjin Machinery Xingtai factory photograph",
+            )
+            lines.append("  </url>")
+            url_count += 1
+
     lines.append("</urlset>")
     (ROOT / "image-sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return url_count
@@ -742,17 +792,19 @@ def write_image_inventory() -> None:
         for folder in sorted(products_root.iterdir()):
             if not folder.is_dir():
                 continue
-            files = [path.name for path in folder.glob("*.webp")]
+            files = [
+                path.name
+                for path in folder.glob("*.webp")
+                if path.name != "catalog.webp" and not path.name.endswith("-catalogue.webp")
+            ]
 
             def sort_key(name: str, slug: str = folder.name) -> tuple[int, str]:
                 if name in {f"{slug}.webp", "main.webp"}:
                     return (0, name)
-                if name in {f"{slug}-catalogue.webp", "catalog.webp"}:
-                    return (1, name)
                 if name == "working.webp":
-                    return (2, name)
+                    return (1, name)
                 if name == "working-2.webp":
-                    return (3, name)
+                    return (2, name)
                 return (9, name)
 
             files.sort(key=sort_key)
@@ -812,8 +864,8 @@ def write_image_inventory() -> None:
 def main() -> None:
     base = resolve_base()
     slugs = ordered_product_slugs()
-    paths = page_paths()
-    page_count = write_pages_sitemap(base, paths, load_lastmods())
+    entries = sitemap_entries()
+    page_count = write_pages_sitemap(base, entries, load_lastmods())
     image_url_count = write_image_sitemap(base, slugs)
     drop_extra_sitemaps()
     write_robots(base)

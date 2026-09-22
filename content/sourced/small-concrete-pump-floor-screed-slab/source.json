@@ -1,0 +1,71 @@
+{
+  "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction",
+  "seoTitle": "Small Concrete Pump for Floor Screed and Slab Construction | Pinjin",
+  "description": "Select a small concrete pump for floor screed and slab work from Xingtai catalogue output, aggregate and distance. Electric 15, Electric 20, Electric 30 and Low Pressure 40 are compared only on published rows — not invented screed thicknesses.",
+  "primaryKeyword": "small concrete pump",
+  "secondaryKeywords": [
+    "floor screed concrete pump",
+    "concrete slab pump",
+    "fine stone floor pump"
+  ],
+  "category": "application-solutions",
+  "resourceType": "application-guide",
+  "tags": ["small-pump", "floor-screed", "slab"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-15-concrete-pump",
+    "electric-20-concrete-pump",
+    "electric-30-concrete-pump",
+    "electric-low-pressure-40-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "electric-15-concrete-pump-applications",
+    "fine-stone-concrete-pump-floor-heating",
+    "fine-stone-concrete-pump-aggregate-size"
+  ],
+  "relatedPaths": [
+    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
+    { "href": "/blog/electric-20-vs-30-concrete-pump", "label": "Electric 20 vs Electric 30 concrete pump" },
+    { "href": "/solutions/construction", "label": "Building construction pumping" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "A small concrete pump for floor screed and slab work is a compact or mid trailer whose catalogue output, stone and pipe match the floor pour. Pinjin rows used here: Electric 15 (8–10 m³/h, 1–3 cm), Electric 20 (8–10 m³/h, 1–2 cm), Electric 30 and Low Pressure 40 (12–15 m³/h, fine-stone distance pairs). We do not publish screed millimetres.",
+    "who": "Contractors placing floor screeds, small slabs and indoor pipeline floors on sites with three-phase power, who can state stone size and pipe run.",
+    "factors": [
+      "Mix: fine-stone versus 1–2 cm versus 1–3 cm against the printed max aggregate",
+      "Output band: 8–10 m³/h compact versus 12–15 m³/h Electric 30 / LP40",
+      "Fine-stone metres on Electric 30 (60/180) versus LP40 (80/240)",
+      "Trailer weight for indoor or courtyard access"
+    ],
+    "relatedModels": [
+      "electric-15-concrete-pump",
+      "electric-20-concrete-pump",
+      "electric-30-concrete-pump",
+      "electric-low-pressure-40-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What screed thickness does Pinjin recommend?",
+      "answer": "We do not publish thickness or floor-heating pipe cover. Those are design figures. We only match stone, output and pipe to a catalogue pump row."
+    },
+    {
+      "question": "Is a small concrete pump the same as a plaster sprayer?",
+      "answer": "No. Sprayers list particle ≤8 mm or ≤4 mm. Floor screed with stone is a trailer pump job. See the fine-stone versus mortar sprayer page."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-20-concrete-pump/main.webp",
+    "alt": "Electric 20 small trailer concrete pump at Hebei Pinjin Machinery Xingtai factory",
+    "caption": "Electric 20 trailer pump, Xingtai catalogue — 8–10 m³/h, 1–2 cm aggregate"
+  },
+  "sources": [
+    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 20 product page", "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 30 product page", "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric Low Pressure 40 product page", "url": "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/", "type": "pinjin" }
+  ],
+  "contentStatus": "ready"
+}

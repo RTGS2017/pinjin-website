@@ -1,0 +1,72 @@
+{
+  "title": "Concrete Pump Output: How Many m³/h Do You Need?",
+  "seoTitle": "Concrete Pump Output m³/h Guide | Pinjin Catalogue",
+  "description": "Match required placing rate to Pinjin theoretical output rows from 5–8 m³/h compact diesels to 100 m³/h Diesel 120. Catalogue m³/h is not a guaranteed site rate. No invented floor-count formula — send pour volume, idle time and pipe with the inquiry.",
+  "primaryKeyword": "concrete pump output m³/h",
+  "secondaryKeywords": [
+    "concrete pump capacity",
+    "how many m3/h concrete pump",
+    "theoretical output concrete pump"
+  ],
+  "category": "product-guide",
+  "resourceType": "equipment-guide",
+  "tags": ["output", "selection", "catalogue"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-15-concrete-pump",
+    "electric-40-concrete-pump",
+    "electric-80-concrete-pump",
+    "diesel-120-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "electric-20-vs-30-concrete-pump",
+    "high-rise-building-concrete-pump-selection",
+    "how-to-compare-small-concrete-pumps-china"
+  ],
+  "relatedPaths": [
+    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
+    { "href": "/blog/electric-20-vs-30-concrete-pump", "label": "Electric 20 vs 30 output comparison" },
+    { "href": "/product-selection-guide", "label": "Concrete pump product selection guide" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "Pinjin catalogue output is theoretical m³/h on the product page, not a guaranteed site placing rate. Compact examples: rural diesel 5–8 m³/h, Electric 15/20 8–10 m³/h, Electric 30/LP40 12–15 m³/h, Electric 40 21 m³/h, Electric 80 60 m³/h, Diesel 120 100 m³/h. We do not convert floor count into m³/h with a homemade formula. Send pour volume, idle time, pipe and mix.",
+    "who": "Buyers who were asked ‘how many cubes per hour’ and need to read the Xingtai output ladder instead of a model nickname.",
+    "factors": [
+      "Theoretical output cell on the named model",
+      "Whether the job is 8–10, 12–15, 21, 60 or 100 m³/h class",
+      "Pipe distance and aggregate — output does not cancel an over-long line",
+      "Hopper size and mixer-pump dual motors where listed"
+    ],
+    "relatedModels": [
+      "electric-15-concrete-pump",
+      "electric-40-concrete-pump",
+      "electric-80-concrete-pump",
+      "diesel-120-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is catalogue m³/h what I will place on site?",
+      "answer": "No. The cell is theoretical output. Site rate depends on mix, pipe, crew and idle time. We do not guarantee on-site m³/h."
+    },
+    {
+      "question": "Does Electric 10 Series 21 m³/h replace Electric 40?",
+      "answer": "No. Electric 10 Series lists 21 m³/h theoretical with 25 m horizontal and a 0.1 m³ hopper. Electric 40 lists 21 m³/h with 23 MPa, 0.4 m³ hopper and fine-stone 120 m / 360 m on a 2300 kg frame."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-80-concrete-pump/main.webp",
+    "alt": "Electric 80 high-capacity trailer concrete pump, 60 m³/h catalogue output, Hebei Pinjin Machinery Xingtai",
+    "caption": "Electric 80 trailer pump, Xingtai catalogue — 60 m³/h theoretical output"
+  },
+  "sources": [
+    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 40 product page", "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 80 product page", "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Diesel 120 product page", "url": "https://pinjinpump.com/en/products/diesel-120-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin product selection guide", "url": "https://pinjinpump.com/en/product-selection-guide/", "type": "pinjin" }
+  ],
+  "contentStatus": "ready"
+}

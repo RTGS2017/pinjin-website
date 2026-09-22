@@ -203,7 +203,7 @@ status, sitemap_xml = get("/sitemap.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)
 check("sitemap", status == 200, "status", status)
 check("sitemap", "<urlset" in sitemap_xml and "<sitemapindex" not in sitemap_xml, "urlset", True)
-check("sitemap", 130 <= len(locs) <= 160, "count", len(locs))
+check("sitemap", 130 <= len(locs) <= 180, "count", len(locs))
 by_lang = Counter(lang_of(url) for url in locs)
 for lang in INDEXED_LANGS:
     check("sitemap", by_lang[lang] > 50, f"{lang}-count", by_lang[lang])
@@ -220,9 +220,10 @@ check("image-sitemap", status == 200, "status", status)
 check("image-sitemap", "<urlset" in image_xml and "xmlns:image" in image_xml, "image-ns", True)
 check(
     "image-sitemap",
-    "b500s-83d-two-stage-pump-catalogue.webp" in image_xml
-    and "b500s-83d-two-stage-pump.webp" in image_xml,
-    "b500s-images",
+    "b500s-83d-two-stage-pump.webp" in image_xml
+    and "catalogue.webp" not in image_xml
+    and "/catalog.webp" not in image_xml,
+    "b500s-studio-no-catalogue",
     True,
 )
 if LIVE:

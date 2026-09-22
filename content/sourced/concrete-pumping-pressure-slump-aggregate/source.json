@@ -1,0 +1,72 @@
+{
+  "title": "Concrete Pumping Pressure, Slump and Aggregate",
+  "seoTitle": "Concrete Pumping Pressure, Slump and Aggregate | Pinjin",
+  "description": "Read outlet pressure from the Pinjin catalogue and slump/aggregate limits from ACI 304.2R-17. No factory-invented pressure–slump formula. Electric 20 is 10 MPa; Electric 30 and Low Pressure 40 are 20 MPa; Electric 40 is 23 MPa.",
+  "primaryKeyword": "concrete pumping pressure",
+  "secondaryKeywords": [
+    "concrete slump pumping",
+    "aggregate pumpability",
+    "concrete pump outlet pressure"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "technical-reference",
+  "tags": ["pressure", "slump", "aggregate"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-20-concrete-pump",
+    "electric-30-concrete-pump",
+    "electric-40-concrete-pump",
+    "electric-low-pressure-40-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "fine-stone-concrete-pump-aggregate-size",
+    "concrete-pump-blockage-causes-prevention",
+    "high-rise-building-concrete-pump-selection"
+  ],
+  "relatedPaths": [
+    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
+    { "href": "/blog/fine-stone-concrete-pump-aggregate-size", "label": "Fine stone pump aggregate size selection" },
+    { "href": "/solutions/construction", "label": "Building construction pumping" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "Pumping pressure on a Pinjin page is the published max outlet pressure, not a site-calculated friction number. Electric 20 lists 10 MPa; Electric 30 and Low Pressure 40 list 20 MPa; Electric 40 lists 23 MPa. ACI 304.2R-17 treats 2–6 in (50–150 mm) slump as the traditional target for conventional mixtures without admixtures, and limits coarse aggregate to one-third (angular) or two-fifths (rounded) of the smallest pipeline inside diameter. We do not publish a Pinjin pressure–slump equation.",
+    "who": "Engineers and buyers who need to line up mix slump and stone with a catalogue pressure row before inquiring.",
+    "factors": [
+      "Catalogue max outlet pressure on the pump page",
+      "Max aggregate and, where printed, fine-stone versus agg13 distance",
+      "ACI 304.2R-17 slump band and aggregate-to-pipe limits as cited industry guidance",
+      "Pipeline length and DN — distance is a catalogue pair, not a derived formula here"
+    ],
+    "relatedModels": [
+      "electric-20-concrete-pump",
+      "electric-30-concrete-pump",
+      "electric-low-pressure-40-concrete-pump",
+      "electric-40-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does Pinjin publish a formula that converts slump into outlet pressure?",
+      "answer": "No. We print outlet pressure, output, hopper and conveying distance. Slump target ranges in this article are quoted from ACI 304.2R-17, not from a factory equation."
+    },
+    {
+      "question": "Is Low Pressure 40 a 10 MPa pump?",
+      "answer": "No. Its catalogue max outlet pressure is 20 MPa, the same band as Electric 30. ‘Low pressure’ on that page is a fine-stone tune, explained in the Low Pressure 40 guide."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-40-concrete-pump/main.webp",
+    "alt": "Electric 40 concrete pump, 23 MPa catalogue outlet pressure, Hebei Pinjin Machinery Xingtai",
+    "caption": "Electric 40 trailer pump, Xingtai catalogue — 23 MPa, 21 m³/h"
+  },
+  "sources": [
+    { "name": "Pinjin Electric 20 product page", "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 30 product page", "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 40 product page", "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric Low Pressure 40 product page", "url": "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/", "type": "pinjin" },
+    { "name": "ACI PRC-304.2-17 Guide to Placing Concrete by Pumping Methods (official product page)", "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=304217", "type": "industry" }
+  ],
+  "contentStatus": "ready"
+}

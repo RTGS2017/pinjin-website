@@ -132,8 +132,8 @@ export const applicationPages: ApplicationPageItem[] = [
       zh: '喷浆作业与管道泵送',
     },
     summary: {
-      en: 'Shotcrete and mortar spraying are finishing methods, not the same as pipeline pumping. Pinjin lists four spraying machines on /products/spraying-machines: two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h), M9 automatic plaster (30 L/min) and a diesel concrete sprayer (5 m³/h). Trailer pumps remain on the pump hubs.',
-      zh: '喷浆与砂浆喷涂是饰面施工方法，不同于管道泵送。品锦在 /products/spraying-machines 列出四台喷涂机：两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h）、M9 全自动石膏喷涂机（30 L/min）与柴油混凝土喷涂机（5 m³/h）。拖式泵仍在泵分类页。',
+      en: 'Shotcrete and mortar spraying are finishing methods, not the same as pipeline pumping. Pinjin lists spraying machines on /products/spraying-machines, including Type 311, Type 511, the double-cylinder plunger unit, two 380 V hydraulic concrete sprayers (5 m³/h and 7 m³/h), M9 automatic plaster (30 L/min) and a diesel concrete sprayer (5 m³/h). Trailer pumps remain on the pump hubs.',
+      zh: '喷浆与砂浆喷涂是饰面施工方法，不同于管道泵送。品锦在 /products/spraying-machines 列出喷涂机，包括 311、511、双缸柱塞式、两台 380V 液压混凝土喷涂机（5 m³/h 与 7 m³/h）、M9 全自动石膏喷涂机（30 L/min）与柴油混凝土喷涂机（5 m³/h）。拖式泵仍在泵分类页。',
     },
     points: [
       {

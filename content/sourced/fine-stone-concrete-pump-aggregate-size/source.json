@@ -1,0 +1,72 @@
+{
+  "title": "Fine Stone Concrete Pump: Aggregate Size and Pump Selection",
+  "seoTitle": "Fine Stone Concrete Pump Aggregate Size Selection | Pinjin",
+  "description": "Select a fine-stone concrete pump from published max aggregate and pipeline DN. Xingtai rows: B500S 5–16 mm, Electric 20 1–2 cm, Electric 15 1–3 cm, Electric 30 ≤3 cm plus fine-stone and agg13 distance pairs. ACI 304.2R aggregate-to-pipe limits are cited, not invented.",
+  "primaryKeyword": "fine stone concrete pump",
+  "secondaryKeywords": [
+    "aggregate size concrete pump",
+    "max aggregate pumping",
+    "fine stone pump selection"
+  ],
+  "category": "product-guide",
+  "resourceType": "technical-reference",
+  "tags": ["fine-stone", "aggregate", "selection"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-30-concrete-pump",
+    "electric-low-pressure-40-concrete-pump",
+    "electric-20-concrete-pump",
+    "b500s-83d-two-stage-pump"
+  ],
+  "relatedArticleSlugs": [
+    "low-pressure-40-concrete-pump-guide",
+    "concrete-pumping-pressure-slump-aggregate",
+    "concrete-pump-pipe-dn-selection"
+  ],
+  "relatedPaths": [
+    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
+    { "href": "/blog/concrete-pump-pipe-dn-selection", "label": "Concrete pump pipe DN selection" },
+    { "href": "/solutions/construction", "label": "Building construction pumping" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "Fine-stone pump selection starts from the largest stone in the mix versus the published max-aggregate row, then from pipeline DN. Pinjin prints B500S-83D at 5–16 mm, Electric 20 at 1–2 cm, Electric 10 Series at 2 cm and below, Electric 15 at 1–3 cm, Electric 30 at ≤3 cm with a separate fine-stone distance pair. ACI 304.2R-17 limits angular coarse aggregate to one-third of the smallest pipeline inside diameter (rounded aggregate two-fifths). We do not invent a Pinjin formula.",
+    "who": "Buyers who know max stone size and pipe DN and need to know which Xingtai trailer row can take that mix.",
+    "factors": [
+      "Max stone versus the pump page aggregate cell",
+      "Pipe inside diameter on the same pump page (Electric 20: 80 mm; Electric 15: 100–125 mm)",
+      "Fine-stone H/V pair when the mix is named fine-stone (Electric 30 60/180; LP40 80/240; Electric 40 120/360)",
+      "ACI 304.2R aggregate-to-diameter check as industry reference, not a factory test sheet"
+    ],
+    "relatedModels": [
+      "electric-30-concrete-pump",
+      "electric-low-pressure-40-concrete-pump",
+      "electric-20-concrete-pump",
+      "electric-15-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What does Pinjin mean by fine-stone distance?",
+      "answer": "A separate conveying-distance pair on some electric trailers (Electric 30, Low Pressure 40, Electric 40). It is not a substitute for the max aggregate cell. If your mix is 13 mm, read the agg13 row where it exists."
+    },
+    {
+      "question": "Can I use ACI’s one-third rule instead of the catalogue?",
+      "answer": "Use both. The catalogue max aggregate is what we will quote against. ACI 304.2R-17 is industry guidance on aggregate versus pipeline diameter. We do not replace our table with a self-made formula."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-30-concrete-pump/main.webp",
+    "alt": "Electric 30 concrete pump with published fine-stone and aggregate rows, Hebei Pinjin Machinery Xingtai",
+    "caption": "Electric 30 trailer pump, Xingtai catalogue — ≤3 cm aggregate, fine-stone 60 m / 180 m"
+  },
+  "sources": [
+    { "name": "Pinjin Electric 30 product page", "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 20 product page", "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin B500S-83D product page", "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/", "type": "pinjin" },
+    { "name": "ACI PRC-304.2-17 Guide to Placing Concrete by Pumping Methods (official product page)", "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=304217", "type": "industry" }
+  ],
+  "contentStatus": "ready"
+}

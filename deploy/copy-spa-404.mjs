@@ -86,9 +86,10 @@ const imageXml = readFileSync(imageSitemapXml, 'utf8');
 if (
   !imageXml.includes('xmlns:image') ||
   !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp') ||
-  !imageXml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump-catalogue.webp')
+  imageXml.includes('-catalogue.webp') ||
+  imageXml.includes('/catalog.webp')
 ) {
-  console.error('image-sitemap.xml must list B500S-83D studio photo and catalogue WebP');
+  console.error('image-sitemap.xml must list B500S-83D studio photo and must not list catalogue sheets');
   process.exit(1);
 }
 const robotsText = readFileSync(robotsTxt, 'utf8');
@@ -435,8 +436,8 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(sitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 130 || uniqueLocs.length > 160) {
-  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected ~144, en+zh)`);
+if (uniqueLocs.length < 130 || uniqueLocs.length > 180) {
+  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected ~162, en+zh)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -504,13 +505,13 @@ if (!existsSync(b500sShell)) {
 const b500sHtml = readFileSync(b500sShell, 'utf8');
 if (
   !b500sHtml.includes('property="og:image"') ||
-  !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump-catalogue.webp')
+  !b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp')
 ) {
-  console.error('B500S-83D detail shell must stamp og:image to the catalogue sheet');
+  console.error('B500S-83D detail shell must stamp og:image to the studio machine photo');
   process.exit(1);
 }
-if (b500sHtml.includes('/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp')) {
-  console.error('B500S-83D detail shell must not include the studio machine photo');
+if (b500sHtml.includes('b500s-83d-two-stage-pump-catalogue.webp') || b500sHtml.includes('/catalog.webp')) {
+  console.error('B500S-83D detail shell must not include a catalogue sheet');
   process.exit(1);
 }
 if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
@@ -550,7 +551,7 @@ if (aboutHtml.includes('href="/about/"') || aboutHtml.includes('href="/en/compan
   process.exit(1);
 }
 const productsIndex = readFileSync(join(distDir, 'en', 'products', 'index.html'), 'utf8');
-if (!productsIndex.includes('/en/products/electric-20-concrete-pump/') || !productsIndex.includes('/en/products/b500s-83d-two-stage-pump/') || !productsIndex.includes('/en/products/hydraulic-concrete-spraying-machine/') || !productsIndex.includes('/en/products/spraying-machines/')) {
+if (!productsIndex.includes('/en/products/electric-20-concrete-pump/') || !productsIndex.includes('/en/products/b500s-83d-two-stage-pump/') || !productsIndex.includes('/en/products/hydraulic-concrete-spraying-machine/') || !productsIndex.includes('/en/products/type-311-mortar-spraying-machine/') || !productsIndex.includes('/en/products/spraying-machines/')) {
   console.error('/en/products must list current product URLs in the static graph');
   process.exit(1);
 }

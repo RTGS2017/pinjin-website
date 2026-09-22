@@ -49,6 +49,13 @@ export const article: BlogPost = {
       href: '/contact',
       label: L('Contact the factory', '联系工厂'),
     },
+    {
+      href: '/blog/concrete-pump-blockage-causes-prevention',
+      label: L(
+        'Concrete pump blockage: causes and safe response',
+        '混凝土泵堵管原因与安全处理',
+      ),
+    },
   ],
   content: [
     {

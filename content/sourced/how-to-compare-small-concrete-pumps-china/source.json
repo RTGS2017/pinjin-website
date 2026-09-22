@@ -1,0 +1,72 @@
+{
+  "title": "How to Compare Small Concrete Pumps from China Suppliers",
+  "seoTitle": "Compare Small Concrete Pumps from China Suppliers | Pinjin",
+  "description": "A factory checklist for comparing small concrete pumps from China: motor or diesel kW, theoretical m³/h, outlet pressure, aggregate, pipe DN, envelope and weight. Pinjin examples use published Xingtai rows. Marketplace listing prices and copy vary — we do not copy Alibaba text.",
+  "primaryKeyword": "small concrete pump China",
+  "secondaryKeywords": [
+    "compare concrete pump suppliers",
+    "China concrete pump manufacturer",
+    "small trailer pump specification"
+  ],
+  "category": "industry-guide",
+  "resourceType": "procurement-guide",
+  "tags": ["procurement", "small-pump", "china-supplier"],
+  "date": "2026-09-22",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "electric-15-concrete-pump",
+    "electric-20-concrete-pump",
+    "electric-30-concrete-pump",
+    "rural-diesel-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "electric-20-vs-30-concrete-pump",
+    "concrete-pump-output-m3h-guide",
+    "concrete-pump-price-factors-china"
+  ],
+  "relatedPaths": [
+    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
+    { "href": "/blog/electric-20-vs-30-concrete-pump", "label": "Electric 20 vs Electric 30 comparison" },
+    { "href": "/factory", "label": "Xingtai construction machinery factory" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "Compare small concrete pumps from China on the same cells: power (kW), theoretical output (m³/h), outlet pressure, max aggregate, pipe DN, conveying distance, hopper, envelope and weight. Pinjin’s compact electric examples: Electric 15 (15 kW, 8–10 m³/h, 450 kg), Electric 20 (22 kW, 8–10 m³/h, 10 MPa, 900 kg), Electric 30 (30 kW, 12–15 m³/h, 20 MPa, 1200 kg). Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. This site has no published list price.",
+    "who": "Importers and contractors shortlisting China trailer pumps who want a specification checklist instead of a copied marketplace paragraph.",
+    "factors": [
+      "Identical units: kW, m³/h, MPa, stone, DN, metres, kg",
+      "Whether output is labelled theoretical",
+      "Factory location and whether boom pumps or plants are actually listed",
+      "Quote terms: EXW vs listing price, MOQ, spare-part policy"
+    ],
+    "relatedModels": [
+      "electric-15-concrete-pump",
+      "electric-20-concrete-pump",
+      "electric-30-concrete-pump",
+      "rural-diesel-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Should I rank suppliers by the Alibaba price first?",
+      "answer": "No. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. Pinjin product pages do not publish a list price. Compare specification cells, then ask for a factory quote."
+    },
+    {
+      "question": "Does a higher number in the model name mean a larger pump?",
+      "answer": "Not by itself. Electric 20 and Electric 15 both list 8–10 m³/h. Electric 10 Series lists 21 m³/h theoretical with 25 m horizontal. Compare the table, not the name — see Electric 20 vs 30."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-15-concrete-pump/main.webp",
+    "alt": "Electric 15 compact concrete pump from Hebei Pinjin Machinery Xingtai factory catalogue",
+    "caption": "Electric 15 compact trailer, Xingtai catalogue — one compact row to compare against, not a nickname"
+  },
+  "sources": [
+    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 20 product page", "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 30 product page", "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin factory page", "url": "https://pinjinpump.com/en/factory/", "type": "pinjin" },
+    { "name": "Alibaba search observation: small concrete pump (listing copy and prices not used)", "url": "https://www.alibaba.com/trade/search?SearchText=small+concrete+pump", "type": "marketplace" }
+  ],
+  "contentStatus": "ready"
+}

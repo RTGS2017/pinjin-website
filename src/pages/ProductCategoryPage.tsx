@@ -58,10 +58,14 @@ export function ProductCategoryPage() {
     question: tx(item.question),
     answer: tx(item.answer),
   }));
-  const relatedPosts = getBlogPosts().filter((post) =>
-    categoryClusters[category].relatedArticles.some((link) =>
-      link.href.endsWith(post.slug),
-    ),
+  const relatedPosts = getBlogPosts(lang).filter(
+    (post) =>
+      post.relatedProductSlugs.some((productSlug) =>
+        list.some((item) => item.slug === productSlug),
+      ) ||
+      categoryClusters[category].relatedArticles.some((link) =>
+        link.href.endsWith(post.slug),
+      ),
   );
 
   return (

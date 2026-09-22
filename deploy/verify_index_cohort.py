@@ -83,13 +83,14 @@ def main() -> None:
                 check(
                     url,
                     "b500s-83d-two-stage-pump.webp" in text
-                    and "b500s-83d-two-stage-pump-catalogue.webp" in text,
-                    "b500s-images",
+                    and "catalogue.webp" not in text
+                    and "/catalog.webp" not in text,
+                    "b500s-studio-no-catalogue",
                 )
                 continue
             check(url, "<?xml" in text and "<urlset" in text and "<sitemapindex" not in text, "xml-urlset")
             check(url, "/ar/" not in text and "/pt/" not in text and "/ru/" not in text, "no-thin-locales")
-            check(url, 130 <= len(locs) <= 160, f"loc-count={len(locs)}")
+            check(url, 130 <= len(locs) <= 180, f"loc-count={len(locs)}")
             check(url, not (DIST / "sitemap-pages.xml").exists(), "no-sitemap-pages")
             continue
 

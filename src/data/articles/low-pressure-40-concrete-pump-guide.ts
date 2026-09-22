@@ -49,6 +49,13 @@ export const article: BlogPost = {
       href: '/contact',
       label: L('Contact the factory', '联系工厂'),
     },
+    {
+      href: '/blog/fine-stone-concrete-pump-floor-heating',
+      label: L(
+        'Fine stone pump for floor heating backfill',
+        '地暖回填细石混凝土泵',
+      ),
+    },
   ],
   content: [
     {
