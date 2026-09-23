@@ -1,0 +1,71 @@
+{
+  "title": "Diesel Concrete Spraying Machine Catalogue Row",
+  "seoTitle": "Diesel Concrete Spraying Machine | Pinjin 28/32 HP",
+  "description": "Xingtai diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer and not M9 plaster. Quote only; no list price.",
+  "primaryKeyword": "diesel concrete spraying machine",
+  "secondaryKeywords": [
+    "diesel mortar sprayer 28 HP",
+    "no-grid concrete spraying machine",
+    "5 m3/h diesel sprayer China"
+  ],
+  "category": "product-guide",
+  "resourceType": "equipment-guide",
+  "tags": ["spraying", "diesel", "no-grid"],
+  "date": "2026-09-23",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "diesel-concrete-spraying-machine",
+    "hydraulic-concrete-spraying-machine",
+    "m9-automatic-plaster-spraying-machine",
+    "diesel-30-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "hydraulic-concrete-spraying-machine-guide",
+    "diesel-concrete-pump-no-electricity",
+    "fine-stone-concrete-pump-vs-mortar-sprayer"
+  ],
+  "relatedPaths": [
+    { "href": "/products/diesel-concrete-spraying-machine", "label": "Diesel concrete spraying machine product page" },
+    { "href": "/products/spraying-machines", "label": "Concrete spraying machine manufacturer China" },
+    { "href": "/solutions/spraying", "label": "Spraying jobs vs pipeline pumping" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "This Xingtai diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, hose 38/51 mm, 2350 × 750 × 1050 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer, not M9 plaster and not a mixing plant. Quote only; no list price.",
+    "who": "Contractors spraying mortar or concrete where 380 V is not available and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray.",
+    "factors": [
+      "Diesel fuel available and no 380 V grid",
+      "Particle ≤6 mm, not trailer-pump centimetre stone",
+      "Output 5 m³/h and pressure 8 MPa",
+      "Hose 38/51 mm and 80 m / 40 m"
+    ],
+    "relatedModels": [
+      "diesel-concrete-spraying-machine",
+      "hydraulic-concrete-spraying-machine",
+      "m9-automatic-plaster-spraying-machine",
+      "diesel-30-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is this the Diesel 30 concrete pump?",
+      "answer": "No. Diesel 30 is a trailer concrete pump: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m. This page is a spraying machine at 28/32 HP, 5 m³/h, particle ≤6 mm."
+    },
+    {
+      "question": "When should I use a 380 V hydraulic sprayer instead?",
+      "answer": "If 380 V is available, compare the hydraulic concrete sprayers (7.5/9 kW at 5 m³/h or 11/15 kW at 7 m³/h). Plaster at ≤4 mm → M9."
+    }
+  ],
+  "image": {
+    "src": "/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine.webp",
+    "alt": "Diesel concrete spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
+    "caption": "Diesel concrete spraying machine, Xingtai catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm"
+  },
+  "sources": [
+    { "name": "Pinjin diesel concrete spraying machine product page", "url": "https://pinjinpump.com/en/products/diesel-concrete-spraying-machine/", "type": "pinjin" },
+    { "name": "Pinjin Diesel 30 concrete pump product page", "url": "https://pinjinpump.com/en/products/diesel-30-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin hydraulic concrete spraying machine product page", "url": "https://pinjinpump.com/en/products/hydraulic-concrete-spraying-machine/", "type": "pinjin" },
+    { "name": "Pinjin spraying machines hub", "url": "https://pinjinpump.com/en/products/spraying-machines/", "type": "pinjin" }
+  ],
+  "contentStatus": "ready"
+}

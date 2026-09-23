@@ -82,6 +82,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         zh: '电动20与电动30混凝土泵对比',
       },
       {
+        href: '/blog/electric-80-concrete-pump-guide',
+        en: 'Electric 80 concrete pump catalogue row',
+        zh: '电动80型混凝土泵目录行',
+      },
+      {
         href: '/blog/fine-stone-concrete-pump-aggregate-size',
         en: 'Fine stone concrete pump aggregate size',
         zh: '细石混凝土泵骨料粒径选型',
@@ -124,6 +129,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
+        href: '/blog/diesel-50-concrete-pump-guide',
+        en: 'Diesel 50 concrete pump catalogue row',
+        zh: '柴油50型混凝土泵目录行',
+      },
+      {
         href: '/blog/diesel-concrete-pump-no-electricity',
         en: 'Diesel concrete pump for sites without electricity',
         zh: '没有电力时如何选柴油混凝土泵',
@@ -165,6 +175,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
       oemLink,
     ],
     relatedArticles: [
+      {
+        href: '/blog/integrated-mixer-pump-catalogue',
+        en: 'Integrated mixer pump catalogue row',
+        zh: '搅拌泵一体机目录行',
+      },
       {
         href: '/blog/mixer-pump-vs-concrete-mixing-plant',
         en: 'Mixer pump vs concrete mixing plant',
@@ -238,6 +253,21 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
       oemLink,
     ],
     relatedArticles: [
+      {
+        href: '/blog/type-311-mortar-spraying-machine-guide',
+        en: 'Type 311 mortar spraying machine printed table',
+        zh: '311砂浆喷涂机印刷表',
+      },
+      {
+        href: '/blog/double-cylinder-plunger-mortar-sprayer-guide',
+        en: 'Double-cylinder plunger mortar spraying machine',
+        zh: '双缸柱塞式砂浆喷涂机',
+      },
+      {
+        href: '/blog/hydraulic-concrete-spraying-machine-guide',
+        en: 'Hydraulic concrete spraying machine catalogue row',
+        zh: '液压混凝土喷涂机目录行',
+      },
       {
         href: '/blog/fine-stone-concrete-pump-vs-mortar-sprayer',
         en: 'Fine stone concrete pump vs mortar and plaster sprayer',

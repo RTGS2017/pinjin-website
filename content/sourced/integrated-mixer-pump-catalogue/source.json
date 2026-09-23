@@ -1,0 +1,69 @@
+{
+  "title": "Integrated Mixer Pump Catalogue Row",
+  "seoTitle": "Integrated Mixer Pump | Pinjin 45 kW + 14 kW",
+  "description": "Xingtai electric integrated mixer pump lists main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, aggregate 4 cm and below, pipe 100 / 125 mm, 4500 kg. It mixes and pumps on one trailer. It is not a mixing plant and not the diesel mixer pump. Match the printed table, then inquire.",
+  "primaryKeyword": "integrated mixer pump",
+  "secondaryKeywords": [
+    "electric concrete mixer pump China",
+    "45 kW mixer pump 21 m3/h",
+    "mix and pump trailer Xingtai"
+  ],
+  "category": "product-guide",
+  "resourceType": "equipment-guide",
+  "tags": ["mixer-pump", "electric", "catalogue"],
+  "date": "2026-09-23",
+  "availableLangs": ["en"],
+  "relatedProductSlugs": [
+    "integrated-mixer-pump",
+    "diesel-mixer-integrated-pump",
+    "electric-40-concrete-pump",
+    "electric-80-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "mixer-pump-vs-concrete-mixing-plant",
+    "concrete-pump-pipe-dn-selection"
+  ],
+  "relatedPaths": [
+    { "href": "/products/integrated-mixer-pump", "label": "Integrated mixer pump product page" },
+    { "href": "/products/mixer-pumps", "label": "Concrete mixer pump manufacturer China" },
+    { "href": "/blog/mixer-pump-vs-concrete-mixing-plant", "label": "Mixer pump vs concrete mixing plant" },
+    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+  ],
+  "answerBlock": {
+    "what": "Integrated Mixer Pump is an electric integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, max aggregate 4 cm and below, delivery pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer. It is not a mixing plant and not a boom pump.",
+    "who": "Contractors who need mix and pump in one unit and can supply the listed 45 kW + 14 kW motors, matching 21 m³/h, 23 MPa and 100 m / 300 m.",
+    "factors": [
+      "Mix and pump on one trailer versus a pump-only Electric 40",
+      "45 kW + 14 kW versus diesel mixer 4108 / 66–75 kW",
+      "Output 21 m³/h electric versus 25 m³/h diesel mixer",
+      "Pipe DN 100 / 125 mm and aggregate 4 cm and below"
+    ],
+    "relatedModels": [
+      "integrated-mixer-pump",
+      "diesel-mixer-integrated-pump",
+      "electric-40-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is a mixer pump the same as a mixing plant?",
+      "answer": "No. A mixer pump mixes and pumps on one Xingtai trailer. Pinjin does not list a concrete batching plant on this catalogue."
+    },
+    {
+      "question": "Is the electric mixer pump the same as Electric 40?",
+      "answer": "No. Electric 40 is a pump-only trailer: 45 kW, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m, 2300 kg. This mixer pump adds a 14 kW mixer motor, lists 100 m / 300 m, pipe 100 / 125 mm and 4500 kg."
+    }
+  ],
+  "image": {
+    "src": "/images/products/integrated-mixer-pump/integrated-mixer-pump.webp",
+    "alt": "Integrated mixer pump factory product photo, Hebei Pinjin Machinery Xingtai",
+    "caption": "Integrated mixer pump, Xingtai catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m"
+  },
+  "sources": [
+    { "name": "Pinjin integrated mixer pump product page", "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/", "type": "pinjin" },
+    { "name": "Pinjin diesel mixer integrated pump product page", "url": "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/", "type": "pinjin" },
+    { "name": "Pinjin Electric 40 product page", "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/", "type": "pinjin" },
+    { "name": "Pinjin mixer pumps hub", "url": "https://pinjinpump.com/en/products/mixer-pumps/", "type": "pinjin" }
+  ],
+  "contentStatus": "ready"
+}
