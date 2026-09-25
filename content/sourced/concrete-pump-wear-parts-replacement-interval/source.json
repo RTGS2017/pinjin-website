@@ -1,0 +1,266 @@
+{
+  "title": "Concrete Pump Wear Parts: Replacement Interval from Photos, Not Invented Hours",
+  "seoTitle": "Concrete Pump Wear Parts Replacement Interval | Pinjin Xingtai",
+  "description": "Alibaba listings often quote 250–500 h wear-part intervals; that is not a Pinjin factory cell. ACPA: replace hose at the first broken braid; inspect S-valve, pistons and gaskets. Photograph OD and send the model slug. This is not a rewrite of the spare-parts structure article.",
+  "primaryKeyword": "concrete pump wear parts replacement",
+  "secondaryKeywords": [
+    "concrete pump wear parts interval",
+    "S-valve piston gasket life",
+    "concrete pump hose braid"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "parts-guide",
+  "tags": [
+    "wear-parts",
+    "maintenance",
+    "interval"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "concrete-pump-s-tube-seal",
+    "concrete-pump-split-piston",
+    "concrete-pump-delivery-hose"
+  ],
+  "relatedArticleSlugs": [
+    "concrete-pump-spare-parts-wear-parts",
+    "concrete-pump-daily-maintenance-checklist",
+    "concrete-pump-clamp-coupling"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": "Concrete pump parts manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-spare-parts-wear-parts",
+      "label": "Concrete pump spare parts and wear parts"
+    },
+    {
+      "href": "/products/concrete-pump-s-tube-seal",
+      "label": "Concrete pump S-tube seal"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Marketplace pages often print 250–500 operating hours for wear kits. That is Alibaba observation, not a Hebei Pinjin factory interval. ACPA: replace a delivery hose at the first broken braid; inspect the S-tube, pistons, cutting ring and gaskets; never wait for a burst. Pinjin lists [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/), [rubber hose](/products/concrete-pump-delivery-hose/) and [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/). We quote those SKUs from photos of OD and the pump model. We do not print a factory hour table. This page is not a second spare-parts structure list.",
+    "who": "Operators who already know which part names are on the Pinjin parts hub and need the interval rule: photos + ACPA braid/gasket checks, not a copied 300-hour claim.",
+    "factors": [
+      "Alibaba 250–500 h is observation, not a Pinjin cell",
+      "ACPA: hose to first broken braid; inspect S-valve, piston, gasket",
+      "Quote from OD photos and the pump model slug",
+      "No invented warranty hours or ‘OEM life’ numbers"
+    ],
+    "relatedModels": [
+      "concrete-pump-s-tube-seal",
+      "concrete-pump-split-piston",
+      "concrete-pump-delivery-hose"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does Pinjin guarantee 300 hours on an S-valve?",
+      "answer": "No hour guarantee is printed. The S-valve page is a parts SKU, not a life table. ACPA: inspect the S-tube and cutting ring; replace when worn or leaking. Photograph the valve and send the pump model. Marketplace 250–500 h claims are not Xingtai specs."
+    },
+    {
+      "question": "When should I replace a Pinjin rubber hose?",
+      "answer": "ACPA: at the first broken braid, or sooner if the cover is cut to the reinforcement. Pinjin quotes hose after ID, length and working pressure — not after an unpublished hour count. See the hose vs steel article for line type, and this page for the braid rule."
+    },
+    {
+      "question": "Is this the same as the spare-parts list article?",
+      "answer": "No. That article maps which SKUs exist (S-valve, piston, spectacles, clamp, pipe, hose). This page is only how we will not invent hours, and which ACPA inspect/replace cues we will cite. Do not duplicate the SKU table here."
+    }
+  ],
+  "image": {
+    "src": "/images/products/concrete-pump-s-tube-seal/concrete-pump-s-tube-seal.webp",
+    "alt": "Pinjin concrete pump S-valve wear part from Hebei Pinjin Machinery Xingtai quoted from photos not from invented hours",
+    "caption": "S-valve SKU from Xingtai — quote from photos. No factory hour interval on this site."
+  },
+  "sources": [
+    {
+      "name": "ACPA study guide: hose at first broken braid; inspect S-tube, pistons, gaskets",
+      "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Pinjin S-tube seal product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin split piston product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin delivery hose product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba observation: 250–500 h wear-part claims on listings (not Pinjin)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump+wear+parts",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "混凝土泵易损件：按照片更换，不编造小时",
+      "description": "Alibaba 列表常写 250–500 h；那不是品锦工厂单元格。ACPA：胶管在第一处编织层断裂时更换。拍外径照片并发送机型。这不是配件结构文的改写。",
+      "imageAlt": "品锦 concrete pump S阀 wear part from 河北品锦机械 邢台 quoted from photos not from invented hours",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump 配件 list",
+        "Concrete pump S阀",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Marketplace pages often print 250–500 operating hours for wear kits. That is Alibaba observation, not a Hebei 品锦 factory interval. ACPA: replace a 输送胶管 at the first 露出的编织层; inspect the S管, pistons, cutting ring and gaskets; never wait for a burst. 品锦 lists [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/), [rubber hose](/products/concrete-pump-delivery-hose/) and [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/). We quote those SKUs from photos of OD and the pump model. We do not print a factory hour table. This page is not a second spare-parts structure list.",
+        "who": "Operators who already know which part names are on the 品锦 parts hub and need the interval rule: photos + ACPA braid/gasket checks, not a copied 300-hour claim.",
+        "factors": [
+          "Alibaba 250–500 h is observation, not a 品锦 cell",
+          "ACPA: hose to first 露出的编织层; inspect S阀, piston, gasket",
+          "Quote from OD photos and the pump model slug",
+          "No invented warranty hours or ‘OEM life’ numbers"
+        ]
+      },
+      "seoTitle": "混凝土泵易损件更换间隔 | 品锦邢台",
+      "imageCaption": "S阀 SKU from 邢台 — quote from photos. No factory hour interval on this site.",
+      "faqs": [
+        {
+          "question": "Does 品锦 guarantee 300 hours on an S阀?",
+          "answer": "No hour guarantee is printed. The S阀 page is a parts SKU, not a life table. ACPA: inspect the S管 and cutting ring; replace when worn or leaking. Photograph the valve and send the pump model. Marketplace 250–500 h claims are not 邢台 specs."
+        },
+        {
+          "question": "When should I replace a 品锦 橡胶软管?",
+          "answer": "ACPA: at the first 露出的编织层, or sooner if the cover is cut to the reinforcement. 品锦 quotes hose after ID, length and working pressure — not after an unpublished hour count. See the hose vs steel article for line type, and this page for the braid rule."
+        },
+        {
+          "question": "Is this the same as the spare-parts list article?",
+          "answer": "No. That article maps which SKUs exist (S阀, piston, spectacles, clamp, pipe, hose). This page is only how we will not invent hours, and which ACPA inspect/replace cues we will cite. Do not duplicate the SKU table here."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Wear Parts: Replacement Interval from Photos, Not Invented Hours",
+      "description": "Alibaba listings often quote 250–500 h wear-part intervals; that is not a Pinjin factory cell. ACPA: replace hose at the first trama rompida; inspect válvula S, pistons and gaskets. Photograph OD and send the model slug. This is not a rewrite of the spare-parts structure article.",
+      "imageAlt": "Pinjin concrete pump válvula S wear part from Hebei Pinjin Machinery Xingtai quoted from photos not from invented hours",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump peças de reposição list",
+        "Concrete pump válvula S",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Marketplace pages often print 250–500 operating hours for wear kits. That is Alibaba observation, not a Hebei Pinjin factory interval. ACPA: replace a mangueira de entrega at the first trama rompida; inspect the tubo S, pistons, cutting ring and gaskets; never wait for a burst. Pinjin lists [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/), [rubber hose](/products/concrete-pump-delivery-hose/) and [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/). We quote those SKUs from photos of OD and the pump model. We do not print a factory hour table. This page is not a second spare-parts structure list.",
+        "who": "Operators who already know which part names are on the Pinjin parts hub and need the interval rule: photos + ACPA braid/gasket checks, not a copied 300-hour claim.",
+        "factors": [
+          "Alibaba 250–500 h is observation, not a Pinjin cell",
+          "ACPA: hose to first trama rompida; inspect válvula S, piston, gasket",
+          "Quote from OD photos and the pump model slug",
+          "No invented warranty hours or ‘OEM life’ numbers"
+        ]
+      },
+      "seoTitle": "Concrete Pump Wear Parts Replacement Interval | Pinjin Xingtai",
+      "imageCaption": "válvula S SKU from Xingtai — quote from photos. No factory hour interval on this site.",
+      "faqs": [
+        {
+          "question": "Does Pinjin guarantee 300 hours on an válvula S?",
+          "answer": "No hour guarantee is printed. The válvula S page is a parts SKU, not a life table. ACPA: inspect the tubo S and cutting ring; replace when worn or leaking. Photograph the valve and send the pump model. Marketplace 250–500 h claims are not Xingtai specs."
+        },
+        {
+          "question": "When should I replace a Pinjin mangueira de borracha?",
+          "answer": "ACPA: at the first trama rompida, or sooner if the cover is cut to the reinforcement. Pinjin quotes hose after ID, length and working pressure — not after an unpublished hour count. See the hose vs steel article for line type, and this page for the braid rule."
+        },
+        {
+          "question": "Is this the same as the spare-parts list article?",
+          "answer": "No. That article maps which SKUs exist (válvula S, piston, spectacles, clamp, pipe, hose). This page is only how we will not invent hours, and which ACPA inspect/replace cues we will cite. Do not duplicate the SKU table here."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Wear Parts: Replacement Interval from Photos, Not Invented Hours",
+      "description": "Alibaba listings often quote 250–500 h wear-part intervals; that is not a Pinjin factory cell. ACPA: replace hose at the first الضفيرة المكسورة; inspect صمام S, pistons and gaskets. Photograph OD and send the model slug. This is not a rewrite of the spare-parts structure article.",
+      "imageAlt": "Pinjin concrete pump صمام S wear part from Hebei Pinjin Machinery شينغتاي quoted from photos not from invented hours",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump قطع الغيار list",
+        "Concrete pump صمام S",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Marketplace pages often print 250–500 operating hours for wear kits. That is Alibaba observation, not a Hebei Pinjin factory interval. ACPA: replace a خرطوم النقل at the first الضفيرة المكسورة; inspect the أنبوب S, pistons, cutting ring and gaskets; never wait for a burst. Pinjin lists [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/), [rubber hose](/products/concrete-pump-delivery-hose/) and [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/). We quote those SKUs from photos of OD and the pump model. We do not print a factory hour table. This page is not a second spare-parts structure list.",
+        "who": "Operators who already know which part names are on the Pinjin parts hub and need the interval rule: photos + ACPA braid/gasket checks, not a copied 300-hour claim.",
+        "factors": [
+          "Alibaba 250–500 h is observation, not a Pinjin cell",
+          "ACPA: hose to first الضفيرة المكسورة; inspect صمام S, piston, gasket",
+          "Quote from OD photos and the pump model slug",
+          "No invented warranty hours or ‘OEM life’ numbers"
+        ]
+      },
+      "seoTitle": "Concrete Pump Wear Parts Replacement Interval | Pinjin شينغتاي",
+      "imageCaption": "صمام S SKU from شينغتاي — quote from photos. No factory hour interval on this site.",
+      "faqs": [
+        {
+          "question": "Does Pinjin guarantee 300 hours on an صمام S?",
+          "answer": "No hour guarantee is printed. The صمام S page is a parts SKU, not a life table. ACPA: inspect the أنبوب S and cutting ring; replace when worn or leaking. Photograph the valve and send the pump model. Marketplace 250–500 h claims are not شينغتاي specs."
+        },
+        {
+          "question": "When should I replace a Pinjin خرطوم مطاطي?",
+          "answer": "ACPA: at the first الضفيرة المكسورة, or sooner if the cover is cut to the reinforcement. Pinjin quotes hose after ID, length and working pressure — not after an unpublished hour count. See the hose vs steel article for line type, and this page for the braid rule."
+        },
+        {
+          "question": "Is this the same as the spare-parts list article?",
+          "answer": "No. That article maps which SKUs exist (صمام S, piston, spectacles, clamp, pipe, hose). This page is only how we will not invent hours, and which ACPA inspect/replace cues we will cite. Do not duplicate the SKU table here."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Wear Parts: Replacement Interval from Photos, Not Invented Hours",
+      "description": "Alibaba listings often quote 250–500 h wear-part intervals; that is not a Pinjin factory cell. ACPA: replace hose at the first оборванная оплётка; inspect S-клапан, pistons and gaskets. Photograph OD and send the model slug. This is not a rewrite of the spare-parts structure article.",
+      "imageAlt": "Pinjin concrete pump S-клапан wear part from Hebei Pinjin Machinery Синтай quoted from photos not from invented hours",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump запасные части list",
+        "Concrete pump S-клапан",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Marketplace pages often print 250–500 operating hours for wear kits. That is Alibaba observation, not a Hebei Pinjin factory interval. ACPA: replace a рукав подачи at the first оборванная оплётка; inspect the S-труба, pistons, cutting ring and gaskets; never wait for a burst. Pinjin lists [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/), [rubber hose](/products/concrete-pump-delivery-hose/) and [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/). We quote those SKUs from photos of OD and the pump model. We do not print a factory hour table. This page is not a second spare-parts structure list.",
+        "who": "Operators who already know which part names are on the Pinjin parts hub and need the interval rule: photos + ACPA braid/gasket checks, not a copied 300-hour claim.",
+        "factors": [
+          "Alibaba 250–500 h is observation, not a Pinjin cell",
+          "ACPA: hose to first оборванная оплётка; inspect S-клапан, piston, gasket",
+          "Quote from OD photos and the pump model slug",
+          "No invented warranty hours or ‘OEM life’ numbers"
+        ]
+      },
+      "seoTitle": "Concrete Pump Wear Parts Replacement Interval | Pinjin Синтай",
+      "imageCaption": "S-клапан SKU from Синтай — quote from photos. No factory hour interval on this site.",
+      "faqs": [
+        {
+          "question": "Does Pinjin guarantee 300 hours on an S-клапан?",
+          "answer": "No hour guarantee is printed. The S-клапан page is a parts SKU, not a life table. ACPA: inspect the S-труба and cutting ring; replace when worn or leaking. Photograph the valve and send the pump model. Marketplace 250–500 h claims are not Синтай specs."
+        },
+        {
+          "question": "When should I replace a Pinjin резиновый рукав?",
+          "answer": "ACPA: at the first оборванная оплётка, or sooner if the cover is cut to the reinforcement. Pinjin quotes hose after ID, length and working pressure — not after an unpublished hour count. See the hose vs steel article for line type, and this page for the braid rule."
+        },
+        {
+          "question": "Is this the same as the spare-parts list article?",
+          "answer": "No. That article maps which SKUs exist (S-клапан, piston, spectacles, clamp, pipe, hose). This page is only how we will not invent hours, and which ACPA inspect/replace cues we will cite. Do not duplicate the SKU table here."
+        }
+      ]
+    }
+  }
+}

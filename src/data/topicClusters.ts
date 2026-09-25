@@ -72,6 +72,26 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
+        href: '/blog/concrete-pump-motor-kw-vs-output',
+        en: 'Concrete pump motor kW versus catalogue output',
+        zh: '混凝土泵电机功率与目录输送量',
+      },
+      {
+        href: '/blog/trailer-concrete-pump-towing-chassis',
+        en: 'Trailer concrete pump towing and chassis size',
+        zh: '拖式混凝土泵牵引与底盘尺寸',
+      },
+      {
+        href: '/blog/concrete-pump-hopper-grille-agitator',
+        en: 'Concrete pump hopper grille and agitator',
+        zh: '混凝土泵料斗格栅与搅拌',
+      },
+      {
+        href: '/blog/concrete-pump-vertical-vs-horizontal-distance',
+        en: 'Concrete pump vertical vs horizontal distance',
+        zh: '混凝土泵垂直与水平输送距离',
+      },
+      {
         href: '/blog/electric-15-concrete-pump-applications',
         en: 'Electric 15 compact concrete pump applications',
         zh: '电动15型混凝土泵适用工地',
@@ -85,6 +105,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         href: '/blog/electric-80-concrete-pump-guide',
         en: 'Electric 80 concrete pump catalogue row',
         zh: '电动80型混凝土泵目录行',
+      },
+      {
+        href: '/blog/concrete-pump-hopper-capacity',
+        en: 'Concrete pump hopper capacity vs output',
+        zh: '混凝土泵料斗容积与输送量',
       },
       {
         href: '/blog/fine-stone-concrete-pump-aggregate-size',
@@ -129,9 +154,39 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
-        href: '/blog/diesel-50-concrete-pump-guide',
-        en: 'Diesel 50 concrete pump catalogue row',
-        zh: '柴油50型混凝土泵目录行',
+        href: '/blog/concrete-pump-for-basement-underground',
+        en: 'Concrete pump for basement and underground pours',
+        zh: '地下室与地下工程混凝土泵',
+      },
+      {
+        href: '/blog/concrete-pump-for-masonry-formwork',
+        en: 'Concrete pump for masonry and formwork filling',
+        zh: '砌体与模板填充混凝土泵',
+      },
+      {
+        href: '/blog/concrete-pump-for-slope-retaining-wall',
+        en: 'Concrete pump for slope and retaining wall',
+        zh: '边坡与挡墙混凝土泵',
+      },
+      {
+        href: '/blog/concrete-pump-for-house-rural-building',
+        en: 'Concrete pump for house and rural building',
+        zh: '自建房与农村建筑混凝土泵',
+      },
+      {
+        href: '/blog/concrete-pump-tunnel-secondary-lining',
+        en: 'Concrete pump for tunnel and secondary lining',
+        zh: '隧道与二次衬砌混凝土泵',
+      },
+      {
+        href: '/blog/electric-vs-diesel-concrete-pump-grid-sites',
+        en: 'Electric vs diesel concrete pump on grid sites',
+        zh: '有电网时电动与柴油混凝土泵',
+      },
+      {
+        href: '/blog/concrete-pump-hydraulic-oil-temperature',
+        en: 'Concrete pump hydraulic oil temperature',
+        zh: '混凝土泵液压油温度与冷却',
       },
       {
         href: '/blog/diesel-concrete-pump-no-electricity',
@@ -181,6 +236,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         zh: '搅拌泵一体机目录行',
       },
       {
+        href: '/blog/concrete-pump-hopper-capacity',
+        en: 'Concrete pump hopper capacity vs output',
+        zh: '混凝土泵料斗容积与输送量',
+      },
+      {
         href: '/blog/mixer-pump-vs-concrete-mixing-plant',
         en: 'Mixer pump vs concrete mixing plant',
         zh: '搅拌泵一体机不是搅拌站',
@@ -212,9 +272,34 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
     ],
     relatedArticles: [
       {
+        href: '/blog/concrete-pump-clamp-coupling',
+        en: 'Concrete pump pipe clamp and coupling',
+        zh: '混凝土泵管卡与接头',
+      },
+      {
+        href: '/blog/concrete-pump-reducer-taper-pipe',
+        en: 'Concrete pump reducer and taper pipe',
+        zh: '混凝土泵变径管',
+      },
+      {
+        href: '/blog/concrete-pump-wear-parts-replacement-interval',
+        en: 'Concrete pump wear parts replacement interval',
+        zh: '混凝土泵易损件更换间隔',
+      },
+      {
         href: '/blog/concrete-pump-pipe-dn-selection',
         en: 'Concrete pump pipe DN selection',
         zh: '混凝土泵输送管DN怎么选',
+      },
+      {
+        href: '/blog/concrete-pump-hose-vs-steel-pipe',
+        en: 'Concrete pump hose vs steel pipe',
+        zh: '混凝土泵胶管与钢管',
+      },
+      {
+        href: '/blog/s-valve-vs-gate-valve-concrete-pump',
+        en: 'S-valve vs gate valve concrete pump',
+        zh: '混凝土泵S阀与闸板阀',
       },
       {
         href: '/blog/concrete-pump-spare-parts-wear-parts',
@@ -257,6 +342,11 @@ export const categoryClusters: Record<ProductCategory, TopicCluster> = {
         href: '/blog/type-311-mortar-spraying-machine-guide',
         en: 'Type 311 mortar spraying machine printed table',
         zh: '311砂浆喷涂机印刷表',
+      },
+      {
+        href: '/blog/wet-mix-vs-dry-mix-shotcrete-sprayers',
+        en: 'Wet-mix vs dry-mix shotcrete and Pinjin sprayers',
+        zh: '湿喷与干喷及品锦喷涂机',
       },
       {
         href: '/blog/double-cylinder-plunger-mortar-sprayer-guide',

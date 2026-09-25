@@ -38,6 +38,11 @@ export const article: BlogPost = {
     "electric-20-concrete-pump",
     "electric-10-series-concrete-pump",
   ],
+  relatedArticleSlugs: [
+    "concrete-pump-for-basement-underground",
+    "trailer-concrete-pump-towing-chassis",
+    "mini-concrete-pump-narrow-space",
+  ],
   relatedPaths: [
     {
       href: "/products/electric-concrete-pumps",

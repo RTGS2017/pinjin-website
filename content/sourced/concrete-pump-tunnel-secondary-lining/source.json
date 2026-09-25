@@ -1,0 +1,266 @@
+{
+  "title": "Concrete Pump for Tunnel and Secondary Lining",
+  "seoTitle": "Concrete Pump for Tunnel Lining | Pinjin Trailers",
+  "description": "Tunnel lining on a Pinjin trailer is pipeline placement, not a shotcrete robot. Diesel 50 lists 30 m³/h and 150 m / 450 m; Electric 80 lists 60 m³/h and 900 m / 300 m when a grid exists. Exhaust and ventilation are the contractor’s duty — no invented tunnel certificate.",
+  "primaryKeyword": "concrete pump for tunnel lining",
+  "secondaryKeywords": [
+    "secondary lining concrete pump",
+    "tunnel concrete pump diesel",
+    "underground concrete pumping"
+  ],
+  "category": "application-solutions",
+  "resourceType": "application-guide",
+  "tags": [
+    "tunnel",
+    "lining",
+    "diesel"
+  ],
+  "date": "2026-09-24",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "diesel-50-concrete-pump",
+    "lz-80-diesel-concrete-pump",
+    "electric-80-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "wet-mix-vs-dry-mix-shotcrete-sprayers",
+    "electric-vs-diesel-concrete-pump-grid-sites",
+    "bridge-construction-concrete-pump-requirements"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": "Diesel concrete pump manufacturer China"
+    },
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/solutions/infrastructure",
+      "label": "Infrastructure concrete pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "A tunnel or secondary-lining job at Pinjin is matched as a trailer pipeline pour: mix, aggregate, output and H/V inside a printed row. Diesel 50 lists 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m. LZ-80 lists Yuchai 256 kW, high/low pressure output ≤ 65 / ≤ 95 m³/h, conveying 120 m, hopper 0.6 m³ (delivery height: consult factory). Electric 80 lists 110 kW, 60 m³/h, 900 m / 300 m when the heading has grid. We do not list a shotcrete robot, a placing boom or a ventilation certificate. Initial support spray belongs on the sprayer hub only if particle stays inside ≤8 mm / ≤6 mm.",
+    "who": "Contractors placing lining concrete through pipe in a tunnel or underground heading who can state power, pipe length and max stone.",
+    "factors": [
+      "Pipeline lining versus wet-mix spray (different Pinjin hubs)",
+      "Grid → electric table; no grid → diesel table",
+      "Diesel exhaust in a heading is not a published Pinjin ventilation rate",
+      "Output/distance must sit in the printed pair — Diesel 50 is not Electric 80"
+    ],
+    "relatedModels": [
+      "diesel-50-concrete-pump",
+      "lz-80-diesel-concrete-pump",
+      "electric-80-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Do you sell a tunnel shotcrete robot for primary lining?",
+      "answer": "No. Wet hose sprayers are on /products/spraying-machines with particle ≤8 mm or ≤6 mm. Trailer pumps place pipeline concrete. Neither family is named as a robotic shotcrete arm."
+    },
+    {
+      "question": "Diesel or electric for an underground heading?",
+      "answer": "If the heading can feed 110 kW, Electric 80 is the long-distance electric row (60 m³/h, 900 m / 300 m). If there is no grid, Diesel 50 (30 m³/h, 150 m / 450 m) or LZ-80 is the diesel discussion. Exhaust and ventilation stay with the contractor. We do not publish a tunnel emission certificate."
+    },
+    {
+      "question": "Is secondary lining the same as floor screed or secondary structure columns?",
+      "answer": "No. Secondary lining here means a tunnel or underground concrete lining pour through pipe. House secondary structure (columns/beams) is a different article. Floor screed is another. Send the heading length, mix and power so we open the correct table."
+    }
+  ],
+  "image": {
+    "src": "/images/products/diesel-50-concrete-pump/main.webp",
+    "alt": "Diesel 50 trailer concrete pump used for pipeline lining jobs, manufactured by Hebei Pinjin Machinery in Xingtai",
+    "caption": "Diesel 50 — 30 m³/h, 150 m / 450 m printed pair for off-grid pipeline pours"
+  },
+  "sources": [
+    {
+      "name": "Pinjin Diesel 50 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 80 product page",
+      "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin LZ-80 diesel concrete pump",
+      "url": "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba buying guide: pumps used in tunnel construction; diesel vs electric by site power",
+      "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+      "type": "marketplace"
+    },
+    {
+      "name": "Marketplace diesel-pump FAQ observation: tunnels and rural sites without stable power (copy not used)",
+      "url": "https://www.concrete-pumpmixer.com/concrete-machinery/stationary-concrete-pump/diesel-concrete-pump.html",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump for Tunnel and Secondary Lining",
+      "description": "Tunnel lining on a 品锦 trailer is pipeline placement, not a shotcrete robot. Diesel 50 lists 30 m³/h and 150 m / 450 m; 电动80 lists 60 m³/h and 900 m / 300 m when a grid exists. Exhaust and ventilation are the contractor’s duty — no invented tunnel certificate.",
+      "imageAlt": "Diesel 50 trailer concrete pump used for pipeline lining jobs, manufactured by 河北品锦机械 in 邢台",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Electric concrete pump manufacturer China",
+        "Infrastructure concrete pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "A tunnel or secondary-lining job at 品锦 is matched as a trailer pipeline pour: mix, 骨料, output and H/V inside a printed row. Diesel 50 lists 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m. LZ-80 lists Yuchai 256 kW, high/low pressure output ≤ 65 / ≤ 95 m³/h, conveying 120 m, hopper 0.6 m³ (delivery height: consult factory). 电动80 lists 110 kW, 60 m³/h, 900 m / 300 m when the heading has grid. We do not list a shotcrete robot, a placing boom or a ventilation certificate. Initial support spray belongs on the sprayer hub only if particle stays inside ≤8 mm / ≤6 mm.",
+        "who": "Contractors placing lining concrete through pipe in a tunnel or 地下 heading who can state power, pipe length and max stone.",
+        "factors": [
+          "Pipeline lining versus wet-mix spray (different 品锦 hubs)",
+          "Grid → electric table; no grid → diesel table",
+          "Diesel exhaust in a heading is not a published 品锦 ventilation rate",
+          "Output/distance must sit in the printed pair — Diesel 50 is not 电动80"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Tunnel Lining | 品锦 Trailers",
+      "imageCaption": "Diesel 50 — 30 m³/h, 150 m / 450 m printed pair for off-grid pipeline pours",
+      "faqs": [
+        {
+          "question": "Do you sell a tunnel shotcrete robot for primary lining?",
+          "answer": "No. Wet hose sprayers are on /products/spraying-machines with particle ≤8 mm or ≤6 mm. Trailer pumps place pipeline concrete. Neither family is named as a robotic shotcrete arm."
+        },
+        {
+          "question": "Diesel or electric for an 地下 heading?",
+          "answer": "If the heading can feed 110 kW, 电动80 is the long-distance electric row (60 m³/h, 900 m / 300 m). If there is no grid, Diesel 50 (30 m³/h, 150 m / 450 m) or LZ-80 is the diesel discussion. Exhaust and ventilation stay with the contractor. We do not publish a tunnel emission certificate."
+        },
+        {
+          "question": "Is secondary lining the same as floor screed or secondary structure columns?",
+          "answer": "No. Secondary lining here means a tunnel or 地下 concrete lining pour through pipe. House secondary structure (columns/beams) is a different article. Floor screed is another. Send the heading length, mix and power so we open the correct table."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump for Tunnel and Secondary Lining",
+      "description": "Tunnel lining on a Pinjin trailer is pipeline placement, not a shotcrete robot. Diesel 50 lists 30 m³/h and 150 m / 450 m; Electric 80 lists 60 m³/h and 900 m / 300 m when a grid exists. Exhaust and ventilation are the contractor’s duty — no invented tunnel certificate.",
+      "imageAlt": "Diesel 50 trailer concrete pump used for pipeline lining jobs, manufactured by Hebei Pinjin Machinery in Xingtai",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Electric concrete pump manufacturer China",
+        "Infrastructure concrete pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A tunnel or secondary-lining job at Pinjin is matched as a trailer pipeline pour: mix, agregado, output and H/V inside a printed row. Diesel 50 lists 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m. LZ-80 lists Yuchai 256 kW, high/low pressure output ≤ 65 / ≤ 95 m³/h, conveying 120 m, hopper 0.6 m³ (delivery height: consult factory). Electric 80 lists 110 kW, 60 m³/h, 900 m / 300 m when the heading has grid. We do not list a shotcrete robot, a placing boom or a ventilation certificate. Initial support spray belongs on the sprayer hub only if particle stays inside ≤8 mm / ≤6 mm.",
+        "who": "Contractors placing lining concrete through pipe in a tunnel or subterrâneo heading who can state power, pipe length and max stone.",
+        "factors": [
+          "Pipeline lining versus wet-mix spray (different Pinjin hubs)",
+          "Grid → electric table; no grid → diesel table",
+          "Diesel exhaust in a heading is not a published Pinjin ventilation rate",
+          "Output/distance must sit in the printed pair — Diesel 50 is not Electric 80"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Tunnel Lining | Pinjin Trailers",
+      "imageCaption": "Diesel 50 — 30 m³/h, 150 m / 450 m printed pair for off-grid pipeline pours",
+      "faqs": [
+        {
+          "question": "Do you sell a tunnel shotcrete robot for primary lining?",
+          "answer": "No. Wet hose sprayers are on /products/spraying-machines with particle ≤8 mm or ≤6 mm. Trailer pumps place pipeline concrete. Neither family is named as a robotic shotcrete arm."
+        },
+        {
+          "question": "Diesel or electric for an subterrâneo heading?",
+          "answer": "If the heading can feed 110 kW, Electric 80 is the long-distance electric row (60 m³/h, 900 m / 300 m). If there is no grid, Diesel 50 (30 m³/h, 150 m / 450 m) or LZ-80 is the diesel discussion. Exhaust and ventilation stay with the contractor. We do not publish a tunnel emission certificate."
+        },
+        {
+          "question": "Is secondary lining the same as floor screed or secondary structure columns?",
+          "answer": "No. Secondary lining here means a tunnel or subterrâneo concrete lining pour through pipe. House secondary structure (columns/beams) is a different article. Floor screed is another. Send the heading length, mix and power so we open the correct table."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump for Tunnel and Secondary Lining",
+      "description": "Tunnel lining on a Pinjin trailer is pipeline placement, not a shotcrete robot. Diesel 50 lists 30 m³/h and 150 m / 450 m; Electric 80 lists 60 m³/h and 900 m / 300 m when a grid exists. Exhaust and ventilation are the contractor’s duty — no invented tunnel certificate.",
+      "imageAlt": "Diesel 50 trailer concrete pump used for pipeline lining jobs, manufactured by Hebei Pinjin Machinery in شينغتاي",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Electric concrete pump manufacturer China",
+        "Infrastructure concrete pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A tunnel or secondary-lining job at Pinjin is matched as a trailer pipeline pour: mix, ركام, output and H/V inside a printed row. Diesel 50 lists 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m. LZ-80 lists Yuchai 256 kW, high/low pressure output ≤ 65 / ≤ 95 m³/h, conveying 120 m, hopper 0.6 m³ (delivery height: consult factory). Electric 80 lists 110 kW, 60 m³/h, 900 m / 300 m when the heading has grid. We do not list a shotcrete robot, a placing boom or a ventilation certificate. Initial support spray belongs on the sprayer hub only if particle stays inside ≤8 mm / ≤6 mm.",
+        "who": "Contractors placing lining concrete through pipe in a tunnel or تحت الأرض heading who can state power, pipe length and max stone.",
+        "factors": [
+          "Pipeline lining versus wet-mix spray (different Pinjin hubs)",
+          "Grid → electric table; no grid → diesel table",
+          "Diesel exhaust in a heading is not a published Pinjin ventilation rate",
+          "Output/distance must sit in the printed pair — Diesel 50 is not Electric 80"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Tunnel Lining | Pinjin Trailers",
+      "imageCaption": "Diesel 50 — 30 m³/h, 150 m / 450 m printed pair for off-grid pipeline pours",
+      "faqs": [
+        {
+          "question": "Do you sell a tunnel shotcrete robot for primary lining?",
+          "answer": "No. Wet hose sprayers are on /products/spraying-machines with particle ≤8 mm or ≤6 mm. Trailer pumps place pipeline concrete. Neither family is named as a robotic shotcrete arm."
+        },
+        {
+          "question": "Diesel or electric for an تحت الأرض heading?",
+          "answer": "If the heading can feed 110 kW, Electric 80 is the long-distance electric row (60 m³/h, 900 m / 300 m). If there is no grid, Diesel 50 (30 m³/h, 150 m / 450 m) or LZ-80 is the diesel discussion. Exhaust and ventilation stay with the contractor. We do not publish a tunnel emission certificate."
+        },
+        {
+          "question": "Is secondary lining the same as floor screed or secondary structure columns?",
+          "answer": "No. Secondary lining here means a tunnel or تحت الأرض concrete lining pour through pipe. House secondary structure (columns/beams) is a different article. Floor screed is another. Send the heading length, mix and power so we open the correct table."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump for Tunnel and Secondary Lining",
+      "description": "Tunnel lining on a Pinjin trailer is pipeline placement, not a shotcrete robot. Diesel 50 lists 30 m³/h and 150 m / 450 m; Electric 80 lists 60 m³/h and 900 m / 300 m when a grid exists. Exhaust and ventilation are the contractor’s duty — no invented tunnel certificate.",
+      "imageAlt": "Diesel 50 trailer concrete pump used for pipeline lining jobs, manufactured by Hebei Pinjin Machinery in Синтай",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Electric concrete pump manufacturer China",
+        "Infrastructure concrete pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A tunnel or secondary-lining job at Pinjin is matched as a trailer pipeline pour: mix, заполнитель, output and H/V inside a printed row. Diesel 50 lists 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m. LZ-80 lists Yuchai 256 kW, high/low pressure output ≤ 65 / ≤ 95 m³/h, conveying 120 m, hopper 0.6 m³ (delivery height: consult factory). Electric 80 lists 110 kW, 60 m³/h, 900 m / 300 m when the heading has grid. We do not list a shotcrete robot, a placing boom or a ventilation certificate. Initial support spray belongs on the sprayer hub only if particle stays inside ≤8 mm / ≤6 mm.",
+        "who": "Contractors placing lining concrete through pipe in a tunnel or подземный heading who can state power, pipe length and max stone.",
+        "factors": [
+          "Pipeline lining versus wet-mix spray (different Pinjin hubs)",
+          "Grid → electric table; no grid → diesel table",
+          "Diesel exhaust in a heading is not a published Pinjin ventilation rate",
+          "Output/distance must sit in the printed pair — Diesel 50 is not Electric 80"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Tunnel Lining | Pinjin Trailers",
+      "imageCaption": "Diesel 50 — 30 m³/h, 150 m / 450 m printed pair for off-grid pipeline pours",
+      "faqs": [
+        {
+          "question": "Do you sell a tunnel shotcrete robot for primary lining?",
+          "answer": "No. Wet hose sprayers are on /products/spraying-machines with particle ≤8 mm or ≤6 mm. Trailer pumps place pipeline concrete. Neither family is named as a robotic shotcrete arm."
+        },
+        {
+          "question": "Diesel or electric for an подземный heading?",
+          "answer": "If the heading can feed 110 kW, Electric 80 is the long-distance electric row (60 m³/h, 900 m / 300 m). If there is no grid, Diesel 50 (30 m³/h, 150 m / 450 m) or LZ-80 is the diesel discussion. Exhaust and ventilation stay with the contractor. We do not publish a tunnel emission certificate."
+        },
+        {
+          "question": "Is secondary lining the same as floor screed or secondary structure columns?",
+          "answer": "No. Secondary lining here means a tunnel or подземный concrete lining pour through pipe. House secondary structure (columns/beams) is a different article. Floor screed is another. Send the heading length, mix and power so we open the correct table."
+        }
+      ]
+    }
+  }
+}

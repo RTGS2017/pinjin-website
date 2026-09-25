@@ -190,8 +190,7 @@ function insertHead(html, snippet) {
   return html.replace('</head>', `${snippet}\n  </head>`);
 }
 
-function hreflangBlock(rest) {
-  const langs = meta.indexedLangs ?? ['en', 'zh'];
+function hreflangBlock(page) {
   const map = meta.hreflang ?? {
     en: 'en',
     zh: 'zh-CN',
@@ -199,12 +198,22 @@ function hreflangBlock(rest) {
     ar: 'ar',
     ru: 'ru',
   };
-  const lines = langs.map((lang) => {
-  const path = rest === '/' ? `/${lang}/` : `/${lang}${rest}/`;
+  const rest = page.rest;
+  const langs = [
+    ...new Set(
+      (meta.pages || [])
+        .filter((item) => item.rest === rest && item.indexed)
+        .map((item) => item.lang),
+    ),
+  ];
+  const list = langs.length ? langs : (meta.indexedLangs ?? ['en', 'zh']);
+  const lines = list.map((lang) => {
+    const path = rest === '/' ? `/${lang}/` : `/${lang}${rest}/`;
     const hl = map[lang] || lang;
     return `    <link rel="alternate" hreflang="${hl}" href="${SITE}${path}" />`;
   });
-  const defaultPath = rest === '/' ? '/en/' : `/en${rest}/`;
+  const defaultLang = list.includes('en') ? 'en' : list[0];
+  const defaultPath = rest === '/' ? `/${defaultLang}/` : `/${defaultLang}${rest}/`;
   lines.push(
     `    <link rel="alternate" hreflang="x-default" href="${SITE}${defaultPath}" />`,
   );
@@ -219,6 +228,21 @@ function jsonLdTag(data) {
 function toSrc(url) {
   if (!url) return '';
   return String(url).replace(/^https?:\/\/pinjinpump\.com/i, '');
+}
+
+function productOfferJsonLd(page) {
+  // Catalogue has no published EXW / list price. Do not invent price, review, or rating.
+  return {
+    '@type': 'Offer',
+    url: page.canonicalUrl,
+    availability: 'https://schema.org/InStock',
+    itemCondition: 'https://schema.org/NewCondition',
+    seller: {
+      '@type': 'Organization',
+      name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+      url: SITE,
+    },
+  };
 }
 
 function jsonLdFor(page) {
@@ -247,11 +271,17 @@ function jsonLdFor(page) {
       image: page.ogImage,
       url: page.canonicalUrl,
       brand: { '@type': 'Brand', name: 'Hebei Pinjin Machinery' },
+      manufacturer: {
+        '@type': 'Organization',
+        name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+        url: SITE,
+      },
       additionalProperty: (page.specs || []).map((spec) => ({
         '@type': 'PropertyValue',
         name: spec.label,
         value: spec.value,
       })),
+      offers: productOfferJsonLd(page),
     };
   }
   if (page.kind === 'collection') {
@@ -354,7 +384,7 @@ function stampPage(page) {
   html = stripHreflang(html);
   html = setNamedMeta(html, 'robots', page.robots);
   if (page.indexed) {
-    html = insertHead(html, hreflangBlock(page.rest));
+    html = insertHead(html, hreflangBlock(page));
   }
   const schema = jsonLdFor(page);
   if (schema) {
@@ -436,8 +466,8 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(sitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 130 || uniqueLocs.length > 180) {
-  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected ~162, en+zh)`);
+if (uniqueLocs.length < 130 || uniqueLocs.length > 220) {
+  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected ~182, en+zh plus EN-only sourced blogs)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -447,6 +477,20 @@ if (sitemapPaths.some((path) => !path.endsWith('/'))) {
 }
 if (sitemapPaths.some((path) => path.startsWith('/pt/') || path.startsWith('/ar/') || path.startsWith('/ru/'))) {
   console.error('sitemap.xml must not list pt/ar/ru until those locales have independent copy');
+  process.exit(1);
+}
+const zhBlogArticles = sitemapPaths.filter((path) => /^\/zh\/blog\/.+/.test(path));
+if (zhBlogArticles.length > 0) {
+  console.error(`sitemap.xml must not list zh blog articles: ${zhBlogArticles.slice(0, 5).join(', ')}`);
+  process.exit(1);
+}
+const enBlogArticles = sitemapPaths.filter((path) => /^\/en\/blog\/.+/.test(path));
+if (enBlogArticles.length < 20) {
+  console.error(`sitemap.xml expected EN blog articles, got ${enBlogArticles.length}`);
+  process.exit(1);
+}
+if (!sitemapPaths.includes('/en/blog/concrete-pump-priming-grout-lubrication/')) {
+  console.error('sitemap.xml missing new EN blog /en/blog/concrete-pump-priming-grout-lubrication/');
   process.exit(1);
 }
 for (const lang of ['en', 'zh']) {
@@ -517,6 +561,49 @@ if (b500sHtml.includes('b500s-83d-two-stage-pump-catalogue.webp') || b500sHtml.i
 if (!b500sHtml.includes('og:image:alt') || !b500sHtml.includes('<img src=')) {
   console.error('B500S-83D shell must include image alt and noscript img');
   process.exit(1);
+}
+
+function parseLdScripts(html) {
+  return [...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(
+    (match) => JSON.parse(match[1]),
+  );
+}
+
+function githubIndexHtml(pathname) {
+  const parts = pathname.replace(/\/+$/, '').replace(/^\//, '').split('/').filter(Boolean);
+  return join(distDir, ...parts, 'index.html');
+}
+
+const productPages = (meta.pages || []).filter((page) => page.kind === 'product');
+if (productPages.length < 20) {
+  console.error(`too few product pages in prerender-meta: ${productPages.length}`);
+  process.exit(1);
+}
+for (const page of productPages) {
+  const html = readFileSync(githubIndexHtml(page.path), 'utf8');
+  const product = parseLdScripts(html).find((schema) => schema['@type'] === 'Product');
+  if (!product) {
+    console.error(`missing Product JSON-LD: ${page.path}`);
+    process.exit(1);
+  }
+  const offer = product.offers;
+  if (!offer || offer['@type'] !== 'Offer' || !offer.url || !offer.availability) {
+    console.error(`Product JSON-LD missing Offer url/availability: ${page.path}`);
+    process.exit(1);
+  }
+  if (product.review || product.aggregateRating) {
+    console.error(`do not add review/aggregateRating to Product: ${page.path}`);
+    process.exit(1);
+  }
+}
+const sampleArticle = (meta.pages || []).find((page) => page.kind === 'article');
+if (sampleArticle) {
+  const articleHtml = readFileSync(githubIndexHtml(sampleArticle.path), 'utf8');
+  const articleSchemas = parseLdScripts(articleHtml);
+  if (articleSchemas.some((schema) => schema['@type'] === 'Product' || schema.offers)) {
+    console.error(`article JSON-LD must not include Product offers: ${sampleArticle.path}`);
+    process.exit(1);
+  }
 }
 
 const gone = [
@@ -646,6 +733,36 @@ if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/ar\/products\/"/.test(arH
   process.exit(1);
 }
 
+const primingEn = join(distDir, 'en', 'blog', 'concrete-pump-priming-grout-lubrication', 'index.html');
+if (!existsSync(primingEn)) {
+  console.error('missing EN blog shell /en/blog/concrete-pump-priming-grout-lubrication/');
+  process.exit(1);
+}
+const primingEnHtml = readFileSync(primingEn, 'utf8');
+if (!primingEnHtml.includes('name="robots" content="index, follow"')) {
+  console.error('EN sourced blog must be index, follow');
+  process.exit(1);
+}
+if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/en\/blog\/concrete-pump-priming-grout-lubrication\/"/.test(primingEnHtml)) {
+  console.error('EN sourced blog canonical must be the English URL');
+  process.exit(1);
+}
+
+const primingZh = join(distDir, 'zh', 'blog', 'concrete-pump-priming-grout-lubrication', 'index.html');
+if (!existsSync(primingZh)) {
+  console.error('missing ZH blog shell /zh/blog/concrete-pump-priming-grout-lubrication/');
+  process.exit(1);
+}
+const primingZhHtml = readFileSync(primingZh, 'utf8');
+if (!primingZhHtml.includes('name="robots" content="noindex, follow"')) {
+  console.error('ZH sourced blog must be noindex, follow');
+  process.exit(1);
+}
+if (!/rel="canonical" href="https:\/\/pinjinpump\.com\/en\/blog\/concrete-pump-priming-grout-lubrication\/"/.test(primingZhHtml)) {
+  console.error('ZH sourced blog canonical must point to the English URL');
+  process.exit(1);
+}
+
 function githubLookup(pathname) {
   const parts = pathname.replace(/\/+$/, '').replace(/^\//, '').split('/').filter(Boolean);
   if (parts.length === 0) {
@@ -671,6 +788,7 @@ for (const loc of uniqueLocs) {
 }
 
 console.log(`Wrote ${written} HTML files from ${meta.pages.length} UI pages (no legacy shells)`);
+console.log(`Verified Product Offer JSON-LD on ${productPages.length} product pages (all langs)`);
 console.log(`sitemap.xml locs=${uniqueLocs.length} (en+zh pages; image-sitemap.xml kept)`);
 console.log('Wrote dist/404.html as a static HTTP 404 page (no SPA fallback)');
 console.log('Wrote dist/.nojekyll');

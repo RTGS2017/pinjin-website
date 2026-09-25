@@ -10,9 +10,19 @@
   ],
   "category": "application-solutions",
   "resourceType": "application-guide",
-  "tags": ["secondary-structure", "columns-beams", "compact-pump"],
+  "tags": [
+    "secondary-structure",
+    "columns-beams",
+    "compact-pump"
+  ],
   "date": "2026-09-22",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "electric-15-concrete-pump",
     "electric-10-series-concrete-pump",
@@ -24,10 +34,22 @@
     "mini-concrete-pump-narrow-space"
   ],
   "relatedPaths": [
-    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
-    { "href": "/blog/electric-15-concrete-pump-applications", "label": "Electric 15 compact concrete pump applications" },
-    { "href": "/solutions/construction", "label": "Building construction pumping" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/electric-15-concrete-pump-applications",
+      "label": "Electric 15 compact concrete pump applications"
+    },
+    {
+      "href": "/solutions/construction",
+      "label": "Building construction pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "Secondary-structure columns and beams are short, repeated pours. Pinjin’s Electric 15 catalogue line names small building sites and secondary structure: 15 kW, 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal, 1–3 cm stone, 450 kg. Electric 10 Series and Electric 20 are neighbours, not nicknames for the same machine.",
@@ -60,9 +82,155 @@
     "caption": "Electric 15 compact trailer pump, Xingtai catalogue"
   },
   "sources": [
-    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 10 Series product page", "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 20 product page", "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/", "type": "pinjin" }
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 10 Series product page",
+      "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 20 product page",
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump for Secondary Structure Columns and Beams",
+      "description": "Match secondary-structure column and beam pours to 邢台 catalogue compact pumps. 电动15 lists secondary structure at 15 kW, 8–10 m³/h and 1–3 cm stone. Electric 10 Series and 电动20 are compared only on published rows.",
+      "imageAlt": "电动15 compact concrete pump for secondary structure, 河北品锦机械 邢台 factory",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "电动15 compact concrete pump applications",
+        "Building construction pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Secondary-structure columns and beams are short, repeated pours. 品锦’s 电动15 catalogue line names small building sites and secondary structure: 15 kW, 8–10 m³/h, 15–20 m 垂直, 60–80 m 水平, 1–3 cm stone, 450 kg. Electric 10 Series and 电动20 are neighbours, not nicknames for the same machine.",
+        "who": "Builders and labour teams pouring secondary beams, ring beams, small columns and floor elements on grid-powered sites whose stone and pipe stay inside a compact-pump table.",
+        "factors": [
+          "Whether the mix stone stays inside 1–3 cm (电动15) or 1–2 cm (电动20) or 2 cm and below (Electric 10 Series)",
+          "Output: 8–10 m³/h versus Electric 10 Series theoretical 21 m³/h with only 25 m 水平",
+          "Vertical / 水平 metres against the printed row",
+          "Footprint: 450 kg / 900 mm wide versus 400 kg / 800 mm versus 900 kg 电动20"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Secondary Structure Columns and Beams | 品锦",
+      "imageCaption": "电动15 compact 拖式泵, 邢台 catalogue",
+      "faqs": [
+        {
+          "question": "Does 品锦 publish a pour volume per column or beam?",
+          "answer": "No. Catalogue output is theoretical m³/h, not a site guarantee and not a column-volume table. Send typical member size, stone and pipe length with the inquiry."
+        },
+        {
+          "question": "Is 电动15 the only secondary-structure pump?",
+          "answer": "It is the model whose application list names secondary structure. Electric 10 Series lists the same application family with 25 m 水平. 电动20 is a 22 kW / 900 kg trailer with 1–2 cm stone. Match the row; do not treat them as one machine."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump for Secondary Structure Columns and Beams",
+      "description": "Match secondary-structure column and beam pours to Xingtai catalogue compact pumps. Electric 15 lists secondary structure at 15 kW, 8–10 m³/h and 1–3 cm stone. Electric 10 Series and Electric 20 are compared only on published rows.",
+      "imageAlt": "Electric 15 compact concrete pump for secondary structure, Hebei Pinjin Machinery Xingtai factory",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 15 compact concrete pump applications",
+        "Building construction pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Secondary-structure columns and beams are short, repeated pours. Pinjin’s Electric 15 catalogue line names small building sites and secondary structure: 15 kW, 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal, 1–3 cm stone, 450 kg. Electric 10 Series and Electric 20 are neighbours, not nicknames for the same machine.",
+        "who": "Builders and labour teams pouring secondary beams, ring beams, small columns and floor elements on grid-powered sites whose stone and pipe stay inside a compact-pump table.",
+        "factors": [
+          "Whether the mix stone stays inside 1–3 cm (Electric 15) or 1–2 cm (Electric 20) or 2 cm and below (Electric 10 Series)",
+          "Output: 8–10 m³/h versus Electric 10 Series theoretical 21 m³/h with only 25 m horizontal",
+          "Vertical / horizontal metres against the printed row",
+          "Footprint: 450 kg / 900 mm wide versus 400 kg / 800 mm versus 900 kg Electric 20"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Secondary Structure Columns and Beams | Pinjin",
+      "imageCaption": "Electric 15 compact bomba reboque, Xingtai catalogue",
+      "faqs": [
+        {
+          "question": "Does Pinjin publish a pour volume per column or beam?",
+          "answer": "No. Catalogue output is theoretical m³/h, not a site guarantee and not a column-volume table. Send typical member size, stone and pipe length with the inquiry."
+        },
+        {
+          "question": "Is Electric 15 the only secondary-structure pump?",
+          "answer": "It is the model whose application list names secondary structure. Electric 10 Series lists the same application family with 25 m horizontal. Electric 20 is a 22 kW / 900 kg trailer with 1–2 cm stone. Match the row; do not treat them as one machine."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump for Secondary Structure Columns and Beams",
+      "description": "Match secondary-structure column and beam pours to شينغتاي catalogue compact pumps. Electric 15 lists secondary structure at 15 kW, 8–10 m³/h and 1–3 cm stone. Electric 10 Series and Electric 20 are compared only on published rows.",
+      "imageAlt": "Electric 15 compact concrete pump for secondary structure, Hebei Pinjin Machinery شينغتاي factory",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 15 compact concrete pump applications",
+        "Building construction pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Secondary-structure columns and beams are short, repeated pours. Pinjin’s Electric 15 catalogue line names small building sites and secondary structure: 15 kW, 8–10 m³/h, 15–20 m عمودي, 60–80 m أفقي, 1–3 cm stone, 450 kg. Electric 10 Series and Electric 20 are neighbours, not nicknames for the same machine.",
+        "who": "Builders and labour teams pouring secondary beams, ring beams, small columns and floor elements on grid-powered sites whose stone and pipe stay inside a compact-pump table.",
+        "factors": [
+          "Whether the mix stone stays inside 1–3 cm (Electric 15) or 1–2 cm (Electric 20) or 2 cm and below (Electric 10 Series)",
+          "Output: 8–10 m³/h versus Electric 10 Series theoretical 21 m³/h with only 25 m أفقي",
+          "Vertical / أفقي metres against the printed row",
+          "Footprint: 450 kg / 900 mm wide versus 400 kg / 800 mm versus 900 kg Electric 20"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Secondary Structure Columns and Beams | Pinjin",
+      "imageCaption": "Electric 15 compact مضخة مقطورة, شينغتاي catalogue",
+      "faqs": [
+        {
+          "question": "Does Pinjin publish a pour volume per column or beam?",
+          "answer": "No. Catalogue output is theoretical m³/h, not a site guarantee and not a column-volume table. Send typical member size, stone and pipe length with the inquiry."
+        },
+        {
+          "question": "Is Electric 15 the only secondary-structure pump?",
+          "answer": "It is the model whose application list names secondary structure. Electric 10 Series lists the same application family with 25 m أفقي. Electric 20 is a 22 kW / 900 kg trailer with 1–2 cm stone. Match the row; do not treat them as one machine."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump for Secondary Structure Columns and Beams",
+      "description": "Match secondary-structure column and beam pours to Синтай catalogue compact pumps. Electric 15 lists secondary structure at 15 kW, 8–10 m³/h and 1–3 cm stone. Electric 10 Series and Electric 20 are compared only on published rows.",
+      "imageAlt": "Electric 15 compact concrete pump for secondary structure, Hebei Pinjin Machinery Синтай factory",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 15 compact concrete pump applications",
+        "Building construction pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Secondary-structure columns and beams are short, repeated pours. Pinjin’s Electric 15 catalogue line names small building sites and secondary structure: 15 kW, 8–10 m³/h, 15–20 m вертикаль, 60–80 m горизонталь, 1–3 cm stone, 450 kg. Electric 10 Series and Electric 20 are neighbours, not nicknames for the same machine.",
+        "who": "Builders and labour teams pouring secondary beams, ring beams, small columns and floor elements on grid-powered sites whose stone and pipe stay inside a compact-pump table.",
+        "factors": [
+          "Whether the mix stone stays inside 1–3 cm (Electric 15) or 1–2 cm (Electric 20) or 2 cm and below (Electric 10 Series)",
+          "Output: 8–10 m³/h versus Electric 10 Series theoretical 21 m³/h with only 25 m горизонталь",
+          "Vertical / горизонталь metres against the printed row",
+          "Footprint: 450 kg / 900 mm wide versus 400 kg / 800 mm versus 900 kg Electric 20"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Secondary Structure Columns and Beams | Pinjin",
+      "imageCaption": "Electric 15 compact прицепной насос, Синтай catalogue",
+      "faqs": [
+        {
+          "question": "Does Pinjin publish a pour volume per column or beam?",
+          "answer": "No. Catalogue output is theoretical m³/h, not a site guarantee and not a column-volume table. Send typical member size, stone and pipe length with the inquiry."
+        },
+        {
+          "question": "Is Electric 15 the only secondary-structure pump?",
+          "answer": "It is the model whose application list names secondary structure. Electric 10 Series lists the same application family with 25 m горизонталь. Electric 20 is a 22 kW / 900 kg trailer with 1–2 cm stone. Match the row; do not treat them as one machine."
+        }
+      ]
+    }
+  }
 }

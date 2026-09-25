@@ -10,9 +10,19 @@
   ],
   "category": "industry-guide",
   "resourceType": "procurement-guide",
-  "tags": ["procurement", "small-pump", "china-supplier"],
+  "tags": [
+    "procurement",
+    "small-pump",
+    "china-supplier"
+  ],
   "date": "2026-09-22",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "electric-15-concrete-pump",
     "electric-20-concrete-pump",
@@ -25,10 +35,22 @@
     "concrete-pump-price-factors-china"
   ],
   "relatedPaths": [
-    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
-    { "href": "/blog/electric-20-vs-30-concrete-pump", "label": "Electric 20 vs Electric 30 comparison" },
-    { "href": "/factory", "label": "Xingtai construction machinery factory" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/electric-20-vs-30-concrete-pump",
+      "label": "Electric 20 vs Electric 30 comparison"
+    },
+    {
+      "href": "/factory",
+      "label": "Xingtai construction machinery factory"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "Compare small concrete pumps from China on the same cells: power (kW), theoretical output (m³/h), outlet pressure, max aggregate, pipe DN, conveying distance, hopper, envelope and weight. Pinjin’s compact electric examples: Electric 15 (15 kW, 8–10 m³/h, 450 kg), Electric 20 (22 kW, 8–10 m³/h, 10 MPa, 900 kg), Electric 30 (30 kW, 12–15 m³/h, 20 MPa, 1200 kg). Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. This site has no published list price.",
@@ -62,11 +84,165 @@
     "caption": "Electric 15 compact trailer, Xingtai catalogue — one compact row to compare against, not a nickname"
   },
   "sources": [
-    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 20 product page", "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 30 product page", "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin factory page", "url": "https://pinjinpump.com/en/factory/", "type": "pinjin" },
-    { "name": "Alibaba search observation: small concrete pump (listing copy and prices not used)", "url": "https://www.alibaba.com/trade/search?SearchText=small+concrete+pump", "type": "marketplace" }
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 20 product page",
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 30 product page",
+      "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin factory page",
+      "url": "https://pinjinpump.com/en/factory/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba search observation: small concrete pump (listing copy and prices not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=small+concrete+pump",
+      "type": "marketplace"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "How to Compare Small Concrete Pumps from China Suppliers",
+      "description": "A factory checklist for comparing small concrete pumps from China: motor or diesel kW, theoretical m³/h, 出口压力, 骨料, pipe DN, envelope and weight. 品锦 examples use published 邢台 rows. Marketplace listing prices and copy vary — we do not copy Alibaba text.",
+      "imageAlt": "电动15 compact concrete pump from 河北品锦机械 邢台工厂目录",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "电动20 vs 电动30 comparison",
+        "邢台 construction machinery factory",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Compare small concrete pumps from China on the same cells: power (kW), 理论输送量 (m³/h), 出口压力, max 骨料, pipe DN, conveying distance, hopper, envelope and weight. 品锦’s compact electric examples: 电动15 (15 kW, 8–10 m³/h, 450 kg), 电动20 (22 kW, 8–10 m³/h, 10 MPa, 900 kg), 电动30 (30 kW, 12–15 m³/h, 20 MPa, 1200 kg). Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. This site has no published list price.",
+        "who": "Importers and contractors shortlisting China 拖式泵s who want a specification checklist instead of a copied marketplace paragraph.",
+        "factors": [
+          "Identical units: kW, m³/h, MPa, stone, DN, metres, kg",
+          "Whether output is labelled theoretical",
+          "Factory location and whether 臂架泵s or plants are actually listed",
+          "Quote terms: EXW vs listing price, MOQ, spare-part policy"
+        ]
+      },
+      "seoTitle": "Compare Small Concrete Pumps from China Suppliers | 品锦",
+      "imageCaption": "电动15 compact trailer, 邢台 catalogue — one compact row to compare against, not a nickname",
+      "faqs": [
+        {
+          "question": "Should I rank suppliers by the Alibaba price first?",
+          "answer": "No. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. 品锦 产品页s do not publish a list price. Compare specification cells, then ask for a factory quote."
+        },
+        {
+          "question": "Does a higher number in the model name mean a larger pump?",
+          "answer": "Not by itself. 电动20 and 电动15 both list 8–10 m³/h. Electric 10 Series lists 21 m³/h theoretical with 25 m 水平. Compare the table, not the name — see 电动20 vs 30."
+        }
+      ]
+    },
+    "pt": {
+      "title": "How to Compare Small Concrete Pumps from China Suppliers",
+      "description": "A factory checklist for comparing small concrete pumps from China: motor or diesel kW, theoretical m³/h, pressão de saída, agregado, pipe DN, envelope and weight. Pinjin examples use published Xingtai rows. Marketplace listing prices and copy vary — we do not copy Alibaba text.",
+      "imageAlt": "Electric 15 compact concrete pump from Hebei Pinjin Machinery catálogo da fábrica de Xingtai",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 20 vs Electric 30 comparison",
+        "Xingtai construction machinery factory",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Compare small concrete pumps from China on the same cells: power (kW), saída teórica (m³/h), pressão de saída, max agregado, pipe DN, conveying distance, hopper, envelope and weight. Pinjin’s compact electric examples: Electric 15 (15 kW, 8–10 m³/h, 450 kg), Electric 20 (22 kW, 8–10 m³/h, 10 MPa, 900 kg), Electric 30 (30 kW, 12–15 m³/h, 20 MPa, 1200 kg). Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. This site has no published list price.",
+        "who": "Importers and contractors shortlisting China bomba reboques who want a specification checklist instead of a copied marketplace paragraph.",
+        "factors": [
+          "Identical units: kW, m³/h, MPa, stone, DN, metres, kg",
+          "Whether output is labelled theoretical",
+          "Factory location and whether bomba lanças or plants are actually listed",
+          "Quote terms: EXW vs listing price, MOQ, spare-part policy"
+        ]
+      },
+      "seoTitle": "Compare Small Concrete Pumps from China Suppliers | Pinjin",
+      "imageCaption": "Electric 15 compact trailer, Xingtai catalogue — one compact row to compare against, not a nickname",
+      "faqs": [
+        {
+          "question": "Should I rank suppliers by the Alibaba price first?",
+          "answer": "No. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. Pinjin página do produtos do not publish a list price. Compare specification cells, then ask for a factory quote."
+        },
+        {
+          "question": "Does a higher number in the model name mean a larger pump?",
+          "answer": "Not by itself. Electric 20 and Electric 15 both list 8–10 m³/h. Electric 10 Series lists 21 m³/h theoretical with 25 m horizontal. Compare the table, not the name — see Electric 20 vs 30."
+        }
+      ]
+    },
+    "ar": {
+      "title": "How to Compare Small Concrete Pumps from China Suppliers",
+      "description": "A factory checklist for comparing small concrete pumps from China: motor or diesel kW, theoretical m³/h, ضغط المخرج, ركام, pipe DN, envelope and weight. Pinjin examples use published شينغتاي rows. Marketplace listing prices and copy vary — we do not copy Alibaba text.",
+      "imageAlt": "Electric 15 compact concrete pump from Hebei Pinjin Machinery كتالوج مصنع شينغتاي",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 20 vs Electric 30 comparison",
+        "شينغتاي construction machinery factory",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Compare small concrete pumps from China on the same cells: power (kW), الإنتاج النظري (m³/h), ضغط المخرج, max ركام, pipe DN, conveying distance, hopper, envelope and weight. Pinjin’s compact electric examples: Electric 15 (15 kW, 8–10 m³/h, 450 kg), Electric 20 (22 kW, 8–10 m³/h, 10 MPa, 900 kg), Electric 30 (30 kW, 12–15 m³/h, 20 MPa, 1200 kg). Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. This site has no published list price.",
+        "who": "Importers and contractors shortlisting China مضخة مقطورةs who want a specification checklist instead of a copied marketplace paragraph.",
+        "factors": [
+          "Identical units: kW, m³/h, MPa, stone, DN, metres, kg",
+          "Whether output is labelled theoretical",
+          "Factory location and whether مضخة ذراعs or plants are actually listed",
+          "Quote terms: EXW vs listing price, MOQ, spare-part policy"
+        ]
+      },
+      "seoTitle": "Compare Small Concrete Pumps from China Suppliers | Pinjin",
+      "imageCaption": "Electric 15 compact trailer, شينغتاي catalogue — one compact row to compare against, not a nickname",
+      "faqs": [
+        {
+          "question": "Should I rank suppliers by the Alibaba price first?",
+          "answer": "No. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. Pinjin صفحة المنتجs do not publish a list price. Compare specification cells, then ask for a factory quote."
+        },
+        {
+          "question": "Does a higher number in the model name mean a larger pump?",
+          "answer": "Not by itself. Electric 20 and Electric 15 both list 8–10 m³/h. Electric 10 Series lists 21 m³/h theoretical with 25 m أفقي. Compare the table, not the name — see Electric 20 vs 30."
+        }
+      ]
+    },
+    "ru": {
+      "title": "How to Compare Small Concrete Pumps from China Suppliers",
+      "description": "A factory checklist for comparing small concrete pumps from China: motor or diesel kW, theoretical m³/h, давление на выходе, заполнитель, pipe DN, envelope and weight. Pinjin examples use published Синтай rows. Marketplace listing prices and copy vary — we do not copy Alibaba text.",
+      "imageAlt": "Electric 15 compact concrete pump from Hebei Pinjin Machinery каталог завода в Синтае",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 20 vs Electric 30 comparison",
+        "Синтай construction machinery factory",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Compare small concrete pumps from China on the same cells: power (kW), теоретическая производительность (m³/h), давление на выходе, max заполнитель, pipe DN, conveying distance, hopper, envelope and weight. Pinjin’s compact electric examples: Electric 15 (15 kW, 8–10 m³/h, 450 kg), Electric 20 (22 kW, 8–10 m³/h, 10 MPa, 900 kg), Electric 30 (30 kW, 12–15 m³/h, 20 MPa, 1200 kg). Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. This site has no published list price.",
+        "who": "Importers and contractors shortlisting China прицепной насосs who want a specification checklist instead of a copied marketplace paragraph.",
+        "factors": [
+          "Identical units: kW, m³/h, MPa, stone, DN, metres, kg",
+          "Whether output is labelled theoretical",
+          "Factory location and whether автобетононасос со стрелойs or plants are actually listed",
+          "Quote terms: EXW vs listing price, MOQ, spare-part policy"
+        ]
+      },
+      "seoTitle": "Compare Small Concrete Pumps from China Suppliers | Pinjin",
+      "imageCaption": "Electric 15 compact trailer, Синтай catalogue — one compact row to compare against, not a nickname",
+      "faqs": [
+        {
+          "question": "Should I rank suppliers by the Alibaba price first?",
+          "answer": "No. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. Pinjin страница изделияs do not publish a list price. Compare specification cells, then ask for a factory quote."
+        },
+        {
+          "question": "Does a higher number in the model name mean a larger pump?",
+          "answer": "Not by itself. Electric 20 and Electric 15 both list 8–10 m³/h. Electric 10 Series lists 21 m³/h theoretical with 25 m горизонталь. Compare the table, not the name — see Electric 20 vs 30."
+        }
+      ]
+    }
+  }
 }

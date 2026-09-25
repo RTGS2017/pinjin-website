@@ -5,10 +5,12 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { Button } from '@/components/ui/Button';
 import { contactInquiryPath } from '@/config/site';
 import { buildFaqPageJsonLd, siteFaqs } from '@/data/faq';
+import { extraSiteFaqItems } from '@/data/sourced/loadSourcedFaqs';
 import { useI18n } from '@/i18n/I18nContext';
 
 export function Faq() {
   const { lang, t, tx } = useI18n();
+  const faqs = [...siteFaqs, ...extraSiteFaqItems(lang)];
 
   return (
     <section className="section-y bg-bg">
@@ -16,7 +18,7 @@ export function Faq() {
         title={t.seo.faqTitle}
         description={t.page.faqSubtitle}
         path="/faq"
-        jsonLd={buildFaqPageJsonLd(siteFaqs, lang)}
+        jsonLd={buildFaqPageJsonLd(faqs, lang)}
       />
       <div className="container-site">
         <SectionTitle
@@ -35,7 +37,7 @@ export function Faq() {
         </div>
 
         <div className="mt-12 space-y-4">
-          {siteFaqs.map((item, index) => (
+          {faqs.map((item, index) => (
             <details
               key={item.id}
               className="group border border-border bg-bg open:bg-bg-soft"

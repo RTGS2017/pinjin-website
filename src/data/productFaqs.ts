@@ -7,6 +7,7 @@ import {
 import { getNearbyComparisonText } from '@/data/productCompare';
 import type { Lang } from '@/i18n/types';
 import { pick } from '@/i18n/types';
+import { extraProductFaqPlain } from '@/data/sourced/loadSourcedFaqs';
 
 export interface ProductFaqItem {
   question: string;
@@ -301,5 +302,6 @@ export function getProductFaqs(product: Product, lang: Lang): ProductFaqItem[] {
     }),
   });
 
-  return items.slice(0, 12);
+  const extras = extraProductFaqPlain(product.slug, lang);
+  return [...extras, ...items].slice(0, extras.length > 0 ? 14 : 12);
 }

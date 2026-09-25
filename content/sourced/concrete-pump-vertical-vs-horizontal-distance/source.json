@@ -1,0 +1,267 @@
+{
+  "title": "Concrete Pump Vertical vs Horizontal Conveying Distance",
+  "seoTitle": "Vertical vs Horizontal Concrete Pump Distance | Pinjin",
+  "description": "Do not add H and V into one number. Xingtai tables print pairs, sometimes split by aggregate. Electric 80 lists 900 m / 300 m; Electric 60 fine-stone lists 200 m / 600 m. ACI notes extra pressure for vertical pipe.",
+  "primaryKeyword": "concrete pump vertical vs horizontal distance",
+  "secondaryKeywords": [
+    "concrete pump conveying distance",
+    "vertical pumping height",
+    "horizontal pumping distance"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "technical-reference",
+  "tags": [
+    "distance",
+    "vertical",
+    "horizontal"
+  ],
+  "date": "2026-09-24",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-80-concrete-pump",
+    "electric-60-concrete-pump",
+    "diesel-120-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "high-rise-building-concrete-pump-selection",
+    "concrete-pumping-pressure-slump-aggregate",
+    "electric-80-concrete-pump-guide",
+    "concrete-pump-for-slope-retaining-wall"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/high-rise-building-concrete-pump-selection",
+      "label": "High-rise building concrete pump selection"
+    },
+    {
+      "href": "/solutions/infrastructure",
+      "label": "Infrastructure concrete pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Pinjin conveying distance is a printed horizontal / vertical pair for a stated mix, not a single ‘max metres’ slogan. Electric 80 lists 900 m / 300 m (2 cm aggregate). Electric 60 lists fine-stone 200 m / 600 m, 13 mm 150 m / 450 m, 24 mm 100 m / 300 m. Diesel 120 lists 150 m / 500 m. ACI 304.2R notes that vertical pumping adds pressure (industry figure: about one bar per 4 m of rise) and that hose is not equal to the same length of steel pipe.",
+    "who": "Engineers converting floors to metres, or buyers who copied one marketplace ‘max distance’ onto the wrong Pinjin row.",
+    "factors": [
+      "The H/V pair on that model page, not another model’s pair",
+      "Which aggregate row (fine-stone / 13 mm / 24 mm) if the table splits them",
+      "Vertical rise and elbows add equivalent length — we do not invent a factory loss formula beyond the printed pair",
+      "Hose versus steel (see the hose vs pipe page)"
+    ],
+    "relatedModels": [
+      "electric-80-concrete-pump",
+      "electric-60-concrete-pump",
+      "diesel-120-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I add horizontal and vertical metres together to pick a pump?",
+      "answer": "No. Use the pair printed on the model page. Electric 15 is 60–80 m horizontal and 15–20 m vertical as two figures. Electric 80 is 900 m / 300 m. We do not publish a factory formula that converts a job into one equivalent metre and then invents a SKU."
+    },
+    {
+      "question": "Why is Electric 80’s vertical 300 m while Electric 60 fine-stone lists 600 m?",
+      "answer": "They are different printed rows. Electric 80: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm. Electric 60: 90 kW, 40 m³/h, 35 MPa, fine-stone 200 m / 600 m. Do not merge the 900 m horizontal onto the 600 m vertical. Match the mix to the row that actually prints it."
+    },
+    {
+      "question": "Does vertical pipe need more pressure than the same length of horizontal pipe?",
+      "answer": "ACI 304.2R cites an industry estimating note that vertical pumping adds about one bar per 4 m of rise, and that hose is not 1:1 with steel. Pinjin does not republish a guaranteed site pressure from that note. We only confirm whether your stated H and V sit inside a printed pair."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-80-concrete-pump/main.webp",
+    "alt": "Electric 80 HBT80 trailer concrete pump in Xingtai, catalogue 900 m horizontal / 300 m vertical",
+    "caption": "Electric 80 — printed 900 m / 300 m, not a boom length"
+  },
+  "sources": [
+    {
+      "name": "Pinjin Electric 80 product page",
+      "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 60 product page",
+      "url": "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Diesel 120 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba buying guide: maximum horizontal/vertical reach as a selection factor",
+      "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+      "type": "marketplace"
+    },
+    {
+      "name": "ACI 304.2R-17: vertical pumping pressure note and hose vs steel equivalent length",
+      "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+      "type": "industry"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump Vertical vs Horizontal Conveying Distance",
+      "description": "Do not add H and V into one number. 邢台 tables print pairs, sometimes split by 骨料. 电动80 lists 900 m / 300 m; Electric 60 细石 lists 200 m / 600 m. ACI notes extra pressure for 垂直 pipe.",
+      "imageAlt": "电动80 HBT80 trailer concrete pump in 邢台, catalogue 900 m 水平 / 300 m 垂直",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "High-rise building concrete pump selection",
+        "Infrastructure concrete pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "品锦 conveying distance is a printed 水平 / 垂直 pair for a stated mix, not a single ‘max metres’ slogan. 电动80 lists 900 m / 300 m (2 cm 骨料). Electric 60 lists 细石 200 m / 600 m, 13 mm 150 m / 450 m, 24 mm 100 m / 300 m. Diesel 120 lists 150 m / 500 m. ACI 304.2R notes that 垂直 pumping adds pressure (industry figure: about one bar per 4 m of rise) and that hose is not equal to the same length of steel pipe.",
+        "who": "Engineers converting floors to metres, or buyers who copied one marketplace ‘max distance’ onto the wrong 品锦 row.",
+        "factors": [
+          "The H/V pair on that model page, not another model’s pair",
+          "Which 骨料 row (细石 / 13 mm / 24 mm) if the table splits them",
+          "Vertical rise and elbows add equivalent length — we 不要编造 a factory loss formula beyond the printed pair",
+          "Hose versus steel (see the hose vs pipe page)"
+        ]
+      },
+      "seoTitle": "Vertical vs Horizontal Concrete Pump Distance | 品锦",
+      "imageCaption": "电动80 — printed 900 m / 300 m, not a boom length",
+      "faqs": [
+        {
+          "question": "Can I add 水平 and 垂直 metres together to pick a pump?",
+          "answer": "No. Use the pair printed on the model page. 电动15 is 60–80 m 水平 and 15–20 m 垂直 as two figures. 电动80 is 900 m / 300 m. We do not publish a factory formula that converts a job into one equivalent metre and then invents a SKU."
+        },
+        {
+          "question": "Why is 电动80’s 垂直 300 m while Electric 60 细石 lists 600 m?",
+          "answer": "They are different printed rows. 电动80: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm. Electric 60: 90 kW, 40 m³/h, 35 MPa, 细石 200 m / 600 m. Do not merge the 900 m 水平 onto the 600 m 垂直. Match the mix to the row that actually prints it."
+        },
+        {
+          "question": "Does 垂直 pipe need more pressure than the same length of 水平 pipe?",
+          "answer": "ACI 304.2R cites an industry estimating note that 垂直 pumping adds about one bar per 4 m of rise, and that hose is not 1:1 with steel. 品锦 does not republish a guaranteed site pressure from that note. We only confirm whether your stated H and V sit inside a printed pair."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Vertical vs Horizontal Conveying Distance",
+      "description": "Do not add H and V into one number. Xingtai tables print pairs, sometimes split by agregado. Electric 80 lists 900 m / 300 m; Electric 60 pedra fina lists 200 m / 600 m. ACI notes extra pressure for vertical pipe.",
+      "imageAlt": "Electric 80 HBT80 trailer concrete pump in Xingtai, catalogue 900 m horizontal / 300 m vertical",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "High-rise building concrete pump selection",
+        "Infrastructure concrete pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin conveying distance is a printed horizontal / vertical pair for a stated mix, not a single ‘max metres’ slogan. Electric 80 lists 900 m / 300 m (2 cm agregado). Electric 60 lists pedra fina 200 m / 600 m, 13 mm 150 m / 450 m, 24 mm 100 m / 300 m. Diesel 120 lists 150 m / 500 m. ACI 304.2R notes that vertical pumping adds pressure (industry figure: about one bar per 4 m of rise) and that hose is not equal to the same length of steel pipe.",
+        "who": "Engineers converting floors to metres, or buyers who copied one marketplace ‘max distance’ onto the wrong Pinjin row.",
+        "factors": [
+          "The H/V pair on that model page, not another model’s pair",
+          "Which agregado row (pedra fina / 13 mm / 24 mm) if the table splits them",
+          "Vertical rise and elbows add equivalent length — we não invente a factory loss formula beyond the printed pair",
+          "Hose versus steel (see the hose vs pipe page)"
+        ]
+      },
+      "seoTitle": "Vertical vs Horizontal Concrete Pump Distance | Pinjin",
+      "imageCaption": "Electric 80 — printed 900 m / 300 m, not a boom length",
+      "faqs": [
+        {
+          "question": "Can I add horizontal and vertical metres together to pick a pump?",
+          "answer": "No. Use the pair printed on the model page. Electric 15 is 60–80 m horizontal and 15–20 m vertical as two figures. Electric 80 is 900 m / 300 m. We do not publish a factory formula that converts a job into one equivalent metre and then invents a SKU."
+        },
+        {
+          "question": "Why is Electric 80’s vertical 300 m while Electric 60 pedra fina lists 600 m?",
+          "answer": "They are different printed rows. Electric 80: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm. Electric 60: 90 kW, 40 m³/h, 35 MPa, pedra fina 200 m / 600 m. Do not merge the 900 m horizontal onto the 600 m vertical. Match the mix to the row that actually prints it."
+        },
+        {
+          "question": "Does vertical pipe need more pressure than the same length of horizontal pipe?",
+          "answer": "ACI 304.2R cites an industry estimating note that vertical pumping adds about one bar per 4 m of rise, and that hose is not 1:1 with steel. Pinjin does not republish a guaranteed site pressure from that note. We only confirm whether your stated H and V sit inside a printed pair."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Vertical vs Horizontal Conveying Distance",
+      "description": "Do not add H and V into one number. شينغتاي tables print pairs, sometimes split by ركام. Electric 80 lists 900 m / 300 m; Electric 60 حصى ناعم lists 200 m / 600 m. ACI notes extra pressure for عمودي pipe.",
+      "imageAlt": "Electric 80 HBT80 trailer concrete pump in شينغتاي, catalogue 900 m أفقي / 300 m عمودي",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "High-rise building concrete pump selection",
+        "Infrastructure concrete pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin conveying distance is a printed أفقي / عمودي pair for a stated mix, not a single ‘max metres’ slogan. Electric 80 lists 900 m / 300 m (2 cm ركام). Electric 60 lists حصى ناعم 200 m / 600 m, 13 mm 150 m / 450 m, 24 mm 100 m / 300 m. Diesel 120 lists 150 m / 500 m. ACI 304.2R notes that عمودي pumping adds pressure (industry figure: about one bar per 4 m of rise) and that hose is not equal to the same length of steel pipe.",
+        "who": "Engineers converting floors to metres, or buyers who copied one marketplace ‘max distance’ onto the wrong Pinjin row.",
+        "factors": [
+          "The H/V pair on that model page, not another model’s pair",
+          "Which ركام row (حصى ناعم / 13 mm / 24 mm) if the table splits them",
+          "Vertical rise and elbows add equivalent length — we لا تختلق a factory loss formula beyond the printed pair",
+          "Hose versus steel (see the hose vs pipe page)"
+        ]
+      },
+      "seoTitle": "Vertical vs Horizontal Concrete Pump Distance | Pinjin",
+      "imageCaption": "Electric 80 — printed 900 m / 300 m, not a boom length",
+      "faqs": [
+        {
+          "question": "Can I add أفقي and عمودي metres together to pick a pump?",
+          "answer": "No. Use the pair printed on the model page. Electric 15 is 60–80 m أفقي and 15–20 m عمودي as two figures. Electric 80 is 900 m / 300 m. We do not publish a factory formula that converts a job into one equivalent metre and then invents a SKU."
+        },
+        {
+          "question": "Why is Electric 80’s عمودي 300 m while Electric 60 حصى ناعم lists 600 m?",
+          "answer": "They are different printed rows. Electric 80: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm. Electric 60: 90 kW, 40 m³/h, 35 MPa, حصى ناعم 200 m / 600 m. Do not merge the 900 m أفقي onto the 600 m عمودي. Match the mix to the row that actually prints it."
+        },
+        {
+          "question": "Does عمودي pipe need more pressure than the same length of أفقي pipe?",
+          "answer": "ACI 304.2R cites an industry estimating note that عمودي pumping adds about one bar per 4 m of rise, and that hose is not 1:1 with steel. Pinjin does not republish a guaranteed site pressure from that note. We only confirm whether your stated H and V sit inside a printed pair."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Vertical vs Horizontal Conveying Distance",
+      "description": "Do not add H and V into one number. Синтай tables print pairs, sometimes split by заполнитель. Electric 80 lists 900 m / 300 m; Electric 60 мелкий камень lists 200 m / 600 m. ACI notes extra pressure for вертикаль pipe.",
+      "imageAlt": "Electric 80 HBT80 trailer concrete pump in Синтай, catalogue 900 m горизонталь / 300 m вертикаль",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "High-rise building concrete pump selection",
+        "Infrastructure concrete pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin conveying distance is a printed горизонталь / вертикаль pair for a stated mix, not a single ‘max metres’ slogan. Electric 80 lists 900 m / 300 m (2 cm заполнитель). Electric 60 lists мелкий камень 200 m / 600 m, 13 mm 150 m / 450 m, 24 mm 100 m / 300 m. Diesel 120 lists 150 m / 500 m. ACI 304.2R notes that вертикаль pumping adds pressure (industry figure: about one bar per 4 m of rise) and that hose is not equal to the same length of steel pipe.",
+        "who": "Engineers converting floors to metres, or buyers who copied one marketplace ‘max distance’ onto the wrong Pinjin row.",
+        "factors": [
+          "The H/V pair on that model page, not another model’s pair",
+          "Which заполнитель row (мелкий камень / 13 mm / 24 mm) if the table splits them",
+          "Vertical rise and elbows add equivalent length — we не выдумывать a factory loss formula beyond the printed pair",
+          "Hose versus steel (see the hose vs pipe page)"
+        ]
+      },
+      "seoTitle": "Vertical vs Horizontal Concrete Pump Distance | Pinjin",
+      "imageCaption": "Electric 80 — printed 900 m / 300 m, not a boom length",
+      "faqs": [
+        {
+          "question": "Can I add горизонталь and вертикаль metres together to pick a pump?",
+          "answer": "No. Use the pair printed on the model page. Electric 15 is 60–80 m горизонталь and 15–20 m вертикаль as two figures. Electric 80 is 900 m / 300 m. We do not publish a factory formula that converts a job into one equivalent metre and then invents a SKU."
+        },
+        {
+          "question": "Why is Electric 80’s вертикаль 300 m while Electric 60 мелкий камень lists 600 m?",
+          "answer": "They are different printed rows. Electric 80: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm. Electric 60: 90 kW, 40 m³/h, 35 MPa, мелкий камень 200 m / 600 m. Do not merge the 900 m горизонталь onto the 600 m вертикаль. Match the mix to the row that actually prints it."
+        },
+        {
+          "question": "Does вертикаль pipe need more pressure than the same length of горизонталь pipe?",
+          "answer": "ACI 304.2R cites an industry estimating note that вертикаль pumping adds about one bar per 4 m of rise, and that hose is not 1:1 with steel. Pinjin does not republish a guaranteed site pressure from that note. We only confirm whether your stated H and V sit inside a printed pair."
+        }
+      ]
+    }
+  }
+}

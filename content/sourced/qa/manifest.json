@@ -1,0 +1,1456 @@
+{
+  "generated": "2026-09-25",
+  "note": "One hundred sourced QAs (qa-01…qa-100). Blog items with inArticleFaqs live on each article source.json. Extra items inject on EN product, category and /faq pages only. Numbers from Pinjin catalogue or named public sources. Listing marketing copy is not reused.",
+  "items": [
+    {
+      "id": "qa-01",
+      "question": "Does Pinjin manufacture truck-mounted boom pumps?",
+      "answer": "No. The published pump lines are trailer and compact transfer concrete pumps, mixer pumps on one trailer, spraying machines and replacement parts. Mixing plants and placing booms are not catalogue products.",
+      "source": {
+        "name": "Alibaba buying guide: boom vs trailer vs mini pump types",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "trailer-concrete-pump-vs-boom-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-02",
+      "question": "Is a trailer pump enough for a single-family house?",
+      "answer": "Match the printed house rows, not a marketplace average. Electric 15 lists 8–10 m³/h and 15–20 m vertical; Tractor-Driven 4100 lists 6–12 m³/h; the rural diesel pump lists 5–8 m³/h. An Alibaba buying-guide FAQ cites 30–60 m³/h as a typical residential band — that is a marketplace observation, not a Pinjin catalogue row.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: single-family home pump size",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "trailer-concrete-pump-vs-boom-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-03",
+      "question": "Can Pinjin add a placing boom onto a trailer pump?",
+      "answer": "No boom, outrigger set or truck chassis is listed. Customisation starts from a listed trailer or mixer-pump model. Unpublished boom reach is not promised.",
+      "source": {
+        "name": "ACI PRC-304.2-17 trailer pumps vs truck-mounted pumps",
+        "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=304217&Format=DOWNLOAD&Language=English&Units=US_AND_METRIC",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "trailer-concrete-pump-vs-boom-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-04",
+      "question": "Is hopper capacity the same as pumping output?",
+      "answer": "No. Electric 20 lists hopper 0.25 m³ and output 8–10 m³/h. Electric 80 lists hopper 0.7 m³ and output 60 m³/h. Use both printed rows. Hopper volume is a buffer at the grate, not cubic metres placed per hour.",
+      "source": {
+        "name": "Alibaba buying guide: hopper size as a spec to evaluate",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hopper-capacity"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-05",
+      "question": "What hopper sizes does Pinjin publish?",
+      "answer": "Catalogue examples: Electric 10 series 0.1 m³; Tractor-Driven 4100 0.25 m³; Electric 20 0.25 m³; Electric 30 / Low Pressure 40 / Diesel 30 0.3 m³; Electric 40 / 50 / mixer pump / Diesel 40–60 0.4 m³; Low Pressure 60 0.5 m³; LZ-80 / Diesel 120 0.6 m³; Electric 60 and Electric 80 0.7 m³. Missing cells on other pages stay blank.",
+      "source": {
+        "name": "Pinjin Electric 20 hopper 0.25 m³ product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hopper-capacity"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-06",
+      "question": "Is the mixer-pump ‘400/500 mixer’ the hopper?",
+      "answer": "No. The integrated mixer pump lists hopper 0.4 m³ and a series note: 30 series with 400 mixer; 40/50 series with 500 mixer. That note is the mixing drum pairing, not a second hopper litre figure. The unit is still a trailer that mixes and pumps — not a batching plant.",
+      "source": {
+        "name": "Pinjin Integrated Mixer Pump series note",
+        "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hopper-capacity"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-07",
+      "question": "Can I add horizontal and vertical metres together to pick a pump?",
+      "answer": "No. Use the pair printed on the model page. Electric 15 is 60–80 m horizontal and 15–20 m vertical as two figures. Electric 80 is 900 m / 300 m. We do not publish a factory formula that converts a job into one equivalent metre and then invents a SKU.",
+      "source": {
+        "name": "Alibaba buying guide: max horizontal/vertical reach",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-vertical-vs-horizontal-distance"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-08",
+      "question": "Why is Electric 80’s vertical 300 m while Electric 60 fine-stone lists 600 m?",
+      "answer": "They are different printed rows. Electric 80: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm. Electric 60: 90 kW, 40 m³/h, 35 MPa, fine-stone 200 m / 600 m. Do not merge the 900 m horizontal onto the 600 m vertical. Match the mix to the row that actually prints it.",
+      "source": {
+        "name": "Pinjin Electric 80 product page",
+        "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-vertical-vs-horizontal-distance"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-09",
+      "question": "Does vertical pipe need more pressure than the same length of horizontal pipe?",
+      "answer": "ACI 304.2R cites an industry estimating note that vertical pumping adds about one bar per 4 m of rise, and that hose is not 1:1 with steel. Pinjin does not republish a guaranteed site pressure from that note. We only confirm whether your stated H and V sit inside a printed pair.",
+      "source": {
+        "name": "ACI 304.2R-17 pumping pressure notes",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-vertical-vs-horizontal-distance"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-10",
+      "question": "Does Pinjin print S-valve or gate valve on each pump specification table?",
+      "answer": "No. Trailer pump pages list power, output, pressure, hopper, distance, aggregate and size. Valve type is not a published cell. The spare-parts hub states that wear parts are the S-valve family. Do not copy an Alibaba ‘S-valve’ badge onto a blank cell.",
+      "source": {
+        "name": "Alibaba buying guide: S/S valve type as evaluation factor",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "s-valve-vs-gate-valve-concrete-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-11",
+      "question": "Are Pinjin S-tube seals OEM parts for other pump brands?",
+      "answer": "No. They are Xingtai replacement wear parts. Send part name, outer diameter or kit, and quantity. Not sold in small batches; no published list price.",
+      "source": {
+        "name": "Pinjin concrete pump parts hub",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-parts/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "s-valve-vs-gate-valve-concrete-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-12",
+      "question": "Is a gate-valve or pendulum-valve trailer listed in the catalogue?",
+      "answer": "No such SKU name is listed. Marketplace filters for gate / pendulum valves are a search observation. We quote listed trailers and listed S-valve wear parts only.",
+      "source": {
+        "name": "Alibaba listing observation: S-valve as distribution valve type",
+        "url": "https://www.alibaba.com/product-detail/SANY-HBT6016C-5D-Diesel-Trailer-Mounted_60522046964.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "s-valve-vs-gate-valve-concrete-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-13",
+      "question": "If the site already has 380 V, should I still buy a diesel trailer?",
+      "answer": "Not as a default. Match the electric row that fits output and distance — Electric 40 lists 45 kW and 21 m³/h. Choose diesel when the grid cannot feed the listed motor, or when the buyer states a generator will not be provided. A diesel catalogue row is not an electric-catalogue substitute.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: electric pumps on remote sites",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-vs-diesel-concrete-pump-grid-sites"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-14",
+      "question": "Are electric pumps viable on remote job sites?",
+      "answer": "Alibaba’s buying-guide FAQ: only if reliable grid or a large generator is available; otherwise diesel is more practical. Pinjin does not publish generator sizing. Send site voltage/frequency or state diesel. Rural diesel 17 kW and Diesel 30 (56 kW) are the compact/off-grid end of our diesel ladder — see the no-electricity guide for that job, not this page.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: electric pumps on remote job sites",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-vs-diesel-concrete-pump-grid-sites"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-15",
+      "question": "Can I run a diesel pump inside a basement or tunnel?",
+      "answer": "The machine will run if fuel and exhaust routing are the contractor’s responsibility. We do not publish ventilation air changes or emission certificates. For enclosed pours with a listed grid, we discuss electric trailers. Spraying machines have a separate diesel sprayer (28/32 HP) when there is no 380 V.",
+      "source": {
+        "name": "Marketplace electric-pump FAQ: enclosed/tunnel sites vs diesel exhaust",
+        "url": "https://www.concrete-pumpmixer.com/concrete-machinery/stationary-concrete-pump/electric-concrete-pump.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-vs-diesel-concrete-pump-grid-sites"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-16",
+      "question": "What size pump do I need for a single-family home?",
+      "answer": "Alibaba’s buying-guide FAQ cites a trailer or mini pump at 30–60 m³/h. Pinjin house rows are smaller: Electric 15 8–10 m³/h, Tractor-Driven 4100 6–12 m³/h, rural diesel 5–8 m³/h. Match stone, pipe and access to those printed rows. Diesel 50 at 30 m³/h is a different, heavier trailer (3300 kg).",
+      "source": {
+        "name": "Alibaba buying guide FAQ: single-family home pump size",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-house-rural-building"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-17",
+      "question": "Electric 15, tractor 4100 or rural diesel — which house pump?",
+      "answer": "Grid and a 450 kg frame that fits 1900 × 900 × 1200 mm → Electric 15. Tractor on site, 6–12 m³/h, 40–100 m / 15–45 m → 4100. No grid and no tractor, 17 kW, 5–8 m³/h, 30–50 m / 10–30 m, 800 kg → rural diesel. None of these is Electric 80.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-house-rural-building"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-18",
+      "question": "Is a 2–3 floor self-built house inside Electric 15 vertical height?",
+      "answer": "Electric 15 lists 15–20 m vertical. A two- to three-storey house at about 3 m per floor can sit in that band if the pipe run is short and stone stays 1–3 cm. We still want your measured height and horizontal pipe — we do not convert storeys for you without those metres.",
+      "source": {
+        "name": "Alibaba buying guide: mini pumps for basements and restricted areas",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-house-rural-building"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-19",
+      "question": "Can I use rubber hose for the whole pumping distance?",
+      "answer": "ACPA/ACI: for long distance, use steel for as much of the run as practical; hose at the placing end. A metre of hose is not a metre of steel (about 1 m hose ≈ 3 m pipe equivalent in the ACPA note cited by ACI 304.2R). Pinjin catalogue distances are not ‘hose-only’ guarantees.",
+      "source": {
+        "name": "ACI 304.2R-17 hose vs steel equivalent length",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hose-vs-steel-pipe"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-20",
+      "question": "Does Pinjin publish hose and pipe diameters on the parts pages?",
+      "answer": "Delivery pipe and delivery hose pages do not print a fixed DN/length table. Diameter and length are quoted after the pump model. The DN80 clamp page is labelled EN14420-3, DN80, PN10/16, 3″/89. Other diameters are quoted against the pipeline. Electric 20 lists 80 mm pipe; Electric 15 and the mixer pump list 100–125 mm / 100 / 125 mm.",
+      "source": {
+        "name": "Pinjin delivery hose product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hose-vs-steel-pipe"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-21",
+      "question": "When should a placing hose be taken out of service?",
+      "answer": "ACPA mechanics guidance: remove hose when the inside lining wears enough to show reinforcement braiding. Pinjin does not publish a replacement-hour table. Photograph the lining with the model slug when you inquire.",
+      "source": {
+        "name": "ACPA mechanics manual: hose wear to reinforcement braiding",
+        "url": "https://www.concretepumpers.com/sites/concretepumpers.com/files/attachments/safety_procedures_mechanics_manual_rs_0.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hose-vs-steel-pipe"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-22",
+      "question": "What oil temperature is allowed on a Pinjin trailer pump?",
+      "answer": "Not published. Catalogue cells are power, output, pressure, hopper, distance, size. ACPA mechanics text warns that oil can get hotter than about 80 °C in a day’s work. Use the ACPA hot-oil sequence; do not treat 80 °C as a Pinjin thermostat setting.",
+      "source": {
+        "name": "ACPA mechanics manual: hydraulic oil burn hazard ~80 °C",
+        "url": "https://www.concretepumpers.com/sites/concretepumpers.com/files/attachments/safety_procedures_mechanics_manual_rs_0.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hydraulic-oil-temperature"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-23",
+      "question": "Does the catalogue say water-cooled or air-cooled hydraulics?",
+      "answer": "No. Some marketplace listings advertise water-cooling or air-cooling. Pinjin pages that name a hydraulic pump say Kawasaki 112, Kawasaki 140, Kawasaki double pump 100/112/140 — not a cooler type. Ask the factory if you need the cooler arrangement for a listed model; unpublished arrangements are not promised here.",
+      "source": {
+        "name": "Alibaba listing observation: water-cooling as marketplace spec language",
+        "url": "https://www.alibaba.com/product-detail/Heavy-Duty-HBTS80-Trailer-Mounted-Concrete_1601117773153.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hydraulic-oil-temperature"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-24",
+      "question": "What should the operator do when hydraulic oil is hot?",
+      "answer": "ACPA study guide: 1) stop pumping; 2) check the oil cooler (some pumps have a fan override); 3) find the heat source, such as a valve in the wrong position; 4) make certain the water box is full; 5) spray a mist of cool water over the hydraulic system and tank; 6) slow the pumping speed. Repeated overheating can mean a developing machine problem.",
+      "source": {
+        "name": "ACPA Guidelines for the safe operation of concrete pumps",
+        "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hydraulic-oil-temperature"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-25",
+      "question": "Does Pinjin sell a dry-mix gunite machine?",
+      "answer": "No dry-mix or gunite robot is listed. Catalogue sprayers pump premixed mortar, plaster or listed concrete through a spray hose. If the inquiry is dry material + nozzle water, that is not a Pinjin SKU.",
+      "source": {
+        "name": "Marketplace wet-mix shotcrete equipment pages (competitor SKUs not used as Pinjin specs)",
+        "url": "https://www.gengli.com/product/shotcrete_machine/wet_mix_shotcrete_machine/147.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "wet-mix-vs-dry-mix-shotcrete-sprayers"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-26",
+      "question": "Is a wet-mix sprayer the same as a fine-stone trailer pump?",
+      "answer": "No. Sprayers list particle ≤8 mm, ≤6 mm or ≤4 mm and a spray hose. Trailer pumps list centimetre-class aggregate and a pipeline. Use the spraying hub or the pump hub, not both names on one machine. The separate vs-mortar-sprayer article covers pipeline versus spray finishing.",
+      "source": {
+        "name": "ACI 304.2R-17 scope: does not address shotcreting",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "wet-mix-vs-dry-mix-shotcrete-sprayers"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-27",
+      "question": "Which Pinjin sprayer is the wet-mix shotcrete unit for tunnels?",
+      "answer": "None is named ‘shotcrete robot’. Hydraulic 5 m³/h (100 m / 50 m, ≤8 mm) and 7 m³/h (150 m / 70 m, ≤8 mm) are 380 V hose sprayers. Diesel sprayer: 5 m³/h, ≤6 mm, 80 m / 40 m, no grid. We do not publish rebound %, accelerator dosing or lining thickness.",
+      "source": {
+        "name": "Pinjin spraying-machines hub",
+        "url": "https://pinjinpump.com/en/products/spraying-machines/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "wet-mix-vs-dry-mix-shotcrete-sprayers"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-28",
+      "question": "Do you sell a tunnel shotcrete robot for primary lining?",
+      "answer": "No. Wet hose sprayers are on /products/spraying-machines with particle ≤8 mm or ≤6 mm. Trailer pumps place pipeline concrete. Neither family is named as a robotic shotcrete arm.",
+      "source": {
+        "name": "Alibaba buying guide: tunnel construction as a pump use case",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-tunnel-secondary-lining"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-29",
+      "question": "Diesel or electric for an underground heading?",
+      "answer": "If the heading can feed 110 kW, Electric 80 is the long-distance electric row (60 m³/h, 900 m / 300 m). If there is no grid, Diesel 50 (30 m³/h, 150 m / 450 m) or LZ-80 is the diesel discussion. Exhaust and ventilation stay with the contractor. We do not publish a tunnel emission certificate.",
+      "source": {
+        "name": "Marketplace diesel-pump FAQ: tunnels without stable power",
+        "url": "https://www.concrete-pumpmixer.com/concrete-machinery/stationary-concrete-pump/diesel-concrete-pump.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-tunnel-secondary-lining"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-30",
+      "question": "Is secondary lining the same as floor screed or secondary structure columns?",
+      "answer": "No. Secondary lining here means a tunnel or underground concrete lining pour through pipe. House secondary structure (columns/beams) is a different article. Floor screed is another. Send the heading length, mix and power so we open the correct table.",
+      "source": {
+        "name": "Pinjin Diesel 50 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-tunnel-secondary-lining"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-31",
+      "question": "Can I prime a Pinjin trailer pump with water instead of grout?",
+      "answer": "ACPA revised its water-priming statement: always prime the pump and placing line before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count. Do not treat ‘wet the hopper’ as a substitute for line lubrication.",
+      "source": {
+        "name": "ACPA revises its statement on water priming",
+        "url": "https://www.concretepumpers.com/acpa-news/2020/07/23/acpa-revises-its-statement-water-priming",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-32",
+      "question": "Do I need special training to operate a concrete pump?",
+      "answer": "Alibaba’s buying-guide FAQ says operators should receive formal training on hydraulics, safety and clog prevention. Pinjin does not publish an operator-licence programme or a training-hour table. We issue a daily trailer-pump checklist (hopper, clamps, leaks, S-valve observation, wash-out) and answer model-specific questions from Xingtai by WhatsApp or email.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: operator training",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-33",
+      "question": "Can any concrete mix be used with a Pinjin pump?",
+      "answer": "No. Match maximum aggregate to the printed row (examples: Electric 15 1–3 cm; Electric 80 ≤2 cm; Diesel 120 and LZ-80 6 cm and below). Tractor-Driven 4100 lists slump 180–220 mm. An Alibaba FAQ cites 4–6 inch slump and ¾ inch stone as a generic marketplace band — that is not a Pinjin table. Unpublished mixes are not promised.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: can any mix be pumped",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-34",
+      "question": "Do you list a foam-concrete or lightweight-aggregate pump?",
+      "answer": "No. ACI 304.2R discusses lightweight aggregate pumpability as a specialised topic. Pinjin catalogue rows name ordinary stone sizes (centimetre or millimetre classes) and sprayer particles. Foam, cellular or insulating concrete is not a published SKU. Send the mix only if you still want a listed trailer matched against its printed aggregate cell.",
+      "source": {
+        "name": "ACI PRC-304.2-17: lightweight aggregates in pumping (industry scope)",
+        "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=304217&Format=DOWNLOAD&Language=English&Units=US_AND_METRIC",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-35",
+      "question": "How often should a concrete pump be serviced?",
+      "answer": "Pinjin does not publish a 250–500 hour professional-service interval. That figure appears in an Alibaba buying-guide FAQ and is not adopted as a factory schedule. What we do publish is a daily trailer-pump checklist: hopper, pipeline clamps, hydraulic leak walk-around, S-valve observation, then after-pour wash. Wear parts are quoted by size after photos — no invented replacement hours.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: service every 250–500 hours (not a Pinjin table)",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-36",
+      "question": "If I buy on Alibaba, do you keep spare parts in an overseas warehouse?",
+      "answer": "No. Equipment and replacement parts ship from Xingtai. This site does not claim an overseas warehouse, exclusive distributors or a global after-sales network. Pipeline parts and S-valve wear parts are quoted after size and quantity; they are not small-batch parcels.",
+      "source": {
+        "name": "Alibaba buying guide: after-sales and spare-parts availability as a buying factor",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-37",
+      "question": "Is a larger hopper always a higher-output electric pump?",
+      "answer": "No. Hopper m³ and output m³/h are separate cells. Electric 20: 0.25 m³ hopper, 8–10 m³/h. Electric 40: 0.4 m³, 21 m³/h. Electric 80: 0.7 m³, 60 m³/h. Marketplace listings often print hopper next to output; we still match both printed rows.",
+      "source": {
+        "name": "Alibaba listing observation: hopper capacity as a spec column",
+        "url": "https://www.alibaba.com/product-detail/SANY-HBT6016C-5D-Diesel-Trailer-Mounted_60522046964.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "electric-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-38",
+      "question": "Can I use Electric 80’s 900 m horizontal with Electric 60’s 600 m vertical on one job?",
+      "answer": "No. Those metres live on different model pages. Electric 80 lists 900 m / 300 m. Electric 60 fine-stone lists 200 m / 600 m. Do not splice the two pairs. Match mix and both directions to one printed table.",
+      "source": {
+        "name": "Alibaba buying guide: maximum horizontal/vertical reach",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "electric-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-39",
+      "question": "A marketplace FAQ says 30–60 m³/h for a house — is that your rural diesel?",
+      "answer": "No. Rural diesel lists 5–8 m³/h and 800 kg. Tractor-Driven 4100 lists 6–12 m³/h. Diesel 50 lists 30 m³/h and 3300 kg — that happens to touch the Alibaba house band, but it is not named as a house pump. Match access and the printed row.",
+      "source": {
+        "name": "Alibaba buying guide FAQ: 30–60 m³/h for a single-family home",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "diesel-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-40",
+      "question": "Are diesel trailers automatically the tunnel pump because listings mention tunnels?",
+      "answer": "Listings mention tunnels as a diesel use case when power is unstable. Pinjin still matches output, aggregate and distance. Diesel 50 lists 30 m³/h and 150 m / 450 m. Exhaust in a heading is not a published ventilation rate. If 110 kW grid exists, Electric 80 is the long electric row.",
+      "source": {
+        "name": "Marketplace diesel-pump FAQ: tunnel and rural sites",
+        "url": "https://www.concrete-pumpmixer.com/concrete-machinery/stationary-concrete-pump/diesel-concrete-pump.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "diesel-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-41",
+      "question": "Does the mixer-pump 400/500 series note change hopper litres?",
+      "answer": "No. The electric integrated mixer pump lists hopper 0.4 m³, output 21 m³/h, 45 kW + 14 kW. The series note (30 series with 400 mixer; 40/50 series with 500 mixer) is drum pairing on the same trailer, not a hopper upgrade.",
+      "source": {
+        "name": "Pinjin Integrated Mixer Pump product page",
+        "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "mixer-pump"
+      }
+    },
+    {
+      "id": "qa-42",
+      "question": "Can a mixer pump replace ready-mix trucks on a rural house?",
+      "answer": "It mixes and pumps on one Xingtai trailer (electric: 21 m³/h, 4500 kg; diesel mixer-integrated is a separate page). It is not a batching plant and not a boom. Confirm gate access for 4500 kg before treating it as a house default — Electric 15 is 450 kg.",
+      "source": {
+        "name": "Alibaba listing observation: mixer pump for rural housing",
+        "url": "https://www.alibaba.com/product-detail/Concrete-Mixer-Pump-Truck-30M-Integrated_1601627456865.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "mixer-pump"
+      }
+    },
+    {
+      "id": "qa-43",
+      "question": "Do your spraying machines add water at the nozzle like dry-mix gunite?",
+      "answer": "No dry-mix gunite robot is listed. Hydraulic and diesel concrete sprayers list premixed material, particle ≤8 mm or ≤6 mm, and a spray hose. M9 is plaster at ≤4 mm. If the process is dry material plus nozzle water, it is not a catalogue SKU.",
+      "source": {
+        "name": "Marketplace wet-mix vs dry-mix shotcrete equipment labelling",
+        "url": "https://www.gengli.com/product/shotcrete_machine/wet_mix_shotcrete_machine/147.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "spraying-machine"
+      }
+    },
+    {
+      "id": "qa-44",
+      "question": "Can a hydraulic sprayer place the same stone as a trailer concrete pump?",
+      "answer": "No. Hydraulic sprayers list particle ≤8 mm. Trailer pumps list centimetre-class aggregate (for example Electric 15 1–3 cm, Diesel 120 6 cm and below). Open the matching hub.",
+      "source": {
+        "name": "Pinjin hydraulic concrete spraying machine",
+        "url": "https://pinjinpump.com/en/products/hydraulic-concrete-spraying-machine/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "spraying-machine"
+      }
+    },
+    {
+      "id": "qa-45",
+      "question": "For a long trailer pipeline, should I order only rubber hose?",
+      "answer": "ACPA: use steel for as much of a long distance as practical. ACI 304.2R: a given length of hose needs about three times the pressure of the same length of steel. Pinjin quotes delivery pipe and delivery hose separately after model, DN and length.",
+      "source": {
+        "name": "ACPA study guide: steel pipe for long distance",
+        "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "spare-parts"
+      }
+    },
+    {
+      "id": "qa-46",
+      "question": "Are S-valve pistons and seals OEM parts of Schwing or Putzmeister pumps?",
+      "answer": "No. They are Xingtai replacement wear parts. Confirm outer diameter on the pump. Not sold in small batches; no list price; no other-brand OEM claim.",
+      "source": {
+        "name": "Pinjin concrete pump parts hub",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-parts/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "spare-parts"
+      }
+    },
+    {
+      "id": "qa-47",
+      "question": "Does a metre of this delivery hose count as a metre of catalogue pumping distance?",
+      "answer": "No. ACI 304.2R cites ACPA: about 1 m of rubber hose ≈ 3 m of pipe equivalent, and hose needs roughly three times the pressure of equal steel length. Catalogue H/V pairs are not hose-only budgets. Quote DN and length against the pump model.",
+      "source": {
+        "name": "ACI 304.2R-17 hose pressure and equivalent length",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-delivery-hose"
+      }
+    },
+    {
+      "id": "qa-48",
+      "question": "Can I order one delivery hose as a sample?",
+      "answer": "No. Factory stock is packed for project quantities, not small-batch parcels. Send pump model, DN, length and quantity for a Xingtai quote. No published list price.",
+      "source": {
+        "name": "Pinjin concrete pump delivery hose commercial terms",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-delivery-hose"
+      }
+    },
+    {
+      "id": "qa-49",
+      "question": "Is Electric 80’s 900 m horizontal a truck-boom reach?",
+      "answer": "No. Electric 80 (HBT80-1816-110) is a trailer pipeline pump: 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m, ≤2 cm, 6000 kg. Pinjin does not list placing booms. 900 m is a printed pipeline pair, not boom length.",
+      "source": {
+        "name": "Alibaba buying guide: boom reach vs trailer pipeline",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-80-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-50",
+      "question": "Is the 21 m³/h mixer pump the default machine for a village house?",
+      "answer": "Only if you will use on-trailer mixing and the 4500 kg / 3900 × 1500 × 1600 mm frame can enter. House compact pumps are Electric 15 (450 kg, 8–10 m³/h) or rural diesel (800 kg, 5–8 m³/h). Marketplace ‘rural housing mixer pump’ listings are not our table.",
+      "source": {
+        "name": "Alibaba listing observation: mixer pump for rural housing construction",
+        "url": "https://www.alibaba.com/product-detail/Concrete-Mixer-Pump-Truck-30M-Integrated_1601627456865.html",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "integrated-mixer-pump"
+      }
+    },
+    {
+      "id": "qa-51",
+      "question": "Can I prime a Pinjin trailer pump with water instead of grout?",
+      "answer": "ACPA (23 July 2020): always prime the pump and placing line before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count.",
+      "source": {
+        "name": "ACPA revises its statement on water priming (23 July 2020)",
+        "url": "https://www.concretepumpers.com/acpa-news/2020/07/23/acpa-revises-its-statement-water-priming",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-priming-grout-lubrication"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-52",
+      "question": "Does the catalogue list how many cement sacks to prime Electric 40?",
+      "answer": "No. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, hopper 0.4 m³ and fine-stone 120 m / 360 m. Primer volume is not a catalogue cell.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-priming-grout-lubrication"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-53",
+      "question": "Does Pinjin sell a catalogue concrete pump reducer?",
+      "answer": "No reducer or taper-pipe SKU is listed. We quote straight delivery pipe, DN80 clamps and hoses after size and quantity. A marketplace reducer listing is not a Pinjin table.",
+      "source": {
+        "name": "Pinjin delivery pipe product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-reducer-taper-pipe"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-54",
+      "question": "Where should I look first if the line plugs after a diameter change?",
+      "answer": "ACPA: a reducer is usually the first place to look. Relieve pressure before opening any coupling. Do not use compressed air to force a plug.",
+      "source": {
+        "name": "ACPA study guide: clamps, gaskets, priming, reducers",
+        "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-reducer-taper-pipe"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-55",
+      "question": "Which clamp SKU does Pinjin list on the website?",
+      "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model.",
+      "source": {
+        "name": "Pinjin DN80 pipe clamp product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-clamp-coupling"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-56",
+      "question": "Can I open a coupling to check a plug while the line is still pressurised?",
+      "answer": "No. ACPA: never open a coupling until residual pressure is relieved. Compressed air is not a cleaning method we recommend from this article.",
+      "source": {
+        "name": "ACPA study guide: clamps, gaskets, priming, reducers",
+        "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-clamp-coupling"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-57",
+      "question": "Is Electric 15 a certified confined-space basement pump?",
+      "answer": "No such certificate is printed. Electric 15 is 450 kg, 1900×900×1200 mm, 15 kW, 380V 50Hz. Measure the opening and the lift, then inquire with the slug.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-basement-underground"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-58",
+      "question": "Is B500S-83D enough for a basement slab?",
+      "answer": "B500S-83D lists 280 kg, 7.5 kW, 5 m / 5 m, sand and small stone 5–16 mm, 915 × 550 × 550 mm. That is not a coarse-stone basement-slab guarantee. If distance exceeds 5 m, look at Electric 15 (8–10 m³/h, 60–80 m / 15–20 m).",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-basement-underground"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-59",
+      "question": "Is a Pinjin mortar sprayer the right machine to fill masonry cores with grout?",
+      "answer": "Usually no. Mortar sprayers on this site are for plaster and mortar spray. Filling cores or formwork with pumpable grout or fine-stone is a placing job. Start from B500S-83D or Electric 15.",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-masonry-formwork"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-60",
+      "question": "Does the masonry article replace the secondary-structure column page?",
+      "answer": "No. Secondary-structure already covers small columns and infill. The masonry page is cores and formwork filling: match aggregate, prime the line, quote the compact row.",
+      "source": {
+        "name": "ACI 304.2R-17 placing by pump (preview)",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-masonry-formwork"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-61",
+      "question": "Can I tow Electric 80 on a public road with a pickup?",
+      "answer": "Electric 80 lists 6000 kg and 6600 × 1800 × 1800 mm. Pinjin does not print a hitch class, CDL or highway towing certificate. Whether a pickup is legal is a local-road question, not a factory cell.",
+      "source": {
+        "name": "Pinjin Electric 80 product page",
+        "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "trailer-concrete-pump-towing-chassis"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-62",
+      "question": "Is Electric 15 light enough to manhandle on a slab?",
+      "answer": "Electric 15 lists 450 kg and 1900×900×1200 mm. That is catalogue mass, not a two-person lift rating.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "trailer-concrete-pump-towing-chassis"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-63",
+      "question": "If Electric 20 has more kW, why does it list the same 8–10 m³/h as Electric 15?",
+      "answer": "Output and motor power are separate catalogue cells. Electric 15 is 15 kW, 450 kg, 100–125 mm pipe. Electric 20 is 22 kW, 900 kg, 80 mm pipe. We do not publish an efficiency ratio that turns 22 kW into a higher m³/h than printed.",
+      "source": {
+        "name": "Pinjin Electric 20 product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-motor-kw-vs-output"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-64",
+      "question": "Can I order an 18 kW motor on Electric 15 to get more output?",
+      "answer": "No 18 kW SKU is listed. Electric 15 is 15 kW. Electric 20 is 22 kW. Electric 40 is 45 kW, 21 m³/h. Unpublished motor swaps are not factory specs.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-motor-kw-vs-output"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-65",
+      "question": "Does Pinjin guarantee 300 hours on an S-tube seal?",
+      "answer": "No hour guarantee is printed. Marketplace 250–500 h claims are not Xingtai specs. ACPA: inspect the S-tube; replace when worn. Photograph OD and send the pump model.",
+      "source": {
+        "name": "Pinjin S-tube seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-wear-parts-replacement-interval"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-66",
+      "question": "When should I replace a Pinjin delivery hose?",
+      "answer": "ACPA: at the first broken braid, or sooner if the cover is cut to the reinforcement. Pinjin quotes hose after ID, length and working pressure — not after an unpublished hour count.",
+      "source": {
+        "name": "ACPA study guide: clamps, gaskets, priming, reducers",
+        "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-wear-parts-replacement-interval"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-67",
+      "question": "Does Pinjin rate Electric 15 for a 30-degree slope?",
+      "answer": "No slope-angle cell is printed. Electric 15 lists 15–20 m vertical and 60–80 m horizontal. Measure the rise and the pipe length.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-slope-retaining-wall"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-68",
+      "question": "Should I use Diesel 40 on a remote slope with no grid?",
+      "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m, 2800 kg. Electric 40 is 45 kW, 380V 50Hz, 21 m³/h. Site power is a fact. Slope angle is still not a catalogue cell on either page.",
+      "source": {
+        "name": "Pinjin Diesel 40 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-for-slope-retaining-wall"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-69",
+      "question": "Can I charge Electric 40 with the hopper grate flipped up to go faster?",
+      "answer": "No. ACPA: the grate stays in place. It stops oversize aggregate and tools from reaching the valve. Hopper 0.4 m³ is a volume cell, not a reason to bypass the screen.",
+      "source": {
+        "name": "ACPA study guide: clamps, gaskets, priming, reducers",
+        "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hopper-grille-agitator"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-70",
+      "question": "What agitator RPM does Pinjin list?",
+      "answer": "None. Electric 40 prints hopper 0.4 m³. RPM, paddle count and grate-bar spacing are not catalogue cells.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-hopper-grille-agitator"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-71",
+      "question": "Does Electric 15 list a hopper-m³ cell like Electric 40?",
+      "answer": "No hopper-m³ cell is printed on Electric 15. Electric 40 lists hopper 0.4 m³. Electric 15 lists 15 kW, 8–10 m³/h, 450 kg, 1900 × 900 × 1200 mm. Do not copy Electric 40’s 0.4 m³ onto Electric 15.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-15-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-72",
+      "question": "Is Electric 20’s 80 mm pipe compatible with Electric 15’s 100–125 mm line without a quoted transition?",
+      "answer": "We do not publish that transition. Electric 20 lists 80 mm. Electric 15 lists 100–125 mm. Clamps and hoses continue the pump diameter unless Xingtai quotes a documented change.",
+      "source": {
+        "name": "Pinjin Electric 20 product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-20-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-73",
+      "question": "Does Electric 30 list 21 m³/h like Electric 40?",
+      "answer": "No. Electric 30 lists 30 kW, 12–15 m³/h, 20 MPa, 1200 kg, 3300 × 1500 × 1500 mm. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, 2300 kg. Do not merge those output cells.",
+      "source": {
+        "name": "Pinjin Electric 30 product page",
+        "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-30-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-74",
+      "question": "Is Electric 40’s 3900 × 1500 × 1600 mm a highway trailer rating?",
+      "answer": "No. Those millimetres and the 2300 kg mass are catalogue envelope cells. Pinjin does not print a CDL class, axle rating or highway homologation on this page.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-40-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-75",
+      "question": "Is Electric 80’s motor 90 kW?",
+      "answer": "No. Electric 80 / HBT80-1816-110 lists 110 kW, 60 m³/h, 40 MPa, hopper 0.7 m³, 900 m / 300 m, 6000 kg, 6600 × 1800 × 1800 mm. 90 kW / 40 m³/h is the Electric 60 row, not this page.",
+      "source": {
+        "name": "Pinjin Electric 80 product page",
+        "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-80-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-76",
+      "question": "Does B500S-83D list a cubic-metre-per-hour output?",
+      "answer": "No m³/h cell is printed. The sheet lists 7.5 kW, 380 V, 5 m height, 5 m horizontal, 280 kg, 915 × 550 × 550 mm, sand and small stone 5–16 mm. Do not copy a marketplace 3–4 m³/h onto this row.",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "b500s-83d-two-stage-pump"
+      }
+    },
+    {
+      "id": "qa-77",
+      "question": "Is the DN80 clamp rated PN25 because some marketplace kits say so?",
+      "answer": "The listed cells are EN 14420-3, PN10 / PN16, 3.5 kg. PN25 is not printed on this SKU. Other diameters are quoted, not invented as extra clamp SKUs.",
+      "source": {
+        "name": "Pinjin DN80 pipe clamp product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-pipe-clamp-dn80"
+      }
+    },
+    {
+      "id": "qa-78",
+      "question": "Does the delivery-pipe page include a factory reducer table?",
+      "answer": "No. Delivery pipe is quoted after pump model, DN and length, with coupling/flange ends. Reducer/taper SKUs are not listed. ACPA still says look at the reducer first if a plug forms after a diameter change.",
+      "source": {
+        "name": "Pinjin delivery pipe product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-delivery-pipe"
+      }
+    },
+    {
+      "id": "qa-79",
+      "question": "Can I treat one metre of this delivery hose as one metre of Electric 40’s 120 m fine-stone cell?",
+      "answer": "No. ACI 304.2R cites ACPA: about 1 m of rubber hose ≈ 3 m of pipe equivalent. Catalogue H/V pairs are not hose-only budgets. Quote DN and length against the pump model.",
+      "source": {
+        "name": "ACI 304.2R-17 placing by pump (preview)",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-delivery-hose"
+      }
+    },
+    {
+      "id": "qa-80",
+      "question": "Does the split-piston page print a 300-hour replacement interval?",
+      "answer": "No. It lists outer diameters and commercial terms (quote only; not small-batch). ACPA inspect/replace cues apply; marketplace 250–500 h kits are not Xingtai specs.",
+      "source": {
+        "name": "Pinjin split piston product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-split-piston"
+      }
+    },
+    {
+      "id": "qa-81",
+      "question": "Is the S-tube seal an OEM Schwing or Putzmeister part?",
+      "answer": "No. It is a Xingtai replacement wear part. Confirm OD on the pump. Not sold in small batches; no list price; no other-brand OEM claim.",
+      "source": {
+        "name": "Pinjin S-tube seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-s-tube-seal"
+      }
+    },
+    {
+      "id": "qa-82",
+      "question": "Is Diesel 40 the diesel version of Electric 40’s 21 m³/h?",
+      "answer": "No. Diesel 40 lists 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m, 2800 kg. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m, 2300 kg. Same factory, different rows — do not call them twins.",
+      "source": {
+        "name": "Pinjin Diesel 40 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "diesel-40-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-83",
+      "question": "Does the mixer pump’s 45 kW + 14 kW add to 59 kW of pumping output?",
+      "answer": "No. The sheet lists main motor 45 kW plus mixer 14 kW, and theoretical output 21 m³/h as a separate cell. Do not add the two kW figures and invent a higher m³/h.",
+      "source": {
+        "name": "Pinjin integrated mixer pump product page",
+        "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "integrated-mixer-pump"
+      }
+    },
+    {
+      "id": "qa-84",
+      "question": "Is HBT8018’s 150 m conveying the same cell as Electric 80’s 900 m / 300 m?",
+      "answer": "No. HBT8018-132S lists 132 kW, 60 m³/h, 40 MPa, 150 m conveying, 450 m delivery height, 6500 kg. Electric 80 lists 900 m / 300 m. Do not merge those distance cells.",
+      "source": {
+        "name": "Pinjin HBT8018 product page",
+        "url": "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "hbt8018-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-85",
+      "question": "Can the rural diesel pump replace Electric 15 when the site has 380 V three-phase?",
+      "answer": "Only if you choose diesel. Electric 15 lists 15 kW, 8–10 m³/h, 450 kg. Rural diesel lists 5–8 m³/h and 800 kg on its own page. Grid vs engine is a site fact, not a reason to ignore the printed row.",
+      "source": {
+        "name": "Pinjin rural diesel concrete pump product page",
+        "url": "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "rural-diesel-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-86",
+      "question": "Do electric trailer pumps on this hub include a remote-control SKU?",
+      "answer": "No remote-control option is printed on the electric trailer sheets. We quote the listed motor, output, pressure, hopper and distance cells. Unpublished remotes are not promised.",
+      "source": {
+        "name": "Alibaba buying guide: concrete pump machine",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "electric-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-87",
+      "question": "If two electric models list the same m³/h, is the higher kW always the better buy?",
+      "answer": "Not from the catalogue. Electric 15 (15 kW) and Electric 20 (22 kW) both list 8–10 m³/h but differ in mass and pipe DN. Compare the whole row; we do not publish a kW-to-m³/h formula.",
+      "source": {
+        "name": "Pinjin Electric 20 product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "electric-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-88",
+      "question": "Can I run a diesel trailer pump indoors for a basement pour because the hub lists diesel?",
+      "answer": "Pinjin does not print an indoor-diesel or basement-exhaust spec. Diesel rows are engine power and catalogue distances. Exhaust and air-change are site and local-code, not a Xingtai cell.",
+      "source": {
+        "name": "ACI 304.2R-17 placing by pump (preview)",
+        "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "diesel-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-89",
+      "question": "Does Diesel 40’s 120 m / 360 m become extra metres on a slope?",
+      "answer": "No slope-angle converter is printed. Use the printed 120 m / 360 m pair. Measure rise and line length. Equivalent-length notes stay on the vertical-vs-horizontal article.",
+      "source": {
+        "name": "Pinjin Diesel 40 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "diesel-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-90",
+      "question": "Is the mixer-pump hub a substitute for a batching plant?",
+      "answer": "No. The listed unit mixes and pumps on one trailer: 45 kW + 14 kW, 21 m³/h, hopper 0.4 m³, 4500 kg. Mixing plants are not catalogue products.",
+      "source": {
+        "name": "Pinjin integrated mixer pump product page",
+        "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "mixer-pump"
+      }
+    },
+    {
+      "id": "qa-91",
+      "question": "Does Pinjin pack trailer pumps to a published export crate table?",
+      "answer": "No crate-size or packing-list table is printed on the product pages. Mass and L×W×H are the envelope cells (for example Electric 15: 450 kg, 1900×900×1200 mm). Packing and Incoterms are quoted, not scraped from marketplace listings.",
+      "source": {
+        "name": "Alibaba buying guide: concrete pump machine",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "electric-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-92",
+      "question": "Are marketplace 250–500 h wear kits the factory interval for Pinjin pistons and seals?",
+      "answer": "No. Split piston, integral piston and S-tube seal pages print OD and commercial terms, not hours. ACPA: hose at first broken braid; inspect S-tube, pistons and gaskets. Photograph OD.",
+      "source": {
+        "name": "Pinjin split piston product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "spare-parts"
+      }
+    },
+    {
+      "id": "qa-93",
+      "question": "Can a wet-hose sprayer on this hub fill masonry cores the way a fine-stone pump does?",
+      "answer": "No. Sprayers here are finishing / shotcrete-range machines. Core and formwork filling is a placing job on B500S-83D or Electric 15. See fine-stone pump vs mortar sprayer.",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "spraying-machine"
+      }
+    },
+    {
+      "id": "qa-94",
+      "question": "Must I prime with grout before the first concrete on a new steel line?",
+      "answer": "ACPA: always prime the pump and placing line before concrete. The preferred primer is a thin Portland-cement slurry; in most cases water priming is not recommended. Pinjin does not print a sack-count recipe.",
+      "source": {
+        "name": "ACPA revises its statement on water priming (23 July 2020)",
+        "url": "https://www.concretepumpers.com/acpa-news/2020/07/23/acpa-revises-its-statement-water-priming",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-95",
+      "question": "Why do Electric 15 and Electric 20 share 8–10 m³/h if the motors differ?",
+      "answer": "Because kW and m³/h are separate printed cells. Electric 15: 15 kW, 450 kg, 100–125 mm. Electric 20: 22 kW, 900 kg, 80 mm. There is no published conversion that raises Electric 20’s output above 8–10 m³/h.",
+      "source": {
+        "name": "Pinjin Electric 20 product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-96",
+      "question": "Which compact row do you open first for a basement door of about 900 mm?",
+      "answer": "Electric 15 lists 1900 × 900 × 1200 mm and 450 kg. B500S-83D lists 915 × 550 × 550 mm and 280 kg but only 5 m / 5 m. Measure the opening; we do not print a confined-space certificate.",
+      "source": {
+        "name": "Pinjin Electric 15 product page",
+        "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-97",
+      "question": "Do you list a concrete pump reducer SKU I can add to a hose kit?",
+      "answer": "No. Quote delivery pipe, DN80 clamps and hose after the pump DN. ACPA: reducers create turbulence and are often where a plug shows. Unpublished tapers are not promised.",
+      "source": {
+        "name": "Pinjin delivery pipe product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-98",
+      "question": "When do I replace the DN80 clamp gasket?",
+      "answer": "Pinjin does not print gasket hours. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Never open a coupling under pressure. The listed clamp is 3.5 kg, EN 14420-3, PN10 / PN16.",
+      "source": {
+        "name": "Pinjin DN80 pipe clamp product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-99",
+      "question": "Is cooling-water flow on the hopper a published Pinjin option?",
+      "answer": "No cooling-water flow or jacket SKU is printed on the public product pages. Electric 40 lists hopper 0.4 m³. Marketplace water-cooled hopper claims are not Xingtai cells.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-100",
+      "question": "Can I hitch Electric 40 to a car for a 50 km highway move?",
+      "answer": "Electric 40 lists 2300 kg and 3900 × 1500 × 1600 mm. Pinjin does not print hitch class, CDL or highway homologation. ACPA discusses hitch and safety chain as operator practice, not a factory axle drawing.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    }
+  ]
+}

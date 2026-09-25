@@ -1,0 +1,266 @@
+{
+  "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
+  "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin Xingtai",
+  "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until residual pressure is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
+  "primaryKeyword": "concrete pump clamp",
+  "secondaryKeywords": [
+    "concrete pump coupling",
+    "DN80 pipe clamp EN14420-3",
+    "concrete pump gasket"
+  ],
+  "category": "product-guide",
+  "resourceType": "parts-guide",
+  "tags": [
+    "clamp",
+    "coupling",
+    "safety"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "concrete-pump-pipe-clamp-dn80",
+    "concrete-pump-delivery-pipe",
+    "electric-20-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "concrete-pump-pipe-dn-selection",
+    "concrete-pump-reducer-taper-pipe",
+    "concrete-pump-daily-maintenance-checklist"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": "Concrete pump parts manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-pipe-dn-selection",
+      "label": "Concrete pump pipe DN selection"
+    },
+    {
+      "href": "/products/concrete-pump-pipe-clamp-dn80",
+      "label": "DN80 concrete pump pipe clamp"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until residual pressure is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
+    "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+    "factors": [
+      "Use the DN printed on the pump page; DN80 is the listed clamp",
+      "ACPA: never open a coupling under pressure",
+      "Inspect gasket and pin before each pour",
+      "Other diameters and quantities are quoted from Xingtai, not invented as SKUs"
+    ],
+    "relatedModels": [
+      "concrete-pump-pipe-clamp-dn80",
+      "concrete-pump-delivery-pipe",
+      "electric-20-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which clamp SKU does Pinjin list on the website?",
+      "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+    },
+    {
+      "question": "Can I open a coupling to check a plug while the line is still pressurised?",
+      "answer": "No. ACPA: never open a coupling until residual pressure is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
+    },
+    {
+      "question": "How often should the gasket be replaced on a Pinjin clamp?",
+      "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a Xingtai quote — unpublished hours are not a factory spec."
+    }
+  ],
+  "image": {
+    "src": "/images/products/concrete-pump-pipe-clamp-dn80/concrete-pump-pipe-clamp-dn80.webp",
+    "alt": "DN80 concrete pump pipe clamp EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery Xingtai",
+    "caption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented."
+  },
+  "sources": [
+    {
+      "name": "Pinjin DN80 pipe clamp product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
+      "type": "pinjin"
+    },
+    {
+      "name": "ACPA study guide: clamps, gaskets, pins; never open under pressure",
+      "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Pinjin Electric 20 product page (80 mm pipe)",
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin delivery pipe product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba observation: concrete pump clamp coupling listings (copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump+clamp+coupling",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "混凝土泵管卡/接头：DN80、密封、禁止带压打开",
+      "description": "品锦列 DN80 管卡，EN 14420-3，PN10 / PN16，3.5 kg。ACPA：卸掉残余压力前不要打开接头。其他直径按管路报价，不编造料号。",
+      "imageAlt": "DN80 concrete pump 管卡 EN 14420-3 PN10 PN16 from 河北品锦机械 邢台",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "DN80 concrete pump 管卡",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until 残余压力 is relieved. 电动20 prints 80 mm pipe, so DN80 is the matching listed coupling. 电动15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. 品锦 does not print a factory gasket life in hours.",
+        "who": "Buyers matching a pipeline to a listed 品锦 pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "factors": [
+          "Use the DN printed on the pump page; DN80 is the listed clamp",
+          "ACPA: 禁止在带压时打开管接头",
+          "Inspect gasket and pin before each pour",
+          "Other diameters and quantities are quoted from 邢台, not invented as SKUs"
+        ]
+      },
+      "seoTitle": "混凝土泵管卡与接头安全 | 品锦邢台",
+      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "faqs": [
+        {
+          "question": "Which clamp SKU does 品锦 list on the website?",
+          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. 电动20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+        },
+        {
+          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
+          "answer": "No. ACPA: never open a coupling until 残余压力 is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
+        },
+        {
+          "question": "How often should the gasket be replaced on a 品锦 clamp?",
+          "answer": "品锦 does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a 邢台 quote — unpublished hours are not a factory spec."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
+      "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until pressão residual is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
+      "imageAlt": "DN80 concrete pump abraçadeira de tubo EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery Xingtai",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "DN80 concrete pump abraçadeira de tubo",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until pressão residual is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
+        "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "factors": [
+          "Use the DN printed on the pump page; DN80 is the listed clamp",
+          "ACPA: nunca abra um acoplamento sob pressão",
+          "Inspect gasket and pin before each pour",
+          "Other diameters and quantities are quoted from Xingtai, not invented as SKUs"
+        ]
+      },
+      "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin Xingtai",
+      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "faqs": [
+        {
+          "question": "Which clamp SKU does Pinjin list on the website?",
+          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+        },
+        {
+          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
+          "answer": "No. ACPA: never open a coupling until pressão residual is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
+        },
+        {
+          "question": "How often should the gasket be replaced on a Pinjin clamp?",
+          "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a Xingtai quote — unpublished hours are not a factory spec."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
+      "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until ضغط متبقٍ is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
+      "imageAlt": "DN80 concrete pump مشبك الأنبوب EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery شينغتاي",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "DN80 concrete pump مشبك الأنبوب",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until ضغط متبقٍ is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
+        "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "factors": [
+          "Use the DN printed on the pump page; DN80 is the listed clamp",
+          "ACPA: لا تفتح الوصلة تحت الضغط",
+          "Inspect gasket and pin before each pour",
+          "Other diameters and quantities are quoted from شينغتاي, not invented as SKUs"
+        ]
+      },
+      "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin شينغتاي",
+      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "faqs": [
+        {
+          "question": "Which clamp SKU does Pinjin list on the website?",
+          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+        },
+        {
+          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
+          "answer": "No. ACPA: never open a coupling until ضغط متبقٍ is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
+        },
+        {
+          "question": "How often should the gasket be replaced on a Pinjin clamp?",
+          "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a شينغتاي quote — unpublished hours are not a factory spec."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
+      "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until остаточное давление is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
+      "imageAlt": "DN80 concrete pump хомут трубопровода EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery Синтай",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "DN80 concrete pump хомут трубопровода",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until остаточное давление is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
+        "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "factors": [
+          "Use the DN printed on the pump page; DN80 is the listed clamp",
+          "ACPA: не открывать соединение под давлением",
+          "Inspect gasket and pin before each pour",
+          "Other diameters and quantities are quoted from Синтай, not invented as SKUs"
+        ]
+      },
+      "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin Синтай",
+      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "faqs": [
+        {
+          "question": "Which clamp SKU does Pinjin list on the website?",
+          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+        },
+        {
+          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
+          "answer": "No. ACPA: never open a coupling until остаточное давление is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
+        },
+        {
+          "question": "How often should the gasket be replaced on a Pinjin clamp?",
+          "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a Синтай quote — unpublished hours are not a factory spec."
+        }
+      ]
+    }
+  }
+}

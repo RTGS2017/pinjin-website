@@ -54,6 +54,11 @@ export const article: BlogPost = {
     'electric-30-concrete-pump',
     'electric-15-concrete-pump',
   ],
+  relatedArticleSlugs: [
+    'concrete-pump-motor-kw-vs-output',
+    'concrete-pump-output-m3h-guide',
+    'trailer-concrete-pump-towing-chassis',
+  ],
   relatedPaths: [
     {
       href: '/products/electric-concrete-pumps',

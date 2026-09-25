@@ -10,9 +10,19 @@
   ],
   "category": "application-solutions",
   "resourceType": "application-guide",
-  "tags": ["fine-stone", "floor-fill", "electric-pump"],
+  "tags": [
+    "fine-stone",
+    "floor-fill",
+    "electric-pump"
+  ],
   "date": "2026-09-22",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "electric-low-pressure-40-concrete-pump",
     "electric-30-concrete-pump",
@@ -24,10 +34,22 @@
     "small-concrete-pump-floor-screed-slab"
   ],
   "relatedPaths": [
-    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
-    { "href": "/blog/low-pressure-40-concrete-pump-guide", "label": "Low pressure fine-stone Electric 40 guide" },
-    { "href": "/solutions/construction", "label": "Building construction pumping" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/low-pressure-40-concrete-pump-guide",
+      "label": "Low pressure fine-stone Electric 40 guide"
+    },
+    {
+      "href": "/solutions/construction",
+      "label": "Building construction pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "A fine-stone concrete pump is a trailer pump matched to a mix whose stone stays inside the published max aggregate row. For floor-heating backfill we start from Electric Low Pressure 40 (37 kW, 12–15 m³/h, fine-stone 80 m / 240 m), Electric 30 (fine-stone 60 m / 180 m) or Electric 15 (1–3 cm stone, 8–10 m³/h). This page is not a heating-pipe design guide.",
@@ -64,10 +86,176 @@
     "caption": "Electric Low Pressure 40 trailer pump, Xingtai catalogue — fine-stone 80 m / 240 m"
   },
   "sources": [
-    { "name": "Pinjin Electric Low Pressure 40 product page", "url": "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 30 product page", "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
-    { "name": "Alibaba search observation: fine stone concrete pump (listing copy not used)", "url": "https://www.alibaba.com/trade/search?SearchText=fine+stone+concrete+pump", "type": "marketplace" }
+    {
+      "name": "Pinjin Electric Low Pressure 40 product page",
+      "url": "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 30 product page",
+      "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba search observation: fine stone concrete pump (listing copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=fine+stone+concrete+pump",
+      "type": "marketplace"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Fine Stone Concrete Pump for Floor Heating Backfill",
+      "description": "邢台 catalogue matching for floor-heating backfill and 细石 floor fill. Compare Electric Low Pressure 40, 电动30 and 电动15 using published 骨料, output and 细石 distance — not hydronic design numbers.",
+      "imageAlt": "Electric Low Pressure 40 细石 concrete pump manufactured by 河北品锦机械 in 邢台",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Low pressure 细石 电动40 guide",
+        "Building construction pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "A 细石 concrete pump is a 拖式泵 matched to a mix whose stone stays inside the published max 骨料 row. For floor-heating backfill we start from Electric Low Pressure 40 (37 kW, 12–15 m³/h, 细石 80 m / 240 m), 电动30 (细石 60 m / 180 m) or 电动15 (1–3 cm stone, 8–10 m³/h). This page is not a heating-pipe design guide.",
+        "who": "Contractors placing 细石 floor fill or backfill on grid-powered sites who can state max stone size, pipe length and target output.",
+        "factors": [
+          "Maximum 骨料 versus the published row on the pump page",
+          "Fine-stone 水平 / 垂直 metres, not the number in the model name",
+          "Catalogue output (12–15 m³/h on LP40/电动30; 8–10 m³/h on 电动15)",
+          "Trailer size and weight for indoor or courtyard access"
+        ]
+      },
+      "seoTitle": "Fine Stone Concrete Pump for Floor Heating Backfill | 品锦",
+      "imageCaption": "Electric Low Pressure 40 拖式泵, 邢台 catalogue — 细石 80 m / 240 m",
+      "faqs": [
+        {
+          "question": "Is floor-heating backfill the same as a mortar spray job?",
+          "answer": "No. Floor fill that still contains stone is a pipeline pumping job. Mortar and plaster sprayers on /products/spraying-machines list particle ≤8 mm or ≤4 mm and are finishing machines, not trailer concrete pumps."
+        },
+        {
+          "question": "Which 品锦 pump is ‘the’ floor heating pump?",
+          "answer": "None is named that in the catalogue. We match stone size and 细石 distance: Low Pressure 40 for 细石 80 m / 240 m, 电动30 for 60 m / 180 m, 电动15 when 8–10 m³/h and 1–3 cm stone fit the short house window."
+        },
+        {
+          "question": "Do you publish floor-heating pipe spacing or fill thickness?",
+          "answer": "No. Those are building-design figures. Send mix, max stone, pipe run and output with the inquiry. We only confirm whether they sit inside a published pump row."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Fine Stone Concrete Pump for Floor Heating Backfill",
+      "description": "Xingtai catalogue matching for floor-heating backfill and pedra fina floor fill. Compare Electric Low Pressure 40, Electric 30 and Electric 15 using published agregado, output and pedra fina distance — not hydronic design numbers.",
+      "imageAlt": "Electric Low Pressure 40 pedra fina concrete pump manufactured by Hebei Pinjin Machinery in Xingtai",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Low pressure pedra fina Electric 40 guide",
+        "Building construction pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A pedra fina concrete pump is a bomba reboque matched to a mix whose stone stays inside the published max agregado row. For floor-heating backfill we start from Electric Low Pressure 40 (37 kW, 12–15 m³/h, pedra fina 80 m / 240 m), Electric 30 (pedra fina 60 m / 180 m) or Electric 15 (1–3 cm stone, 8–10 m³/h). This page is not a heating-pipe design guide.",
+        "who": "Contractors placing pedra fina floor fill or backfill on grid-powered sites who can state max stone size, pipe length and target output.",
+        "factors": [
+          "Maximum agregado versus the published row on the pump page",
+          "Fine-stone horizontal / vertical metres, not the number in the model name",
+          "Catalogue output (12–15 m³/h on LP40/Electric 30; 8–10 m³/h on Electric 15)",
+          "Trailer size and weight for indoor or courtyard access"
+        ]
+      },
+      "seoTitle": "Fine Stone Concrete Pump for Floor Heating Backfill | Pinjin",
+      "imageCaption": "Electric Low Pressure 40 bomba reboque, Xingtai catalogue — pedra fina 80 m / 240 m",
+      "faqs": [
+        {
+          "question": "Is floor-heating backfill the same as a mortar spray job?",
+          "answer": "No. Floor fill that still contains stone is a pipeline pumping job. Mortar and plaster sprayers on /products/spraying-machines list particle ≤8 mm or ≤4 mm and are finishing machines, not trailer concrete pumps."
+        },
+        {
+          "question": "Which Pinjin pump is ‘the’ floor heating pump?",
+          "answer": "None is named that in the catalogue. We match stone size and pedra fina distance: Low Pressure 40 for pedra fina 80 m / 240 m, Electric 30 for 60 m / 180 m, Electric 15 when 8–10 m³/h and 1–3 cm stone fit the short house window."
+        },
+        {
+          "question": "Do you publish floor-heating pipe spacing or fill thickness?",
+          "answer": "No. Those are building-design figures. Send mix, max stone, pipe run and output with the inquiry. We only confirm whether they sit inside a published pump row."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Fine Stone Concrete Pump for Floor Heating Backfill",
+      "description": "شينغتاي catalogue matching for floor-heating backfill and حصى ناعم floor fill. Compare Electric Low Pressure 40, Electric 30 and Electric 15 using published ركام, output and حصى ناعم distance — not hydronic design numbers.",
+      "imageAlt": "Electric Low Pressure 40 حصى ناعم concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Low pressure حصى ناعم Electric 40 guide",
+        "Building construction pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A حصى ناعم concrete pump is a مضخة مقطورة matched to a mix whose stone stays inside the published max ركام row. For floor-heating backfill we start from Electric Low Pressure 40 (37 kW, 12–15 m³/h, حصى ناعم 80 m / 240 m), Electric 30 (حصى ناعم 60 m / 180 m) or Electric 15 (1–3 cm stone, 8–10 m³/h). This page is not a heating-pipe design guide.",
+        "who": "Contractors placing حصى ناعم floor fill or backfill on grid-powered sites who can state max stone size, pipe length and target output.",
+        "factors": [
+          "Maximum ركام versus the published row on the pump page",
+          "Fine-stone أفقي / عمودي metres, not the number in the model name",
+          "Catalogue output (12–15 m³/h on LP40/Electric 30; 8–10 m³/h on Electric 15)",
+          "Trailer size and weight for indoor or courtyard access"
+        ]
+      },
+      "seoTitle": "Fine Stone Concrete Pump for Floor Heating Backfill | Pinjin",
+      "imageCaption": "Electric Low Pressure 40 مضخة مقطورة, شينغتاي catalogue — حصى ناعم 80 m / 240 m",
+      "faqs": [
+        {
+          "question": "Is floor-heating backfill the same as a mortar spray job?",
+          "answer": "No. Floor fill that still contains stone is a pipeline pumping job. Mortar and plaster sprayers on /products/spraying-machines list particle ≤8 mm or ≤4 mm and are finishing machines, not trailer concrete pumps."
+        },
+        {
+          "question": "Which Pinjin pump is ‘the’ floor heating pump?",
+          "answer": "None is named that in the catalogue. We match stone size and حصى ناعم distance: Low Pressure 40 for حصى ناعم 80 m / 240 m, Electric 30 for 60 m / 180 m, Electric 15 when 8–10 m³/h and 1–3 cm stone fit the short house window."
+        },
+        {
+          "question": "Do you publish floor-heating pipe spacing or fill thickness?",
+          "answer": "No. Those are building-design figures. Send mix, max stone, pipe run and output with the inquiry. We only confirm whether they sit inside a published pump row."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Fine Stone Concrete Pump for Floor Heating Backfill",
+      "description": "Синтай catalogue matching for floor-heating backfill and мелкий камень floor fill. Compare Electric Low Pressure 40, Electric 30 and Electric 15 using published заполнитель, output and мелкий камень distance — not hydronic design numbers.",
+      "imageAlt": "Electric Low Pressure 40 мелкий камень concrete pump manufactured by Hebei Pinjin Machinery in Синтай",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Low pressure мелкий камень Electric 40 guide",
+        "Building construction pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A мелкий камень concrete pump is a прицепной насос matched to a mix whose stone stays inside the published max заполнитель row. For floor-heating backfill we start from Electric Low Pressure 40 (37 kW, 12–15 m³/h, мелкий камень 80 m / 240 m), Electric 30 (мелкий камень 60 m / 180 m) or Electric 15 (1–3 cm stone, 8–10 m³/h). This page is not a heating-pipe design guide.",
+        "who": "Contractors placing мелкий камень floor fill or backfill on grid-powered sites who can state max stone size, pipe length and target output.",
+        "factors": [
+          "Maximum заполнитель versus the published row on the pump page",
+          "Fine-stone горизонталь / вертикаль metres, not the number in the model name",
+          "Catalogue output (12–15 m³/h on LP40/Electric 30; 8–10 m³/h on Electric 15)",
+          "Trailer size and weight for indoor or courtyard access"
+        ]
+      },
+      "seoTitle": "Fine Stone Concrete Pump for Floor Heating Backfill | Pinjin",
+      "imageCaption": "Electric Low Pressure 40 прицепной насос, Синтай catalogue — мелкий камень 80 m / 240 m",
+      "faqs": [
+        {
+          "question": "Is floor-heating backfill the same as a mortar spray job?",
+          "answer": "No. Floor fill that still contains stone is a pipeline pumping job. Mortar and plaster sprayers on /products/spraying-machines list particle ≤8 mm or ≤4 mm and are finishing machines, not trailer concrete pumps."
+        },
+        {
+          "question": "Which Pinjin pump is ‘the’ floor heating pump?",
+          "answer": "None is named that in the catalogue. We match stone size and мелкий камень distance: Low Pressure 40 for мелкий камень 80 m / 240 m, Electric 30 for 60 m / 180 m, Electric 15 when 8–10 m³/h and 1–3 cm stone fit the short house window."
+        },
+        {
+          "question": "Do you publish floor-heating pipe spacing or fill thickness?",
+          "answer": "No. Those are building-design figures. Send mix, max stone, pipe run and output with the inquiry. We only confirm whether they sit inside a published pump row."
+        }
+      ]
+    }
+  }
 }

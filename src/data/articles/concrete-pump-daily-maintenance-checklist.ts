@@ -36,6 +36,11 @@ export const article: BlogPost = {
     'diesel-40-concrete-pump',
     'integrated-mixer-pump',
   ],
+  relatedArticleSlugs: [
+    'concrete-pump-hopper-grille-agitator',
+    'concrete-pump-priming-grout-lubrication',
+    'concrete-pump-wear-parts-replacement-interval',
+  ],
   relatedPaths: [
     {
       href: '/products/electric-concrete-pumps',

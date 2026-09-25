@@ -1,0 +1,271 @@
+{
+  "title": "Concrete Pump Priming and Line Lubrication (Grout, Not Water)",
+  "seoTitle": "Concrete Pump Priming and Grout Lubrication | Pinjin Xingtai",
+  "description": "ACPA says always prime the pump and placing line before concrete; a thin Portland-cement slurry is the preferred primer, and water priming is not recommended in most cases. Pinjin does not publish a factory primer recipe. Match the trailer row, then inquire.",
+  "primaryKeyword": "concrete pump priming",
+  "secondaryKeywords": [
+    "concrete pump grout lubrication",
+    "prime concrete pump pipeline",
+    "ACPA water priming"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "safety-guide",
+  "tags": [
+    "priming",
+    "pipeline",
+    "safety"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-40-concrete-pump",
+    "electric-15-concrete-pump",
+    "concrete-pump-delivery-pipe"
+  ],
+  "relatedArticleSlugs": [
+    "concrete-pump-blockage-causes-prevention",
+    "concrete-pump-daily-maintenance-checklist",
+    "concrete-pump-hopper-grille-agitator"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-blockage-causes-prevention",
+      "label": "Concrete pump blockage causes and safe response"
+    },
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": "Concrete pump delivery pipe"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "ACI 304.2R: pumped concrete rides on a thin lubricating film on the pipe wall; coat the entire interior diameter with grout or a specialised primer before concrete. ACPA (23 July 2020): always prime the pump and placing line; the optimal primer is a thin Portland-cement slurry; in most cases ACPA does not recommend water priming. Pinjin does not print a sack count or factory primer mix. Wetting the hopper is not line lubrication.",
+    "who": "Operators starting a trailer pipeline pour who will use a listed Pinjin pump and a steel or hose line assembled on site.",
+    "factors": [
+      "Prime the pump and the placing line before the first concrete",
+      "Prefer a thin Portland-cement slurry, not water, unless ACPA’s later graphic says otherwise for that method",
+      "Keep the mix consistent once flow is established so the film is maintained",
+      "Pinjin does not publish a primer recipe or guaranteed first-load cubic metres"
+    ],
+    "relatedModels": [
+      "electric-40-concrete-pump",
+      "electric-15-concrete-pump",
+      "concrete-pump-delivery-pipe"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I prime a Pinjin trailer pump with water instead of grout?",
+      "answer": "ACPA revised its water-priming statement: always prime the pump and placing line before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count. Do not treat ‘wet the hopper’ as a substitute for line lubrication."
+    },
+    {
+      "question": "Does the catalogue list how many cement sacks to prime Electric 40?",
+      "answer": "No. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, hopper 0.4 m³ and fine-stone 120 m / 360 m. Primer volume is not a catalogue cell. ACPA: use the methods that coat 100 percent of the pipe wall. Send pipe length and DN with the model slug if you want Xingtai to comment on a listed trailer, not on an unpublished recipe."
+    },
+    {
+      "question": "Does priming replace a daily hopper and grate check?",
+      "answer": "No. Priming coats the line. The Xingtai daily checklist still starts at the hopper and grate, then clamps, leaks and S-valve observation. See the maintenance checklist. A dirty grate that drops oversize stone into the valve is a blockage cause, not a priming shortcut."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-40-concrete-pump/main.webp",
+    "alt": "Electric 40 trailer concrete pump hopper and pipeline from Hebei Pinjin Machinery in Xingtai, primed as a line pump not a boom",
+    "caption": "Electric 40 Xingtai trailer — 21 m³/h, hopper 0.4 m³; prime the pipeline before concrete"
+  },
+  "sources": [
+    {
+      "name": "ACPA revises its statement on water priming (23 July 2020)",
+      "url": "https://www.concretepumpers.com/acpa-news/2020/07/23/acpa-revises-its-statement-water-priming",
+      "type": "industry"
+    },
+    {
+      "name": "ACI 304.2R-17: coat pipeline interior before pumping; boundary layer",
+      "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "ACPA study guide: priming slurry ahead of concrete; prime port if available",
+      "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Pinjin Electric 40 product page",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba buying guide: clogging if mix design is not compatible (observation)",
+      "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "混凝土泵开泵润滑（用水泥浆，不用水）",
+      "description": "ACPA 要求混凝土到达前先润滑泵和浇筑管路；优选稀硅酸盐水泥浆，多数情况不建议用水。品锦不公布工厂底涂配方。对照拖式目录行后询价。",
+      "imageAlt": "电动40 trailer concrete pump hopper and pipeline from 河北品锦机械 in 邢台, primed as a line pump not a boom",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete pump blockage causes and safe response",
+        "Concrete pump 输送管",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "ACI 304.2R: pumped concrete rides on a thin lubricating film on the pipe wall; coat the entire interior diameter with grout or a specialised primer before concrete. ACPA (23 July 2020): always prime the pump and 浇筑管路; the optimal primer is a thin Portland-cement slurry; in most cases ACPA does not recommend water priming. 品锦 does not print a sack count or factory primer mix. Wetting the hopper is not line lubrication.",
+        "who": "Operators starting a trailer pipeline pour who will use a listed 品锦 pump and a steel or hose line assembled on site.",
+        "factors": [
+          "Prime the pump and the 浇筑管路 before the first concrete",
+          "Prefer a thin Portland-cement slurry, not water, unless ACPA’s later graphic says otherwise for that method",
+          "Keep the mix consistent once flow is established so the film is maintained",
+          "品锦 does not publish a primer recipe or guaranteed first-load cubic metres"
+        ]
+      },
+      "seoTitle": "混凝土泵开泵与管路润滑 | 品锦邢台",
+      "imageCaption": "电动40 邢台 trailer — 21 m³/h, hopper 0.4 m³; prime the pipeline before concrete",
+      "faqs": [
+        {
+          "question": "Can I prime a 品锦 拖式泵 with water instead of grout?",
+          "answer": "ACPA revised its water-priming statement: always prime the pump and 浇筑管路 before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. 品锦 does not publish a factory primer recipe or sack count. Do not treat ‘wet the hopper’ as a substitute for line lubrication."
+        },
+        {
+          "question": "Does the catalogue list how many cement sacks to prime 电动40?",
+          "answer": "No. 电动40 lists 45 kW, 21 m³/h, 23 MPa, hopper 0.4 m³ and 细石 120 m / 360 m. Primer volume is not a 目录单元格. ACPA: use the methods that coat 100 percent of the pipe wall. Send pipe length and DN with the model slug if you want 邢台 to comment on a listed trailer, not on an unpublished recipe."
+        },
+        {
+          "question": "Does priming replace a daily hopper and grate check?",
+          "answer": "No. Priming coats the line. The 邢台 daily checklist still starts at the hopper and grate, then clamps, leaks and S阀 observation. See the maintenance checklist. A dirty grate that drops oversize stone into the valve is a blockage cause, not a priming shortcut."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Priming and Line Lubrication (Grout, Not Water)",
+      "description": "ACPA says always prime the pump and linha de lançamento before concrete; a thin Portland-cement slurry is the preferred primer, and water priming is not recommended in most cases. Pinjin does not publish a factory primer recipe. Match the trailer row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump hopper and pipeline from Hebei Pinjin Machinery in Xingtai, primed as a line pump not a boom",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete pump blockage causes and safe response",
+        "Concrete pump tubo de entrega",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "ACI 304.2R: pumped concrete rides on a thin lubricating film on the pipe wall; coat the entire interior diameter with grout or a specialised primer before concrete. ACPA (23 July 2020): always prime the pump and linha de lançamento; the optimal primer is a thin Portland-cement slurry; in most cases ACPA does not recommend water priming. Pinjin does not print a sack count or factory primer mix. Wetting the hopper is not line lubrication.",
+        "who": "Operators starting a trailer pipeline pour who will use a listed Pinjin pump and a steel or hose line assembled on site.",
+        "factors": [
+          "Prime the pump and the linha de lançamento before the first concrete",
+          "Prefer a thin Portland-cement slurry, not water, unless ACPA’s later graphic says otherwise for that method",
+          "Keep the mix consistent once flow is established so the film is maintained",
+          "Pinjin does not publish a primer recipe or guaranteed first-load cubic metres"
+        ]
+      },
+      "seoTitle": "Concrete Pump Priming and Grout Lubrication | Pinjin Xingtai",
+      "imageCaption": "Electric 40 Xingtai trailer — 21 m³/h, hopper 0.4 m³; prime the pipeline before concrete",
+      "faqs": [
+        {
+          "question": "Can I prime a Pinjin bomba reboque with water instead of grout?",
+          "answer": "ACPA revised its water-priming statement: always prime the pump and linha de lançamento before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count. Do not treat ‘wet the hopper’ as a substitute for line lubrication."
+        },
+        {
+          "question": "Does the catalogue list how many cement sacks to prime Electric 40?",
+          "answer": "No. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, hopper 0.4 m³ and pedra fina 120 m / 360 m. Primer volume is not a célula de catálogo. ACPA: use the methods that coat 100 percent of the pipe wall. Send pipe length and DN with the model slug if you want Xingtai to comment on a listed trailer, not on an unpublished recipe."
+        },
+        {
+          "question": "Does priming replace a daily hopper and grate check?",
+          "answer": "No. Priming coats the line. The Xingtai daily checklist still starts at the hopper and grate, then clamps, leaks and válvula S observation. See the maintenance checklist. A dirty grate that drops oversize stone into the valve is a blockage cause, not a priming shortcut."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Priming and Line Lubrication (Grout, Not Water)",
+      "description": "ACPA says always prime the pump and خط الصب before concrete; a thin Portland-cement slurry is the preferred primer, and water priming is not recommended in most cases. Pinjin does not publish a factory primer recipe. Match the trailer row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump hopper and pipeline from Hebei Pinjin Machinery in شينغتاي, primed as a line pump not a boom",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete pump blockage causes and safe response",
+        "Concrete pump أنبوب النقل",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "ACI 304.2R: pumped concrete rides on a thin lubricating film on the pipe wall; coat the entire interior diameter with grout or a specialised primer before concrete. ACPA (23 July 2020): always prime the pump and خط الصب; the optimal primer is a thin Portland-cement slurry; in most cases ACPA does not recommend water priming. Pinjin does not print a sack count or factory primer mix. Wetting the hopper is not line lubrication.",
+        "who": "Operators starting a trailer pipeline pour who will use a listed Pinjin pump and a steel or hose line assembled on site.",
+        "factors": [
+          "Prime the pump and the خط الصب before the first concrete",
+          "Prefer a thin Portland-cement slurry, not water, unless ACPA’s later graphic says otherwise for that method",
+          "Keep the mix consistent once flow is established so the film is maintained",
+          "Pinjin does not publish a primer recipe or guaranteed first-load cubic metres"
+        ]
+      },
+      "seoTitle": "Concrete Pump Priming and Grout Lubrication | Pinjin شينغتاي",
+      "imageCaption": "Electric 40 شينغتاي trailer — 21 m³/h, hopper 0.4 m³; prime the pipeline before concrete",
+      "faqs": [
+        {
+          "question": "Can I prime a Pinjin مضخة مقطورة with water instead of grout?",
+          "answer": "ACPA revised its water-priming statement: always prime the pump and خط الصب before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count. Do not treat ‘wet the hopper’ as a substitute for line lubrication."
+        },
+        {
+          "question": "Does the catalogue list how many cement sacks to prime Electric 40?",
+          "answer": "No. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, hopper 0.4 m³ and حصى ناعم 120 m / 360 m. Primer volume is not a خلية الكتالوج. ACPA: use the methods that coat 100 percent of the pipe wall. Send pipe length and DN with the model slug if you want شينغتاي to comment on a listed trailer, not on an unpublished recipe."
+        },
+        {
+          "question": "Does priming replace a daily hopper and grate check?",
+          "answer": "No. Priming coats the line. The شينغتاي daily checklist still starts at the hopper and grate, then clamps, leaks and صمام S observation. See the maintenance checklist. A dirty grate that drops oversize stone into the valve is a blockage cause, not a priming shortcut."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Priming and Line Lubrication (Grout, Not Water)",
+      "description": "ACPA says always prime the pump and линия укладки before concrete; a thin Portland-cement slurry is the preferred primer, and water priming is not recommended in most cases. Pinjin does not publish a factory primer recipe. Match the trailer row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump hopper and pipeline from Hebei Pinjin Machinery in Синтай, primed as a line pump not a boom",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete pump blockage causes and safe response",
+        "Concrete pump бетоновод",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "ACI 304.2R: pumped concrete rides on a thin lubricating film on the pipe wall; coat the entire interior diameter with grout or a specialised primer before concrete. ACPA (23 July 2020): always prime the pump and линия укладки; the optimal primer is a thin Portland-cement slurry; in most cases ACPA does not recommend water priming. Pinjin does not print a sack count or factory primer mix. Wetting the hopper is not line lubrication.",
+        "who": "Operators starting a trailer pipeline pour who will use a listed Pinjin pump and a steel or hose line assembled on site.",
+        "factors": [
+          "Prime the pump and the линия укладки before the first concrete",
+          "Prefer a thin Portland-cement slurry, not water, unless ACPA’s later graphic says otherwise for that method",
+          "Keep the mix consistent once flow is established so the film is maintained",
+          "Pinjin does not publish a primer recipe or guaranteed first-load cubic metres"
+        ]
+      },
+      "seoTitle": "Concrete Pump Priming and Grout Lubrication | Pinjin Синтай",
+      "imageCaption": "Electric 40 Синтай trailer — 21 m³/h, hopper 0.4 m³; prime the pipeline before concrete",
+      "faqs": [
+        {
+          "question": "Can I prime a Pinjin прицепной насос with water instead of grout?",
+          "answer": "ACPA revised its water-priming statement: always prime the pump and линия укладки before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count. Do not treat ‘wet the hopper’ as a substitute for line lubrication."
+        },
+        {
+          "question": "Does the catalogue list how many cement sacks to prime Electric 40?",
+          "answer": "No. Electric 40 lists 45 kW, 21 m³/h, 23 MPa, hopper 0.4 m³ and мелкий камень 120 m / 360 m. Primer volume is not a ячейка каталога. ACPA: use the methods that coat 100 percent of the pipe wall. Send pipe length and DN with the model slug if you want Синтай to comment on a listed trailer, not on an unpublished recipe."
+        },
+        {
+          "question": "Does priming replace a daily hopper and grate check?",
+          "answer": "No. Priming coats the line. The Синтай daily checklist still starts at the hopper and grate, then clamps, leaks and S-клапан observation. See the maintenance checklist. A dirty grate that drops oversize stone into the valve is a blockage cause, not a priming shortcut."
+        }
+      ]
+    }
+  }
+}

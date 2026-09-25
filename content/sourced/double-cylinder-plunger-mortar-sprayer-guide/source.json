@@ -10,9 +10,19 @@
   ],
   "category": "product-guide",
   "resourceType": "equipment-guide",
-  "tags": ["spraying", "plunger", "mortar"],
+  "tags": [
+    "spraying",
+    "plunger",
+    "mortar"
+  ],
   "date": "2026-09-23",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "double-cylinder-plunger-mortar-spraying-machine",
     "type-311-mortar-spraying-machine",
@@ -25,10 +35,22 @@
     "fine-stone-concrete-pump-vs-mortar-sprayer"
   ],
   "relatedPaths": [
-    { "href": "/products/double-cylinder-plunger-mortar-spraying-machine", "label": "Double-cylinder plunger mortar spraying machine product page" },
-    { "href": "/products/spraying-machines", "label": "Concrete spraying machine manufacturer China" },
-    { "href": "/solutions/spraying", "label": "Spraying jobs vs pipeline pumping" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/double-cylinder-plunger-mortar-spraying-machine",
+      "label": "Double-cylinder plunger mortar spraying machine product page"
+    },
+    {
+      "href": "/products/spraying-machines",
+      "label": "Concrete spraying machine manufacturer China"
+    },
+    {
+      "href": "/solutions/spraying",
+      "label": "Spraying jobs vs pipeline pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "This Xingtai double-cylinder plunger mortar spraying machine lists 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m, 1850 × 545 × 605 mm, 420 kg. It is not Type 311 (4 kW, 2 m³/h), not Type 511 (7.5 kW, 3 m³/h), not a trailer concrete pump and not M9 plaster. Quote only; no list price.",
@@ -62,10 +84,160 @@
     "caption": "Double-cylinder plunger mortar spraying machine, Xingtai printed table — 9/11 kW, 4 m³/h, 8 MPa"
   },
   "sources": [
-    { "name": "Pinjin double-cylinder plunger mortar spraying machine product page", "url": "https://pinjinpump.com/en/products/double-cylinder-plunger-mortar-spraying-machine/", "type": "pinjin" },
-    { "name": "Pinjin Type 311 product page", "url": "https://pinjinpump.com/en/products/type-311-mortar-spraying-machine/", "type": "pinjin" },
-    { "name": "Pinjin Type 511 product page", "url": "https://pinjinpump.com/en/products/type-511-mortar-spraying-machine/", "type": "pinjin" },
-    { "name": "Pinjin spraying machines hub", "url": "https://pinjinpump.com/en/products/spraying-machines/", "type": "pinjin" }
+    {
+      "name": "Pinjin double-cylinder plunger mortar spraying machine product page",
+      "url": "https://pinjinpump.com/en/products/double-cylinder-plunger-mortar-spraying-machine/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Type 311 product page",
+      "url": "https://pinjinpump.com/en/products/type-311-mortar-spraying-machine/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Type 511 product page",
+      "url": "https://pinjinpump.com/en/products/type-511-mortar-spraying-machine/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin spraying machines hub",
+      "url": "https://pinjinpump.com/en/products/spraying-machines/",
+      "type": "pinjin"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Double-Cylinder Plunger Mortar Spraying Machine Printed Table",
+      "description": "邢台 double-cylinder plunger mortar spraying machine printed at 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, 38/51 mm hose, particle ≤8 mm and 100 m / 40 m. It is not Type 311, not Type 511, not M9 plaster and not a trailer concrete pump. Quote only.",
+      "imageAlt": "Double-cylinder plunger mortar spraying machine factory product photo, 河北品锦机械 邢台",
+      "relatedPathLabels": [
+        "Double-cylinder plunger mortar spraying machine 产品页",
+        "Concrete spraying machine manufacturer China",
+        "Spraying jobs vs pipeline pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "This 邢台 double-cylinder plunger mortar spraying machine lists 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m, 1850 × 545 × 605 mm, 420 kg. It is not Type 311 (4 kW, 2 m³/h), not Type 511 (7.5 kW, 3 m³/h), not a trailer concrete pump and not M9 plaster. Quote only; no list price.",
+        "who": "Contractors matching 4 m³/h, ≤8 mm particle and 380 V dual-motor supply to a mortar spraying job whose hose stays inside 100 m / 40 m.",
+        "factors": [
+          "Particle ≤8 mm on this printed row",
+          "Output 4 m³/h and pressure 8 MPa",
+          "Hose 38/51 mm and 100 m / 40 m",
+          "380 V for the listed 9/11 kW dual motors"
+        ]
+      },
+      "seoTitle": "Double-Cylinder Plunger Mortar Sprayer | 品锦 邢台",
+      "imageCaption": "Double-cylinder plunger mortar spraying machine, 邢台 printed table — 9/11 kW, 4 m³/h, 8 MPa",
+      "faqs": [
+        {
+          "question": "Is this the same machine as Type 311 or Type 511?",
+          "answer": "No. Type 311 lists 4 kW, 2 m³/h, 3–5 MPa, 15 m / 5 m, particle ≤2 mm. Type 511 lists 7.5 kW, 3 m³/h, 3–5 MPa, 30 m / 15 m, particle ≤6 mm. This plunger row lists 9/11 kW, 4 m³/h, 8 MPa, 100 m / 40 m, particle ≤8 mm."
+        },
+        {
+          "question": "Is it a trailer concrete pump?",
+          "answer": "No. It is a mortar spraying machine. Trailer pumps sit on the electric, diesel and mixer-pump hubs."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Double-Cylinder Plunger Mortar Spraying Machine Printed Table",
+      "description": "Xingtai double-cylinder plunger mortar spraying machine printed at 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, 38/51 mm hose, particle ≤8 mm and 100 m / 40 m. It is not Type 311, not Type 511, not M9 plaster and not a trailer concrete pump. Quote only.",
+      "imageAlt": "Double-cylinder plunger mortar spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
+      "relatedPathLabels": [
+        "Double-cylinder plunger mortar spraying machine página do produto",
+        "Concrete spraying machine manufacturer China",
+        "Spraying jobs vs pipeline pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "This Xingtai double-cylinder plunger mortar spraying machine lists 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m, 1850 × 545 × 605 mm, 420 kg. It is not Type 311 (4 kW, 2 m³/h), not Type 511 (7.5 kW, 3 m³/h), not a trailer concrete pump and not M9 plaster. Quote only; no list price.",
+        "who": "Contractors matching 4 m³/h, ≤8 mm particle and 380 V dual-motor supply to a mortar spraying job whose hose stays inside 100 m / 40 m.",
+        "factors": [
+          "Particle ≤8 mm on this printed row",
+          "Output 4 m³/h and pressure 8 MPa",
+          "Hose 38/51 mm and 100 m / 40 m",
+          "380 V for the listed 9/11 kW dual motors"
+        ]
+      },
+      "seoTitle": "Double-Cylinder Plunger Mortar Sprayer | Pinjin Xingtai",
+      "imageCaption": "Double-cylinder plunger mortar spraying machine, Xingtai printed table — 9/11 kW, 4 m³/h, 8 MPa",
+      "faqs": [
+        {
+          "question": "Is this the same machine as Type 311 or Type 511?",
+          "answer": "No. Type 311 lists 4 kW, 2 m³/h, 3–5 MPa, 15 m / 5 m, particle ≤2 mm. Type 511 lists 7.5 kW, 3 m³/h, 3–5 MPa, 30 m / 15 m, particle ≤6 mm. This plunger row lists 9/11 kW, 4 m³/h, 8 MPa, 100 m / 40 m, particle ≤8 mm."
+        },
+        {
+          "question": "Is it a trailer concrete pump?",
+          "answer": "No. It is a mortar spraying machine. Trailer pumps sit on the electric, diesel and mixer-pump hubs."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Double-Cylinder Plunger Mortar Spraying Machine Printed Table",
+      "description": "شينغتاي double-cylinder plunger mortar spraying machine printed at 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, 38/51 mm hose, particle ≤8 mm and 100 m / 40 m. It is not Type 311, not Type 511, not M9 plaster and not a trailer concrete pump. Quote only.",
+      "imageAlt": "Double-cylinder plunger mortar spraying machine factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "relatedPathLabels": [
+        "Double-cylinder plunger mortar spraying machine صفحة المنتج",
+        "Concrete spraying machine manufacturer China",
+        "Spraying jobs vs pipeline pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "This شينغتاي double-cylinder plunger mortar spraying machine lists 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m, 1850 × 545 × 605 mm, 420 kg. It is not Type 311 (4 kW, 2 m³/h), not Type 511 (7.5 kW, 3 m³/h), not a trailer concrete pump and not M9 plaster. Quote only; no list price.",
+        "who": "Contractors matching 4 m³/h, ≤8 mm particle and 380 V dual-motor supply to a mortar spraying job whose hose stays inside 100 m / 40 m.",
+        "factors": [
+          "Particle ≤8 mm on this printed row",
+          "Output 4 m³/h and pressure 8 MPa",
+          "Hose 38/51 mm and 100 m / 40 m",
+          "380 V for the listed 9/11 kW dual motors"
+        ]
+      },
+      "seoTitle": "Double-Cylinder Plunger Mortar Sprayer | Pinjin شينغتاي",
+      "imageCaption": "Double-cylinder plunger mortar spraying machine, شينغتاي printed table — 9/11 kW, 4 m³/h, 8 MPa",
+      "faqs": [
+        {
+          "question": "Is this the same machine as Type 311 or Type 511?",
+          "answer": "No. Type 311 lists 4 kW, 2 m³/h, 3–5 MPa, 15 m / 5 m, particle ≤2 mm. Type 511 lists 7.5 kW, 3 m³/h, 3–5 MPa, 30 m / 15 m, particle ≤6 mm. This plunger row lists 9/11 kW, 4 m³/h, 8 MPa, 100 m / 40 m, particle ≤8 mm."
+        },
+        {
+          "question": "Is it a trailer concrete pump?",
+          "answer": "No. It is a mortar spraying machine. Trailer pumps sit on the electric, diesel and mixer-pump hubs."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Double-Cylinder Plunger Mortar Spraying Machine Printed Table",
+      "description": "Синтай double-cylinder plunger mortar spraying machine printed at 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, 38/51 mm hose, particle ≤8 mm and 100 m / 40 m. It is not Type 311, not Type 511, not M9 plaster and not a trailer concrete pump. Quote only.",
+      "imageAlt": "Double-cylinder plunger mortar spraying machine factory product photo, Hebei Pinjin Machinery Синтай",
+      "relatedPathLabels": [
+        "Double-cylinder plunger mortar spraying machine страница изделия",
+        "Concrete spraying machine manufacturer China",
+        "Spraying jobs vs pipeline pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "This Синтай double-cylinder plunger mortar spraying machine lists 380 V, 9/11 kW dual motors, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m, 1850 × 545 × 605 mm, 420 kg. It is not Type 311 (4 kW, 2 m³/h), not Type 511 (7.5 kW, 3 m³/h), not a trailer concrete pump and not M9 plaster. Quote only; no list price.",
+        "who": "Contractors matching 4 m³/h, ≤8 mm particle and 380 V dual-motor supply to a mortar spraying job whose hose stays inside 100 m / 40 m.",
+        "factors": [
+          "Particle ≤8 mm on this printed row",
+          "Output 4 m³/h and pressure 8 MPa",
+          "Hose 38/51 mm and 100 m / 40 m",
+          "380 V for the listed 9/11 kW dual motors"
+        ]
+      },
+      "seoTitle": "Double-Cylinder Plunger Mortar Sprayer | Pinjin Синтай",
+      "imageCaption": "Double-cylinder plunger mortar spraying machine, Синтай printed table — 9/11 kW, 4 m³/h, 8 MPa",
+      "faqs": [
+        {
+          "question": "Is this the same machine as Type 311 or Type 511?",
+          "answer": "No. Type 311 lists 4 kW, 2 m³/h, 3–5 MPa, 15 m / 5 m, particle ≤2 mm. Type 511 lists 7.5 kW, 3 m³/h, 3–5 MPa, 30 m / 15 m, particle ≤6 mm. This plunger row lists 9/11 kW, 4 m³/h, 8 MPa, 100 m / 40 m, particle ≤8 mm."
+        },
+        {
+          "question": "Is it a trailer concrete pump?",
+          "answer": "No. It is a mortar spraying machine. Trailer pumps sit on the electric, diesel and mixer-pump hubs."
+        }
+      ]
+    }
+  }
 }

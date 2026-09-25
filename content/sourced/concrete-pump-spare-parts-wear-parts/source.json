@@ -10,9 +10,19 @@
   ],
   "category": "manufacturing-knowledge",
   "resourceType": "parts-guide",
-  "tags": ["wear-parts", "pistons", "pipes"],
+  "tags": [
+    "wear-parts",
+    "pistons",
+    "pipes"
+  ],
   "date": "2026-09-22",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "concrete-pump-split-piston",
     "concrete-pump-integral-piston",
@@ -22,13 +32,27 @@
   "relatedArticleSlugs": [
     "concrete-pump-pipe-dn-selection",
     "concrete-pump-daily-maintenance-checklist",
-    "concrete-pump-blockage-causes-prevention"
+    "concrete-pump-blockage-causes-prevention",
+    "concrete-pump-wear-parts-replacement-interval",
+    "concrete-pump-clamp-coupling"
   ],
   "relatedPaths": [
-    { "href": "/products/concrete-pump-parts", "label": "Concrete pump parts manufacturer China" },
-    { "href": "/blog/concrete-pump-pipe-dn-selection", "label": "Concrete pump pipe DN selection" },
-    { "href": "/solutions/construction", "label": "Building construction pumping" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": "Concrete pump parts manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-pipe-dn-selection",
+      "label": "Concrete pump pipe DN selection"
+    },
+    {
+      "href": "/solutions/construction",
+      "label": "Building construction pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "Pinjin spare parts are Xingtai replacement wear parts for S-valve trailer pumps: split pistons φ150–φ280, integral pistons φ150–φ250, S-tube and mixing seals, main and swing cylinder seals, rubber springs, swing-arm balls, plus delivery pipe, DN200 90° elbow, DN80 clamp and delivery hose. Confirm outer diameter or DN on the pump. They are not OEM parts of other pump brands. Quote only; no published list price; not sold in small batches.",
@@ -62,10 +86,160 @@
     "caption": "Split piston replacement sets, Xingtai wear-part catalogue"
   },
   "sources": [
-    { "name": "Pinjin concrete pump parts hub", "url": "https://pinjinpump.com/en/products/concrete-pump-parts/", "type": "pinjin" },
-    { "name": "Pinjin split piston product page", "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/", "type": "pinjin" },
-    { "name": "Pinjin delivery pipe product page", "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/", "type": "pinjin" },
-    { "name": "Pinjin daily maintenance knowledge page", "url": "https://pinjinpump.com/en/blog/concrete-pump-daily-maintenance-checklist/", "type": "pinjin" }
+    {
+      "name": "Pinjin concrete pump parts hub",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-parts/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin split piston product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin delivery pipe product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin daily maintenance knowledge page",
+      "url": "https://pinjinpump.com/en/blog/concrete-pump-daily-maintenance-checklist/",
+      "type": "pinjin"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump Spare Parts: Pistons, Valves, Pipes and Wear Parts",
+      "description": "邢台 replacement 易损件 for 拖式泵s: split and integral pistons, S管 and mixing seals, cylinder seals, pipes, elbows, clamps and hoses. Confirm OD or DN on the machine. Quote only — no list price, no small-batch parcels, not OEM parts of other brands.",
+      "imageAlt": "Concrete pump split piston 易损件 from 河北品锦机械 邢台",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Building construction pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "品锦 配件 are 邢台 replacement 易损件 for S阀 拖式泵s: split pistons φ150–φ280, integral pistons φ150–φ250, S管 and mixing seals, main and swing cylinder seals, rubber springs, swing-arm balls, plus 输送管, DN200 90° elbow, DN80 clamp and 输送胶管. Confirm outer diameter or DN on the pump. They are not OEM parts of other pump brands. Quote only; no published list price; not sold in small batches.",
+        "who": "Owners of 品锦 trailers — and buyers replacing S阀 wear items by measured OD — who can send part name, size and quantity.",
+        "factors": [
+          "Measure OD or DN on the machine before ordering",
+          "Piston type: split set versus integral piece, material as listed",
+          "Pipeline: DN on the pump page, not a guessed size",
+          "Commercial terms: project quantities, factory quote, no list price"
+        ]
+      },
+      "seoTitle": "Concrete Pump Spare Parts Pistons Valves Pipes | 品锦",
+      "imageCaption": "Split piston replacement sets, 邢台 wear-part catalogue",
+      "faqs": [
+        {
+          "question": "Do these parts fit other concrete-pump brands as OEM?",
+          "answer": "No. They are 邢台 replacement 易损件. Confirm the outer diameter or DN on your pump. We do not claim OEM interchange with other brands."
+        },
+        {
+          "question": "Is there a published price list or small-parcel shop?",
+          "answer": "No. Send name, size and quantity for a factory quote. Small-batch shipping is not offered."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Spare Parts: Pistons, Valves, Pipes and Wear Parts",
+      "description": "Xingtai replacement peças de desgaste for bomba reboques: split and integral pistons, tubo S and mixing seals, cylinder seals, pipes, elbows, clamps and hoses. Confirm OD or DN on the machine. Quote only — no list price, no small-batch parcels, not OEM parts of other brands.",
+      "imageAlt": "Concrete pump split piston peças de desgaste from Hebei Pinjin Machinery Xingtai",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Building construction pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin peças de reposição are Xingtai replacement peças de desgaste for válvula S bomba reboques: split pistons φ150–φ280, integral pistons φ150–φ250, tubo S and mixing seals, main and swing cylinder seals, rubber springs, swing-arm balls, plus tubo de entrega, DN200 90° elbow, DN80 clamp and mangueira de entrega. Confirm outer diameter or DN on the pump. They are not OEM parts of other pump brands. Quote only; no published list price; not sold in small batches.",
+        "who": "Owners of Pinjin trailers — and buyers replacing válvula S wear items by measured OD — who can send part name, size and quantity.",
+        "factors": [
+          "Measure OD or DN on the machine before ordering",
+          "Piston type: split set versus integral piece, material as listed",
+          "Pipeline: DN on the pump page, not a guessed size",
+          "Commercial terms: project quantities, factory quote, no list price"
+        ]
+      },
+      "seoTitle": "Concrete Pump Spare Parts Pistons Valves Pipes | Pinjin",
+      "imageCaption": "Split piston replacement sets, Xingtai wear-part catalogue",
+      "faqs": [
+        {
+          "question": "Do these parts fit other concrete-pump brands as OEM?",
+          "answer": "No. They are Xingtai replacement peças de desgaste. Confirm the outer diameter or DN on your pump. We do not claim OEM interchange with other brands."
+        },
+        {
+          "question": "Is there a published price list or small-parcel shop?",
+          "answer": "No. Send name, size and quantity for a factory quote. Small-batch shipping is not offered."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Spare Parts: Pistons, Valves, Pipes and Wear Parts",
+      "description": "شينغتاي replacement قطع التآكل for مضخة مقطورةs: split and integral pistons, أنبوب S and mixing seals, cylinder seals, pipes, elbows, clamps and hoses. Confirm OD or DN on the machine. Quote only — no list price, no small-batch parcels, not OEM parts of other brands.",
+      "imageAlt": "Concrete pump split piston قطع التآكل from Hebei Pinjin Machinery شينغتاي",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Building construction pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin قطع الغيار are شينغتاي replacement قطع التآكل for صمام S مضخة مقطورةs: split pistons φ150–φ280, integral pistons φ150–φ250, أنبوب S and mixing seals, main and swing cylinder seals, rubber springs, swing-arm balls, plus أنبوب النقل, DN200 90° elbow, DN80 clamp and خرطوم النقل. Confirm outer diameter or DN on the pump. They are not OEM parts of other pump brands. Quote only; no published list price; not sold in small batches.",
+        "who": "Owners of Pinjin trailers — and buyers replacing صمام S wear items by measured OD — who can send part name, size and quantity.",
+        "factors": [
+          "Measure OD or DN on the machine before ordering",
+          "Piston type: split set versus integral piece, material as listed",
+          "Pipeline: DN on the pump page, not a guessed size",
+          "Commercial terms: project quantities, factory quote, no list price"
+        ]
+      },
+      "seoTitle": "Concrete Pump Spare Parts Pistons Valves Pipes | Pinjin",
+      "imageCaption": "Split piston replacement sets, شينغتاي wear-part catalogue",
+      "faqs": [
+        {
+          "question": "Do these parts fit other concrete-pump brands as OEM?",
+          "answer": "No. They are شينغتاي replacement قطع التآكل. Confirm the outer diameter or DN on your pump. We do not claim OEM interchange with other brands."
+        },
+        {
+          "question": "Is there a published price list or small-parcel shop?",
+          "answer": "No. Send name, size and quantity for a factory quote. Small-batch shipping is not offered."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Spare Parts: Pistons, Valves, Pipes and Wear Parts",
+      "description": "Синтай replacement быстроизнашивающиеся детали for прицепной насосs: split and integral pistons, S-труба and mixing seals, cylinder seals, pipes, elbows, clamps and hoses. Confirm OD or DN on the machine. Quote only — no list price, no small-batch parcels, not OEM parts of other brands.",
+      "imageAlt": "Concrete pump split piston быстроизнашивающиеся детали from Hebei Pinjin Machinery Синтай",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Building construction pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin запасные части are Синтай replacement быстроизнашивающиеся детали for S-клапан прицепной насосs: split pistons φ150–φ280, integral pistons φ150–φ250, S-труба and mixing seals, main and swing cylinder seals, rubber springs, swing-arm balls, plus бетоновод, DN200 90° elbow, DN80 clamp and рукав подачи. Confirm outer diameter or DN on the pump. They are not OEM parts of other pump brands. Quote only; no published list price; not sold in small batches.",
+        "who": "Owners of Pinjin trailers — and buyers replacing S-клапан wear items by measured OD — who can send part name, size and quantity.",
+        "factors": [
+          "Measure OD or DN on the machine before ordering",
+          "Piston type: split set versus integral piece, material as listed",
+          "Pipeline: DN on the pump page, not a guessed size",
+          "Commercial terms: project quantities, factory quote, no list price"
+        ]
+      },
+      "seoTitle": "Concrete Pump Spare Parts Pistons Valves Pipes | Pinjin",
+      "imageCaption": "Split piston replacement sets, Синтай wear-part catalogue",
+      "faqs": [
+        {
+          "question": "Do these parts fit other concrete-pump brands as OEM?",
+          "answer": "No. They are Синтай replacement быстроизнашивающиеся детали. Confirm the outer diameter or DN on your pump. We do not claim OEM interchange with other brands."
+        },
+        {
+          "question": "Is there a published price list or small-parcel shop?",
+          "answer": "No. Send name, size and quantity for a factory quote. Small-batch shipping is not offered."
+        }
+      ]
+    }
+  }
 }

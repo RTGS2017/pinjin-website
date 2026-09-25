@@ -10,9 +10,19 @@
   ],
   "category": "industry-guide",
   "resourceType": "procurement-guide",
-  "tags": ["price", "quotation", "procurement"],
+  "tags": [
+    "price",
+    "quotation",
+    "procurement"
+  ],
   "date": "2026-09-22",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "electric-40-concrete-pump",
     "diesel-50-concrete-pump",
@@ -24,10 +34,22 @@
     "electric-20-vs-30-concrete-pump"
   ],
   "relatedPaths": [
-    { "href": "/products", "label": "Pinjin concrete machinery products" },
-    { "href": "/blog/how-to-compare-small-concrete-pumps-china", "label": "How to compare small concrete pumps from China" },
-    { "href": "/factory", "label": "Xingtai construction machinery factory" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products",
+      "label": "Pinjin concrete machinery products"
+    },
+    {
+      "href": "/blog/how-to-compare-small-concrete-pumps-china",
+      "label": "How to compare small concrete pumps from China"
+    },
+    {
+      "href": "/factory",
+      "label": "Xingtai construction machinery factory"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "A China concrete pump price is a factory quotation, not a scraped listing. On pinjinpump.com there is no published list price and no EXW figure on product pages. Factors we actually use: catalogue model (kW, output, pressure, distance), electric versus diesel, extra pipe and wear parts, destination, and Incoterms. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
@@ -60,10 +82,160 @@
     "caption": "Packing and loading at the Xingtai factory — freight is extra and paid by the buyer"
   },
   "sources": [
-    { "name": "Pinjin FAQ: concrete pump price from China manufacturer", "url": "https://pinjinpump.com/en/faq/", "type": "pinjin" },
-    { "name": "Pinjin Electric 40 product page (no list price)", "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin contact / inquiry", "url": "https://pinjinpump.com/en/contact/", "type": "pinjin" },
-    { "name": "Alibaba search observation: concrete pump (listing prices not used)", "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump", "type": "marketplace" }
+    {
+      "name": "Pinjin FAQ: concrete pump price from China manufacturer",
+      "url": "https://pinjinpump.com/en/faq/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 40 product page (no list price)",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin contact / inquiry",
+      "url": "https://pinjinpump.com/en/contact/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba search observation: concrete pump (listing prices not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump",
+      "type": "marketplace"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump Price Factors in China",
+      "description": "What moves a China concrete pump quotation: model and power, configuration, wear-part kits, destination and Incoterms. 品锦 pages have no published list price and no EXW number on this site. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+      "imageAlt": "Factory packing and loading at 河北品锦机械 in 邢台, Hebei, China",
+      "relatedPathLabels": [
+        "品锦 concrete machinery products",
+        "How to compare small concrete pumps from China",
+        "邢台 construction machinery factory",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "A China concrete pump price is a factory quotation, not a scraped listing. On pinjinpump.com there is no published list price and no EXW figure on 产品页s. Factors we actually use: catalogue model (kW, output, pressure, distance), electric versus diesel, extra pipe and 易损件, destination, and Incoterms. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+        "who": "Importers collecting quotes who need the cost drivers without a fake price band.",
+        "factors": [
+          "Which published model — compact 8–10 m³/h versus 21 m³/h versus 60–100 m³/h",
+          "Power: electric kW versus diesel engine row",
+          "Pipeline and wear-part quantity (quote-only, no small batches)",
+          "Destination, packing and who pays freight"
+        ]
+      },
+      "seoTitle": "Concrete Pump Price Factors in China | 品锦 邢台",
+      "imageCaption": "Packing and loading at the 邢台 factory — freight is extra and paid by the buyer",
+      "faqs": [
+        {
+          "question": "What is 品锦’s EXW price for 电动40?",
+          "answer": "This website does not publish it. Product pages state that international freight is extra and paid by the buyer. Send the model and destination for a factory quotation."
+        },
+        {
+          "question": "Can I use an Alibaba listing as the market price?",
+          "answer": "Not as a 品锦 figure. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. We do not copy those numbers."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Price Factors in China",
+      "description": "What moves a China concrete pump quotation: model and power, configuration, wear-part kits, destination and Incoterms. Pinjin pages have no published list price and no EXW number on this site. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+      "imageAlt": "Factory packing and loading at Hebei Pinjin Machinery in Xingtai, Hebei, China",
+      "relatedPathLabels": [
+        "Pinjin concrete machinery products",
+        "How to compare small concrete pumps from China",
+        "Xingtai construction machinery factory",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A China concrete pump price is a factory quotation, not a scraped listing. On pinjinpump.com there is no published list price and no EXW figure on página do produtos. Factors we actually use: catalogue model (kW, output, pressure, distance), electric versus diesel, extra pipe and peças de desgaste, destination, and Incoterms. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+        "who": "Importers collecting quotes who need the cost drivers without a fake price band.",
+        "factors": [
+          "Which published model — compact 8–10 m³/h versus 21 m³/h versus 60–100 m³/h",
+          "Power: electric kW versus diesel engine row",
+          "Pipeline and wear-part quantity (quote-only, no small batches)",
+          "Destination, packing and who pays freight"
+        ]
+      },
+      "seoTitle": "Concrete Pump Price Factors in China | Pinjin Xingtai",
+      "imageCaption": "Packing and loading at the Xingtai factory — freight is extra and paid by the buyer",
+      "faqs": [
+        {
+          "question": "What is Pinjin’s EXW price for Electric 40?",
+          "answer": "This website does not publish it. Product pages state that international freight is extra and paid by the buyer. Send the model and destination for a factory quotation."
+        },
+        {
+          "question": "Can I use an Alibaba listing as the market price?",
+          "answer": "Not as a Pinjin figure. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. We do not copy those numbers."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Price Factors in China",
+      "description": "What moves a China concrete pump quotation: model and power, configuration, wear-part kits, destination and Incoterms. Pinjin pages have no published list price and no EXW number on this site. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+      "imageAlt": "Factory packing and loading at Hebei Pinjin Machinery in شينغتاي, Hebei, China",
+      "relatedPathLabels": [
+        "Pinjin concrete machinery products",
+        "How to compare small concrete pumps from China",
+        "شينغتاي construction machinery factory",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A China concrete pump price is a factory quotation, not a scraped listing. On pinjinpump.com there is no published list price and no EXW figure on صفحة المنتجs. Factors we actually use: catalogue model (kW, output, pressure, distance), electric versus diesel, extra pipe and قطع التآكل, destination, and Incoterms. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+        "who": "Importers collecting quotes who need the cost drivers without a fake price band.",
+        "factors": [
+          "Which published model — compact 8–10 m³/h versus 21 m³/h versus 60–100 m³/h",
+          "Power: electric kW versus diesel engine row",
+          "Pipeline and wear-part quantity (quote-only, no small batches)",
+          "Destination, packing and who pays freight"
+        ]
+      },
+      "seoTitle": "Concrete Pump Price Factors in China | Pinjin شينغتاي",
+      "imageCaption": "Packing and loading at the شينغتاي factory — freight is extra and paid by the buyer",
+      "faqs": [
+        {
+          "question": "What is Pinjin’s EXW price for Electric 40?",
+          "answer": "This website does not publish it. Product pages state that international freight is extra and paid by the buyer. Send the model and destination for a factory quotation."
+        },
+        {
+          "question": "Can I use an Alibaba listing as the market price?",
+          "answer": "Not as a Pinjin figure. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. We do not copy those numbers."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Price Factors in China",
+      "description": "What moves a China concrete pump quotation: model and power, configuration, wear-part kits, destination and Incoterms. Pinjin pages have no published list price and no EXW number on this site. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+      "imageAlt": "Factory packing and loading at Hebei Pinjin Machinery in Синтай, Hebei, China",
+      "relatedPathLabels": [
+        "Pinjin concrete machinery products",
+        "How to compare small concrete pumps from China",
+        "Синтай construction machinery factory",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A China concrete pump price is a factory quotation, not a scraped listing. On pinjinpump.com there is no published list price and no EXW figure on страница изделияs. Factors we actually use: catalogue model (kW, output, pressure, distance), electric versus diesel, extra pipe and быстроизнашивающиеся детали, destination, and Incoterms. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms.",
+        "who": "Importers collecting quotes who need the cost drivers without a fake price band.",
+        "factors": [
+          "Which published model — compact 8–10 m³/h versus 21 m³/h versus 60–100 m³/h",
+          "Power: electric kW versus diesel engine row",
+          "Pipeline and wear-part quantity (quote-only, no small batches)",
+          "Destination, packing and who pays freight"
+        ]
+      },
+      "seoTitle": "Concrete Pump Price Factors in China | Pinjin Синтай",
+      "imageCaption": "Packing and loading at the Синтай factory — freight is extra and paid by the buyer",
+      "faqs": [
+        {
+          "question": "What is Pinjin’s EXW price for Electric 40?",
+          "answer": "This website does not publish it. Product pages state that international freight is extra and paid by the buyer. Send the model and destination for a factory quotation."
+        },
+        {
+          "question": "Can I use an Alibaba listing as the market price?",
+          "answer": "Not as a Pinjin figure. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. We do not copy those numbers."
+        }
+      ]
+    }
+  }
 }

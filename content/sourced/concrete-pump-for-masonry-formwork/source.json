@@ -1,0 +1,266 @@
+{
+  "title": "Concrete Pump for Masonry and Formwork Filling",
+  "seoTitle": "Concrete Pump for Masonry Formwork Filling | Pinjin Xingtai",
+  "description": "Compact Pinjin rows can place grout or fine-stone into masonry cores and formwork when the mix matches the printed aggregate cell. This is not a mortar sprayer and not the secondary-structure column article. B500S lists 10 mm and 5 m / 5 m; Electric 15 lists 8–10 m³/h.",
+  "primaryKeyword": "concrete pump for masonry",
+  "secondaryKeywords": [
+    "formwork filling concrete pump",
+    "grout pump masonry core",
+    "fine stone pump formwork"
+  ],
+  "category": "application-guide",
+  "resourceType": "buyer-guide",
+  "tags": [
+    "masonry",
+    "formwork",
+    "fine-stone"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "b500s-83d-two-stage-pump",
+    "electric-15-concrete-pump",
+    "electric-40-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "fine-stone-concrete-pump-vs-mortar-sprayer",
+    "secondary-structure-concrete-pump-column-beam",
+    "fine-stone-concrete-pump-aggregate-size"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/mortar-spraying-machines",
+      "label": "Mortar spraying machine manufacturer"
+    },
+    {
+      "href": "/blog/fine-stone-concrete-pump-vs-mortar-sprayer",
+      "label": "Concrete pump vs mortar sprayer"
+    },
+    {
+      "href": "/products/b500s-83d-two-stage-pump",
+      "label": "B500S fine stone pump"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Masonry-core grout and formwork filling are placing jobs: the mix must match the printed aggregate cell and the line must be primed. [B500S](/products/b500s-83d-two-stage-pump/) lists 7.5 kW, 5 m / 5 m, sand and small stone 5–16 mm, 280 kg. [Electric 15](/products/electric-15-concrete-pump/) lists 8–10 m³/h, 60–80 m / 15–20 m. This page is not a mortar-sprayer guide — plaster and tile adhesive stay on the sprayer hub. It is also not the secondary-structure column article, which already covers small vertical members. Pinjin does not print a masonry-bond or formwork-pressure certificate.",
+    "who": "Buyers filling block cores, small formwork or grout pockets who already compared a concrete pump with a mortar sprayer and need the listed fine-stone / compact trailer cells.",
+    "factors": [
+      "Match stone size to the printed aggregate cell (B500S 10 mm)",
+      "Do not use a mortar sprayer SKU as a concrete pump substitute",
+      "Catalogue m³/h is a factory row, not a masonry-block count",
+      "No published formwork-pressure or grout-bond certificate"
+    ],
+    "relatedModels": [
+      "b500s-83d-two-stage-pump",
+      "electric-15-concrete-pump",
+      "electric-40-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is a Pinjin mortar sprayer the right machine to fill masonry cores with grout?",
+      "answer": "Usually no. Mortar sprayers on this site are for plaster and mortar spray. Filling cores or formwork with pumpable grout or fine-stone is a placing job. Start from B500S (10 mm, 5 m / 5 m) or Electric 15. See concrete pump vs mortar sprayer. We will not treat a sprayer listing as a core-fill pump."
+    },
+    {
+      "question": "Does this article replace the secondary-structure column page?",
+      "answer": "No. Secondary-structure already covers small columns and infill. This page is masonry cores and formwork filling: match aggregate, prime the line, quote the compact row. Do not duplicate that column-selection table here."
+    },
+    {
+      "question": "Can Electric 40 fill large formwork faster because it lists 21 m³/h?",
+      "answer": "Electric 40 lists 45 kW, 21 m³/h, hopper 0.4 m³, 23 MPa. Those cells are not a formwork-cycle time. If the opening and mix need a smaller hopper and 100–125 mm pipe, Electric 15 may be the listed match. Send form size and mix — unpublished pour clocks are not quoted as factory specs."
+    }
+  ],
+  "image": {
+    "src": "/images/products/b500s-83d-two-stage-pump/main.webp",
+    "alt": "B500S fine stone pump 280 kg from Hebei Pinjin Machinery Xingtai used for grout and fine-stone placing not mortar spray",
+    "caption": "B500S-83D — 7.5 kW, 3–4 m³/h, 5–16 mm, 5 m / 5 m. Fine-stone placing, not a sprayer."
+  },
+  "sources": [
+    {
+      "name": "Pinjin B500S fine stone pump product page",
+      "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 40 product page",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "ACI 304.2R-17 placing by pump (preview)",
+      "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Alibaba observation: grout / fine stone pump for masonry (listing copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=fine+stone+concrete+pump+grout",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "砌体与模板填充用混凝土泵",
+      "description": "紧凑目录行可把灌浆或细石打进砌体芯孔和模板，前提是配合比匹配已印骨料单元格。这不是砂浆喷涂机，也不是二次结构柱文。B500S-83D 列 5–16 mm 与 5 m / 5 m。",
+      "imageAlt": "B500S 细石 pump 280 kg from 河北品锦机械 邢台 used for grout and 细石 placing not mortar spray",
+      "relatedPathLabels": [
+        "Mortar spraying machine manufacturer",
+        "Concrete pump vs 砂浆喷涂机",
+        "B500S 细石 pump",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Masonry-core grout and 模板 filling are placing jobs: the mix must match the printed 骨料 cell and the line must be primed. [B500S](/products/b500s-83d-two-stage-pump/) lists 7.5 kW, 5 m / 5 m, sand and small stone 5–16 mm, 280 kg. [Electric 15](/products/electric-15-concrete-pump/) lists 8–10 m³/h, 60–80 m / 15–20 m. This page is not a mortar-sprayer guide — plaster and tile adhesive stay on the sprayer hub. It is also not the secondary-structure column article, which already covers small 垂直 members. 品锦 does not print a 砌体-bond or 模板-pressure certificate.",
+        "who": "Buyers filling block cores, small 模板 or grout pockets who already compared a concrete pump with a 砂浆喷涂机 and need the listed 细石 / compact trailer cells.",
+        "factors": [
+          "Match stone size to the printed 骨料 cell (B500S 10 mm)",
+          "Do not use a 砂浆喷涂机 SKU as a concrete pump substitute",
+          "Catalogue m³/h is a factory row, not a 砌体-block count",
+          "No published 模板-pressure or grout-bond certificate"
+        ]
+      },
+      "seoTitle": "砌体模板填充混凝土泵 | 品锦邢台",
+      "imageCaption": "B500S-83D — 7.5 kW, 3–4 m³/h, 5–16 mm, 5 m / 5 m. Fine-stone placing, not a sprayer.",
+      "faqs": [
+        {
+          "question": "Is a 品锦 砂浆喷涂机 the right machine to fill 砌体 cores with grout?",
+          "answer": "Usually no. Mortar sprayers on this site are for plaster and mortar spray. Filling cores or 模板 with pumpable grout or 细石 is a placing job. Start from B500S (10 mm, 5 m / 5 m) or 电动15. See concrete pump vs 砂浆喷涂机. We will not treat a sprayer listing as a core-fill pump."
+        },
+        {
+          "question": "Does this article replace the secondary-structure column page?",
+          "answer": "No. Secondary-structure already covers small columns and infill. This page is 砌体 cores and 模板 filling: match 骨料, prime the line, quote the compact row. Do not duplicate that column-selection table here."
+        },
+        {
+          "question": "Can 电动40 fill large 模板 faster because it lists 21 m³/h?",
+          "answer": "电动40 lists 45 kW, 21 m³/h, hopper 0.4 m³, 23 MPa. Those cells are not a 模板-cycle time. If the opening and mix need a smaller hopper and 100–125 mm pipe, 电动15 may be the listed match. Send form size and mix — unpublished pour clocks are not quoted as factory specs."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump for Masonry and Formwork Filling",
+      "description": "Compact Pinjin rows can place grout or pedra fina into alvenaria cores and forma when the mix matches the printed agregado cell. This is not a pulverizador de argamassa and not the secondary-structure column article. B500S lists 10 mm and 5 m / 5 m; Electric 15 lists 8–10 m³/h.",
+      "imageAlt": "B500S pedra fina pump 280 kg from Hebei Pinjin Machinery Xingtai used for grout and pedra fina placing not mortar spray",
+      "relatedPathLabels": [
+        "Mortar spraying machine manufacturer",
+        "Concrete pump vs pulverizador de argamassa",
+        "B500S pedra fina pump",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Masonry-core grout and forma filling are placing jobs: the mix must match the printed agregado cell and the line must be primed. [B500S](/products/b500s-83d-two-stage-pump/) lists 7.5 kW, 5 m / 5 m, sand and small stone 5–16 mm, 280 kg. [Electric 15](/products/electric-15-concrete-pump/) lists 8–10 m³/h, 60–80 m / 15–20 m. This page is not a mortar-sprayer guide — plaster and tile adhesive stay on the sprayer hub. It is also not the secondary-structure column article, which already covers small vertical members. Pinjin does not print a alvenaria-bond or forma-pressure certificate.",
+        "who": "Buyers filling block cores, small forma or grout pockets who already compared a concrete pump with a pulverizador de argamassa and need the listed pedra fina / compact trailer cells.",
+        "factors": [
+          "Match stone size to the printed agregado cell (B500S 10 mm)",
+          "Do not use a pulverizador de argamassa SKU as a concrete pump substitute",
+          "Catalogue m³/h is a factory row, not a alvenaria-block count",
+          "No published forma-pressure or grout-bond certificate"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Masonry Formwork Filling | Pinjin Xingtai",
+      "imageCaption": "B500S-83D — 7.5 kW, 3–4 m³/h, 5–16 mm, 5 m / 5 m. Fine-stone placing, not a sprayer.",
+      "faqs": [
+        {
+          "question": "Is a Pinjin pulverizador de argamassa the right machine to fill alvenaria cores with grout?",
+          "answer": "Usually no. Mortar sprayers on this site are for plaster and mortar spray. Filling cores or forma with pumpable grout or pedra fina is a placing job. Start from B500S (10 mm, 5 m / 5 m) or Electric 15. See concrete pump vs pulverizador de argamassa. We will not treat a sprayer listing as a core-fill pump."
+        },
+        {
+          "question": "Does this article replace the secondary-structure column page?",
+          "answer": "No. Secondary-structure already covers small columns and infill. This page is alvenaria cores and forma filling: match agregado, prime the line, quote the compact row. Do not duplicate that column-selection table here."
+        },
+        {
+          "question": "Can Electric 40 fill large forma faster because it lists 21 m³/h?",
+          "answer": "Electric 40 lists 45 kW, 21 m³/h, hopper 0.4 m³, 23 MPa. Those cells are not a forma-cycle time. If the opening and mix need a smaller hopper and 100–125 mm pipe, Electric 15 may be the listed match. Send form size and mix — unpublished pour clocks are not quoted as factory specs."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump for Masonry and Formwork Filling",
+      "description": "Compact Pinjin rows can place grout or حصى ناعم into بناء حجري cores and شدات when the mix matches the printed ركام cell. This is not a رشاش الملاط and not the secondary-structure column article. B500S lists 10 mm and 5 m / 5 m; Electric 15 lists 8–10 m³/h.",
+      "imageAlt": "B500S حصى ناعم pump 280 kg from Hebei Pinjin Machinery شينغتاي used for grout and حصى ناعم placing not mortar spray",
+      "relatedPathLabels": [
+        "Mortar spraying machine manufacturer",
+        "Concrete pump vs رشاش الملاط",
+        "B500S حصى ناعم pump",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Masonry-core grout and شدات filling are placing jobs: the mix must match the printed ركام cell and the line must be primed. [B500S](/products/b500s-83d-two-stage-pump/) lists 7.5 kW, 5 m / 5 m, sand and small stone 5–16 mm, 280 kg. [Electric 15](/products/electric-15-concrete-pump/) lists 8–10 m³/h, 60–80 m / 15–20 m. This page is not a mortar-sprayer guide — plaster and tile adhesive stay on the sprayer hub. It is also not the secondary-structure column article, which already covers small عمودي members. Pinjin does not print a بناء حجري-bond or شدات-pressure certificate.",
+        "who": "Buyers filling block cores, small شدات or grout pockets who already compared a concrete pump with a رشاش الملاط and need the listed حصى ناعم / compact trailer cells.",
+        "factors": [
+          "Match stone size to the printed ركام cell (B500S 10 mm)",
+          "Do not use a رشاش الملاط SKU as a concrete pump substitute",
+          "Catalogue m³/h is a factory row, not a بناء حجري-block count",
+          "No published شدات-pressure or grout-bond certificate"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Masonry Formwork Filling | Pinjin شينغتاي",
+      "imageCaption": "B500S-83D — 7.5 kW, 3–4 m³/h, 5–16 mm, 5 m / 5 m. Fine-stone placing, not a sprayer.",
+      "faqs": [
+        {
+          "question": "Is a Pinjin رشاش الملاط the right machine to fill بناء حجري cores with grout?",
+          "answer": "Usually no. Mortar sprayers on this site are for plaster and mortar spray. Filling cores or شدات with pumpable grout or حصى ناعم is a placing job. Start from B500S (10 mm, 5 m / 5 m) or Electric 15. See concrete pump vs رشاش الملاط. We will not treat a sprayer listing as a core-fill pump."
+        },
+        {
+          "question": "Does this article replace the secondary-structure column page?",
+          "answer": "No. Secondary-structure already covers small columns and infill. This page is بناء حجري cores and شدات filling: match ركام, prime the line, quote the compact row. Do not duplicate that column-selection table here."
+        },
+        {
+          "question": "Can Electric 40 fill large شدات faster because it lists 21 m³/h?",
+          "answer": "Electric 40 lists 45 kW, 21 m³/h, hopper 0.4 m³, 23 MPa. Those cells are not a شدات-cycle time. If the opening and mix need a smaller hopper and 100–125 mm pipe, Electric 15 may be the listed match. Send form size and mix — unpublished pour clocks are not quoted as factory specs."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump for Masonry and Formwork Filling",
+      "description": "Compact Pinjin rows can place grout or мелкий камень into кладка cores and опалубка when the mix matches the printed заполнитель cell. This is not a растворонасос and not the secondary-structure column article. B500S lists 10 mm and 5 m / 5 m; Electric 15 lists 8–10 m³/h.",
+      "imageAlt": "B500S мелкий камень pump 280 kg from Hebei Pinjin Machinery Синтай used for grout and мелкий камень placing not mortar spray",
+      "relatedPathLabels": [
+        "Mortar spraying machine manufacturer",
+        "Concrete pump vs растворонасос",
+        "B500S мелкий камень pump",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Masonry-core grout and опалубка filling are placing jobs: the mix must match the printed заполнитель cell and the line must be primed. [B500S](/products/b500s-83d-two-stage-pump/) lists 7.5 kW, 5 m / 5 m, sand and small stone 5–16 mm, 280 kg. [Electric 15](/products/electric-15-concrete-pump/) lists 8–10 m³/h, 60–80 m / 15–20 m. This page is not a mortar-sprayer guide — plaster and tile adhesive stay on the sprayer hub. It is also not the secondary-structure column article, which already covers small вертикаль members. Pinjin does not print a кладка-bond or опалубка-pressure certificate.",
+        "who": "Buyers filling block cores, small опалубка or grout pockets who already compared a concrete pump with a растворонасос and need the listed мелкий камень / compact trailer cells.",
+        "factors": [
+          "Match stone size to the printed заполнитель cell (B500S 10 mm)",
+          "Do not use a растворонасос SKU as a concrete pump substitute",
+          "Catalogue m³/h is a factory row, not a кладка-block count",
+          "No published опалубка-pressure or grout-bond certificate"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Masonry Formwork Filling | Pinjin Синтай",
+      "imageCaption": "B500S-83D — 7.5 kW, 3–4 m³/h, 5–16 mm, 5 m / 5 m. Fine-stone placing, not a sprayer.",
+      "faqs": [
+        {
+          "question": "Is a Pinjin растворонасос the right machine to fill кладка cores with grout?",
+          "answer": "Usually no. Mortar sprayers on this site are for plaster and mortar spray. Filling cores or опалубка with pumpable grout or мелкий камень is a placing job. Start from B500S (10 mm, 5 m / 5 m) or Electric 15. See concrete pump vs растворонасос. We will not treat a sprayer listing as a core-fill pump."
+        },
+        {
+          "question": "Does this article replace the secondary-structure column page?",
+          "answer": "No. Secondary-structure already covers small columns and infill. This page is кладка cores and опалубка filling: match заполнитель, prime the line, quote the compact row. Do not duplicate that column-selection table here."
+        },
+        {
+          "question": "Can Electric 40 fill large опалубка faster because it lists 21 m³/h?",
+          "answer": "Electric 40 lists 45 kW, 21 m³/h, hopper 0.4 m³, 23 MPa. Those cells are not a опалубка-cycle time. If the opening and mix need a smaller hopper and 100–125 mm pipe, Electric 15 may be the listed match. Send form size and mix — unpublished pour clocks are not quoted as factory specs."
+        }
+      ]
+    }
+  }
+}

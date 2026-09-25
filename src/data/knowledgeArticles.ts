@@ -1,4 +1,5 @@
 import type { BlogPost } from '@/data/blog';
+import { expandKnowledgeLangs } from '@/data/expandKnowledgeLangs';
 import { article as electric15 } from '@/data/articles/electric-15-concrete-pump-applications';
 import { article as dieselNoPower } from '@/data/articles/diesel-concrete-pump-no-electricity';
 import { article as highRise } from '@/data/articles/high-rise-building-concrete-pump-selection';
@@ -13,6 +14,7 @@ import { article as dailyMaintenance } from '@/data/articles/concrete-pump-daily
 /**
  * 知识中心文章（并入 getBlogPosts）。
  * 正文按目录与工厂事实写；不虚构搅拌站、车载臂架泵、认证或客户业绩。
+ * pt/ar/ru 从 content/knowledge-i18n/strings.json 展开；页面 noindex，不进 sitemap。
  */
 export const knowledgeArticles: BlogPost[] = [
   electric15,
@@ -25,4 +27,4 @@ export const knowledgeArticles: BlogPost[] = [
   bridgePump,
   lowPressure40,
   dailyMaintenance,
-];
+].map(expandKnowledgeLangs);

@@ -43,7 +43,7 @@ import {
 
 const SITE = 'https://pinjinpump.com';
 const DEFAULT_LASTMOD = '2026-09-18';
-const PRODUCT_COPY_LASTMOD = '2026-09-20';
+const PRODUCT_COPY_LASTMOD = '2026-09-23';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outFile = join(root, 'deploy', 'prerender-meta.json');
@@ -332,7 +332,6 @@ function uniquify(pages: PageRecord[], key: 'title' | 'description') {
 
 const pages: PageRecord[] = [];
 for (const lang of languages.map((item) => item.code)) {
-    const indexed = isIndexedLang(lang);
   const meta = getLanguage(lang);
   for (const rest of pageRests()) {
     if (rest.startsWith('/blog/') && rest !== '/blog') {
@@ -341,6 +340,8 @@ for (const lang of languages.map((item) => item.code)) {
     }
     const copy = pageCopy(rest, lang);
     const path = loc(lang, rest);
+    const isBlogArticle = rest.startsWith('/blog/') && rest !== '/blog';
+    const indexed = isBlogArticle ? lang === 'en' : isIndexedLang(lang);
     const product = products.find((item) => rest === `/products/${item.slug}`);
     const kind = pageKind(rest);
     const t = getMessages(lang);
@@ -435,7 +436,7 @@ for (const lang of languages.map((item) => item.code)) {
       rest,
       lang,
       url: `${SITE}${path}`,
-      canonicalUrl: `${SITE}${path}`,
+      canonicalUrl: isBlogArticle ? `${SITE}${loc('en', rest)}` : `${SITE}${path}`,
       title: copy.title,
       description: copy.description,
       h1: copy.h1,

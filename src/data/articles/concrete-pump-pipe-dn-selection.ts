@@ -38,6 +38,11 @@ export const article: BlogPost = {
     'electric-15-concrete-pump',
     'hbt8018-concrete-pump',
   ],
+  relatedArticleSlugs: [
+    'concrete-pump-clamp-coupling',
+    'concrete-pump-reducer-taper-pipe',
+    'concrete-pump-hose-vs-steel-pipe',
+  ],
   relatedPaths: [
     {
       href: '/products/electric-concrete-pumps',

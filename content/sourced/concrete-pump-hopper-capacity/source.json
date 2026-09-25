@@ -1,0 +1,272 @@
+{
+  "title": "Concrete Pump Hopper Capacity vs Output (m³/h)",
+  "seoTitle": "Concrete Pump Hopper Capacity | Pinjin Catalogue",
+  "description": "Hopper litres are not pumping output. Xingtai tables list 0.1–0.7 m³ hoppers beside separate m³/h rows. Mixer-pump 400/500 series notes are mixing drums, not the 0.4 m³ pump hopper.",
+  "primaryKeyword": "concrete pump hopper",
+  "secondaryKeywords": [
+    "concrete pump hopper capacity",
+    "mixing hopper concrete pump",
+    "trailer pump hopper"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "technical-reference",
+  "tags": [
+    "hopper",
+    "output",
+    "mixer-pump"
+  ],
+  "date": "2026-09-24",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-20-concrete-pump",
+    "electric-80-concrete-pump",
+    "integrated-mixer-pump"
+  ],
+  "relatedArticleSlugs": [
+    "electric-20-vs-30-concrete-pump",
+    "concrete-pump-output-m3h-guide",
+    "mixer-pump-vs-concrete-mixing-plant",
+    "concrete-pump-hopper-grille-agitator"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/products/mixer-pumps",
+      "label": "Concrete mixer pump manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-output-m3h-guide",
+      "label": "Concrete pump output m³/h catalogue rows"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Hopper capacity is the receiving volume on the pump, printed in m³. It is not theoretical output. Pinjin electric/diesel tables list hoppers from 0.1 m³ (Electric 10 series) through 0.25–0.4 m³ on compact and mid trailers to 0.7 m³ on Electric 60 / Electric 80. The integrated mixer pump lists a 0.4 m³ hopper plus a separate series note: 30 series with 400 mixer; 40/50 series with 500 mixer.",
+    "who": "Buyers who saw ‘hopper 0.6 m³’ on a marketplace listing and need to match a Xingtai row without treating hopper litres as m³/h.",
+    "factors": [
+      "Printed hopper m³ on the model page",
+      "Separate output m³/h row",
+      "Mixer-pump drum series note versus pump hopper",
+      "ACPA: do not work in the hopper unless the unit is shut down and accumulator pressure is zero"
+    ],
+    "relatedModels": [
+      "electric-20-concrete-pump",
+      "electric-80-concrete-pump",
+      "integrated-mixer-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is hopper capacity the same as pumping output?",
+      "answer": "No. Electric 20 lists hopper 0.25 m³ and output 8–10 m³/h. Electric 80 lists hopper 0.7 m³ and output 60 m³/h. Use both printed rows. Hopper volume is a buffer at the grate, not cubic metres placed per hour."
+    },
+    {
+      "question": "What hopper sizes does Pinjin publish?",
+      "answer": "Catalogue examples: Electric 10 series 0.1 m³; Tractor-Driven 4100 0.25 m³; Electric 20 0.25 m³; Electric 30 / Low Pressure 40 / Diesel 30 0.3 m³; Electric 40 / 50 / mixer pump / Diesel 40–60 0.4 m³; Low Pressure 60 0.5 m³; LZ-80 / Diesel 120 0.6 m³; Electric 60 and Electric 80 0.7 m³. Missing cells on other pages stay blank."
+    },
+    {
+      "question": "Is the mixer-pump ‘400/500 mixer’ the hopper?",
+      "answer": "No. The integrated mixer pump lists hopper 0.4 m³ and a series note: 30 series with 400 mixer; 40/50 series with 500 mixer. That note is the mixing drum pairing, not a second hopper litre figure. The unit is still a trailer that mixes and pumps — not a batching plant."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-20-concrete-pump/main.webp",
+    "alt": "Electric 20 trailer concrete pump hopper side, Hebei Pinjin Machinery Xingtai, 0.25 m³ catalogue hopper",
+    "caption": "Electric 20 — printed hopper 0.25 m³, output 8–10 m³/h"
+  },
+  "sources": [
+    {
+      "name": "Pinjin Electric 20 product page (hopper 0.25 m³)",
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 80 product page (hopper 0.7 m³)",
+      "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Integrated Mixer Pump (hopper 0.4 m³; 400/500 mixer series note)",
+      "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba buying guide: hopper size and S/S valve type as evaluation factors (listing copy not used)",
+      "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+      "type": "marketplace"
+    },
+    {
+      "name": "Alibaba listing observation: hopper capacity as a published spec column (e.g. 0.7 m³ with S-valve)",
+      "url": "https://www.alibaba.com/product-detail/SANY-HBT6016C-5D-Diesel-Trailer-Mounted_60522046964.html",
+      "type": "marketplace"
+    },
+    {
+      "name": "ACPA mechanics safety: never work in the hopper unless engine off and zero accumulator pressure",
+      "url": "https://www.concretepumpers.com/sites/concretepumpers.com/files/attachments/safety_procedures_mechanics_manual_rs_0.pdf",
+      "type": "industry"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump Hopper Capacity vs Output (m³/h)",
+      "description": "Hopper litres are not pumping output. 邢台 tables list 0.1–0.7 m³ hoppers beside separate m³/h rows. Mixer-pump 400/500 series notes are mixing drums, not the 0.4 m³ pump hopper.",
+      "imageAlt": "电动20 trailer concrete pump hopper side, 河北品锦机械 邢台, 0.25 m³ catalogue hopper",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete 搅拌泵 manufacturer China",
+        "Concrete pump output m³/h 目录行s",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Hopper capacity is the receiving volume on the pump, printed in m³. It is not 理论输送量. 品锦 electric/diesel tables list hoppers from 0.1 m³ (Electric 10 series) through 0.25–0.4 m³ on compact and mid trailers to 0.7 m³ on Electric 60 / 电动80. The integrated 搅拌泵 lists a 0.4 m³ hopper plus a separate series note: 30 series with 400 mixer; 40/50 series with 500 mixer.",
+        "who": "Buyers who saw ‘hopper 0.6 m³’ on a marketplace listing and need to match a 邢台 row without treating hopper litres as m³/h.",
+        "factors": [
+          "Printed hopper m³ on the model page",
+          "Separate output m³/h row",
+          "Mixer-pump drum series note versus pump hopper",
+          "ACPA: do not work in the hopper unless the unit is shut down and accumulator pressure is zero"
+        ]
+      },
+      "seoTitle": "Concrete Pump Hopper Capacity | 品锦 Catalogue",
+      "imageCaption": "电动20 — printed hopper 0.25 m³, output 8–10 m³/h",
+      "faqs": [
+        {
+          "question": "Is hopper capacity the same as pumping output?",
+          "answer": "No. 电动20 lists hopper 0.25 m³ and output 8–10 m³/h. 电动80 lists hopper 0.7 m³ and output 60 m³/h. Use both printed rows. Hopper volume is a buffer at the grate, not cubic metres placed per hour."
+        },
+        {
+          "question": "What hopper sizes does 品锦 publish?",
+          "answer": "Catalogue examples: Electric 10 series 0.1 m³; Tractor-Driven 4100 0.25 m³; 电动20 0.25 m³; 电动30 / Low Pressure 40 / 柴油30 0.3 m³; 电动40 / 50 / 搅拌泵 / 柴油40–60 0.4 m³; Low Pressure 60 0.5 m³; LZ-80 / Diesel 120 0.6 m³; Electric 60 and 电动80 0.7 m³. Missing cells on other pages stay blank."
+        },
+        {
+          "question": "Is the mixer-pump ‘400/500 mixer’ the hopper?",
+          "answer": "No. The integrated 搅拌泵 lists hopper 0.4 m³ and a series note: 30 series with 400 mixer; 40/50 series with 500 mixer. That note is the mixing drum pairing, not a second hopper litre figure. The unit is still a trailer that mixes and pumps — not a batching plant."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Hopper Capacity vs Output (m³/h)",
+      "description": "Hopper litres are not pumping output. Xingtai tables list 0.1–0.7 m³ hoppers beside separate m³/h rows. Mixer-pump 400/500 series notes are mixing drums, not the 0.4 m³ pump hopper.",
+      "imageAlt": "Electric 20 trailer concrete pump hopper side, Hebei Pinjin Machinery Xingtai, 0.25 m³ catalogue hopper",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete bomba misturadora manufacturer China",
+        "Concrete pump output m³/h linha de catálogos",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Hopper capacity is the receiving volume on the pump, printed in m³. It is not saída teórica. Pinjin electric/diesel tables list hoppers from 0.1 m³ (Electric 10 series) through 0.25–0.4 m³ on compact and mid trailers to 0.7 m³ on Electric 60 / Electric 80. The integrated bomba misturadora lists a 0.4 m³ hopper plus a separate series note: 30 series with 400 mixer; 40/50 series with 500 mixer.",
+        "who": "Buyers who saw ‘hopper 0.6 m³’ on a marketplace listing and need to match a Xingtai row without treating hopper litres as m³/h.",
+        "factors": [
+          "Printed hopper m³ on the model page",
+          "Separate output m³/h row",
+          "Mixer-pump drum series note versus pump hopper",
+          "ACPA: do not work in the hopper unless the unit is shut down and accumulator pressure is zero"
+        ]
+      },
+      "seoTitle": "Concrete Pump Hopper Capacity | Pinjin Catalogue",
+      "imageCaption": "Electric 20 — printed hopper 0.25 m³, output 8–10 m³/h",
+      "faqs": [
+        {
+          "question": "Is hopper capacity the same as pumping output?",
+          "answer": "No. Electric 20 lists hopper 0.25 m³ and output 8–10 m³/h. Electric 80 lists hopper 0.7 m³ and output 60 m³/h. Use both printed rows. Hopper volume is a buffer at the grate, not cubic metres placed per hour."
+        },
+        {
+          "question": "What hopper sizes does Pinjin publish?",
+          "answer": "Catalogue examples: Electric 10 series 0.1 m³; Tractor-Driven 4100 0.25 m³; Electric 20 0.25 m³; Electric 30 / Low Pressure 40 / Diesel 30 0.3 m³; Electric 40 / 50 / bomba misturadora / Diesel 40–60 0.4 m³; Low Pressure 60 0.5 m³; LZ-80 / Diesel 120 0.6 m³; Electric 60 and Electric 80 0.7 m³. Missing cells on other pages stay blank."
+        },
+        {
+          "question": "Is the mixer-pump ‘400/500 mixer’ the hopper?",
+          "answer": "No. The integrated bomba misturadora lists hopper 0.4 m³ and a series note: 30 series with 400 mixer; 40/50 series with 500 mixer. That note is the mixing drum pairing, not a second hopper litre figure. The unit is still a trailer that mixes and pumps — not a batching plant."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Hopper Capacity vs Output (m³/h)",
+      "description": "Hopper litres are not pumping output. شينغتاي tables list 0.1–0.7 m³ hoppers beside separate m³/h rows. Mixer-pump 400/500 series notes are mixing drums, not the 0.4 m³ pump hopper.",
+      "imageAlt": "Electric 20 trailer concrete pump hopper side, Hebei Pinjin Machinery شينغتاي, 0.25 m³ catalogue hopper",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete مضخة خلاط manufacturer China",
+        "Concrete pump output m³/h صف الكتالوجs",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Hopper capacity is the receiving volume on the pump, printed in m³. It is not الإنتاج النظري. Pinjin electric/diesel tables list hoppers from 0.1 m³ (Electric 10 series) through 0.25–0.4 m³ on compact and mid trailers to 0.7 m³ on Electric 60 / Electric 80. The integrated مضخة خلاط lists a 0.4 m³ hopper plus a separate series note: 30 series with 400 mixer; 40/50 series with 500 mixer.",
+        "who": "Buyers who saw ‘hopper 0.6 m³’ on a marketplace listing and need to match a شينغتاي row without treating hopper litres as m³/h.",
+        "factors": [
+          "Printed hopper m³ on the model page",
+          "Separate output m³/h row",
+          "Mixer-pump drum series note versus pump hopper",
+          "ACPA: do not work in the hopper unless the unit is shut down and accumulator pressure is zero"
+        ]
+      },
+      "seoTitle": "Concrete Pump Hopper Capacity | Pinjin Catalogue",
+      "imageCaption": "Electric 20 — printed hopper 0.25 m³, output 8–10 m³/h",
+      "faqs": [
+        {
+          "question": "Is hopper capacity the same as pumping output?",
+          "answer": "No. Electric 20 lists hopper 0.25 m³ and output 8–10 m³/h. Electric 80 lists hopper 0.7 m³ and output 60 m³/h. Use both printed rows. Hopper volume is a buffer at the grate, not cubic metres placed per hour."
+        },
+        {
+          "question": "What hopper sizes does Pinjin publish?",
+          "answer": "Catalogue examples: Electric 10 series 0.1 m³; Tractor-Driven 4100 0.25 m³; Electric 20 0.25 m³; Electric 30 / Low Pressure 40 / Diesel 30 0.3 m³; Electric 40 / 50 / مضخة خلاط / Diesel 40–60 0.4 m³; Low Pressure 60 0.5 m³; LZ-80 / Diesel 120 0.6 m³; Electric 60 and Electric 80 0.7 m³. Missing cells on other pages stay blank."
+        },
+        {
+          "question": "Is the mixer-pump ‘400/500 mixer’ the hopper?",
+          "answer": "No. The integrated مضخة خلاط lists hopper 0.4 m³ and a series note: 30 series with 400 mixer; 40/50 series with 500 mixer. That note is the mixing drum pairing, not a second hopper litre figure. The unit is still a trailer that mixes and pumps — not a batching plant."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Hopper Capacity vs Output (m³/h)",
+      "description": "Hopper litres are not pumping output. Синтай tables list 0.1–0.7 m³ hoppers beside separate m³/h rows. Mixer-pump 400/500 series notes are mixing drums, not the 0.4 m³ pump hopper.",
+      "imageAlt": "Electric 20 trailer concrete pump hopper side, Hebei Pinjin Machinery Синтай, 0.25 m³ catalogue hopper",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Concrete бетононасос-миксер manufacturer China",
+        "Concrete pump output m³/h строка каталогаs",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Hopper capacity is the receiving volume on the pump, printed in m³. It is not теоретическая производительность. Pinjin electric/diesel tables list hoppers from 0.1 m³ (Electric 10 series) through 0.25–0.4 m³ on compact and mid trailers to 0.7 m³ on Electric 60 / Electric 80. The integrated бетононасос-миксер lists a 0.4 m³ hopper plus a separate series note: 30 series with 400 mixer; 40/50 series with 500 mixer.",
+        "who": "Buyers who saw ‘hopper 0.6 m³’ on a marketplace listing and need to match a Синтай row without treating hopper litres as m³/h.",
+        "factors": [
+          "Printed hopper m³ on the model page",
+          "Separate output m³/h row",
+          "Mixer-pump drum series note versus pump hopper",
+          "ACPA: do not work in the hopper unless the unit is shut down and accumulator pressure is zero"
+        ]
+      },
+      "seoTitle": "Concrete Pump Hopper Capacity | Pinjin Catalogue",
+      "imageCaption": "Electric 20 — printed hopper 0.25 m³, output 8–10 m³/h",
+      "faqs": [
+        {
+          "question": "Is hopper capacity the same as pumping output?",
+          "answer": "No. Electric 20 lists hopper 0.25 m³ and output 8–10 m³/h. Electric 80 lists hopper 0.7 m³ and output 60 m³/h. Use both printed rows. Hopper volume is a buffer at the grate, not cubic metres placed per hour."
+        },
+        {
+          "question": "What hopper sizes does Pinjin publish?",
+          "answer": "Catalogue examples: Electric 10 series 0.1 m³; Tractor-Driven 4100 0.25 m³; Electric 20 0.25 m³; Electric 30 / Low Pressure 40 / Diesel 30 0.3 m³; Electric 40 / 50 / бетононасос-миксер / Diesel 40–60 0.4 m³; Low Pressure 60 0.5 m³; LZ-80 / Diesel 120 0.6 m³; Electric 60 and Electric 80 0.7 m³. Missing cells on other pages stay blank."
+        },
+        {
+          "question": "Is the mixer-pump ‘400/500 mixer’ the hopper?",
+          "answer": "No. The integrated бетононасос-миксер lists hopper 0.4 m³ and a series note: 30 series with 400 mixer; 40/50 series with 500 mixer. That note is the mixing drum pairing, not a second hopper litre figure. The unit is still a trailer that mixes and pumps — not a batching plant."
+        }
+      ]
+    }
+  }
+}

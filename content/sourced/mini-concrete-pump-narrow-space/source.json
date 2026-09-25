@@ -10,9 +10,19 @@
   ],
   "category": "application-solutions",
   "resourceType": "application-guide",
-  "tags": ["compact", "narrow-site", "access"],
+  "tags": [
+    "compact",
+    "narrow-site",
+    "access"
+  ],
   "date": "2026-09-22",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "b500s-83d-two-stage-pump",
     "electric-10-series-concrete-pump",
@@ -22,13 +32,26 @@
   "relatedArticleSlugs": [
     "electric-15-concrete-pump-applications",
     "secondary-structure-concrete-pump-column-beam",
-    "diesel-concrete-pump-no-electricity"
+    "diesel-concrete-pump-no-electricity",
+    "concrete-pump-for-basement-underground"
   ],
   "relatedPaths": [
-    { "href": "/products/electric-concrete-pumps", "label": "Electric concrete pump manufacturer China" },
-    { "href": "/blog/electric-15-concrete-pump-applications", "label": "Electric 15 compact concrete pump applications" },
-    { "href": "/solutions/construction", "label": "Building construction pumping" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/electric-15-concrete-pump-applications",
+      "label": "Electric 15 compact concrete pump applications"
+    },
+    {
+      "href": "/solutions/construction",
+      "label": "Building construction pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
@@ -62,11 +85,165 @@
     "caption": "Electric 10 Series compact pump, Xingtai catalogue — 1800 × 800 × 1200 mm, 400 kg"
   },
   "sources": [
-    { "name": "Pinjin B500S-83D product page", "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 10 Series product page", "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Electric 15 product page", "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Rural Diesel Concrete Pump product page", "url": "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/", "type": "pinjin" },
-    { "name": "Alibaba search observation: mini concrete pump (listing copy not used)", "url": "https://www.alibaba.com/trade/search?SearchText=mini+concrete+pump", "type": "marketplace" }
+    {
+      "name": "Pinjin B500S-83D product page",
+      "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 10 Series product page",
+      "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Rural Diesel Concrete Pump product page",
+      "url": "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba search observation: mini concrete pump (listing copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=mini+concrete+pump",
+      "type": "marketplace"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
+      "description": "‘Mini concrete pump’ is a search term, not a 品锦 model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, 电动15 450 kg, rural diesel 800 kg.",
+      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, 河北品锦机械 邢台",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "电动15 compact concrete pump applications",
+        "Building construction pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "品锦 does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; 电动15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
+        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "factors": [
+          "Width and weight versus the gate — use the millimetre row, not the word mini",
+          "Reach: B500S-83D is 5 m height / 5 m 水平, not a house pipeline pump",
+          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
+          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+        ]
+      },
+      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | 品锦 邢台",
+      "imageCaption": "Electric 10 Series compact pump, 邢台 catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "faqs": [
+        {
+          "question": "Which 品锦 model is the mini concrete pump?",
+          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, 电动15 and the rural diesel compact by size, reach and 骨料. Equating mini with any one slug would be false."
+        },
+        {
+          "question": "Is B500S-83D a trailer concrete pump?",
+          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not 电动15."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
+      "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
+      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery Xingtai",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 15 compact concrete pump applications",
+        "Building construction pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
+        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "factors": [
+          "Width and weight versus the gate — use the millimetre row, not the word mini",
+          "Reach: B500S-83D is 5 m height / 5 m horizontal, not a house pipeline pump",
+          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
+          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+        ]
+      },
+      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin Xingtai",
+      "imageCaption": "Electric 10 Series compact pump, Xingtai catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "faqs": [
+        {
+          "question": "Which Pinjin model is the mini concrete pump?",
+          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and agregado. Equating mini with any one slug would be false."
+        },
+        {
+          "question": "Is B500S-83D a trailer concrete pump?",
+          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
+      "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
+      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery شينغتاي",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 15 compact concrete pump applications",
+        "Building construction pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
+        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "factors": [
+          "Width and weight versus the gate — use the millimetre row, not the word mini",
+          "Reach: B500S-83D is 5 m height / 5 m أفقي, not a house pipeline pump",
+          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
+          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+        ]
+      },
+      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin شينغتاي",
+      "imageCaption": "Electric 10 Series compact pump, شينغتاي catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "faqs": [
+        {
+          "question": "Which Pinjin model is the mini concrete pump?",
+          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and ركام. Equating mini with any one slug would be false."
+        },
+        {
+          "question": "Is B500S-83D a trailer concrete pump?",
+          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
+      "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
+      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery Синтай",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Electric 15 compact concrete pump applications",
+        "Building construction pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
+        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "factors": [
+          "Width and weight versus the gate — use the millimetre row, not the word mini",
+          "Reach: B500S-83D is 5 m height / 5 m горизонталь, not a house pipeline pump",
+          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
+          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+        ]
+      },
+      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin Синтай",
+      "imageCaption": "Electric 10 Series compact pump, Синтай catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "faqs": [
+        {
+          "question": "Which Pinjin model is the mini concrete pump?",
+          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and заполнитель. Equating mini with any one slug would be false."
+        },
+        {
+          "question": "Is B500S-83D a trailer concrete pump?",
+          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+        }
+      ]
+    }
+  }
 }

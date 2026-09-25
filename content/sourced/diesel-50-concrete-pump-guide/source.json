@@ -10,9 +10,19 @@
   ],
   "category": "product-guide",
   "resourceType": "equipment-guide",
-  "tags": ["diesel", "trailer-pump", "catalogue"],
+  "tags": [
+    "diesel",
+    "trailer-pump",
+    "catalogue"
+  ],
   "date": "2026-09-23",
-  "availableLangs": ["en"],
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
   "relatedProductSlugs": [
     "diesel-50-concrete-pump",
     "diesel-40-concrete-pump",
@@ -24,10 +34,22 @@
     "concrete-pump-output-m3h-guide"
   ],
   "relatedPaths": [
-    { "href": "/products/diesel-50-concrete-pump", "label": "Diesel 50 concrete pump product page" },
-    { "href": "/products/diesel-concrete-pumps", "label": "Diesel concrete pump manufacturer China" },
-    { "href": "/blog/diesel-concrete-pump-no-electricity", "label": "Diesel concrete pump for sites without electricity" },
-    { "href": "/contact", "label": "Contact Hebei Pinjin Machinery" }
+    {
+      "href": "/products/diesel-50-concrete-pump",
+      "label": "Diesel 50 concrete pump product page"
+    },
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": "Diesel concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/diesel-concrete-pump-no-electricity",
+      "label": "Diesel concrete pump for sites without electricity"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
   ],
   "answerBlock": {
     "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm aggregate), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a boom pump or mixing plant.",
@@ -61,10 +83,160 @@
     "caption": "Diesel 50 trailer pump, Xingtai catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m"
   },
   "sources": [
-    { "name": "Pinjin Diesel 50 product page", "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Diesel 40 product page", "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin Diesel 60 product page", "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/", "type": "pinjin" },
-    { "name": "Pinjin diesel concrete pumps hub", "url": "https://pinjinpump.com/en/products/diesel-concrete-pumps/", "type": "pinjin" }
+    {
+      "name": "Pinjin Diesel 50 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Diesel 40 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Diesel 60 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin diesel concrete pumps hub",
+      "url": "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+      "type": "pinjin"
+    }
   ],
-  "contentStatus": "ready"
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Diesel 50 Concrete Pump Catalogue Row",
+      "description": "Diesel 50 is a 邢台 diesel 拖式泵 listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm 骨料), Kawasaki 140, 3300 kg. It is not 柴油40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
+      "imageAlt": "Diesel 50 concrete pump factory product photo, 河北品锦机械 邢台",
+      "relatedPathLabels": [
+        "Diesel 50 concrete pump 产品页",
+        "Diesel concrete pump manufacturer China",
+        "Diesel concrete pump for sites without electricity",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm 骨料), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not 柴油40, not Diesel 60 and not a 臂架泵 or mixing plant.",
+        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm 骨料) to a trailer diesel pour.",
+        "factors": [
+          "6105 / 99 kW versus 柴油40 at 4108 / 66 kW and Diesel 60 at 144 kW",
+          "Theoretical output 30 m³/h",
+          "Distance 150 m / 450 m at 1 cm 骨料 on this page",
+          "Kawasaki 140 hydraulic pump and 3300 kg frame"
+        ]
+      },
+      "seoTitle": "Diesel 50 Concrete Pump | 品锦 6105 99 kW",
+      "imageCaption": "Diesel 50 拖式泵, 邢台 catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "faqs": [
+        {
+          "question": "Is Diesel 50 an electric-catalogue substitute?",
+          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+        },
+        {
+          "question": "Does Diesel 50 replace 柴油40 or Diesel 60?",
+          "answer": "No. 柴油40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Diesel 50 Concrete Pump Catalogue Row",
+      "description": "Diesel 50 is a Xingtai diesel bomba reboque listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm agregado), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
+      "imageAlt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
+      "relatedPathLabels": [
+        "Diesel 50 concrete pump página do produto",
+        "Diesel concrete pump manufacturer China",
+        "Diesel concrete pump for sites without electricity",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm agregado), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a bomba lança or mixing plant.",
+        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm agregado) to a trailer diesel pour.",
+        "factors": [
+          "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
+          "Theoretical output 30 m³/h",
+          "Distance 150 m / 450 m at 1 cm agregado on this page",
+          "Kawasaki 140 hydraulic pump and 3300 kg frame"
+        ]
+      },
+      "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
+      "imageCaption": "Diesel 50 bomba reboque, Xingtai catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "faqs": [
+        {
+          "question": "Is Diesel 50 an electric-catalogue substitute?",
+          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+        },
+        {
+          "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
+          "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Diesel 50 Concrete Pump Catalogue Row",
+      "description": "Diesel 50 is a شينغتاي diesel مضخة مقطورة listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm ركام), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
+      "imageAlt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "relatedPathLabels": [
+        "Diesel 50 concrete pump صفحة المنتج",
+        "Diesel concrete pump manufacturer China",
+        "Diesel concrete pump for sites without electricity",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm ركام), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a مضخة ذراع or mixing plant.",
+        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm ركام) to a trailer diesel pour.",
+        "factors": [
+          "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
+          "Theoretical output 30 m³/h",
+          "Distance 150 m / 450 m at 1 cm ركام on this page",
+          "Kawasaki 140 hydraulic pump and 3300 kg frame"
+        ]
+      },
+      "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
+      "imageCaption": "Diesel 50 مضخة مقطورة, شينغتاي catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "faqs": [
+        {
+          "question": "Is Diesel 50 an electric-catalogue substitute?",
+          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+        },
+        {
+          "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
+          "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Diesel 50 Concrete Pump Catalogue Row",
+      "description": "Diesel 50 is a Синтай diesel прицепной насос listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm заполнитель), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
+      "imageAlt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
+      "relatedPathLabels": [
+        "Diesel 50 concrete pump страница изделия",
+        "Diesel concrete pump manufacturer China",
+        "Diesel concrete pump for sites without electricity",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm заполнитель), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a автобетононасос со стрелой or mixing plant.",
+        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm заполнитель) to a trailer diesel pour.",
+        "factors": [
+          "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
+          "Theoretical output 30 m³/h",
+          "Distance 150 m / 450 m at 1 cm заполнитель on this page",
+          "Kawasaki 140 hydraulic pump and 3300 kg frame"
+        ]
+      },
+      "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
+      "imageCaption": "Diesel 50 прицепной насос, Синтай catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "faqs": [
+        {
+          "question": "Is Diesel 50 an electric-catalogue substitute?",
+          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+        },
+        {
+          "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
+          "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+        }
+      ]
+    }
+  }
 }

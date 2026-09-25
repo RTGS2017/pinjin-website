@@ -1,0 +1,266 @@
+{
+  "title": "Concrete Pump Hydraulic Oil Temperature and Cooling",
+  "seoTitle": "Concrete Pump Oil Temperature & Cooling | ACPA + Pinjin",
+  "description": "Pinjin does not publish an oil-temperature cut-off or cooler model. ACPA: if hydraulic oil overheats, stop, check the cooler, water box and valve positions, then slow the pump. Burn hazard around 80 °C. Kawasaki pump names on some rows are not thermostat ratings.",
+  "primaryKeyword": "concrete pump hydraulic oil temperature",
+  "secondaryKeywords": [
+    "concrete pump oil cooler",
+    "hydraulic oil overheating concrete pump",
+    "concrete pump cooling"
+  ],
+  "category": "manufacturing-knowledge",
+  "resourceType": "safety-guide",
+  "tags": [
+    "hydraulic",
+    "cooling",
+    "safety"
+  ],
+  "date": "2026-09-24",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "diesel-50-concrete-pump",
+    "electric-40-concrete-pump",
+    "electric-80-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "concrete-pump-daily-maintenance-checklist",
+    "concrete-pump-blockage-causes-prevention",
+    "electric-vs-diesel-concrete-pump-grid-sites"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": "Diesel concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-daily-maintenance-checklist",
+      "label": "Concrete pump daily maintenance checklist"
+    },
+    {
+      "href": "/factory",
+      "label": "Xingtai construction machinery factory"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Hydraulic oil temperature is a safety and reliability limit. Pinjin catalogue rows list motor/engine, output, pressure and, on some models, a Kawasaki hydraulic-pump name. They do not list a maximum oil temperature, cooler type or oil brand. ACPA’s operator study guide: if oil gets hot, stop pumping, check the cooler, find a valve left in the wrong position, confirm the water box is full, mist the tank if needed, then slow the pump. ACPA mechanics: oil can exceed about 176 °F / 80 °C — burn hazard; never work a pressurised leak from below.",
+    "who": "Operators who see rising oil temperature on a trailer and buyers who asked a marketplace seller for ‘water cooling vs air cooling’ as if it were a Pinjin checkbox.",
+    "factors": [
+      "No Pinjin published oil-temp cut-off — do not invent one",
+      "ACPA stop-and-check sequence when oil is hot",
+      "Kawasaki 112 / 140 names are pump IDs, not cooler ratings",
+      "Persistent overheating may be a developing pump or mix/pipeline problem — not a promised on-site m³/h"
+    ],
+    "relatedModels": [
+      "diesel-50-concrete-pump",
+      "electric-40-concrete-pump",
+      "electric-80-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What oil temperature is allowed on a Pinjin trailer pump?",
+      "answer": "Not published. Catalogue cells are power, output, pressure, hopper, distance, size. ACPA mechanics text warns that oil can get hotter than about 80 °C in a day’s work. Use the ACPA hot-oil sequence; do not treat 80 °C as a Pinjin thermostat setting."
+    },
+    {
+      "question": "Does the catalogue say water-cooled or air-cooled hydraulics?",
+      "answer": "No. Some marketplace listings advertise water-cooling or air-cooling. Pinjin pages that name a hydraulic pump say Kawasaki 112, Kawasaki 140, Kawasaki double pump 100/112/140 — not a cooler type. Ask the factory if you need the cooler arrangement for a listed model; unpublished arrangements are not promised here."
+    },
+    {
+      "question": "What should the operator do when hydraulic oil is hot?",
+      "answer": "ACPA study guide: 1) stop pumping; 2) check the oil cooler (some pumps have a fan override); 3) find the heat source, such as a valve in the wrong position; 4) make certain the water box is full; 5) spray a mist of cool water over the hydraulic system and tank; 6) slow the pumping speed. Repeated overheating can mean a developing machine problem."
+    }
+  ],
+  "image": {
+    "src": "/images/products/diesel-50-concrete-pump/main.webp",
+    "alt": "Diesel 50 trailer concrete pump with Kawasaki 140 hydraulic pump, manufactured by Hebei Pinjin Machinery in Xingtai",
+    "caption": "Diesel 50 — Kawasaki 140 is the printed hydraulic-pump name, not an oil-temperature rating"
+  },
+  "sources": [
+    {
+      "name": "Pinjin Diesel 50 (Kawasaki 140 listed)",
+      "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 40 (Kawasaki 112 listed)",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "ACPA Guidelines for the safe operation of concrete pumps — hot hydraulic oil sequence",
+      "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "ACPA mechanics manual — hydraulic oil burn hazard ~176 °F / 80 °C",
+      "url": "https://www.concretepumpers.com/sites/concretepumpers.com/files/attachments/safety_procedures_mechanics_manual_rs_0.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Alibaba listing observation: water-cooling / manual lubrication as marketplace spec language (not copied as Pinjin copy)",
+      "url": "https://www.alibaba.com/product-detail/Heavy-Duty-HBTS80-Trailer-Mounted-Concrete_1601117773153.html",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Concrete Pump Hydraulic Oil Temperature and Cooling",
+      "description": "品锦 does not publish an oil-temperature cut-off or cooler model. ACPA: if hydraulic oil overheats, stop, check the cooler, water box and valve positions, then slow the pump. Burn hazard around 80 °C. Kawasaki pump names on some rows are not thermostat ratings.",
+      "imageAlt": "Diesel 50 trailer concrete pump with Kawasaki 140 hydraulic pump, manufactured by 河北品锦机械 in 邢台",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Concrete pump daily maintenance checklist",
+        "邢台 construction machinery factory",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Hydraulic oil temperature is a safety and reliability limit. 品锦 目录行s list motor/engine, output, pressure and, on some models, a Kawasaki hydraulic-pump name. They do not list a maximum oil temperature, cooler type or oil brand. ACPA’s operator study guide: if oil gets hot, stop pumping, check the cooler, find a valve left in the wrong position, confirm the water box is full, mist the tank if needed, then slow the pump. ACPA mechanics: oil can exceed about 176 °F / 80 °C — burn hazard; never work a pressurised leak from below.",
+        "who": "Operators who see rising oil temperature on a trailer and buyers who asked a marketplace seller for ‘water cooling vs air cooling’ as if it were a 品锦 checkbox.",
+        "factors": [
+          "No 品锦 published oil-temp cut-off — 不要编造 one",
+          "ACPA stop-and-check sequence when oil is hot",
+          "Kawasaki 112 / 140 names are pump IDs, not cooler ratings",
+          "Persistent overheating may be a developing pump or mix/pipeline problem — not a promised on-site m³/h"
+        ]
+      },
+      "seoTitle": "Concrete Pump Oil Temperature & Cooling | ACPA + 品锦",
+      "imageCaption": "Diesel 50 — Kawasaki 140 is the printed hydraulic-pump name, not an oil-temperature rating",
+      "faqs": [
+        {
+          "question": "What oil temperature is allowed on a 品锦 拖式泵?",
+          "answer": "Not published. Catalogue cells are power, output, pressure, hopper, distance, size. ACPA mechanics text warns that oil can get hotter than about 80 °C in a day’s work. Use the ACPA hot-oil sequence; do not treat 80 °C as a 品锦 thermostat setting."
+        },
+        {
+          "question": "Does the catalogue say water-cooled or air-cooled hydraulics?",
+          "answer": "No. Some marketplace listings advertise water-cooling or air-cooling. 品锦 pages that name a hydraulic pump say Kawasaki 112, Kawasaki 140, Kawasaki double pump 100/112/140 — not a cooler type. Ask the factory if you need the cooler arrangement for a listed model; unpublished arrangements are not promised here."
+        },
+        {
+          "question": "What should the operator do when hydraulic oil is hot?",
+          "answer": "ACPA study guide: 1) stop pumping; 2) check the oil cooler (some pumps have a fan override); 3) find the heat source, such as a valve in the wrong position; 4) make certain the water box is full; 5) spray a mist of cool water over the hydraulic system and tank; 6) slow the pumping speed. Repeated overheating can mean a developing machine problem."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Hydraulic Oil Temperature and Cooling",
+      "description": "Pinjin does not publish an oil-temperature cut-off or cooler model. ACPA: if hydraulic oil overheats, stop, check the cooler, water box and valve positions, then slow the pump. Burn hazard around 80 °C. Kawasaki pump names on some rows are not thermostat ratings.",
+      "imageAlt": "Diesel 50 trailer concrete pump with Kawasaki 140 hydraulic pump, manufactured by Hebei Pinjin Machinery in Xingtai",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Concrete pump daily maintenance checklist",
+        "Xingtai construction machinery factory",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Hydraulic oil temperature is a safety and reliability limit. Pinjin linha de catálogos list motor/engine, output, pressure and, on some models, a Kawasaki hydraulic-pump name. They do not list a maximum oil temperature, cooler type or oil brand. ACPA’s operator study guide: if oil gets hot, stop pumping, check the cooler, find a valve left in the wrong position, confirm the water box is full, mist the tank if needed, then slow the pump. ACPA mechanics: oil can exceed about 176 °F / 80 °C — burn hazard; never work a pressurised leak from below.",
+        "who": "Operators who see rising oil temperature on a trailer and buyers who asked a marketplace seller for ‘water cooling vs air cooling’ as if it were a Pinjin checkbox.",
+        "factors": [
+          "No Pinjin published oil-temp cut-off — não invente one",
+          "ACPA stop-and-check sequence when oil is hot",
+          "Kawasaki 112 / 140 names are pump IDs, not cooler ratings",
+          "Persistent overheating may be a developing pump or mix/pipeline problem — not a promised on-site m³/h"
+        ]
+      },
+      "seoTitle": "Concrete Pump Oil Temperature & Cooling | ACPA + Pinjin",
+      "imageCaption": "Diesel 50 — Kawasaki 140 is the printed hydraulic-pump name, not an oil-temperature rating",
+      "faqs": [
+        {
+          "question": "What oil temperature is allowed on a Pinjin bomba reboque?",
+          "answer": "Not published. Catalogue cells are power, output, pressure, hopper, distance, size. ACPA mechanics text warns that oil can get hotter than about 80 °C in a day’s work. Use the ACPA hot-oil sequence; do not treat 80 °C as a Pinjin thermostat setting."
+        },
+        {
+          "question": "Does the catalogue say water-cooled or air-cooled hydraulics?",
+          "answer": "No. Some marketplace listings advertise water-cooling or air-cooling. Pinjin pages that name a hydraulic pump say Kawasaki 112, Kawasaki 140, Kawasaki double pump 100/112/140 — not a cooler type. Ask the factory if you need the cooler arrangement for a listed model; unpublished arrangements are not promised here."
+        },
+        {
+          "question": "What should the operator do when hydraulic oil is hot?",
+          "answer": "ACPA study guide: 1) stop pumping; 2) check the oil cooler (some pumps have a fan override); 3) find the heat source, such as a valve in the wrong position; 4) make certain the water box is full; 5) spray a mist of cool water over the hydraulic system and tank; 6) slow the pumping speed. Repeated overheating can mean a developing machine problem."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Hydraulic Oil Temperature and Cooling",
+      "description": "Pinjin does not publish an oil-temperature cut-off or cooler model. ACPA: if hydraulic oil overheats, stop, check the cooler, water box and valve positions, then slow the pump. Burn hazard around 80 °C. Kawasaki pump names on some rows are not thermostat ratings.",
+      "imageAlt": "Diesel 50 trailer concrete pump with Kawasaki 140 hydraulic pump, manufactured by Hebei Pinjin Machinery in شينغتاي",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Concrete pump daily maintenance checklist",
+        "شينغتاي construction machinery factory",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Hydraulic oil temperature is a safety and reliability limit. Pinjin صف الكتالوجs list motor/engine, output, pressure and, on some models, a Kawasaki hydraulic-pump name. They do not list a maximum oil temperature, cooler type or oil brand. ACPA’s operator study guide: if oil gets hot, stop pumping, check the cooler, find a valve left in the wrong position, confirm the water box is full, mist the tank if needed, then slow the pump. ACPA mechanics: oil can exceed about 176 °F / 80 °C — burn hazard; never work a pressurised leak from below.",
+        "who": "Operators who see rising oil temperature on a trailer and buyers who asked a marketplace seller for ‘water cooling vs air cooling’ as if it were a Pinjin checkbox.",
+        "factors": [
+          "No Pinjin published oil-temp cut-off — لا تختلق one",
+          "ACPA stop-and-check sequence when oil is hot",
+          "Kawasaki 112 / 140 names are pump IDs, not cooler ratings",
+          "Persistent overheating may be a developing pump or mix/pipeline problem — not a promised on-site m³/h"
+        ]
+      },
+      "seoTitle": "Concrete Pump Oil Temperature & Cooling | ACPA + Pinjin",
+      "imageCaption": "Diesel 50 — Kawasaki 140 is the printed hydraulic-pump name, not an oil-temperature rating",
+      "faqs": [
+        {
+          "question": "What oil temperature is allowed on a Pinjin مضخة مقطورة?",
+          "answer": "Not published. Catalogue cells are power, output, pressure, hopper, distance, size. ACPA mechanics text warns that oil can get hotter than about 80 °C in a day’s work. Use the ACPA hot-oil sequence; do not treat 80 °C as a Pinjin thermostat setting."
+        },
+        {
+          "question": "Does the catalogue say water-cooled or air-cooled hydraulics?",
+          "answer": "No. Some marketplace listings advertise water-cooling or air-cooling. Pinjin pages that name a hydraulic pump say Kawasaki 112, Kawasaki 140, Kawasaki double pump 100/112/140 — not a cooler type. Ask the factory if you need the cooler arrangement for a listed model; unpublished arrangements are not promised here."
+        },
+        {
+          "question": "What should the operator do when hydraulic oil is hot?",
+          "answer": "ACPA study guide: 1) stop pumping; 2) check the oil cooler (some pumps have a fan override); 3) find the heat source, such as a valve in the wrong position; 4) make certain the water box is full; 5) spray a mist of cool water over the hydraulic system and tank; 6) slow the pumping speed. Repeated overheating can mean a developing machine problem."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Hydraulic Oil Temperature and Cooling",
+      "description": "Pinjin does not publish an oil-temperature cut-off or cooler model. ACPA: if hydraulic oil overheats, stop, check the cooler, water box and valve positions, then slow the pump. Burn hazard around 80 °C. Kawasaki pump names on some rows are not thermostat ratings.",
+      "imageAlt": "Diesel 50 trailer concrete pump with Kawasaki 140 hydraulic pump, manufactured by Hebei Pinjin Machinery in Синтай",
+      "relatedPathLabels": [
+        "Diesel concrete pump manufacturer China",
+        "Concrete pump daily maintenance checklist",
+        "Синтай construction machinery factory",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Hydraulic oil temperature is a safety and reliability limit. Pinjin строка каталогаs list motor/engine, output, pressure and, on some models, a Kawasaki hydraulic-pump name. They do not list a maximum oil temperature, cooler type or oil brand. ACPA’s operator study guide: if oil gets hot, stop pumping, check the cooler, find a valve left in the wrong position, confirm the water box is full, mist the tank if needed, then slow the pump. ACPA mechanics: oil can exceed about 176 °F / 80 °C — burn hazard; never work a pressurised leak from below.",
+        "who": "Operators who see rising oil temperature on a trailer and buyers who asked a marketplace seller for ‘water cooling vs air cooling’ as if it were a Pinjin checkbox.",
+        "factors": [
+          "No Pinjin published oil-temp cut-off — не выдумывать one",
+          "ACPA stop-and-check sequence when oil is hot",
+          "Kawasaki 112 / 140 names are pump IDs, not cooler ratings",
+          "Persistent overheating may be a developing pump or mix/pipeline problem — not a promised on-site m³/h"
+        ]
+      },
+      "seoTitle": "Concrete Pump Oil Temperature & Cooling | ACPA + Pinjin",
+      "imageCaption": "Diesel 50 — Kawasaki 140 is the printed hydraulic-pump name, not an oil-temperature rating",
+      "faqs": [
+        {
+          "question": "What oil temperature is allowed on a Pinjin прицепной насос?",
+          "answer": "Not published. Catalogue cells are power, output, pressure, hopper, distance, size. ACPA mechanics text warns that oil can get hotter than about 80 °C in a day’s work. Use the ACPA hot-oil sequence; do not treat 80 °C as a Pinjin thermostat setting."
+        },
+        {
+          "question": "Does the catalogue say water-cooled or air-cooled hydraulics?",
+          "answer": "No. Some marketplace listings advertise water-cooling or air-cooling. Pinjin pages that name a hydraulic pump say Kawasaki 112, Kawasaki 140, Kawasaki double pump 100/112/140 — not a cooler type. Ask the factory if you need the cooler arrangement for a listed model; unpublished arrangements are not promised here."
+        },
+        {
+          "question": "What should the operator do when hydraulic oil is hot?",
+          "answer": "ACPA study guide: 1) stop pumping; 2) check the oil cooler (some pumps have a fan override); 3) find the heat source, such as a valve in the wrong position; 4) make certain the water box is full; 5) spray a mist of cool water over the hydraulic system and tank; 6) slow the pumping speed. Repeated overheating can mean a developing machine problem."
+        }
+      ]
+    }
+  }
+}

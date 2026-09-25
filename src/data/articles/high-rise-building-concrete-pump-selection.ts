@@ -42,6 +42,11 @@ export const article: BlogPost = {
     'electric-60-concrete-pump',
     'electric-80-concrete-pump',
   ],
+  relatedArticleSlugs: [
+    'concrete-pump-for-slope-retaining-wall',
+    'concrete-pump-vertical-vs-horizontal-distance',
+    'concrete-pump-motor-kw-vs-output',
+  ],
   relatedPaths: [
     {
       href: '/products/electric-concrete-pumps',

@@ -1,0 +1,271 @@
+{
+  "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
+  "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin Xingtai",
+  "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote delivery pipe after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
+  "primaryKeyword": "concrete pump reducer",
+  "secondaryKeywords": [
+    "concrete pump taper pipe",
+    "pipeline reducer blockage",
+    "concrete pump DN transition"
+  ],
+  "category": "product-guide",
+  "resourceType": "parts-guide",
+  "tags": [
+    "reducer",
+    "pipeline",
+    "blockage"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-20-concrete-pump",
+    "electric-15-concrete-pump",
+    "concrete-pump-delivery-pipe"
+  ],
+  "relatedArticleSlugs": [
+    "concrete-pump-pipe-dn-selection",
+    "concrete-pump-clamp-coupling",
+    "concrete-pump-blockage-causes-prevention"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": "Concrete pump parts manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-pipe-dn-selection",
+      "label": "Concrete pump pipe DN selection"
+    },
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": "Concrete pump delivery pipe"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "ACPA’s study guide: reducers and bends in the placing line create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
+    "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+    "factors": [
+      "Start from the DN printed on the pump page",
+      "ACPA: inspect the reducer first when a plug forms; never open a coupling under pressure",
+      "Pinjin has no published reducer SKU or wall-thickness taper table",
+      "Quote straight pipe, clamps and hose after model, DN and quantity"
+    ],
+    "relatedModels": [
+      "electric-20-concrete-pump",
+      "electric-15-concrete-pump",
+      "concrete-pump-delivery-pipe"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does Pinjin sell a catalogue concrete pump reducer?",
+      "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight delivery pipe, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from Xingtai — unpublished dimensions are not promised here."
+    },
+    {
+      "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
+      "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
+    },
+    {
+      "question": "Where should I look first if the line plugs after a diameter change?",
+      "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+    }
+  ],
+  "image": {
+    "src": "/images/products/concrete-pump-delivery-pipe/concrete-pump-delivery-pipe.webp",
+    "alt": "Pinjin concrete pump delivery pipes with coupling ends packed in Xingtai, quoted after pump DN not as a reducer table",
+    "caption": "Straight delivery pipe from Xingtai — DN and length after the pump model; no published reducer SKU"
+  },
+  "sources": [
+    {
+      "name": "ACPA study guide: reducers and bends; plug often in the reducer",
+      "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "ACI 304.2R-17 contents: pipeline, couplings and accessories",
+      "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Pinjin Electric 20 product page (pipe 80 mm)",
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 15 product page (pipe 100–125 mm)",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin delivery pipe product page",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba search observation: concrete pump reducer pipe (listing copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump+reducer+pipe",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "混凝土泵变径管：堵点常从这里开始",
+      "description": "ACPA：变径和弯头造成紊流；堵管时通常先看变径。品锦不列变径料号。输送管按泵 DN 报价——电动20为80 mm，电动15为100–125 mm。",
+      "imageAlt": "品锦 concrete pump 输送管s with coupling ends packed in 邢台, quoted after pump DN not as a reducer table",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Concrete pump 输送管",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "ACPA’s study guide: reducers and bends in the 浇筑管路 create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. 品锦 does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. 电动20 lists 80 mm; 电动15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
+        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed 品锦 DN, not a competitor taper chart.",
+        "factors": [
+          "Start from the DN printed on the pump page",
+          "ACPA: inspect the reducer first when a plug forms; 禁止在带压时打开管接头",
+          "品锦 has no published reducer SKU or wall-thickness taper table",
+          "Quote straight pipe, clamps and hose after model, DN and quantity"
+        ]
+      },
+      "seoTitle": "混凝土泵变径管与锥管 | 品锦邢台",
+      "imageCaption": "Straight 输送管 from 邢台 — DN and length after the pump model; no published reducer SKU",
+      "faqs": [
+        {
+          "question": "Does 品锦 sell a catalogue concrete pump reducer?",
+          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight 输送管, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a 品锦 table. Send the pump model and both diameters if you still need a transition quoted from 邢台 — unpublished dimensions are not promised here."
+        },
+        {
+          "question": "Can I drop 电动15’s 100–125 mm line onto 电动20’s 80 mm pipe with any taper?",
+          "answer": "We do not publish that transition. 电动20 lists 80 mm pipe. 电动15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
+        },
+        {
+          "question": "Where should I look first if the line plugs after a diameter change?",
+          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
+      "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote tubo de entrega after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
+      "imageAlt": "Pinjin concrete pump tubo de entregas with coupling ends packed in Xingtai, quoted after pump DN not as a reducer table",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Concrete pump tubo de entrega",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "ACPA’s study guide: reducers and bends in the linha de lançamento create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
+        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+        "factors": [
+          "Start from the DN printed on the pump page",
+          "ACPA: inspect the reducer first when a plug forms; nunca abra um acoplamento sob pressão",
+          "Pinjin has no published reducer SKU or wall-thickness taper table",
+          "Quote straight pipe, clamps and hose after model, DN and quantity"
+        ]
+      },
+      "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin Xingtai",
+      "imageCaption": "Straight tubo de entrega from Xingtai — DN and length after the pump model; no published reducer SKU",
+      "faqs": [
+        {
+          "question": "Does Pinjin sell a catalogue concrete pump reducer?",
+          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight tubo de entrega, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from Xingtai — unpublished dimensions are not promised here."
+        },
+        {
+          "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
+          "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
+        },
+        {
+          "question": "Where should I look first if the line plugs after a diameter change?",
+          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
+      "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote أنبوب النقل after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
+      "imageAlt": "Pinjin concrete pump أنبوب النقلs with coupling ends packed in شينغتاي, quoted after pump DN not as a reducer table",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Concrete pump أنبوب النقل",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "ACPA’s study guide: reducers and bends in the خط الصب create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
+        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+        "factors": [
+          "Start from the DN printed on the pump page",
+          "ACPA: inspect the reducer first when a plug forms; لا تفتح الوصلة تحت الضغط",
+          "Pinjin has no published reducer SKU or wall-thickness taper table",
+          "Quote straight pipe, clamps and hose after model, DN and quantity"
+        ]
+      },
+      "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin شينغتاي",
+      "imageCaption": "Straight أنبوب النقل from شينغتاي — DN and length after the pump model; no published reducer SKU",
+      "faqs": [
+        {
+          "question": "Does Pinjin sell a catalogue concrete pump reducer?",
+          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight أنبوب النقل, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from شينغتاي — unpublished dimensions are not promised here."
+        },
+        {
+          "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
+          "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
+        },
+        {
+          "question": "Where should I look first if the line plugs after a diameter change?",
+          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
+      "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote бетоновод after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
+      "imageAlt": "Pinjin concrete pump бетоноводs with coupling ends packed in Синтай, quoted after pump DN not as a reducer table",
+      "relatedPathLabels": [
+        "Concrete pump parts manufacturer China",
+        "Concrete pump pipe DN selection",
+        "Concrete pump бетоновод",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "ACPA’s study guide: reducers and bends in the линия укладки create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
+        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+        "factors": [
+          "Start from the DN printed on the pump page",
+          "ACPA: inspect the reducer first when a plug forms; не открывать соединение под давлением",
+          "Pinjin has no published reducer SKU or wall-thickness taper table",
+          "Quote straight pipe, clamps and hose after model, DN and quantity"
+        ]
+      },
+      "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin Синтай",
+      "imageCaption": "Straight бетоновод from Синтай — DN and length after the pump model; no published reducer SKU",
+      "faqs": [
+        {
+          "question": "Does Pinjin sell a catalogue concrete pump reducer?",
+          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight бетоновод, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from Синтай — unpublished dimensions are not promised here."
+        },
+        {
+          "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
+          "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
+        },
+        {
+          "question": "Where should I look first if the line plugs after a diameter change?",
+          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+        }
+      ]
+    }
+  }
+}

@@ -183,7 +183,7 @@ SOLUTION_SLUGS = [
     "spraying",
 ]
 
-LASTMOD = "2026-09-22"
+LASTMOD = "2026-09-25"
 META_FILE = Path(__file__).resolve().parents[1] / "deploy" / "prerender-meta.json"
 IMAGE_GEO = "Xingtai, Hebei, China"
 IMAGE_KEYWORD_CAPTION = (
@@ -331,7 +331,7 @@ CONTENT_SOURCED = Path(__file__).resolve().parents[1] / "content" / "sourced"
 
 
 def load_sourced_blogs() -> list[dict]:
-    """English-only sourced knowledge pages with contentStatus=ready."""
+    """Ready sourced knowledge pages. Sitemap always lists the English URL only."""
     out: list[dict] = []
     if not CONTENT_SOURCED.is_dir():
         return out
@@ -343,24 +343,24 @@ def load_sourced_blogs() -> list[dict]:
         if data.get("contentStatus") != "ready":
             continue
         slug = data.get("slug") or folder.name
-        langs = [lang for lang in data.get("availableLangs") or ["en"] if lang in LANGS]
-        if not langs:
-            continue
         image = (data.get("image") or {}).get("src")
-        out.append({"slug": slug, "langs": langs, "image": image, "title": data.get("title") or slug})
+        out.append({"slug": slug, "langs": ["en"], "image": image, "title": data.get("title") or slug})
     return out
 
 
 def sitemap_entries() -> list[dict]:
     sourced = load_sourced_blogs()
-    sourced_slugs = {item["slug"] for item in sourced}
-    entries = [{"rest": path, "langs": list(LANGS)} for path in page_paths()]
+    entries = []
+    for path in page_paths():
+        if path.startswith("/blog/") and path != "/blog":
+            entries.append({"rest": path, "langs": ["en"]})
+        else:
+            entries.append({"rest": path, "langs": list(LANGS)})
     for item in sourced:
-        if item["slug"] in BLOG_SLUGS or item["slug"] in sourced_slugs:
-            rest = f"/blog/{item['slug']}"
-            if any(entry["rest"] == rest for entry in entries):
-                continue
-            entries.append({"rest": rest, "langs": item["langs"]})
+        rest = f"/blog/{item['slug']}"
+        if any(entry["rest"] == rest for entry in entries):
+            continue
+        entries.append({"rest": rest, "langs": ["en"]})
     return entries
 
 
@@ -740,7 +740,7 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             url_count += 1
 
         for blog in load_sourced_blogs():
-            if lang not in blog["langs"]:
+            if lang != "en":
                 continue
             image = blog.get("image")
             if not image:

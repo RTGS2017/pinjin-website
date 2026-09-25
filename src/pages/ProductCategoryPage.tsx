@@ -23,6 +23,7 @@ import {
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
 import { brandedTitle, withLocaleDescription } from '@/seo/documentCopy';
+import { extraCategoryFaqPlain } from '@/data/sourced/loadSourcedFaqs';
 
 export function ProductCategoryPage() {
   const { categorySlug, slug } = useParams<{
@@ -54,10 +55,13 @@ export function ProductCategoryPage() {
   const heading = tx(hub.h1);
   const title = brandedTitle(heading, lang);
   const description = withLocaleDescription(tx(hub.intro), lang);
-  const faqs = hub.faqs.map((item) => ({
-    question: tx(item.question),
-    answer: tx(item.answer),
-  }));
+  const faqs = [
+    ...hub.faqs.map((item) => ({
+      question: tx(item.question),
+      answer: tx(item.answer),
+    })),
+    ...extraCategoryFaqPlain(category, lang),
+  ];
   const relatedPosts = getBlogPosts(lang).filter(
     (post) =>
       post.relatedProductSlugs.some((productSlug) =>

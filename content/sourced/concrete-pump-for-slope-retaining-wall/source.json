@@ -1,0 +1,266 @@
+{
+  "title": "Concrete Pump for Slope and Retaining-Wall Placement",
+  "seoTitle": "Concrete Pump for Slope Retaining Wall | Pinjin Xingtai",
+  "description": "Use the printed vertical and horizontal metres on the Pinjin row — Electric 15 lists 15–20 m vertical; Electric 40 lists 120 m / 360 m (fine stone). Pinjin does not print a slope angle or retaining-wall certificate. Pipeline equivalent length still applies. Match the row, then inquire.",
+  "primaryKeyword": "concrete pump for slope",
+  "secondaryKeywords": [
+    "retaining wall concrete pump",
+    "slope placement trailer pump",
+    "vertical pumping retaining wall"
+  ],
+  "category": "application-guide",
+  "resourceType": "buyer-guide",
+  "tags": [
+    "slope",
+    "retaining-wall",
+    "vertical"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-15-concrete-pump",
+    "electric-40-concrete-pump",
+    "diesel-40-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "high-rise-building-concrete-pump-selection",
+    "concrete-pump-vertical-vs-horizontal-distance",
+    "concrete-pump-for-basement-underground"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/concrete-pump-vertical-vs-horizontal-distance",
+      "label": "Vertical vs horizontal pumping distance"
+    },
+    {
+      "href": "/products/electric-40-concrete-pump",
+      "label": "Electric 40 concrete pump"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Slope and retaining-wall pours still read the catalogue vertical and horizontal cells. Electric 15: 60–80 m / 15–20 m. Electric 40: fine-stone 120 m / 360 m, 23 MPa. Diesel 40 lists 66 kW, 26 m³/h, 120 m / 360 m — a diesel row, not an Electric 40 twin. Pinjin does not print a slope angle, batter or retaining-wall formwork-pressure certificate. Equivalent-length rules are on the vertical-vs-horizontal and high-rise pages — we will not invent a ‘15° slope = N metres’ table. Prime the line; a dry reducer on an uphill hose plugs the same way as on a slab.",
+    "who": "Buyers placing concrete up a bank or into a retaining-wall form who can measure vertical rise and pipe length, not buyers asking for an unpublished angle chart.",
+    "factors": [
+      "Use printed vertical m and horizontal m on that model row",
+      "No published slope-angle or wall-pressure certificate",
+      "Uphill hose still needs priming and DN-matched couplings",
+      "Diesel vs electric is a grid fact, not a slope SKU"
+    ],
+    "relatedModels": [
+      "electric-15-concrete-pump",
+      "electric-40-concrete-pump",
+      "diesel-40-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does Pinjin rate Electric 15 for a 30-degree slope?",
+      "answer": "No slope-angle cell is printed. Electric 15 lists 15–20 m vertical and 60–80 m horizontal. Measure the rise and the pipe length. We will not convert an unpublished 30° into extra metres."
+    },
+    {
+      "question": "Is a retaining-wall pour the same as a high-rise cell?",
+      "answer": "Both read vertical metres, but a wall is not a tower. High-rise selection and vertical-vs-horizontal already explain equivalent length. This page only says: use those printed metres; do not invent a wall certificate. Send form height and line length with the slug."
+    },
+    {
+      "question": "Should I use Diesel 40 on a remote slope with no grid?",
+      "answer": "Diesel 40 is the diesel row (26 m³/h, 66 kW, 120 m / 360 m). Electric 40 is 45 kW, 380V 50Hz. Site power is a fact — see electric vs diesel and diesel no-electricity. Slope angle is still not a catalogue cell on either page."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-40-concrete-pump/main.webp",
+    "alt": "Electric 40 trailer concrete pump from Hebei Pinjin Machinery Xingtai used to place concrete on a line not as a slope-angle certificate",
+    "caption": "Electric 40 — 21 m³/h, 23 MPa, fine-stone 120 m / 360 m. Printed distances, not a slope stamp."
+  },
+  "sources": [
+    {
+      "name": "Pinjin Electric 15 product page (15–20 m vertical)",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 40 product page (120 m / 360 m fine stone)",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Diesel 40 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "ACI 304.2R-17 placing by pump (preview)",
+      "url": "https://www.concrete.org/Portals/0/Files/PDF/Previews/304.2R-17_preview.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Alibaba observation: slope / retaining wall pump listings (copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=concrete+pump+retaining+wall",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "边坡与挡墙浇筑用混凝土泵",
+      "description": "使用已印垂直和水平米数——电动15列垂直 15–20 m；电动40细石 120 m / 360 m。品锦不印坡度角或挡墙证书。管路当量长度仍然适用。",
+      "imageAlt": "电动40 trailer concrete pump from 河北品锦机械 邢台 used to place concrete on a line not as a slope-angle certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Vertical vs 水平 pumping distance",
+        "电动40 concrete pump",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "Slope and retaining-wall pours still read the catalogue 垂直 and 水平 cells. 电动15: 60–80 m / 15–20 m. 电动40: 细石 120 m / 360 m, 23 MPa. 柴油40 lists 66 kW, 26 m³/h, 120 m / 360 m — a diesel row, not an 电动40 twin. 品锦 does not print a slope angle, batter or retaining-wall 模板-pressure certificate. Equivalent-length rules are on the 垂直-vs-水平 and high-rise pages — we will not invent a ‘15° slope = N metres’ table. Prime the line; a dry reducer on an uphill hose plugs the same way as on a slab.",
+        "who": "Buyers placing concrete up a bank or into a retaining-wall form who can measure 垂直 rise and pipe length, not buyers asking for an unpublished angle chart.",
+        "factors": [
+          "Use printed 垂直 m and 水平 m on that model row",
+          "No published slope-angle or wall-pressure certificate",
+          "Uphill hose still needs priming and DN-matched couplings",
+          "Diesel vs electric is a grid fact, not a slope SKU"
+        ]
+      },
+      "seoTitle": "边坡挡墙混凝土泵 | 品锦邢台",
+      "imageCaption": "电动40 — 21 m³/h, 23 MPa, 细石 120 m / 360 m. Printed distances, not a slope stamp.",
+      "faqs": [
+        {
+          "question": "Does 品锦 rate 电动15 for a 30-degree slope?",
+          "answer": "No slope-angle cell is printed. 电动15 lists 15–20 m 垂直 and 60–80 m 水平. Measure the rise and the pipe length. We will not convert an unpublished 30° into extra metres."
+        },
+        {
+          "question": "Is a retaining-wall pour the same as a high-rise cell?",
+          "answer": "Both read 垂直 metres, but a wall is not a tower. High-rise selection and 垂直-vs-水平 already explain equivalent length. This page only says: use those printed metres; 不要编造 a wall certificate. Send form height and line length with the slug."
+        },
+        {
+          "question": "Should I use 柴油40 on a remote slope with no grid?",
+          "answer": "柴油40 is the diesel row (26 m³/h, 66 kW, 120 m / 360 m). 电动40 is 45 kW, 380V 50Hz. Site power is a fact — see electric vs diesel and diesel no-electricity. Slope angle is still not a 目录单元格 on either page."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Concrete Pump for Slope and Retaining-Wall Placement",
+      "description": "Use the printed vertical and horizontal metres on the Pinjin row — Electric 15 lists 15–20 m vertical; Electric 40 lists 120 m / 360 m (pedra fina). Pinjin does not print a slope angle or retaining-wall certificate. Pipeline equivalent length still applies. Match the row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump from Hebei Pinjin Machinery Xingtai used to place concrete on a line not as a slope-angle certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Vertical vs horizontal pumping distance",
+        "Electric 40 concrete pump",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Slope and retaining-wall pours still read the catalogue vertical and horizontal cells. Electric 15: 60–80 m / 15–20 m. Electric 40: pedra fina 120 m / 360 m, 23 MPa. Diesel 40 lists 66 kW, 26 m³/h, 120 m / 360 m — a diesel row, not an Electric 40 twin. Pinjin does not print a slope angle, batter or retaining-wall forma-pressure certificate. Equivalent-length rules are on the vertical-vs-horizontal and high-rise pages — we will not invent a ‘15° slope = N metres’ table. Prime the line; a dry reducer on an uphill hose plugs the same way as on a slab.",
+        "who": "Buyers placing concrete up a bank or into a retaining-wall form who can measure vertical rise and pipe length, not buyers asking for an unpublished angle chart.",
+        "factors": [
+          "Use printed vertical m and horizontal m on that model row",
+          "No published slope-angle or wall-pressure certificate",
+          "Uphill hose still needs priming and DN-matched couplings",
+          "Diesel vs electric is a grid fact, not a slope SKU"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Slope Retaining Wall | Pinjin Xingtai",
+      "imageCaption": "Electric 40 — 21 m³/h, 23 MPa, pedra fina 120 m / 360 m. Printed distances, not a slope stamp.",
+      "faqs": [
+        {
+          "question": "Does Pinjin rate Electric 15 for a 30-degree slope?",
+          "answer": "No slope-angle cell is printed. Electric 15 lists 15–20 m vertical and 60–80 m horizontal. Measure the rise and the pipe length. We will not convert an unpublished 30° into extra metres."
+        },
+        {
+          "question": "Is a retaining-wall pour the same as a high-rise cell?",
+          "answer": "Both read vertical metres, but a wall is not a tower. High-rise selection and vertical-vs-horizontal already explain equivalent length. This page only says: use those printed metres; não invente a wall certificate. Send form height and line length with the slug."
+        },
+        {
+          "question": "Should I use Diesel 40 on a remote slope with no grid?",
+          "answer": "Diesel 40 is the diesel row (26 m³/h, 66 kW, 120 m / 360 m). Electric 40 is 45 kW, 380V 50Hz. Site power is a fact — see electric vs diesel and diesel no-electricity. Slope angle is still not a célula de catálogo on either page."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Concrete Pump for Slope and Retaining-Wall Placement",
+      "description": "Use the printed عمودي and أفقي metres on the Pinjin row — Electric 15 lists 15–20 m عمودي; Electric 40 lists 120 m / 360 m (حصى ناعم). Pinjin does not print a slope angle or retaining-wall certificate. Pipeline equivalent length still applies. Match the row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump from Hebei Pinjin Machinery شينغتاي used to place concrete on a line not as a slope-angle certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Vertical vs أفقي pumping distance",
+        "Electric 40 concrete pump",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Slope and retaining-wall pours still read the catalogue عمودي and أفقي cells. Electric 15: 60–80 m / 15–20 m. Electric 40: حصى ناعم 120 m / 360 m, 23 MPa. Diesel 40 lists 66 kW, 26 m³/h, 120 m / 360 m — a diesel row, not an Electric 40 twin. Pinjin does not print a slope angle, batter or retaining-wall شدات-pressure certificate. Equivalent-length rules are on the عمودي-vs-أفقي and high-rise pages — we will not invent a ‘15° slope = N metres’ table. Prime the line; a dry reducer on an uphill hose plugs the same way as on a slab.",
+        "who": "Buyers placing concrete up a bank or into a retaining-wall form who can measure عمودي rise and pipe length, not buyers asking for an unpublished angle chart.",
+        "factors": [
+          "Use printed عمودي m and أفقي m on that model row",
+          "No published slope-angle or wall-pressure certificate",
+          "Uphill hose still needs priming and DN-matched couplings",
+          "Diesel vs electric is a grid fact, not a slope SKU"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Slope Retaining Wall | Pinjin شينغتاي",
+      "imageCaption": "Electric 40 — 21 m³/h, 23 MPa, حصى ناعم 120 m / 360 m. Printed distances, not a slope stamp.",
+      "faqs": [
+        {
+          "question": "Does Pinjin rate Electric 15 for a 30-degree slope?",
+          "answer": "No slope-angle cell is printed. Electric 15 lists 15–20 m عمودي and 60–80 m أفقي. Measure the rise and the pipe length. We will not convert an unpublished 30° into extra metres."
+        },
+        {
+          "question": "Is a retaining-wall pour the same as a high-rise cell?",
+          "answer": "Both read عمودي metres, but a wall is not a tower. High-rise selection and عمودي-vs-أفقي already explain equivalent length. This page only says: use those printed metres; لا تختلق a wall certificate. Send form height and line length with the slug."
+        },
+        {
+          "question": "Should I use Diesel 40 on a remote slope with no grid?",
+          "answer": "Diesel 40 is the diesel row (26 m³/h, 66 kW, 120 m / 360 m). Electric 40 is 45 kW, 380V 50Hz. Site power is a fact — see electric vs diesel and diesel no-electricity. Slope angle is still not a خلية الكتالوج on either page."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Concrete Pump for Slope and Retaining-Wall Placement",
+      "description": "Use the printed вертикаль and горизонталь metres on the Pinjin row — Electric 15 lists 15–20 m вертикаль; Electric 40 lists 120 m / 360 m (мелкий камень). Pinjin does not print a slope angle or retaining-wall certificate. Pipeline equivalent length still applies. Match the row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump from Hebei Pinjin Machinery Синтай used to place concrete on a line not as a slope-angle certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Vertical vs горизонталь pumping distance",
+        "Electric 40 concrete pump",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Slope and retaining-wall pours still read the catalogue вертикаль and горизонталь cells. Electric 15: 60–80 m / 15–20 m. Electric 40: мелкий камень 120 m / 360 m, 23 MPa. Diesel 40 lists 66 kW, 26 m³/h, 120 m / 360 m — a diesel row, not an Electric 40 twin. Pinjin does not print a slope angle, batter or retaining-wall опалубка-pressure certificate. Equivalent-length rules are on the вертикаль-vs-горизонталь and high-rise pages — we will not invent a ‘15° slope = N metres’ table. Prime the line; a dry reducer on an uphill hose plugs the same way as on a slab.",
+        "who": "Buyers placing concrete up a bank or into a retaining-wall form who can measure вертикаль rise and pipe length, not buyers asking for an unpublished angle chart.",
+        "factors": [
+          "Use printed вертикаль m and горизонталь m on that model row",
+          "No published slope-angle or wall-pressure certificate",
+          "Uphill hose still needs priming and DN-matched couplings",
+          "Diesel vs electric is a grid fact, not a slope SKU"
+        ]
+      },
+      "seoTitle": "Concrete Pump for Slope Retaining Wall | Pinjin Синтай",
+      "imageCaption": "Electric 40 — 21 m³/h, 23 MPa, мелкий камень 120 m / 360 m. Printed distances, not a slope stamp.",
+      "faqs": [
+        {
+          "question": "Does Pinjin rate Electric 15 for a 30-degree slope?",
+          "answer": "No slope-angle cell is printed. Electric 15 lists 15–20 m вертикаль and 60–80 m горизонталь. Measure the rise and the pipe length. We will not convert an unpublished 30° into extra metres."
+        },
+        {
+          "question": "Is a retaining-wall pour the same as a high-rise cell?",
+          "answer": "Both read вертикаль metres, but a wall is not a tower. High-rise selection and вертикаль-vs-горизонталь already explain equivalent length. This page only says: use those printed metres; не выдумывать a wall certificate. Send form height and line length with the slug."
+        },
+        {
+          "question": "Should I use Diesel 40 on a remote slope with no grid?",
+          "answer": "Diesel 40 is the diesel row (26 m³/h, 66 kW, 120 m / 360 m). Electric 40 is 45 kW, 380V 50Hz. Site power is a fact — see electric vs diesel and diesel no-electricity. Slope angle is still not a ячейка каталога on either page."
+        }
+      ]
+    }
+  }
+}

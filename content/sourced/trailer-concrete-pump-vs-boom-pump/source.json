@@ -1,0 +1,272 @@
+{
+  "title": "Trailer Concrete Pump vs Boom Pump: What Pinjin Actually Sells",
+  "seoTitle": "Trailer Concrete Pump vs Boom Pump | Pinjin Xingtai",
+  "description": "Marketplace buyers compare trailer pumps and truck booms. Pinjin manufactures trailer and compact transfer pumps in Xingtai — not placing booms. Match Electric 15, Electric 40 and Diesel 50 printed rows instead of boom reach.",
+  "primaryKeyword": "trailer concrete pump vs boom pump",
+  "secondaryKeywords": [
+    "trailer mounted concrete pump",
+    "line pump vs boom pump",
+    "stationary concrete pump"
+  ],
+  "category": "product-guide",
+  "resourceType": "procurement-guide",
+  "tags": [
+    "trailer-pump",
+    "boom-pump",
+    "selection"
+  ],
+  "date": "2026-09-24",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-15-concrete-pump",
+    "electric-40-concrete-pump",
+    "diesel-50-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "high-rise-building-concrete-pump-selection",
+    "mini-concrete-pump-narrow-space",
+    "how-to-compare-small-concrete-pumps-china",
+    "trailer-concrete-pump-towing-chassis"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": "Diesel concrete pump manufacturer China"
+    },
+    {
+      "href": "/solutions/construction",
+      "label": "Building construction pumping"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "A trailer concrete pump is a towed piston pump that places concrete through a steel or hose pipeline. A boom pump is a truck with an articulated placing boom. Hebei Pinjin Machinery in Xingtai lists trailer and compact transfer pumps — not truck-mounted booms. Compare Electric 15 (8–10 m³/h, 60–80 m / 15–20 m, 450 kg), Electric 40 (21 m³/h, fine-stone 120 m / 360 m) or Diesel 50 (30 m³/h, 150 m / 450 m) against the printed table, not against boom length.",
+    "who": "Contractors who can tow a trailer or position a compact frame and will assemble pipeline, rather than buyers who need a truck boom and outrigger pad.",
+    "factors": [
+      "Whether the job is pipeline placement or boom reach",
+      "Site access for a trailer versus a boom truck",
+      "Catalogue output and H/V distance on the Pinjin model page",
+      "Pinjin does not list mixing plants or placing booms"
+    ],
+    "relatedModels": [
+      "electric-15-concrete-pump",
+      "electric-40-concrete-pump",
+      "diesel-50-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does Pinjin manufacture truck-mounted boom pumps?",
+      "answer": "No. The published pump lines are trailer and compact transfer concrete pumps, mixer pumps on one trailer, spraying machines and replacement parts. Mixing plants and placing booms are not catalogue products."
+    },
+    {
+      "question": "Is a trailer pump enough for a single-family house?",
+      "answer": "Match the printed house rows, not a marketplace average. Electric 15 lists 8–10 m³/h and 15–20 m vertical; Tractor-Driven 4100 lists 6–12 m³/h; the rural diesel pump lists 5–8 m³/h. An Alibaba buying-guide FAQ cites 30–60 m³/h as a typical residential band — that is a marketplace observation, not a Pinjin catalogue row."
+    },
+    {
+      "question": "Can Pinjin add a placing boom onto a trailer pump?",
+      "answer": "No boom, outrigger set or truck chassis is listed. Customisation starts from a listed trailer or mixer-pump model. Unpublished boom reach is not promised."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-40-concrete-pump/main.webp",
+    "alt": "Electric 40 trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, not a boom pump",
+    "caption": "Electric 40 Xingtai trailer pump — 21 m³/h, fine-stone 120 m / 360 m"
+  },
+  "sources": [
+    {
+      "name": "Pinjin Electric 15 product page",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 40 product page",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Diesel 50 product page",
+      "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Alibaba buying guide: How to Choose the Best Concrete Pump Machine (FAQ: house size; types: boom vs trailer vs mini)",
+      "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+      "type": "marketplace"
+    },
+    {
+      "name": "Alibaba search observation: trailer concrete pump (listing copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=trailer+concrete+pump",
+      "type": "marketplace"
+    },
+    {
+      "name": "ACI PRC-304.2-17 Guide to Placing Concrete by Pumping Methods (trailer pumps vs truck-mounted pumps, TOC)",
+      "url": "https://www.concrete.org/store/productdetail.aspx?ItemID=304217&Format=DOWNLOAD&Language=English&Units=US_AND_METRIC",
+      "type": "industry"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "Trailer Concrete Pump vs Boom Pump: What 品锦 Actually Sells",
+      "description": "Marketplace buyers compare 拖式泵s and truck booms. 品锦 manufactures trailer and compact transfer pumps in 邢台 — not placing booms. Match 电动15, 电动40 and Diesel 50 printed rows instead of boom reach.",
+      "imageAlt": "电动40 trailer concrete pump manufactured by 河北品锦机械 in 邢台, not a 臂架泵",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Diesel concrete pump manufacturer China",
+        "Building construction pumping",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "A trailer concrete pump is a towed piston pump that places concrete through a steel or hose pipeline. A 臂架泵 is a truck with an articulated placing boom. 河北品锦机械 in 邢台 lists trailer and compact transfer pumps — not truck-mounted booms. Compare 电动15 (8–10 m³/h, 60–80 m / 15–20 m, 450 kg), 电动40 (21 m³/h, 细石 120 m / 360 m) or Diesel 50 (30 m³/h, 150 m / 450 m) against the printed table, not against boom length.",
+        "who": "Contractors who can tow a trailer or position a compact frame and will assemble pipeline, rather than buyers who need a truck boom and outrigger pad.",
+        "factors": [
+          "Whether the job is pipeline placement or boom reach",
+          "Site access for a trailer versus a boom truck",
+          "Catalogue output and H/V distance on the 品锦 model page",
+          "品锦 does not list mixing plants or placing booms"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump vs Boom Pump | 品锦 邢台",
+      "imageCaption": "电动40 邢台 拖式泵 — 21 m³/h, 细石 120 m / 360 m",
+      "faqs": [
+        {
+          "question": "Does 品锦 manufacture truck-mounted 臂架泵s?",
+          "answer": "No. The published pump lines are trailer and compact transfer concrete pumps, 搅拌泵s on one trailer, spraying machines and replacement parts. Mixing plants and placing booms are not catalogue products."
+        },
+        {
+          "question": "Is a 拖式泵 enough for a single-family house?",
+          "answer": "Match the printed house rows, not a marketplace average. 电动15 lists 8–10 m³/h and 15–20 m 垂直; Tractor-Driven 4100 lists 6–12 m³/h; the rural diesel pump lists 5–8 m³/h. An Alibaba buying-guide FAQ cites 30–60 m³/h as a typical residential band — that is a 平台观察, not a 品锦 目录行."
+        },
+        {
+          "question": "Can 品锦 add a placing boom onto a 拖式泵?",
+          "answer": "No boom, outrigger set or truck chassis is listed. Customisation starts from a listed trailer or mixer-pump model. Unpublished boom reach is not promised."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Trailer Concrete Pump vs Boom Pump: What Pinjin Actually Sells",
+      "description": "Marketplace buyers compare bomba reboques and truck booms. Pinjin manufactures trailer and compact transfer pumps in Xingtai — not placing booms. Match Electric 15, Electric 40 and Diesel 50 printed rows instead of boom reach.",
+      "imageAlt": "Electric 40 trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, not a bomba lança",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Diesel concrete pump manufacturer China",
+        "Building construction pumping",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A trailer concrete pump is a towed piston pump that places concrete through a steel or hose pipeline. A bomba lança is a truck with an articulated placing boom. Hebei Pinjin Machinery in Xingtai lists trailer and compact transfer pumps — not truck-mounted booms. Compare Electric 15 (8–10 m³/h, 60–80 m / 15–20 m, 450 kg), Electric 40 (21 m³/h, pedra fina 120 m / 360 m) or Diesel 50 (30 m³/h, 150 m / 450 m) against the printed table, not against boom length.",
+        "who": "Contractors who can tow a trailer or position a compact frame and will assemble pipeline, rather than buyers who need a truck boom and outrigger pad.",
+        "factors": [
+          "Whether the job is pipeline placement or boom reach",
+          "Site access for a trailer versus a boom truck",
+          "Catalogue output and H/V distance on the Pinjin model page",
+          "Pinjin does not list mixing plants or placing booms"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump vs Boom Pump | Pinjin Xingtai",
+      "imageCaption": "Electric 40 Xingtai bomba reboque — 21 m³/h, pedra fina 120 m / 360 m",
+      "faqs": [
+        {
+          "question": "Does Pinjin manufacture truck-mounted bomba lanças?",
+          "answer": "No. The published pump lines are trailer and compact transfer concrete pumps, bomba misturadoras on one trailer, spraying machines and replacement parts. Mixing plants and placing booms are not catalogue products."
+        },
+        {
+          "question": "Is a bomba reboque enough for a single-family house?",
+          "answer": "Match the printed house rows, not a marketplace average. Electric 15 lists 8–10 m³/h and 15–20 m vertical; Tractor-Driven 4100 lists 6–12 m³/h; the rural diesel pump lists 5–8 m³/h. An Alibaba buying-guide FAQ cites 30–60 m³/h as a typical residential band — that is a observação de marketplace, not a Pinjin linha de catálogo."
+        },
+        {
+          "question": "Can Pinjin add a placing boom onto a bomba reboque?",
+          "answer": "No boom, outrigger set or truck chassis is listed. Customisation starts from a listed trailer or mixer-pump model. Unpublished boom reach is not promised."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Trailer Concrete Pump vs Boom Pump: What Pinjin Actually Sells",
+      "description": "Marketplace buyers compare مضخة مقطورةs and truck booms. Pinjin manufactures trailer and compact transfer pumps in شينغتاي — not placing booms. Match Electric 15, Electric 40 and Diesel 50 printed rows instead of boom reach.",
+      "imageAlt": "Electric 40 trailer concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي, not a مضخة ذراع",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Diesel concrete pump manufacturer China",
+        "Building construction pumping",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A trailer concrete pump is a towed piston pump that places concrete through a steel or hose pipeline. A مضخة ذراع is a truck with an articulated placing boom. Hebei Pinjin Machinery in شينغتاي lists trailer and compact transfer pumps — not truck-mounted booms. Compare Electric 15 (8–10 m³/h, 60–80 m / 15–20 m, 450 kg), Electric 40 (21 m³/h, حصى ناعم 120 m / 360 m) or Diesel 50 (30 m³/h, 150 m / 450 m) against the printed table, not against boom length.",
+        "who": "Contractors who can tow a trailer or position a compact frame and will assemble pipeline, rather than buyers who need a truck boom and outrigger pad.",
+        "factors": [
+          "Whether the job is pipeline placement or boom reach",
+          "Site access for a trailer versus a boom truck",
+          "Catalogue output and H/V distance on the Pinjin model page",
+          "Pinjin does not list mixing plants or placing booms"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump vs Boom Pump | Pinjin شينغتاي",
+      "imageCaption": "Electric 40 شينغتاي مضخة مقطورة — 21 m³/h, حصى ناعم 120 m / 360 m",
+      "faqs": [
+        {
+          "question": "Does Pinjin manufacture truck-mounted مضخة ذراعs?",
+          "answer": "No. The published pump lines are trailer and compact transfer concrete pumps, مضخة خلاطs on one trailer, spraying machines and replacement parts. Mixing plants and placing booms are not catalogue products."
+        },
+        {
+          "question": "Is a مضخة مقطورة enough for a single-family house?",
+          "answer": "Match the printed house rows, not a marketplace average. Electric 15 lists 8–10 m³/h and 15–20 m عمودي; Tractor-Driven 4100 lists 6–12 m³/h; the rural diesel pump lists 5–8 m³/h. An Alibaba buying-guide FAQ cites 30–60 m³/h as a typical residential band — that is a ملاحظة من السوق, not a Pinjin صف الكتالوج."
+        },
+        {
+          "question": "Can Pinjin add a placing boom onto a مضخة مقطورة?",
+          "answer": "No boom, outrigger set or truck chassis is listed. Customisation starts from a listed trailer or mixer-pump model. Unpublished boom reach is not promised."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Trailer Concrete Pump vs Boom Pump: What Pinjin Actually Sells",
+      "description": "Marketplace buyers compare прицепной насосs and truck booms. Pinjin manufactures trailer and compact transfer pumps in Синтай — not placing booms. Match Electric 15, Electric 40 and Diesel 50 printed rows instead of boom reach.",
+      "imageAlt": "Electric 40 trailer concrete pump manufactured by Hebei Pinjin Machinery in Синтай, not a автобетононасос со стрелой",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Diesel concrete pump manufacturer China",
+        "Building construction pumping",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "A trailer concrete pump is a towed piston pump that places concrete through a steel or hose pipeline. A автобетононасос со стрелой is a truck with an articulated placing boom. Hebei Pinjin Machinery in Синтай lists trailer and compact transfer pumps — not truck-mounted booms. Compare Electric 15 (8–10 m³/h, 60–80 m / 15–20 m, 450 kg), Electric 40 (21 m³/h, мелкий камень 120 m / 360 m) or Diesel 50 (30 m³/h, 150 m / 450 m) against the printed table, not against boom length.",
+        "who": "Contractors who can tow a trailer or position a compact frame and will assemble pipeline, rather than buyers who need a truck boom and outrigger pad.",
+        "factors": [
+          "Whether the job is pipeline placement or boom reach",
+          "Site access for a trailer versus a boom truck",
+          "Catalogue output and H/V distance on the Pinjin model page",
+          "Pinjin does not list mixing plants or placing booms"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump vs Boom Pump | Pinjin Синтай",
+      "imageCaption": "Electric 40 Синтай прицепной насос — 21 m³/h, мелкий камень 120 m / 360 m",
+      "faqs": [
+        {
+          "question": "Does Pinjin manufacture truck-mounted автобетононасос со стрелойs?",
+          "answer": "No. The published pump lines are trailer and compact transfer concrete pumps, бетононасос-миксерs on one trailer, spraying machines and replacement parts. Mixing plants and placing booms are not catalogue products."
+        },
+        {
+          "question": "Is a прицепной насос enough for a single-family house?",
+          "answer": "Match the printed house rows, not a marketplace average. Electric 15 lists 8–10 m³/h and 15–20 m вертикаль; Tractor-Driven 4100 lists 6–12 m³/h; the rural diesel pump lists 5–8 m³/h. An Alibaba buying-guide FAQ cites 30–60 m³/h as a typical residential band — that is a наблюдение маркетплейса, not a Pinjin строка каталога."
+        },
+        {
+          "question": "Can Pinjin add a placing boom onto a прицепной насос?",
+          "answer": "No boom, outrigger set or truck chassis is listed. Customisation starts from a listed trailer or mixer-pump model. Unpublished boom reach is not promised."
+        }
+      ]
+    }
+  }
+}

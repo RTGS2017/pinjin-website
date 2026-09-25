@@ -2,6 +2,7 @@ import type { BlogPost } from '@/data/blog';
 import type { LocalizedText } from '@/i18n/types';
 import { pick } from '@/i18n/types';
 import type { Lang } from '@/i18n/config';
+import { extraFaqsFor } from '@/data/sourced/loadSourcedFaqs';
 
 const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
@@ -113,7 +114,12 @@ export function getBlogDirectAnswer(post: BlogPost): LocalizedText {
 export function getBlogFaqs(post: BlogPost): Array<{ question: LocalizedText; answer: LocalizedText }> {
   const seen = new Set<string>();
   const merged: Array<{ question: LocalizedText; answer: LocalizedText }> = [];
-  for (const item of [...(post.faqs ?? []), ...(extraFaqs[post.slug] ?? []), ...sharedFaqs]) {
+  for (const item of [
+    ...(post.faqs ?? []),
+    ...(extraFaqs[post.slug] ?? []),
+    ...extraFaqsFor('blog', post.slug),
+    ...sharedFaqs,
+  ]) {
     const key = item.question.en.toLowerCase();
     if (seen.has(key)) continue;
     seen.add(key);

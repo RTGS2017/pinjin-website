@@ -1,0 +1,266 @@
+{
+  "title": "Trailer Concrete Pump Towing, Chassis and Site Move",
+  "seoTitle": "Trailer Concrete Pump Towing and Chassis | Pinjin Xingtai",
+  "description": "Pinjin prints mass and L×W×H for each trailer row — Electric 15 is 450 kg and 1900×900×1200 mm; Electric 80 is 6000 kg. ACPA covers hitch and safety chain practice. Pinjin does not print a CDL class, axle rating or highway towing certificate. Quote the listed row, then inquire.",
+  "primaryKeyword": "trailer concrete pump towing",
+  "secondaryKeywords": [
+    "concrete pump chassis",
+    "move trailer pump on site",
+    "concrete pump weight dimensions"
+  ],
+  "category": "product-guide",
+  "resourceType": "buyer-guide",
+  "tags": [
+    "towing",
+    "chassis",
+    "trailer"
+  ],
+  "date": "2026-09-25",
+  "availableLangs": [
+    "en",
+    "zh",
+    "pt",
+    "ar",
+    "ru"
+  ],
+  "relatedProductSlugs": [
+    "electric-15-concrete-pump",
+    "electric-40-concrete-pump",
+    "electric-80-concrete-pump"
+  ],
+  "relatedArticleSlugs": [
+    "trailer-concrete-pump-vs-boom-pump",
+    "mini-concrete-pump-narrow-space",
+    "concrete-pump-hopper-grille-agitator"
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": "Electric concrete pump manufacturer China"
+    },
+    {
+      "href": "/blog/trailer-concrete-pump-vs-boom-pump",
+      "label": "Trailer vs boom concrete pump"
+    },
+    {
+      "href": "/products/electric-15-concrete-pump",
+      "label": "Electric 15 concrete pump"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact Hebei Pinjin Machinery"
+    }
+  ],
+  "answerBlock": {
+    "what": "Pinjin trailer rows print mass and overall size. Examples: Electric 15 450 kg, 1900×900×1200 mm; Electric 20 900 kg, 2800 × 1300 × 1500 mm; Electric 30 1200 kg, 3300 × 1500 × 1500 mm; Electric 40 2300 kg, 3900 × 1500 × 1600 mm; Electric 80 6000 kg, 6600 × 1800 × 1800 mm. ACPA training material discusses hitch, safety chain and not towing a charged pipeline. Pinjin does not print a CDL class, tyre load index, axle rating or highway homologation. Those are buyer and local-road facts, not Xingtai catalogue cells.",
+    "who": "Buyers who will tow or crane a trailer pump between pours and need the printed mass and envelope, not an unpublished road-legal package.",
+    "factors": [
+      "Use the printed kg and L×W×H for that model row only",
+      "ACPA: hitch and safety chain; do not tow a pressurised line",
+      "No published CDL, axle or highway certificate on Pinjin pages",
+      "Site skidding vs highway towing are different jobs — send both if you need a quote comment"
+    ],
+    "relatedModels": [
+      "electric-15-concrete-pump",
+      "electric-40-concrete-pump",
+      "electric-80-concrete-pump"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can I tow Electric 80 on a public road with a pickup?",
+      "answer": "Electric 80 lists 6000 kg and 6600 × 1800 × 1800 mm. Pinjin does not print a hitch class, CDL or highway towing certificate. Whether a pickup is legal is a local-road and vehicle-rating question, not a factory cell. Send the tractor or crane you actually have with the model slug."
+    },
+    {
+      "question": "Does ACPA tell me how to hitch a Pinjin chassis?",
+      "answer": "ACPA training discusses hitch, safety chain and not moving a charged pipeline. It is not a Pinjin axle drawing. Use the printed mass. Inspect tyres, lights and pins as site practice — unpublished tyre SKUs are not listed as factory options on these product pages."
+    },
+    {
+      "question": "Is Electric 15 light enough to manhandle on a slab?",
+      "answer": "Electric 15 lists 450 kg and 1900×900×1200 mm. That is catalogue mass, not a two-person lift rating. The mini / narrow-access article covers door width. Do not invent a factory ‘site-move kit’ that is not on the product page."
+    }
+  ],
+  "image": {
+    "src": "/images/products/electric-40-concrete-pump/main.webp",
+    "alt": "Electric 40 trailer concrete pump chassis and hopper from Hebei Pinjin Machinery Xingtai showing trailer frame not a highway certificate",
+    "caption": "Electric 40 — 2300 kg, 3900 × 1500 × 1600 mm. Printed envelope, not a CDL spec."
+  },
+  "sources": [
+    {
+      "name": "Pinjin Electric 15 product page (450 kg, 1900×900×1200 mm)",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 40 product page (2300 kg)",
+      "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin Electric 80 product page (6000 kg)",
+      "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "ACPA study guide: hitch, chains, do not move a charged line",
+      "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
+      "type": "industry"
+    },
+    {
+      "name": "Alibaba observation: trailer concrete pump towing listings (copy not used)",
+      "url": "https://www.alibaba.com/trade/search?SearchText=trailer+concrete+pump",
+      "type": "marketplace"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "拖式混凝土泵牵引、底盘与场内移位",
+      "description": "品锦印刷各拖式行的质量与外形——电动15为450 kg、1900×900×1200 mm；电动80为6000 kg、6600×1800×1800 mm。ACPA 覆盖挂接与安全链。品锦不印 CDL 或公路认证。",
+      "imageAlt": "电动40 trailer concrete pump chassis and hopper from 河北品锦机械 邢台 showing trailer frame not a highway certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Trailer vs boom concrete pump",
+        "电动15 concrete pump",
+        "联系 河北品锦机械"
+      ],
+      "answerBlock": {
+        "what": "品锦 trailer rows print mass and overall size. Examples: 电动15 450 kg, 1900×900×1200 mm; 电动20 900 kg, 2800 × 1300 × 1500 mm; 电动30 1200 kg, 3300 × 1500 × 1500 mm; 电动40 2300 kg, 3900 × 1500 × 1600 mm; 电动80 6000 kg, 6600 × 1800 × 1800 mm. ACPA training material discusses hitch, 安全链 and not towing a charged pipeline. 品锦 does not print a CDL class, tyre load index, axle rating or 公路认证. Those are buyer and local-road facts, not 邢台 目录单元格.",
+        "who": "Buyers who will tow or crane a 拖式泵 between pours and need the printed mass and envelope, not an unpublished road-legal package.",
+        "factors": [
+          "Use the printed kg and L×W×H for that model row only",
+          "ACPA: hitch and 安全链; do not tow a pressurised line",
+          "No published CDL, axle or highway certificate on 品锦 pages",
+          "Site skidding vs highway towing are different jobs — send both if you need a quote comment"
+        ]
+      },
+      "seoTitle": "拖式混凝土泵牵引与底盘 | 品锦邢台",
+      "imageCaption": "电动40 — 2300 kg, 3900 × 1500 × 1600 mm. Printed envelope, not a CDL spec.",
+      "faqs": [
+        {
+          "question": "Can I tow 电动80 on a public road with a pickup?",
+          "answer": "电动80 lists 6000 kg and 6600 × 1800 × 1800 mm. 品锦 does not print a hitch class, CDL or highway towing certificate. Whether a pickup is legal is a local-road and vehicle-rating question, not a factory cell. Send the tractor or crane you actually have with the model slug."
+        },
+        {
+          "question": "Does ACPA tell me how to hitch a 品锦 chassis?",
+          "answer": "ACPA training discusses hitch, 安全链 and not moving a charged pipeline. It is not a 品锦 axle drawing. Use the printed mass. Inspect tyres, lights and pins as site practice — unpublished tyre SKUs are not listed as factory options on these 产品页s."
+        },
+        {
+          "question": "Is 电动15 light enough to manhandle on a slab?",
+          "answer": "电动15 lists 450 kg and 1900×900×1200 mm. That is catalogue mass, not a two-person lift rating. The mini / narrow-access article covers door width. Do not invent a factory ‘site-move kit’ that is not on the 产品页."
+        }
+      ]
+    },
+    "pt": {
+      "title": "Trailer Concrete Pump Towing, Chassis and Site Move",
+      "description": "Pinjin prints mass and L×W×H for each trailer row — Electric 15 is 450 kg and 1900×900×1200 mm; Electric 80 is 6000 kg. ACPA covers hitch and corrente de segurança practice. Pinjin does not print a CDL class, axle rating or highway towing certificate. Quote the listed row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump chassis and hopper from Hebei Pinjin Machinery Xingtai showing trailer frame not a highway certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Trailer vs boom concrete pump",
+        "Electric 15 concrete pump",
+        "Contato Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin trailer rows print mass and overall size. Examples: Electric 15 450 kg, 1900×900×1200 mm; Electric 20 900 kg, 2800 × 1300 × 1500 mm; Electric 30 1200 kg, 3300 × 1500 × 1500 mm; Electric 40 2300 kg, 3900 × 1500 × 1600 mm; Electric 80 6000 kg, 6600 × 1800 × 1800 mm. ACPA training material discusses hitch, corrente de segurança and not towing a charged pipeline. Pinjin does not print a CDL class, tyre load index, axle rating or homologação rodoviária. Those are buyer and local-road facts, not Xingtai células de catálogo.",
+        "who": "Buyers who will tow or crane a bomba reboque between pours and need the printed mass and envelope, not an unpublished road-legal package.",
+        "factors": [
+          "Use the printed kg and L×W×H for that model row only",
+          "ACPA: hitch and corrente de segurança; do not tow a pressurised line",
+          "No published CDL, axle or highway certificate on Pinjin pages",
+          "Site skidding vs highway towing are different jobs — send both if you need a quote comment"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump Towing and Chassis | Pinjin Xingtai",
+      "imageCaption": "Electric 40 — 2300 kg, 3900 × 1500 × 1600 mm. Printed envelope, not a CDL spec.",
+      "faqs": [
+        {
+          "question": "Can I tow Electric 80 on a public road with a pickup?",
+          "answer": "Electric 80 lists 6000 kg and 6600 × 1800 × 1800 mm. Pinjin does not print a hitch class, CDL or highway towing certificate. Whether a pickup is legal is a local-road and vehicle-rating question, not a factory cell. Send the tractor or crane you actually have with the model slug."
+        },
+        {
+          "question": "Does ACPA tell me how to hitch a Pinjin chassis?",
+          "answer": "ACPA training discusses hitch, corrente de segurança and not moving a charged pipeline. It is not a Pinjin axle drawing. Use the printed mass. Inspect tyres, lights and pins as site practice — unpublished tyre SKUs are not listed as factory options on these página do produtos."
+        },
+        {
+          "question": "Is Electric 15 light enough to manhandle on a slab?",
+          "answer": "Electric 15 lists 450 kg and 1900×900×1200 mm. That is catalogue mass, not a two-person lift rating. The mini / narrow-access article covers door width. Do not invent a factory ‘site-move kit’ that is not on the página do produto."
+        }
+      ]
+    },
+    "ar": {
+      "title": "Trailer Concrete Pump Towing, Chassis and Site Move",
+      "description": "Pinjin prints mass and L×W×H for each trailer row — Electric 15 is 450 kg and 1900×900×1200 mm; Electric 80 is 6000 kg. ACPA covers hitch and سلسلة أمان practice. Pinjin does not print a CDL class, axle rating or highway towing certificate. Quote the listed row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump chassis and hopper from Hebei Pinjin Machinery شينغتاي showing trailer frame not a highway certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Trailer vs boom concrete pump",
+        "Electric 15 concrete pump",
+        "اتصل Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin trailer rows print mass and overall size. Examples: Electric 15 450 kg, 1900×900×1200 mm; Electric 20 900 kg, 2800 × 1300 × 1500 mm; Electric 30 1200 kg, 3300 × 1500 × 1500 mm; Electric 40 2300 kg, 3900 × 1500 × 1600 mm; Electric 80 6000 kg, 6600 × 1800 × 1800 mm. ACPA training material discusses hitch, سلسلة أمان and not towing a charged pipeline. Pinjin does not print a CDL class, tyre load index, axle rating or اعتماد الطريق. Those are buyer and local-road facts, not شينغتاي خلايا الكتالوج.",
+        "who": "Buyers who will tow or crane a مضخة مقطورة between pours and need the printed mass and envelope, not an unpublished road-legal package.",
+        "factors": [
+          "Use the printed kg and L×W×H for that model row only",
+          "ACPA: hitch and سلسلة أمان; do not tow a pressurised line",
+          "No published CDL, axle or highway certificate on Pinjin pages",
+          "Site skidding vs highway towing are different jobs — send both if you need a quote comment"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump Towing and Chassis | Pinjin شينغتاي",
+      "imageCaption": "Electric 40 — 2300 kg, 3900 × 1500 × 1600 mm. Printed envelope, not a CDL spec.",
+      "faqs": [
+        {
+          "question": "Can I tow Electric 80 on a public road with a pickup?",
+          "answer": "Electric 80 lists 6000 kg and 6600 × 1800 × 1800 mm. Pinjin does not print a hitch class, CDL or highway towing certificate. Whether a pickup is legal is a local-road and vehicle-rating question, not a factory cell. Send the tractor or crane you actually have with the model slug."
+        },
+        {
+          "question": "Does ACPA tell me how to hitch a Pinjin chassis?",
+          "answer": "ACPA training discusses hitch, سلسلة أمان and not moving a charged pipeline. It is not a Pinjin axle drawing. Use the printed mass. Inspect tyres, lights and pins as site practice — unpublished tyre SKUs are not listed as factory options on these صفحة المنتجs."
+        },
+        {
+          "question": "Is Electric 15 light enough to manhandle on a slab?",
+          "answer": "Electric 15 lists 450 kg and 1900×900×1200 mm. That is catalogue mass, not a two-person lift rating. The mini / narrow-access article covers door width. Do not invent a factory ‘site-move kit’ that is not on the صفحة المنتج."
+        }
+      ]
+    },
+    "ru": {
+      "title": "Trailer Concrete Pump Towing, Chassis and Site Move",
+      "description": "Pinjin prints mass and L×W×H for each trailer row — Electric 15 is 450 kg and 1900×900×1200 mm; Electric 80 is 6000 kg. ACPA covers hitch and страховочная цепь practice. Pinjin does not print a CDL class, axle rating or highway towing certificate. Quote the listed row, then inquire.",
+      "imageAlt": "Electric 40 trailer concrete pump chassis and hopper from Hebei Pinjin Machinery Синтай showing trailer frame not a highway certificate",
+      "relatedPathLabels": [
+        "Electric concrete pump manufacturer China",
+        "Trailer vs boom concrete pump",
+        "Electric 15 concrete pump",
+        "Контакт Hebei Pinjin Machinery"
+      ],
+      "answerBlock": {
+        "what": "Pinjin trailer rows print mass and overall size. Examples: Electric 15 450 kg, 1900×900×1200 mm; Electric 20 900 kg, 2800 × 1300 × 1500 mm; Electric 30 1200 kg, 3300 × 1500 × 1500 mm; Electric 40 2300 kg, 3900 × 1500 × 1600 mm; Electric 80 6000 kg, 6600 × 1800 × 1800 mm. ACPA training material discusses hitch, страховочная цепь and not towing a charged pipeline. Pinjin does not print a CDL class, tyre load index, axle rating or дорожная омологация. Those are buyer and local-road facts, not Синтай ячейки каталога.",
+        "who": "Buyers who will tow or crane a прицепной насос between pours and need the printed mass and envelope, not an unpublished road-legal package.",
+        "factors": [
+          "Use the printed kg and L×W×H for that model row only",
+          "ACPA: hitch and страховочная цепь; do not tow a pressurised line",
+          "No published CDL, axle or highway certificate on Pinjin pages",
+          "Site skidding vs highway towing are different jobs — send both if you need a quote comment"
+        ]
+      },
+      "seoTitle": "Trailer Concrete Pump Towing and Chassis | Pinjin Синтай",
+      "imageCaption": "Electric 40 — 2300 kg, 3900 × 1500 × 1600 mm. Printed envelope, not a CDL spec.",
+      "faqs": [
+        {
+          "question": "Can I tow Electric 80 on a public road with a pickup?",
+          "answer": "Electric 80 lists 6000 kg and 6600 × 1800 × 1800 mm. Pinjin does not print a hitch class, CDL or highway towing certificate. Whether a pickup is legal is a local-road and vehicle-rating question, not a factory cell. Send the tractor or crane you actually have with the model slug."
+        },
+        {
+          "question": "Does ACPA tell me how to hitch a Pinjin chassis?",
+          "answer": "ACPA training discusses hitch, страховочная цепь and not moving a charged pipeline. It is not a Pinjin axle drawing. Use the printed mass. Inspect tyres, lights and pins as site practice — unpublished tyre SKUs are not listed as factory options on these страница изделияs."
+        },
+        {
+          "question": "Is Electric 15 light enough to manhandle on a slab?",
+          "answer": "Electric 15 lists 450 kg and 1900×900×1200 mm. That is catalogue mass, not a two-person lift rating. The mini / narrow-access article covers door width. Do not invent a factory ‘site-move kit’ that is not on the страница изделия."
+        }
+      ]
+    }
+  }
+}

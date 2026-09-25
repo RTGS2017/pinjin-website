@@ -28,6 +28,8 @@ export interface SEOProps {
    * so zh is not advertised in hreflang.
    */
   hreflangLangs?: readonly Lang[];
+  /** Override the canonical language (blog posts always canonicalise to EN). */
+  canonicalLang?: Lang;
 }
 
 function ogImageType(path: string) {
@@ -51,6 +53,7 @@ export function SEO({
   keywords,
   jsonLd,
   hreflangLangs,
+  canonicalLang,
 }: SEOProps) {
   const { lang } = useI18n();
   const pageTitle = title?.trim() || seoConfig.defaultTitle;
@@ -60,8 +63,7 @@ export function SEO({
   );
   const indexable =
     !noindex && isIndexedLang(lang) && alternateLangs.includes(lang);
-  const localizedPath = localePath(path, lang);
-  const canonical = absoluteUrl(localizedPath);
+  const canonical = absoluteUrl(localePath(path, canonicalLang ?? lang));
   const ogImage = absoluteUrl(image);
   const langMeta = getLanguage(lang);
 
@@ -313,6 +315,39 @@ export function buildMediaImageJsonLd(input: {
   };
 }
 
+/** 产品详情 Offer。有真价才写 price / priceCurrency，绝不编 0 或询价文案当价格。 */
+export function buildProductOfferJsonLd(input: {
+  /** 已带语言前缀的 path，或完整 canonical URL */
+  path: string;
+  availability?: string;
+  priceNote?: string;
+  price?: string | number;
+  priceCurrency?: string;
+}) {
+  const price =
+    input.price !== undefined &&
+    input.price !== null &&
+    String(input.price).trim() !== ''
+      ? String(input.price).trim()
+      : undefined;
+  const priceCurrency = input.priceCurrency?.trim() || undefined;
+  const hasRealPrice = Boolean(price && priceCurrency && price !== '0');
+
+  return {
+    '@type': 'Offer',
+    url: absoluteUrl(input.path),
+    availability: input.availability ?? 'https://schema.org/InStock',
+    itemCondition: 'https://schema.org/NewCondition',
+    seller: {
+      '@type': 'Organization',
+      name: seoConfig.organization.name,
+      url: seoConfig.siteUrl,
+    },
+    description: input.priceNote,
+    ...(hasRealPrice ? { price, priceCurrency } : {}),
+  };
+}
+
 /** 仅用于真正的单个产品详情页。不要给分类/集合使用。 */
 export function buildProductJsonLd(input: {
   name: string;
@@ -332,6 +367,9 @@ export function buildProductJsonLd(input: {
   brand?: string;
   lang?: Lang;
   priceNote?: string;
+  /** 仅传入产品数据里已有的对外标价，不要编造 */
+  price?: string | number;
+  priceCurrency?: string;
   specifications?: Array<{ name: string; value: string }>;
 }) {
   const lang = input.lang ?? defaultLang;
@@ -386,13 +424,12 @@ export function buildProductJsonLd(input: {
       name: spec.name,
       value: spec.value,
     })),
-    offers: {
-      '@type': 'Offer',
-      url: absoluteUrl(input.path),
-      availability: 'https://schema.org/InStock',
-      itemCondition: 'https://schema.org/NewCondition',
-      description: input.priceNote,
-    },
+    offers: buildProductOfferJsonLd({
+      path: input.path,
+      priceNote: input.priceNote,
+      price: input.price,
+      priceCurrency: input.priceCurrency,
+    }),
   };
 }
 
