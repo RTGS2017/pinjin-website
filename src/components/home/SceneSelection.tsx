@@ -1,4 +1,4 @@
-import { useState, type PointerEvent } from 'react';
+import { useState } from 'react';
 import { LocaleLink } from '@/i18n/navigation';
 import { selectionGuideItems } from '@/data/selectionGuide';
 import { getProductBySlug } from '@/data/products';
@@ -12,10 +12,6 @@ export function SceneSelection() {
   const { t, tx } = useI18n();
   const [active, setActive] = useState(0);
   const current = ITEMS[active] ?? ITEMS[0];
-
-  function hoverQuestion(event: PointerEvent<HTMLButtonElement>, index: number) {
-    if (event.pointerType === 'mouse') setActive(index);
-  }
 
   return (
     <SceneFrame sceneKey="selection" tone="soft">
@@ -42,7 +38,7 @@ export function SceneSelection() {
                     : 'border-border bg-transparent text-text-secondary hover:border-dark/40',
                 ].join(' ')}
                 aria-current={index === active ? 'true' : undefined}
-                onPointerEnter={(event) => hoverQuestion(event, index)}
+                onMouseEnter={() => setActive(index)}
                 onFocus={() => setActive(index)}
                 onClick={() => setActive(index)}
               >

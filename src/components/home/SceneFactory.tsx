@@ -1,4 +1,4 @@
-import type { CSSProperties, PointerEvent } from 'react';
+import type { CSSProperties } from 'react';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { LocaleLink } from '@/i18n/navigation';
 import { factorySlides, getFactorySlide } from '@/data/factory';
@@ -16,10 +16,6 @@ export function SceneFactory() {
     })
     .filter((step): step is NonNullable<typeof step> => Boolean(step));
   const { index: active, setIndex, pauseProps } = useHoverAutoplay(steps.length);
-
-  function hoverStep(event: PointerEvent<HTMLButtonElement>, index: number) {
-    if (event.pointerType === 'mouse') setIndex(index);
-  }
 
   return (
     <SceneFrame sceneKey="factory" tone="soft">
@@ -71,7 +67,7 @@ export function SceneFactory() {
                 className="home-factory-step home-process-step w-full border-t border-border pt-4 text-left"
                 style={{ '--i': index } as CSSProperties}
                 aria-current={index === active ? 'true' : undefined}
-                onPointerEnter={(event) => hoverStep(event, index)}
+                onMouseEnter={() => setIndex(index)}
                 onFocus={() => setIndex(index)}
                 onClick={() => setIndex(index)}
               >
