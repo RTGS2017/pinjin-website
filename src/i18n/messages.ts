@@ -58,12 +58,12 @@ export const messages = {
     },
     hero: {
       intro:
-        'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a source manufacturer in Renze Industrial Park, Xingtai, Hebei, focused on R&D, production and sales of construction machinery such as concrete pumps.',
+        'Hebei Pinjin Machinery is a source manufacturer in Xingtai, Hebei, making concrete pumps and related construction machinery.',
       title: 'China Professional Concrete Machinery Manufacturer',
       subtitle:
         'Electric concrete pumps, diesel concrete pumps, mixer pumps, spraying machines, pipeline spare parts and OEM customization from Xingtai.',
       directAnswer:
-        'Hebei Pinjin Machinery manufactures electric and diesel trailer concrete pumps, mixer pumps and spraying machines in Xingtai, Hebei, China. Match mix or spray material, particle or aggregate size, distance and site power to the published catalogue. Trailer pumps are not boom pumps or batching plants. Spraying machines are listed separately. Spare parts are quoted after size confirmation, with no list price and no overseas warehouse claimed.',
+        'We build electric and diesel trailer pumps, mixer pumps and spraying machines in Xingtai. Match mix, aggregate, distance and power to the catalogue. Trailer pumps are not boom pumps or plants; spraying machines are listed separately. Parts are quoted after size confirmation — no list price, no overseas warehouse.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
     },
@@ -618,11 +618,11 @@ export const messages = {
     },
     hero: {
       intro:
-        '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，是混凝土泵等工程机械的源头制造商，从事研发、生产与销售。',
+        '河北品锦机械是河北邢台的源头制造商，生产混凝土泵及相关工程机械。',
       title: '中国专业混凝土机械制造商',
       subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵、喷涂机、管路配件，以及来自邢台的 OEM 定制。',
       directAnswer:
-        '河北品锦机械在中国河北邢台制造电动、柴油拖式混凝土泵、搅拌泵与喷涂机。请按已公布目录对照配合比或喷涂材料、粒径/骨料、管路距离与现场动力。拖式泵不是车载臂架泵或搅拌站。喷涂机另列分类。配件确认尺寸后报价，无公开标价，也不声称拥有海外仓。',
+        '我们在邢台制造电动、柴油拖式泵、搅拌泵与喷涂机。请按目录对照配合比、骨料、距离与动力。拖式泵不是臂架泵或搅拌站；喷涂机另列。配件确认尺寸后报价——无标价、不声称海外仓。',
       explore: '浏览产品',
       quote: '联系工程师',
     },

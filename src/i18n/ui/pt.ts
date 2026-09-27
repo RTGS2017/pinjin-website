@@ -49,12 +49,12 @@ export const messagesPt = {
   },
   hero: {
     intro:
-      'A Hebei Pinjin Machinery Manufacturing Co., Ltd. é fabricante de origem no Parque Industrial Renze, Xingtai, Hebei, com foco em P&D, produção e venda de máquinas de construção, como bombas de concreto.',
+      'A Hebei Pinjin Machinery é fabricante de origem em Xingtai, Hebei, e produz bombas de concreto e máquinas de construção relacionadas.',
     title: 'Fabricante profissional de máquinas de concreto na China',
     subtitle:
       'Bombas de concreto elétricas, a diesel, misturadoras, máquinas de projeção e customização OEM a partir de Xingtai.',
     directAnswer:
-      'A Hebei Pinjin Machinery fabrica bombas de concreto reboque elétricas e a diesel, bombas misturadoras e máquinas de projeção em Xingtai, Hebei, China. Compare mistura ou material de spray, agregado ou partícula, distância e energia com o catálogo publicado. As bombas reboque não são bombas com lança nem usinas de concreto. As máquinas de projeção estão numa categoria própria. Peças são cotadas após confirmar medidas, sem preço de lista e sem armazém no exterior.',
+      'Fabricamos bombas reboque elétricas e a diesel, bombas misturadoras e máquinas de projeção em Xingtai. Compare mistura, agregado, distância e energia com o catálogo. As bombas reboque não são bombas com lança nem usinas; as máquinas de projeção estão numa categoria própria. Peças cotadas após confirmar medidas — sem preço de lista, sem armazém no exterior.',
     explore: 'Ver produtos',
     quote: 'Falar com engenheiro',
   },
