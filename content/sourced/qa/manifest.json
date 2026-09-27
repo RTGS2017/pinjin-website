@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25",
-  "note": "One hundred sourced QAs (qa-01…qa-100). Blog items with inArticleFaqs live on each article source.json. Extra items inject on EN product, category and /faq pages only. Numbers from Pinjin catalogue or named public sources. Listing marketing copy is not reused.",
+  "generated": "2026-09-27",
+  "note": "Sourced QAs qa-01…qa-150. Blog items with inArticleFaqs live on each article source.json. Extra items inject on EN product, category and /faq pages only. Numbers from Pinjin catalogue or named public sources. Listing marketing copy is not reused.",
   "items": [
     {
       "id": "qa-01",
@@ -1446,6 +1446,736 @@
         "name": "Pinjin Electric 40 product page",
         "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
         "type": "pinjin"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      }
+    },
+    {
+      "id": "qa-101",
+      "question": "Is Electric 10 the same 21 m³/h machine as Electric 40?",
+      "answer": "No. Both print 21 m³/h theoretical output. Electric 10 lists 15 kW, hopper 0.1 m³, 25 m horizontal and 400 kg. Electric 40 lists 45 kW, hopper 0.4 m³, fine-stone 120 m / 360 m and 2300 kg. Match the full printed row.",
+      "source": {
+        "name": "Pinjin Electric 10 Series product page",
+        "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-10-series-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-102",
+      "question": "Does the Alibaba mini-pump 10–30 m³/h band replace this table?",
+      "answer": "No. SmartBuy (20 November 2025) cites mini pumps at 10–30 m³/h as a marketplace type. Electric 10’s printed cells are 15 kW, 21 m³/h theoretical, 25 m horizontal and 400 kg. Use the Xingtai page.",
+      "source": {
+        "name": "Pinjin Electric 10 Series product page",
+        "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-10-series-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-103",
+      "question": "Does Electric 40’s 21 m³/h include the mixer-pump 14 kW motor?",
+      "answer": "No. Electric 40 lists one 45 kW motor. The integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 100 m / 300 m and 4500 kg. Two product pages, two tables.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-40-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-104",
+      "question": "Is 21 m³/h inside the Alibaba trailer 30–90 m³/h band?",
+      "answer": "SmartBuy lists trailer-mounted pumps as typically 30–90 m³/h. Electric 40 prints 21 m³/h. The marketplace band does not rewrite the Xingtai cell.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-40-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-105",
+      "question": "Does Electric 50 share Electric 40’s 0.4 m³ hopper so they place the same m³/h?",
+      "answer": "No. Both list hopper 0.4 m³. Electric 50 lists 26 m³/h; Electric 40 lists 21 m³/h. Hopper litres are a grate buffer, not pumping output.",
+      "source": {
+        "name": "Pinjin Electric 50 product page",
+        "url": "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-50-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-106",
+      "question": "Is Diesel 40 the diesel copy of Electric 50’s 26 m³/h?",
+      "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm aggregate). Electric 50 lists 55 kW, 30 MPa, fine stone 150 m / 350 m. Same 26 m³/h cell, different power and distance rows. Open the matching page.",
+      "source": {
+        "name": "Pinjin Electric 50 product page",
+        "url": "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-50-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-107",
+      "question": "Is Electric 60’s 3300 kg the same frame as Electric 80?",
+      "answer": "No. Electric 60 lists 3300 kg, 90 kW, 40 m³/h, 6600 × 1800 × 1800 mm. Electric 80 lists 6000 kg, 110 kW, 60 m³/h. Hopper 0.7 m³ appears on both pages.",
+      "source": {
+        "name": "Pinjin Electric 60 product page",
+        "url": "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-60-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-108",
+      "question": "Is Electric 60’s 90 kW the Electric 80 motor?",
+      "answer": "No. Electric 80 lists 110 kW, 60 m³/h, 40 MPa, model HBT80-1816-110, 6000 kg. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 3300 kg.",
+      "source": {
+        "name": "Pinjin Electric 60 product page",
+        "url": "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-60-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-109",
+      "question": "Is Diesel 30 the diesel version of Electric 30?",
+      "answer": "No. Diesel 30 lists 4105 / 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm aggregate). Open the Electric 30 page for its own motor and output cells. Do not copy one table onto the other.",
+      "source": {
+        "name": "Pinjin Diesel 30 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-30-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-110",
+      "question": "Does SmartBuy’s 30–90 m³/h trailer band cover Diesel 30?",
+      "answer": "The buying guide cites trailer-mounted pumps as typically 30–90 m³/h. Diesel 30 prints 15 m³/h. Use the Xingtai row, not the marketplace average.",
+      "source": {
+        "name": "Pinjin Diesel 30 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-30-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-111",
+      "question": "Does Diesel 40 print 1 cm aggregate on the 120 m / 360 m pair?",
+      "answer": "Yes. Diesel 40 lists 120 m / 360 m (1 cm aggregate), 4108 / 66 kW, 26 m³/h, 25 MPa, hopper 0.4 m³, Kawasaki 112, 2800 kg. Electric 40’s 120 m / 360 m pair is the fine-stone row at 21 m³/h / 45 kW.",
+      "source": {
+        "name": "Pinjin Diesel 40 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-40-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-112",
+      "question": "Does Diesel 40 replace Diesel 50 on a no-grid site?",
+      "answer": "No. Diesel 50 lists 6105 / 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m, Kawasaki 140, 3300 kg. Match the printed row.",
+      "source": {
+        "name": "Pinjin Diesel 40 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-40-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-113",
+      "question": "Is Diesel 60 the same machine as LZ-60 because both print HBT60-13.132?",
+      "answer": "No. Diesel 60 lists 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, 3500 kg. LZ-60 lists 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Match the page you opened.",
+      "source": {
+        "name": "Pinjin Diesel 60 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-60-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-114",
+      "question": "Does Diesel 60’s 35 m³/h sit inside SmartBuy’s 30–90 m³/h trailer band?",
+      "answer": "35 m³/h is inside that marketplace band. The buying guide still does not rewrite pressure, distance or weight. Use the Xingtai table.",
+      "source": {
+        "name": "Pinjin Diesel 60 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-60-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-115",
+      "question": "Is 100 m³/h the SmartBuy mid-size commercial 60–90 m³/h recommendation?",
+      "answer": "No. SmartBuy cites 60–90 m³/h as a mid-sized commercial trailer example. Diesel 120 prints 100 m³/h, 290 kW and 8000 kg. The guide average is not this row.",
+      "source": {
+        "name": "Pinjin Diesel 120 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-120-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-116",
+      "question": "Does Diesel 120 list a placing boom because 500 m vertical is printed?",
+      "answer": "No. ACI PRC-304.2-17 separates trailer pumps from truck-mounted pumps. Diesel 120 is a trailer table: 150 m / 500 m pipeline distance, not a boom reach SKU.",
+      "source": {
+        "name": "Pinjin Diesel 120 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-120-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-117",
+      "question": "Can I treat LZ-80 low pressure ≤ 95 m³/h as Diesel 120’s 100 m³/h?",
+      "answer": "No. LZ-80 prints two caps: high pressure ≤ 65 m³/h and low pressure ≤ 95 m³/h at ≤ 35 / 22 MPa. Diesel 120 prints 100 m³/h at 40 MPa with twin 145 kW engines. Separate pages.",
+      "source": {
+        "name": "Pinjin LZ-80 product page",
+        "url": "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "lz-80-diesel-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-118",
+      "question": "What vertical height does LZ-80 publish?",
+      "answer": "The public table says consult factory standard. This article does not fill that cell. Horizontal conveying on the same page is 120 m.",
+      "source": {
+        "name": "Pinjin LZ-80 product page",
+        "url": "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "lz-80-diesel-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-119",
+      "question": "Is HBT80-16 the same SKU as Electric 80 because both print HBT80-1816-110?",
+      "answer": "No. HBT80-16 lists 50 m³/h, 120 m / 360 m, 6500 kg, aggregate 4 cm. Electric 80 lists 60 m³/h, 900 m / 300 m (2 cm aggregate), hopper 0.7 m³, 6000 kg. Open the page whose table matches the inquiry.",
+      "source": {
+        "name": "Pinjin HBT8018 product page",
+        "url": "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "hbt8018-vs-hbt80-16-concrete-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-120",
+      "question": "Does HBT8018’s 150 m conveying equal Electric 80’s 900 m horizontal?",
+      "answer": "No. HBT8018 prints 150 m conveying and 450 m delivery height. Electric 80 prints 900 m / 300 m at 2 cm aggregate. Marketplace HBT model names (for example SmartBuy’s Zoomlion HBT60.16.110RS row) are other brands, not Xingtai cells.",
+      "source": {
+        "name": "Pinjin HBT8018 product page",
+        "url": "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "hbt8018-vs-hbt80-16-concrete-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-121",
+      "question": "Does the B500S-83D sheet print hopper litres like Electric 10’s 0.1 m³?",
+      "answer": "No. B500S-83D lists 7.5 kW, 380 V, 5 m / 5 m, 280 kg and 5–16 mm materials. Hopper litres are not on that sheet. Electric 10 lists hopper 0.1 m³.",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "b500s-83d-two-stage-structure-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-122",
+      "question": "Is the short boom a truck-mounted placing boom?",
+      "answer": "No. ACI PRC-304.2-17 separates trailer pumps from truck-mounted pumps. The B500S-83D boom is listed on the compact unit. Pinjin does not sell a boom-pump SKU.",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "b500s-83d-two-stage-structure-pump"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-123",
+      "question": "Can I order one split piston as a sample parcel?",
+      "answer": "No. Both pages say not sold in small batches; quote by size and quantity. Split pistons are listed as sets.",
+      "source": {
+        "name": "Pinjin Split Piston product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-split-vs-integral-piston"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-124",
+      "question": "Does Pinjin print a rubber-cloth integral piston row?",
+      "answer": "No. Rubber, rubber-cloth and polyurethane are named on the split-piston set table. Integral pistons are listed as one-piece, sold per piece, without those three material rows.",
+      "source": {
+        "name": "Pinjin Split Piston product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-split-vs-integral-piston"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-125",
+      "question": "Does Electric 40’s specification table list an S-tube OD?",
+      "answer": "No. Electric 40 lists motor, output, pressure, hopper, distance, Kawasaki 112 and weight. S-tube ODs live on the S-tube seal page: large end φ210 / φ220 / φ250; small end φ80–φ105.",
+      "source": {
+        "name": "Pinjin S-Tube Seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-s-tube-seal-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-126",
+      "question": "Are S-tube seals sold per piece like integral pistons?",
+      "answer": "No. S-tube seals are listed as sets (large end and small end). Integral pistons are sold per piece. Confirm the kit on the S-tube.",
+      "source": {
+        "name": "Pinjin S-Tube Seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-s-tube-seal-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-127",
+      "question": "Is φ80 swing-cylinder the same kit as the φ80 main-cylinder seal?",
+      "answer": "No. Swing-cylinder kits list φ60 / φ70 / φ80 / φ90. Main-cylinder kits list φ63, φ80, 80×125, 90×140, 90–160, 95×140, 100×150 and 461K. Match the cylinder on the pump.",
+      "source": {
+        "name": "Pinjin Swing Cylinder Seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-swing-cylinder-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-swing-cylinder-seal-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-128",
+      "question": "Does ACPA or SmartBuy set a Pinjin hour for this kit?",
+      "answer": "No. SmartBuy lists monthly seal replacement as a generic maintenance bullet. Pinjin does not print swing-cylinder hours. Photograph the leak; send OD and pump model.",
+      "source": {
+        "name": "Pinjin Swing Cylinder Seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-swing-cylinder-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-swing-cylinder-seal-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-129",
+      "question": "Must the electric mixer pump have two separate 380 V feeds for 45 kW and 14 kW?",
+      "answer": "The table lists two motors: 45 kW main and 14 kW mixer. It does not print feeder size, genset kVA or a single combined nameplate. Send site power with the inquiry.",
+      "source": {
+        "name": "Pinjin Integrated Mixer Pump product page",
+        "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "mixer-pump-jobsite-organization"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-130",
+      "question": "Does the diesel mixer row list a 14 kW mixer motor like the electric row?",
+      "answer": "No. Diesel mixer integrated lists one 4108 diesel at 66–75 kW and 25 m³/h. The 14 kW mixer motor is on the electric mixer-pump page only.",
+      "source": {
+        "name": "Pinjin Integrated Mixer Pump product page",
+        "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "mixer-pump-jobsite-organization"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-131",
+      "question": "Does Electric 10 list a vertical metre like Electric 15’s 15–20 m?",
+      "answer": "No. Electric 10 prints 25 m horizontal, 15 kW, hopper 0.1 m³ and 400 kg. Electric 15 prints 8–10 m³/h and 15–20 m vertical on its own page. Do not copy vertical metres across models.",
+      "source": {
+        "name": "Pinjin Electric 10 Series product page",
+        "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-10-series-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-132",
+      "question": "Is Electric 40’s Kawasaki 112 the same hydraulic pump as Electric 50?",
+      "answer": "No. Electric 40 lists Kawasaki 112. Electric 50 lists Kawasaki 140. Both list hopper 0.4 m³. Hydraulic-pump nameplates stay on their own pages.",
+      "source": {
+        "name": "Pinjin Electric 40 product page",
+        "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-40-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-133",
+      "question": "Does Electric 50 print 24 mm stone distance?",
+      "answer": "Yes. Electric 50 lists 24 mm stone 60 m / 180 m, 13 mm stone 80 m / 240 m and fine stone 150 m / 350 m. Match stone size to the printed pair.",
+      "source": {
+        "name": "Pinjin Electric 50 product page",
+        "url": "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-50-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-134",
+      "question": "Is Electric 60’s hopper 0.7 m³ proof it places Electric 80’s 60 m³/h?",
+      "answer": "No. Both list hopper 0.7 m³. Electric 60 lists 40 m³/h and 90 kW. Electric 80 lists 60 m³/h and 110 kW. Hopper litres are not output.",
+      "source": {
+        "name": "Pinjin Electric 60 product page",
+        "url": "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "electric-60-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-135",
+      "question": "What aggregate size does Diesel 30 print?",
+      "answer": "Diesel 30 lists aggregate 3 cm and below, plus 60 m / 180 m at 1 cm aggregate. Unpublished stone is not promised.",
+      "source": {
+        "name": "Pinjin Diesel 30 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "diesel-30-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-136",
+      "question": "Does Diesel 40 list a hydraulic-pump nameplate?",
+      "answer": "Yes. Diesel 40 lists Kawasaki 112, 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm aggregate), 2800 kg.",
+      "source": {
+        "name": "Pinjin Diesel 40 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "diesel-40-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-137",
+      "question": "Can I quote Diesel 60’s 35 m³/h when the inquiry says LZ-60?",
+      "answer": "No. LZ-60 lists 50 m³/h, 145 kW, 35 MPa, 100 m / 300 m, 5500 kg. Diesel 60 lists 35 m³/h, 144 kW, 30 MPa, 150 m / 350 m, 3500 kg. Both print HBT60-13.132. Open the named page.",
+      "source": {
+        "name": "Pinjin Diesel 60 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "diesel-60-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-138",
+      "question": "Does Diesel 120 list one diesel engine or two?",
+      "answer": "Two. The table prints 290 kW (two units 145 kW) and Kawasaki 112 (two units), 100 m³/h, 40 MPa, 150 m / 500 m, 8000 kg.",
+      "source": {
+        "name": "Pinjin Diesel 120 product page",
+        "url": "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "diesel-120-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-139",
+      "question": "Does LZ-80 print 6 cm aggregate like Diesel 120?",
+      "answer": "Yes. LZ-80 lists 6 cm and below. LZ-60 lists 4 cm and below. Match the page.",
+      "source": {
+        "name": "Pinjin LZ-80 product page",
+        "url": "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "lz-80-diesel-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-140",
+      "question": "Does HBT8018 list hopper litres like Electric 80?",
+      "answer": "The HBT8018 public table lists 132 kW, 60 m³/h, 40 MPa, 150 m / 450 m, pipe 100 / 125 mm, 6500 kg. Hopper litres are printed on Electric 80 (0.7 m³), not copied onto this page.",
+      "source": {
+        "name": "Pinjin HBT8018 product page",
+        "url": "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "hbt8018-concrete-pump"
+      }
+    },
+    {
+      "id": "qa-141",
+      "question": "Does B500S-83D list 380 V?",
+      "answer": "Yes. Rated voltage 380 V, motor 7.5 kW, 5 m / 5 m, 280 kg, sand and small stone 5–16 mm. No m³/h cell.",
+      "source": {
+        "name": "Pinjin B500S-83D product page",
+        "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "b500s-83d-two-stage-pump"
+      }
+    },
+    {
+      "id": "qa-142",
+      "question": "Which split-piston materials does the catalogue name?",
+      "answer": "Rubber, rubber-cloth and polyurethane. Outer diameters φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280, sold as sets. Confirm OD on the pump.",
+      "source": {
+        "name": "Pinjin Split Piston product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-split-piston"
+      }
+    },
+    {
+      "id": "qa-143",
+      "question": "Does the integral piston table include φ280?",
+      "answer": "No. Integral pistons list φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230 and φ250, per piece. φ260 and φ280 appear on the split-piston set table.",
+      "source": {
+        "name": "Pinjin Integral Piston product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-integral-piston/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-integral-piston"
+      }
+    },
+    {
+      "id": "qa-144",
+      "question": "Is a φ220 S-tube large-end kit always a six-piece set?",
+      "answer": "The page says some large-end kits are listed as six-piece sets, including φ220 wording. Confirm the kit on the S-tube. Quote only.",
+      "source": {
+        "name": "Pinjin S-Tube Seal product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "concrete-pump-s-tube-seal"
+      }
+    },
+    {
+      "id": "qa-145",
+      "question": "Does the diesel mixer pump list 24 mm stone distance?",
+      "answer": "Yes. Diesel mixer integrated lists 24 mm stone 40 / 120 m, 13 mm stone 60 / 180 m and stone 100 / 300 m (≤ 1 inch), 25 m³/h, 4108 / 66–75 kW.",
+      "source": {
+        "name": "Pinjin Diesel Mixer Integrated product page",
+        "url": "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "product",
+        "slug": "diesel-mixer-integrated-pump"
+      }
+    },
+    {
+      "id": "qa-146",
+      "question": "Does the electric hub include HBT8018 and HBT80-16?",
+      "answer": "Yes. The electric trailer hub lists HBT80-16 and HBT8018 next to Electric 10 through Electric 80 and B500S-83D. Each model keeps its own table.",
+      "source": {
+        "name": "Pinjin electric concrete pumps hub",
+        "url": "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "electric-concrete-pumps"
+      }
+    },
+    {
+      "id": "qa-147",
+      "question": "Is LZ-80 on the diesel hub or the electric hub?",
+      "answer": "Diesel hub. LZ-60, LZ-80 and Diesel 120 sit with Diesel 30–60, tractor 4100 and rural diesel. Electric HBT rows stay on the electric hub.",
+      "source": {
+        "name": "Pinjin diesel concrete pumps hub",
+        "url": "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "diesel-concrete-pumps"
+      }
+    },
+    {
+      "id": "qa-148",
+      "question": "How many mixer-pump SKUs does the mixer hub list?",
+      "answer": "Two published rows: integrated mixer pump (electric 45 kW + 14 kW, 21 m³/h) and diesel mixer integrated (4108 / 66–75 kW, 25 m³/h). Not a batching plant.",
+      "source": {
+        "name": "Pinjin mixer pumps hub",
+        "url": "https://pinjinpump.com/en/products/mixer-pumps/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "mixer-pumps"
+      }
+    },
+    {
+      "id": "qa-149",
+      "question": "Does the parts hub sell pistons and S-tube seals in small batches?",
+      "answer": "No. Pipeline parts and S-valve wear parts are quote only, not sold in small batches, no published list price. Confirm OD or kit on the pump.",
+      "source": {
+        "name": "Pinjin concrete pump parts hub",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-parts/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "category",
+        "slug": "concrete-pump-parts"
+      }
+    },
+    {
+      "id": "qa-150",
+      "question": "SmartBuy says trailer pumps typically 30–90 m³/h — which Pinjin row is that?",
+      "answer": "None automatically. SmartBuy (20 November 2025) uses 30–90 m³/h as a marketplace trailer band and 30–60 m³/h for a single-family FAQ. Pinjin prints model cells from Electric 10 at 21 m³/h theoretical through Diesel 120 at 100 m³/h. Match a named product page.",
+      "source": {
+        "name": "Alibaba SmartBuy concrete pump buying guide 2024",
+        "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
+        "type": "marketplace"
       },
       "mount": {
         "kind": "site-faq",
