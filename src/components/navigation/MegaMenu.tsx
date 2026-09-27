@@ -416,7 +416,7 @@ export function MobileMegaLinks({
   onNavigate: () => void;
 }) {
   const { t, tx } = useI18n();
-  const linkClass = 'block px-3 py-2 text-sm text-white/80 hover:text-primary';
+  const linkClass = 'site-header-drawer-sublink';
 
   if (navKey === 'products') {
     return (

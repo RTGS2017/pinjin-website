@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type PointerEvent } from 'react';
 import { LocaleLink } from '@/i18n/navigation';
 import { selectionGuideItems } from '@/data/selectionGuide';
 import { getProductBySlug } from '@/data/products';
@@ -12,6 +12,10 @@ export function SceneSelection() {
   const { t, tx } = useI18n();
   const [active, setActive] = useState(0);
   const current = ITEMS[active] ?? ITEMS[0];
+
+  function hoverQuestion(event: PointerEvent<HTMLButtonElement>, index: number) {
+    if (event.pointerType === 'mouse') setActive(index);
+  }
 
   return (
     <SceneFrame sceneKey="selection" tone="soft">
@@ -38,6 +42,8 @@ export function SceneSelection() {
                     : 'border-border bg-transparent text-text-secondary hover:border-dark/40',
                 ].join(' ')}
                 aria-current={index === active ? 'true' : undefined}
+                onPointerEnter={(event) => hoverQuestion(event, index)}
+                onFocus={() => setActive(index)}
                 onClick={() => setActive(index)}
               >
                 <span className="text-[11px] font-semibold tracking-[0.14em] text-primary">
@@ -52,7 +58,10 @@ export function SceneSelection() {
         </ol>
 
         {current ? (
-          <div className="border border-border bg-white p-6 sm:p-8 lg:col-span-7">
+          <div
+            key={current.id}
+            className="home-select-panel border border-border bg-white p-6 sm:p-8 lg:col-span-7"
+          >
             <h3 className="heading-display text-xl sm:text-2xl">{tx(current.question)}</h3>
             <p className="mt-4 text-sm font-medium text-dark sm:text-base">
               {tx(current.recommendation)}

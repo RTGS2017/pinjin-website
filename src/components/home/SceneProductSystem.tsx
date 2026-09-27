@@ -12,6 +12,7 @@ import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { LocaleLink } from '@/i18n/navigation';
 import { useI18n } from '@/i18n/I18nContext';
 import { categoryShowcaseSlugs, homeCopy } from '@/data/homeNarrative';
+import { useHoverAutoplay } from '@/hooks/useHoverAutoplay';
 import { SceneFrame } from './homeScroll';
 
 const order: ProductCategory[] = [
@@ -24,6 +25,7 @@ const order: ProductCategory[] = [
 
 export function SceneProductSystem() {
   const { lang, t, tx } = useI18n();
+  const { index: active, setIndex, desktop, pauseProps } = useHoverAutoplay(order.length);
 
   return (
     <SceneFrame sceneKey="products" tone="light">
@@ -37,7 +39,13 @@ export function SceneProductSystem() {
         {t.categories.subtitle}
       </p>
 
-      <div className="home-product-viewport mt-10">
+      <div
+        className="home-product-viewport mt-10"
+        style={{ '--slide': active } as CSSProperties}
+        aria-roledescription="carousel"
+        aria-label={t.categories.title}
+        {...pauseProps}
+      >
         <div className="home-product-track">
           {order.map((id, index) => {
             const meta = categoryMeta[id];
@@ -53,6 +61,7 @@ export function SceneProductSystem() {
                   .map((spec) => tx(spec.value))
                   .filter(Boolean)
               : [];
+            const hidden = desktop && index !== active;
 
             return (
               <article
@@ -60,6 +69,8 @@ export function SceneProductSystem() {
                 className="home-product-panel"
                 data-i={index}
                 style={{ '--i': index } as CSSProperties}
+                aria-hidden={hidden || undefined}
+                inert={hidden ? true : undefined}
               >
                 <div className="home-product-visual">
                   {featured ? (
@@ -100,6 +111,7 @@ export function SceneProductSystem() {
                     <LocaleLink
                       to={getCategoryPath(id)}
                       className="text-sm font-semibold tracking-wide text-dark hover:text-primary"
+                      tabIndex={hidden ? -1 : undefined}
                     >
                       {tx(homeCopy.explore)} →
                     </LocaleLink>
@@ -109,6 +121,7 @@ export function SceneProductSystem() {
                       <LocaleLink
                         to={`/products/${featured.slug}`}
                         className="text-sm text-text-secondary hover:text-primary"
+                        tabIndex={hidden ? -1 : undefined}
                       >
                         {tx(featured.name)}
                       </LocaleLink>
@@ -118,6 +131,23 @@ export function SceneProductSystem() {
               </article>
             );
           })}
+        </div>
+
+        <div className="home-product-dots" role="tablist" aria-label={t.categories.title}>
+          {order.map((id, index) => (
+            <button
+              key={id}
+              type="button"
+              role="tab"
+              className="home-product-dot"
+              aria-selected={index === active}
+              aria-label={tx(categoryMeta[id].label)}
+              onClick={() => setIndex(index)}
+              onFocus={() => setIndex(index)}
+            >
+              {String(index + 1).padStart(2, '0')}
+            </button>
+          ))}
         </div>
       </div>
     </SceneFrame>

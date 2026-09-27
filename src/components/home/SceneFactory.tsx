@@ -1,9 +1,10 @@
-import type { CSSProperties } from 'react';
+import type { CSSProperties, PointerEvent } from 'react';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { LocaleLink } from '@/i18n/navigation';
 import { factorySlides, getFactorySlide } from '@/data/factory';
 import { factoryNarrativeCopy, homeCopy } from '@/data/homeNarrative';
 import { useI18n } from '@/i18n/I18nContext';
+import { useHoverAutoplay } from '@/hooks/useHoverAutoplay';
 import { SceneFrame } from './homeScroll';
 
 export function SceneFactory() {
@@ -14,6 +15,11 @@ export function SceneFactory() {
       return slide ? { ...step, slide } : null;
     })
     .filter((step): step is NonNullable<typeof step> => Boolean(step));
+  const { index: active, setIndex, pauseProps } = useHoverAutoplay(steps.length);
+
+  function hoverStep(event: PointerEvent<HTMLButtonElement>, index: number) {
+    if (event.pointerType === 'mouse') setIndex(index);
+  }
 
   return (
     <SceneFrame sceneKey="factory" tone="soft">
@@ -27,7 +33,12 @@ export function SceneFactory() {
         {tx(homeCopy.factoryLead)} {t.factoryCapability.body}
       </p>
 
-      <div className="mt-10 grid items-start gap-8 lg:grid-cols-12">
+      <div
+        className="home-factory-board mt-10 grid items-start gap-8 lg:grid-cols-12"
+        style={{ '--step': active } as CSSProperties}
+        data-step={active}
+        {...pauseProps}
+      >
         <div className="home-factory-stage relative overflow-hidden lg:col-span-7">
           {steps.map((step, index) => (
             <div
@@ -52,18 +63,24 @@ export function SceneFactory() {
           ))}
         </div>
 
-        <ol className="space-y-4 lg:col-span-5">
+        <ol className="space-y-2 lg:col-span-5">
           {steps.map((step, index) => (
-            <li
-              key={step.id}
-              className="home-process-step border-t border-border pt-4"
-              style={{ '--i': index } as CSSProperties}
-            >
-              <p className="text-[11px] font-semibold tracking-[0.16em] text-primary">
-                {String(index + 1).padStart(2, '0')}
-              </p>
-              <h3 className="mt-2 heading-display text-xl sm:text-2xl">{tx(step.title)}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-text-secondary">{tx(step.body)}</p>
+            <li key={step.id}>
+              <button
+                type="button"
+                className="home-factory-step home-process-step w-full border-t border-border pt-4 text-left"
+                style={{ '--i': index } as CSSProperties}
+                aria-current={index === active ? 'true' : undefined}
+                onPointerEnter={(event) => hoverStep(event, index)}
+                onFocus={() => setIndex(index)}
+                onClick={() => setIndex(index)}
+              >
+                <p className="text-[11px] font-semibold tracking-[0.16em] text-primary">
+                  {String(index + 1).padStart(2, '0')}
+                </p>
+                <h3 className="mt-2 heading-display text-xl sm:text-2xl">{tx(step.title)}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-text-secondary">{tx(step.body)}</p>
+              </button>
             </li>
           ))}
         </ol>

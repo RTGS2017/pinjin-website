@@ -25,8 +25,6 @@ export function useHomeScroll() {
 }
 
 const STEP_SCENES: Partial<Record<HomeSceneKey, number>> = {
-  products: 5,
-  factory: 4,
   process: 6,
 };
 
@@ -65,9 +63,11 @@ export function HomeScrollRoot({ children }: { children: ReactNode }) {
         const span = Math.max(el.offsetHeight - vh * 0.28, 1);
         const raw = (y - start) / span;
         const p = reduced ? 1 : Math.max(0, Math.min(1, raw));
+        const enterIn = (vh * 0.9 - rect.top) / Math.max(vh * 0.42, 1);
+        const enterOut = (rect.bottom - vh * 0.1) / Math.max(vh * 0.28, 1);
         const enter = reduced
           ? 1
-          : Math.max(0, Math.min(1, (vh * 0.88 - rect.top) / Math.max(vh * 0.38, 1)));
+          : Math.max(0, Math.min(1, Math.min(enterIn, enterOut)));
         el.style.setProperty('--p', p.toFixed(4));
         el.style.setProperty('--enter', enter.toFixed(4));
 
@@ -77,6 +77,12 @@ export function HomeScrollRoot({ children }: { children: ReactNode }) {
           const idx = Math.min(n - 1, Math.floor(p * n * 0.999));
           el.dataset.step = String(idx);
           el.style.setProperty('--step', String(idx));
+        }
+
+        if (enter >= 0.16) {
+          el.classList.add('is-inview');
+        } else if (enter <= 0.06) {
+          el.classList.remove('is-inview');
         }
 
         const visible =
@@ -201,6 +207,7 @@ export function SceneFrame({
       data-scene={scene.key}
       className={[
         'home-scene',
+        index === 0 ? 'is-inview' : '',
         sticky ? 'home-scene-sticky' : '',
         tone === 'dark' ? 'home-scene-dark' : tone === 'soft' ? 'bg-bg-soft' : 'bg-bg',
       ]
@@ -215,7 +222,7 @@ export function SceneFrame({
             <p className="home-scene-kicker" aria-hidden>
               {String(index + 1).padStart(2, '0')}
             </p>
-            <div className="scene-copy">{children}</div>
+            <div className="scene-copy scene-stagger">{children}</div>
           </div>
         )}
       </div>

@@ -5,10 +5,10 @@ const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
 export const HOME_SCENES = [
   { key: 'hero', id: 'scene-hero', sticky: false, steps: 0 },
-  { key: 'products', id: 'scene-products', sticky: true, steps: 5 },
+  { key: 'products', id: 'scene-products', sticky: false, steps: 0 },
   { key: 'selection', id: 'scene-selection', sticky: true, steps: 0 },
   { key: 'applications', id: 'applications', sticky: false, steps: 0 },
-  { key: 'factory', id: 'why-pinjin', sticky: true, steps: 4 },
+  { key: 'factory', id: 'why-pinjin', sticky: false, steps: 0 },
   { key: 'evidence', id: 'scene-evidence', sticky: false, steps: 0 },
   { key: 'process', id: 'scene-process', sticky: true, steps: 6 },
   { key: 'knowledge', id: 'scene-knowledge', sticky: false, steps: 0 },

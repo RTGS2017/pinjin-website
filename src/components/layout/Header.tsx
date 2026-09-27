@@ -5,7 +5,6 @@ import { MegaMenu, MobileMegaLinks } from '@/components/navigation/MegaMenu';
 import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
 import { navItems, type NavLabelKey } from '@/config/navigation';
 import { contactInquiryPath, getWhatsAppHref, siteConfig, withBase } from '@/config/site';
-import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath, stripLangFromPath } from '@/i18n/paths';
 import { LocaleLink, LocaleNavLink } from '@/i18n/navigation';
@@ -125,16 +124,11 @@ export function Header() {
 
   const onHome = pagePath === '/';
   const solid = scrolled || !onHome || mobileOpen;
-  const linkClass = (active: boolean) =>
-    [
-      'inline-flex items-center gap-1 px-3 py-4 text-sm font-medium tracking-wide transition-colors',
-      lang === 'en' ? 'uppercase' : '',
-      active
-        ? 'text-primary'
-        : solid
-          ? 'text-dark hover:text-primary'
-          : 'text-white/90 hover:text-primary',
-    ].join(' ');
+
+  const navLinkClass = (active: boolean) =>
+    ['site-header-item', active ? 'is-active' : '', lang === 'en' ? 'is-en' : '']
+      .filter(Boolean)
+      .join(' ');
 
   const closeLangAndNav = () => {
     setMobileOpen(false);
@@ -142,25 +136,21 @@ export function Header() {
   };
 
   return (
-    <header className={['sticky top-0 z-50 isolate', solid ? 'bg-white' : 'bg-dark'].join(' ')}>
+    <header
+      className={[
+        'site-header sticky top-0 z-50 isolate',
+        solid ? 'is-solid' : 'is-transparent',
+        scrolled ? 'is-compact' : '',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+    >
       <div className="relative" onMouseLeave={scheduleClose}>
-        <div
-          className={[
-            'border-b transition-colors duration-200',
-            solid
-              ? 'border-border bg-white text-dark'
-              : 'border-transparent bg-dark text-white',
-          ].join(' ')}
-        >
-          <div
-            className={[
-              'container-site flex items-center justify-between transition-[height] duration-200',
-              solid ? 'h-14 lg:h-14' : 'h-16 lg:h-[72px]',
-            ].join(' ')}
-          >
+        <div className="site-header-rule">
+          <div className="container-site site-header-bar">
             <LocaleLink
               to="/"
-              className="flex items-center gap-2.5"
+              className="site-header-brand"
               onClick={() => {
                 setMobileOpen(false);
                 closeMegaNow();
@@ -171,31 +161,22 @@ export function Header() {
                 alt=""
                 width={40}
                 height={40}
-                className="h-9 w-9 shrink-0 object-contain lg:h-10 lg:w-10"
+                className="site-header-logo"
               />
-              <span className="flex items-baseline gap-2">
-                <span className="text-lg font-semibold tracking-[0.14em] lg:text-xl">
-                  {siteConfig.brandName}
-                </span>
-                <span
-                  className={[
-                    'text-[10px] font-semibold tracking-[0.16em] sm:text-xs',
-                    solid ? 'text-text-secondary' : 'text-white/55',
-                  ].join(' ')}
-                >
-                  {tx(homeCopy.brandLockup)}
-                </span>
+              <span className="site-header-lockup">
+                <span className="site-header-name">{siteConfig.brandName}</span>
+                <span className="site-header-tag">{tx(homeCopy.brandLockup)}</span>
               </span>
             </LocaleLink>
 
-            <nav className="hidden h-full items-center gap-1 lg:flex" aria-label="Main">
+            <nav className="site-header-nav" aria-label="Main">
               {navItems.map((item) =>
                 item.mega ? (
                   <LocaleNavLink
                     key={item.key}
                     to={item.href}
                     className={() =>
-                      linkClass(isGroupActive(item.key, item.href) || openKey === item.key)
+                      navLinkClass(isGroupActive(item.key, item.href) || openKey === item.key)
                     }
                     aria-expanded={openKey === item.key}
                     aria-haspopup="true"
@@ -206,9 +187,11 @@ export function Header() {
                     {t.nav[item.key]}
                     <ChevronDown
                       className={[
-                        'h-3.5 w-3.5 opacity-70 transition-transform',
-                        openKey === item.key ? 'rotate-180' : '',
-                      ].join(' ')}
+                        'site-header-caret',
+                        openKey === item.key ? 'is-open' : '',
+                      ]
+                        .filter(Boolean)
+                        .join(' ')}
                       aria-hidden
                     />
                   </LocaleNavLink>
@@ -216,7 +199,7 @@ export function Header() {
                   <LocaleNavLink
                     key={item.key}
                     to={item.href}
-                    className={() => linkClass(isGroupActive(item.key, item.href))}
+                    className={() => navLinkClass(isGroupActive(item.key, item.href))}
                     onMouseEnter={closeMegaNow}
                   >
                     {t.nav[item.key]}
@@ -225,34 +208,34 @@ export function Header() {
               )}
             </nav>
 
-            <div className="hidden items-center gap-3 lg:flex" onMouseEnter={closeMegaNow}>
-              <LanguageSwitcher onPicked={closeLangAndNav} tone={solid ? 'light' : 'dark'} />
-              <Button
+            <div className="site-header-actions" onMouseEnter={closeMegaNow}>
+              <LanguageSwitcher
+                fit="header"
+                onPicked={closeLangAndNav}
+                tone={solid ? 'light' : 'dark'}
+              />
+              <a
                 href={getWhatsAppHref(t.mailSubjectInquiry)}
                 target="_blank"
                 rel="noopener noreferrer"
-                variant={solid ? 'outline' : 'ghost'}
-                size="md"
+                className="site-header-item site-header-wa"
               >
-                <MessageCircle className="h-4 w-4" aria-hidden />
+                <MessageCircle className="site-header-caret" aria-hidden />
                 {t.contact.whatsapp}
-              </Button>
-              <Button to={contactInquiryPath} size="md">
+              </a>
+              <LocaleLink to={contactInquiryPath} className="site-header-item site-header-quote">
                 {t.nav.getQuote}
-              </Button>
+              </LocaleLink>
             </div>
 
             <button
               type="button"
-              className={[
-                'inline-flex h-11 w-11 items-center justify-center rounded-sm lg:hidden',
-                solid ? 'text-dark' : 'text-white',
-              ].join(' ')}
+              className="site-header-menu"
               aria-label={mobileOpen ? t.nav.closeMenu : t.nav.openMenu}
               aria-expanded={mobileOpen}
               onClick={() => setMobileOpen((v) => !v)}
             >
-              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
           </div>
         </div>
@@ -265,17 +248,14 @@ export function Header() {
       </div>
 
       {mobileOpen ? (
-        <div className="border-t border-white/10 bg-dark-2 lg:hidden">
-          <nav
-            className="container-site flex max-h-[min(80vh,640px)] flex-col gap-1 overflow-y-auto py-4"
-            aria-label="Mobile"
-          >
+        <div className="site-header-drawer lg:hidden">
+          <nav className="container-site site-header-drawer-nav" aria-label="Mobile">
             {navItems.map((item) =>
               item.mega ? (
                 <div key={item.key}>
                   <button
                     type="button"
-                    className="flex w-full items-center justify-between px-2 py-3 text-left text-sm font-medium tracking-wide text-white"
+                    className="site-header-drawer-item"
                     aria-expanded={expanded === item.key}
                     onClick={() =>
                       setExpanded((cur) => (cur === item.key ? null : item.key))
@@ -284,13 +264,15 @@ export function Header() {
                     {t.nav[item.key]}
                     <ChevronDown
                       className={[
-                        'h-4 w-4 transition-transform',
-                        expanded === item.key ? 'rotate-180' : '',
-                      ].join(' ')}
+                        'site-header-caret',
+                        expanded === item.key ? 'is-open' : '',
+                      ]
+                        .filter(Boolean)
+                        .join(' ')}
                     />
                   </button>
                   {expanded === item.key ? (
-                    <div className="mb-1 ms-2 border-s border-white/15 pb-2">
+                    <div className="site-header-drawer-sub">
                       <MobileMegaLinks
                         navKey={item.key}
                         onNavigate={() => setMobileOpen(false)}
@@ -302,34 +284,34 @@ export function Header() {
                 <LocaleNavLink
                   key={item.key}
                   to={item.href}
-                  className="px-2 py-3 text-sm font-medium tracking-wide text-white"
+                  className="site-header-drawer-item"
                   onClick={() => setMobileOpen(false)}
                 >
                   {t.nav[item.key]}
                 </LocaleNavLink>
               ),
             )}
-            <div className="mt-2 px-2">
+            <div className="site-header-drawer-lang">
               <LanguageSwitcher compact onPicked={closeLangAndNav} />
             </div>
-            <div className="mt-2 flex flex-col gap-2 px-2 pb-2">
-              <Button
+            <div className="site-header-drawer-actions">
+              <a
                 href={getWhatsAppHref(t.mailSubjectInquiry)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full"
+                className="site-header-item site-header-wa"
                 onClick={() => setMobileOpen(false)}
               >
+                <MessageCircle className="site-header-caret" aria-hidden />
                 {t.contact.whatsapp}
-              </Button>
-              <Button
+              </a>
+              <LocaleLink
                 to={contactInquiryPath}
-                variant="ghost"
-                className="w-full"
+                className="site-header-item site-header-quote"
                 onClick={() => setMobileOpen(false)}
               >
                 {t.nav.getQuote}
-              </Button>
+              </LocaleLink>
             </div>
           </nav>
         </div>
@@ -337,4 +319,3 @@ export function Header() {
     </header>
   );
 }
-

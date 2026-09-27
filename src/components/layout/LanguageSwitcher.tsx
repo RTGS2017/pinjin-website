@@ -8,10 +8,12 @@ export function LanguageSwitcher({
   compact = false,
   onPicked,
   tone = 'dark',
+  fit = 'default',
 }: {
   compact?: boolean;
   onPicked?: () => void;
   tone?: 'dark' | 'light';
+  fit?: 'default' | 'header';
 }) {
   const { lang, t } = useI18n();
   const switchLang = useSwitchLang();
@@ -42,9 +44,13 @@ export function LanguageSwitcher({
         className={[
           'inline-flex items-center justify-between gap-2 border text-sm transition-colors',
           tone === 'light'
-            ? 'border-border bg-white text-dark hover:border-dark/40'
-            : 'border-white/20 bg-white/5 text-white/90 hover:border-white/40 hover:text-white',
-          compact ? 'w-full px-3 py-2.5 text-sm' : 'min-w-[8.5rem] px-2.5 py-1.5 text-xs',
+            ? 'border-border bg-bg text-dark hover:border-dark/40'
+            : 'border-white/45 bg-transparent text-white hover:border-white hover:text-white',
+          compact
+            ? 'site-header-drawer-langbtn w-full'
+            : fit === 'header'
+              ? 'site-header-item site-header-lang'
+              : 'min-w-[8.5rem] px-2.5 py-1.5 text-xs',
         ].join(' ')}
         aria-expanded={open}
         aria-haspopup="listbox"

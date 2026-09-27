@@ -45,21 +45,21 @@ export function SceneHero() {
           />
         </div>
 
-        <div className="home-hero-copy container-site">
+        <div className="home-hero-copy scene-stagger container-site">
           <p className="home-scene-kicker text-white/40" aria-hidden>
             01
           </p>
-          <p className="hero-stagger max-w-xl text-sm leading-relaxed text-white/75 sm:text-base">
+          <p className="max-w-xl text-sm leading-relaxed text-white/75 sm:text-base">
             {t.hero.intro}
           </p>
           <h1 className="mt-5 heading-display text-4xl text-white sm:text-5xl lg:text-[3.35rem]">
             {t.hero.title}
           </h1>
-          <p className="hero-stagger mt-5 max-w-2xl text-base leading-relaxed text-white/82 sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/82 sm:text-lg">
             {t.hero.directAnswer}
           </p>
 
-          <dl className="hero-stagger mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <dl className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {facts.map((fact) => (
               <div key={fact.k.en} className="border-t border-white/20 pt-3">
                 <dt className="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">
@@ -70,14 +70,14 @@ export function SceneHero() {
             ))}
           </dl>
 
-          <p className="hero-stagger mt-6 text-sm text-white/60">
+          <p className="mt-6 text-sm text-white/60">
             {companyEntity.shortName[lang] || companyEntity.shortName.en}
             {' · '}
             {companyEntity.location.locality}, {companyEntity.location.region},{' '}
             {companyEntity.location.country}
           </p>
 
-          <div className="hero-stagger mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Button to="/products" size="lg" className="w-full sm:w-auto">
               {tx(homeCopy.viewProducts)}
             </Button>
