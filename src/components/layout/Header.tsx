@@ -1,15 +1,15 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { ChevronDown, Menu, MessageCircle, X } from 'lucide-react';
 import { MegaMenu, MobileMegaLinks } from '@/components/navigation/MegaMenu';
 import { LanguageSwitcher } from '@/components/layout/LanguageSwitcher';
 import { navItems, type NavLabelKey } from '@/config/navigation';
-import { contactInquiryPath, siteConfig, withBase } from '@/config/site';
+import { contactInquiryPath, getWhatsAppHref, siteConfig, withBase } from '@/config/site';
 import { Button } from '@/components/ui/Button';
-import { ProductSearch } from '@/components/ui/ProductSearch';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath, stripLangFromPath } from '@/i18n/paths';
 import { LocaleLink, LocaleNavLink } from '@/i18n/navigation';
+import { homeCopy } from '@/data/homeNarrative';
 
 const CLOSE_DELAY = 280;
 
@@ -17,9 +17,10 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [expanded, setExpanded] = useState<NavLabelKey | null>(null);
   const [openKey, setOpenKey] = useState<NavLabelKey | null>(null);
+  const [scrolled, setScrolled] = useState(false);
   const closeTimer = useRef<number>(0);
   const location = useLocation();
-  const { lang, t } = useI18n();
+  const { lang, t, tx } = useI18n();
   const pagePath = stripLangFromPath(location.pathname);
 
   function cancelClose() {
@@ -60,6 +61,23 @@ export function Header() {
 
   useEffect(() => () => window.clearTimeout(closeTimer.current), []);
 
+  useEffect(() => {
+    let raf = 0;
+    const onScroll = () => {
+      if (raf) return;
+      raf = window.requestAnimationFrame(() => {
+        raf = 0;
+        setScrolled(window.scrollY > 24);
+      });
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (raf) window.cancelAnimationFrame(raf);
+    };
+  }, []);
+
   const isChildActive = (href: string) => {
     const pathOnly = href.split('#')[0] || '/';
     if (href.includes('#')) {
@@ -94,7 +112,7 @@ export function Header() {
         pagePath === '/product-selection-guide'
       );
     }
-    if (key === 'company') {
+    if (key === 'company' || key === 'factory') {
       return (
         pagePath === '/about' ||
         pagePath === '/markets' ||
@@ -105,11 +123,17 @@ export function Header() {
     return false;
   };
 
+  const onHome = pagePath === '/';
+  const solid = scrolled || !onHome || mobileOpen;
   const linkClass = (active: boolean) =>
     [
-      'inline-flex items-center gap-1 px-3 py-5 text-sm font-medium tracking-wide transition-colors',
+      'inline-flex items-center gap-1 px-3 py-4 text-sm font-medium tracking-wide transition-colors',
       lang === 'en' ? 'uppercase' : '',
-      active ? 'text-primary' : 'text-white/90 hover:text-primary',
+      active
+        ? 'text-primary'
+        : solid
+          ? 'text-dark hover:text-primary'
+          : 'text-white/90 hover:text-primary',
     ].join(' ');
 
   const closeLangAndNav = () => {
@@ -118,10 +142,22 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50">
+    <header className={['sticky top-0 z-50 isolate', solid ? 'bg-white' : 'bg-dark'].join(' ')}>
       <div className="relative" onMouseLeave={scheduleClose}>
-        <div className="bg-dark text-white">
-          <div className="container-site flex h-16 items-center justify-between lg:h-[72px]">
+        <div
+          className={[
+            'border-b transition-colors duration-200',
+            solid
+              ? 'border-border bg-white text-dark'
+              : 'border-transparent bg-dark text-white',
+          ].join(' ')}
+        >
+          <div
+            className={[
+              'container-site flex items-center justify-between transition-[height] duration-200',
+              solid ? 'h-14 lg:h-14' : 'h-16 lg:h-[72px]',
+            ].join(' ')}
+          >
             <LocaleLink
               to="/"
               className="flex items-center gap-2.5"
@@ -135,14 +171,19 @@ export function Header() {
                 alt=""
                 width={40}
                 height={40}
-                className="h-10 w-10 shrink-0 object-contain"
+                className="h-9 w-9 shrink-0 object-contain lg:h-10 lg:w-10"
               />
               <span className="flex items-baseline gap-2">
-                <span className="text-xl font-semibold tracking-[0.14em]">
+                <span className="text-lg font-semibold tracking-[0.14em] lg:text-xl">
                   {siteConfig.brandName}
                 </span>
-                <span className="hidden text-sm text-white/50 sm:inline">
-                  {siteConfig.brandNameCn}
+                <span
+                  className={[
+                    'text-[10px] font-semibold tracking-[0.16em] sm:text-xs',
+                    solid ? 'text-text-secondary' : 'text-white/55',
+                  ].join(' ')}
+                >
+                  {tx(homeCopy.brandLockup)}
                 </span>
               </span>
             </LocaleLink>
@@ -184,9 +225,18 @@ export function Header() {
               )}
             </nav>
 
-            <div className="hidden items-center gap-4 lg:flex" onMouseEnter={closeMegaNow}>
-              <ProductSearch />
-              <LanguageSwitcher onPicked={closeLangAndNav} />
+            <div className="hidden items-center gap-3 lg:flex" onMouseEnter={closeMegaNow}>
+              <LanguageSwitcher onPicked={closeLangAndNav} tone={solid ? 'light' : 'dark'} />
+              <Button
+                href={getWhatsAppHref(t.mailSubjectInquiry)}
+                target="_blank"
+                rel="noopener noreferrer"
+                variant={solid ? 'outline' : 'ghost'}
+                size="md"
+              >
+                <MessageCircle className="h-4 w-4" aria-hidden />
+                {t.contact.whatsapp}
+              </Button>
               <Button to={contactInquiryPath} size="md">
                 {t.nav.getQuote}
               </Button>
@@ -194,7 +244,10 @@ export function Header() {
 
             <button
               type="button"
-              className="inline-flex h-11 w-11 items-center justify-center rounded-sm text-white lg:hidden"
+              className={[
+                'inline-flex h-11 w-11 items-center justify-center rounded-sm lg:hidden',
+                solid ? 'text-dark' : 'text-white',
+              ].join(' ')}
               aria-label={mobileOpen ? t.nav.closeMenu : t.nav.openMenu}
               aria-expanded={mobileOpen}
               onClick={() => setMobileOpen((v) => !v)}
@@ -259,9 +312,19 @@ export function Header() {
             <div className="mt-2 px-2">
               <LanguageSwitcher compact onPicked={closeLangAndNav} />
             </div>
-            <div className="mt-2 px-2 pb-2">
+            <div className="mt-2 flex flex-col gap-2 px-2 pb-2">
+              <Button
+                href={getWhatsAppHref(t.mailSubjectInquiry)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full"
+                onClick={() => setMobileOpen(false)}
+              >
+                {t.contact.whatsapp}
+              </Button>
               <Button
                 to={contactInquiryPath}
+                variant="ghost"
                 className="w-full"
                 onClick={() => setMobileOpen(false)}
               >

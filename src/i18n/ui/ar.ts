@@ -13,7 +13,7 @@ export const messagesAr = {
     faq: 'الأسئلة الشائعة',
     company: 'الشركة',
     about: 'عن المصنع',
-    factory: 'التصنيع',
+    factory: 'المصنع',
     contact: 'اتصل بنا',
     getQuote: 'طلب عرض سعر',
     openMenu: 'فتح القائمة',

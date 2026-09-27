@@ -29,9 +29,8 @@ export interface NavItem {
 export const navItems: readonly NavItem[] = [
   { key: 'products', href: '/products', mega: 'products' },
   { key: 'solutions', href: '/solutions', mega: 'columns' },
+  { key: 'factory', href: '/factory', mega: 'columns' },
   { key: 'resources', href: '/resources', mega: 'columns' },
-  { key: 'company', href: '/about', mega: 'columns' },
-  { key: 'contact', href: '/contact' },
 ];
 
 export const productCategoryLinks = productCategoryIds.map((id) => ({

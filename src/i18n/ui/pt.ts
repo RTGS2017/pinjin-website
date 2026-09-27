@@ -13,7 +13,7 @@ export const messagesPt = {
     faq: 'FAQ',
     company: 'EMPRESA',
     about: 'Sobre a fábrica',
-    factory: 'Fabricação',
+    factory: 'FÁBRICA',
     contact: 'CONTATO',
     getQuote: 'PEDIR ORÇAMENTO',
     openMenu: 'Abrir menu',

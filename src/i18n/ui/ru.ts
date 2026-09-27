@@ -13,7 +13,7 @@ export const messagesRu = {
     faq: 'FAQ',
     company: 'КОМПАНИЯ',
     about: 'О заводе',
-    factory: 'Производство',
+    factory: 'ЗАВОД',
     contact: 'КОНТАКТЫ',
     getQuote: 'ЗАПРОСИТЬ ЦЕНУ',
     openMenu: 'Открыть меню',

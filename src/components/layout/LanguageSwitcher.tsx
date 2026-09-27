@@ -7,9 +7,11 @@ import { useSwitchLang } from '@/i18n/navigation';
 export function LanguageSwitcher({
   compact = false,
   onPicked,
+  tone = 'dark',
 }: {
   compact?: boolean;
   onPicked?: () => void;
+  tone?: 'dark' | 'light';
 }) {
   const { lang, t } = useI18n();
   const switchLang = useSwitchLang();
@@ -38,7 +40,10 @@ export function LanguageSwitcher({
       <button
         type="button"
         className={[
-          'inline-flex items-center justify-between gap-2 border border-white/20 bg-white/5 text-white/90 transition-colors hover:border-white/40 hover:text-white',
+          'inline-flex items-center justify-between gap-2 border text-sm transition-colors',
+          tone === 'light'
+            ? 'border-border bg-white text-dark hover:border-dark/40'
+            : 'border-white/20 bg-white/5 text-white/90 hover:border-white/40 hover:text-white',
           compact ? 'w-full px-3 py-2.5 text-sm' : 'min-w-[8.5rem] px-2.5 py-1.5 text-xs',
         ].join(' ')}
         aria-expanded={open}
@@ -60,7 +65,10 @@ export function LanguageSwitcher({
           role="listbox"
           aria-label={t.nav.language}
           className={[
-            'z-[60] border border-white/15 bg-dark-2 py-1 shadow-lg',
+            'z-[60] border py-1 shadow-lg',
+            tone === 'light'
+              ? 'border-border bg-white'
+              : 'border-white/15 bg-dark-2',
             compact ? 'relative mt-1 w-full' : 'absolute end-0 top-full mt-1 min-w-[12rem]',
           ].join(' ')}
         >
@@ -77,8 +85,12 @@ export function LanguageSwitcher({
                   className={[
                     'flex w-full items-center justify-between gap-3 px-3 py-2 text-start text-sm transition-colors',
                     selected
-                      ? 'bg-white/5 text-primary'
-                      : 'text-white/80 hover:bg-white/10 hover:text-white',
+                      ? tone === 'light'
+                        ? 'bg-bg-soft text-primary'
+                        : 'bg-white/5 text-primary'
+                      : tone === 'light'
+                        ? 'text-dark hover:bg-bg-soft'
+                        : 'text-white/80 hover:bg-white/10 hover:text-white',
                   ].join(' ')}
                   onClick={() => {
                     switchLang(item.code);
@@ -87,7 +99,7 @@ export function LanguageSwitcher({
                   }}
                 >
                   <span>{item.labelNative}</span>
-                  <span className="text-[11px] tracking-wide text-white/40">
+                  <span className={tone === 'light' ? 'text-[11px] tracking-wide text-text-secondary' : 'text-[11px] tracking-wide text-white/40'}>
                     {item.label}
                   </span>
                 </button>

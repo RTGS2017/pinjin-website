@@ -81,7 +81,7 @@ function Panel({
       id={id}
       role="region"
       aria-label={label}
-      className="mega-panel w-full border-t border-white/10 bg-dark/40 shadow-[0_18px_50px_rgba(37,42,49,0.28)] backdrop-blur-sm"
+      className="mega-panel w-full border-t border-white/10 bg-dark-2 shadow-[0_18px_50px_rgba(37,42,49,0.28)]"
     >
       <div className="container-site py-8 lg:py-10">{children}</div>
     </div>
@@ -384,7 +384,7 @@ export function MegaMenu({ navKey, onNavigate }: MegaMenuProps) {
     );
   }
 
-  if (navKey === 'company') {
+  if (navKey === 'company' || navKey === 'factory') {
     return (
       <Panel id="mega-company" label={label}>
         <div className="max-w-3xl">
@@ -485,7 +485,7 @@ export function MobileMegaLinks({
     );
   }
 
-  if (navKey === 'company') {
+  if (navKey === 'company' || navKey === 'factory') {
     return (
       <div className="space-y-1">
         {companyLinks.map((item) => (

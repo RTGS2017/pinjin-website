@@ -6,6 +6,8 @@ import { useI18n } from '@/i18n/I18nContext';
 interface InquiryBriefProps {
   product?: Product;
   className?: string;
+  showTitle?: boolean;
+  showJobFields?: boolean;
 }
 
 const empty = {
@@ -29,7 +31,12 @@ const empty = {
   length: '',
 };
 
-export function InquiryBrief({ product, className = '' }: InquiryBriefProps) {
+export function InquiryBrief({
+  product,
+  className = '',
+  showTitle = true,
+  showJobFields = false,
+}: InquiryBriefProps) {
   const { t, tx } = useI18n();
   const [fields, setFields] = useState(empty);
   const wear = product?.partKind === 'wear';
@@ -70,18 +77,31 @@ export function InquiryBrief({ product, className = '' }: InquiryBriefProps) {
         if (fields.country) lines.push(`${t.inquiry.country}: ${fields.country}`);
         if (fields.roleTiming) lines.push(`${t.inquiry.roleTiming}: ${fields.roleTiming}`);
       }
+    } else if (showJobFields) {
+      if (fields.material) lines.push(`${t.inquiry.material}: ${fields.material}`);
+      if (fields.aggregate) lines.push(`${t.inquiry.aggregateSize}: ${fields.aggregate}`);
+      if (fields.output) lines.push(`${t.inquiry.targetOutput}: ${fields.output}`);
+      if (fields.distanceH) lines.push(`${t.inquiry.distanceH}: ${fields.distanceH}`);
+      if (fields.distanceV) lines.push(`${t.inquiry.distanceV}: ${fields.distanceV}`);
+      if (fields.power) lines.push(`${t.inquiry.powerCondition}: ${fields.power}`);
+      if (fields.country) lines.push(`${t.inquiry.country}: ${fields.country}`);
     }
     if (fields.message) lines.push(`${t.inquiry.message}: ${fields.message}`);
     return lines.filter(Boolean).join('\n');
-  }, [contactLabel, fields, product, productName, spare, t, wear]);
+  }, [contactLabel, fields, product, productName, showJobFields, spare, t, wear]);
 
   const fieldClass =
     'mt-1 w-full border border-border bg-bg px-3 py-2 text-sm text-dark outline-none focus:border-primary';
   const showOptional = Boolean(product);
+  const showJobs = showJobFields && !product;
 
   return (
     <div className={className}>
-      <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.inquiryTitle}</h2>
+      {showTitle ? (
+        <h2 className="heading-display text-2xl sm:text-3xl">{t.detail.inquiryTitle}</h2>
+      ) : (
+        <h3 className="heading-display text-2xl sm:text-3xl">{t.detail.inquiryTitle}</h3>
+      )}
       <p className="mt-3 text-sm text-text-secondary">{t.inquiry.formLead}</p>
       <div className="mt-6 grid gap-3 sm:grid-cols-2">
         <label className="text-sm text-text-secondary">
@@ -124,6 +144,39 @@ export function InquiryBrief({ product, className = '' }: InquiryBriefProps) {
           />
         </label>
       </div>
+
+      {showJobs ? (
+        <div className="mt-5 grid gap-3 sm:grid-cols-2">
+          <label className="text-sm text-text-secondary">
+            {t.inquiry.material}
+            <input className={fieldClass} value={fields.material} onChange={set('material')} />
+          </label>
+          <label className="text-sm text-text-secondary">
+            {t.inquiry.aggregateSize}
+            <input className={fieldClass} value={fields.aggregate} onChange={set('aggregate')} />
+          </label>
+          <label className="text-sm text-text-secondary">
+            {t.inquiry.targetOutput}
+            <input className={fieldClass} value={fields.output} onChange={set('output')} />
+          </label>
+          <label className="text-sm text-text-secondary">
+            {t.inquiry.powerCondition}
+            <input className={fieldClass} value={fields.power} onChange={set('power')} />
+          </label>
+          <label className="text-sm text-text-secondary">
+            {t.inquiry.distanceH}
+            <input className={fieldClass} value={fields.distanceH} onChange={set('distanceH')} />
+          </label>
+          <label className="text-sm text-text-secondary">
+            {t.inquiry.distanceV}
+            <input className={fieldClass} value={fields.distanceV} onChange={set('distanceV')} />
+          </label>
+          <label className="text-sm text-text-secondary sm:col-span-2">
+            {t.inquiry.country}
+            <input className={fieldClass} value={fields.country} onChange={set('country')} />
+          </label>
+        </div>
+      ) : null}
 
       {showOptional ? (
         <details className="mt-5 border border-border bg-bg-soft p-4">

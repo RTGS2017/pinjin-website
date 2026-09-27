@@ -1,9 +1,4 @@
-import { Hero } from '@/components/sections/Hero';
-import { AboutPinjin } from '@/components/sections/AboutPinjin';
-import { FeaturedProducts } from '@/components/sections/FeaturedProducts';
-import { FactoryCapability } from '@/components/sections/FactoryCapability';
-import { Applications } from '@/components/sections/Applications';
-import { KnowledgeCenter } from '@/components/sections/KnowledgeCenter';
+import { HomeNarrative } from '@/components/home/HomeNarrative';
 import { SEO, buildFactoryImageJsonLdList, buildHeroGalleryJsonLdList, buildOrganizationJsonLd, buildWebSiteJsonLd } from '@/components/SEO';
 import { heroGallery } from '@/data/gallery';
 import { useI18n } from '@/i18n/I18nContext';
@@ -25,12 +20,7 @@ export function Home() {
         keywords={hero.seoKeywords.join(', ')}
         jsonLd={[buildOrganizationJsonLd(), buildWebSiteJsonLd(), ...buildHeroGalleryJsonLdList(heroGallery, lang), ...buildFactoryImageJsonLdList(lang)]}
       />
-      <Hero />
-      <AboutPinjin />
-      <FeaturedProducts />
-      <FactoryCapability />
-      <Applications />
-      <KnowledgeCenter />
+      <HomeNarrative />
     </>
   );
 }
