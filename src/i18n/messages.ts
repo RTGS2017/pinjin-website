@@ -66,6 +66,7 @@ export const messages = {
         'Main products: electric concrete pumps, diesel trailer pumps, mixer pumps and spraying machines.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
+      clipsKicker: 'Jobsite clips',
     },
     company: {
       title: 'HIGH-PERFORMANCE\nCONSTRUCTION EQUIPMENT',
@@ -625,6 +626,7 @@ export const messages = {
         '主要产品：电动混凝土泵、柴油拖式泵、搅拌泵、喷涂机。',
       explore: '浏览产品',
       quote: '联系工程师',
+      clipsKicker: '工地短视频',
     },
     company: {
       title: '高性能\n工程机械设备',

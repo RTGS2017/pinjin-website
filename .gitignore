@@ -21,6 +21,7 @@ deploy/inbox/
 deploy/prerender-meta.json
 
 # GPT catalogue working copies (pages use {slug}/main.webp)
+tmp-video-frames/
 .tmp-gpt-identify/
 public/images/products/ChatGPT Image *.png
 public/images/products/**/ChatGPT Image *.png

@@ -57,6 +57,7 @@ export const messagesPt = {
       'Produtos principais: bombas de concreto elétricas, bombas reboque a diesel, bombas misturadoras e máquinas de projeção.',
     explore: 'Ver produtos',
     quote: 'Falar com engenheiro',
+    clipsKicker: 'Clipes de obra',
   },
   company: {
     title: 'EQUIPAMENTOS DE CONSTRUÇÃO\nDE ALTO DESEMPENHO',

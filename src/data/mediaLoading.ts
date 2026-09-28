@@ -1,14 +1,13 @@
 /**
- * Future homepage video loading policy.
- * This module is not wired to a player. The live homepage does not ship video.
+ * Homepage Hero video loading policy, used by HeroVideoGallery.
  *
- * When product-evidence clips are added later:
- * - The active clip uses preload="auto" (muted, loop, playsInline).
+ * - The active clip uses preload="auto" (muted, playsInline).
  * - The previous and next clips use preload="metadata" only.
  * - Every other file stays poster-only: do not create a <video> network request.
- * - On switch, pause the outgoing video and clear its src (then load())
+ * - Clips mount only after the gallery is in view. Reduced-motion stays poster-only.
+ * - On unmount or when distance > 1, pause and clear src (then load())
  *   so the decoder and buffer are released.
- * - Never preload the whole library, and never preload clips from index.html.
+ * - Never preload the library from index.html. Factory still remains the LCP image.
  */
 export type MediaPreload = 'auto' | 'metadata' | 'none';
 
