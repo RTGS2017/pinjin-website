@@ -260,8 +260,12 @@ function heroPreloadTag() {
     if (!href) return '';
     parts.push(`${href} ${item.width}w`);
   }
-  const largest = [...list].sort((a, b) => b.width - a.width)[0];
-  const href = revvedPublicPath(largest.path);
+  // href must be the mobile candidate. Lighthouse mobile treats a 2560 href
+  // as undiscovered even when imagesrcset contains the 768 file the <img> uses.
+  const mobile =
+    list.find((item) => item.width === 768) ||
+    [...list].sort((a, b) => a.width - b.width)[0];
+  const href = revvedPublicPath(mobile.path);
   if (!href) return '';
   const type = avif.length ? 'image/avif' : 'image/webp';
   return `    <link rel="preload" as="image" type="${type}" href="${href}" imagesrcset="${parts.join(', ')}" imagesizes="100vw" fetchpriority="high" />`;
