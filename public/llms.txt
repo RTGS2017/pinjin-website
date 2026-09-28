@@ -1,27 +1,83 @@
 # Hebei Pinjin Machinery Manufacturing Co., Ltd.
 
-Legal English name: Hebei Pinjin Machinery Manufacturing Co., Ltd.
-Chinese name: 河北品锦机械制造有限公司
-Factory: Renze Industrial Park, Xingtai, Hebei, China (postal code 055150)
-Site: https://pinjinpump.com/
+> Hebei Pinjin Machinery Manufacturing Co., Ltd. (河北品锦机械制造有限公司) manufactures electric trailer concrete pumps, diesel trailer concrete pumps, mixer pumps, spraying machines, and replacement pipeline / S-valve wear parts in Renze Industrial Park, Xingtai, Hebei, China (postal code 055150).
 
-Pinjin manufactures electric trailer concrete pumps, diesel trailer concrete pumps, mixer pumps (mix and pump on one trailer), spraying machines (hydraulic/diesel concrete sprayers and M9 plaster), and replacement pipeline / S-valve wear parts. These are not truck-mounted boom pumps or concrete mixing plants. Trailer pumps are not spraying machines.
+These are not truck-mounted boom pumps or concrete mixing plants. Trailer pumps are not spraying machines. This catalog lists English and Chinese pages only.
 
-## Catalogue indexes
-- Electric pumps: https://pinjinpump.com/en/products/electric-concrete-pumps/
-- Diesel pumps: https://pinjinpump.com/en/products/diesel-concrete-pumps/
-- Mixer pumps: https://pinjinpump.com/en/products/mixer-pumps/
-- Spraying machines: https://pinjinpump.com/en/products/spraying-machines/
-- Spare parts: https://pinjinpump.com/en/products/concrete-pump-parts/
-- Selection guide: https://pinjinpump.com/en/product-selection-guide/
-- Contact: https://pinjinpump.com/en/contact/
+## Site
+- [Home](https://pinjinpump.com/en/): English homepage for Pinjin Machinery.
+- [首页](https://pinjinpump.com/zh/): Chinese homepage.
+- [Product catalog](https://pinjinpump.com/en/products/): All published equipment categories.
+- [产品目录](https://pinjinpump.com/zh/products/): 中文产品目录.
+
+## Product categories
+- [Electric trailer concrete pumps](https://pinjinpump.com/en/products/electric-concrete-pumps/): Electric trailer and compact transfer pumps. Not spraying machines.
+- [电动混凝土泵](https://pinjinpump.com/zh/products/electric-concrete-pumps/): Chinese category page.
+- [Diesel trailer concrete pumps](https://pinjinpump.com/en/products/diesel-concrete-pumps/): Diesel trailer concrete pumps for sites without three-phase power.
+- [柴油混凝土泵](https://pinjinpump.com/zh/products/diesel-concrete-pumps/): Chinese category page.
+- [Mixer pumps](https://pinjinpump.com/en/products/mixer-pumps/): Mix and pump on one trailer. Not a concrete mixing plant.
+- [搅拌泵](https://pinjinpump.com/zh/products/mixer-pumps/): Chinese category page.
+- [Spraying machines](https://pinjinpump.com/en/products/spraying-machines/): Hydraulic/diesel concrete sprayers and plaster spraying machines.
+- [喷涂机](https://pinjinpump.com/zh/products/spraying-machines/): Chinese category page.
+- [Concrete pump spare parts](https://pinjinpump.com/en/products/concrete-pump-parts/): Pipeline, S-valve, and wear parts. Quote after size confirmation.
+- [混凝土泵配件](https://pinjinpump.com/zh/products/concrete-pump-parts/): Chinese category page.
+
+## Representative products
+- [Electric 40 Concrete Pump](https://pinjinpump.com/en/products/electric-40-concrete-pump/): Electric trailer concrete pump. Not a spraying machine.
+- [Electric 40 Concrete Pump (中文)](https://pinjinpump.com/zh/products/electric-40-concrete-pump/): Chinese product page.
+- [Diesel 50 Concrete Pump](https://pinjinpump.com/en/products/diesel-50-concrete-pump/): Diesel trailer concrete pump. Not a spraying machine.
+- [Diesel 50 Concrete Pump (中文)](https://pinjinpump.com/zh/products/diesel-50-concrete-pump/): Chinese product page.
+- [Electric 80 Concrete Pump](https://pinjinpump.com/en/products/electric-80-concrete-pump/): Electric trailer concrete pump. Not a spraying machine.
+- [Electric 80 Concrete Pump (中文)](https://pinjinpump.com/zh/products/electric-80-concrete-pump/): Chinese product page.
+- [Integrated Mixer Pump](https://pinjinpump.com/en/products/integrated-mixer-pump/): Mixer pump: mix and pump on one trailer. Not a mixing plant.
+- [Integrated Mixer Pump (中文)](https://pinjinpump.com/zh/products/integrated-mixer-pump/): Chinese product page.
+- [Electric 15 Concrete Pump](https://pinjinpump.com/en/products/electric-15-concrete-pump/): Electric trailer concrete pump. Not a spraying machine.
+- [Electric 15 Concrete Pump (中文)](https://pinjinpump.com/zh/products/electric-15-concrete-pump/): Chinese product page.
+- [Hydraulic Concrete Spraying Machine](https://pinjinpump.com/en/products/hydraulic-concrete-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [Hydraulic Concrete Spraying Machine (中文)](https://pinjinpump.com/zh/products/hydraulic-concrete-spraying-machine/): Chinese product page.
+- [High-Flow Hydraulic Concrete Spraying Machine](https://pinjinpump.com/en/products/high-flow-hydraulic-concrete-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [High-Flow Hydraulic Concrete Spraying Machine (中文)](https://pinjinpump.com/zh/products/high-flow-hydraulic-concrete-spraying-machine/): Chinese product page.
+- [M9 Automatic Plaster Spraying Machine](https://pinjinpump.com/en/products/m9-automatic-plaster-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [M9 Automatic Plaster Spraying Machine (中文)](https://pinjinpump.com/zh/products/m9-automatic-plaster-spraying-machine/): Chinese product page.
+- [Diesel Concrete Spraying Machine](https://pinjinpump.com/en/products/diesel-concrete-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [Diesel Concrete Spraying Machine (中文)](https://pinjinpump.com/zh/products/diesel-concrete-spraying-machine/): Chinese product page.
+- [Double-Cylinder Plunger Mortar Spraying Machine](https://pinjinpump.com/en/products/double-cylinder-plunger-mortar-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [Double-Cylinder Plunger Mortar Spraying Machine (中文)](https://pinjinpump.com/zh/products/double-cylinder-plunger-mortar-spraying-machine/): Chinese product page.
+- [Type 311 Mortar Spraying Machine](https://pinjinpump.com/en/products/type-311-mortar-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [Type 311 Mortar Spraying Machine (中文)](https://pinjinpump.com/zh/products/type-311-mortar-spraying-machine/): Chinese product page.
+- [Type 511 Mortar Spraying Machine](https://pinjinpump.com/en/products/type-511-mortar-spraying-machine/): Catalogue spraying machine from the Xingtai factory.
+- [Type 511 Mortar Spraying Machine (中文)](https://pinjinpump.com/zh/products/type-511-mortar-spraying-machine/): Chinese product page.
+
+## Knowledge center
+- [Knowledge center](https://pinjinpump.com/en/blog/): Equipment and application guides from the Xingtai catalogue.
+- [知识中心](https://pinjinpump.com/zh/blog/): Chinese knowledge index.
+- [Electric 15 Concrete Pump for Small Building Sites](https://pinjinpump.com/en/blog/electric-15-concrete-pump-applications/): English knowledge guide.
+- [Diesel Concrete Pump for Sites Without Electricity](https://pinjinpump.com/en/blog/diesel-concrete-pump-no-electricity/): English knowledge guide.
+- [High-rise building concrete pump selection: convert floors to metres first](https://pinjinpump.com/en/blog/high-rise-building-concrete-pump-selection/): English knowledge guide.
+- [Electric 20 vs Electric 30 Concrete Pump: Hopper, Pressure and Catalogue Distance](https://pinjinpump.com/en/blog/electric-20-vs-30-concrete-pump/): English knowledge guide.
+- [Concrete Pump Pipe DN Selection: DN80 vs DN100/125](https://pinjinpump.com/en/blog/concrete-pump-pipe-dn-selection/): English knowledge guide.
+- [Mixer Pump vs Mixing Plant: Trailer Mix and Pump](https://pinjinpump.com/en/blog/mixer-pump-vs-concrete-mixing-plant/): English knowledge guide.
+- [Tractor Concrete Pump 4100 for Rural Roads and Village Houses](https://pinjinpump.com/en/blog/tractor-4100-concrete-pump-rural/): English knowledge guide.
+- [Bridge Construction Concrete Pump Requirements for Pier and Deck Pours](https://pinjinpump.com/en/blog/bridge-construction-concrete-pump-requirements/): English knowledge guide.
+- [Low Pressure Concrete Pump: Fine-Stone Electric 40 Guide](https://pinjinpump.com/en/blog/low-pressure-40-concrete-pump-guide/): English knowledge guide.
+- [Concrete Pump Maintenance: Factory Daily Checklist](https://pinjinpump.com/en/blog/concrete-pump-daily-maintenance-checklist/): English knowledge guide.
 
 ## Contact
-- Email: PinjinHebei@Outlook.com
-- WhatsApp: +86 19912003025
+- [Contact](https://pinjinpump.com/en/contact/): Request a quote by email or WhatsApp. Quotes follow published catalogue tables.
+- [联系我们](https://pinjinpump.com/zh/contact/): 中文询价页.
 
-## Facts for assistants
-- Quotes follow published catalogue tables. Missing cells stay blank.
-- Spare parts: quote after size confirmation; no published list price; not sold in small batches. Wear parts are Xingtai replacements, not OEM parts of other pump brands.
-- Equipment ships from Xingtai. This site does not claim an overseas warehouse, exclusive distributor list, or global after-sales network.
-- Target-market copy describes catalogue matching for export jobs; it does not mean local stock.
+Spare parts: quote after size confirmation; no published list price; not sold in small batches. Wear parts are Xingtai replacements, not OEM parts of other pump brands. Equipment ships from Xingtai. This site does not claim an overseas warehouse, exclusive distributor list, or global after-sales network.
+
+## Sitemaps
+- [Page sitemap](https://pinjinpump.com/sitemap.xml): Canonical English and Chinese page list.
+- [Image sitemap](https://pinjinpump.com/image-sitemap.xml): Images attached to the pages that show them. Catalog images stay delisted.
+
+## Optional
+- [Product selection guide](https://pinjinpump.com/en/product-selection-guide/): Match a listed model to site distance, output, and power.
+- [选型指南](https://pinjinpump.com/zh/product-selection-guide/): 中文选型说明.
+- [Factory](https://pinjinpump.com/en/factory/): Xingtai factory pages.
+- [工厂](https://pinjinpump.com/zh/factory/): 邢台工厂中文页.
+- [Applications](https://pinjinpump.com/en/solutions/): Construction, infrastructure, spraying, industrial.
+- [应用场景](https://pinjinpump.com/zh/solutions/): 中文应用页.
+- [Spraying applications](https://pinjinpump.com/en/solutions/spraying/): Spraying job context.
+- [喷涂应用](https://pinjinpump.com/zh/solutions/spraying/): 中文喷涂应用.

@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Generate the page sitemap, image sitemap, and robots.txt.
+"""Generate the page sitemap, image sitemap, robots.txt, and llms.txt.
 
 Layout:
   sitemap.xml        canonical en/zh pages (urlset + hreflang)
   image-sitemap.xml  images attached to the pages that show them
   robots.txt         lists both sitemaps
+  llms.txt           Markdown catalog for agents (https://llmstxt.org/)
 
 Do not emit sitemap-pages.xml or a sitemap index. That file duplicated the
 page list and is the extra sitemap to drop.
@@ -19,6 +20,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "public"
@@ -155,6 +157,34 @@ CATEGORY_HUBS = [
     "concrete-pump-parts",
 ]
 
+HUB_TITLES = {
+    "electric-concrete-pumps": (
+        "Electric trailer concrete pumps",
+        "电动混凝土泵",
+        "Electric trailer and compact transfer pumps. Not spraying machines.",
+    ),
+    "diesel-concrete-pumps": (
+        "Diesel trailer concrete pumps",
+        "柴油混凝土泵",
+        "Diesel trailer concrete pumps for sites without three-phase power.",
+    ),
+    "mixer-pumps": (
+        "Mixer pumps",
+        "搅拌泵",
+        "Mix and pump on one trailer. Not a concrete mixing plant.",
+    ),
+    "spraying-machines": (
+        "Spraying machines",
+        "喷涂机",
+        "Hydraulic/diesel concrete sprayers and plaster spraying machines.",
+    ),
+    "concrete-pump-parts": (
+        "Concrete pump spare parts",
+        "混凝土泵配件",
+        "Pipeline, S-valve, and wear parts. Quote after size confirmation.",
+    ),
+}
+
 HUB_PRODUCTS = {
     "electric-concrete-pumps": ELECTRIC,
     "diesel-concrete-pumps": DIESEL,
@@ -175,6 +205,27 @@ BLOG_SLUGS = [
     "low-pressure-40-concrete-pump-guide",
     "concrete-pump-daily-maintenance-checklist",
 ]
+
+BLOG_TITLES = {
+    "electric-15-concrete-pump-applications": "Electric 15 Concrete Pump for Small Building Sites",
+    "diesel-concrete-pump-no-electricity": "Diesel Concrete Pump for Sites Without Electricity",
+    "high-rise-building-concrete-pump-selection": (
+        "High-rise building concrete pump selection: convert floors to metres first"
+    ),
+    "electric-20-vs-30-concrete-pump": (
+        "Electric 20 vs Electric 30 Concrete Pump: Hopper, Pressure and Catalogue Distance"
+    ),
+    "concrete-pump-pipe-dn-selection": "Concrete Pump Pipe DN Selection: DN80 vs DN100/125",
+    "mixer-pump-vs-concrete-mixing-plant": "Mixer Pump vs Mixing Plant: Trailer Mix and Pump",
+    "tractor-4100-concrete-pump-rural": (
+        "Tractor Concrete Pump 4100 for Rural Roads and Village Houses"
+    ),
+    "bridge-construction-concrete-pump-requirements": (
+        "Bridge Construction Concrete Pump Requirements for Pier and Deck Pours"
+    ),
+    "low-pressure-40-concrete-pump-guide": "Low Pressure Concrete Pump: Fine-Stone Electric 40 Guide",
+    "concrete-pump-daily-maintenance-checklist": "Concrete Pump Maintenance: Factory Daily Checklist",
+}
 
 SOLUTION_SLUGS = [
     "construction",
@@ -280,7 +331,7 @@ def existing_images(folder: str, items: list[tuple[str, str]]) -> list[tuple[str
     extras: list[tuple[str, str]] = []
     if root.is_dir():
         for path in sorted(root.glob("*.webp")):
-            if path.name not in listed:
+            if path.name not in listed and not is_responsive_derivative(path.name):
                 extras.append((path.name, path.stem.replace("-", " ")))
     return found + extras
 
@@ -773,18 +824,25 @@ def drop_extra_sitemaps() -> None:
 SRC_DATA = Path(__file__).resolve().parents[1] / "src" / "data"
 
 
+def is_responsive_derivative(name: str) -> bool:
+    return bool(re.search(r"-\d{3,4}\.webp$", name, re.I))
+
+
 def write_image_inventory() -> None:
     factory = [
         f"/images/factory/{path.name}"
         for path in sorted((ROOT / "images" / "factory").glob("*.webp"))
+        if not is_responsive_derivative(path.name)
     ]
     applications = [
         f"/images/applications/{path.name}"
         for path in sorted((ROOT / "images" / "applications").glob("*.webp"))
+        if not is_responsive_derivative(path.name)
     ]
     hero = [
         f"/images/hero/{path.name}"
         for path in sorted((ROOT / "images" / "hero").glob("*.webp"))
+        if not is_responsive_derivative(path.name)
     ]
     products: dict[str, list[str]] = {}
     products_root = ROOT / "images" / "products"
@@ -822,7 +880,7 @@ def write_image_inventory() -> None:
     images_root = ROOT / "images"
     if images_root.is_dir():
         for path in sorted(images_root.rglob("*")):
-            if not path.is_file() or path.suffix.lower() not in {".webp", ".svg", ".png"}:
+            if not path.is_file() or path.suffix.lower() not in {".webp", ".avif", ".svg", ".png"}:
                 continue
             rel = "/" + path.relative_to(ROOT).as_posix()
             digest = hashlib.md5(path.read_bytes()).hexdigest()[:10]
@@ -861,6 +919,163 @@ def write_image_inventory() -> None:
     print(f"wrote {dest.relative_to(SRC_DATA.parent.parent)} factory={len(factory)} products={len(products)}")
 
 
+def product_note(slug: str) -> str:
+    if slug in SPRAYING:
+        return "Catalogue spraying machine from the Xingtai factory."
+    if slug in MIXER:
+        return "Mixer pump: mix and pump on one trailer. Not a mixing plant."
+    if slug in DIESEL:
+        return "Diesel trailer concrete pump. Not a spraying machine."
+    if slug in ELECTRIC:
+        return "Electric trailer concrete pump. Not a spraying machine."
+    if slug in SPARE:
+        return "Replacement wear part. Quote after size confirmation."
+    return "Catalogue product from the Xingtai factory."
+
+
+def representative_product_slugs() -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    extra = ["electric-15-concrete-pump"]
+    for slug in FEATURED + extra + SPRAYING:
+        if slug in seen:
+            continue
+        if slug not in NAMES:
+            raise SystemExit(f"llms.txt product slug not in NAMES: {slug}")
+        seen.add(slug)
+        out.append(slug)
+    return out
+
+
+def md_item(title: str, url: str, note: str | None = None) -> str:
+    if note:
+        return f"- [{title}]({url}): {note}"
+    return f"- [{title}]({url})"
+
+
+def write_llms_txt(base: str) -> int:
+    """Write public/llms.txt in the llmstxt.org Markdown shape Lighthouse checks."""
+
+    def en(rest: str) -> str:
+        return f"{base}{loc_for('en', rest)}"
+
+    def zh(rest: str) -> str:
+        return f"{base}{loc_for('zh', rest)}"
+
+    lines: list[str] = [
+        "# Hebei Pinjin Machinery Manufacturing Co., Ltd.",
+        "",
+        "> Hebei Pinjin Machinery Manufacturing Co., Ltd. (河北品锦机械制造有限公司) "
+        "manufactures electric trailer concrete pumps, diesel trailer concrete pumps, "
+        "mixer pumps, spraying machines, and replacement pipeline / S-valve wear parts "
+        "in Renze Industrial Park, Xingtai, Hebei, China (postal code 055150).",
+        "",
+        "These are not truck-mounted boom pumps or concrete mixing plants. "
+        "Trailer pumps are not spraying machines. This catalog lists English and Chinese "
+        "pages only.",
+        "",
+        "## Site",
+        md_item("Home", en("/"), "English homepage for Pinjin Machinery."),
+        md_item("首页", zh("/"), "Chinese homepage."),
+        md_item("Product catalog", en("/products"), "All published equipment categories."),
+        md_item("产品目录", zh("/products"), "中文产品目录."),
+        "",
+        "## Product categories",
+    ]
+
+    for hub in CATEGORY_HUBS:
+        title_en, title_zh, note = HUB_TITLES[hub]
+        rest = f"/products/{hub}"
+        lines.append(md_item(title_en, en(rest), note))
+        lines.append(md_item(title_zh, zh(rest), "Chinese category page."))
+
+    lines += [
+        "",
+        "## Representative products",
+    ]
+    for slug in representative_product_slugs():
+        rest = f"/products/{slug}"
+        lines.append(md_item(NAMES[slug], en(rest), product_note(slug)))
+        lines.append(
+            md_item(f"{NAMES[slug]} (中文)", zh(rest), "Chinese product page.")
+        )
+
+    lines += [
+        "",
+        "## Knowledge center",
+        md_item(
+            "Knowledge center",
+            en("/blog"),
+            "Equipment and application guides from the Xingtai catalogue.",
+        ),
+        md_item("知识中心", zh("/blog"), "Chinese knowledge index."),
+    ]
+    missing_blogs = [slug for slug in BLOG_SLUGS if slug not in BLOG_TITLES]
+    if missing_blogs:
+        raise SystemExit(f"llms.txt blog titles missing: {missing_blogs}")
+    for slug in BLOG_SLUGS:
+        lines.append(
+            md_item(
+                BLOG_TITLES[slug],
+                en(f"/blog/{slug}"),
+                "English knowledge guide.",
+            )
+        )
+
+    lines += [
+        "",
+        "## Contact",
+        md_item(
+            "Contact",
+            en("/contact"),
+            "Request a quote by email or WhatsApp. Quotes follow published catalogue tables.",
+        ),
+        md_item("联系我们", zh("/contact"), "中文询价页."),
+        "",
+        "Spare parts: quote after size confirmation; no published list price; not sold in "
+        "small batches. Wear parts are Xingtai replacements, not OEM parts of other pump "
+        "brands. Equipment ships from Xingtai. This site does not claim an overseas "
+        "warehouse, exclusive distributor list, or global after-sales network.",
+        "",
+        "## Sitemaps",
+        md_item(
+            "Page sitemap",
+            f"{base}/sitemap.xml",
+            "Canonical English and Chinese page list.",
+        ),
+        md_item(
+            "Image sitemap",
+            f"{base}/image-sitemap.xml",
+            "Images attached to the pages that show them. Catalog images stay delisted.",
+        ),
+        "",
+        "## Optional",
+        md_item(
+            "Product selection guide",
+            en("/product-selection-guide"),
+            "Match a listed model to site distance, output, and power.",
+        ),
+        md_item("选型指南", zh("/product-selection-guide"), "中文选型说明."),
+        md_item("Factory", en("/factory"), "Xingtai factory pages."),
+        md_item("工厂", zh("/factory"), "邢台工厂中文页."),
+        md_item("Applications", en("/solutions"), "Construction, infrastructure, spraying, industrial."),
+        md_item("应用场景", zh("/solutions"), "中文应用页."),
+        md_item("Spraying applications", en("/solutions/spraying"), "Spraying job context."),
+        md_item("喷涂应用", zh("/solutions/spraying"), "中文喷涂应用."),
+        "",
+    ]
+
+    text = "\n".join(lines)
+    if not text.startswith("# "):
+        raise SystemExit("llms.txt must start with an H1")
+    link_count = text.count("](https://pinjinpump.com/")
+    if link_count < 10:
+        raise SystemExit(f"llms.txt expected many absolute markdown links, found {link_count}")
+    (ROOT / "llms.txt").write_text(text, encoding="utf-8")
+    print(f"wrote public/llms.txt links={link_count}")
+    return link_count
+
+
 def main() -> None:
     base = resolve_base()
     slugs = ordered_product_slugs()
@@ -869,6 +1084,7 @@ def main() -> None:
     image_url_count = write_image_sitemap(base, slugs)
     drop_extra_sitemaps()
     write_robots(base)
+    write_llms_txt(base)
     write_image_inventory()
     print(
         f"base={base} langs={LANGS} "
