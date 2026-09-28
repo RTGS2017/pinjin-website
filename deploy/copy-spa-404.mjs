@@ -438,7 +438,8 @@ function stampPage(page) {
     }
   }
   if (page.rest === '/') {
-    const preload = heroPreloadTag();
+    const already = /rel=["']preload["'][^>]*as=["']image["']/i.test(html);
+    const preload = already ? '' : heroPreloadTag();
     if (preload) html = insertHead(html, preload);
   }
   html = insertSeoStatic(html, page);
