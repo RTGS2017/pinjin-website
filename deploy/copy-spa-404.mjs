@@ -15,6 +15,7 @@
  * 5. Do not write legacy / alias / unprefixed HTML shells. Those paths are
  *    HTTP 404 (static 404.html, noindex). Only language UI routes are indexed.
  */
+import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -230,6 +231,42 @@ function toSrc(url) {
   return String(url).replace(/^https?:\/\/pinjinpump\.com/i, '');
 }
 
+function revvedPublicPath(publicPath) {
+  const abs = join(root, 'public', String(publicPath).replace(/^\//, ''));
+  if (!existsSync(abs)) return null;
+  const hash = createHash('md5').update(readFileSync(abs)).digest('hex').slice(0, 10);
+  return `${publicPath}?v=${hash}r3`;
+}
+
+/** Home LCP only. Paths come from src/data/responsiveImages.json when present. */
+function heroPreloadTag() {
+  const manifestPath = join(root, 'src', 'data', 'responsiveImages.json');
+  if (!existsSync(manifestPath)) return '';
+  let manifest;
+  try {
+    manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
+  } catch {
+    return '';
+  }
+  const hero = manifest.hero;
+  if (!hero) return '';
+  const avif = Array.isArray(manifest.avif?.[hero]) ? manifest.avif[hero] : [];
+  const webp = Array.isArray(manifest.webp?.[hero]) ? manifest.webp[hero] : [];
+  const list = avif.length ? avif : webp;
+  if (!list.length) return '';
+  const parts = [];
+  for (const item of list) {
+    const href = revvedPublicPath(item.path);
+    if (!href) return '';
+    parts.push(`${href} ${item.width}w`);
+  }
+  const largest = [...list].sort((a, b) => b.width - a.width)[0];
+  const href = revvedPublicPath(largest.path);
+  if (!href) return '';
+  const type = avif.length ? 'image/avif' : 'image/webp';
+  return `    <link rel="preload" as="image" type="${type}" href="${href}" imagesrcset="${parts.join(', ')}" imagesizes="100vw" fetchpriority="high" />`;
+}
+
 function productOfferJsonLd(page) {
   // Catalogue has no published EXW / list price. Do not invent price, review, or rating.
   return {
@@ -399,6 +436,10 @@ function stampPage(page) {
       html = setPropertyMeta(html, 'og:image:alt', page.imageAlt);
       html = setNamedMeta(html, 'twitter:image:alt', page.imageAlt);
     }
+  }
+  if (page.rest === '/') {
+    const preload = heroPreloadTag();
+    if (preload) html = insertHead(html, preload);
   }
   html = insertSeoStatic(html, page);
   return html;

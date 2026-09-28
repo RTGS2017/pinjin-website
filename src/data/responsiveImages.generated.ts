@@ -1,0 +1,318 @@
+/** Generated responsive derivatives for homepage photographs. */
+export const responsiveWebp: Record<string, { path: string; width: number }[]> = {
+  "/images/hero/pinjin-machinery-factory-xingtai-china.webp": [
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china-1920.webp",
+      "width": 1920
+    },
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china.webp",
+      "width": 2560
+    }
+  ],
+  "/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp": [
+    {
+      "path": "/images/applications/pinjin-concrete-equipment-highway-infrastructure-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp",
+      "width": 1280
+    }
+  ],
+  "/images/applications/pinjin-concrete-pump-building-construction.webp": [
+    {
+      "path": "/images/applications/pinjin-concrete-pump-building-construction-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-pump-building-construction-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-pump-building-construction.webp",
+      "width": 1600
+    }
+  ],
+  "/images/applications/pinjin-concrete-pump-construction-site.webp": [
+    {
+      "path": "/images/applications/pinjin-concrete-pump-construction-site-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-pump-construction-site.webp",
+      "width": 1280
+    }
+  ],
+  "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp": [
+    {
+      "path": "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp",
+      "width": 1600
+    }
+  ],
+  "/images/applications/pinjin-mortar-spraying-machine-building-interior.webp": [
+    {
+      "path": "/images/applications/pinjin-mortar-spraying-machine-building-interior-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-mortar-spraying-machine-building-interior-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/applications/pinjin-mortar-spraying-machine-building-interior.webp",
+      "width": 1600
+    }
+  ],
+  "/images/factory/pinjin-concrete-pump-manufacturing.webp": [
+    {
+      "path": "/images/factory/pinjin-concrete-pump-manufacturing-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-concrete-pump-manufacturing.webp",
+      "width": 1280
+    }
+  ],
+  "/images/factory/pinjin-construction-machinery-factory-loading.webp": [
+    {
+      "path": "/images/factory/pinjin-construction-machinery-factory-loading-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-construction-machinery-factory-loading-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-construction-machinery-factory-loading.webp",
+      "width": 1706
+    }
+  ],
+  "/images/factory/pinjin-diesel-machinery-factory-dispatch.webp": [
+    {
+      "path": "/images/factory/pinjin-diesel-machinery-factory-dispatch-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-diesel-machinery-factory-dispatch-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-diesel-machinery-factory-dispatch.webp",
+      "width": 1707
+    }
+  ],
+  "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp": [
+    {
+      "path": "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp",
+      "width": 1270
+    }
+  ],
+  "/images/factory/pinjin-machinery-workshop-overhead-crane.webp": [
+    {
+      "path": "/images/factory/pinjin-machinery-workshop-overhead-crane-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-machinery-workshop-overhead-crane-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-machinery-workshop-overhead-crane.webp",
+      "width": 1706
+    }
+  ],
+  "/images/factory/pinjin-trailer-concrete-pump-assembly.webp": [
+    {
+      "path": "/images/factory/pinjin-trailer-concrete-pump-assembly-768.webp",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-trailer-concrete-pump-assembly-1280.webp",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-trailer-concrete-pump-assembly.webp",
+      "width": 1706
+    }
+  ]
+};
+
+export const responsiveAvif: Record<string, { path: string; width: number }[]> = {
+  "/images/hero/pinjin-machinery-factory-xingtai-china.webp": [
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china-1920.avif",
+      "width": 1920
+    },
+    {
+      "path": "/images/hero/pinjin-machinery-factory-xingtai-china.avif",
+      "width": 2560
+    }
+  ],
+  "/images/applications/pinjin-concrete-equipment-highway-infrastructure.webp": [
+    {
+      "path": "/images/applications/pinjin-concrete-equipment-highway-infrastructure-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-equipment-highway-infrastructure.avif",
+      "width": 1280
+    }
+  ],
+  "/images/applications/pinjin-concrete-pump-building-construction.webp": [
+    {
+      "path": "/images/applications/pinjin-concrete-pump-building-construction-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-pump-building-construction-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-pump-building-construction.avif",
+      "width": 1600
+    }
+  ],
+  "/images/applications/pinjin-concrete-pump-construction-site.webp": [
+    {
+      "path": "/images/applications/pinjin-concrete-pump-construction-site-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-concrete-pump-construction-site.avif",
+      "width": 1280
+    }
+  ],
+  "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.webp": [
+    {
+      "path": "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/applications/pinjin-hydraulic-mortar-spraying-machine-site.avif",
+      "width": 1600
+    }
+  ],
+  "/images/applications/pinjin-mortar-spraying-machine-building-interior.webp": [
+    {
+      "path": "/images/applications/pinjin-mortar-spraying-machine-building-interior-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/applications/pinjin-mortar-spraying-machine-building-interior-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/applications/pinjin-mortar-spraying-machine-building-interior.avif",
+      "width": 1600
+    }
+  ],
+  "/images/factory/pinjin-concrete-pump-manufacturing.webp": [
+    {
+      "path": "/images/factory/pinjin-concrete-pump-manufacturing-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-concrete-pump-manufacturing.avif",
+      "width": 1280
+    }
+  ],
+  "/images/factory/pinjin-construction-machinery-factory-loading.webp": [
+    {
+      "path": "/images/factory/pinjin-construction-machinery-factory-loading-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-construction-machinery-factory-loading-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-construction-machinery-factory-loading.avif",
+      "width": 1706
+    }
+  ],
+  "/images/factory/pinjin-diesel-machinery-factory-dispatch.webp": [
+    {
+      "path": "/images/factory/pinjin-diesel-machinery-factory-dispatch-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-diesel-machinery-factory-dispatch-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-diesel-machinery-factory-dispatch.avif",
+      "width": 1707
+    }
+  ],
+  "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp": [
+    {
+      "path": "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.avif",
+      "width": 1270
+    }
+  ],
+  "/images/factory/pinjin-machinery-workshop-overhead-crane.webp": [
+    {
+      "path": "/images/factory/pinjin-machinery-workshop-overhead-crane-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-machinery-workshop-overhead-crane-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-machinery-workshop-overhead-crane.avif",
+      "width": 1706
+    }
+  ],
+  "/images/factory/pinjin-trailer-concrete-pump-assembly.webp": [
+    {
+      "path": "/images/factory/pinjin-trailer-concrete-pump-assembly-768.avif",
+      "width": 768
+    },
+    {
+      "path": "/images/factory/pinjin-trailer-concrete-pump-assembly-1280.avif",
+      "width": 1280
+    },
+    {
+      "path": "/images/factory/pinjin-trailer-concrete-pump-assembly.avif",
+      "width": 1706
+    }
+  ]
+};

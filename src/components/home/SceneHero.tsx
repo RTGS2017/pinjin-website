@@ -4,6 +4,7 @@ import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { contactInquiryPath, withBase } from '@/config/site';
 import { companyEntity } from '@/config/entity';
 import { heroGallery } from '@/data/gallery';
+import { largestCandidatePath, srcSetFor } from '@/data/responsiveImages';
 import { homeCopy } from '@/data/homeNarrative';
 import { useI18n } from '@/i18n/I18nContext';
 import { SceneFrame } from './homeScroll';
@@ -11,6 +12,12 @@ import { SceneFrame } from './homeScroll';
 export function SceneHero() {
   const { lang, t, tx } = useI18n();
   const hero = heroGallery[0];
+  const avifSet = srcSetFor(hero.image, 'avif');
+  const webpSet = srcSetFor(hero.image, 'webp');
+  const preloadSet = avifSet || webpSet;
+  const preloadPath = avifSet
+    ? largestCandidatePath(hero.image, 'avif') || hero.image
+    : hero.image;
   const facts = [
     { k: homeCopy.who, v: homeCopy.whoValue },
     { k: homeCopy.what, v: homeCopy.whatValue },
@@ -24,8 +31,11 @@ export function SceneHero() {
         <link
           rel="preload"
           as="image"
-          type="image/webp"
-          href={withBase(hero.image)}
+          type={avifSet ? 'image/avif' : 'image/webp'}
+          href={withBase(preloadPath)}
+          imageSrcSet={preloadSet}
+          imageSizes="100vw"
+          fetchPriority="high"
         />
       </Helmet>
 

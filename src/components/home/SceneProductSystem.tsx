@@ -79,7 +79,6 @@ export function SceneProductSystem() {
                       alt={productImageAlt(featured, featured.image, lang)}
                       label={t.productCard.imageComingSoon}
                       hint=""
-                      eager={index === 0}
                       width={1536}
                       height={1024}
                       sizes="(max-width: 1024px) 100vw, 58vw"

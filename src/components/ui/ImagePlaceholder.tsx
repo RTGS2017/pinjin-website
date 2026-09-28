@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ImageIcon } from 'lucide-react';
 import { withBase } from '@/config/site';
+import { srcSetFor } from '@/data/responsiveImages';
 
 interface ImagePlaceholderProps {
   src: string;
@@ -37,38 +38,73 @@ export function ImagePlaceholder({
   sizes = '(max-width: 768px) 100vw, (max-width: 1280px) 90vw, 1200px',
 }: ImagePlaceholderProps) {
   const [failed, setFailed] = useState(false);
+  const defer = !priority && !eager;
+  const [active, setActive] = useState(!defer);
+  const boxRef = useRef<HTMLDivElement>(null);
   const meaningfulAlt = decorative
     ? ''
     : (alt ?? '').trim() || 'Hebei Pinjin Machinery';
   const resolved = withBase(src);
+  const webpSrcSet = srcSetFor(src, 'webp');
+  const avifSrcSet = srcSetFor(src, 'avif');
 
   useEffect(() => {
     setFailed(false);
   }, [resolved]);
 
+  useEffect(() => {
+    if (!defer) {
+      setActive(true);
+      return;
+    }
+    const el = boxRef.current;
+    if (!el || typeof IntersectionObserver === 'undefined') {
+      setActive(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setActive(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: '640px 0px' },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [defer, resolved]);
+
   return (
     <div
+      ref={boxRef}
       className={`relative overflow-hidden ${className.includes('bg-') ? '' : 'bg-bg-soft'} ${className}`}
       role={decorative ? undefined : 'img'}
       aria-label={decorative ? undefined : meaningfulAlt}
     >
-      {src && !failed ? (
-        <img
-          key={resolved}
-          src={resolved}
-          alt={meaningfulAlt}
-          width={width}
-          height={height}
-          loading={priority || eager ? 'eager' : 'lazy'}
-          decoding="async"
-          fetchPriority={priority ? 'high' : 'auto'}
-          sizes={sizes}
-          onLoad={(event) => {
-            if (event.currentTarget.naturalWidth <= 1) setFailed(true);
-          }}
-          onError={() => setFailed(true)}
-          className={`${imgClassName.includes('h-auto') ? 'w-full' : 'h-full w-full'} ${imgClassName}`}
-        />
+      {src && !failed && active ? (
+        <picture>
+          {avifSrcSet ? (
+            <source type="image/avif" srcSet={avifSrcSet} sizes={sizes} />
+          ) : null}
+          <img
+            key={resolved}
+            src={resolved}
+            srcSet={webpSrcSet}
+            alt={meaningfulAlt}
+            width={width}
+            height={height}
+            loading={priority || eager ? 'eager' : 'lazy'}
+            decoding="async"
+            fetchPriority={priority ? 'high' : 'auto'}
+            sizes={sizes}
+            onLoad={(event) => {
+              if (event.currentTarget.naturalWidth <= 1) setFailed(true);
+            }}
+            onError={() => setFailed(true)}
+            className={`${imgClassName.includes('h-auto') ? 'w-full' : 'h-full w-full'} ${imgClassName}`}
+          />
+        </picture>
       ) : null}
 
       {!src || failed ? (

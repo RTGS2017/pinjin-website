@@ -48,7 +48,6 @@ export function SceneFactory() {
                 alt={tx(step.slide.alt)}
                 label={t.placeholder.factory}
                 hint=""
-                eager={index === 0}
                 width={step.slide.width}
                 height={step.slide.height}
                 sizes="(max-width: 1024px) 100vw, 58vw"

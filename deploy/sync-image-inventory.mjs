@@ -35,10 +35,14 @@ function productFileRank(slug, name) {
   return PRODUCT_ORDER.length;
 }
 
+function isResponsiveDerivative(name) {
+  return /-\d{3,4}\.webp$/i.test(name);
+}
+
 function listWebp(dir, prefix) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir)
-    .filter((name) => name.toLowerCase().endsWith('.webp'))
+    .filter((name) => name.toLowerCase().endsWith('.webp') && !isResponsiveDerivative(name))
     .sort()
     .map((name) => `${prefix}/${name}`);
 }
@@ -87,7 +91,7 @@ if (existsSync(productsRoot)) {
 const revs = {};
 for (const path of walkFiles(IMAGES).sort()) {
   const ext = path.toLowerCase().slice(path.lastIndexOf('.'));
-  if (!['.webp', '.svg', '.png'].includes(ext)) continue;
+  if (!['.webp', '.avif', '.svg', '.png'].includes(ext)) continue;
   const rel = `/${relative(PUBLIC, path).replaceAll('\\', '/')}`;
   revs[rel] = createHash('md5').update(readFileSync(path)).digest('hex').slice(0, 10);
 }

@@ -1,11 +1,10 @@
 import { LocaleLink } from '@/i18n/navigation';
-import { getBlogCover, getBlogPost } from '@/data/blog';
 import { siteFaqs } from '@/data/faq';
+import { homeKnowledgeCards } from '@/data/homeKnowledgeCards';
 import {
   homeFaqIds,
   homeFaqProductLinks,
   homeCopy,
-  homeKnowledgeSlugsShort,
 } from '@/data/homeNarrative';
 import { getProductBySlug } from '@/data/products';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
@@ -17,9 +16,7 @@ export function SceneKnowledge() {
   const faqs = homeFaqIds
     .map((id) => siteFaqs.find((item) => item.id === id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
-  const posts = homeKnowledgeSlugsShort
-    .map((slug) => getBlogPost(slug))
-    .filter((post): post is NonNullable<typeof post> => Boolean(post));
+  const posts = homeKnowledgeCards;
 
   return (
     <SceneFrame sceneKey="knowledge" tone="light">
@@ -76,17 +73,16 @@ export function SceneKnowledge() {
 
       <div className="mt-14 grid gap-8 lg:grid-cols-3">
         {posts.map((post) => {
-          const cover = getBlogCover(post);
           return (
             <article key={post.slug}>
               <LocaleLink to={`/blog/${post.slug}`} className="block overflow-hidden">
                 <ImagePlaceholder
-                  src={cover.src}
-                  alt={tx(cover.alt)}
+                  src={post.image}
+                  alt={tx(post.alt)}
                   label={t.placeholder.image}
                   hint=""
-                  width={1600}
-                  height={900}
+                  width={post.width}
+                  height={post.height}
                   sizes="(max-width: 1024px) 100vw, 30vw"
                   className="aspect-[16/10] w-full"
                   imgClassName="object-cover"

@@ -46,7 +46,6 @@ export function SceneApplications() {
                   alt={`${tx(image.alt)} — Xingtai concrete machinery manufacturer, China concrete pump factory`}
                   label={t.placeholder.application}
                   hint=""
-                  eager={index === 0}
                   width={image.width}
                   height={image.height}
                   sizes="(max-width: 1024px) 100vw, 58vw"
