@@ -385,7 +385,7 @@ CONTENT_SOURCED = Path(__file__).resolve().parents[1] / "content" / "sourced"
 
 
 def load_sourced_blogs() -> list[dict]:
-    """Ready sourced knowledge pages. Sitemap always lists the English URL only."""
+    """Ready sourced knowledge pages. English unless source.json sets indexLangs."""
     out: list[dict] = []
     if not CONTENT_SOURCED.is_dir():
         return out
@@ -398,7 +398,10 @@ def load_sourced_blogs() -> list[dict]:
             continue
         slug = data.get("slug") or folder.name
         image = (data.get("image") or {}).get("src")
-        out.append({"slug": slug, "langs": ["en"], "image": image, "title": data.get("title") or slug})
+        langs = [lang for lang in (data.get("indexLangs") or ["en"]) if lang in ("en", "zh")]
+        if not langs:
+            langs = ["en"]
+        out.append({"slug": slug, "langs": langs, "image": image, "title": data.get("title") or slug})
     return out
 
 
@@ -414,7 +417,7 @@ def sitemap_entries() -> list[dict]:
         rest = f"/blog/{item['slug']}"
         if any(entry["rest"] == rest for entry in entries):
             continue
-        entries.append({"rest": rest, "langs": ["en"]})
+        entries.append({"rest": rest, "langs": item.get("langs") or ["en"]})
     return entries
 
 

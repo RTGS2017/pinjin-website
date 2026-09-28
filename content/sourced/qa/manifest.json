@@ -2481,6 +2481,346 @@
         "slug": "concrete-pump-pipe-clamp-dn80-guide"
       },
       "inArticleFaqs": true
+    },
+    {
+      "id": "qa-171",
+      "question": "How much revenue does the page list for Renze machinery manufacturing in January–October?",
+      "answer": "92.17亿元. Rubber-plastic new materials are listed at 88.90亿元. Both clusters passed 10 billion yuan the previous year.",
+      "questionZh": "稿件所列任泽机械制造1至10月营业收入是多少？",
+      "answerZh": "92.17亿元。橡塑新材料88.90亿元。两大集群去年营收双双过百亿元。",
+      "source": {
+        "name": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+        "url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/dfgz28/2025041919154927273/index.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-172",
+      "question": "How many buildings are occupied at Xingwan Cloud Park phase one?",
+      "answer": "20 modular standard factory buildings, all occupied as of 1 November on that page.",
+      "questionZh": "邢湾智能制造云园区一期入驻了多少栋厂房？",
+      "answerZh": "20栋模块化标准厂房，稿件写明11月1日已经全部入驻。",
+      "source": {
+        "name": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+        "url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/dfgz28/2025041919154927273/index.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-173",
+      "question": "What happened to the 24 buildings planned for phase two?",
+      "answer": "Phase two is not yet under construction. The 24 planned buildings are already fully reserved.",
+      "questionZh": "二期规划的24座厂房是什么状态？",
+      "answerZh": "二期尚未开建，规划的24座厂房已经预订一空。",
+      "source": {
+        "name": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+        "url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/dfgz28/2025041919154927273/index.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-174",
+      "question": "Which parks does the page name?",
+      "answer": "Xingwan Intelligent Manufacturing Cloud Park, Xingwan Machinery and Hardware Industrial Park, and Tiankou Rubber-Plastic Industrial Park.",
+      "questionZh": "稿件点名了哪些园区？",
+      "answerZh": "邢湾智能制造云园区、邢湾机械五金产业园、天口橡塑产业园。",
+      "source": {
+        "name": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+        "url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/dfgz28/2025041919154927273/index.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-175",
+      "question": "What machinery-cluster revenue does Xingtai's notice print for January–November 2024?",
+      "answer": "102亿元, up 7.6%. Rubber-plastic new materials: 96.5亿元, up 6.0%.",
+      "questionZh": "2024年1—11月机械制造集群营业收入是多少？",
+      "answerZh": "102亿元，同比增长7.6%。橡塑新材料96.5亿元，同比增长6.0%。",
+      "source": {
+        "name": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
+        "url": "http://info.xingtai.gov.cn/single/97/382701.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-176",
+      "question": "Where did Renze rank in Xingtai for Beijing-Tianjin technology contracts in 2024?",
+      "answer": "Turnover 3.36亿元, rank 1 in the city.",
+      "questionZh": "2024年任泽吸纳京津技术合同在邢台排第几？",
+      "answerZh": "成交额3.36亿元，全市排名第1。",
+      "source": {
+        "name": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
+        "url": "http://info.xingtai.gov.cn/single/97/382701.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-177",
+      "question": "How many high-tech enterprises does the notice list for 2024?",
+      "answer": "49. National science-and-technology SMEs: 75. Provincial science-and-technology SMEs: 396.",
+      "questionZh": "2024年高新技术企业有多少家？",
+      "answerZh": "49家。国家科技型中小企业75家。省级科技型中小企业396家。",
+      "source": {
+        "name": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
+        "url": "http://info.xingtai.gov.cn/single/97/382701.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-178",
+      "question": "How many provincial innovation platforms are listed?",
+      "answer": "24.",
+      "questionZh": "省级科技创新平台有多少个？",
+      "answerZh": "24个。",
+      "source": {
+        "name": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
+        "url": "http://info.xingtai.gov.cn/single/97/382701.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-179",
+      "question": "Does the 16 December 2023 report say provincial zones cover every county-level division?",
+      "answer": "Yes. It also says more than 10,000 enterprise entities are gathered in the zones.",
+      "questionZh": "2023年12月16日稿是否写明省级开发区覆盖全部县市区？",
+      "answerZh": "写明实现省级开发区县（市、区）全覆盖，聚集各类企业主体上万家。",
+      "source": {
+        "name": "邢台网：开发区成为全市经济重要增长极",
+        "url": "http://www.xtrb.cn/xt/2023-12/16/content_921073.htm",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-180",
+      "question": "What investment totals are printed for the three Xindu projects?",
+      "answer": "62亿元, 25.6亿元, and 13亿元.",
+      "questionZh": "信都经济开发区三个项目的总投资各是多少？",
+      "answerZh": "62亿元、25.6亿元、13亿元。",
+      "source": {
+        "name": "邢台网：开发区成为全市经济重要增长极",
+        "url": "http://www.xtrb.cn/xt/2023-12/16/content_921073.htm",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-181",
+      "question": "What five lines does that zone passage name?",
+      "answer": "New energy, mid-to-high-end equipment manufacturing, emergency rescue, digital economy, and biomedicine.",
+      "questionZh": "该段写的“3+2”主导产业是什么？",
+      "answerZh": "新能源、中高端装备制造、应急救援，以及数字经济、生物医药。",
+      "source": {
+        "name": "邢台网：开发区成为全市经济重要增长极",
+        "url": "http://www.xtrb.cn/xt/2023-12/16/content_921073.htm",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-182",
+      "question": "What is the first SME park named at the high-tech zone?",
+      "answer": "Dongyu Industrial Park.",
+      "questionZh": "高新区稿件点名的首个承载平台是什么？",
+      "answerZh": "东裕产业园。",
+      "source": {
+        "name": "邢台网：开发区成为全市经济重要增长极",
+        "url": "http://www.xtrb.cn/xt/2023-12/16/content_921073.htm",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-183",
+      "question": "What investment does the page print for the CRRC Xingtai blade base?",
+      "answer": "More than 50亿元.",
+      "questionZh": "中车邢台叶片基地总投资写的是多少？",
+      "answerZh": "超50亿元。",
+      "source": {
+        "name": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
+        "url": "http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-184",
+      "question": "Which two firms are named as the wind-equipment cores?",
+      "answer": "CRRC New Energy and Goldwind, with more than 30 supplier firms.",
+      "questionZh": "风电装备双核心是哪两家？",
+      "answerZh": "中车新能源、金风科技，已吸引30余家配套企业。",
+      "source": {
+        "name": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
+        "url": "http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-185",
+      "question": "What digital-information revenue figure is on the page?",
+      "answer": "500亿元 for the city's digital-information industry.",
+      "questionZh": "稿件里的数字信息产业营收数字是多少？",
+      "answerZh": "全市数字信息产业营收达到500亿元。",
+      "source": {
+        "name": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
+        "url": "http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-186",
+      "question": "Which zone was named in the first national batch of emergency-equipment specialty parks?",
+      "answer": "Xingtai Economic Development Zone (市经开区).",
+      "questionZh": "国家首批安全应急装备产业特色园区写的是哪个区？",
+      "answerZh": "市经开区。",
+      "source": {
+        "name": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
+        "url": "http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-187",
+      "question": "What is Xingtai's 2024 import-and-export total in the bulletin?",
+      "answer": "234.7亿元, down 7.3%. Exports 205.6亿元, down 9.0%. Imports 29.1亿元, up 6.6%.",
+      "questionZh": "公报里的2024年邢台进出口总值是多少？",
+      "answerZh": "234.7亿元，比上年下降7.3%。出口205.6亿元，下降9.0%。进口29.1亿元，增长6.6%。",
+      "source": {
+        "name": "邢台市2024年国民经济和社会发展统计公报（对外经济）",
+        "url": "https://tjgb.hongheiku.com/djs/63374.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-188",
+      "question": "What share of Xingtai's 2024 trade was with Belt and Road countries?",
+      "answer": "128.9亿元, 54.9% of the total.",
+      "questionZh": "对共建“一带一路”国家进出口占多少？",
+      "answerZh": "128.9亿元，占进出口总值的54.9%。",
+      "source": {
+        "name": "邢台市2024年国民经济和社会发展统计公报（对外经济）",
+        "url": "https://tjgb.hongheiku.com/djs/63374.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-189",
+      "question": "What mechanical-and-electrical export figure does the bulletin print?",
+      "answer": "108.2亿元, down 16.4%.",
+      "questionZh": "机电产品出口金额是多少？",
+      "answerZh": "108.2亿元，下降16.4%。",
+      "source": {
+        "name": "邢台市2024年国民经济和社会发展统计公报（对外经济）",
+        "url": "https://tjgb.hongheiku.com/djs/63374.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
+    },
+    {
+      "id": "qa-190",
+      "question": "What 2024 construction-machinery export total does the association report?",
+      "answer": "528.59亿美元, up 8.87%, a new high, and the first time above 50 billion US dollars.",
+      "questionZh": "协会整理的2024年工程机械出口额是多少？",
+      "answerZh": "528.59亿美元，同比增长8.87%，再创历史新高，首次突破500亿美元。",
+      "source": {
+        "name": "邢台市2024年国民经济和社会发展统计公报（对外经济）",
+        "url": "https://tjgb.hongheiku.com/djs/63374.html",
+        "type": "industry"
+      },
+      "mount": {
+        "kind": "site-faq",
+        "slug": "faq"
+      },
+      "inArticleFaqs": false
     }
   ]
 }

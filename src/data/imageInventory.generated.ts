@@ -256,6 +256,8 @@ export const publicImageRev: Record<string, string> = {
   "/images/hero/pinjin-machinery-factory-xingtai-china.avif": "e57516652e",
   "/images/hero/pinjin-machinery-factory-xingtai-china.webp": "4a9dd89f52",
   "/images/icon.png": "acf1737e78",
+  "/images/parks/renze-clusters.webp": "675a7b66e5",
+  "/images/parks/xingtai-crcc-wind-blade.webp": "f80041b5ca",
   "/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp": "128a9af3ba",
   "/images/products/b500s-83d-two-stage-pump/source-catalog.png": "4d5a66fc6f",
   "/images/products/b500s-83d-two-stage-pump/source-photo.png": "437dcd962a",

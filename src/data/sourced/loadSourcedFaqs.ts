@@ -1,7 +1,7 @@
 import type { Lang } from '@/i18n/config';
 import type { SourcedQaItem, SourcedQaManifest, SourcedQaMountKind } from './types';
 
-const L = (en: string) => ({ en });
+const L = (en: string, zh?: string) => (zh ? { en, zh } : { en });
 
 const qaModules = import.meta.glob<SourcedQaManifest>(
   '../../../content/sourced/qa/manifest.json',
@@ -33,8 +33,8 @@ export function extraFaqsFor(
         !item.inArticleFaqs,
     )
     .map((item) => ({
-      question: L(item.question),
-      answer: L(item.answer),
+      question: L(item.question, item.questionZh),
+      answer: L(item.answer, item.answerZh),
     }));
 }
 
@@ -53,12 +53,12 @@ export function extraCategoryFaqPlain(slug: string, lang: Lang) {
 }
 
 export function extraSiteFaqItems(lang: Lang) {
-  if (lang !== 'en') return [];
+  if (lang !== 'en' && lang !== 'zh') return [];
   return sourcedQaItems()
     .filter((item) => item.mount.kind === 'site-faq' && !item.inArticleFaqs)
     .map((item) => ({
       id: item.id,
-      question: L(item.question),
-      answer: L(item.answer),
+      question: L(item.question, item.questionZh),
+      answer: L(item.answer, item.answerZh),
     }));
 }

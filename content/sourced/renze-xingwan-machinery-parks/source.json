@@ -1,0 +1,128 @@
+{
+  "slug": "renze-xingwan-machinery-parks",
+  "title": "Renze Xingwan machinery parks: published revenue lines",
+  "seoTitle": "Renze Xingwan machinery parks: published revenue lines",
+  "description": "Hebei Industry and Information Technology: Renze machinery cluster revenue 92.17亿元 for January–October, rubber-plastic 88.90亿元; Xingwan Intelligent Manufacturing Cloud Park phase one filled 20 factory buildings.",
+  "primaryKeyword": "任泽 邢湾智能制造云园区",
+  "secondaryKeywords": [
+    "任泽 邢湾智能制造云园区",
+    "Xingtai industrial park",
+    "邢台进出口"
+  ],
+  "category": "industry-guide",
+  "resourceType": "application-guide",
+  "tags": [
+    "xingtai",
+    "industrial-park",
+    "trade"
+  ],
+  "date": "2026-09-28",
+  "availableLangs": [
+    "en",
+    "zh"
+  ],
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "relatedProductSlugs": [],
+  "relatedArticleSlugs": [],
+  "relatedPaths": [
+    {
+      "href": "/factory",
+      "label": "Xingtai factory"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact"
+    },
+    {
+      "href": "/blog",
+      "label": "Knowledge center"
+    }
+  ],
+  "answerBlock": {
+    "what": "Hebei Industry and Information Technology: Renze machinery cluster revenue 92.17亿元 for January–October, rubber-plastic 88.90亿元; Xingwan Intelligent Manufacturing Cloud Park phase one filled 20 factory buildings.",
+    "who": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+    "factors": [
+      "92.17亿元. Rubber-plastic new materials are listed at 88.90亿元. Both clusters passed 10 billion yuan the previous year.",
+      "20 modular standard factory buildings, all occupied as of 1 November on that page.",
+      "Phase two is not yet under construction. The 24 planned buildings are already fully reserved.",
+      "Xingwan Intelligent Manufacturing Cloud Park, Xingwan Machinery and Hardware Industrial Park, and Tiankou Rubber-Plastic Industrial Park."
+    ],
+    "relatedModels": []
+  },
+  "faqs": [
+    {
+      "question": "How much revenue does the page list for Renze machinery manufacturing in January–October?",
+      "answer": "92.17亿元. Rubber-plastic new materials are listed at 88.90亿元. Both clusters passed 10 billion yuan the previous year."
+    },
+    {
+      "question": "How many buildings are occupied at Xingwan Cloud Park phase one?",
+      "answer": "20 modular standard factory buildings, all occupied as of 1 November on that page."
+    },
+    {
+      "question": "What happened to the 24 buildings planned for phase two?",
+      "answer": "Phase two is not yet under construction. The 24 planned buildings are already fully reserved."
+    },
+    {
+      "question": "Which parks does the page name?",
+      "answer": "Xingwan Intelligent Manufacturing Cloud Park, Xingwan Machinery and Hardware Industrial Park, and Tiankou Rubber-Plastic Industrial Park."
+    }
+  ],
+  "image": {
+    "src": "/images/parks/renze-clusters.webp",
+    "alt": "Photograph published with the Hebei Industry and Information Technology report on Renze machinery and rubber-plastic clusters",
+    "caption": "Photograph on the Hebei Industry and Information Technology page for the Renze cluster report."
+  },
+  "sources": [
+    {
+      "name": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+      "url": "https://gxt.hebei.gov.cn/hbgyhxxht/xwzx32/dfgz28/2025041919154927273/index.html",
+      "type": "industry"
+    }
+  ],
+  "contentStatus": "ready",
+  "i18n": {
+    "zh": {
+      "title": "任泽邢湾机械产业园：已发布营收口径",
+      "seoTitle": "任泽邢湾机械产业园：已发布营收口径",
+      "description": "河北省工业和信息化厅：任泽机械制造集群1至10月营业收入92.17亿元，橡塑新材料88.90亿元；邢湾智能制造云园区一期20栋厂房全部入驻。",
+      "imageAlt": "河北省工业和信息化厅任泽产业集群稿配图。",
+      "imageCaption": "河北省工业和信息化厅任泽产业集群稿配图。",
+      "relatedPathLabels": [
+        "邢台工厂",
+        "联系",
+        "知识中心"
+      ],
+      "answerBlock": {
+        "what": "河北省工业和信息化厅：任泽机械制造集群1至10月营业收入92.17亿元，橡塑新材料88.90亿元；邢湾智能制造云园区一期20栋厂房全部入驻。",
+        "who": "河北省工业和信息化厅：任泽区两大百亿元产业集群",
+        "factors": [
+          "92.17亿元。橡塑新材料88.90亿元。两大集群去年营收双双过百亿元。",
+          "20栋模块化标准厂房，稿件写明11月1日已经全部入驻。",
+          "二期尚未开建，规划的24座厂房已经预订一空。",
+          "邢湾智能制造云园区、邢湾机械五金产业园、天口橡塑产业园。"
+        ]
+      },
+      "faqs": [
+        {
+          "question": "稿件所列任泽机械制造1至10月营业收入是多少？",
+          "answer": "92.17亿元。橡塑新材料88.90亿元。两大集群去年营收双双过百亿元。"
+        },
+        {
+          "question": "邢湾智能制造云园区一期入驻了多少栋厂房？",
+          "answer": "20栋模块化标准厂房，稿件写明11月1日已经全部入驻。"
+        },
+        {
+          "question": "二期规划的24座厂房是什么状态？",
+          "answer": "二期尚未开建，规划的24座厂房已经预订一空。"
+        },
+        {
+          "question": "稿件点名了哪些园区？",
+          "answer": "邢湾智能制造云园区、邢湾机械五金产业园、天口橡塑产业园。"
+        }
+      ]
+    }
+  }
+}

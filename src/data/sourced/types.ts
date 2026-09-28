@@ -78,6 +78,8 @@ export interface SourcedQaItem {
   id: string;
   question: string;
   answer: string;
+  questionZh?: string;
+  answerZh?: string;
   source: SourcedReference;
   mount: { kind: SourcedQaMountKind; slug: string };
   /** True when the same Q/A already lives in a sourced article `faqs` array. */
