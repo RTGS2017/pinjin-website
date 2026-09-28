@@ -9,7 +9,6 @@ export const HOME_SCENES = [
   { key: 'selection', id: 'scene-selection', sticky: true, steps: 0 },
   { key: 'applications', id: 'applications', sticky: false, steps: 0 },
   { key: 'factory', id: 'why-pinjin', sticky: false, steps: 0 },
-  { key: 'evidence', id: 'scene-evidence', sticky: false, steps: 0 },
   { key: 'process', id: 'scene-process', sticky: true, steps: 6 },
   { key: 'knowledge', id: 'scene-knowledge', sticky: false, steps: 0 },
   { key: 'contact', id: 'contact', sticky: false, steps: 0 },
@@ -23,7 +22,6 @@ export const homeSceneLabels: Record<HomeSceneKey, LocalizedText> = {
   selection: L('Find the Right Pump', '按工况选型'),
   applications: L('Applications', '应用场景'),
   factory: L('Factory', '工厂'),
-  evidence: L('Manufacturing Evidence', '可核验证据'),
   process: L('From Inquiry to Shipment', '从询盘到发运'),
   knowledge: L('Buyer Questions', '采购问答'),
   contact: L('Contact', '联系工厂'),
@@ -56,10 +54,6 @@ export const homeCopy = {
   shipmentBody: L(
     'Finished equipment is packed and dispatched from the Xingtai factory after production and inspection.',
     '成品在邢台工厂完成生产与检测后包装发运。',
-  ),
-  evidenceLead: L(
-    'What can be verified on this site: factory photographs, product photographs, published catalogue specifications, and the registered company profile.',
-    '本站可核验的信息：工厂实拍、产品实拍、已公布目录参数，以及已登记的企业资料。',
   ),
   factoryLead: L(
     'Workshop production, assembly, inspection and packing at the Xingtai factory in Renze Industrial Park.',

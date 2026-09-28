@@ -4,9 +4,9 @@ import { SEO, buildBreadcrumbJsonLd } from '@/components/SEO';
 import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import {
-  blogCategoryMeta,
+  blogCategoryLabel,
   blogCategoryOrder,
-  blogResourceTypeMeta,
+  blogResourceTypeLabel,
   getBlogCover,
   getBlogPosts,
   type BlogCategory,
@@ -78,7 +78,7 @@ export function BlogList() {
                         : 'border-border text-text-secondary hover:border-primary',
                     ].join(' ')}
                   >
-                    {tx(blogCategoryMeta[key])}
+                    {tx(blogCategoryLabel(key))}
                   </button>
                 );
               })}
@@ -102,9 +102,9 @@ export function BlogList() {
                     </LocaleLink>
                     <div className="flex flex-1 flex-col p-6">
                       <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
-                        {tx(blogCategoryMeta[post.category])}
-                        {post.resourceType
-                          ? ` · ${tx(blogResourceTypeMeta[post.resourceType])}`
+                        {tx(blogCategoryLabel(post.category))}
+                        {blogResourceTypeLabel(post.resourceType)
+                          ? ` · ${tx(blogResourceTypeLabel(post.resourceType)!)}`
                           : null}
                       </p>
                       <h2 className="mt-3 text-xl font-semibold tracking-tight text-dark">

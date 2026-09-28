@@ -1,10 +1,49 @@
 import type { Lang } from '@/i18n/config';
 import type { LocalizedText } from '@/i18n/types';
-import type { BlogPost, BlogRelatedPath, BlogSection } from '@/data/blog';
+import type { BlogCategory, BlogPost, BlogRelatedPath, BlogSection } from '@/data/blog';
 import { parseMarkdownToSections } from './parseMarkdown';
-import type { SourcedJson } from './types';
+import type { SourcedJson, BlogResourceType } from './types';
 
 const BODY_LANGS: Array<Exclude<Lang, 'en'>> = ['zh', 'pt', 'ar', 'ru'];
+
+const CATEGORY_ALIAS: Record<string, BlogCategory> = {
+  'application-guide': 'application-solutions',
+};
+
+const RESOURCE_ALIAS: Record<string, BlogResourceType> = {
+  'buyer-guide': 'procurement-guide',
+};
+
+const BLOG_CATEGORIES: readonly BlogCategory[] = [
+  'manufacturing-knowledge',
+  'industry-guide',
+  'product-guide',
+  'factory-insights',
+  'application-solutions',
+];
+
+const RESOURCE_TYPES: readonly BlogResourceType[] = [
+  'equipment-guide',
+  'application-guide',
+  'technical-reference',
+  'procurement-guide',
+  'safety-guide',
+  'parts-guide',
+];
+
+function normalizeCategory(value: string | undefined): BlogCategory {
+  const aliased = CATEGORY_ALIAS[value ?? ''] ?? value;
+  return BLOG_CATEGORIES.includes(aliased as BlogCategory)
+    ? (aliased as BlogCategory)
+    : 'industry-guide';
+}
+
+function normalizeResourceType(value: string | undefined): BlogResourceType {
+  const aliased = RESOURCE_ALIAS[value ?? ''] ?? value;
+  return RESOURCE_TYPES.includes(aliased as BlogResourceType)
+    ? (aliased as BlogResourceType)
+    : 'equipment-guide';
+}
 
 const L = (en: string, extra?: Partial<Record<Lang, string>>): LocalizedText =>
   extra ? { en, ...extra } : { en };
@@ -226,7 +265,7 @@ function toPost(slug: string, source: SourcedJson, markdown: string): BlogPost {
     title: locField(source, 'title'),
     seoTitle: source.seoTitle ? locField(source, 'seoTitle') : undefined,
     description: locField(source, 'description'),
-    category: source.category,
+    category: normalizeCategory(source.category),
     date: source.date,
     dateModified: source.dateModified,
     keywords,
@@ -261,7 +300,7 @@ function toPost(slug: string, source: SourcedJson, markdown: string): BlogPost {
     sources: source.sources,
     availableLangs: source.availableLangs,
     contentStatus: source.contentStatus,
-    resourceType: source.resourceType,
+    resourceType: normalizeResourceType(source.resourceType),
     tags: source.tags,
     missingSources: source.missingSources,
   };

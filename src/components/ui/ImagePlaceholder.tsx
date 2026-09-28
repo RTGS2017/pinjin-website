@@ -39,7 +39,7 @@ export function ImagePlaceholder({
   const [failed, setFailed] = useState(false);
   const meaningfulAlt = decorative
     ? ''
-    : alt.trim() || 'Hebei Pinjin Machinery';
+    : (alt ?? '').trim() || 'Hebei Pinjin Machinery';
   const resolved = withBase(src);
 
   useEffect(() => {

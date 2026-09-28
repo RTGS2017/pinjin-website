@@ -148,65 +148,67 @@ export function Header() {
       <div className="relative" onMouseLeave={scheduleClose}>
         <div className="site-header-rule">
           <div className="container-site site-header-bar">
-            <LocaleLink
-              to="/"
-              className="site-header-brand"
-              onClick={() => {
-                setMobileOpen(false);
-                closeMegaNow();
-              }}
-            >
-              <img
-                src={withBase(siteConfig.logoPath)}
-                alt=""
-                width={40}
-                height={40}
-                className="site-header-logo"
-              />
-              <span className="site-header-lockup">
-                <span className="site-header-name">{siteConfig.brandName}</span>
-                <span className="site-header-tag">{tx(homeCopy.brandLockup)}</span>
-              </span>
-            </LocaleLink>
+            <div className="site-header-cluster">
+              <LocaleLink
+                to="/"
+                className="site-header-brand"
+                onClick={() => {
+                  setMobileOpen(false);
+                  closeMegaNow();
+                }}
+              >
+                <img
+                  src={withBase(siteConfig.logoPath)}
+                  alt=""
+                  width={40}
+                  height={40}
+                  className="site-header-logo"
+                />
+                <span className="site-header-lockup">
+                  <span className="site-header-name">{siteConfig.brandName}</span>
+                  <span className="site-header-tag">{tx(homeCopy.brandLockup)}</span>
+                </span>
+              </LocaleLink>
 
-            <nav className="site-header-nav" aria-label="Main">
-              {navItems.map((item) =>
-                item.mega ? (
-                  <LocaleNavLink
-                    key={item.key}
-                    to={item.href}
-                    className={() =>
-                      navLinkClass(isGroupActive(item.key, item.href) || openKey === item.key)
-                    }
-                    aria-expanded={openKey === item.key}
-                    aria-haspopup="true"
-                    aria-controls={`mega-${item.key}`}
-                    onMouseEnter={() => openMega(item.key)}
-                    onFocus={() => openMega(item.key)}
-                  >
-                    {t.nav[item.key]}
-                    <ChevronDown
-                      className={[
-                        'site-header-caret',
-                        openKey === item.key ? 'is-open' : '',
-                      ]
-                        .filter(Boolean)
-                        .join(' ')}
-                      aria-hidden
-                    />
-                  </LocaleNavLink>
-                ) : (
-                  <LocaleNavLink
-                    key={item.key}
-                    to={item.href}
-                    className={() => navLinkClass(isGroupActive(item.key, item.href))}
-                    onMouseEnter={closeMegaNow}
-                  >
-                    {t.nav[item.key]}
-                  </LocaleNavLink>
-                ),
-              )}
-            </nav>
+              <nav className="site-header-nav" aria-label="Main">
+                {navItems.map((item) =>
+                  item.mega ? (
+                    <LocaleNavLink
+                      key={item.key}
+                      to={item.href}
+                      className={() =>
+                        navLinkClass(isGroupActive(item.key, item.href) || openKey === item.key)
+                      }
+                      aria-expanded={openKey === item.key}
+                      aria-haspopup="true"
+                      aria-controls={`mega-${item.key}`}
+                      onMouseEnter={() => openMega(item.key)}
+                      onFocus={() => openMega(item.key)}
+                    >
+                      {t.nav[item.key]}
+                      <ChevronDown
+                        className={[
+                          'site-header-caret',
+                          openKey === item.key ? 'is-open' : '',
+                        ]
+                          .filter(Boolean)
+                          .join(' ')}
+                        aria-hidden
+                      />
+                    </LocaleNavLink>
+                  ) : (
+                    <LocaleNavLink
+                      key={item.key}
+                      to={item.href}
+                      className={() => navLinkClass(isGroupActive(item.key, item.href))}
+                      onMouseEnter={closeMegaNow}
+                    >
+                      {t.nav[item.key]}
+                    </LocaleNavLink>
+                  ),
+                )}
+              </nav>
+            </div>
 
             <div className="site-header-actions" onMouseEnter={closeMegaNow}>
               <LanguageSwitcher

@@ -11,7 +11,7 @@ const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 function factoryImage(id: string) {
   const slide = getFactorySlide(id);
   if (!slide) {
-    throw new Error(`Missing factory slide: ${id}`);
+    return { src: '', alt: L('Factory photograph', '工厂实拍') };
   }
   return { src: slide.image, alt: slide.alt, caption: slide.title };
 }
@@ -47,6 +47,21 @@ export const blogResourceTypeMeta: Record<BlogResourceType, LocalizedText> = {
   'safety-guide': L('Safety guide', '安全指南'),
   'parts-guide': L('Parts guide', '配件指南'),
 };
+
+export function blogCategoryLabel(category: string | undefined): LocalizedText {
+  if (category && category in blogCategoryMeta) {
+    return blogCategoryMeta[category as BlogCategory];
+  }
+  return L(category || 'Article', '文章');
+}
+
+export function blogResourceTypeLabel(type: string | undefined): LocalizedText | undefined {
+  if (!type) return undefined;
+  if (type in blogResourceTypeMeta) {
+    return blogResourceTypeMeta[type as BlogResourceType];
+  }
+  return undefined;
+}
 
 export interface BlogSection {
   heading: LocalizedText;

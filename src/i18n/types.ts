@@ -8,6 +8,7 @@ export type LocalizedText = { en: string } & Partial<Record<Lang, string>>;
 
 export type { Lang };
 
-export function pick(text: LocalizedText, lang: Lang): string {
-  return text[lang] || text.en;
+export function pick(text: LocalizedText | null | undefined, lang: Lang): string {
+  if (!text) return '';
+  return text[lang] || text.en || '';
 }

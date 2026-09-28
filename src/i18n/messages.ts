@@ -58,12 +58,12 @@ export const messages = {
     },
     hero: {
       intro:
-        'Hebei Pinjin Machinery is a source manufacturer in Xingtai, Hebei, making concrete pumps and related construction machinery.',
+        'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a professional concrete pump manufacturer in Xingtai, Hebei, China.',
       title: 'China Professional Concrete Machinery Manufacturer',
       subtitle:
         'Electric concrete pumps, diesel concrete pumps, mixer pumps, spraying machines, pipeline spare parts and OEM customization from Xingtai.',
       directAnswer:
-        'We build electric and diesel trailer pumps, mixer pumps and spraying machines in Xingtai. Match mix, aggregate, distance and power to the catalogue. Trailer pumps are not boom pumps or plants; spraying machines are listed separately. Parts are quoted after size confirmation — no list price, no overseas warehouse.',
+        'Main products: electric concrete pumps, diesel trailer pumps, mixer pumps and spraying machines.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
     },
@@ -618,11 +618,11 @@ export const messages = {
     },
     hero: {
       intro:
-        '河北品锦机械是河北邢台的源头制造商，生产混凝土泵及相关工程机械。',
+        '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，专业生产混凝土泵。',
       title: '中国专业混凝土机械制造商',
       subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵、喷涂机、管路配件，以及来自邢台的 OEM 定制。',
       directAnswer:
-        '我们在邢台制造电动、柴油拖式泵、搅拌泵与喷涂机。请按目录对照配合比、骨料、距离与动力。拖式泵不是臂架泵或搅拌站；喷涂机另列。配件确认尺寸后报价——无标价、不声称海外仓。',
+        '主要产品：电动混凝土泵、柴油拖式泵、搅拌泵、喷涂机。',
       explore: '浏览产品',
       quote: '联系工程师',
     },

@@ -15,8 +15,8 @@ import { InternalLinks } from '@/components/InternalLink';
 import { RichText } from '@/components/ui/RichText';
 import { getBlogDirectAnswer, getBlogFaqPlain, maintenanceHowToSteps } from '@/data/blogGeo';
 import {
-  blogCategoryMeta,
-  blogResourceTypeMeta,
+  blogCategoryLabel,
+  blogResourceTypeLabel,
   getBlogPost,
   getBlogPosts,
   isIndexablePost,
@@ -148,8 +148,10 @@ export function BlogDetail() {
         </nav>
 
         <p className="text-xs font-semibold tracking-[0.14em] text-primary uppercase">
-          {tx(blogCategoryMeta[post.category])}
-          {post.resourceType ? ` · ${tx(blogResourceTypeMeta[post.resourceType])}` : null}
+          {tx(blogCategoryLabel(post.category))}
+          {blogResourceTypeLabel(post.resourceType)
+            ? ` · ${tx(blogResourceTypeLabel(post.resourceType)!)}`
+            : null}
         </p>
         <h1 className="mt-3 heading-display max-w-4xl text-3xl sm:text-4xl">
           {title}
