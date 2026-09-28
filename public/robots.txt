@@ -29,3 +29,4 @@ Disallow: /dev/
 
 Sitemap: https://pinjinpump.com/sitemap.xml
 Sitemap: https://pinjinpump.com/image-sitemap.xml
+# AI catalog: https://pinjinpump.com/llms.txt
