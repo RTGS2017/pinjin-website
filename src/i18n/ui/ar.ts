@@ -58,6 +58,13 @@ export const messagesAr = {
     explore: 'استعرض المنتجات',
     quote: 'تواصل مع المهندس',
     clipsKicker: 'مقاطع من موقع العمل',
+    fieldMedia: 'وسائط ميدانية',
+    jobsite: 'موقع العمل',
+    xingtai: 'شينغتاي',
+    fieldBrand: 'Pinjin Machinery',
+    liveFeed: 'بث ميداني نشط',
+    openClip: 'فتح مقطع ميداني',
+    closeClip: 'إغلاق',
   },
   company: {
     title: 'معدات بناء\nعالية الأداء',

@@ -58,6 +58,13 @@ export const messagesPt = {
     explore: 'Ver produtos',
     quote: 'Falar com engenheiro',
     clipsKicker: 'Clipes de obra',
+    fieldMedia: 'Mídia de campo',
+    jobsite: 'Obra',
+    xingtai: 'Xingtai',
+    fieldBrand: 'Pinjin Machinery',
+    liveFeed: 'Feed de campo ativo',
+    openClip: 'Abrir clipe de campo',
+    closeClip: 'Fechar',
   },
   company: {
     title: 'EQUIPAMENTOS DE CONSTRUÇÃO\nDE ALTO DESEMPENHO',

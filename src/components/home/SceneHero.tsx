@@ -1,15 +1,14 @@
 import { Button } from '@/components/ui/Button';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { contactInquiryPath } from '@/config/site';
-import { companyEntity } from '@/config/entity';
 import { heroGallery } from '@/data/gallery';
 import { homeCopy } from '@/data/homeNarrative';
 import { useI18n } from '@/i18n/I18nContext';
-import { HeroVideoGallery } from './HeroVideoGallery';
+import { FieldMediaConsole } from './HeroVideoGallery';
 import { SceneFrame } from './homeScroll';
 
 export function SceneHero() {
-  const { lang, t, tx } = useI18n();
+  const { t, tx } = useI18n();
   const hero = heroGallery[0];
   const facts = [
     { k: homeCopy.who, v: homeCopy.whoValue },
@@ -36,40 +35,32 @@ export function SceneHero() {
           />
         </div>
 
-        <div className="home-hero-copy scene-stagger container-site">
+        <div className="home-hero-copy container-site">
           <div className="home-hero-text">
-            <p className="home-scene-kicker text-white/40" aria-hidden>
+            <p className="home-hero-kicker" aria-hidden>
               01
             </p>
-            <p className="max-w-xl text-sm leading-relaxed text-white/75 sm:text-base">
-              {t.hero.intro}
-            </p>
-            <h1 className="mt-5 heading-display text-4xl text-white sm:text-5xl lg:text-[3.35rem]">
-              {t.hero.title}
-            </h1>
-            <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/82 sm:text-lg">
-              {t.hero.directAnswer}
-            </p>
+            <p className="home-hero-intro">{t.hero.intro}</p>
+            <h1 className="home-hero-title heading-display">{t.hero.title}</h1>
+            <p className="home-hero-lead">{t.hero.directAnswer}</p>
+          </div>
 
-            <dl className="mt-8 grid gap-4 sm:grid-cols-2">
+          <div className="home-hero-rail" aria-hidden>
+            <span className="home-hero-rail-tick" />
+          </div>
+
+          <FieldMediaConsole />
+
+          <div className="home-hero-meta">
+            <dl className="home-hero-facts">
               {facts.map((fact) => (
-                <div key={fact.k.en} className="border-t border-white/20 pt-3">
-                  <dt className="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">
-                    {tx(fact.k)}
-                  </dt>
-                  <dd className="mt-1 text-sm font-semibold text-white">{tx(fact.v)}</dd>
+                <div key={fact.k.en}>
+                  <dt>{tx(fact.k)}</dt>
+                  <dd>{tx(fact.v)}</dd>
                 </div>
               ))}
             </dl>
-
-            <p className="mt-6 text-sm text-white/60">
-              {companyEntity.shortName[lang] || companyEntity.shortName.en}
-              {' · '}
-              {companyEntity.location.locality}, {companyEntity.location.region},{' '}
-              {companyEntity.location.country}
-            </p>
-
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <div className="home-hero-cta">
               <Button to="/products" size="lg" className="w-full sm:w-auto">
                 {tx(homeCopy.viewProducts)}
               </Button>
@@ -83,8 +74,6 @@ export function SceneHero() {
               </Button>
             </div>
           </div>
-
-          <HeroVideoGallery />
         </div>
       </div>
     </SceneFrame>

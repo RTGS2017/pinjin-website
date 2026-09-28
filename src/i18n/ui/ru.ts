@@ -57,6 +57,13 @@ export const messagesRu = {
     explore: 'Смотреть продукцию',
     quote: 'Связаться с инженером',
     clipsKicker: 'Ролики со стройплощадки',
+    fieldMedia: 'Полевые материалы',
+    jobsite: 'Площадка',
+    xingtai: 'Синтай',
+    fieldBrand: 'Pinjin Machinery',
+    liveFeed: 'Полевой канал активен',
+    openClip: 'Открыть полевой ролик',
+    closeClip: 'Закрыть',
   },
   company: {
     title: 'ВЫСОКОПРОИЗВОДИТЕЛЬНАЯ\nСТРОИТЕЛЬНАЯ ТЕХНИКА',

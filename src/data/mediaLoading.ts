@@ -1,13 +1,11 @@
 /**
- * Homepage Hero video loading policy, used by HeroVideoGallery.
+ * Homepage Field Media Console loading policy.
  *
- * - The active clip uses preload="auto" (muted, playsInline).
- * - The previous and next clips use preload="metadata" only.
- * - Every other file stays poster-only: do not create a <video> network request.
- * - Clips mount only after the gallery is in view. Reduced-motion stays poster-only.
- * - On unmount or when distance > 1, pause and clear src (then load())
- *   so the decoder and buffer are released.
- * - Never preload the library from index.html. Factory still remains the LCP image.
+ * - Only the active clip uses preload="auto" (muted, playsInline).
+ * - The next clip uses preload="metadata" and is fetched after the console is in view.
+ * - Other files stay poster-only.
+ * - Reduced-motion stays poster-only. Never preload clips from index.html.
+ * - Factory still remains the LCP image.
  */
 export type MediaPreload = 'auto' | 'metadata' | 'none';
 
