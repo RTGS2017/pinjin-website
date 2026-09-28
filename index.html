@@ -16,16 +16,6 @@
     <meta name="twitter:card" content="summary_large_image" />
     <title>Concrete Pump Manufacturer China | Hebei Pinjin Machinery</title>
     <link rel="canonical" href="https://pinjinpump.com/en/" />
-    <!-- LCP: discoverable in HTML, not after JS. Browser picks width from imagesrcset. -->
-    <link
-      rel="preload"
-      as="image"
-      type="image/avif"
-      href="/images/hero/pinjin-machinery-factory-xingtai-china-1920.avif"
-      imagesrcset="/images/hero/pinjin-machinery-factory-xingtai-china-768.avif 768w, /images/hero/pinjin-machinery-factory-xingtai-china-1280.avif 1280w, /images/hero/pinjin-machinery-factory-xingtai-china-1920.avif 1920w, /images/hero/pinjin-machinery-factory-xingtai-china.avif 2560w"
-      imagesizes="100vw"
-      fetchpriority="high"
-    />
     <script>
       (function () {
         var path = location.pathname;
@@ -80,9 +70,9 @@
       (function () {
         var match = location.pathname.match(/\/(zh|ar)(\/|$)/);
         var lang = match ? match[1] : '';
-        var families = 'family=Inter:wght@400;600';
-        if (lang === 'zh') families += '&family=Noto+Sans+SC:wght@400;600';
-        if (lang === 'ar') families += '&family=Noto+Sans+Arabic:wght@400;600;700';
+        var families = 'family=Inter:wght@400;500;600;700';
+        if (lang === 'zh') families += '&family=Noto+Sans+SC:wght@400;500;600';
+        if (lang === 'ar') families += '&family=Noto+Sans+Arabic:wght@400;500;600;700';
         var link = document.createElement('link');
         link.rel = 'stylesheet';
         link.href = 'https://fonts.googleapis.com/css2?' + families + '&display=swap';
