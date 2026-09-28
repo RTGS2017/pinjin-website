@@ -4,7 +4,7 @@ Masonry cores and small опалубка need a pumpable mix that matches the pr
 
 This page is also not a rewrite of [secondary-structure](/blog/secondary-structure-concrete-pump-column-beam/), which covers small columns. Here we only match listed compact / мелкий камень rows to core and опалубка filling.
 
-![B500S мелкий камень pump from Hebei Pinjin Machinery in Синтай](/images/products/b500s-83d-two-stage-pump/main.webp)
+![B500S мелкий камень pump from Hebei Pinjin Machinery in Синтай](/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp)
 *B500S — 280 kg, 7.5 kW, 5–16 mm, 5 m / 5 m, 280 kg. Catalogue cells, not a кладка-bond certificate.*
 
 ## Строки каталога, которые сравнивают покупатели

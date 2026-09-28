@@ -4,7 +4,7 @@
 
 本页也不是 [二次结构](/blog/secondary-structure-concrete-pump-column-beam/) 的改写，那一篇覆盖小柱。这里只把已列紧凑 / 细石行对上芯孔和模板填充。
 
-![河北品锦机械邢台 B500S-83D 两级结构泵](/images/products/b500s-83d-two-stage-pump/main.webp)
+![河北品锦机械邢台 B500S-83D 两级结构泵](/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp)
 *B500S-83D — 7.5 kW、5–16 mm、5 m / 5 m、280 kg。目录单元格，不是砌体粘结证书。*
 
 ## 买家实际对照的目录行

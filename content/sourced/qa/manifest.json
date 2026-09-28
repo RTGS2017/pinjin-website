@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27",
-  "note": "Sourced QAs qa-01…qa-150. Blog items with inArticleFaqs live on each article source.json. Extra items inject on EN product, category and /faq pages only. Numbers from Pinjin catalogue or named public sources. Listing marketing copy is not reused.",
+  "generated": "2026-09-28",
+  "note": "Sourced QAs qa-01…qa-170. Blog items with inArticleFaqs live on each article source.json. Extra items inject on EN product, category and /faq pages only. Numbers from Pinjin catalogue or named public sources. Listing marketing copy is not reused.",
   "items": [
     {
       "id": "qa-01",
@@ -734,7 +734,7 @@
     },
     {
       "id": "qa-51",
-      "question": "Can I prime a Pinjin trailer pump with water instead of grout?",
+      "question": "Does the priming guide allow water instead of cement slurry on a Pinjin trailer pump?",
       "answer": "ACPA (23 July 2020): always prime the pump and placing line before concrete; the preferred primer is a thin Portland-cement slurry. In most cases ACPA does not recommend water priming. Pinjin does not publish a factory primer recipe or sack count.",
       "source": {
         "name": "ACPA revises its statement on water priming (23 July 2020)",
@@ -2181,6 +2181,306 @@
         "kind": "site-faq",
         "slug": "faq"
       }
+    },
+    {
+      "id": "qa-151",
+      "question": "Does the LZ-60 page print a hopper volume?",
+      "answer": "No. LZ-60 lists 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m and 5500 kg. Hopper m³ is not on that sheet. Diesel 60 prints hopper 0.4 m³ on its own page.",
+      "source": {
+        "name": "Pinjin LZ-60 product page",
+        "url": "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "lz-60-diesel-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-152",
+      "question": "Can I use the Alibaba 15–90 m³ capacity title as the LZ-60 output?",
+      "answer": "No. A March 2025 Alibaba trailer-pump showroom listing uses a 15-20-30-50-90 m³ capacity title. LZ-60 prints 50 m³/h. Quote the Xingtai cell, not the marketplace title.",
+      "source": {
+        "name": "Pinjin LZ-60 product page",
+        "url": "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "lz-60-diesel-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-153",
+      "question": "Does the rural diesel pump print a delivery pipe diameter?",
+      "answer": "No. The sheet prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Pipe DN is not on that page. Straight pipe and hose are quoted after the pump model.",
+      "source": {
+        "name": "Pinjin rural diesel product page",
+        "url": "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "rural-diesel-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-154",
+      "question": "Is 5–8 m³/h inside the Alibaba SmartBuy mini-pump 10–30 m³/h band?",
+      "answer": "SmartBuy describes mini pumps as about 10–30 m³/h and a residential FAQ as 30–60 m³/h. The rural diesel page prints 5–8 m³/h. The marketplace band does not rewrite the Xingtai cell.",
+      "source": {
+        "name": "Pinjin rural diesel product page",
+        "url": "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "rural-diesel-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-155",
+      "question": "Does the diesel mixer pump list a 14 kW mixer motor?",
+      "answer": "No. This page lists one 4108 diesel at 66–75 kW, 25 m³/h, hopper 0.4 m³ and 4200 kg. The electric integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 21 m³/h and 4500 kg. Two product pages.",
+      "source": {
+        "name": "Pinjin diesel mixer integrated pump product page",
+        "url": "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-mixer-integrated-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-156",
+      "question": "What mixer size does the diesel mixer pump series note print?",
+      "answer": "30 model with 400 mixer; 40/50 model with 500 mixer. Output on the page is 25 m³/h. The note is the drum pairing, not a second published m³/h.",
+      "source": {
+        "name": "Pinjin diesel mixer integrated pump product page",
+        "url": "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "diesel-mixer-integrated-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-157",
+      "question": "Is Electric Low Pressure 60 the 90 kW trailer on the Alibaba showroom?",
+      "answer": "No. Low Pressure 60 prints 75 kW and 35 m³/h. Electric 60 prints 90 kW and 40 m³/h. A March 2025 Alibaba listing title reads 6013 electric trailer pump 90 kW. That title is not the 75 kW row.",
+      "source": {
+        "name": "Pinjin Electric Low Pressure 60 product page",
+        "url": "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-low-pressure-60-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-158",
+      "question": "Does Low Pressure 60 print one distance for every stone size?",
+      "answer": "No. Fine stone is 150 m / 350 m. 13 mm stone is 100 m / 300 m. 24 mm stone is 80 m / 240 m. Match the stone to the printed pair.",
+      "source": {
+        "name": "Pinjin Electric Low Pressure 60 product page",
+        "url": "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-low-pressure-60-concrete-pump-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-159",
+      "question": "Does Electric 20 print 380 V or 50 Hz?",
+      "answer": "No. Electric 20 prints 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm and 900 kg. Rated voltage is printed on B500S-83D (380 V), not on this page. Send the site voltage with the inquiry.",
+      "source": {
+        "name": "Pinjin Electric 20 product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-20-concrete-pump-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-160",
+      "question": "Is Electric 20 the Alibaba 10–20 m³/h new-arrival pump?",
+      "answer": "No. A March 2025 Alibaba listing title reads 10 m³/h–20 m³/h. Electric 20 prints 8–10 m³/h. Use the Xingtai cell.",
+      "source": {
+        "name": "Pinjin Electric 20 product page",
+        "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-20-concrete-pump-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-161",
+      "question": "Does Electric 30 print a Kawasaki hydraulic pump?",
+      "answer": "No. Electric 30 prints 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m and aggregate ≤ 3 cm. Low Pressure 40 prints Kawasaki 112 on its own page.",
+      "source": {
+        "name": "Pinjin Electric 30 product page",
+        "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-30-concrete-pump-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-162",
+      "question": "Can I use Electric 30’s 60 m / 180 m fine-stone cell with 3 cm stone?",
+      "answer": "The same page prints aggregate-13 pumping at 20 m / 60 m and max aggregate ≤ 3 cm. Fine stone 60 m / 180 m is the fine-stone row. Match stone size to the printed pair.",
+      "source": {
+        "name": "Pinjin Electric 30 product page",
+        "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "electric-30-concrete-pump-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-163",
+      "question": "Does Pinjin print a list price or a fixed DN table for the straight delivery pipe?",
+      "answer": "No. Diameter, wall and length are quoted after the pump model. The page does not publish a list price and does not sell small batches. Send the pump model, DN and length.",
+      "source": {
+        "name": "Pinjin delivery pipe product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-delivery-pipe-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-164",
+      "question": "Is the marketplace 20-piece MOQ the Pinjin delivery-pipe minimum?",
+      "answer": "No. A Made-in-China delivery-pipe listing shows price to be negotiated above 20 pieces, with DN100 / DN125 / custom and ST52 or 45Mn2. Those cells are not printed on the Pinjin pipe page.",
+      "source": {
+        "name": "Pinjin delivery pipe product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-delivery-pipe-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-165",
+      "question": "What bend radius is printed on this elbow?",
+      "answer": "R275 and 90°, nominal diameter DN200. The label reads dedicated concrete pump-truck pipe, with a heel bracket. Other radii are not on this page.",
+      "source": {
+        "name": "Pinjin DN200 elbow product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-elbow-dn200-90/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-elbow-dn200-90-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-166",
+      "question": "Does the DN200 elbow fit Electric 20’s 80 mm pipe without a quoted change?",
+      "answer": "The site does not print that fit. Electric 20 lists 80 mm. This elbow is labelled DN200. Other diameters are quoted after the pump model. Do not assume the pieces mate.",
+      "source": {
+        "name": "Pinjin DN200 elbow product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-elbow-dn200-90/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-elbow-dn200-90-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-167",
+      "question": "Does the delivery hose page print an inner diameter or a steel grade?",
+      "answer": "No. Inner diameter and length are quoted after the pump model. Ends are steel couplings. No steel grade, no list price, and no small-batch shipping are printed.",
+      "source": {
+        "name": "Pinjin delivery hose product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-delivery-hose-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-168",
+      "question": "Can one hose replace the straight delivery pipe SKU?",
+      "answer": "No. The hose page and the straight-pipe page are separate parts. Quote each after the pump model, DN and length. See the hose-versus-steel note for why the line is not one SKU.",
+      "source": {
+        "name": "Pinjin delivery hose product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-delivery-hose-catalogue"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-169",
+      "question": "What is stamped on the DN80 clamp?",
+      "answer": "EN14420-3, DN80, PN10/16 and 3″/89, plus a hinge, grease nipple and two-hole base. Other diameters are quoted after the pipeline. No list price is printed.",
+      "source": {
+        "name": "Pinjin DN80 pipe clamp product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-pipe-clamp-dn80-guide"
+      },
+      "inArticleFaqs": true
+    },
+    {
+      "id": "qa-170",
+      "question": "Can this DN80 clamp close the DN200 elbow?",
+      "answer": "The site does not print that pairing. The clamp page is DN80. The elbow page is DN200. They are separate SKUs. Confirm diameter before quoting.",
+      "source": {
+        "name": "Pinjin DN80 pipe clamp product page",
+        "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
+        "type": "pinjin"
+      },
+      "mount": {
+        "kind": "blog",
+        "slug": "concrete-pump-pipe-clamp-dn80-guide"
+      },
+      "inArticleFaqs": true
     }
   ]
 }

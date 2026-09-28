@@ -4,7 +4,7 @@ Masonry cores and small شدات need a pumpable mix that matches the printed ر
 
 This page is also not a rewrite of [secondary-structure](/blog/secondary-structure-concrete-pump-column-beam/), which covers small columns. Here we only match listed compact / حصى ناعم rows to core and شدات filling.
 
-![B500S حصى ناعم pump from Hebei Pinjin Machinery in شينغتاي](/images/products/b500s-83d-two-stage-pump/main.webp)
+![B500S حصى ناعم pump from Hebei Pinjin Machinery in شينغتاي](/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp)
 *B500S — 280 kg, 7.5 kW, 5–16 mm, 5 m / 5 m, 280 kg. Catalogue cells, not a بناء حجري-bond certificate.*
 
 ## الصفوف المدرجة التي يقارنها المشترون

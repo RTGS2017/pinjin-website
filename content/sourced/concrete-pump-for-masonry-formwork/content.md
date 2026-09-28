@@ -4,7 +4,7 @@ Masonry cores and small formwork need a pumpable mix that matches the printed ag
 
 This page is also not a rewrite of [secondary-structure](/blog/secondary-structure-concrete-pump-column-beam/), which covers small columns. Here we only match listed compact / fine-stone rows to core and formwork filling.
 
-![B500S fine stone pump from Hebei Pinjin Machinery in Xingtai](/images/products/b500s-83d-two-stage-pump/main.webp)
+![B500S fine stone pump from Hebei Pinjin Machinery in Xingtai](/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp)
 *B500S-83D — 7.5 kW, 5–16 mm, 5 m / 5 m, 280 kg. Catalogue cells, not a masonry-bond certificate.*
 
 ## Listed rows that buyers actually compare

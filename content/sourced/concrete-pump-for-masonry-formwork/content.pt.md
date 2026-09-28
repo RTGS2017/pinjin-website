@@ -4,7 +4,7 @@ Masonry cores and small forma need a pumpable mix that matches the printed agreg
 
 This page is also not a rewrite of [secondary-structure](/blog/secondary-structure-concrete-pump-column-beam/), which covers small columns. Here we only match listed compact / pedra fina rows to core and forma filling.
 
-![B500S pedra fina pump from Hebei Pinjin Machinery in Xingtai](/images/products/b500s-83d-two-stage-pump/main.webp)
+![B500S pedra fina pump from Hebei Pinjin Machinery in Xingtai](/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp)
 *B500S — 280 kg, 7.5 kW, 5–16 mm, 5 m / 5 m, 280 kg. Catalogue cells, not a alvenaria-bond certificate.*
 
 ## Linhas listadas que os compradores comparam
