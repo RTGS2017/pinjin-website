@@ -25,7 +25,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold tracking-[0.16em] text-white/45 uppercase">
+            <p className="text-xs font-semibold tracking-[0.16em] text-white/70 uppercase">
               {t.footer.products}
             </p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
@@ -51,7 +51,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold tracking-[0.16em] text-white/45 uppercase">
+            <p className="text-xs font-semibold tracking-[0.16em] text-white/70 uppercase">
               {t.footer.company}
             </p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
@@ -111,7 +111,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold tracking-[0.16em] text-white/45 uppercase">
+            <p className="text-xs font-semibold tracking-[0.16em] text-white/70 uppercase">
               {t.footer.contact}
             </p>
             <ul className="mt-4 space-y-2 text-sm text-white/80">
@@ -140,9 +140,9 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 border-t border-white/10 pt-6 text-xs text-white/45">
+        <div className="mt-12 border-t border-white/10 pt-6 text-xs text-white/70">
           © 2026 {t.companyName}. {t.footer.rights}{' '}
-          <LocaleLink to="/copyright" className="hover:text-primary">
+          <LocaleLink to="/copyright" className="text-white/80 hover:text-white">
             {t.footer.copyright}
           </LocaleLink>
         </div>
