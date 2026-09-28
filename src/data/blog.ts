@@ -111,6 +111,8 @@ export interface BlogPost {
   answerBlock?: BlogAnswerBlock;
   sources?: SourcedReference[];
   availableLangs?: readonly Lang[];
+  /** Sourced articles stay English-only in the sitemap unless this includes zh. */
+  indexLangs?: readonly ('en' | 'zh')[];
   contentStatus?: 'ready' | 'needs-manual-content';
   resourceType?: BlogResourceType;
   tags?: string[];

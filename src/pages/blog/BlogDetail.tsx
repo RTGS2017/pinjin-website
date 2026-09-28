@@ -118,9 +118,9 @@ export function BlogDetail() {
         image={firstImage}
         keywords={keywords}
         jsonLd={jsonLd}
-        hreflangLangs={['en']}
-        canonicalLang="en"
-        noindex={lang !== 'en'}
+        hreflangLangs={post.indexLangs?.includes('zh') ? ['en', 'zh'] : ['en']}
+        canonicalLang={lang === 'zh' && post.indexLangs?.includes('zh') ? 'zh' : 'en'}
+        noindex={!(lang === 'en' || (lang === 'zh' && post.indexLangs?.includes('zh')))}
       />
       <article className="container-site">
         <nav className="mb-8 text-sm text-text-secondary" aria-label="Breadcrumb">

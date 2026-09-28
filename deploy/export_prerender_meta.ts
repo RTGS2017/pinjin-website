@@ -341,7 +341,11 @@ for (const lang of languages.map((item) => item.code)) {
     const copy = pageCopy(rest, lang);
     const path = loc(lang, rest);
     const isBlogArticle = rest.startsWith('/blog/') && rest !== '/blog';
-    const indexed = isBlogArticle ? lang === 'en' : isIndexedLang(lang);
+    const blogPost = isBlogArticle
+      ? posts.find((item) => rest === `/blog/${item.slug}`)
+      : undefined;
+    const zhBlogIndexed = lang === 'zh' && blogPost?.indexLangs?.includes('zh');
+    const indexed = isBlogArticle ? lang === 'en' || !!zhBlogIndexed : isIndexedLang(lang);
     const product = products.find((item) => rest === `/products/${item.slug}`);
     const kind = pageKind(rest);
     const t = getMessages(lang);
@@ -436,7 +440,8 @@ for (const lang of languages.map((item) => item.code)) {
       rest,
       lang,
       url: `${SITE}${path}`,
-      canonicalUrl: isBlogArticle ? `${SITE}${loc('en', rest)}` : `${SITE}${path}`,
+      canonicalUrl:
+        isBlogArticle && !zhBlogIndexed ? `${SITE}${loc('en', rest)}` : `${SITE}${path}`,
       title: copy.title,
       description: copy.description,
       h1: copy.h1,

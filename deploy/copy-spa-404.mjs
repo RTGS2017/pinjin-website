@@ -526,8 +526,15 @@ if (sitemapPaths.some((path) => path.startsWith('/pt/') || path.startsWith('/ar/
   process.exit(1);
 }
 const zhBlogArticles = sitemapPaths.filter((path) => /^\/zh\/blog\/.+/.test(path));
-if (zhBlogArticles.length > 0) {
-  console.error(`sitemap.xml must not list zh blog articles: ${zhBlogArticles.slice(0, 5).join(', ')}`);
+const zhBlogBlocked = zhBlogArticles.filter((pathname) => {
+  const slug = pathname.replace(/^\/zh\/blog\//, '').replace(/\/$/, '');
+  const srcPath = join(root, 'content', 'sourced', slug, 'source.json');
+  if (!existsSync(srcPath)) return true;
+  const data = JSON.parse(readFileSync(srcPath, 'utf8'));
+  return !Array.isArray(data.indexLangs) || !data.indexLangs.includes('zh');
+});
+if (zhBlogBlocked.length > 0) {
+  console.error(`sitemap.xml lists zh blog articles without indexLangs zh: ${zhBlogBlocked.slice(0, 5).join(', ')}`);
   process.exit(1);
 }
 const enBlogArticles = sitemapPaths.filter((path) => /^\/en\/blog\/.+/.test(path));

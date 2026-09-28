@@ -30,6 +30,8 @@ export interface SourcedJson {
   date: string;
   dateModified?: string;
   availableLangs: Lang[];
+  /** Languages that may be indexed. Omit to keep sourced articles English-only. */
+  indexLangs?: Array<'en' | 'zh'>;
   relatedProductSlugs: string[];
   relatedArticleSlugs?: string[];
   relatedPaths: Array<{ href: string; label: string }>;

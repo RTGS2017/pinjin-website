@@ -299,6 +299,7 @@ function toPost(slug: string, source: SourcedJson, markdown: string): BlogPost {
     },
     sources: source.sources,
     availableLangs: source.availableLangs,
+    indexLangs: source.indexLangs,
     contentStatus: source.contentStatus,
     resourceType: normalizeResourceType(source.resourceType),
     tags: source.tags,
