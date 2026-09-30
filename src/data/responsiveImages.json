@@ -1,6 +1,12 @@
 {
-  "hero": "/images/hero/pinjin-machinery-factory-xingtai-china.webp",
+  "hero": "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp",
   "webp": {
+    "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp": [
+      {
+        "path": "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp",
+        "width": 800
+      }
+    ],
     "/images/hero/pinjin-machinery-factory-xingtai-china.webp": [
       {
         "path": "/images/hero/pinjin-machinery-factory-xingtai-china-768.webp",

@@ -5,7 +5,7 @@ import type {
 } from 'react';
 import { LocaleLink } from '@/i18n/navigation';
 
-type Variant = 'primary' | 'secondary' | 'outline' | 'ghost';
+type Variant = 'primary' | 'secondary' | 'outline' | 'ghost' | 'cta';
 type Size = 'md' | 'lg';
 
 interface BaseProps {
@@ -41,6 +41,8 @@ const variants: Record<Variant, string> = {
     'bg-transparent text-dark border border-dark hover:border-primary hover:text-primary',
   ghost:
     'bg-transparent text-white border border-white/40 hover:border-primary hover:text-primary',
+  cta:
+    'bg-cta text-dark hover:bg-cta-hover border border-transparent',
 };
 
 const sizes: Record<Size, string> = {

@@ -107,8 +107,7 @@ export function Header() {
         pagePath.startsWith('/resources/') ||
         pagePath === '/blog' ||
         pagePath.startsWith('/blog/') ||
-        pagePath === '/faq' ||
-        pagePath === '/product-selection-guide'
+        pagePath === '/faq'
       );
     }
     if (key === 'company' || key === 'factory') {
@@ -123,7 +122,8 @@ export function Header() {
   };
 
   const onHome = pagePath === '/';
-  const solid = scrolled || !onHome || mobileOpen;
+  const solid = true;
+  const findPumpTo = onHome ? '/#start-selection' : '/product-selection-guide';
 
   const navLinkClass = (active: boolean) =>
     ['site-header-item', active ? 'is-active' : '', lang === 'en' ? 'is-en' : '']
@@ -225,6 +225,9 @@ export function Header() {
                 <MessageCircle className="site-header-caret" aria-hidden />
                 {t.contact.whatsapp}
               </a>
+              <LocaleLink to={findPumpTo} className="site-header-item site-header-find">
+                {t.nav.findMyPump}
+              </LocaleLink>
               <LocaleLink to={contactInquiryPath} className="site-header-item site-header-quote">
                 {t.nav.getQuote}
               </LocaleLink>
@@ -307,6 +310,13 @@ export function Header() {
                 <MessageCircle className="site-header-caret" aria-hidden />
                 {t.contact.whatsapp}
               </a>
+              <LocaleLink
+                to={findPumpTo}
+                className="site-header-item site-header-find"
+                onClick={() => setMobileOpen(false)}
+              >
+                {t.nav.findMyPump}
+              </LocaleLink>
               <LocaleLink
                 to={contactInquiryPath}
                 className="site-header-item site-header-quote"

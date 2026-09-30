@@ -1,80 +1,92 @@
 import { Button } from '@/components/ui/Button';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
-import { contactInquiryPath } from '@/config/site';
-import { heroGallery } from '@/data/gallery';
-import { homeCopy } from '@/data/homeNarrative';
+import { exampleMatch } from '@/data/homeDecision';
+import { getProductBySlug } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
-import { FieldMediaConsole } from './HeroVideoGallery';
+import { LocaleLink } from '@/i18n/navigation';
 import { SceneFrame } from './homeScroll';
 
 export function SceneHero() {
   const { t, tx } = useI18n();
-  const hero = heroGallery[0];
-  const facts = [
-    { k: homeCopy.who, v: homeCopy.whoValue },
-    { k: homeCopy.what, v: homeCopy.whatValue },
-    { k: homeCopy.where, v: homeCopy.whereValue },
-    { k: homeCopy.why, v: homeCopy.whyValue },
-  ];
+  const product = getProductBySlug(exampleMatch.slug);
 
   return (
-    <SceneFrame sceneKey="hero" tone="dark" bleed>
-      <div className="home-hero">
-        <div className="home-hero-media" aria-hidden={false}>
-          <ImagePlaceholder
-            src={hero.image}
-            alt={tx(hero.alt)}
-            label={t.placeholder.hero}
-            hint=""
-            priority
-            width={hero.width}
-            height={hero.height}
-            sizes="100vw"
-            className="h-full w-full !bg-dark"
-            imgClassName="object-cover"
-          />
+    <SceneFrame sceneKey="hero" tone="light">
+      <div className="home-decision-hero">
+        <div className="home-decision-hero-copy">
+          <p className="home-decision-eyebrow">{t.hero.eyebrow}</p>
+          <h1 className="mt-3 max-w-[18ch] heading-display text-3xl text-dark sm:text-4xl lg:text-5xl">
+            {t.hero.title}
+          </h1>
+          <p className="mt-4 max-w-xl text-base text-text-secondary sm:text-lg">{t.hero.intro}</p>
+          <p className="mt-4 max-w-xl text-base text-text-secondary sm:text-lg">
+            {t.hero.directAnswer}
+          </p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Button to="/#start-selection" variant="cta" size="lg">
+              {t.hero.findPump}
+            </Button>
+            <Button to="/products" variant="outline" size="lg">
+              {t.hero.explore}
+            </Button>
+          </div>
+          <p className="mt-4 text-sm text-text-secondary">{t.hero.quoteNote}</p>
         </div>
 
-        <div className="home-hero-copy container-site">
-          <div className="home-hero-text">
-            <p className="home-hero-kicker" aria-hidden>
-              01
-            </p>
-            <p className="home-hero-intro">{t.hero.intro}</p>
-            <h1 className="home-hero-title heading-display">{t.hero.title}</h1>
-            <p className="home-hero-lead">{t.hero.directAnswer}</p>
-          </div>
-
-          <div className="home-hero-rail" aria-hidden>
-            <span className="home-hero-rail-tick" />
-          </div>
-
-          <FieldMediaConsole />
-
-          <div className="home-hero-meta">
-            <dl className="home-hero-facts">
-              {facts.map((fact) => (
-                <div key={fact.k.en}>
-                  <dt>{tx(fact.k)}</dt>
-                  <dd>{tx(fact.v)}</dd>
-                </div>
-              ))}
-            </dl>
-            <div className="home-hero-cta">
-              <Button to="/products" size="lg" className="w-full sm:w-auto">
-                {tx(homeCopy.viewProducts)}
-              </Button>
-              <Button
-                to={contactInquiryPath}
-                variant="ghost"
-                size="lg"
-                className="w-full sm:w-auto"
-              >
-                {t.nav.getQuote}
-              </Button>
+        <aside className="home-match" aria-label={tx(exampleMatch.badge)}>
+          {product ? (
+            <ImagePlaceholder
+              src={product.image}
+              alt={tx(product.name)}
+              label={t.placeholder.hero}
+              hint=""
+              priority
+              width={800}
+              height={600}
+              sizes="(max-width: 1024px) 100vw, 28vw"
+              className="home-match-photo"
+              imgClassName="object-contain"
+            />
+          ) : null}
+          <p className="home-match-badge">{tx(exampleMatch.badge)}</p>
+          <p className="home-match-kicker">{tx(exampleMatch.reqTitle)}</p>
+          <dl className="home-match-dl">
+            <div>
+              <dt>{tx(exampleMatch.output)}</dt>
+              <dd>{exampleMatch.outputValue}</dd>
             </div>
+            <div>
+              <dt>{tx(exampleMatch.horizontal)}</dt>
+              <dd>{exampleMatch.horizontalValue}</dd>
+            </div>
+            <div>
+              <dt>{tx(exampleMatch.vertical)}</dt>
+              <dd>{exampleMatch.verticalValue}</dd>
+            </div>
+            <div>
+              <dt>{tx(exampleMatch.aggregate)}</dt>
+              <dd>{exampleMatch.aggregateValue}</dd>
+            </div>
+            <div>
+              <dt>{tx(exampleMatch.power)}</dt>
+              <dd>{tx(exampleMatch.powerValue)}</dd>
+            </div>
+          </dl>
+          <div className="home-match-result">
+            <p className="home-match-kicker">{tx(exampleMatch.matchTitle)}</p>
+            <p className="home-match-model">{tx(exampleMatch.modelName)}</p>
+            <p className="text-sm text-text-secondary">
+              {exampleMatch.outputValue} · {exampleMatch.horizontalValue} /{' '}
+              {exampleMatch.verticalValue} · {exampleMatch.motor}
+            </p>
+            <LocaleLink
+              to={`/products/${exampleMatch.slug}`}
+              className="mt-3 inline-flex text-sm font-semibold text-primary hover:underline"
+            >
+              {tx(exampleMatch.viewModel)} →
+            </LocaleLink>
           </div>
-        </div>
+        </aside>
       </div>
     </SceneFrame>
   );

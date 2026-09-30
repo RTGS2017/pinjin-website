@@ -1,6 +1,7 @@
 import { LocaleLink } from '@/i18n/navigation';
 import { siteFaqs } from '@/data/faq';
 import { homeKnowledgeCards } from '@/data/homeKnowledgeCards';
+import { faqCopy, homeFaqQuestions, knowledgeCopy } from '@/data/homeDecision';
 import {
   homeFaqIds,
   homeFaqProductLinks,
@@ -21,10 +22,10 @@ export function SceneKnowledge() {
   return (
     <SceneFrame sceneKey="knowledge" tone="light">
       <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">
-        {tx(homeCopy.buyerQuestions)}
+        {tx(faqCopy.kicker)}
       </p>
       <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
-        {tx(homeCopy.buyerQuestions)}
+        {tx(faqCopy.title)}
       </h2>
       <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
         {t.knowledge.subtitle}
@@ -38,7 +39,9 @@ export function SceneKnowledge() {
             open={index === 0}
           >
             <summary className="cursor-pointer list-none">
-              <h3 className="heading-display text-lg sm:text-xl">{tx(faq.question)}</h3>
+              <h3 className="heading-display text-lg sm:text-xl">
+                {tx(homeFaqQuestions[faq.id] ?? faq.question)}
+              </h3>
             </summary>
             <p className="mt-3 text-sm leading-relaxed text-text-secondary sm:text-base">
               {tx(faq.answer)}
@@ -71,7 +74,15 @@ export function SceneKnowledge() {
         </LocaleLink>
       </p>
 
-      <div className="mt-14 grid gap-8 lg:grid-cols-3">
+      <div className="mt-14">
+        <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">
+          {tx(knowledgeCopy.kicker)}
+        </p>
+        <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
+          {tx(knowledgeCopy.title)}
+        </h2>
+      </div>
+      <div className="mt-10 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {posts.map((post) => {
           return (
             <article key={post.slug}>

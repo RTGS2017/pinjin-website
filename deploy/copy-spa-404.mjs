@@ -252,8 +252,10 @@ function heroPreloadTag() {
   if (!hero) return '';
   const avif = Array.isArray(manifest.avif?.[hero]) ? manifest.avif[hero] : [];
   const webp = Array.isArray(manifest.webp?.[hero]) ? manifest.webp[hero] : [];
-  const list = avif.length ? avif : webp;
-  if (!list.length) return '';
+  let list = avif.length ? avif : webp;
+  if (!list.length) {
+    list = [{ path: hero, width: 800 }];
+  }
   const parts = [];
   for (const item of list) {
     const href = revvedPublicPath(item.path);
@@ -268,7 +270,7 @@ function heroPreloadTag() {
   const href = revvedPublicPath(mobile.path);
   if (!href) return '';
   const type = avif.length ? 'image/avif' : 'image/webp';
-  return `    <link rel="preload" as="image" type="${type}" href="${href}" imagesrcset="${parts.join(', ')}" imagesizes="100vw" fetchpriority="high" />`;
+  return `    <link rel="preload" as="image" type="${type}" href="${href}" imagesrcset="${parts.join(', ')}" imagesizes="(max-width: 1024px) 100vw, 28vw" fetchpriority="high" />`;
 }
 
 function productOfferJsonLd(page) {

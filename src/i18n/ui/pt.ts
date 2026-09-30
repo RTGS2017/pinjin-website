@@ -16,6 +16,7 @@ export const messagesPt = {
     factory: 'FÁBRICA',
     contact: 'CONTATO',
     getQuote: 'PEDIR ORÇAMENTO',
+    findMyPump: 'Encontrar minha bomba',
     openMenu: 'Abrir menu',
     closeMenu: 'Fechar menu',
     language: 'Idioma',
@@ -49,22 +50,33 @@ export const messagesPt = {
   },
   hero: {
     intro:
-      'A Hebei Pinjin Machinery Manufacturing Co., Ltd. é fabricante profissional de bombas de concreto em Xingtai, Hebei, China.',
-    title: 'Fabricante profissional de máquinas de concreto na China',
+      'Informe a vazão, a distância de bombeamento, o tamanho do agregado e as condições de energia.',
+    title: 'Precisa da bomba de concreto certa para o seu projeto?',
     subtitle:
       'Bombas de concreto elétricas, a diesel, misturadoras, máquinas de projeção e customização OEM a partir de Xingtai.',
     directAnswer:
-      'Produtos principais: bombas de concreto elétricas, bombas reboque a diesel, bombas misturadoras e máquinas de projeção.',
-    explore: 'Ver produtos',
-    quote: 'Falar com engenheiro',
+      'A Pinjin ajuda a confrontar as condições do projeto com uma bomba de concreto, bomba misturadora ou máquina de projeção adequada.',
+    explore: 'Ver modelos de bomba de concreto',
+    quote: 'Pedir cotação de fábrica',
     clipsKicker: 'Clipes de obra',
     fieldMedia: 'Mídia de campo',
+    fieldFeed: 'Feed de campo',
+    liveSiteFeed: 'Feed do canteiro',
     jobsite: 'Obra',
     xingtai: 'Xingtai',
     fieldBrand: 'Pinjin Machinery',
     liveFeed: 'Feed de campo ativo',
-    openClip: 'Abrir clipe de campo',
+    watchTiktok: 'Ver no TikTok',
+    like: 'Curtir',
+    unlike: 'Remover curtida',
+    comment: 'Comentar no TikTok',
+    share: 'Compartilhar no TikTok',
+    paused: 'Pausado',
+    openClip: 'Reproduzir ou pausar o clipe',
     closeClip: 'Fechar',
+    eyebrow: 'Fabricante de bombas de concreto · Xingtai, China',
+    findPump: 'Encontrar minha bomba de concreto',
+    quoteNote: 'Cotação de fábrica com base nas condições do projeto',
   },
   company: {
     title: 'EQUIPAMENTOS DE CONSTRUÇÃO\nDE ALTO DESEMPENHO',
@@ -379,9 +391,9 @@ export const messagesPt = {
   },
   seo: {
     homeTitle:
-      'Fabricante de Bomba de Concreto China | Hebei Pinjin Machinery',
+      'Fabricante de bomba de concreto na China | Equipamento por condições de obra | Pinjin',
     homeDesc:
-      'Fabricante de máquinas de concreto na China. A Hebei Pinjin produz bombas de concreto elétricas e a diesel, misturadoras e máquinas de projeção em Xingtai, Hebei, na área de Xingjiawan.',
+      'A Hebei Pinjin Machinery fabrica bombas de concreto elétricas, a diesel e misturadoras em Xingtai, China. Compare equipamentos por vazão, distância, agregado e energia e peça uma cotação de fábrica.',
     productsTitle:
       'Fabricante de Bomba de Concreto China | Pinjin Machinery',
     aboutTitle:
