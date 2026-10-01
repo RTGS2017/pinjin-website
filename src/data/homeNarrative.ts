@@ -5,46 +5,26 @@ const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
 export const HOME_SCENES = [
   { key: 'hero', id: 'scene-hero', sticky: false, steps: 0 },
-  { key: 'families', id: 'product-families', sticky: false, steps: 0 },
   { key: 'products', id: 'scene-products', sticky: false, steps: 0 },
-  { key: 'compare', id: 'compare-models', sticky: false, steps: 0 },
+  { key: 'selection', id: 'scene-selection', sticky: true, steps: 0 },
+  { key: 'applications', id: 'applications', sticky: false, steps: 0 },
   { key: 'factory', id: 'why-pinjin', sticky: false, steps: 0 },
-  { key: 'guide', id: 'start-selection', sticky: false, steps: 0 },
+  { key: 'process', id: 'scene-process', sticky: true, steps: 6 },
   { key: 'knowledge', id: 'scene-knowledge', sticky: false, steps: 0 },
   { key: 'contact', id: 'contact', sticky: false, steps: 0 },
-  { key: 'requirements', id: 'project-requirements', sticky: false, steps: 0 },
-  { key: 'why', id: 'why-match', sticky: false, steps: 0 },
-  { key: 'how', id: 'how-it-works', sticky: false, steps: 0 },
-  { key: 'usecases', id: 'equipment-selection', sticky: false, steps: 0 },
-  { key: 'system', id: 'pumping-system', sticky: false, steps: 0 },
-  { key: 'transparency', id: 'catalogue-limits', sticky: false, steps: 0 },
-  { key: 'buyers', id: 'buyer-types', sticky: false, steps: 0 },
-  { key: 'selection', id: 'scene-selection', sticky: false, steps: 0 },
-  { key: 'applications', id: 'applications', sticky: false, steps: 0 },
-  { key: 'process', id: 'scene-process', sticky: false, steps: 0 },
 ] as const;
 
 export type HomeSceneKey = (typeof HOME_SCENES)[number]['key'];
 
 export const homeSceneLabels: Record<HomeSceneKey, LocalizedText> = {
   hero: L('Hero', '首页'),
-  requirements: L('Project conditions', '工况条件'),
-  why: L('Why match first', '先对照工况'),
-  how: L('How it works', '询价路径'),
-  usecases: L('Use cases', '使用场景'),
-  families: L('Product families', '产品族'),
-  compare: L('Compare models', '对照机型'),
-  guide: L('Selection guide', '选型指南'),
-  system: L('Pumping system', '泵送系统'),
-  factory: L('Factory', '工厂'),
-  transparency: L('Catalogue limits', '目录边界'),
-  buyers: L('Buyers', '采购角色'),
-  knowledge: L('Buyer questions', '采购问答'),
-  contact: L('Contact', '联系工厂'),
   products: L('Product System', '产品系统'),
   selection: L('Find the Right Pump', '按工况选型'),
   applications: L('Applications', '应用场景'),
+  factory: L('Factory', '工厂'),
   process: L('From Inquiry to Shipment', '从询盘到发运'),
+  knowledge: L('Buyer Questions', '采购问答'),
+  contact: L('Contact', '联系工厂'),
 };
 
 export const homeCopy = {
@@ -138,9 +118,11 @@ export const processNarrative = [
 ] as const;
 
 export const homeFaqIds = [
+  'who-is-pinjin',
+  'what-products',
   'how-to-choose',
   'diesel-vs-motor',
-  'inquiry-fields',
+  'location',
 ] as const;
 
 export const homeFaqProductLinks: Record<string, string[]> = {
@@ -151,15 +133,12 @@ export const homeFaqProductLinks: Record<string, string[]> = {
   ],
   'diesel-vs-motor': ['diesel-40-concrete-pump', 'electric-40-concrete-pump'],
   'what-products': ['integrated-mixer-pump'],
-  'not-suitable': [],
 };
 
 export const homeKnowledgeSlugsShort = [
   'electric-15-concrete-pump-applications',
   'diesel-concrete-pump-no-electricity',
   'high-rise-building-concrete-pump-selection',
-  'concrete-pump-pipe-dn-selection',
-  'mixer-pump-vs-concrete-mixing-plant',
 ] as const;
 
 export const categoryShowcaseSlugs: Record<string, string> = {

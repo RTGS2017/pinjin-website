@@ -24,7 +24,9 @@ export function useHomeScroll() {
   return useContext(HomeScrollContext);
 }
 
-const STEP_SCENES: Partial<Record<HomeSceneKey, number>> = {};
+const STEP_SCENES: Partial<Record<HomeSceneKey, number>> = {
+  process: 6,
+};
 
 export function HomeScrollRoot({ children }: { children: ReactNode }) {
   const rootRef = useRef<HTMLDivElement>(null);

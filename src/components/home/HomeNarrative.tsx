@@ -1,32 +1,23 @@
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import { HomeScrollRoot } from './homeScroll';
+import { HomeScrollRoot, SectionNavigator } from './homeScroll';
 import { SceneHero } from './SceneHero';
-import { SceneCatalogue, SceneGuideEntry, SceneProductFamilies } from './SceneEquipment';
-import { SceneCompare } from './SceneCompare';
-import { SceneFactoryProof } from './SceneProof';
+import { SceneProductSystem } from './SceneProductSystem';
+import { SceneSelection } from './SceneSelection';
+import { SceneApplications } from './SceneApplications';
+import { SceneFactory } from './SceneFactory';
+import { SceneProcess } from './SceneProcess';
 import { SceneKnowledge } from './SceneKnowledge';
 import { SceneContact } from './SceneContact';
 
 export function HomeNarrative() {
-  const location = useLocation();
-
-  useEffect(() => {
-    const id = location.hash.replace(/^#/, '');
-    if (!id) return;
-    const target = document.getElementById(id);
-    if (!target) return;
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, [location.hash]);
-
   return (
     <HomeScrollRoot>
+      <SectionNavigator />
       <SceneHero />
-      <SceneProductFamilies />
-      <SceneCatalogue />
-      <SceneCompare />
-      <SceneFactoryProof />
-      <SceneGuideEntry />
+      <SceneProductSystem />
+      <SceneSelection />
+      <SceneApplications />
+      <SceneFactory />
+      <SceneProcess />
       <SceneKnowledge />
       <SceneContact />
     </HomeScrollRoot>

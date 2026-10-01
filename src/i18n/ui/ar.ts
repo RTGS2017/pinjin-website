@@ -16,7 +16,6 @@ export const messagesAr = {
     factory: 'المصنع',
     contact: 'اتصل بنا',
     getQuote: 'طلب عرض سعر',
-    findMyPump: 'ابحث عن مضختي',
     openMenu: 'فتح القائمة',
     closeMenu: 'إغلاق القائمة',
     language: 'اللغة',
@@ -50,33 +49,22 @@ export const messagesAr = {
   },
   hero: {
     intro:
-      'أخبرنا بالإنتاج والمسافة وحجم الركام وظروف الطاقة في الموقع.',
-    title: 'مصنّع مضخات خرسانة في الصين',
+      'شركة Hebei Pinjin Machinery Manufacturing Co., Ltd. مصنع متخصص لمضخات الخرسانة في شينغتاي، خبي، الصين.',
+    title: 'مصنّع محترف لآلات الخرسانة في الصين',
     subtitle:
-      'مضخات كهربائية وديزل ومضخات خلط وآلات رش وقطع أنابيب من مصنع شينغتاي.',
+      'مضخات خرسانة كهربائية وديزل ومضخات خلط وآلات رش وتخصيص OEM من شينغتاي.',
     directAnswer:
-      'تساعدك Pinjin على مطابقة ظروف المشروع مع مضخة خرسانة أو مضخة خلط أو آلة رش مناسبة.',
-    explore: 'عرض المنتجات',
-    quote: 'طلب عرض سعر من المصنع',
+      'المنتجات الرئيسية: مضخات خرسانة كهربائية، مضخات مقطورة ديزل، مضخات خلط وآلات رش.',
+    explore: 'استعرض المنتجات',
+    quote: 'تواصل مع المهندس',
     clipsKicker: 'مقاطع من موقع العمل',
     fieldMedia: 'وسائط ميدانية',
-    fieldFeed: 'بث ميداني',
-    liveSiteFeed: 'بث من الموقع',
     jobsite: 'موقع العمل',
     xingtai: 'شينغتاي',
     fieldBrand: 'Pinjin Machinery',
     liveFeed: 'بث ميداني نشط',
-    watchTiktok: 'شاهد على TikTok',
-    like: 'إعجاب',
-    unlike: 'إلغاء الإعجاب',
-    comment: 'تعليق على TikTok',
-    share: 'مشاركة على TikTok',
-    paused: 'متوقف',
-    openClip: 'تشغيل أو إيقاف المقطع',
+    openClip: 'فتح مقطع ميداني',
     closeClip: 'إغلاق',
-    eyebrow: 'مصنّع مضخات خرسانة · شينغتاي، الصين',
-    findPump: 'ابحث عن مضخة الخرسانة',
-    quoteNote: 'عرض سعر المصنع بناءً على ظروف المشروع',
   },
   company: {
     title: 'معدات بناء\nعالية الأداء',
@@ -390,9 +378,10 @@ export const messagesAr = {
     replace: 'الصورة غير متوفرة',
   },
   seo: {
-    homeTitle: 'مصنّع مضخات خرسانة في الصين | Hebei Pinjin Machinery',
+    homeTitle:
+      'مصنّع مضخات خرسانة في الصين | Hebei Pinjin Machinery',
     homeDesc:
-      'تصنّع Hebei Pinjin Machinery مضخات خرسانة كهربائية وديزل ومضخات خلط وآلات رش في شينغتاي بالصين. قارن طرازات المصنع المدرجة ثم اطلب عرض سعر.',
+      'مصنّع آلات خرسانة في الصين. تنتج Hebei Pinjin مضخات خرسانة كهربائية وديزل ومضخات خلط وآلات رش في شينغتاي بخبي ضمن منطقة شينغجياوان.',
     productsTitle:
       'مصنّع مضخات خرسانة في الصين | Pinjin Machinery',
     aboutTitle:

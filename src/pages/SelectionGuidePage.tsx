@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 import { LocaleLink } from '@/i18n/navigation';
 import { selectionGuideItems } from '@/data/selectionGuide';
 import { getProductBySlug } from '@/data/products';
@@ -11,15 +9,6 @@ import { useI18n } from '@/i18n/I18nContext';
 
 export function SelectionGuidePage() {
   const { t, tx, lang } = useI18n();
-  const location = useLocation();
-
-  useEffect(() => {
-    const id = location.hash.replace(/^#/, '');
-    if (!id) return;
-    const target = document.getElementById(id);
-    if (!target) return;
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, [location.hash]);
 
   return (
     <section className="section-y bg-bg">
@@ -44,7 +33,7 @@ export function SelectionGuidePage() {
 
         <div className="mt-12 space-y-8">
           {selectionGuideItems.map((item) => (
-            <article key={item.id} id={item.id} className="scroll-mt-28 border border-border p-6">
+            <article key={item.id} className="border border-border p-6">
               <h2 className="heading-display text-xl sm:text-2xl">
                 {tx(item.question)}
               </h2>

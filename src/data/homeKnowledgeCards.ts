@@ -87,40 +87,4 @@ export const homeKnowledgeCards: ReadonlyArray<{
     width: 1920,
     height: 1080,
   },
-  {
-    slug: 'concrete-pump-pipe-dn-selection',
-    title: L(
-      'Concrete Pump Pipe DN Selection: DN80 vs DN100/125',
-      '混凝土泵输送管DN选型：DN80与DN100/125',
-    ),
-    description: L(
-      'Buyers often ask for a pipe price first. At our Xingtai factory we start with delivery pipe DN. We publish 80 mm on Electric 20, 100–125 mm on Electric 15, and 100 / 125 mm on mixer pumps and HBT8018.',
-      '询价往往先问管子多少钱。我们邢台工厂先问输送管DN。目录已公布：电动20为80 mm，电动15为100–125 mm，搅拌泵与HBT8018为100 / 125 mm。',
-    ),
-    image: '/images/factory/pinjin-machinery-workshop-overhead-crane.webp',
-    alt: L(
-      'Pinjin Xingtai workshop overhead crane during concrete pump assembly',
-      '品锦邢台车间行车吊运混凝土泵装配件',
-    ),
-    width: 1920,
-    height: 1080,
-  },
-  {
-    slug: 'mixer-pump-vs-concrete-mixing-plant',
-    title: L(
-      'Mixer Pump vs Mixing Plant: Trailer Mix and Pump',
-      '搅拌泵不是搅拌站：拖车上搅拌并泵送',
-    ),
-    description: L(
-      'A mixer pump is not a mixing plant. Pinjin builds mix-plus-pump trailers in Xingtai, not batching plants. Electric 45 kW + 14 kW, 21 m³/h; diesel 4108 66–75 kW, 25 m³/h.',
-      '搅拌泵不是搅拌站。品锦在邢台制造搅拌加泵送一体拖车，不生产搅拌站。电动主电机45 kW加搅拌14 kW、21 m³/h；柴油4108 66–75 kW、25 m³/h。',
-    ),
-    image: '/images/products/integrated-mixer-pump/main.webp',
-    alt: L(
-      'Integrated mixer pump trailer, mix and pump, Xingtai factory',
-      '邢台工厂搅拌泵一体机拖车，现场搅拌并泵送，不是搅拌站',
-    ),
-    width: 1200,
-    height: 900,
-  },
 ];
