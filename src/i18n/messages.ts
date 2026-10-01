@@ -60,12 +60,12 @@ export const messages = {
     hero: {
       intro:
         'Tell us your output, pumping distance, aggregate size and power conditions.',
-      title: 'Need the Right Concrete Pump for Your Project?',
+      title: 'Concrete Pump Manufacturer in China',
       subtitle:
-        'Electric concrete pumps, diesel concrete pumps, mixer pumps, spraying machines, pipeline spare parts and OEM customization from Xingtai.',
+        'Electric, diesel and mixer trailer pumps, spraying machines and pipeline parts from the Xingtai factory.',
       directAnswer:
         'Pinjin helps you match the project conditions with a suitable concrete pump, mixer pump or spraying machine.',
-      explore: 'View Concrete Pump Models',
+      explore: 'View Products',
       quote: 'Request Factory Quote',
       clipsKicker: 'Jobsite clips',
       fieldMedia: 'Field media',
@@ -399,10 +399,9 @@ export const messages = {
       replace: 'Image unavailable',
     },
     seo: {
-      homeTitle:
-        'Concrete Pump Manufacturer in China | Project-Matched Equipment | Pinjin',
+      homeTitle: 'Concrete Pump Manufacturer China | Hebei Pinjin Machinery',
       homeDesc:
-        'Hebei Pinjin Machinery manufactures electric, diesel and mixer concrete pumps in Xingtai, China. Compare equipment by output, pumping distance, aggregate and power conditions, then request a factory quotation.',
+        'Hebei Pinjin Machinery manufactures electric, diesel and mixer concrete pumps and spraying machines in Xingtai, China. Compare listed factory models, then request a quotation.',
       productsTitle:
         'Concrete Pump Manufacturer China | Pinjin Machinery',
       aboutTitle:
@@ -640,11 +639,11 @@ export const messages = {
     hero: {
       intro:
         '请提供输送量、泵送距离、骨料粒径与现场动力条件。',
-      title: '需要为工程匹配合适的混凝土泵？',
-      subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵、喷涂机、管路配件，以及来自邢台的 OEM 定制。',
+      title: '中国混凝土泵源头厂家',
+      subtitle: '邢台工厂目录：电动泵、柴油泵、搅拌泵、喷涂机与管路配件。',
       directAnswer:
         '品锦按工况对照目录，帮助选择合适的混凝土泵、搅拌泵或喷涂机。',
-      explore: '查看混凝土泵型号',
+      explore: '查看产品',
       quote: '申请工厂报价',
       clipsKicker: '工地短视频',
       fieldMedia: '现场媒体',
@@ -959,9 +958,9 @@ export const messages = {
       replace: '图片暂缺',
     },
     seo: {
-      homeTitle: '中国混凝土泵厂家 | 按工况对照设备 | 品锦机械',
+      homeTitle: '中国混凝土泵厂家 | 河北品锦机械',
       homeDesc:
-        '河北品锦机械在中国邢台制造电动、柴油与搅拌混凝土泵。按输送量、泵送距离、骨料与动力对照目录机型，再向工厂询价。',
+        '河北品锦机械在中国邢台制造电动、柴油、搅拌混凝土泵与喷涂机。对照已列工厂机型后向工厂询价。',
       productsTitle: '中国混凝土泵厂家 | 品锦机械',
       aboutTitle: '邢台工程机械工厂 | 品锦机械',
       contactTitle: '联系中国混凝土泵厂家 | 品锦',

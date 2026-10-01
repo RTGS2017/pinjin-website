@@ -10,7 +10,7 @@ import {
   systemSteps,
   transparencyCopy,
 } from '@/data/homeDecision';
-import { factoryNarrativeCopy, homeCopy } from '@/data/homeNarrative';
+import { factoryNarrativeCopy } from '@/data/homeNarrative';
 import { factorySlides, getFactorySlide } from '@/data/factory';
 import { getMailtoHref, getWhatsAppHref } from '@/config/site';
 import { useI18n } from '@/i18n/I18nContext';
@@ -69,9 +69,6 @@ export function SceneFactoryProof() {
       <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
         {tx(proofCopy.title)}
       </h2>
-      <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
-        {tx(homeCopy.factoryLead)}
-      </p>
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {steps.map((step, index) => (
           <article key={step.id} className="border border-border bg-white">
@@ -91,7 +88,6 @@ export function SceneFactoryProof() {
                 {String(index + 1).padStart(2, '0')}
               </p>
               <h3 className="mt-1 font-semibold text-dark">{tx(step.title)}</h3>
-              <p className="mt-1 text-sm text-text-secondary">{tx(step.body)}</p>
             </div>
           </article>
         ))}

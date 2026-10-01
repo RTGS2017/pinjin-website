@@ -1,9 +1,15 @@
 {
-  "hero": "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp",
+  "hero": "/images/products/electric-40-concrete-pump/electric-40-concrete-pump.webp",
   "webp": {
     "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp": [
       {
         "path": "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp",
+        "width": 800
+      }
+    ],
+    "/images/products/electric-40-concrete-pump/electric-40-concrete-pump.webp": [
+      {
+        "path": "/images/products/electric-40-concrete-pump/electric-40-concrete-pump.webp",
         "width": 800
       }
     ],

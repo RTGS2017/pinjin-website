@@ -123,7 +123,7 @@ export function Header() {
 
   const onHome = pagePath === '/';
   const solid = true;
-  const findPumpTo = onHome ? '/#start-selection' : '/product-selection-guide';
+  const findPumpTo = onHome ? '/#compare-models' : '/product-selection-guide';
 
   const navLinkClass = (active: boolean) =>
     ['site-header-item', active ? 'is-active' : '', lang === 'en' ? 'is-en' : '']

@@ -7,7 +7,7 @@ import {
   buildWebSiteJsonLd,
 } from '@/components/SEO';
 import { absoluteUrl } from '@/config/seo';
-import { exampleMatch, homeFaqQuestions } from '@/data/homeDecision';
+import { heroProductSlug, homeFaqQuestions } from '@/data/homeDecision';
 import { factoryNarrativeCopy, homeFaqIds } from '@/data/homeNarrative';
 import { siteFaqs } from '@/data/faq';
 import { getFactorySlide } from '@/data/factory';
@@ -16,7 +16,7 @@ import { useI18n } from '@/i18n/I18nContext';
 
 export function Home() {
   const { lang, t, tx } = useI18n();
-  const product = getProductBySlug(exampleMatch.slug);
+  const product = getProductBySlug(heroProductSlug);
   const faqs = homeFaqIds
     .map((id) => siteFaqs.find((item) => item.id === id))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
@@ -34,7 +34,7 @@ export function Home() {
         imageAlt={product ? tx(product.name) : undefined}
         imageWidth={800}
         imageHeight={600}
-        keywords="concrete pump manufacturer China, project matched concrete pump, Xingtai concrete pump factory"
+        keywords="concrete pump manufacturer China, electric diesel mixer concrete pump, Xingtai concrete pump factory"
         jsonLd={[
           buildOrganizationJsonLd(),
           buildWebSiteJsonLd(),

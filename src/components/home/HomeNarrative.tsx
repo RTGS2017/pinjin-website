@@ -2,14 +2,9 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { HomeScrollRoot } from './homeScroll';
 import { SceneHero } from './SceneHero';
-import { SceneHowItWorks, SceneRequirements, SceneWhyMatch } from './SceneProjectPath';
-import { SceneGuideEntry, SceneProductFamilies, SceneUseCases } from './SceneEquipment';
-import {
-  SceneBuyerTypes,
-  SceneFactoryProof,
-  ScenePumpingSystem,
-  SceneTransparency,
-} from './SceneProof';
+import { SceneCatalogue, SceneGuideEntry, SceneProductFamilies } from './SceneEquipment';
+import { SceneCompare } from './SceneCompare';
+import { SceneFactoryProof } from './SceneProof';
 import { SceneKnowledge } from './SceneKnowledge';
 import { SceneContact } from './SceneContact';
 
@@ -27,16 +22,11 @@ export function HomeNarrative() {
   return (
     <HomeScrollRoot>
       <SceneHero />
-      <SceneRequirements />
-      <SceneWhyMatch />
-      <SceneHowItWorks />
-      <SceneUseCases />
       <SceneProductFamilies />
-      <SceneGuideEntry />
-      <ScenePumpingSystem />
+      <SceneCatalogue />
+      <SceneCompare />
       <SceneFactoryProof />
-      <SceneTransparency />
-      <SceneBuyerTypes />
+      <SceneGuideEntry />
       <SceneKnowledge />
       <SceneContact />
     </HomeScrollRoot>

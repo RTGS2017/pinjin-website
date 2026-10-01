@@ -270,7 +270,7 @@ function heroPreloadTag() {
   const href = revvedPublicPath(mobile.path);
   if (!href) return '';
   const type = avif.length ? 'image/avif' : 'image/webp';
-  return `    <link rel="preload" as="image" type="${type}" href="${href}" imagesrcset="${parts.join(', ')}" imagesizes="(max-width: 1024px) 100vw, 28vw" fetchpriority="high" />`;
+  return `    <link rel="preload" as="image" type="${type}" href="${href}" imagesrcset="${parts.join(', ')}" imagesizes="(max-width: 1024px) 100vw, 58vw" fetchpriority="high" />`;
 }
 
 function productOfferJsonLd(page) {

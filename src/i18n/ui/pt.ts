@@ -51,12 +51,12 @@ export const messagesPt = {
   hero: {
     intro:
       'Informe a vazão, a distância de bombeamento, o tamanho do agregado e as condições de energia.',
-    title: 'Precisa da bomba de concreto certa para o seu projeto?',
+    title: 'Fabricante de bombas de concreto na China',
     subtitle:
-      'Bombas de concreto elétricas, a diesel, misturadoras, máquinas de projeção e customização OEM a partir de Xingtai.',
+      'Bombas elétricas, a diesel e misturadoras, máquinas de projeção e peças de tubulação da fábrica de Xingtai.',
     directAnswer:
       'A Pinjin ajuda a confrontar as condições do projeto com uma bomba de concreto, bomba misturadora ou máquina de projeção adequada.',
-    explore: 'Ver modelos de bomba de concreto',
+    explore: 'Ver produtos',
     quote: 'Pedir cotação de fábrica',
     clipsKicker: 'Clipes de obra',
     fieldMedia: 'Mídia de campo',
@@ -390,10 +390,9 @@ export const messagesPt = {
     replace: 'Imagem indisponível',
   },
   seo: {
-    homeTitle:
-      'Fabricante de bomba de concreto na China | Equipamento por condições de obra | Pinjin',
+    homeTitle: 'Fabricante de Bomba de Concreto China | Hebei Pinjin Machinery',
     homeDesc:
-      'A Hebei Pinjin Machinery fabrica bombas de concreto elétricas, a diesel e misturadoras em Xingtai, China. Compare equipamentos por vazão, distância, agregado e energia e peça uma cotação de fábrica.',
+      'A Hebei Pinjin Machinery fabrica bombas de concreto elétricas, a diesel e misturadoras e máquinas de projeção em Xingtai, China. Compare os modelos listados da fábrica e peça uma cotação.',
     productsTitle:
       'Fabricante de Bomba de Concreto China | Pinjin Machinery',
     aboutTitle:

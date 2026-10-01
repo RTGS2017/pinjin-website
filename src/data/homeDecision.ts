@@ -200,14 +200,76 @@ export const useCases = [
   },
 ] as const;
 
+/** Hero machine photo. Electric 40 is a listed trailer pump with a studio image. */
+export const heroProductSlug = 'electric-40-concrete-pump';
+
+export const catalogueShowcaseSlugs = [
+  'electric-15-concrete-pump',
+  'electric-20-concrete-pump',
+  'electric-30-concrete-pump',
+  'electric-40-concrete-pump',
+  'electric-80-concrete-pump',
+  'diesel-50-concrete-pump',
+  'integrated-mixer-pump',
+  'hydraulic-concrete-spraying-machine',
+] as const;
+
 export const familyCopy = {
-  kicker: L('Product families', '产品族'),
-  title: L(
-    'Choose by project, then compare the machines.',
-    '先按工程类型，再对照机型。',
-  ),
+  kicker: L('Product range', '产品系列'),
+  title: L('Factory catalogue, photographed as shipped.', '出厂目录机型，按实机拍照。'),
   why: L('Why this model?', '为何对照这一型号？'),
 };
+
+export const catalogueCopy = {
+  kicker: L('Catalogue models', '目录机型'),
+  title: L('Look at the machines first.', '先看机器。'),
+  all: L('View all products', '查看全部产品'),
+};
+
+export const compareCopy = {
+  kicker: L('Model comparison', '机型对照'),
+  title: L('See the machines side by side.', '并排看两台机器。'),
+  vs: 'VS',
+  note: L(
+    'Listed Xingtai photos and published catalogue cells only — not a ranking or a site-performance guarantee.',
+    '仅用邢台已列机型照片与已公布目录单元格，不是评分，也不保证现场表现。',
+  ),
+  readNote: L('Read the comparison note', '阅读对照说明'),
+};
+
+export const comparePairs = [
+  {
+    id: 'electric-20-30',
+    left: 'electric-20-concrete-pump',
+    right: 'electric-30-concrete-pump',
+    axis: L('Electric 20 vs Electric 30', '电动20型 vs 电动30型'),
+    href: '/blog/electric-20-vs-30-concrete-pump',
+  },
+  {
+    id: 'pump-vs-mixer',
+    left: 'electric-40-concrete-pump',
+    right: 'integrated-mixer-pump',
+    axis: L('Trailer pump vs mixer pump', '拖式泵 vs 搅拌泵'),
+    href: '/blog/mixer-pump-vs-concrete-mixing-plant',
+  },
+  {
+    id: 'pump-vs-sprayer',
+    left: 'electric-15-concrete-pump',
+    right: 'hydraulic-concrete-spraying-machine',
+    axis: L('Concrete pump vs spraying machine', '混凝土泵 vs 喷涂机'),
+    href: '/products/spraying-machines',
+  },
+] as const;
+
+export const compareRowNeedles = [
+  { key: 'power', needles: ['motor power', 'diesel engine', 'main motor'] },
+  { key: 'output', needles: ['output', 'capacity', 'theoretical'] },
+  { key: 'pressure', needles: ['outlet pressure'] },
+  { key: 'hopper', needles: ['hopper'] },
+  { key: 'distance', needles: ['pumping distance', 'fine stone', 'delivery distance', 'delivery height'] },
+  { key: 'aggregate', needles: ['aggregate size', 'max. aggregate', 'particle'] },
+  { key: 'weight', needles: ['weight'] },
+] as const;
 
 export const productFamilies = [
   {
@@ -393,10 +455,7 @@ export const buyerTypes = [
 
 export const knowledgeCopy = {
   kicker: L('Construction machinery knowledge', '工程机械知识'),
-  title: L(
-    'Read before you compare models.',
-    '对照型号前先看这些判断。',
-  ),
+  title: L('Catalogue photos and factory notes.', '目录实拍与工厂说明。'),
 };
 
 export const faqCopy = {
