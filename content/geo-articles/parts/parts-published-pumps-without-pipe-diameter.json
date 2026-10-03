@@ -1,0 +1,284 @@
+{
+  "slug": "parts-published-pumps-without-pipe-diameter",
+  "category": "parts",
+  "keyword": "concrete pump pages without delivery pipe diameter",
+  "title": {
+    "en": "Which published Pinjin pumps omit delivery pipe diameter?",
+    "zh": "哪些已公布品锦泵没有输送管内径？"
+  },
+  "description": {
+    "en": "Eighteen published Hebei Pinjin Machinery pump pages do not print a delivery-pipe inner diameter. Do not borrow 80 mm or 100 / 125 mm from the six pages that have the cell.",
+    "zh": "河北品锦机械有十八台已公布泵没有印输送管内径。不要向印了这一格的六台借用 80 mm 或 100 / 125 mm。"
+  },
+  "h1": {
+    "en": "Published pumps with no delivery-pipe diameter cell",
+    "zh": "没有输送管内径格的已公布泵"
+  },
+  "directAnswer": {
+    "en": "A straight delivery pipe from Xingtai is quoted by pump model, diameter and length, but eighteen published pump pages leave the diameter cell empty. Those pages are: Electric 30 Concrete Pump; Electric Low Pressure 40 Concrete Pump; Electric 40 Concrete Pump; Electric 80 Concrete Pump; Diesel 30 Concrete Pump; Diesel 40 Concrete Pump; Diesel 50 Concrete Pump; Diesel 60 Concrete Pump; Electric 10 Series Concrete Pump; B500S-83D Two-Stage Structure Pump; LZ-80 Diesel Concrete Pump; Diesel 120 Concrete Pump; Diesel Mixer Integrated Pump; Tractor-Driven 4100 Concrete Pump; Rural Diesel Concrete Pump; Electric 50 Concrete Pump; Electric Low Pressure 60 Concrete Pump; Electric 60 Concrete Pump. Their DN is a missing field.",
+    "zh": "邢台直管按泵型号、管径和长度报价，但十八台已公布泵把管径格留空。这些页面是：电动30型混凝土泵、电动低压40型混凝土泵、电动40型混凝土泵、电动80型混凝土泵、柴油30型混凝土泵、柴油40型混凝土泵、柴油50型混凝土泵、柴油60型混凝土泵、电动10系列混凝土泵、B500S-83D 两级结构泵、LZ-80柴油混凝土泵、柴油120型混凝土泵、柴油搅拌泵一体机、拖拉机带动4100混凝土泵、农村自建房柴油混凝土泵、电动50型混凝土泵、电动低压60型混凝土泵、电动60型混凝土泵。它们的管径是缺字段。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The six pages that do print a diameter",
+        "zh": "印了管径的六台"
+      },
+      "body": {
+        "en": "Electric 20 prints 80 mm. Electric 15 prints 100–125 mm. Integrated Mixer Pump, HBT8018, HBT80-16 and LZ-60 print 100 / 125 mm. Spraying-machine pages are a different catalogue and are not treated here as trailer pumps that forgot a pipe cell.",
+        "zh": "电动20印 80 mm。电动15印 100–125 mm。搅拌泵一体机、HBT8018、HBT80-16 和 LZ-60 印 100 / 125 mm。喷涂机页面是另一类目录，这里不把它们当成漏了管径格的拖泵。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What is still missing on the eighteen",
+        "zh": "这十八台仍然缺什么"
+      },
+      "body": {
+        "en": "No wall thickness is printed on the spare pipe, and none of these eighteen pages supplies an inner diameter to copy. Piston outer diameter, seal kit and service life are also absent from these pump sheets. A shared model code is not a pipe size: Electric 80 shares HBT80-1816-110 with HBT80-16, and Diesel 60 shares HBT60-13.132 with LZ-60, without copying the pipe cell.",
+        "zh": "直管配件没有壁厚，这十八台也没有可供抄写的内径。这些泵页同样没有活塞外径、密封套件和寿命。共用型号代号不是管径：电动80与 HBT80-16 共用 HBT80-1816-110，柴油60与 LZ-60 共用 HBT60-13.132，管径格并没有跟着抄过去。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to inquire without inventing a DN",
+        "zh": "不编造管径时如何询价"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Name the model. State that its catalogue page has no delivery-pipe diameter. Leave DN and wall thickness blank unless a measured figure is confirmed on the machine.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写明型号，并写明该目录页没有输送管内径。除非已在机器上量到数字，否则管径和壁厚留空。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can HBT8018's 100 / 125 mm be used for Electric 80?",
+        "zh": "可以把 HBT8018 的 100 / 125 mm 用于电动80吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 has no delivery-pipe diameter cell. HBT80-16 prints 100 / 125 mm on its own page, and that still does not fill Electric 80.",
+        "zh": "不能。电动80没有输送管内径格。HBT80-16 在自己的页面印了 100 / 125 mm，这仍然不能填到电动80上。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does B500S-83D print a hose diameter?",
+        "zh": "B500S-83D 印了胶管直径吗？"
+      },
+      "answer": {
+        "en": "It prints a standard delivery hose and does not print a DN. The hose spare page also has no fixed size table.",
+        "zh": "它印了标准输送胶管，没有印公称直径。胶管配件页也没有固定尺寸表。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is service life printed for these pipes?",
+        "zh": "这些管子印了寿命吗？"
+      },
+      "answer": {
+        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
+        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+      }
+    },
+    {
+      "question": {
+        "en": "Where do I send the inquiry?",
+        "zh": "询价发给哪里？"
+      },
+      "answer": {
+        "en": "To Hebei Pinjin Machinery in Xingtai, by email or WhatsApp on the contact page.",
+        "zh": "发给邢台河北品锦机械，通过联系页的邮件或 WhatsApp。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": {
+        "en": "Concrete Pump Delivery Pipe",
+        "zh": "混凝土泵输送管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    },
+    {
+      "href": "/products/electric-30-concrete-pump",
+      "label": {
+        "en": "Electric 30 Concrete Pump",
+        "zh": "电动30型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-low-pressure-40-concrete-pump",
+      "label": {
+        "en": "Electric Low Pressure 40 Concrete Pump",
+        "zh": "电动低压40型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-40-concrete-pump",
+      "label": {
+        "en": "Electric 40 Concrete Pump",
+        "zh": "电动40型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-80-concrete-pump",
+      "label": {
+        "en": "Electric 80 Concrete Pump",
+        "zh": "电动80型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-30-concrete-pump",
+      "label": {
+        "en": "Diesel 30 Concrete Pump",
+        "zh": "柴油30型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-40-concrete-pump",
+      "label": {
+        "en": "Diesel 40 Concrete Pump",
+        "zh": "柴油40型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-50-concrete-pump",
+      "label": {
+        "en": "Diesel 50 Concrete Pump",
+        "zh": "柴油50型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-60-concrete-pump",
+      "label": {
+        "en": "Diesel 60 Concrete Pump",
+        "zh": "柴油60型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-10-series-concrete-pump",
+      "label": {
+        "en": "Electric 10 Series Concrete Pump",
+        "zh": "电动10系列混凝土泵"
+      }
+    },
+    {
+      "href": "/products/b500s-83d-two-stage-pump",
+      "label": {
+        "en": "B500S-83D Two-Stage Structure Pump",
+        "zh": "B500S-83D 两级结构泵"
+      }
+    },
+    {
+      "href": "/products/lz-80-diesel-concrete-pump",
+      "label": {
+        "en": "LZ-80 Diesel Concrete Pump",
+        "zh": "LZ-80柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-120-concrete-pump",
+      "label": {
+        "en": "Diesel 120 Concrete Pump",
+        "zh": "柴油120型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-mixer-integrated-pump",
+      "label": {
+        "en": "Diesel Mixer Integrated Pump",
+        "zh": "柴油搅拌泵一体机"
+      }
+    },
+    {
+      "href": "/products/tractor-4100-concrete-pump",
+      "label": {
+        "en": "Tractor-Driven 4100 Concrete Pump",
+        "zh": "拖拉机带动4100混凝土泵"
+      }
+    },
+    {
+      "href": "/products/rural-diesel-concrete-pump",
+      "label": {
+        "en": "Rural Diesel Concrete Pump",
+        "zh": "农村自建房柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-50-concrete-pump",
+      "label": {
+        "en": "Electric 50 Concrete Pump",
+        "zh": "电动50型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-low-pressure-60-concrete-pump",
+      "label": {
+        "en": "Electric Low Pressure 60 Concrete Pump",
+        "zh": "电动低压60型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-60-concrete-pump",
+      "label": {
+        "en": "Electric 60 Concrete Pump",
+        "zh": "电动60型混凝土泵"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Electric 80 Concrete Pump",
+      "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Electric 80 Concrete Pump",
+      "url": "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Diesel 60 Concrete Pump",
+      "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Diesel 60 Concrete Pump",
+      "url": "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": {
+    "src": "/images/geo/parts/pinjin-parts-published-pumps-without-pipe-diameter.webp",
+    "alt": {
+      "en": "Published pumps with no delivery-pipe diameter cell, 品锦, Hebei Pinjin Machinery, Xingtai",
+      "zh": "没有输送管内径格的已公布泵，品锦机械，河北邢台"
+    }
+  }
+}

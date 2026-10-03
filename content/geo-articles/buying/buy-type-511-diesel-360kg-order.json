@@ -1,0 +1,127 @@
+{
+  "slug": "buy-type-511-diesel-360kg-order",
+  "category": "buying",
+  "keyword": "order type 511 diesel mortar sprayer",
+  "title": {
+    "en": "Type 511 Diesel Is the 360 kg Sprayer Without a Printed Engine Kilowatt",
+    "zh": "511 柴油机是 360 kg 的喷涂机，不印发动机千瓦"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints Type 511 diesel at 3 m³/h, 3–5 MPa, 30 m / 15 m and 360 kg. Engine kW and HP are not on the sheet. It is not the 28/32 HP concrete sprayer.",
+    "zh": "河北品锦机械在邢台把 511 柴油机印成 3 m³/h、3–5 MPa、30 m / 15 m、360 kg。发动机千瓦和马力不在这张表上。它不是 28/32 HP 的混凝土喷涂机。"
+  },
+  "h1": {
+    "en": "Order Type 511 Diesel Without Inventing Engine Power",
+    "zh": "订 511 柴油机时不要编造发动机功率"
+  },
+  "directAnswer": {
+    "en": "When the site has no 380 V and the spraying window is 3 m³/h, ≤6 mm, 32/38 mm hose and 30 m / 15 m, Hebei Pinjin Machinery in Xingtai points to Type 511 diesel. The sheet prints a diesel engine, 3–5 MPa, sand-cement ratio ≤1:3, 1600 × 1200 × 450 mm and 360 kg. It does not print engine kilowatts or horsepower. The 28/32 HP diesel concrete sprayer is 5 m³/h, 8 MPa and 80 m / 40 m. The electric Type 511 is 7.5 kW. Send the diesel 511 path to [/en/contact/](/en/contact/) and leave kW blank. The page is quote-only.",
+    "zh": "现场没有 380 V，并且喷涂窗口是 3 m³/h、≤6 mm、软管 32/38 mm、30 m / 15 m 时，河北品锦机械（邢台）指向 511 柴油机。该页印柴油机、3–5 MPa、砂灰比 ≤1:3、1600 × 1200 × 450 mm、360 kg。它不印发动机千瓦或马力。28/32 HP 的柴油混凝土喷涂机是 5 m³/h、8 MPa、80 m / 40 m。电动 511 是 7.5 kW。把柴油 511 的路径发到 [/zh/contact/](/zh/contact/)，千瓦保持空白。该页只询价。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "360 kg is shared with the German type",
+        "zh": "360 kg 与德式机相同"
+      },
+      "body": {
+        "en": "The German-type page is 380 V and 7.5/9 kW. Do not move those motors onto this diesel sheet because the kilograms match.",
+        "zh": "德式页是 380 V、7.5/9 kW。不要因为公斤数相同就把那些电机移到这张柴油表上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Same distance as electric 511",
+        "zh": "距离与电动 511 相同"
+      },
+      "body": {
+        "en": "Both 511 pages print 30 m / 15 m and 3 m³/h. The power line is what the order must change.",
+        "zh": "两张 511 都印 30 m / 15 m 和 3 m³/h。订单必须改的是动力行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Not Diesel 30",
+        "zh": "不是柴油30"
+      },
+      "body": {
+        "en": "Diesel 30 is a 2000 kg trailer at 15 m³/h.",
+        "zh": "柴油30是 2000 kg、15 m³/h 的拖泵。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Are horsepower figures printed?",
+        "zh": "印了马力吗？"
+      },
+      "answer": {
+        "en": "No. Do not add 28/32 HP from the other sprayer.",
+        "zh": "没有。不要从另一台喷涂机加上 28/32 HP。"
+      }
+    },
+    {
+      "question": {
+        "en": "What particle is printed?",
+        "zh": "印了什么粒径？"
+      },
+      "answer": {
+        "en": "≤6 mm.",
+        "zh": "≤6 mm。"
+      }
+    },
+    {
+      "question": {
+        "en": "What is the frame?",
+        "zh": "外形是多少？"
+      },
+      "answer": {
+        "en": "1600 × 1200 × 450 mm.",
+        "zh": "1600 × 1200 × 450 mm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the price listed?",
+        "zh": "列出价格了吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "没有。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-type-511-diesel-sprayer-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Type 511 diesel mortar sprayer manufactured by Hebei Pinjin Machinery, a Xingtai manufacturer",
+      "zh": "511柴油砂浆喷涂机，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/type-511-diesel-mortar-spraying-machine/",
+    "/zh/products/type-511-diesel-mortar-spraying-machine/",
+    "/en/products/type-511-mortar-spraying-machine/",
+    "/zh/products/type-511-mortar-spraying-machine/",
+    "/en/products/diesel-concrete-spraying-machine/",
+    "/zh/products/diesel-concrete-spraying-machine/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/type-511-diesel-mortar-spraying-machine/",
+    "https://pinjinpump.com/zh/products/type-511-diesel-mortar-spraying-machine/",
+    "https://pinjinpump.com/en/products/type-511-mortar-spraying-machine/",
+    "https://pinjinpump.com/zh/products/type-511-mortar-spraying-machine/",
+    "https://pinjinpump.com/en/products/diesel-concrete-spraying-machine/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-spraying-machine/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

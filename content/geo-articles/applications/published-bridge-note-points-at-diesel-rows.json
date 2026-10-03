@@ -1,0 +1,137 @@
+{
+  "slug": "published-bridge-note-points-at-diesel-rows",
+  "category": "application",
+  "keyword": "bridge pipeline diesel concrete pump",
+  "title": {
+    "en": "Which pumps does the published bridge note open?",
+    "zh": "已发布的桥梁说明打开哪些泵？"
+  },
+  "description": {
+    "en": "The site’s bridge note discusses continuous pipeline supply for pier, pile-cap and deck work and points at Diesel 50, Diesel 60 and LZ-80. It names no bridge.",
+    "zh": "本站桥梁说明讨论墩柱、承台和桥面的连续管道供料，并指向柴油50、柴油60和 LZ-80。它没有桥名。"
+  },
+  "h1": {
+    "en": "Which pumps does the published bridge note open?",
+    "zh": "已发布的桥梁说明打开哪些泵？"
+  },
+  "directAnswer": {
+    "en": "Diesel 50, Diesel 60 and LZ-80, as comparison rows, not as a bridge package. The published note from Hebei Pinjin Machinery in Xingtai says pier shafts, pile caps and deck slabs are discussed as continuous pipeline placement, and that many highway and river sites lack stable three-phase power, so the diesel catalogue is opened first. Diesel 50 is 30 m³/h and 150 m / 450 m. Diesel 60 is 35 m³/h and 150 m / 350 m. LZ-80 is the high-output diesel with two pressure modes and aggregate 6 cm and below. This page adds no pier height and no deck volume.",
+    "zh": "柴油50、柴油60和 LZ-80，是对照行，不是一套桥梁套餐。邢台河北品锦机械已发布的说明把墩柱、承台和桥面板写成连续管道浇筑，并写明不少公路和跨河工地没有稳定三相电，所以先打开柴油目录。柴油50是 30 m³/h、150 m / 450 m。柴油60是 35 m³/h、150 m / 350 m。LZ-80 是分两种压力模式、骨料 6 cm 及以下的大排量柴油泵。本页不增加墩高，也不增加桥面板方量。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Continuous feed is not a new output number",
+        "zh": "连续供料不是一个新的输送量数字"
+      },
+      "body": {
+        "en": "The note says a trailer pump only delivers what reaches the hopper, and that 30 m³/h or the LZ-80 low-pressure ≤ 95 m³/h are catalogue figures. Mixer trucks and pipeline layout are site conditions. They do not create a promised rate. If the grid is actually stable, the infrastructure electric rows (Electric 80, HBT8018) stay available. The bridge note’s reason for diesel is the missing three-phase supply.",
+        "zh": "该说明写明拖泵只输送到达料斗的料，30 m³/h 或 LZ-80 低压 ≤ 95 m³/h 是目录数字。搅拌车和管路布置是现场条件。它们不会变成承诺速率。如果电网实际上是稳定的，基建电动行（电动80、HBT8018）仍然可用。桥梁说明选择柴油的理由是缺少三相电源。"
+      }
+    },
+    {
+      "heading": {
+        "en": "No boom is added for a deck",
+        "zh": "桥面不会因此多一台臂架泵"
+      },
+      "body": {
+        "en": "The same note says Hebei Pinjin Machinery does not sell truck-mounted boom pumps. Deck and pier placement in that text is pipeline placement from a trailer pump. Spraying machines are a different catalogue and are not the bridge rows.",
+        "zh": "同一篇说明写明河北品锦机械不销售车载臂架泵。文中的桥面和墩柱浇筑是拖泵管道浇筑。喷涂机是另一本目录，不是桥梁这几行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Send pipeline metres, stone, whether three-phase power exists, and the output you need. Do not send a bridge name. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请发管路米数、石子、有没有三相电，以及需要的输送量。不要发桥名。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is a named bridge a required field?",
+        "zh": "必须填写桥名吗？"
+      },
+      "answer": {
+        "en": "No. The published note starts from continuity and catalogue rows, not from a project title.",
+        "zh": "不必须。已发布的说明从连续供料和目录行开始，不从项目标题开始。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does LZ-80’s 95 m³/h apply at 35 MPa?",
+        "zh": "LZ-80 的 95 m³/h 能和 35 MPa 一起用吗？"
+      },
+      "answer": {
+        "en": "No. ≤ 95 m³/h is the low-pressure mode at ≤ 22 MPa. High pressure is ≤ 65 m³/h at ≤ 35 MPa.",
+        "zh": "不能。≤ 95 m³/h 是低压模式，压力 ≤ 22 MPa。高压是 ≤ 65 m³/h、≤ 35 MPa。"
+      }
+    },
+    {
+      "question": {
+        "en": "Are pile-cap volumes printed?",
+        "zh": "承台方量印了吗？"
+      },
+      "answer": {
+        "en": "No. Do not invent one.",
+        "zh": "没有。不要编。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/published-bridge-note-points-at-diesel-rows.webp",
+    "alt": {
+      "en": "Diesel 60 concrete pump, one of the diesel rows named in the published bridge pipeline note",
+      "zh": "柴油60型混凝土泵，已发布桥梁管道说明中点名的柴油行之一"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/diesel-50-concrete-pump",
+      "label": {
+        "en": "Diesel 50 Concrete Pump",
+        "zh": "柴油50型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-60-concrete-pump",
+      "label": {
+        "en": "Diesel 60 Concrete Pump",
+        "zh": "柴油60型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/lz-80-diesel-concrete-pump",
+      "label": {
+        "en": "LZ-80 Diesel Concrete Pump",
+        "zh": "LZ-80柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/infrastructure",
+      "label": {
+        "en": "Infrastructure pumping",
+        "zh": "基建泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/diesel-50-concrete-pump",
+    "https://pinjinpump.com/products/diesel-60-concrete-pump",
+    "https://pinjinpump.com/products/lz-80-diesel-concrete-pump",
+    "https://pinjinpump.com/solutions/infrastructure",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

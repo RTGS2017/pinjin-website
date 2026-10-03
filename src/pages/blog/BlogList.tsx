@@ -14,6 +14,7 @@ import {
 import { getProductBySlug } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
+import { blogDisplayTitle } from '@/seo/documentCopy';
 
 export function BlogList() {
   const { lang, t, tx } = useI18n();
@@ -112,7 +113,7 @@ export function BlogList() {
                           to={`/blog/${post.slug}`}
                           className="hover:text-primary"
                         >
-                          {tx(post.title)}
+                          {blogDisplayTitle(tx(post.title))}
                         </LocaleLink>
                       </h2>
                       <p className="mt-2 flex-1 text-sm text-text-secondary">{tx(post.description)}</p>

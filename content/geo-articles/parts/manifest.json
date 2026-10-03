@@ -1,0 +1,608 @@
+{
+  "category": "parts",
+  "count": 75,
+  "entity": "河北品锦机械制造有限公司，邢台",
+  "articles": [
+    {
+      "slug": "parts-straight-delivery-pipe-printed-fields",
+      "file": "parts-straight-delivery-pipe-printed-fields.json",
+      "keyword": "concrete pump delivery pipe",
+      "image": "/images/geo/parts/pinjin-parts-straight-delivery-pipe-printed-fields.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-electric-20-printed-pipe-80mm",
+      "file": "parts-electric-20-printed-pipe-80mm.json",
+      "keyword": "Electric 20 delivery pipe 80 mm",
+      "image": "/images/geo/parts/pinjin-parts-electric-20-printed-pipe-80mm.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-electric-15-printed-pipe-100-125",
+      "file": "parts-electric-15-printed-pipe-100-125.json",
+      "keyword": "Electric 15 delivery pipe 100–125 mm",
+      "image": "/images/geo/parts/pinjin-parts-electric-15-printed-pipe-100-125.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integrated-mixer-pump-printed-pipe-100-125",
+      "file": "parts-integrated-mixer-pump-printed-pipe-100-125.json",
+      "keyword": "Integrated Mixer Pump delivery pipe 100 / 125 mm",
+      "image": "/images/geo/parts/pinjin-parts-integrated-mixer-pump-printed-pipe-100-125.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-hbt8018-printed-pipe-100-125",
+      "file": "parts-hbt8018-printed-pipe-100-125.json",
+      "keyword": "HBT8018 delivery pipe 100 / 125 mm",
+      "image": "/images/geo/parts/pinjin-parts-hbt8018-printed-pipe-100-125.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-hbt80-16-printed-pipe-100-125",
+      "file": "parts-hbt80-16-printed-pipe-100-125.json",
+      "keyword": "HBT80-16 delivery pipe 100 / 125 mm",
+      "image": "/images/geo/parts/pinjin-parts-hbt80-16-printed-pipe-100-125.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-lz-60-printed-pipe-100-125",
+      "file": "parts-lz-60-printed-pipe-100-125.json",
+      "keyword": "LZ-60 delivery pipe 100 / 125 mm",
+      "image": "/images/geo/parts/pinjin-parts-lz-60-printed-pipe-100-125.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-published-pumps-without-pipe-diameter",
+      "file": "parts-published-pumps-without-pipe-diameter.json",
+      "keyword": "concrete pump pages without delivery pipe diameter",
+      "image": "/images/geo/parts/pinjin-parts-published-pumps-without-pipe-diameter.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-elbow-dn200-r275-90",
+      "file": "parts-elbow-dn200-r275-90.json",
+      "keyword": "DN200 R275 90 degree concrete pump elbow",
+      "image": "/images/geo/parts/pinjin-parts-elbow-dn200-r275-90.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-dn200-elbow-is-not-a-trailer-pipe-cell",
+      "file": "parts-dn200-elbow-is-not-a-trailer-pipe-cell.json",
+      "keyword": "DN200 elbow versus printed trailer pipe diameter",
+      "image": "/images/geo/parts/pinjin-parts-dn200-elbow-is-not-a-trailer-pipe-cell.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-clamp-dn80-en14420-3",
+      "file": "parts-clamp-dn80-en14420-3.json",
+      "keyword": "DN80 EN14420-3 concrete pump pipe clamp",
+      "image": "/images/geo/parts/pinjin-parts-clamp-dn80-en14420-3.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-dn80-clamp-and-the-80mm-pipe-cell",
+      "file": "parts-dn80-clamp-and-the-80mm-pipe-cell.json",
+      "keyword": "DN80 clamp and Electric 20 80 mm pipe",
+      "image": "/images/geo/parts/pinjin-parts-dn80-clamp-and-the-80mm-pipe-cell.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-delivery-hose-printed-fields",
+      "file": "parts-delivery-hose-printed-fields.json",
+      "keyword": "concrete pump delivery hose",
+      "image": "/images/geo/parts/pinjin-parts-delivery-hose-printed-fields.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-delivery-hose-is-not-the-straight-pipe",
+      "file": "parts-delivery-hose-is-not-the-straight-pipe.json",
+      "keyword": "delivery hose versus straight delivery pipe",
+      "image": "/images/geo/parts/pinjin-parts-delivery-hose-is-not-the-straight-pipe.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-150",
+      "file": "parts-split-piston-150.json",
+      "keyword": "concrete pump split piston φ150",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-150.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-180",
+      "file": "parts-split-piston-180.json",
+      "keyword": "concrete pump split piston φ180",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-180.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-195",
+      "file": "parts-split-piston-195.json",
+      "keyword": "concrete pump split piston φ195",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-195.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-200",
+      "file": "parts-split-piston-200.json",
+      "keyword": "concrete pump split piston φ200",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-200.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-220",
+      "file": "parts-split-piston-220.json",
+      "keyword": "concrete pump split piston φ220",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-220.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-230",
+      "file": "parts-split-piston-230.json",
+      "keyword": "concrete pump split piston φ230",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-230.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-250",
+      "file": "parts-split-piston-250.json",
+      "keyword": "concrete pump split piston φ250",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-250.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-260",
+      "file": "parts-split-piston-260.json",
+      "keyword": "concrete pump split piston φ260",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-260.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-piston-280",
+      "file": "parts-split-piston-280.json",
+      "keyword": "concrete pump split piston φ280",
+      "image": "/images/geo/parts/pinjin-parts-split-piston-280.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-150",
+      "file": "parts-integral-piston-150.json",
+      "keyword": "concrete pump integral piston φ150",
+      "image": "/images/geo/parts/pinjin-parts-integral-piston-150.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-160",
+      "file": "parts-integral-piston-160.json",
+      "keyword": "concrete pump integral piston φ160",
+      "image": "/images/geo/parts/pinjin-parts-integral-piston-160.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-180",
+      "file": "parts-integral-piston-180.json",
+      "keyword": "concrete pump integral piston φ180",
+      "image": "/images/geo/parts/pinjin-parts-integral-piston-180.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-195",
+      "file": "parts-integral-piston-195.json",
+      "keyword": "concrete pump integral piston φ195",
+      "image": "/images/geo/parts/pinjin-parts-integral-piston-195.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-200",
+      "file": "parts-integral-piston-200.json",
+      "keyword": "concrete pump integral piston φ200",
+      "image": "/images/geo/parts/pinjin-parts-integral-piston-200.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-205",
+      "file": "parts-integral-piston-205.json",
+      "keyword": "concrete pump integral piston φ205",
+      "image": "/images/geo/parts/pinjin-parts-integral-piston-205.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-210",
+      "file": "parts-integral-piston-210.json",
+      "keyword": "concrete pump integral piston φ210",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-220",
+      "file": "parts-integral-piston-220.json",
+      "keyword": "concrete pump integral piston φ220",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-225",
+      "file": "parts-integral-piston-225.json",
+      "keyword": "concrete pump integral piston φ225",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-230",
+      "file": "parts-integral-piston-230.json",
+      "keyword": "concrete pump integral piston φ230",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-integral-piston-250",
+      "file": "parts-integral-piston-250.json",
+      "keyword": "concrete pump integral piston φ250",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-split-and-integral-pistons-share-some-ods",
+      "file": "parts-split-and-integral-pistons-share-some-ods.json",
+      "keyword": "split piston and integral piston outer diameter",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-large-210",
+      "file": "parts-s-tube-seal-large-210.json",
+      "keyword": "concrete pump S-tube large-end seal φ210",
+      "image": "/images/geo/parts/pinjin-parts-s-tube-seal-large-210.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-large-220",
+      "file": "parts-s-tube-seal-large-220.json",
+      "keyword": "concrete pump S-tube large-end seal φ220",
+      "image": "/images/geo/parts/pinjin-parts-s-tube-seal-large-220.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-large-250",
+      "file": "parts-s-tube-seal-large-250.json",
+      "keyword": "concrete pump S-tube large-end seal φ250",
+      "image": "/images/geo/parts/pinjin-parts-s-tube-seal-large-250.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-small-80",
+      "file": "parts-s-tube-seal-small-80.json",
+      "keyword": "concrete pump S-tube small-end seal φ80",
+      "image": "/images/geo/parts/pinjin-parts-s-tube-seal-small-80.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-small-90",
+      "file": "parts-s-tube-seal-small-90.json",
+      "keyword": "concrete pump S-tube small-end seal φ90",
+      "image": "/images/geo/parts/pinjin-parts-s-tube-seal-small-90.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-small-100",
+      "file": "parts-s-tube-seal-small-100.json",
+      "keyword": "concrete pump S-tube small-end seal φ100",
+      "image": "/images/geo/parts/pinjin-parts-s-tube-seal-small-100.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-seal-small-105",
+      "file": "parts-s-tube-seal-small-105.json",
+      "keyword": "concrete pump S-tube small-end seal φ105",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-s-tube-large-end-and-small-end",
+      "file": "parts-s-tube-large-end-and-small-end.json",
+      "keyword": "S-tube large end seal and small end seal",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-mixing-seal-65",
+      "file": "parts-mixing-seal-65.json",
+      "keyword": "concrete pump mixing seal φ65",
+      "image": "/images/geo/parts/pinjin-parts-mixing-seal-65.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-mixing-seal-80",
+      "file": "parts-mixing-seal-80.json",
+      "keyword": "concrete pump mixing seal φ80",
+      "image": "/images/geo/parts/pinjin-parts-mixing-seal-80.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-mixing-seal-generation-kits",
+      "file": "parts-mixing-seal-generation-kits.json",
+      "keyword": "mixer seal kit generation",
+      "image": "/images/geo/parts/pinjin-parts-mixing-seal-generation-kits.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-mixing-seal-upper-pump-kit",
+      "file": "parts-mixing-seal-upper-pump-kit.json",
+      "keyword": "upper pump mixing seal kit",
+      "image": "/images/geo/parts/pinjin-parts-mixing-seal-upper-pump-kit.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-63",
+      "file": "parts-main-cylinder-seal-63.json",
+      "keyword": "concrete pump main cylinder seal φ63",
+      "image": "/images/geo/parts/pinjin-parts-main-cylinder-seal-63.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-80",
+      "file": "parts-main-cylinder-seal-80.json",
+      "keyword": "concrete pump main cylinder seal φ80",
+      "image": "/images/geo/parts/pinjin-parts-main-cylinder-seal-80.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-80x125",
+      "file": "parts-main-cylinder-seal-80x125.json",
+      "keyword": "concrete pump main cylinder seal 80×125",
+      "image": "/images/geo/parts/pinjin-parts-main-cylinder-seal-80x125.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-90x140",
+      "file": "parts-main-cylinder-seal-90x140.json",
+      "keyword": "concrete pump main cylinder seal 90×140",
+      "image": "/images/geo/parts/pinjin-parts-main-cylinder-seal-90x140.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-90-160",
+      "file": "parts-main-cylinder-seal-90-160.json",
+      "keyword": "concrete pump main cylinder seal 90–160",
+      "image": "/images/geo/parts/pinjin-parts-main-cylinder-seal-90-160.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-95x140",
+      "file": "parts-main-cylinder-seal-95x140.json",
+      "keyword": "concrete pump main cylinder seal 95×140",
+      "image": "/images/geo/parts/pinjin-parts-main-cylinder-seal-95x140.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-100x150",
+      "file": "parts-main-cylinder-seal-100x150.json",
+      "keyword": "concrete pump main cylinder seal 100×150",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-461k",
+      "file": "parts-main-cylinder-seal-461k.json",
+      "keyword": "concrete pump main cylinder seal 461K",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-mark-styles",
+      "file": "parts-main-cylinder-seal-mark-styles.json",
+      "keyword": "main cylinder seal kit marks",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-cylinder-seal-60",
+      "file": "parts-swing-cylinder-seal-60.json",
+      "keyword": "concrete pump swing cylinder seal φ60",
+      "image": "/images/geo/parts/pinjin-parts-swing-cylinder-seal-60.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-cylinder-seal-70",
+      "file": "parts-swing-cylinder-seal-70.json",
+      "keyword": "concrete pump swing cylinder seal φ70",
+      "image": "/images/geo/parts/pinjin-parts-swing-cylinder-seal-70.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-cylinder-seal-80",
+      "file": "parts-swing-cylinder-seal-80.json",
+      "keyword": "concrete pump swing cylinder seal φ80",
+      "image": "/images/geo/parts/pinjin-parts-swing-cylinder-seal-80.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-cylinder-seal-90",
+      "file": "parts-swing-cylinder-seal-90.json",
+      "keyword": "concrete pump swing cylinder seal φ90",
+      "image": "/images/geo/parts/pinjin-parts-swing-cylinder-seal-90.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-rubber-spring-150",
+      "file": "parts-rubber-spring-150.json",
+      "keyword": "concrete pump rubber spring φ150",
+      "image": "/images/geo/parts/pinjin-parts-rubber-spring-150.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-rubber-spring-180",
+      "file": "parts-rubber-spring-180.json",
+      "keyword": "concrete pump rubber spring φ180",
+      "image": "/images/geo/parts/pinjin-parts-rubber-spring-180.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-rubber-spring-200",
+      "file": "parts-rubber-spring-200.json",
+      "keyword": "concrete pump rubber spring φ200",
+      "image": "/images/geo/parts/pinjin-parts-rubber-spring-200.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-rubber-spring-230",
+      "file": "parts-rubber-spring-230.json",
+      "keyword": "concrete pump rubber spring φ230",
+      "image": "/images/geo/parts/pinjin-parts-rubber-spring-230.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-rubber-spring-235",
+      "file": "parts-rubber-spring-235.json",
+      "keyword": "concrete pump rubber spring φ235",
+      "image": "/images/geo/parts/pinjin-parts-rubber-spring-235.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-rubber-spring-260",
+      "file": "parts-rubber-spring-260.json",
+      "keyword": "concrete pump rubber spring φ260",
+      "image": "/images/geo/parts/pinjin-parts-rubber-spring-260.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-arm-ball-60",
+      "file": "parts-swing-arm-ball-60.json",
+      "keyword": "concrete pump swing arm ball φ60",
+      "image": "/images/geo/parts/pinjin-parts-swing-arm-ball-60.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-arm-ball-70",
+      "file": "parts-swing-arm-ball-70.json",
+      "keyword": "concrete pump swing arm ball φ70",
+      "image": "/images/geo/parts/pinjin-parts-swing-arm-ball-70.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-swing-arm-ball-80",
+      "file": "parts-swing-arm-ball-80.json",
+      "keyword": "concrete pump swing arm ball φ80",
+      "image": "/images/geo/parts/pinjin-parts-swing-arm-ball-80.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-same-numeral-on-different-spares",
+      "file": "parts-same-numeral-on-different-spares.json",
+      "keyword": "same size number on different concrete pump parts",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "parts-electric-80-and-hbt80-16-shared-code",
+      "file": "parts-electric-80-and-hbt80-16-shared-code.json",
+      "keyword": "Electric 80 and HBT80-16 HBT80-1816-110",
+      "image": "/images/geo/parts/pinjin-parts-electric-80-and-hbt80-16-shared-code.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-diesel-60-and-lz-60-shared-code",
+      "file": "parts-diesel-60-and-lz-60-shared-code.json",
+      "keyword": "Diesel 60 and LZ-60 HBT60-13.132",
+      "image": "/images/geo/parts/pinjin-parts-diesel-60-and-lz-60-shared-code.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-b500s-83d-standard-hose-cell",
+      "file": "parts-b500s-83d-standard-hose-cell.json",
+      "keyword": "B500S-83D standard delivery hose",
+      "image": "/images/geo/parts/pinjin-parts-b500s-83d-standard-hose-cell.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-diesel-mixer-pump-has-no-pipe-diameter",
+      "file": "parts-diesel-mixer-pump-has-no-pipe-diameter.json",
+      "keyword": "Diesel Mixer Integrated Pump missing pipe diameter",
+      "image": "/images/geo/parts/pinjin-parts-diesel-mixer-pump-has-no-pipe-diameter.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "parts-electric-10-series-has-no-spare-size",
+      "file": "parts-electric-10-series-has-no-spare-size.json",
+      "keyword": "Electric 10 Series missing spare sizes",
+      "image": "/images/geo/parts/pinjin-parts-electric-10-series-has-no-spare-size.webp",
+      "status": "ready"
+    }
+  ],
+  "missingImages": [
+    {
+      "slug": "parts-integral-piston-210",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-integral-piston-220",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-integral-piston-225",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-integral-piston-230",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-integral-piston-250",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-split-and-integral-pistons-share-some-ods",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-s-tube-seal-small-105",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-s-tube-large-end-and-small-end",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-100x150",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-461k",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-main-cylinder-seal-mark-styles",
+      "reason": "same original already used on 3 articles"
+    },
+    {
+      "slug": "parts-same-numeral-on-different-spares",
+      "reason": "no single product photo matches this note"
+    }
+  ],
+  "rejectedTopics": [
+    {
+      "topic": "眼镜板 / spectacle wear plate",
+      "reason": "目录没有该产品页，不生成型号或配件文。"
+    },
+    {
+      "topic": "输送缸 / delivery cylinder",
+      "reason": "目录没有输送缸产品页。主油缸密封是密封套件，不是缸体。"
+    },
+    {
+      "topic": "液压泵、阀块等液压件总成",
+      "reason": "仅有部分泵页的液压泵参数格，没有液压件配件页。已覆盖的是主油缸密封和摆缸密封。"
+    },
+    {
+      "topic": "变径管 / reducer",
+      "reason": "没有变径管产品 URL。"
+    },
+    {
+      "topic": "寿命小时、采购清单、工地场景、纯原理长文",
+      "reason": "目录无寿命字段；这类体裁不写。"
+    },
+    {
+      "topic": "喷涂机配件与车载臂架泵型号页",
+      "reason": "喷涂机无配件页；弯管铭牌写泵车专用管，但没有臂架泵产品页。"
+    }
+  ]
+}

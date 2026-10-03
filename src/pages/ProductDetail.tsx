@@ -29,7 +29,11 @@ import {
   getSelectionBound,
 } from '@/data/productP01';
 import { getNearbyComparisons } from '@/data/productCompare';
-import { productDocumentDescription, productDocumentTitle } from '@/seo/documentCopy';
+import {
+  blogDisplayTitle,
+  productDocumentDescription,
+  productDocumentTitle,
+} from '@/seo/documentCopy';
 import { ProductCard } from '@/components/ui/ProductCard';
 import { ProductGallery } from '@/components/ui/ProductGallery';
 import { InquiryBrief } from '@/components/ui/InquiryBrief';
@@ -492,7 +496,7 @@ export function ProductDetail() {
                     to={`/blog/${item.slug}`}
                     className="font-medium text-dark hover:text-primary"
                   >
-                    {tx(item.title)}
+                    {blogDisplayTitle(tx(item.title))}
                   </LocaleLink>
                 </li>
               ))}

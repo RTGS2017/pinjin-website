@@ -1,0 +1,155 @@
+{
+  "slug": "parts-hbt80-16-printed-pipe-100-125",
+  "category": "parts",
+  "keyword": "HBT80-16 delivery pipe 100 / 125 mm",
+  "title": {
+    "en": "HBT80-16 prints delivery pipe 100 / 125 mm",
+    "zh": "HBT80-16 的输送管内径印的是 100 / 125 mm"
+  },
+  "description": {
+    "en": "The HBT80-16 page prints model HBT80-16 / HBT80-1816-110 and delivery pipe inner diameter 100 / 125 mm. Electric 80 shares the code HBT80-1816-110 and does not print a pipe diameter.",
+    "zh": "HBT80-16 页面印出型号 HBT80-16 / HBT80-1816-110，输送管内径 100 / 125 mm。电动80也写了代号 HBT80-1816-110，但没有管径格。"
+  },
+  "h1": {
+    "en": "HBT80-16 Concrete Pump, delivery pipe 100 / 125 mm",
+    "zh": "HBT80-16混凝土泵，输送管内径 100 / 125 mm"
+  },
+  "directAnswer": {
+    "en": "HBT80-16 is an HBT-series trailer pump made in Xingtai. Only this page, not the Electric 80 page, prints delivery pipe 100 / 125 mm. Wall thickness is not printed.",
+    "zh": "HBT80-16 是邢台制造的 HBT 系列拖泵。印出输送管 100 / 125 mm 的是这一页，不是电动80那一页。壁厚没有印出。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What this published model is",
+        "zh": "这台已公布机型是什么"
+      },
+      "body": {
+        "en": "The sheet prints motor 110 kW, output 50 m³/h, pumping pressure 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, delivery pipe 100 / 125 mm, size 6600 × 1750 × 1800 mm, weight 6500 kg. The 120 m cell is horizontal distance.",
+        "zh": "参数表印出电机 110 kW、输送量 50 m³/h、泵送压力 40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、输送管 100 / 125 mm、外形 6600 × 1750 × 1800 mm、重量 6500 kg。120 m 是水平距离。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to copy onto the straight-pipe spare",
+        "zh": "向直管配件抄什么"
+      },
+      "body": {
+        "en": "Order the spare from the Concrete Pump Delivery Pipe page. That page is a red straight pipe with reinforced coupling ends. It has no fixed diameter table and no wall thickness. Electric 80 prints the same secondary code HBT80-1816-110, with 110 kW, 60 m³/h, 40 MPa and 900 m / 300 m, and no pipe-diameter cell. Copy 100 / 125 mm only when the inquiry is for HBT80-16.",
+        "zh": "直管从混凝土泵输送管页询价。那一页是带加强快接端的红色直管，没有固定管径表，也没有壁厚。电动80印了同一个副代号 HBT80-1816-110，参数是 110 kW、60 m³/h、40 MPa、900 m / 300 m，没有管径格。只有询价对象是 HBT80-16 时才抄 100 / 125 mm。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to send to Xingtai",
+        "zh": "发给邢台什么"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Send this model name, the inner diameter printed on its own page, the length you need, and the quantity. Do not send a wall thickness.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写上这一型号、它自己页面上的内径、需要的长度和数量。不要填写壁厚。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is the inner diameter taken from the spare-pipe page?",
+        "zh": "内径是从直管配件页读的吗？"
+      },
+      "answer": {
+        "en": "No. The spare page has no fixed size table. The figure comes from this model's specification cell.",
+        "zh": "不是。直管页没有固定尺寸表。数字来自这一型号参数表上的格子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is pumping distance the same as pipe length?",
+        "zh": "输送距离等于管子长度吗？"
+      },
+      "answer": {
+        "en": "No. A metre figure for horizontal or vertical conveying is distance, not a cut length for the spare.",
+        "zh": "不是。水平或垂直的米数是输送距离，不是配件的截取长度。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is wall thickness or service life printed?",
+        "zh": "壁厚或寿命印了吗？"
+      },
+      "answer": {
+        "en": "Neither is printed. Both are missing fields.",
+        "zh": "都没有印。两项都是缺字段。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is there a list price or a small parcel?",
+        "zh": "有标价或小包裹吗？"
+      },
+      "answer": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/hbt80-16-concrete-pump",
+      "label": {
+        "en": "HBT80-16 Concrete Pump",
+        "zh": "HBT80-16混凝土泵"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": {
+        "en": "Concrete Pump Delivery Pipe",
+        "zh": "混凝土泵输送管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: HBT80-16 Concrete Pump",
+      "url": "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：HBT80-16 Concrete Pump",
+      "url": "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": {
+    "src": "/images/geo/parts/pinjin-parts-hbt80-16-printed-pipe-100-125.webp",
+    "alt": {
+      "en": "HBT80-16 Concrete Pump, delivery pipe 100 / 125 mm, 品锦, Hebei Pinjin Machinery, Xingtai",
+      "zh": "HBT80-16混凝土泵，输送管内径 100 / 125 mm，品锦机械，河北邢台"
+    }
+  }
+}

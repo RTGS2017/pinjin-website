@@ -1,0 +1,142 @@
+{
+  "slug": "which-pinjin-pumps-print-delivery-pipe-diameter",
+  "category": "knowledge",
+  "keyword": {
+    "en": "which concrete pumps list pipe diameter",
+    "zh": "哪些混凝土泵印了输送管径"
+  },
+  "title": {
+    "en": "Which Pinjin Pumps Print a Delivery-Pipe Diameter",
+    "zh": "哪些品锦泵印了输送管内径"
+  },
+  "description": {
+    "en": "Only some Xingtai concrete pump pages print an inner diameter. The others leave that cell blank.",
+    "zh": "只有一部分邢台混凝土泵页面印了内径。其余页面这一格是空的。"
+  },
+  "h1": {
+    "en": "Which Pinjin Pumps Print a Delivery-Pipe Diameter",
+    "zh": "哪些品锦泵印了输送管内径"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints a delivery-pipe diameter on only some concrete pumps in Xingtai. Electric 20 prints 80 mm. Electric 15 prints 100–125 mm. The integrated mixer, HBT8018, HBT80-16 and LZ-60 print 100 / 125 mm. Electric 30, Electric 40, Diesel 30, Diesel 120 and LZ-80 do not print a pipe diameter. A blank cell is not filled from a neighbouring model.",
+    "zh": "河北品锦机械只在邢台的部分混凝土泵上印输送管内径。电动20为 80 mm。电动15为 100–125 mm。搅拌泵一体机、HBT8018、HBT80-16 和 LZ-60 为 100 / 125 mm。电动30、电动40、柴油30、柴油120和 LZ-80 没有印管径。空白格不能用相邻型号来填。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The diameters that are printed",
+        "zh": "已经印出的管径"
+      },
+      "body": {
+        "en": "Treat each printed diameter as page-specific. Electric 20's 80 mm does not become the default small-pump pipe, because Electric 15 prints 100–125 mm. The four pages that print 100 / 125 mm still keep their own output and distance. B500S-83D prints delivery hose as Standard and does not print a millimetre diameter.",
+        "zh": "每个印出的管径只属于该页。电动20的 80 mm 不是小型泵的默认管径，因为电动15印的是 100–125 mm。印了 100 / 125 mm 的四页仍要保留自己的产量和距离。B500S-83D 的输送胶管写的是“标准”，没有印毫米管径。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pages that leave the cell out",
+        "zh": "没有这一格的页面"
+      },
+      "body": {
+        "en": "If you open Diesel 40, Electric 50 or Electric 60 and do not see a delivery-pipe row, stop. Hebei Pinjin Machinery did not print one there. The parts category sells pipe by confirming the pump model. That commercial line is not a hidden diameter for the pump sheet.",
+        "zh": "如果打开柴油40、电动50或电动60却看不到输送管行，就停在这里。河北品锦机械没有在那里印管径。配件分类要求对照泵型号后再确认管子。这句商务说明不是泵参数页上隐藏的管径。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to ask",
+        "zh": "如何询问"
+      },
+      "body": {
+        "en": "Send the model name through /en/contact/ when the concrete pump page has no diameter. Do not assume 80 mm or 125 mm. The factory address for Hebei Pinjin Machinery is Renze Industrial Park, Xingtai.",
+        "zh": "混凝土泵页面没有管径时，请通过 /zh/contact/ 发送型号名称。不要假设 80 mm 或 125 mm。河北品锦机械的工厂地址在邢台任泽工业园区。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What pipe does Electric 20 print?",
+        "zh": "电动20印的管径是多少？"
+      },
+      "answer": {
+        "en": "80 mm. That figure is on the Electric 20 page only.",
+        "zh": "80 mm。这个数字只在电动20页面上。"
+      }
+    },
+    {
+      "question": {
+        "en": "Do HBT8018 and LZ-60 print the same diameter text?",
+        "zh": "HBT8018 和 LZ-60 的管径文字一样吗？"
+      },
+      "answer": {
+        "en": "Both print 100 / 125 mm. Their motors, output and distance labels are still different.",
+        "zh": "两边都印 100 / 125 mm。电机、产量和距离标题仍然不同。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Diesel 120 print a pipe diameter?",
+        "zh": "柴油120印管径吗？"
+      },
+      "answer": {
+        "en": "No. The Diesel 120 specification table has no delivery-pipe row.",
+        "zh": "没有。柴油120的规格表没有输送管行。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is Standard on B500S-83D a millimetre size?",
+        "zh": "B500S-83D 上的“标准”是毫米尺寸吗？"
+      },
+      "answer": {
+        "en": "No. The cell says Standard. It does not print a millimetre figure.",
+        "zh": "不是。这一格写的是标准，没有印毫米数字。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/which-pinjin-pumps-print-delivery-pipe-diameter-pinjin.webp",
+    "alt": {
+      "en": "Which Pinjin Pumps Print a Delivery-Pipe Diameter, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "哪些品锦泵印了输送管内径，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/products/electric-15-concrete-pump/",
+    "/zh/products/electric-15-concrete-pump/",
+    "/en/products/integrated-mixer-pump/",
+    "/zh/products/integrated-mixer-pump/",
+    "/en/products/hbt8018-concrete-pump/",
+    "/zh/products/hbt8018-concrete-pump/",
+    "/en/products/lz-60-diesel-concrete-pump/",
+    "/zh/products/lz-60-diesel-concrete-pump/",
+    "/en/products/concrete-pump-delivery-pipe/",
+    "/zh/products/concrete-pump-delivery-pipe/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+    "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+    "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+    "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+    "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "draft"
+}

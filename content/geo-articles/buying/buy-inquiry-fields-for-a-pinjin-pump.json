@@ -1,0 +1,127 @@
+{
+  "slug": "buy-inquiry-fields-for-a-pinjin-pump",
+  "category": "buying",
+  "keyword": "what to send in a concrete pump inquiry",
+  "title": {
+    "en": "What to Send in a Pump Inquiry to Hebei Pinjin Machinery",
+    "zh": "向河北品锦机械询盘混凝土泵要带哪些信息"
+  },
+  "description": {
+    "en": "A Xingtai pump inquiry needs the model path, mix or material, maximum aggregate, required output, horizontal and vertical distance, diesel or site voltage and frequency, country and purchase timing. Price is not on the page.",
+    "zh": "发往邢台的泵询盘需要型号路径、材料或配合比、最大骨料、目标输送量、水平与垂直距离、柴油或现场电压频率、国家与采购时间。价格不在页面上。"
+  },
+  "h1": {
+    "en": "The Inquiry Packet for a Xingtai Pump Quote",
+    "zh": "向邢台要泵报价时的询盘清单"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai asks for a fixed set of buying facts before a quote: mix or material, maximum aggregate, required output, horizontal and vertical distance, whether the site uses diesel or what voltage and frequency it has, plus country and purchase timing. Name the product path. Spare-part lines, if you add them, need name, size and quantity. The contact page is [/en/contact/](/en/contact/). No numeric price is printed.",
+    "zh": "河北品锦机械（邢台）在报价前要一组固定的采购事实：材料或配合比、最大骨料、目标输送量、水平与垂直距离、现场用柴油还是何种电压和频率，以及国家和采购时间。写上产品路径。如果同时要配件，请写名称、尺寸和数量。询盘页是 [/zh/contact/](/zh/contact/)。不印数字价格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Which facts are already the factory’s wording?",
+        "zh": "哪些内容就是工厂现成口径？"
+      },
+      "body": {
+        "en": "The category pages say to send mix or material, maximum aggregate, required output, horizontal and vertical distance, diesel or site voltage and frequency, country and purchase timing. Email on the site configuration is PinjinHebei@Outlook.com and the phone is 19912003025. Use those channels or [/en/contact/](/en/contact/).",
+        "zh": "分类页写明请发送材料或配合比、最大骨料、目标输送量、水平与垂直距离、柴油或现场电压频率、国家与采购时间。站点配置中的邮箱是 PinjinHebei@Outlook.com，电话是 19912003025。用这些渠道或 [/zh/contact/](/zh/contact/)。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Why name the slug?",
+        "zh": "为什么要写型号地址？"
+      },
+      "body": {
+        "en": "Diesel 60 and LZ-60 both print the string HBT60-13.132 and then different kilowatts, outputs and weights. Electric 80 and HBT80-16 both print HBT80-1816-110 and then different outputs and distances. The path tells Xingtai which sheet you read.",
+        "zh": "柴油60和 LZ-60 都印 HBT60-13.132，随后千瓦、输送量和重量不同。电动80和 HBT80-16 都印 HBT80-1816-110，随后输送量和距离不同。路径告诉邢台你读的是哪一张表。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the packet does not include",
+        "zh": "这张清单里没有什么？"
+      },
+      "body": {
+        "en": "It does not include a list price, a production-day promise, a certificate name, or an export-country list. Hebei Pinjin Machinery ships from Xingtai and states there is no overseas warehouse on the category answers. Leave unprinted cells blank.",
+        "zh": "清单里没有标价、没有生产天数承诺、没有证书名称，也没有出口国名单。河北品锦机械从邢台发货，分类问答写明没有海外仓。未印的格子保持空白。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Do I send a project nickname?",
+        "zh": "要附上项目昵称吗？"
+      },
+      "answer": {
+        "en": "Send measured facts and the model path. Do not substitute a project name the catalogue does not print.",
+        "zh": "发送量到的事实和型号路径。不要用目录里没有的项目名称代替。"
+      }
+    },
+    {
+      "question": {
+        "en": "Where do I write?",
+        "zh": "写到哪里？"
+      },
+      "answer": {
+        "en": "Use /en/contact/ or /zh/contact/, the on-site WhatsApp button, PinjinHebei@Outlook.com, or 19912003025.",
+        "zh": "使用 /zh/contact/、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。"
+      }
+    },
+    {
+      "question": {
+        "en": "Should parts be in the same note?",
+        "zh": "配件写在同一封里吗？"
+      },
+      "answer": {
+        "en": "If you add parts, the published line is name, size and quantity. This buying note does not replace the parts pages.",
+        "zh": "如果加上配件，已公布的写法是名称、尺寸和数量。这篇采购说明不代替配件页。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can I leave aggregate off?",
+        "zh": "可以不写骨料吗？"
+      },
+      "answer": {
+        "en": "The factory list includes maximum aggregate. Diesel 60 does not print an aggregate cell, so your measured stone is the only figure Xingtai has.",
+        "zh": "工厂清单包含最大骨料。柴油60没有骨料格子，因此你量到的石子是邢台唯一能用的数字。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-xingtai-factory-loading-pump-manufacturer.webp",
+    "alt": {
+      "en": "Factory loading at Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "河北品锦机械厂家装车现场，邢台混凝土泵厂家"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/products/diesel-concrete-pumps/",
+    "/zh/products/diesel-concrete-pumps/",
+    "/en/products/mixer-pumps/",
+    "/zh/products/mixer-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/en/products/mixer-pumps/",
+    "https://pinjinpump.com/zh/products/mixer-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

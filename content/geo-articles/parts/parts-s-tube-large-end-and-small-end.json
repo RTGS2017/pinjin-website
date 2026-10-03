@@ -1,0 +1,146 @@
+{
+  "slug": "parts-s-tube-large-end-and-small-end",
+  "category": "parts",
+  "keyword": "S-tube large end seal and small end seal",
+  "title": {
+    "en": "How Pinjin separates S-tube large-end and small-end seals",
+    "zh": "品锦如何分开 S 管大端和小端密封"
+  },
+  "description": {
+    "en": "The Xingtai S-tube seal page lists large-end kits at φ210, φ220 and φ250, and small-end kits at φ80, φ90, φ100 and φ105. The two ends are different rows.",
+    "zh": "邢台 S 管密封页把大端套件列为 φ210、φ220、φ250，小端套件列为 φ80、φ90、φ100、φ105。两端是不同的行。"
+  },
+  "h1": {
+    "en": "S-tube large-end seals and small-end seals",
+    "zh": "S管大端密封和小端密封"
+  },
+  "directAnswer": {
+    "en": "An S-tube seal from Hebei Pinjin Machinery is a set for one end of the S-tube. Large end and small end are both on the same product page and they are not interchangeable rows. No pump model is named.",
+    "zh": "河北品锦机械的 S 管密封是 S 管一端用的套件。大端和小端写在同一张产品页上，但不是可以互换的行。没有点名泵型号。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The two lists",
+        "zh": "两份清单"
+      },
+      "body": {
+        "en": "Large end: φ210, φ220, φ250. The φ220 row includes six-piece kits. Small end: φ80, φ90, φ100, φ105. The page also says some large-end kits are six-piece sets; the size row that states this is φ220. Material and life are missing.",
+        "zh": "大端：φ210、φ220、φ250。φ220 那一行包含六件套。小端：φ80、φ90、φ100、φ105。页面还说部分大端为六件套；写明这一点的尺寸行是 φ220。材料和寿命缺失。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Numbers that belong to other parts",
+        "zh": "属于其他配件的数字"
+      },
+      "body": {
+        "en": "φ80 here is a small-end seal, not the DN80 clamp and not Electric 20's 80 mm pipe. φ100 here is not the 100 / 125 mm pipe cell. A swing-cylinder seal also uses φ80 and φ90 on its own page.",
+        "zh": "这里的 φ80 是小端密封，不是 DN80 管卡，也不是电动20的 80 mm 管子。这里的 φ100 不是 100 / 125 mm 管径格。摆缸密封在自己的页面也使用 φ80 和 φ90。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to send",
+        "zh": "询价写什么"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Write large end or small end before the diameter.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 在直径前面写明大端或小端。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can one kit cover both ends?",
+        "zh": "一套能同时覆盖两端吗？"
+      },
+      "answer": {
+        "en": "The page lists the ends as separate rows. It does not print a combined two-end kit.",
+        "zh": "页面把两端分成不同的行。没有印出两端合并的一套。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which row mentions six pieces?",
+        "zh": "哪一行提到六件套？"
+      },
+      "answer": {
+        "en": "The φ220 large-end row. Do not copy that count onto φ210, φ250 or the small-end rows.",
+        "zh": "φ220 大端那一行。不要把这个件数抄到 φ210、φ250 或小端各行。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a pump model named?",
+        "zh": "点名泵型号了吗？"
+      },
+      "answer": {
+        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine.",
+        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is life printed?",
+        "zh": "印了寿命吗？"
+      },
+      "answer": {
+        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
+        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-s-tube-seal",
+      "label": {
+        "en": "Concrete Pump S-Tube Seal",
+        "zh": "混凝土泵S管密封"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-swing-cylinder-seal",
+      "label": {
+        "en": "Concrete Pump Swing Cylinder Seal",
+        "zh": "混凝土泵摆缸密封"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-pipe-clamp-dn80",
+      "label": {
+        "en": "DN80 Concrete Pump Pipe Clamp",
+        "zh": "DN80混凝土泵管卡"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: Concrete Pump S-Tube Seal",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump S-Tube Seal",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-s-tube-seal/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": null
+}

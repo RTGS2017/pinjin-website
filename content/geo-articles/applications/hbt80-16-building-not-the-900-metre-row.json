@@ -1,0 +1,136 @@
+{
+  "slug": "hbt80-16-building-not-the-900-metre-row",
+  "category": "application",
+  "keyword": "HBT80-16 building concrete pump",
+  "title": {
+    "en": "Is HBT80-16 the 900 m building pump?",
+    "zh": "HBT80-16 是那台 900 米建筑泵吗？"
+  },
+  "description": {
+    "en": "No. HBT80-16 prints 50 m³/h, horizontal 120 m and delivery height 360 m for building placement. The 900 m / 300 m, 60 m³/h row is Electric 80. Both pages show the code HBT80-1816-110.",
+    "zh": "不是。HBT80-16 给建筑浇筑印的是 50 m³/h、水平 120 m、输送高度 360 m。900 m / 300 m、60 m³/h 那一行是电动80。两页都出现代号 HBT80-1816-110。"
+  },
+  "h1": {
+    "en": "Is HBT80-16 the 900 m building pump?",
+    "zh": "HBT80-16 是那台 900 米建筑泵吗？"
+  },
+  "directAnswer": {
+    "en": "No. On the HBT80-16 page, Hebei Pinjin Machinery in Xingtai prints building and commercial placement at 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm and 6500 kg. The 900 m horizontal / 300 m vertical and 60 m³/h cells are on Electric 80. Both pages print the code HBT80-1816-110, so the tables have to be read separately.",
+    "zh": "不是。在 HBT80-16 页面上，邢台河北品锦机械把建筑与商业浇筑印成 110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管径 100 / 125 mm、6500 kg。水平 900 m / 垂直 300 m 和 60 m³/h 在电动80上。两页都印了代号 HBT80-1816-110，所以两张表要分开读。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What to send when the code looks the same",
+        "zh": "代号看起来一样时要发什么"
+      },
+      "body": {
+        "en": "Send the page you mean: /products/hbt80-16-concrete-pump or /products/electric-80-concrete-pump. Output is 50 m³/h on the first and 60 m³/h on the second. Aggregate is 4 cm and below on HBT80-16 and 24 mm (≤ 2 cm) on Electric 80. A shared code string is not a shared distance.",
+        "zh": "请发你指的那一页：/products/hbt80-16-concrete-pump 或 /products/electric-80-concrete-pump。前者输送量 50 m³/h，后者 60 m³/h。HBT80-16 骨料是 4 cm 及以下，电动80是 24 mm（≤ 2 cm）。同一个代号字符串不是同一段距离。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Where HBT80-16 sits in a building inquiry",
+        "zh": "HBT80-16 在建筑询盘里的位置"
+      },
+      "body": {
+        "en": "Use it when the pipeline is inside 120 m horizontal and 360 m delivery height, the stone is inside 4 cm, and the site can supply 110 kW. A longer horizontal infrastructure line is the Electric 80 discussion (900 m) or a diesel infrastructure row if the grid is absent. This page does not add a building name.",
+        "zh": "管路在水平 120 m 和输送高度 360 m 以内、石子在 4 cm 以内、现场能供 110 kW 时，用这一页。更长的水平基建管路去讨论电动80（900 m）；没有电网则去柴油基建行。本页不补充建筑名称。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Paste the URL of the page you are reading so the 50 m³/h table is not mixed with the 60 m³/h table. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请贴上你正在看的页面地址，避免 50 m³/h 的表和 60 m³/h 的表混在一起。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Are Electric 80 and HBT80-16 the same listing?",
+        "zh": "电动80和 HBT80-16 是同一条目录吗？"
+      },
+      "answer": {
+        "en": "They share the printed code HBT80-1816-110 and 110 kW, and they differ in output, distance and aggregate. Order from the page whose cells you checked.",
+        "zh": "它们共用已印代号 HBT80-1816-110 和 110 kW，输送量、距离和骨料不同。按下单前核对过的那一页。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 360 m horizontal?",
+        "zh": "360 m 是水平吗？"
+      },
+      "answer": {
+        "en": "On HBT80-16 the horizontal cell is 120 m. Delivery height is 360 m.",
+        "zh": "在 HBT80-16 上，水平格是 120 m。输送高度是 360 m。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does 4 cm aggregate apply to Electric 80?",
+        "zh": "4 cm 骨料适用于电动80吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 prints 24 mm (≤ 2 cm).",
+        "zh": "不适用。电动80印的是 24 mm（≤ 2 cm）。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/hbt80-16-building-not-the-900-metre-row.webp",
+    "alt": {
+      "en": "HBT80-16 concrete pump by Hebei Pinjin Machinery for building placement at 50 cubic metres per hour",
+      "zh": "河北品锦机械 HBT80-16 混凝土泵，建筑浇筑对照为每小时50立方米"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/hbt80-16-concrete-pump",
+      "label": {
+        "en": "HBT80-16 Concrete Pump",
+        "zh": "HBT80-16混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-80-concrete-pump",
+      "label": {
+        "en": "Electric 80 Concrete Pump",
+        "zh": "电动80型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-concrete-pumps",
+      "label": {
+        "en": "Electric concrete pumps",
+        "zh": "电动混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/construction",
+      "label": {
+        "en": "Building construction pumping",
+        "zh": "建筑施工泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/hbt80-16-concrete-pump",
+    "https://pinjinpump.com/products/electric-80-concrete-pump",
+    "https://pinjinpump.com/solutions/construction",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

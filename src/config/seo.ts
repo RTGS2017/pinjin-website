@@ -6,9 +6,9 @@ export const seoConfig = {
   ).replace(/\/$/, ''),
   siteName: 'Hebei Pinjin Machinery',
   companyLegalName: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
-  defaultTitle: 'Concrete Pump Manufacturer China | Hebei Pinjin Machinery',
+  defaultTitle: 'Concrete Pump Manufacturer China | Electric & Diesel Concrete Pump Factory',
   defaultDescription:
-    'Concrete pump manufacturer and supplier in China. Hebei Pinjin Machinery builds electric and diesel concrete pumps and mixer pumps in Xingtai, Hebei.',
+    'Hebei Pinjin Machinery is a China concrete pump manufacturer supplying electric concrete pumps, diesel concrete pumps, mixer pumps and concrete pump parts with OEM solutions.',
   defaultOgImage:
     '/images/hero/pinjin-machinery-factory-xingtai-china.webp',
   twitterCard: 'summary_large_image' as const,

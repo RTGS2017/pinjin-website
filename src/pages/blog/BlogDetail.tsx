@@ -25,10 +25,9 @@ import {
 } from '@/data/blog';
 import { getCategoryPath, getProductBySlug, categoryMeta } from '@/data/products';
 import { clusterForBlog } from '@/data/topicClusters';
-import { seoTemplates } from '@/config/seo';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
-import { brandedTitle, withLocaleDescription } from '@/seo/documentCopy';
+import { blogDisplayTitle, blogDocumentTitle, withLocaleDescription } from '@/seo/documentCopy';
 import { defaultLang } from '@/i18n/config';
 
 export function BlogDetail() {
@@ -49,7 +48,7 @@ export function BlogDetail() {
     return <Navigate to={localePath(`/blog/${post.slug}`, canonicalLang)} replace />;
   }
 
-  const title = tx(post.title);
+  const title = blogDisplayTitle(tx(post.title));
   const description = tx(post.description);
   const path = `/blog/${post.slug}`;
   const localizedPath = localePath(path, lang);
@@ -57,8 +56,9 @@ export function BlogDetail() {
     .map((item) => getProductBySlug(item))
     .filter((item): item is NonNullable<typeof item> => Boolean(item));
   const keywords = post.keywords.join(', ');
-  const seoTitle = brandedTitle(
-    post.seoTitle ? tx(post.seoTitle) : seoTemplates.blogTitle(title),
+  const seoTitle = blogDocumentTitle(
+    tx(post.title),
+    post.seoTitle ? tx(post.seoTitle) : undefined,
     lang,
   );
   const seoDescription = withLocaleDescription(description, lang);
@@ -333,7 +333,7 @@ export function BlogDetail() {
                 to={`/blog/${relatedGuides[0].slug}`}
                 className="font-semibold hover:text-primary"
               >
-                {tx(relatedGuides[0].title)}
+                {blogDisplayTitle(tx(relatedGuides[0].title))}
               </LocaleLink>
               {' · '}
             </>
@@ -343,7 +343,7 @@ export function BlogDetail() {
                 to={`/blog/${otherPosts[0].slug}`}
                 className="font-semibold hover:text-primary"
               >
-                {tx(otherPosts[0].title)}
+                {blogDisplayTitle(tx(otherPosts[0].title))}
               </LocaleLink>
               {' · '}
             </>
@@ -360,7 +360,7 @@ export function BlogDetail() {
               <span key={item.href}>
                 {index > 0 ? ' · ' : null}
                 <LocaleLink to={item.href} className="hover:text-primary">
-                  {tx(item.label)}
+                  {blogDisplayTitle(tx(item.label))}
                 </LocaleLink>
               </span>
             ))}

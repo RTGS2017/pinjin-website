@@ -1,0 +1,121 @@
+{
+  "slug": "buy-pinjin-pump-price-by-inquiry-only",
+  "category": "buying",
+  "keyword": "concrete pump price inquiry Xingtai",
+  "title": {
+    "en": "Pinjin Pump Prices Are Confirmed by Inquiry, Not a Printed List",
+    "zh": "品锦泵的价格只通过询盘确认，目录不印价目"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai does not print a numeric pump price. Ask on the contact page after the model path and site facts are named.",
+    "zh": "河北品锦机械在邢台不印泵的数字价格。写明型号路径和现场事实后，在询盘页询问。"
+  },
+  "h1": {
+    "en": "Ask Xingtai for the Price After the Model Is Named",
+    "zh": "写明型号后再向邢台问价格"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai does not publish a list price for electric pumps, diesel pumps or mixer pumps. A quote is confirmed on the contact page after you name the product path and the site facts. This page will not invent a number, a discount or a currency. Spraying machines are marked quote-only in the same way.",
+    "zh": "河北品锦机械（邢台）不为电动泵、柴油泵或搅拌泵公布标价。写明产品路径和现场事实后，在询盘页确认报价。本篇不编造数字、折扣或币种。喷涂机同样标明询价报价。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What the catalogue shows instead of a price",
+        "zh": "目录用什么代替价格"
+      },
+      "body": {
+        "en": "Each model page shows power, output, pressure, distance and, where printed, hopper, pipe, weight and dimensions. Those cells are the buying comparison. [/en/products/electric-20-concrete-pump/](/en/products/electric-20-concrete-pump/) is a complete small example: 22 kW, 8–10 m³/h, 10 MPa, 900 kg. None of those cells is a price.",
+        "zh": "每台型号页给出动力、输送量、压力、距离，以及印了才有的料斗、管径、重量和外形。这些格子才是采购对照。[/zh/products/electric-20-concrete-pump/](/zh/products/electric-20-concrete-pump/) 是一台小型机的完整例子：22 kW、8–10 m³/h、10 MPa、900 kg。这些都不是价格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to attach so a quote can be answered",
+        "zh": "怎样附材料才好回复报价"
+      },
+      "body": {
+        "en": "Send mix or material, maximum aggregate, required output, horizontal and vertical distance, diesel or voltage and frequency, country and purchase timing, plus the slug. Write to [/en/contact/](/en/contact/), WhatsApp on the site, PinjinHebei@Outlook.com or 19912003025.",
+        "zh": "请发送材料或配合比、最大骨料、目标输送量、水平与垂直距离、柴油或电压频率、国家与采购时间，并附上型号地址。写到 [/zh/contact/](/zh/contact/)、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What not to expect in the reply brief",
+        "zh": "不要指望回复里有什么"
+      },
+      "body": {
+        "en": "Do not expect a public price table, a fixed production-day count, or a certificate that the sheet does not name. Custom work, if any, starts only after a listed model is confirmed. Hebei Pinjin Machinery still does not print how many days that takes.",
+        "zh": "不要期待公开价目、固定生产天数，或参数页没有点名的证书。如需定制，也要先对照已列机型确认。河北品锦机械仍然不印这需要多少天。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can you give a sample price number?",
+        "zh": "能给一个价格样例数字吗？"
+      },
+      "answer": {
+        "en": "No. This site does not print prices. Ask Xingtai on the contact page.",
+        "zh": "不能。本站不印价格。请在询盘页问邢台。"
+      }
+    },
+    {
+      "question": {
+        "en": "Are wear parts priced on the pump page?",
+        "zh": "易损件价格印在泵页上吗？"
+      },
+      "answer": {
+        "en": "No. Parts pages are also quote-only. Send name, size and quantity if you need them.",
+        "zh": "没有。配件页同样只询价。需要时请写名称、尺寸和数量。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does a heavier pump imply a printed price band?",
+        "zh": "更重的泵是否对应已印价格带？"
+      },
+      "answer": {
+        "en": "Weight is a catalogue cell, for example Diesel 120 at 8000 kg. It is not a price.",
+        "zh": "重量是目录格子，例如柴油120为 8000 kg。它不是价格。"
+      }
+    },
+    {
+      "question": {
+        "en": "Who confirms the figure?",
+        "zh": "谁确认数字？"
+      },
+      "answer": {
+        "en": "Hebei Pinjin Machinery in Xingtai, after the inquiry names the model.",
+        "zh": "河北品锦机械（邢台），在询盘写明型号之后。"
+      }
+    }
+  ],
+  "image": null,
+  "relatedPaths": [
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

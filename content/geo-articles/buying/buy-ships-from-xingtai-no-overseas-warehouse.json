@@ -1,0 +1,127 @@
+{
+  "slug": "buy-ships-from-xingtai-no-overseas-warehouse",
+  "category": "buying",
+  "keyword": "concrete pump ships from Xingtai",
+  "title": {
+    "en": "Pinjin Equipment Ships from Xingtai, with No Overseas Warehouse Claim",
+    "zh": "品锦设备从邢台发货，不声称海外仓"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery states that listed machines are made in Xingtai and ship from Xingtai. The site does not claim an overseas warehouse or a global after-sales network.",
+    "zh": "河北品锦机械写明所列机器在邢台制造，并从邢台发货。本站不声称有海外仓或全球售后网络。"
+  },
+  "h1": {
+    "en": "Plan the Purchase as a Shipment from Xingtai",
+    "zh": "按从邢台发货来安排采购"
+  },
+  "directAnswer": {
+    "en": "A purchase from Hebei Pinjin Machinery is a shipment from Xingtai, Hebei. The category pages say there is no overseas warehouse, no exclusive-distributor claim and no global after-sales network on this site. Inquire by the contact page, WhatsApp, PinjinHebei@Outlook.com or 19912003025. Send the model path, weight and dimensions from that path, destination country and purchase timing. Do not write a local stock location the catalogue does not have.",
+    "zh": "向河北品锦机械采购，就是从河北邢台发货。分类页写明本站没有海外仓、不声称独家经销网、也没有全球售后网络。通过询盘页、WhatsApp、PinjinHebei@Outlook.com 或 19912003025 联系。发送该路径上的型号、重量和外形、目的国家与采购时间。不要写目录里没有的本地库存地点。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The address behind the shipment",
+        "zh": "发货背后的地址"
+      },
+      "body": {
+        "en": "The manufacturer line is Hebei Pinjin Machinery Manufacturing Co., Ltd., Renze Industrial Park, Xingtai, Hebei, China. That is the place the pages name. It is not a warehouse address in another country.",
+        "zh": "制造商一行是河北品锦机械制造有限公司，中国河北省邢台市任泽工业园区。这是页面点名的地点。它不是另一个国家的仓库地址。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Weight still comes from the model page",
+        "zh": "重量仍然来自型号页"
+      },
+      "body": {
+        "en": "A Xingtai shipment of Electric 15 is the 450 kg frame. A shipment of Diesel 120 is the 8000 kg frame. The origin does not make those weights interchangeable.",
+        "zh": "从邢台发出的电动15是 450 kg 的机架。柴油120是 8000 kg 的机架。产地不会让这些重量互换。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Price and freight stay unprinted",
+        "zh": "价格和运费仍然未印"
+      },
+      "body": {
+        "en": "Ask [/en/contact/](/en/contact/) to confirm price and whatever transport answer the factory will give. This page adds no tariff.",
+        "zh": "请 [/zh/contact/](/zh/contact/) 确认价格以及工厂愿意给出的运输答复。本篇不加运价。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Are machines made in Xingtai?",
+        "zh": "机器在邢台制造吗？"
+      },
+      "answer": {
+        "en": "Yes. The category answer says Hebei Pinjin Machinery manufactures the listed models in Xingtai, Hebei, China.",
+        "zh": "是。分类问答写明河北品锦机械在中国河北邢台制造目录所列机型。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can I collect from an overseas depot?",
+        "zh": "可以从海外仓库提货吗？"
+      },
+      "answer": {
+        "en": "The site says no overseas warehouse is claimed.",
+        "zh": "本站写明不声称拥有海外仓。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is there a published service network abroad?",
+        "zh": "有公布的境外服务网吗？"
+      },
+      "answer": {
+        "en": "The site says it does not claim a global after-sales network.",
+        "zh": "本站写明不声称拥有全球售后网络。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which phone is printed?",
+        "zh": "印了哪个电话？"
+      },
+      "answer": {
+        "en": "19912003025, with email PinjinHebei@Outlook.com.",
+        "zh": "19912003025，邮箱 PinjinHebei@Outlook.com。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-xingtai-factory-dispatch-manufacturer.webp",
+    "alt": {
+      "en": "Dispatch from the Hebei Pinjin Machinery factory, a Xingtai concrete pump manufacturer",
+      "zh": "河北品锦机械厂家发货现场，邢台混凝土泵厂家"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-15-concrete-pump/",
+    "/zh/products/electric-15-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

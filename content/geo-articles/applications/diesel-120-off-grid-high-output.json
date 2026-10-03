@@ -1,0 +1,135 @@
+{
+  "slug": "diesel-120-off-grid-high-output",
+  "category": "application",
+  "keyword": "high output diesel concrete pump off-grid",
+  "title": {
+    "en": "Which off-grid pump prints 100 m³/h?",
+    "zh": "哪台无电网泵印了 100 m³/h？"
+  },
+  "description": {
+    "en": "Diesel 120: twin 145 kW, 100 m³/h, 40 MPa, 150 m / 500 m, aggregate 6 cm and below, 8000 kg. LZ-80’s low-pressure mode prints ≤ 95 m³/h.",
+    "zh": "柴油120：双机 145 kW、100 m³/h、40 MPa、150 m / 500 m、骨料 6 cm 及以下、8000 kg。LZ-80 低压模式印的是 ≤ 95 m³/h。"
+  },
+  "h1": {
+    "en": "Which off-grid pump prints 100 m³/h?",
+    "zh": "哪台无电网泵印了 100 m³/h？"
+  },
+  "directAnswer": {
+    "en": "Diesel 120. Hebei Pinjin Machinery in Xingtai lists it for very high output infrastructure pours and twin-engine diesel power: 290 kW total, 100 m³/h, 40 MPa, hopper 0.6 m³, 150 m horizontal / 500 m vertical, aggregate 6 cm and below and 8000 kg. The selection guide’s high-output diesel question also names LZ-80, whose low-pressure mode is ≤ 95 m³/h at ≤ 22 MPa, not 100 m³/h at 40 MPa.",
+    "zh": "柴油120。邢台河北品锦机械把它列为超大排量基建浇筑和双柴油机动力：合计 290 kW、100 m³/h、40 MPa、料斗 0.6 m³、水平 150 m / 垂直 500 m、骨料 6 cm 及以下、8000 kg。选型指南的大排量柴油问题还点了 LZ-80，其低压模式是 ≤ 95 m³/h、≤ 22 MPa，不是 40 MPa 下的 100 m³/h。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Do not start a compact site here",
+        "zh": "紧凑工地不要从这里开始"
+      },
+      "body": {
+        "en": "8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The off-grid page includes Diesel 120 because remote infrastructure may need it. A house or a short secondary-structure line does not.",
+        "zh": "8000 kg 和 7000 × 2000 × 2300 mm 的机架，与 280 kg 的 B500S-83D 或 450 kg 的电动15相反。无电网页面列入柴油120，是因为偏远基建可能需要它。住宅或短的二次结构管路不需要。"
+      }
+    },
+    {
+      "heading": {
+        "en": "100 m³/h is not Electric 80’s output",
+        "zh": "100 m³/h 不是电动80的输送量"
+      },
+      "body": {
+        "en": "Electric 80 prints 60 m³/h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. If the site later gains that grid and the stone is inside 2 cm, the long horizontal comparison changes page. It does not upgrade Diesel 120’s 150 m horizontal cell to 900 m.",
+        "zh": "电动80在 110 kW 电网和 ≤ 2 cm 石子下印了 60 m³/h 和水平 900 m。如果工地后来有了这路电，并且石子在 2 cm 以内，长水平对照要换页。它不会把柴油120的水平 150 m 升级成 900 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Confirm the site is off-grid and that 100 m³/h is the cell you are comparing, not a daily total. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请确认现场无电网，并且你对照的是 100 m³/h 这一格，不是日累计。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "How many engines are printed?",
+        "zh": "印了几台发动机？"
+      },
+      "answer": {
+        "en": "Two units of 145 kW, 290 kW total.",
+        "zh": "两台 145 kW，合计 290 kW。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 6 cm required?",
+        "zh": "必须是 6 cm 吗？"
+      },
+      "answer": {
+        "en": "6 cm and below is the maximum. It is not a minimum stone size.",
+        "zh": "6 cm 及以下是上限。它不是最小石子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the page name a dam or a plant?",
+        "zh": "这一页点名了大坝或工厂项目吗？"
+      },
+      "answer": {
+        "en": "No. The scenarios are high-output infrastructure, the 500 m vertical listing and twin-engine diesel power.",
+        "zh": "没有。工况是超大排量基建、垂直 500 m 的列出，以及双柴油机动力。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/diesel-120-off-grid-high-output.webp",
+    "alt": {
+      "en": "Diesel 120 high-output concrete pump from Xingtai for off-grid infrastructure",
+      "zh": "邢台柴油120型大排量混凝土泵，用于无电网基建"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/diesel-120-concrete-pump",
+      "label": {
+        "en": "Diesel 120 Concrete Pump",
+        "zh": "柴油120型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/lz-80-diesel-concrete-pump",
+      "label": {
+        "en": "LZ-80 Diesel Concrete Pump",
+        "zh": "LZ-80柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": {
+        "en": "Diesel concrete pumps",
+        "zh": "柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/industrial-projects",
+      "label": {
+        "en": "Pumping without grid power",
+        "zh": "无电网泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/diesel-120-concrete-pump",
+    "https://pinjinpump.com/solutions/industrial-projects",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

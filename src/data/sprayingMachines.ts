@@ -155,18 +155,19 @@ export const sprayingMachineProducts: Product[] = [
       ),
     ),
     directAnswer: L(
-      'This Xingtai hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m. It is not a trailer concrete pump, not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.',
-      '该邢台液压混凝土喷涂机为 380V 双电机，目录 7.5/9 kW、5 m³/h、8 MPa、管径 38/51 mm、粒径 ≤8 mm、100 m / 50 m。它不是拖式混凝土泵，不是 7 m³/h 大流量喷涂机，不是 M9 石膏喷涂机，也不是柴油喷涂机。询价报价，无公开标价。',
+      'This Xingtai hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m. It is not a trailer concrete pump, not the German type mortar sprayer (3–5 m³/h, 32/38 mm, ≤5 mm, 40 m / 20 m), not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.',
+      '该邢台液压混凝土喷涂机为 380V 双电机，目录 7.5/9 kW、5 m³/h、8 MPa、管径 38/51 mm、粒径 ≤8 mm、100 m / 50 m。它不是拖式混凝土泵，不是德式砂浆喷涂机（3–5 m³/h、32/38 mm、≤5 mm、40 m / 20 m），不是 7 m³/h 大流量喷涂机，不是 M9 石膏喷涂机，也不是柴油喷涂机。询价报价，无公开标价。',
     ),
     notSuitable: [
       L('Not a trailer concrete pump, mixing plant or truck-mounted boom pump.', '不是拖式混凝土泵、搅拌站或车载臂架泵。'),
       L('Not the 7 m³/h high-flow hydraulic sprayer (11/15 kW, 150 m / 70 m).', '不是 7 m³/h 大流量液压喷涂机（11/15 kW、150 m / 70 m）。'),
+      L('Not the German type mortar sprayer (7.5/9 kW, 3–5 m³/h, 40 m / 20 m, ≤5 mm, 360 kg).', '不是德式砂浆喷涂机（7.5/9 kW、3–5 m³/h、40 m / 20 m、≤5 mm、360 kg）。'),
       L('Not the M9 automatic plaster sprayer (25 mm hose, ≤4 mm, 30 L/min).', '不是 M9 全自动石膏喷涂机（管径 25 mm、粒径 ≤4 mm、30 L/min）。'),
       L('Not for sites that cannot supply 380 V for the listed motors.', '现场无法按目录电机提供 380V 时不适用。'),
     ],
     howToSelect: L(
-      'Confirm 380 V supply, material, particle ≤8 mm, 5 m³/h, hose 38/51 mm and 100 m / 50 m against this table. If you need 7 m³/h or 150 m / 70 m, open the high-flow hydraulic sprayer. If the job is plaster at ≤4 mm, open M9. If there is no grid, open the diesel sprayer. Then send those conditions for a factory quote.',
-      '对照本页确认 380V、材料、粒径 ≤8 mm、5 m³/h、管径 38/51 mm 与 100 m / 50 m。若需要 7 m³/h 或 150 m / 70 m，请打开大流量液压喷涂机。若是粒径 ≤4 mm 的石膏喷涂，请打开 M9。若无电网，请打开柴油喷涂机。再把工况发给工厂报价。',
+      'Confirm 380 V supply, material, particle ≤8 mm, 5 m³/h, hose 38/51 mm and 100 m / 50 m against this table. If you need 7 m³/h or 150 m / 70 m, open the high-flow hydraulic sprayer. If 3–5 m³/h / ≤5 mm / 40 m / 20 m on 7.5/9 kW, open the German type mortar sprayer. If the job is plaster at ≤4 mm, open M9. If there is no grid, open the diesel sprayer or Type 511 diesel. Then send those conditions for a factory quote.',
+      '对照本页确认 380V、材料、粒径 ≤8 mm、5 m³/h、管径 38/51 mm 与 100 m / 50 m。若需要 7 m³/h 或 150 m / 70 m，请打开大流量液压喷涂机。若是 3–5 m³/h / ≤5 mm / 40 m / 20 m、7.5/9 kW，请打开德式砂浆喷涂机。若是粒径 ≤4 mm 的石膏喷涂，请打开 M9。若无电网，请打开柴油喷涂机或 511 柴油机。再把工况发给工厂报价。',
     ),
   },
   {
@@ -435,12 +436,13 @@ export const sprayingMachineProducts: Product[] = [
     notSuitable: [
       L('Not a Diesel 30 trailer concrete pump and not a mixing plant or boom pump.', '不是柴油30拖式混凝土泵，也不是搅拌站或臂架泵。'),
       L('Not a 380 V hydraulic concrete sprayer (7.5/9 kW or 11/15 kW).', '不是 380V 液压混凝土喷涂机（7.5/9 kW 或 11/15 kW）。'),
+      L('Not Type 511 diesel (3 m³/h, 3–5 MPa, 30 m / 15 m, 360 kg).', '不是 511 柴油砂浆喷涂机（3 m³/h、3–5 MPa、30 m / 15 m、360 kg）。'),
       L('Not the M9 automatic plaster sprayer (25 mm, ≤4 mm, 30 L/min).', '不是 M9 全自动石膏喷涂机（25 mm、≤4 mm、30 L/min）。'),
       L('Not for particle sizes above the printed ≤6 mm row.', '粒径超过目录 ≤6 mm 时不适用。'),
     ],
     howToSelect: L(
-      'Use this row when the site has diesel fuel and no 380 V grid, and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray. If 380 V is available, compare the hydraulic concrete sprayers. Plaster at ≤4 mm → M9. Do not treat this page as the Diesel 30 pump table. Then inquire.',
-      '现场有柴油、没有 380V，且 5 m³/h / ≤6 mm / 80 m / 40 m 能覆盖喷涂时用本机。若有 380V，请对照液压混凝土喷涂机。粒径 ≤4 mm 石膏 → M9。不要把本页当成柴油30泵参数表。然后再询盘。',
+      'Use this row when the site has diesel fuel and no 380 V grid, and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray. If the printed need is 3 m³/h / 3–5 MPa / 30 m / 15 m on diesel, open Type 511 diesel. If 380 V is available, compare the hydraulic concrete sprayers or the German type mortar sprayer. Plaster at ≤4 mm → M9. Do not treat this page as the Diesel 30 pump table. Then inquire.',
+      '现场有柴油、没有 380V，且 5 m³/h / ≤6 mm / 80 m / 40 m 能覆盖喷涂时用本机。若印刷需求是柴油 3 m³/h / 3–5 MPa / 30 m / 15 m，请打开 511 柴油机。若有 380V，请对照液压混凝土喷涂机或德式砂浆喷涂机。粒径 ≤4 mm 石膏 → M9。不要把本页当成柴油30泵参数表。然后再询盘。',
     ),
   },
   {
@@ -526,11 +528,12 @@ export const sprayingMachineProducts: Product[] = [
       L('Not a trailer concrete pump, mixing plant or truck-mounted boom pump.', '不是拖式混凝土泵、搅拌站或车载臂架泵。'),
       L('Not Type 311 (4 kW, 2 m³/h, 3–5 MPa, 15 m / 5 m, particle ≤2 mm).', '不是 311（4 kW、2 m³/h、3–5 MPa、15 m / 5 m、粒径 ≤2 mm）。'),
       L('Not Type 511 (7.5 kW, 3 m³/h, 3–5 MPa, 30 m / 15 m, particle ≤6 mm).', '不是 511（7.5 kW、3 m³/h、3–5 MPa、30 m / 15 m、粒径 ≤6 mm）。'),
+      L('Not the German type mortar sprayer (7.5/9 kW, 3–5 m³/h, 40 m / 20 m, ≤5 mm).', '不是德式砂浆喷涂机（7.5/9 kW、3–5 m³/h、40 m / 20 m、≤5 mm）。'),
       L('Not for sites that cannot supply 380 V for the listed 9/11 kW motors.', '现场无法按目录 9/11 kW 提供 380V 时不适用。'),
     ],
     howToSelect: L(
-      'Confirm 380 V, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m against this printed table. If you need 2 m³/h / ≤2 mm, open Type 311. If 3 m³/h / ≤6 mm, open Type 511. Plaster at ≤4 mm → M9. No grid → diesel sprayer. Then send those conditions for a factory quote.',
-      '对照本页印刷表确认 380V、4 m³/h、8 MPa、管径 38/51 mm、粒径 ≤8 mm 与 100 m / 40 m。若需要 2 m³/h / ≤2 mm，请打开 311。若 3 m³/h / ≤6 mm，请打开 511。粒径 ≤4 mm 石膏 → M9。无电网 → 柴油喷涂机。再把工况发给工厂报价。',
+      'Confirm 380 V, 4 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 40 m against this printed table. If you need 2 m³/h / ≤2 mm, open Type 311. If 3 m³/h / ≤6 mm, open Type 511. If 3–5 m³/h / ≤5 mm / 40 m / 20 m on 7.5/9 kW, open the German type. Plaster at ≤4 mm → M9. No grid → diesel sprayer or Type 511 diesel. Then send those conditions for a factory quote.',
+      '对照本页印刷表确认 380V、4 m³/h、8 MPa、管径 38/51 mm、粒径 ≤8 mm 与 100 m / 40 m。若需要 2 m³/h / ≤2 mm，请打开 311。若 3 m³/h / ≤6 mm，请打开 511。若 3–5 m³/h / ≤5 mm / 40 m / 20 m、7.5/9 kW，请打开德式机。粒径 ≤4 mm 石膏 → M9。无电网 → 柴油喷涂机或 511 柴油机。再把工况发给工厂报价。',
     ),
   },
   {
@@ -697,18 +700,199 @@ export const sprayingMachineProducts: Product[] = [
       ),
     ),
     directAnswer: L(
-      'Type 511 is a Xingtai mortar spraying machine listing 380 V, 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤6 mm and 30 m / 15 m. It is not Type 311 (4 kW, 2 m³/h, ≤2 mm), not the double-cylinder plunger 4 m³/h / 8 MPa unit, not M9 plaster and not a trailer concrete pump. Quote only.',
-      '511 是邢台砂浆喷涂机，印刷为 380V、7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤6 mm、30 m / 15 m。它不是 311（4 kW、2 m³/h、≤2 mm），不是双缸柱塞 4 m³/h / 8 MPa 机，不是 M9 石膏机，也不是拖式混凝土泵。询价报价。',
+      'Type 511 is a Xingtai mortar spraying machine listing 380 V, 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤6 mm and 30 m / 15 m. It is not Type 511 diesel (diesel engine, 360 kg), not Type 311 (4 kW, 2 m³/h, ≤2 mm), not the German type (7.5/9 kW, 3–5 m³/h, 8 MPa, 40 m / 20 m), not M9 plaster and not a trailer concrete pump. Quote only.',
+      '511 是邢台砂浆喷涂机，印刷为 380V、7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤6 mm、30 m / 15 m。它不是 511 柴油机（柴油机、360 kg），不是 311（4 kW、2 m³/h、≤2 mm），不是德式机（7.5/9 kW、3–5 m³/h、8 MPa、40 m / 20 m），不是 M9 石膏机，也不是拖式混凝土泵。询价报价。',
     ),
     notSuitable: [
       L('Not a trailer concrete pump, mixing plant or truck-mounted boom pump.', '不是拖式混凝土泵、搅拌站或车载臂架泵。'),
       L('Not Type 311 (4 kW, 2 m³/h, 15 m / 5 m, particle ≤2 mm).', '不是 311（4 kW、2 m³/h、15 m / 5 m、粒径 ≤2 mm）。'),
+      L('Not Type 511 diesel (diesel engine, 3 m³/h, 3–5 MPa, 30 m / 15 m, 360 kg).', '不是 511 柴油机（柴油机、3 m³/h、3–5 MPa、30 m / 15 m、360 kg）。'),
       L('Not the double-cylinder plunger machine (9/11 kW, 4 m³/h, 8 MPa, 100 m / 40 m).', '不是双缸柱塞机（9/11 kW、4 m³/h、8 MPa、100 m / 40 m）。'),
       L('Not for sites that cannot supply 380 V for the listed 7.5 kW motor.', '现场无法按目录 7.5 kW 提供 380V 时不适用。'),
     ],
     howToSelect: L(
-      'Confirm 380 V, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤6 mm and 30 m / 15 m against this printed table. Finer ≤2 mm / 2 m³/h → Type 311. 4 m³/h / 8 MPa / 100 m → double-cylinder plunger. Plaster at ≤4 mm → M9. Then inquire.',
-      '对照本页印刷表确认 380V、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤6 mm 与 30 m / 15 m。更细 ≤2 mm / 2 m³/h → 311。4 m³/h / 8 MPa / 100 m → 双缸柱塞机。粒径 ≤4 mm 石膏 → M9。然后再询盘。',
+      'Confirm 380 V, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤6 mm and 30 m / 15 m against this printed table. No 380 V with the same 3 m³/h / ≤6 mm / 30 m / 15 m → Type 511 diesel. Finer ≤2 mm / 2 m³/h → Type 311. 4 m³/h / 8 MPa / 100 m → double-cylinder plunger. 3–5 m³/h / ≤5 mm / 40 m / 20 m on 7.5/9 kW → German type. Plaster at ≤4 mm → M9. Then inquire.',
+      '对照本页印刷表确认 380V、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤6 mm 与 30 m / 15 m。无 380V 且同为 3 m³/h / ≤6 mm / 30 m / 15 m → 511 柴油机。更细 ≤2 mm / 2 m³/h → 311。4 m³/h / 8 MPa / 100 m → 双缸柱塞机。3–5 m³/h / ≤5 mm / 40 m / 20 m、7.5/9 kW → 德式机。粒径 ≤4 mm 石膏 → M9。然后再询盘。',
+    ),
+  },
+  {
+    id: 'sm-08',
+    name: L('Type 511 Diesel Mortar Spraying Machine', '511柴油砂浆喷涂机'),
+    slug: 'type-511-diesel-mortar-spraying-machine',
+    category: 'spraying-machine',
+    inquiryOnly: true,
+    ...imgPaths('type-511-diesel-mortar-spraying-machine'),
+    shortDescription: L(
+      'Type 511 diesel mortar spraying machine from the printed table — diesel engine, 3 m³/h, 3–5 MPa, 30 m horizontal / 15 m vertical, particle ≤6 mm, 360 kg.',
+      '印刷表 511 柴油砂浆喷涂机：柴油机、3 m³/h、3–5 MPa、水平 30 m / 垂直 15 m、粒径 ≤6 mm、机重 360 kg。',
+    ),
+    productIntroduction: L(
+      'Type 511 Diesel Mortar Spraying Machine is a diesel mortar spraying machine manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Printed parameters: power supply diesel, motor power diesel engine, output 3 m³/h, 3–5 MPa, hose 32/38 mm, mixing ratio ≤1:3, particle ≤6 mm, 30 m horizontal / 15 m vertical, 1600 × 1200 × 450 mm, 360 kg. Engine kilowatts and horsepower are not printed on this sheet.',
+      '511柴油砂浆喷涂机由河北品锦机械在中国河北邢台制造。印刷参数：动力柴油、动力源柴油机、输送量 3 m³/h、3–5 MPa、管径 32/38 mm、砂灰比 ≤1:3、粒径 ≤6 mm、水平 30 m / 垂直 15 m、外形 1600 × 1200 × 450 mm、机重 360 kg。本页不另编发动机千瓦或马力。',
+    ),
+    applicationScenarios: [
+      L('Mortar spraying inside 3 m³/h and ≤6 mm particle where 380 V is not available', '无 380V 时，3 m³/h 与粒径 ≤6 mm 内的砂浆喷涂'),
+      L('Hose runs inside 30 m horizontal / 15 m vertical', '软管距离落在水平 30 m / 垂直 15 m 内'),
+      L('Sites that can supply diesel fuel for the listed diesel engine', '能按目录柴油机提供燃油的工地'),
+    ],
+    keyFeatures: [
+      L('Output 3 m³/h', '输送量 3 m³/h'),
+      L('Diesel engine, 3–5 MPa', '柴油机，3–5 MPa'),
+      L('Weight 360 kg', '整机重量 360 kg'),
+    ],
+    specifications: [
+      spec('Model', '型号', 'Type 511 Diesel'),
+      specLoc('Power Supply', '动力', 'Diesel', '柴油'),
+      specLoc('Motor Power', '动力源', 'Diesel Engine', '柴油机'),
+      spec('Output Capacity', '理论输送量', '3 m³/h'),
+      spec('Max. Outlet Pressure', '最大出口压力', '3–5 MPa'),
+      spec('Delivery Distance (H / V)', '输送距离（水平/垂直）', '30 m / 15 m'),
+      spec('Hose Diameter', '管径', '32/38 mm'),
+      spec('Max. Particle Size', '最大粒径', '≤6 mm'),
+      specLoc('Sand-Cement Ratio', '砂灰比', '≤1:3', '≤1:3'),
+      spec('Dimensions (L×W×H)', '外形尺寸', '1600 × 1200 × 450 mm'),
+      spec('Main Unit Weight', '整机重量', '360 kg'),
+    ],
+    seo: buildSeo(
+      'Type 511 Diesel Mortar Spraying Machine',
+      '511柴油砂浆喷涂机',
+      'type 511 diesel mortar spraying machine manufacturer China',
+      [
+        '511 diesel mortar spraying machine China factory',
+        'diesel mortar sprayer 3 m3/h Xingtai',
+        'no-grid type 511 mortar spraying machine',
+      ],
+      [
+        'buy type 511 diesel mortar spraying machine from Hebei Pinjin Machinery Xingtai',
+        '3 m3/h diesel 511 mortar spraying machine China factory',
+      ],
+      'Hebei Pinjin Machinery manufactures the Type 511 diesel mortar spraying machine in Xingtai. Printed data: diesel engine, 3 m³/h, 3–5 MPa, 30 m / 15 m, particle ≤6 mm, 360 kg. Quote only. Engine kW/HP is not printed. Not the 380 V Type 511 and not the 28/32 HP diesel concrete sprayer.',
+      '河北品锦机械在中国邢台生产 511 柴油砂浆喷涂机。印刷数据：柴油机、3 m³/h、3–5 MPa、30 m / 15 m、粒径 ≤6 mm、360 kg。询价报价。本页不印发动机 kW/HP。不是 380V 的 511，也不是 28/32 HP 柴油混凝土喷涂机。',
+    ),
+    geo: buildGeo(
+      'Mortar Spraying Machine',
+      '砂浆喷涂机',
+      L(
+        'A Type 511 diesel mortar spraying machine listed on the Hebei Pinjin Machinery printed table and manufactured in Xingtai, China.',
+        '河北品锦机械印刷表中的 511 柴油砂浆喷涂机，在中国邢台制造。',
+      ),
+      L(
+        'Contractors matching 3 m³/h, ≤6 mm particle and a diesel engine to a mortar spray where 380 V is not available.',
+        '现场没有 380V、需按 3 m³/h、粒径 ≤6 mm 与柴油机对照砂浆喷涂的承包商。',
+      ),
+      L(
+        'Off-grid mortar spraying jobs whose hose length stays inside 30 m / 15 m.',
+        '软管长度落在 30 m / 15 m 内的无电网砂浆喷涂工地。',
+      ),
+      L(
+        'Factory-direct Xingtai diesel 511 row with a printed 3 m³/h / 3–5 MPa table. Engine kW is not invented.',
+        '邢台工厂直供 511 柴油行，印刷表公开 3 m³/h / 3–5 MPa。不另编发动机千瓦。',
+      ),
+    ),
+    directAnswer: L(
+      'Type 511 diesel is a Xingtai mortar spraying machine listing a diesel engine, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤6 mm, 30 m / 15 m and 360 kg. Engine kW/HP is not printed on this sheet. It is not the 380 V Type 511 (7.5 kW, 260 kg), not the 28/32 HP diesel concrete sprayer (5 m³/h, 8 MPa, 80 m / 40 m), not M9 plaster and not a trailer concrete pump. Quote only.',
+      '511 柴油机是邢台砂浆喷涂机，印刷为柴油机、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤6 mm、30 m / 15 m、360 kg。本页不印发动机 kW/HP。它不是 380V 的 511（7.5 kW、260 kg），不是 28/32 HP 柴油混凝土喷涂机（5 m³/h、8 MPa、80 m / 40 m），不是 M9 石膏机，也不是拖式混凝土泵。询价报价。',
+    ),
+    notSuitable: [
+      L('Not a trailer concrete pump, mixing plant or truck-mounted boom pump.', '不是拖式混凝土泵、搅拌站或车载臂架泵。'),
+      L('Not the 380 V Type 511 (7.5 kW, 3 m³/h, 260 kg, 1700 × 550 × 900 mm).', '不是 380V 的 511（7.5 kW、3 m³/h、260 kg、1700 × 550 × 900 mm）。'),
+      L('Not the diesel concrete sprayer (28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m, 480 kg).', '不是柴油混凝土喷涂机（28/32 HP、5 m³/h、8 MPa、80 m / 40 m、480 kg）。'),
+      L('Not for particle sizes above the printed ≤6 mm row.', '粒径超过印刷表 ≤6 mm 时不适用。'),
+    ],
+    howToSelect: L(
+      'Use this row when the site has diesel fuel, no 380 V, and 3 m³/h / 3–5 MPa / 32/38 mm / ≤6 mm / 30 m / 15 m covers the spray. If 380 V is available for the same 3 m³/h / ≤6 mm window, open the electric Type 511. If you need 5 m³/h / 8 MPa / 80 m / 40 m on diesel, open the diesel concrete sprayer. Do not copy an unprinted engine kW onto this page. Then inquire.',
+      '现场有柴油、没有 380V，且 3 m³/h / 3–5 MPa / 32/38 mm / ≤6 mm / 30 m / 15 m 能覆盖喷涂时用本机。若有 380V 且同为 3 m³/h / ≤6 mm，请打开电动 511。若需要柴油 5 m³/h / 8 MPa / 80 m / 40 m，请打开柴油混凝土喷涂机。不要把未印的发动机千瓦抄到本页。然后再询盘。',
+    ),
+  },
+  {
+    id: 'sm-09',
+    name: L('German Type Mortar Spraying Machine', '德式砂浆喷涂机'),
+    slug: 'german-type-mortar-spraying-machine',
+    category: 'spraying-machine',
+    inquiryOnly: true,
+    ...imgPaths('german-type-mortar-spraying-machine'),
+    shortDescription: L(
+      'German type mortar spraying machine from the printed table — 380 V, dual copper motors 7.5/9 kW, 3–5 m³/h, 8 MPa, 40 m horizontal / 20 m vertical, particle ≤5 mm, 360 kg.',
+      '印刷表德式砂浆喷涂机：380V、全铜双电机 7.5/9 kW、3–5 m³/h、8 MPa、水平 40 m / 垂直 20 m、粒径 ≤5 mm、机重 360 kg。',
+    ),
+    productIntroduction: L(
+      'German Type Mortar Spraying Machine is a 380 V mortar spraying machine manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Printed parameters: power 380 V, motors 7.5/9 kW, all-copper dual motor, output 3–5 m³/h, 8 MPa, hose 32/38 mm, mixing ratio ≤1:3, particle ≤5 mm, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm, 360 kg.',
+      '德式砂浆喷涂机由河北品锦机械在中国河北邢台制造，380V。印刷参数：电源 380V、电机 7.5/9 kW、全铜双电机、输送量 3–5 m³/h、8 MPa、管径 32/38 mm、砂灰比 ≤1:3、粒径 ≤5 mm、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、机重 360 kg。',
+    ),
+    applicationScenarios: [
+      L('Mortar spraying inside 3–5 m³/h and ≤5 mm particle', '3–5 m³/h 与粒径 ≤5 mm 内的砂浆喷涂'),
+      L('Hose runs inside 40 m horizontal / 20 m vertical', '软管距离落在水平 40 m / 垂直 20 m 内'),
+      L('Sites that can supply 380 V for the listed 7.5/9 kW dual motors', '能按目录 7.5/9 kW 双电机提供 380V 的工地'),
+    ],
+    keyFeatures: [
+      L('Output 3–5 m³/h', '输送量 3–5 m³/h'),
+      L('Motors 7.5/9 kW, all copper dual motor', '电机 7.5/9 kW，全铜双电机'),
+      L('Weight 360 kg', '整机重量 360 kg'),
+    ],
+    specifications: [
+      spec('Model', '型号', 'German type mortar spraying machine'),
+      specLoc('Power Supply', '电源', '380 V', '380V'),
+      spec('Motor Power', '电机功率', '7.5/9 kW'),
+      specLoc('Drive', '驱动', 'All copper dual motor', '全铜双电机'),
+      spec('Output Capacity', '理论输送量', '3–5 m³/h'),
+      spec('Max. Outlet Pressure', '最大出口压力', '8 MPa'),
+      spec('Delivery Distance (H / V)', '输送距离（水平/垂直）', '40 m / 20 m'),
+      spec('Hose Diameter', '管径', '32/38 mm'),
+      spec('Max. Particle Size', '最大粒径', '≤5 mm'),
+      specLoc('Sand-Cement Ratio', '砂灰比', '≤1:3', '≤1:3'),
+      spec('Dimensions (L×W×H)', '外形尺寸', '1700 × 650 × 800 mm'),
+      spec('Main Unit Weight', '整机重量', '360 kg'),
+    ],
+    seo: buildSeo(
+      'German Type Mortar Spraying Machine',
+      '德式砂浆喷涂机',
+      'german type mortar spraying machine manufacturer China',
+      [
+        'german type mortar spraying machine China factory',
+        '7.5/9 kW mortar sprayer 380V Xingtai',
+        'dual motor mortar spraying machine 3-5 m3/h',
+      ],
+      [
+        'buy german type mortar spraying machine from Hebei Pinjin Machinery Xingtai',
+        '3-5 m3/h german type mortar spraying machine China factory',
+      ],
+      'Hebei Pinjin Machinery manufactures this 380 V German type mortar spraying machine in Xingtai. Printed data: 7.5/9 kW dual motors, 3–5 m³/h, 8 MPa, 40 m / 20 m, particle ≤5 mm, 360 kg. Quote only. Not the 5 m³/h / 100 m hydraulic concrete sprayer.',
+      '河北品锦机械在中国邢台生产该 380V 德式砂浆喷涂机。印刷数据：双电机 7.5/9 kW、3–5 m³/h、8 MPa、40 m / 20 m、粒径 ≤5 mm、360 kg。询价报价。不是 5 m³/h / 100 m 液压混凝土喷涂机。',
+    ),
+    geo: buildGeo(
+      'Mortar Spraying Machine',
+      '砂浆喷涂机',
+      L(
+        'A 380 V German type mortar spraying machine listed on the Hebei Pinjin Machinery printed table and manufactured in Xingtai, China.',
+        '河北品锦机械印刷表中的 380V 德式砂浆喷涂机，在中国邢台制造。',
+      ),
+      L(
+        'Contractors matching 3–5 m³/h, ≤5 mm particle and 380 V dual-motor supply to a mortar spraying job.',
+        '需要按 3–5 m³/h、粒径 ≤5 mm 与 380V 双电机对照砂浆喷涂工况的承包商。',
+      ),
+      L(
+        'Mortar spraying jobs whose hose length stays inside 40 m / 20 m.',
+        '软管长度落在 40 m / 20 m 内的砂浆喷涂工地。',
+      ),
+      L(
+        'Factory-direct Xingtai manufacturer with a printed 7.5/9 kW / 3–5 m³/h German-type table.',
+        '邢台工厂直供，印刷表公开德式机 7.5/9 kW / 3–5 m³/h。',
+      ),
+    ),
+    directAnswer: L(
+      'This Xingtai German type mortar spraying machine lists 380 V dual motors 7.5/9 kW, 3–5 m³/h, 8 MPa, hose 32/38 mm, particle ≤5 mm, 40 m / 20 m and 360 kg. It is not the hydraulic concrete sprayer (5 m³/h, 38/51 mm, ≤8 mm, 100 m / 50 m, 295 kg), not Type 511 (7.5 kW, 3 m³/h, 3–5 MPa), not the double-cylinder plunger 4 m³/h / 100 m unit and not a trailer concrete pump. Quote only.',
+      '该邢台德式砂浆喷涂机印刷为 380V 双电机 7.5/9 kW、3–5 m³/h、8 MPa、管径 32/38 mm、粒径 ≤5 mm、40 m / 20 m、360 kg。它不是液压混凝土喷涂机（5 m³/h、38/51 mm、≤8 mm、100 m / 50 m、295 kg），不是 511（7.5 kW、3 m³/h、3–5 MPa），不是双缸柱塞 4 m³/h / 100 m 机，也不是拖式混凝土泵。询价报价。',
+    ),
+    notSuitable: [
+      L('Not a trailer concrete pump, mixing plant or truck-mounted boom pump.', '不是拖式混凝土泵、搅拌站或车载臂架泵。'),
+      L('Not the 5 m³/h hydraulic concrete sprayer (38/51 mm, ≤8 mm, 100 m / 50 m, 295 kg).', '不是 5 m³/h 液压混凝土喷涂机（38/51 mm、≤8 mm、100 m / 50 m、295 kg）。'),
+      L('Not Type 511 (7.5 kW, 3 m³/h, 3–5 MPa, 30 m / 15 m, ≤6 mm).', '不是 511（7.5 kW、3 m³/h、3–5 MPa、30 m / 15 m、≤6 mm）。'),
+      L('Not the double-cylinder plunger machine (9/11 kW, 4 m³/h, 100 m / 40 m, ≤8 mm).', '不是双缸柱塞机（9/11 kW、4 m³/h、100 m / 40 m、≤8 mm）。'),
+      L('Not for sites that cannot supply 380 V for the listed 7.5/9 kW motors.', '现场无法按目录 7.5/9 kW 提供 380V 时不适用。'),
+    ],
+    howToSelect: L(
+      'Confirm 380 V, 3–5 m³/h, 8 MPa, hose 32/38 mm, particle ≤5 mm and 40 m / 20 m against this printed table. If you need 5 m³/h / ≤8 mm / 100 m / 50 m, open the hydraulic concrete sprayer. 4 m³/h / 100 m / ≤8 mm → double-cylinder plunger. 3 m³/h / 3–5 MPa / 30 m → Type 511. No grid → Type 511 diesel or the diesel concrete sprayer. Then inquire.',
+      '对照本页印刷表确认 380V、3–5 m³/h、8 MPa、管径 32/38 mm、粒径 ≤5 mm 与 40 m / 20 m。若需要 5 m³/h / ≤8 mm / 100 m / 50 m，请打开液压混凝土喷涂机。4 m³/h / 100 m / ≤8 mm → 双缸柱塞机。3 m³/h / 3–5 MPa / 30 m → 511。无电网 → 511 柴油机或柴油混凝土喷涂机。然后再询盘。',
     ),
   },
 ];

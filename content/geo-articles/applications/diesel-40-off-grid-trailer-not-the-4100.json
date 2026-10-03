@@ -1,0 +1,136 @@
+{
+  "slug": "diesel-40-off-grid-trailer-not-the-4100",
+  "category": "application",
+  "keyword": "diesel 40 off-grid trailer pump",
+  "title": {
+    "en": "Diesel 40 or the tractor 4100 when power is absent?",
+    "zh": "没有电源时，选柴油40还是拖拉机4100？"
+  },
+  "description": {
+    "en": "Diesel 40 is the 66 kW trailer at 26 m³/h and 120 m / 360 m. The 4100 is the 40 kW tractor-driven rural unit at 6–12 m³/h and 1300 kg.",
+    "zh": "柴油40是 66 kW 拖泵，26 m³/h、120 m / 360 m。4100 是 40 kW 拖拉机带动的农村机，6–12 m³/h、1300 kg。"
+  },
+  "h1": {
+    "en": "Diesel 40 or the tractor 4100 when power is absent?",
+    "zh": "没有电源时，选柴油40还是拖拉机4100？"
+  },
+  "directAnswer": {
+    "en": "Use the 4100 when the published rural window fits: 40 kW, 6–12 m³/h, 15 MPa, 40–100 m horizontal / 15–45 m vertical, aggregate 1–3 cm, slump 180–220 mm and 1300 kg. Use Diesel 40 when the off-grid line needs 26 m³/h and 120 m / 360 m on a 66 kW, 2800 kg trailer. Hebei Pinjin Machinery in Xingtai prints both for sites without a pump-motor grid. They are not two names for one machine.",
+    "zh": "农村窗口对得上时用 4100：40 kW、6–12 m³/h、15 MPa、水平 40–100 m / 垂直 15–45 m、骨料 1–3 cm、坍落度 180–220 mm、1300 kg。无电网管路需要 26 m³/h 和 120 m / 360 m 时，用 66 kW、2800 kg 的柴油40拖泵。邢台河北品锦机械把两台都印给没有泵用电网的现场。它们不是一台机器的两个名字。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The 4100 power cell is 40 kW, not a copied diesel engine",
+        "zh": "4100 的功率格是 40 kW，不是抄来的柴油机型号"
+      },
+      "body": {
+        "en": "The 4100 table labels power as 40 kW and describes a tractor-driven pump for rural houses. It does not print the 4108 / 66 kW engine cell that belongs to Diesel 40. It does print slump 180–220 mm, which Diesel 40 does not. Keep those cells on their own pages.",
+        "zh": "4100 的表把功率标成 40 kW，并写成农村住宅用的拖拉机带动泵。它没有印属于柴油40的 4108 / 66 kW 发动机格。它印了坍落度 180–220 mm，柴油40没有。这些格子留在各自的页面上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Diesel 40’s 1 cm note",
+        "zh": "柴油40的 1 cm 说明"
+      },
+      "body": {
+        "en": "The Diesel 40 introduction pairs 120 m / 360 m with 1 cm aggregate and does not add a maximum-aggregate specification cell. The 4100 does print 1–3 cm. A 3 cm stone that fits the 4100 is not automatically a Diesel 40 stone.",
+        "zh": "柴油40的介绍把 120 m / 360 m 和 1 cm 骨料写在一起，没有另加最大骨料规格格。4100 确实印了 1–3 cm。能放进 4100 的 3 cm 石子，不会自动变成柴油40的石子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Say whether a tractor drive is what you have, or a trailer diesel. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请说明你有的是拖拉机带动，还是拖式柴油机。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is Diesel 40’s weight 2800 kg?",
+        "zh": "柴油40的重量是 2800 kg 吗？"
+      },
+      "answer": {
+        "en": "Yes. The 4100 is 1300 kg.",
+        "zh": "是。4100 是 1300 kg。"
+      }
+    },
+    {
+      "question": {
+        "en": "Do they share 15 MPa?",
+        "zh": "它们都是 15 MPa 吗？"
+      },
+      "answer": {
+        "en": "The 4100 prints 15 MPa. Diesel 40 prints 25 MPa.",
+        "zh": "4100 印的是 15 MPa。柴油40印的是 25 MPa。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which solution page lists both?",
+        "zh": "哪一页应用同时列出两者？"
+      },
+      "answer": {
+        "en": "/solutions/industrial-projects names Diesel 30–120 and the tractor-driven 4100.",
+        "zh": "/solutions/industrial-projects 点名了柴油30–120和拖拉机带动4100。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/diesel-40-off-grid-trailer-not-the-4100.webp",
+    "alt": {
+      "en": "Tractor-driven 4100 concrete pump from Xingtai, the compact off-grid alternative to the Diesel 40 trailer",
+      "zh": "邢台拖拉机带动4100混凝土泵，相对柴油40拖泵的紧凑无电网选择"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/diesel-40-concrete-pump",
+      "label": {
+        "en": "Diesel 40 Concrete Pump",
+        "zh": "柴油40型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/tractor-4100-concrete-pump",
+      "label": {
+        "en": "Tractor-Driven 4100",
+        "zh": "拖拉机带动4100混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": {
+        "en": "Diesel concrete pumps",
+        "zh": "柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/industrial-projects",
+      "label": {
+        "en": "Pumping without grid power",
+        "zh": "无电网泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/diesel-40-concrete-pump",
+    "https://pinjinpump.com/products/tractor-4100-concrete-pump",
+    "https://pinjinpump.com/solutions/industrial-projects",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

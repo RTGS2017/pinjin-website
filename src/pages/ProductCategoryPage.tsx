@@ -22,7 +22,7 @@ import {
 } from '@/components/SEO';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
-import { brandedTitle, withLocaleDescription } from '@/seo/documentCopy';
+import { brandedTitle, blogDisplayTitle, withLocaleDescription } from '@/seo/documentCopy';
 import { extraCategoryFaqPlain } from '@/data/sourced/loadSourcedFaqs';
 
 export function ProductCategoryPage() {
@@ -209,7 +209,7 @@ export function ProductCategoryPage() {
                     to={`/blog/${post.slug}`}
                     className="font-medium text-dark hover:text-primary"
                   >
-                    {tx(post.title)}
+                    {blogDisplayTitle(tx(post.title))}
                   </LocaleLink>
                 </li>
               ))}

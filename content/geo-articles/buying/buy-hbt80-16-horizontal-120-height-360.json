@@ -1,0 +1,123 @@
+{
+  "slug": "buy-hbt80-16-horizontal-120-height-360",
+  "category": "buying",
+  "keyword": "order HBT80-16 concrete pump",
+  "title": {
+    "en": "Order HBT80-16 by Its 120 m Horizontal and 360 m Height Labels",
+    "zh": "按水平 120 m 和高度 360 m 两个标题订 HBT80-16"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints HBT80-16 with horizontal conveying 120 m and delivery height 360 m, output 50 m³/h, even though the code matches Electric 80.",
+    "zh": "河北品锦机械在邢台把 HBT80-16 印成水平输送 120 m、输送高度 360 m、输送量 50 m³/h，尽管代码与电动80相同。"
+  },
+  "h1": {
+    "en": "HBT80-16 Uses Two Distance Labels, Not the 900 m Pair",
+    "zh": "HBT80-16 用两个距离标题，不是 900 米那一组"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints HBT80-16 / HBT80-1816-110 as 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. It does not print a hopper. Electric 80’s 900 m / 300 m pair is a different page. Write both labels if you order this path. No price is printed.",
+    "zh": "河北品锦机械（邢台）把 HBT80-16 / HBT80-1816-110 印成 110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管径 100 / 125 mm、6600 × 1750 × 1800 mm、6500 kg。它不印料斗。电动80的 900 m / 300 m 是另一页。订这条路径时两个标题都要写。没有印价格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Width is 1750 mm",
+        "zh": "宽度是 1750 mm"
+      },
+      "body": {
+        "en": "Electric 80’s frame width on its sheet is 1800 mm. HBT80-16 prints 1750 mm. The shipping line should keep 1750.",
+        "zh": "电动80表上的宽度是 1800 mm。HBT80-16 印 1750 mm。运输行应保留 1750。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pipe is printed here",
+        "zh": "这里印了管径"
+      },
+      "body": {
+        "en": "100 / 125 mm is on this page. Do not assume Electric 80 has the same cell.",
+        "zh": "100 / 125 mm 在这一页。不要假设电动80有同一格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Inquiry",
+        "zh": "询盘"
+      },
+      "body": {
+        "en": "[/en/products/hbt80-16-concrete-pump/](/en/products/hbt80-16-concrete-pump/) to [/en/contact/](/en/contact/).",
+        "zh": "[/zh/products/hbt80-16-concrete-pump/](/zh/products/hbt80-16-concrete-pump/) 发到 [/zh/contact/](/zh/contact/)。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is output 80 m³/h?",
+        "zh": "输送量是 80 m³/h 吗？"
+      },
+      "answer": {
+        "en": "No. 50 m³/h.",
+        "zh": "不是。是 50 m³/h。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 360 m the horizontal figure?",
+        "zh": "360 m 是水平数字吗？"
+      },
+      "answer": {
+        "en": "No. The horizontal label is 120 m. 360 m is delivery height.",
+        "zh": "不是。水平标题是 120 m。360 m 是输送高度。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does it weigh the same as HBT8018?",
+        "zh": "它和 HBT8018 一样重吗？"
+      },
+      "answer": {
+        "en": "Both print 6500 kg. Length and motor differ.",
+        "zh": "都印 6500 kg。长度和电机不同。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is price printed?",
+        "zh": "价格印了吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "没有。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-hbt80-16-120m-order-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "HBT80-16 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "HBT80-16 混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/hbt80-16-concrete-pump/",
+    "/zh/products/hbt80-16-concrete-pump/",
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

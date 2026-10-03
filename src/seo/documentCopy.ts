@@ -33,6 +33,36 @@ export function brandedTitle(heading: string, lang: Lang): string {
   return `${trimmed} | ${brand}`;
 }
 
+const INTERNAL_TITLE_TAIL =
+  /\s*(?:Catalogue Rows?|Quote Rows?|目录行|报价行)\s*$/i;
+
+/** 页面可见标题：去掉内部目录口径，不改 source.json。 */
+export function blogDisplayTitle(title: string): string {
+  const next = title.replace(INTERNAL_TITLE_TAIL, '').trim();
+  return next || title;
+}
+
+function stripStackedBlogBrand(heading: string): string {
+  return heading
+    .replace(/\s*\|\s*Construction Machinery Knowledge\s*/gi, ' ')
+    .replace(/\s*\|\s*工程机械知识\s*/g, ' ')
+    .replace(/\s*\|\s*Pinjin\s*$/i, '')
+    .replace(/\s*\|\s*品锦机械\s*$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function blogDocumentTitle(
+  title: string,
+  seoTitle: string | undefined,
+  lang: Lang,
+): string {
+  const display = blogDisplayTitle(title);
+  const raw = (seoTitle ?? display).trim();
+  const cleaned = stripStackedBlogBrand(blogDisplayTitle(raw));
+  return brandedTitle(cleaned || display, lang);
+}
+
 export function withLocaleDescription(description: string, lang: Lang): string {
   const lead = DESC_LEAD[lang];
   if (!lead) return description;
@@ -97,7 +127,13 @@ export function factoryDocumentTitle(lang: Lang): string {
 }
 
 export function factoryDocumentDescription(lang: Lang, homeDesc: string): string {
-  if (lang === 'zh') return homeDesc;
+  if (lang === 'zh') {
+    const factoryDesc =
+      '河北品锦机械在中国邢台制造电动、柴油拖式混凝土泵、搅拌泵与喷涂机。请按目录对照产量、距离与动力。不是臂架泵或搅拌站。不声称拥有海外仓。';
+    return factoryDesc === homeDesc
+      ? `${factoryDesc} 工厂地址为任泽工业园区。`
+      : factoryDesc;
+  }
   return withLocaleDescription(
     'Hebei Pinjin Machinery factory in Xingtai, Hebei, China — concrete machinery manufacturer in the Xingjiawan manufacturing area. Factory address: Renze Industrial Park.',
     lang,

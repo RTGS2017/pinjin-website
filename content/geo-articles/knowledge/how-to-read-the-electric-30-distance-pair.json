@@ -1,0 +1,122 @@
+{
+  "slug": "how-to-read-the-electric-30-distance-pair",
+  "category": "knowledge",
+  "keyword": {
+    "en": "electric 30 concrete pump 60 m 180 m which is vertical",
+    "zh": "电动30的60米和180米哪个是垂直"
+  },
+  "title": {
+    "en": "How to Read the Electric 30 Distance Pair",
+    "zh": "电动30的距离数对怎样读"
+  },
+  "description": {
+    "en": "Electric 30's fine-stone cell is labelled horizontal then vertical and prints 60 m / 180 m. The second number is vertical.",
+    "zh": "电动30的细石格标题是先水平后垂直，印出 60 m / 180 m。第二个数是垂直。"
+  },
+  "h1": {
+    "en": "How to Read the Electric 30 Distance Pair",
+    "zh": "电动30的距离数对怎样读"
+  },
+  "directAnswer": {
+    "en": "On the Electric 30 concrete pump, Hebei Pinjin Machinery in Xingtai labels the fine-stone line as horizontal / vertical and prints 60 m / 180 m. Horizontal is 60 m. Vertical is 180 m. The second number is larger, and the label still sets the order. A second row, aggregate-13, prints 20 m / 60 m under the same horizontal-then-vertical heading. Do not swap the pair so that it looks like Electric 20's 120 m / 40 m.",
+    "zh": "在电动30混凝土泵上，河北品锦机械在邢台把细石行标成水平/垂直，并印出 60 m / 180 m。水平是 60 m。垂直是 180 m。第二个数更大，标题仍然决定顺序。第二行 13 骨料在同样的“先水平后垂直”标题下印 20 m / 60 m。不要为了看起来像电动20的 120 m / 40 m 而把数对对调。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The fine-stone order",
+        "zh": "细石的顺序"
+      },
+      "body": {
+        "en": "The heading is 细石输送（水平/垂直）. The value is 60 m / 180 m. Read left to right. Hebei Pinjin Machinery did not print a note telling you to reverse the pair when the vertical figure is larger.",
+        "zh": "标题是细石输送（水平/垂直）。数值是 60 m / 180 m。从左到右读。河北品锦机械没有印注记说垂直数字更大时要颠倒数对。"
+      }
+    },
+    {
+      "heading": {
+        "en": "The second row",
+        "zh": "第二行"
+      },
+      "body": {
+        "en": "Aggregate-13 pumping (H / V) is 20 m / 60 m. That is not the fine-stone row. Maximum aggregate size on the same page is ≤ 3 cm. The 60 m in the second row is horizontal, while the 60 m in the first row is also horizontal. They are not one cell.",
+        "zh": "13骨料输送（水平/垂直）是 20 m / 60 m。那不是细石行。同一页的最大骨料粒径是 ≤ 3 cm。第二行的 60 m 是水平，第一行的 60 m 也是水平。它们不是同一格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Motor and output stay separate",
+        "zh": "电机和产量仍然分开"
+      },
+      "body": {
+        "en": "Electric 30 also prints 30 kW and 12–15 m³/h. Those cells do not change the distance order. The machine is a concrete pump from Xingtai, not a reinterpretation of Electric 20.",
+        "zh": "电动30还印 30 kW 和 12–15 m³/h。这些格子不改变距离顺序。这台机器是邢台的混凝土泵，不是对电动20的重新解释。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is 180 m horizontal?",
+        "zh": "180 m 是水平吗？"
+      },
+      "answer": {
+        "en": "No. On the fine-stone label, 180 m is the vertical figure.",
+        "zh": "不是。在细石标题下，180 m 是垂直数字。"
+      }
+    },
+    {
+      "question": {
+        "en": "What is the aggregate-13 pair?",
+        "zh": "13骨料那一组是多少？"
+      },
+      "answer": {
+        "en": "20 m horizontal and 60 m vertical.",
+        "zh": "水平 20 m，垂直 60 m。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 30 print a 24 mm row?",
+        "zh": "电动30印 24 mm 行吗？"
+      },
+      "answer": {
+        "en": "No. It prints two distance rows and a maximum aggregate of ≤ 3 cm.",
+        "zh": "没有。它印两行距离，以及最大骨料 ≤ 3 cm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Should I reorder the numbers?",
+        "zh": "应该把数字重排吗？"
+      },
+      "answer": {
+        "en": "No. Keep the printed order under the horizontal / vertical heading.",
+        "zh": "不要。在水平/垂直标题下保持印出的顺序。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/how-to-read-the-electric-30-distance-pair-pinjin.webp",
+    "alt": {
+      "en": "How to Read the Electric 30 Distance Pair, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "电动30的距离数对怎样读，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-30-concrete-pump/",
+    "/zh/products/electric-30-concrete-pump/",
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

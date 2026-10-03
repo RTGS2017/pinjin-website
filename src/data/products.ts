@@ -273,8 +273,8 @@ export const categoryMeta: Record<
     routeSlug: 'spraying-machines',
     label: { en: 'Spraying Machines', zh: '喷涂机', ru: 'Штукатурные машины' },
     description: {
-      en: 'Hydraulic and diesel concrete spraying machines and the M9 automatic plaster sprayer, with published output, hose size and particle size. Quote only.',
-      zh: '液压/柴油混凝土喷涂机与 M9 全自动石膏喷涂机，目录公布产量、管径与粒径。询价报价。',
+      en: 'Hydraulic and diesel concrete spraying machines, Type 311/511 mortar sprayers, the German type dual-motor row and the M9 automatic plaster sprayer, with published output, hose size and particle size. Quote only.',
+      zh: '液压/柴油混凝土喷涂机、311/511 砂浆喷涂机、德式双电机行与 M9 全自动石膏喷涂机，目录公布产量、管径与粒径。询价报价。',
       ru: 'Гидравлические и дизельные машины для набрызга бетона и автоматическая штукатурная машина M9 с опубликованными производительностью, шлангом и фракцией. Только запрос цены.',
     },
   },

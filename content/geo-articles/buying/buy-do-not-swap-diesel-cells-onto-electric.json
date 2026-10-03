@@ -1,0 +1,131 @@
+{
+  "slug": "buy-do-not-swap-diesel-cells-onto-electric",
+  "category": "buying",
+  "keyword": "do not substitute a diesel pump row for an electric pump",
+  "title": {
+    "en": "Do Not Copy a Diesel Catalogue Row onto an Electric Order",
+    "zh": "不要把柴油目录行抄到电动订单上"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints electric and diesel pumps on separate pages. Copying one table onto the other changes the machine you think you ordered.",
+    "zh": "河北品锦机械在邢台把电动泵和柴油泵印在不同页面。把一张表抄到另一张上，会改变你以为订下的机器。"
+  },
+  "h1": {
+    "en": "Keep the Diesel Sheet Off the Electric Purchase Order",
+    "zh": "电动采购单上不要套用柴油表"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai will not treat a diesel page as the diesel version of the electric page with the same numeral. Electric 50 prints a 55 kW motor, 26 m³/h and three stone-distance rows. Diesel 50 prints 6105 / 99 kW, 30 m³/h, 30 MPa and 150 m / 450 m. An order must name one path. Sending both tables as if they were one machine leaves Xingtai without a model to quote.",
+    "zh": "河北品锦机械（邢台）不会把柴油页当成同数字电动页的柴油版。电动50印 55 kW 电机、26 m³/h 和三行石子距离。柴油50印 6105 / 99 kW、30 m³/h、30 MPa、150 m / 450 m。订单必须点明一条路径。两张表当成一台机器发出去，邢台就没有可报价的型号。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "A pair that shares a weight and nothing else",
+        "zh": "一对只共享重量的型号"
+      },
+      "body": {
+        "en": "Electric 50 and Diesel 40 both print 2800 kg. Electric 50 is 55 kW electric, 4100 × 1600 × 1600 mm. Diesel 40 is 4108 / 66 kW, 26 m³/h, 4200 × 1600 × 1800 mm. Matching the kilograms is not an order.",
+        "zh": "电动50和柴油40都印 2800 kg。电动50是电动 55 kW，外形 4100 × 1600 × 1600 mm。柴油40是 4108 / 66 kW、26 m³/h，外形 4200 × 1600 × 1800 mm。对上公斤数不是一张订单。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to write when you are still deciding",
+        "zh": "还没决定时怎么写"
+      },
+      "body": {
+        "en": "Send two inquiries, or one note with two paths and a sentence that says which condition applies: grid able to feed the motor, or diesel only. Do not merge pressure or distance. Ask [/en/contact/](/en/contact/) to price the path you select.",
+        "zh": "发两封询盘，或在一封里写两条路径，并用一句话说明条件：电网能供给电机，或只能用柴油。不要合并压力或距离。请 [/zh/contact/](/zh/contact/) 对你选定的路径报价。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Same outline, still two machines",
+        "zh": "外形相同，仍然是两台机器"
+      },
+      "body": {
+        "en": "Electric 60 and Electric 80 both print 6600 × 1800 × 1800 mm. Weights are 3300 kg and 6000 kg, motors 90 kW and 110 kW. That pair is electric-to-electric, and it still must not be collapsed. A diesel copy of either page is a third sheet.",
+        "zh": "电动60和电动80都印外形 6600 × 1800 × 1800 mm。重量是 3300 kg 和 6000 kg，电机是 90 kW 和 110 kW。这一对都是电动，仍然不能并成一台。它们各自的柴油对照又是第三张表。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is Diesel 40 the diesel Electric 40?",
+        "zh": "柴油40是电动40的柴油版吗？"
+      },
+      "answer": {
+        "en": "No. Electric 40 prints 45 kW, 21 m³/h and two stone rows. Diesel 40 prints 4108 / 66 kW and 26 m³/h.",
+        "zh": "不是。电动40印 45 kW、21 m³/h 和两行石子距离。柴油40印 4108 / 66 kW 和 26 m³/h。"
+      }
+    },
+    {
+      "question": {
+        "en": "May I ask for both quotes?",
+        "zh": "可以同时要两个报价吗？"
+      },
+      "answer": {
+        "en": "Yes, if each quote names its own path. Hebei Pinjin Machinery still confirms price only by inquiry.",
+        "zh": "可以，只要每个报价写明自己的路径。河北品锦机械仍然只通过询盘确认价格。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does equal weight mean equal freight class on the site?",
+        "zh": "重量相同是否表示本站印了相同运费等级？"
+      },
+      "answer": {
+        "en": "No freight class is printed. Send dimensions from the page you order.",
+        "zh": "没有印运费等级。请发送你所订页面上的外形。"
+      }
+    },
+    {
+      "question": {
+        "en": "Where do I send the choice?",
+        "zh": "选择发到哪里？"
+      },
+      "answer": {
+        "en": "The Xingtai contact page, with the slug.",
+        "zh": "邢台询盘页，并附上型号地址。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-electric-50-separate-from-diesel-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Electric 50 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "电动50型混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-50-concrete-pump/",
+    "/zh/products/electric-50-concrete-pump/",
+    "/en/products/diesel-50-concrete-pump/",
+    "/zh/products/diesel-50-concrete-pump/",
+    "/en/products/diesel-40-concrete-pump/",
+    "/zh/products/diesel-40-concrete-pump/",
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

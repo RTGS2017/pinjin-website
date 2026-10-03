@@ -1,0 +1,131 @@
+{
+  "slug": "buy-name-the-product-path-not-a-nickname",
+  "category": "buying",
+  "keyword": "concrete pump inquiry product url",
+  "title": {
+    "en": "Name the Xingtai Product Path, Not a Nickname",
+    "zh": "询盘写邢台的产品路径，不要写昵称"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai quotes a path such as /products/diesel-50-concrete-pump/. A nickname like “the big 50” matches more than one sheet.",
+    "zh": "河北品锦机械在邢台按路径报价，例如 /products/diesel-50-concrete-pump/。“大 50”这类昵称会对应到不止一张表。"
+  },
+  "h1": {
+    "en": "The Order Starts with the Product Path",
+    "zh": "订单从产品路径开始"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai can see which sheet you read only if the inquiry contains the path. Use [/en/products/diesel-50-concrete-pump/](/en/products/diesel-50-concrete-pump/) or the Chinese path, not “50-type”. Shared strings such as HBT80-1816-110 and HBT60-13.132 still need the path beside them. Send that line to [/en/contact/](/en/contact/).",
+    "zh": "只有询盘里有路径，河北品锦机械（邢台）才看得出你读的是哪一张表。请写 [/zh/products/diesel-50-concrete-pump/](/zh/products/diesel-50-concrete-pump/) 或英文路径，不要写“50型”。HBT80-1816-110 和 HBT60-13.132 这类共享字符串旁边仍然要有路径。把这一行发到 [/zh/contact/](/zh/contact/)。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Paths that already exist",
+        "zh": "已经存在的路径"
+      },
+      "body": {
+        "en": "Electric, diesel and mixer hubs are [/en/products/electric-concrete-pumps/](/en/products/electric-concrete-pumps/), [/en/products/diesel-concrete-pumps/](/en/products/diesel-concrete-pumps/) and [/en/products/mixer-pumps/](/en/products/mixer-pumps/). A model path sits under those hubs. A project nickname is not a path.",
+        "zh": "电动、柴油和搅拌泵分类是 [/zh/products/electric-concrete-pumps/](/zh/products/electric-concrete-pumps/)、[/zh/products/diesel-concrete-pumps/](/zh/products/diesel-concrete-pumps/) 和 [/zh/products/mixer-pumps/](/zh/products/mixer-pumps/)。型号路径在这些分类下面。项目昵称不是路径。"
+      }
+    },
+    {
+      "heading": {
+        "en": "One path per price request",
+        "zh": "一次询价一条路径"
+      },
+      "body": {
+        "en": "You may list two paths and ask which one Xingtai should price. You may not merge them into a third name the catalogue does not have.",
+        "zh": "你可以列出两条路径，请邢台报其中一条。不能把它们合成目录里没有的第三个名称。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Contact channels",
+        "zh": "联系渠道"
+      },
+      "body": {
+        "en": "The site configuration lists PinjinHebei@Outlook.com and 19912003025, plus the contact page and the on-site WhatsApp button. Put the path in the first line.",
+        "zh": "站点配置列出 PinjinHebei@Outlook.com 和 19912003025，以及询盘页和站内 WhatsApp。第一行写路径。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is the Chinese path a different machine?",
+        "zh": "中文路径是另一台机器吗？"
+      },
+      "answer": {
+        "en": "No. /zh/products/ and /en/products/ with the same slug are the two languages of one page.",
+        "zh": "不是。相同型号地址的 /zh/products/ 和 /en/products/ 是同一页的两种语言。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can I send only the HBT code?",
+        "zh": "只发 HBT 代码可以吗？"
+      },
+      "answer": {
+        "en": "Add the path. Two pages can share one code.",
+        "zh": "请加上路径。两页可以共享一个代码。"
+      }
+    },
+    {
+      "question": {
+        "en": "What if I have not chosen?",
+        "zh": "如果还没选定呢？"
+      },
+      "answer": {
+        "en": "Send the two candidate paths and the site facts. Do not invent a slug.",
+        "zh": "发送两条候选路径和现场事实。不要编造型号地址。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the path include a price?",
+        "zh": "路径里包含价格吗？"
+      },
+      "answer": {
+        "en": "No. The path identifies the sheet. The price is confirmed by inquiry.",
+        "zh": "不包含。路径用来识别参数表。价格由询盘确认。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-xingtai-pump-assembly-inquiry-manufacturer.webp",
+    "alt": {
+      "en": "Trailer concrete pump assembly at Hebei Pinjin Machinery, a Xingtai manufacturer",
+      "zh": "河北品锦机械厂家的拖式混凝土泵组装，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/diesel-50-concrete-pump/",
+    "/zh/products/diesel-50-concrete-pump/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/products/diesel-concrete-pumps/",
+    "/zh/products/diesel-concrete-pumps/",
+    "/en/products/mixer-pumps/",
+    "/zh/products/mixer-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/en/products/mixer-pumps/",
+    "https://pinjinpump.com/zh/products/mixer-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

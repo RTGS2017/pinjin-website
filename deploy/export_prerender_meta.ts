@@ -15,7 +15,6 @@ import {
 } from '@/i18n/config';
 import { getMessages } from '@/i18n/messages';
 import { pick } from '@/i18n/types';
-import { seoTemplates } from '@/config/seo';
 import {
   categoryMeta,
   products,
@@ -32,6 +31,8 @@ import { applicationPages } from '@/data/applicationsContent';
 import { marketsContent } from '@/data/markets';
 import { customMachineryContent } from '@/data/customMachinery';
 import {
+  blogDisplayTitle,
+  blogDocumentTitle,
   brandedTitle,
   factoryDocumentDescription,
   factoryDocumentTitle,
@@ -68,6 +69,7 @@ type PageRecord = {
   ogImage?: string;
   imageAlt?: string;
   specs?: Array<{ label: string; value: string }>;
+  faqs?: Array<{ question: string; answer: string }>;
   categoryRest?: string;
 };
 
@@ -246,13 +248,15 @@ function pageCopy(rest: string, lang: Lang): {
 
   const post = posts.find((item) => `/blog/${item.slug}` === rest);
   if (post) {
-    const title = post.seoTitle
-      ? brandedTitle(tx(post.seoTitle, lang), lang)
-      : brandedTitle(seoTemplates.blogTitle(tx(post.title, lang)), lang);
+    const heading = tx(post.title, lang);
     return {
-      title,
+      title: blogDocumentTitle(
+        heading,
+        post.seoTitle ? tx(post.seoTitle, lang) : undefined,
+        lang,
+      ),
       description: withLocaleDescription(tx(post.description, lang), lang),
-      h1: tx(post.title, lang),
+      h1: blogDisplayTitle(heading),
       lastmod: post.dateModified ?? post.date ?? DEFAULT_LASTMOD,
     };
   }
@@ -452,6 +456,14 @@ for (const lang of languages.map((item) => item.code)) {
       lastmod: copy.lastmod,
       kind,
       specs: specRows,
+      faqs: blogPost
+        ? getBlogFaqs(blogPost)
+            .map((item) => ({
+              question: tx(item.question, lang),
+              answer: tx(item.answer, lang),
+            }))
+            .filter((item) => item.question && item.answer)
+        : undefined,
       categoryRest: product
         ? `/products/${categoryMeta[product.category].routeSlug}`
         : undefined,

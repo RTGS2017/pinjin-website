@@ -1,0 +1,127 @@
+{
+  "slug": "buy-lz-outline-does-not-choose-the-engine",
+  "category": "buying",
+  "keyword": "LZ-60 and LZ-80 same dimensions different engine",
+  "title": {
+    "en": "The Shared 6.6 m Outline Does Not Choose LZ-60 or LZ-80",
+    "zh": "共享的 6.6 米外形选不出 LZ-60 或 LZ-80"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints 6.6 × 1.8 × 1.9 m on both LZ-60 and LZ-80. Engines are 145 kW and Yuchai 256 kW. Weights are 5500 kg and 6800 kg.",
+    "zh": "河北品锦机械在邢台把 6.6 × 1.8 × 1.9 m 同时印在 LZ-60 和 LZ-80 上。发动机是 145 kW 和玉柴 256 kW。重量是 5500 kg 和 6800 kg。"
+  },
+  "h1": {
+    "en": "Name the Engine After the LZ Outline Matches",
+    "zh": "LZ 外形对上之后还要点明发动机"
+  },
+  "directAnswer": {
+    "en": "A measured outline of 6.6 × 1.8 × 1.9 m still leaves two diesel pages at Hebei Pinjin Machinery in Xingtai. LZ-60 is 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, pipe 100 / 125 mm and 5500 kg. LZ-80 is Yuchai 256 kW, with high and low pressure modes, conveying 120 m, hopper 0.6 m³ and 6800 kg, and its delivery height says consult the factory standard. The order must name the engine and, for LZ-80, the mode. Send one path to [/en/contact/](/en/contact/). No price is printed.",
+    "zh": "量到外形 6.6 × 1.8 × 1.9 m，在河北品锦机械（邢台）仍然留下两张柴油页。LZ-60 是 6105 / 145 kW、50 m³/h、35 MPa、输送距离 100 m、高度 300 m、管径 100 / 125 mm、5500 kg。LZ-80 是玉柴 256 kW，带高压和低压模式，输送距离 120 m，料斗 0.6 m³，6800 kg，输送高度写的是咨询工厂标准。订单必须点明发动机，对 LZ-80 还要点明模式。把一条路径发到 [/zh/contact/](/zh/contact/)。没有印价格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Do not convert the metres in silence",
+        "zh": "不要默默换算米"
+      },
+      "body": {
+        "en": "Quote 6.6 × 1.8 × 1.9 m as printed, and add the weight of the path you mean.",
+        "zh": "按印出的 6.6 × 1.8 × 1.9 m 引用，并加上你所指路径的重量。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pipe is LZ-60’s cell",
+        "zh": "管径是 LZ-60 的格子"
+      },
+      "body": {
+        "en": "100 / 125 mm is on LZ-60. The LZ-80 list used here does not print that pipe. Do not share it across the outline.",
+        "zh": "100 / 125 mm 在 LZ-60 上。此处使用的 LZ-80 列表不印这根管子。不要顺着外形共享过去。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Diesel 120 is longer",
+        "zh": "柴油120更长"
+      },
+      "body": {
+        "en": "Diesel 120 prints 7000 × 2000 × 2300 mm and 8000 kg. It is not this outline.",
+        "zh": "柴油120印 7000 × 2000 × 2300 mm、8000 kg。它不是这个外形。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Which page is 256 kW?",
+        "zh": "哪一页是 256 kW？"
+      },
+      "answer": {
+        "en": "LZ-80, Yuchai.",
+        "zh": "LZ-80，玉柴。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which page is 5500 kg?",
+        "zh": "哪一页是 5500 kg？"
+      },
+      "answer": {
+        "en": "LZ-60.",
+        "zh": "LZ-60。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can one inquiry ask for both?",
+        "zh": "一封询盘可以问两台吗？"
+      },
+      "answer": {
+        "en": "Yes, if each path stays separate. Xingtai prices a path, not the outline alone.",
+        "zh": "可以，只要每条路径保持分开。邢台按路径报价，而不是只按外形。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the outline a price?",
+        "zh": "外形是价格吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "不是。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-lz-80-shared-outline-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "LZ-80 diesel concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "LZ-80 柴油混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/lz-60-diesel-concrete-pump/",
+    "/zh/products/lz-60-diesel-concrete-pump/",
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

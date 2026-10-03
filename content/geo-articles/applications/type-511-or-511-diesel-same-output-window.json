@@ -1,0 +1,136 @@
+{
+  "slug": "type-511-or-511-diesel-same-output-window",
+  "category": "application",
+  "keyword": "type 511 electric or diesel sprayer",
+  "title": {
+    "en": "Type 511 or Type 511 diesel for the same mortar window?",
+    "zh": "同一个砂浆窗口，选 511 还是 511 柴油机？"
+  },
+  "description": {
+    "en": "Both print 3 m³/h, 3–5 MPa, ≤ 6 mm and 30 m / 15 m. Electric Type 511 needs 380 V and weighs 260 kg. The diesel page weighs 360 kg and does not print engine kW.",
+    "zh": "两台都印 3 m³/h、3–5 MPa、≤ 6 mm、30 m / 15 m。电动 511 需要 380V，重 260 kg。柴油页重 360 kg，不印发动机千瓦。"
+  },
+  "h1": {
+    "en": "Type 511 or Type 511 diesel for the same mortar window?",
+    "zh": "同一个砂浆窗口，选 511 还是 511 柴油机？"
+  },
+  "directAnswer": {
+    "en": "Use electric Type 511 when 380 V can feed 7.5 kW. Use Type 511 diesel when it cannot. Hebei Pinjin Machinery in Xingtai prints the same mortar window on both: 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤ 6 mm and 30 m / 15 m. The electric machine is 260 kg and 1700 × 550 × 900 mm. The diesel machine is 360 kg and 1600 × 1200 × 450 mm, and its sheet does not print kilowatts or horsepower.",
+    "zh": "380V 能供给 7.5 kW 时用电动 511。不能时用 511 柴油机。邢台河北品锦机械在两台上印了同一个砂浆窗口：3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤ 6 mm、30 m / 15 m。电机型 260 kg，外形 1700 × 550 × 900 mm。柴油型 360 kg，外形 1600 × 1200 × 450 mm，并且没有印千瓦或马力。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Do not upgrade either one to 5 m³/h",
+        "zh": "不要把任何一台升级成 5 m³/h"
+      },
+      "body": {
+        "en": "5 m³/h is the hydraulic sprayer on 380 V or the diesel concrete sprayer at 28/32 HP. Those pages change particle or pressure or hose length. The Type 511 pair stays at 3 m³/h.",
+        "zh": "5 m³/h 是 380V 液压喷涂机，或 28/32 HP 的柴油混凝土喷涂机。那些页面会改变粒径、压力或软管长度。511 这一对停在 3 m³/h。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Frame size changes with the power choice",
+        "zh": "机架尺寸随动力选择改变"
+      },
+      "body": {
+        "en": "A tight indoor space that fitted the 1700 × 550 mm electric frame may not fit the diesel frame’s 1200 mm width as printed (1600 × 1200 × 450 mm). Check the printed outline before assuming the diesel version occupies the same footprint.",
+        "zh": "放得下 1700 × 550 mm 电机型机架的狭窄室内，不一定放得下柴油型印出的 1200 mm 宽度（1600 × 1200 × 450 mm）。在假定柴油版占地相同之前，先核对已印外形。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Say 380 V available or not. That single fact chooses the page. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请说明有没有 380V。这一项就决定页面。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Are the hose cells the same?",
+        "zh": "软管格一样吗？"
+      },
+      "answer": {
+        "en": "Yes. Both print 32/38 mm.",
+        "zh": "一样。两台都印 32/38 mm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the diesel page print 7.5 kW?",
+        "zh": "柴油页印了 7.5 kW 吗？"
+      },
+      "answer": {
+        "en": "No. 7.5 kW is the electric Type 511 motor.",
+        "zh": "没有。7.5 kW 是电动 511 的电机。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is either machine a pump?",
+        "zh": "有一台是泵吗？"
+      },
+      "answer": {
+        "en": "No. Both are mortar spraying machines.",
+        "zh": "都不是。两台都是砂浆喷涂机。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/type-511-or-511-diesel-same-output-window.webp",
+    "alt": {
+      "en": "Type 511 diesel mortar sprayer, the off-grid page for the same 3 cubic metre mortar window",
+      "zh": "511 柴油砂浆喷涂机，同一个每小时3立方米砂浆窗口的无电网页面"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/type-511-mortar-spraying-machine",
+      "label": {
+        "en": "Type 511 Mortar Sprayer",
+        "zh": "511砂浆喷涂机"
+      }
+    },
+    {
+      "href": "/products/type-511-diesel-mortar-spraying-machine",
+      "label": {
+        "en": "Type 511 Diesel",
+        "zh": "511柴油砂浆喷涂机"
+      }
+    },
+    {
+      "href": "/products/spraying-machines",
+      "label": {
+        "en": "Spraying machines",
+        "zh": "喷涂机"
+      }
+    },
+    {
+      "href": "/solutions/spraying",
+      "label": {
+        "en": "Spraying versus pipeline pumping",
+        "zh": "喷浆与管道泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/type-511-mortar-spraying-machine",
+    "https://pinjinpump.com/products/type-511-diesel-mortar-spraying-machine",
+    "https://pinjinpump.com/solutions/spraying",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

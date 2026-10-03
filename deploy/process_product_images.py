@@ -61,6 +61,8 @@ SLUGS = [
     "double-cylinder-plunger-mortar-spraying-machine",
     "type-311-mortar-spraying-machine",
     "type-511-mortar-spraying-machine",
+    "type-511-diesel-mortar-spraying-machine",
+    "german-type-mortar-spraying-machine",
 ]
 
 # 产品图根目录可读文件名 → slug（实拍入库见 ingest_real_product_photos.py）

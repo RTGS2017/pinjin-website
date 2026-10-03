@@ -1,0 +1,796 @@
+{
+  "category": "application",
+  "count": 75,
+  "entity": {
+    "en": "Hebei Pinjin Machinery Manufacturing Co., Ltd., Renze Industrial Park, Xingtai, Hebei, China",
+    "zh": "河北品锦机械制造有限公司，中国河北省邢台市任泽工业园区"
+  },
+  "missingImages": [
+    {
+      "slug": "commercial-placement-starts-at-electric-20",
+      "reason": "none"
+    },
+    {
+      "slug": "compact-grid-site-do-not-start-from-diesel-120",
+      "reason": "none"
+    }
+  ],
+  "rejectedTopics": [
+    {
+      "en": "Country or regional project pages. The catalogue does not name a national job.",
+      "zh": "国家或地区工程专页。目录没有具名的国家工程来源。"
+    },
+    {
+      "en": "Named jobsites, contract volumes, and converting storeys into metres.",
+      "zh": "具名工地、合同方量，以及把楼层换算成米。"
+    },
+    {
+      "en": "Tunnel lining, floor heating, basements, retaining walls and masonry as new application pages. Those slugs already exist as blog notes and are outside this building / infrastructure / off-grid / spray-and-plaster map.",
+      "zh": "隧道二衬、地暖、地下室、挡土墙、砌体不再新开应用页。这些 slug 已在博客里，且不属于本批建筑、基建、无电网、喷浆与石膏的映射。"
+    },
+    {
+      "en": "Hydraulic theory, parts teardowns and purchasing lists.",
+      "zh": "纯液压原理、配件拆解和采购清单。"
+    },
+    {
+      "en": "Boom pumps, mixing plants, forklifts and spiral feeders. They are not catalogue products.",
+      "zh": "臂架泵、搅拌站、叉车和螺旋给料机。它们不是目录产品。"
+    },
+    {
+      "en": "Unpublished model numbers such as Diesel 70, Diesel 90 or a diesel B500S.",
+      "zh": "未公布型号，例如柴油70、柴油90或柴油版 B500S。"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "building-pour-starts-on-the-electric-catalogue",
+      "keyword": "building construction concrete pump",
+      "title": {
+        "en": "Which published pump fits a grid-powered building pour?",
+        "zh": "有电网的建筑浇筑，先看哪类已公布泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-20-building-commercial-placement",
+      "keyword": "electric 20 concrete pump building",
+      "title": {
+        "en": "Does Electric 20 match building and commercial placement?",
+        "zh": "电动20对得上建筑与商业浇筑吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-30-fine-stone-building-line",
+      "keyword": "electric 30 fine stone concrete pump",
+      "title": {
+        "en": "When does a building use the Electric 30 fine-stone row?",
+        "zh": "建筑浇筑什么时候读电动30的细石行？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-30-aggregate-13-shorter-building-line",
+      "keyword": "aggregate 13 concrete pump building",
+      "title": {
+        "en": "Which building line is the Electric 30 aggregate-13 row?",
+        "zh": "电动30的13骨料行对应哪段建筑管路？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-low-pressure-40-fine-stone-building",
+      "keyword": "electric low pressure 40 fine stone pump",
+      "title": {
+        "en": "Does the low-pressure Electric 40 fit a fine-stone building?",
+        "zh": "电动低压40适合细石建筑浇筑吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-40-medium-building-selection",
+      "keyword": "medium building concrete pump",
+      "title": {
+        "en": "Which pump does the guide name for a medium building?",
+        "zh": "中型建筑，选型指南点名哪一台？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-50-building-pour-by-stone-size",
+      "keyword": "electric 50 concrete pump stone size",
+      "title": {
+        "en": "How do you read Electric 50 stone rows on a building?",
+        "zh": "建筑工地上怎么读电动50的石子行？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-low-pressure-60-building-window",
+      "keyword": "electric low pressure 60 building pump",
+      "title": {
+        "en": "What building window does Electric Low Pressure 60 print?",
+        "zh": "电动低压60给建筑浇筑印了哪一扇窗口？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-60-high-rise-catalogue-phrase",
+      "keyword": "high-rise electric concrete pump",
+      "title": {
+        "en": "Which electric pump prints the high-rise phrase?",
+        "zh": "哪一台电动泵印了“高层”？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "hbt80-16-building-not-the-900-metre-row",
+      "keyword": "HBT80-16 building concrete pump",
+      "title": {
+        "en": "Is HBT80-16 the 900 m building pump?",
+        "zh": "HBT80-16 是那台 900 米建筑泵吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "match-building-metres-not-storey-count",
+      "keyword": "building height concrete pump metres",
+      "title": {
+        "en": "How do you match a building to a catalogue height?",
+        "zh": "建筑高度怎样对照目录里的输送高度？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-40-or-50-for-medium-building",
+      "keyword": "electric 40 or 50 medium building",
+      "title": {
+        "en": "Electric 40 or Electric 50 for a medium building?",
+        "zh": "中型建筑选电动40还是电动50？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-30-or-low-pressure-40-fine-stone",
+      "keyword": "fine stone building pump electric 30",
+      "title": {
+        "en": "Electric 30 or low-pressure 40 for fine-stone buildings?",
+        "zh": "细石建筑选电动30还是低压40？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "building-catalogue-output-is-not-a-daily-volume",
+      "keyword": "building pour rate catalogue output",
+      "title": {
+        "en": "Which building output cell should you compare?",
+        "zh": "建筑浇筑该对照哪一格输送量？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "building-aggregate-picks-the-pump-row",
+      "keyword": "building concrete aggregate size pump",
+      "title": {
+        "en": "Which building pump matches the stone in the mix?",
+        "zh": "建筑料里的石子该对哪一台泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-20-80mm-pipe-building-line",
+      "keyword": "80 mm concrete pump pipe building",
+      "title": {
+        "en": "Which building pump prints an 80 mm delivery pipe?",
+        "zh": "哪一台建筑泵印了 80 mm 输送管？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "stable-grid-building-electric-ladder",
+      "keyword": "grid powered building concrete pump",
+      "title": {
+        "en": "Stable power on a building: which ladder do you open?",
+        "zh": "建筑工地有稳定电，打开哪一架梯子？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "shared-hbt80-code-two-building-tables",
+      "keyword": "HBT80-1816-110 two catalogue pages",
+      "title": {
+        "en": "One printed code, two building tables: which page?",
+        "zh": "同一个代号、两张建筑表，看哪一页？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-15-two-to-three-floor-published-window",
+      "keyword": "two to three floor concrete pump",
+      "title": {
+        "en": "Which pump is already tied to a 2–3 floor house?",
+        "zh": "两三层房屋已经写在哪一台泵上？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "secondary-structure-compact-pump-rows",
+      "keyword": "secondary structure concrete pump",
+      "title": {
+        "en": "Which pumps print secondary structure?",
+        "zh": "哪些泵印了二次结构？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "commercial-placement-starts-at-electric-20",
+      "keyword": "commercial concrete placement pump",
+      "title": {
+        "en": "Where does commercial placement start in the catalogue?",
+        "zh": "商业浇筑在目录里从哪里开始？"
+      },
+      "status": "ready",
+      "hasImage": false
+    },
+    {
+      "slug": "infrastructure-pipeline-length-before-the-model",
+      "keyword": "infrastructure concrete pump pipeline length",
+      "title": {
+        "en": "Infrastructure: which pump follows the pipeline length?",
+        "zh": "基建工程：管路长度对应哪类泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-80-long-horizontal-infrastructure",
+      "keyword": "900 m infrastructure concrete pump",
+      "title": {
+        "en": "Which pump prints 900 m for infrastructure?",
+        "zh": "哪一台泵为基建印了 900 米？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "hbt8018-infrastructure-output-and-height",
+      "keyword": "HBT8018 infrastructure concrete pump",
+      "title": {
+        "en": "When does infrastructure use HBT8018?",
+        "zh": "基建什么时候用 HBT8018？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-120-infrastructure-vertical-listing",
+      "keyword": "diesel 120 infrastructure concrete pump",
+      "title": {
+        "en": "Which diesel pump prints the 500 m infrastructure height?",
+        "zh": "哪台柴油泵印了基建用的 500 米高度？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "lz-80-coarse-aggregate-infrastructure",
+      "keyword": "coarse aggregate infrastructure diesel pump",
+      "title": {
+        "en": "Which infrastructure pump prints 6 cm aggregate?",
+        "zh": "哪台基建泵印了 6 厘米骨料？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-50-infrastructure-without-grid",
+      "keyword": "diesel 50 infrastructure concrete pump",
+      "title": {
+        "en": "Does Diesel 50 fit infrastructure without a grid?",
+        "zh": "没有电网的基建，柴油50对得上吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-60-infrastructure-without-grid",
+      "keyword": "diesel 60 infrastructure concrete pump",
+      "title": {
+        "en": "Where does Diesel 60 sit on an infrastructure line?",
+        "zh": "柴油60在基建管路上处在哪一档？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "lz-60-infrastructure-diesel-pipeline",
+      "keyword": "LZ-60 infrastructure diesel pump",
+      "title": {
+        "en": "What infrastructure window does LZ-60 print?",
+        "zh": "LZ-60 给基建印了哪一扇窗口？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-40-rural-and-infrastructure-placement",
+      "keyword": "diesel 40 rural infrastructure pump",
+      "title": {
+        "en": "Does Diesel 40 cover rural and infrastructure work?",
+        "zh": "柴油40覆盖农村和基建吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-80-or-diesel-120-infrastructure-distance",
+      "keyword": "electric 80 or diesel 120 distance",
+      "title": {
+        "en": "Electric 80 or Diesel 120 for an infrastructure distance?",
+        "zh": "基建距离选电动80还是柴油120？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "remote-infrastructure-diesel-before-electric-80",
+      "keyword": "remote infrastructure diesel concrete pump",
+      "title": {
+        "en": "Remote infrastructure: diesel before Electric 80?",
+        "zh": "偏远基建要先看柴油，再看电动80吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-30-rural-and-infrastructure-row",
+      "keyword": "diesel 30 rural infrastructure pump",
+      "title": {
+        "en": "What jobs are printed on Diesel 30?",
+        "zh": "柴油30印了哪些工况？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "infrastructure-catalogue-names-no-country",
+      "keyword": "infrastructure concrete pump catalogue",
+      "title": {
+        "en": "Does the infrastructure page name a country project?",
+        "zh": "基建页点名了某个国家工程吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "published-bridge-note-points-at-diesel-rows",
+      "keyword": "bridge pipeline diesel concrete pump",
+      "title": {
+        "en": "Which pumps does the published bridge note open?",
+        "zh": "已发布的桥梁说明打开哪些泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "no-stable-grid-open-the-diesel-catalogue",
+      "keyword": "concrete pump without grid power",
+      "title": {
+        "en": "No stable grid: which catalogue do you open?",
+        "zh": "没有稳定电网时打开哪一本目录？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-30-off-grid-trailer-pumping",
+      "keyword": "diesel 30 off-grid trailer pump",
+      "title": {
+        "en": "Is Diesel 30 the off-grid trailer to open first?",
+        "zh": "无电网拖泵要先打开柴油30吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-40-off-grid-trailer-not-the-4100",
+      "keyword": "diesel 40 off-grid trailer pump",
+      "title": {
+        "en": "Diesel 40 or the tractor 4100 when power is absent?",
+        "zh": "没有电源时，选柴油40还是拖拉机4100？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-50-off-grid-not-electric-50",
+      "keyword": "diesel 50 no electricity concrete pump",
+      "title": {
+        "en": "Off-grid, is Diesel 50 the Electric 50 replacement?",
+        "zh": "无电网时，柴油50是电动50的替代吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-60-off-grid-35-cubic-metres",
+      "keyword": "diesel 60 off-grid concrete pump",
+      "title": {
+        "en": "When is Diesel 60 the off-grid pump to name?",
+        "zh": "什么时候点名柴油60作为无电网泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-120-off-grid-high-output",
+      "keyword": "high output diesel concrete pump off-grid",
+      "title": {
+        "en": "Which off-grid pump prints 100 m³/h?",
+        "zh": "哪台无电网泵印了 100 m³/h？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "lz-60-off-grid-50-cubic-metres",
+      "keyword": "LZ-60 off-grid concrete pump",
+      "title": {
+        "en": "Is LZ-60 the 50 m³/h off-grid pump?",
+        "zh": "LZ-60 是那台 50 m³/h 的无电网泵吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "lz-80-high-and-low-pressure-off-grid",
+      "keyword": "LZ-80 high low pressure diesel pump",
+      "title": {
+        "en": "How do LZ-80’s two modes work off-grid?",
+        "zh": "无电网时 LZ-80 的两种模式怎么用？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "spraying-job-or-pipeline-placement",
+      "keyword": "shotcrete spraying or concrete pump",
+      "title": {
+        "en": "Is this a spraying job or a pipeline pour?",
+        "zh": "这是喷涂作业还是管道浇筑？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "type-311-fine-mortar-not-a-trailer-pump",
+      "keyword": "type 311 mortar spraying machine",
+      "title": {
+        "en": "When is Type 311 the spraying machine to open?",
+        "zh": "什么时候打开 311 砂浆喷涂机？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "type-511-mortar-spraying-needs-380v",
+      "keyword": "type 511 mortar sprayer 380v",
+      "title": {
+        "en": "Does Type 511 mortar spraying need 380 V?",
+        "zh": "511 砂浆喷涂需要 380V 吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "type-511-diesel-mortar-when-380v-is-absent",
+      "keyword": "type 511 diesel mortar sprayer",
+      "title": {
+        "en": "Which mortar sprayer is printed for no 380 V?",
+        "zh": "没有 380V 时，印了哪台砂浆喷涂机？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "german-type-mortar-sprayer-not-a-pump",
+      "keyword": "german type mortar spraying machine",
+      "title": {
+        "en": "What job fits the German type mortar sprayer?",
+        "zh": "德式砂浆喷涂机对得上什么作业？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "double-cylinder-plunger-mortar-window",
+      "keyword": "double cylinder plunger mortar sprayer",
+      "title": {
+        "en": "What mortar window does the plunger sprayer print?",
+        "zh": "柱塞式砂浆喷涂机印了哪一扇窗口？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "hydraulic-sprayer-5-cubic-metres-not-a-pump",
+      "keyword": "hydraulic concrete spraying machine 5 m3",
+      "title": {
+        "en": "Is the 5 m³/h hydraulic sprayer a trailer pump?",
+        "zh": "5 m³/h 液压喷涂机是拖泵吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "high-flow-sprayer-7-cubic-metres-and-grout",
+      "keyword": "high flow hydraulic sprayer grout",
+      "title": {
+        "en": "Which sprayer prints 7 m³/h and grout?",
+        "zh": "哪台喷涂机印了 7 m³/h 和灌浆料？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "m9-plaster-spraying-is-not-pumping",
+      "keyword": "M9 plaster spraying machine",
+      "title": {
+        "en": "Which machine is the plaster sprayer?",
+        "zh": "哪一台是石膏喷涂机？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-concrete-sprayer-without-380v",
+      "keyword": "diesel concrete spraying machine off-grid",
+      "title": {
+        "en": "Which concrete sprayer runs without 380 V?",
+        "zh": "哪台混凝土喷涂机不用 380V？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "interior-finishing-spray-or-pipeline",
+      "keyword": "interior finishing plaster or concrete pump",
+      "title": {
+        "en": "Interior finishing: sprayer or pipeline pump?",
+        "zh": "室内饰面：用喷涂机还是管道泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "particle-size-selects-the-sprayer",
+      "keyword": "sprayer particle size selection",
+      "title": {
+        "en": "Which sprayer matches the particle size?",
+        "zh": "粒径对得上哪一台喷涂机？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "type-311-or-m9-same-hose-diameter",
+      "keyword": "25 mm hose plaster or mortar",
+      "title": {
+        "en": "Type 311 or M9 when the hose is 25 mm?",
+        "zh": "软管都是 25 mm 时，选 311 还是 M9？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "type-511-or-511-diesel-same-output-window",
+      "keyword": "type 511 electric or diesel sprayer",
+      "title": {
+        "en": "Type 511 or Type 511 diesel for the same mortar window?",
+        "zh": "同一个砂浆窗口，选 511 还是 511 柴油机？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "b500s-83d-five-metre-tight-site",
+      "keyword": "B500S-83D tight site pump",
+      "title": {
+        "en": "Which pump prints a 5 m tight-site window?",
+        "zh": "哪一台泵印了 5 米的狭小场地窗口？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "compact-site-weights-b500s-15-and-10",
+      "keyword": "compact concrete pump weight",
+      "title": {
+        "en": "Which compact pumps print weights under 500 kg?",
+        "zh": "哪些紧凑泵的重量印在 500 kg 以下？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-10-series-25-metre-rural-line",
+      "keyword": "electric 10 series 25 m concrete pump",
+      "title": {
+        "en": "Does the Electric 10 Series fit a 25 m rural line?",
+        "zh": "电动10系列对得上 25 米的农村管路吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-15-or-10-series-on-a-small-site",
+      "keyword": "electric 15 or 10 series small site",
+      "title": {
+        "en": "Electric 15 or Electric 10 Series on a small site?",
+        "zh": "小型工地选电动15还是电动10系列？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "integrated-mixer-for-self-built-on-the-grid",
+      "keyword": "integrated mixer pump self-built house",
+      "title": {
+        "en": "Which machine mixes and pumps a self-built pour on the grid?",
+        "zh": "有电网时，哪台机器能又搅拌又泵送自建浇筑？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "small-site-shortlist-from-the-selection-guide",
+      "keyword": "small building site concrete pump",
+      "title": {
+        "en": "What does the selection guide shortlist for a small site?",
+        "zh": "选型指南给小型工地列了哪些泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "secondary-structure-aggregate-1-to-3-cm",
+      "keyword": "secondary structure 1-3 cm aggregate pump",
+      "title": {
+        "en": "Which secondary-structure pumps print 1–3 cm stone?",
+        "zh": "哪些二次结构泵印了 1–3 厘米石子？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "rural-17kw-pump-when-the-house-has-no-supply",
+      "keyword": "17 kW rural diesel concrete pump",
+      "title": {
+        "en": "Which pump is named for a house without a motor supply?",
+        "zh": "没有电机电源的住宅，点名的是哪一台泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "tractor-4100-when-no-pump-motor-supply",
+      "keyword": "tractor 4100 concrete pump rural",
+      "title": {
+        "en": "When does the tractor-driven 4100 match the site?",
+        "zh": "拖拉机带动4100什么时候对得上现场？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-mixer-when-the-site-must-mix-and-pump",
+      "keyword": "diesel mixer pump off-grid",
+      "title": {
+        "en": "Which machine mixes and pumps when the grid is absent?",
+        "zh": "没有电网时，哪台机器能搅拌并泵送？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "compact-grid-site-do-not-start-from-diesel-120",
+      "keyword": "do not use diesel 120 on a small site",
+      "title": {
+        "en": "Should a compact grid site start from Diesel 120?",
+        "zh": "有电网的紧凑工地要从柴油120开始吗？"
+      },
+      "status": "ready",
+      "hasImage": false
+    },
+    {
+      "slug": "rural-17kw-or-diesel-30-when-power-is-absent",
+      "keyword": "rural diesel or diesel 30",
+      "title": {
+        "en": "Rural 17 kW pump or Diesel 30 when power is absent?",
+        "zh": "没有电源时，选 17 kW 农村泵还是柴油30？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "tractor-4100-or-rural-diesel-for-a-village-house",
+      "keyword": "tractor 4100 or rural diesel pump",
+      "title": {
+        "en": "Tractor 4100 or the 17 kW pump for a village house?",
+        "zh": "村镇住宅选拖拉机4100还是 17 kW 泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "do-not-copy-a-diesel-row-onto-a-grid-site",
+      "keyword": "diesel pump on a grid building site",
+      "title": {
+        "en": "Can a diesel row be copied onto a grid-powered site?",
+        "zh": "柴油行能抄到有电网的工地上吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "electric-15-or-rural-diesel-for-self-built",
+      "keyword": "electric 15 or rural diesel self-built",
+      "title": {
+        "en": "Electric 15 or the rural diesel for a self-built house?",
+        "zh": "自建房选电动15还是农村柴油泵？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "self-built-line-longer-than-the-electric-15-window",
+      "keyword": "self-built house pump beyond electric 15",
+      "title": {
+        "en": "The self-built line is longer than Electric 15. Which page next?",
+        "zh": "自建管路长过电动15，下一页是哪一台？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "mixer-pump-is-not-a-mixing-plant-on-site",
+      "keyword": "mixer pump not mixing plant",
+      "title": {
+        "en": "Need mixing and pumping on site. Is that a mixing plant?",
+        "zh": "现场要搅拌并泵送，那是搅拌站吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    },
+    {
+      "slug": "b500s-needs-380v-on-a-tight-site",
+      "keyword": "B500S-83D 380 V tight site",
+      "title": {
+        "en": "A tight site without 380 V: is B500S-83D still the pump?",
+        "zh": "狭小工地没有 380V，还用 B500S-83D 吗？"
+      },
+      "status": "ready",
+      "hasImage": true
+    }
+  ]
+}

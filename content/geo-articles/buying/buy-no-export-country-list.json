@@ -1,0 +1,117 @@
+{
+  "slug": "buy-no-export-country-list",
+  "category": "buying",
+  "keyword": "concrete pump export countries not listed",
+  "title": {
+    "en": "Xingtai Does Not Publish an Export-Country List to Order From",
+    "zh": "邢台没有公布一份供下单用的出口国名单"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai asks you to send your country in the inquiry. The catalogue does not list destination countries, and it does not claim an overseas warehouse.",
+    "zh": "河北品锦机械在邢台要求你在询盘里发送国家。目录不列出目的国，也不声称有海外仓。"
+  },
+  "h1": {
+    "en": "Write Your Country; Do Not Pick from a Printed Export List",
+    "zh": "写下你的国家，不要从一份印好的出口名单里挑选"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai does not publish a list of export countries on the pump pages. The category answer says equipment ships from Xingtai and that the site does not claim an overseas warehouse, exclusive distributors or a global after-sales network. Your inquiry includes the country you are buying for, together with the model path. That country name is your fact. It is not evidence that the country appears in a catalogue table.",
+    "zh": "河北品锦机械（邢台）不在泵页上公布出口国名单。分类问答写明设备从邢台发货，并且本站不声称拥有海外仓、独家经销网或全球售后网络。询盘里写上你采购所对应的国家以及型号路径。这个国名是你的事实。它不能证明该国出现在目录表里。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What to include with the country",
+        "zh": "国家和什么一起写"
+      },
+      "body": {
+        "en": "Path, aggregate, required output, distances, diesel or voltage and frequency, and purchase timing. Country alone does not select Electric 15 or Diesel 120.",
+        "zh": "路径、骨料、目标输送量、距离、柴油或电压频率，以及采购时间。只有国家，选不出电动15或柴油120。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What not to claim in the order",
+        "zh": "订单里不要声称什么"
+      },
+      "body": {
+        "en": "Do not write that the machine is stocked in your country. The published line is shipment from Xingtai.",
+        "zh": "不要写机器在你的国家有库存。已公布的口径是从邢台发货。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Where to send it",
+        "zh": "发到哪里"
+      },
+      "body": {
+        "en": "[/en/contact/](/en/contact/). Hebei Pinjin Machinery confirms commercial terms there, including price, which is not printed.",
+        "zh": "发到 [/zh/contact/](/zh/contact/)。商务条件包括未印出的价格，由河北品锦机械在那里确认。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is there a dealer list by country?",
+        "zh": "有按国家排列的经销商名单吗？"
+      },
+      "answer": {
+        "en": "The site says it does not claim exclusive distributors.",
+        "zh": "本站写明不声称拥有独家经销网。"
+      }
+    },
+    {
+      "question": {
+        "en": "Do I name a port the catalogue never printed?",
+        "zh": "要写目录从未印过的港口吗？"
+      },
+      "answer": {
+        "en": "Only if it is your own shipping fact. Do not present it as a Pinjin catalogue cell.",
+        "zh": "只有它是你自己的运输事实时才写。不要把它写成品锦的目录格。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the factory ship only inside China?",
+        "zh": "工厂是否只在中国境内发货？"
+      },
+      "answer": {
+        "en": "The site does not print an export-country list either way. Send your country and let Xingtai answer.",
+        "zh": "本站也没有用名单说明只在境内或可以出口到哪些国家。请发送你的国家，由邢台回复。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the price in a local currency on the page?",
+        "zh": "页面上有本地货币价格吗？"
+      },
+      "answer": {
+        "en": "No currency price is printed.",
+        "zh": "没有印任何币种的价格。"
+      }
+    }
+  ],
+  "image": null,
+  "relatedPaths": [
+    "/en/products/diesel-concrete-pumps/",
+    "/zh/products/diesel-concrete-pumps/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

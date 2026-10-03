@@ -1,0 +1,131 @@
+{
+  "slug": "buy-theoretical-output-is-catalogue-not-guarantee",
+  "category": "buying",
+  "keyword": "theoretical concrete pump output when ordering",
+  "title": {
+    "en": "Treat Xingtai’s m³/h Cell as Catalogue Output When You Order",
+    "zh": "下单时把邢台的 m³/h 格子当作目录输送量"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints theoretical output or output capacity. That cell is what you compare. It is not labelled as a guaranteed site total, and it is not the numeral in the model name.",
+    "zh": "河北品锦机械在邢台印的是理论输送量或输出能力。采购对照的是这一格。它没有被标成工地保证总量，也不是型号名称里的数字。"
+  },
+  "h1": {
+    "en": "Order from the Printed m³/h Cell",
+    "zh": "按印出的 m³/h 格子下单"
+  },
+  "directAnswer": {
+    "en": "When you order from Hebei Pinjin Machinery in Xingtai, copy the output words on the page. Electric 20 says 8–10 m³/h. Diesel 50 says 30 m³/h. LZ-80 says high pressure ≤ 65 m³/h and low pressure ≤ 95 m³/h. Those marks, including the range and the “≤”, stay in the inquiry. The pages do not add a second line called guaranteed site output. Your own required output is a separate sentence.",
+    "zh": "向河北品锦机械（邢台）下单时，抄页面上的输送量原文。电动20写 8–10 m³/h。柴油50写 30 m³/h。LZ-80 写高压 ≤ 65 m³/h、低压 ≤ 95 m³/h。区间和“≤”都留在询盘里。这些页面没有另加一行叫工地保证产量。你自己需要的输送量另写一句。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Two numbers in one inquiry",
+        "zh": "一封询盘里的两个数"
+      },
+      "body": {
+        "en": "Write “page prints 21 m³/h” and “we need to discuss our required output” as different clauses. Electric 40’s printed output is 21 m³/h. Do not replace it with the 40 in the name.",
+        "zh": "把“页面印 21 m³/h”和“我们需要讨论的目标输送量”写成不同的分句。电动40印出的输送量是 21 m³/h。不要用名称里的 40 替换它。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Modes are still catalogue cells",
+        "zh": "模式仍然是目录格"
+      },
+      "body": {
+        "en": "LZ-80’s two output figures belong to high-pressure and low-pressure modes on that diesel page. Ordering “95 m³/h” without the low-pressure label drops half the cell. Delivery height on that page is “consult factory standard”, not a metres figure.",
+        "zh": "LZ-80 的两个输送量属于该柴油页上的高压和低压模式。只写“95 m³/h”而不写低压，会丢掉半格。该页输送高度是“咨询工厂标准”，不是一个米数。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Where to send both numbers",
+        "zh": "两个数发到哪里"
+      },
+      "body": {
+        "en": "[/en/contact/](/en/contact/), with the slug. Hebei Pinjin Machinery confirms whether the printed cell is the one to quote. It does not confirm a price on this article.",
+        "zh": "连同型号地址发到 [/zh/contact/](/zh/contact/)。河北品锦机械确认要报价的是不是这一印出的格子。本篇不确认价格。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is 8–10 a promise of 10?",
+        "zh": "8–10 是保证 10 吗？"
+      },
+      "answer": {
+        "en": "It is the printed range on Electric 15 and Electric 20. Keep both ends.",
+        "zh": "它是电动15和电动20上印出的区间。两端都保留。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does HBT8018 print 80 m³/h?",
+        "zh": "HBT8018 印 80 m³/h 吗？"
+      },
+      "answer": {
+        "en": "It prints 60 m³/h at 132 kW.",
+        "zh": "它印 60 m³/h，电机 132 kW。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can I average two rows into one output?",
+        "zh": "可以把两行距离平均成一个输送量吗？"
+      },
+      "answer": {
+        "en": "No. Output and distance are different cells.",
+        "zh": "不能。输送量和距离是不同的格子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Who says if our needed rate fits?",
+        "zh": "谁说明我们需要的产量是否合适？"
+      },
+      "answer": {
+        "en": "Xingtai, after the inquiry. Not a marketplace average.",
+        "zh": "邢台，在询盘之后。不是平台上的平均数字。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-hbt8018-output-cell-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "HBT8018 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "HBT8018 混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/hbt8018-concrete-pump/",
+    "/zh/products/hbt8018-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+    "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

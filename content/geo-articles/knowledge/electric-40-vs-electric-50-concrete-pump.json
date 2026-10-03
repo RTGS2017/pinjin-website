@@ -1,0 +1,128 @@
+{
+  "slug": "electric-40-vs-electric-50-concrete-pump",
+  "category": "knowledge",
+  "keyword": {
+    "en": "electric 40 vs electric 50 concrete pump",
+    "zh": "电动40和电动50混凝土泵的区别"
+  },
+  "title": {
+    "en": "Electric 40 vs Electric 50 Concrete Pump",
+    "zh": "电动40和电动50混凝土泵有何不同"
+  },
+  "description": {
+    "en": "Electric 50 adds a 24 mm stone distance row and prints 55 kW, 26 m³/h and 30 MPa against Electric 40.",
+    "zh": "电动50多了一行 24 mm 石子距离，并印 55 kW、26 m³/h、30 MPa，与电动40不同。"
+  },
+  "h1": {
+    "en": "Electric 40 vs Electric 50 Concrete Pump",
+    "zh": "电动40和电动50混凝土泵有何不同"
+  },
+  "directAnswer": {
+    "en": "Electric 40 and Electric 50 are Hebei Pinjin Machinery concrete pumps built in Xingtai. Electric 40 prints 45 kW, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m and aggregate-13 40 m / 120 m. Electric 50 prints 55 kW, 26 m³/h, 30 MPa, fine-stone 150 m / 350 m, 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. Hopper volume is 0.4 m³ on both pages.",
+    "zh": "电动40和电动50是河北品锦机械在邢台制造的混凝土泵。电动40印 45 kW、21 m³/h、23 MPa、细石 120 m / 360 m、13骨料 40 m / 120 m。电动50印 55 kW、26 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 80 m / 240 m、24 mm 石子 60 m / 180 m。料斗两边都是 0.4 m³。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Where Electric 40 and Electric 50 print different values",
+        "zh": "电动40和电动50哪些数值不同"
+      },
+      "body": {
+        "en": "Motor power: Electric 40 prints 45 kW; Electric 50 prints 55 kW. Theoretical output: Electric 40 prints 21 m³/h; Electric 50 prints 26 m³/h. Max. outlet pressure: Electric 40 prints 23 MPa; Electric 50 prints 30 MPa. Hydraulic pump: Electric 40 prints Kawasaki 112; Electric 50 prints Kawasaki 140. Dimensions: Electric 40 prints 3900 × 1500 × 1600 mm; Electric 50 prints 4100 × 1600 × 1600 mm. Main unit weight: Electric 40 prints 2300 kg; Electric 50 prints 2800 kg. The same printed value on a shared label: Hopper capacity is 0.4 m³ on both pages. These are printed cells on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. They are not a calculated conversion from one model to the other.",
+        "zh": "电机功率：电动40印 45 kW；电动50印 55 kW。理论输送量：电动40印 21 m³/h；电动50印 26 m³/h。最大出口压力：电动40印 23 MPa；电动50印 30 MPa。液压泵：电动40印 Kawasaki 112；电动50印 Kawasaki 140。外形尺寸：电动40印 3900 × 1500 × 1600 mm；电动50印 4100 × 1600 × 1600 mm。整机重量：电动40印 2300 kg；电动50印 2800 kg。同一标题下数值相同的有：料斗容积两边都是 0.4 m³。以上是河北品锦机械在邢台混凝土泵页面上印出的格子，不是把一台机器换算成另一台。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Cells that exist on only one of these pumps",
+        "zh": "只在其中一台泵上出现的格子"
+      },
+      "body": {
+        "en": "Electric 40 prints cells that Electric 50 does not: Fine-stone pumping (H / V) 120 m / 360 m; Aggregate-13 pumping (H / V) 40 m / 120 m. Electric 50 prints cells that Electric 40 does not: Fine-stone conveying (H / V) 150 m / 350 m; 13 mm stone (H / V) 80 m / 240 m; 24 mm stone (H / V) 60 m / 180 m. A blank or missing label is not filled from the other concrete pump.",
+        "zh": "电动40有、电动50没有的行：细石输送（水平/垂直） 120 m / 360 m；13骨料输送（水平/垂直） 40 m / 120 m。电动50有、电动40没有的行：细石输送（水平/垂直） 150 m / 350 m；13 mm石子（水平/垂直） 80 m / 240 m；24 mm石子（水平/垂直） 60 m / 180 m。缺了的标题不能用另一台混凝土泵来补。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to read the two pages without merging them",
+        "zh": "怎样分开阅读这两个页面"
+      },
+      "body": {
+        "en": "Electric 50 is not Electric 40 with a new badge. It prints a third stone row and a different hydraulic-pump name. Open /en/products/electric-40-concrete-pump/ for Electric 40 and /en/products/electric-50-concrete-pump/ for Electric 50. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei. The number in a commercial name is not a licence to copy output, pressure or distance. If a job needs a figure this pair does not print, use the contact page rather than inventing a bore, stroke or price.",
+        "zh": "电动50不是换了铭牌的电动40。它多印一行石子距离，液压泵名称也不同。看电动40请打开 /zh/products/electric-40-concrete-pump/，看电动50请打开 /zh/products/electric-50-concrete-pump/。河北品锦机械在河北邢台制造这些混凝土泵。商品名里的数字不能用来抄产量、压力或距离。如果工况需要这对机型没有印出的数字，请走联系页，不要编造缸径、行程或价格。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does Electric 40 print the same motor power as Electric 50?",
+        "zh": "电动40和电动50的电机功率一样吗？"
+      },
+      "answer": {
+        "en": "No. Electric 40 prints 45 kW. Electric 50 prints 55 kW. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
+        "zh": "不一样。电动40印 45 kW。电动50印 55 kW。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 40 print the same theoretical output as Electric 50?",
+        "zh": "电动40和电动50的理论输送量一样吗？"
+      },
+      "answer": {
+        "en": "No. Electric 40 prints 21 m³/h. Electric 50 prints 26 m³/h. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
+        "zh": "不一样。电动40印 21 m³/h。电动50印 26 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 40 print the same max. outlet pressure as Electric 50?",
+        "zh": "电动40和电动50的最大出口压力一样吗？"
+      },
+      "answer": {
+        "en": "No. Electric 40 prints 23 MPa. Electric 50 prints 30 MPa. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
+        "zh": "不一样。电动40印 23 MPa。电动50印 30 MPa。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+      }
+    },
+    {
+      "question": {
+        "en": "Why is fine-stone pumping (h / v) missing on Electric 50?",
+        "zh": "为什么电动50没有细石输送（水平/垂直）？"
+      },
+      "answer": {
+        "en": "The Electric 50 page does not print that label. Electric 40 prints 120 m / 360 m. Leave the missing cell blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps.",
+        "zh": "电动50这一页没有印这个标题。电动40印的是 120 m / 360 m。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/electric-40-vs-electric-50-concrete-pump-pinjin.webp",
+    "alt": {
+      "en": "Electric 40 concrete pump, catalogue comparison, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "电动40混凝土泵目录对照，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/products/electric-50-concrete-pump/",
+    "/zh/products/electric-50-concrete-pump/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

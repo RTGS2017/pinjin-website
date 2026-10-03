@@ -1,0 +1,131 @@
+{
+  "slug": "buy-no-truck-boom-and-no-mixing-plant",
+  "category": "buying",
+  "keyword": "pinjin does not sell boom pump or batching plant",
+  "title": {
+    "en": "Do Not Order a Truck Boom or a Mixing Plant from This Catalogue",
+    "zh": "不要向这份目录订车载臂架泵或搅拌站"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai lists trailer and compact pumps, mixer pumps that mix and pump on one trailer, spraying machines and parts. Truck-mounted placing booms and mixing plants are not catalogue products.",
+    "zh": "河北品锦机械在邢台列出拖式和紧凑泵、在同一拖车上搅拌并泵送的搅拌泵、喷涂机和配件。车载布料杆和搅拌站不是目录产品。"
+  },
+  "h1": {
+    "en": "The Purchase List Stops Where the Catalogue Stops",
+    "zh": "采购清单停在目录停下的地方"
+  },
+  "directAnswer": {
+    "en": "If the machine you want is a truck-mounted placing boom or a concrete mixing plant, Hebei Pinjin Machinery in Xingtai does not list it. The published pump lines are trailer and compact transfer pumps, plus mixer pumps on one trailer. B500S-83D’s short boom is described as part of that compact unit, not as a truck boom. A mixer pump is not a batching plant. Choose a listed path or stop. Price requests for unlisted machine types cannot be matched to a sheet.",
+    "zh": "如果你要的是车载布料杆或混凝土搅拌站，河北品锦机械（邢台）没有列出。已公布的泵是拖式和紧凑输送泵，加上同一拖车上的搅拌泵。B500S-83D 的短臂架写明属于该紧凑机，不是车载臂架。搅拌泵不是搅拌站。请选择已列路径，或者停止。目录外机型的询价对不上任何一张表。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What you can order instead",
+        "zh": "你可以改订什么"
+      },
+      "body": {
+        "en": "An electric page, a diesel page, a mixer page, or a spraying machine if the purchase is spraying. Start at the hub that matches the drive. [/en/products/electric-concrete-pumps/](/en/products/electric-concrete-pumps/) is the electric list.",
+        "zh": "电动页、柴油页、搅拌泵页，或者如果采购的是喷涂，则是喷涂机。从与动力相符的分类开始。[/zh/products/electric-concrete-pumps/](/zh/products/electric-concrete-pumps/) 是电动清单。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the short boom sentence prevents",
+        "zh": "短臂架那句话防止什么"
+      },
+      "body": {
+        "en": "It prevents an order that treats B500S-83D’s 5 m reach and 280 kg frame as a truck-mounted placing boom. The reach cells are 5 m height and 5 m horizontal.",
+        "zh": "它防止把 B500S-83D 的 5 m 输送和 280 kg 机架订成车载布料杆。输送格是高度 5 m、水平 5 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to close the inquiry",
+        "zh": "询盘如何收束"
+      },
+      "body": {
+        "en": "Name a real path and send it to [/en/contact/](/en/contact/). If none fits, say so. Hebei Pinjin Machinery will not invent the missing machine on this page.",
+        "zh": "点明一条真实路径，发到 [/zh/contact/](/zh/contact/)。如果没有合适的，请直接说明。河北品锦机械不会在本篇编造缺失的机器。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does Pinjin list a boom pump?",
+        "zh": "品锦列出臂架泵了吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "没有。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the mixer hub include a batching plant?",
+        "zh": "搅拌泵分类包含搅拌站吗？"
+      },
+      "answer": {
+        "en": "No. The hub says these are not mixing plants.",
+        "zh": "不包含。该分类写明它们不是搅拌站。"
+      }
+    },
+    {
+      "question": {
+        "en": "Are spraying machines on the pump hubs?",
+        "zh": "喷涂机在泵的分类里吗？"
+      },
+      "answer": {
+        "en": "They have their own hub, /products/spraying-machines/.",
+        "zh": "它们有自己的分类，/products/spraying-machines/。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is there a price for an unlisted boom?",
+        "zh": "未列出的臂架有价格吗？"
+      },
+      "answer": {
+        "en": "There is no sheet to price.",
+        "zh": "没有可报价的参数表。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-b500s-short-boom-not-truck-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "B500S-83D compact pump with its own short boom, manufactured by Hebei Pinjin Machinery, Xingtai manufacturer",
+      "zh": "带本机短臂架的 B500S-83D 紧凑泵，河北品锦机械厂家，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/b500s-83d-two-stage-pump/",
+    "/zh/products/b500s-83d-two-stage-pump/",
+    "/en/products/mixer-pumps/",
+    "/zh/products/mixer-pumps/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/products/spraying-machines/",
+    "/zh/products/spraying-machines/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/en/products/mixer-pumps/",
+    "https://pinjinpump.com/zh/products/mixer-pumps/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/products/spraying-machines/",
+    "https://pinjinpump.com/zh/products/spraying-machines/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

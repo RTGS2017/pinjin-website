@@ -2,6 +2,7 @@ import type { LocalizedText } from '@/i18n/types';
 import type { Lang } from '@/i18n/config';
 import { indexedLangs } from '@/i18n/config';
 import { getFactorySlide } from '@/data/factory';
+import { geoArticles } from '@/data/loadGeoArticles';
 import { knowledgeArticles } from '@/data/knowledgeArticles';
 import { sourcedArticles, sourcedManifest } from '@/data/sourced/loadSourcedArticles';
 import type { BlogResourceType, SourcedReference } from '@/data/sourced/types';
@@ -123,7 +124,9 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [];
 
 function allBlogPosts(): BlogPost[] {
-  return [...blogPosts, ...knowledgeArticles, ...sourcedArticles];
+  const base = [...blogPosts, ...knowledgeArticles, ...sourcedArticles];
+  const taken = new Set(base.map((post) => post.slug));
+  return [...base, ...geoArticles.filter((post) => !taken.has(post.slug))];
 }
 
 export function postLangs(post: BlogPost): readonly Lang[] {

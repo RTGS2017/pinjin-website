@@ -1,0 +1,121 @@
+{
+  "slug": "buy-do-not-request-an-unprinted-certificate",
+  "category": "buying",
+  "keyword": "concrete pump certificate not printed Xingtai",
+  "title": {
+    "en": "Do Not Ask the Catalogue for a Certificate It Does Not Name",
+    "zh": "不要向目录索取它没有点名的证书"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai does not print certificate names on the pump sheets used here. An inquiry can ask a question. It cannot turn a blank into a certificate.",
+    "zh": "河北品锦机械在邢台的这些泵页上不印证书名称。询盘可以提问。它不能把空白变成证书。"
+  },
+  "h1": {
+    "en": "Certificate Names Are Not on These Buying Sheets",
+    "zh": "这些采购页上没有证书名称"
+  },
+  "directAnswer": {
+    "en": "The pump, mixer and spraying sheets published by Hebei Pinjin Machinery in Xingtai list power, output, pressure, distance and similar cells. They do not name a certificate, a test report number or a conformity mark. Do not add one to the purchase order. If you need the factory to say what documentation it can provide, ask that as a question on [/en/contact/](/en/contact/) after the model path is clear. This article will not invent the document.",
+    "zh": "河北品锦机械（邢台）公布的泵、搅拌泵和喷涂机页面列出动力、输送量、压力、距离等格子。它们不点名证书、检测报告编号或符合性标志。不要把这些写进采购订单。如果你需要工厂说明它能提供什么文件，请在型号路径清楚之后，在 [/zh/contact/](/zh/contact/) 作为问题提出。本篇不会编造文件。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What is printed instead",
+        "zh": "印出来的是什么"
+      },
+      "body": {
+        "en": "A buying comparison uses the cells that exist. Electric 40’s 45 kW and 21 m³/h are printed. A certificate title next to them is not.",
+        "zh": "采购对照使用存在的格子。电动40的 45 kW 和 21 m³/h 是印出来的。旁边的证书标题不是。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Sprayers are quote-only, still without a certificate line",
+        "zh": "喷涂机只询价，仍然没有证书行"
+      },
+      "body": {
+        "en": "The spraying pages say quote only. That phrase is about price, not about a named approval. Particle size and motor remain the buying cells.",
+        "zh": "喷涂页写的是询价报价。这句话说的是价格，不是一份点名的许可。粒径和电机仍然是采购格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to ask without inventing",
+        "zh": "怎样问才不算编造"
+      },
+      "body": {
+        "en": "Write: “Please tell us which documents Xingtai can provide for this path.” Do not write a standard number the site never printed.",
+        "zh": "请写：“请告知邢台能为这条路径提供哪些文件。”不要写网站从未印过的标准编号。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is CE printed on Electric 80?",
+        "zh": "电动80上印了 CE 吗？"
+      },
+      "answer": {
+        "en": "No certificate mark is printed on that sheet in the catalogue used here.",
+        "zh": "在此处使用的目录里，该页没有印证书标志。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does “quote only” mean certified?",
+        "zh": "“询价报价”表示已认证吗？"
+      },
+      "answer": {
+        "en": "No. It means the price is not listed.",
+        "zh": "不是。它表示价格没有列出。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can the factory answer a document question?",
+        "zh": "工厂可以回答文件问题吗？"
+      },
+      "answer": {
+        "en": "Ask on the contact page. Do not pre-write the answer.",
+        "zh": "在询盘页问。不要预先写下答案。"
+      }
+    },
+    {
+      "question": {
+        "en": "Should the order say “with certificate” as a default?",
+        "zh": "订单是否默认写“含证书”？"
+      },
+      "answer": {
+        "en": "No. That phrase is not a catalogue cell.",
+        "zh": "不要。这句话不是目录格。"
+      }
+    }
+  ],
+  "image": null,
+  "relatedPaths": [
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/products/spraying-machines/",
+    "/zh/products/spraying-machines/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/spraying-machines/",
+    "https://pinjinpump.com/zh/products/spraying-machines/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

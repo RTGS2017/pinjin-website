@@ -1,0 +1,131 @@
+{
+  "slug": "buy-hopper-volume-cell-on-the-order",
+  "category": "buying",
+  "keyword": "concrete pump hopper capacity on the order",
+  "title": {
+    "en": "Read the Hopper Cell Before You Order a Xingtai Pump",
+    "zh": "订邢台的泵之前先读料斗格"
+  },
+  "description": {
+    "en": "Hopper volume at Hebei Pinjin Machinery in Xingtai is a printed cell, from 0.1 m³ on Electric 10 Series to 0.7 m³ on Electric 60 and Electric 80. Pages that omit it, including Electric 15 and HBT80-16, stay omitted.",
+    "zh": "河北品锦机械在邢台的料斗容积是印出来的格子，从电动10系列的 0.1 m³ 到电动60和电动80的 0.7 m³。电动15和 HBT80-16 等没有印的页面保持不印。"
+  },
+  "h1": {
+    "en": "Order the Hopper That the Page Prints",
+    "zh": "按页面印出的料斗下单"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints hopper capacity only on some sheets. Electric 20 is 0.25 m³. Electric 30 and Electric Low Pressure 40 are 0.3 m³. Electric 40, Electric 50, Diesel 40, Diesel 50, Diesel 60 and both mixer pumps are 0.4 m³. Electric Low Pressure 60 is 0.5 m³. LZ-80 and Diesel 120 are 0.6 m³. Electric 60 and Electric 80 are 0.7 m³. Electric 10 Series is 0.1 m³. The rural diesel is 0.2 m³. If the cell is missing, the order says “not printed”.",
+    "zh": "河北品锦机械（邢台）只在部分表上印料斗容积。电动20是 0.25 m³。电动30和电动低压40是 0.3 m³。电动40、电动50、柴油40、柴油50、柴油60和两台搅拌泵是 0.4 m³。电动低压60是 0.5 m³。LZ-80 和柴油120是 0.6 m³。电动60和电动80是 0.7 m³。电动10系列是 0.1 m³。农村柴油泵是 0.2 m³。格子缺失时，订单写“未印”。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Pages with no hopper figure",
+        "zh": "没有料斗数字的页面"
+      },
+      "body": {
+        "en": "Electric 15, HBT8018, HBT80-16 and LZ-60 do not print a hopper volume on the lists used here. Tractor-Driven 4100 does: 0.25 m³, the same figure as Electric 20, on a different machine.",
+        "zh": "电动15、HBT8018、HBT80-16 和 LZ-60 在此处使用的列表上不印料斗容积。拖拉机带动4100印了：0.25 m³，数字与电动20相同，机器不同。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Do not convert hopper into output",
+        "zh": "不要把料斗换算成输送量"
+      },
+      "body": {
+        "en": "The catalogue does not print cylinder bore, stroke or strokes per minute. A 0.4 m³ hopper is not a formula for m³/h. Use the output cell that is already printed.",
+        "zh": "目录不印缸径、行程或每分钟冲程。0.4 m³ 料斗不是 m³/h 的公式。使用已经印出的输送量格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to send",
+        "zh": "要发送什么"
+      },
+      "body": {
+        "en": "Paste the printed hopper, or write that the page has none, plus the model path, to [/en/contact/](/en/contact/). Hebei Pinjin Machinery does not price hoppers as a separate public line on the pump page.",
+        "zh": "把印出的料斗，或写明该页没有，连同型号路径发到 [/zh/contact/](/zh/contact/)。河北品锦机械不在泵页上把料斗列为单独的公开价格行。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is Electric 15’s hopper 0.25 m³?",
+        "zh": "电动15的料斗是 0.25 m³ 吗？"
+      },
+      "answer": {
+        "en": "That figure is not on the Electric 15 sheet. Do not borrow it.",
+        "zh": "电动15的表上没有这个数字。不要借用。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which mixer hopper is printed?",
+        "zh": "搅拌泵料斗印了多少？"
+      },
+      "answer": {
+        "en": "Both the electric mixer and the diesel mixer print 0.4 m³.",
+        "zh": "电动搅拌泵和柴油搅拌泵都印 0.4 m³。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is M9’s 115 L a trailer hopper?",
+        "zh": "M9 的 115 L 是拖泵料斗吗？"
+      },
+      "answer": {
+        "en": "No. It is the plaster sprayer’s hopper. It is not a concrete-pump cell.",
+        "zh": "不是。它是石膏喷涂机的料斗。不是混凝土泵的格子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does a larger hopper mean a printed surcharge?",
+        "zh": "更大的料斗是否有已印加价？"
+      },
+      "answer": {
+        "en": "No surcharge table is printed. Ask Xingtai.",
+        "zh": "没有印加价表。请问邢台。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-diesel-120-hopper-cell-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Diesel 120 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "柴油120型混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/products/electric-10-series-concrete-pump/",
+    "/zh/products/electric-10-series-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/products/electric-15-concrete-pump/",
+    "/zh/products/electric-15-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

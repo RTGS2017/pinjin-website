@@ -1,0 +1,214 @@
+{
+  "slug": "parts-same-numeral-on-different-spares",
+  "category": "parts",
+  "keyword": "same size number on different concrete pump parts",
+  "title": {
+    "en": "When the same number is a different Pinjin spare",
+    "zh": "同一个数字在品锦是不同配件时"
+  },
+  "description": {
+    "en": "φ80 is a mixing seal, a main-cylinder seal, a swing-cylinder seal, an S-tube small-end seal and a swing-arm ball. DN80 is a clamp. 80 mm is the Electric 20 pipe cell. Hebei Pinjin Machinery does not merge those rows.",
+    "zh": "φ80 是搅拌密封、主油缸密封、摆缸密封、S 管小端密封和摆臂球头。DN80 是管卡。80 mm 是电动20的管子格子。河北品锦机械没有把这些行合并。"
+  },
+  "h1": {
+    "en": "The same printed number on different spare pages",
+    "zh": "不同配件页上的同一个数字"
+  },
+  "directAnswer": {
+    "en": "A repeated size on the Xingtai wear-part list is not one item. Each product page keeps its own name, unit and, where printed, material. No page assigns the shared number to one pump model.",
+    "zh": "邢台易损件清单上重复的尺寸不是一件物品。每张产品页保留自己的名称、单位，以及印出的材料。没有一页把这个共用数字指定给一台泵。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "φ80 and 80 mm",
+        "zh": "φ80 和 80 mm"
+      },
+      "body": {
+        "en": "Mixing seal φ80, set, no material printed. Main-cylinder seal φ80, set. Swing-cylinder seal φ80, set. S-tube small-end seal φ80, set. Swing-arm ball φ80, piece, white or black, upper or lower. Clamp DN80 / 3″ / 89, EN14420-3, PN10/16. Electric 20 delivery pipe inner diameter 80 mm. These seven uses stay on seven pages.",
+        "zh": "搅拌密封 φ80，套，未印材料。主油缸密封 φ80，套。摆缸密封 φ80，套。S 管小端密封 φ80，套。摆臂球头 φ80，个，白或黑，上或下。管卡 DN80 / 3″ / 89，EN14420-3，PN10/16。电动20输送管内径 80 mm。这七处仍在七张页面上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Other repeated sizes",
+        "zh": "其他重复尺寸"
+      },
+      "body": {
+        "en": "φ60 and φ70 are both a swing-cylinder seal and a swing-arm ball. φ90 is both a swing-cylinder seal and an S-tube small-end seal. φ100 as an S-tube small-end seal is not the pipe cell 100 / 125 mm. Shared piston ODs are listed on the split and integral pages and remain two parts.",
+        "zh": "φ60 和 φ70 同时是摆缸密封和摆臂球头。φ90 同时是摆缸密封和 S 管小端密封。作为 S 管小端密封的 φ100 不是管子格子 100 / 125 mm。两张活塞页上相同的外径仍然是两件配件。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to send",
+        "zh": "询价写什么"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Put the part name before the number. A number alone is not an order line.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 数字前面写配件名称。只有数字不能作为订货行。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can one φ80 order cover every page?",
+        "zh": "一次 φ80 询价能覆盖每一页吗？"
+      },
+      "answer": {
+        "en": "No. Name the page: mixing seal, main-cylinder seal, swing-cylinder seal, S-tube small-end seal, or swing-arm ball.",
+        "zh": "不能。写明是哪一页：搅拌密封、主油缸密封、摆缸密封、S 管小端密封或摆臂球头。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is Electric 20's 80 mm a piston?",
+        "zh": "电动20的 80 mm 是活塞吗？"
+      },
+      "answer": {
+        "en": "No. It is the delivery-pipe inner diameter cell on that pump page.",
+        "zh": "不是。它是该泵页上的输送管内径格。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does a shared number assign a pump?",
+        "zh": "共用数字会指定泵型号吗？"
+      },
+      "answer": {
+        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine.",
+        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is life printed?",
+        "zh": "印了寿命吗？"
+      },
+      "answer": {
+        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
+        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-mixing-seal",
+      "label": {
+        "en": "Concrete Pump Mixing Seal",
+        "zh": "混凝土泵搅拌密封"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-main-cylinder-seal",
+      "label": {
+        "en": "Concrete Pump Main Cylinder Seal",
+        "zh": "混凝土泵主油缸密封"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-swing-cylinder-seal",
+      "label": {
+        "en": "Concrete Pump Swing Cylinder Seal",
+        "zh": "混凝土泵摆缸密封"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-s-tube-seal",
+      "label": {
+        "en": "Concrete Pump S-Tube Seal",
+        "zh": "混凝土泵S管密封"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-swing-arm-ball",
+      "label": {
+        "en": "Concrete Pump Swing-Arm Ball",
+        "zh": "混凝土泵摆臂球头"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-pipe-clamp-dn80",
+      "label": {
+        "en": "DN80 Concrete Pump Pipe Clamp",
+        "zh": "DN80混凝土泵管卡"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": {
+        "en": "Concrete Pump Delivery Pipe",
+        "zh": "混凝土泵输送管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: Concrete Pump Mixing Seal",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-mixing-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Mixing Seal",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-mixing-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump Main Cylinder Seal",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-main-cylinder-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Main Cylinder Seal",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-main-cylinder-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump Swing Cylinder Seal",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-swing-cylinder-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Swing Cylinder Seal",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-swing-cylinder-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump S-Tube Seal",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump S-Tube Seal",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-s-tube-seal/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump Swing-Arm Ball",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-swing-arm-ball/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Swing-Arm Ball",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-swing-arm-ball/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": null
+}

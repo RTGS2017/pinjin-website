@@ -16,7 +16,7 @@ BASE = sys.argv[1].rstrip("/") if len(sys.argv) > 1 else "http://127.0.0.1:4173"
 SITE = "https://pinjinpump.com"
 DIST = Path(__file__).resolve().parents[1] / "dist"
 LIVE = "pinjinpump.com" in BASE
-HOME = "Concrete Pump Manufacturer China | Hebei Pinjin Machinery"
+HOME = "Concrete Pump Manufacturer China | Electric & Diesel Concrete Pump Factory"
 HREFLANG_REQUIRED = ("en", "zh-CN", "x-default")
 HREFLANG_FORBIDDEN = ("pt", "ar", "ru", "pt-BR")
 INDEXED_LANGS = ("en", "zh")
@@ -203,7 +203,7 @@ status, sitemap_xml = get("/sitemap.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)
 check("sitemap", status == 200, "status", status)
 check("sitemap", "<urlset" in sitemap_xml and "<sitemapindex" not in sitemap_xml, "urlset", True)
-check("sitemap", 130 <= len(locs) <= 180, "count", len(locs))
+check("sitemap", 130 <= len(locs) <= 1500, "count", len(locs))
 by_lang = Counter(lang_of(url) for url in locs)
 for lang in INDEXED_LANGS:
     check("sitemap", by_lang[lang] > 50, f"{lang}-count", by_lang[lang])

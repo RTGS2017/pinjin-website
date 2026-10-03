@@ -26,7 +26,7 @@ const indexHtml = join(distDir, 'index.html');
 const notFoundHtml = join(distDir, '404.html');
 const metaFile = join(root, 'deploy', 'prerender-meta.json');
 const SITE = 'https://pinjinpump.com';
-const HOME_TITLE = 'Concrete Pump Manufacturer China | Hebei Pinjin Machinery';
+const HOME_TITLE = 'Concrete Pump Manufacturer China | Electric & Diesel Concrete Pump Factory';
 
 if (!existsSync(indexHtml)) {
   console.error('dist/index.html not found; run vite build first');
@@ -335,13 +335,41 @@ function jsonLdFor(page) {
     };
   }
   if (page.kind === 'article') {
-    return {
+    const article = {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: page.h1,
       description: page.description,
       mainEntityOfPage: page.canonicalUrl,
+      author: {
+        '@type': 'Organization',
+        name: 'Hebei Pinjin Machinery Manufacturing Co., Ltd.',
+        url: SITE,
+      },
     };
+    const faqs = (page.faqs || []).filter((item) => item.question && item.answer);
+    if (!faqs.length) return article;
+    return [
+      article,
+      {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((item) => ({
+          '@type': 'Question',
+          name: item.question,
+          acceptedAnswer: { '@type': 'Answer', text: item.answer },
+        })),
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/${page.lang}/` },
+          { '@type': 'ListItem', position: 2, name: 'Knowledge', item: `${SITE}/${page.lang}/blog/` },
+          { '@type': 'ListItem', position: 3, name: page.h1, item: page.canonicalUrl },
+        ],
+      },
+    ];
   }
   return null;
 }
@@ -512,8 +540,8 @@ writeFileSync(join(distDir, '.nojekyll'), '');
 const pagesXml = readFileSync(sitemapXml, 'utf8');
 const locs = [...pagesXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const uniqueLocs = [...new Set(locs)];
-if (uniqueLocs.length < 130 || uniqueLocs.length > 220) {
-  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected ~182, en+zh plus EN-only sourced blogs)`);
+if (uniqueLocs.length < 130 || uniqueLocs.length > 1500) {
+  console.error(`sitemap.xml loc count ${uniqueLocs.length} (expected en+zh pages plus bilingual geo articles)`);
   process.exit(1);
 }
 const sitemapPaths = uniqueLocs.map((loc) => new URL(loc).pathname);
@@ -526,8 +554,19 @@ if (sitemapPaths.some((path) => path.startsWith('/pt/') || path.startsWith('/ar/
   process.exit(1);
 }
 const zhBlogArticles = sitemapPaths.filter((path) => /^\/zh\/blog\/.+/.test(path));
+const geoRoots = ['knowledge', 'buying', 'applications', 'parts'];
+function geoArticleIndexesZh(slug) {
+  for (const folder of geoRoots) {
+    const file = join(root, 'content', 'geo-articles', folder, `${slug}.json`);
+    if (!existsSync(file)) continue;
+    const data = JSON.parse(readFileSync(file, 'utf8'));
+    return Boolean(data?.title?.zh && data?.directAnswer?.zh && Array.isArray(data.sections) && data.sections.length > 0);
+  }
+  return false;
+}
 const zhBlogBlocked = zhBlogArticles.filter((pathname) => {
   const slug = pathname.replace(/^\/zh\/blog\//, '').replace(/\/$/, '');
+  if (geoArticleIndexesZh(slug)) return false;
   const srcPath = join(root, 'content', 'sourced', slug, 'source.json');
   if (!existsSync(srcPath)) return true;
   const data = JSON.parse(readFileSync(srcPath, 'utf8'));

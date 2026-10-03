@@ -5,6 +5,7 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { Button } from '@/components/ui/Button';
 import { useI18n } from '@/i18n/I18nContext';
+import { blogDisplayTitle } from '@/seo/documentCopy';
 
 const knowledgeLabel = (
   category: BlogCategory,
@@ -58,7 +59,7 @@ export function KnowledgeCenter() {
                   </p>
                   <h3 className="mt-3 text-xl font-semibold tracking-tight text-dark">
                     <LocaleLink to={`/blog/${post.slug}`} className="hover:text-primary">
-                      {tx(post.title)}
+                      {blogDisplayTitle(tx(post.title))}
                     </LocaleLink>
                   </h3>
                   <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-text-secondary">

@@ -1,0 +1,124 @@
+{
+  "slug": "what-the-electric-75-60-model-alias-refers-to",
+  "category": "knowledge",
+  "keyword": {
+    "en": "what is electric 75-60 concrete pump",
+    "zh": "电动75-60混凝土泵是哪一页"
+  },
+  "title": {
+    "en": "What the Electric 75-60 Alias Refers To",
+    "zh": "电动75-60这个别名指哪一页"
+  },
+  "description": {
+    "en": "Electric 75-60 is printed on the Electric Low Pressure 60 page beside a 75 kW motor. It is not a second machine and it is not Electric 60.",
+    "zh": "电动75-60印在电动低压60页面上，旁边是 75 kW 电机。它不是第二台机器，也不是电动60。"
+  },
+  "h1": {
+    "en": "What the Electric 75-60 Alias Refers To",
+    "zh": "电动75-60这个别名指哪一页"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints the model line Electric Low Pressure 60 / Electric 75-60 on one concrete pump page in Xingtai. The motor on that page is 75 kW. Output is 35 m³/h and outlet pressure is 30 MPa. Electric 60 is a different page, with 90 kW and 40 m³/h. The alias does not create a second specification table, and the numeral 75 matches the printed motor kilowatts rather than a separate output.",
+    "zh": "河北品锦机械在邢台的一页混凝土泵上印了型号行：电动低压60 / 电动75-60。该页电机是 75 kW。产量 35 m³/h，出口压力 30 MPa。电动60是另一页，为 90 kW 和 40 m³/h。这个别名不会再生成第二套规格表。数字 75 对上的是印出的电机千瓦，而不是另一个产量。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "One page, two names",
+        "zh": "一页，两个名称"
+      },
+      "body": {
+        "en": "The model cell contains both names. Fine-stone distance on this page is 150 m / 350 m, with further rows for 13 mm and 24 mm stone. Hopper capacity is 0.5 m³. Hebei Pinjin Machinery does not print those cells again under a lone 75-60 title.",
+        "zh": "型号格里同时有两个名称。这一页的细石距离是 150 m / 350 m，另有 13 mm 和 24 mm 石子行。料斗容积 0.5 m³。河北品锦机械没有在单独的 75-60 标题下把这些格子再印一遍。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Not Electric 60",
+        "zh": "不是电动60"
+      },
+      "body": {
+        "en": "Electric 60 prints 90 kW, 40 m³/h, 35 MPa and fine-stone 200 m / 600 m. Sharing the digit 60 does not merge the pages. Open /en/products/electric-low-pressure-60-concrete-pump/ when the alias is what you were given.",
+        "zh": "电动60印 90 kW、40 m³/h、35 MPa、细石 200 m / 600 m。都有数字 60 也不能合并页面。如果你拿到的是这个别名，请打开 /zh/products/electric-low-pressure-60-concrete-pump/。"
+      }
+    },
+    {
+      "heading": {
+        "en": "75 is the motor cell",
+        "zh": "75是电机格"
+      },
+      "body": {
+        "en": "The motor power cell prints 75 kW. The output cell prints 35 m³/h. Do not read 75 as m³/h. The hydraulic pump name on this page is Kawasaki double pump 100.",
+        "zh": "电机功率格印 75 kW。产量格印 35 m³/h。不要把 75 读成 m³/h。这一页的液压泵名称是川崎双泵100。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Which page contains Electric 75-60?",
+        "zh": "电动75-60在哪一页？"
+      },
+      "answer": {
+        "en": "The Electric Low Pressure 60 page.",
+        "zh": "电动低压60页面。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the motor 75 kW or 60 kW?",
+        "zh": "电机是 75 kW 还是 60 kW？"
+      },
+      "answer": {
+        "en": "The page prints 75 kW.",
+        "zh": "该页印的是 75 kW。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is output 75 m³/h?",
+        "zh": "产量是 75 m³/h 吗？"
+      },
+      "answer": {
+        "en": "No. Theoretical output is 35 m³/h.",
+        "zh": "不是。理论输送量是 35 m³/h。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the alias have its own distance?",
+        "zh": "别名有自己的距离吗？"
+      },
+      "answer": {
+        "en": "No. Use the distance rows printed once on that concrete pump page.",
+        "zh": "没有。使用这台混凝土泵页面上只印一次的距离行。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/what-the-electric-75-60-model-alias-refers-to-pinjin.webp",
+    "alt": {
+      "en": "What the Electric 75-60 Alias Refers To, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "电动75-60这个别名指哪一页，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-low-pressure-60-concrete-pump/",
+    "/zh/products/electric-low-pressure-60-concrete-pump/",
+    "/en/products/electric-60-concrete-pump/",
+    "/zh/products/electric-60-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

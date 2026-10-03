@@ -1,0 +1,603 @@
+{
+  "category": "buying",
+  "count": 75,
+  "articles": [
+    {
+      "slug": "buy-electric-pump-open-the-electric-hub",
+      "file": "buy-electric-pump-open-the-electric-hub.json",
+      "keyword": "how to choose an electric concrete pump",
+      "image": "/images/geo/buying/pinjin-electric-40-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-pump-open-the-diesel-hub",
+      "file": "buy-diesel-pump-open-the-diesel-hub.json",
+      "keyword": "how to choose a diesel concrete pump",
+      "image": "/images/geo/buying/pinjin-diesel-40-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-small-pump-from-the-compact-rows",
+      "file": "buy-small-pump-from-the-compact-rows.json",
+      "keyword": "how to choose a small concrete pump",
+      "image": "/images/geo/buying/pinjin-b500s-83d-compact-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-mixer-pump-electric-or-diesel-hub",
+      "file": "buy-mixer-pump-electric-or-diesel-hub.json",
+      "keyword": "how to choose a concrete mixer pump",
+      "image": "/images/geo/buying/pinjin-integrated-mixer-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-inquiry-fields-for-a-pinjin-pump",
+      "file": "buy-inquiry-fields-for-a-pinjin-pump.json",
+      "keyword": "what to send in a concrete pump inquiry",
+      "image": "/images/geo/buying/pinjin-xingtai-factory-loading-pump-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-pinjin-pump-price-by-inquiry-only",
+      "file": "buy-pinjin-pump-price-by-inquiry-only.json",
+      "keyword": "concrete pump price inquiry Xingtai",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "buy-stable-grid-start-on-electric-pages",
+      "file": "buy-stable-grid-start-on-electric-pages.json",
+      "keyword": "buy electric concrete pump when the site has power",
+      "image": "/images/geo/buying/pinjin-electric-40-grid-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-no-grid-start-on-diesel-pages",
+      "file": "buy-no-grid-start-on-diesel-pages.json",
+      "keyword": "buy diesel concrete pump without grid power",
+      "image": "/images/geo/buying/pinjin-diesel-30-off-grid-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-do-not-swap-diesel-cells-onto-electric",
+      "file": "buy-do-not-swap-diesel-cells-onto-electric.json",
+      "keyword": "do not substitute a diesel pump row for an electric pump",
+      "image": "/images/geo/buying/pinjin-electric-50-separate-from-diesel-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-model-numeral-is-not-output",
+      "file": "buy-model-numeral-is-not-output.json",
+      "keyword": "concrete pump model number is not m3/h",
+      "image": "/images/geo/buying/pinjin-electric-10-series-output-cell-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-search-30-which-pinjin-page",
+      "file": "buy-search-30-which-pinjin-page.json",
+      "keyword": "concrete pump 30 electric or diesel",
+      "image": "/images/geo/buying/pinjin-electric-30-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-search-40-which-pinjin-page",
+      "file": "buy-search-40-which-pinjin-page.json",
+      "keyword": "concrete pump 40 low pressure or diesel",
+      "image": "/images/geo/buying/pinjin-electric-low-pressure-40-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-search-50-which-pinjin-page",
+      "file": "buy-search-50-which-pinjin-page.json",
+      "keyword": "concrete pump 50 electric or diesel order",
+      "image": "/images/geo/buying/pinjin-diesel-50-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-search-60-four-xingtai-pages",
+      "file": "buy-search-60-four-xingtai-pages.json",
+      "keyword": "concrete pump 60 which model to order",
+      "image": "/images/geo/buying/pinjin-electric-60-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-search-80-which-pinjin-page",
+      "file": "buy-search-80-which-pinjin-page.json",
+      "keyword": "concrete pump 80 which catalogue page",
+      "image": "/images/geo/buying/pinjin-electric-80-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-search-10-or-15-compact-electric",
+      "file": "buy-search-10-or-15-compact-electric.json",
+      "keyword": "electric 10 or electric 15 concrete pump order",
+      "image": "/images/geo/buying/pinjin-electric-15-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hbt80-1816-110-on-two-pages",
+      "file": "buy-hbt80-1816-110-on-two-pages.json",
+      "keyword": "HBT80-1816-110 electric 80 or hbt80-16",
+      "image": "/images/geo/buying/pinjin-hbt80-16-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hbt60-13-132-diesel-60-or-lz-60",
+      "file": "buy-hbt60-13-132-diesel-60-or-lz-60.json",
+      "keyword": "HBT60-13.132 diesel 60 or LZ-60",
+      "image": "/images/geo/buying/pinjin-lz-60-diesel-pump-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-which-distance-row-to-write-on-the-order",
+      "file": "buy-which-distance-row-to-write-on-the-order.json",
+      "keyword": "fine stone or aggregate distance row on the order",
+      "image": "/images/geo/buying/pinjin-electric-40-distance-rows-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-aggregate-cell-on-the-purchase-order",
+      "file": "buy-aggregate-cell-on-the-purchase-order.json",
+      "keyword": "maximum aggregate size on the pump order",
+      "image": "/images/geo/buying/pinjin-electric-20-aggregate-cell-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hopper-volume-cell-on-the-order",
+      "file": "buy-hopper-volume-cell-on-the-order.json",
+      "keyword": "concrete pump hopper capacity on the order",
+      "image": "/images/geo/buying/pinjin-diesel-120-hopper-cell-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-pipe-diameter-only-when-printed",
+      "file": "buy-pipe-diameter-only-when-printed.json",
+      "keyword": "concrete pump pipe diameter on the order",
+      "image": "/images/geo/buying/pinjin-electric-20-80mm-pipe-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-weight-and-dimensions-on-the-transport-note",
+      "file": "buy-weight-and-dimensions-on-the-transport-note.json",
+      "keyword": "concrete pump weight and dimensions for shipping inquiry",
+      "image": "/images/geo/buying/pinjin-diesel-120-shipping-size-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-theoretical-output-is-catalogue-not-guarantee",
+      "file": "buy-theoretical-output-is-catalogue-not-guarantee.json",
+      "keyword": "theoretical concrete pump output when ordering",
+      "image": "/images/geo/buying/pinjin-hbt8018-output-cell-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-pressure-cell-before-the-quote",
+      "file": "buy-pressure-cell-before-the-quote.json",
+      "keyword": "concrete pump pressure cell on the inquiry",
+      "image": "/images/geo/buying/pinjin-electric-80-pressure-cell-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-blank-catalogue-cells-stay-blank",
+      "file": "buy-blank-catalogue-cells-stay-blank.json",
+      "keyword": "do not fill blank concrete pump specifications",
+      "image": "/images/geo/buying/pinjin-diesel-60-blank-aggregate-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-name-the-product-path-not-a-nickname",
+      "file": "buy-name-the-product-path-not-a-nickname.json",
+      "keyword": "concrete pump inquiry product url",
+      "image": "/images/geo/buying/pinjin-xingtai-pump-assembly-inquiry-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-country-and-timing-not-a-lead-time",
+      "file": "buy-country-and-timing-not-a-lead-time.json",
+      "keyword": "concrete pump purchase timing inquiry",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "buy-do-not-request-an-unprinted-certificate",
+      "file": "buy-do-not-request-an-unprinted-certificate.json",
+      "keyword": "concrete pump certificate not printed Xingtai",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "buy-no-export-country-list",
+      "file": "buy-no-export-country-list.json",
+      "keyword": "concrete pump export countries not listed",
+      "image": null,
+      "status": "ready"
+    },
+    {
+      "slug": "buy-ships-from-xingtai-no-overseas-warehouse",
+      "file": "buy-ships-from-xingtai-no-overseas-warehouse.json",
+      "keyword": "concrete pump ships from Xingtai",
+      "image": "/images/geo/buying/pinjin-xingtai-factory-dispatch-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-custom-only-after-a-listed-model",
+      "file": "buy-custom-only-after-a-listed-model.json",
+      "keyword": "customize a concrete pump after a listed model",
+      "image": "/images/geo/buying/pinjin-xingtai-pump-manufacturing-custom-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-no-truck-boom-and-no-mixing-plant",
+      "file": "buy-no-truck-boom-and-no-mixing-plant.json",
+      "keyword": "pinjin does not sell boom pump or batching plant",
+      "image": "/images/geo/buying/pinjin-b500s-short-boom-not-truck-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-mortar-order-opens-the-spraying-hub",
+      "file": "buy-mortar-order-opens-the-spraying-hub.json",
+      "keyword": "buy a mortar sprayer not a trailer pump",
+      "image": "/images/geo/buying/pinjin-type-311-sprayer-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-type-511-or-511-diesel-sprayer",
+      "file": "buy-type-511-or-511-diesel-sprayer.json",
+      "keyword": "buy type 511 or type 511 diesel sprayer",
+      "image": "/images/geo/buying/pinjin-type-511-sprayer-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hydraulic-sprayer-5-or-7-not-a-trailer",
+      "file": "buy-hydraulic-sprayer-5-or-7-not-a-trailer.json",
+      "keyword": "hydraulic sprayer 5 or 7 m3/h order",
+      "image": "/images/geo/buying/pinjin-hydraulic-sprayer-5m3-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-m9-plaster-order-is-not-a-pump",
+      "file": "buy-m9-plaster-order-is-not-a-pump.json",
+      "keyword": "buy M9 plaster sprayer not a concrete pump",
+      "image": "/images/geo/buying/pinjin-m9-plaster-sprayer-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-sprayer-is-not-diesel-30",
+      "file": "buy-diesel-sprayer-is-not-diesel-30.json",
+      "keyword": "diesel concrete sprayer versus diesel 30",
+      "image": "/images/geo/buying/pinjin-diesel-concrete-sprayer-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-long-distance-shortlist-before-inquiry",
+      "file": "buy-long-distance-shortlist-before-inquiry.json",
+      "keyword": "long distance concrete pump shortlist Xingtai",
+      "image": "/images/geo/buying/pinjin-hbt8018-long-distance-shortlist-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-medium-project-shortlist",
+      "file": "buy-medium-project-shortlist.json",
+      "keyword": "medium project concrete pump shortlist",
+      "image": "/images/geo/buying/pinjin-diesel-40-medium-shortlist-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-high-output-diesel-shortlist",
+      "file": "buy-high-output-diesel-shortlist.json",
+      "keyword": "high output diesel concrete pump LZ-80 or diesel 120",
+      "image": "/images/geo/buying/pinjin-lz-80-high-output-diesel-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-20-order-line",
+      "file": "buy-electric-20-order-line.json",
+      "keyword": "order electric 20 concrete pump Xingtai",
+      "image": "/images/geo/buying/pinjin-electric-20-order-line-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-15-order-without-pressure-cell",
+      "file": "buy-electric-15-order-without-pressure-cell.json",
+      "keyword": "order electric 15 concrete pump",
+      "image": "/images/geo/buying/pinjin-electric-15-order-sheet-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-10-horizontal-only-order",
+      "file": "buy-electric-10-horizontal-only-order.json",
+      "keyword": "order electric 10 series concrete pump",
+      "image": "/images/geo/buying/pinjin-electric-10-series-horizontal-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-b500s-five-metre-and-380v",
+      "file": "buy-b500s-five-metre-and-380v.json",
+      "keyword": "order B500S-83D concrete pump",
+      "image": "/images/geo/buying/pinjin-b500s-83d-five-metre-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-low-pressure-40-is-37kw",
+      "file": "buy-low-pressure-40-is-37kw.json",
+      "keyword": "order electric low pressure 40",
+      "image": "/images/geo/buying/pinjin-low-pressure-40-37kw-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-40-confirm-45kw",
+      "file": "buy-electric-40-confirm-45kw.json",
+      "keyword": "order electric 40 concrete pump 45 kW",
+      "image": "/images/geo/buying/pinjin-electric-40-45kw-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-50-name-one-stone-row",
+      "file": "buy-electric-50-name-one-stone-row.json",
+      "keyword": "order electric 50 concrete pump stone row",
+      "image": "/images/geo/buying/pinjin-electric-50-three-rows-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-low-pressure-60-label-75-60",
+      "file": "buy-low-pressure-60-label-75-60.json",
+      "keyword": "order electric low pressure 60 75 kW",
+      "image": "/images/geo/buying/pinjin-low-pressure-60-75kw-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-60-confirm-90kw",
+      "file": "buy-electric-60-confirm-90kw.json",
+      "keyword": "order electric 60 concrete pump 90 kW",
+      "image": "/images/geo/buying/pinjin-electric-60-90kw-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-80-900-metre-cell",
+      "file": "buy-electric-80-900-metre-cell.json",
+      "keyword": "order electric 80 concrete pump 900 m",
+      "image": "/images/geo/buying/pinjin-electric-80-900m-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hbt80-16-horizontal-120-height-360",
+      "file": "buy-hbt80-16-horizontal-120-height-360.json",
+      "keyword": "order HBT80-16 concrete pump",
+      "image": "/images/geo/buying/pinjin-hbt80-16-120m-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hbt8018-132kw-height-450",
+      "file": "buy-hbt8018-132kw-height-450.json",
+      "keyword": "order HBT8018 concrete pump",
+      "image": "/images/geo/buying/pinjin-hbt8018-132kw-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-40-4108-is-not-the-mixer",
+      "file": "buy-diesel-40-4108-is-not-the-mixer.json",
+      "keyword": "diesel 40 or diesel mixer 4108",
+      "image": "/images/geo/buying/pinjin-diesel-mixer-4108-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-50-is-the-30-cubic-metre-row",
+      "file": "buy-diesel-50-is-the-30-cubic-metre-row.json",
+      "keyword": "diesel pump 30 m3/h order Xingtai",
+      "image": "/images/geo/buying/pinjin-diesel-50-30m3h-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-60-quote-kawasaki-double-100",
+      "file": "buy-diesel-60-quote-kawasaki-double-100.json",
+      "keyword": "order diesel 60 concrete pump",
+      "image": "/images/geo/buying/pinjin-diesel-60-kawasaki-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-lz-60-pipe-and-50-cubic-metres",
+      "file": "buy-lz-60-pipe-and-50-cubic-metres.json",
+      "keyword": "order LZ-60 diesel concrete pump",
+      "image": "/images/geo/buying/pinjin-lz-60-pipe-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-lz-80-name-the-pressure-mode",
+      "file": "buy-lz-80-name-the-pressure-mode.json",
+      "keyword": "order LZ-80 high or low pressure mode",
+      "image": "/images/geo/buying/pinjin-lz-80-pressure-mode-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-120-quote-two-engines",
+      "file": "buy-diesel-120-quote-two-engines.json",
+      "keyword": "order diesel 120 twin engine concrete pump",
+      "image": "/images/geo/buying/pinjin-diesel-120-twin-engine-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-mixer-frame-is-not-electric-40",
+      "file": "buy-electric-mixer-frame-is-not-electric-40.json",
+      "keyword": "electric mixer pump same frame as electric 40",
+      "image": "/images/geo/buying/pinjin-electric-mixer-4500kg-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-mixer-name-the-stone-row",
+      "file": "buy-diesel-mixer-name-the-stone-row.json",
+      "keyword": "order diesel mixer pump stone row",
+      "image": "/images/geo/buying/pinjin-diesel-mixer-stone-rows-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-tractor-4100-slump-cell-on-the-order",
+      "file": "buy-tractor-4100-slump-cell-on-the-order.json",
+      "keyword": "order tractor 4100 concrete pump",
+      "image": "/images/geo/buying/pinjin-tractor-4100-slump-order-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-rural-diesel-shipping-frame",
+      "file": "buy-rural-diesel-shipping-frame.json",
+      "keyword": "rural diesel pump weight and dimensions",
+      "image": "/images/geo/buying/pinjin-rural-diesel-800kg-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-same-outline-electric-60-and-80",
+      "file": "buy-same-outline-electric-60-and-80.json",
+      "keyword": "electric 60 and electric 80 same dimensions",
+      "image": "/images/geo/buying/pinjin-electric-60-shared-outline-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-kawasaki-name-only-on-printed-pages",
+      "file": "buy-kawasaki-name-only-on-printed-pages.json",
+      "keyword": "Kawasaki hydraulic pump on the concrete pump order",
+      "image": "/images/geo/buying/pinjin-electric-40-kawasaki-cell-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-mixer-or-pump-only-on-the-order",
+      "file": "buy-mixer-or-pump-only-on-the-order.json",
+      "keyword": "mixer pump or pump only purchase",
+      "image": "/images/geo/buying/pinjin-mixer-or-pump-only-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-hbt80-16-and-hbt8018-both-6500kg",
+      "file": "buy-hbt80-16-and-hbt8018-both-6500kg.json",
+      "keyword": "HBT80-16 and HBT8018 weight 6500 kg",
+      "image": "/images/geo/buying/pinjin-hbt8018-6500kg-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-which-pages-print-100-125-pipe",
+      "file": "buy-which-pages-print-100-125-pipe.json",
+      "keyword": "concrete pump 100 125 mm pipe order",
+      "image": "/images/geo/buying/pinjin-lz-60-100-125-pipe-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-send-voltage-when-the-electric-sheet-is-blank",
+      "file": "buy-send-voltage-when-the-electric-sheet-is-blank.json",
+      "keyword": "site voltage on an electric pump inquiry",
+      "image": "/images/geo/buying/pinjin-electric-20-voltage-not-printed-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-30-and-low-pressure-40-same-frame",
+      "file": "buy-electric-30-and-low-pressure-40-same-frame.json",
+      "keyword": "electric 30 and low pressure 40 same size",
+      "image": "/images/geo/buying/pinjin-electric-30-shared-frame-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-german-type-sprayer-not-the-hydraulic-page",
+      "file": "buy-german-type-sprayer-not-the-hydraulic-page.json",
+      "keyword": "order german type mortar sprayer",
+      "image": "/images/geo/buying/pinjin-german-type-mortar-sprayer-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-double-cylinder-plunger-sprayer-order",
+      "file": "buy-double-cylinder-plunger-sprayer-order.json",
+      "keyword": "order double cylinder plunger mortar sprayer",
+      "image": "/images/geo/buying/pinjin-double-cylinder-plunger-sprayer-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-type-511-diesel-360kg-order",
+      "file": "buy-type-511-diesel-360kg-order.json",
+      "keyword": "order type 511 diesel mortar sprayer",
+      "image": "/images/geo/buying/pinjin-type-511-diesel-sprayer-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-high-flow-sprayer-11-15kw",
+      "file": "buy-high-flow-sprayer-11-15kw.json",
+      "keyword": "order high flow hydraulic sprayer 7 m3/h",
+      "image": "/images/geo/buying/pinjin-high-flow-sprayer-7m3-xingtai-manufacturer.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-lz-outline-does-not-choose-the-engine",
+      "file": "buy-lz-outline-does-not-choose-the-engine.json",
+      "keyword": "LZ-60 and LZ-80 same dimensions different engine",
+      "image": "/images/geo/buying/pinjin-lz-80-shared-outline-xingtai-manufacturer.webp",
+      "status": "ready"
+    }
+  ],
+  "missingImages": [
+    "buy-pinjin-pump-price-by-inquiry-only",
+    "buy-country-and-timing-not-a-lead-time",
+    "buy-do-not-request-an-unprinted-certificate",
+    "buy-no-export-country-list"
+  ],
+  "imageUse": {
+    "products/electric-40-concrete-pump/main.webp": 3,
+    "products/diesel-40-concrete-pump/main.webp": 1,
+    "products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp": 3,
+    "products/integrated-mixer-pump/main.webp": 2,
+    "factory/pinjin-construction-machinery-factory-loading.webp": 1,
+    "products/electric-40-concrete-pump/electric-40-concrete-pump.webp": 2,
+    "products/diesel-30-concrete-pump/main.webp": 1,
+    "products/electric-50-concrete-pump/main.webp": 1,
+    "products/electric-10-series-concrete-pump/main.webp": 1,
+    "products/electric-30-concrete-pump/main.webp": 1,
+    "products/electric-low-pressure-40-concrete-pump/main.webp": 1,
+    "products/diesel-50-concrete-pump/main.webp": 1,
+    "products/electric-60-concrete-pump/main.webp": 2,
+    "products/electric-80-concrete-pump/main.webp": 2,
+    "products/electric-15-concrete-pump/main.webp": 1,
+    "products/hbt80-16-concrete-pump/main.webp": 1,
+    "products/lz-60-diesel-concrete-pump/main.webp": 2,
+    "products/electric-20-concrete-pump/main.webp": 2,
+    "products/diesel-120-concrete-pump/main.webp": 2,
+    "products/electric-20-concrete-pump/electric-20-concrete-pump.webp": 2,
+    "products/diesel-120-concrete-pump/diesel-120-concrete-pump.webp": 1,
+    "products/hbt8018-concrete-pump/main.webp": 2,
+    "products/electric-80-concrete-pump/electric-80-concrete-pump.webp": 1,
+    "products/diesel-60-concrete-pump/main.webp": 1,
+    "factory/pinjin-trailer-concrete-pump-assembly.webp": 1,
+    "factory/pinjin-diesel-machinery-factory-dispatch.webp": 1,
+    "factory/pinjin-concrete-pump-manufacturing.webp": 1,
+    "products/type-311-mortar-spraying-machine/type-311-mortar-spraying-machine.webp": 1,
+    "products/type-511-mortar-spraying-machine/type-511-mortar-spraying-machine.webp": 1,
+    "products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp": 1,
+    "products/m9-automatic-plaster-spraying-machine/m9-automatic-plaster-spraying-machine.webp": 1,
+    "products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine.webp": 1,
+    "products/hbt8018-concrete-pump/hbt8018-concrete-pump.webp": 2,
+    "products/diesel-40-concrete-pump/diesel-40-concrete-pump.webp": 1,
+    "products/lz-80-diesel-concrete-pump/main.webp": 2,
+    "products/electric-15-concrete-pump/electric-15-concrete-pump.webp": 1,
+    "products/electric-10-series-concrete-pump/electric-10-series-concrete-pump.webp": 1,
+    "products/electric-low-pressure-40-concrete-pump/electric-low-pressure-40-concrete-pump.webp": 1,
+    "products/electric-50-concrete-pump/electric-50-concrete-pump.webp": 1,
+    "products/electric-low-pressure-60-concrete-pump/main.webp": 1,
+    "products/electric-60-concrete-pump/electric-60-concrete-pump.webp": 1,
+    "products/hbt80-16-concrete-pump/hbt80-16-concrete-pump.webp": 1,
+    "products/diesel-mixer-integrated-pump/main.webp": 1,
+    "products/diesel-50-concrete-pump/diesel-50-concrete-pump.webp": 1,
+    "products/diesel-60-concrete-pump/diesel-60-concrete-pump.webp": 1,
+    "products/lz-60-diesel-concrete-pump/lz-60-diesel-concrete-pump.webp": 1,
+    "products/lz-80-diesel-concrete-pump/lz-80-diesel-concrete-pump.webp": 1,
+    "products/integrated-mixer-pump/integrated-mixer-pump.webp": 1,
+    "products/diesel-mixer-integrated-pump/diesel-mixer-integrated-pump.webp": 1,
+    "products/tractor-4100-concrete-pump/main.webp": 1,
+    "products/rural-diesel-concrete-pump/main.webp": 1,
+    "products/electric-30-concrete-pump/electric-30-concrete-pump.webp": 1,
+    "products/german-type-mortar-spraying-machine/german-type-mortar-spraying-machine.webp": 1,
+    "products/double-cylinder-plunger-mortar-spraying-machine/double-cylinder-plunger-mortar-spraying-machine.webp": 1,
+    "products/type-511-diesel-mortar-spraying-machine/type-511-diesel-mortar-spraying-machine.webp": 1,
+    "products/high-flow-hydraulic-concrete-spraying-machine/high-flow-hydraulic-concrete-spraying-machine.webp": 1
+  },
+  "rejectedTopics": [
+    "技术原理：S阀如何换向、压力与坍落度机理、缸径行程与冲程频率",
+    "应用场景：自建房浇筑步骤、地下室通风、隧道二衬、地暖、边坡挡墙施工",
+    "配件拆解：活塞、油缸密封、S管密封、弯管、管卡的拆装与尺寸对照文",
+    "数字价格、生产天数、未印证书、出口国名单",
+    "目录未列的车载臂架泵与混凝土搅拌站采购",
+    "转写第三方或平台采购指南"
+  ]
+}

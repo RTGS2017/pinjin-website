@@ -1,0 +1,126 @@
+{
+  "slug": "which-concrete-pump-prints-a-slump-range",
+  "category": "knowledge",
+  "keyword": {
+    "en": "which concrete pump lists slump",
+    "zh": "哪台混凝土泵印了坍落度"
+  },
+  "title": {
+    "en": "Which Concrete Pump Prints a Slump Range",
+    "zh": "哪台混凝土泵印了坍落度范围"
+  },
+  "description": {
+    "en": "Only the Tractor-Driven 4100 prints concrete slump, 180–220 mm. Other Xingtai pump sheets leave slump blank.",
+    "zh": "只有拖拉机带动4100印了混凝土坍落度 180–220 mm。其他邢台泵页的坍落度是空的。"
+  },
+  "h1": {
+    "en": "Which Concrete Pump Prints a Slump Range",
+    "zh": "哪台混凝土泵印了坍落度范围"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints a concrete slump cell on one pump in Xingtai: the Tractor-Driven 4100, 180–220 mm. Electric pumps, Diesel 30 through Diesel 120, LZ-60, LZ-80, both mixer pumps and the rural diesel pump do not print slump. Pressure in MPa is not a slump figure. If a mix specification needs slump and the page has no cell, the cell stays blank.",
+    "zh": "河北品锦机械在邢台只给一台泵印了混凝土坍落度：拖拉机带动4100，为 180–220 mm。电动泵、柴油30到柴油120、LZ-60、LZ-80、两台搅拌泵和农村柴油泵都不印坍落度。以 MPa 表示的压力不是坍落度。如果配合比需要坍落度而页面没有这一格，格子就保持空白。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The only printed span",
+        "zh": "唯一印出的区间"
+      },
+      "body": {
+        "en": "The tractor page labels the cell concrete slump and prints 180–220 mm. It sits beside power 40 kW, output 6–12 m³/h and distance 40–100 m / 15–45 m. Hebei Pinjin Machinery does not print a second slump for a different aggregate on that page.",
+        "zh": "拖拉机页把这一格标为坍落度，印出 180–220 mm。它旁边是功率 40 kW、产量 6–12 m³/h、距离 40–100 m / 15–45 m。河北品锦机械没有在该页为另一种骨料再印一个坍落度。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pressure is a different row",
+        "zh": "压力是另一行"
+      },
+      "body": {
+        "en": "The tractor also prints pumping pressure 15 MPa. That is not 180–220 mm rewritten. Diesel 30 prints 20 MPa and no slump. Do not convert MPa into millimetres. The Xingtai sheets do not give a formula.",
+        "zh": "拖拉机页还印泵送压力 15 MPa。这不是把 180–220 mm 换了一种写法。柴油30印 20 MPa，没有坍落度。不要把 MPa 换算成毫米。邢台参数页没有给出公式。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the blank means",
+        "zh": "空白是什么意思"
+      },
+      "body": {
+        "en": "A pump page without a slump row does not inherit 180–220 mm. Use /en/contact/ and name the model. Do not treat the tractor cell as a company-wide concrete specification.",
+        "zh": "没有坍落度行的泵页不能继承 180–220 mm。请用 /zh/contact/ 并写明型号。不要把拖拉机这一格当成全公司的混凝土指标。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Which model prints 180–220 mm?",
+        "zh": "哪个型号印 180–220 mm？"
+      },
+      "answer": {
+        "en": "The Tractor-Driven 4100 concrete pump.",
+        "zh": "拖拉机带动4100混凝土泵。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 30 print slump?",
+        "zh": "电动30印坍落度吗？"
+      },
+      "answer": {
+        "en": "No. Its sheet has output, pressure and distance rows, not a slump row.",
+        "zh": "没有。它的参数页有产量、压力和距离，没有坍落度行。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 15 MPa the same as the slump cell?",
+        "zh": "15 MPa 和坍落度格是一回事吗？"
+      },
+      "answer": {
+        "en": "No. On the tractor page they are two cells, pumping pressure and concrete slump.",
+        "zh": "不是。在拖拉机页上它们是两格：泵送压力和坍落度。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can other pumps use 180–220 mm?",
+        "zh": "其他泵能使用 180–220 mm 吗？"
+      },
+      "answer": {
+        "en": "Only if that figure is printed on their page. In this catalogue it is not.",
+        "zh": "只有它们的页面印了这个数字才可以。在本目录里没有。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/which-concrete-pump-prints-a-slump-range-pinjin.webp",
+    "alt": {
+      "en": "Which Concrete Pump Prints a Slump Range, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "哪台混凝土泵印了坍落度范围，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/tractor-4100-concrete-pump/",
+    "/zh/products/tractor-4100-concrete-pump/",
+    "/en/products/diesel-30-concrete-pump/",
+    "/zh/products/diesel-30-concrete-pump/",
+    "/en/products/rural-diesel-concrete-pump/",
+    "/zh/products/rural-diesel-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/tractor-4100-concrete-pump/",
+    "https://pinjinpump.com/zh/products/tractor-4100-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "draft"
+}

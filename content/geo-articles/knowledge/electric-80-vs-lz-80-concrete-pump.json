@@ -1,0 +1,132 @@
+{
+  "slug": "electric-80-vs-lz-80-concrete-pump",
+  "category": "knowledge",
+  "keyword": {
+    "en": "electric 80 vs LZ-80 concrete pump",
+    "zh": "电动80和LZ-80混凝土泵的区别"
+  },
+  "title": {
+    "en": "Electric 80 vs LZ-80 Concrete Pump",
+    "zh": "电动80和LZ-80混凝土泵有何不同"
+  },
+  "description": {
+    "en": "The shared 80 is not a shared output. Electric 80 prints 60 m³/h. LZ-80 prints ≤ 65 m³/h and ≤ 95 m³/h on two pressure lines.",
+    "zh": "名称里的 80 不是同一个产量。电动80印 60 m³/h。LZ-80 在两档压力下印 ≤ 65 m³/h 和 ≤ 95 m³/h。"
+  },
+  "h1": {
+    "en": "Electric 80 vs LZ-80 Concrete Pump",
+    "zh": "电动80和LZ-80混凝土泵有何不同"
+  },
+  "directAnswer": {
+    "en": "Electric 80 and LZ-80 are concrete pumps from Hebei Pinjin Machinery in Xingtai. Electric 80 prints a 110 kW motor, 60 m³/h, 40 MPa and distance 900 m / 300 m, with aggregate 24 mm (≤ 2 cm). LZ-80 prints a 256 kW Yuchai diesel, high pressure ≤ 65 m³/h at ≤ 35 MPa, low pressure ≤ 95 m³/h at ≤ 22 MPa, and aggregate 6 cm and below. The numeral 80 does not equal either output cell.",
+    "zh": "电动80和 LZ-80 是河北品锦机械在邢台的混凝土泵。电动80印 110 kW 电机、60 m³/h、40 MPa、距离 900 m / 300 m，骨料 24 mm（≤ 2 cm）。LZ-80 印玉柴柴油机 256 kW，高压 ≤ 65 m³/h、≤ 35 MPa，低压 ≤ 95 m³/h、≤ 22 MPa，骨料 6 cm 及以下。数字 80 不等于其中任何一个产量格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Where Electric 80 and LZ-80 print different values",
+        "zh": "电动80和LZ-80哪些数值不同"
+      },
+      "body": {
+        "en": "Theoretical output: Electric 80 prints 60 m³/h; LZ-80 prints High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h. Hopper capacity: Electric 80 prints 0.7 m³; LZ-80 prints 0.6 m³. Max. aggregate size: Electric 80 prints 24 mm (≤ 2 cm); LZ-80 prints 6 cm and below. Hydraulic pump: Electric 80 prints Kawasaki 140 double pump; LZ-80 prints Kawasaki double 140. Dimensions: Electric 80 prints 6600 × 1800 × 1800 mm; LZ-80 prints 6.6 × 1.8 × 1.9 m. These are printed cells on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. They are not a calculated conversion from one model to the other.",
+        "zh": "理论输送量：电动80印 60 m³/h；LZ-80印 High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h。料斗容积：电动80印 0.7 m³；LZ-80印 0.6 m³。最大骨料粒径：电动80印 24 mm (≤ 2 cm)；LZ-80印 6 cm and below。液压泵：电动80印 Kawasaki 140 double pump；LZ-80印 Kawasaki double 140。外形尺寸：电动80印 6600 × 1800 × 1800 mm；LZ-80印 6.6 × 1.8 × 1.9 m。以上是河北品锦机械在邢台混凝土泵页面上印出的格子，不是把一台机器换算成另一台。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Cells that exist on only one of these pumps",
+        "zh": "只在其中一台泵上出现的格子"
+      },
+      "body": {
+        "en": "Electric 80 prints cells that LZ-80 does not: Model line Electric 80 / HBT80-1816-110; Motor power 110 kW; Max. outlet pressure 40 MPa; Pumping distance (H / V) 900 m / 300 m; Main unit weight 6000 kg. LZ-80 prints cells that Electric 80 does not: Engine (diesel) 256 kW (Yuchai); Pumping pressure High pressure ≤ 35 MPa; low pressure ≤ 22 MPa; Conveying distance 120 m; Delivery height Consult factory standard; Total weight 6800 kg. A blank or missing label is not filled from the other concrete pump.",
+        "zh": "电动80有、LZ-80没有的行：型号行 Electric 80 / HBT80-1816-110；电机功率 110 kW；最大出口压力 40 MPa；输送距离（水平/垂直） 900 m / 300 m；整机重量 6000 kg。LZ-80有、电动80没有的行：柴油发动机 256 kW (Yuchai)；泵送压力 High pressure ≤ 35 MPa; low pressure ≤ 22 MPa；输送距离 120 m；输送高度 Consult factory standard；整机重量 6800 kg。缺了的标题不能用另一台混凝土泵来补。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to read the two pages without merging them",
+        "zh": "怎样分开阅读这两个页面"
+      },
+      "body": {
+        "en": "Aggregate wording also differs: 24 mm (≤ 2 cm) on one page, 6 cm and below on the other. Open /en/products/electric-80-concrete-pump/ for Electric 80 and /en/products/lz-80-diesel-concrete-pump/ for LZ-80. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei. The number in a commercial name is not a licence to copy output, pressure or distance. If a job needs a figure this pair does not print, use the contact page rather than inventing a bore, stroke or price.",
+        "zh": "骨料写法也不同：一页是 24 mm（≤ 2 cm），另一页是 6 cm 及以下。看电动80请打开 /zh/products/electric-80-concrete-pump/，看LZ-80请打开 /zh/products/lz-80-diesel-concrete-pump/。河北品锦机械在河北邢台制造这些混凝土泵。商品名里的数字不能用来抄产量、压力或距离。如果工况需要这对机型没有印出的数字，请走联系页，不要编造缸径、行程或价格。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does Electric 80 print the same theoretical output as LZ-80?",
+        "zh": "电动80和LZ-80的理论输送量一样吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 prints 60 m³/h. LZ-80 prints High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
+        "zh": "不一样。电动80印 60 m³/h。LZ-80印 High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 80 print the same hopper capacity as LZ-80?",
+        "zh": "电动80和LZ-80的料斗容积一样吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 prints 0.7 m³. LZ-80 prints 0.6 m³. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
+        "zh": "不一样。电动80印 0.7 m³。LZ-80印 0.6 m³。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 80 print the same max. aggregate size as LZ-80?",
+        "zh": "电动80和LZ-80的最大骨料粒径一样吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 prints 24 mm (≤ 2 cm). LZ-80 prints 6 cm and below. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
+        "zh": "不一样。电动80印 24 mm (≤ 2 cm)。LZ-80印 6 cm and below。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+      }
+    },
+    {
+      "question": {
+        "en": "Why is model line missing on LZ-80?",
+        "zh": "为什么LZ-80没有型号行？"
+      },
+      "answer": {
+        "en": "The LZ-80 page does not print that label. Electric 80 prints Electric 80 / HBT80-1816-110. Leave the missing cell blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps.",
+        "zh": "LZ-80这一页没有印这个标题。电动80印的是 Electric 80 / HBT80-1816-110。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/electric-80-vs-lz-80-concrete-pump-pinjin.webp",
+    "alt": {
+      "en": "Electric 80 concrete pump, catalogue comparison, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "电动80混凝土泵目录对照，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/products/diesel-concrete-pumps/",
+    "/zh/products/diesel-concrete-pumps/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

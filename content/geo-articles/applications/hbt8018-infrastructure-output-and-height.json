@@ -1,0 +1,135 @@
+{
+  "slug": "hbt8018-infrastructure-output-and-height",
+  "category": "application",
+  "keyword": "HBT8018 infrastructure concrete pump",
+  "title": {
+    "en": "When does infrastructure use HBT8018?",
+    "zh": "基建什么时候用 HBT8018？"
+  },
+  "description": {
+    "en": "HBT8018 prints 132 kW, 60 m³/h, 40 MPa, conveying 150 m, delivery height 450 m and aggregate 4 cm and below, for infrastructure and high-rise pours.",
+    "zh": "HBT8018 印了 132 kW、60 m³/h、40 MPa、输送 150 m、输送高度 450 m、骨料 4 cm 及以下，用于基建与高层浇筑。"
+  },
+  "h1": {
+    "en": "When does infrastructure use HBT8018?",
+    "zh": "基建什么时候用 HBT8018？"
+  },
+  "directAnswer": {
+    "en": "When the job matches the HBT8018 cells, not the 900 m Electric 80 cells. Hebei Pinjin Machinery in Xingtai lists HBT8018 / HBT8018-132S for high-output trailer pumping, infrastructure and high-rise pours, and jobs listed at 60 m³/h. The table is 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg.",
+    "zh": "工况对得上 HBT8018 的格子，而不是电动80的 900 m。邢台河北品锦机械把 HBT8018 / HBT8018-132S 列为大排量拖式泵送、基建与高层浇筑，以及目录 60 m³/h 的工程。表是 132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "150 m is conveying distance, 450 m is height",
+        "zh": "150 米是输送距离，450 米是高度"
+      },
+      "body": {
+        "en": "Do not swap them, and do not call 150 m the same as Electric 80’s 900 m horizontal. Both pages print 60 m³/h and 40 MPa. Aggregate is wider here (4 cm and below) than Electric 80’s 2 cm limit. The motor is 132 kW, so this is still a grid-powered trailer pump.",
+        "zh": "不要把它们对调，也不要把 150 m 说成电动80的水平 900 m。两页都印 60 m³/h 和 40 MPa。这里的骨料更宽（4 cm 及以下），电动80限在 2 cm。电机是 132 kW，所以它仍是有电网的拖泵。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Off-grid high output is not this page",
+        "zh": "无电网的大排量不是这一页"
+      },
+      "body": {
+        "en": "Diesel 120 prints 100 m³/h, 150 m / 500 m and twin 145 kW diesels. LZ-80 prints up to 95 m³/h in the low-pressure mode and aggregate 6 cm and below. Use those when the infrastructure site cannot feed 132 kW. HBT8018 does not become a diesel pump by changing the fuel story.",
+        "zh": "柴油120印的是 100 m³/h、150 m / 500 m、双机 145 kW 柴油机。LZ-80 在低压模式印到 95 m³/h，骨料 6 cm 及以下。基建现场供不起 132 kW 时用那两台。HBT8018 不会因为改口燃料就变成柴油泵。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Say whether the limiting number is 150 m conveying, 450 m height, 4 cm stone or the 132 kW supply. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请说明限制你的是输送 150 m、高度 450 m、4 cm 石子，还是 132 kW 电源。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is HBT8018 the same code as Electric 80?",
+        "zh": "HBT8018 和电动80是同一个代号吗？"
+      },
+      "answer": {
+        "en": "No. HBT8018 prints HBT8018-132S. Electric 80 and HBT80-16 print HBT80-1816-110.",
+        "zh": "不是。HBT8018 印的是 HBT8018-132S。电动80和 HBT80-16 印的是 HBT80-1816-110。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does 60 m³/h require 2 cm stone?",
+        "zh": "60 m³/h 必须是 2 cm 石子吗？"
+      },
+      "answer": {
+        "en": "On Electric 80 the aggregate cell is ≤ 2 cm. On HBT8018 it is 4 cm and below. Keep the page you opened.",
+        "zh": "在电动80上骨料格是 ≤ 2 cm。在 HBT8018 上是 4 cm 及以下。停在你打开的那一页。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a project name required?",
+        "zh": "必须有项目名称吗？"
+      },
+      "answer": {
+        "en": "No. Send metres, stone and power.",
+        "zh": "不必须。发送米数、石子和动力即可。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/hbt8018-infrastructure-output-and-height.webp",
+    "alt": {
+      "en": "HBT8018 concrete pump from Hebei Pinjin Machinery for infrastructure output and delivery height",
+      "zh": "河北品锦机械 HBT8018 混凝土泵，用于基建输送量与输送高度对照"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/hbt8018-concrete-pump",
+      "label": {
+        "en": "HBT8018 Concrete Pump",
+        "zh": "HBT8018混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-80-concrete-pump",
+      "label": {
+        "en": "Electric 80 Concrete Pump",
+        "zh": "电动80型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-120-concrete-pump",
+      "label": {
+        "en": "Diesel 120 Concrete Pump",
+        "zh": "柴油120型混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/infrastructure",
+      "label": {
+        "en": "Infrastructure pumping",
+        "zh": "基建泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/hbt8018-concrete-pump",
+    "https://pinjinpump.com/solutions/infrastructure",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

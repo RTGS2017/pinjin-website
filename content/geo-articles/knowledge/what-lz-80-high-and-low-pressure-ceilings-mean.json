@@ -1,0 +1,124 @@
+{
+  "slug": "what-lz-80-high-and-low-pressure-ceilings-mean",
+  "category": "knowledge",
+  "keyword": {
+    "en": "LZ-80 high pressure and low pressure output",
+    "zh": "LZ-80高压和低压产量是什么意思"
+  },
+  "title": {
+    "en": "What the LZ-80 High and Low Pressure Ceilings Mean",
+    "zh": "LZ-80的高压和低压上限是什么意思"
+  },
+  "description": {
+    "en": "LZ-80 prints two linked ceilings: higher pressure with a lower output cap, and lower pressure with a higher output cap.",
+    "zh": "LZ-80 印了两档连在一起的上限：压力更高时产量上限更低，压力更低时产量上限更高。"
+  },
+  "h1": {
+    "en": "What the LZ-80 High and Low Pressure Ceilings Mean",
+    "zh": "LZ-80的高压和低压上限是什么意思"
+  },
+  "directAnswer": {
+    "en": "On the LZ-80 concrete pump, Hebei Pinjin Machinery in Xingtai prints two ceilings rather than one output. High pressure is ≤ 65 m³/h and ≤ 35 MPa. Low pressure is ≤ 95 m³/h and ≤ 22 MPa. The ≤ sign is part of each cell. The page does not print a switching procedure. Delivery height on the same sheet says consult factory standard, so it is not a metre taken from another pump.",
+    "zh": "在 LZ-80 混凝土泵上，河北品锦机械在邢台印的是两档上限，而不是一个产量。高压为 ≤ 65 m³/h 和 ≤ 35 MPa。低压为 ≤ 95 m³/h 和 ≤ 22 MPa。≤ 是每一格的一部分。该页没有印切换步骤。同一页的输送高度写咨询工厂标准，所以它不是从别的泵借来的米数。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "How the two lines are paired",
+        "zh": "两行怎样配对"
+      },
+      "body": {
+        "en": "The output cell and the pressure cell both say high pressure and low pressure. Higher printed pressure sits with the lower output cap. Lower printed pressure sits with the higher output cap. Hebei Pinjin Machinery does not print a third mode. The engine line is 256 kW (Yuchai), which is not one of those ceilings.",
+        "zh": "产量格和压力格都写了高压和低压。印出的较高压力对应较低的产量上限。印出的较低压力对应较高的产量上限。河北品锦机械没有印第三种模式。发动机行是 256 kW（玉柴），它不是这两档上限。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What is not a procedure",
+        "zh": "什么不是操作步骤"
+      },
+      "body": {
+        "en": "The sheet names the ceilings. It does not say which lever, valve or speed selects a mode, and it does not give a time or a temperature. Do not invent that sequence. Questions about an unpublished step go to /en/contact/.",
+        "zh": "参数页给出上限。它没有说哪个手柄、阀门或转速用来选择模式，也没有给出时间或温度。不要编造这套顺序。未公布步骤的问题请发到 /zh/contact/。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Height stays non-numeric",
+        "zh": "高度仍然不是数字"
+      },
+      "body": {
+        "en": "Do not fill consult factory standard with LZ-60's 300 m or Diesel 120's 500 m. Those metres are printed on other concrete pumps. The LZ-80 hopper is 0.6 m³ and aggregate is 6 cm and below, which are numeric cells and should not be confused with the height line.",
+        "zh": "不要用 LZ-60 的 300 m 或柴油120的 500 m 去填“咨询工厂标准”。那些米数印在别的混凝土泵上。LZ-80 的料斗是 0.6 m³，骨料是 6 cm 及以下，它们是数字格，不要和高度行混在一起。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Which output is the high-pressure cap?",
+        "zh": "高压档的产量上限是多少？"
+      },
+      "answer": {
+        "en": "≤ 65 m³/h, printed with ≤ 35 MPa.",
+        "zh": "≤ 65 m³/h，和 ≤ 35 MPa 印在一起。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which output is the low-pressure cap?",
+        "zh": "低压档的产量上限是多少？"
+      },
+      "answer": {
+        "en": "≤ 95 m³/h, printed with ≤ 22 MPa.",
+        "zh": "≤ 95 m³/h，和 ≤ 22 MPa 印在一起。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the page explain how to change mode?",
+        "zh": "页面说明如何切换模式吗？"
+      },
+      "answer": {
+        "en": "No. Hebei Pinjin Machinery prints the ceilings only.",
+        "zh": "没有。河北品锦机械只印了上限。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the delivery height 300 m?",
+        "zh": "输送高度是 300 m 吗？"
+      },
+      "answer": {
+        "en": "No. The LZ-80 cell says consult factory standard.",
+        "zh": "不是。LZ-80 这一格写的是咨询工厂标准。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/what-lz-80-high-and-low-pressure-ceilings-mean-pinjin.webp",
+    "alt": {
+      "en": "What the LZ-80 High and Low Pressure Ceilings Mean, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "LZ-80的高压和低压上限是什么意思，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/lz-60-diesel-concrete-pump/",
+    "/zh/products/lz-60-diesel-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "draft"
+}

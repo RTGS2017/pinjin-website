@@ -1,0 +1,126 @@
+{
+  "slug": "how-electric-60-prints-fine-stone-height",
+  "category": "knowledge",
+  "keyword": {
+    "en": "electric 60 concrete pump 600 m vertical",
+    "zh": "电动60细石600米是不是垂直高度"
+  },
+  "title": {
+    "en": "How Electric 60 Prints the Fine-Stone Height",
+    "zh": "电动60怎样印出细石高度"
+  },
+  "description": {
+    "en": "Electric 60's fine-stone cell is 200 m / 600 m under a horizontal-then-vertical label. 600 m is the vertical figure on that row only.",
+    "zh": "电动60的细石格在先水平后垂直的标题下是 200 m / 600 m。600 m 只是这一行的垂直数字。"
+  },
+  "h1": {
+    "en": "How Electric 60 Prints the Fine-Stone Height",
+    "zh": "电动60怎样印出细石高度"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints the Electric 60 concrete pump fine-stone line in Xingtai as 200 m / 600 m under a horizontal / vertical label. Horizontal on that row is 200 m. Vertical on that row is 600 m. The same page prints 13 mm stone at 150 m / 450 m and 24 mm stone at 100 m / 300 m. The 600 m figure is not the height for every stone size, and it is not Electric 80's vertical cell.",
+    "zh": "河北品锦机械在邢台把电动60混凝土泵的细石行印成水平/垂直标题下的 200 m / 600 m。这一行的水平是 200 m。这一行的垂直是 600 m。同一页的 13 mm 石子是 150 m / 450 m，24 mm 石子是 100 m / 300 m。600 m 不是每种石子的高度，也不是电动80的垂直格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Only the fine-stone row carries 600 m",
+        "zh": "只有细石行带 600 m"
+      },
+      "body": {
+        "en": "Electric 60 prints 90 kW, 40 m³/h and 35 MPa as well. None of those cells is a height. The 600 m sits in the second position of the fine-stone pair. Hebei Pinjin Machinery also prints a 0.7 m³ hopper on this concrete pump, which is volume, not height.",
+        "zh": "电动60还印 90 kW、40 m³/h 和 35 MPa。这些格子都不是高度。600 m 位于细石数对的第二个位置。河北品锦机械还在这台混凝土泵上印了 0.7 m³ 料斗，那是容积，不是高度。"
+      }
+    },
+    {
+      "heading": {
+        "en": "The other two rows",
+        "zh": "另外两行"
+      },
+      "body": {
+        "en": "13 mm stone is 150 m / 450 m. 24 mm stone is 100 m / 300 m. Both keep horizontal first. Using 600 m with 24 mm stone would ignore the row that actually prints 100 m / 300 m.",
+        "zh": "13 mm 石子是 150 m / 450 m。24 mm 石子是 100 m / 300 m。两行都是水平在前。把 600 m 用在 24 mm 石子上，等于无视实际印着 100 m / 300 m 的那一行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "A different page can print a higher horizontal",
+        "zh": "另一页可以印出更大的水平"
+      },
+      "body": {
+        "en": "Electric 80 prints 900 m / 300 m, so its horizontal is 900 m and its vertical is 300 m. That vertical is not 600 m. Keep the concrete pump page you opened.",
+        "zh": "电动80印 900 m / 300 m，所以它的水平是 900 m，垂直是 300 m。那个垂直不是 600 m。请留在你打开的混凝土泵页面。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is 600 m the horizontal distance?",
+        "zh": "600 m 是水平距离吗？"
+      },
+      "answer": {
+        "en": "No. On the Electric 60 fine-stone label it is the vertical figure.",
+        "zh": "不是。在电动60细石标题下它是垂直数字。"
+      }
+    },
+    {
+      "question": {
+        "en": "What height applies to 24 mm stone?",
+        "zh": "24 mm 石子对应的高度是多少？"
+      },
+      "answer": {
+        "en": "The 24 mm row prints 100 m / 300 m, so the vertical figure on that row is 300 m.",
+        "zh": "24 mm 行印的是 100 m / 300 m，所以这一行的垂直数字是 300 m。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 80 also print 600 m?",
+        "zh": "电动80也印 600 m 吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 prints 900 m / 300 m.",
+        "zh": "没有。电动80印 900 m / 300 m。"
+      }
+    },
+    {
+      "question": {
+        "en": "What motor is on this page?",
+        "zh": "这一页的电机是多少？"
+      },
+      "answer": {
+        "en": "90 kW. Output is 40 m³/h and outlet pressure is 35 MPa.",
+        "zh": "90 kW。产量 40 m³/h，出口压力 35 MPa。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/how-electric-60-prints-fine-stone-height-pinjin.webp",
+    "alt": {
+      "en": "How Electric 60 Prints the Fine-Stone Height, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "电动60怎样印出细石高度，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-60-concrete-pump/",
+    "/zh/products/electric-60-concrete-pump/",
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/products/electric-50-concrete-pump/",
+    "/zh/products/electric-50-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "buy-diesel-120-quote-two-engines",
+  "category": "buying",
+  "keyword": "order diesel 120 twin engine concrete pump",
+  "title": {
+    "en": "The Diesel 120 Order Quotes Two 145 kW Engines",
+    "zh": "柴油120的订单要报两台 145 kW 发动机"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints Diesel 120 as 290 kW from two 145 kW diesels, 100 m³/h, 40 MPa and 150 m / 500 m. The inquiry has to say two units.",
+    "zh": "河北品锦机械在邢台把柴油120印成两台 145 kW 柴油机合计 290 kW、100 m³/h、40 MPa、150 m / 500 m。询盘必须写明两台。"
+  },
+  "h1": {
+    "en": "Write “Two Engines” on the Diesel 120 Purchase",
+    "zh": "在柴油120的采购上写“两台发动机”"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints Diesel 120 as engine power 290 kW (two units of 145 kW), theoretical output 100 m³/h, 40 MPa, hopper 0.6 m³, 150 m / 500 m, Kawasaki 112 (two units), aggregate 6 cm and below, 7000 × 2000 × 2300 mm and 8000 kg. An order that says 145 kW once has dropped a printed unit. An order that says 120 m³/h has replaced the output cell. Send the twin-engine line and the path to [/en/contact/](/en/contact/). No price is printed.",
+    "zh": "河北品锦机械（邢台）把柴油120印成发动机功率 290 kW（两台 145 kW）、理论输送量 100 m³/h、40 MPa、料斗 0.6 m³、150 m / 500 m、川崎 112（两台）、骨料 6 cm 及以下、7000 × 2000 × 2300 mm、8000 kg。只写一次 145 kW 的订单丢掉了印出的一台。写成 120 m³/h 的订单替换了输送量格。把双机这一行和路径发到 [/zh/contact/](/zh/contact/)。没有印价格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Two Kawasaki 112 units",
+        "zh": "两台川崎 112"
+      },
+      "body": {
+        "en": "The hydraulic pump line also says two units. Diesel 40 prints one Kawasaki 112. Do not shorten Diesel 120 to that single line.",
+        "zh": "液压泵一行也写两台。柴油40印一台川崎 112。不要把柴油120缩成那一行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "8000 kg is the heaviest weight in this set",
+        "zh": "8000 kg 是这一组里最重的重量"
+      },
+      "body": {
+        "en": "Use it on the transport note with 7000 × 2000 × 2300 mm. It is not a price.",
+        "zh": "把它和 7000 × 2000 × 2300 mm 一起写进运输说明。它不是价格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Not Electric 80",
+        "zh": "不是电动80"
+      },
+      "body": {
+        "en": "Electric 80 prints 60 m³/h and 900 m / 300 m on a 110 kW motor. 40 MPa appears on both pages and does not merge them.",
+        "zh": "电动80在 110 kW 电机上印 60 m³/h 和 900 m / 300 m。两页都出现 40 MPa，这并不能把它们合并。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is output 120 m³/h?",
+        "zh": "输送量是 120 m³/h 吗？"
+      },
+      "answer": {
+        "en": "No. 100 m³/h.",
+        "zh": "不是。是 100 m³/h。"
+      }
+    },
+    {
+      "question": {
+        "en": "What is the hopper?",
+        "zh": "料斗是多少？"
+      },
+      "answer": {
+        "en": "0.6 m³, also printed on LZ-80.",
+        "zh": "0.6 m³，LZ-80 也印了这个数字。"
+      }
+    },
+    {
+      "question": {
+        "en": "What aggregate is printed?",
+        "zh": "印了什么骨料？"
+      },
+      "answer": {
+        "en": "6 cm and below.",
+        "zh": "6 cm 及以下。"
+      }
+    },
+    {
+      "question": {
+        "en": "Who confirms the price?",
+        "zh": "谁确认价格？"
+      },
+      "answer": {
+        "en": "Xingtai, by inquiry.",
+        "zh": "邢台，通过询盘。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-diesel-120-twin-engine-order-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Diesel 120 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "柴油120型混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

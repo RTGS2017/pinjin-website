@@ -2,6 +2,7 @@ import { LocaleLink } from '@/i18n/navigation';
 import { useI18n } from '@/i18n/I18nContext';
 import type { TopicCluster, TopicLink } from '@/data/topicClusters';
 import { getBlogPost, isIndexablePost, postAvailableInLang } from '@/data/blog';
+import { blogDisplayTitle } from '@/seo/documentCopy';
 
 interface InternalLinkProps {
   href: string;
@@ -44,7 +45,7 @@ function LinkGroup({
         {visible.map((item) => (
           <li key={item.href}>
             <InternalLink href={item.href}>
-              {lang === 'zh' ? item.zh : item.en}
+              {blogDisplayTitle(lang === 'zh' ? item.zh : item.en)}
             </InternalLink>
           </li>
         ))}

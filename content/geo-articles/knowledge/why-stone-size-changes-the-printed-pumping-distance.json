@@ -1,0 +1,140 @@
+{
+  "slug": "why-stone-size-changes-the-printed-pumping-distance",
+  "category": "knowledge",
+  "keyword": {
+    "en": "why concrete pump distance changes with stone size",
+    "zh": "石子粒径不同时混凝土泵距离为什么分几行"
+  },
+  "title": {
+    "en": "Why Stone Size Changes the Printed Pumping Distance",
+    "zh": "石子粒径不同时，印出的泵送距离为什么要分行"
+  },
+  "description": {
+    "en": "Some Xingtai concrete pumps print a fine-stone distance and a shorter row for coarser stone. Use the row that matches the printed heading.",
+    "zh": "邢台有的混凝土泵把细石距离和更粗石子的更短距离分成几行。用与标题相符的那一行。"
+  },
+  "h1": {
+    "en": "Why Stone Size Changes the Printed Pumping Distance",
+    "zh": "石子粒径不同时，印出的泵送距离为什么要分行"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints more than one distance row on some concrete pumps in Xingtai. Electric 30 prints fine-stone 60 m / 180 m and aggregate-13 20 m / 60 m. Electric 50, Electric 60 and Electric Low Pressure 60 add a 24 mm stone row. Electric 80 does not. It prints one pair, 900 m / 300 m, beside aggregate 24 mm (≤ 2 cm). The coarse-stone row is not the fine-stone row with the numbers reused.",
+    "zh": "河北品锦机械在邢台的部分混凝土泵上印了不止一行距离。电动30的细石为 60 m / 180 m，13骨料为 20 m / 60 m。电动50、电动60和电动低压60另有 24 mm 石子行。电动80没有。它只印一组 900 m / 300 m，旁边的骨料是 24 mm（≤ 2 cm）。粗石子那一行不是把细石数字再抄一遍。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Two-row pages and three-row pages",
+        "zh": "两行页面和三行页面"
+      },
+      "body": {
+        "en": "Electric 30 and Electric 40 print a fine-stone row and an aggregate-13 row. Electric 50 prints fine stone 150 m / 350 m, 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. Electric 60 prints fine stone 200 m / 600 m, 13 mm 150 m / 450 m and 24 mm 100 m / 300 m. The diesel mixer prints three rows too, with the first written as 100 / 300 m. Hebei Pinjin Machinery does not say these rows are interchangeable.",
+        "zh": "电动30和电动40印细石行和 13 骨料行。电动50印细石 150 m / 350 m、13 mm 石子 80 m / 240 m、24 mm 石子 60 m / 180 m。电动60印细石 200 m / 600 m、13 mm 150 m / 450 m、24 mm 100 m / 300 m。柴油搅拌泵也印三行，第一行写成 100 / 300 m。河北品锦机械没有说这些行可以互换。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pages that keep a single distance pair",
+        "zh": "只保留一组距离的页面"
+      },
+      "body": {
+        "en": "Electric 20 prints one pair, 120 m / 40 m, with aggregate 1–2 cm. Diesel 30 prints one pair, 60 m / 180 m, with aggregate 3 cm and below. Electric 80 prints one pair and a 24 mm aggregate note, not three rows. Do not paste Electric 60's 200 m / 600 m onto those single-pair pages.",
+        "zh": "电动20只有一组 120 m / 40 m，骨料 1–2 cm。柴油30只有一组 60 m / 180 m，骨料 3 cm 及以下。电动80只有一组距离，并有 24 mm 骨料说明，不是三行。不要把电动60的 200 m / 600 m 贴到这些单组页面上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to pick the row",
+        "zh": "怎样选行"
+      },
+      "body": {
+        "en": "Match the stone description in the row heading. If the page has no row for the stone you need, the cell is missing. Ask through /en/contact/ rather than scaling a fine-stone pair by guesswork. The factory is in Xingtai.",
+        "zh": "对照行标题里的石子说法。如果页面没有你需要的石子行，这一格就是缺失的。请通过 /zh/contact/ 询问，不要靠猜测去缩放细石数对。工厂在邢台。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does Electric 30 print a 24 mm row?",
+        "zh": "电动30印 24 mm 行吗？"
+      },
+      "answer": {
+        "en": "No. Electric 30 prints fine stone and aggregate-13 only, plus a maximum aggregate of ≤ 3 cm.",
+        "zh": "没有。电动30只印细石和 13 骨料，另有最大骨料 ≤ 3 cm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Where is 200 m / 600 m printed?",
+        "zh": "200 m / 600 m 印在哪里？"
+      },
+      "answer": {
+        "en": "On the Electric 60 fine-stone row. It is not the 13 mm row and not the 24 mm row.",
+        "zh": "在电动60的细石行。它不是 13 mm 行，也不是 24 mm 行。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric 80 use three stone rows?",
+        "zh": "电动80用三行石子距离吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80 prints one H / V pair, 900 m / 300 m, and aggregate 24 mm (≤ 2 cm).",
+        "zh": "不用。电动80只印一组水平/垂直 900 m / 300 m，骨料为 24 mm（≤ 2 cm）。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can I reuse a fine-stone pair for coarser stone?",
+        "zh": "可以把细石数对用到更粗的石子吗？"
+      },
+      "answer": {
+        "en": "Not from these sheets. When a coarser row exists, it prints its own metres. When it does not exist, leave it blank.",
+        "zh": "不能按这些参数页这样做。有更粗石子行时，它印自己的米数。没有这一行时，保持空白。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/why-stone-size-changes-the-printed-pumping-distance-pinjin.webp",
+    "alt": {
+      "en": "Why Stone Size Changes the Printed Pumping Distance, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "石子粒径不同时，印出的泵送距离为什么要分行，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-30-concrete-pump/",
+    "/zh/products/electric-30-concrete-pump/",
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/products/electric-50-concrete-pump/",
+    "/zh/products/electric-50-concrete-pump/",
+    "/en/products/electric-60-concrete-pump/",
+    "/zh/products/electric-60-concrete-pump/",
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/products/diesel-mixer-integrated-pump/",
+    "/zh/products/diesel-mixer-integrated-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "draft"
+}

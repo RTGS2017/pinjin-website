@@ -104,6 +104,8 @@ SPRAYING = [
     "double-cylinder-plunger-mortar-spraying-machine",
     "type-311-mortar-spraying-machine",
     "type-511-mortar-spraying-machine",
+    "type-511-diesel-mortar-spraying-machine",
+    "german-type-mortar-spraying-machine",
 ]
 
 NAMES = {
@@ -150,6 +152,8 @@ NAMES = {
     "double-cylinder-plunger-mortar-spraying-machine": "Double-Cylinder Plunger Mortar Spraying Machine",
     "type-311-mortar-spraying-machine": "Type 311 Mortar Spraying Machine",
     "type-511-mortar-spraying-machine": "Type 511 Mortar Spraying Machine",
+    "type-511-diesel-mortar-spraying-machine": "Type 511 Diesel Mortar Spraying Machine",
+    "german-type-mortar-spraying-machine": "German Type Mortar Spraying Machine",
 }
 
 CATEGORY_HUBS = [
@@ -179,7 +183,7 @@ HUB_TITLES = {
     "spraying-machines": (
         "Spraying machines",
         "喷涂机",
-        "Hydraulic/diesel concrete sprayers and plaster spraying machines.",
+        "Hydraulic/diesel concrete sprayers, mortar sprayers and plaster spraying machines.",
     ),
     "concrete-pump-parts": (
         "Concrete pump spare parts",
@@ -384,6 +388,37 @@ def page_paths() -> list[str]:
 CONTENT_SOURCED = Path(__file__).resolve().parents[1] / "content" / "sourced"
 
 
+CONTENT_GEO = Path(__file__).resolve().parents[1] / "content" / "geo-articles"
+
+
+def load_geo_blogs() -> list[dict]:
+    """Bilingual catalogue articles under content/geo-articles."""
+    out: list[dict] = []
+    if not CONTENT_GEO.is_dir():
+        return out
+    for folder in sorted(path for path in CONTENT_GEO.iterdir() if path.is_dir()):
+        for src in sorted(folder.glob("*.json")):
+            if src.name == "manifest.json":
+                continue
+            data = json.loads(src.read_text(encoding="utf-8"))
+            slug = data.get("slug")
+            title = (data.get("title") or {}).get("en") if isinstance(data.get("title"), dict) else None
+            if not slug or not title or not data.get("sections"):
+                continue
+            image = data.get("image") if isinstance(data.get("image"), dict) else {}
+            out.append(
+                {
+                    "slug": slug,
+                    "langs": ["en", "zh"],
+                    "image": image.get("src"),
+                    "title": title,
+                    "alt_en": (image.get("alt") or {}).get("en") or title,
+                    "alt_zh": (image.get("alt") or {}).get("zh") or title,
+                }
+            )
+    return out
+
+
 def load_sourced_blogs() -> list[dict]:
     """Ready sourced knowledge pages. English unless source.json sets indexLangs."""
     out: list[dict] = []
@@ -418,6 +453,11 @@ def sitemap_entries() -> list[dict]:
         if any(entry["rest"] == rest for entry in entries):
             continue
         entries.append({"rest": rest, "langs": item.get("langs") or ["en"]})
+    for item in load_geo_blogs():
+        rest = f"/blog/{item['slug']}"
+        if any(entry["rest"] == rest for entry in entries):
+            continue
+        entries.append({"rest": rest, "langs": item.get("langs") or ["en", "zh"]})
     return entries
 
 
@@ -817,6 +857,25 @@ def write_image_sitemap(base: str, slugs: list[str]) -> int:
             lines.append("  </url>")
             url_count += 1
 
+        for blog in load_geo_blogs():
+            image = blog.get("image")
+            if not image:
+                continue
+            title = blog["title"]
+            alt = blog.get("alt_zh") if lang == "zh" else blog.get("alt_en")
+            lines += [
+                "  <url>",
+                f"    <loc>{base}/{lang}/blog/{blog['slug']}/</loc>",
+                f"    <lastmod>{LASTMOD}</lastmod>",
+            ]
+            lines += image_nodes(
+                f"{base}{image}" if str(image).startswith("/") else f"{base}/{image}",
+                title,
+                alt or f"{title} — Hebei Pinjin Machinery",
+            )
+            lines.append("  </url>")
+            url_count += 1
+
     lines.append("</urlset>")
     (ROOT / "image-sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return url_count
@@ -1083,6 +1142,12 @@ def write_llms_txt(base: str) -> int:
             continue
         listed_blogs.add(slug)
         lines.append(md_item(title, en(f"/blog/{slug}"), note or "Xingtai catalogue knowledge page."))
+    for blog in load_geo_blogs():
+        slug = blog["slug"]
+        if slug in listed_blogs:
+            continue
+        listed_blogs.add(slug)
+        lines.append(md_item(blog["title"], en(f"/blog/{slug}"), "Xingtai catalogue note."))
 
     lines += [
         "",
@@ -1137,7 +1202,7 @@ def write_llms_txt(base: str) -> int:
     chars = len(text)
     if chars < 8000:
         raise SystemExit(f"llms.txt too thin for agent context ({chars} chars)")
-    if chars > 80000:
+    if chars > 200000:
         raise SystemExit(f"llms.txt too long; trim notes ({chars} chars)")
     (ROOT / "llms.txt").write_text(text, encoding="utf-8")
     print(f"wrote public/llms.txt links={link_count} chars={chars}")

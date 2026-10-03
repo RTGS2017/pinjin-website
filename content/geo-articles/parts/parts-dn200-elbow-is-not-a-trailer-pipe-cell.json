@@ -1,0 +1,162 @@
+{
+  "slug": "parts-dn200-elbow-is-not-a-trailer-pipe-cell",
+  "category": "parts",
+  "keyword": "DN200 elbow versus printed trailer pipe diameter",
+  "title": {
+    "en": "Why the DN200 elbow is not the trailer pipe DN",
+    "zh": "为什么 DN200 弯管不是拖泵管径"
+  },
+  "description": {
+    "en": "The Xingtai elbow is labelled DN200 R275 90°. Published trailer and mixer pipe cells are 80 mm, 100–125 mm or 100 / 125 mm. The elbow page does not rewrite those cells.",
+    "zh": "邢台弯管铭牌是 DN200 R275 90°。已公布拖泵和搅拌泵的管径格是 80 mm、100–125 mm 或 100 / 125 mm。弯管页没有改写那些格子。"
+  },
+  "h1": {
+    "en": "DN200 elbow and the printed trailer pipe cells",
+    "zh": "DN200 弯管与已印拖泵管径"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery publishes one elbow size, DN200 R275 90°, and six pump pages with a smaller delivery-pipe cell. Buying the elbow does not set Electric 20, Electric 15, the Integrated Mixer Pump, HBT8018, HBT80-16 or LZ-60 to DN200.",
+    "zh": "河北品锦机械公布了一种弯管尺寸 DN200 R275 90°，另有六台泵的输送管格更小。购买这件弯管不会把电动20、电动15、搅拌泵一体机、HBT8018、HBT80-16 或 LZ-60 改成 DN200。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Two different catalogue objects",
+        "zh": "目录里的两件不同物品"
+      },
+      "body": {
+        "en": "The elbow page prints DN200, R275, 90°, a pump-truck label and a heel bracket. The straight-pipe page prints a red pipe with coupling ends and no fixed DN. Diameter for a straight pipe is read from the pump sheet that actually has the cell.",
+        "zh": "弯管页印 DN200、R275、90°、泵车铭牌和弯头支架。直管页印的是带快接端的红管，没有固定公称直径。直管直径只读真正印了这一格的泵页。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Published cells that stay as printed",
+        "zh": "保持原文的已印格子"
+      },
+      "body": {
+        "en": "Electric 20 remains 80 mm. Electric 15 remains 100–125 mm. Integrated Mixer Pump, HBT8018, HBT80-16 and LZ-60 remain 100 / 125 mm. Eighteen other pump pages have no pipe-diameter cell at all. None of those gaps is filled by DN200.",
+        "zh": "电动20仍是 80 mm。电动15仍是 100–125 mm。搅拌泵一体机、HBT8018、HBT80-16 和 LZ-60 仍是 100 / 125 mm。另外十八台泵根本没有管径格。这些空格不能用 DN200 填上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "How to ask for the elbow",
+        "zh": "弯管怎么询"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Quote the elbow as DN200 R275 90°. Quote a straight pipe with the pump model and that model's own cell. Keep the two lines separate.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 弯管按 DN200、R275、90° 询。直管按泵型号和该型号自己的格子询。两行分开写。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can I order a DN125 elbow from this page?",
+        "zh": "能按这一页订 DN125 弯管吗？"
+      },
+      "answer": {
+        "en": "No DN125 elbow page exists. The published elbow is DN200 R275 90° only.",
+        "zh": "没有 DN125 弯管页。已公布的弯管只有 DN200 R275 90°。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the pump-truck label create a boom-pump model?",
+        "zh": "泵车铭牌会生成臂架泵型号吗？"
+      },
+      "answer": {
+        "en": "No. There is no published truck-mounted boom pump page to link.",
+        "zh": "不会。没有可链接的车载臂架泵页面。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is life or wall thickness printed?",
+        "zh": "寿命或壁厚印了吗？"
+      },
+      "answer": {
+        "en": "No. Both are missing fields.",
+        "zh": "没有。两项都是缺字段。"
+      }
+    },
+    {
+      "question": {
+        "en": "Who quotes it?",
+        "zh": "谁报价？"
+      },
+      "answer": {
+        "en": "Hebei Pinjin Machinery in Xingtai, through the contact page.",
+        "zh": "邢台河北品锦机械，通过联系页。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-elbow-dn200-90",
+      "label": {
+        "en": "DN200 90° Concrete Pump Elbow",
+        "zh": "DN200 90度混凝土泵弯管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": {
+        "en": "Concrete Pump Delivery Pipe",
+        "zh": "混凝土泵输送管"
+      }
+    },
+    {
+      "href": "/products/electric-20-concrete-pump",
+      "label": {
+        "en": "Electric 20 Concrete Pump",
+        "zh": "电动20型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: DN200 90° Concrete Pump Elbow",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-elbow-dn200-90/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：DN200 90° Concrete Pump Elbow",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-elbow-dn200-90/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": {
+    "src": "/images/geo/parts/pinjin-parts-dn200-elbow-is-not-a-trailer-pipe-cell.webp",
+    "alt": {
+      "en": "DN200 elbow and the printed trailer pipe cells, 品锦, Hebei Pinjin Machinery, Xingtai",
+      "zh": "DN200 弯管与已印拖泵管径，品锦机械，河北邢台"
+    }
+  }
+}

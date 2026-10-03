@@ -1,0 +1,131 @@
+{
+  "slug": "buy-pressure-cell-before-the-quote",
+  "category": "buying",
+  "keyword": "concrete pump pressure cell on the inquiry",
+  "title": {
+    "en": "Copy the Pressure Cell from the Xingtai Page You Order",
+    "zh": "从你订的邢台页面抄压力格"
+  },
+  "description": {
+    "en": "Outlet pressure at Hebei Pinjin Machinery in Xingtai is page-specific. Electric 20 prints 10 MPa. Electric 15 prints none. LZ-80 prints two limits. The inquiry should show which cell you mean.",
+    "zh": "河北品锦机械在邢台的出口压力按页区分。电动20印 10 MPa。电动15不印。LZ-80 印两个上限。询盘应写明你指的是哪一格。"
+  },
+  "h1": {
+    "en": "The Pressure Figure on the Order Is the Printed Cell",
+    "zh": "订单上的压力数字就是印出的那一格"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints maximum outlet pressure or pumping pressure on most trailer pages and omits it on Electric 15. Electric 20 is 10 MPa. Electric Low Pressure 40 and Electric 30 and Diesel 30 are 20 MPa. Electric 40 is 23 MPa. Diesel 40 is 25 MPa. Electric 50 and Diesel 50 and Electric Low Pressure 60 are 30 MPa. Electric 60 is 35 MPa. Electric 80, HBT80-16, HBT8018 and Diesel 120 are 40 MPa. Copy the cell from the path you name.",
+    "zh": "河北品锦机械（邢台）在大多数拖泵页印最大出口压力或泵送压力，电动15不印。电动20是 10 MPa。电动低压40、电动30和柴油30是 20 MPa。电动40是 23 MPa。柴油40是 25 MPa。电动50、柴油50和电动低压60是 30 MPa。电动60是 35 MPa。电动80、HBT80-16、HBT8018 和柴油120是 40 MPa。从你点名的路径抄这一格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Two pressures on LZ-80",
+        "zh": "LZ-80 上的两个压力"
+      },
+      "body": {
+        "en": "High pressure is ≤ 35 MPa with output ≤ 65 m³/h. Low pressure is ≤ 22 MPa with output ≤ 95 m³/h. An order that says only “35 MPa” has not chosen the mode.",
+        "zh": "高压是 ≤ 35 MPa，输送量 ≤ 65 m³/h。低压是 ≤ 22 MPa，输送量 ≤ 95 m³/h。只写“35 MPa”的订单还没有选定模式。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Electric 15 has no pressure to copy",
+        "zh": "电动15没有压力可抄"
+      },
+      "body": {
+        "en": "The Electric 15 specification list has motor, output, two distances, aggregate, pipe, dimensions and weight. Pressure is absent. Do not insert 10 MPa from Electric 20.",
+        "zh": "电动15的规格列表有电机、输送量、两个距离、骨料、管径、外形和重量。没有压力。不要从电动20填入 10 MPa。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Sprayer pressures are not trailer pressures",
+        "zh": "喷涂机压力不是拖泵压力"
+      },
+      "body": {
+        "en": "Hydraulic sprayers print 8 MPa. Type 511 prints 3–5 MPa. Those rows are spraying machines. A trailer order uses the trailer cell. Ask [/en/contact/](/en/contact/) to quote the path.",
+        "zh": "液压喷涂机印 8 MPa。511 印 3–5 MPa。那些行是喷涂机。拖泵订单用拖泵的格子。请 [/zh/contact/](/zh/contact/) 对路径报价。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is 40 MPa unique to one pump?",
+        "zh": "40 MPa 只属于一台泵吗？"
+      },
+      "answer": {
+        "en": "No. Electric 80, HBT80-16, HBT8018 and Diesel 120 each print 40 MPa with different other cells.",
+        "zh": "不是。电动80、HBT80-16、HBT8018 和柴油120都印 40 MPa，其他格子不同。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does higher pressure rewrite distance?",
+        "zh": "更高的压力会改写距离吗？"
+      },
+      "answer": {
+        "en": "No. Distance stays on its own label. Do not calculate a new metre figure.",
+        "zh": "不会。距离留在它自己的标题上。不要算出一个新米数。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is pressure a price factor with a printed coefficient?",
+        "zh": "压力是带有已印系数的价格因素吗？"
+      },
+      "answer": {
+        "en": "No coefficient is printed. Price is inquiry-only.",
+        "zh": "没有印系数。价格只通过询盘。"
+      }
+    },
+    {
+      "question": {
+        "en": "What do I send if I do not know pressure?",
+        "zh": "如果我不知道压力，发什么？"
+      },
+      "answer": {
+        "en": "Send the path and the site distances. Do not invent an MPa the page does not show.",
+        "zh": "发送路径和现场距离。不要编造页面没有的 MPa。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-electric-80-pressure-cell-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Electric 80 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "电动80型混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/products/electric-15-concrete-pump/",
+    "/zh/products/electric-15-concrete-pump/",
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,123 @@
+{
+  "slug": "buy-m9-plaster-order-is-not-a-pump",
+  "category": "buying",
+  "keyword": "buy M9 plaster sprayer not a concrete pump",
+  "title": {
+    "en": "An M9 Order Is a Plaster Sprayer, Counted in Litres per Minute",
+    "zh": "M9 的订单是石膏喷涂机，单位是升每分钟"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints the M9 at 30 L/min, 380 V / 50 Hz, hose 25 mm and particle ≤4 mm. That is not a trailer pump’s m³/h cell.",
+    "zh": "河北品锦机械在邢台把 M9 印成 30 L/min、380 V / 50 Hz、软管 25 mm、粒径 ≤4 mm。这不是拖泵的 m³/h 格子。"
+  },
+  "h1": {
+    "en": "Buy the M9 Only If the Sheet’s Units Match",
+    "zh": "只有单位对得上，才购买 M9"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai lists the M9 automatic plaster spraying machine apart from concrete pumps. The buying cells are 380 V / 50 Hz, 30 L/min, 50 bar, hose 25 mm, hopper 115 L, loading height 90 cm, 50 m / 20 m and particle ≤4 mm. The frame printed in the product introduction is 1230 × 720 × 1550 mm and 200 kg. If your order is in m³/h of concrete, this is the wrong page. The page is quote-only.",
+    "zh": "河北品锦机械（邢台）把 M9 自动石膏喷涂机与混凝土泵分开列出。采购格是 380 V / 50 Hz、30 L/min、50 bar、软管 25 mm、料斗 115 L、装料高度 90 cm、50 m / 20 m、粒径 ≤4 mm。产品介绍里印的外形是 1230 × 720 × 1550 mm、200 kg。如果你的订单是混凝土的 m³/h，这一页就不对。该页只询价。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Do not convert 30 L/min into a pump name",
+        "zh": "不要把 30 L/min 换成泵的名称"
+      },
+      "body": {
+        "en": "The figure 30 on this sheet is litres per minute, not Diesel 30 and not Electric 30. Those trailer pages use m³/h.",
+        "zh": "这一页上的 30 是升每分钟，不是柴油30，也不是电动30。那些拖泵页用的是 m³/h。"
+      }
+    },
+    {
+      "heading": {
+        "en": "50 Hz is printed on M9",
+        "zh": "M9 印了 50 Hz"
+      },
+      "body": {
+        "en": "M9 is one of the pages that prints both voltage and frequency: 380 V / 50 Hz. Most trailer electric pages do not. Do not paste this pair onto Electric 20.",
+        "zh": "M9 是同时印出电压和频率的页面之一：380 V / 50 Hz。多数电动拖泵页没有。不要把这一对贴到电动20上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Inquiry line",
+        "zh": "询盘一行"
+      },
+      "body": {
+        "en": "“M9 path, plaster, ≤4 mm, 30 L/min, 380 V / 50 Hz.” Send it to [/en/contact/](/en/contact/). Hebei Pinjin Machinery has no printed M9 price.",
+        "zh": "“M9 路径，石膏，≤4 mm，30 L/min，380 V / 50 Hz。”发到 [/zh/contact/](/zh/contact/)。河北品锦机械没有印出的 M9 价格。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is the hopper 115 L a concrete-pump hopper?",
+        "zh": "115 L 料斗是混凝土泵料斗吗？"
+      },
+      "answer": {
+        "en": "No. It is the M9 plaster hopper.",
+        "zh": "不是。它是 M9 的石膏料斗。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 50 bar the same as 5 MPa on a trailer?",
+        "zh": "50 bar 等于拖泵上的 5 MPa 吗？"
+      },
+      "answer": {
+        "en": "Do not convert it. The sheet prints 50 bar. Trailer pages print MPa on their own cells.",
+        "zh": "不要换算。该页印的是 50 bar。拖泵页在自己的格子里印 MPa。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can I order M9 for 4 cm aggregate?",
+        "zh": "能用 M9 订 4 cm 骨料吗？"
+      },
+      "answer": {
+        "en": "The M9 particle cell is ≤4 mm, not 4 cm.",
+        "zh": "M9 的粒径格是 ≤4 mm，不是 4 cm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Who quotes it?",
+        "zh": "谁报价？"
+      },
+      "answer": {
+        "en": "Xingtai, by inquiry.",
+        "zh": "邢台，通过询盘。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-m9-plaster-sprayer-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "M9 plaster spraying machine manufactured by Hebei Pinjin Machinery, a Xingtai manufacturer",
+      "zh": "M9 石膏喷涂机，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/m9-automatic-plaster-spraying-machine/",
+    "/zh/products/m9-automatic-plaster-spraying-machine/",
+    "/en/products/spraying-machines/",
+    "/zh/products/spraying-machines/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/m9-automatic-plaster-spraying-machine/",
+    "https://pinjinpump.com/zh/products/m9-automatic-plaster-spraying-machine/",
+    "https://pinjinpump.com/en/products/spraying-machines/",
+    "https://pinjinpump.com/zh/products/spraying-machines/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

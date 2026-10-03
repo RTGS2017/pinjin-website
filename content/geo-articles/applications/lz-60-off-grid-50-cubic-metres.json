@@ -1,0 +1,135 @@
+{
+  "slug": "lz-60-off-grid-50-cubic-metres",
+  "category": "application",
+  "keyword": "LZ-60 off-grid concrete pump",
+  "title": {
+    "en": "Is LZ-60 the 50 m³/h off-grid pump?",
+    "zh": "LZ-60 是那台 50 m³/h 的无电网泵吗？"
+  },
+  "description": {
+    "en": "Yes for that diesel page: 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below. HBT80-16 is the electric 50 m³/h page.",
+    "zh": "是这一页柴油泵：145 kW、50 m³/h、35 MPa、输送 100 m、高度 300 m、骨料 4 cm 及以下。HBT80-16 才是电动的 50 m³/h 页。"
+  },
+  "h1": {
+    "en": "Is LZ-60 the 50 m³/h off-grid pump?",
+    "zh": "LZ-60 是那台 50 m³/h 的无电网泵吗？"
+  },
+  "directAnswer": {
+    "en": "Yes. Hebei Pinjin Machinery in Xingtai prints LZ-60 for sites without stable grid power at 50 m³/h, 6105 / 145 kW, 35 MPa, conveying 100 m, delivery height 300 m, aggregate 4 cm and below and 5500 kg. The other 50 m³/h page is electric HBT80-16, which needs 110 kW and prints a different distance. Off-grid work stays on LZ-60.",
+    "zh": "是。邢台河北品锦机械把 LZ-60 印给电网不便的工地：50 m³/h、6105 / 145 kW、35 MPa、输送 100 m、输送高度 300 m、骨料 4 cm 及以下、5500 kg。另一张 50 m³/h 的页面是电动 HBT80-16，它需要 110 kW，距离也不同。无电网作业留在 LZ-60。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "4 cm is printed here",
+        "zh": "这里印了 4 cm"
+      },
+      "body": {
+        "en": "That aggregate cell is a reason to open LZ-60 rather than Diesel 60, which shares a code string but does not print this aggregate cell and prints 35 m³/h. Stone above 4 cm leaves LZ-60 for LZ-80 or Diesel 120, both at 6 cm and below, if their distance cells also fit.",
+        "zh": "这个骨料格是打开 LZ-60 而不是柴油60的理由。柴油60共用一串代号，但没有这个骨料格，输送量是 35 m³/h。石子超过 4 cm，就离开 LZ-60，去看 LZ-80 或柴油120，两台都是 6 cm 及以下，前提是它们的距离格也对。"
+      }
+    },
+    {
+      "heading": {
+        "en": "100 m conveying is the horizontal-style limit on this page",
+        "zh": "这一页的输送距离上限是 100 m"
+      },
+      "body": {
+        "en": "Do not replace it with Diesel 60’s 150 m / 350 m. The height cell is 300 m, not Diesel 120’s 500 m. A longer off-grid vertical listing is a different model.",
+        "zh": "不要用柴油60的 150 m / 350 m 替换它。高度格是 300 m，不是柴油120的 500 m。更长的无电网垂直列出是另一个型号。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "State 4 cm or below, 100 m conveying and no grid, if that is the match you want checked. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "如果这就是你要核对的匹配，请写明 4 cm 及以下、输送 100 m、无电网。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What pipe diameter is printed?",
+        "zh": "印了什么管径？"
+      },
+      "answer": {
+        "en": "100 / 125 mm.",
+        "zh": "100 / 125 mm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the size in metres?",
+        "zh": "外形是用米标的吗？"
+      },
+      "answer": {
+        "en": "Yes. 6.6 × 1.8 × 1.9 m, as printed, and total weight 5500 kg.",
+        "zh": "是。印的是 6.6 × 1.8 × 1.9 m，总重 5500 kg。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does off-grid include the tractor 4100 at 50 m³/h?",
+        "zh": "无电网包含 50 m³/h 的拖拉机4100吗？"
+      },
+      "answer": {
+        "en": "No. The 4100 prints 6–12 m³/h.",
+        "zh": "不包含。4100 印的是 6–12 m³/h。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/lz-60-off-grid-50-cubic-metres.webp",
+    "alt": {
+      "en": "LZ-60 diesel concrete pump from Xingtai for off-grid pumping at 50 cubic metres per hour",
+      "zh": "邢台 LZ-60 柴油混凝土泵，无电网泵送，理论输送量每小时50立方米"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/lz-60-diesel-concrete-pump",
+      "label": {
+        "en": "LZ-60 Diesel Concrete Pump",
+        "zh": "LZ-60柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/products/hbt80-16-concrete-pump",
+      "label": {
+        "en": "HBT80-16 Concrete Pump",
+        "zh": "HBT80-16混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": {
+        "en": "Diesel concrete pumps",
+        "zh": "柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/industrial-projects",
+      "label": {
+        "en": "Pumping without grid power",
+        "zh": "无电网泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/lz-60-diesel-concrete-pump",
+    "https://pinjinpump.com/solutions/industrial-projects",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

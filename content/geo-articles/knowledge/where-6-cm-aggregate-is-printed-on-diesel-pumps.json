@@ -1,0 +1,132 @@
+{
+  "slug": "where-6-cm-aggregate-is-printed-on-diesel-pumps",
+  "category": "knowledge",
+  "keyword": {
+    "en": "which concrete pump lists 6 cm aggregate",
+    "zh": "哪台混凝土泵印了6厘米骨料"
+  },
+  "title": {
+    "en": "Where 6 cm Aggregate Is Printed",
+    "zh": "6厘米骨料印在哪些泵上"
+  },
+  "description": {
+    "en": "Only LZ-80 and Diesel 120 print maximum aggregate as 6 cm and below. Other pumps do not inherit that cell.",
+    "zh": "只有 LZ-80 和柴油120把最大骨料印成 6 cm 及以下。其他泵不能继承这一格。"
+  },
+  "h1": {
+    "en": "Where 6 cm Aggregate Is Printed",
+    "zh": "6厘米骨料印在哪些泵上"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints maximum aggregate size 6 cm and below on two concrete pumps in Xingtai: LZ-80 and Diesel 120. LZ-60 prints 4 cm and below. Diesel 30 prints 3 cm and below. Electric 80 prints 24 mm (≤ 2 cm). The 6 cm cell is not a family rule for every diesel pump. A page without an aggregate row, such as Diesel 40's specification table, does not receive 6 cm by default.",
+    "zh": "河北品锦机械在邢台的两台混凝土泵上印了最大骨料 6 cm 及以下：LZ-80 和柴油120。LZ-60 印 4 cm 及以下。柴油30印 3 cm 及以下。电动80印 24 mm（≤ 2 cm）。6 cm 不是每台柴油泵的家族规则。规格表没有骨料行的页面，例如柴油40，不会默认得到 6 cm。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The two pages",
+        "zh": "这两页"
+      },
+      "body": {
+        "en": "LZ-80 pairs 6 cm and below with a Yuchai 256 kW engine and two pressure ceilings. Diesel 120 pairs it with 290 kW from two 145 kW units and 100 m³/h. Same aggregate wording, different machines.",
+        "zh": "LZ-80 把 6 cm 及以下和玉柴 256 kW 以及两档压力上限放在一起。柴油120把它和两台 145 kW 合计 290 kW、产量 100 m³/h 放在一起。骨料措辞相同，机器不同。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Nearby pages that say something else",
+        "zh": "旁边写了别的内容的页面"
+      },
+      "body": {
+        "en": "HBT8018 and the integrated mixer print 4 cm and below. Electric 20 prints 1–2 cm. B500S-83D prints 5–16 mm as applicable materials. Hebei Pinjin Machinery keeps those wordings on their own pages.",
+        "zh": "HBT8018 和搅拌泵一体机印 4 cm 及以下。电动20印 1–2 cm。B500S-83D 把适用材料印成 5–16 mm。河北品锦机械把这些措辞留在各自页面。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Blank tables stay blank",
+        "zh": "空白的表保持空白"
+      },
+      "body": {
+        "en": "Diesel 40, Diesel 50 and Diesel 60 do not print a maximum-aggregate row in the specification table. Do not fill them with 6 cm. Confirm a mix through /en/contact/.",
+        "zh": "柴油40、柴油50和柴油60的规格表没有最大骨料行。不要用 6 cm 去填。配合比请通过 /zh/contact/ 确认。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Which models print 6 cm and below?",
+        "zh": "哪些型号印 6 cm 及以下？"
+      },
+      "answer": {
+        "en": "LZ-80 and Diesel 120.",
+        "zh": "LZ-80 和柴油120。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does LZ-60 print 6 cm?",
+        "zh": "LZ-60 印 6 cm 吗？"
+      },
+      "answer": {
+        "en": "No. LZ-60 prints 4 cm and below.",
+        "zh": "没有。LZ-60 印 4 cm 及以下。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Diesel 60 print 6 cm?",
+        "zh": "柴油60印 6 cm 吗？"
+      },
+      "answer": {
+        "en": "Its specification table does not print an aggregate size.",
+        "zh": "它的规格表没有印骨料粒径。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 6 cm the same as 24 mm?",
+        "zh": "6 cm 和 24 mm 一样吗？"
+      },
+      "answer": {
+        "en": "No. 24 mm (≤ 2 cm) is the Electric 80 cell. 6 cm and below is a different printed cell.",
+        "zh": "不一样。24 mm（≤ 2 cm）是电动80的格子。6 cm 及以下是另一个印出的格子。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/where-6-cm-aggregate-is-printed-on-diesel-pumps-pinjin.webp",
+    "alt": {
+      "en": "Where 6 cm Aggregate Is Printed, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "6厘米骨料印在哪些泵上，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/products/lz-60-diesel-concrete-pump/",
+    "/zh/products/lz-60-diesel-concrete-pump/",
+    "/en/products/diesel-30-concrete-pump/",
+    "/zh/products/diesel-30-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

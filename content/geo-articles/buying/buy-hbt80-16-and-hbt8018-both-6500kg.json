@@ -1,0 +1,127 @@
+{
+  "slug": "buy-hbt80-16-and-hbt8018-both-6500kg",
+  "category": "buying",
+  "keyword": "HBT80-16 and HBT8018 weight 6500 kg",
+  "title": {
+    "en": "6500 kg Is Printed on Both HBT80 Pages and Does Not Choose One",
+    "zh": "6500 kg 印在两张 HBT80 页面上，并不能选定其中一张"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints 6500 kg on HBT80-16 and on HBT8018. Motors are 110 kW and 132 kW. Lengths are 6600 mm and 6700 mm.",
+    "zh": "河北品锦机械在邢台把 6500 kg 印在 HBT80-16 和 HBT8018 上。电机是 110 kW 和 132 kW。长度是 6600 mm 和 6700 mm。"
+  },
+  "h1": {
+    "en": "Use the Motor When the Weight Matches",
+    "zh": "重量相同时用电机来区分"
+  },
+  "directAnswer": {
+    "en": "A shipping weight of 6500 kg matches two pages at Hebei Pinjin Machinery in Xingtai. HBT80-16 prints 110 kW, 50 m³/h, horizontal 120 m, height 360 m and 6600 × 1750 × 1800 mm. HBT8018 prints 132 kW, 60 m³/h, conveying 150 m, height 450 m and 6700 × 1750 × 1800 mm. Both print pipe 100 / 125 mm, aggregate 4 cm and below and 40 MPa. Neither prints a hopper. The order needs the motor or the path, not the kilograms alone. Inquire at [/en/contact/](/en/contact/). No price is printed.",
+    "zh": "6500 kg 的运输重量在河北品锦机械（邢台）对上两页。HBT80-16 印 110 kW、50 m³/h、水平 120 m、高度 360 m、6600 × 1750 × 1800 mm。HBT8018 印 132 kW、60 m³/h、输送距离 150 m、高度 450 m、6700 × 1750 × 1800 mm。两者都印管径 100 / 125 mm、骨料 4 cm 及以下和 40 MPa。都不印料斗。订单需要电机或路径，而不是只有公斤数。在 [/zh/contact/](/zh/contact/) 询盘。没有印价格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Codes differ",
+        "zh": "代码不同"
+      },
+      "body": {
+        "en": "HBT80-16 prints HBT80-1816-110, shared with Electric 80. HBT8018 prints HBT8018-132S. Write the code with the path.",
+        "zh": "HBT80-16 印 HBT80-1816-110，与电动80共享。HBT8018 印 HBT8018-132S。代码和路径一起写。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Electric 80 is 6000 kg",
+        "zh": "电动80是 6000 kg"
+      },
+      "body": {
+        "en": "Do not pull Electric 80 into the 6500 kg pair. Its weight cell is 6000 kg.",
+        "zh": "不要把电动80拉进 6500 kg 这一对。它的重量格是 6000 kg。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Width matches, length does not",
+        "zh": "宽度相同，长度不同"
+      },
+      "body": {
+        "en": "Both are 1750 mm wide and 1800 mm high. The length cell is the printed split.",
+        "zh": "两者都是宽 1750 mm、高 1800 mm。长度格是印出来的分界。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Which page is 132 kW?",
+        "zh": "哪一页是 132 kW？"
+      },
+      "answer": {
+        "en": "HBT8018.",
+        "zh": "HBT8018。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which page is 50 m³/h?",
+        "zh": "哪一页是 50 m³/h？"
+      },
+      "answer": {
+        "en": "HBT80-16.",
+        "zh": "HBT80-16。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is 6500 kg a price?",
+        "zh": "6500 kg 是价格吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "不是。"
+      }
+    },
+    {
+      "question": {
+        "en": "Do both ship from Xingtai?",
+        "zh": "两者都从邢台发货吗？"
+      },
+      "answer": {
+        "en": "Yes. No overseas warehouse is claimed.",
+        "zh": "是。不声称有海外仓。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-hbt8018-6500kg-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "HBT8018 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "HBT8018 混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/hbt80-16-concrete-pump/",
+    "/zh/products/hbt80-16-concrete-pump/",
+    "/en/products/hbt8018-concrete-pump/",
+    "/zh/products/hbt8018-concrete-pump/",
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+    "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+    "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "buy-custom-only-after-a-listed-model",
+  "category": "buying",
+  "keyword": "customize a concrete pump after a listed model",
+  "title": {
+    "en": "Ask for Custom Work Only After a Listed Xingtai Model Is Confirmed",
+    "zh": "先确认邢台已列机型，再谈定制"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai can discuss customized production after a listed model is confirmed. The site does not publish a fixed number of production days, and the change is not a new unlisted pump.",
+    "zh": "河北品锦机械在邢台可以在确认已列机型之后讨论定制生产。本站不公布固定生产天数，改动也不是一台目录外的新泵。"
+  },
+  "h1": {
+    "en": "Custom Production Starts from a Page That Already Exists",
+    "zh": "定制生产从已经存在的页面开始"
+  },
+  "directAnswer": {
+    "en": "The custom-machinery page at Hebei Pinjin Machinery in Xingtai says to customize catalogue electric pumps, diesel pumps and mixer pumps after confirming specifications with the factory. The category wording is the same: after a listed model is confirmed, customized production can be arranged, and no fixed production-day count is published. An inquiry that says “a pump like Electric 40 but with unnamed changes” needs the Electric 40 path plus a list of which printed cells you want to discuss. It does not create a fifth “40” page.",
+    "zh": "河北品锦机械（邢台）的定制机械页写明：与工厂确认规格后，可对目录中的电动泵、柴油泵和搅拌泵做定制。分类口径相同：对照已列机型确认后可安排定制生产，并且不公布固定生产天数。一封写着“类似电动40、但改动未点名”的询盘，需要电动40的路径，加上你要讨论的已印格子。它不会生成第五张“40”页。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Which families can be the base",
+        "zh": "哪些系列可以作为底"
+      },
+      "body": {
+        "en": "The published custom line names electric pumps, diesel pumps and mixer pumps. Open [/en/products/custom-machinery/](/en/products/custom-machinery/) and the model page together. A truck boom or a mixing plant is not available as the base, because those machines are not catalogue products.",
+        "zh": "已公布的定制范围点名电动泵、柴油泵和搅拌泵。请同时打开 [/zh/products/custom-machinery/](/zh/products/custom-machinery/) 和型号页。车载臂架或搅拌站不能当底，因为那些机器不是目录产品。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the note must contain",
+        "zh": "说明里必须有什么"
+      },
+      "body": {
+        "en": "The base slug, the printed cell you are asking to discuss, and the site facts (stone, distances, power). Do not send only the word “OEM”.",
+        "zh": "底型号地址、你要讨论的已印格子，以及现场事实（石子、距离、动力）。不要只发“OEM”两个字。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Price and days",
+        "zh": "价格和天数"
+      },
+      "body": {
+        "en": "Both stay off the public page. Ask [/en/contact/](/en/contact/). Hebei Pinjin Machinery does not print an OEM price list.",
+        "zh": "两者都不在公开页面上。请询问 [/zh/contact/](/zh/contact/)。河北品锦机械不印 OEM 价目。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can specifications be customized?",
+        "zh": "规格能否定制？"
+      },
+      "answer": {
+        "en": "Yes, after a listed model is confirmed. That is the published sentence.",
+        "zh": "可以，在确认已列机型之后。这是已公布的句子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Will the site show the new specification before I ask?",
+        "zh": "询问之前网站会显示新规格吗？"
+      },
+      "answer": {
+        "en": "No. Unprinted cells stay blank.",
+        "zh": "不会。未印的格子保持空白。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is every change accepted?",
+        "zh": "每一项改动都会接受吗？"
+      },
+      "answer": {
+        "en": "The factory confirms that. This page only says the discussion starts from a listed model.",
+        "zh": "由工厂确认。本篇只说明讨论从已列机型开始。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does custom include a boom pump?",
+        "zh": "定制包括臂架泵吗？"
+      },
+      "answer": {
+        "en": "No. Boom pumps are not catalogue products.",
+        "zh": "不包括。臂架泵不是目录产品。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-xingtai-pump-manufacturing-custom-manufacturer.webp",
+    "alt": {
+      "en": "Concrete pump manufacturing at Hebei Pinjin Machinery, a Xingtai manufacturer",
+      "zh": "河北品锦机械厂家的混凝土泵制造现场，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/custom-machinery/",
+    "/zh/products/custom-machinery/",
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/products/diesel-concrete-pumps/",
+    "/zh/products/diesel-concrete-pumps/",
+    "/en/products/mixer-pumps/",
+    "/zh/products/mixer-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/custom-machinery/",
+    "https://pinjinpump.com/zh/products/custom-machinery/",
+    "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/en/products/mixer-pumps/",
+    "https://pinjinpump.com/zh/products/mixer-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

@@ -107,8 +107,8 @@ export const companyEntity = {
     ru: 'Подрядчики, закупщики оборудования и проектные команды, которым нужны электрические, дизельные или смесительные насосы либо штукатурные машины из каталога.',
   },
   problemsSolved: {
-    en: 'Pinjin equipment supports pipeline concrete delivery and catalogue spraying — electric, diesel and mixer-pump models plus hydraulic/diesel sprayers and M9 plaster, with published capacity, pressure and conveying or spray distance, plus OEM changes where the catalogue allows.',
-    zh: '品锦设备支持管道混凝土输送与目录喷涂：电动、柴油与搅拌泵机型，以及液压/柴油喷涂机与 M9 石膏机，均公布输送量、压力与输送或喷涂距离，并在目录允许范围内支持 OEM 调整。',
+    en: 'Pinjin equipment supports pipeline concrete delivery and catalogue spraying — electric, diesel and mixer-pump models plus hydraulic/diesel sprayers, Type 511 diesel, German-type mortar sprayers and M9 plaster, with published capacity, pressure and conveying or spray distance, plus OEM changes where the catalogue allows.',
+    zh: '品锦设备支持管道混凝土输送与目录喷涂：电动、柴油与搅拌泵机型，以及液压/柴油喷涂机、511 柴油机、德式砂浆喷涂机与 M9 石膏机，均公布输送量、压力与输送或喷涂距离，并在目录允许范围内支持 OEM 调整。',
     pt: 'Os equipamentos Pinjin cobrem transporte de concreto por tubulação — modelos elétricos, a diesel e misturadoras, com capacidade, pressão e distância publicadas, e OEM onde o catálogo permite.',
     ar: 'تدعم معدات بينجين نقل الخرسانة بالأنابيب — طرازات كهربائية وديزل ومضخات خلط بمعايير سعة وضغط ومسافة منشورة، مع تخصيص OEM حيث يسمح الكتالوج.',
     ru: 'Оборудование Pinjin обеспечивает трубопроводную подачу бетона: электрические, дизельные и смесительные модели с опубликованными производительностью, давлением и дальностью, а также OEM-изменениями там, где это допускает каталог.',

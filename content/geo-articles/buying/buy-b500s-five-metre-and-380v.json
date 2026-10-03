@@ -1,0 +1,123 @@
+{
+  "slug": "buy-b500s-five-metre-and-380v",
+  "category": "buying",
+  "keyword": "order B500S-83D concrete pump",
+  "title": {
+    "en": "Order the B500S-83D for a 5 m, 380 V, 280 kg Sheet",
+    "zh": "按 5 米、380 V、280 kg 的表订 B500S-83D"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints B500S-83D at 7.5 kW, 380 V, 5 m height, 5 m horizontal, 280 kg and sand or small stone 5–16 mm. The short boom is part of this unit.",
+    "zh": "河北品锦机械在邢台把 B500S-83D 印成 7.5 kW、380 V、高度 5 m、水平 5 m、280 kg，材料为砂或 5–16 mm 小石。短臂架属于本机。"
+  },
+  "h1": {
+    "en": "The B500S-83D Order Is the 5 m Sheet",
+    "zh": "B500S-83D 的订单就是这张 5 米表"
+  },
+  "directAnswer": {
+    "en": "Order the B500S-83D from Hebei Pinjin Machinery in Xingtai only when the printed window is the one you mean: 7.5 kW, rated voltage 380 V, delivery height 5 m, horizontal 5 m, frame 915 × 550 × 550 mm, net weight 280 kg, materials sand and small stone 5–16 mm. The type line says manual / electric two-stage structure. The short boom is not a truck-mounted placing boom. There is no m³/h cell and no list price. Send the path to the contact page if those cells match.",
+    "zh": "只有印出的窗口就是你要的窗口时，才向河北品锦机械（邢台）订 B500S-83D：7.5 kW、额定电压 380 V、输送高度 5 m、水平 5 m、外形 915 × 550 × 550 mm、净重 280 kg、材料为砂和 5–16 mm 小石。类型行写的是手动/电动两级结构。短臂架不是车载布料杆。没有 m³/h 格子，也没有标价。这些格子相符时，把路径发到询盘页。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "380 V is printed on this page",
+        "zh": "这一页印了 380 V"
+      },
+      "body": {
+        "en": "Do not treat that voltage as the voltage of Electric 15 or Electric 20. Those pages leave voltage blank. B500S-83D is the compact page that prints it.",
+        "zh": "不要把这个电压当成电动15或电动20的电压。那些页面把电压留空。B500S-83D 是印出电压的紧凑页。"
+      }
+    },
+    {
+      "heading": {
+        "en": "5 m is both directions",
+        "zh": "两个方向都是 5 m"
+      },
+      "body": {
+        "en": "Height and horizontal distance are each 5 m. This is not Electric 15’s 15–20 m vertical and 60–80 m horizontal.",
+        "zh": "高度和水平距离各是 5 m。这不是电动15的垂直 15–20 m 和水平 60–80 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Inquiry",
+        "zh": "询盘"
+      },
+      "body": {
+        "en": "Path, 5–16 mm or your material, and confirmation that 380 V is the site supply. Ask [/en/contact/](/en/contact/) for the price.",
+        "zh": "路径、5–16 mm 或你的材料，并确认现场供电是 380 V。向 [/zh/contact/](/zh/contact/) 询价。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is there an output in m³/h?",
+        "zh": "有 m³/h 输送量吗？"
+      },
+      "answer": {
+        "en": "Not on this sheet.",
+        "zh": "这张表上没有。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the boom a truck boom?",
+        "zh": "臂架是车载臂架吗？"
+      },
+      "answer": {
+        "en": "No. It is the short boom on the compact unit.",
+        "zh": "不是。它是紧凑机上的短臂架。"
+      }
+    },
+    {
+      "question": {
+        "en": "What is the weight?",
+        "zh": "重量是多少？"
+      },
+      "answer": {
+        "en": "280 kg.",
+        "zh": "280 kg。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the price printed?",
+        "zh": "价格印了吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "没有。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-b500s-83d-five-metre-order-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "B500S-83D pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "B500S-83D 泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/b500s-83d-two-stage-pump/",
+    "/zh/products/b500s-83d-two-stage-pump/",
+    "/en/products/electric-15-concrete-pump/",
+    "/zh/products/electric-15-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

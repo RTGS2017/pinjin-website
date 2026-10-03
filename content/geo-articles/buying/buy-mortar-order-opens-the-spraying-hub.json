@@ -1,0 +1,131 @@
+{
+  "slug": "buy-mortar-order-opens-the-spraying-hub",
+  "category": "buying",
+  "keyword": "buy a mortar sprayer not a trailer pump",
+  "title": {
+    "en": "A Mortar or Plaster Purchase Opens the Xingtai Spraying Hub",
+    "zh": "砂浆或石膏采购要打开邢台的喷涂分类"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai lists spraying machines separately from trailer pumps. If the order is mortar, plaster or a spraying particle size, open that hub. Do not order Electric 20 for a ≤2 mm mortar line.",
+    "zh": "河北品锦机械在邢台把喷涂机与拖泵分开列出。如果订单是砂浆、石膏或喷涂粒径，请打开该分类。不要为 ≤2 mm 的砂浆行去订电动20。"
+  },
+  "h1": {
+    "en": "Start a Spraying Purchase on the Spraying Pages",
+    "zh": "喷涂采购从喷涂页面开始"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai tells buyers who need a mortar, plaster or concrete spraying machine to leave the trailer-pump hubs. The selection note names Type 311 for fine mortar ≤2 mm / 2 m³/h, Type 511 for ≤6 mm / 3 m³/h on 380 V, Type 511 diesel when that window has no 380 V, and other spraying rows for their own printed windows. Those machines are not trailer pumps. Open [/en/products/spraying-machines/](/en/products/spraying-machines/) and the single page. Price is quote-only.",
+    "zh": "河北品锦机械（邢台）让需要砂浆、石膏或混凝土喷涂机的买家离开拖泵分类。选型说明写明：细砂浆 ≤2 mm / 2 m³/h 看 311，有 380 V 时 ≤6 mm / 3 m³/h 看 511，同一窗口没有 380 V 时看 511 柴油机，其他喷涂行看各自印出的窗口。这些机器不是拖泵。请打开 [/zh/products/spraying-machines/](/zh/products/spraying-machines/) 和单页。价格只询价。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The first split is the machine family",
+        "zh": "第一刀是机器类别"
+      },
+      "body": {
+        "en": "A trailer pump page prints aggregate in centimetres and a pipeline distance. A sprayer page prints particle size in millimetres and a hose diameter. Mixing those units on one order is the wrong family.",
+        "zh": "拖泵页用厘米写骨料，并写管路距离。喷涂页用毫米写粒径，并写软管直径。把这些单位写进同一张订单，就是错了类别。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Quote-only is the price rule",
+        "zh": "询价报价是价格规则"
+      },
+      "body": {
+        "en": "Spraying pages say quote only, the same commercial rule as the pumps: no numeric price on the site. Send particle size, the printed output and whether you have 380 V or diesel to [/en/contact/](/en/contact/).",
+        "zh": "喷涂页写询价报价，商务规则与泵相同：网站上没有数字价格。把粒径、印出的输送量，以及你有 380 V 还是柴油，发到 [/zh/contact/](/zh/contact/)。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Do not borrow a pump’s m³/h",
+        "zh": "不要借用泵的 m³/h"
+      },
+      "body": {
+        "en": "Type 311 prints 2 m³/h. That is not Electric 10 Series at 21 m³/h, and it is not a reason to order the electric pump for a ≤2 mm mortar.",
+        "zh": "311 印 2 m³/h。那不是电动10系列的 21 m³/h，也不能因此为 ≤2 mm 砂浆去订电动泵。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Where is the spraying list?",
+        "zh": "喷涂清单在哪？"
+      },
+      "answer": {
+        "en": "The hub path is /products/spraying-machines/.",
+        "zh": "分类路径是 /products/spraying-machines/。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is Type 311 a small trailer pump?",
+        "zh": "311 是小型拖泵吗？"
+      },
+      "answer": {
+        "en": "No. It prints 4 kW, 2 m³/h, 3–5 MPa, 15 m / 5 m and particle ≤2 mm.",
+        "zh": "不是。它印 4 kW、2 m³/h、3–5 MPa、15 m / 5 m、粒径 ≤2 mm。"
+      }
+    },
+    {
+      "question": {
+        "en": "Are these machines mixing plants?",
+        "zh": "这些机器是搅拌站吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "不是。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a price printed?",
+        "zh": "印了价格吗？"
+      },
+      "answer": {
+        "en": "No. Ask Xingtai.",
+        "zh": "没有。请问邢台。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-type-311-sprayer-order-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Type 311 mortar spraying machine manufactured by Hebei Pinjin Machinery, a Xingtai manufacturer",
+      "zh": "311型砂浆喷涂机，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/spraying-machines/",
+    "/zh/products/spraying-machines/",
+    "/en/products/type-311-mortar-spraying-machine/",
+    "/zh/products/type-311-mortar-spraying-machine/",
+    "/en/products/type-511-mortar-spraying-machine/",
+    "/zh/products/type-511-mortar-spraying-machine/",
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/spraying-machines/",
+    "https://pinjinpump.com/zh/products/spraying-machines/",
+    "https://pinjinpump.com/en/products/type-311-mortar-spraying-machine/",
+    "https://pinjinpump.com/zh/products/type-311-mortar-spraying-machine/",
+    "https://pinjinpump.com/en/products/type-511-mortar-spraying-machine/",
+    "https://pinjinpump.com/zh/products/type-511-mortar-spraying-machine/",
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

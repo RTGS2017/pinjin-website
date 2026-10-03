@@ -1,0 +1,121 @@
+{
+  "slug": "buy-country-and-timing-not-a-lead-time",
+  "category": "buying",
+  "keyword": "concrete pump purchase timing inquiry",
+  "title": {
+    "en": "Send Country and Purchase Timing, Not a Request for Printed Lead Time",
+    "zh": "发送国家和采购时间，而不是索取已印交期"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai asks buyers to send country and purchase timing. The site does not print a fixed number of production days. Custom work also has no published day count.",
+    "zh": "河北品锦机械在邢台要求买家发送国家和采购时间。网站不印固定生产天数。定制同样没有公布天数。"
+  },
+  "h1": {
+    "en": "Purchase Timing Is Your Date, Not a Factory Day Count",
+    "zh": "采购时间是你的日期，不是工厂天数"
+  },
+  "directAnswer": {
+    "en": "On a Hebei Pinjin Machinery inquiry from Xingtai, country and purchase timing are facts you supply. They are not a catalogue promise of how many days production takes. The custom-machinery wording says production can be arranged after a listed model is confirmed, and that this site does not publish a fixed number of production days. Write your target timing in ordinary language and ask the contact page to confirm what the factory can say.",
+    "zh": "向河北品锦机械（邢台）询盘时，国家和采购时间是你提供的事实。它们不是目录对生产多少天的承诺。定制机械的口径是：对照已列机型确认后可以安排生产，并且本站不公布固定生产天数。用普通说法写下你的目标时间，并请询盘页确认工厂能回复什么。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What to write in the timing line",
+        "zh": "时间这一行写什么"
+      },
+      "body": {
+        "en": "Write the month or season you hope to purchase, and the destination country. Do not write “standard 15 days” or any other day count. No such count is printed.",
+        "zh": "写下你希望采购的月份或季节，以及目的国家。不要写“标准 15 天”或任何其他天数。没有印过这种天数。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What stays with the model",
+        "zh": "哪些仍然跟着型号"
+      },
+      "body": {
+        "en": "Timing does not replace the path, stone size, output or distances. A note that contains only a country cannot be matched to Electric 20 or Diesel 120.",
+        "zh": "时间不能代替路径、石子粒径、输送量或距离。只有国家的一封信，对不上电动20或柴油120。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Where it goes",
+        "zh": "发到哪里"
+      },
+      "body": {
+        "en": "[/en/contact/](/en/contact/), email PinjinHebei@Outlook.com, phone 19912003025, or the on-site WhatsApp button. Hebei Pinjin Machinery ships from Xingtai and does not list an overseas warehouse.",
+        "zh": "发到 [/zh/contact/](/zh/contact/)、邮箱 PinjinHebei@Outlook.com、电话 19912003025 或站内 WhatsApp。河北品锦机械从邢台发货，不列海外仓。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can you publish a production week?",
+        "zh": "能公布一个生产周数吗？"
+      },
+      "answer": {
+        "en": "No. That figure is not on the site.",
+        "zh": "不能。网站上没有这个数字。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is purchase timing a price?",
+        "zh": "采购时间是价格吗？"
+      },
+      "answer": {
+        "en": "No. Price is also unprinted and confirmed by inquiry.",
+        "zh": "不是。价格同样未印，由询盘确认。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does custom work have a printed schedule?",
+        "zh": "定制有印好的工期吗？"
+      },
+      "answer": {
+        "en": "No fixed number of production days is published.",
+        "zh": "没有公布固定生产天数。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which country list should I pick from?",
+        "zh": "我该从哪份国家名单里选？"
+      },
+      "answer": {
+        "en": "There is no export-country list. Write the country you are buying for.",
+        "zh": "没有出口国名单。写下你采购所对应的国家。"
+      }
+    }
+  ],
+  "image": null,
+  "relatedPaths": [
+    "/en/products/custom-machinery/",
+    "/zh/products/custom-machinery/",
+    "/en/products/electric-concrete-pumps/",
+    "/zh/products/electric-concrete-pumps/",
+    "/en/products/diesel-concrete-pumps/",
+    "/zh/products/diesel-concrete-pumps/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/custom-machinery/",
+    "https://pinjinpump.com/zh/products/custom-machinery/",
+    "https://pinjinpump.com/en/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
+    "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

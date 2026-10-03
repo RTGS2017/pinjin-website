@@ -1,0 +1,162 @@
+{
+  "slug": "parts-delivery-hose-is-not-the-straight-pipe",
+  "category": "parts",
+  "keyword": "delivery hose versus straight delivery pipe",
+  "title": {
+    "en": "How the Pinjin hose differs from the straight pipe",
+    "zh": "品锦胶管和直管差在哪里"
+  },
+  "description": {
+    "en": "The Xingtai hose is a rubber placing hose with steel couplings and no fixed size table. The straight pipe is a red enamel pipe with reinforced coupling ends. Diameters printed on six pump pages belong to the pipe cell, not automatically to the hose.",
+    "zh": "邢台胶管是没有固定尺寸表的橡胶布料管，带金属接头。直管是带加强快接端的红色涂层管。六台泵印出的直径属于管子格子，不会自动变成胶管直径。"
+  },
+  "h1": {
+    "en": "Delivery hose and straight pipe are different spares",
+    "zh": "输送胶管和直管是不同配件"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery publishes both a delivery hose and a straight delivery pipe. They are separate product pages. The hose has no DN table. The pipe has no DN table either, and six pump pages supply an inner diameter only for the pipe cell.",
+    "zh": "河北品锦机械同时公布了输送胶管和直管，是两张产品页。胶管没有公称直径表。直管也没有公称直径表，六台泵只给管子格子提供了内径。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Hose page",
+        "zh": "胶管页"
+      },
+      "body": {
+        "en": "Rubber delivery / placing hose, steel couplings, project-quantity packing, quote after pump model, DN and length. No list price. No service life.",
+        "zh": "橡胶输送 / 布料胶管，金属接头，按工程量包装，对照泵型号、管径和长度报价。无公开标价。无寿命。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Straight-pipe page",
+        "zh": "直管页"
+      },
+      "body": {
+        "en": "Red enamel straight pipe, reinforced coupling or flange ends. Inner diameters that are actually printed sit on Electric 20 (80 mm), Electric 15 (100–125 mm) and four pages at 100 / 125 mm. Wall thickness is missing on the pipe page.",
+        "zh": "红色涂层直管，加强快接或法兰端。真正印出的内径在电动20（80 mm）、电动15（100–125 mm）和四台 100 / 125 mm 的页面上。直管页缺少壁厚。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Keep the inquiry on one page",
+        "zh": "询价只走其中一页"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Say hose or straight pipe in the first line. Do not ask for a hose length using a pump's conveying-distance metres.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 第一行写明是胶管还是直管。不要用泵的输送距离米数去当胶管长度。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can one photo stand for both parts?",
+        "zh": "一张照片能代表两件配件吗？"
+      },
+      "answer": {
+        "en": "No. Each page has its own factory photo. This note follows the page you are ordering.",
+        "zh": "不能。每页有自己的工厂照片。本文跟着你要订的那一页。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does DN200 on the elbow apply to the hose?",
+        "zh": "弯管上的 DN200 适用于胶管吗？"
+      },
+      "answer": {
+        "en": "The elbow is a separate DN200 R275 90° part. The hose page does not print DN200.",
+        "zh": "弯管是单独的 DN200 R275 90° 配件。胶管页没有印 DN200。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is life printed on either page?",
+        "zh": "两页印了寿命吗？"
+      },
+      "answer": {
+        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
+        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+      }
+    },
+    {
+      "question": {
+        "en": "Where is the quote sent?",
+        "zh": "报价发给哪里？"
+      },
+      "answer": {
+        "en": "Hebei Pinjin Machinery, Xingtai, via the contact page.",
+        "zh": "邢台河北品锦机械，通过联系页。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-delivery-hose",
+      "label": {
+        "en": "Concrete Pump Delivery Hose",
+        "zh": "混凝土泵输送胶管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": {
+        "en": "Concrete Pump Delivery Pipe",
+        "zh": "混凝土泵输送管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-elbow-dn200-90",
+      "label": {
+        "en": "DN200 90° Concrete Pump Elbow",
+        "zh": "DN200 90度混凝土泵弯管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: Concrete Pump Delivery Hose",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Delivery Hose",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-hose/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": {
+    "src": "/images/geo/parts/pinjin-parts-delivery-hose-is-not-the-straight-pipe.webp",
+    "alt": {
+      "en": "Delivery hose and straight pipe are different spares, 品锦, Hebei Pinjin Machinery, Xingtai",
+      "zh": "输送胶管和直管是不同配件，品锦机械，河北邢台"
+    }
+  }
+}

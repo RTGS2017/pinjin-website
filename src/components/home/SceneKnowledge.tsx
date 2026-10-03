@@ -9,6 +9,7 @@ import {
 import { getProductBySlug } from '@/data/products';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { useI18n } from '@/i18n/I18nContext';
+import { blogDisplayTitle } from '@/seo/documentCopy';
 import { SceneFrame } from './homeScroll';
 
 export function SceneKnowledge() {
@@ -90,7 +91,7 @@ export function SceneKnowledge() {
               </LocaleLink>
               <h3 className="mt-4 text-lg font-semibold text-dark">
                 <LocaleLink to={`/blog/${post.slug}`} className="hover:text-primary">
-                  {tx(post.title)}
+                  {blogDisplayTitle(tx(post.title))}
                 </LocaleLink>
               </h3>
               <p className="mt-2 line-clamp-3 text-sm text-text-secondary">

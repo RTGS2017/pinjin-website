@@ -1,0 +1,131 @@
+{
+  "slug": "buy-send-voltage-when-the-electric-sheet-is-blank",
+  "category": "buying",
+  "keyword": "site voltage on an electric pump inquiry",
+  "title": {
+    "en": "Send Site Voltage When the Xingtai Electric Sheet Leaves It Blank",
+    "zh": "邢台电动页把电压留空时，请发送现场电压"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints 380 V on B500S-83D and on several sprayers. Most electric trailer sheets do not print voltage or frequency. The inquiry still asks for both.",
+    "zh": "河北品锦机械在邢台的 B500S-83D 和若干喷涂机上印了 380 V。多数电动拖泵页不印电压或频率。询盘仍然要求这两项。"
+  },
+  "h1": {
+    "en": "Your Voltage Is a Site Fact, Not a Missing Catalogue Cell",
+    "zh": "你的电压是现场事实，不是被漏掉的目录格"
+  },
+  "directAnswer": {
+    "en": "When you order an electric pump from Hebei Pinjin Machinery in Xingtai, check whether that page prints voltage. B500S-83D prints 380 V. M9 prints 380 V / 50 Hz. Type 511 and the hydraulic sprayers print 380 V. Electric 20, Electric 40, Electric 60 and Electric 80 do not print a voltage cell on the lists used here. Do not copy 380 V onto those pump orders as if the sheet said it. Do send the site voltage and frequency, because the factory’s inquiry line asks for them. Write to [/en/contact/](/en/contact/). No price is printed.",
+    "zh": "向河北品锦机械（邢台）订电动泵时，先看那一页是否印了电压。B500S-83D 印 380 V。M9 印 380 V / 50 Hz。511 和液压喷涂机印 380 V。电动20、电动40、电动60和电动80在此处使用的列表上没有电压格。不要把 380 V 抄进这些泵的订单，好像表上写过一样。但请发送现场电压和频率，因为工厂的询盘口径要求这两项。写到 [/zh/contact/](/zh/contact/)。没有印价格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Frequency is rarer than voltage",
+        "zh": "频率比电压更少见"
+      },
+      "body": {
+        "en": "M9 prints 50 Hz with 380 V. The trailer lists used here generally do not. Send frequency even when the page is silent.",
+        "zh": "M9 把 50 Hz 和 380 V 印在一起。此处使用的拖泵列表一般不印。即使页面沉默，也请发送频率。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Diesel orders skip the motor voltage",
+        "zh": "柴油订单不写电机电压"
+      },
+      "body": {
+        "en": "A diesel page needs the engine line and the word diesel. It does not need a pretended motor voltage.",
+        "zh": "柴油页需要发动机行和“柴油”二字。它不需要一个假装的电机电压。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Generator size is not printed",
+        "zh": "发电机容量没有印"
+      },
+      "body": {
+        "en": "Do not invent kilowatts for a generator. State whether one will be provided and what voltage and frequency it holds.",
+        "zh": "不要编造发电机的千瓦。请写明是否提供，以及它稳住的电压和频率。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is every Xingtai electric pump 380 V on the sheet?",
+        "zh": "每台邢台电动泵的表上都是 380 V 吗？"
+      },
+      "answer": {
+        "en": "No. Only the pages that print it.",
+        "zh": "不是。只有印了的页面。"
+      }
+    },
+    {
+      "question": {
+        "en": "Should Electric 80’s order say 380 V?",
+        "zh": "电动80的订单应该写 380 V 吗？"
+      },
+      "answer": {
+        "en": "Only as your site fact, labelled as such, not as a cell from that page.",
+        "zh": "只能作为你的现场事实，并标明是现场事实，而不是那一页上的格子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Type 311 print 220 V?",
+        "zh": "311 印 220 V 吗？"
+      },
+      "answer": {
+        "en": "It prints 220/380 V on the sprayer page. That is not a trailer-pump cell.",
+        "zh": "喷涂页印 220/380 V。那不是拖泵格子。"
+      }
+    },
+    {
+      "question": {
+        "en": "Who confirms the supply is enough?",
+        "zh": "谁确认供电是否足够？"
+      },
+      "answer": {
+        "en": "Xingtai, after you send voltage, frequency and the motor kilowatts of the path.",
+        "zh": "邢台，在你发送电压、频率和该路径的电机千瓦之后。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-electric-20-voltage-not-printed-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Electric 20 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
+      "zh": "电动20型混凝土泵，由河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-20-concrete-pump/",
+    "/zh/products/electric-20-concrete-pump/",
+    "/en/products/b500s-83d-two-stage-pump/",
+    "/zh/products/b500s-83d-two-stage-pump/",
+    "/en/products/m9-automatic-plaster-spraying-machine/",
+    "/zh/products/m9-automatic-plaster-spraying-machine/",
+    "/en/products/electric-80-concrete-pump/",
+    "/zh/products/electric-80-concrete-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+    "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
+    "https://pinjinpump.com/en/products/m9-automatic-plaster-spraying-machine/",
+    "https://pinjinpump.com/zh/products/m9-automatic-plaster-spraying-machine/",
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

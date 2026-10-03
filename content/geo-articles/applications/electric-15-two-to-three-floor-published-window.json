@@ -1,0 +1,135 @@
+{
+  "slug": "electric-15-two-to-three-floor-published-window",
+  "category": "application",
+  "keyword": "two to three floor concrete pump",
+  "title": {
+    "en": "Which pump is already tied to a 2–3 floor house?",
+    "zh": "两三层房屋已经写在哪一台泵上？"
+  },
+  "description": {
+    "en": "The published Electric 15 note places two-to-three-floor houses beside 15 kW, 8–10 m³/h, 15–20 m vertical and 60–80 m horizontal. This page does not convert floors into metres.",
+    "zh": "已发布的电动15说明把两三层房屋和 15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m 放在一起。本页不把楼层换算成米。"
+  },
+  "h1": {
+    "en": "Which pump is already tied to a 2–3 floor house?",
+    "zh": "两三层房屋已经写在哪一台泵上？"
+  },
+  "directAnswer": {
+    "en": "Electric 15, and only inside the cells already printed. Hebei Pinjin Machinery in Xingtai lists it for rural self-built houses, small sites and secondary structure: 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. The site’s Electric 15 application note already names two-to-three-floor houses next to that vertical window. This page does not add a storey height and does not print an outlet pressure, because the specification table does not list one.",
+    "zh": "电动15，而且只能停在已经印出的格子里。邢台河北品锦机械把它列为农村自建房、小型工地和二次结构：15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。本站电动15应用说明已经把两三层房屋放在那个垂直窗口旁边。本页不另加层高，也不印出口压力，因为规格表没有这一格。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Leave this row when the pipe leaves the window",
+        "zh": "管路离开窗口就离开这一行"
+      },
+      "body": {
+        "en": "Horizontal beyond 60–80 m, vertical beyond 15–20 m, or stone outside 1–3 cm is no longer Electric 15. A building line that needs 120 m / 40 m and an 80 mm pipe is Electric 20, which is not named as a rural self-built model. No grid: the rural diesel pump prints 17 kW, 5–8 m³/h, 30–50 m horizontal and 10–30 m vertical.",
+        "zh": "水平超出 60–80 m、垂直超出 15–20 m，或石子不在 1–3 cm，就不再是电动15。需要 120 m / 40 m 和 80 mm 管的建筑管路是电动20，它没有被写成农村自建房型号。没有电网：农村柴油泵印的是 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What “2–3 floors” is not allowed to become",
+        "zh": "“两三层”不能变成什么"
+      },
+      "body": {
+        "en": "It is not a promise for every house of that description, and it is not a formula that turns other models into floor bands. Electric 10 Series shares the rural sentence and 15 kW, but it prints 25 m horizontal, 21 m³/h and 400 kg, and it does not print a vertical cell. Do not move the two-to-three-floor sentence onto that row.",
+        "zh": "它不是对每一栋这样的房子的承诺，也不是把其他型号变成楼层区间的公式。电动10系列共用农村那句话和 15 kW，但它印的是水平 25 m、21 m³/h 和 400 kg，而且没有垂直格。不要把两三层这句话挪到那一行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Send measured vertical and horizontal metres and the stone size. A floor count alone is not the specification. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请发量到的垂直和水平米数以及石子粒径。只有层数不是规格。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does Electric 15 list outlet pressure?",
+        "zh": "电动15列出出口压力了吗？"
+      },
+      "answer": {
+        "en": "No. The table prints power, output, vertical, horizontal, aggregate, pipe, size and 450 kg.",
+        "zh": "没有。表上是功率、输送量、垂直、水平、骨料、管径、外形和 450 kg。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the two-to-three-floor line a new calculation?",
+        "zh": "两三层是新算出来的吗？"
+      },
+      "answer": {
+        "en": "No. It is already in the published Electric 15 application note. This page does not extend it with a metres-per-floor figure.",
+        "zh": "不是。它已经在已发布的电动15应用说明里。本页不用每层米数去延伸它。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is this a commercial building pump?",
+        "zh": "这是商业建筑泵吗？"
+      },
+      "answer": {
+        "en": "The commercial sentence is on Electric 20 and the larger electric trailer pumps. Electric 15 is the rural and small-site row.",
+        "zh": "商业这句话在电动20和更大的电动拖泵上。电动15是农村和小型工地行。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/xingtai-compact-site-electric-15-concrete-pump.webp",
+    "alt": {
+      "en": "Hebei Pinjin Machinery compact concrete pump on a construction site with operators",
+      "zh": "河北品锦机械紧凑型混凝土泵在施工现场与操作人员一起作业"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/electric-15-concrete-pump",
+      "label": {
+        "en": "Electric 15 Concrete Pump",
+        "zh": "电动15型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-20-concrete-pump",
+      "label": {
+        "en": "Electric 20 Concrete Pump",
+        "zh": "电动20型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/rural-diesel-concrete-pump",
+      "label": {
+        "en": "Rural Diesel Concrete Pump",
+        "zh": "农村自建房柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/construction",
+      "label": {
+        "en": "Building construction pumping",
+        "zh": "建筑施工泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/electric-15-concrete-pump",
+    "https://pinjinpump.com/solutions/construction",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

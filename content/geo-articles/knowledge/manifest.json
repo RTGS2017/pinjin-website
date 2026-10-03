@@ -1,0 +1,631 @@
+{
+  "category": "knowledge",
+  "articleCount": 75,
+  "missingImageCount": 0,
+  "missingImages": [],
+  "imageReuseOver3": {},
+  "rejectedTopics": [
+    {
+      "topic": "堵管疏通步骤、活塞或密封更换工时与扭矩",
+      "reason": "产品规格页和工厂页没有公布操作步骤、间隔小时或扭矩。已有文章明确不能编造更换小时。"
+    },
+    {
+      "topic": "缸径、活塞行程、冲程次数和工作循环图",
+      "reason": "目录没有这些数字。工作原理只写到已点名的料斗、输送管、S阀和油缸名称。"
+    },
+    {
+      "topic": "逐型号重写已有 catalogue row / guide 博客",
+      "reason": "那些 slug 已存在，再写一遍是近义注水。本批改为跨页读表和尚未成文的对照。"
+    },
+    {
+      "topic": "配件外径价目、喷涂机选型、采购报价、出口国家、应用场景",
+      "reason": "不属于本路。配件、场景和采购由其他批次承担。本路不写国家出口页。"
+    },
+    {
+      "topic": "液压油牌号、油温和清堵水或砂浆配方",
+      "reason": "规格表没有油品牌号，也没有清堵配方。不把其他文章改写一遍。"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "what-is-a-concrete-pump-in-the-xingtai-catalogue",
+      "keyword": {
+        "en": "what is a concrete pump",
+        "zh": "混凝土泵是什么"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-a-pinjin-concrete-pump-moves-concrete",
+      "keyword": {
+        "en": "how a concrete pump works",
+        "zh": "混凝土泵工作原理"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-outlet-pressure-labels-differ-from-pumping-pressure",
+      "keyword": {
+        "en": "concrete pump outlet pressure vs pumping pressure",
+        "zh": "混凝土泵出口压力和泵送压力怎么区分"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-theoretical-output-is-notated-on-pump-sheets",
+      "keyword": {
+        "en": "how to read concrete pump m3/h on a catalogue",
+        "zh": "混凝土泵立方米每小时在目录里怎么写"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-pumping-distance-labels-differ-on-pump-sheets",
+      "keyword": {
+        "en": "how to read concrete pump distance labels",
+        "zh": "混凝土泵输送距离的标题怎么读"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "why-stone-size-changes-the-printed-pumping-distance",
+      "keyword": {
+        "en": "why concrete pump distance changes with stone size",
+        "zh": "石子粒径不同时混凝土泵距离为什么分几行"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-a-hyphenated-pumping-distance-range-means",
+      "keyword": {
+        "en": "concrete pump distance range meaning",
+        "zh": "混凝土泵距离写成范围是什么意思"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "which-pinjin-pumps-print-delivery-pipe-diameter",
+      "keyword": {
+        "en": "which concrete pumps list pipe diameter",
+        "zh": "哪些混凝土泵印了输送管径"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "which-pinjin-pumps-name-a-kawasaki-hydraulic-pump",
+      "keyword": {
+        "en": "which concrete pumps list a Kawasaki hydraulic pump",
+        "zh": "哪些混凝土泵写了川崎液压泵"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-diesel-engine-codes-are-printed-beside-kilowatts",
+      "keyword": {
+        "en": "concrete pump diesel engine code 4105 4108 6105",
+        "zh": "混凝土泵柴油机代号4105 4108 6105怎么读"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "which-concrete-pump-prints-a-rated-voltage",
+      "keyword": {
+        "en": "what voltage does the concrete pump catalogue print",
+        "zh": "混凝土泵目录印了多少伏"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "which-concrete-pump-prints-a-slump-range",
+      "keyword": {
+        "en": "which concrete pump lists slump",
+        "zh": "哪台混凝土泵印了坍落度"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "why-a-blank-pump-cell-cannot-be-copied",
+      "keyword": {
+        "en": "why a blank concrete pump specification stays blank",
+        "zh": "混凝土泵参数空格为什么不能抄"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-weight-labels-differ-on-concrete-pump-sheets",
+      "keyword": {
+        "en": "concrete pump weight label net total main unit",
+        "zh": "混凝土泵重量标题净重总重整机怎么区分"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-dimension-units-differ-on-concrete-pump-sheets",
+      "keyword": {
+        "en": "concrete pump dimensions metres or millimetres",
+        "zh": "混凝土泵外形尺寸是米还是毫米"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-lz-80-high-and-low-pressure-ceilings-mean",
+      "keyword": {
+        "en": "LZ-80 high pressure and low pressure output",
+        "zh": "LZ-80高压和低压产量是什么意思"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-an-s-valve-name-does-not-specify",
+      "keyword": {
+        "en": "what S-valve means on a Pinjin concrete pump",
+        "zh": "品锦混凝土泵上的S阀名称没有写明什么"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-diesel-30-aggregate-wording-differs-inside-one-page",
+      "keyword": {
+        "en": "diesel 30 concrete pump aggregate size which line",
+        "zh": "柴油30骨料粒径以哪一行为准"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-to-read-the-electric-30-distance-pair",
+      "keyword": {
+        "en": "electric 30 concrete pump 60 m 180 m which is vertical",
+        "zh": "电动30的60米和180米哪个是垂直"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-electric-60-prints-fine-stone-height",
+      "keyword": {
+        "en": "electric 60 concrete pump 600 m vertical",
+        "zh": "电动60细石600米是不是垂直高度"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-diesel-120-prints-two-engine-units",
+      "keyword": {
+        "en": "diesel 120 concrete pump two engines",
+        "zh": "柴油120是不是两台发动机"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-b500s-83d-prints-manual-and-electric",
+      "keyword": {
+        "en": "B500S-83D manual or electric",
+        "zh": "B500S-83D手动和电动怎么印"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-the-b500s-83d-short-boom-line-says",
+      "keyword": {
+        "en": "B500S-83D short boom meaning",
+        "zh": "B500S-83D短臂架是什么意思"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-5-16-mm-means-on-the-b500s-83d",
+      "keyword": {
+        "en": "B500S-83D 5-16 mm material size",
+        "zh": "B500S-83D的5到16毫米是什么粒径"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-the-electric-75-60-model-alias-refers-to",
+      "keyword": {
+        "en": "what is electric 75-60 concrete pump",
+        "zh": "电动75-60混凝土泵是哪一页"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-the-mixer-400-and-500-series-note-says",
+      "keyword": {
+        "en": "mixer pump 400 and 500 mixer note",
+        "zh": "搅拌泵400和500搅拌机说明是什么"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-the-integrated-mixer-splits-motor-power",
+      "keyword": {
+        "en": "integrated mixer pump 45 kW and 14 kW",
+        "zh": "搅拌泵一体机45千瓦和14千瓦怎么分"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-the-diesel-mixer-prints-three-stone-rows",
+      "keyword": {
+        "en": "diesel mixer pump stone distance rows",
+        "zh": "柴油搅拌泵三行石子距离怎么读"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "why-electric-10-has-no-vertical-distance-cell",
+      "keyword": {
+        "en": "electric 10 concrete pump no vertical distance",
+        "zh": "电动10为什么没有垂直距离"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "where-6-cm-aggregate-is-printed-on-diesel-pumps",
+      "keyword": {
+        "en": "which concrete pump lists 6 cm aggregate",
+        "zh": "哪台混凝土泵印了6厘米骨料"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "where-4-cm-aggregate-is-printed-on-pump-sheets",
+      "keyword": {
+        "en": "which concrete pumps list 4 cm aggregate",
+        "zh": "哪些混凝土泵印了4厘米骨料"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "how-hbt8018-prints-the-132s-model-line",
+      "keyword": {
+        "en": "what HBT8018-132S means on the catalogue",
+        "zh": "目录上的HBT8018-132S是什么意思"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-main-cylinder-and-swing-cylinder-names-omit",
+      "keyword": {
+        "en": "concrete pump main cylinder and swing cylinder",
+        "zh": "混凝土泵主油缸和摆缸名称没有写什么"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "what-a-piston-name-does-not-turn-into-a-service-step",
+      "keyword": {
+        "en": "concrete pump piston service steps not published",
+        "zh": "混凝土泵活塞名称不等于维修步骤"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-15-vs-electric-20-concrete-pump",
+      "keyword": {
+        "en": "electric 15 vs electric 20 concrete pump",
+        "zh": "电动15和电动20混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-10-vs-electric-15-concrete-pump",
+      "keyword": {
+        "en": "electric 10 vs electric 15 concrete pump",
+        "zh": "电动10和电动15混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-30-vs-electric-low-pressure-40",
+      "keyword": {
+        "en": "electric 30 vs low pressure 40 concrete pump",
+        "zh": "电动30和电动低压40的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-low-pressure-40-vs-electric-40",
+      "keyword": {
+        "en": "low pressure 40 vs electric 40 concrete pump",
+        "zh": "电动低压40和电动40的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-40-vs-electric-50-concrete-pump",
+      "keyword": {
+        "en": "electric 40 vs electric 50 concrete pump",
+        "zh": "电动40和电动50混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-50-vs-electric-60-concrete-pump",
+      "keyword": {
+        "en": "electric 50 vs electric 60 concrete pump",
+        "zh": "电动50和电动60混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-60-vs-electric-low-pressure-60",
+      "keyword": {
+        "en": "electric 60 vs low pressure 60 concrete pump",
+        "zh": "电动60和电动低压60的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-60-vs-electric-80-concrete-pump",
+      "keyword": {
+        "en": "electric 60 vs electric 80 concrete pump",
+        "zh": "电动60和电动80混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-80-vs-hbt8018-concrete-pump",
+      "keyword": {
+        "en": "electric 80 vs HBT8018 concrete pump",
+        "zh": "电动80和HBT8018混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "hbt80-16-vs-electric-60-concrete-pump",
+      "keyword": {
+        "en": "HBT80-16 vs electric 60 concrete pump",
+        "zh": "HBT80-16和电动60的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-30-vs-diesel-30-concrete-pump",
+      "keyword": {
+        "en": "electric 30 vs diesel 30 concrete pump",
+        "zh": "电动30和柴油30是不是同一台泵"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-40-vs-diesel-40-concrete-pump",
+      "keyword": {
+        "en": "electric 40 vs diesel 40 concrete pump",
+        "zh": "电动40和柴油40混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-50-vs-diesel-50-concrete-pump",
+      "keyword": {
+        "en": "electric 50 vs diesel 50 concrete pump",
+        "zh": "电动50和柴油50混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-low-pressure-60-vs-diesel-60",
+      "keyword": {
+        "en": "electric low pressure 60 vs diesel 60",
+        "zh": "电动低压60和柴油60的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-30-vs-diesel-40-concrete-pump",
+      "keyword": {
+        "en": "diesel 30 vs diesel 40 concrete pump",
+        "zh": "柴油30和柴油40混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-40-vs-diesel-50-concrete-pump",
+      "keyword": {
+        "en": "diesel 40 vs diesel 50 concrete pump",
+        "zh": "柴油40和柴油50混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-50-vs-diesel-60-concrete-pump",
+      "keyword": {
+        "en": "diesel 50 vs diesel 60 concrete pump",
+        "zh": "柴油50和柴油60混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-120-vs-lz-80-concrete-pump",
+      "keyword": {
+        "en": "diesel 120 vs LZ-80 concrete pump",
+        "zh": "柴油120和LZ-80混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-120-vs-electric-80-pumping-distance",
+      "keyword": {
+        "en": "diesel 120 vs electric 80 pumping distance",
+        "zh": "柴油120和电动80的输送距离怎么读"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "lz-60-vs-lz-80-concrete-pump",
+      "keyword": {
+        "en": "LZ-60 vs LZ-80 concrete pump",
+        "zh": "LZ-60和LZ-80混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-60-vs-diesel-120-concrete-pump",
+      "keyword": {
+        "en": "diesel 60 vs diesel 120 concrete pump",
+        "zh": "柴油60和柴油120混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "integrated-mixer-vs-diesel-mixer-pump",
+      "keyword": {
+        "en": "electric mixer pump vs diesel mixer pump",
+        "zh": "电动搅拌泵和柴油搅拌泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-mixer-vs-diesel-40-concrete-pump",
+      "keyword": {
+        "en": "diesel mixer pump vs diesel 40 concrete pump",
+        "zh": "柴油搅拌泵和柴油40的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "integrated-mixer-vs-electric-50-concrete-pump",
+      "keyword": {
+        "en": "integrated mixer pump vs electric 50",
+        "zh": "搅拌泵一体机和电动50的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "tractor-4100-vs-rural-diesel-concrete-pump",
+      "keyword": {
+        "en": "tractor 4100 vs rural diesel concrete pump",
+        "zh": "拖拉机带动4100和农村柴油泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "tractor-4100-vs-electric-15-concrete-pump",
+      "keyword": {
+        "en": "tractor concrete pump vs electric 15",
+        "zh": "拖拉机泵和电动15的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "b500s-83d-vs-electric-10-concrete-pump",
+      "keyword": {
+        "en": "B500S-83D vs electric 10 concrete pump",
+        "zh": "B500S-83D和电动10的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "b500s-83d-vs-electric-15-concrete-pump",
+      "keyword": {
+        "en": "B500S-83D vs electric 15 concrete pump",
+        "zh": "B500S-83D和电动15的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-10-vs-electric-20-concrete-pump",
+      "keyword": {
+        "en": "electric 10 vs electric 20 concrete pump",
+        "zh": "电动10和电动20混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "rural-diesel-vs-diesel-30-concrete-pump",
+      "keyword": {
+        "en": "rural diesel pump vs diesel 30 concrete pump",
+        "zh": "农村柴油泵和柴油30的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-15-vs-rural-diesel-concrete-pump",
+      "keyword": {
+        "en": "electric 15 vs rural diesel concrete pump",
+        "zh": "电动15和农村柴油泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "hbt8018-vs-diesel-120-concrete-pump",
+      "keyword": {
+        "en": "HBT8018 vs diesel 120 concrete pump",
+        "zh": "HBT8018和柴油120的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-20-vs-diesel-30-concrete-pump",
+      "keyword": {
+        "en": "electric 20 vs diesel 30 concrete pump",
+        "zh": "电动20和柴油30混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "lz-60-vs-diesel-50-concrete-pump",
+      "keyword": {
+        "en": "LZ-60 vs diesel 50 concrete pump",
+        "zh": "LZ-60和柴油50的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-40-vs-electric-30-concrete-pump",
+      "keyword": {
+        "en": "electric 40 vs electric 30 concrete pump",
+        "zh": "电动40和电动30混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-40-vs-lz-60-concrete-pump",
+      "keyword": {
+        "en": "diesel 40 vs LZ-60 concrete pump",
+        "zh": "柴油40和LZ-60的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-80-vs-lz-80-concrete-pump",
+      "keyword": {
+        "en": "electric 80 vs LZ-80 concrete pump",
+        "zh": "电动80和LZ-80混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-20-vs-electric-40-concrete-pump",
+      "keyword": {
+        "en": "electric 20 vs electric 40 concrete pump",
+        "zh": "电动20和电动40混凝土泵的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "diesel-30-vs-tractor-4100-concrete-pump",
+      "keyword": {
+        "en": "diesel 30 vs tractor 4100 concrete pump",
+        "zh": "柴油30和拖拉机4100的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "electric-50-vs-electric-low-pressure-40",
+      "keyword": {
+        "en": "electric 50 vs low pressure 40 concrete pump",
+        "zh": "电动50和电动低压40的区别"
+      },
+      "hasImage": true
+    },
+    {
+      "slug": "hbt8018-vs-lz-60-concrete-pump",
+      "keyword": {
+        "en": "HBT8018 vs LZ-60 concrete pump",
+        "zh": "HBT8018和LZ-60的区别"
+      },
+      "hasImage": true
+    }
+  ]
+}

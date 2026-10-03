@@ -1,0 +1,172 @@
+{
+  "slug": "parts-straight-delivery-pipe-printed-fields",
+  "category": "parts",
+  "keyword": "concrete pump delivery pipe",
+  "title": {
+    "en": "What is the Pinjin straight delivery pipe?",
+    "zh": "品锦直管输送管是什么？"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery lists a straight concrete-pump delivery pipe from Xingtai: red enamel, reinforced coupling ends. Diameter, wall thickness and length are not a fixed table.",
+    "zh": "河北品锦机械在邢台列出混凝土泵直管：红色涂层、加强快接端。管径、壁厚和长度不是一张固定表。"
+  },
+  "h1": {
+    "en": "Straight concrete pump delivery pipe from Xingtai",
+    "zh": "邢台混凝土泵直管"
+  },
+  "directAnswer": {
+    "en": "The Concrete Pump Delivery Pipe is a straight spare made by Hebei Pinjin Machinery in Xingtai. The page prints red enamel and reinforced coupling or flange ends. It does not print wall thickness, a fixed diameter table, a length table, or a list price. Inner diameter is copied only from a pump page that has the cell.",
+    "zh": "混凝土泵输送管是河北品锦机械在邢台制造的直管配件。页面写明红色涂层和加强快接或法兰端。没有壁厚、固定管径表、长度表，也没有公开标价。内径只从印了这一格的泵页抄。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What the spare page prints",
+        "zh": "配件页印了什么"
+      },
+      "body": {
+        "en": "The spare is a straight high-pressure delivery pipe for Pinjin trailer and mixer pumps. Factory photos show red enamel, reinforced coupling ends and an identification label. End connection is described as a reinforced coupling or flange. Finish is factory red enamel. Diameter and length are quoted after the pump model is named. Wall thickness is absent. Service life is absent.",
+        "zh": "这件配件是品锦拖泵和搅拌泵用的直管。工厂照片是红色涂层、加强快接端和识别标签。端部写成加强快接或法兰。表面是工厂红色涂层。管径和长度要在写出泵型号之后报价。壁厚没有。使用寿命没有。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Which published pumps print an inner diameter",
+        "zh": "哪些已公布泵印了内径"
+      },
+      "body": {
+        "en": "Six pages print a delivery-pipe inner diameter. Electric 20 prints 80 mm. Electric 15 prints 100–125 mm, with a dash. Integrated Mixer Pump, HBT8018, HBT80-16 and LZ-60 each print 100 / 125 mm, with a slash. Those four slash cells are not the same pump. The other published pump pages have no delivery-pipe diameter cell, so their DN is a missing field.",
+        "zh": "六台泵印了输送管内径。电动20是 80 mm。电动15是 100–125 mm，用连接号。搅拌泵一体机、HBT8018、HBT80-16 和 LZ-60 各印 100 / 125 mm，用斜线。斜线相同的四台不是同一台泵。其余已公布泵页没有输送管内径这一格，管径是缺字段。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the Xingtai inquiry needs",
+        "zh": "向邢台询价要写什么"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Include the pump model slug, the inner diameter copied from that model's cell when the cell exists, the length, and the quantity. If the model page has no diameter cell, say so and leave DN blank rather than borrowing 80 mm or 100 / 125 mm from another model.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写上泵的目录型号；该型号若印了内径，按那一格原文抄；再写长度和数量。型号页没有管径格时，写明缺这一格，不要从别的型号借 80 mm 或 100 / 125 mm。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does the pipe page list DN125 as a stock size?",
+        "zh": "输送管页把 DN125 列为库存规格了吗？"
+      },
+      "answer": {
+        "en": "No. There is no fixed size table. 100 / 125 mm and 100–125 mm appear only on the six pump pages named above.",
+        "zh": "没有。没有固定尺寸表。100 / 125 mm 和 100–125 mm 只出现在上面点名的六台泵页面。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is wall thickness printed?",
+        "zh": "印了壁厚吗？"
+      },
+      "answer": {
+        "en": "No. Wall thickness is a missing field.",
+        "zh": "没有。壁厚是缺字段。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a service life printed?",
+        "zh": "印了使用寿命吗？"
+      },
+      "answer": {
+        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
+        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+      }
+    },
+    {
+      "question": {
+        "en": "Where is the quote sent?",
+        "zh": "报价发给哪里？"
+      },
+      "answer": {
+        "en": "Email or WhatsApp on the contact page, to Hebei Pinjin Machinery in Xingtai.",
+        "zh": "通过联系页的邮件或 WhatsApp，发给邢台河北品锦机械。"
+      }
+    }
+  ],
+  "relatedPaths": [
+    {
+      "href": "/products/concrete-pump-delivery-pipe",
+      "label": {
+        "en": "Concrete Pump Delivery Pipe",
+        "zh": "混凝土泵输送管"
+      }
+    },
+    {
+      "href": "/products/concrete-pump-parts",
+      "label": {
+        "en": "Concrete pump parts",
+        "zh": "混凝土泵配件"
+      }
+    },
+    {
+      "href": "/products/electric-20-concrete-pump",
+      "label": {
+        "en": "Electric 20 Concrete Pump",
+        "zh": "电动20型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-15-concrete-pump",
+      "label": {
+        "en": "Electric 15 Concrete Pump",
+        "zh": "电动15型混凝土泵"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Email or WhatsApp the Xingtai factory",
+        "zh": "邮件或 WhatsApp 联系邢台工厂"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Pinjin catalogue: Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Concrete Pump Delivery Pipe",
+      "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-pipe/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Electric 20 Concrete Pump",
+      "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Electric 20 Concrete Pump",
+      "url": "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "Pinjin catalogue: Electric 15 Concrete Pump",
+      "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    },
+    {
+      "name": "品锦目录：Electric 15 Concrete Pump",
+      "url": "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+      "type": "pinjin"
+    }
+  ],
+  "status": "ready",
+  "image": {
+    "src": "/images/geo/parts/pinjin-parts-straight-delivery-pipe-printed-fields.webp",
+    "alt": {
+      "en": "Straight concrete pump delivery pipe from Xingtai, 品锦, Hebei Pinjin Machinery, Xingtai",
+      "zh": "邢台混凝土泵直管，品锦机械，河北邢台"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "how-diesel-engine-codes-are-printed-beside-kilowatts",
+  "category": "knowledge",
+  "keyword": {
+    "en": "concrete pump diesel engine code 4105 4108 6105",
+    "zh": "混凝土泵柴油机代号4105 4108 6105怎么读"
+  },
+  "title": {
+    "en": "How Diesel Engine Codes Sit Beside the Kilowatts",
+    "zh": "柴油机代号怎样和千瓦印在一起"
+  },
+  "description": {
+    "en": "The Xingtai sheets print 4105, 4108 or 6105 next to a kilowatt figure. The catalogue does not decode the digits.",
+    "zh": "邢台参数页把 4105、4108 或 6105 和千瓦印在一起。目录没有解释这些数字的含义。"
+  },
+  "h1": {
+    "en": "How Diesel Engine Codes Sit Beside the Kilowatts",
+    "zh": "柴油机代号怎样和千瓦印在一起"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints a diesel code and a kilowatt figure together on several concrete pumps in Xingtai. Diesel 30 prints 4105 / 56 kW. Diesel 40 and the diesel mixer print 4108, at 66 kW and at 66–75 kW. Diesel 50, Diesel 60 and LZ-60 all print 6105, at 99 kW, 144 kW and 145 kW. The sheet does not explain the digits. LZ-80 and Diesel 120 do not use these codes.",
+    "zh": "河北品锦机械在邢台的多台混凝土泵上把柴油机代号和千瓦印在一起。柴油30为 4105 / 56 kW。柴油40和柴油搅拌泵使用 4108，分别是 66 kW 和 66–75 kW。柴油50、柴油60和 LZ-60 都印 6105，分别为 99 kW、144 kW 和 145 kW。参数页没有解释这些数字。LZ-80 和柴油120不使用这些代号。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The pairs that are printed",
+        "zh": "已经印出的对照"
+      },
+      "body": {
+        "en": "Read the code and the kilowatts as one cell. 6105 on Diesel 50 is 99 kW. 6105 on Diesel 60 is 144 kW. 6105 on LZ-60 is 145 kW. The shared code is not shared power. 4108 on Diesel 40 is 66 kW, while the diesel mixer prints 4108 / 66–75 kW. Hebei Pinjin Machinery does not publish a further engine specification under the code.",
+        "zh": "把代号和千瓦当成一格来读。柴油50上的 6105 是 99 kW。柴油60上的 6105 是 144 kW。LZ-60 上的 6105 是 145 kW。代号相同不等于功率相同。柴油40的 4108 是 66 kW，柴油搅拌泵印的是 4108 / 66–75 kW。河北品锦机械没有在代号下面再公布一份发动机细规格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Diesel rows that use a different power line",
+        "zh": "动力行写法不同的柴油泵"
+      },
+      "body": {
+        "en": "Diesel 120 prints 290 kW (two units 145 kW) and does not print 4105, 4108 or 6105. LZ-80 prints 256 kW (Yuchai). The rural diesel pump prints 17 kW with no code. The tractor page prints power 40 kW with no diesel code. Do not invent a 4105 label for those pages.",
+        "zh": "柴油120印 290 kW（两台 145 kW），没有印 4105、4108 或 6105。LZ-80 印 256 kW（玉柴）。农村柴油泵印 17 kW，没有代号。拖拉机页印功率 40 kW，没有柴油机代号。不要给这些页面编一个 4105 标签。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the digits are not",
+        "zh": "这些数字不是什么"
+      },
+      "body": {
+        "en": "The catalogue does not say that 4105 means a cylinder count, a displacement or a brand beyond the characters printed. Yuchai is named only on LZ-80. If a buyer needs an engine plate detail that is not in the cell, the route is /en/contact/.",
+        "zh": "目录没有说 4105 代表缸数、排量，或印出文字以外的品牌。玉柴只出现在 LZ-80。如果买方需要格子里没有的发动机铭牌细节，途径是 /zh/contact/。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does 6105 always mean 99 kW?",
+        "zh": "6105 是不是总等于 99 kW？"
+      },
+      "answer": {
+        "en": "No. Diesel 50 prints 99 kW, Diesel 60 prints 144 kW and LZ-60 prints 145 kW, all beside 6105.",
+        "zh": "不是。柴油50印 99 kW，柴油60印 144 kW，LZ-60 印 145 kW，旁边都是 6105。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which page names Yuchai?",
+        "zh": "哪一页写出玉柴？"
+      },
+      "answer": {
+        "en": "LZ-80. The cell reads 256 kW (Yuchai).",
+        "zh": "LZ-80。这一格写的是 256 kW（玉柴）。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the rural pump print 4105?",
+        "zh": "农村泵印 4105 吗？"
+      },
+      "answer": {
+        "en": "No. It prints diesel engine power 17 kW and no engine code.",
+        "zh": "不印。它印柴油机功率 17 kW，没有发动机代号。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the code explained on the sheet?",
+        "zh": "参数页解释这个代号吗？"
+      },
+      "answer": {
+        "en": "No. Hebei Pinjin Machinery prints the code and the kilowatts only.",
+        "zh": "没有。河北品锦机械只印代号和千瓦。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge/how-diesel-engine-codes-are-printed-beside-kilowatts-pinjin.webp",
+    "alt": {
+      "en": "How Diesel Engine Codes Sit Beside the Kilowatts, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "柴油机代号怎样和千瓦印在一起，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/diesel-30-concrete-pump/",
+    "/zh/products/diesel-30-concrete-pump/",
+    "/en/products/diesel-40-concrete-pump/",
+    "/zh/products/diesel-40-concrete-pump/",
+    "/en/products/diesel-50-concrete-pump/",
+    "/zh/products/diesel-50-concrete-pump/",
+    "/en/products/diesel-60-concrete-pump/",
+    "/zh/products/diesel-60-concrete-pump/",
+    "/en/products/lz-60-diesel-concrete-pump/",
+    "/zh/products/lz-60-diesel-concrete-pump/",
+    "/en/products/lz-80-diesel-concrete-pump/",
+    "/zh/products/lz-80-diesel-concrete-pump/",
+    "/en/products/diesel-120-concrete-pump/",
+    "/zh/products/diesel-120-concrete-pump/",
+    "/en/factory/",
+    "/zh/factory/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+    "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "status": "draft"
+}

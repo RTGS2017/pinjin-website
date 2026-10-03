@@ -1,0 +1,131 @@
+{
+  "slug": "buy-which-distance-row-to-write-on-the-order",
+  "category": "buying",
+  "keyword": "fine stone or aggregate distance row on the order",
+  "title": {
+    "en": "Which Distance Row to Write on a Xingtai Pump Order",
+    "zh": "邢台泵的订单上该写哪一行距离"
+  },
+  "description": {
+    "en": "Several Hebei Pinjin Machinery pages in Xingtai print more than one distance pair. The order has to name the row: fine stone, aggregate 13, 13 mm or 24 mm. A single unmarked “distance” is not a row.",
+    "zh": "河北品锦机械在邢台的多张页面印有不止一组距离。订单必须点明行：细石、13 骨料、13 mm 或 24 mm。没有行名的“距离”不是一行。"
+  },
+  "h1": {
+    "en": "Name the Distance Row Before You Ask for a Quote",
+    "zh": "询价前先写明距离行"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai prints split distance rows on Electric 30, Electric 40, Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer. Electric 30’s fine-stone pair is 60 m / 180 m and its aggregate-13 pair is 20 m / 60 m. Electric 40’s pairs are 120 m / 360 m and 40 m / 120 m. Writing only “360 m” does not say which row you buy against. Send the row name with the measured metres to the contact page.",
+    "zh": "河北品锦机械（邢台）在电动30、电动40、电动50、电动60、电动低压60和柴油搅拌泵上印了分行距离。电动30的细石是 60 m / 180 m，13 骨料是 20 m / 60 m。电动40是 120 m / 360 m 和 40 m / 120 m。只写“360 m”并没有说明你对照的是哪一行。把行名和量到的米数一起发到询盘页。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Pages with three stone labels",
+        "zh": "有三种石子标题的页面"
+      },
+      "body": {
+        "en": "Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer print fine stone (or ≤ 1 inch on the diesel mixer), then 13 mm, then 24 mm. Each label has its own pair. Electric 60’s fine-stone pair is 200 m / 600 m; its 24 mm pair is 100 m / 300 m.",
+        "zh": "电动50、电动60、电动低压60和柴油搅拌泵印有细石（柴油搅拌泵写 ≤ 1 英寸），然后是 13 mm，然后是 24 mm。每个标题有自己的一组。电动60的细石是 200 m / 600 m；24 mm 是 100 m / 300 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pages with one pair",
+        "zh": "只有一组距离的页面"
+      },
+      "body": {
+        "en": "Electric 20 prints one pair, 120 m / 40 m. Diesel 30 prints one pair, 60 m / 180 m. Electric 80 prints one pair, 900 m / 300 m. Do not invent a second row for those sheets.",
+        "zh": "电动20只有一组 120 m / 40 m。柴油30只有一组 60 m / 180 m。电动80只有一组 900 m / 300 m。不要给这些表编第二行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Horizontal and vertical stay in the printed order",
+        "zh": "水平和垂直保持页面上的顺序"
+      },
+      "body": {
+        "en": "Where the label says H / V, the first number is horizontal. HBT80-16 does not use that pair style: it prints horizontal conveying 120 m and delivery height 360 m as separate labels. Copy the label, not a private abbreviation. Inquire at [/en/contact/](/en/contact/).",
+        "zh": "标题写 H / V 时，第一个数是水平。HBT80-16 不用这种成对写法：它把水平输送 120 m 和输送高度 360 m 分成两个标题。抄标题，不要自造缩写。询盘见 [/zh/contact/](/zh/contact/)。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can I add the fine-stone metres to the aggregate metres?",
+        "zh": "可以把细石米数和骨料米数相加吗？"
+      },
+      "answer": {
+        "en": "No. They are alternative rows on the same sheet, not two segments of one pipeline.",
+        "zh": "不能。它们是同一张表上的备选行，不是一条管路的两段。"
+      }
+    },
+    {
+      "question": {
+        "en": "What if my stone is between two labels?",
+        "zh": "石子粒径落在两个标题之间怎么办？"
+      },
+      "answer": {
+        "en": "Send the measured maximum size and the row you think is closest. Hebei Pinjin Machinery in Xingtai matches the printed label. Do not create a midpoint distance.",
+        "zh": "发送量到的最大粒径和你认为最接近的行。河北品锦机械（邢台）对照已印标题。不要自造一个中间距离。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does Electric Low Pressure 40 have two rows?",
+        "zh": "电动低压40有两行吗？"
+      },
+      "answer": {
+        "en": "The sheet used here prints one fine-stone pair, 80 m / 240 m.",
+        "zh": "此处使用的表只印一组细石 80 m / 240 m。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is the price different per row on the website?",
+        "zh": "网站上每一行的价格不同吗？"
+      },
+      "answer": {
+        "en": "No prices are printed. Name the row so Xingtai can quote the page you mean.",
+        "zh": "没有印价格。写明行名，邢台才能对你指的页面报价。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/buying/pinjin-electric-40-distance-rows-xingtai-manufacturer.webp",
+    "alt": {
+      "en": "Electric 40 concrete pump distance-row reference, manufactured by Hebei Pinjin Machinery, Xingtai manufacturer",
+      "zh": "电动40型混凝土泵距离行对照，河北品锦机械厂家制造，邢台"
+    }
+  },
+  "relatedPaths": [
+    "/en/products/electric-30-concrete-pump/",
+    "/zh/products/electric-30-concrete-pump/",
+    "/en/products/electric-40-concrete-pump/",
+    "/zh/products/electric-40-concrete-pump/",
+    "/en/products/electric-50-concrete-pump/",
+    "/zh/products/electric-50-concrete-pump/",
+    "/en/products/diesel-mixer-integrated-pump/",
+    "/zh/products/diesel-mixer-integrated-pump/",
+    "/en/contact/",
+    "/zh/contact/"
+  ],
+  "sources": [
+    "pinjin-website/src/data/products.ts",
+    "pinjin-website/src/data/selectionGuide.ts",
+    "pinjin-website/src/data/categoryHubs.ts",
+    "pinjin-website/src/config/site.ts",
+    "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+    "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+    "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/en/contact/",
+    "https://pinjinpump.com/zh/contact/"
+  ],
+  "status": "ready"
+}

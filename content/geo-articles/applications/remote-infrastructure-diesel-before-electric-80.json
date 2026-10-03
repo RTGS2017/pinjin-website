@@ -1,0 +1,143 @@
+{
+  "slug": "remote-infrastructure-diesel-before-electric-80",
+  "category": "application",
+  "keyword": "remote infrastructure diesel concrete pump",
+  "title": {
+    "en": "Remote infrastructure: diesel before Electric 80?",
+    "zh": "偏远基建要先看柴油，再看电动80吗？"
+  },
+  "description": {
+    "en": "Yes. The infrastructure page says to review diesel models for remote sites. Electric 80’s 900 m row still needs 110 kW.",
+    "zh": "要。基建页写明偏远工地核对柴油型号。电动80的 900 m 行仍然需要 110 kW。"
+  },
+  "h1": {
+    "en": "Remote infrastructure: diesel before Electric 80?",
+    "zh": "偏远基建要先看柴油，再看电动80吗？"
+  },
+  "directAnswer": {
+    "en": "Yes. Hebei Pinjin Machinery in Xingtai tells buyers to review diesel engine models for remote infrastructure sites. Electric 80 remains the 900 m horizontal listing only when 110 kW and ≤ 2 cm aggregate are real. Otherwise open Diesel 30–60, LZ-60, LZ-80 or Diesel 120 and match the printed distance and output. No country and no project name is required.",
+    "zh": "要。邢台河北品锦机械让采购方为偏远基建核对柴油机型号。只有 110 kW 和 ≤ 2 cm 骨料都成立时，电动80仍是水平 900 m 那一条。否则打开柴油30–60、LZ-60、LZ-80 或柴油120，对照已印的距离和输送量。不需要国家和项目名称。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What “remote” means on this site",
+        "zh": "本站的“偏远”指什么"
+      },
+      "body": {
+        "en": "It means the power condition in the infrastructure and diesel pages: no stable grid. It is not a map of provinces and not an export-country page. The off-grid solution page lists Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump. The 4100 and the 17 kW rural pump are the compact end of that list, not the default for a long infrastructure line.",
+        "zh": "它指的是基建页和柴油页里的动力条件：没有稳定电网。它不是省份地图，也不是出口国家页。无电网应用页列出柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。4100 和 17 kW 农村泵是这份名单的紧凑一端，不是长基建管路的默认机。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Pick the diesel row by the cell you need",
+        "zh": "按你需要的格子挑柴油行"
+      },
+      "body": {
+        "en": "Diesel 30 is 15 m³/h and 60 m / 180 m. Diesel 40 is 26 m³/h and 120 m / 360 m. Diesel 50 is 30 m³/h and 150 m / 450 m. Diesel 60 is 35 m³/h and 150 m / 350 m. LZ-60 is 50 m³/h, 100 m conveying and 300 m height. LZ-80 adds the 6 cm stone and the two pressure modes at 120 m conveying. Diesel 120 is 100 m³/h and 150 m / 500 m. Stop at the first row that covers the measured line.",
+        "zh": "柴油30是 15 m³/h、60 m / 180 m。柴油40是 26 m³/h、120 m / 360 m。柴油50是 30 m³/h、150 m / 450 m。柴油60是 35 m³/h、150 m / 350 m。LZ-60 是 50 m³/h、输送 100 m、高度 300 m。LZ-80 加上 6 cm 石子和 120 m 输送上的两种压力模式。柴油120是 100 m³/h、150 m / 500 m。量到的管路被哪一行盖住，就停在哪一行。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Say “no stable grid” explicitly, then the metres and the output you need. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请明确写“没有稳定电网”，再写米数和需要的输送量。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Can Electric 80 be shipped to a site that will add power later?",
+        "zh": "电动80能先发到以后才通电的工地吗？"
+      },
+      "answer": {
+        "en": "The catalogue match is the power that exists for the pour. A future grid is not the 110 kW cell. Ask Xingtai with the actual supply date if you want a later electric comparison.",
+        "zh": "目录对照的是浇筑时存在的电源。将来的电网不是 110 kW 这一格。如果你要以后再对电动泵，把实际供电时间问邢台。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is Diesel 30 too small for every remote site?",
+        "zh": "柴油30对每个偏远工地都太小吗？"
+      },
+      "answer": {
+        "en": "No. It is the correct row when 15 m³/h and 60 m / 180 m are enough. It is too small only when the measured line leaves that table.",
+        "zh": "不是。15 m³/h 和 60 m / 180 m 够用时，它就是对的那一行。只有量到的管路离开这张表时，它才偏小。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does this page list a highway kilometre?",
+        "zh": "本页列出公路公里数了吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "没有。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/applications/xingtai-remote-infrastructure-diesel-concrete-pump.webp",
+    "alt": {
+      "en": "Hebei Pinjin Machinery equipment on a highway infrastructure job",
+      "zh": "河北品锦机械设备用于公路基建现场作业"
+    }
+  },
+  "relatedPaths": [
+    {
+      "href": "/products/diesel-50-concrete-pump",
+      "label": {
+        "en": "Diesel 50 Concrete Pump",
+        "zh": "柴油50型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/electric-80-concrete-pump",
+      "label": {
+        "en": "Electric 80 Concrete Pump",
+        "zh": "电动80型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/diesel-concrete-pumps",
+      "label": {
+        "en": "Diesel concrete pumps",
+        "zh": "柴油混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/infrastructure",
+      "label": {
+        "en": "Infrastructure pumping",
+        "zh": "基建泵送"
+      }
+    },
+    {
+      "href": "/solutions/industrial-projects",
+      "label": {
+        "en": "Pumping without grid power",
+        "zh": "无电网泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/solutions/infrastructure",
+    "https://pinjinpump.com/solutions/industrial-projects",
+    "https://pinjinpump.com/products/diesel-concrete-pumps",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}

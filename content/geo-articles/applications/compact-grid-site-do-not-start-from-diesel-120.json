@@ -1,0 +1,137 @@
+{
+  "slug": "compact-grid-site-do-not-start-from-diesel-120",
+  "category": "application",
+  "keyword": "do not use diesel 120 on a small site",
+  "title": {
+    "en": "Should a compact grid site start from Diesel 120?",
+    "zh": "有电网的紧凑工地要从柴油120开始吗？"
+  },
+  "description": {
+    "en": "No. Diesel 120 is 8000 kg, 100 m³/h and 150 m / 500 m for high-output off-grid infrastructure. A compact grid site starts at B500S-83D, Electric 15 or Electric 10 Series.",
+    "zh": "不要。柴油120是 8000 kg、100 m³/h、150 m / 500 m 的大排量无电网基建泵。有电网的紧凑工地从 B500S-83D、电动15或电动10系列开始。"
+  },
+  "h1": {
+    "en": "Should a compact grid site start from Diesel 120?",
+    "zh": "有电网的紧凑工地要从柴油120开始吗？"
+  },
+  "directAnswer": {
+    "en": "No. Hebei Pinjin Machinery in Xingtai prints Diesel 120 for very high output infrastructure and twin-engine diesel power, at 8000 kg. A compact site with 380 V or a 15 kW supply starts on B500S-83D, Electric 15 or Electric 10 Series. Those weights are 280 kg, 450 kg and 400 kg. Using the largest diesel trailer because it is “more powerful” ignores the published windows.",
+    "zh": "不要。邢台河北品锦机械把柴油120印给超大排量基建和双柴油机动力，重量 8000 kg。有 380 V 或 15 kW 电源的紧凑工地从 B500S-83D、电动15或电动10系列开始。重量分别是 280 kg、450 kg 和 400 kg。因为“更有劲”就用最大的柴油拖泵，等于无视已公布的窗口。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Match the small window first",
+        "zh": "先对照小窗口"
+      },
+      "body": {
+        "en": "Five metres and 5–16 mm stone: B500S-83D. Vertical 15–20 m and 1–3 cm on the grid: Electric 15. Horizontal only, inside 25 m, stone 2 cm and below: Electric 10 Series. If those fail, step to Electric 20’s building row or, without power, to the 17 kW rural diesel or the 4100. Diesel 120 remains the 100 m³/h, 6 cm, 150 m / 500 m machine.",
+        "zh": "5 米和 5–16 mm 石子：B500S-83D。有电网、垂直 15–20 m、1–3 cm：电动15。只有水平、在 25 m 内、石子 2 cm 及以下：电动10系列。这些都不对时，再上电动20的建筑行；没有电源则上 17 kW 农村柴油泵或 4100。柴油120仍然是 100 m³/h、6 cm、150 m / 500 m 的机器。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Off-grid does not skip the compact diesel rows",
+        "zh": "无电网也不能跳过紧凑柴油行"
+      },
+      "body": {
+        "en": "The off-grid page lists the rural diesel and the 4100 beside Diesel 120. Presence on the same page is not an instruction to buy the heaviest one. Send the measured metres.",
+        "zh": "无电网页面把农村柴油泵和 4100 与柴油120列在一起。出现在同一页不是购买最重那台的指令。请发量到的米数。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What should Xingtai receive with the inquiry?",
+        "zh": "向邢台询盘要带上什么？"
+      },
+      "body": {
+        "en": "Describe the site as compact and say what power exists. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
+        "zh": "请把现场写成紧凑工地，并说明现有动力。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Is Diesel 120 ever correct?",
+        "zh": "柴油120会不会是对的？"
+      },
+      "answer": {
+        "en": "Yes, for the high-output off-grid infrastructure window printed on its page. Not as the default small-site pump.",
+        "zh": "会，针对它页面上印出的大排量无电网基建窗口。不是小型工地的默认泵。"
+      }
+    },
+    {
+      "question": {
+        "en": "What does 8000 kg compare with?",
+        "zh": "8000 kg 和什么比？"
+      },
+      "answer": {
+        "en": "Electric 15 is 450 kg. The rural diesel is 800 kg. The gap is the published weights, not a slogan.",
+        "zh": "电动15是 450 kg。农村柴油泵是 800 kg。差距是已公布的重量，不是口号。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does a grid site use LZ-80 by default?",
+        "zh": "有电网的工地默认用 LZ-80 吗？"
+      },
+      "answer": {
+        "en": "No. LZ-80 is a diesel high-volume row. Stable power opens the electric ladder.",
+        "zh": "不。LZ-80 是柴油大排量行。供电稳定时打开电动梯子。"
+      }
+    }
+  ],
+  "image": null,
+  "relatedPaths": [
+    {
+      "href": "/products/electric-15-concrete-pump",
+      "label": {
+        "en": "Electric 15",
+        "zh": "电动15型混凝土泵"
+      }
+    },
+    {
+      "href": "/products/b500s-83d-two-stage-pump",
+      "label": {
+        "en": "B500S-83D",
+        "zh": "B500S-83D"
+      }
+    },
+    {
+      "href": "/products/diesel-120-concrete-pump",
+      "label": {
+        "en": "Diesel 120",
+        "zh": "柴油120型混凝土泵"
+      }
+    },
+    {
+      "href": "/solutions/construction",
+      "label": {
+        "en": "Building construction pumping",
+        "zh": "建筑施工泵送"
+      }
+    },
+    {
+      "href": "/solutions/industrial-projects",
+      "label": {
+        "en": "Pumping without grid power",
+        "zh": "无电网泵送"
+      }
+    },
+    {
+      "href": "/contact",
+      "label": {
+        "en": "Contact Hebei Pinjin Machinery",
+        "zh": "联系河北品锦机械"
+      }
+    }
+  ],
+  "sources": [
+    "https://pinjinpump.com/products/diesel-120-concrete-pump",
+    "https://pinjinpump.com/products/electric-15-concrete-pump",
+    "https://pinjinpump.com/solutions/construction",
+    "https://pinjinpump.com/contact"
+  ],
+  "status": "ready"
+}
