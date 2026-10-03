@@ -1,11 +1,14 @@
 /**
- * Homepage Field Media Console loading policy.
+ * Future homepage video loading policy.
+ * This module is not wired to a player. The live homepage does not ship video.
  *
- * - Only the active clip uses preload="auto" (muted, playsInline).
- * - The next clip uses preload="metadata" and is fetched after the console is in view.
- * - Other files stay poster-only.
- * - Reduced-motion stays poster-only. Never preload clips from index.html.
- * - Factory still remains the LCP image.
+ * When product-evidence clips are added later:
+ * - The active clip uses preload="auto" (muted, loop, playsInline).
+ * - The previous and next clips use preload="metadata" only.
+ * - Every other file stays poster-only: do not create a <video> network request.
+ * - On switch, pause the outgoing video and clear its src (then load())
+ *   so the decoder and buffer are released.
+ * - Never preload the whole library, and never preload clips from index.html.
  */
 export type MediaPreload = 'auto' | 'metadata' | 'none';
 
