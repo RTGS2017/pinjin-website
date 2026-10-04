@@ -1,0 +1,30 @@
+{
+  "category": "knowledge",
+  "batch": "knowledge-b",
+  "articleCount": 1,
+  "newImageCount": 1,
+  "target": 100,
+  "missingImageCount": 99,
+  "note": "已打开产品页、工厂页和首页的 img / srcset / gallery，并扫过 public/images 里不在 public/images/geo 的文件。机器主图、目录规格图 source.png / source-catalog、以及 source-photo 都已与 content/geo-articles 的某篇 image.src 为同一张原图。工厂外观已用于 buying-b，砂浆喷涂室内图已用于 applications-b。本批只留下车间行车这一张未用原图。",
+  "articles": [
+    {
+      "slug": "what-the-xingtai-workshop-crane-photo-labels",
+      "image": "/images/geo/knowledge-b/xingtai-workshop-overhead-crane-hebei-pinjin-machinery.webp",
+      "sourceFile": "public/images/factory/pinjin-machinery-workshop-overhead-crane.webp"
+    }
+  ],
+  "missingImages": [
+    {
+      "topic": "其余 99 篇技术知识",
+      "reason": "同站未用原图只剩 1 张（邢台车间行车）。页面主图和 public/images 里的目录规格图都已经是其他文章主图。不复用旧主图，所以停在 1 篇。"
+    },
+    {
+      "file": "public/images/parks/renze-clusters.webp",
+      "reason": "内容是「河北工信」微信二维码，不是品锦目录图。"
+    },
+    {
+      "file": "public/images/parks/xingtai-crcc-wind-blade.webp",
+      "reason": "风电叶片厂房大厅，不是品锦已公布的泵或本厂产品图。"
+    }
+  ]
+}

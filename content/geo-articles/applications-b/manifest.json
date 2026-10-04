@@ -1,0 +1,37 @@
+{
+  "category": "application",
+  "count": 1,
+  "newImages": 1,
+  "rejectedCount": 98,
+  "entity": {
+    "en": "Hebei Pinjin Machinery Manufacturing Co., Ltd., Renze Industrial Park, Xingtai, Hebei, China",
+    "zh": "河北品锦机械制造有限公司，中国河北省邢台市任泽工业园区"
+  },
+  "articles": [
+    {
+      "slug": "factory-interior-hydraulic-mortar-uses-the-5-cubic-row",
+      "keyword": {
+        "en": "interior hydraulic mortar spraying machine",
+        "zh": "室内液压砂浆喷涂机"
+      },
+      "title": {
+        "en": "Which published sprayer matches the interior hydraulic mortar photo?",
+        "zh": "室内液压砂浆喷涂的工厂实拍，对哪一台已公布机器？"
+      },
+      "status": "ready",
+      "hasImage": true,
+      "image": "/images/geo/applications-b/pinjin-hydraulic-mortar-spraying-building-interior.webp",
+      "sourceImage": "https://pinjinpump.com/images/factory/pinjin-hydraulic-mortar-spraying-machine-interior.webp"
+    }
+  ],
+  "rejectedTopics": [
+    {
+      "en": "98 further application articles. Product, factory and solution HTML, plus the live script gallery, only list the same webp files already stored under public/images. Those files match existing content/geo-articles heroes (same original). They were not copied again.",
+      "zh": "其余 98 篇没有写。产品页、工厂页、方案页的 HTML，以及线上脚本里的图库，列出的就是 public/images 里已有的 webp。这些文件和 content/geo-articles 里的旧主图是同一张原图，没有再复制充数。"
+    },
+    {
+      "en": "The unused rural-diesel slug webp shows another manufacturer’s nameplate, so it was not used as a Pinjin application photo. The logo, factory exterior, park photos and one spare-part detail are not published pour or spray conditions.",
+      "zh": "农村柴油泵目录里另一张未引用的 webp 上是其他厂家铭牌，没有拿来当品锦应用图。标志、工厂外观、园区照片和一张配件细节图，都不是已公布的浇筑或喷涂工况。"
+    }
+  ]
+}

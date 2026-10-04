@@ -1,0 +1,56 @@
+{
+  "category": "buying",
+  "batch": "buying-b",
+  "count": 7,
+  "articles": [
+    {
+      "slug": "buy-diesel-50-concrete-pump-catalogue-sheet-inquiry",
+      "file": "buy-diesel-50-concrete-pump-catalogue-sheet-inquiry.json",
+      "keyword": "order Diesel 50 Concrete Pump from the Xingtai catalogue sheet",
+      "image": "/images/geo/buying-b/pinjin-diesel-50-concrete-pump-catalogue-sheet-xingtai.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-diesel-60-concrete-pump-catalogue-sheet-inquiry",
+      "file": "buy-diesel-60-concrete-pump-catalogue-sheet-inquiry.json",
+      "keyword": "order Diesel 60 Concrete Pump from the Xingtai catalogue sheet",
+      "image": "/images/geo/buying-b/pinjin-diesel-60-concrete-pump-catalogue-sheet-xingtai.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-60-concrete-pump-catalogue-sheet-inquiry",
+      "file": "buy-electric-60-concrete-pump-catalogue-sheet-inquiry.json",
+      "keyword": "order Electric 60 Concrete Pump from the Xingtai catalogue sheet",
+      "image": "/images/geo/buying-b/pinjin-electric-60-concrete-pump-catalogue-sheet-xingtai.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-low-pressure-60-concrete-pump-catalogue-sheet-inquiry",
+      "file": "buy-electric-low-pressure-60-concrete-pump-catalogue-sheet-inquiry.json",
+      "keyword": "order Electric Low Pressure 60 Concrete Pump from the Xingtai catalogue sheet",
+      "image": "/images/geo/buying-b/pinjin-electric-low-pressure-60-concrete-pump-catalogue-sheet-xingtai.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-electric-low-pressure-60-concrete-pump-unused-photo-inquiry",
+      "file": "buy-electric-low-pressure-60-concrete-pump-unused-photo-inquiry.json",
+      "keyword": "order Electric Low Pressure 60 Concrete Pump using the Xingtai factory photo",
+      "image": "/images/geo/buying-b/pinjin-electric-low-pressure-60-concrete-pump-unused-factory-photo-xingtai.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-factory-hero-still-needs-a-model-path",
+      "file": "buy-factory-hero-still-needs-a-model-path.json",
+      "keyword": "how to order from the Xingtai factory photograph",
+      "image": "/images/geo/buying-b/pinjin-xingtai-factory-hero-renze-inquiry.webp",
+      "status": "ready"
+    },
+    {
+      "slug": "buy-rural-diesel-concrete-pump-unused-photo-inquiry",
+      "file": "buy-rural-diesel-concrete-pump-unused-photo-inquiry.json",
+      "keyword": "order Rural Diesel Concrete Pump using the Xingtai factory photo",
+      "image": "/images/geo/buying-b/pinjin-rural-diesel-concrete-pump-unused-factory-photo-xingtai.webp",
+      "status": "ready"
+    }
+  ]
+}

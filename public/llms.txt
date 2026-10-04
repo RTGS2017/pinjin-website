@@ -237,6 +237,7 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Which mortar sprayer is printed for no 380 V?](https://pinjinpump.com/en/blog/type-511-diesel-mortar-when-380v-is-absent/): Xingtai catalogue note.
 - [Does Type 511 mortar spraying need 380 V?](https://pinjinpump.com/en/blog/type-511-mortar-spraying-needs-380v/): Xingtai catalogue note.
 - [Type 511 or Type 511 diesel for the same mortar window?](https://pinjinpump.com/en/blog/type-511-or-511-diesel-same-output-window/): Xingtai catalogue note.
+- [Which published sprayer matches the interior hydraulic mortar photo?](https://pinjinpump.com/en/blog/factory-interior-hydraulic-mortar-uses-the-5-cubic-row/): Xingtai catalogue note.
 - [Put the Aggregate Cell on the Xingtai Purchase Order](https://pinjinpump.com/en/blog/buy-aggregate-cell-on-the-purchase-order/): Xingtai catalogue note.
 - [Order the B500S-83D for a 5 m, 380 V, 280 kg Sheet](https://pinjinpump.com/en/blog/buy-b500s-five-metre-and-380v/): Xingtai catalogue note.
 - [Leave Blank Xingtai Catalogue Cells Blank on the Order](https://pinjinpump.com/en/blog/buy-blank-catalogue-cells-stay-blank/): Xingtai catalogue note.
@@ -312,6 +313,13 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Send Xingtai the Printed Weight and Frame, Not a Guess](https://pinjinpump.com/en/blog/buy-weight-and-dimensions-on-the-transport-note/): Xingtai catalogue note.
 - [Which Distance Row to Write on a Xingtai Pump Order](https://pinjinpump.com/en/blog/buy-which-distance-row-to-write-on-the-order/): Xingtai catalogue note.
 - [Order 100 / 125 mm Pipe Only from the Xingtai Pages That Print It](https://pinjinpump.com/en/blog/buy-which-pages-print-100-125-pipe/): Xingtai catalogue note.
+- [Put the Diesel 50 Concrete Pump Page on the Inquiry, Then Ask Xingtai for the Price](https://pinjinpump.com/en/blog/buy-diesel-50-concrete-pump-catalogue-sheet-inquiry/): Xingtai catalogue note.
+- [Put the Diesel 60 Concrete Pump Page on the Inquiry, Then Ask Xingtai for the Price](https://pinjinpump.com/en/blog/buy-diesel-60-concrete-pump-catalogue-sheet-inquiry/): Xingtai catalogue note.
+- [Put the Electric 60 Concrete Pump Page on the Inquiry, Then Ask Xingtai for the Price](https://pinjinpump.com/en/blog/buy-electric-60-concrete-pump-catalogue-sheet-inquiry/): Xingtai catalogue note.
+- [Put the Electric Low Pressure 60 Concrete Pump Page on the Inquiry, Then Ask Xingtai for the Price](https://pinjinpump.com/en/blog/buy-electric-low-pressure-60-concrete-pump-catalogue-sheet-inquiry/): Xingtai catalogue note.
+- [The Extra Electric Low Pressure 60 Concrete Pump Photograph Still Orders the Same Printed Row](https://pinjinpump.com/en/blog/buy-electric-low-pressure-60-concrete-pump-unused-photo-inquiry/): Xingtai catalogue note.
+- [The Xingtai Factory Photograph Still Needs a Model Path](https://pinjinpump.com/en/blog/buy-factory-hero-still-needs-a-model-path/): Xingtai catalogue note.
+- [The Extra Rural Diesel Concrete Pump Photograph Still Orders the Same Printed Row](https://pinjinpump.com/en/blog/buy-rural-diesel-concrete-pump-unused-photo-inquiry/): Xingtai catalogue note.
 - [B500S-83D vs Electric 10 Concrete Pump](https://pinjinpump.com/en/blog/b500s-83d-vs-electric-10-concrete-pump/): Xingtai catalogue note.
 - [B500S-83D vs Electric 15 Concrete Pump](https://pinjinpump.com/en/blog/b500s-83d-vs-electric-15-concrete-pump/): Xingtai catalogue note.
 - [Diesel 120 vs Electric 80 Pumping Distance](https://pinjinpump.com/en/blog/diesel-120-vs-electric-80-pumping-distance/): Xingtai catalogue note.
@@ -387,6 +395,7 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Why a Blank Pump Cell Cannot Be Copied](https://pinjinpump.com/en/blog/why-a-blank-pump-cell-cannot-be-copied/): Xingtai catalogue note.
 - [Why Electric 10 Has No Vertical Distance Cell](https://pinjinpump.com/en/blog/why-electric-10-has-no-vertical-distance-cell/): Xingtai catalogue note.
 - [Why Stone Size Changes the Printed Pumping Distance](https://pinjinpump.com/en/blog/why-stone-size-changes-the-printed-pumping-distance/): Xingtai catalogue note.
+- [What the Xingtai Workshop Crane Photo Labels](https://pinjinpump.com/en/blog/what-the-xingtai-workshop-crane-photo-labels/): Xingtai catalogue note.
 - [What B500S-83D prints about its delivery hose](https://pinjinpump.com/en/blog/parts-b500s-83d-standard-hose-cell/): Xingtai catalogue note.
 - [What is the Pinjin DN80 pipe clamp?](https://pinjinpump.com/en/blog/parts-clamp-dn80-en14420-3/): Xingtai catalogue note.
 - [How the Pinjin hose differs from the straight pipe](https://pinjinpump.com/en/blog/parts-delivery-hose-is-not-the-straight-pipe/): Xingtai catalogue note.
@@ -462,6 +471,7 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Swing-cylinder seal φ70](https://pinjinpump.com/en/blog/parts-swing-cylinder-seal-70/): Xingtai catalogue note.
 - [Swing-cylinder seal φ80](https://pinjinpump.com/en/blog/parts-swing-cylinder-seal-80/): Xingtai catalogue note.
 - [Swing-cylinder seal φ90](https://pinjinpump.com/en/blog/parts-swing-cylinder-seal-90/): Xingtai catalogue note.
+- [What the swing-arm ball detail photo does not add](https://pinjinpump.com/en/blog/parts-b-concrete-pump-swing-arm-ball-detail-photo/): Xingtai catalogue note.
 
 ## Contact
 - [Contact](https://pinjinpump.com/en/contact/): Request a quote by email or WhatsApp. Quotes follow published catalogue tables.

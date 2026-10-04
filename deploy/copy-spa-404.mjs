@@ -554,7 +554,7 @@ if (sitemapPaths.some((path) => path.startsWith('/pt/') || path.startsWith('/ar/
   process.exit(1);
 }
 const zhBlogArticles = sitemapPaths.filter((path) => /^\/zh\/blog\/.+/.test(path));
-const geoRoots = ['knowledge', 'buying', 'applications', 'parts'];
+const geoRoots = ['knowledge', 'buying', 'applications', 'parts', 'knowledge-b', 'buying-b', 'applications-b', 'parts-b'];
 function geoArticleIndexesZh(slug) {
   for (const folder of geoRoots) {
     const file = join(root, 'content', 'geo-articles', folder, `${slug}.json`);

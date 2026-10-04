@@ -1,0 +1,20 @@
+{
+  "category": "parts",
+  "count": 1,
+  "newImages": 1,
+  "rejected": 44,
+  "entity": "河北品锦机械制造有限公司，邢台",
+  "note": "Stopped when no further unused same-site original remained. Catalogue sheets and studio photos already match images under public/images/geo.",
+  "articles": [
+    {
+      "slug": "parts-b-concrete-pump-swing-arm-ball-detail-photo",
+      "file": "parts-b-concrete-pump-swing-arm-ball-detail-photo.json",
+      "keyword": {
+        "en": "concrete pump swing-arm ball detail photo",
+        "zh": "混凝土泵摆臂球头细节图"
+      },
+      "image": "/images/geo/parts-b/pinjin-concrete-pump-swing-arm-ball-detail-photo.webp",
+      "status": "ready"
+    }
+  ]
+}

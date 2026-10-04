@@ -7,6 +7,7 @@ type Pair = { en?: string; zh?: string };
 type GeoArticle = {
   slug?: string;
   category?: string;
+  date?: string;
   keyword?: string | Pair;
   title?: Pair;
   description?: Pair;
@@ -18,11 +19,21 @@ type GeoArticle = {
   sources?: Array<string | { url?: string }>;
 };
 
+const KNOWLEDGE = { category: 'manufacturing-knowledge' as const, resourceType: 'technical-reference' as const };
+const BUYING = { category: 'industry-guide' as const, resourceType: 'procurement-guide' as const };
+const APPLICATION = { category: 'application-solutions' as const, resourceType: 'application-guide' as const };
+const PARTS = { category: 'product-guide' as const, resourceType: 'parts-guide' as const };
+
 const CATEGORY: Record<string, { category: BlogCategory; resourceType: BlogResourceType }> = {
-  knowledge: { category: 'manufacturing-knowledge', resourceType: 'technical-reference' },
-  buying: { category: 'industry-guide', resourceType: 'procurement-guide' },
-  application: { category: 'application-solutions', resourceType: 'application-guide' },
-  parts: { category: 'product-guide', resourceType: 'parts-guide' },
+  knowledge: KNOWLEDGE,
+  'knowledge-b': KNOWLEDGE,
+  buying: BUYING,
+  'buying-b': BUYING,
+  application: APPLICATION,
+  applications: APPLICATION,
+  'applications-b': APPLICATION,
+  parts: PARTS,
+  'parts-b': PARTS,
 };
 
 const jsonModules = import.meta.glob<GeoArticle>(
@@ -38,6 +49,11 @@ function pair(value: Pair | undefined, fallback = ''): { en: string; zh: string 
   const en = text(value?.en) || fallback;
   const zh = text(value?.zh) || en;
   return { en, zh };
+}
+
+function publishedDate(value: unknown): string {
+  const raw = text(value);
+  return /^\d{4}-\d{2}-\d{2}$/.test(raw) ? raw : '2026-10-03';
 }
 
 function keywordText(value: GeoArticle['keyword']): { en: string; zh: string } {
@@ -173,7 +189,7 @@ function toPost(article: GeoArticle): BlogPost | null {
     seoTitle: title,
     description,
     category: kind.category,
-    date: '2026-10-03',
+    date: publishedDate(article.date),
     keywords: [keyword.en, keyword.zh].filter(Boolean),
     primaryKeyword: keyword.en || title.en,
     relatedProductSlugs: productSlugs,
