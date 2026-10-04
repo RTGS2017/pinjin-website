@@ -1,0 +1,136 @@
+{
+  "slug": "electric-30-which-power-cell-the-sheet-prints",
+  "date": "2026-10-04",
+  "category": "knowledge",
+  "keyword": {
+    "en": "Electric 30 Concrete Pump motor or diesel power cell",
+    "zh": "电动30型混凝土泵电机或柴油动力格"
+  },
+  "title": {
+    "en": "Which Power Cell Electric 30 Concrete Pump Prints",
+    "zh": "电动30型混凝土泵的动力格子印了什么"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery prints the Electric 30 Concrete Pump power text in Xingtai as: Motor Power is 30 kW. An electric motor cell is kilowatts on a motor. A diesel cell ",
+    "zh": "河北品锦机械在邢台把电动30型混凝土泵的动力文字印成：电机功率是30 kW。电机格是电机上的千瓦。柴油格只写这一页真正印出的发动机行。画面「Induction motor」的主体是Rotterdam Ahoy Europort 2011 (14)。它不改这一格动力，也不会把柴油机代号抄到电动行上。"
+  },
+  "h1": {
+    "en": "Which Power Cell Electric 30 Concrete Pump Prints",
+    "zh": "电动30型混凝土泵的动力格子印了什么"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints the Electric 30 Concrete Pump power text in Xingtai as: Motor Power is 30 kW. An electric motor cell is kilowatts on a motor. A diesel cell names the engine line that is actually printed. The frame “Induction motor” shows Rotterdam Ahoy Europort 2011 (14). It does not change this power cell, and a diesel code is not copied onto an electric row.",
+    "zh": "河北品锦机械在邢台把电动30型混凝土泵的动力文字印成：电机功率是30 kW。电机格是电机上的千瓦。柴油格只写这一页真正印出的发动机行。画面「Induction motor」的主体是Rotterdam Ahoy Europort 2011 (14)。它不改这一格动力，也不会把柴油机代号抄到电动行上。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Read the power label that is present",
+        "zh": "只读已经印出的动力标题"
+      },
+      "body": {
+        "en": "Motor Power is 30 kW. Electric drive and diesel drive are different supplies. Use the label on this sheet, not the neighbouring model's label. Output Capacity remains 12–15 m³/h. Max. Outlet Pressure remains 20 MPa.",
+        "zh": "电机功率是30 kW。电动和柴油是两种供电。用这一页的标题，不用旁边那个型号的标题。理论输送量仍是12–15 m³/h。最大出口压力仍是20 MPa。"
+      }
+    },
+    {
+      "heading": {
+        "en": "A power-unit frame is not a nameplate",
+        "zh": "动力装置画面不是铭牌"
+      },
+      "body": {
+        "en": "The frame is from en.wikipedia.org, “Induction motor”, and its subject is Rotterdam Ahoy Europort 2011 (14). Hebei Pinjin Machinery does not lift kilowatts or an engine code out of that frame. If this row has no voltage cell, none is invented.",
+        "zh": "这一帧来自 en.wikipedia.org 的「Induction motor」，主体是Rotterdam Ahoy Europort 2011 (14)。河北品锦机械不从这一帧里提取千瓦或发动机代号。这一行如果没有电压格，就不编一个电压。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power does not set the pipe size",
+        "zh": "动力格不决定管径"
+      },
+      "body": {
+        "en": "Hopper Capacity 0.3 m³. Fine Stone Pumping (H / V) 60 m / 180 m. Main Unit Weight 1200 kg. Those cells, when printed, stay in their own columns. A larger motor cell is not a longer pipeline.",
+        "zh": "料斗容积 0.3 m³。细石输送（水平/垂直） 60 m / 180 m。整机重量 1200 kg。这些格子如果印了，就留在各自的列里。电机千瓦更大，并不等于管路更长。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What power text does Electric 30 Concrete Pump print?",
+        "zh": "电动30型混凝土泵的动力文字是什么？"
+      },
+      "answer": {
+        "en": "Motor Power is 30 kW.",
+        "zh": "电机功率是30 kW。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can a diesel code be moved onto this row?",
+        "zh": "可以把柴油机代号挪到这一行吗？"
+      },
+      "answer": {
+        "en": "Only if this row already prints it. Otherwise the cell stays as written.",
+        "zh": "只有这一行已经印了才能算。否则格子保持原样。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the frame show the Xingtai kilowatts?",
+        "zh": "这一帧显示了邢台的千瓦吗？"
+      },
+      "answer": {
+        "en": "No. Kilowatts are taken from the catalogue cell, not from the frame.",
+        "zh": "没有。千瓦取自目录格，不取自这一帧。"
+      }
+    },
+    {
+      "question": {
+        "en": "What are output and pressure on this sheet?",
+        "zh": "这一页的输送量和压力是多少？"
+      },
+      "answer": {
+        "en": "Output Capacity is 12–15 m³/h. Max. Outlet Pressure is 20 MPa.",
+        "zh": "理论输送量是12–15 m³/h。最大出口压力是20 MPa。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge-c/rotterdam-ahoy-europort-2011-14.webp",
+    "alt": {
+      "en": "Rotterdam Ahoy Europort 2011 (14). Subject of the frame for the Electric 30 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "Rotterdam Ahoy Europort 2011 (14)。电动30型混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/products/electric-30-concrete-pump",
+    "/products/electric-low-pressure-40-concrete-pump",
+    "/blog/diesel-120-which-power-cell-the-sheet-prints",
+    "/blog/diesel-30-which-power-cell-the-sheet-prints",
+    "/blog/diesel-40-which-power-cell-the-sheet-prints",
+    "/blog/electric-30-frame-size-is-not-pumping-reach",
+    "/blog/electric-30-pressure-cell-is-not-the-output-cell",
+    "/blog/how-a-pinjin-concrete-pump-moves-concrete"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "answerBlock": {
+    "what": {
+      "en": "Hebei Pinjin Machinery prints the Electric 30 Concrete Pump power text in Xingtai as: Motor Power is 30 kW. An electric motor cell is kilowatts on a motor. A diesel cell names the engine line that is actually printed. The frame “Induction motor” shows Rotterdam Ahoy Europort 2011 (14). It does not change this power cell, and a diesel code is not copied onto an electric row.",
+      "zh": "河北品锦机械在邢台把电动30型混凝土泵的动力文字印成：电机功率是30 kW。电机格是电机上的千瓦。柴油格只写这一页真正印出的发动机行。画面「Induction motor」的主体是Rotterdam Ahoy Europort 2011 (14)。它不改这一格动力，也不会把柴油机代号抄到电动行上。"
+    },
+    "who": {
+      "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
+      "zh": "河北品锦机械，中国河北邢台"
+    }
+  }
+}

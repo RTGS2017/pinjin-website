@@ -1,0 +1,714 @@
+{
+  "category": "application",
+  "date": "2026-10-04",
+  "count": 100,
+  "imageCount": 100,
+  "directory": "content/geo-articles/applications-c",
+  "imageDirectory": "public/images/geo/applications-c",
+  "entity": {
+    "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
+    "zh": "河北品锦机械，中国河北邢台"
+  },
+  "articles": [
+    {
+      "slug": "grid-slab-pour-electric-20-small-aggregate",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ready-mix_concrete",
+      "image": "/images/geo/applications-c/grid-slab-pour-electric-20-small-aggregate.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Small-transit-mixer.jpg/1280px-Small-transit-mixer.jpg",
+      "sourceTitle": "Ready-mix concrete"
+    },
+    {
+      "slug": "commercial-frame-electric-20-nine-hundred-kilograms",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Formwork",
+      "image": "/images/geo/applications-c/commercial-frame-electric-20-nine-hundred-kilograms.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Talbruecke-Bruenn-4_2005-08-04.jpg/1280px-Talbruecke-Bruenn-4_2005-08-04.jpg",
+      "sourceTitle": "Formwork"
+    },
+    {
+      "slug": "building-fine-stone-electric-30-sixty-metre-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Reinforced_concrete",
+      "image": "/images/geo/applications-c/building-fine-stone-electric-30-sixty-metre-cell.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Talbruecke-Bruenn_2005-08-04.jpg/1280px-Talbruecke-Bruenn_2005-08-04.jpg",
+      "sourceTitle": "Reinforced concrete"
+    },
+    {
+      "slug": "building-aggregate-thirteen-electric-30-short-line",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_pump",
+      "image": "/images/geo/applications-c/building-aggregate-thirteen-electric-30-short-line.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Concrete_boom_pump.jpg/1280px-Concrete_boom_pump.jpg",
+      "sourceTitle": "Concrete pump"
+    },
+    {
+      "slug": "fine-stone-building-electric-low-pressure-40",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shotcrete",
+      "image": "/images/geo/applications-c/fine-stone-building-electric-low-pressure-40.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Bauarbeiten_%C3%B6stliches_Domumfeld-K%C3%B6lner_Dom-Spritzbeton-8306.jpg/1280px-Bauarbeiten_%C3%B6stliches_Domumfeld-K%C3%B6lner_Dom-Spritzbeton-8306.jpg",
+      "sourceTitle": "Shotcrete"
+    },
+    {
+      "slug": "medium-building-electric-40-twenty-one-cubic",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rebar",
+      "image": "/images/geo/applications-c/medium-building-electric-40-twenty-one-cubic.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/A_bunch_of_rebar.jpg/1280px-A_bunch_of_rebar.jpg",
+      "sourceTitle": "Rebar"
+    },
+    {
+      "slug": "medium-building-aggregate-thirteen-electric-40",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_slab",
+      "image": "/images/geo/applications-c/medium-building-aggregate-thirteen-electric-40.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Suspended-slab-formwork.jpg/1280px-Suspended-slab-formwork.jpg",
+      "sourceTitle": "Concrete slab"
+    },
+    {
+      "slug": "building-fine-stone-electric-50-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Falsework",
+      "image": "/images/geo/applications-c/building-fine-stone-electric-50-cell.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/SFOBSAS-YBIFalseworkPlacementIMG_1482.JPG/1280px-SFOBSAS-YBIFalseworkPlacementIMG_1482.JPG",
+      "sourceTitle": "Falsework"
+    },
+    {
+      "slug": "building-thirteen-millimetre-electric-50-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Climbing_formwork",
+      "image": "/images/geo/applications-c/building-thirteen-millimetre-electric-50-cell.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Takapuna_Sentinel_Building_Construction.jpg/1280px-Takapuna_Sentinel_Building_Construction.jpg",
+      "sourceTitle": "Climbing formwork"
+    },
+    {
+      "slug": "building-twenty-four-millimetre-electric-50-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Slip_forming",
+      "image": "/images/geo/applications-c/building-twenty-four-millimetre-electric-50-cell.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/V%C3%A4stertorp,_bebyggelse_med_glidform_1950.jpg/1280px-V%C3%A4stertorp,_bebyggelse_med_glidform_1950.jpg",
+      "sourceTitle": "Slip forming"
+    },
+    {
+      "slug": "building-twenty-four-millimetre-low-pressure-60",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Precast_concrete",
+      "image": "/images/geo/applications-c/building-twenty-four-millimetre-low-pressure-60.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Precast_concrete_house_in_construction.JPG/1280px-Precast_concrete_house_in_construction.JPG",
+      "sourceTitle": "Precast concrete"
+    },
+    {
+      "slug": "high-rise-fine-stone-electric-60-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spread_footing",
+      "image": "/images/geo/applications-c/high-rise-fine-stone-electric-60-cell.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Raft-slab.jpg/1280px-Raft-slab.jpg",
+      "sourceTitle": "Shallow foundation"
+    },
+    {
+      "slug": "high-rise-twenty-four-millimetre-electric-60",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B7%B7%E5%87%9D%E5%9C%9F",
+      "image": "/images/geo/applications-c/high-rise-twenty-four-millimetre-electric-60.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/02_Hormig%C3%B3n_para_muestras.jpg/1280px-02_Hormig%C3%B3n_para_muestras.jpg",
+      "sourceTitle": "混凝土"
+    },
+    {
+      "slug": "long-horizontal-building-line-electric-80",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E9%92%A2%E7%AD%8B%E6%B7%B7%E5%87%9D%E5%9C%9F",
+      "image": "/images/geo/applications-c/long-horizontal-building-line-electric-80.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/SagradaFamiliaRoof2.jpg/1280px-SagradaFamiliaRoof2.jpg",
+      "sourceTitle": "钢筋混凝土"
+    },
+    {
+      "slug": "building-height-hbt80-16-not-the-nine-hundred-row",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Properties_of_concrete",
+      "image": "/images/geo/applications-c/building-height-hbt80-16-not-the-nine-hundred-row.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Salginatobelbruecke_suedost_unten.jpg/1280px-Salginatobelbruecke_suedost_unten.jpg",
+      "sourceTitle": "Properties of concrete"
+    },
+    {
+      "slug": "building-output-hbt8018-motor-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cement",
+      "image": "/images/geo/applications-c/building-output-hbt8018-motor-cell.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/USMC-110806-M-IX060-148.jpg/1280px-USMC-110806-M-IX060-148.jpg",
+      "sourceTitle": "Cement"
+    },
+    {
+      "slug": "small-podium-pour-electric-15-on-the-grid",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete",
+      "image": "/images/geo/applications-c/small-podium-pour-electric-15-on-the-grid.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Rome_(Italy,_October_2019)_-_275_(50589571796).jpg/1280px-Rome_(Italy,_October_2019)_-_275_(50589571796).jpg",
+      "sourceTitle": "Concrete"
+    },
+    {
+      "slug": "grid-site-must-mix-integrated-mixer-pump",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Construction_site",
+      "image": "/images/geo/applications-c/grid-site-must-mix-integrated-mixer-pump.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Construction_site_in_Cologne,_Germany_(2017).jpg/1280px-Construction_site_in_Cologne,_Germany_(2017).jpg",
+      "sourceTitle": "Construction"
+    },
+    {
+      "slug": "short-building-run-electric-10-series",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Building_construction",
+      "image": "/images/geo/applications-c/short-building-run-electric-10-series.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Employment_of_Women_in_Britain,_1914-1918_Q28190.jpg/1280px-The_Employment_of_Women_in_Britain,_1914-1918_Q28190.jpg",
+      "sourceTitle": "Construction"
+    },
+    {
+      "slug": "five-metre-placement-b500s-83d",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Foundation_(engineering)",
+      "image": "/images/geo/applications-c/five-metre-placement-b500s-83d.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Foundation_2.jpg/1280px-Foundation_2.jpg",
+      "sourceTitle": "Foundation (engineering)"
+    },
+    {
+      "slug": "masonry-fine-joint-type-311",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Masonry",
+      "image": "/images/geo/applications-c/masonry-fine-joint-type-311.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Bricklayer_J4.jpg/1280px-Bricklayer_J4.jpg",
+      "sourceTitle": "Masonry"
+    },
+    {
+      "slug": "blockwork-mortar-type-511",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ashlar",
+      "image": "/images/geo/applications-c/blockwork-mortar-type-511.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Banbury_TownHall_north.jpg/1280px-Banbury_TownHall_north.jpg",
+      "sourceTitle": "Ashlar"
+    },
+    {
+      "slug": "masonry-render-german-type",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cement_render",
+      "image": "/images/geo/applications-c/masonry-render-german-type.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/A_Greek_house_and_walls_rendered_and_white_washed.jpg/1280px-A_Greek_house_and_walls_rendered_and_white_washed.jpg",
+      "sourceTitle": "Cement render"
+    },
+    {
+      "slug": "long-masonry-hose-double-cylinder",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A0%8C%E4%BD%93%E7%BB%93%E6%9E%84",
+      "image": "/images/geo/applications-c/long-masonry-hose-double-cylinder.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/%E9%99%BD%E7%BF%9F%E8%81%9A%E8%90%BD%E4%BA%BA%E5%AD%97%E7%A0%8C%E7%9F%B3%E7%89%86.jpg/1280px-%E9%99%BD%E7%BF%9F%E8%81%9A%E8%90%BD%E4%BA%BA%E5%AD%97%E7%A0%8C%E7%9F%B3%E7%89%86.jpg",
+      "sourceTitle": "砌体结构"
+    },
+    {
+      "slug": "masonry-mortar-hydraulic-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bricklayer",
+      "image": "/images/geo/applications-c/masonry-mortar-hydraulic-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kuben_murer.jpg/1280px-Kuben_murer.jpg",
+      "sourceTitle": "Bricklayer"
+    },
+    {
+      "slug": "plaster-coat-on-masonry-m9",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_block",
+      "image": "/images/geo/applications-c/plaster-coat-on-masonry-m9.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Painted_breeze-cinder_block_wall.jpg/1280px-Painted_breeze-cinder_block_wall.jpg",
+      "sourceTitle": "Concrete block"
+    },
+    {
+      "slug": "masonry-without-380v-type-511-diesel",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_mixer",
+      "image": "/images/geo/applications-c/masonry-without-380v-type-511-diesel.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/GH-SA.jpg/1280px-GH-SA.jpg",
+      "sourceTitle": "Concrete mixer"
+    },
+    {
+      "slug": "outdoor-render-diesel-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brickwork",
+      "image": "/images/geo/applications-c/outdoor-render-diesel-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Fennicum_2019.jpg/1280px-Fennicum_2019.jpg",
+      "sourceTitle": "Brickwork"
+    },
+    {
+      "slug": "larger-masonry-coat-high-flow-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mortar_(masonry)",
+      "image": "/images/geo/applications-c/larger-masonry-coat-high-flow-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Qorogho_Barelief_(3).jpg/1280px-Qorogho_Barelief_(3).jpg",
+      "sourceTitle": "Mortar (masonry)"
+    },
+    {
+      "slug": "masonry-hose-is-not-a-pump-line-type-311",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_masonry_unit",
+      "image": "/images/geo/applications-c/masonry-hose-is-not-a-pump-line-type-311.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Concrete_Masonry_blocks.jpg/1280px-Concrete_Masonry_blocks.jpg",
+      "sourceTitle": "Concrete block"
+    },
+    {
+      "slug": "masonry-access-german-type-weight",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stonemasonry",
+      "image": "/images/geo/applications-c/masonry-access-german-type-weight.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/2016_Angkor,_Banteay_Kdei_(20).jpg/1280px-2016_Angkor,_Banteay_Kdei_(20).jpg",
+      "sourceTitle": "Stonemasonry"
+    },
+    {
+      "slug": "masonry-sprayer-is-not-a-trailer-pump",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brick",
+      "image": "/images/geo/applications-c/masonry-sprayer-is-not-a-trailer-pump.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Brick_wall_close-up_view.jpg/1280px-Brick_wall_close-up_view.jpg",
+      "sourceTitle": "Brick"
+    },
+    {
+      "slug": "plaster-batch-m9-hopper",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E7%A0%96",
+      "image": "/images/geo/applications-c/plaster-batch-m9-hopper.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Brick_wall_(1).jpg/1280px-Brick_wall_(1).jpg",
+      "sourceTitle": "磚"
+    },
+    {
+      "slug": "block-joint-hose-type-511-versus-311",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bricklaying",
+      "image": "/images/geo/applications-c/block-joint-hose-type-511-versus-311.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Courtyard_2,_yemen.jpg/1280px-Courtyard_2,_yemen.jpg",
+      "sourceTitle": "Brickwork"
+    },
+    {
+      "slug": "masonry-sand-cement-hydraulic-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Flemish_bond",
+      "image": "/images/geo/applications-c/masonry-sand-cement-hydraulic-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Brickwork_on_Ludwell%E2%80%93Paradise_House.jpg/1280px-Brickwork_on_Ludwell%E2%80%93Paradise_House.jpg",
+      "sourceTitle": "Flemish bond"
+    },
+    {
+      "slug": "indoor-mortar-hydraulic-five-cubic",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plaster",
+      "image": "/images/geo/applications-c/indoor-mortar-hydraulic-five-cubic.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Fontainebleau_escalier_roi5.jpg/1280px-Fontainebleau_escalier_roi5.jpg",
+      "sourceTitle": "Plaster"
+    },
+    {
+      "slug": "indoor-doorway-high-flow-sprayer-weight",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plasterwork",
+      "image": "/images/geo/applications-c/indoor-doorway-high-flow-sprayer-weight.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Stucco_plaster_tools.jpg/1280px-Stucco_plaster_tools.jpg",
+      "sourceTitle": "Plasterwork"
+    },
+    {
+      "slug": "indoor-plaster-m9-litres-per-minute",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stucco",
+      "image": "/images/geo/applications-c/indoor-plaster-m9-litres-per-minute.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ceilings_of_the_rotonde_de_Mars_(509).jpg/1280px-Ceilings_of_the_rotonde_de_Mars_(509).jpg",
+      "sourceTitle": "Stucco"
+    },
+    {
+      "slug": "indoor-fine-finish-type-311-supply",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gypsum",
+      "image": "/images/geo/applications-c/indoor-fine-finish-type-311-supply.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Gypse_Caresse.jpg/1280px-Gypse_Caresse.jpg",
+      "sourceTitle": "Gypsum"
+    },
+    {
+      "slug": "indoor-render-german-type-distance",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lime_plaster",
+      "image": "/images/geo/applications-c/indoor-render-german-type-distance.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Plaster_-_Putz_in_Pompeji.JPG/1280px-Plaster_-_Putz_in_Pompeji.JPG",
+      "sourceTitle": "Lime plaster"
+    },
+    {
+      "slug": "indoor-long-hose-double-cylinder",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lath_and_plaster",
+      "image": "/images/geo/applications-c/indoor-long-hose-double-cylinder.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Lath.jpg/1280px-Lath.jpg",
+      "sourceTitle": "Lath and plaster"
+    },
+    {
+      "slug": "indoor-mortar-type-511-needs-380v",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gypsum_plaster",
+      "image": "/images/geo/applications-c/indoor-mortar-type-511-needs-380v.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Mud_plaster_over_straw_bales_wall.jpg/1280px-Mud_plaster_over_straw_bales_wall.jpg",
+      "sourceTitle": "Plaster"
+    },
+    {
+      "slug": "indoor-room-with-380v-stays-off-diesel-511",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coving_(interior_design)",
+      "image": "/images/geo/applications-c/indoor-room-with-380v-stays-off-diesel-511.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Victorian_Mouldings.jpg/1280px-Victorian_Mouldings.jpg",
+      "sourceTitle": "Molding (decorative)"
+    },
+    {
+      "slug": "indoor-mortar-is-not-the-m9-plaster-row",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hawk_(plasterer%27s_tool)",
+      "image": "/images/geo/applications-c/indoor-mortar-is-not-the-m9-plaster-row.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Plasterer_at_work_on_a_wall_arp.jpg/1280px-Plasterer_at_work_on_a_wall_arp.jpg",
+      "sourceTitle": "Hawk (plasterer's tool)"
+    },
+    {
+      "slug": "indoor-grout-fill-high-flow-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Joint_compound",
+      "image": "/images/geo/applications-c/indoor-grout-fill-high-flow-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Kitchen_renovation_spackling_to_cover_holes_and_tape_between_sheetrock_boards.JPG/1280px-Kitchen_renovation_spackling_to_cover_holes_and_tape_between_sheetrock_boards.JPG",
+      "sourceTitle": "Joint compound"
+    },
+    {
+      "slug": "short-indoor-hose-type-311",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Trowel",
+      "image": "/images/geo/applications-c/short-indoor-hose-type-311.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Masons_trowel.jpg/1280px-Masons_trowel.jpg",
+      "sourceTitle": "Trowel"
+    },
+    {
+      "slug": "indoor-dual-motor-german-type",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Plastering",
+      "image": "/images/geo/applications-c/indoor-dual-motor-german-type.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/In_English_Homes_Vol_1_Chastleton_House_Oxfordshire_the_drawing_room_31295001575223_0263.jpg/1280px-In_English_Homes_Vol_1_Chastleton_House_Oxfordshire_the_drawing_room_31295001575223_0263.jpg",
+      "sourceTitle": "Plasterwork"
+    },
+    {
+      "slug": "indoor-sand-cement-double-cylinder",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Limewash",
+      "image": "/images/geo/applications-c/indoor-sand-cement-double-cylinder.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Verloren_Vlei_Heritage_Village,_Elands_Bay_3.jpg/1280px-Verloren_Vlei_Heritage_Village,_Elands_Bay_3.jpg",
+      "sourceTitle": "Whitewash"
+    },
+    {
+      "slug": "indoor-plaster-pressure-m9",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roughcast",
+      "image": "/images/geo/applications-c/indoor-plaster-pressure-m9.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Stucco_rock_dash_-_detail.JPG/1280px-Stucco_rock_dash_-_detail.JPG",
+      "sourceTitle": "Roughcast"
+    },
+    {
+      "slug": "indoor-sprayer-pressure-is-not-a-pump-line",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wattle_and_daub",
+      "image": "/images/geo/applications-c/indoor-sprayer-pressure-is-not-a-pump-line.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Durand_Cabin-_poteaux-sur-solle_%26_pierrotage.jpg/1280px-Durand_Cabin-_poteaux-sur-solle_%26_pierrotage.jpg",
+      "sourceTitle": "Wattle and daub"
+    },
+    {
+      "slug": "village-house-rural-diesel-seventeen-kilowatts",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vernacular_architecture",
+      "image": "/images/geo/applications-c/village-house-rural-diesel-seventeen-kilowatts.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Traditional_Kinnauri_house,_Sangla,_Himachal_Pradesh,_India.jpg/1280px-Traditional_Kinnauri_house,_Sangla,_Himachal_Pradesh,_India.jpg",
+      "sourceTitle": "Vernacular architecture"
+    },
+    {
+      "slug": "no-pump-motor-supply-tractor-4100",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Self-build",
+      "image": "/images/geo/applications-c/no-pump-motor-supply-tractor-4100.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/E.V.A._LanxmeerSelfconstruction_2009.jpg/1280px-E.V.A._LanxmeerSelfconstruction_2009.jpg",
+      "sourceTitle": "Self-build"
+    },
+    {
+      "slug": "village-line-diesel-30-past-the-small-row",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Farmhouse",
+      "image": "/images/geo/applications-c/village-line-diesel-30-past-the-small-row.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Einsiedeln_IMG_2819.JPG/1280px-Einsiedeln_IMG_2819.JPG",
+      "sourceTitle": "Farmhouse"
+    },
+    {
+      "slug": "off-grid-line-diesel-40",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Farm_building",
+      "image": "/images/geo/applications-c/off-grid-line-diesel-40.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/GrangeBarn-interior.jpg/1280px-GrangeBarn-interior.jpg",
+      "sourceTitle": "Barn"
+    },
+    {
+      "slug": "off-grid-line-diesel-50",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Barn",
+      "image": "/images/geo/applications-c/off-grid-line-diesel-50.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Scheune_Langes_M%C3%BChle.jpg/1280px-Scheune_Langes_M%C3%BChle.jpg",
+      "sourceTitle": "Barn"
+    },
+    {
+      "slug": "off-grid-output-diesel-60",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cottage",
+      "image": "/images/geo/applications-c/off-grid-output-diesel-60.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Miners_Cottages,_Pit_Village,_Beamish_Museum,_5_September_2013.jpg/1280px-Miners_Cottages,_Pit_Village,_Beamish_Museum,_5_September_2013.jpg",
+      "sourceTitle": "Cottage"
+    },
+    {
+      "slug": "off-grid-high-output-diesel-120-is-not-the-default",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rammed_earth",
+      "image": "/images/geo/applications-c/off-grid-high-output-diesel-120-is-not-the-default.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Tapialdebarro.jpg/1280px-Tapialdebarro.jpg",
+      "sourceTitle": "Rammed earth"
+    },
+    {
+      "slug": "off-grid-pipeline-lz-60",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Earthbag_construction",
+      "image": "/images/geo/applications-c/off-grid-pipeline-lz-60.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Types_of_Contained_Earth.jpg/1280px-Types_of_Contained_Earth.jpg",
+      "sourceTitle": "Earthbag construction"
+    },
+    {
+      "slug": "coarse-aggregate-off-grid-lz-80",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Straw-bale_construction",
+      "image": "/images/geo/applications-c/coarse-aggregate-off-grid-lz-80.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Wine_Country_Estate_-_SMS_Straw_Bale.JPG/1280px-Wine_Country_Estate_-_SMS_Straw_Bale.JPG",
+      "sourceTitle": "Straw-bale construction"
+    },
+    {
+      "slug": "off-grid-mix-and-pump-diesel-mixer",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E5%86%9C%E6%9D%91",
+      "image": "/images/geo/applications-c/off-grid-mix-and-pump-diesel-mixer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Qichun_countryside.JPG/1280px-Qichun_countryside.JPG",
+      "sourceTitle": "乡村"
+    },
+    {
+      "slug": "off-grid-spray-diesel-concrete-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Aisled_house",
+      "image": "/images/geo/applications-c/off-grid-spray-diesel-concrete-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Rehielamu_p%C3%B5hjat%C3%BC%C3%BCp.JPG/1280px-Rehielamu_p%C3%B5hjat%C3%BC%C3%BCp.JPG",
+      "sourceTitle": "Housebarn"
+    },
+    {
+      "slug": "off-grid-mortar-type-511-diesel",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Beehive_house",
+      "image": "/images/geo/applications-c/off-grid-mortar-type-511-diesel.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Harran-beehouses.jpg/1280px-Harran-beehouses.jpg",
+      "sourceTitle": "Beehive house"
+    },
+    {
+      "slug": "village-frame-rural-diesel-or-tractor-4100",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bildts_farmhouse",
+      "image": "/images/geo/applications-c/village-frame-rural-diesel-or-tractor-4100.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/NL-Bildtse_Kop-hals-romp_boerderij03102007(006).jpg/1280px-NL-Bildtse_Kop-hals-romp_boerderij03102007(006).jpg",
+      "sourceTitle": "Bildts farmhouse"
+    },
+    {
+      "slug": "longer-than-the-seventeen-kilowatt-row-diesel-30",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Black_Forest_house",
+      "image": "/images/geo/applications-c/longer-than-the-seventeen-kilowatt-row-diesel-30.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Vogtsbauernhof_1999.jpg/1280px-Vogtsbauernhof_1999.jpg",
+      "sourceTitle": "Black Forest house"
+    },
+    {
+      "slug": "tractor-4100-printed-slump",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Blackhouse",
+      "image": "/images/geo/applications-c/tractor-4100-printed-slump.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Reconstructed_blackhouse.JPG/1280px-Reconstructed_blackhouse.JPG",
+      "sourceTitle": "Blackhouse"
+    },
+    {
+      "slug": "village-hopper-rural-diesel",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cuco_(construction)",
+      "image": "/images/geo/applications-c/village-hopper-rural-diesel.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Cuco,_Enguera.jpg/1280px-Cuco,_Enguera.jpg",
+      "sourceTitle": "Cuco (construction)"
+    },
+    {
+      "slug": "off-grid-mixer-twenty-four-millimetre-row",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dartmoor_longhouse",
+      "image": "/images/geo/applications-c/off-grid-mixer-twenty-four-millimetre-row.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Welsh_Longhouse.jpg/1280px-Welsh_Longhouse.jpg",
+      "sourceTitle": "Dartmoor longhouse"
+    },
+    {
+      "slug": "lz-80-modes-still-need-the-aggregate-check",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vernacular_architecture_of_the_Carpathians",
+      "image": "/images/geo/applications-c/lz-80-modes-still-need-the-aggregate-check.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/M%C3%BAzeum_kysuckej_dediny-1.jpg/1280px-M%C3%BAzeum_kysuckej_dediny-1.jpg",
+      "sourceTitle": "Vernacular architecture of the Carpathians"
+    },
+    {
+      "slug": "floor-slab-fine-stone-electric-30",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Floor",
+      "image": "/images/geo/applications-c/floor-slab-fine-stone-electric-30.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Parquet_flooring_in_Mus%C3%A9e_des_arts_d%C3%A9coratifs_de_Strasbourg.jpg/1280px-Parquet_flooring_in_Mus%C3%A9e_des_arts_d%C3%A9coratifs_de_Strasbourg.jpg",
+      "sourceTitle": "Floor"
+    },
+    {
+      "slug": "bedding-fine-stone-electric-low-pressure-40",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sidewalk",
+      "image": "/images/geo/applications-c/bedding-fine-stone-electric-low-pressure-40.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brick_sidewalk,_EDS,_Cambridge.jpg/1280px-Brick_sidewalk,_EDS,_Cambridge.jpg",
+      "sourceTitle": "Sidewalk"
+    },
+    {
+      "slug": "thin-bedding-electric-20-pipe",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Power_trowel",
+      "image": "/images/geo/applications-c/thin-bedding-electric-20-pipe.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Boren_Super_Trowel.png/1280px-Boren_Super_Trowel.png",
+      "sourceTitle": "Power trowel"
+    },
+    {
+      "slug": "small-floor-electric-15",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Screed",
+      "image": "/images/geo/applications-c/small-floor-electric-15.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/US_Navy_091022-N-2571C-042_Seabees_use_a_long_board_to_screed_wet_concrete.jpg/1280px-US_Navy_091022-N-2571C-042_Seabees_use_a_long_board_to_screed_wet_concrete.jpg",
+      "sourceTitle": "Screed"
+    },
+    {
+      "slug": "short-bedding-run-electric-10-series",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Flooring",
+      "image": "/images/geo/applications-c/short-bedding-run-electric-10-series.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Polished_Concrete_1.JPG/1280px-Polished_Concrete_1.JPG",
+      "sourceTitle": "Flooring"
+    },
+    {
+      "slug": "very-short-bedding-b500s-83d",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Polished_concrete",
+      "image": "/images/geo/applications-c/very-short-bedding-b500s-83d.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Polished_Concrete_Floor.jpg/1280px-Polished_Concrete_Floor.jpg",
+      "sourceTitle": "Polished concrete"
+    },
+    {
+      "slug": "on-site-mix-bedding-integrated-mixer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mudjacking",
+      "image": "/images/geo/applications-c/on-site-mix-bedding-integrated-mixer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Pumping-576x1024.jpg/1280px-Pumping-576x1024.jpg",
+      "sourceTitle": "Concrete leveling"
+    },
+    {
+      "slug": "long-floor-line-electric-50-fine-stone",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Power_float",
+      "image": "/images/geo/applications-c/long-floor-line-electric-50-fine-stone.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ride_on_power_trowel.jpg/1280px-Ride_on_power_trowel.jpg",
+      "sourceTitle": "Power trowel"
+    },
+    {
+      "slug": "mortar-screed-hydraulic-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bull_float",
+      "image": "/images/geo/applications-c/mortar-screed-hydraulic-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/US_Navy_030514-N-8726C-002_Chief_Builder_R._Brett_James,_a_U.S._Navy_Reservist,_volunteers_his_time_to_level_out_a_concrete_foundation_as_part_of_a_Navy_Misawa_Seabee_project.jpg/1280px-thumbnail.jpg",
+      "sourceTitle": "Concrete float"
+    },
+    {
+      "slug": "fine-floor-mortar-type-511",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Subfloor",
+      "image": "/images/geo/applications-c/fine-floor-mortar-type-511.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Interieur,_detailopname_van_tegelvloer_in_gang_-_Winsum_-_20530931_-_RCE.jpg/1280px-Interieur,_detailopname_van_tegelvloer_in_gang_-_Winsum_-_20530931_-_RCE.jpg",
+      "sourceTitle": "Floor"
+    },
+    {
+      "slug": "floor-mortar-german-type",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stamped_concrete",
+      "image": "/images/geo/applications-c/floor-mortar-german-type.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Pantheon_(Roma)_-_Front.jpg/1280px-Pantheon_(Roma)_-_Front.jpg",
+      "sourceTitle": "Stamped concrete"
+    },
+    {
+      "slug": "thin-floor-coat-m9-only",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hollow-core_slab",
+      "image": "/images/geo/applications-c/thin-floor-coat-m9-only.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Hollow_core_slab.JPG/1280px-Hollow_core_slab.JPG",
+      "sourceTitle": "Hollow-core slab"
+    },
+    {
+      "slug": "short-grid-trench-electric-15",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Trench",
+      "image": "/images/geo/applications-c/short-grid-trench-electric-15.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Polyethylene_gas_main.jpg/1280px-Polyethylene_gas_main.jpg",
+      "sourceTitle": "Trench"
+    },
+    {
+      "slug": "trench-inside-the-electric-10-horizontal",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pipeline_transport",
+      "image": "/images/geo/applications-c/trench-inside-the-electric-10-horizontal.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/HDPE_Pipeline_in_a_harsh_Australian_environment.jpg/1280px-HDPE_Pipeline_in_a_harsh_Australian_environment.jpg",
+      "sourceTitle": "Pipeline"
+    },
+    {
+      "slug": "very-short-trench-patch-b500s-83d",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Culvert",
+      "image": "/images/geo/applications-c/very-short-trench-patch-b500s-83d.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Maakividest_truup.JPG/1280px-Maakividest_truup.JPG",
+      "sourceTitle": "Culvert"
+    },
+    {
+      "slug": "trench-without-grid-diesel-30",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Storm_drain",
+      "image": "/images/geo/applications-c/trench-without-grid-diesel-30.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Rynsztok.jpg/1280px-Rynsztok.jpg",
+      "sourceTitle": "Storm drain"
+    },
+    {
+      "slug": "village-trench-rural-diesel",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sanitary_sewer",
+      "image": "/images/geo/applications-c/village-trench-rural-diesel.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Sansewer.jpg/1280px-Sansewer.jpg",
+      "sourceTitle": "Sanitary sewer"
+    },
+    {
+      "slug": "field-trench-tractor-4100",
+      "sourceUrl": "https://en.wikipedia.org/wiki/French_drain",
+      "image": "/images/geo/applications-c/field-trench-tractor-4100.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Zasypan%C3%A1_dren%C3%A1%C5%BEov%C3%A1_hadice.JPG/1280px-Zasypan%C3%A1_dren%C3%A1%C5%BEov%C3%A1_hadice.JPG",
+      "sourceTitle": "French drain"
+    },
+    {
+      "slug": "longer-trench-pipeline-diesel-40",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Manhole",
+      "image": "/images/geo/applications-c/longer-trench-pipeline-diesel-40.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Manhole.jpg/1280px-Manhole.jpg",
+      "sourceTitle": "Manhole"
+    },
+    {
+      "slug": "grid-trench-electric-20",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sewerage",
+      "image": "/images/geo/applications-c/grid-trench-electric-20.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Seattle_sewer_districts,_1894.jpg/1280px-Seattle_sewer_districts,_1894.jpg",
+      "sourceTitle": "Sewerage"
+    },
+    {
+      "slug": "trench-aggregate-electric-30",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Drainage",
+      "image": "/images/geo/applications-c/trench-aggregate-electric-30.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hdpe_pipe_installation.jpg/1280px-Hdpe_pipe_installation.jpg",
+      "sourceTitle": "Drainage"
+    },
+    {
+      "slug": "trench-crew-must-mix-diesel-mixer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)",
+      "image": "/images/geo/applications-c/trench-crew-must-mix-diesel-mixer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Series_of_tubes_on_top_of_Shibuya_Stream_-89062.jpeg/1280px-Series_of_tubes_on_top_of_Shibuya_Stream_-89062.jpeg",
+      "sourceTitle": "Pipe (fluid conveyance)"
+    },
+    {
+      "slug": "fine-repair-mortar-type-311",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Renovation",
+      "image": "/images/geo/applications-c/fine-repair-mortar-type-311.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Shell_of_the_White_House_during_the_Renovation-05-17-1950_b.jpg/1280px-The_Shell_of_the_White_House_during_the_Renovation-05-17-1950_b.jpg",
+      "sourceTitle": "Renovation"
+    },
+    {
+      "slug": "repair-mortar-type-511-on-380v",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Repointing",
+      "image": "/images/geo/applications-c/repair-mortar-type-511-on-380v.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bundesarchiv_Bild_183-2005-0721-510,_Vorpommern,_Bau_von_Neusiedlerh%C3%A4usern.jpg/1280px-Bundesarchiv_Bild_183-2005-0721-510,_Vorpommern,_Bau_von_Neusiedlerh%C3%A4usern.jpg",
+      "sourceTitle": "Repointing"
+    },
+    {
+      "slug": "facade-render-repair-german-type",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tuckpointing",
+      "image": "/images/geo/applications-c/facade-render-repair-german-type.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tuck_pointing_Westminster.jpg/1280px-Tuck_pointing_Westminster.jpg",
+      "sourceTitle": "Tuckpointing"
+    },
+    {
+      "slug": "thin-plaster-repair-m9",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_degradation",
+      "image": "/images/geo/applications-c/thin-plaster-repair-m9.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Qew_bruecke_nf_beton_kaputt_34_von_46.jpg/1280px-Qew_bruecke_nf_beton_kaputt_34_von_46.jpg",
+      "sourceTitle": "Concrete degradation"
+    },
+    {
+      "slug": "patch-mortar-hydraulic-sprayer",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Facade",
+      "image": "/images/geo/applications-c/patch-mortar-hydraulic-sprayer.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Andersen's_Blacksmithing_(workshop_building),_Chico.jpg/1280px-Andersen's_Blacksmithing_(workshop_building),_Chico.jpg",
+      "sourceTitle": "Façade"
+    },
+    {
+      "slug": "longer-repair-hose-double-cylinder",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Architectural_conservation",
+      "image": "/images/geo/applications-c/longer-repair-hose-double-cylinder.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Holy_Trinity_Column_2006_conservation_3.jpg/1280px-Holy_Trinity_Column_2006_conservation_3.jpg",
+      "sourceTitle": "Conservation and restoration of immovable cultural property"
+    },
+    {
+      "slug": "small-repair-pour-electric-15",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Building_restoration",
+      "image": "/images/geo/applications-c/small-repair-pour-electric-15.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Erfurt_Alte_Synagoge_688.jpg/1280px-Erfurt_Alte_Synagoge_688.jpg",
+      "sourceTitle": "Conservation and restoration of immovable cultural property"
+    },
+    {
+      "slug": "tight-repair-access-b500s-83d",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seismic_retrofit",
+      "image": "/images/geo/applications-c/tight-repair-access-b500s-83d.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/%E5%9B%A3%E5%9C%B0_support_structure.jpg/1280px-%E5%9B%A3%E5%9C%B0_support_structure.jpg",
+      "sourceTitle": "Seismic retrofit"
+    },
+    {
+      "slug": "exterior-repair-spray-diesel",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Underpinning",
+      "image": "/images/geo/applications-c/exterior-repair-spray-diesel.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Underpinning-railway-bridge.JPG/1280px-Underpinning-railway-bridge.JPG",
+      "sourceTitle": "Underpinning"
+    },
+    {
+      "slug": "exterior-repoint-type-511-diesel",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ferrocement",
+      "image": "/images/geo/applications-c/exterior-repoint-type-511-diesel.webp",
+      "imageSourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Arromanches-les-Bains_port_artificiel_Mulberry.jpg/1280px-Arromanches-les-Bains_port_artificiel_Mulberry.jpg",
+      "sourceTitle": "Ferrocement"
+    }
+  ]
+}

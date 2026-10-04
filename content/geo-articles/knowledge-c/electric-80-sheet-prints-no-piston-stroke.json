@@ -1,0 +1,136 @@
+{
+  "slug": "electric-80-sheet-prints-no-piston-stroke",
+  "date": "2026-10-04",
+  "category": "knowledge",
+  "keyword": {
+    "en": "Electric 80 Concrete Pump piston stroke not on the catalogue",
+    "zh": "电动80型混凝土泵目录没有活塞行程"
+  },
+  "title": {
+    "en": "Why Electric 80 Concrete Pump Prints No Piston Stroke",
+    "zh": "为什么电动80型混凝土泵不印活塞行程"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 80 Concrete Pump in Xingtai. The row does print Output Capacity 60 m",
+    "zh": "河北品锦机械没有在邢台的电动80型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量60 m³/h和最大出口压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是塔式起重机 with \"luffing\" jib，也没有补上行程数字。"
+  },
+  "h1": {
+    "en": "Why Electric 80 Concrete Pump Prints No Piston Stroke",
+    "zh": "为什么电动80型混凝土泵不印活塞行程"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 80 Concrete Pump in Xingtai. The row does print Output Capacity 60 m³/h and Max. Outlet Pressure 40 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Crane (machine)” shows Tower crane with \"luffing\" jib and adds no stroke figure.",
+    "zh": "河北品锦机械没有在邢台的电动80型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量60 m³/h和最大出口压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是塔式起重机 with \"luffing\" jib，也没有补上行程数字。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Named parts are not a service procedure",
+        "zh": "点出名称不等于维修步骤"
+      },
+      "body": {
+        "en": "The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. This Electric 80 Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already prints. Hopper Capacity 0.7 m³. Max. Aggregate Size 24 mm (≤ 2 cm). Hydraulic Pump Kawasaki 140 double pump.",
+        "zh": "另一份易损件清单用外径列出活塞和摆臂类替换件。电动80型混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有印出的材料牌号。料斗容积 0.7 m³。最大骨料粒径 24 mm (≤ 2 cm)。液压泵 Kawasaki 140 double pump。"
+      }
+    },
+    {
+      "heading": {
+        "en": "The frame does not supply the missing stroke",
+        "zh": "这一帧不补上缺失的行程"
+      },
+      "body": {
+        "en": "From en.wikipedia.org, “Crane (machine)”. Subject: Tower crane with \"luffing\" jib. If a piston or valve is visible there, that is the subject of the frame. It is not a measured stroke for Electric 80 Concrete Pump.",
+        "zh": "来自 en.wikipedia.org，「Crane (machine)」。主体：塔式起重机 with \"luffing\" jib。如果画面里能看到活塞或阀，那只是这一帧的主体。它不是电动80型混凝土泵的实测行程。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Keep the printed duty",
+        "zh": "保留已经印出的工作参数"
+      },
+      "body": {
+        "en": "Output Capacity 60 m³/h. Max. Outlet Pressure 40 MPa. Pipeline length still has to be read from this model's own distance cells, not from the frame and not from a different pump.",
+        "zh": "理论输送量60 m³/h。最大出口压力40 MPa。管路长度仍要读这个型号自己的距离格，不读这一帧，也不读另一台泵。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "Does Electric 80 Concrete Pump print a piston stroke?",
+        "zh": "电动80型混凝土泵印了活塞行程吗？"
+      },
+      "answer": {
+        "en": "No.",
+        "zh": "没有。"
+      }
+    },
+    {
+      "question": {
+        "en": "What duty is printed instead?",
+        "zh": "那印了什么工作参数？"
+      },
+      "answer": {
+        "en": "Output Capacity 60 m³/h and Max. Outlet Pressure 40 MPa.",
+        "zh": "理论输送量60 m³/h，最大出口压力40 MPa。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does a piston in the frame set the stroke?",
+        "zh": "画面里的活塞能确定行程吗？"
+      },
+      "answer": {
+        "en": "No. The frame is not a stroke measurement.",
+        "zh": "不能。这一帧不是行程测量。"
+      }
+    },
+    {
+      "question": {
+        "en": "Are service hours printed?",
+        "zh": "印了保养小时吗？"
+      },
+      "answer": {
+        "en": "No. Hours, torque and price stay unprinted.",
+        "zh": "没有。小时、扭矩和价格都没有印。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge-c/tower-crane-with-luffing-jib.webp",
+    "alt": {
+      "en": "Tower crane with \"luffing\" jib. Subject of the frame for the Electric 80 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "塔式起重机 with \"luffing\" jib。电动80型混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/products/electric-80-concrete-pump",
+    "/products/diesel-30-concrete-pump",
+    "/blog/diesel-120-sheet-prints-no-piston-stroke",
+    "/blog/diesel-30-sheet-prints-no-piston-stroke",
+    "/blog/diesel-40-sheet-prints-no-piston-stroke",
+    "/blog/electric-80-frame-size-is-not-pumping-reach",
+    "/blog/electric-80-how-the-distance-cells-are-ordered",
+    "/blog/how-a-pinjin-concrete-pump-moves-concrete"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "answerBlock": {
+    "what": {
+      "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 80 Concrete Pump in Xingtai. The row does print Output Capacity 60 m³/h and Max. Outlet Pressure 40 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Crane (machine)” shows Tower crane with \"luffing\" jib and adds no stroke figure.",
+      "zh": "河北品锦机械没有在邢台的电动80型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量60 m³/h和最大出口压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是塔式起重机 with \"luffing\" jib，也没有补上行程数字。"
+    },
+    "who": {
+      "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
+      "zh": "河北品锦机械，中国河北邢台"
+    }
+  }
+}

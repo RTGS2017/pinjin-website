@@ -1,0 +1,136 @@
+{
+  "slug": "diesel-mixer-pressure-cell-is-not-the-output-cell",
+  "date": "2026-10-04",
+  "category": "knowledge",
+  "keyword": {
+    "en": "Diesel Mixer Integrated Pump outlet pressure versus output",
+    "zh": "柴油搅拌泵一体机出口压力和输送量"
+  },
+  "title": {
+    "en": "How Diesel Mixer Integrated Pump Separates Pressure from Output",
+    "zh": "柴油搅拌泵一体机怎样把压力和输送量分成两格"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery prints the Diesel Mixer Integrated Pump in Xingtai with Theoretical Output 25 m³/h and Max. Outlet Pressure 23 MPa. Output is a volume rate. Pressu",
+    "zh": "河北品锦机械在邢台把柴油搅拌泵一体机的理论输送量印成25 m³/h，把最大出口压力印成23 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Hydraulic machinery」的画面主体是CAT385 Raupenbagger。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+  },
+  "h1": {
+    "en": "How Diesel Mixer Integrated Pump Separates Pressure from Output",
+    "zh": "柴油搅拌泵一体机怎样把压力和输送量分成两格"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints the Diesel Mixer Integrated Pump in Xingtai with Theoretical Output 25 m³/h and Max. Outlet Pressure 23 MPa. Output is a volume rate. Pressure is a separate cell on the same sheet. The frame titled “Hydraulic machinery” shows CAT385 Raupenbagger. That frame does not print these two cells, and another maker's plate is not copied onto this model.",
+    "zh": "河北品锦机械在邢台把柴油搅拌泵一体机的理论输送量印成25 m³/h，把最大出口压力印成23 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Hydraulic machinery」的画面主体是CAT385 Raupenbagger。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The two cells stay apart",
+        "zh": "两格不要并成一个数"
+      },
+      "body": {
+        "en": "On the Diesel Mixer Integrated Pump sheet, Theoretical Output is 25 m³/h and Max. Outlet Pressure is 23 MPa. A piston pump pushes concrete into the line; a squeeze pump flattens a hose from outside. Either way, m³/h is not MPa. Hopper Capacity 0.4 m³. Stone Capacity (H / V, ≤ 1 inch) 100 / 300 m. Main Unit Weight 4200 kg.",
+        "zh": "在柴油搅拌泵一体机这一页，理论输送量是25 m³/h，最大出口压力是23 MPa。活塞泵把混凝土推进管路，挤压泵从外面压扁软管。无论哪一种，立方米每小时都不是兆帕。料斗容积 0.4 m³。细石输送（水平/垂直） 100 / 300 m。整机重量 4200 kg。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the frame is allowed to show",
+        "zh": "这一帧可以说明什么"
+      },
+      "body": {
+        "en": "The frame comes from en.wikipedia.org, page “Hydraulic machinery”. Its subject is CAT385 Raupenbagger. Hebei Pinjin Machinery does not treat that caption as a nameplate for the Diesel Mixer Integrated Pump. Stroke length, cycle rate and price are absent from both the caption and this catalogue row.",
+        "zh": "这一帧来自 en.wikipedia.org 的页面「Hydraulic machinery」。画面主体是CAT385 Raupenbagger。河北品锦机械不把这句说明当成柴油搅拌泵一体机的铭牌。行程、冲次和价格在说明文字和这一行目录里都没有。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Blanks that stay blank",
+        "zh": "空着的格子继续空着"
+      },
+      "body": {
+        "en": "The Xingtai row does not print a service interval, a seal torque, an export destination or a job case. Hopper Capacity 0.4 m³. Stone Capacity (H / V, ≤ 1 inch) 100 / 300 m. Main Unit Weight 4200 kg. Those printed extras are still not a stroke length.",
+        "zh": "邢台这一行没有印保养小时间隔、密封扭矩、出口国家或工程案例。料斗容积 0.4 m³。细石输送（水平/垂直） 100 / 300 m。整机重量 4200 kg。这些已印的附加格仍然不是行程。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What output does the Diesel Mixer Integrated Pump sheet print?",
+        "zh": "柴油搅拌泵一体机这一页的输送量印多少？"
+      },
+      "answer": {
+        "en": "Theoretical Output is 25 m³/h.",
+        "zh": "理论输送量是25 m³/h。"
+      }
+    },
+    {
+      "question": {
+        "en": "What pressure cell is on the same sheet?",
+        "zh": "同一页的压力格是多少？"
+      },
+      "answer": {
+        "en": "Max. Outlet Pressure is 23 MPa.",
+        "zh": "最大出口压力是23 MPa。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the frame print those figures?",
+        "zh": "这一帧印了这些数字吗？"
+      },
+      "answer": {
+        "en": "No. The frame shows its own subject. The figures are catalogue cells.",
+        "zh": "没有。这一帧只显示它自己的主体。数字在目录格子里。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a piston stroke printed?",
+        "zh": "印了活塞行程吗？"
+      },
+      "answer": {
+        "en": "No. The sheet leaves stroke length, cycle rate and price unprinted.",
+        "zh": "没有。这一页没有印行程、冲次和价格。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge-c/cat385-raupenbagger-concrete-pump.webp",
+    "alt": {
+      "en": "CAT385 Raupenbagger. Subject of the frame for the Diesel Mixer Integrated Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "CAT385 Raupenbagger。柴油搅拌泵一体机目录说明所配画面主体，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/products/diesel-mixer-integrated-pump",
+    "/products/tractor-4100-concrete-pump",
+    "/products/concrete-pump-delivery-pipe",
+    "/blog/diesel-120-pressure-cell-is-not-the-output-cell",
+    "/blog/diesel-30-pressure-cell-is-not-the-output-cell",
+    "/blog/diesel-40-pressure-cell-is-not-the-output-cell",
+    "/blog/diesel-mixer-frame-size-is-not-pumping-reach",
+    "/blog/diesel-mixer-which-power-cell-the-sheet-prints"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "answerBlock": {
+    "what": {
+      "en": "Hebei Pinjin Machinery prints the Diesel Mixer Integrated Pump in Xingtai with Theoretical Output 25 m³/h and Max. Outlet Pressure 23 MPa. Output is a volume rate. Pressure is a separate cell on the same sheet. The frame titled “Hydraulic machinery” shows CAT385 Raupenbagger. That frame does not print these two cells, and another maker's plate is not copied onto this model.",
+      "zh": "河北品锦机械在邢台把柴油搅拌泵一体机的理论输送量印成25 m³/h，把最大出口压力印成23 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Hydraulic machinery」的画面主体是CAT385 Raupenbagger。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+    },
+    "who": {
+      "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
+      "zh": "河北品锦机械，中国河北邢台"
+    }
+  }
+}

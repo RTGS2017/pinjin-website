@@ -100,14 +100,12 @@
     }
   },
   "relatedPaths": [
-    "/en/products/diesel-40-concrete-pump/",
-    "/zh/products/diesel-40-concrete-pump/",
-    "/en/products/diesel-mixer-integrated-pump/",
-    "/zh/products/diesel-mixer-integrated-pump/",
-    "/en/products/mixer-pumps/",
-    "/zh/products/mixer-pumps/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/diesel-40-concrete-pump",
+    "/products/diesel-mixer-integrated-pump",
+    "/products/mixer-pumps",
+    "/blog/buy-c-diesel-40-concrete-pump-inquiry-fields",
+    "/blog/buy-c-diesel-40-concrete-pump-output-distance",
+    "/contact"
   ],
   "sources": [
     "pinjin-website/src/data/products.ts",

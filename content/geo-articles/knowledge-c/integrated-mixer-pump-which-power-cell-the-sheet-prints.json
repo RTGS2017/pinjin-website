@@ -1,0 +1,136 @@
+{
+  "slug": "integrated-mixer-pump-which-power-cell-the-sheet-prints",
+  "date": "2026-10-04",
+  "category": "knowledge",
+  "keyword": {
+    "en": "Integrated Mixer Pump motor or diesel power cell",
+    "zh": "搅拌泵一体机电机或柴油动力格"
+  },
+  "title": {
+    "en": "Which Power Cell Integrated Mixer Pump Prints",
+    "zh": "搅拌泵一体机的动力格子印了什么"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery prints the Integrated Mixer Pump power text in Xingtai as: Main Motor / Mixer Motor is 45 kW / 14 kW. An electric motor cell is kilowatts on a moto",
+    "zh": "河北品锦机械在邢台把搅拌泵一体机的动力文字印成：主电机 / 搅拌电机是45 kW / 14 kW。电机格是电机上的千瓦。柴油格只写这一页真正印出的发动机行。画面「Check valve」的主体是Wafer 单向阀。它不改这一格动力，也不会把柴油机代号抄到电动行上。"
+  },
+  "h1": {
+    "en": "Which Power Cell Integrated Mixer Pump Prints",
+    "zh": "搅拌泵一体机的动力格子印了什么"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints the Integrated Mixer Pump power text in Xingtai as: Main Motor / Mixer Motor is 45 kW / 14 kW. An electric motor cell is kilowatts on a motor. A diesel cell names the engine line that is actually printed. The frame “Check valve” shows Wafer check valve. It does not change this power cell, and a diesel code is not copied onto an electric row.",
+    "zh": "河北品锦机械在邢台把搅拌泵一体机的动力文字印成：主电机 / 搅拌电机是45 kW / 14 kW。电机格是电机上的千瓦。柴油格只写这一页真正印出的发动机行。画面「Check valve」的主体是Wafer 单向阀。它不改这一格动力，也不会把柴油机代号抄到电动行上。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "Read the power label that is present",
+        "zh": "只读已经印出的动力标题"
+      },
+      "body": {
+        "en": "Main Motor / Mixer Motor is 45 kW / 14 kW. Electric drive and diesel drive are different supplies. Use the label on this sheet, not the neighbouring model's label. Theoretical Output remains 21 m³/h. Max. Outlet Pressure remains 23 MPa.",
+        "zh": "主电机 / 搅拌电机是45 kW / 14 kW。电动和柴油是两种供电。用这一页的标题，不用旁边那个型号的标题。理论输送量仍是21 m³/h。最大出口压力仍是23 MPa。"
+      }
+    },
+    {
+      "heading": {
+        "en": "A power-unit frame is not a nameplate",
+        "zh": "动力装置画面不是铭牌"
+      },
+      "body": {
+        "en": "The frame is from en.wikipedia.org, “Check valve”, and its subject is Wafer check valve. Hebei Pinjin Machinery does not lift kilowatts or an engine code out of that frame. If this row has no voltage cell, none is invented.",
+        "zh": "这一帧来自 en.wikipedia.org 的「Check valve」，主体是Wafer 单向阀。河北品锦机械不从这一帧里提取千瓦或发动机代号。这一行如果没有电压格，就不编一个电压。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power does not set the pipe size",
+        "zh": "动力格不决定管径"
+      },
+      "body": {
+        "en": "Hopper Capacity 0.4 m³. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Those cells, when printed, stay in their own columns. A larger motor cell is not a longer pipeline.",
+        "zh": "料斗容积 0.4 m³。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。这些格子如果印了，就留在各自的列里。电机千瓦更大，并不等于管路更长。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What power text does Integrated Mixer Pump print?",
+        "zh": "搅拌泵一体机的动力文字是什么？"
+      },
+      "answer": {
+        "en": "Main Motor / Mixer Motor is 45 kW / 14 kW.",
+        "zh": "主电机 / 搅拌电机是45 kW / 14 kW。"
+      }
+    },
+    {
+      "question": {
+        "en": "Can a diesel code be moved onto this row?",
+        "zh": "可以把柴油机代号挪到这一行吗？"
+      },
+      "answer": {
+        "en": "Only if this row already prints it. Otherwise the cell stays as written.",
+        "zh": "只有这一行已经印了才能算。否则格子保持原样。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the frame show the Xingtai kilowatts?",
+        "zh": "这一帧显示了邢台的千瓦吗？"
+      },
+      "answer": {
+        "en": "No. Kilowatts are taken from the catalogue cell, not from the frame.",
+        "zh": "没有。千瓦取自目录格，不取自这一帧。"
+      }
+    },
+    {
+      "question": {
+        "en": "What are output and pressure on this sheet?",
+        "zh": "这一页的输送量和压力是多少？"
+      },
+      "answer": {
+        "en": "Theoretical Output is 21 m³/h. Max. Outlet Pressure is 23 MPa.",
+        "zh": "理论输送量是21 m³/h。最大出口压力是23 MPa。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge-c/wafer-check-valve.webp",
+    "alt": {
+      "en": "Wafer check valve. Subject of the frame for the Integrated Mixer Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "Wafer 单向阀。搅拌泵一体机目录说明所配画面主体，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/products/integrated-mixer-pump",
+    "/products/hbt8018-concrete-pump",
+    "/blog/diesel-120-which-power-cell-the-sheet-prints",
+    "/blog/diesel-30-which-power-cell-the-sheet-prints",
+    "/blog/diesel-40-which-power-cell-the-sheet-prints",
+    "/blog/integrated-mixer-pump-frame-size-is-not-pumping-reach",
+    "/blog/integrated-mixer-pump-how-the-distance-cells-are-ordered",
+    "/blog/how-a-pinjin-concrete-pump-moves-concrete"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+    "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "answerBlock": {
+    "what": {
+      "en": "Hebei Pinjin Machinery prints the Integrated Mixer Pump power text in Xingtai as: Main Motor / Mixer Motor is 45 kW / 14 kW. An electric motor cell is kilowatts on a motor. A diesel cell names the engine line that is actually printed. The frame “Check valve” shows Wafer check valve. It does not change this power cell, and a diesel code is not copied onto an electric row.",
+      "zh": "河北品锦机械在邢台把搅拌泵一体机的动力文字印成：主电机 / 搅拌电机是45 kW / 14 kW。电机格是电机上的千瓦。柴油格只写这一页真正印出的发动机行。画面「Check valve」的主体是Wafer 单向阀。它不改这一格动力，也不会把柴油机代号抄到电动行上。"
+    },
+    "who": {
+      "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
+      "zh": "河北品锦机械，中国河北邢台"
+    }
+  }
+}

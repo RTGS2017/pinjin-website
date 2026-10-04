@@ -103,16 +103,13 @@
     }
   },
   "relatedPaths": [
-    "/en/products/electric-15-concrete-pump/",
-    "/zh/products/electric-15-concrete-pump/",
-    "/en/products/electric-20-concrete-pump/",
-    "/zh/products/electric-20-concrete-pump/",
-    "/en/products/electric-concrete-pumps/",
-    "/zh/products/electric-concrete-pumps/",
-    "/en/factory/",
-    "/zh/factory/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/electric-15-concrete-pump",
+    "/products/electric-20-concrete-pump",
+    "/products/electric-concrete-pumps",
+    "/blog/electric-20-frame-size-is-not-pumping-reach",
+    "/blog/electric-20-how-the-distance-cells-are-ordered",
+    "/factory",
+    "/contact"
   ],
   "sources": [
     "https://pinjinpump.com/en/products/electric-15-concrete-pump/",

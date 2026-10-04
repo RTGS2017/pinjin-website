@@ -103,34 +103,12 @@
     }
   ],
   "relatedPaths": [
-    {
-      "href": "/products/concrete-pump-integral-piston",
-      "label": {
-        "en": "Concrete Pump Integral Piston",
-        "zh": "混凝土泵整体活塞"
-      }
-    },
-    {
-      "href": "/products/concrete-pump-split-piston",
-      "label": {
-        "en": "Concrete Pump Split Piston",
-        "zh": "混凝土泵分体活塞"
-      }
-    },
-    {
-      "href": "/products/concrete-pump-parts",
-      "label": {
-        "en": "Concrete pump parts",
-        "zh": "混凝土泵配件"
-      }
-    },
-    {
-      "href": "/contact",
-      "label": {
-        "en": "Email or WhatsApp the Xingtai factory",
-        "zh": "邮件或 WhatsApp 联系邢台工厂"
-      }
-    }
+    "/products/concrete-pump-parts",
+    "/blog/parts-c-concrete-pump-integral-piston-integral-piston-150",
+    "/blog/parts-c-concrete-pump-integral-piston-integral-piston-160",
+    "/products/concrete-pump-integral-piston",
+    "/products/concrete-pump-split-piston",
+    "/contact"
   ],
   "sources": [
     {

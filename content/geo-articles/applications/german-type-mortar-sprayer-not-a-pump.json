@@ -90,41 +90,13 @@
     }
   },
   "relatedPaths": [
-    {
-      "href": "/products/german-type-mortar-spraying-machine",
-      "label": {
-        "en": "German Type Mortar Sprayer",
-        "zh": "德式砂浆喷涂机"
-      }
-    },
-    {
-      "href": "/products/hydraulic-concrete-spraying-machine",
-      "label": {
-        "en": "Hydraulic Concrete Sprayer",
-        "zh": "液压混凝土喷涂机"
-      }
-    },
-    {
-      "href": "/products/spraying-machines",
-      "label": {
-        "en": "Spraying machines",
-        "zh": "喷涂机"
-      }
-    },
-    {
-      "href": "/solutions/spraying",
-      "label": {
-        "en": "Spraying versus pipeline pumping",
-        "zh": "喷浆与管道泵送"
-      }
-    },
-    {
-      "href": "/contact",
-      "label": {
-        "en": "Contact Hebei Pinjin Machinery",
-        "zh": "联系河北品锦机械"
-      }
-    }
+    "/products/german-type-mortar-spraying-machine",
+    "/products/hydraulic-concrete-spraying-machine",
+    "/products/spraying-machines",
+    "/blog/facade-render-repair-german-type",
+    "/blog/floor-mortar-german-type",
+    "/solutions/spraying",
+    "/contact"
   ],
   "sources": [
     "https://pinjinpump.com/products/german-type-mortar-spraying-machine",

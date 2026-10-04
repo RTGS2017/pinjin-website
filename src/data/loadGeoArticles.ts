@@ -27,13 +27,17 @@ const PARTS = { category: 'product-guide' as const, resourceType: 'parts-guide' 
 const CATEGORY: Record<string, { category: BlogCategory; resourceType: BlogResourceType }> = {
   knowledge: KNOWLEDGE,
   'knowledge-b': KNOWLEDGE,
+  'knowledge-c': KNOWLEDGE,
   buying: BUYING,
   'buying-b': BUYING,
+  'buying-c': BUYING,
   application: APPLICATION,
   applications: APPLICATION,
   'applications-b': APPLICATION,
+  'applications-c': APPLICATION,
   parts: PARTS,
   'parts-b': PARTS,
+  'parts-c': PARTS,
 };
 
 const jsonModules = import.meta.glob<GeoArticle>(

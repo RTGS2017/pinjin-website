@@ -103,18 +103,14 @@
     }
   },
   "relatedPaths": [
-    "/en/products/diesel-mixer-integrated-pump/",
-    "/zh/products/diesel-mixer-integrated-pump/",
-    "/en/products/diesel-40-concrete-pump/",
-    "/zh/products/diesel-40-concrete-pump/",
-    "/en/products/mixer-pumps/",
-    "/zh/products/mixer-pumps/",
-    "/en/products/diesel-concrete-pumps/",
-    "/zh/products/diesel-concrete-pumps/",
-    "/en/factory/",
-    "/zh/factory/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/diesel-mixer-integrated-pump",
+    "/products/diesel-40-concrete-pump",
+    "/products/mixer-pumps",
+    "/products/diesel-concrete-pumps",
+    "/blog/diesel-40-frame-size-is-not-pumping-reach",
+    "/blog/diesel-40-how-the-distance-cells-are-ordered",
+    "/factory",
+    "/contact"
   ],
   "sources": [
     "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",

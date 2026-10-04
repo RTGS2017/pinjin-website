@@ -90,48 +90,14 @@
     }
   },
   "relatedPaths": [
-    {
-      "href": "/products/diesel-50-concrete-pump",
-      "label": {
-        "en": "Diesel 50 Concrete Pump",
-        "zh": "柴油50型混凝土泵"
-      }
-    },
-    {
-      "href": "/products/electric-50-concrete-pump",
-      "label": {
-        "en": "Electric 50 Concrete Pump",
-        "zh": "电动50型混凝土泵"
-      }
-    },
-    {
-      "href": "/products/diesel-concrete-pumps",
-      "label": {
-        "en": "Diesel concrete pumps",
-        "zh": "柴油混凝土泵"
-      }
-    },
-    {
-      "href": "/solutions/industrial-projects",
-      "label": {
-        "en": "Pumping without grid power",
-        "zh": "无电网泵送"
-      }
-    },
-    {
-      "href": "/blog/buy-diesel-50-concrete-pump-catalogue-sheet-inquiry",
-      "label": {
-        "en": "Diesel 50 catalogue sheet inquiry",
-        "zh": "柴油50目录图询价"
-      }
-    },
-    {
-      "href": "/contact",
-      "label": {
-        "en": "Contact Hebei Pinjin Machinery",
-        "zh": "联系河北品锦机械"
-      }
-    }
+    "/products/diesel-50-concrete-pump",
+    "/products/electric-50-concrete-pump",
+    "/products/diesel-concrete-pumps",
+    "/blog/building-fine-stone-electric-50-cell",
+    "/blog/building-thirteen-millimetre-electric-50-cell",
+    "/blog/buy-diesel-50-concrete-pump-catalogue-sheet-inquiry",
+    "/solutions/industrial-projects",
+    "/contact"
   ],
   "sources": [
     "https://pinjinpump.com/products/diesel-50-concrete-pump",

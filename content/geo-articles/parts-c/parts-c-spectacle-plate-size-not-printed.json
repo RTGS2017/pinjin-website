@@ -1,0 +1,153 @@
+{
+  "slug": "parts-c-spectacle-plate-size-not-printed",
+  "date": "2026-10-04",
+  "category": "parts-c",
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "keyword": {
+    "en": "concrete pump spectacle plate",
+    "zh": "混凝土泵眼镜板"
+  },
+  "title": {
+    "en": "S-valve spectacle plate: observed on the checklist, size not printed",
+    "zh": "S阀眼镜板：点检要求观察，尺寸没有印出"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery in Xingtai names the spectacle plate on the published daily checklist as something to observe with the S-valve. No outer diameter, carbide grade or",
+    "zh": "邢台河北品锦机械在已发布的每日点检里，把眼镜板和 S 阀一起列为观察项。没有印出外径、硬质合金牌号或更换小时，也没有单独的产品页指定尺寸。同一回路上已公布的配件是 S 管密封套件。没有印出、因此留空的栏目：缸径、活塞行程、使用寿命、材料牌号。"
+  },
+  "h1": {
+    "en": "S-valve spectacle plate: observed on the checklist, size not printed",
+    "zh": "S阀眼镜板：点检要求观察，尺寸没有印出"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery in Xingtai names the spectacle plate on the published daily checklist as something to observe with the S-valve. No outer diameter, carbide grade or replacement hour is printed for it, and there is no separate product page that assigns a size. The published spare on the same circuit is the S-tube seal kit. Not printed, so left blank: cylinder bore, piston stroke, service life, a material grade number.",
+    "zh": "邢台河北品锦机械在已发布的每日点检里，把眼镜板和 S 阀一起列为观察项。没有印出外径、硬质合金牌号或更换小时，也没有单独的产品页指定尺寸。同一回路上已公布的配件是 S 管密封套件。没有印出、因此留空的栏目：缸径、活塞行程、使用寿命、材料牌号。"
+  },
+  "answerBlock": {
+    "what": {
+      "en": "Hebei Pinjin Machinery in Xingtai names the spectacle plate on the published daily checklist as something to observe with the S-valve. No outer diameter, carbide grade or replacement hour is printed for it, and there is no separate product page that assigns a size. The published spare on the same circuit is the S-tube seal kit. Not printed, so left blank: cylinder bore, piston stroke, service life, a material grade number.",
+      "zh": "邢台河北品锦机械在已发布的每日点检里，把眼镜板和 S 阀一起列为观察项。没有印出外径、硬质合金牌号或更换小时，也没有单独的产品页指定尺寸。同一回路上已公布的配件是 S 管密封套件。没有印出、因此留空的栏目：缸径、活塞行程、使用寿命、材料牌号。"
+    },
+    "who": {
+      "en": "Hebei Pinjin Machinery, Xingtai",
+      "zh": "河北品锦机械，邢台"
+    },
+    "factors": [
+      {
+        "en": "Not printed, so left blank: cylinder bore, piston stroke, service life, a material grade number.",
+        "zh": "没有印出、因此留空的栏目：缸径、活塞行程、使用寿命、材料牌号。"
+      },
+      {
+        "en": "Figures come from the published Xingtai row for this part or model.",
+        "zh": "数字来自这一配件或机型已公布的邢台目录行。"
+      }
+    ],
+    "relatedModels": [
+      "concrete-pump-s-tube-seal"
+    ]
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "What the Xingtai row prints",
+        "zh": "邢台这一行印了什么"
+      },
+      "body": {
+        "en": "The published table prints Part type S-tube large-end and small-end seal kit; Large-end sizes listed φ210 / φ220 / φ250 (set; some six-piece); Small-end sizes listed φ80 / φ90 / φ100 / φ105; Unit Set. Those seal-kit cells belong to the S-tube seal page. They are not a size for the spectacle plate.",
+        "zh": "已公布参数表印有：配件类型S管大端与小端密封套件；已列大端尺寸φ210 / φ220 / φ250（套；部分为六件套）；已列小端尺寸φ80 / φ90 / φ100 / φ105；单位套。这些密封套件格子属于 S 管密封页，不是眼镜板的尺寸。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the content photograph does not add",
+        "zh": "内容照片没有补上的栏目"
+      },
+      "body": {
+        "en": "The photograph on this page is a content image downloaded from the crawled source page. It is not a Pinjin catalogue sheet. A diameter, output, distance or material grade is used here only when the Xingtai table prints it. Figures that are not readable on the photograph stay blank. Another manufacturer's rating is not written onto this Pinjin model or part. Not printed, so left blank: cylinder bore, piston stroke, service life, a material grade number.",
+        "zh": "本文图片是从来源页正文下载的内容图，不是品锦目录页。直径、产量、距离或材料牌号，只有邢台参数表印了才写入。照片上读不出来的数字保持空白。其他厂家的参数不写到这个品锦型号或配件上。没有印出、因此留空的栏目：缸径、活塞行程、使用寿命、材料牌号。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What to send",
+        "zh": "询价写什么"
+      },
+      "body": {
+        "en": "Email or WhatsApp Hebei Pinjin Machinery in Xingtai. Photograph the spectacle plate and name the pump model on the machine. Do not send an invented diameter. The checklist does not print a list price or a service life for this piece.",
+        "zh": "请用邮件或 WhatsApp 写给邢台河北品锦机械。拍下眼镜板，并写明机器上的泵型号。不要自填一个直径。点检没有为这件印出标价或寿命。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What does the Xingtai page print for S-valve spectacle plate?",
+        "zh": "邢台页面为S阀眼镜板印了什么？"
+      },
+      "answer": {
+        "en": "The published table prints Part type S-tube large-end and small-end seal kit; Large-end sizes listed φ210 / φ220 / φ250 (set; some six-piece); Small-end sizes listed φ80 / φ90 / φ100 / φ105; Unit Set. Those seal-kit cells belong to the S-tube seal page. They are not a size for the spectacle plate.",
+        "zh": "已公布参数表印有：配件类型S管大端与小端密封套件；已列大端尺寸φ210 / φ220 / φ250（套；部分为六件套）；已列小端尺寸φ80 / φ90 / φ100 / φ105；单位套。这些密封套件格子属于 S 管密封页，不是眼镜板的尺寸。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the photograph print the catalogue figure?",
+        "zh": "照片上印出了目录数字吗？"
+      },
+      "answer": {
+        "en": "The photograph on this page is a content image downloaded from the crawled source page. It is not a Pinjin catalogue sheet. A diameter, output, distance or material grade is used here only when the Xingtai table prints it. Figures that are not readable on the photograph stay blank. Another manufacturer's rating is not written onto this Pinjin model or part.",
+        "zh": "本文图片是从来源页正文下载的内容图，不是品锦目录页。直径、产量、距离或材料牌号，只有邢台参数表印了才写入。照片上读不出来的数字保持空白。其他厂家的参数不写到这个品锦型号或配件上。"
+      }
+    },
+    {
+      "question": {
+        "en": "Are another maker's ratings used on this model?",
+        "zh": "其他厂家的参数写到这个型号上了吗？"
+      },
+      "answer": {
+        "en": "No. Only cells printed for this Hebei Pinjin Machinery row are used. A matching numeral on a different page is not an assignment.",
+        "zh": "没有。只用河北品锦机械这一行印出的格子。另一页上相同的数字不等于已经指定到本行。"
+      }
+    },
+    {
+      "question": {
+        "en": "Which fields stay blank?",
+        "zh": "哪些栏目留空？"
+      },
+      "answer": {
+        "en": "Not printed, so left blank: cylinder bore, piston stroke, service life, a material grade number.",
+        "zh": "没有印出、因此留空的栏目：缸径、活塞行程、使用寿命、材料牌号。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a list price printed?",
+        "zh": "印了标价吗？"
+      },
+      "answer": {
+        "en": "A list price is not printed. Write through the contact page by email or WhatsApp.",
+        "zh": "没有印出标价。请走联系页，用邮件或 WhatsApp 联系。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/parts-c/s-valve-spectacle-plate.webp",
+    "alt": {
+      "en": "S-valve spectacle plate, Hebei Pinjin Machinery, Xingtai",
+      "zh": "S阀眼镜板，品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/products/concrete-pump-parts",
+    "/blog/concrete-pump-daily-maintenance-checklist",
+    "/blog/parts-c-cutting-ring-size-not-printed"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/concrete-pump-parts/",
+    "https://pinjinpump.com/zh/products/concrete-pump-parts/"
+  ],
+  "status": "ready"
+}

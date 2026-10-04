@@ -90,41 +90,13 @@
     }
   },
   "relatedPaths": [
-    {
-      "href": "/products/type-511-mortar-spraying-machine",
-      "label": {
-        "en": "Type 511 Mortar Sprayer",
-        "zh": "511砂浆喷涂机"
-      }
-    },
-    {
-      "href": "/products/type-511-diesel-mortar-spraying-machine",
-      "label": {
-        "en": "Type 511 Diesel",
-        "zh": "511柴油砂浆喷涂机"
-      }
-    },
-    {
-      "href": "/products/spraying-machines",
-      "label": {
-        "en": "Spraying machines",
-        "zh": "喷涂机"
-      }
-    },
-    {
-      "href": "/solutions/spraying",
-      "label": {
-        "en": "Spraying versus pipeline pumping",
-        "zh": "喷浆与管道泵送"
-      }
-    },
-    {
-      "href": "/contact",
-      "label": {
-        "en": "Contact Hebei Pinjin Machinery",
-        "zh": "联系河北品锦机械"
-      }
-    }
+    "/products/type-511-mortar-spraying-machine",
+    "/products/type-511-diesel-mortar-spraying-machine",
+    "/products/spraying-machines",
+    "/blog/block-joint-hose-type-511-versus-311",
+    "/blog/blockwork-mortar-type-511",
+    "/solutions/spraying",
+    "/contact"
   ],
   "sources": [
     "https://pinjinpump.com/products/type-511-mortar-spraying-machine",

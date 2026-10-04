@@ -100,14 +100,12 @@
     }
   },
   "relatedPaths": [
-    "/en/products/electric-15-concrete-pump/",
-    "/zh/products/electric-15-concrete-pump/",
-    "/en/products/electric-10-series-concrete-pump/",
-    "/zh/products/electric-10-series-concrete-pump/",
-    "/en/products/electric-20-concrete-pump/",
-    "/zh/products/electric-20-concrete-pump/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/electric-15-concrete-pump",
+    "/products/electric-10-series-concrete-pump",
+    "/products/electric-20-concrete-pump",
+    "/blog/buy-c-electric-15-concrete-pump-inquiry-fields",
+    "/blog/buy-c-electric-15-concrete-pump-output-distance",
+    "/contact"
   ],
   "sources": [
     "pinjin-website/src/data/products.ts",

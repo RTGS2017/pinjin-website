@@ -103,18 +103,14 @@
     }
   },
   "relatedPaths": [
-    "/en/products/diesel-120-concrete-pump/",
-    "/zh/products/diesel-120-concrete-pump/",
-    "/en/products/electric-80-concrete-pump/",
-    "/zh/products/electric-80-concrete-pump/",
-    "/en/products/diesel-concrete-pumps/",
-    "/zh/products/diesel-concrete-pumps/",
-    "/en/products/electric-concrete-pumps/",
-    "/zh/products/electric-concrete-pumps/",
-    "/en/factory/",
-    "/zh/factory/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/diesel-120-concrete-pump",
+    "/products/electric-80-concrete-pump",
+    "/products/diesel-concrete-pumps",
+    "/products/electric-concrete-pumps",
+    "/blog/electric-80-frame-size-is-not-pumping-reach",
+    "/blog/electric-80-how-the-distance-cells-are-ordered",
+    "/factory",
+    "/contact"
   ],
   "sources": [
     "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",

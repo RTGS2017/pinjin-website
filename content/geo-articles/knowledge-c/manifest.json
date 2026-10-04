@@ -1,0 +1,1311 @@
+{
+  "category": "knowledge-c",
+  "batch": "knowledge-c",
+  "date": "2026-10-04",
+  "articleCount": 100,
+  "imageCount": 100,
+  "directory": "content/geo-articles/knowledge-c",
+  "imageDirectory": "public/images/geo/knowledge-c",
+  "articles": [
+    {
+      "slug": "electric-20-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Piston_pump",
+      "image": "/images/geo/knowledge-c/force-pump-concrete-pump.webp",
+      "filename": "force-pump-concrete-pump.webp",
+      "sha256": "380c52beb5165a2d13d9d29a3a64cf6330949de2c77f4bf4651e2bb95a70a51c",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-30-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Piston_pump",
+      "image": "/images/geo/knowledge-c/piston-pump-delivery.webp",
+      "filename": "piston-pump-delivery.webp",
+      "sha256": "b16af92725d42221079ed55aabf24b674d97423fd0f6ca2afac4dbb74a7bd642",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-40-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_machinery",
+      "image": "/images/geo/knowledge-c/gear-pump-exploded.webp",
+      "filename": "gear-pump-exploded.webp",
+      "sha256": "10ee67a4c12241506ab838a0f4f55bc6022fb4cf12717310aa6e418443d1eba3",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-40-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_pump",
+      "image": "/images/geo/knowledge-c/rotary-vane-pump.webp",
+      "filename": "rotary-vane-pump.webp",
+      "sha256": "e7bbe5b3df0eeee076197d8eb86bf61845369af1851fceb032741da9cce1bf03",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-80-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Axial_piston_pump",
+      "image": "/images/geo/knowledge-c/oelpumpemodel-retouched-concrete-pump.webp",
+      "filename": "oelpumpemodel-retouched-concrete-pump.webp",
+      "sha256": "1be759c0cea9618eae56290ec77d9072a8050dc7f5a236fb20eb03a0def9c6c2",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-30-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_pump",
+      "image": "/images/geo/knowledge-c/putzmeister-brand-positive-displacement-mortar-plaster-pump.webp",
+      "filename": "putzmeister-brand-positive-displacement-mortar-plaster-pump.webp",
+      "sha256": "18da1f3bb860c8411fdade0ebbce653517168b5e4e62e46be9dee3323737abee",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-40-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_pump",
+      "image": "/images/geo/knowledge-c/concrete-boom-pump.webp",
+      "filename": "concrete-boom-pump.webp",
+      "sha256": "96f9347e5ad9327a86e1123dd67f39ee57b6696bb4bd9b34b3d458125c009e8d",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-50-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_pump",
+      "image": "/images/geo/knowledge-c/workers-guiding-concrete-delivery-hose-on-formwork.webp",
+      "filename": "workers-guiding-concrete-delivery-hose-on-formwork.webp",
+      "sha256": "fe8abb4ea9621545d466b11e821f17fdad179cf7effc8c4238bd50fe73ee0f84",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-60-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_pump",
+      "image": "/images/geo/knowledge-c/showing-concrete-pump-working-large-foundation-pour-showing-deployed-outrigger.webp",
+      "filename": "showing-concrete-pump-working-large-foundation-pour-showing-deployed-outrigger.webp",
+      "sha256": "f5c8ac8aea753c2051a9ea4569bb39aad89c79c0cf548f7c6cd7691221508a1d",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-10-series-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_pump",
+      "image": "/images/geo/knowledge-c/fully-deployed-concrete-pump-showing-outriggers-boom-in-use-while.webp",
+      "filename": "fully-deployed-concrete-pump-showing-outriggers-boom-in-use-while.webp",
+      "sha256": "615f7910bbff2aa1bbdeab9f392e2ac222e99ee6c16d040a1b53f93082f5b208",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "integrated-mixer-pump-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Positive-displacement_pump",
+      "image": "/images/geo/knowledge-c/close-up-regenerative-turbine-pump-impeller-inside-t51-series-pump.webp",
+      "filename": "close-up-regenerative-turbine-pump-impeller-inside-t51-series-pump.webp",
+      "sha256": "ed32a0dcde6f85de58f5055f5e9c77ea045e29d21db6442c3205fbccc3e38495",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt8018-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Positive-displacement_pump",
+      "image": "/images/geo/knowledge-c/jet-pump-concrete-pump.webp",
+      "filename": "jet-pump-concrete-pump.webp",
+      "sha256": "4a5e32590ca8f12e526bdf722382f8768def3cbcd664ef2d36762bebfa87a6e0",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt80-16-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peristaltic_pump",
+      "image": "/images/geo/knowledge-c/watson-marlow-peristaltic-pump.webp",
+      "filename": "watson-marlow-peristaltic-pump.webp",
+      "sha256": "c98190b35dbdcec2847d9e77269f9e67f7c24a0640f5e7658e3d6de33fb8cbf2",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-60-diesel-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peristaltic_pump",
+      "image": "/images/geo/knowledge-c/peristaltic-pump-head.webp",
+      "filename": "peristaltic-pump-head.webp",
+      "sha256": "7e105c5af0cabb14b4d6e051a0460817c7556c0f17a630d9b740e25df24b41c0",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-80-diesel-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peristaltic_pump",
+      "image": "/images/geo/knowledge-c/schlauchpumpe-lineare-verdraengung.webp",
+      "filename": "schlauchpumpe-lineare-verdraengung.webp",
+      "sha256": "c6a75db8867d753597731927f1d03b801ac94518c70229facdd33bf127401f3b",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-120-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_machinery",
+      "image": "/images/geo/knowledge-c/hydraulic-control-pad-with-valves.webp",
+      "filename": "hydraulic-control-pad-with-valves.webp",
+      "sha256": "2e586a20e3d14ed2b65e32ff6b80e6716b7edf2f4bff2c3686cc8e9284541ac7",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-mixer-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_machinery",
+      "image": "/images/geo/knowledge-c/cat385-raupenbagger-concrete-pump.webp",
+      "filename": "cat385-raupenbagger-concrete-pump.webp",
+      "sha256": "81ec1f4f794365d01aedd23b788fb8e7ba699243d8a62da1c9d8acbfddd0c13e",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+        "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "tractor-4100-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_machinery",
+      "image": "/images/geo/knowledge-c/hydraulic-force-torque-275px.webp",
+      "filename": "hydraulic-force-torque-275px.webp",
+      "sha256": "1c95ea00db751e42b27a7c5ca6a022eabac59cc77f5817c835b2d476ba555380",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/zh/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "rural-diesel-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gear_pump",
+      "image": "/images/geo/knowledge-c/gear-type-oil-pump-from-139qmb-scooter-engine.webp",
+      "filename": "gear-type-oil-pump-from-139qmb-scooter-engine.webp",
+      "sha256": "7a219ed300086c710cb92d4be7d92938ef97921700451ed80ce05cba0985392d",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-50-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_cylinder",
+      "image": "/images/geo/knowledge-c/hydraulic-cylinders-in-particle-board-machine.webp",
+      "filename": "hydraulic-cylinders-in-particle-board-machine.webp",
+      "sha256": "3d33970698d242ea1e65f5d87d33ca845d55f3fc20ecbe3e2e76c8590ed34353",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-60-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_cylinder",
+      "image": "/images/geo/knowledge-c/tie-rod-cylinder-from-georgia-hydraulics.webp",
+      "filename": "tie-rod-cylinder-from-georgia-hydraulics.webp",
+      "sha256": "ca8ce6058630989e8f9b33f85d93e53cd419b8fd90780f49f9b3526a63d30888",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-60-pressure-cell-is-not-the-output-cell",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hydraulic_cylinder",
+      "image": "/images/geo/knowledge-c/blmexcavsm-concrete-pump-component.webp",
+      "filename": "blmexcavsm-concrete-pump-component.webp",
+      "sha256": "0e3ae29057aa2e93501c90c943acf48193db2a510c8b02977a201f101182b377",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-20-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shotcrete",
+      "image": "/images/geo/knowledge-c/bauarbeiten-stliches-domumfeld-lner-dom-spritzbeton-8306.webp",
+      "filename": "bauarbeiten-stliches-domumfeld-lner-dom-spritzbeton-8306.webp",
+      "sha256": "8ef623ea73ff54391570980ffe23092c7f74cbf2956068e5277f3f0f5cec501f",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-80-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shotcrete",
+      "image": "/images/geo/knowledge-c/fibre-reinforced-shotcrete.webp",
+      "filename": "fibre-reinforced-shotcrete.webp",
+      "sha256": "00c48d55cc6edcf220c86fb8c5095cea29441542cd5c3438ecad7abba20cba05",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-30-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Shotcrete",
+      "image": "/images/geo/knowledge-c/shotcrete-covered-cliff-auckland.webp",
+      "filename": "shotcrete-covered-cliff-auckland.webp",
+      "sha256": "eaae1cae93ecdc904ea8c2d1b3e4f1b81c51ecfbf6b84d2b248ee2ce0d16afa0",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-40-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hose_(tubing)",
+      "image": "/images/geo/knowledge-c/druckschlauch-schmutzwasserkreiselpumpe-concrete-pump.webp",
+      "filename": "druckschlauch-schmutzwasserkreiselpumpe-concrete-pump.webp",
+      "sha256": "b605b75837c2988d16c3ac904738a3c35e37eea279e0936caf400b786516e1e1",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-50-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete",
+      "image": "/images/geo/knowledge-c/concrete-mixing-plant-birmingham-alabama-view.webp",
+      "filename": "concrete-mixing-plant-birmingham-alabama-view.webp",
+      "sha256": "09fa113f31e75bf803cc38fb25dfb88d231a49d1d2615f650d7368cb0fc60557",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-60-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_mixer",
+      "image": "/images/geo/knowledge-c/silvi-materials-front-discharge-concrete-mixer-truck.webp",
+      "filename": "silvi-materials-front-discharge-concrete-mixer-truck.webp",
+      "sha256": "2f854be3a1219c4e17268fb4d5971b517871b58e421d9a0c9f77321137c42699",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-10-series-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_mixer",
+      "image": "/images/geo/knowledge-c/metered-concrete-truck.webp",
+      "filename": "metered-concrete-truck.webp",
+      "sha256": "d62730e420ca01655546f42f267d942fc4921f428946cfcb6d54c2c15bf3bed1",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "integrated-mixer-pump-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Concrete_mixer",
+      "image": "/images/geo/knowledge-c/twin-shaft-concrete-mixer.webp",
+      "filename": "twin-shaft-concrete-mixer.webp",
+      "sha256": "b782651066247affeabb41e5eba0a6ae9792a2aa445b225b3cdbb24ee28bc592",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt8018-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diesel_engine",
+      "image": "/images/geo/knowledge-c/12-cylinder-diesel-engine.webp",
+      "filename": "12-cylinder-diesel-engine.webp",
+      "sha256": "3b60817290c7e2938b50eec9bf6b0a2388627bed573545f76fca8263b197f875",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt80-16-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diesel_engine",
+      "image": "/images/geo/knowledge-c/porsche-218-concrete-pump.webp",
+      "filename": "porsche-218-concrete-pump.webp",
+      "sha256": "0f0cc09a068e9660cb57b34c4e2ac05fb97f9118143514b6e5532ca1289f7741",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-60-diesel-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diesel_engine",
+      "image": "/images/geo/knowledge-c/station-rdieselmotor-1915.webp",
+      "filename": "station-rdieselmotor-1915.webp",
+      "sha256": "8e32b442c15128f78748729f0cf2203931240a036e16aca315b7b16aa49e7f2a",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-80-diesel-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diesel_engine",
+      "image": "/images/geo/knowledge-c/experimental-diesel-engine.webp",
+      "filename": "experimental-diesel-engine.webp",
+      "sha256": "0d2b3c8ec27f404bba26d5437d40509fa5bc3686be9733bbceb5575016d27b73",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-120-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diesel_engine",
+      "image": "/images/geo/knowledge-c/model-engine-luc-viatour.webp",
+      "filename": "model-engine-luc-viatour.webp",
+      "sha256": "dd161a89287397956c1e84243ca67b9a653f2f138188aa2115aed99084b69703",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "tractor-4100-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+      "image": "/images/geo/knowledge-c/universalmotor-concrete-pump-component.webp",
+      "filename": "universalmotor-concrete-pump-component.webp",
+      "sha256": "61d2ae8dfd8e573f782afd3d5172723c50873621b9245035255ced5b881b04d2",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/zh/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "rural-diesel-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+      "image": "/images/geo/knowledge-c/electric-motor-presented-to-kelvin-by-james-joule-in-1842.webp",
+      "filename": "electric-motor-presented-to-kelvin-by-james-joule-in-1842.webp",
+      "sha256": "d1637d5001816f2dedfa1cdbc3b53fa265be6451f42c94bf2d743102d41ee293",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-50-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+      "image": "/images/geo/knowledge-c/stator-rotor-by-zureks.webp",
+      "filename": "stator-rotor-by-zureks.webp",
+      "sha256": "e61d482c702e406827b53e6f07392063aa4bd897fd3592f67f4f1d36e83b20ae",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-60-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+      "image": "/images/geo/knowledge-c/miniature-coreless-dc-motor.webp",
+      "filename": "miniature-coreless-dc-motor.webp",
+      "sha256": "c8a85cedd8342994a85a6090de3f7ded3f6fb62d9c5187b237297104417b0dba",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-60-how-the-distance-cells-are-ordered",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Electric_motor",
+      "image": "/images/geo/knowledge-c/elliott-motor-concrete-pump.webp",
+      "filename": "elliott-motor-concrete-pump.webp",
+      "sha256": "2a5a40258597ce9f1e054844a28a1ce549bc1a431ce5e222346fdebd4c0a84fa",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-20-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Induction_motor",
+      "image": "/images/geo/knowledge-c/silniki-by-zureks.webp",
+      "filename": "silniki-by-zureks.webp",
+      "sha256": "a38ff1912f7fcbecbd39033aebba012f4bd49217c522fe0e749b4213b53fbfd7",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-30-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Induction_motor",
+      "image": "/images/geo/knowledge-c/rotterdam-ahoy-europort-2011-14.webp",
+      "filename": "rotterdam-ahoy-europort-2011-14.webp",
+      "sha256": "df606044f7a2d37a83856100cf4ce3ae94c11b8bd8058f4349e1af8c8a3b42cb",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-40-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Induction_motor",
+      "image": "/images/geo/knowledge-c/tesla-induction-motor.webp",
+      "filename": "tesla-induction-motor.webp",
+      "sha256": "7c8d70f38b57cb5c8e64e9550ac8f099f34e84a38e2b3bfe538b3d99e09b7ef5",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-40-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tractor",
+      "image": "/images/geo/knowledge-c/xtz-243k-concrete-pump.webp",
+      "filename": "xtz-243k-concrete-pump.webp",
+      "sha256": "dd3c0170c04bec3e3a1a7610992e1a0ae51985e1077592d4bd89c52050e1aa1d",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-80-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tractor",
+      "image": "/images/geo/knowledge-c/modern-tractors-ursus-11054-fendt-820.webp",
+      "filename": "modern-tractors-ursus-11054-fendt-820.webp",
+      "sha256": "a7c9f57585e408eabfa19cea9c9dba32c5b5c6b265feace797b0294a3e0110d5",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-30-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/farmer-with-t5070-tractor-in-malans.webp",
+      "filename": "farmer-with-t5070-tractor-in-malans.webp",
+      "sha256": "5a8fbd5a42dbdd4c861c18da2d3d3acc746c1982ba31ee81373353a5d607b7ae",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-40-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/steam-engine-lausanne.webp",
+      "filename": "steam-engine-lausanne.webp",
+      "sha256": "f4222dc107115ef35f76c45e7a972c6f8a2ed444a30f22cbb039679c76d8beab",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-50-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Check_valve",
+      "image": "/images/geo/knowledge-c/inside-view-tilting-disc-inconel-check-valve.webp",
+      "filename": "inside-view-tilting-disc-inconel-check-valve.webp",
+      "sha256": "8cccd903e03d1f6edf31c664307dffb21e0d3f9019cf876d9de1e9a9d8a90ccd",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-60-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Check_valve",
+      "image": "/images/geo/knowledge-c/flanged-nozzle-inconel-check-valve-or-axial-check-valve.webp",
+      "filename": "flanged-nozzle-inconel-check-valve-or-axial-check-valve.webp",
+      "sha256": "fa5629b7c7c50a5efbf70c4887ad94ecd8e54caa65da00fa7415e033187e6af6",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-10-series-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Check_valve",
+      "image": "/images/geo/knowledge-c/inside-hastelloy-check-valve-wafer-configuration.webp",
+      "filename": "inside-hastelloy-check-valve-wafer-configuration.webp",
+      "sha256": "caa96df2f7138b81378c5931d8454331889f67c7f09b9aa9dac29bf67646c145",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "integrated-mixer-pump-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Check_valve",
+      "image": "/images/geo/knowledge-c/wafer-check-valve.webp",
+      "filename": "wafer-check-valve.webp",
+      "sha256": "030ff8a09c9bef1f85fa6980de630b56db866fdf293f4ccc43303cb1dacc44f2",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt8018-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Check_valve",
+      "image": "/images/geo/knowledge-c/110327-pm645-011-butterfly-check-valve.webp",
+      "filename": "110327-pm645-011-butterfly-check-valve.webp",
+      "sha256": "09fa908da130765c69c16acf1198b8208a61f62084d5161c0d2f6b199a3cf9e4",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt80-16-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Relief_valve",
+      "image": "/images/geo/knowledge-c/pressure-relief-valve-dn25-on-cooling-water.webp",
+      "filename": "pressure-relief-valve-dn25-on-cooling-water.webp",
+      "sha256": "093df4c288dd064a264421f82061f5f36e2a9bd5e50beda34140a21742f46f3e",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-60-diesel-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portland_cement",
+      "image": "/images/geo/knowledge-c/ldcementfm10mw-concrete-pump-component.webp",
+      "filename": "ldcementfm10mw-concrete-pump-component.webp",
+      "sha256": "b75a2c02cff541a5895e30d4875829a1a342bbcf8b8041719bd509922ba64da5",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-80-diesel-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portland_cement",
+      "image": "/images/geo/knowledge-c/bluecirclesoutherncementberrimansw-concrete-pump-component.webp",
+      "filename": "bluecirclesoutherncementberrimansw-concrete-pump-component.webp",
+      "sha256": "9ade43b526cdf98ddb363503aeac5d18e41e050f5177ccfa78b33f318f08d47c",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-120-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portland_cement",
+      "image": "/images/geo/knowledge-c/portland-cement-bags.webp",
+      "filename": "portland-cement-bags.webp",
+      "sha256": "be8491fae9627583454cf5135290e3d29b231d5ca3bf362a0bf22dcd58e08a37",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-mixer-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Portland_cement",
+      "image": "/images/geo/knowledge-c/ldwisconsintireinject-concrete-pump-component.webp",
+      "filename": "ldwisconsintireinject-concrete-pump-component.webp",
+      "sha256": "19e67aac4d0a6aaa5eb76c6a1477c4ffb2887058212338199ed6637dc362864d",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+        "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "tractor-4100-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Aggregate_(composite)",
+      "image": "/images/geo/knowledge-c/concrete-aggregate-grinding.webp",
+      "filename": "concrete-aggregate-grinding.webp",
+      "sha256": "fd8217fde1fcd48002626f996c25c5ea0f5ed36964c164d1b5b0e14b82b7e7de",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/zh/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "rural-diesel-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grout",
+      "image": "/images/geo/knowledge-c/applying-grout-concrete-pump.webp",
+      "filename": "applying-grout-concrete-pump.webp",
+      "sha256": "a0c93758153de24805864d0ea670f1573dfb6c2b092edf8f139bec52b1f4c8cb",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-50-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Grout",
+      "image": "/images/geo/knowledge-c/fugenbrett-concrete-pump-component.webp",
+      "filename": "fugenbrett-concrete-pump-component.webp",
+      "sha256": "f4d0b2266134bf5f4283f5f3b4a0ba8822c527ea6ddbc9896f7adda976b10dfe",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-60-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mortar_(masonry)",
+      "image": "/images/geo/knowledge-c/brick-block-laying.webp",
+      "filename": "brick-block-laying.webp",
+      "sha256": "1b2253e8d318a08041b427e350e9377a9ecc1dafe3ba3c459533fce958d160df",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-60-which-power-cell-the-sheet-prints",
+      "sourceUrl": "https://en.wikipedia.org/wiki/End-face_mechanical_seal",
+      "image": "/images/geo/knowledge-c/us-patent-2951719.webp",
+      "filename": "us-patent-2951719.webp",
+      "sha256": "5f3eb8d2c4b14031c5b047b81907ee37662a4b87fa30fef028535d3d2da3d28b",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-20-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B7%B7%E5%87%9D%E5%9C%9F",
+      "image": "/images/geo/knowledge-c/cement-mixer-concrete-pump.webp",
+      "filename": "cement-mixer-concrete-pump.webp",
+      "sha256": "e74d11299cb12e7fb43c74801e6131b3295b34e941c5d9e823b3d64da71c6790",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-30-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mobile_crane",
+      "image": "/images/geo/knowledge-c/truck-mounted-crane-building-bridge.webp",
+      "filename": "truck-mounted-crane-building-bridge.webp",
+      "sha256": "af5812def717bab44d34d26da82ae881ff919ded27ad3b7f07b70720ab758a87",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-40-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/swingmaster-swingloader-concrete-pump.webp",
+      "filename": "swingmaster-swingloader-concrete-pump.webp",
+      "sha256": "10c585cb8efca1dfaea8fcfae6d4bfda8e04a5afcd6aa474eff01dc62a0a3d04",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-40-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/volvo-l60h-articulated-loader.webp",
+      "filename": "volvo-l60h-articulated-loader.webp",
+      "sha256": "69c0a06e3230c6c08632d37a085fc840e0080f71d0594e6272d14fa413705d7f",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-80-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/loader-dumping-salt-into-salt-spreader.webp",
+      "filename": "loader-dumping-salt-into-salt-spreader.webp",
+      "sha256": "9ab13f6d33a255978580aba757a5729d5f884656c1f6b941f68ab61e430a36b6",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-30-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/wacker-neuson-wheel-loaders-at-trade-fair.webp",
+      "filename": "wacker-neuson-wheel-loaders-at-trade-fair.webp",
+      "sha256": "00880521b4e0678d43fe892854e01100b23699481eebb5970b4a9b8e022d082c",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-40-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/front-end-loader.webp",
+      "filename": "front-end-loader.webp",
+      "sha256": "f15ce9a24bdac7179caa41d540025a5cb95c98a7e6d3eb9159da0e168ccfe69a",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-50-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/unimog-with-front-loader-excavator-attachment-backhoe-loader.webp",
+      "filename": "unimog-with-front-loader-excavator-attachment-backhoe-loader.webp",
+      "sha256": "882c5bc32f58c9bcac3a564487e34eb67981c3c1031678bec0c06d8939a85795",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-60-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Loader_(equipment)",
+      "image": "/images/geo/knowledge-c/front-end-loader-grappler.webp",
+      "filename": "front-end-loader-grappler.webp",
+      "sha256": "9a6b0889f6d6ab356aa91b82441ff7825e5ac0f2ac2879bcd5ac1ec888202975",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-10-series-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/construction-site-near-yass-site-cleared-bull-dozed-cleared-steam.webp",
+      "filename": "construction-site-near-yass-site-cleared-bull-dozed-cleared-steam.webp",
+      "sha256": "65ae774ecb59794ff87f43c41c5487350afd4aad754957ce96272129bb0592d4",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "integrated-mixer-pump-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pressure",
+      "image": "/images/geo/knowledge-c/aluminium-cylinder-concrete-pump.webp",
+      "filename": "aluminium-cylinder-concrete-pump.webp",
+      "sha256": "10bf1e1221595e894f2660341ed887dfb7c4f5314a0ef7368296788ecf6cbfa0",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt8018-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B7%B7%E5%87%9D%E5%9C%9F",
+      "image": "/images/geo/knowledge-c/crushed-concrete-granular-fill.webp",
+      "filename": "crushed-concrete-granular-fill.webp",
+      "sha256": "c51147d600d950684dbafb2252c670747a623691121b75ebfbdf07aca06add4a",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt80-16-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://zh.wikipedia.org/wiki/%E6%B7%B7%E5%87%9D%E5%9C%9F",
+      "image": "/images/geo/knowledge-c/hormigonera-rafax-concrete-pump.webp",
+      "filename": "hormigonera-rafax-concrete-pump.webp",
+      "sha256": "87b87e9dad2caa2a3e08525497aa8be4ca74d238fb16e9b65dd5ebf6d1097b59",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-60-diesel-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/excavator-postiguet-beach.webp",
+      "filename": "excavator-postiguet-beach.webp",
+      "sha256": "d66e5b97f7239350a1b8b112da34e3ed1d00d924a4fe830680130a9b3e14bd05",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-80-diesel-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/waterways-ireland-daewoo-solar-150lc-crawler-excavator-used-for-canal.webp",
+      "filename": "waterways-ireland-daewoo-solar-150lc-crawler-excavator-used-for-canal.webp",
+      "sha256": "dd0501b5be3cdb33c3a087a938f7720c7f2ad45fc78bbdeac7d6216ee8e5b495",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-120-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/cable-operated-excavator-under-northwest-now-terex-name-at-pageant.webp",
+      "filename": "cable-operated-excavator-under-northwest-now-terex-name-at-pageant.webp",
+      "sha256": "cf35800f7ca853f21f47ecbb5128f9edeec5ef8ac40b6bf44a3a58b21e08a8ec",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-mixer-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/liebherr-314-wheeled-excavator.webp",
+      "filename": "liebherr-314-wheeled-excavator.webp",
+      "sha256": "6d2e0037b277bb6f46eca01bb3e1f2af0b9b339c248051ad808c0ce4cfbcafee",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
+        "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "tractor-4100-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/excavator-with-grapple.webp",
+      "filename": "excavator-with-grapple.webp",
+      "sha256": "e2006bd8e59e9fef043374659096dc86907a26e5606f17e20d81c7d66b475f7e",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/zh/products/tractor-4100-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "rural-diesel-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/minibagger-beschreibung-concrete-pump.webp",
+      "filename": "minibagger-beschreibung-concrete-pump.webp",
+      "sha256": "a970dcbf148145ab37978fdf93a37ba8b6628c658951afbf2d272d76f6a8bd36",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/rural-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-50-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/caterpillar-315c-excavator-cleaning-up-tornado-debris.webp",
+      "filename": "caterpillar-315c-excavator-cleaning-up-tornado-debris.webp",
+      "sha256": "4c0ff3c3bfbe957dbd2da2ec213d66aebef76efc90ec1bbd4893e83174c7d153",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-60-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Excavator",
+      "image": "/images/geo/knowledge-c/excavator-performing-coastal-maintenance-debris-clearing-at-stockton-beach.webp",
+      "filename": "excavator-performing-coastal-maintenance-debris-clearing-at-stockton-beach.webp",
+      "sha256": "021cfec751b54594ec25272c16b527de4ee55833cc86a8db59b9b8f086185f9f",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-60-frame-size-is-not-pumping-reach",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Backhoe",
+      "image": "/images/geo/knowledge-c/excavator-shovel-kobelco-config.webp",
+      "filename": "excavator-shovel-kobelco-config.webp",
+      "sha256": "e2ac6c61ac9b69025f5a3d8f9ce7483b581eed9298de37a984f2194caadc29e8",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-20-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crane_(machine)",
+      "image": "/images/geo/knowledge-c/cape-town-za-waterfront-kran-2024-2907.webp",
+      "filename": "cape-town-za-waterfront-kran-2024-2907.webp",
+      "sha256": "d6ed14a9345cd2a4c3e306787aaaabdce7d7477e6a7f0d46647da129cd18d06e",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-30-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crane_(machine)",
+      "image": "/images/geo/knowledge-c/belgium-6311-treadmill-crane-13896807830.webp",
+      "filename": "belgium-6311-treadmill-crane-13896807830.webp",
+      "sha256": "80a6cf05ea3378b1fc3d00a2f2d0a311745cdfcc0c9db0ab4b00f7c0496e1580",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-low-pressure-40-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crane_(machine)",
+      "image": "/images/geo/knowledge-c/submar-ictineu-col-locat-sota-un-pont-grua.webp",
+      "filename": "submar-ictineu-col-locat-sota-un-pont-grua.webp",
+      "sha256": "984a4bc44dc955b46efb5e61dedf652751034ecae1a98edc8094619ce429ae7d",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-low-pressure-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-40-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crane_(machine)",
+      "image": "/images/geo/knowledge-c/tower-crane-cabin.webp",
+      "filename": "tower-crane-cabin.webp",
+      "sha256": "55d71c668e08586b06feb9b86f82b610c4c8f82db7e4071e1797c8d2d8706214",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-80-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crane_(machine)",
+      "image": "/images/geo/knowledge-c/tower-crane-with-luffing-jib.webp",
+      "filename": "tower-crane-with-luffing-jib.webp",
+      "sha256": "210ec3914bdbc7c10d91936c12af99583dfddd15021002d0bd20b4374fba4eac",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-30-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Crane_(machine)",
+      "image": "/images/geo/knowledge-c/view-in-cape-town-cbd-from-corner-roeland-street.webp",
+      "filename": "view-in-cape-town-cbd-from-corner-roeland-street.webp",
+      "sha256": "5ad6a0590107aaa407cca3d6d5a86bfd04e742e093a943f28e63cde0cb7fed09",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-40-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mobile_crane",
+      "image": "/images/geo/knowledge-c/maeder-kriessern-rhine-liebherr-lr-11000-32asd.webp",
+      "filename": "maeder-kriessern-rhine-liebherr-lr-11000-32asd.webp",
+      "sha256": "f2e2ca6ad625451fd2238fb6ffd8e0a181add47b1843fb9e33968426268febc7",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-40-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-50-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mobile_crane",
+      "image": "/images/geo/knowledge-c/130t-mobile-crane.webp",
+      "filename": "130t-mobile-crane.webp",
+      "sha256": "89a1261e0063896ed27f2f66e4b18cdc765c79bd1f37ccfafbdc9fc22d7888e7",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-50-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-60-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mobile_crane",
+      "image": "/images/geo/knowledge-c/grove-mobile-crane-450t-brisbane.webp",
+      "filename": "grove-mobile-crane-450t-brisbane.webp",
+      "sha256": "a70847602a7be6964fd2346e496c0450c9fd032b76fe55c3d03cfdd66f5e98fc",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-60-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "electric-10-series-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mobile_crane",
+      "image": "/images/geo/knowledge-c/demag-ac1000-1000-ton-mobile-crane.webp",
+      "filename": "demag-ac1000-1000-ton-mobile-crane.webp",
+      "sha256": "83fece90593ed5c9a948d7e91a4f3917a0b80ef04c5a35e852b1177384996bba",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "integrated-mixer-pump-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mobile_crane",
+      "image": "/images/geo/knowledge-c/20100225-liebherr-ltm-1200.webp",
+      "filename": "20100225-liebherr-ltm-1200.webp",
+      "sha256": "b3072169d52aee121ccca09dcd09c7bfe504d4c8e978e9a30d859767a02ebfb4",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt8018-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/ride-on-with-articulating-swivel-bomag-bw-219-dh-wr.webp",
+      "filename": "ride-on-with-articulating-swivel-bomag-bw-219-dh-wr.webp",
+      "sha256": "7668fd1b85423927fc49f6c113978e50be293d257b03cd181136e924248701e8",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "hbt80-16-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/kemna-bau-pinneberg-fahrzeug.webp",
+      "filename": "kemna-bau-pinneberg-fahrzeug.webp",
+      "sha256": "f749010959ad8a8b160bfe53d96b525a6ee76f51346b239fce790b7aa5961090",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-60-diesel-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/caterpillar-cs-533e-vibratory-roller.webp",
+      "filename": "caterpillar-cs-533e-vibratory-roller.webp",
+      "sha256": "a6642a9d534f29d3ff384bdf84e926d70952a3b061e3d9fb3ebcbe572a9863b6",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "lz-80-diesel-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/vibrating-dynapac-cc232.webp",
+      "filename": "vibrating-dynapac-cc232.webp",
+      "sha256": "4f7aeea44e2d19ecc370198ee2a4ba8b271df6a09f316c049418115cb88d8099",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    },
+    {
+      "slug": "diesel-120-sheet-prints-no-piston-stroke",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Road_roller",
+      "image": "/images/geo/knowledge-c/john-deere-roller-navy-camp-covington-nmcb-133-080928-1106h.webp",
+      "filename": "john-deere-roller-navy-camp-covington-nmcb-133-080928-1106h.webp",
+      "sha256": "445e3fd73e4b6b79241f0f70eca3562166495bdf93d7bccb0bc57082b6c8c0c1",
+      "pinjinSources": [
+        "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
+        "https://pinjinpump.com/en/factory/",
+        "https://pinjinpump.com/zh/factory/"
+      ]
+    }
+  ]
+}

@@ -100,14 +100,12 @@
     }
   },
   "relatedPaths": [
-    "/en/products/diesel-concrete-spraying-machine/",
-    "/zh/products/diesel-concrete-spraying-machine/",
-    "/en/products/diesel-30-concrete-pump/",
-    "/zh/products/diesel-30-concrete-pump/",
-    "/en/products/hydraulic-concrete-spraying-machine/",
-    "/zh/products/hydraulic-concrete-spraying-machine/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/diesel-concrete-spraying-machine",
+    "/products/diesel-30-concrete-pump",
+    "/products/hydraulic-concrete-spraying-machine",
+    "/blog/buy-c-diesel-30-concrete-pump-inquiry-fields",
+    "/blog/buy-c-diesel-30-concrete-pump-output-distance",
+    "/contact"
   ],
   "sources": [
     "pinjin-website/src/data/products.ts",

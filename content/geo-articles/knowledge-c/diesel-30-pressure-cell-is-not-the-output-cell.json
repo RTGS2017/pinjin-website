@@ -1,0 +1,136 @@
+{
+  "slug": "diesel-30-pressure-cell-is-not-the-output-cell",
+  "date": "2026-10-04",
+  "category": "knowledge",
+  "keyword": {
+    "en": "Diesel 30 Concrete Pump outlet pressure versus output",
+    "zh": "柴油30型混凝土泵出口压力和输送量"
+  },
+  "title": {
+    "en": "How Diesel 30 Concrete Pump Separates Pressure from Output",
+    "zh": "柴油30型混凝土泵怎样把压力和输送量分成两格"
+  },
+  "description": {
+    "en": "Hebei Pinjin Machinery prints the Diesel 30 Concrete Pump in Xingtai with Theoretical Output 15 m³/h and Max. Outlet Pressure 20 MPa. Output is a volume rate. Pressure is",
+    "zh": "河北品锦机械在邢台把柴油30型混凝土泵的理论输送量印成15 m³/h，把最大出口压力印成20 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Concrete pump」的画面主体是Putzmeister brand 容积式 砂浆 and plaster 泵。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+  },
+  "h1": {
+    "en": "How Diesel 30 Concrete Pump Separates Pressure from Output",
+    "zh": "柴油30型混凝土泵怎样把压力和输送量分成两格"
+  },
+  "directAnswer": {
+    "en": "Hebei Pinjin Machinery prints the Diesel 30 Concrete Pump in Xingtai with Theoretical Output 15 m³/h and Max. Outlet Pressure 20 MPa. Output is a volume rate. Pressure is a separate cell on the same sheet. The frame titled “Concrete pump” shows Putzmeister brand positive displacement mortar and plaster pump. That frame does not print these two cells, and another maker's plate is not copied onto this model.",
+    "zh": "河北品锦机械在邢台把柴油30型混凝土泵的理论输送量印成15 m³/h，把最大出口压力印成20 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Concrete pump」的画面主体是Putzmeister brand 容积式 砂浆 and plaster 泵。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+  },
+  "sections": [
+    {
+      "heading": {
+        "en": "The two cells stay apart",
+        "zh": "两格不要并成一个数"
+      },
+      "body": {
+        "en": "On the Diesel 30 Concrete Pump sheet, Theoretical Output is 15 m³/h and Max. Outlet Pressure is 20 MPa. A piston pump pushes concrete into the line; a squeeze pump flattens a hose from outside. Either way, m³/h is not MPa. Hopper Capacity 0.3 m³. Max. Aggregate Size 3 cm and below. Main Unit Weight 2000 kg.",
+        "zh": "在柴油30型混凝土泵这一页，理论输送量是15 m³/h，最大出口压力是20 MPa。活塞泵把混凝土推进管路，挤压泵从外面压扁软管。无论哪一种，立方米每小时都不是兆帕。料斗容积 0.3 m³。最大骨料粒径 3 cm and below。整机重量 2000 kg。"
+      }
+    },
+    {
+      "heading": {
+        "en": "What the frame is allowed to show",
+        "zh": "这一帧可以说明什么"
+      },
+      "body": {
+        "en": "The frame comes from en.wikipedia.org, page “Concrete pump”. Its subject is Putzmeister brand positive displacement mortar and plaster pump. Hebei Pinjin Machinery does not treat that caption as a nameplate for the Diesel 30 Concrete Pump. Stroke length, cycle rate and price are absent from both the caption and this catalogue row.",
+        "zh": "这一帧来自 en.wikipedia.org 的页面「Concrete pump」。画面主体是Putzmeister brand 容积式 砂浆 and plaster 泵。河北品锦机械不把这句说明当成柴油30型混凝土泵的铭牌。行程、冲次和价格在说明文字和这一行目录里都没有。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Blanks that stay blank",
+        "zh": "空着的格子继续空着"
+      },
+      "body": {
+        "en": "The Xingtai row does not print a service interval, a seal torque, an export destination or a job case. Hopper Capacity 0.3 m³. Max. Aggregate Size 3 cm and below. Main Unit Weight 2000 kg. Those printed extras are still not a stroke length.",
+        "zh": "邢台这一行没有印保养小时间隔、密封扭矩、出口国家或工程案例。料斗容积 0.3 m³。最大骨料粒径 3 cm and below。整机重量 2000 kg。这些已印的附加格仍然不是行程。"
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "question": {
+        "en": "What output does the Diesel 30 Concrete Pump sheet print?",
+        "zh": "柴油30型混凝土泵这一页的输送量印多少？"
+      },
+      "answer": {
+        "en": "Theoretical Output is 15 m³/h.",
+        "zh": "理论输送量是15 m³/h。"
+      }
+    },
+    {
+      "question": {
+        "en": "What pressure cell is on the same sheet?",
+        "zh": "同一页的压力格是多少？"
+      },
+      "answer": {
+        "en": "Max. Outlet Pressure is 20 MPa.",
+        "zh": "最大出口压力是20 MPa。"
+      }
+    },
+    {
+      "question": {
+        "en": "Does the frame print those figures?",
+        "zh": "这一帧印了这些数字吗？"
+      },
+      "answer": {
+        "en": "No. The frame shows its own subject. The figures are catalogue cells.",
+        "zh": "没有。这一帧只显示它自己的主体。数字在目录格子里。"
+      }
+    },
+    {
+      "question": {
+        "en": "Is a piston stroke printed?",
+        "zh": "印了活塞行程吗？"
+      },
+      "answer": {
+        "en": "No. The sheet leaves stroke length, cycle rate and price unprinted.",
+        "zh": "没有。这一页没有印行程、冲次和价格。"
+      }
+    }
+  ],
+  "image": {
+    "src": "/images/geo/knowledge-c/putzmeister-brand-positive-displacement-mortar-plaster-pump.webp",
+    "alt": {
+      "en": "Putzmeister brand positive displacement mortar and plaster pump. Subject of the frame for the Diesel 30 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+      "zh": "Putzmeister brand 容积式 砂浆 and plaster 泵。柴油30型混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+    }
+  },
+  "relatedPaths": [
+    "/products/diesel-30-concrete-pump",
+    "/products/diesel-40-concrete-pump",
+    "/products/concrete-pump-delivery-pipe",
+    "/blog/diesel-120-pressure-cell-is-not-the-output-cell",
+    "/blog/diesel-40-pressure-cell-is-not-the-output-cell",
+    "/blog/diesel-50-pressure-cell-is-not-the-output-cell",
+    "/blog/diesel-30-frame-size-is-not-pumping-reach",
+    "/blog/tractor-4100-pressure-cell-is-not-the-output-cell"
+  ],
+  "sources": [
+    "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/zh/products/diesel-30-concrete-pump/",
+    "https://pinjinpump.com/en/factory/",
+    "https://pinjinpump.com/zh/factory/"
+  ],
+  "indexLangs": [
+    "en",
+    "zh"
+  ],
+  "answerBlock": {
+    "what": {
+      "en": "Hebei Pinjin Machinery prints the Diesel 30 Concrete Pump in Xingtai with Theoretical Output 15 m³/h and Max. Outlet Pressure 20 MPa. Output is a volume rate. Pressure is a separate cell on the same sheet. The frame titled “Concrete pump” shows Putzmeister brand positive displacement mortar and plaster pump. That frame does not print these two cells, and another maker's plate is not copied onto this model.",
+      "zh": "河北品锦机械在邢台把柴油30型混凝土泵的理论输送量印成15 m³/h，把最大出口压力印成20 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Concrete pump」的画面主体是Putzmeister brand 容积式 砂浆 and plaster 泵。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+    },
+    "who": {
+      "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
+      "zh": "河北品锦机械，中国河北邢台"
+    }
+  }
+}

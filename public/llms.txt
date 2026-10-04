@@ -238,6 +238,106 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Does Type 511 mortar spraying need 380 V?](https://pinjinpump.com/en/blog/type-511-mortar-spraying-needs-380v/): Xingtai catalogue note.
 - [Type 511 or Type 511 diesel for the same mortar window?](https://pinjinpump.com/en/blog/type-511-or-511-diesel-same-output-window/): Xingtai catalogue note.
 - [Which published sprayer matches the interior hydraulic mortar photo?](https://pinjinpump.com/en/blog/factory-interior-hydraulic-mortar-uses-the-5-cubic-row/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Electric Low Pressure 40. This page prints a fine-stone cell of 80 m horizontal / 240 m vertical.](https://pinjinpump.com/en/blog/bedding-fine-stone-electric-low-pressure-40/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Type 511. The hose is 32/38 mm and the distance is 30 m horizontal / 15 m vertical, coarser than the 25 mm Type 311 row.](https://pinjinpump.com/en/blog/block-joint-hose-type-511-versus-311/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Type 511. Type 511 prints particle ≤6 mm, 3 m³/h and hose 32/38 mm.](https://pinjinpump.com/en/blog/blockwork-mortar-type-511/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 30. The aggregate-13 cell is the short line: 20 m horizontal / 60 m vertical.](https://pinjinpump.com/en/blog/building-aggregate-thirteen-electric-30-short-line/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 30. Use the fine-stone cell, 60 m horizontal / 180 m vertical.](https://pinjinpump.com/en/blog/building-fine-stone-electric-30-sixty-metre-cell/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 50. Read the fine-stone cell: 150 m horizontal / 350 m vertical.](https://pinjinpump.com/en/blog/building-fine-stone-electric-50-cell/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — HBT80-16. Read this page as horizontal 120 m and delivery height 360 m, output 50 m³/h.](https://pinjinpump.com/en/blog/building-height-hbt80-16-not-the-nine-hundred-row/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — HBT8018. The motor cell is 132 kW and the output cell is 60 m³/h.](https://pinjinpump.com/en/blog/building-output-hbt8018-motor-cell/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 50. Read the 13 mm stone cell: 80 m horizontal / 240 m vertical.](https://pinjinpump.com/en/blog/building-thirteen-millimetre-electric-50-cell/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 50. Read the 24 mm stone cell: 60 m horizontal / 180 m vertical.](https://pinjinpump.com/en/blog/building-twenty-four-millimetre-electric-50-cell/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric Low Pressure 60. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.](https://pinjinpump.com/en/blog/building-twenty-four-millimetre-low-pressure-60/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — LZ-80. High pressure and low pressure are separate cells.](https://pinjinpump.com/en/blog/coarse-aggregate-off-grid-lz-80/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 20. The printed frame is 2800 × 1300 × 1500 mm and 900 kg.](https://pinjinpump.com/en/blog/commercial-frame-electric-20-nine-hundred-kilograms/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Diesel Concrete Spraying Machine. Open this row when the spray job has no 380 V supply.](https://pinjinpump.com/en/blog/exterior-repair-spray-diesel/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Type 511 Diesel. Open the diesel 511 only when 380 V is absent.](https://pinjinpump.com/en/blog/exterior-repoint-type-511-diesel/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — German type mortar spraying machine. Particle is ≤5 mm, output 3–5 m³/h, distance 40 m horizontal / 20 m vertical.](https://pinjinpump.com/en/blog/facade-render-repair-german-type/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Tractor-Driven 4100. Use this row when the site has no pump-motor supply.](https://pinjinpump.com/en/blog/field-trench-tractor-4100/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Type 511. Type 511 prints particle ≤6 mm, 3 m³/h and hose 32/38 mm.](https://pinjinpump.com/en/blog/fine-floor-mortar-type-511/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Type 311. Type 311 is the fine row: particle ≤2 mm, hose 25 mm, 2 m³/h and 15 m horizontal / 5 m vertical.](https://pinjinpump.com/en/blog/fine-repair-mortar-type-311/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric Low Pressure 40. This page prints a fine-stone cell of 80 m horizontal / 240 m vertical.](https://pinjinpump.com/en/blog/fine-stone-building-electric-low-pressure-40/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — B500S-83D. Both printed distances are 5 m, and the material cell is sand and small stone 5–16 mm.](https://pinjinpump.com/en/blog/five-metre-placement-b500s-83d/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — German type mortar spraying machine. Particle is ≤5 mm, output 3–5 m³/h, distance 40 m horizontal / 20 m vertical.](https://pinjinpump.com/en/blog/floor-mortar-german-type/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Electric 30. Use the fine-stone cell, 60 m horizontal / 180 m vertical.](https://pinjinpump.com/en/blog/floor-slab-fine-stone-electric-30/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Integrated Mixer Pump. Open this row when the site must mix and pump on one electric trailer.](https://pinjinpump.com/en/blog/grid-site-must-mix-integrated-mixer-pump/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 20. The printed aggregate is 1–2 cm and the pipe is 80 mm.](https://pinjinpump.com/en/blog/grid-slab-pour-electric-20-small-aggregate/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Electric 20. The printed aggregate is 1–2 cm and the pipe is 80 mm.](https://pinjinpump.com/en/blog/grid-trench-electric-20/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 60. The high-rise electric row prints fine stone 200 m horizontal / 600 m vertical at 90 kW.](https://pinjinpump.com/en/blog/high-rise-fine-stone-electric-60-cell/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 60. The 24 mm cell here is 100 m horizontal / 300 m vertical.](https://pinjinpump.com/en/blog/high-rise-twenty-four-millimetre-electric-60/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — High-Flow Hydraulic Concrete Spraying Machine. The printed weight is 650 kg and the frame is 2500 × 1000 × 1100 mm.](https://pinjinpump.com/en/blog/indoor-doorway-high-flow-sprayer-weight/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — German type mortar spraying machine. The motor cell is 7.](https://pinjinpump.com/en/blog/indoor-dual-motor-german-type/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Type 311. The supply cell prints 220/380 V and 4 kW.](https://pinjinpump.com/en/blog/indoor-fine-finish-type-311-supply/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — High-Flow Hydraulic Concrete Spraying Machine. The materials cell names cement mortar, concrete and grout, still inside particle ≤8 mm.](https://pinjinpump.com/en/blog/indoor-grout-fill-high-flow-sprayer/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Double-cylinder plunger mortar spraying machine. The hose run is 100 m horizontal / 40 m vertical, hose 38/51 mm, output 4 m³/h.](https://pinjinpump.com/en/blog/indoor-long-hose-double-cylinder/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Hydraulic Concrete Spraying Machine. Stay inside particle ≤8 mm, sand-cement ratio ≤1:3 and 5 m³/h.](https://pinjinpump.com/en/blog/indoor-mortar-hydraulic-five-cubic/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Hydraulic Concrete Spraying Machine. The sand-cement cell is ≤1:3 and the hose is 38/51 mm.](https://pinjinpump.com/en/blog/indoor-mortar-is-not-the-m9-plaster-row/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Type 511. This electric row needs 380 V and 7.](https://pinjinpump.com/en/blog/indoor-mortar-type-511-needs-380v/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — M9. M9 is a plaster row: 30 L/min, particle ≤4 mm and a 25 mm hose.](https://pinjinpump.com/en/blog/indoor-plaster-m9-litres-per-minute/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — M9. The pressure cell is 50 bar, not an 8 MPa sprayer cell and not a trailer-pump cell.](https://pinjinpump.com/en/blog/indoor-plaster-pressure-m9/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — German type mortar spraying machine. The hose window is 40 m horizontal / 20 m vertical, hose 32/38 mm.](https://pinjinpump.com/en/blog/indoor-render-german-type-distance/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Type 511. Type 511 prints particle ≤6 mm, 3 m³/h and hose 32/38 mm.](https://pinjinpump.com/en/blog/indoor-room-with-380v-stays-off-diesel-511/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Double-cylinder plunger mortar spraying machine. Sand-cement ratio is ≤1:3 and particle is ≤8 mm.](https://pinjinpump.com/en/blog/indoor-sand-cement-double-cylinder/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Hydraulic Concrete Spraying Machine. The outlet pressure on this sprayer is 8 MPa.](https://pinjinpump.com/en/blog/indoor-sprayer-pressure-is-not-a-pump-line/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — High-Flow Hydraulic Concrete Spraying Machine. The output cell is 7 m³/h and the distance is 150 m horizontal / 70 m vertical.](https://pinjinpump.com/en/blog/larger-masonry-coat-high-flow-sprayer/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Electric 50. Read the fine-stone cell: 150 m horizontal / 350 m vertical.](https://pinjinpump.com/en/blog/long-floor-line-electric-50-fine-stone/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 80. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h.](https://pinjinpump.com/en/blog/long-horizontal-building-line-electric-80/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Double-cylinder plunger mortar spraying machine. The hose run is 100 m horizontal / 40 m vertical, hose 38/51 mm, output 4 m³/h.](https://pinjinpump.com/en/blog/long-masonry-hose-double-cylinder/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Double-cylinder plunger mortar spraying machine. The hose run is 100 m horizontal / 40 m vertical, hose 38/51 mm, output 4 m³/h.](https://pinjinpump.com/en/blog/longer-repair-hose-double-cylinder/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel 30. Aggregate on this row is 3 cm and below.](https://pinjinpump.com/en/blog/longer-than-the-seventeen-kilowatt-row-diesel-30/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Diesel 40. The printed line is 120 m horizontal / 360 m vertical.](https://pinjinpump.com/en/blog/longer-trench-pipeline-diesel-40/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — LZ-80. Aggregate is 6 cm and below.](https://pinjinpump.com/en/blog/lz-80-modes-still-need-the-aggregate-check/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — German type mortar spraying machine. The printed weight is 360 kg.](https://pinjinpump.com/en/blog/masonry-access-german-type-weight/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Type 311. Type 311 is the fine row: particle ≤2 mm, hose 25 mm, 2 m³/h and 15 m horizontal / 5 m vertical.](https://pinjinpump.com/en/blog/masonry-fine-joint-type-311/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Type 311. The hose is 25 mm and the particle is ≤2 mm.](https://pinjinpump.com/en/blog/masonry-hose-is-not-a-pump-line-type-311/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Hydraulic Concrete Spraying Machine. Stay inside particle ≤8 mm, sand-cement ratio ≤1:3 and 5 m³/h.](https://pinjinpump.com/en/blog/masonry-mortar-hydraulic-sprayer/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — German type mortar spraying machine. Particle is ≤5 mm, output 3–5 m³/h, distance 40 m horizontal / 20 m vertical.](https://pinjinpump.com/en/blog/masonry-render-german-type/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Hydraulic Concrete Spraying Machine. The sand-cement cell is ≤1:3 and the hose is 38/51 mm.](https://pinjinpump.com/en/blog/masonry-sand-cement-hydraulic-sprayer/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Double-cylinder plunger mortar spraying machine. At 420 kg this is a mortar sprayer.](https://pinjinpump.com/en/blog/masonry-sprayer-is-not-a-trailer-pump/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Type 511 Diesel. Open the diesel 511 only when 380 V is absent.](https://pinjinpump.com/en/blog/masonry-without-380v-type-511-diesel/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 40. The aggregate-13 cell is 40 m horizontal / 120 m vertical, shorter than the fine-stone cell on the same page.](https://pinjinpump.com/en/blog/medium-building-aggregate-thirteen-electric-40/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 40. The printed output is 21 m³/h.](https://pinjinpump.com/en/blog/medium-building-electric-40-twenty-one-cubic/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Hydraulic Concrete Spraying Machine. Stay inside particle ≤8 mm, sand-cement ratio ≤1:3 and 5 m³/h.](https://pinjinpump.com/en/blog/mortar-screed-hydraulic-sprayer/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Tractor-Driven 4100. Use this row when the site has no pump-motor supply.](https://pinjinpump.com/en/blog/no-pump-motor-supply-tractor-4100/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel 120. This row prints 100 m³/h and 8000 kg.](https://pinjinpump.com/en/blog/off-grid-high-output-diesel-120-is-not-the-default/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel 40. The printed line is 120 m horizontal / 360 m vertical.](https://pinjinpump.com/en/blog/off-grid-line-diesel-40/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel 50. The printed line is 150 m horizontal / 450 m vertical, output 30 m³/h.](https://pinjinpump.com/en/blog/off-grid-line-diesel-50/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel Mixer Integrated. Open this row when the site has no grid and must mix and pump on one machine.](https://pinjinpump.com/en/blog/off-grid-mix-and-pump-diesel-mixer/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel Mixer Integrated. The 24 mm stone cell is 40 / 120 m.](https://pinjinpump.com/en/blog/off-grid-mixer-twenty-four-millimetre-row/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Type 511 Diesel. Open the diesel 511 only when 380 V is absent.](https://pinjinpump.com/en/blog/off-grid-mortar-type-511-diesel/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel 60. The output cell is 35 m³/h and the line is 150 m horizontal / 350 m vertical.](https://pinjinpump.com/en/blog/off-grid-output-diesel-60/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — LZ-60. Read output 50 m³/h, conveying distance 100 m and delivery height 300 m.](https://pinjinpump.com/en/blog/off-grid-pipeline-lz-60/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel Concrete Spraying Machine. Open this row when the spray job has no 380 V supply.](https://pinjinpump.com/en/blog/off-grid-spray-diesel-concrete-sprayer/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Integrated Mixer Pump. Open this row when the site must mix and pump on one electric trailer.](https://pinjinpump.com/en/blog/on-site-mix-bedding-integrated-mixer/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — Diesel Concrete Spraying Machine. Open this row when the spray job has no 380 V supply.](https://pinjinpump.com/en/blog/outdoor-render-diesel-sprayer/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Hydraulic Concrete Spraying Machine. Stay inside particle ≤8 mm, sand-cement ratio ≤1:3 and 5 m³/h.](https://pinjinpump.com/en/blog/patch-mortar-hydraulic-sprayer/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — M9. The hopper is 115 L and the loading height is 90 cm.](https://pinjinpump.com/en/blog/plaster-batch-m9-hopper/): Xingtai catalogue note.
+- [This is masonry, blockwork or a render coat. The material is mortar or a fine coat, not a structural stone pipeline — M9. M9 is a plaster row: 30 L/min, particle ≤4 mm and a 25 mm hose.](https://pinjinpump.com/en/blog/plaster-coat-on-masonry-m9/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Type 511. Type 511 prints particle ≤6 mm, 3 m³/h and hose 32/38 mm.](https://pinjinpump.com/en/blog/repair-mortar-type-511-on-380v/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Electric 10 Series. Only a horizontal distance is printed: 25 m.](https://pinjinpump.com/en/blog/short-bedding-run-electric-10-series/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 10 Series. Only a horizontal distance is printed: 25 m.](https://pinjinpump.com/en/blog/short-building-run-electric-10-series/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Electric 15. The printed window is vertical 15–20 m and horizontal 60–80 m, with aggregate 1–3 cm.](https://pinjinpump.com/en/blog/short-grid-trench-electric-15/): Xingtai catalogue note.
+- [This is indoor mortar or plaster spraying. It is not a trailer-pump pour — Type 311. The hose window is 15 m horizontal / 5 m vertical.](https://pinjinpump.com/en/blog/short-indoor-hose-type-311/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Electric 15. The printed window is vertical 15–20 m and horizontal 60–80 m, with aggregate 1–3 cm.](https://pinjinpump.com/en/blog/small-floor-electric-15/): Xingtai catalogue note.
+- [This is a grid-powered building pour through a pipeline — Electric 15. The printed window is vertical 15–20 m and horizontal 60–80 m, with aggregate 1–3 cm.](https://pinjinpump.com/en/blog/small-podium-pour-electric-15-on-the-grid/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — Electric 15. The printed window is vertical 15–20 m and horizontal 60–80 m, with aggregate 1–3 cm.](https://pinjinpump.com/en/blog/small-repair-pour-electric-15/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — Electric 20. Bedding on this row uses the 80 mm pipe and the 1–2 cm aggregate cell.](https://pinjinpump.com/en/blog/thin-bedding-electric-20-pipe/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — M9. M9 is a plaster row: 30 L/min, particle ≤4 mm and a 25 mm hose.](https://pinjinpump.com/en/blog/thin-floor-coat-m9-only/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — M9. M9 is a plaster row: 30 L/min, particle ≤4 mm and a 25 mm hose.](https://pinjinpump.com/en/blog/thin-plaster-repair-m9/): Xingtai catalogue note.
+- [This is repair, repointing or a small patch, not a full building frame — B500S-83D. Both printed distances are 5 m, and the material cell is sand and small stone 5–16 mm.](https://pinjinpump.com/en/blog/tight-repair-access-b500s-83d/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Tractor-Driven 4100. The printed slump is 180–220 mm, with aggregate 1–3 cm.](https://pinjinpump.com/en/blog/tractor-4100-printed-slump/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Electric 30. The aggregate-13 cell is the short line: 20 m horizontal / 60 m vertical.](https://pinjinpump.com/en/blog/trench-aggregate-electric-30/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Diesel Mixer Integrated. Open this row when the site has no grid and must mix and pump on one machine.](https://pinjinpump.com/en/blog/trench-crew-must-mix-diesel-mixer/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Electric 10 Series. Only a horizontal distance is printed: 25 m.](https://pinjinpump.com/en/blog/trench-inside-the-electric-10-horizontal/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Diesel 30. The printed line is 60 m horizontal / 180 m vertical, with aggregate 3 cm and below.](https://pinjinpump.com/en/blog/trench-without-grid-diesel-30/): Xingtai catalogue note.
+- [This is a floor, bedding or screed condition — B500S-83D. Both printed distances are 5 m, and the material cell is sand and small stone 5–16 mm.](https://pinjinpump.com/en/blog/very-short-bedding-b500s-83d/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — B500S-83D. Both printed distances are 5 m, and the material cell is sand and small stone 5–16 mm.](https://pinjinpump.com/en/blog/very-short-trench-patch-b500s-83d/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Rural Self-Built House Diesel Pump. The printed weight is 800 kg and the frame is 2200 × 1100 × 1250 mm.](https://pinjinpump.com/en/blog/village-frame-rural-diesel-or-tractor-4100/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Rural Self-Built House Diesel Pump. The hopper is 0.](https://pinjinpump.com/en/blog/village-hopper-rural-diesel/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Rural Self-Built House Diesel Pump. The engine cell is 17 kW.](https://pinjinpump.com/en/blog/village-house-rural-diesel-seventeen-kilowatts/): Xingtai catalogue note.
+- [This is a site without a stable grid for a pump motor — Diesel 30. The printed line is 60 m horizontal / 180 m vertical, with aggregate 3 cm and below.](https://pinjinpump.com/en/blog/village-line-diesel-30-past-the-small-row/): Xingtai catalogue note.
+- [This is a pipe trench or a short pipeline placement — Rural Self-Built House Diesel Pump. The engine cell is 17 kW.](https://pinjinpump.com/en/blog/village-trench-rural-diesel/): Xingtai catalogue note.
 - [Put the Aggregate Cell on the Xingtai Purchase Order](https://pinjinpump.com/en/blog/buy-aggregate-cell-on-the-purchase-order/): Xingtai catalogue note.
 - [Order the B500S-83D for a 5 m, 380 V, 280 kg Sheet](https://pinjinpump.com/en/blog/buy-b500s-five-metre-and-380v/): Xingtai catalogue note.
 - [Leave Blank Xingtai Catalogue Cells Blank on the Order](https://pinjinpump.com/en/blog/buy-blank-catalogue-cells-stay-blank/): Xingtai catalogue note.
@@ -320,6 +420,106 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [The Extra Electric Low Pressure 60 Concrete Pump Photograph Still Orders the Same Printed Row](https://pinjinpump.com/en/blog/buy-electric-low-pressure-60-concrete-pump-unused-photo-inquiry/): Xingtai catalogue note.
 - [The Xingtai Factory Photograph Still Needs a Model Path](https://pinjinpump.com/en/blog/buy-factory-hero-still-needs-a-model-path/): Xingtai catalogue note.
 - [The Extra Rural Diesel Concrete Pump Photograph Still Orders the Same Printed Row](https://pinjinpump.com/en/blog/buy-rural-diesel-concrete-pump-unused-photo-inquiry/): Xingtai catalogue note.
+- [Ask Xingtai to price the B500S-83D Two-Stage Structure Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-b500s-83d-two-stage-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the B500S-83D Two-Stage Structure Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-b500s-83d-two-stage-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the B500S-83D Two-Stage Structure Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-b500s-83d-two-stage-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Concrete Pump Delivery Hose only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-concrete-pump-delivery-hose-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Concrete Pump Delivery Hose page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-concrete-pump-delivery-hose-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Concrete Pump Delivery Pipe only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-concrete-pump-delivery-pipe-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Concrete Pump Delivery Pipe page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-concrete-pump-delivery-pipe-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Concrete Pump Delivery Pipe; do not guess](https://pinjinpump.com/en/blog/buy-c-concrete-pump-delivery-pipe-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the DN200 90° Concrete Pump Elbow only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-concrete-pump-elbow-dn200-90-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the DN200 90° Concrete Pump Elbow page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-concrete-pump-elbow-dn200-90-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the DN200 90° Concrete Pump Elbow; do not guess](https://pinjinpump.com/en/blog/buy-c-concrete-pump-elbow-dn200-90-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the DN80 Concrete Pump Pipe Clamp only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-concrete-pump-pipe-clamp-dn80-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the DN80 Concrete Pump Pipe Clamp page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-concrete-pump-pipe-clamp-dn80-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel 120 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-120-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel 120 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-120-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Diesel 120 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-diesel-120-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel 30 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-30-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel 30 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-30-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Diesel 30 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-diesel-30-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel 40 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-40-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel 40 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-40-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Diesel 40 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-diesel-40-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel 50 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-50-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel 50 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-50-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Diesel 50 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-diesel-50-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel 60 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-60-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel 60 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-60-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Diesel 60 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-diesel-60-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel Concrete Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-concrete-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel Concrete Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-concrete-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Diesel Mixer Integrated Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-diesel-mixer-integrated-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Diesel Mixer Integrated Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-diesel-mixer-integrated-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Diesel Mixer Integrated Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-diesel-mixer-integrated-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Double-Cylinder Plunger Mortar Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-double-cylinder-plunger-mortar-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Double-Cylinder Plunger Mortar Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-double-cylinder-plunger-mortar-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 10 Series Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-10-series-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 10 Series Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-10-series-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 10 Series Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-10-series-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 15 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-15-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 15 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-15-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 15 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-15-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 20 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-20-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 20 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-20-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 20 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-20-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 30 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-30-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 30 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-30-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 30 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-30-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 40 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-40-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 40 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-40-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 40 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-40-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 50 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-50-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 50 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-50-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 50 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-50-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 60 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-60-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 60 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-60-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 60 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-60-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric 80 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-80-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric 80 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-80-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric 80 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-80-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric Low Pressure 40 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-low-pressure-40-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric Low Pressure 40 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-low-pressure-40-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric Low Pressure 40 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-low-pressure-40-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Electric Low Pressure 60 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-electric-low-pressure-60-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Electric Low Pressure 60 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-electric-low-pressure-60-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Electric Low Pressure 60 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-electric-low-pressure-60-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the German Type Mortar Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-german-type-mortar-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the German Type Mortar Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-german-type-mortar-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the HBT80-16 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-hbt80-16-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the HBT80-16 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-hbt80-16-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the HBT80-16 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-hbt80-16-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the HBT8018 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-hbt8018-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the HBT8018 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-hbt8018-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the HBT8018 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-hbt8018-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the High-Flow Hydraulic Concrete Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-high-flow-hydraulic-concrete-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the High-Flow Hydraulic Concrete Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-high-flow-hydraulic-concrete-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Hydraulic Concrete Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-hydraulic-concrete-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Hydraulic Concrete Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-hydraulic-concrete-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Integrated Mixer Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-integrated-mixer-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Integrated Mixer Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-integrated-mixer-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Integrated Mixer Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-integrated-mixer-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the LZ-60 Diesel Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-lz-60-diesel-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the LZ-60 Diesel Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-lz-60-diesel-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the LZ-60 Diesel Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-lz-60-diesel-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the LZ-80 Diesel Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-lz-80-diesel-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the LZ-80 Diesel Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-lz-80-diesel-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the LZ-80 Diesel Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-lz-80-diesel-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the M9 Automatic Plaster Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-m9-automatic-plaster-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the M9 Automatic Plaster Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-m9-automatic-plaster-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Rural Diesel Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-rural-diesel-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Rural Diesel Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-rural-diesel-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Rural Diesel Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-rural-diesel-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Tractor-Driven 4100 Concrete Pump only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-tractor-4100-concrete-pump-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Tractor-Driven 4100 Concrete Pump page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-tractor-4100-concrete-pump-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai about power, particle size and OEM for the Tractor-Driven 4100 Concrete Pump; do not guess](https://pinjinpump.com/en/blog/buy-c-tractor-4100-concrete-pump-power-particle-oem/): Xingtai catalogue note.
+- [Ask Xingtai to price the Type 311 Mortar Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-type-311-mortar-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Type 311 Mortar Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-type-311-mortar-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Type 511 Diesel Mortar Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-type-511-diesel-mortar-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Type 511 Diesel Mortar Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-type-511-diesel-mortar-spraying-machine-output-distance/): Xingtai catalogue note.
+- [Ask Xingtai to price the Type 511 Mortar Spraying Machine only after the inquiry names output, distance, power and particle size](https://pinjinpump.com/en/blog/buy-c-type-511-mortar-spraying-machine-inquiry-fields/): Xingtai catalogue note.
+- [Match output and distance to the Type 511 Mortar Spraying Machine page before you ask Xingtai](https://pinjinpump.com/en/blog/buy-c-type-511-mortar-spraying-machine-output-distance/): Xingtai catalogue note.
 - [B500S-83D vs Electric 10 Concrete Pump](https://pinjinpump.com/en/blog/b500s-83d-vs-electric-10-concrete-pump/): Xingtai catalogue note.
 - [B500S-83D vs Electric 15 Concrete Pump](https://pinjinpump.com/en/blog/b500s-83d-vs-electric-15-concrete-pump/): Xingtai catalogue note.
 - [Diesel 120 vs Electric 80 Pumping Distance](https://pinjinpump.com/en/blog/diesel-120-vs-electric-80-pumping-distance/): Xingtai catalogue note.
@@ -396,6 +596,106 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Why Electric 10 Has No Vertical Distance Cell](https://pinjinpump.com/en/blog/why-electric-10-has-no-vertical-distance-cell/): Xingtai catalogue note.
 - [Why Stone Size Changes the Printed Pumping Distance](https://pinjinpump.com/en/blog/why-stone-size-changes-the-printed-pumping-distance/): Xingtai catalogue note.
 - [What the Xingtai Workshop Crane Photo Labels](https://pinjinpump.com/en/blog/what-the-xingtai-workshop-crane-photo-labels/): Xingtai catalogue note.
+- [Why Diesel 120 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/diesel-120-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Diesel 120 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/diesel-120-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Diesel 120 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/diesel-120-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Diesel 120 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/diesel-120-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Diesel 120 Concrete Pump Prints](https://pinjinpump.com/en/blog/diesel-120-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Diesel 30 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/diesel-30-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Diesel 30 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/diesel-30-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Diesel 30 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/diesel-30-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Diesel 30 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/diesel-30-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Diesel 30 Concrete Pump Prints](https://pinjinpump.com/en/blog/diesel-30-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Diesel 40 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/diesel-40-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Diesel 40 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/diesel-40-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Diesel 40 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/diesel-40-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Diesel 40 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/diesel-40-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Diesel 40 Concrete Pump Prints](https://pinjinpump.com/en/blog/diesel-40-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Diesel 50 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/diesel-50-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Diesel 50 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/diesel-50-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Diesel 50 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/diesel-50-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Diesel 50 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/diesel-50-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Diesel 50 Concrete Pump Prints](https://pinjinpump.com/en/blog/diesel-50-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Diesel 60 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/diesel-60-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Diesel 60 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/diesel-60-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Diesel 60 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/diesel-60-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Diesel 60 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/diesel-60-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Diesel 60 Concrete Pump Prints](https://pinjinpump.com/en/blog/diesel-60-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Diesel Mixer Integrated Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/diesel-mixer-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Diesel Mixer Integrated Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/diesel-mixer-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Which Power Cell Diesel Mixer Integrated Pump Prints](https://pinjinpump.com/en/blog/diesel-mixer-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 10 Series Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-10-series-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 10 Series Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/electric-10-series-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Electric 10 Series Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-10-series-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Electric 10 Series Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/electric-10-series-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Electric 10 Series Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-10-series-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 20 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-20-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 20 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/electric-20-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Electric 20 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-20-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Electric 20 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/electric-20-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Electric 20 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-20-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 30 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-30-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 30 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-30-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Electric 30 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/electric-30-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Electric 30 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-30-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 40 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-40-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 40 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-40-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Electric 40 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/electric-40-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Electric 40 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-40-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 50 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-50-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 50 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/electric-50-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Electric 50 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-50-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Which Power Cell Electric 50 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-50-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 60 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-60-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 60 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/electric-60-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Electric 60 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-60-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Which Power Cell Electric 60 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-60-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric 80 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-80-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric 80 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/electric-80-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Electric 80 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-80-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Electric 80 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/electric-80-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Electric 80 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-80-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric Low Pressure 40 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-low-pressure-40-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric Low Pressure 40 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-low-pressure-40-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Electric Low Pressure 40 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/electric-low-pressure-40-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Electric Low Pressure 40 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-low-pressure-40-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Electric Low Pressure 60 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/electric-low-pressure-60-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Electric Low Pressure 60 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/electric-low-pressure-60-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Electric Low Pressure 60 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/electric-low-pressure-60-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Which Power Cell Electric Low Pressure 60 Concrete Pump Prints](https://pinjinpump.com/en/blog/electric-low-pressure-60-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/hbt80-16-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How HBT80-16 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/hbt80-16-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How HBT80-16 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/hbt80-16-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why HBT80-16 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/hbt80-16-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell HBT80-16 Concrete Pump Prints](https://pinjinpump.com/en/blog/hbt80-16-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why HBT8018 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/hbt8018-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How HBT8018 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/hbt8018-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How HBT8018 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/hbt8018-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why HBT8018 Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/hbt8018-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell HBT8018 Concrete Pump Prints](https://pinjinpump.com/en/blog/hbt8018-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Integrated Mixer Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/integrated-mixer-pump-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Integrated Mixer Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/integrated-mixer-pump-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Integrated Mixer Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/integrated-mixer-pump-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why Integrated Mixer Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/integrated-mixer-pump-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell Integrated Mixer Pump Prints](https://pinjinpump.com/en/blog/integrated-mixer-pump-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why LZ-60 Diesel Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/lz-60-diesel-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How LZ-60 Diesel Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/lz-60-diesel-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How LZ-60 Diesel Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/lz-60-diesel-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why LZ-60 Diesel Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/lz-60-diesel-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell LZ-60 Diesel Concrete Pump Prints](https://pinjinpump.com/en/blog/lz-60-diesel-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why LZ-80 Diesel Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/lz-80-diesel-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How LZ-80 Diesel Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/lz-80-diesel-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How LZ-80 Diesel Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/lz-80-diesel-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Why LZ-80 Diesel Concrete Pump Prints No Piston Stroke](https://pinjinpump.com/en/blog/lz-80-diesel-sheet-prints-no-piston-stroke/): Xingtai catalogue note.
+- [Which Power Cell LZ-80 Diesel Concrete Pump Prints](https://pinjinpump.com/en/blog/lz-80-diesel-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Rural Diesel Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/rural-diesel-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Rural Diesel Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/rural-diesel-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Rural Diesel Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/rural-diesel-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Which Power Cell Rural Diesel Concrete Pump Prints](https://pinjinpump.com/en/blog/rural-diesel-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
+- [Why Tractor-Driven 4100 Concrete Pump Frame Size Is Not Pumping Reach](https://pinjinpump.com/en/blog/tractor-4100-frame-size-is-not-pumping-reach/): Xingtai catalogue note.
+- [How Tractor-Driven 4100 Concrete Pump Orders Its Distance Cells](https://pinjinpump.com/en/blog/tractor-4100-how-the-distance-cells-are-ordered/): Xingtai catalogue note.
+- [How Tractor-Driven 4100 Concrete Pump Separates Pressure from Output](https://pinjinpump.com/en/blog/tractor-4100-pressure-cell-is-not-the-output-cell/): Xingtai catalogue note.
+- [Which Power Cell Tractor-Driven 4100 Concrete Pump Prints](https://pinjinpump.com/en/blog/tractor-4100-which-power-cell-the-sheet-prints/): Xingtai catalogue note.
 - [What B500S-83D prints about its delivery hose](https://pinjinpump.com/en/blog/parts-b500s-83d-standard-hose-cell/): Xingtai catalogue note.
 - [What is the Pinjin DN80 pipe clamp?](https://pinjinpump.com/en/blog/parts-clamp-dn80-en14420-3/): Xingtai catalogue note.
 - [How the Pinjin hose differs from the straight pipe](https://pinjinpump.com/en/blog/parts-delivery-hose-is-not-the-straight-pipe/): Xingtai catalogue note.
@@ -472,6 +772,106 @@ Pipeline, S-valve, and wear parts. Quote after size confirmation.
 - [Swing-cylinder seal φ80](https://pinjinpump.com/en/blog/parts-swing-cylinder-seal-80/): Xingtai catalogue note.
 - [Swing-cylinder seal φ90](https://pinjinpump.com/en/blog/parts-swing-cylinder-seal-90/): Xingtai catalogue note.
 - [What the swing-arm ball detail photo does not add](https://pinjinpump.com/en/blog/parts-b-concrete-pump-swing-arm-ball-detail-photo/): Xingtai catalogue note.
+- [B500S-83D Two-Stage Structure Pump](https://pinjinpump.com/en/blog/parts-c-b500s-83d-two-stage-pump/): Xingtai catalogue note.
+- [Concrete Pump Delivery Hose](https://pinjinpump.com/en/blog/parts-c-concrete-pump-delivery-hose/): Xingtai catalogue note.
+- [Concrete Pump Delivery Pipe](https://pinjinpump.com/en/blog/parts-c-concrete-pump-delivery-pipe/): Xingtai catalogue note.
+- [DN200 90° Concrete Pump Elbow](https://pinjinpump.com/en/blog/parts-c-concrete-pump-elbow-dn200-90/): Xingtai catalogue note.
+- [Integral piston φ150](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-150/): Xingtai catalogue note.
+- [Integral piston φ160](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-160/): Xingtai catalogue note.
+- [Integral piston φ180](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-180/): Xingtai catalogue note.
+- [Integral piston φ195](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-195/): Xingtai catalogue note.
+- [Integral piston φ200](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-200/): Xingtai catalogue note.
+- [Integral piston φ205](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-205/): Xingtai catalogue note.
+- [Integral piston φ210](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-210/): Xingtai catalogue note.
+- [Integral piston φ220](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-220/): Xingtai catalogue note.
+- [Integral piston φ225](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-225/): Xingtai catalogue note.
+- [Integral piston φ230](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-230/): Xingtai catalogue note.
+- [Integral piston φ250](https://pinjinpump.com/en/blog/parts-c-concrete-pump-integral-piston-integral-piston-250/): Xingtai catalogue note.
+- [Main cylinder seal kit 100×150](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-100x150/): Xingtai catalogue note.
+- [Main cylinder seal kit 461K](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-461k/): Xingtai catalogue note.
+- [Main cylinder seal kit φ63](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-63/): Xingtai catalogue note.
+- [Main cylinder seal kit φ80](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-80/): Xingtai catalogue note.
+- [Main cylinder seal kit 80×125](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-80x125/): Xingtai catalogue note.
+- [Main cylinder seal kit 90–160](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-90-160/): Xingtai catalogue note.
+- [Main cylinder seal kit 90×140](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-90x140/): Xingtai catalogue note.
+- [Main cylinder seal kit 95×140](https://pinjinpump.com/en/blog/parts-c-concrete-pump-main-cylinder-seal-main-cylinder-seal-kit-95x140/): Xingtai catalogue note.
+- [Mixer seal kit, 1st generation —](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-mixer-seal-kit-1st-generation/): Xingtai catalogue note.
+- [Mixer seal kit, 2nd generation —](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-mixer-seal-kit-2nd-generation/): Xingtai catalogue note.
+- [Mixer seal kit, 3rd generation —](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-mixer-seal-kit-3rd-generation/): Xingtai catalogue note.
+- [Mixer seal kit, 4th generation —](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-mixer-seal-kit-4th-generation/): Xingtai catalogue note.
+- [Mixing seal kit φ65](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-mixing-seal-kit-65/): Xingtai catalogue note.
+- [Mixing seal kit φ80](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-mixing-seal-kit-80/): Xingtai catalogue note.
+- [Upper-pump mixing seal kit —](https://pinjinpump.com/en/blog/parts-c-concrete-pump-mixing-seal-upper-pump-mixing-seal-kit/): Xingtai catalogue note.
+- [DN80 Concrete Pump Pipe Clamp](https://pinjinpump.com/en/blog/parts-c-concrete-pump-pipe-clamp-dn80/): Xingtai catalogue note.
+- [Polyurethane spring φ235](https://pinjinpump.com/en/blog/parts-c-concrete-pump-rubber-spring-polyurethane-spring-235/): Xingtai catalogue note.
+- [Rubber / polyurethane spring φ200](https://pinjinpump.com/en/blog/parts-c-concrete-pump-rubber-spring-rubber-polyurethane-spring-200/): Xingtai catalogue note.
+- [Rubber / polyurethane spring φ230](https://pinjinpump.com/en/blog/parts-c-concrete-pump-rubber-spring-rubber-polyurethane-spring-230/): Xingtai catalogue note.
+- [Rubber / polyurethane spring φ260](https://pinjinpump.com/en/blog/parts-c-concrete-pump-rubber-spring-rubber-polyurethane-spring-260/): Xingtai catalogue note.
+- [Rubber spring φ150](https://pinjinpump.com/en/blog/parts-c-concrete-pump-rubber-spring-rubber-spring-150/): Xingtai catalogue note.
+- [Rubber spring φ180](https://pinjinpump.com/en/blog/parts-c-concrete-pump-rubber-spring-rubber-spring-180/): Xingtai catalogue note.
+- [S-tube large-end seal kit φ210](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-large-end-seal-kit-210/): Xingtai catalogue note.
+- [S-tube large-end seal kit φ250](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-large-end-seal-kit-250/): Xingtai catalogue note.
+- [S-tube large-end seal kit (including six-piece kits) φ220](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-large-end-seal-kit-including-six-piece-kits-220/): Xingtai catalogue note.
+- [S-tube small-end seal kit φ100](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-small-end-seal-kit-100/): Xingtai catalogue note.
+- [S-tube small-end seal kit φ105](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-small-end-seal-kit-105/): Xingtai catalogue note.
+- [S-tube small-end seal kit φ80](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-small-end-seal-kit-80/): Xingtai catalogue note.
+- [S-tube small-end seal kit φ90](https://pinjinpump.com/en/blog/parts-c-concrete-pump-s-tube-seal-s-tube-small-end-seal-kit-90/): Xingtai catalogue note.
+- [Polyurethane split piston φ180](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-polyurethane-split-piston-180/): Xingtai catalogue note.
+- [Polyurethane split piston φ195](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-polyurethane-split-piston-195/): Xingtai catalogue note.
+- [Polyurethane split piston φ220](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-polyurethane-split-piston-220/): Xingtai catalogue note.
+- [Rubber / rubber-cloth / polyurethane split piston φ200](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-rubber-cloth-polyurethane-split-piston-200/): Xingtai catalogue note.
+- [Rubber / rubber-cloth / polyurethane split piston φ230](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-rubber-cloth-polyurethane-split-piston-230/): Xingtai catalogue note.
+- [Rubber / rubber-cloth / polyurethane split piston φ260](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-rubber-cloth-polyurethane-split-piston-260/): Xingtai catalogue note.
+- [Rubber split piston φ150](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-split-piston-150/): Xingtai catalogue note.
+- [Rubber split piston φ180](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-split-piston-180/): Xingtai catalogue note.
+- [Rubber split piston φ250](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-split-piston-250/): Xingtai catalogue note.
+- [Rubber split piston φ280](https://pinjinpump.com/en/blog/parts-c-concrete-pump-split-piston-rubber-split-piston-280/): Xingtai catalogue note.
+- [Black, upper or lower φ60](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-arm-ball-black-upper-or-lower-60/): Xingtai catalogue note.
+- [Black, upper or lower φ70](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-arm-ball-black-upper-or-lower-70/): Xingtai catalogue note.
+- [Black, upper or lower φ80](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-arm-ball-black-upper-or-lower-80/): Xingtai catalogue note.
+- [White, upper or lower φ60](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-arm-ball-white-upper-or-lower-60/): Xingtai catalogue note.
+- [White, upper or lower φ70](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-arm-ball-white-upper-or-lower-70/): Xingtai catalogue note.
+- [White, upper or lower φ80](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-arm-ball-white-upper-or-lower-80/): Xingtai catalogue note.
+- [Swing cylinder seal kit φ60](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-cylinder-seal-swing-cylinder-seal-kit-60/): Xingtai catalogue note.
+- [Swing cylinder seal kit φ70](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-cylinder-seal-swing-cylinder-seal-kit-70/): Xingtai catalogue note.
+- [Swing cylinder seal kit φ80](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-cylinder-seal-swing-cylinder-seal-kit-80/): Xingtai catalogue note.
+- [Swing cylinder seal kit φ90](https://pinjinpump.com/en/blog/parts-c-concrete-pump-swing-cylinder-seal-swing-cylinder-seal-kit-90/): Xingtai catalogue note.
+- [S-valve cutting ring: observed on the checklist, size not printed](https://pinjinpump.com/en/blog/parts-c-cutting-ring-size-not-printed/): Xingtai catalogue note.
+- [Diesel 120 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-diesel-120-concrete-pump/): Xingtai catalogue note.
+- [Diesel 30 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-diesel-30-concrete-pump/): Xingtai catalogue note.
+- [Diesel 40 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-diesel-40-concrete-pump/): Xingtai catalogue note.
+- [Diesel 50 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-diesel-50-concrete-pump/): Xingtai catalogue note.
+- [Diesel 60 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-diesel-60-concrete-pump/): Xingtai catalogue note.
+- [Diesel Concrete Spraying Machine](https://pinjinpump.com/en/blog/parts-c-diesel-concrete-spraying-machine/): Xingtai catalogue note.
+- [Diesel Mixer Integrated Pump](https://pinjinpump.com/en/blog/parts-c-diesel-mixer-integrated-pump/): Xingtai catalogue note.
+- [Double-Cylinder Plunger Mortar Spraying Machine](https://pinjinpump.com/en/blog/parts-c-double-cylinder-plunger-mortar-spraying-machine/): Xingtai catalogue note.
+- [Electric 10 Series Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-10-series-concrete-pump/): Xingtai catalogue note.
+- [Electric 15 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-15-concrete-pump/): Xingtai catalogue note.
+- [Electric 20 Concrete Pump delivery pipe](https://pinjinpump.com/en/blog/parts-c-electric-20-concrete-pump-printed-delivery-pipe-80-mm/): Xingtai catalogue note.
+- [Electric 20 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-20-concrete-pump/): Xingtai catalogue note.
+- [Electric 30 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-30-concrete-pump/): Xingtai catalogue note.
+- [Electric 40 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-40-concrete-pump/): Xingtai catalogue note.
+- [Electric 50 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-50-concrete-pump/): Xingtai catalogue note.
+- [Electric 60 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-60-concrete-pump/): Xingtai catalogue note.
+- [Electric 80 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-80-concrete-pump/): Xingtai catalogue note.
+- [Electric Low Pressure 40 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-low-pressure-40-concrete-pump/): Xingtai catalogue note.
+- [Electric Low Pressure 60 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-electric-low-pressure-60-concrete-pump/): Xingtai catalogue note.
+- [German Type Mortar Spraying Machine](https://pinjinpump.com/en/blog/parts-c-german-type-mortar-spraying-machine/): Xingtai catalogue note.
+- [HBT80-16 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-hbt80-16-concrete-pump/): Xingtai catalogue note.
+- [HBT8018 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-hbt8018-concrete-pump/): Xingtai catalogue note.
+- [High-Flow Hydraulic Concrete Spraying Machine](https://pinjinpump.com/en/blog/parts-c-high-flow-hydraulic-concrete-spraying-machine/): Xingtai catalogue note.
+- [Hydraulic Concrete Spraying Machine](https://pinjinpump.com/en/blog/parts-c-hydraulic-concrete-spraying-machine/): Xingtai catalogue note.
+- [Integrated Mixer Pump](https://pinjinpump.com/en/blog/parts-c-integrated-mixer-pump/): Xingtai catalogue note.
+- [LZ-60 Diesel Concrete Pump](https://pinjinpump.com/en/blog/parts-c-lz-60-diesel-concrete-pump/): Xingtai catalogue note.
+- [LZ-80 Diesel Concrete Pump](https://pinjinpump.com/en/blog/parts-c-lz-80-diesel-concrete-pump/): Xingtai catalogue note.
+- [M9 Automatic Plaster Spraying Machine](https://pinjinpump.com/en/blog/parts-c-m9-automatic-plaster-spraying-machine/): Xingtai catalogue note.
+- [Rural Diesel Concrete Pump](https://pinjinpump.com/en/blog/parts-c-rural-diesel-concrete-pump/): Xingtai catalogue note.
+- [S-tube valve: the published spare is the seal kit](https://pinjinpump.com/en/blog/parts-c-s-tube-valve-published-as-seal-kit/): Xingtai catalogue note.
+- [S-valve spectacle plate: observed on the checklist, size not printed](https://pinjinpump.com/en/blog/parts-c-spectacle-plate-size-not-printed/): Xingtai catalogue note.
+- [Tractor-Driven 4100 Concrete Pump](https://pinjinpump.com/en/blog/parts-c-tractor-4100-concrete-pump/): Xingtai catalogue note.
+- [Type 311 Mortar Spraying Machine](https://pinjinpump.com/en/blog/parts-c-type-311-mortar-spraying-machine/): Xingtai catalogue note.
+- [Type 511 Diesel Mortar Spraying Machine](https://pinjinpump.com/en/blog/parts-c-type-511-diesel-mortar-spraying-machine/): Xingtai catalogue note.
+- [Type 511 Mortar Spraying Machine](https://pinjinpump.com/en/blog/parts-c-type-511-mortar-spraying-machine/): Xingtai catalogue note.
 
 ## Contact
 - [Contact](https://pinjinpump.com/en/contact/): Request a quote by email or WhatsApp. Quotes follow published catalogue tables.

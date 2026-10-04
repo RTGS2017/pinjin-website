@@ -100,12 +100,11 @@
     }
   },
   "relatedPaths": [
-    "/en/products/diesel-60-concrete-pump/",
-    "/zh/products/diesel-60-concrete-pump/",
-    "/en/products/lz-60-diesel-concrete-pump/",
-    "/zh/products/lz-60-diesel-concrete-pump/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/diesel-60-concrete-pump",
+    "/products/lz-60-diesel-concrete-pump",
+    "/blog/buy-c-diesel-60-concrete-pump-inquiry-fields",
+    "/blog/buy-c-diesel-60-concrete-pump-output-distance",
+    "/contact"
   ],
   "sources": [
     "pinjin-website/src/data/products.ts",

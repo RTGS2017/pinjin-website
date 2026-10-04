@@ -100,14 +100,12 @@
     }
   },
   "relatedPaths": [
-    "/en/products/diesel-50-concrete-pump/",
-    "/zh/products/diesel-50-concrete-pump/",
-    "/en/products/diesel-30-concrete-pump/",
-    "/zh/products/diesel-30-concrete-pump/",
-    "/en/products/electric-50-concrete-pump/",
-    "/zh/products/electric-50-concrete-pump/",
-    "/en/contact/",
-    "/zh/contact/"
+    "/products/diesel-50-concrete-pump",
+    "/products/diesel-30-concrete-pump",
+    "/products/electric-50-concrete-pump",
+    "/blog/buy-c-diesel-50-concrete-pump-inquiry-fields",
+    "/blog/buy-c-diesel-50-concrete-pump-output-distance",
+    "/contact"
   ],
   "sources": [
     "pinjin-website/src/data/products.ts",

@@ -203,7 +203,7 @@ status, sitemap_xml = get("/sitemap.xml")
 locs = re.findall(r"<loc>([^<]+)</loc>", sitemap_xml)
 check("sitemap", status == 200, "status", status)
 check("sitemap", "<urlset" in sitemap_xml and "<sitemapindex" not in sitemap_xml, "urlset", True)
-check("sitemap", 130 <= len(locs) <= 1500, "count", len(locs))
+check("sitemap", 130 <= len(locs) <= 2500, "count", len(locs))
 by_lang = Counter(lang_of(url) for url in locs)
 for lang in INDEXED_LANGS:
     check("sitemap", by_lang[lang] > 50, f"{lang}-count", by_lang[lang])
