@@ -957,3 +957,276 @@
     transition: none;
   }
 }
+
+.buyer-home {
+  overflow-x: clip;
+  background: var(--color-bg, #f6f4f1);
+  color: var(--color-dark, #1a1a1a);
+}
+
+.buyer-section,
+.buyer-hero,
+.buyer-final {
+  padding-block: 4.5rem;
+}
+
+.buyer-band {
+  background: #fff;
+  padding-block: 4.5rem;
+}
+
+.buyer-kicker {
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-primary, #9a3412);
+}
+
+.buyer-h1 {
+  margin-top: 0.75rem;
+  font-size: clamp(2.1rem, 5vw, 3.6rem);
+  line-height: 1.05;
+  max-width: 14ch;
+}
+
+.buyer-h2 {
+  margin-top: 0.6rem;
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  line-height: 1.15;
+  max-width: 22ch;
+}
+
+.buyer-h3 {
+  margin-top: 0.35rem;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.buyer-lead,
+.buyer-copy {
+  margin-top: 1rem;
+  max-width: 42rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary, #4b5563);
+}
+
+.buyer-hero {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.buyer-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.buyer-trust-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-top: 1.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.buyer-trust-strip li {
+  border-top: 1px solid rgba(0, 0, 0, 0.16);
+  padding-top: 0.55rem;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.buyer-figure {
+  margin: 0;
+  min-width: 0;
+}
+
+.buyer-figure-media {
+  background: #eceae6;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.buyer-figure-img {
+  width: 100%;
+  height: 100%;
+}
+
+.buyer-figure-cap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #57534e;
+}
+
+.buyer-concerns,
+.buyer-cards,
+.buyer-proof-grid,
+.buyer-reasons,
+.buyer-timeline,
+.buyer-steps {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.buyer-concern,
+.buyer-job,
+.buyer-family,
+.buyer-cards article {
+  min-width: 0;
+}
+
+.buyer-reasons,
+.buyer-steps,
+.buyer-timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.buyer-reasons li,
+.buyer-steps li,
+.buyer-timeline li {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding-top: 1rem;
+}
+
+.buyer-reasons span,
+.buyer-steps span {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+
+.buyer-closer {
+  margin-top: 2rem;
+  max-width: 36rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  font-weight: 650;
+}
+
+.buyer-text-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-weight: 650;
+}
+
+.buyer-checks {
+  display: grid;
+  gap: 0.45rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.buyer-checks li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.45rem 0;
+}
+
+.buyer-split {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.buyer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 1.25rem;
+  font-weight: 650;
+}
+
+.buyer-faqs {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+
+.buyer-faqs details {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.9rem 1rem;
+}
+
+.buyer-faqs summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.buyer-faqs p {
+  margin-top: 0.7rem;
+  line-height: 1.55;
+  color: #44403c;
+}
+
+.buyer-wa {
+  display: inline-flex;
+  align-items: center;
+  min-height: 3rem;
+  padding: 0 1.1rem;
+  border: 1px solid currentColor;
+  font-weight: 650;
+}
+
+.buyer-final {
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 800px) {
+  .buyer-hero,
+  .buyer-split,
+  .buyer-concern,
+  .buyer-timeline li {
+    grid-template-columns: 1.05fr 0.95fr;
+  }
+
+  .buyer-hero,
+  .buyer-split,
+  .buyer-concern,
+  .buyer-timeline li {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .buyer-trust-strip {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .buyer-cards.cols-2,
+  .buyer-proof-grid,
+  .buyer-reasons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 799px) {
+  .buyer-section,
+  .buyer-hero,
+  .buyer-final,
+  .buyer-band {
+    padding-block: 3rem;
+  }
+
+  .buyer-h1 {
+    max-width: none;
+  }
+
+  .buyer-actions a,
+  .buyer-actions .buyer-wa,
+  .buyer-wa {
+    width: 100%;
+    justify-content: center;
+  }
+}

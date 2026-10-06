@@ -1,4 +1,5 @@
 import { applicationPages, getApplicationHero } from '@/data/applicationsContent';
+import { homeCopy } from '@/data/homeNarrative';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { LocaleLink } from '@/i18n/navigation';
 import { useI18n } from '@/i18n/I18nContext';
@@ -21,7 +22,7 @@ export function SceneApplications() {
         {t.applications.title}
       </p>
       <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
-        {t.applications.title}
+        {tx(homeCopy.jobHeadline)}
       </h2>
       <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
         {t.applications.subtitle}

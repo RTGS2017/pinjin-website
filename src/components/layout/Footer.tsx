@@ -3,9 +3,11 @@ import { productCategoryLinks } from '@/config/navigation';
 import {
   getMailtoHref,
   getTelHref,
+  getWhatsAppHref,
   siteConfig,
   withBase,
 } from '@/config/site';
+import { replyExpectation } from '@/data/homeTrust';
 import { categoryMeta } from '@/data/products';
 import { useI18n } from '@/i18n/I18nContext';
 import { localePath } from '@/i18n/paths';
@@ -117,6 +119,16 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-white/80">
               <li>
                 <a
+                  href={getWhatsAppHref()}
+                  className="hover:text-primary transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  WhatsApp
+                </a>
+              </li>
+              <li>
+                <a
                   href={getMailtoHref()}
                   className="hover:text-primary transition-colors break-all"
                 >
@@ -136,6 +148,7 @@ export function Footer() {
                 <br />
                 {t.contact.location2}
               </li>
+              <li className="text-white/55">{tx(replyExpectation)}</li>
             </ul>
           </div>
         </div>

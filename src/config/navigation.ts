@@ -29,6 +29,7 @@ export interface NavItem {
 export const navItems: readonly NavItem[] = [
   { key: 'products', href: '/products', mega: 'products' },
   { key: 'solutions', href: '/solutions', mega: 'columns' },
+  { key: 'selectionGuide', href: '/product-selection-guide' },
   { key: 'factory', href: '/factory', mega: 'columns' },
   { key: 'resources', href: '/resources', mega: 'columns' },
 ];
