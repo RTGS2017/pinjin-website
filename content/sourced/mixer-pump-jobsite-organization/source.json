@@ -1,7 +1,7 @@
 {
-  "title": "Mixer-Pump Jobsite Organization — Electric vs Diesel Rows",
-  "seoTitle": "Concrete Mixer Pump Jobsite | Pinjin 45 kW+14 kW vs 4108",
-  "description": "Xingtai electric mixer pump: 45 kW + 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, pipe 100 / 125 mm, aggregate 4 cm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m, 4200 kg. This is crew and power organization on one trailer, not a batching plant.",
+  "title": "Construction — Building construction / Infrastructure construction / Industrial construction / Planning",
+  "seoTitle": "Construction — Building construction",
+  "description": "concrete mixer pump jobsite organization remains the row this document already had. “Building construction” explains the source topic and adds no cell. Printed cells already on this page: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
   "primaryKeyword": "concrete mixer pump jobsite organization",
   "secondaryKeywords": [
     "integrated mixer pump 45 kW 14 kW",
@@ -44,13 +44,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Jobsite organization for Pinjin mixer pumps starts from two printed rows. Electric integrated mixer pump: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, aggregate 4 cm, pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer integrated: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m (≤ 1 inch), 13 mm 60 / 180 m, 24 mm 40 / 120 m, hopper 0.4 m³, 4100 × 2200 × 3000 mm, 4200 kg. Mix and pump sit on one trailer. This is not a batching plant and not Electric 40 pump-only.",
-    "who": "Rural and self-built pours that will mix on the trailer and need either 45 kW + 14 kW grid or a 4108 diesel, matching hopper 0.4 m³ and the printed stone-distance pairs.",
+    "what": "concrete mixer pump jobsite organization remains the row this document already had. “Building construction” explains the source topic and adds no cell. Printed cells already on this page: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+    "who": "Readers checking concrete mixer pump jobsite organization against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Two electric motors (45 kW + 14 kW) versus one diesel 4108 / 66–75 kW",
-      "Hopper 0.4 m³ on both mixer rows — not the 400/500 mixer series note",
-      "Electric mixer 100 m / 300 m and 4 cm aggregate; diesel mixer prints three stone bands",
-      "SmartBuy: operators need training; after-sales spare parts availability matters more than a marketplace m³/h average"
+      "3900 × 1500 × 1600 mm",
+      "4100 × 2200 × 3000 mm",
+      "66–75 kW",
+      "45 kW",
+      "14 kW",
+      "21 m³/h"
     ],
     "relatedModels": [
       "integrated-mixer-pump",
@@ -60,24 +62,25 @@
   },
   "faqs": [
     {
-      "question": "Must the electric mixer pump have two separate 380 V feeds for 45 kW and 14 kW?",
-      "answer": "The table lists two motors: 45 kW main and 14 kW mixer. It does not print feeder size, genset kVA or a single combined nameplate. Send site power with the inquiry."
+      "question": "Does “Building construction” add a cell to concrete mixer pump jobsite organization?",
+      "answer": "No. Electric row: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, aggregate 4 cm and below, pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg."
     },
     {
-      "question": "Does the diesel mixer row list a 14 kW mixer motor like the electric row?",
-      "answer": "No. Diesel mixer integrated lists one 4108 diesel at 66–75 kW and 25 m³/h. The 14 kW mixer motor is on the electric mixer-pump page only."
-    },
-    {
-      "question": "Does either mixer-pump row list a truck mixer drum volume?",
-      "answer": "No. Electric mixer pump lists hopper 0.4 m³ and a 400/500 mixer series note. Diesel mixer lists hopper 0.4 m³. Unpublished truck-mixer m³ is not a catalogue cell."
+      "question": "Can “Infrastructure construction” fill a blank cell for concrete mixer pump jobsite organization?",
+      "answer": "No. Blank cells for concrete mixer pump jobsite organization stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/integrated-mixer-pump/integrated-mixer-pump.webp",
-    "alt": "Integrated mixer pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric mixer pump, Xingtai catalogue — 45 kW + 14 kW, 21 m³/h, hopper 0.4 m³"
+    "src": "/images/articles/mixer-pump-jobsite-organization/Liberty_Memorial_043.jpg",
+    "alt": "Figure from the source page about Construction",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Construction"
   },
   "sources": [
+    {
+      "name": "Construction (source page)",
+      "url": "https://en.wikipedia.org/wiki/Construction",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Integrated Mixer Pump product page",
       "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
@@ -115,11 +118,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Mixer-Pump Jobsite Organization — Electric vs Diesel Rows",
-      "seoTitle": "Concrete Mixer Pump Jobsite | Pinjin 45 kW+14 kW vs 4108",
-      "description": "邢台 electric mixer pump: 45 kW + 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, 料斗 0.4 m³, pipe 100 / 125 mm, 骨料 4 cm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m, 4200 kg. This is crew and power organization on one trailer, not a batching plant.",
-      "imageAlt": "Integrated mixer pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Electric mixer pump, 邢台 catalogue — 45 kW + 14 kW, 21 m³/h, 料斗 0.4 m³",
+      "title": "Mixer-Pump Jobsite Organization：Construction（Building construction / Infrastructure construction / Industrial construction / Planning）",
+      "seoTitle": "Construction：Building construction",
+      "description": "Mixer-Pump Jobsite Organization还是本文原有的那一行。「Building construction」讲的是来源页的题目，不另加单元格。本页已经印出的读数：3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm。",
+      "imageAlt": "来源页插图：Construction",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Construction",
       "relatedPathLabels": [
         "Integrated mixer pump 产品页",
         "Concrete mixer pump manufacturer China",
@@ -127,36 +130,34 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Jobsite organization for Pinjin mixer pumps starts from two printed rows. Electric integrated mixer pump: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, 料斗 0.4 m³, 骨料 4 cm, pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer integrated: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m (≤ 1 inch), 13 mm 60 / 180 m, 24 mm 40 / 120 m, 料斗 0.4 m³, 4100 × 2200 × 3000 mm, 4200 kg. Mix and pump sit on one trailer. This is not a batching plant and not Electric 40 pump-only.",
-        "who": "Rural and self-built pours that will mix on the trailer and need either 45 kW + 14 kW grid or a 4108 diesel, matching 料斗 0.4 m³ and the printed stone-distance pairs.",
+        "what": "Mixer-Pump Jobsite Organization还是本文原有的那一行。「Building construction」讲的是来源页的题目，不另加单元格。本页已经印出的读数：3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm。",
+        "who": "想把Mixer-Pump Jobsite Organization和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Two electric motors (45 kW + 14 kW) versus one diesel 4108 / 66–75 kW",
-          "料斗 0.4 m³ on both mixer rows — not the 400/500 mixer series note",
-          "Electric mixer 100 m / 300 m and 4 cm 骨料; diesel mixer prints three stone bands",
-          "SmartBuy: operators need training; after-sales spare parts availability matters more than a marketplace m³/h average"
+          "3900 × 1500 × 1600 mm",
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Must the electric mixer pump have two separate 380 V feeds for 45 kW and 14 kW?",
-          "answer": "The table lists two motors: 45 kW main and 14 kW mixer. It does not print feeder size, genset kVA or a single combined nameplate. Send site power with the inquiry."
+          "question": "「Building construction」会给Mixer-Pump Jobsite Organization增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm。"
         },
         {
-          "question": "Does the diesel mixer row list a 14 kW mixer motor like the electric row?",
-          "answer": "No. Diesel mixer integrated lists one 4108 diesel at 66–75 kW and 25 m³/h. The 14 kW mixer motor is on the electric mixer-pump page only."
-        },
-        {
-          "question": "Does either mixer-pump row list a truck mixer drum volume?",
-          "answer": "No. Electric mixer pump lists 料斗 0.4 m³ and a 400/500 mixer series note. Diesel mixer lists 料斗 0.4 m³. Unpublished truck-mixer m³ is not a catalogue cell."
+          "question": "「Infrastructure construction」能补上Mixer-Pump Jobsite Organization的空白格吗？",
+          "answer": "不能。Mixer-Pump Jobsite Organization没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Mixer-Pump Jobsite Organization — Electric vs Diesel Rows",
-      "seoTitle": "Concrete Mixer Pump Jobsite | Pinjin 45 kW+14 kW vs 4108",
-      "description": "Xingtai electric mixer pump: 45 kW + 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, tremonha 0.4 m³, pipe 100 / 125 mm, agregado 4 cm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m, 4200 kg. This is crew and power organization on one trailer, not a batching plant.",
-      "imageAlt": "Integrated mixer pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Electric mixer pump, Xingtai catalogue — 45 kW + 14 kW, 21 m³/h, tremonha 0.4 m³",
+      "title": "Mixer-Pump Jobsite Organization: Construction — Building construction / Infrastructure construction / Industrial construction / Planning",
+      "seoTitle": "Construction — Building construction",
+      "description": "Mixer-Pump Jobsite Organization continua a ser a linha que este texto já tinha. “Building construction” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+      "imageAlt": "Figura da página de origem sobre Construction",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Construction",
       "relatedPathLabels": [
         "Integrated mixer pump página do produto",
         "Concrete mixer pump manufacturer China",
@@ -164,36 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Jobsite organization for Pinjin mixer pumps starts from two printed rows. Electric integrated mixer pump: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, tremonha 0.4 m³, agregado 4 cm, pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer integrated: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m (≤ 1 inch), 13 mm 60 / 180 m, 24 mm 40 / 120 m, tremonha 0.4 m³, 4100 × 2200 × 3000 mm, 4200 kg. Mix and pump sit on one trailer. This is not a batching plant and not Electric 40 pump-only.",
-        "who": "Rural and self-built pours that will mix on the trailer and need either 45 kW + 14 kW grid or a 4108 diesel, matching tremonha 0.4 m³ and the printed stone-distance pairs.",
+        "what": "Mixer-Pump Jobsite Organization continua a ser a linha que este texto já tinha. “Building construction” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+        "who": "Leitores que comparam Mixer-Pump Jobsite Organization com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Two electric motors (45 kW + 14 kW) versus one diesel 4108 / 66–75 kW",
-          "Tremonha 0.4 m³ on both mixer rows — not the 400/500 mixer series note",
-          "Electric mixer 100 m / 300 m and 4 cm agregado; diesel mixer prints three stone bands",
-          "SmartBuy: operators need training; after-sales spare parts availability matters more than a marketplace m³/h average"
+          "3900 × 1500 × 1600 mm",
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Must the electric mixer pump have two separate 380 V feeds for 45 kW and 14 kW?",
-          "answer": "The table lists two motors: 45 kW main and 14 kW mixer. It does not print feeder size, genset kVA or a single combined nameplate. Send site power with the inquiry."
+          "question": "“Building construction” acrescenta uma casa a Mixer-Pump Jobsite Organization?",
+          "answer": "Não. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm."
         },
         {
-          "question": "Does the diesel mixer row list a 14 kW mixer motor like the electric row?",
-          "answer": "No. Diesel mixer integrated lists one 4108 diesel at 66–75 kW and 25 m³/h. The 14 kW mixer motor is on the electric mixer-pump page only."
-        },
-        {
-          "question": "Does either mixer-pump row list a truck mixer drum volume?",
-          "answer": "No. Electric mixer pump lists tremonha 0.4 m³ and a 400/500 mixer series note. Diesel mixer lists tremonha 0.4 m³. Unpublished truck-mixer m³ is not a catalogue cell."
+          "question": "“Infrastructure construction” pode preencher uma casa em branco de Mixer-Pump Jobsite Organization?",
+          "answer": "Não. As casas em branco de Mixer-Pump Jobsite Organization continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Mixer-Pump Jobsite Organization — Electric vs Diesel Rows",
-      "seoTitle": "Concrete Mixer Pump Jobsite | Pinjin 45 kW+14 kW vs 4108",
-      "description": "شينغتاي electric mixer pump: 45 kW + 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, قادوس 0.4 m³, pipe 100 / 125 mm, ركام 4 cm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m, 4200 kg. This is crew and power organization on one trailer, not a batching plant.",
-      "imageAlt": "Integrated mixer pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Electric mixer pump, شينغتاي catalogue — 45 kW + 14 kW, 21 m³/h, قادوس 0.4 m³",
+      "title": "Mixer-Pump Jobsite Organization: Construction — Building construction / Infrastructure construction / Industrial construction / Planning",
+      "seoTitle": "Construction — Building construction",
+      "description": "Mixer-Pump Jobsite Organization يبقى الصف الذي كان في هذا النص. «Building construction» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+      "imageAlt": "صورة من صفحة المصدر عن Construction",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Construction",
       "relatedPathLabels": [
         "Integrated mixer pump صفحة المنتج",
         "Concrete mixer pump manufacturer China",
@@ -201,36 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Jobsite organization for Pinjin mixer pumps starts from two printed rows. Electric integrated mixer pump: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, قادوس 0.4 m³, ركام 4 cm, pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer integrated: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m (≤ 1 inch), 13 mm 60 / 180 m, 24 mm 40 / 120 m, قادوس 0.4 m³, 4100 × 2200 × 3000 mm, 4200 kg. Mix and pump sit on one trailer. This is not a batching plant and not Electric 40 pump-only.",
-        "who": "Rural and self-built pours that will mix on the trailer and need either 45 kW + 14 kW grid or a 4108 diesel, matching قادوس 0.4 m³ and the printed stone-distance pairs.",
+        "what": "Mixer-Pump Jobsite Organization يبقى الصف الذي كان في هذا النص. «Building construction» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+        "who": "قرّاء يقارنون Mixer-Pump Jobsite Organization بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Two electric motors (45 kW + 14 kW) versus one diesel 4108 / 66–75 kW",
-          "قادوس 0.4 m³ on both mixer rows — not the 400/500 mixer series note",
-          "Electric mixer 100 m / 300 m and 4 cm ركام; diesel mixer prints three stone bands",
-          "SmartBuy: operators need training; after-sales spare parts availability matters more than a marketplace m³/h average"
+          "3900 × 1500 × 1600 mm",
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Must the electric mixer pump have two separate 380 V feeds for 45 kW and 14 kW?",
-          "answer": "The table lists two motors: 45 kW main and 14 kW mixer. It does not print feeder size, genset kVA or a single combined nameplate. Send site power with the inquiry."
+          "question": "هل يضيف «Building construction» خانة إلى Mixer-Pump Jobsite Organization؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm."
         },
         {
-          "question": "Does the diesel mixer row list a 14 kW mixer motor like the electric row?",
-          "answer": "No. Diesel mixer integrated lists one 4108 diesel at 66–75 kW and 25 m³/h. The 14 kW mixer motor is on the electric mixer-pump page only."
-        },
-        {
-          "question": "Does either mixer-pump row list a truck mixer drum volume?",
-          "answer": "No. Electric mixer pump lists قادوس 0.4 m³ and a 400/500 mixer series note. Diesel mixer lists قادوس 0.4 m³. Unpublished truck-mixer m³ is not a catalogue cell."
+          "question": "هل يستطيع «Infrastructure construction» ملء خانة فارغة لـ Mixer-Pump Jobsite Organization؟",
+          "answer": "لا. الخانات الفارغة لـ Mixer-Pump Jobsite Organization تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Mixer-Pump Jobsite Organization — Electric vs Diesel Rows",
-      "seoTitle": "Concrete Mixer Pump Jobsite | Pinjin 45 kW+14 kW vs 4108",
-      "description": "Синтай electric mixer pump: 45 kW + 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, бункер 0.4 m³, pipe 100 / 125 mm, заполнитель 4 cm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m, 4200 kg. This is crew and power organization on one trailer, not a batching plant.",
-      "imageAlt": "Integrated mixer pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Electric mixer pump, Синтай catalogue — 45 kW + 14 kW, 21 m³/h, бункер 0.4 m³",
+      "title": "Mixer-Pump Jobsite Organization: Construction — Building construction / Infrastructure construction / Industrial construction / Planning",
+      "seoTitle": "Construction — Building construction",
+      "description": "Mixer-Pump Jobsite Organization остаётся строкой, которая уже была в этом тексте. “Building construction” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Construction",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Construction",
       "relatedPathLabels": [
         "Integrated mixer pump страница изделия",
         "Concrete mixer pump manufacturer China",
@@ -238,29 +235,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Jobsite organization for Pinjin mixer pumps starts from two printed rows. Electric integrated mixer pump: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, бункер 0.4 m³, заполнитель 4 cm, pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg; series note 30 series with 400 mixer, 40/50 series with 500 mixer. Diesel mixer integrated: 4108 / 66–75 kW, 25 m³/h, 23 MPa, stone 100 / 300 m (≤ 1 inch), 13 mm 60 / 180 m, 24 mm 40 / 120 m, бункер 0.4 m³, 4100 × 2200 × 3000 mm, 4200 kg. Mix and pump sit on one trailer. This is not a batching plant and not Electric 40 pump-only.",
-        "who": "Rural and self-built pours that will mix on the trailer and need either 45 kW + 14 kW grid or a 4108 diesel, matching бункер 0.4 m³ and the printed stone-distance pairs.",
+        "what": "Mixer-Pump Jobsite Organization остаётся строкой, которая уже была в этом тексте. “Building construction” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm.",
+        "who": "Читатели, которые сверяют Mixer-Pump Jobsite Organization со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Two electric motors (45 kW + 14 kW) versus one diesel 4108 / 66–75 kW",
-          "Бункер 0.4 m³ on both mixer rows — not the 400/500 mixer series note",
-          "Electric mixer 100 m / 300 m and 4 cm заполнитель; diesel mixer prints three stone bands",
-          "SmartBuy: operators need training; after-sales spare parts availability matters more than a marketplace m³/h average"
+          "3900 × 1500 × 1600 mm",
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Must the electric mixer pump have two separate 380 V feeds for 45 kW and 14 kW?",
-          "answer": "The table lists two motors: 45 kW main and 14 kW mixer. It does not print feeder size, genset kVA or a single combined nameplate. Send site power with the inquiry."
+          "question": "Добавляет ли “Building construction” клетку к Mixer-Pump Jobsite Organization?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 3900 × 1500 × 1600 mm, 4100 × 2200 × 3000 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm."
         },
         {
-          "question": "Does the diesel mixer row list a 14 kW mixer motor like the electric row?",
-          "answer": "No. Diesel mixer integrated lists one 4108 diesel at 66–75 kW and 25 m³/h. The 14 kW mixer motor is on the electric mixer-pump page only."
-        },
-        {
-          "question": "Does either mixer-pump row list a truck mixer drum volume?",
-          "answer": "No. Electric mixer pump lists бункер 0.4 m³ and a 400/500 mixer series note. Diesel mixer lists бункер 0.4 m³. Unpublished truck-mixer m³ is not a catalogue cell."
+          "question": "Может ли “Infrastructure construction” заполнить пустую клетку для Mixer-Pump Jobsite Organization?",
+          "answer": "Нет. Пустые клетки для Mixer-Pump Jobsite Organization остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

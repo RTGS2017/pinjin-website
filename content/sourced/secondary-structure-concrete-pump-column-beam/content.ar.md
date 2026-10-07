@@ -1,34 +1,22 @@
-## Secondary structure is a listed application, not a separate product line
+## Use in construction
 
-At شينغتاي we print “small building sites and secondary structure” on the Electric 15 and Electric 10 Series pages. That means ring beams, small columns, lintels and floor elements that still use concrete with stone — not a hidden boom-pump range. We do not publish cubic metres per column. Theoretical output on the table is the figure we will defend.
+![صورة من صفحة المصدر عن Reinforced concrete](/images/articles/secondary-structure-concrete-pump-column-beam/Rebarbeams.JPG)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Reinforced_concrete*
 
-![Electric 15 compact concrete pump for secondary structure, Hebei Pinjin Machinery شينغتاي factory](/images/products/electric-15-concrete-pump/main.webp)
-*Electric 15 compact concrete pump, شينغتاي catalogue*
+«Use in construction» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Concrete Pump for Secondary Structure Columns and Beams. قيم مطبوعة أصلًا في هذه الصفحة: 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm.
 
-## Catalogue compact pumps used on this job family
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Use in construction» لا يملؤها.
 
-| Model | Power | Theoretical output | Distance | Max ركام | Size / weight |
-| Electric 10 Series | 15 kW | 21 m³/h | 25 m أفقي | 2 cm and below | 1800 × 800 × 1200 mm, 400 kg |
-| Electric 15 | 15 kW | 8–10 m³/h | 60–80 m H / 15–20 m V | 1–3 cm | 1900 × 900 × 1200 mm, 450 kg |
-| Electric 20 | 22 kW | 8–10 m³/h | 120 m H / 40 m V | 1–2 cm | 2800 × 1300 × 1500 mm, 900 kg |
+## Behavior
 
-Electric 10 Series shows a high الإنتاج النظري with a short 25 m أفقي window and a 0.1 m³ hopper. Do not read 21 m³/h as “faster Electric 15”. Electric 15 is the secondary-structure compact with 8–10 m³/h and a longer 60–80 m أفقي row. Electric 20 keeps 8–10 m³/h but steps to 22 kW, 10 MPa, 80 mm pipe and 900 kg.
+فتح المصدر عند «Behavior» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Concrete Pump for Secondary Structure Columns and Beams. هذا الفصل لا يضيف رقمًا.
 
-None of these is a truck-mounted مضخة ذراع. Pinjin does not list mixing plants or placing booms.
+## Reinforcement and terminology of beams
 
-## Columns and beams: what we ask before naming a pump
+«Reinforcement and terminology of beams» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pump for Secondary Structure Columns and Beams. هذا الفصل لا يضيف رقمًا.
 
-- Stone size: secondary structure mix that still carries 1–3 cm stone can sit on Electric 15. If stone is specified 1–2 cm and the pipe is longer, Electric 20’s 120 m / 40 m row is the next printed step.
-- Pipe: Electric 15 lists 100–125 mm. Electric 20 lists 80 mm. Start from the DN on the pump page; see [Concrete Pump Pipe DN Selection](/blog/concrete-pump-pipe-dn-selection/).
-- Access: 400–450 kg compact frames versus 900 kg Electric 20. Narrow-site notes are on [Mini Concrete Pump for Narrow Sites](/blog/mini-concrete-pump-narrow-space/). We do not call any of these “the mini model”.
-- Power: all three are electric. No grid → diesel compact rows, not this page.
+## Prestressed concrete
 
-## Related Pinjin models
+Concrete Pump for Secondary Structure Columns and Beams يبقى الصف الذي كان في هذا النص. «Prestressed concrete» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm.
 
-- [Electric 15 Concrete Pump](/products/electric-15-concrete-pump/)
-- [Electric 10 Series Concrete Pump](/products/electric-10-series-concrete-pump/)
-- [Electric 20 Concrete Pump](/products/electric-20-concrete-pump/)
-
-The longer application write-up for Electric 15 remains [Electric 15 for small building sites](/blog/electric-15-concrete-pump-applications/). This page only adds the column-and-beam matching questions. Floor slabs and screeds are [Small Concrete Pump for Floor Screed and Slab](/blog/small-concrete-pump-floor-screed-slab/).
-
-Send member type, stone, pipe length, voltage and whether the pump must pass a stair or courtyard. We will stay inside the printed table.
+صفحات مذكورة أصلًا في هذا النص: [Concrete Pump Pipe DN Selection](/blog/concrete-pump-pipe-dn-selection/), [Mini Concrete Pump for Narrow Sites](/blog/mini-concrete-pump-narrow-space/), [Electric 15 Concrete Pump](/products/electric-15-concrete-pump/).

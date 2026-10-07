@@ -11,25 +11,25 @@
     "zh": "电动10系列建筑浇筑"
   },
   "title": {
-    "en": "This is a grid-powered building pour through a pipeline — Electric 10 Series. Only a horizontal distance is printed: 25 m.",
-    "zh": "这是有电网、走管道的建筑浇筑：电动10系列。只印了水平距离：25 m。"
+    "en": "Printed-row question: This is a grid-powered building pour through a pipeline — Electric 10 Series. Only a horizontal distance is printed: 25 m.",
+    "zh": "先看已印出的行：这是有电网、走管道的建筑浇筑：电动10系列。只印了水平距离：25 m。"
   },
   "description": {
-    "en": "This is a grid-powered building pour through a pipeline. Only a horizontal distance is printed: 25 m. A longer run leaves this row. No vertical figure is printed on the p",
-    "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。邢台河北品锦机械把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电"
+    "en": "Taken from the printed row: This is a grid-powered building pour through a pipeline. Keep this cell as published. Only a horizontal distance is printed: 25 m. The neighbouring machine is not this sentence. A longer run leaves this row. Read it in the Xingtai table. No vertical figure is printed on the page. Xingtai-based Hebei Pinjin Machinery lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The page leaves that cell blank for a vertical distance. Leave aside move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. Read it in the Xingtai table. The photograph is a working-condition reference from a public article about this kind of work. Taken from the printed row: It is not a Pinjin contract record. Keep this cell as published. This page names no project, no country job, no price and no daily volume.",
+    "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。河北品锦机械（邢台）把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "h1": {
-    "en": "This is a grid-powered building pour through a pipeline — Electric 10 Series. Only a horizontal distance is printed: 25 m.",
-    "zh": "这是有电网、走管道的建筑浇筑：电动10系列。只印了水平距离：25 m。"
+    "en": "Printed-row question: This is a grid-powered building pour through a pipeline — Electric 10 Series. Only a horizontal distance is printed: 25 m.",
+    "zh": "先看已印出的行：这是有电网、走管道的建筑浇筑：电动10系列。只印了水平距离：25 m。"
   },
   "directAnswer": {
-    "en": "This is a grid-powered building pour through a pipeline. Only a horizontal distance is printed: 25 m. A longer run leaves this row. No vertical figure is printed on the page. Hebei Pinjin Machinery in Xingtai lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The page does not print a vertical distance. Do not move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-    "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。邢台河北品锦机械把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+    "en": "Taken from the printed row: This is a grid-powered building pour through a pipeline. Keep this cell as published. Only a horizontal distance is printed: 25 m. The neighbouring machine is not this sentence. A longer run leaves this row. Read it in the Xingtai table. No vertical figure is printed on the page. Xingtai-based Hebei Pinjin Machinery lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The page leaves that cell blank for a vertical distance. Leave aside move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. Read it in the Xingtai table. The photograph is a working-condition reference from a public article about this kind of work. Taken from the printed row: It is not a Pinjin contract record. Keep this cell as published. This page names no project, no country job, no price and no daily volume.",
+    "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。河北品锦机械（邢台）把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "answerBlock": {
     "what": {
-      "en": "This is a grid-powered building pour through a pipeline. Only a horizontal distance is printed: 25 m. A longer run leaves this row. No vertical figure is printed on the page. Hebei Pinjin Machinery in Xingtai lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The page does not print a vertical distance. Do not move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-      "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。邢台河北品锦机械把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+      "en": "Taken from the printed row: This is a grid-powered building pour through a pipeline. Keep this cell as published. Only a horizontal distance is printed: 25 m. The neighbouring machine is not this sentence. A longer run leaves this row. Read it in the Xingtai table. No vertical figure is printed on the page. Xingtai-based Hebei Pinjin Machinery lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The page leaves that cell blank for a vertical distance. Leave aside move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. Read it in the Xingtai table. The photograph is a working-condition reference from a public article about this kind of work. Taken from the printed row: It is not a Pinjin contract record. Keep this cell as published. This page names no project, no country job, no price and no daily volume.",
+      "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。河北品锦机械（邢台）把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
@@ -43,72 +43,76 @@
   "sections": [
     {
       "heading": {
-        "en": "What the pour has to match",
-        "zh": "浇筑要对上什么"
+        "en": "Discharge length vs. volume flow from water filled horizontal pipes.",
+        "zh": "排出长度与体积流量水水平向管"
       },
       "body": {
-        "en": "This is a grid-powered building pour through a pipeline. Only a horizontal distance is printed: 25 m. A longer run leaves this row. No vertical figure is printed on the page. The published Electric 10 Series row is 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The page does not print a vertical distance.",
-        "zh": "这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。已公布的电动10系列是15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。"
+        "en": "The reference page “Open Horizontal Pipes - Discharge Length vs. Volume Flow” uses “Discharge length vs. volume flow from water filled horizontal pipes.” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: This is a grid-powered building pour through a pipeline. Read it in the Xingtai table. No vertical figure is printed on the p This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. No vertical figure is printed on the page. Keep this cell as published. Do not move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. Taken from the printed row: This page names no project, no country job, no price and no daily volume. Read it in the Xingtai table. A longer run leaves this row. The neighbouring machine is not this sentence. The page does not print a vertical distance. Keep this cell as published. It is not a Pinjin contract record. Taken from the printed row: Only a horizontal distance is printed: 25 m. Read it in the Xingtai table. The published Electric 10 Series row is 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The neighbouring machine is not this sentence. The shared job site in the photograph does not merge the two tables. Keep this cell as published. This page names no project, no country job, no price and no daily volume. Taken from the printed row: Do not attach a project name, a country job, a price or a daily volume. Read it in the Xingtai table. Hebei Pinjin Machinery does not name it as a contract record. The neighbouring machine is not this sentence. No vertical figure is printed on the page. Keep this cell as published. This page names no floor, no contract volume and no price. Image from the source page: https://www.engineeringtoolbox.com/horizontal-pipe-discharge-d_1528.html",
+        "zh": "来源页《Open Horizontal Pipes - Discharge Length vs. Volume Flow》用“排出长度与体积流量水水平向管”划分这一节。后面是邢台目录里已有内容，换一种说法写下。这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。河北品锦机械（邢台）把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电 这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。邢台河北品锦机械把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。电动15印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。照片里的同类现场不能把两张表并成一张。本页配图下载自文中的来源页，只作参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。旁边那一台不在这句话里。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。图来自来源页面：https://www.engineeringtoolbox.com/horizontal-pipe-discharge-d_1528.html"
       }
     },
     {
       "heading": {
-        "en": "Do not slide onto the neighbouring row",
-        "zh": "不要滑到相邻的那一行"
+        "en": "Example - Horizontal Pipe and Length of Water Discharge",
+        "zh": "例子水平向管道长度水排出"
       },
       "body": {
-        "en": "Electric 15 prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. The shared job site in the photograph does not merge the two tables. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-        "zh": "电动15印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+        "en": "“Example - Horizontal Pipe and Length of Water Discharge” is an outline label from “Open Horizontal Pipes - Discharge Length vs. Volume Flow”. That label does not add a figure to the printed row. Keep this cell as published. Only a horizontal distance is printed: 25 m. Taken from the printed row: Only a horizontal distance is printed: 25 m. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. The neighbouring machine is not this sentence. The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. This is a grid-powered building pour through a pipeline. Taken from the printed row: No vertical figure is printed on the page. Read it in the Xingtai table. Do not move the same condition onto Electric 15, which prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. This note names no project, no country job, no price and no daily volume. Keep this cell as published. A longer run leaves this row. Taken from the printed row: The page does not print a vertical distance. Read it in the Xingtai table. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Keep this cell as published. No. Taken from the printed row: Only a horizontal distance is printed: 25 m. Read it in the Xingtai table. No.",
+        "zh": "“例子水平向管道长度水排出”是《Open Horizontal Pipes - Discharge Length vs. Volume Flow》大纲上的标题。这个标题不给已印出的行增加数字。这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。邢台河北品锦机械把电动10系列列为15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。先不要把同一工况挪到电动15，那一行印的是15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、管内径 100–125 mm、外形 1900 × 900 × 1200 mm、450 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。目录里已经写着：请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。按邢台表上的原文理解：不是。电动10系列只印理论目录数字。本页不写楼层、合同方量或价格。"
       }
     },
     {
       "heading": {
-        "en": "What Xingtai should receive",
-        "zh": "向邢台要带上什么"
+        "en": "Example - Estimating Volume Flow with Discharge Length",
+        "zh": "例子体积流量排出长度"
       },
       "body": {
-        "en": "Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job, a price or a daily volume.",
-        "zh": "请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。"
+        "en": "This block keeps the heading “Example - Estimating Volume Flow with Discharge Length” from “Open Horizontal Pipes - Discharge Length vs. Volume Flow”, then stays with the cells already published. The neighbouring machine is not this sentence. A longer run leaves this row. Keep this cell as published. A longer run leaves this row. Taken from the printed row: The page does not print a vertical distance. Read it in the Xingtai table. It is not a Pinjin contract record. The neighbouring machine is not this sentence. Only a horizontal distance is printed: 25 m. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists Electric 10 Series at 15 kW, 21 m³/h, 23 MPa, horizontal 25 m, aggregate 2 cm and below, hopper 0.1 m³, 1800 × 800 × 1200 mm and 400 kg. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Read it in the Xingtai table. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. No vertical figure is printed on the page. Keep this cell as published. Electric 15 prints 15 kW, 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, pipe 100–125 mm, 1900 × 900 × 1200 mm and 450 kg. Taken from the printed row: It is not a Pinjin contract record. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. The neighbouring machine is not this sentence. It shows this kind of work. Keep this cell as published. A longer run leaves this row. Taken from the printed row: Electric 10 Series prints theoretical catalogue figures only.",
+        "zh": "本节保留《Open Horizontal Pipes - Discharge Length vs. Volume Flow》的标题“例子体积流量排出长度”，正文仍只谈已经公布的格子。这是有电网、走管道的建筑浇筑。只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。目录上写出的电动10系列是15 kW、21 m³/h、23 MPa、水平 25 m、骨料 2 cm 及以下、料斗 0.1 m³、外形 1800 × 800 × 1200 mm、400 kg。这一页没有印垂直距离。这一格照已印出的读：不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is the photograph a Pinjin jobsite?",
-        "zh": "这张照片是品锦的工地吗？"
+        "en": "Is the photograph a Pinjin jobsite, once the outline says “Discharge length vs. volume flow from water filled horizontal pipes.”?",
+        "zh": "大纲写着“排出长度与体积流量水水平向管”时，这张照片是品锦的工地吗？"
       },
       "answer": {
-        "en": "No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
-        "zh": "不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
+        "en": "Taken from the printed row: No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
+        "zh": "目录里已经写着：不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
       }
     },
     {
       "question": {
-        "en": "What does the Electric 10 Series row print for this check?",
-        "zh": "电动10系列这一行，这次要核对的数字是什么？"
+        "en": "Under “Example - Horizontal Pipe and Length of Water Discharge”, what does the Electric 10 Series row print for this check?",
+        "zh": "在“例子水平向管道长度水排出”这一节里，电动10系列这一行，这次要核对的数字是什么？"
       },
       "answer": {
-        "en": "Only a horizontal distance is printed: 25 m. A longer run leaves this row. No vertical figure is printed on the page.",
-        "zh": "只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。"
+        "en": "Keep this cell as published. Only a horizontal distance is printed: 25 m. A longer run leaves this row. No vertical figure is printed on the page.",
+        "zh": "这一格照已印出的读：只印了水平距离：25 m。管路更长就离开这一行。这一页没有印垂直数字。"
       }
     },
     {
       "question": {
-        "en": "Is the printed output a contract volume?",
-        "zh": "印出的输送量是合同方量吗？"
+        "en": "What should stay printed beside “Example - Estimating Volume Flow with Discharge Length” — Is the printed output a contract volume?",
+        "zh": "“例子体积流量排出长度”旁边仍要印着的是什么：印出的输送量是合同方量吗？"
       },
       "answer": {
-        "en": "No. Electric 10 Series prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
-        "zh": "不是。电动10系列只印理论目录数字。本页不写楼层、合同方量或价格。"
+        "en": "The neighbouring machine is not this sentence. No. Electric 10 Series prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
+        "zh": "旁边那一台不在这句话里。不是。电动10系列只印理论目录数字。本页不写楼层、合同方量或价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications-c/short-building-run-electric-10-series.webp",
+    "src": "/images/articles/applications/short-building-run-electric-10-series.png",
     "alt": {
-      "en": "This is a grid-powered building pour through a pipeline. Published row: Electric 10 Series, Hebei Pinjin Machinery, Xingtai.",
-      "zh": "这是有电网、走管道的建筑浇筑。已公布机型：电动10系列，河北品锦机械，邢台。"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/horizontal-pipe-discharge-d_1528.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/horizontal-pipe-discharge-d_1528.html"
     }
   },
   "relatedPaths": [
@@ -122,7 +126,8 @@
     "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
     "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
-    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/"
+    "https://pinjinpump.com/zh/products/electric-15-concrete-pump/",
+    "https://www.engineeringtoolbox.com/horizontal-pipe-discharge-d_1528.html"
   ],
   "status": "ready"
 }

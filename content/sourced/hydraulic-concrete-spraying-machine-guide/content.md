@@ -1,29 +1,22 @@
-## Catalogue hydraulic row (5 m³/h)
+## Single-fluid nozzles
 
-Hydraulic Concrete Spraying Machine is a 380 V hydraulic spraying machine manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: all-copper dual motors 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, sand-cement ratio ≤1:3, particle ≤8 mm, 100 m horizontal / 50 m vertical, 1500 × 700 × 1100 mm, 295 kg. Quote only; no list price.
+![Figure from the source page about Spray nozzle](/images/articles/hydraulic-concrete-spraying-machine-guide/Compound_nozzle.png)
+*Image from the source page: https://en.wikipedia.org/wiki/Spray_nozzle*
 
-![Hydraulic concrete spraying machine factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp)
-*Hydraulic concrete spraying machine, Xingtai catalogue — 7.5/9 kW, 5 m³/h, particle ≤8 mm*
+“Single-fluid nozzles” is not a substitute specification. hydraulic concrete spraying machine stays the printed row. Printed cells already on this page: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.
 
-## Neighbour spraying rows
+Hydraulic Concrete Spraying Machine is a 380 V hydraulic spraying machine manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China.
 
-| Model | Power | Output | Pressure | Particle | Hose | Distance (H / V) | Weight |
-| Compact hydraulic | 380 V, 7.5/9 kW dual motor | 5 m³/h | 8 MPa | ≤8 mm | 38/51 mm | 100 m / 50 m | 295 kg |
-| High-flow hydraulic | 380 V, 11/15 kW dual motor | 7 m³/h | 8 MPa | ≤8 mm | 38/51 mm | 150 m / 70 m | 650 kg |
-| Diesel concrete sprayer | diesel 28/32 HP | 5 m³/h | 8 MPa | ≤6 mm | 38/51 mm | 80 m / 40 m | 480 kg |
-| M9 plaster | 380 V/50 Hz | 30 L/min | 50 bar | ≤4 mm | 25 mm | 50 m / 20 m | 200 kg |
+## Two-fluid nozzles
 
-Trailer pumps live on [electric concrete pumps](/products/electric-concrete-pumps/). Sprayers live on [spraying machines](/products/spraying-machines/). Split: [fine stone pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/).
+“Two-fluid nozzles” is background. An enquiry for hydraulic concrete spraying machine still uses the cells already written. No added figure is taken from that chapter.
 
-## When this row fits
+## Rotary atomizers
 
-Cement-mortar or concrete spraying within the listed 5 m³/h and ≤8 mm particle window. Sites that can supply 380 V for the listed dual motors. Hose runs inside 100 m horizontal / 50 m vertical.
+Read “Rotary atomizers” as context from the source. It is not a new nameplate for hydraulic concrete spraying machine. No added figure is taken from that chapter.
 
-## When to open another page
+## Ultrasonic atomizers
 
-- 7 m³/h or 150 m / 70 m → [high-flow hydraulic sprayer](/products/high-flow-hydraulic-concrete-spraying-machine/).
-- Plaster at ≤4 mm → [M9](/products/m9-automatic-plaster-spraying-machine/).
-- No grid → [diesel sprayer](/products/diesel-concrete-spraying-machine/).
-- Not a trailer concrete pump, mixing plant or truck-mounted boom pump.
+Opening the source at “Ultrasonic atomizers” means reading that page, not a second catalogue for hydraulic concrete spraying machine. Printed cells already on this page: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.
 
-Product page: [hydraulic concrete spraying machine](/products/hydraulic-concrete-spraying-machine/). Inquiry: [contact](/contact/).
+Pages already named on this document: [electric concrete pumps](/products/electric-concrete-pumps/), [spraying machines](/products/spraying-machines/), [fine stone pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/).

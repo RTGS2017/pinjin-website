@@ -1,41 +1,22 @@
-## Replacement parts from the 邢台 wear-part list
+## Wear types and mechanisms
 
-河北品锦机械 supplies pipeline parts and S阀 易损件 from 邢台. This page restates what is already on the parts hub and the individual 产品页s. It is not a price list and not an OEM catalogue for other pump brands. Confirm the outer diameter or DN on the pump before you inquire.
+![来源页插图：Wear](/images/articles/concrete-pump-spare-parts-wear-parts/Deep_groove_like_surface_indicates_abrasive_wear_over_cast_iron_yellow_arrow_indicate_sliding_direction_.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Wear*
 
-![Concrete pump split piston 易损件 from 河北品锦机械 邢台](/images/products/concrete-pump-split-piston/concrete-pump-split-piston.webp)
-*Split piston replacement sets, 邢台 wear-part catalogue*
+「Wear types and mechanisms」不能代替规格。Concrete Pump Spare Parts维持已印的那一行。本页已经印出的读数：100–125 mm, 80 mm, 125 mm。
 
-## Pistons
+本页没写出来的格子继续空着。「Wear types and mechanisms」不去填它们。
 
-| Type | How sold | Catalogue outer diameters | Notes |
-| Split piston | sets | φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280 | rubber, rubber-cloth, polyurethane |
-| Integral piston | per piece | φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250 | one-piece replacement |
+## Wear stages
 
-Measure the piston OD on the machine. Do not order by “it looks like a 40 pump”. Pages: [split piston](/products/concrete-pump-split-piston/), [integral piston](/products/concrete-pump-integral-piston/).
+「Wear stages」是背景。Concrete Pump Spare Parts的询价仍看已经写下的单元格。这一节不另加数字。
 
-## Valves, seals and related wear
+## Wear testing
 
-Printed kits (confirm on the S管 or cylinder before ordering):
+「Wear testing」只作来源页上的背景，不是给Concrete Pump Spare Parts新造的铭牌。这一节不另加数字。
 
-- S管 seals: large-end φ210, φ220, φ250; small-end φ80, φ90, φ100, φ105; some large-end kits listed as six-piece sets. [S-tube seal](/products/concrete-pump-s-tube-seal/)
-- Mixing seals: φ65, φ80, plus generation-marked mixer kits. [Mixing seal](/products/concrete-pump-mixing-seal/)
-- Main cylinder seals: φ63, φ80, 80×125, 90×140, 90–160, 95×140, 100×150, kit marked 461K. [Main cylinder seal](/products/concrete-pump-main-cylinder-seal/)
-- Swing cylinder seals: φ60, φ70, φ80, φ90. [Swing cylinder seal](/products/concrete-pump-swing-cylinder-seal/)
-- Rubber springs φ150–φ260 and polyurethane springs φ200–φ260; swing-arm balls φ60/φ70/φ80.
+## Modeling of wear
 
-Daily observation of the S阀, cutting ring and spectacle plate is on the [maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/). Photograph chips; we 不要编造 replacement hours.
+翻到来源页的「Modeling of wear」，读的是那一页，不是Concrete Pump Spare Parts的第二份目录。本页已经印出的读数：100–125 mm, 80 mm, 125 mm。
 
-## Pipes, elbows, clamps, hoses
-
-- Straight 输送管s: quoted by pump model, diameter and length — no fixed size table on the page. [Delivery pipe](/products/concrete-pump-delivery-pipe/)
-- DN200 90° elbow (R275, mounting bracket) is a listed piece; other diameters quoted after matching. [Elbow](/products/concrete-pump-elbow-dn200-90/)
-- DN80 (3″ / 89) clamp marked EN14420-3, PN10/16. [Clamp](/products/concrete-pump-pipe-clamp-dn80/)
-- Delivery hoses with steel couplings, quoted by model, diameter and length. [Hose](/products/concrete-pump-delivery-hose/)
-
-Start DN from the pump page. 电动20 lists 80 mm; 电动15 lists 100–125 mm; 搅拌泵s and HBT8018 list 100 / 125 mm. Full matching: [pipe DN selection](/blog/concrete-pump-pipe-dn-selection/). DN200 is not the pump line for those compact trailers.
-
-If a blockage damaged a pipe or gasket, relieve pressure first — [blockage safety](/blog/concrete-pump-blockage-causes-prevention/) — then measure the replacement.
-
-## Commercial terms (same on every parts page)
-
-Quote only. No published list price. Not sold in small-batch parcels. 邢台 replacements, not OEM parts of other pump brands. Send part name, OD or DN, quantity, and the pump model slug to [contact](/contact/). Hub: [concrete pump parts](/products/concrete-pump-parts/).
+本文原先已经指向这些页面：[split piston](/products/concrete-pump-split-piston/), [integral piston](/products/concrete-pump-integral-piston/), [S-tube seal](/products/concrete-pump-s-tube-seal/)。

@@ -1,14 +1,22 @@
-Source: Xingtai government information disclosure, Municipal Science and Technology Bureau, 6 January 2025  
-http://info.xingtai.gov.cn/single/97/382701.html
+## Geography
 
-## January–November 2024 cluster revenue
+![Figure from the source page about Xingtai](/images/articles/renze-machinery-cluster-2024/Location_of_Xingtai_Prefecture_within_Hebei_China_.png)
+*Image from the source page: https://en.wikipedia.org/wiki/Xingtai*
 
-January–November 2024: machinery-manufacturing cluster revenue 102亿元, up 7.6% year on year; rubber-plastic new-materials cluster revenue 96.5亿元, up 6.0%.
+Opening the source at “Geography” means reading that page, not a second catalogue for 任泽 机械制造 102亿元. No added figure is taken from that chapter.
 
-In 2024 the district had 49 high-tech enterprises, 75 national science-and-technology SMEs, and 396 provincial science-and-technology SMEs.
+Source: Xingtai government information disclosure, Municipal Science and Technology Bureau, 6 January 2025 http://info.xingtai.gov.cn/single/97/382701.html January–November 2024: machinery-manufacturing cluster revenue 102亿元, up 7.6% year on year; rubber-plastic new-materials cluster revenue 96.5亿元, up 6.0%.
 
-Provincial science-and-technology innovation platforms in the district: 24, including 11 provincial A-level industrial R&D institutes, 6 provincial technology innovation centres, 4 provincial enterprise technology centres, 2 provincial industrial technology research institutes, and 1 provincial key laboratory.
+## Administrative divisions
 
-In 2024 the district recorded 3.36亿元 of Beijing-Tianjin technology-contract turnover, rank 1 in Xingtai.
+“Administrative divisions” is a chapter on the source page. It does not rename 任泽 机械制造 102亿元. No added figure is taken from that chapter.
 
-![Photograph from the Hebei Industry and Information Technology Renze cluster page](/images/parks/renze-clusters.webp)
+## Economy
+
+任泽 机械制造 102亿元 remains the row this document already had. “Economy” explains the source topic and adds no cell. No added figure is taken from that chapter.
+
+## Transport
+
+Keep “Transport” and 任泽 机械制造 102亿元 apart. The source does not fill a blank cell. No added figure is taken from that chapter.
+
+Blank cells on this page stay blank. “Transport” does not fill them.

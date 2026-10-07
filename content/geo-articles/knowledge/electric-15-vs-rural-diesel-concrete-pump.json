@@ -6,100 +6,110 @@
     "zh": "电动15和农村柴油泵的区别"
   },
   "title": {
-    "en": "Electric 15 vs the Rural Diesel Pump",
-    "zh": "电动15和农村柴油泵有何不同"
+    "en": "Electric 15 vs the Rural Diesel Pump keeps its own figures; Electric generator is only the picture",
+    "zh": "电动15和农村柴油泵有何不同保留自己的数字，「发电机」只是配图"
   },
   "description": {
-    "en": "Electric 15 needs the printed 15 kW motor line. The rural pump prints a 17 kW diesel engine. Distance on both pages is a range, not one ceiling.",
-    "zh": "电动15要看印出的 15 kW 电机行。农村泵印 17 kW 柴油机。两页距离都是范围，不是单一上限。"
+    "en": "Electric 15 vs the Rural Diesel Pump. 15 kW stays in the catalogue entry. Illustration: Electric generator.",
+    "zh": "电动15和农村柴油泵有何不同。15 kW仍在目录格子里。插图来自「发电机」。"
   },
   "h1": {
-    "en": "Electric 15 vs the Rural Diesel Pump",
-    "zh": "电动15和农村柴油泵有何不同"
+    "en": "Electric 15 vs the Rural Diesel Pump keeps its own figures; Electric generator is only the picture",
+    "zh": "电动15和农村柴油泵有何不同保留自己的数字，「发电机」只是配图"
   },
   "directAnswer": {
-    "en": "Electric 15 and the rural diesel pump are compact concrete pumps from Hebei Pinjin Machinery in Xingtai. Electric 15 prints a 15 kW motor, 8–10 m³/h, vertical 15–20 m and horizontal 60–80 m. The rural pump prints 17 kW, 5–8 m³/h, horizontal 30–50 m and vertical 10–30 m. Aggregate is 1–3 cm on both pages.",
-    "zh": "电动15和农村柴油泵是河北品锦机械在邢台的紧凑型混凝土泵。电动15印 15 kW 电机、8–10 m³/h、垂直 15–20 m、水平 60–80 m。农村泵印 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。骨料都是 1–3 cm。电动15印管径。农村页印压力 15 MPa，不印管径。"
+    "en": "Electric 15 and the rural diesel pump are compact concrete pumps from Hebei Pinjin Machinery in Xingtai. Electric 15 lists a 15 kW motor, 8–10 m³/h, vertical 15–20 m and horizontal 60–80 m. The picture is from https://en.wikipedia.org/wiki/Electric_generator.",
+    "zh": "电动15和农村柴油泵是河北品锦机械在邢台的紧凑型混凝土泵。电动15标出 15 kW 电机、8–10 m³/h、垂直 15–20 m、水平 60–80 m。图片来自https://en.wikipedia.org/wiki/Electric_generator。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Where Electric 15 and Rural diesel pump print different values",
-        "zh": "电动15和农村柴油泵哪些数值不同"
+        "en": "Terminology",
+        "zh": "术语"
       },
       "body": {
-        "en": "Theoretical output: Electric 15 prints 8–10 m³/h; Rural diesel pump prints 5–8 m³/h. Vertical delivery height: Electric 15 prints 15–20 m; Rural diesel pump prints 10–30 m. Horizontal delivery distance: Electric 15 prints 60–80 m; Rural diesel pump prints 30–50 m. Dimensions: Electric 15 prints 1900 × 900 × 1200 mm; Rural diesel pump prints 2200 × 1100 × 1250 mm. Total weight: Electric 15 prints 450 kg; Rural diesel pump prints 800 kg. The same printed value on a shared label: Max. aggregate size is 1–3 cm on both pages. These are printed cells on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. They are not a calculated conversion from one model to the other.",
-        "zh": "理论输送量：电动15印 8–10 m³/h；农村柴油泵印 5–8 m³/h。垂直输送高度：电动15印 15–20 m；农村柴油泵印 10–30 m。水平输送距离：电动15印 60–80 m；农村柴油泵印 30–50 m。外形尺寸：电动15印 1900 × 900 × 1200 mm；农村柴油泵印 2200 × 1100 × 1250 mm。整机重量：电动15印 450 kg；农村柴油泵印 800 kg。同一标题下数值相同的有：最大骨料粒径两边都是 1–3 cm。以上是河北品锦机械在邢台混凝土泵页面上印出的格子，不是把一台机器换算成另一台。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Electric_generator. The picture shows Modern Steam Turbine Generator. Electric 15 and the rural diesel pump are compact concrete pumps from Hebei Pinjin Machinery in Xingtai. Theoretical output: Electric 15 lists 8–10 m³/h. Rural diesel pump lists 5–8 m³/h. Total weight: Electric 15 lists 450 kg. Rural diesel pump lists 800 kg. Electric 15 lists entries that Rural diesel pump does not: Motor power 15 kW. Delivery pipe diameter 100–125 mm. Open /en/products/electric-15-concrete-pump/ for Electric 15 and /en/products/rural-diesel-concrete-pump/ for Rural diesel pump.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Electric_generator。画面是Modern Steam Turbine Generator。电动15和农村柴油泵是河北品锦机械在邢台的紧凑型混凝土泵。垂直输送高度：电动15标出 15–20 m；农村柴油泵标出 10–30 m。同一标题下数值相同的有：最大骨料粒径两边都是 1–3 cm。先看写出的动力是电机还是柴油机，再读那一页自己的距离范围。"
       }
     },
     {
       "heading": {
-        "en": "Cells that exist on only one of these pumps",
-        "zh": "只在其中一台泵上出现的格子"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "Electric 15 prints cells that Rural diesel pump does not: Motor power 15 kW; Delivery pipe diameter 100–125 mm. Rural diesel pump prints cells that Electric 15 does not: Diesel engine power 17 kW; Pumping pressure 15 MPa; Hopper capacity 0.2 m³. A blank or missing label is not filled from the other concrete pump.",
-        "zh": "电动15有、农村柴油泵没有的行：电机功率 15 kW；输送管内径 100–125 mm。农村柴油泵有、电动15没有的行：柴油机功率 17 kW；泵送压力 15 MPa；料斗容积 0.2 m³。缺了的标题不能用另一台混凝土泵来补。"
+        "en": "Electric 15 lists a 15 kW motor, 8–10 m³/h, vertical 15–20 m and horizontal 60–80 m. Vertical delivery height: Electric 15 lists 15–20 m. Rural diesel pump lists 10–30 m. The same shown value on a shared label: Max. aggregate size is 1–3 cm on both pages. Rural diesel pump lists entries that Electric 15 does not: Diesel engine power 17 kW. Pumping pressure 15 MPa. Hopper capacity 0.2 m³. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei.",
+        "zh": "电动15标出 15 kW 电机、8–10 m³/h、垂直 15–20 m、水平 60–80 m。水平输送距离：电动15标出 60–80 m；农村柴油泵标出 30–50 m。以上是河北品锦机械在邢台混凝土泵页面上写出的格子，不是把一台机器换算成另一台。看电动15请打开 /zh/products/electric-15-concrete-pump/，看农村柴油泵请打开 /zh/products/rural-diesel-concrete-pump/。"
       }
     },
     {
       "heading": {
-        "en": "How to read the two pages without merging them",
-        "zh": "怎样分开阅读这两个页面"
+        "en": "Specialised types of generator",
+        "zh": "专用发电机类型"
       },
       "body": {
-        "en": "Choose by the printed power line, motor or diesel engine, and then read that page's own range. Open /en/products/electric-15-concrete-pump/ for Electric 15 and /en/products/rural-diesel-concrete-pump/ for Rural diesel pump. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei. The number in a commercial name is not a licence to copy output, pressure or distance. If a job needs a figure this pair does not print, use the contact page rather than inventing a bore, stroke or price.",
-        "zh": "先看印出的动力是电机还是柴油机，再读那一页自己的距离范围。看电动15请打开 /zh/products/electric-15-concrete-pump/，看农村柴油泵请打开 /zh/products/rural-diesel-concrete-pump/。河北品锦机械在河北邢台制造这些混凝土泵。商品名里的数字不能用来抄产量、压力或距离。如果工况需要这对机型没有印出的数字，请走联系页，不要编造缸径、行程或价格。"
+        "en": "The rural pump lists 17 kW, 5–8 m³/h, horizontal 30–50 m and vertical 10–30 m. Horizontal delivery distance: Electric 15 lists 60–80 m. Rural diesel pump lists 30–50 m. These are shown entries on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. A blank or missing label is not filled from the other concrete pump. The number in a commercial name is not a licence to copy output, pressure or distance.",
+        "zh": "农村泵标出 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。外形尺寸：电动15标出 1900 × 900 × 1200 mm；农村柴油泵标出 2200 × 1100 × 1250 mm。电动15有、农村柴油泵没有的行：电机功率 15 kW；输送管内径 100–125 mm。商品名里的数字不能用来抄产量、压力或距离。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Common use cases",
+        "zh": "常见用途"
+      },
+      "body": {
+        "en": "Aggregate is 1–3 cm on both pages. Dimensions: Electric 15 lists 1900 × 900 × 1200 mm. Rural diesel pump lists 2200 × 1100 × 1250 mm. They are not a calculated conversion from one model to the other. Choose by the shown power line, motor or diesel engine, and then read that page's own range. If a job needs a figure this pair does not list, use the contact page rather than inventing a bore, stroke or price.",
+        "zh": "理论输送量：电动15标出 8–10 m³/h；农村柴油泵标出 5–8 m³/h。整机重量：电动15标出 450 kg；农村柴油泵标出 800 kg。农村柴油泵有、电动15没有的行：柴油机功率 17 kW；泵送压力 15 MPa；料斗容积 0.2 m³。如果工况需要这对机型没有写出的数字，请走联系页，不要编造缸径、行程或价格。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 15 print the same theoretical output as Rural diesel pump?",
+        "en": "Does Electric 15 list the same theoretical output as Rural diesel pump?",
         "zh": "电动15和农村柴油泵的理论输送量一样吗？"
       },
       "answer": {
-        "en": "No. Electric 15 prints 8–10 m³/h. Rural diesel pump prints 5–8 m³/h. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动15印 8–10 m³/h。农村柴油泵印 5–8 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric 15 lists 8–10 m³/h. Rural diesel pump lists 5–8 m³/h. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Electric_generator.",
+        "zh": "不一样。电动15标出 8–10 m³/h。农村柴油泵标出 5–8 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Electric_generator画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 15 print the same vertical delivery height as Rural diesel pump?",
+        "en": "Does Electric 15 list the same vertical delivery height as Rural diesel pump?",
         "zh": "电动15和农村柴油泵的垂直输送高度一样吗？"
       },
       "answer": {
-        "en": "No. Electric 15 prints 15–20 m. Rural diesel pump prints 10–30 m. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动15印 15–20 m。农村柴油泵印 10–30 m。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric 15 lists 15–20 m. Rural diesel pump lists 10–30 m. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Electric_generator.",
+        "zh": "不一样。电动15标出 15–20 m。农村柴油泵标出 10–30 m。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Electric_generator画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 15 print the same horizontal delivery distance as Rural diesel pump?",
+        "en": "Does Electric 15 list the same horizontal delivery distance as Rural diesel pump?",
         "zh": "电动15和农村柴油泵的水平输送距离一样吗？"
       },
       "answer": {
-        "en": "No. Electric 15 prints 60–80 m. Rural diesel pump prints 30–50 m. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动15印 60–80 m。农村柴油泵印 30–50 m。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric 15 lists 60–80 m. Rural diesel pump lists 30–50 m. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Electric_generator.",
+        "zh": "不一样。电动15标出 60–80 m。农村柴油泵标出 30–50 m。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Electric_generator画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Why is motor power missing on Rural diesel pump?",
+        "en": "On this row: Why is motor power missing on Rural diesel pump?",
         "zh": "为什么农村柴油泵没有电机功率？"
       },
       "answer": {
-        "en": "The Rural diesel pump page does not print that label. Electric 15 prints 15 kW. Leave the missing cell blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps.",
-        "zh": "农村柴油泵这一页没有印这个标题。电动15印的是 15 kW。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。"
+        "en": "The Rural diesel pump page does not list that label. Electric 15 lists 15 kW. Leave the missing entry blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps. It is not a figure printed inside https://en.wikipedia.org/wiki/Electric_generator.",
+        "zh": "农村柴油泵这一页没有标出这个标题。电动15标出的是 15 kW。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。它不是https://en.wikipedia.org/wiki/Electric_generator画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/electric-15-vs-rural-diesel-concrete-pump-pinjin.webp",
+    "src": "/images/articles/knowledge/electric-15-vs-rural-diesel-concrete-pump-modern-steam-turbine-generator.jpg",
     "alt": {
-      "en": "Electric 15 concrete pump, catalogue comparison, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "电动15混凝土泵目录对照，河北品锦机械，河北邢台"
+      "en": "Modern Steam Turbine Generator. Image from the source page: https://en.wikipedia.org/wiki/Electric_generator.",
+      "zh": "Modern Steam Turbine Generator。图来自来源页：https://en.wikipedia.org/wiki/Electric_generator。"
     }
   },
   "relatedPaths": [
@@ -126,7 +136,8 @@
     "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
     "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Electric_generator"
   ],
   "status": "draft"
 }

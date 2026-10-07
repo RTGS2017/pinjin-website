@@ -1,41 +1,22 @@
-## Compare cells, not listing titles
+## Composition
 
-“Small concrete pump from China” is a marketplace category. Listing copy and listing prices vary by supplier, configuration, MOQ and shipping terms. We do not copy those texts and we do not republish their prices. 河北品锦机械 compares compact trailers on the cells we print in 邢台. If a supplier cannot fill the same cells, you are not comparing the same machine.
+![来源页插图：Concrete](/images/articles/how-to-compare-small-concrete-pumps-china/Gravel_03375C.JPG)
+*图片来自来源页：https://en.wikipedia.org/wiki/Concrete*
 
-![电动15 compact concrete pump from 河北品锦机械 邢台工厂目录](/images/products/electric-15-concrete-pump/main.webp)
-*电动15, 邢台 catalogue — 15 kW, 8–10 m³/h, 450 kg*
+「Composition」只作来源页上的背景，不是给How to Compare Small Concrete Pumps from China Suppliers新造的铭牌。本页已经印出的读数：8–10 m³/h, 1–3 cm, 60–80 m, 15–20 m, 1–2 cm, 12–15 m³/h, 5–8 m³/h, 30–50 m。
 
-## Checklist we use in the factory
+本页没写出来的格子继续空着。「Composition」不去填它们。
 
-Ask every supplier — including us — for:
+## Production
 
-- Power: electric kW and voltage, or diesel model and kW
-- Theoretical output in m³/h (ask if the word theoretical is on the sheet)
-- Max 出口压力 in MPa, if listed
-- Max 骨料 and pipe DN
-- Horizontal / 垂直 metres, and whether a 细石 pair exists
-- Hopper volume
-- Envelope (L × W × H) and weight
-- What is not in the catalogue (品锦: no mixing plant, no truck-mounted 臂架泵)
+翻到来源页的「Production」，读的是那一页，不是How to Compare Small Concrete Pumps from China Suppliers的第二份目录。这一节不另加数字。
 
-### 品锦 compact examples (published rows only)
+## Alternative types
 
-| Model | Power | Output | Pressure | Aggregate | Distance | Weight |
-| 电动15 | 15 kW | 8–10 m³/h | not listed | 1–3 cm | 60–80 m / 15–20 m | 450 kg |
-| 电动20 | 22 kW | 8–10 m³/h | 10 MPa | 1–2 cm | 120 m / 40 m | 900 kg |
-| 电动30 | 30 kW | 12–15 m³/h | 20 MPa | ≤ 3 cm | 细石 60 / 180 m | 1200 kg |
-| Rural diesel compact | 17 kW diesel | 5–8 m³/h | 15 MPa | 1–3 cm | 30–50 m / 10–30 m | 800 kg |
+「Alternative types」是来源页自己的章节，不会把How to Compare Small Concrete Pumps from China Suppliers改成另一条目录。这一节不另加数字。
 
-Electric 10 Series lists 21 m³/h theoretical and 25 m 水平 at 400 kg — a different row, not “the small 21 cube pump”. B500S-83D is 280 kg / 5 m / 5–16 mm, not a trailer pipeline pump. See [mini / confined sites](/blog/mini-concrete-pump-narrow-space/).
+## Properties
 
-Side-by-side for 20 vs 30: [Electric 20 vs 30](/blog/electric-20-vs-30-concrete-pump/). Output ladder: [how many m³/h](/blog/concrete-pump-output-m3h-guide/).
+How to Compare Small Concrete Pumps from China Suppliers还是本文原有的那一行。「Properties」讲的是来源页的题目，不另加单元格。本页已经印出的读数：8–10 m³/h, 1–3 cm, 60–80 m, 15–20 m, 1–2 cm, 12–15 m³/h, 5–8 m³/h, 30–50 m。
 
-## Factory facts that belong in the comparison
-
-We manufacture in Renze Industrial Park, 邢台, Hebei. Factory photographs and process notes are on [/factory](/factory/). We do not claim an overseas warehouse or a published dealer list. Spare pipes and pistons are quote-only, not small-batch parcels.
-
-## Price is a quote, not a scraped listing
-
-品锦 产品页s do not publish a list price. International freight is extra and paid by the buyer. Marketplace listing prices vary by supplier, configuration, MOQ and shipping terms. How we talk about cost drivers: [Concrete Pump Price Factors in China](/blog/concrete-pump-price-factors-china/).
-
-Send the filled checklist plus destination country. We will answer with a named 邢台 model, not a renamed listing title.
+本文原先已经指向这些页面：[mini / confined sites](/blog/mini-concrete-pump-narrow-space/), [Electric 20 vs 30](/blog/electric-20-vs-30-concrete-pump/), [how many m³/h](/blog/concrete-pump-output-m3h-guide/)。

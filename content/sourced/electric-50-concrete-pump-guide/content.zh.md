@@ -1,29 +1,22 @@
-## Catalogue Electric 50 row
+## Sources and loads
 
-Electric 50 Concrete Pump is an electric 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 55 kW motor, 26 m³/h, 30 MPa, fine stone 150 m / 350 m. 料斗 0.4 m³, Kawasaki 140 hydraulic pump, 4100 × 1600 × 1600 mm, 2800 kg. Same page: 13 mm stone 80 m / 240 m; 24 mm stone 60 m / 180 m.
+![来源页插图：Electric power](/images/articles/electric-50-concrete-pump-guide/Electric_source_and_load_animation_2.gif)
+*图片来自来源页：https://en.wikipedia.org/wiki/Electric_power*
 
-![Electric 50 concrete pump factory product photo, 河北品锦机械 邢台](/images/products/electric-50-concrete-pump/electric-50-concrete-pump.webp)
-*Electric 50, 邢台 catalogue — 55 kW, 26 m³/h, fine stone 150 m / 350 m*
+「Sources and loads」是背景。Electric 50 Concrete Pump Catalogue Row的询价仍看已经写下的单元格。本页已经印出的读数：4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm。
 
-## Neighbour electric rows
+本页没写出来的格子继续空着。「Sources and loads」不去填它们。
 
-| Model | Motor | Theoretical output | Pressure | Fine-stone distance | Weight |
-| Electric 40 | 45 kW | 21 m³/h | 23 MPa | 120 m / 360 m | 2300 kg |
-| Electric 50 | 55 kW | 26 m³/h | 30 MPa | 150 m / 350 m | 2800 kg |
-| Electric 60 | 90 kW | 40 m³/h | 35 MPa | 200 m / 600 m | 3300 kg |
-| Diesel 40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm 骨料) | 2800 kg |
+## Passive sign convention
 
-SmartBuy asks buyers to match m³/h to daily pour volume. Electric 50 prints 26 m³/h; the guide’s trailer band 30–90 m³/h is not this cell. Hub: [electric concrete pumps](/products/electric-concrete-pumps/). Output ladder: [output m³/h](/blog/concrete-pump-output-m3h-guide/).
+「Passive sign convention」只作来源页上的背景，不是给Electric 50 Concrete Pump Catalogue Row新造的铭牌。这一节不另加数字。
 
-## When this row fits
+## Resistive circuits
 
-Grid sites matching 26 m³/h, 30 MPa and the printed stone-distance pairs on a 2800 kg trailer.
+翻到来源页的「Resistive circuits」，读的是那一页，不是Electric 50 Concrete Pump Catalogue Row的第二份目录。这一节不另加数字。
 
-## When to open another page
+## Alternating current
 
-- 21 m³/h / 45 kW / 23 MPa → [Electric 40](/products/electric-40-concrete-pump/).
-- 40 m³/h / 90 kW / fine stone 200 m / 600 m → [Electric 60](/products/electric-60-concrete-pump/).
-- 26 m³/h without grid → [Diesel 40](/products/diesel-40-concrete-pump/).
-- Not a truck-mounted placing boom and not a 搅拌站.
+「Alternating current」是来源页自己的章节，不会把Electric 50 Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm。
 
-Product page: [Electric 50 concrete pump](/products/electric-50-concrete-pump/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[electric concrete pumps](/products/electric-concrete-pumps/), [output m³/h](/blog/concrete-pump-output-m3h-guide/), [Electric 40](/products/electric-40-concrete-pump/)。

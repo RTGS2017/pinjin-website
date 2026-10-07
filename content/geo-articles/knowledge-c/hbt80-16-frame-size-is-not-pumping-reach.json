@@ -7,57 +7,67 @@
     "zh": "HBT80-16混凝土泵外形尺寸和泵送距离"
   },
   "title": {
-    "en": "Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach",
-    "zh": "为什么HBT80-16混凝土泵的外形尺寸不是泵送距离"
+    "en": "HBT80-16 Concrete Pump dimensions versus pumping distance — Calculate hydraulic diameter for pipes and ducts.",
+    "zh": "HBT80-16混凝土泵外形尺寸和泵送距离——计算管道和风管的水力直径"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery prints the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm. Total Weight is 6500 kg. Those figures describe the ",
-    "zh": "河北品锦机械在邢台把HBT80-16混凝土泵印成：外形尺寸是6600 × 1750 × 1800 mm。整机重量是6500 kg。这些数字描述的是机身，不是管路。理论输送量是50 m³/h，泵送压力是40 MPa。画面「混凝土」的主体是Hormigonera rafax，不是这个型号的工地实测。"
+    "en": "HBT80-16 Concrete Pump dimensions versus pumping distance Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach Hebei Pinjin Machinery lists the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm.",
+    "zh": "HBT80-16混凝土泵外形尺寸和泵送距离为什么HBT80-16混凝土泵的外形尺寸不是泵送距离河北品锦机械在邢台把HBT80-16混凝土泵写成：外形尺寸是6600 × 1750 × 1800 mm。"
   },
   "h1": {
-    "en": "Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach",
-    "zh": "为什么HBT80-16混凝土泵的外形尺寸不是泵送距离"
+    "en": "HBT80-16 Concrete Pump dimensions versus pumping distance — Calculate hydraulic diameter for pipes and ducts.",
+    "zh": "HBT80-16混凝土泵外形尺寸和泵送距离——计算管道和风管的水力直径"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm. Total Weight is 6500 kg. Those figures describe the machine body, not the pipeline. Theoretical Output is 50 m³/h and Pumping Pressure is 40 MPa. The frame “混凝土” shows Hormigonera rafax and is not a site measurement of this model.",
-    "zh": "河北品锦机械在邢台把HBT80-16混凝土泵印成：外形尺寸是6600 × 1750 × 1800 mm。整机重量是6500 kg。这些数字描述的是机身，不是管路。理论输送量是50 m³/h，泵送压力是40 MPa。画面「混凝土」的主体是Hormigonera rafax，不是这个型号的工地实测。"
+    "en": "HBT80-16 Concrete Pump dimensions versus pumping distance Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach Hebei Pinjin Machinery lists the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm.",
+    "zh": "HBT80-16混凝土泵外形尺寸和泵送距离为什么HBT80-16混凝土泵的外形尺寸不是泵送距离河北品锦机械在邢台把HBT80-16混凝土泵写成：外形尺寸是6600 × 1750 × 1800 mm。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Body size and pumping duty use different units",
-        "zh": "机身尺寸和泵送工作用的不是同一套单位"
+        "en": "Calculate hydraulic diameter for pipes and ducts.",
+        "zh": "计算管道和风管的水力直径"
       },
       "body": {
-        "en": "Dimensions (L×W×H) is 6600 × 1750 × 1800 mm. Total Weight is 6500 kg. Millimetres and kilograms do not become metres of pipeline. Distance cells, where the sheet prints them, keep their own labels.",
-        "zh": "外形尺寸是6600 × 1750 × 1800 mm。整机重量是6500 kg。毫米和千克不会变成管路的米。目录如果另印了距离格，那些格仍用自己的标题。"
+        "en": "https://www.engineeringtoolbox.com/hydraulic-equivalent-diameter-d_458.html HBT80-16 Concrete Pump dimensions versus pumping distance Those figures describe the Body size and pumping duty use different units Do not scale the frame into a capacity Pressure stays in its own cell Total Weight 6500 kg. No. Frame figures are body size or mass, not pipeline metres. No. Use the listed dimension cell, and only if it exists.",
+        "zh": "https://www.engineeringtoolbox.com/hydraulic-equivalent-diameter-d_458.htmlHBT80-16混凝土泵外形尺寸和泵送距离这些数字描述的是机身，不是管路。外形尺寸是6600 × 1750 × 1800 mm。画面里机器看起来更宽，并不等于理论输送量更高。最大骨料粒径 4 cm and below。HBT80-16混凝土泵的外形文字是什么？写出的输送量是多少？只用已经写出的外形尺寸格。"
       }
     },
     {
       "heading": {
-        "en": "Do not scale the frame into a capacity",
-        "zh": "不要把这一帧缩放成产量"
+        "en": "Hydraulic Diameter of a Circular Tube or Duct",
+        "zh": "圆管的水力直径"
       },
       "body": {
-        "en": "Source: zh.wikipedia.org, “混凝土”. Subject: Hormigonera rafax. A wider-looking machine in a frame is not a higher Theoretical Output. The printed output stays 50 m³/h.",
-        "zh": "来源：zh.wikipedia.org，「混凝土」。主体：Hormigonera rafax。画面里机器看起来更宽，并不等于理论输送量更高。印出的输送量仍是50 m³/h。"
+        "en": "Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach Those figures describe the machine body, not the pipeline. Dimensions (L×W×H) is 6600 × 1750 × 1800 mm. Subject: Hormigonera rafax. Pumping Pressure is 40 MPa. None of these is a price, a service life or a country list. What is the listed output? Hebei Pinjin Machinery, Xingtai, Hebei, China",
+        "zh": "为什么HBT80-16混凝土泵的外形尺寸不是泵送距离理论输送量是50 m³/h，泵送压力是40 MPa。毫米和千克不会变成管路的米。写出的输送量仍是50 m³/h。输送管内径 100 / 125 mm。那是泵送距离吗？50 m³/h。河北品锦机械，中国河北邢台"
       }
     },
     {
       "heading": {
-        "en": "Pressure stays in its own cell",
-        "zh": "压力留在自己的格子里"
+        "en": "Hydraulic Diameter of Circular Tube with Circular Tube on the Inside",
+        "zh": "套有内圆管时的水力直径"
       },
       "body": {
-        "en": "Pumping Pressure is 40 MPa. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Total Weight 6500 kg. None of these is a price, a service life or a country list.",
-        "zh": "泵送压力是40 MPa。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。整机重量 6500 kg。这些都不是价格、使用寿命或国家名单。"
+        "en": "Hebei Pinjin Machinery lists the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm. Theoretical Output is 50 m³/h and Pumping Pressure is 40 MPa. Millimetres and kilograms do not become metres of pipeline. A wider-looking machine in a frame is not a higher Theoretical Output. Max. Aggregate Size 4 cm and below. What frame text does HBT80-16 Concrete Pump list? 50 m³/h. Hormigonera rafax.",
+        "zh": "河北品锦机械在邢台把HBT80-16混凝土泵写成：外形尺寸是6600 × 1750 × 1800 mm。画面「混凝土」的主体是Hormigonera rafax，不是这个型号的工地实测。目录如果另写了距离格，那些格仍用自己的标题。压力留在自己的格子里整机重量 6500 kg。不是。可以用画面里的外观尺寸代替目录吗？Hormigonera rafax。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Hydraulic Diameter of Rectangular Tubes or Ducts",
+        "zh": "矩形管的水力直径"
+      },
+      "body": {
+        "en": "Total Weight is 6500 kg. The frame “混凝土” shows Hormigonera rafax and is not a site measurement of this model. Distance cells, where the sheet lists them, keep their own labels. The listed output stays 50 m³/h. Delivery Pipe Diameter 100 / 125 mm. Is that the pumping distance? Can the frame's apparent size replace the sheet? Subject of the frame for the HBT80-16 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "整机重量是6500 kg。机身尺寸和泵送工作用的不是同一套单位主体：Hormigonera rafax。泵送压力是40 MPa。这些都不是价格、使用寿命或国家名单。外形数字是机身尺寸或质量，不是管路米数。不能。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What frame text does HBT80-16 Concrete Pump print?",
+        "en": "What frame text does HBT80-16 Concrete Pump list?",
         "zh": "HBT80-16混凝土泵的外形文字是什么？"
       },
       "answer": {
@@ -77,8 +87,8 @@
     },
     {
       "question": {
-        "en": "What is the printed output?",
-        "zh": "印出的输送量是多少？"
+        "en": "What is the listed output?",
+        "zh": "写出的输送量是多少？"
       },
       "answer": {
         "en": "50 m³/h.",
@@ -91,16 +101,16 @@
         "zh": "可以用画面里的外观尺寸代替目录吗？"
       },
       "answer": {
-        "en": "No. Use the printed dimension cell, and only if it exists.",
-        "zh": "不能。只用已经印出的外形尺寸格。"
+        "en": "No. Use the listed dimension cell, and only if it exists.",
+        "zh": "不能。只用已经写出的外形尺寸格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/hormigonera-rafax-concrete-pump.webp",
+    "src": "/images/articles/knowledge/hbt80-16-frame-size-is-not-pumping-reach.png",
     "alt": {
-      "en": "Hormigonera rafax. Subject of the frame for the HBT80-16 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "Hormigonera rafax。HBT80-16混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/hydraulic-equivalent-diameter-d_458.html",
+      "zh": "https://www.engineeringtoolbox.com/hydraulic-equivalent-diameter-d_458.html"
     }
   },
   "relatedPaths": [
@@ -117,7 +127,8 @@
     "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/hydraulic-equivalent-diameter-d_458.html"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +136,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery prints the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm. Total Weight is 6500 kg. Those figures describe the machine body, not the pipeline. Theoretical Output is 50 m³/h and Pumping Pressure is 40 MPa. The frame “混凝土” shows Hormigonera rafax and is not a site measurement of this model.",
-      "zh": "河北品锦机械在邢台把HBT80-16混凝土泵印成：外形尺寸是6600 × 1750 × 1800 mm。整机重量是6500 kg。这些数字描述的是机身，不是管路。理论输送量是50 m³/h，泵送压力是40 MPa。画面「混凝土」的主体是Hormigonera rafax，不是这个型号的工地实测。"
+      "en": "HBT80-16 Concrete Pump dimensions versus pumping distance Why HBT80-16 Concrete Pump Frame Size Is Not Pumping Reach Hebei Pinjin Machinery lists the HBT80-16 Concrete Pump in Xingtai with Dimensions (L×W×H) is 6600 × 1750 × 1800 mm.",
+      "zh": "HBT80-16混凝土泵外形尺寸和泵送距离为什么HBT80-16混凝土泵的外形尺寸不是泵送距离河北品锦机械在邢台把HBT80-16混凝土泵写成：外形尺寸是6600 × 1750 × 1800 mm。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

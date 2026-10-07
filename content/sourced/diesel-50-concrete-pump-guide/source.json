@@ -1,7 +1,7 @@
 {
-  "title": "Diesel 50 Concrete Pump Catalogue Row",
-  "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
-  "description": "Diesel 50 is a Xingtai diesel trailer pump listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm aggregate), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
+  "title": "Piston, turbine and rotor chapters do not relabel Diesel 50",
+  "seoTitle": "Later engine chapters beside the Diesel 50 row",
+  "description": "The internal-combustion source also has chapters on reciprocating engines, combustion turbines, Wankel engines and forced induction. Diesel 50 stays the printed 6105 diesel at 99 kW, 30 m³/h, 30 MPa and 150 m / 450 m for 1 cm aggregate.",
   "primaryKeyword": "Diesel 50 concrete pump",
   "secondaryKeywords": [
     "6105 diesel concrete pump",
@@ -55,8 +55,8 @@
     }
   ],
   "answerBlock": {
-    "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm aggregate), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a boom pump or mixing plant.",
-    "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm aggregate) to a trailer diesel pour.",
+    "what": "Diesel 50 is a reciprocating diesel row already printed in Xingtai, not a turbine and not a Wankel.",
+    "who": "Readers who reached the later engine chapters and still need the Diesel 50 nameplate.",
     "factors": [
       "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
       "Theoretical output 30 m³/h",
@@ -72,20 +72,25 @@
   },
   "faqs": [
     {
-      "question": "Is Diesel 50 an electric-catalogue substitute?",
-      "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+      "question": "Is the 30 MPa cell a boost pressure?",
+      "answer": "No. 30 MPa is the printed concrete-pump outlet pressure. Forced induction on the source page does not fill that cell."
     },
     {
-      "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
-      "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+      "question": "Does a Wankel chapter add a rotor size?",
+      "answer": "No. Diesel 50 prints a 6105 diesel. This page does not add a rotor displacement."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-50-concrete-pump/diesel-50-concrete-pump.webp",
-    "alt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel 50 trailer pump, Xingtai catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m"
+    "src": "/images/articles/diesel-50-concrete-pump-guide/Clevelandblock.jpg",
+    "alt": "Figure from the source page about internal combustion engines",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Internal_combustion_engine"
   },
   "sources": [
+    {
+      "name": "Internal combustion engine (source page)",
+      "url": "https://en.wikipedia.org/wiki/Internal_combustion_engine",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Diesel 50 product page",
       "url": "https://pinjinpump.com/en/products/diesel-50-concrete-pump/",
@@ -110,9 +115,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Diesel 50 Concrete Pump Catalogue Row",
-      "description": "Diesel 50 is a 邢台 diesel 拖式泵 listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm 骨料), Kawasaki 140, 3300 kg. It is not 柴油40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Diesel 50 concrete pump factory product photo, 河北品锦机械 邢台",
+      "title": "活塞、涡轮和转子这几章不会改掉柴油50的名字",
+      "description": "内燃机来源页后面还有往复式发动机、燃气轮机、汪克尔发动机和强制进气。柴油50仍是已印的 6105 柴油机：99 kW、30 m³/h、30 MPa，1 cm 骨料时 150 m / 450 m。",
+      "imageAlt": "来源页上关于内燃机的图",
       "relatedPathLabels": [
         "Diesel 50 concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -120,8 +125,8 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm 骨料), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not 柴油40, not Diesel 60 and not a 臂架泵 or mixing plant.",
-        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm 骨料) to a trailer diesel pour.",
+        "what": "柴油50是邢台已经印出的往复活塞柴油行，不是轮机，也不是汪克尔。",
+        "who": "读到发动机页靠后几章、仍然要看柴油50铭牌的读者。",
         "factors": [
           "6105 / 99 kW versus 柴油40 at 4108 / 66 kW and Diesel 60 at 144 kW",
           "Theoretical output 30 m³/h",
@@ -129,23 +134,23 @@
           "Kawasaki 140 hydraulic pump and 3300 kg frame"
         ]
       },
-      "seoTitle": "Diesel 50 Concrete Pump | 品锦 6105 99 kW",
-      "imageCaption": "Diesel 50 拖式泵, 邢台 catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "seoTitle": "靠后的发动机章节对照柴油50",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Internal_combustion_engine",
       "faqs": [
         {
-          "question": "Is Diesel 50 an electric-catalogue substitute?",
-          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+          "question": "30 MPa 是增压压力吗？",
+          "answer": "不是。30 MPa 是已经印出的混凝土泵出口压力。来源页上的强制进气不会填这个格子。"
         },
         {
-          "question": "Does Diesel 50 replace 柴油40 or Diesel 60?",
-          "answer": "No. 柴油40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+          "question": "汪克尔这一章会补一个转子排量吗？",
+          "answer": "不会。柴油50印的是 6105 柴油机。本页不补转子排量。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel 50 Concrete Pump Catalogue Row",
-      "description": "Diesel 50 is a Xingtai diesel bomba reboque listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm agregado), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
+      "title": "Capítulos de pistão, turbina e rotor não rebatizam o Diesel 50",
+      "description": "A origem sobre combustão interna também tem capítulos sobre motores alternativos, turbinas de combustão, motores Wankel e indução forçada. O Diesel 50 continua o diesel 6105 impresso: 99 kW, 30 m³/h, 30 MPa e 150 m / 450 m para agregado de 1 cm.",
+      "imageAlt": "Figura da página de origem sobre motores de combustão interna",
       "relatedPathLabels": [
         "Diesel 50 concrete pump página do produto",
         "Diesel concrete pump manufacturer China",
@@ -153,8 +158,8 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm agregado), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a bomba lança or mixing plant.",
-        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm agregado) to a trailer diesel pour.",
+        "what": "O Diesel 50 é uma linha diesel alternativa já impressa em Xingtai, não uma turbina nem um Wankel.",
+        "who": "Leitores que chegaram aos capítulos posteriores do motor e ainda precisam da placa do Diesel 50.",
         "factors": [
           "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
           "Theoretical output 30 m³/h",
@@ -162,23 +167,23 @@
           "Kawasaki 140 hydraulic pump and 3300 kg frame"
         ]
       },
-      "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
-      "imageCaption": "Diesel 50 bomba reboque, Xingtai catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "seoTitle": "Capítulos posteriores do motor junto da linha Diesel 50",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Internal_combustion_engine",
       "faqs": [
         {
-          "question": "Is Diesel 50 an electric-catalogue substitute?",
-          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+          "question": "A célula de 30 MPa é pressão de sobrealimentação?",
+          "answer": "Não. 30 MPa é a pressão de saída da bomba já impressa. A indução forçada da origem não preenche essa célula."
         },
         {
-          "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
-          "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+          "question": "O capítulo Wankel acrescenta um tamanho de rotor?",
+          "answer": "Não. O Diesel 50 imprime um diesel 6105. Esta página não acrescenta cilindrada de rotor."
         }
       ]
     },
     "ar": {
-      "title": "Diesel 50 Concrete Pump Catalogue Row",
-      "description": "Diesel 50 is a شينغتاي diesel مضخة مقطورة listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm ركام), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "title": "فصول المكبس والعنفة والدوار لا تعيد تسمية الديزل 50",
+      "description": "في صفحة الاحتراق الداخلي فصول لاحقة عن المحركات الترددية وعنفات الاحتراق ومحركات فانكل والحث القسري. يبقى الديزل 50 ديزل 6105 المطبوع: 99 كيلوواط، 30 م³/س، 30 ميغاباسكال و150 م / 450 م لركام 1 سم.",
+      "imageAlt": "شكل من صفحة المصدر عن محركات الاحتراق الداخلي",
       "relatedPathLabels": [
         "Diesel 50 concrete pump صفحة المنتج",
         "Diesel concrete pump manufacturer China",
@@ -186,8 +191,8 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm ركام), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a مضخة ذراع or mixing plant.",
-        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm ركام) to a trailer diesel pour.",
+        "what": "الديزل 50 صف ديزل ترددي مطبوع في شينغتاي، وليس عنفة ولا فانكل.",
+        "who": "قرّاء وصلوا إلى فصول المحرك اللاحقة وما زالوا يحتاجون لوحة الديزل 50.",
         "factors": [
           "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
           "Theoretical output 30 m³/h",
@@ -195,23 +200,23 @@
           "Kawasaki 140 hydraulic pump and 3300 kg frame"
         ]
       },
-      "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
-      "imageCaption": "Diesel 50 مضخة مقطورة, شينغتاي catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "seoTitle": "فصول المحرك اللاحقة بجانب صف الديزل 50",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Internal_combustion_engine",
       "faqs": [
         {
-          "question": "Is Diesel 50 an electric-catalogue substitute?",
-          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+          "question": "هل خلية 30 ميغاباسكال ضغط تعزيز؟",
+          "answer": "لا. 30 ميغاباسكال هي ضغط مخرج مضخة الخرسانة المطبوع. الحث القسري في المصدر لا يملأ هذه الخلية."
         },
         {
-          "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
-          "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+          "question": "هل يضيف فصل فانكل حجم دوار؟",
+          "answer": "لا. يطبع الديزل 50 ديزل 6105. هذه الصفحة لا تضيف إزاحة دوار."
         }
       ]
     },
     "ru": {
-      "title": "Diesel 50 Concrete Pump Catalogue Row",
-      "description": "Diesel 50 is a Синтай diesel прицепной насос listing 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm заполнитель), Kawasaki 140, 3300 kg. It is not Diesel 40 (66 kW, 26 m³/h) and not Diesel 60 (144 kW, 35 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
+      "title": "Главы о поршне, турбине и роторе не переименовывают Diesel 50",
+      "description": "На странице о ДВС есть и более поздние главы: поршневые двигатели, турбины, Ванкель и наддув. Diesel 50 остаётся напечатанным дизелем 6105: 99 кВт, 30 м³/ч, 30 МПа и 150 м / 450 м при заполнителе 1 см.",
+      "imageAlt": "Иллюстрация со страницы-источника о двигателях внутреннего сгорания",
       "relatedPathLabels": [
         "Diesel 50 concrete pump страница изделия",
         "Diesel concrete pump manufacturer China",
@@ -219,8 +224,8 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm заполнитель), hopper 0.4 m³, Kawasaki 140, 4600 × 1650 × 1850 mm, 3300 kg. It is not Diesel 40, not Diesel 60 and not a автобетононасос со стрелой or mixing plant.",
-        "who": "Contractors on sites without stable grid power matching 30 m³/h, 30 MPa and 150 m / 450 m (1 cm заполнитель) to a trailer diesel pour.",
+        "what": "Diesel 50 — уже напечатанная в Синтае поршневая дизельная строка, не турбина и не Ванкель.",
+        "who": "Читатели, дошедшие до дальних глав о двигателе и всё ещё смотрящие табличку Diesel 50.",
         "factors": [
           "6105 / 99 kW versus Diesel 40 at 4108 / 66 kW and Diesel 60 at 144 kW",
           "Theoretical output 30 m³/h",
@@ -228,18 +233,19 @@
           "Kawasaki 140 hydraulic pump and 3300 kg frame"
         ]
       },
-      "seoTitle": "Diesel 50 Concrete Pump | Pinjin 6105 99 kW",
-      "imageCaption": "Diesel 50 прицепной насос, Синтай catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m",
+      "seoTitle": "Дальние главы о двигателе рядом со строкой Diesel 50",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Internal_combustion_engine",
       "faqs": [
         {
-          "question": "Is Diesel 50 an electric-catalogue substitute?",
-          "answer": "No. Use a diesel row when the site has no stable grid. If grid power already exists, compare the electric hub instead of copying this diesel table."
+          "question": "Ячейка 30 МПа — это давление наддува?",
+          "answer": "Нет. 30 МПа — напечатанное давление на выходе бетононасоса. Наддув со страницы-источника эту ячейку не заполняет."
         },
         {
-          "question": "Does Diesel 50 replace Diesel 40 or Diesel 60?",
-          "answer": "No. Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m. Diesel 60 lists 6105 / 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Match the printed row."
+          "question": "Добавляет ли глава о Ванкеле объём ротора?",
+          "answer": "Нет. Diesel 50 печатает дизель 6105. Эта страница не добавляет рабочий объём ротора."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

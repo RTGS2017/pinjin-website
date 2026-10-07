@@ -1,41 +1,22 @@
-## Catalogue pressure is a cell, not a derived curve
+## Procedure
 
-Buyers ask us to “calculate” pumping pressure from slump. We will not invent that equation. On 品锦 产品页s, max 出口压力 is a printed cell. Conveying distance is another printed cell. Mix slump is a site figure you send with the inquiry. ACI 304.2R-17 is the industry document we cite for conventional slump bands and 骨料-to-pipe limits.
+![来源页插图：Concrete slump test](/images/articles/concrete-pumping-pressure-slump-aggregate/Cono_de_Abrams_05.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Concrete_slump_test*
 
-![电动40 concrete pump, 23 MPa catalogue 出口压力, 河北品锦机械 邢台](/images/products/electric-40-concrete-pump/main.webp)
-*电动40, 邢台 catalogue — 45 kW, 21 m³/h, 23 MPa*
+「Procedure」是来源页自己的章节，不会把Concrete Pumping Pressure, Slump and Aggregate改成另一条目录。本页已经印出的读数：8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h。
 
-## Published 出口压力 on nearby electric trailers
+本页没写出来的格子继续空着。「Procedure」不去填它们。
 
-| Model | Max 出口压力 | Output | Distance notes |
-| 电动20 | 10 MPa | 8–10 m³/h | 120 m / 40 m; 骨料 1–2 cm |
-| 电动30 | 20 MPa | 12–15 m³/h | 细石 60 m / 180 m; agg13 20 m / 60 m |
-| Electric Low Pressure 40 | 20 MPa | 12–15 m³/h | 细石 80 m / 240 m |
-| 电动40 | 23 MPa | 21 m³/h | 细石 120 m / 360 m; agg13 40 m / 120 m |
+## Interpretation of results
 
-Low Pressure 40 is not a 10 MPa machine. Its printed pressure is 20 MPa, same band as 电动30. The “low pressure” name is a 细石 tune; see the [Low Pressure 40 guide](/blog/low-pressure-40-concrete-pump-guide/). High-rise matching against 电动40 / 60 / 80 catalogue heights is a different article: [high-rise selection](/blog/high-rise-building-concrete-pump-selection/).
+Concrete Pumping Pressure, Slump and Aggregate还是本文原有的那一行。「Interpretation of results」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-## What ACI 304.2R-17 actually says here
+## Limitations of the slump test
 
-We quote the guide, we do not rewrite it into a factory formula:
+把「Limitations of the slump test」和Concrete Pumping Pressure, Slump and Aggregate分开。来源页不填空白格。这一节不另加数字。
 
-- For conventional mixtures without admixtures, a 2–6 in (50–150 mm) slump range has been the traditional target used as a pumpability indicator.
-- Angular coarse 骨料 is limited to one-third of the smallest inside diameter of the pump or pipeline; well-rounded 骨料 to two-fifths.
-- Pumped concrete moves as a cylinder on a lubricating film; the pipeline must be primed, and the mixture must stay stable (non-segregating).
+## Differences in standards
 
-Higher slump with water-reducers exists in the same ACI document as a later development. We do not turn that into a 邢台 dosage table. If your mix uses admixtures, write that in the inquiry along with slump and max stone.
+来源章节「Differences in standards」留在来源页。Concrete Pumping Pressure, Slump and Aggregate仍是这里已经写过的那一行。本页已经印出的读数：8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h。
 
-## Aggregate still has to fit the pump row
-
-Pressure does not cancel an oversized stone. 电动20’s 10 MPa row is still 1–2 cm max 骨料. 电动30’s 20 MPa row is still ≤3 cm, with separate 细石 and agg13 distances. Selection detail: [Fine Stone Concrete Pump: Aggregate Size](/blog/fine-stone-concrete-pump-aggregate-size/).
-
-If the line blocks, release pressure before opening clamps. Never use compressed air to force a plug. That procedure is [Concrete Pump Blockage](/blog/concrete-pump-blockage-causes-prevention/), citing ACPA — not a 品锦 invention.
-
-## Related 品锦 models
-
-- [Electric 20](/products/electric-20-concrete-pump/)
-- [Electric 30](/products/electric-30-concrete-pump/)
-- [Electric Low Pressure 40](/products/electric-low-pressure-40-concrete-pump/)
-- [Electric 40](/products/electric-40-concrete-pump/)
-
-Send slump (and whether it is water or admixture), max stone, pipe DN and length, and the pressure cell you think you need. We will confirm against the printed row only.
+本文原先已经指向这些页面：[Low Pressure 40 guide](/blog/low-pressure-40-concrete-pump-guide/), [high-rise selection](/blog/high-rise-building-concrete-pump-selection/), [Fine Stone Concrete Pump: Aggregate Size](/blog/fine-stone-concrete-pump-aggregate-size/)。

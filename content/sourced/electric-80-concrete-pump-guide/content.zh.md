@@ -1,29 +1,22 @@
-## Catalogue 电动80 row
+## Ideal transformer
 
-电动80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m 水平 / 300 m 垂直 (2 cm 骨料), model HBT80-1816-110. Hopper 0.7 m³, max 骨料 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg.
+![来源页插图：Transformer](/images/articles/electric-80-concrete-pump-guide/Transformer-hightolow_smaller.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Transformer*
 
-![电动80 HBT80 trailer concrete pump factory product photo, 河北品锦机械 邢台](/images/products/electric-80-concrete-pump/electric-80-concrete-pump.webp)
-*电动80, 邢台 catalogue — HBT80-1816-110, 110 kW, 60 m³/h, 900 m / 300 m*
+「Ideal transformer」只作来源页上的背景，不是给电动80 Concrete Pump Catalogue Row新造的铭牌。本页已经印出的读数：6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW。
 
-## Neighbour electric / HBT rows
+本页没写出来的格子继续空着。「Ideal transformer」不去填它们。
 
-| Model | Motor | Theoretical output | Pressure | Distance | Weight |
-| Electric 60 | 90 kW | 40 m³/h | 35 MPa | 细石 200 m / 600 m | 3300 kg |
-| HBT80-16 | 110 kW | 50 m³/h | 40 MPa | 120 m conveying / 360 m delivery height | 6500 kg |
-| 电动80 / HBT80-1816-110 | 110 kW | 60 m³/h | 40 MPa | 900 m / 300 m (2 cm 骨料) | 6000 kg |
-| HBT8018 / HBT8018-132S | 132 kW | 60 m³/h | 40 MPa | 150 m conveying / 450 m delivery height | 6500 kg |
+## Real transformer
 
-High-rise conversion of floors to metres: [high-rise building concrete pump selection](/blog/high-rise-building-concrete-pump-selection/). Output ladder: [concrete pump output m³/h](/blog/concrete-pump-output-m3h-guide/). Hub: [electric concrete pumps](/products/electric-concrete-pumps/).
+翻到来源页的「Real transformer」，读的是那一页，不是电动80 Concrete Pump Catalogue Row的第二份目录。这一节不另加数字。
 
-## When this row fits
+## Transformer EMF equation
 
-High-rise and long-distance pumping inside the listed 900 m / 300 m at 2 cm 骨料. Large commercial and infrastructure pours that need the 60 m³/h catalogue output. Sites that can supply the listed 110 kW motor.
+「Transformer EMF equation」是来源页自己的章节，不会把电动80 Concrete Pump Catalogue Row改成另一条目录。这一节不另加数字。
 
-## When to open another page
+## Polarity
 
-- 40 m³/h / 90 kW / 细石 200 m / 600 m → [Electric 60](/products/electric-60-concrete-pump/).
-- 50 m³/h HBT row → [HBT80-16](/products/hbt80-16-concrete-pump/).
-- 132 kW HBT8018-132S → [HBT8018](/products/hbt8018-concrete-pump/).
-- Not a truck-mounted placing boom and not a concrete batching plant.
+电动80 Concrete Pump Catalogue Row还是本文原有的那一行。「Polarity」讲的是来源页的题目，不另加单元格。本页已经印出的读数：6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW。
 
-Product page: [Electric 80 concrete pump](/products/electric-80-concrete-pump/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[high-rise building concrete pump selection](/blog/high-rise-building-concrete-pump-selection/), [concrete pump output m³/h](/blog/concrete-pump-output-m3h-guide/), [electric concrete pumps](/products/electric-concrete-pumps/)。

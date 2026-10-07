@@ -1,8 +1,8 @@
 {
   "slug": "diesel-mixer-integrated-pump-guide",
-  "title": "Diesel Mixer Integrated Pump Catalogue Row",
-  "seoTitle": "Diesel Mixer Integrated Pump | Pinjin 66–75 kW 25 m³/h Xingtai",
-  "description": "The diesel mixer pump is one Xingtai trailer that mixes and pumps: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m, 13 mm 60 / 180 m, 24 mm 40 / 120 m, 4200 kg. It is not the electric mixer pump (45 kW + 14 kW) and not a batching plant.",
+  "title": "Ready-mix concrete — Design / Advantages of ready-mix concrete / Metered concrete",
+  "seoTitle": "Ready-mix concrete — Design",
+  "description": "Keep “Design” and diesel mixer integrated pump apart. The source does not fill a blank cell. Printed cells already on this page: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
   "primaryKeyword": "diesel mixer integrated pump",
   "secondaryKeywords": [
     "4108 diesel mixer pump",
@@ -45,13 +45,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Diesel Mixer Integrated Pump is a diesel integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m (≤ 1 inch), 13 mm stone 60 / 180 m, 24 mm stone 40 / 120 m, 4100 × 2200 × 3000 mm, 4200 kg. Series note: 30 model with 400 mixer; 40/50 model with 500 mixer. It does not list a separate 14 kW mixer motor. It is not a batching plant.",
-    "who": "Sites that mix and pump on one diesel trailer matched to 25 m³/h, 23 MPa and the printed stone-distance pairs, at 4200 kg.",
+    "what": "Keep “Design” and diesel mixer integrated pump apart. The source does not fill a blank cell. Printed cells already on this page: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+    "who": "Readers checking diesel mixer integrated pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "One 66–75 kW diesel versus the electric mixer pump at 45 kW + 14 kW, 21 m³/h, 4500 kg",
-      "24 mm stone is 40 / 120 m on this page; do not reuse the electric mixer’s 4 cm cell",
-      "Series note names 400 and 500 mixer pairings, not a second hopper",
-      "An Alibaba mixer-with-pump listing title is not this 25 m³/h cell"
+      "4100 × 2200 × 3000 mm",
+      "66–75 kW",
+      "25 m³/h",
+      "23 MPa",
+      "13 mm",
+      "24 mm"
     ],
     "relatedModels": [
       "diesel-mixer-integrated-pump",
@@ -61,20 +63,25 @@
   },
   "faqs": [
     {
-      "question": "Does the diesel mixer pump list a 14 kW mixer motor?",
-      "answer": "No. This page lists one 4108 diesel at 66–75 kW, 25 m³/h, hopper 0.4 m³ and 4200 kg. The electric integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 21 m³/h and 4500 kg. Two product pages."
+      "question": "Does “Design” add a cell to diesel mixer integrated pump?",
+      "answer": "No. Catalogue parameters: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m (≤ 1 inch), 13 mm stone 60 / 180 m, 24 mm stone 40 / 120 m, 4100 × 2200 × 3000 mm, 4200 kg."
     },
     {
-      "question": "What mixer size does the diesel mixer pump series note print?",
-      "answer": "30 model with 400 mixer; 40/50 model with 500 mixer. Output on the page is 25 m³/h. The note is the drum pairing, not a second published m³/h."
+      "question": "Can “Advantages of ready-mix concrete” fill a blank cell for diesel mixer integrated pump?",
+      "answer": "No. Blank cells for diesel mixer integrated pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-mixer-integrated-pump/diesel-mixer-integrated-pump.webp",
-    "alt": "Diesel mixer integrated pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel mixer pump, Xingtai catalogue — 66–75 kW, 25 m³/h, 4200 kg"
+    "src": "/images/articles/diesel-mixer-integrated-pump-guide/Archimedes-screw_one-screw-threads_with-ball_3D-view_animated_small.gif",
+    "alt": "Figure from the source page about Ready-mix concrete",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Ready-mix_concrete"
   },
   "sources": [
+    {
+      "name": "Ready-mix concrete (source page)",
+      "url": "https://en.wikipedia.org/wiki/Ready-mix_concrete",
+      "type": "industry"
+    },
     {
       "name": "Pinjin diesel mixer integrated pump product page",
       "url": "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
@@ -107,11 +114,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "柴油搅拌泵一体机目录行",
-      "seoTitle": "Diesel Mixer Integrated Pump | 品锦 66–75 kW 25 m³/h 邢台",
-      "description": "The diesel mixer pump is one Xingtai trailer that mixes and pumps: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m, 13 mm 60 / 180 m, 24 mm 40 / 120 m, 4200 kg. It is not the electric mixer pump (45 kW + 14 kW) and not a batching plant.",
-      "imageAlt": "Diesel mixer integrated pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Diesel mixer pump, Xingtai catalogue — 66–75 kW, 25 m³/h, 4200 kg",
+      "title": "柴油搅拌泵一体机目录行：Ready-mix concrete（Design / Advantages of ready-mix concrete / Metered concrete）",
+      "seoTitle": "Ready-mix concrete：Design",
+      "description": "把「Design」和柴油搅拌泵一体机目录行分开。来源页不填空白格。本页已经印出的读数：4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW。",
+      "imageAlt": "来源页插图：Ready-mix concrete",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Ready-mix_concrete",
       "relatedPathLabels": [
         "Diesel mixer integrated pump 产品页",
         "Concrete mixer pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel Mixer Integrated Pump is a diesel integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m (≤ 1 inch), 13 mm stone 60 / 180 m, 24 mm stone 40 / 120 m, 4100 × 2200 × 3000 mm, 4200 kg. Series note: 30 model with 400 mixer; 40/50 model with 500 mixer. It does not list a separate 14 kW mixer motor. It is not a batching plant.",
-        "who": "Sites that mix and pump on one diesel trailer matched to 25 m³/h, 23 MPa and the printed stone-distance pairs, at 4200 kg.",
+        "what": "把「Design」和柴油搅拌泵一体机目录行分开。来源页不填空白格。本页已经印出的读数：4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW。",
+        "who": "想把柴油搅拌泵一体机目录行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "One 66–75 kW diesel versus the electric mixer pump at 45 kW + 14 kW, 21 m³/h, 4500 kg",
-          "24 mm stone is 40 / 120 m on this page; do not reuse the electric mixer’s 4 cm cell",
-          "Series note names 400 and 500 mixer pairings, not a second hopper",
-          "An Alibaba mixer-with-pump listing title is not this 25 m³/h cell"
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "25 m³/h",
+          "23 MPa",
+          "13 mm",
+          "24 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the diesel mixer pump list a 14 kW mixer motor?",
-          "answer": "No. This page lists one 4108 diesel at 66–75 kW, 25 m³/h, hopper 0.4 m³ and 4200 kg. The electric integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 21 m³/h and 4500 kg. Two product pages."
+          "question": "「Design」会给柴油搅拌泵一体机目录行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW。"
         },
         {
-          "question": "What mixer size does the diesel mixer pump series note print?",
-          "answer": "30 model with 400 mixer; 40/50 model with 500 mixer. Output on the page is 25 m³/h. The note is the drum pairing, not a second published m³/h."
+          "question": "「Advantages of ready-mix concrete」能补上柴油搅拌泵一体机目录行的空白格吗？",
+          "answer": "不能。柴油搅拌泵一体机目录行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel Mixer Integrated Pump Catalogue Row",
-      "seoTitle": "Diesel Mixer Integrated Pump | Pinjin 66–75 kW 25 m³/h Xingtai",
-      "description": "The diesel mixer pump is one Xingtai trailer that mixes and pumps: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m, 13 mm 60 / 180 m, 24 mm 40 / 120 m, 4200 kg. It is not the electric mixer pump (45 kW + 14 kW) and not a batching plant.",
-      "imageAlt": "Diesel mixer integrated pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Diesel mixer pump, Xingtai catalogue — 66–75 kW, 25 m³/h, 4200 kg",
+      "title": "Diesel Mixer Integrated Pump Catalogue Row: Ready-mix concrete — Design / Advantages of ready-mix concrete / Metered concrete",
+      "seoTitle": "Ready-mix concrete — Design",
+      "description": "Separe “Design” e Diesel Mixer Integrated Pump Catalogue Row. A origem não preenche uma casa em branco. Valores já impressos nesta página: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+      "imageAlt": "Figura da página de origem sobre Ready-mix concrete",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Ready-mix_concrete",
       "relatedPathLabels": [
         "Diesel mixer integrated pump 产品页",
         "Concrete mixer pump manufacturer China",
@@ -152,32 +161,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel Mixer Integrated Pump is a diesel integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m (≤ 1 inch), 13 mm stone 60 / 180 m, 24 mm stone 40 / 120 m, 4100 × 2200 × 3000 mm, 4200 kg. Series note: 30 model with 400 mixer; 40/50 model with 500 mixer. It does not list a separate 14 kW mixer motor. It is not a batching plant.",
-        "who": "Sites that mix and pump on one diesel trailer matched to 25 m³/h, 23 MPa and the printed stone-distance pairs, at 4200 kg.",
+        "what": "Separe “Design” e Diesel Mixer Integrated Pump Catalogue Row. A origem não preenche uma casa em branco. Valores já impressos nesta página: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+        "who": "Leitores que comparam Diesel Mixer Integrated Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "One 66–75 kW diesel versus the electric mixer pump at 45 kW + 14 kW, 21 m³/h, 4500 kg",
-          "24 mm stone is 40 / 120 m on this page; do not reuse the electric mixer’s 4 cm cell",
-          "Series note names 400 and 500 mixer pairings, not a second hopper",
-          "An Alibaba mixer-with-pump listing title is not this 25 m³/h cell"
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "25 m³/h",
+          "23 MPa",
+          "13 mm",
+          "24 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the diesel mixer pump list a 14 kW mixer motor?",
-          "answer": "No. This page lists one 4108 diesel at 66–75 kW, 25 m³/h, hopper 0.4 m³ and 4200 kg. The electric integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 21 m³/h and 4500 kg. Two product pages."
+          "question": "“Design” acrescenta uma casa a Diesel Mixer Integrated Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW."
         },
         {
-          "question": "What mixer size does the diesel mixer pump series note print?",
-          "answer": "30 model with 400 mixer; 40/50 model with 500 mixer. Output on the page is 25 m³/h. The note is the drum pairing, not a second published m³/h."
+          "question": "“Advantages of ready-mix concrete” pode preencher uma casa em branco de Diesel Mixer Integrated Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Diesel Mixer Integrated Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Diesel Mixer Integrated Pump Catalogue Row",
-      "seoTitle": "Diesel Mixer Integrated Pump | Pinjin 66–75 kW 25 m³/h Xingtai",
-      "description": "The diesel mixer pump is one Xingtai trailer that mixes and pumps: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m, 13 mm 60 / 180 m, 24 mm 40 / 120 m, 4200 kg. It is not the electric mixer pump (45 kW + 14 kW) and not a batching plant.",
-      "imageAlt": "Diesel mixer integrated pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Diesel mixer pump, Xingtai catalogue — 66–75 kW, 25 m³/h, 4200 kg",
+      "title": "Diesel Mixer Integrated Pump Catalogue Row: Ready-mix concrete — Design / Advantages of ready-mix concrete / Metered concrete",
+      "seoTitle": "Ready-mix concrete — Design",
+      "description": "افصل «Design» عن Diesel Mixer Integrated Pump Catalogue Row. المصدر لا يملأ خانة فارغة. قيم مطبوعة أصلًا في هذه الصفحة: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Ready-mix concrete",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Ready-mix_concrete",
       "relatedPathLabels": [
         "Diesel mixer integrated pump 产品页",
         "Concrete mixer pump manufacturer China",
@@ -185,32 +196,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel Mixer Integrated Pump is a diesel integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m (≤ 1 inch), 13 mm stone 60 / 180 m, 24 mm stone 40 / 120 m, 4100 × 2200 × 3000 mm, 4200 kg. Series note: 30 model with 400 mixer; 40/50 model with 500 mixer. It does not list a separate 14 kW mixer motor. It is not a batching plant.",
-        "who": "Sites that mix and pump on one diesel trailer matched to 25 m³/h, 23 MPa and the printed stone-distance pairs, at 4200 kg.",
+        "what": "افصل «Design» عن Diesel Mixer Integrated Pump Catalogue Row. المصدر لا يملأ خانة فارغة. قيم مطبوعة أصلًا في هذه الصفحة: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+        "who": "قرّاء يقارنون Diesel Mixer Integrated Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "One 66–75 kW diesel versus the electric mixer pump at 45 kW + 14 kW, 21 m³/h, 4500 kg",
-          "24 mm stone is 40 / 120 m on this page; do not reuse the electric mixer’s 4 cm cell",
-          "Series note names 400 and 500 mixer pairings, not a second hopper",
-          "An Alibaba mixer-with-pump listing title is not this 25 m³/h cell"
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "25 m³/h",
+          "23 MPa",
+          "13 mm",
+          "24 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the diesel mixer pump list a 14 kW mixer motor?",
-          "answer": "No. This page lists one 4108 diesel at 66–75 kW, 25 m³/h, hopper 0.4 m³ and 4200 kg. The electric integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 21 m³/h and 4500 kg. Two product pages."
+          "question": "هل يضيف «Design» خانة إلى Diesel Mixer Integrated Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW."
         },
         {
-          "question": "What mixer size does the diesel mixer pump series note print?",
-          "answer": "30 model with 400 mixer; 40/50 model with 500 mixer. Output on the page is 25 m³/h. The note is the drum pairing, not a second published m³/h."
+          "question": "هل يستطيع «Advantages of ready-mix concrete» ملء خانة فارغة لـ Diesel Mixer Integrated Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Diesel Mixer Integrated Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Diesel Mixer Integrated Pump Catalogue Row",
-      "seoTitle": "Diesel Mixer Integrated Pump | Pinjin 66–75 kW 25 m³/h Xingtai",
-      "description": "The diesel mixer pump is one Xingtai trailer that mixes and pumps: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m, 13 mm 60 / 180 m, 24 mm 40 / 120 m, 4200 kg. It is not the electric mixer pump (45 kW + 14 kW) and not a batching plant.",
-      "imageAlt": "Diesel mixer integrated pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Diesel mixer pump, Xingtai catalogue — 66–75 kW, 25 m³/h, 4200 kg",
+      "title": "Diesel Mixer Integrated Pump Catalogue Row: Ready-mix concrete — Design / Advantages of ready-mix concrete / Metered concrete",
+      "seoTitle": "Ready-mix concrete — Design",
+      "description": "Держите “Design” и Diesel Mixer Integrated Pump Catalogue Row отдельно. Источник не заполняет пустую клетку. Уже напечатанные значения на этой странице: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Ready-mix concrete",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Ready-mix_concrete",
       "relatedPathLabels": [
         "Diesel mixer integrated pump 产品页",
         "Concrete mixer pump manufacturer China",
@@ -218,25 +231,28 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel Mixer Integrated Pump is a diesel integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, stone 100 / 300 m (≤ 1 inch), 13 mm stone 60 / 180 m, 24 mm stone 40 / 120 m, 4100 × 2200 × 3000 mm, 4200 kg. Series note: 30 model with 400 mixer; 40/50 model with 500 mixer. It does not list a separate 14 kW mixer motor. It is not a batching plant.",
-        "who": "Sites that mix and pump on one diesel trailer matched to 25 m³/h, 23 MPa and the printed stone-distance pairs, at 4200 kg.",
+        "what": "Держите “Design” и Diesel Mixer Integrated Pump Catalogue Row отдельно. Источник не заполняет пустую клетку. Уже напечатанные значения на этой странице: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW.",
+        "who": "Читатели, которые сверяют Diesel Mixer Integrated Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "One 66–75 kW diesel versus the electric mixer pump at 45 kW + 14 kW, 21 m³/h, 4500 kg",
-          "24 mm stone is 40 / 120 m on this page; do not reuse the electric mixer’s 4 cm cell",
-          "Series note names 400 and 500 mixer pairings, not a second hopper",
-          "An Alibaba mixer-with-pump listing title is not this 25 m³/h cell"
+          "4100 × 2200 × 3000 mm",
+          "66–75 kW",
+          "25 m³/h",
+          "23 MPa",
+          "13 mm",
+          "24 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the diesel mixer pump list a 14 kW mixer motor?",
-          "answer": "No. This page lists one 4108 diesel at 66–75 kW, 25 m³/h, hopper 0.4 m³ and 4200 kg. The electric integrated mixer pump lists 45 kW plus a 14 kW mixer motor, 21 m³/h and 4500 kg. Two product pages."
+          "question": "Добавляет ли “Design” клетку к Diesel Mixer Integrated Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 4100 × 2200 × 3000 mm, 66–75 kW, 25 m³/h, 23 MPa, 13 mm, 24 mm, 4200 kg, 45 kW."
         },
         {
-          "question": "What mixer size does the diesel mixer pump series note print?",
-          "answer": "30 model with 400 mixer; 40/50 model with 500 mixer. Output on the page is 25 m³/h. The note is the drum pairing, not a second published m³/h."
+          "question": "Может ли “Advantages of ready-mix concrete” заполнить пустую клетку для Diesel Mixer Integrated Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Diesel Mixer Integrated Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

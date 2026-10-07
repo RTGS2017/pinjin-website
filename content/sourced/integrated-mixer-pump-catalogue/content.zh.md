@@ -1,28 +1,22 @@
-## Catalogue electric mixer-pump row
+## Repose batching plant
 
-Integrated Mixer Pump is an electric integrated concrete 搅拌泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m. Hopper 0.4 m³, max 骨料 4 cm and below, 输送管 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer.
+![来源页插图：Concrete plant](/images/articles/integrated-mixer-pump-catalogue/A_4-Bin_Inline_Blending_Concrete_Batch_Plant.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Concrete_plant*
 
-![Integrated 搅拌泵 factory product photo, 河北品锦机械 邢台](/images/products/integrated-mixer-pump/integrated-mixer-pump.webp)
-*Integrated 搅拌泵, 邢台 catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m*
+「Repose batching plant」只作来源页上的背景，不是给Integrated Mixer Pump Catalogue Row新造的铭牌。本页已经印出的读数：3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm。
 
-## Neighbour mix / pump-only rows
+本页没写出来的格子继续空着。「Repose batching plant」不去填它们。
 
-| Model | Power | Theoretical output | Pressure | Distance | Pipe | Weight |
-| Integrated 搅拌泵 (electric) | 45 kW + 14 kW | 21 m³/h | 23 MPa | 100 m / 300 m | 100 / 125 mm | 4500 kg |
-| Diesel mixer integrated | 4108 / 66–75 kW | 25 m³/h | 23 MPa | stone 100 / 300 m | see 产品页 | 4200 kg |
-| 电动40 (pump only) | 45 kW | 21 m³/h | 23 MPa | 细石 120 m / 360 m | see 产品页 | 2300 kg |
+## Inline blending plant
 
-Plant versus trailer: [mixer pump vs concrete mixing plant](/blog/mixer-pump-vs-concrete-mixing-plant/). Pipe DN: [concrete pump pipe DN selection](/blog/concrete-pump-pipe-dn-selection/). Hub: [mixer pumps](/products/mixer-pumps/).
+翻到来源页的「Inline blending plant」，读的是那一页，不是Integrated Mixer Pump Catalogue Row的第二份目录。这一节不另加数字。
 
-## When this row fits
+## Dry mix concrete plant
 
-Sites that mix and pump in one unit. Rural and self-built house pouring matching listed mixer and pump output. Projects that can supply the listed 45 kW + 14 kW motors.
+「Dry mix concrete plant」是来源页自己的章节，不会把Integrated Mixer Pump Catalogue Row改成另一条目录。这一节不另加数字。
 
-## When to open another page
+## Wet mix concrete plant
 
-- No grid, mix-and-pump on diesel → [diesel mixer integrated pump](/products/diesel-mixer-integrated-pump/).
-- Mix already supplied, pump-only 21 m³/h → [Electric 40](/products/electric-40-concrete-pump/).
-- High-output electric trailer without mixer → [Electric 80](/products/electric-80-concrete-pump/).
-- Not a mixing plant, not a truck-mounted 臂架泵 and not a spraying machine.
+Integrated Mixer Pump Catalogue Row还是本文原有的那一行。「Wet mix concrete plant」讲的是来源页的题目，不另加单元格。本页已经印出的读数：3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm。
 
-Product page: [integrated mixer pump](/products/integrated-mixer-pump/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[mixer pump vs concrete mixing plant](/blog/mixer-pump-vs-concrete-mixing-plant/), [concrete pump pipe DN selection](/blog/concrete-pump-pipe-dn-selection/), [mixer pumps](/products/mixer-pumps/)。

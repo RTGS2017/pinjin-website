@@ -1,25 +1,22 @@
-## House pours on the compact rows
+## Layout
 
-A “concrete pump for house” search on Alibaba often lands next to 30–60 m³/h advice and mini-pump notes for 地下室s. Our 邢台 house machines sit **below** that marketplace band. We already have an 电动15 applications page and a tractor-4100 rural page. This article is the three-way house match: grid compact, tractor, 17 kW diesel — and a warning not to order 电动80 for a two-storey slab.
+![来源页插图：House](/images/articles/concrete-pump-for-house-rural-building/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_Hokan-ji_Temple_Kyoto_Japan.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/House*
 
-![电动15 compact concrete pump for house pours, 450 kg, manufactured by 河北品锦机械 in 邢台](/images/products/electric-15-concrete-pump/main.webp)
-*电动15 — 1900 × 900 × 1200 mm, 450 kg, 1–3 cm stone*
+翻到来源页的「Layout」，读的是那一页，不是Concrete Pump for House and Rural Building Pours的第二份目录。本页已经印出的读数：30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。
 
-## Three printed house machines
+本页没写出来的格子继续空着。「Layout」不去填它们。
 
-| Model | Power | Output | H / V | Weight | Stone |
-| 电动15 | 15 kW | 8–10 m³/h | 60–80 m / 15–20 m | 450 kg | 1–3 cm |
-| Tractor-Driven 4100 | 40 kW | 6–12 m³/h | 40–100 m / 15–45 m | 1300 kg | 1–3 cm |
-| Rural diesel | 17 kW | 5–8 m³/h | 30–50 m / 10–30 m | 800 kg | 1–3 cm |
+## Parts
 
-If you mix and pump on one trailer, the [integrated mixer pump](/products/integrated-mixer-pump/) lists 45 kW + 14 kW, 21 m³/h, 4500 kg — a different access problem.
+「Parts」是来源页自己的章节，不会把Concrete Pump for House and Rural Building Pours改成另一条目录。这一节不另加数字。
 
-Diesel 50 at 30 m³/h / 3300 kg is the number that happens to sit in Alibaba’s 30–60 m³/h house FAQ. That does not make it the default self-build pump. Read [Electric 15 applications](/blog/electric-15-concrete-pump-applications/) and [tractor 4100](/blog/tractor-4100-concrete-pump-rural/) before stretching a mid trailer into a courtyard.
+## Middle Ages
 
-## Basements and gates
+Concrete Pump for House and Rural Building Pours还是本文原有的那一行。「Middle Ages」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-The same buying guide files mini pumps under 地下室s, pools and restricted areas. We match that intent to 电动15’s footprint and to the [narrow-site](/blog/mini-concrete-pump-narrow-space/) note. We do not list a “地下室 pump” SKU. Diesel exhaust in a cellar is the contractor’s ventilation job — see [electric vs diesel on grid sites](/blog/electric-vs-diesel-concrete-pump-grid-sites/).
+## Industrial Revolution
 
-## 询价
+把「Industrial Revolution」和Concrete Pump for House and Rural Building Pours分开。来源页不填空白格。本页已经印出的读数：30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。
 
-Storeys **and** metres, gate width, power (15 kW / tractor / 17 kW diesel), max stone, pipe length. No list price.
+本文原先已经指向这些页面：[integrated mixer pump](/products/integrated-mixer-pump/), [Electric 15 applications](/blog/electric-15-concrete-pump-applications/), [tractor 4100](/blog/tractor-4100-concrete-pump-rural/)。

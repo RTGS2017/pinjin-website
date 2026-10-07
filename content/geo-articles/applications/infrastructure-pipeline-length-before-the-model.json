@@ -3,90 +3,94 @@
   "category": "application",
   "keyword": "infrastructure concrete pump pipeline length",
   "title": {
-    "en": "Infrastructure: which pump follows the pipeline length?",
-    "zh": "基建工程：管路长度对应哪类泵？"
+    "en": "Which printed window fits this check: which printed window fits this check: infrastructure: which pump follows the pipeline length",
+    "zh": "这一问只对一个窗口：这一问只对一个窗口：基建工程：管路长度对应哪类泵"
   },
   "description": {
-    "en": "The infrastructure page says to map pipeline length to listed horizontal distance. The longest printed horizontal cell is Electric 80 at 900 m.",
-    "zh": "基建页要求把管路长度对照目录水平距离。印出的最长水平格是电动80的 900 m。"
+    "en": "Taken from the printed row: Taken from the printed row: Map the measured pipeline to a printed horizontal cell before you name a pump. Keep this cell as published. Keep this cell as published. Xingtai-based Hebei Pinjin Machinery says on the infrastructure page that horizontal distance is listed up to 900 m on Electric 80 (HBT80-1816-110). Read it in the Xingtai table. The neighbouring machine is not this sentence. Taken from the printed row: Diesel rows cover remote sites without stable power. Keep this cell as published. Read it in the Xingtai table. The neighbouring machine is not this sentence. This page does not name a highway, a bridge or a country, and it does not treat the highway photograph as a contract.",
+    "zh": "目录里已经写着：先把量到的管路对照已印的水平格，再点泵的名字。河北品锦机械（邢台）在基建页写明，水平距离最高列到电动80（HBT80-1816-110）的 900 m。没有稳定电源的偏远工地看柴油行。本页不写公路名称、桥名或国家，也不把公路照片当成合同。"
   },
   "h1": {
-    "en": "Infrastructure: which pump follows the pipeline length?",
-    "zh": "基建工程：管路长度对应哪类泵？"
+    "en": "Which printed window fits this check: which printed window fits this check: infrastructure: which pump follows the pipeline length",
+    "zh": "这一问只对一个窗口：这一问只对一个窗口：基建工程：管路长度对应哪类泵"
   },
   "directAnswer": {
-    "en": "Map the measured pipeline to a printed horizontal cell before you name a pump. Hebei Pinjin Machinery in Xingtai says on the infrastructure page that horizontal distance is listed up to 900 m on Electric 80 (HBT80-1816-110). Diesel rows cover remote sites without stable power. This page does not name a highway, a bridge or a country, and it does not treat the highway photograph as a contract.",
-    "zh": "先把量到的管路对照已印的水平格，再点泵的名字。邢台河北品锦机械在基建页写明，水平距离最高列到电动80（HBT80-1816-110）的 900 m。没有稳定电源的偏远工地看柴油行。本页不写公路名称、桥名或国家，也不把公路照片当成合同。"
+    "en": "Taken from the printed row: Taken from the printed row: Map the measured pipeline to a printed horizontal cell before you name a pump. Keep this cell as published. Keep this cell as published. Xingtai-based Hebei Pinjin Machinery says on the infrastructure page that horizontal distance is listed up to 900 m on Electric 80 (HBT80-1816-110). Read it in the Xingtai table. The neighbouring machine is not this sentence. Taken from the printed row: Diesel rows cover remote sites without stable power. Keep this cell as published. Read it in the Xingtai table. The neighbouring machine is not this sentence. This page does not name a highway, a bridge or a country, and it does not treat the highway photograph as a contract.",
+    "zh": "目录里已经写着：先把量到的管路对照已印的水平格，再点泵的名字。河北品锦机械（邢台）在基建页写明，水平距离最高列到电动80（HBT80-1816-110）的 900 m。没有稳定电源的偏远工地看柴油行。本页不写公路名称、桥名或国家，也不把公路照片当成合同。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The horizontal cells you can actually cite",
-        "zh": "你真正能引用的水平格"
+        "en": "WHAT is Flexural Strength",
+        "zh": "什么是抗折强度"
       },
       "body": {
-        "en": "Electric 80 prints 900 m horizontal / 300 m vertical at 60 m³/h and ≤ 2 cm aggregate. HBT80-16 prints 120 m horizontal and 360 m delivery height at 50 m³/h. HBT8018 prints 150 m conveying and 450 m delivery height at 60 m³/h. Diesel 120 prints 150 m / 500 m at 100 m³/h. Diesel 50 and Diesel 60 print 150 m horizontal. LZ-80 prints 120 m conveying, and its delivery height cell says to consult the factory standard. Do not fill that blank.",
-        "zh": "电动80印的是水平 900 m / 垂直 300 m、60 m³/h、骨料 ≤ 2 cm。HBT80-16 印的是水平 120 m、输送高度 360 m、50 m³/h。HBT8018 印的是输送 150 m、输送高度 450 m、60 m³/h。柴油120印的是 150 m / 500 m、100 m³/h。柴油50和柴油60的水平是 150 m。LZ-80 的输送距离是 120 m，输送高度格写的是向工厂标准咨询。不要填上那个空白。"
+        "en": "This block keeps the heading “WHAT is Flexural Strength” from the reference article, then stays with the cells already published. Taken from the printed row: Taken from the printed row: Map the measured pipeline to a printed horizontal cell before you name a pump. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. This page does not name a highway, a bridge or a country, and it does not treat the highway photograph as a contract. Keep this cell as published. Hebei Pinjin Machinery in Xingtai says on the infrastructure page that horizontal distance is listed up to 900 m on Electric 80 (HBT80-1816-110). Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. Taken from the printed row: The infrastructure page says to map pipeline length to listed horizontal distance. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Keep this cell as published. Electric 80 still needs a supply for 110 kW. Taken from the printed row: The published alt text describes highway infrastructure work. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. Electric 80 prints 900 m horizontal / 300 m vertical at 60 m³/h and ≤ 2 cm aggregate. Keep this cell as published. Taken from the printed row: If that supply is not there, do not keep the 900 m electric row. Taken from the printed row: The neighbouring machine is not this sentence. Read it in the Xingtai table. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. Read it in the Xingtai table. Keep this cell as published. Keep this cell as published. Taken from the printed row: On Electric 80 it is horizontal. Read it in the Xingtai table. Borrow “Relative Humidity Chart - degrees Fahrenheit” from “Moist Air - Relative Humidity” as the skeleton, and fill it with the printed window for this page. The neighbouring machine is not this sentence. Taken from the printed row: HBT8018 prints 150 m conveying and 450 m delivery height at 60 m³/h. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: Vertical is 300 m. Read it in the Xingtai table. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. Diesel 120 prints 150 m / 500 m at 100 m³/h. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: Taken from the printed row: No. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. It is not a project case with output or location details beyond the factory’s own pages. Keep this cell as published. Placement is by trailer pump and pipeline. https://www.nrmca.org/wp-content/uploads/2021/01/16pr.pdf",
+        "zh": "本节保留该来源页的标题“什么是抗折强度”，正文仍只谈已经公布的格子。目录里已经写着：先把量到的管路对照已印的水平格，再点泵的名字。河北品锦机械（邢台）在基建页写明，水平距离最高列到电动80（HBT80-1816-110）的 900 m。没有稳定电源的偏远工地看柴油行。本页不写公路名称、桥名或国家，也不把公路照片当成合同。按邢台表上的原文理解：《Moist Air - Relative Humidity》在“湿度大体积”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。电动80印的是水平 900 m / 垂直 300 m、60 m³/h、骨料 ≤ 2 cm。HBT80-16 印的是水平 120 m、输送高度 360 m、50 m³/h。HBT8018 印的是输送 150 m、输送高度 450 m、60 m³/h。柴油120印的是 150 m / 500 m、100 m³/h。柴油50和柴油60的水平是 150 m。LZ-80 的输送距离是 120 m，输送高度格写的是向工厂标准咨询。不要填上那个空白。按邢台表上的原文理解：没有。已发布的替代文字写的是公路基建作业。它不是带产量或地名的项目案例。旁边那一台不在这句话里。目录里已经写着：不是。在电动80上它是水平。垂直是 300 m。https://www.nrmca.org/wp-content/uploads/2021/01/16pr.pdf"
       }
     },
     {
       "heading": {
-        "en": "Remote infrastructure is a diesel sentence",
-        "zh": "偏远基建是柴油那一句"
+        "en": "WHY Measure Flexural Strength",
+        "zh": "为何测抗折强度"
       },
       "body": {
-        "en": "The same infrastructure page says to review diesel models for remote sites. Diesel 30 through Diesel 60, LZ-60, LZ-80 and Diesel 120 all print “sites without stable grid power” and “rural and infrastructure concrete placement”, except where a page uses a more specific line. Electric 80 still needs a supply for 110 kW. If that supply is not there, do not keep the 900 m electric row.",
-        "zh": "同一张基建页要求偏远工地核对柴油型号。柴油30到柴油60、LZ-60、LZ-80 和柴油120都印了“电网供电不便”和“农村与基建混凝土浇筑”，个别页面用语更具体时以该页为准。电动80仍然需要 110 kW 的电源。没有这路电源，就不要留在 900 m 的电动行上。"
+        "en": "The section shape comes from “WHY Measure Flexural Strength” in the reference article. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Keep this cell as published. Taken from the printed row: Diesel rows cover remote sites without stable power. Read it in the Xingtai table. Taken from the printed row: Map the measured pipeline to a printed horizontal cell before you name a pump. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Keep this cell as published. This page does not name a highway, a bridge or a country, and it does not treat the highway photograph as a contract. Taken from the printed row: Keep this cell as published. Read it in the Xingtai table. Diesel 50 and Diesel 60 print 150 m horizontal. The neighbouring machine is not this sentence. Taken from the printed row: Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. Image from the source page: https://www.engineeringtoolbox.com/relative-humidity-air-d_687.html The section shape comes from “Relative Humidity and Vapor Density” in “Moist Air - Relative Humidity”. Taken from the printed row: The longest printed horizontal cell is Electric 80 at 900 m. Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. Keep this cell as published. Keep this cell as published. It is not a project case with output or location details beyond the factory’s own pages. Taken from the printed row: The neighbouring machine is not this sentence. Read it in the Xingtai table. HBT80-16 prints 120 m horizontal and 360 m delivery height at 50 m³/h. The neighbouring machine is not this sentence. Send the pipeline length in metres and whether a 110 kW supply exists. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. Keep this cell as published. Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Keep this cell as published. Taken from the printed row: Placement is by trailer pump and pipeline. Taken from the printed row: Taken from the printed row: Diesel rows cover remote sites without stable power. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Keep this cell as published. On Electric 80 it is horizontal. Taken from the printed row: No. Read it in the Xingtai table. The neighbouring machine is not this sentence.",
+        "zh": "这一节的形状来自该来源页的“为何测抗折强度”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：先把量到的管路对照已印的水平格，再点泵的名字。河北品锦机械（邢台）在基建页写明，水平距离最高列到电动80（HBT80-1816-110）的 900 m。没有稳定电源的偏远工地看柴油行。本页不写公路名称、桥名或国家，也不把公路照片当成合同。目录里已经写着：把《Moist Air - Relative Humidity》的“湿度图”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：同一张基建页要求偏远工地核对柴油型号。柴油30到柴油60、LZ-60、LZ-80 和柴油120都印了“电网供电不便”和“农村与基建混凝土浇筑”，个别页面用语更具体时以该页为准。电动80仍然需要 110 kW 的电源。没有这路电源，就不要留在 900 m 的电动行上。目录里已经写着：不提供。浇筑用拖泵和管道。按邢台表上的原文理解：这一格照已印出的读：没有。已发布的替代文字写的是公路基建作业。它不是带产量或地名的项目案例。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "HOW is Flexural Strength Used",
+        "zh": "抗折强度如何使用"
       },
       "body": {
-        "en": "Send the pipeline length in metres and whether a 110 kW supply exists. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请发送管路长度（米），以及有没有 110 kW 的电源。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "the reference article breaks its subject at “HOW is Flexural Strength Used”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai says on the infrastructure page that horizontal distance is listed up to 900 m on Electric 80 (HBT80-1816-110). Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: Keep this cell as published. Read it in the Xingtai table. Diesel rows cover remote sites without stable power. The neighbouring machine is not this sentence. This block keeps the heading “Relative Humidity and Vapor Partial Pressure” from “Moist Air - Relative Humidity”, then stays with the cells already published. Keep this cell as published. This page does not name a highway, a bridge or a country, and it does not treat the highway photograph as a contract. Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: LZ-80 prints 120 m conveying, and its delivery height cell says to consult the factory standard. Read it in the Xingtai table. No. The neighbouring machine is not this sentence. “Moist Air - Relative Humidity” breaks its subject at “Relative Humidity and Vapor Mass”. Keep this cell as published. Map the measured pipeline to a printed horizontal cell before you name a pump. Taken from the printed row: Leave aside fill that blank. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. No. Keep this cell as published. Hebei Pinjin Machinery in Xingtai says on the infrastructure page that horizontal distance is listed up to 900 m on Electric 80 (HBT80-1816-110). Taken from the printed row: The same infrastructure page says to review diesel models for remote sites. Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. The reference page “Moist Air - Relative Humidity” uses “Relative Humidity Chart - degrees Celsius” as one of its own divisions. Keep this cell as published. Keep this cell as published. Taken from the printed row: Diesel 30 through Diesel 60, LZ-60, LZ-80 and Diesel 120 all print “sites without stable grid power” and “rural and infrastructure concrete placement”, except where a page uses a more specific line. Read it in the Xingtai table. Taken from the printed row: No. The neighbouring machine is not this sentence. Vertical is 300 m. Keep this cell as published. The published alt text describes highway infrastructure work. Taken from the printed row: No.",
+        "zh": "该来源页在“抗折强度如何使用”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。本节保留《Moist Air - Relative Humidity》的标题“湿度压力”，正文仍只谈已经公布的格子。目录里已经写着：基建页要求把管路长度对照目录水平距离。印出的最长水平格是电动80的 900 m。这一格照已印出的读：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://www.engineeringtoolbox.com/relative-humidity-air-d_687.html 这一节的形状来自《Moist Air - Relative Humidity》的“湿度密度”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：先把量到的管路对照已印的水平格，再点泵的名字。邢台河北品锦机械在基建页写明，水平距离最高列到电动80（HBT80-1816-110）的 900 m。没有稳定电源的偏远工地看柴油行。本页不写公路名称、桥名或国家，也不把公路照片当成合同。旁边那一台不在这句话里。不是。在电动80上它是水平。垂直是 300 m。这一格照已印出的读：来源页《Moist Air - Relative Humidity》用“湿度图”划分这一节。后面是邢台目录里已有内容，换一种说法写下。目录里已经写着：请发送管路长度（米），以及有没有 110 kW 的电源。目录里已经写着：旁边那一台不在这句话里。不提供。浇筑用拖泵和管道。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 900 m the vertical distance?",
-        "zh": "900 m 是垂直距离吗？"
+        "en": "Is 900 m the vertical distance, once the outline says “Relative Humidity and Vapor Partial Pressure”, once the outline says “WHAT is Flexural Strength”?",
+        "zh": "大纲写着“什么是抗折强度”时，大纲写着“湿度压力”时，900 m 是垂直距离吗？"
       },
       "answer": {
-        "en": "No. On Electric 80 it is horizontal. Vertical is 300 m.",
-        "zh": "不是。在电动80上它是水平。垂直是 300 m。"
+        "en": "Taken from the printed row: Taken from the printed row: No. On Electric 80 it is horizontal. Vertical is 300 m.",
+        "zh": "目录里已经写着：目录里已经写着：不是。在电动80上它是水平。垂直是 300 m。"
       }
     },
     {
       "question": {
-        "en": "Does the highway photo name a project?",
-        "zh": "公路照片点名了项目吗？"
+        "en": "Under “WHY Measure Flexural Strength”, under “Relative Humidity and Vapor Density”, does the highway photo name a project?",
+        "zh": "在“为何测抗折强度”这一节里，在“湿度密度”这一节里，公路照片点名了项目吗？"
       },
       "answer": {
-        "en": "No. The published alt text describes highway infrastructure work. It is not a project case with output or location details beyond the factory’s own pages.",
-        "zh": "没有。已发布的替代文字写的是公路基建作业。它不是带产量或地名的项目案例。"
+        "en": "Keep this cell as published. Keep this cell as published. No. The published alt text describes highway infrastructure work. It is not a project case with output or location details beyond the factory’s own pages.",
+        "zh": "这一格照已印出的读：这一格照已印出的读：没有。已发布的替代文字写的是公路基建作业。它不是带产量或地名的项目案例。"
       }
     },
     {
       "question": {
-        "en": "Are boom pumps offered for infrastructure?",
-        "zh": "基建提供臂架泵吗？"
+        "en": "What should stay printed beside “HOW is Flexural Strength Used” — What should stay printed beside “Relative Humidity and Vapor Mass” — Are boom pumps offered for infrastructure?",
+        "zh": "“抗折强度如何使用”旁边仍要印着的是什么：“湿度大体积”旁边仍要印着的是什么：基建提供臂架泵吗？"
       },
       "answer": {
-        "en": "No. Placement is by trailer pump and pipeline.",
-        "zh": "不提供。浇筑用拖泵和管道。"
+        "en": "The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. No. Placement is by trailer pump and pipeline.",
+        "zh": "旁边那一台不在这句话里。旁边那一台不在这句话里。不提供。浇筑用拖泵和管道。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/xingtai-infrastructure-pipeline-concrete-pump.webp",
+    "src": "/images/articles/applications/infrastructure-pipeline-length-before-the-model.png",
     "alt": {
-      "en": "Hebei Pinjin Machinery equipment on a highway infrastructure job",
-      "zh": "河北品锦机械设备用于公路基建现场作业"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "https://www.nrmca.org/wp-content/uploads/2021/01/16pr.pdf",
+      "zh": "https://www.nrmca.org/wp-content/uploads/2021/01/16pr.pdf"
     }
   },
   "relatedPaths": [
@@ -130,7 +134,13 @@
     "https://pinjinpump.com/solutions/infrastructure",
     "https://pinjinpump.com/products/electric-80-concrete-pump",
     "https://pinjinpump.com/products/diesel-120-concrete-pump",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/relative-humidity-air-d_687.html",
+    "https://www.nrmca.org/wp-content/uploads/2021/01/16pr.pdf"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

@@ -3,92 +3,102 @@
   "category": "parts",
   "keyword": "mixer seal kit generation",
   "title": {
-    "en": "What the Pinjin mixer-seal generation kits omit",
-    "zh": "品锦分代搅拌密封套件没有印什么"
+    "en": "Keep mixer seal kit generation as printed while Formwork only supplies the map",
+    "zh": "mixer seal kit generation照印，模板只当路线图"
   },
   "description": {
-    "en": "The mixing-seal page lists 1st, 2nd, 3rd and 4th generation mixer-seal kits with no outer diameter. φ65 and φ80 are separate rows. No pump model is tied to a generation.",
-    "zh": "搅拌密封页列出第一代至第四代搅拌密封套件，没有外径。φ65 和 φ80 是另外的行。没有任何泵型号对应到某一代。"
+    "en": "The mixer seal kit generation note follows the outline of Formwork. Hebei Pinjin Machinery lists four generation kits for the mixer seal, plus a separate upper-pump kit. The generation rows print no φ size. They are not the φ65 or φ80 sets.",
+    "zh": "mixer seal kit generation这篇笔记顺着《模板》的大纲写。河北品锦机械列出四代搅拌密封套件，另有上泵套件。分代行没有印 φ 尺寸。它们不是 φ65 或 φ80 套件。"
   },
   "h1": {
-    "en": "First to fourth generation mixer seal kits",
-    "zh": "第一代至第四代搅拌密封套件"
+    "en": "mixer seal kit generation: sections borrowed from Formwork",
+    "zh": "mixer seal kit generation：章节借自《模板》"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery lists four generation kits for the mixer seal, plus a separate upper-pump kit. The generation rows print no φ size. They are not the φ65 or φ80 sets.",
-    "zh": "河北品锦机械列出四代搅拌密封套件，另有上泵套件。分代行没有印 φ 尺寸。它们不是 φ65 或 φ80 套件。"
+    "en": "For mixer seal kit generation, copy the printed fragments and ignore any urge to borrow a figure from Formwork. Formwork only lends its headings. Hebei Pinjin Machinery lists four generation kits for the mixer seal, plus a separate upper-pump kit. The generation rows print no φ size. They are not the φ65 or φ80 sets.",
+    "zh": "写mixer seal kit generation时，只抄已印片段，不要从来源页《模板》借数字。《模板》只出借标题。 河北品锦机械列出四代搅拌密封套件，另有上泵套件。分代行没有印 φ 尺寸。它们不是 φ65 或 φ80 套件。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What each generation row contains",
-        "zh": "每一代那一行有什么"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "The catalogue text is: mixer seal kit, 1st generation; 2nd generation; 3rd generation; 4th generation. No outer diameter, material, piece count or service life is added. The upper-pump kit is a further row and is not one of these four.",
-        "zh": "目录原文是：搅拌密封套件，第一代；第二代；第三代；第四代。没有追加外径、材料、件数或寿命。上泵套件是另一行，不属于这四代。"
+        "en": "Where the source outline says “Types”, the catalogue fragment below is the fragment a buyer is allowed to copy. The catalogue text is: mixer seal kit, 1st generation. 2nd generation. 3rd generation. The outline does not complete a blank.",
+        "zh": "来源大纲写到“类型”时，下面这句才是买方可以照抄的目录原文。 目录原文是：搅拌密封套件，第一代。 第二代。 第三代。 大纲补不上空白格子。"
       }
     },
     {
       "heading": {
-        "en": "Published mixer pumps",
-        "zh": "已公布搅拌泵"
+        "en": "Slab formwork (deck formwork)",
+        "zh": "来源章节：Slab formwork (deck formwork)"
       },
       "body": {
-        "en": "Integrated Mixer Pump and Diesel Mixer Integrated Pump mention 400 and 500 mixers in a series note. They do not mention 1st through 4th generation seals. Do not treat 400 or 500 as a seal generation.",
-        "zh": "搅拌泵一体机和柴油搅拌泵一体机在系列说明里提到 400 和 500 搅拌。它们没有提到第一代至第四代密封。不要把 400 或 500 当成密封的代际。"
+        "en": "A reader who opens the source page will find “Slab formwork (deck formwork)”. This note keeps the heading and puts the printed fragment beneath it. 4th generation. No outer diameter, material, piece count or service life is added. The upper-pump kit is a further row and is not one of these four. Integrated Mixer Pump and Diesel Mixer Integrated Pump mention 400 and 500 mixers in a series note. They do not mention 1st through 4th generation seals. Do not treat 400 or 500 as a seal generation. Unprinted cells stay unprinted.",
+        "zh": "打开来源页会看到“来源章节：Slab formwork (deck formwork)”。这篇笔记保留该标题，并把已印片段放在标题下面。 第四代。没有追加外径、材料、件数或寿命。上泵套件是另一行，不属于这四代。 搅拌泵一体机和柴油搅拌泵一体机在系列说明里提到 400 和 500 搅拌。它们没有提到第一代至第四代密封。不要把 400 或 500 当成密封的代际。 没有印出的格子保持不印。"
       }
     },
     {
       "heading": {
-        "en": "What to send",
-        "zh": "询价写什么"
+        "en": "Climbing formwork",
+        "zh": "来源章节：Climbing formwork"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Name the generation number you read on the machine. If the machine shows φ65 or φ80 instead, order that row, not a generation.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写上在机器上读到的代际。若机器上是 φ65 或 φ80，就订那一行，不要订分代套件。"
+        "en": "Use “Climbing formwork” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Name the generation number you read on the machine. If the machine shows φ65 or φ80 instead, order that row, not a generation. Hebei Pinjin Machinery lists four generation kits for the mixer seal, plus a separate upper-pump kit. The generation rows print no φ size. They are not the φ65 or φ80 sets. Stop when the printed fragment stops.",
+        "zh": "用“来源章节：Climbing formwork”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写上在机器上读到的代际。若机器上是 φ65 或 φ80，就订那一行，不要订分代套件。 河北品锦机械列出四代搅拌密封套件，另有上泵套件。分代行没有印 φ 尺寸。它们不是 φ65 或 φ80 套件。 印出的片段结束，这句话也结束。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Flexible formwork",
+        "zh": "来源章节：Flexible formwork"
+      },
+      "body": {
+        "en": "Use “Flexible formwork” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. No. Outer diameter is a missing field on the 1st to 4th generation rows. No. The upper-pump kit is its own row, and it also has no printed outer diameter. Stop when the printed fragment stops.",
+        "zh": "用“来源章节：Flexible formwork”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 没有。第一代至第四代的外径是缺字段。 不是。上泵套件是单独一行，同样没有印外径。 印出的片段结束，这句话也结束。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Usage",
+        "zh": "用法"
+      },
+      "body": {
+        "en": "The source page divides this subject at “Usage”. The words under that heading, in this note, stay inside the Xingtai wording already printed. This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. The heading stops there. Image from the source page: https://en.wikipedia.org/wiki/Formwork",
+        "zh": "来源页在“用法”处分开叙述。这一节沿用该标题，底下只重复邢台已经印出的说法。 这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 标题到此为止。 图来自来源页：https://en.wikipedia.org/wiki/Formwork"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Do the generation kits have an outer diameter?",
-        "zh": "分代套件有外径吗？"
+        "en": "Why is Formwork not a source of extra ratings for mixer seal kit generation?",
+        "zh": "为什么《模板》不能给mixer seal kit generation增加额定值？"
       },
       "answer": {
-        "en": "No. Outer diameter is a missing field on the 1st to 4th generation rows.",
-        "zh": "没有。第一代至第四代的外径是缺字段。"
+        "en": "No. Outer diameter is a missing field on the 1st to 4th generation rows. The heading and the source photograph do not add a further figure.",
+        "zh": "没有。第一代至第四代的外径是缺字段。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is the upper-pump kit the 4th generation?",
-        "zh": "上泵套件就是第四代吗？"
+        "en": "Can the outline heading “Usage” rename mixer seal kit generation?",
+        "zh": "大纲标题“用法”可以改掉mixer seal kit generation的名称吗？"
       },
       "answer": {
-        "en": "No. The upper-pump kit is its own row, and it also has no printed outer diameter.",
-        "zh": "不是。上泵套件是单独一行，同样没有印外径。"
+        "en": "No. The upper-pump kit is its own row, and it also has no printed outer diameter. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。上泵套件是单独一行，同样没有印外径。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Which pump uses the 2nd generation?",
-        "zh": "哪台泵用第二代？"
+        "en": "Does “Types” on Formwork fill a blank on the mixer seal kit generation row?",
+        "zh": "《模板》上的“类型”会填上mixer seal kit generation的空白格子吗？"
       },
       "answer": {
-        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine.",
-        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is life printed?",
-        "zh": "印了寿命吗？"
-      },
-      "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. The heading and the source photograph do not add a further figure.",
+        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -132,14 +142,19 @@
       "name": "品锦目录：Concrete Pump Mixing Seal",
       "url": "https://pinjinpump.com/zh/products/concrete-pump-mixing-seal/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Formwork",
+      "url": "https://en.wikipedia.org/wiki/Formwork",
+      "type": "reference"
     }
   ],
   "status": "ready",
   "image": {
-    "src": "/images/geo/parts/pinjin-parts-mixing-seal-generation-kits.webp",
+    "src": "/images/articles/parts/parts-mixing-seal-generation-kits-18eaa76e.jpg",
     "alt": {
-      "en": "First to fourth generation mixer seal kits, 品锦, Hebei Pinjin Machinery, Xingtai",
-      "zh": "第一代至第四代搅拌密封套件，品锦机械，河北邢台"
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Formwork",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Formwork"
     }
   }
 }

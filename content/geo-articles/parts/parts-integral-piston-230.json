@@ -3,102 +3,132 @@
   "category": "parts",
   "keyword": "concrete pump integral piston φ230",
   "title": {
-    "en": "Integral piston φ230 on the Pinjin wear-part page",
-    "zh": "品锦易损件页上的整体活塞 φ230"
+    "en": "Reading concrete pump integral piston φ230 with the section names of Synchronous motor",
+    "zh": "用来源页《Synchronous motor》的章节名来读concrete pump integral piston φ230"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery lists an integral piston at φ230, sold per piece. Material and pump model are not printed for this outer diameter.",
-    "zh": "河北品锦机械把整体活塞列为 φ230，按个供货。这一外径没有印材料和泵型号。"
+    "en": "Synchronous motor provides the section names for concrete pump integral piston φ230. A φ230 integral piston is one outer-diameter row on the Xingtai one-piece piston page. The unit is a piece. Material is a missing field. No published pump page names φ230 as its piston.",
+    "zh": "《Synchronous motor》为concrete pump integral piston φ230提供章节名。φ230 整体活塞是邢台整体活塞页上的一条外径。单位是个。材料是缺字段。没有已公布泵页把 φ230 写成自己的活塞。"
   },
   "h1": {
-    "en": "Concrete pump integral piston φ230",
-    "zh": "混凝土泵整体活塞 φ230"
+    "en": "concrete pump integral piston φ230 without figures beyond the row, under Synchronous motor",
+    "zh": "concrete pump integral piston φ230不超出已印行，标题来自《Synchronous motor》"
   },
   "directAnswer": {
-    "en": "A φ230 integral piston is one outer-diameter row on the Xingtai one-piece piston page. The unit is a piece. Material is a missing field. No published pump page names φ230 as its piston.",
-    "zh": "φ230 整体活塞是邢台整体活塞页上的一条外径。单位是个。材料是缺字段。没有已公布泵页把 φ230 写成自己的活塞。"
+    "en": "concrete pump integral piston φ230 is restated below in Hebei Pinjin Machinery’s own catalogue words. The section order is the order of Synchronous motor, and that page is not a second nameplate. A φ230 integral piston is one outer-diameter row on the Xingtai one-piece piston page. The unit is a piece. Material is a missing field. No published pump page names φ230 as its piston.",
+    "zh": "concrete pump integral piston φ230下面用河北品锦机械目录里已经有的说法重述。章节次序来自《Synchronous motor》，那一页不是第二块铭牌。 φ230 整体活塞是邢台整体活塞页上的一条外径。单位是个。材料是缺字段。没有已公布泵页把 φ230 写成自己的活塞。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What the φ230 row prints",
-        "zh": "φ230 这一行印了什么"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "The integral piston page lists φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230 and φ250, sold per piece, as replacement parts rather than OEM parts of other brands. This note is only φ230. Rubber, rubber-cloth and polyurethane are printed on the split-piston page, not as a material for this integral row.",
-        "zh": "整体活塞页列出 φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230 and φ250，按个供货，并写明是替换件，不是其他品牌原厂件。本文只写 φ230。橡胶、橡胶夹布和聚氨酯印在分体活塞页上，不是这一整体活塞行的材料。"
+        "en": "A reader who opens the source page will find “Types”. This note keeps the heading and puts the printed fragment beneath it. The integral piston page lists φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230 and φ250, sold per piece, as replacement parts rather than OEM parts of other brands. This note is only φ230. Rubber, rubber-cloth and polyurethane are printed on the split-piston page, not as a material for this integral row. This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. The split-piston page also lists φ230, with its own material row and a set as the unit. Same outer diameter does not merge the two parts. The heading stops there.",
+        "zh": "打开来源页会看到“类型”。这篇笔记保留该标题，并把已印片段放在标题下面。 整体活塞页列出 φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230 and φ250，按个供货，并写明是替换件，不是其他品牌原厂件。本文只写 φ230。橡胶、橡胶夹布和聚氨酯印在分体活塞页上，不是这一整体活塞行的材料。 这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。分体活塞页也有 φ230，那边有自己的材料行，单位是套。外径相同也不会把两件配件并成一件。 标题到此为止。"
       }
     },
     {
       "heading": {
-        "en": "Fit and the split-piston page",
-        "zh": "适配关系以及分体活塞页"
+        "en": "Control techniques",
+        "zh": "控制工艺"
       },
       "body": {
-        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. The split-piston page also lists φ230, with its own material row and a set as the unit. Same outer diameter does not merge the two parts.",
-        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。分体活塞页也有 φ230，那边有自己的材料行，单位是套。外径相同也不会把两件配件并成一件。"
+        "en": "The skeleton of this section is the source heading “Control techniques”. The technical content is only what Xingtai already printed. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Write integral piston, φ230, and the quantity in pieces. Do not add a material the page does not print. The outline does not complete a blank.",
+        "zh": "这一节的骨架是来源标题“控制工艺”。技术内容只限于邢台已经印出的部分。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写明整体活塞、φ230 和个数。不要补上页面没有印的材料。 大纲补不上空白格子。"
       }
     },
     {
       "heading": {
-        "en": "What to send",
-        "zh": "询价写什么"
+        "en": "Synchronous speed",
+        "zh": "来源章节：Synchronous speed"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Write integral piston, φ230, and the quantity in pieces. Do not add a material the page does not print.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写明整体活塞、φ230 和个数。不要补上页面没有印的材料。"
+        "en": "The source page divides this subject at “Synchronous speed”. The words under that heading, in this note, stay inside the Xingtai wording already printed. A φ230 integral piston is one outer-diameter row on the Xingtai one-piece piston page. The unit is a piece. Material is a missing field. No published pump page names φ230 as its piston. Stop when the printed fragment stops.",
+        "zh": "来源页在“来源章节：Synchronous speed”处分开叙述。这一节沿用该标题，底下只重复邢台已经印出的说法。 φ230 整体活塞是邢台整体活塞页上的一条外径。单位是个。材料是缺字段。没有已公布泵页把 φ230 写成自己的活塞。 印出的片段结束，这句话也结束。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Construction",
+        "zh": "构造"
+      },
+      "body": {
+        "en": "A reader who opens the source page will find “Construction”. This note keeps the heading and puts the printed fragment beneath it. This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. Unprinted cells stay unprinted.",
+        "zh": "打开来源页会看到“构造”。这篇笔记保留该标题，并把已印片段放在标题下面。 这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。 没有印出的格子保持不印。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Operation",
+        "zh": "操作"
+      },
+      "body": {
+        "en": "A reader who opens the source page will find “Operation”. This note keeps the heading and puts the printed fragment beneath it. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. The heading stops there.",
+        "zh": "打开来源页会看到“操作”。这篇笔记保留该标题，并把已印片段放在标题下面。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 标题到此为止。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Starting methods",
+        "zh": "起动方法"
+      },
+      "body": {
+        "en": "“Starting methods” does not grade a material and does not assign a machine that the row itself does not name. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Stop when the printed fragment stops.",
+        "zh": "“起动方法”不评定材料，也不把目录行没有点名的机器指定过来。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 印出的片段结束，这句话也结束。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Applications, special properties, and advantages",
+        "zh": "用途, 专用性能, 与优点"
+      },
+      "body": {
+        "en": "The source page divides this subject at “Applications, special properties, and advantages”. The words under that heading, in this note, stay inside the Xingtai wording already printed. The page calls them Xingtai replacement wear parts, not OEM parts of other pump brands. The heading stops there.",
+        "zh": "来源页在“用途, 专用性能, 与优点”处分开叙述。这一节沿用该标题，底下只重复邢台已经印出的说法。 页面写的是邢台替换易损件，不是其他泵品牌的原厂件。 标题到此为止。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Subtypes",
+        "zh": "来源章节：Subtypes"
+      },
+      "body": {
+        "en": "“Subtypes” is a heading on the crawled page, used here only as the section name. It does not create a measurement. Email or WhatsApp Hebei Pinjin Machinery in Xingtai, and name the 整体活塞 page plus this size and the quantity. No neighbouring page’s figure is copied onto this row. Image from the source page: https://en.wikipedia.org/wiki/Synchronous_motor",
+        "zh": "“来源章节：Subtypes”是抓到的那一页自己的章节名，这里只拿来当标题，不另造一个测量值。 用邮件或 WhatsApp 写给邢台河北品锦机械，写明整体活塞这一页、这一尺寸和数量。 不把旁边那一页的数字抄到这一行。 图来自来源页：https://en.wikipedia.org/wiki/Synchronous_motor"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which pump model is assigned to φ230?",
-        "zh": "哪台泵被指定为 φ230？"
+        "en": "Where does the photograph sit relative to the printed concrete pump integral piston φ230 cells?",
+        "zh": "这张配图相对concrete pump integral piston φ230的已印格子处于什么位置？"
       },
       "answer": {
-        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine.",
-        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。"
+        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. The heading and the source photograph do not add a further figure.",
+        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is a service life printed?",
-        "zh": "印了使用寿命吗？"
+        "en": "Which printed fragment stays in force when the section is “Control techniques” for concrete pump integral piston φ230?",
+        "zh": "章节为“控制工艺”时，concrete pump integral piston φ230仍以哪一句已印文字为准？"
       },
       "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. The heading and the source photograph do not add a further figure.",
+        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is there a list price or a small parcel?",
-        "zh": "有标价或小包裹吗？"
+        "en": "What should an inquiry repeat for concrete pump integral piston φ230 under the heading “Synchronous speed”?",
+        "zh": "询价concrete pump integral piston φ230时，在“来源章节：Synchronous speed”这一节应当重复什么？"
       },
       "answer": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。"
-      }
-    },
-    {
-      "question": {
-        "en": "Are these OEM parts of another brand?",
-        "zh": "这是其他品牌的原厂件吗？"
-      },
-      "answer": {
-        "en": "The page calls them Xingtai replacement wear parts, not OEM parts of other pump brands.",
-        "zh": "页面写的是邢台替换易损件，不是其他泵品牌的原厂件。"
-      }
-    },
-    {
-      "question": {
-        "en": "Where do I send the size?",
-        "zh": "尺寸发给哪里？"
-      },
-      "answer": {
-        "en": "Email or WhatsApp Hebei Pinjin Machinery in Xingtai, and name the 整体活塞 page plus this size and the quantity.",
-        "zh": "用邮件或 WhatsApp 写给邢台河北品锦机械，写明整体活塞这一页、这一尺寸和数量。"
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. The heading and the source photograph do not add a further figure.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -120,8 +150,19 @@
       "name": "品锦目录：Concrete Pump Integral Piston",
       "url": "https://pinjinpump.com/zh/products/concrete-pump-integral-piston/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Synchronous motor",
+      "url": "https://en.wikipedia.org/wiki/Synchronous_motor",
+      "type": "reference"
     }
   ],
   "status": "ready",
-  "image": null
+  "image": {
+    "src": "/images/articles/parts/parts-integral-piston-230-39fa93d5.jpg",
+    "alt": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Synchronous_motor",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Synchronous_motor"
+    }
+  }
 }

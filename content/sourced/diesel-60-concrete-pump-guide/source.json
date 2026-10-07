@@ -1,7 +1,7 @@
 {
-  "title": "Diesel 60 Concrete Pump Catalogue Row",
-  "seoTitle": "Diesel 60 Concrete Pump | Pinjin HBT60-13.132 144 kW",
-  "description": "Diesel 60 is a Xingtai diesel trailer pump listing 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, hopper 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 also prints HBT60-13.132 but lists 145 kW, 50 m³/h, 35 MPa, 5500 kg — a different page. Match the printed table, then inquire.",
+  "title": "A second turbo is not a cell on the Diesel 60 row",
+  "seoTitle": "Later turbocharger chapters beside Diesel 60",
+  "description": "The turbocharger source continues with several turbochargers, a comparison with supercharging, applications and safety. Diesel 60 stays HBT60-13.132: 6105 diesel, 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m.",
   "primaryKeyword": "Diesel 60 concrete pump",
   "secondaryKeywords": [
     "HBT60-13.132 diesel concrete pump",
@@ -44,8 +44,8 @@
     }
   ],
   "answerBlock": {
-    "what": "Diesel 60 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, hopper 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 prints the same model string with 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Read each page; do not merge cells.",
-    "who": "No-grid sites matching 35 m³/h, 30 MPa and 150 m / 350 m on the Diesel 60 table, not the LZ-60 table.",
+    "what": "Diesel 60 prints one 6105 diesel at 144 kW. A chapter about several turbochargers does not add a second turbo to that row.",
+    "who": "Readers comparing multi-turbo layouts with the single Diesel 60 nameplate.",
     "factors": [
       "6105 / 144 kW versus Diesel 50 at 99 kW and LZ-60 at 145 kW / 50 m³/h",
       "Theoretical output 35 m³/h on this page only",
@@ -60,20 +60,25 @@
   },
   "faqs": [
     {
-      "question": "Is Diesel 60 the same machine as LZ-60 because both print HBT60-13.132?",
-      "answer": "No. Diesel 60 lists 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, 3500 kg. LZ-60 lists 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Match the page you opened."
+      "question": "Does Diesel 60 print two turbos?",
+      "answer": "No. It prints one 6105 diesel at 144 kW. Two engines are the Diesel 120 row, already printed as twin 145 kW diesels."
     },
     {
-      "question": "Does Diesel 60’s 35 m³/h sit inside SmartBuy’s 30–90 m³/h trailer band?",
-      "answer": "35 m³/h is inside that marketplace band. The buying guide still does not rewrite pressure, distance or weight. Use the Xingtai table."
+      "question": "Is supercharging a printed option?",
+      "answer": "No. The comparison chapter explains the difference. This page does not add a supercharger model or a price."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-60-concrete-pump/diesel-60-concrete-pump.webp",
-    "alt": "Diesel 60 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel 60 trailer pump, Xingtai catalogue — HBT60-13.132, 144 kW, 35 m³/h, 150 m / 350 m"
+    "src": "/images/articles/diesel-60-concrete-pump-guide/Turbosuperchargers.png",
+    "alt": "Figure from the source page about turbochargers",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Turbocharger"
   },
   "sources": [
+    {
+      "name": "Turbocharger (source page)",
+      "url": "https://en.wikipedia.org/wiki/Turbocharger",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Diesel 60 product page",
       "url": "https://pinjinpump.com/en/products/diesel-60-concrete-pump/",
@@ -106,11 +111,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Diesel 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 60 Concrete Pump | Pinjin HBT60-13.132 144 kW",
-      "description": "Diesel 60 is a 邢台 diesel 拖式泵 listing 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, 料斗 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 also prints HBT60-13.132 but lists 145 kW, 50 m³/h, 35 MPa, 5500 kg — a different page. Match the printed table, then 询价.",
-      "imageAlt": "Diesel 60 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Diesel 60 拖式泵, 邢台 catalogue — HBT60-13.132, 144 kW, 35 m³/h, 150 m / 350 m",
+      "title": "第二个涡轮不是柴油60行上的格子",
+      "seoTitle": "靠后的涡轮章节对照柴油60",
+      "description": "涡轮增压来源页后面还有多涡轮、与机械增压的对照、用途和安全。柴油60仍是 HBT60-13.132：6105 柴油机、144 kW、35 m³/h、30 MPa、150 m / 350 m。",
+      "imageAlt": "来源页上关于涡轮增压器的图",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Turbocharger",
       "relatedPathLabels": [
         "Diesel 60 concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -118,8 +123,8 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel 60 Concrete Pump is a diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, 料斗 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 prints the same model string with 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Read each page; do not merge cells.",
-        "who": "No-grid sites matching 35 m³/h, 30 MPa and 150 m / 350 m on the Diesel 60 table, not the LZ-60 table.",
+        "what": "柴油60印的是一台 144 kW 的 6105 柴油机。讲多个涡轮的章节不会给这一行再加一个涡轮。",
+        "who": "拿多涡轮布置和柴油60这一张铭牌对照的读者。",
         "factors": [
           "6105 / 144 kW versus Diesel 50 at 99 kW and LZ-60 at 145 kW / 50 m³/h",
           "Theoretical output 35 m³/h on this page only",
@@ -129,21 +134,21 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 60 the same machine as LZ-60 because both print HBT60-13.132?",
-          "answer": "No. Diesel 60 lists 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, 3500 kg. LZ-60 lists 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Match the page you opened."
+          "question": "柴油60印了两个涡轮吗？",
+          "answer": "没有。它印的是一台 144 kW 的 6105 柴油机。两台发动机是柴油120，已经印成两台 145 kW 柴油机。"
         },
         {
-          "question": "Does Diesel 60’s 35 m³/h sit inside SmartBuy’s 30–90 m³/h trailer band?",
-          "answer": "35 m³/h is inside that marketplace band. The buying guide still does not rewrite pressure, distance or weight. Use the 邢台 table."
+          "question": "机械增压是已印的选配吗？",
+          "answer": "不是。对照那一章只解释差别。本页不补机械增压器型号，也不补价格。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 60 Concrete Pump | Pinjin HBT60-13.132 144 kW",
-      "description": "Diesel 60 is a Xingtai diesel bomba reboque listing 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, tremonha 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 also prints HBT60-13.132 but lists 145 kW, 50 m³/h, 35 MPa, 5500 kg — a different page. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 60 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Diesel 60 bomba reboque, Xingtai catalogue — HBT60-13.132, 144 kW, 35 m³/h, 150 m / 350 m",
+      "title": "Um segundo turbo não é uma célula na linha Diesel 60",
+      "seoTitle": "Capítulos posteriores do turbo junto do Diesel 60",
+      "description": "A origem do turbocompressor continua com vários turbos, uma comparação com o compressor mecânico, aplicações e segurança. O Diesel 60 continua HBT60-13.132: diesel 6105, 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m.",
+      "imageAlt": "Figura da página de origem sobre turbocompressores",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Turbocharger",
       "relatedPathLabels": [
         "Diesel 60 concrete pump página do produto",
         "Diesel concrete pump manufacturer China",
@@ -151,8 +156,8 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 60 Concrete Pump is a diesel bomba reboque manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, tremonha 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 prints the same model string with 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Read each page; do not merge cells.",
-        "who": "No-grid sites matching 35 m³/h, 30 MPa and 150 m / 350 m on the Diesel 60 table, not the LZ-60 table.",
+        "what": "O Diesel 60 imprime um diesel 6105 de 144 kW. Um capítulo sobre vários turbos não acrescenta um segundo turbo a essa linha.",
+        "who": "Leitores que comparam disposições multi-turbo com a única placa do Diesel 60.",
         "factors": [
           "6105 / 144 kW versus Diesel 50 at 99 kW and LZ-60 at 145 kW / 50 m³/h",
           "Theoretical output 35 m³/h on this page only",
@@ -162,21 +167,21 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 60 the same machine as LZ-60 because both print HBT60-13.132?",
-          "answer": "No. Diesel 60 lists 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, 3500 kg. LZ-60 lists 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Match the page you opened."
+          "question": "O Diesel 60 imprime dois turbos?",
+          "answer": "Não. Imprime um diesel 6105 de 144 kW. Dois motores são a linha Diesel 120, já impressa como dois diesels de 145 kW."
         },
         {
-          "question": "Does Diesel 60’s 35 m³/h sit inside SmartBuy’s 30–90 m³/h trailer band?",
-          "answer": "35 m³/h is inside that marketplace band. The buying guide still does not rewrite pressure, distance or weight. Use the Xingtai table."
+          "question": "A sobrealimentação mecânica é uma opção impressa?",
+          "answer": "Não. O capítulo de comparação explica a diferença. Esta página não acrescenta um modelo de compressor nem um preço."
         }
       ]
     },
     "ar": {
-      "title": "Diesel 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 60 Concrete Pump | Pinjin HBT60-13.132 144 kW",
-      "description": "Diesel 60 is a شينغتاي diesel مضخة مقطورة listing 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, قادوس 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 also prints HBT60-13.132 but lists 145 kW, 50 m³/h, 35 MPa, 5500 kg — a different page. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 60 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Diesel 60 مضخة مقطورة, شينغتاي catalogue — HBT60-13.132, 144 kW, 35 m³/h, 150 m / 350 m",
+      "title": "تيربو ثانٍ ليس خلية في صف الديزل 60",
+      "seoTitle": "فصول التيربو اللاحقة بجانب الديزل 60",
+      "description": "تكمل صفحة الشاحن التوربيني بعدة شواحن ومقارنة بالشحن الفائق والتطبيقات والسلامة. يبقى الديزل 60 ‏HBT60-13.132: ديزل 6105، 144 كيلوواط، 35 م³/س، 30 ميغاباسكال، 150 م / 350 م.",
+      "imageAlt": "شكل من صفحة المصدر عن الشواحن التوربينية",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Turbocharger",
       "relatedPathLabels": [
         "Diesel 60 concrete pump صفحة المنتج",
         "Diesel concrete pump manufacturer China",
@@ -184,8 +189,8 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 60 Concrete Pump is a diesel مضخة مقطورة manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, قادوس 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 prints the same model string with 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Read each page; do not merge cells.",
-        "who": "No-grid sites matching 35 m³/h, 30 MPa and 150 m / 350 m on the Diesel 60 table, not the LZ-60 table.",
+        "what": "يطبع الديزل 60 ديزل 6105 واحدًا بقدرة 144 كيلوواط. فصل عن عدة شواحن لا يضيف تيربو ثانيًا إلى هذا الصف.",
+        "who": "قرّاء يقارنون ترتيبات التيربو المتعدد بلوحة الديزل 60 الواحدة.",
         "factors": [
           "6105 / 144 kW versus Diesel 50 at 99 kW and LZ-60 at 145 kW / 50 m³/h",
           "Theoretical output 35 m³/h on this page only",
@@ -195,21 +200,21 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 60 the same machine as LZ-60 because both print HBT60-13.132?",
-          "answer": "No. Diesel 60 lists 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, 3500 kg. LZ-60 lists 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Match the page you opened."
+          "question": "هل يطبع الديزل 60 تيربوين؟",
+          "answer": "لا. يطبع ديزل 6105 واحدًا بقدرة 144 كيلوواط. المحركان هما صف الديزل 120 المطبوع كديزلين بقدرة 145 كيلوواط."
         },
         {
-          "question": "Does Diesel 60’s 35 m³/h sit inside SmartBuy’s 30–90 m³/h trailer band?",
-          "answer": "35 m³/h is inside that marketplace band. The buying guide still does not rewrite pressure, distance or weight. Use the شينغتاي table."
+          "question": "هل الشحن الفائق خيار مطبوع؟",
+          "answer": "لا. فصل المقارنة يشرح الفرق. هذه الصفحة لا تضيف طراز شاحن فائق ولا سعرًا."
         }
       ]
     },
     "ru": {
-      "title": "Diesel 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 60 Concrete Pump | Pinjin HBT60-13.132 144 kW",
-      "description": "Diesel 60 is a Синтай diesel прицепной насос listing 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, бункер 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 also prints HBT60-13.132 but lists 145 kW, 50 m³/h, 35 MPa, 5500 kg — a different page. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 60 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Diesel 60 прицепной насос, Синтай catalogue — HBT60-13.132, 144 kW, 35 m³/h, 150 m / 350 m",
+      "title": "Второй турбокомпрессор — не ячейка строки Diesel 60",
+      "seoTitle": "Дальние главы о турбо рядом с Diesel 60",
+      "description": "Страница о турбокомпрессоре продолжается несколькими турбинами, сравнением с приводным нагнетателем, применениями и безопасностью. Diesel 60 остаётся HBT60-13.132: дизель 6105, 144 кВт, 35 м³/ч, 30 МПа, 150 м / 350 м.",
+      "imageAlt": "Иллюстрация со страницы-источника о турбокомпрессорах",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Turbocharger",
       "relatedPathLabels": [
         "Diesel 60 concrete pump страница изделия",
         "Diesel concrete pump manufacturer China",
@@ -217,8 +222,8 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 60 Concrete Pump is a diesel прицепной насос manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132, бункер 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg. LZ-60 prints the same model string with 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Read each page; do not merge cells.",
-        "who": "No-grid sites matching 35 m³/h, 30 MPa and 150 m / 350 m on the Diesel 60 table, not the LZ-60 table.",
+        "what": "Diesel 60 печатает один дизель 6105 на 144 кВт. Глава о нескольких турбинах не добавляет вторую турбину в эту строку.",
+        "who": "Читатели, которые сравнивают многотурбинные схемы с одной табличкой Diesel 60.",
         "factors": [
           "6105 / 144 kW versus Diesel 50 at 99 kW and LZ-60 at 145 kW / 50 m³/h",
           "Theoretical output 35 m³/h on this page only",
@@ -228,14 +233,15 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 60 the same machine as LZ-60 because both print HBT60-13.132?",
-          "answer": "No. Diesel 60 lists 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, 3500 kg. LZ-60 lists 145 kW, 50 m³/h, 35 MPa, 100 m / 300 m, 5500 kg. Match the page you opened."
+          "question": "Печатает ли Diesel 60 две турбины?",
+          "answer": "Нет. Печатает один дизель 6105 на 144 кВт. Два двигателя — это строка Diesel 120, уже напечатанная как два дизеля по 145 кВт."
         },
         {
-          "question": "Does Diesel 60’s 35 m³/h sit inside SmartBuy’s 30–90 m³/h trailer band?",
-          "answer": "35 m³/h is inside that marketplace band. The buying guide still does not rewrite pressure, distance or weight. Use the Синтай table."
+          "question": "Приводной нагнетатель — напечатанная опция?",
+          "answer": "Нет. Глава сравнения объясняет разницу. Эта страница не добавляет модель нагнетателя и цену."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

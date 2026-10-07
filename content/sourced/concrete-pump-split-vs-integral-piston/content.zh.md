@@ -1,27 +1,22 @@
-## Two piston tables, not one SKU
+## Internal combustion engines
 
-Concrete Pump Split Piston and Concrete Pump Integral Piston are wear replacement parts supplied by 河北品锦机械 from 邢台, Hebei, China. Split pistons: sets in rubber, rubber-cloth and polyurethane; outer diameters φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280. Integral pistons: one-piece, sold per piece; outer diameters φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250. Confirm the OD on the pump. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.
+![来源页插图：Piston](/images/articles/concrete-pump-split-vs-integral-piston/Hydraulic_cylinders_used_in_a_particle_board_machine.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Piston*
 
-![Concrete pump split piston factory product photo, 河北品锦机械 邢台](/images/products/concrete-pump-split-piston/concrete-pump-split-piston.webp)
-*Split piston sets, 邢台 wear-part catalogue — confirm OD on the pump*
+把「Internal combustion engines」和Split Piston vs Integral Piston分开。来源页不填空白格。这一节不另加数字。
 
-## What each table lists
+本页没写出来的格子继续空着。「Internal combustion engines」不去填它们。
 
-| Form | Unit | Materials listed | Outer diameters listed |
-| Split piston | Set | Rubber, rubber-cloth, polyurethane | φ150 / 180 / 195 / 200 / 220 / 230 / 250 / 260 / 280 |
-| Integral piston | Piece | One-piece piston | φ150 / 160 / 180 / 195 / 200 / 205 / 210 / 220 / 225 / 230 / 250 |
+## Hydraulic cylinders
 
-Piston damping springs are a third SKU: [rubber spring](/products/concrete-pump-rubber-spring/) at φ150–φ260. Spare-parts overview: [wear parts](/blog/concrete-pump-spare-parts-wear-parts/). Hub: [concrete pump parts](/products/concrete-pump-parts/).
+来源章节「Hydraulic cylinders」留在来源页。Split Piston vs Integral Piston仍是这里已经写过的那一行。这一节不另加数字。
 
-## Industry note, not a factory hour
+## Steam engines
 
-SmartBuy lists “monthly: replace worn seals” and professional service every 250–500 operating hours. Those are marketplace maintenance bullets. Pinjin does not print piston hours. Measure OD; photograph the worn set; send the pump model slug.
+「Steam engines」不能代替规格。Split Piston vs Integral Piston维持已印的那一行。这一节不另加数字。
 
-## When to open another page
+## For liquids
 
-- Split set at a listed OD → [split piston](/products/concrete-pump-split-piston/).
-- One-piece piston including φ160 / φ205 / φ210 / φ225 → [integral piston](/products/concrete-pump-integral-piston/).
-- S-tube seal kit → [S-tube seal](/products/concrete-pump-s-tube-seal/).
-- Not Schwing or Putzmeister OEM parts.
+「For liquids」是背景。Split Piston vs Integral Piston的询价仍看已经写下的单元格。这一节不另加数字。
 
-询价: [contact](/contact/).
+本文原先已经指向这些页面：[rubber spring](/products/concrete-pump-rubber-spring/), [wear parts](/blog/concrete-pump-spare-parts-wear-parts/), [concrete pump parts](/products/concrete-pump-parts/)。

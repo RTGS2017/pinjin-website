@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "concrete pump without grid power",
   "title": {
-    "en": "No stable grid: which catalogue do you open?",
-    "zh": "没有稳定电网时打开哪一本目录？"
+    "en": "One window only: No stable grid: which catalogue do you open",
+    "zh": "只留一个窗口：没有稳定电网时打开哪一本目录"
   },
   "description": {
-    "en": "Open the diesel catalogue. The off-grid page lists Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump.",
-    "zh": "打开柴油目录。无电网页面列出柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。"
+    "en": "Read it in the Xingtai table. The diesel catalogue. Taken from the printed row: Hebei Pinjin Machinery in Xingtai prints the rule twice: the off-grid solution page and the selection guide. Keep this cell as published. Rural houses, remote infrastructure and sites without stable electricity use diesel trailer pumps or tractor-driven units. The neighbouring machine is not this sentence. The listed families are Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump. Read it in the Xingtai table. Electric 20–80 stay on the shelf until a real motor supply exists.",
+    "zh": "按邢台表上的原文理解：柴油目录。邢台河北品锦机械把这条规则写了两次：无电网应用页和选型指南。农村住宅、偏远基建和供电不稳的工地使用柴油拖泵或拖拉机带动泵。列出的系列是柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。在真正的电机电源出现之前，电动20–80先放着。"
   },
   "h1": {
-    "en": "No stable grid: which catalogue do you open?",
-    "zh": "没有稳定电网时打开哪一本目录？"
+    "en": "One window only: No stable grid: which catalogue do you open",
+    "zh": "只留一个窗口：没有稳定电网时打开哪一本目录"
   },
   "directAnswer": {
-    "en": "The diesel catalogue. Hebei Pinjin Machinery in Xingtai prints the rule twice: the off-grid solution page and the selection guide. Rural houses, remote infrastructure and sites without stable electricity use diesel trailer pumps or tractor-driven units. The listed families are Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump. Electric 20–80 stay on the shelf until a real motor supply exists.",
-    "zh": "柴油目录。邢台河北品锦机械把这条规则写了两次：无电网应用页和选型指南。农村住宅、偏远基建和供电不稳的工地使用柴油拖泵或拖拉机带动泵。列出的系列是柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。在真正的电机电源出现之前，电动20–80先放着。"
+    "en": "Read it in the Xingtai table. The diesel catalogue. Taken from the printed row: Hebei Pinjin Machinery in Xingtai prints the rule twice: the off-grid solution page and the selection guide. Keep this cell as published. Rural houses, remote infrastructure and sites without stable electricity use diesel trailer pumps or tractor-driven units. The neighbouring machine is not this sentence. The listed families are Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump. Read it in the Xingtai table. Electric 20–80 stay on the shelf until a real motor supply exists.",
+    "zh": "按邢台表上的原文理解：柴油目录。邢台河北品锦机械把这条规则写了两次：无电网应用页和选型指南。农村住宅、偏远基建和供电不稳的工地使用柴油拖泵或拖拉机带动泵。列出的系列是柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。在真正的电机电源出现之前，电动20–80先放着。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Split compact diesel from trailer diesel",
-        "zh": "把紧凑柴油和拖式柴油分开"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "Compact: rural diesel 17 kW, 5–8 m³/h, 800 kg; tractor-driven 4100 at 40 kW, 6–12 m³/h, 1300 kg. Trailer: Diesel 30 at 2000 kg up to Diesel 120 at 8000 kg, plus LZ-60 at 5500 kg and LZ-80 at 6800 kg. A tight house plot starts at the compact pair. A long infrastructure line starts at the trailer whose distance cell covers the pipe.",
-        "zh": "紧凑：农村柴油泵 17 kW、5–8 m³/h、800 kg；拖拉机带动4100 为 40 kW、6–12 m³/h、1300 kg。拖式：柴油30为 2000 kg，直到柴油120为 8000 kg，加上 LZ-60 的 5500 kg 和 LZ-80 的 6800 kg。狭小住宅从紧凑这一对开始。长基建管路从距离格盖得住管子的那台拖泵开始。"
+        "en": "Borrow “History” from “Horsepower” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. Open the diesel catalogue. Taken from the printed row: The listed families are Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump. Keep this cell as published. A long infrastructure line starts at the trailer whose distance cell covers the pipe. The neighbouring machine is not this sentence. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. It means the published models Diesel 30, 40, 50, 60 and 120, plus the LZ and compact diesel pages named beside them. Image from the source page: https://en.wikipedia.org/wiki/Horsepower",
+        "zh": "把《Horsepower》的“沿革”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：打开柴油目录。无电网页面列出柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。目录里已经写着：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://en.wikipedia.org/wiki/Horsepower"
       }
     },
     {
       "heading": {
-        "en": "Spraying without 380 V is a third catalogue",
-        "zh": "没有 380V 的喷涂是第三本目录"
+        "en": "Calculating power",
+        "zh": "计算功率"
       },
       "body": {
-        "en": "If the job is mortar or concrete spraying rather than pipeline placement, the off-grid spraying rows are Type 511 diesel (3 m³/h, 30 m / 15 m) and the diesel concrete sprayer (28/32 HP, 5 m³/h, 80 m / 40 m). They are not Diesel 30. The industrial-projects page is about diesel pumping, not forklifts or spiral feeders.",
-        "zh": "如果作业是砂浆或混凝土喷涂，而不是管道浇筑，无电网的喷涂行是 511 柴油机（3 m³/h、30 m / 15 m）和柴油混凝土喷涂机（28/32 HP、5 m³/h、80 m / 40 m）。它们不是柴油30。工业项目页讲的是柴油泵送，不是叉车或螺旋给料机。"
+        "en": "The reference page “Horsepower” uses “Calculating power” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: The off-grid page lists Diesel 30–120, LZ-60 / LZ-80, Tractor-Driven 4100 and the rural diesel pump. Keep this cell as published. Electric 20–80 stay on the shelf until a real motor supply exists. The neighbouring machine is not this sentence. If the job is mortar or concrete spraying rather than pipeline placement, the off-grid spraying rows are Type 511 diesel (3 m³/h, 30 m / 15 m) and the diesel concrete sprayer (28/32 HP, 5 m³/h, 80 m / 40 m). Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: There is no Diesel 70 or Diesel 90 page.",
+        "zh": "来源页《Horsepower》用“计算功率”划分这一节。后面是邢台目录里已有内容，换一种说法写下。柴油目录。河北品锦机械（邢台）把这条规则写了两次：无电网应用页和选型指南。农村住宅、偏远基建和供电不稳的工地使用柴油拖泵或拖拉机带动泵。列出的系列是柴油30–120、LZ-60 / LZ-80、拖拉机带动4100和农村柴油泵。在真正的电机电源出现之前，电动20–80先放着。这一格照已印出的读：只有它供得起已印的电机时才可以。否则留在柴油页，并告诉邢台你实际有的电源。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Definitions",
+        "zh": "定义"
       },
       "body": {
-        "en": "Say pipeline placement or spraying, then the power you do not have. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请先说明是管道浇筑还是喷涂，再说你没有的那种电源。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Definitions” is an outline label from “Horsepower”. That label does not add a figure to the printed row. Keep this cell as published. The diesel catalogue. The neighbouring machine is not this sentence. Compact: rural diesel 17 kW, 5–8 m³/h, 800 kg; tractor-driven 4100 at 40 kW, 6–12 m³/h, 1300 kg. Read it in the Xingtai table. They are not Diesel 30. Taken from the printed row: Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. /solutions/industrial-projects and /products/diesel-concrete-pumps.",
+        "zh": "“定义”是《Horsepower》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：紧凑：农村柴油泵 17 kW、5–8 m³/h、800 kg；拖拉机带动4100 为 40 kW、6–12 m³/h、1300 kg。拖式：柴油30为 2000 kg，直到柴油120为 8000 kg，加上 LZ-60 的 5500 kg 和 LZ-80 的 6800 kg。狭小住宅从紧凑这一对开始。长基建管路从距离格盖得住管子的那台拖泵开始。它指目录上写出的柴油30、40、50、60和120，加上旁边点名的 LZ 和紧凑柴油页。没有柴油70或柴油90页面。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Measurement",
+        "zh": "测量"
+      },
+      "body": {
+        "en": "This block keeps the heading “Measurement” from “Horsepower”, then stays with the cells already published. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints the rule twice: the off-grid solution page and the selection guide. Read it in the Xingtai table. Trailer: Diesel 30 at 2000 kg up to Diesel 120 at 8000 kg, plus LZ-60 at 5500 kg and LZ-80 at 6800 kg. Taken from the printed row: The industrial-projects page is about diesel pumping, not forklifts or spiral feeders. Keep this cell as published. Only if it can feed the printed motor.",
+        "zh": "本节保留《Horsepower》的标题“测量”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。如果作业是砂浆或混凝土喷涂，而不是管道浇筑，无电网的喷涂行是 511 柴油机（3 m³/h、30 m / 15 m）和柴油混凝土喷涂机（28/32 HP、5 m³/h、80 m / 40 m）。它们不是柴油30。工业项目页讲的是柴油泵送，不是叉车或螺旋给料机。按邢台表上的原文理解：/solutions/industrial-projects 和 /products/diesel-concrete-pumps。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Engine power test standards",
+        "zh": "发动机功率试验标准"
+      },
+      "body": {
+        "en": "The section shape comes from “Engine power test standards” in “Horsepower”. The sentences are a restatement of the catalogue, not of that article. Read it in the Xingtai table. Rural houses, remote infrastructure and sites without stable electricity use diesel trailer pumps or tractor-driven units. Taken from the printed row: A tight house plot starts at the compact pair. Keep this cell as published. Say pipeline placement or spraying, then the power you do not have. The neighbouring machine is not this sentence. Otherwise stay on the diesel page and tell Xingtai the supply you actually have. Headings already printed: Spraying without 380 V is a third catalogue",
+        "zh": "这一节的形状来自《Horsepower》的“发动机功率试验标准”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：请先说明是管道浇筑还是喷涂，再说你没有的那种电源。已印出的标题：没有 380V 的喷涂是第三本目录"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is a generator an excuse to pick an electric pump?",
-        "zh": "发电机能当作选择电动泵的理由吗？"
+        "en": "“History” does not change the check: Is a generator an excuse to pick an electric pump?",
+        "zh": "“沿革”不改这一问：发电机能当作选择电动泵的理由吗？"
       },
       "answer": {
-        "en": "Only if it can feed the printed motor. Otherwise stay on the diesel page and tell Xingtai the supply you actually have.",
-        "zh": "只有它供得起已印的电机时才可以。否则留在柴油页，并告诉邢台你实际有的电源。"
+        "en": "Read it in the Xingtai table. Only if it can feed the printed motor. Otherwise stay on the diesel page and tell Xingtai the supply you actually have.",
+        "zh": "按邢台表上的原文理解：只有它供得起已印的电机时才可以。否则留在柴油页，并告诉邢台你实际有的电源。"
       }
     },
     {
       "question": {
-        "en": "Does “Diesel 30–120” include every number between?",
-        "zh": "“柴油30–120”是否包含中间每个数字？"
+        "en": "Does “Diesel 30–120” include every number between, once the outline says “Calculating power”?",
+        "zh": "大纲写着“计算功率”时，“柴油30–120”是否包含中间每个数字？"
       },
       "answer": {
-        "en": "It means the published models Diesel 30, 40, 50, 60 and 120, plus the LZ and compact diesel pages named beside them. There is no Diesel 70 or Diesel 90 page.",
-        "zh": "它指已公布的柴油30、40、50、60和120，加上旁边点名的 LZ 和紧凑柴油页。没有柴油70或柴油90页面。"
+        "en": "Taken from the printed row: It means the published models Diesel 30, 40, 50, 60 and 120, plus the LZ and compact diesel pages named beside them. There is no Diesel 70 or Diesel 90 page.",
+        "zh": "目录里已经写着：它指已公布的柴油30、40、50、60和120，加上旁边点名的 LZ 和紧凑柴油页。没有柴油70或柴油90页面。"
       }
     },
     {
       "question": {
-        "en": "Where is the page?",
-        "zh": "页面在哪？"
+        "en": "Under “Definitions”, where is the page?",
+        "zh": "在“定义”这一节里，页面在哪？"
       },
       "answer": {
-        "en": "/solutions/industrial-projects and /products/diesel-concrete-pumps.",
-        "zh": "/solutions/industrial-projects 和 /products/diesel-concrete-pumps。"
+        "en": "Keep this cell as published. /solutions/industrial-projects and /products/diesel-concrete-pumps.",
+        "zh": "这一格照已印出的读：/solutions/industrial-projects 和 /products/diesel-concrete-pumps。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/no-stable-grid-open-the-diesel-hub.webp",
+    "src": "/images/articles/applications/no-stable-grid-open-the-diesel-catalogue.jpg",
     "alt": {
-      "en": "Diesel trailer pump from Hebei Pinjin Machinery for sites without stable grid power",
-      "zh": "河北品锦机械柴油拖泵，用于没有稳定电网的工地"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Horsepower",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Horsepower"
     }
   },
   "relatedPaths": [
@@ -129,7 +153,12 @@
   "sources": [
     "https://pinjinpump.com/solutions/industrial-projects",
     "https://pinjinpump.com/products/diesel-concrete-pumps",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Horsepower"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

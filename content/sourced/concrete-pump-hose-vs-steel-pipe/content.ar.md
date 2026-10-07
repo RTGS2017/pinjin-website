@@ -1,27 +1,22 @@
-## Steel for the run, hose for the pour face
+## Wootz and Damascus
 
-Buyers search “concrete pump hose vs steel pipe” after a listing shows only rubber. ACI 304.2R is blunt: about three times more pressure is needed to pump through a given length of flexible hose than through the same length of steel, and a curved hose can straighten under pressure. ACPA’s study guide adds: when pumping a long distance, use steel for as much of the line as you can.
+![صورة من صفحة المصدر عن Steel](/images/articles/concrete-pump-hose-vs-steel-pipe/Bessemer_Converter_Sheffield.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Steel*
 
-We sell both as **شينغتاي replacement pipeline parts**. We do not print a universal DN chart on those two pages. We quote after the pump model.
+يبقى الفصل «Wootz and Damascus» في صفحة المصدر. Concrete Pump Hose vs Steel Pipe هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.
 
-![Pinjin concrete pump خرطوم النقلs with steel couplings packed in شينغتاي for project quantities](/images/products/concrete-pump-delivery-hose/concrete-pump-delivery-hose.webp)
-*Delivery hose with steel couplings — project packing, no small-batch parcels*
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Wootz and Damascus» لا يملؤها.
 
-## What is printed where
+## Modern
 
-- [Delivery pipe](/products/concrete-pump-delivery-pipe/): straight high-pressure pipe, coupling/flange ends, red enamel. DN and length after model.
-- [Delivery hose](/products/concrete-pump-delivery-hose/): flexible placing hose, steel couplings. Inner diameter and length after model.
-- [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/): EN14420-3, DN80, PN10/16, 3″/89, grease nipple.
-- Pump pages that do print pipe ID: Electric 20 **80 mm**; Electric 15 **100–125 mm**; مضخة خلاط **100 / 125 mm**.
+«Modern» لا يحل محل مواصفة. يبقى Concrete Pump Hose vs Steel Pipe على الصف المطبوع. هذا الفصل لا يضيف رقمًا.
 
-DN selection for the pump itself is the older [pipe DN article](/blog/concrete-pump-pipe-dn-selection/). This page is hose versus steel as **equivalent length**, not a second DN lecture.
+## Carbon
 
-## Equivalent length we will cite, not invent
+«Carbon» خلفية. طلب Concrete Pump Hose vs Steel Pipe يبقى على الخلايا المكتوبة من قبل. هذا الفصل لا يضيف رقمًا.
 
-ACI 304.2R footnote (ACPA 2011a): 1 m of خرطوم مطاطي ≈ 3 m of pipe equivalent; one elbow ≈ 1 m of straight pipe; عمودي rise adds pressure (about one bar per 4 m in that same note). If your inquiry says “80 m hose, Electric 15,” we will not treat it as the printed 60–80 m أفقي steel pair. See [vertical vs horizontal](/blog/concrete-pump-vertical-vs-horizontal-distance/).
+## Alloy
 
-ACPA: take hose out of service when the lining shows braiding. No factory hour table.
+«Alloy» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Concrete Pump Hose vs Steel Pipe. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.
 
-## استفسار
-
-Pump model, DN, hose vs pipe, length, quantity. Not sold as one or two pieces for trial.
+صفحات مذكورة أصلًا في هذا النص: [Delivery pipe](/products/concrete-pump-delivery-pipe/), [Delivery hose](/products/concrete-pump-delivery-hose/), [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/).

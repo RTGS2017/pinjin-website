@@ -6,100 +6,110 @@
     "zh": "哪些混凝土泵写了川崎液压泵"
   },
   "title": {
-    "en": "Which Pinjin Pumps Name a Kawasaki Hydraulic Pump",
-    "zh": "哪些品锦泵写出了川崎液压泵"
+    "en": "Pinjin Pumps Name a Kawasaki Hydraulic Pump is a catalogue comparison, not a page from Tremie",
+    "zh": "哪些品锦泵写出了川崎液压泵是目录对照，不是「Tremie」那一页"
   },
   "description": {
-    "en": "Only some Xingtai concrete pump rows name a Kawasaki hydraulic pump, and the printed designation is not the same on every row.",
-    "zh": "只有一部分邢台混凝土泵行写出川崎液压泵，而且印出的型号并不相同。"
+    "en": "Pinjin Pumps Name a Kawasaki Hydraulic Pump. Illustration: Tremie.",
+    "zh": "哪些品锦泵写出了川崎液压泵。插图来自「Tremie」。"
   },
   "h1": {
-    "en": "Which Pinjin Pumps Name a Kawasaki Hydraulic Pump",
-    "zh": "哪些品锦泵写出了川崎液压泵"
+    "en": "Pinjin Pumps Name a Kawasaki Hydraulic Pump is a catalogue comparison, not a page from Tremie",
+    "zh": "哪些品锦泵写出了川崎液压泵是目录对照，不是「Tremie」那一页"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery names a Kawasaki hydraulic pump on some concrete pumps in Xingtai and omits it on others. Electric 40 and Electric Low Pressure 40 print Kawasaki 112. Electric 50 prints Kawasaki 140. Electric 80 prints Kawasaki 140 double pump. Diesel 120 prints Kawasaki 112 as two units. Electric 15, Electric 20, Diesel 30 and the tractor page do not name one. The cell is a name, not a displacement.",
-    "zh": "河北品锦机械在邢台的部分混凝土泵上写出川崎液压泵，另一部分没有。电动40和电动低压40印川崎112。电动50印川崎140。电动80印川崎140双泵。柴油120印两台川崎112。电动15、电动20、柴油30和拖拉机页没有写出液压泵名称。这一格是名称，不是排量。"
+    "en": "Hebei Pinjin Machinery names a Kawasaki hydraulic pump on some concrete pumps in Xingtai and omits it on others. Electric 40 and Electric Low Pressure 40 list Kawasaki 112. The picture is from https://en.wikipedia.org/wiki/Tremie.",
+    "zh": "河北品锦机械在邢台的部分混凝土泵上写出川崎液压泵，另一部分没有。电动15、电动20、柴油30和拖拉机页没有写出液压泵名称。图片来自https://en.wikipedia.org/wiki/Tremie。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The designations that are printed",
-        "zh": "已经印出的名称"
+        "en": "Function",
+        "zh": "功能"
       },
       "body": {
-        "en": "Kawasaki 112 appears on Electric Low Pressure 40, Electric 40 and Diesel 40. Kawasaki 140 appears on Electric 50 and Diesel 50. Electric 60 prints Kawasaki double pump 112. Electric Low Pressure 60 and Diesel 60 print Kawasaki double pump 100. Electric 80 prints Kawasaki 140 double pump. LZ-80 prints Kawasaki double 140. Diesel 120 prints Kawasaki 112 (two units). Wording differences are part of the cell.",
-        "zh": "川崎112出现在电动低压40、电动40和柴油40。川崎140出现在电动50和柴油50。电动60印川崎双泵112。电动低压60和柴油60印川崎双泵100。电动80印川崎140双泵。LZ-80 印川崎双140。柴油120印川崎112（两台）。措辞差别属于格子本身。"
+        "en": "Picture source: https://en.wikipedia.org/wiki/Tremie. Subject: Tremie components. Hebei Pinjin Machinery names a Kawasaki hydraulic pump on some concrete pumps in Xingtai and omits it on others. Diesel 120 lists Kawasaki 112 as two units. Kawasaki 140 appears on Electric 50 and Diesel 50. LZ-80 lists Kawasaki double 140. Hebei Pinjin Machinery does not authorise copying Kawasaki 140 onto those sheets. Questions go to /en/contact/.",
+        "zh": "图片来源：https://en.wikipedia.org/wiki/Tremie。画面主体：Tremie components。河北品锦机械在邢台的部分混凝土泵上写出川崎液压泵，另一部分没有。河北品锦机械没有允许把川崎140抄到这些页面上。"
       }
     },
     {
       "heading": {
-        "en": "Pages that do not name a hydraulic pump",
-        "zh": "没有液压泵名称的页面"
+        "en": "Structure",
+        "zh": "结构"
       },
       "body": {
-        "en": "Electric 10, Electric 15, Electric 20, Electric 30, Diesel 30, HBT8018, HBT80-16, LZ-60, both mixer pumps, the tractor pump and the rural diesel pump do not print a Kawasaki line. Hebei Pinjin Machinery does not authorise copying Kawasaki 140 onto those sheets.",
-        "zh": "电动10、电动15、电动20、电动30、柴油30、HBT8018、HBT80-16、LZ-60、两台搅拌泵、拖拉机泵和农村柴油泵都没有川崎行。河北品锦机械没有允许把川崎140抄到这些页面上。"
+        "en": "Electric 40 and Electric Low Pressure 40 list Kawasaki 112. Electric 15, Electric 20, Diesel 30 and the tractor page do not name one. Electric 60 lists Kawasaki double pump 112. Diesel 120 lists Kawasaki 112 (two units). No concrete pump row adds a cubic-centimetre displacement beside the Kawasaki name.",
+        "zh": "电动15、电动20、柴油30和拖拉机页没有写出液压泵名称。没有一台混凝土泵在川崎名称旁边附上毫升排量。"
       }
     },
     {
       "heading": {
-        "en": "What the name does not include",
-        "zh": "这个名称没有包含什么"
+        "en": "Placement",
+        "zh": "浇筑就位"
       },
       "body": {
-        "en": "No concrete pump row adds a cubic-centimetre displacement beside the Kawasaki name. No row prints a hydraulic-oil grade in that cell. Those blanks stay blank. Questions go to /en/contact/.",
-        "zh": "没有一台混凝土泵在川崎名称旁边附上毫升排量。也没有一行在这一格印液压油牌号。这些空白保持空白。问题请发到 /zh/contact/。"
+        "en": "Electric 50 lists Kawasaki 140. The entry is a name, not a displacement. Electric Low Pressure 60 and Diesel 60 list Kawasaki double pump 100. Wording differences are part of the entry. No row lists a hydraulic-oil grade in that entry.",
+        "zh": "川崎112出现在电动低压40、电动40和柴油40。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Concrete",
+        "zh": "混凝土"
+      },
+      "body": {
+        "en": "Electric 80 lists Kawasaki 140 double pump. Kawasaki 112 appears on Electric Low Pressure 40, Electric 40 and Diesel 40. Electric 80 lists Kawasaki 140 double pump. Electric 10, Electric 15, Electric 20, Electric 30, Diesel 30, HBT8018, HBT80-16, LZ-60, both mixer pumps, the tractor pump and the rural diesel pump do not list a Kawasaki line. Those blanks stay blank.",
+        "zh": "电动10、电动15、电动20、电动30、柴油30、HBT8018、HBT80-16、LZ-60、两台搅拌泵、拖拉机泵和农村柴油泵都没有川崎行。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is every Pinjin pump fitted with a named Kawasaki unit on the sheet?",
+        "en": "On this row: Is every Pinjin pump fitted with a named Kawasaki unit on the sheet?",
         "zh": "是不是每台品锦泵的参数页都写了川崎？"
       },
       "answer": {
-        "en": "No. Only the rows listed above print a Kawasaki designation. Other concrete pump pages leave it out.",
-        "zh": "不是。只有上面列出的行印了川崎名称。其他混凝土泵页面没有这一行。"
+        "en": "No. Only the rows listed above list a Kawasaki designation. Other concrete pump pages leave it out. It is not a figure printed inside https://en.wikipedia.org/wiki/Tremie.",
+        "zh": "不是。只有上面列出的行标出了川崎名称。其他混凝土泵页面没有这一行。它不是https://en.wikipedia.org/wiki/Tremie画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What does Diesel 120 print for the hydraulic pump?",
-        "zh": "柴油120的液压泵印的是什么？"
+        "en": "What does Diesel 120 list for the hydraulic pump?",
+        "zh": "柴油120的液压泵标出的是什么？"
       },
       "answer": {
-        "en": "Kawasaki 112 (two units). That matches the two-engine power line on the same page, which is also written as two units.",
-        "zh": "川崎112（两台）。这和同一页的双发动机功率行一样，也写成两台。"
+        "en": "Kawasaki 112 (two units). That matches the two-engine power line on the same page, which is also written as two units. It is not a figure printed inside https://en.wikipedia.org/wiki/Tremie.",
+        "zh": "川崎112（两台）。这和同一页的双发动机功率行一样，也写成两台。它不是https://en.wikipedia.org/wiki/Tremie画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the Kawasaki cell include displacement?",
+        "en": "Does the Kawasaki entry include displacement?",
         "zh": "川崎这一格包含排量吗？"
       },
       "answer": {
-        "en": "No. Hebei Pinjin Machinery prints the name only.",
-        "zh": "不包含。河北品锦机械只印了名称。"
+        "en": "No. Hebei Pinjin Machinery lists the name only. It is not a figure printed inside https://en.wikipedia.org/wiki/Tremie.",
+        "zh": "不包含。河北品锦机械只标出了名称。它不是https://en.wikipedia.org/wiki/Tremie画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Are Kawasaki 140 and Kawasaki 140 double pump the same text?",
+        "en": "On this row: Are Kawasaki 140 and Kawasaki 140 double pump the same text?",
         "zh": "川崎140和川崎140双泵是同一句文字吗？"
       },
       "answer": {
-        "en": "No. Electric 50 prints Kawasaki 140. Electric 80 prints Kawasaki 140 double pump. Keep the words as printed.",
-        "zh": "不是。电动50印川崎140。电动80印川崎140双泵。按印出的文字保留。"
+        "en": "No. Electric 50 lists Kawasaki 140. Electric 80 lists Kawasaki 140 double pump. Keep the words as shown. It is not a figure printed inside https://en.wikipedia.org/wiki/Tremie.",
+        "zh": "不是。电动50标出川崎140。电动80标出川崎140双泵。按写出的文字保留。它不是https://en.wikipedia.org/wiki/Tremie画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/which-pinjin-pumps-name-a-kawasaki-hydraulic-pump-pinjin.webp",
+    "src": "/images/articles/knowledge/which-pinjin-pumps-name-a-kawasaki-hydraulic-pump-tremie-components.png",
     "alt": {
-      "en": "Which Pinjin Pumps Name a Kawasaki Hydraulic Pump, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "哪些品锦泵写出了川崎液压泵，河北品锦机械，河北邢台"
+      "en": "Tremie components. Image from the source page: https://en.wikipedia.org/wiki/Tremie.",
+      "zh": "Tremie components。图来自来源页：https://en.wikipedia.org/wiki/Tremie。"
     }
   },
   "relatedPaths": [
@@ -134,7 +144,8 @@
     "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
     "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Tremie"
   ],
   "status": "draft"
 }

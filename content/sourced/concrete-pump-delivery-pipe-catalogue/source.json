@@ -1,8 +1,8 @@
 {
   "slug": "concrete-pump-delivery-pipe-catalogue",
-  "title": "Concrete Pump Delivery Pipe Quote Row",
-  "seoTitle": "Concrete Pump Delivery Pipe | Pinjin Xingtai Quote by DN",
-  "description": "Pinjin straight delivery pipe is made in Xingtai with coupling ends. Diameter, wall and length are quoted after the pump model. No fixed DN table, no list price, no small-batch shipping. A marketplace DN125 or 20-piece MOQ is not this page.",
+  "title": "Pipe (fluid conveyance) — Manufacture / Sizes / Standards / Installation",
+  "seoTitle": "Pipe (fluid conveyance) — Manufacture",
+  "description": "“Manufacture” is a chapter on the source page. It does not rename Xingtai concrete pump delivery pipe. Printed cells already on this page: 100–125 mm, 80 mm, 125 mm.",
   "primaryKeyword": "Xingtai concrete pump delivery pipe",
   "secondaryKeywords": [
     "concrete pump straight pipe quote",
@@ -46,13 +46,12 @@
     }
   ],
   "answerBlock": {
-    "what": "Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai. Factory photos show red enamel pipes with reinforced coupling ends. Inner diameter, wall thickness and length are quoted after the pump model. This page does not publish a fixed DN table or a list price, and it is not sold in small batches.",
-    "who": "Service teams replacing or extending the steel line on a listed Pinjin pump, in project quantity, after DN and length are confirmed.",
+    "what": "“Manufacture” is a chapter on the source page. It does not rename Xingtai concrete pump delivery pipe. Printed cells already on this page: 100–125 mm, 80 mm, 125 mm.",
+    "who": "Readers checking Xingtai concrete pump delivery pipe against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "No published list price and no piece-count MOQ on the Pinjin page",
-      "Electric 20 prints 80 mm pipe; LZ-60 prints 100 / 125 mm — the pipe SKU still needs the model confirmed",
-      "A marketplace listing that prints DN100 / DN125 and a 20-piece minimum is not this table",
-      "The DN200 elbow and the rubber hose are separate SKUs"
+      "100–125 mm",
+      "80 mm",
+      "125 mm"
     ],
     "relatedModels": [
       "concrete-pump-delivery-pipe",
@@ -62,20 +61,25 @@
   },
   "faqs": [
     {
-      "question": "Does Pinjin print a list price or a fixed DN table for the straight delivery pipe?",
-      "answer": "No. Diameter, wall and length are quoted after the pump model. The page does not publish a list price and does not sell small batches. Send the pump model, DN and length."
+      "question": "Does “Manufacture” add a cell to Xingtai concrete pump delivery pipe?",
+      "answer": "No. A Made-in-China delivery-pipe listing prints DN100 / DN125 / custom, ST52 or 45Mn2, and a negotiated price above 20 pieces."
     },
     {
-      "question": "Is the marketplace 20-piece MOQ the Pinjin delivery-pipe minimum?",
-      "answer": "No. A Made-in-China delivery-pipe listing shows price to be negotiated above 20 pieces, with DN100 / DN125 / custom and ST52 or 45Mn2. Those cells are not printed on the Pinjin pipe page."
+      "question": "Can “Sizes” fill a blank cell for Xingtai concrete pump delivery pipe?",
+      "answer": "No. Blank cells for Xingtai concrete pump delivery pipe stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/concrete-pump-delivery-pipe/concrete-pump-delivery-pipe.webp",
-    "alt": "Concrete pump delivery pipe factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Straight delivery pipe, Xingtai — diameter and length quoted after the pump model"
+    "src": "/images/articles/concrete-pump-delivery-pipe-catalogue/Electrofusion_Welding_of_HDPE_Pipe.jpg",
+    "alt": "Figure from the source page about Pipe (fluid conveyance)",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)"
   },
   "sources": [
+    {
+      "name": "Pipe (fluid conveyance) (source page)",
+      "url": "https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)",
+      "type": "industry"
+    },
     {
       "name": "Pinjin delivery pipe product page",
       "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-pipe/",
@@ -108,11 +112,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "混凝土泵输送管报价行",
-      "seoTitle": "Concrete Pump Delivery Pipe | 品锦 邢台 Quote by DN",
-      "description": "Pinjin straight delivery pipe is made in Xingtai with coupling ends. Diameter, wall and length are quoted after the pump model. No fixed DN table, no list price, no small-batch shipping. A marketplace DN125 or 20-piece MOQ is not this page.",
-      "imageAlt": "Concrete pump delivery pipe factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Straight delivery pipe, Xingtai — diameter and length quoted after the pump model",
+      "title": "混凝土泵输送管报价行：Pipe (fluid conveyance)（Manufacture / Sizes / Standards / Installation）",
+      "seoTitle": "Pipe (fluid conveyance)：Manufacture",
+      "description": "「Manufacture」是来源页自己的章节，不会把混凝土泵输送管报价行改成另一条目录。本页已经印出的读数：100–125 mm, 80 mm, 125 mm。",
+      "imageAlt": "来源页插图：Pipe (fluid conveyance)",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)",
       "relatedPathLabels": [
         "Concrete pump delivery pipe 产品页",
         "Concrete pump parts manufacturer China",
@@ -120,32 +124,31 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai. Factory photos show red enamel pipes with reinforced coupling ends. Inner diameter, wall thickness and length are quoted after the pump model. This page does not publish a fixed DN table or a list price, and it is not sold in small batches.",
-        "who": "Service teams replacing or extending the steel line on a listed Pinjin pump, in project quantity, after DN and length are confirmed.",
+        "what": "「Manufacture」是来源页自己的章节，不会把混凝土泵输送管报价行改成另一条目录。本页已经印出的读数：100–125 mm, 80 mm, 125 mm。",
+        "who": "想把混凝土泵输送管报价行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "No published list price and no piece-count MOQ on the Pinjin page",
-          "Electric 20 prints 80 mm pipe; LZ-60 prints 100 / 125 mm — the pipe SKU still needs the model confirmed",
-          "A marketplace listing that prints DN100 / DN125 and a 20-piece minimum is not this table",
-          "The DN200 elbow and the rubber hose are separate SKUs"
+          "100–125 mm",
+          "80 mm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does Pinjin print a list price or a fixed DN table for the straight delivery pipe?",
-          "answer": "No. Diameter, wall and length are quoted after the pump model. The page does not publish a list price and does not sell small batches. Send the pump model, DN and length."
+          "question": "「Manufacture」会给混凝土泵输送管报价行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：100–125 mm, 80 mm, 125 mm。"
         },
         {
-          "question": "Is the marketplace 20-piece MOQ the Pinjin delivery-pipe minimum?",
-          "answer": "No. A Made-in-China delivery-pipe listing shows price to be negotiated above 20 pieces, with DN100 / DN125 / custom and ST52 or 45Mn2. Those cells are not printed on the Pinjin pipe page."
+          "question": "「Sizes」能补上混凝土泵输送管报价行的空白格吗？",
+          "answer": "不能。混凝土泵输送管报价行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Delivery Pipe Quote Row",
-      "seoTitle": "Concrete Pump Delivery Pipe | Pinjin Xingtai Quote by DN",
-      "description": "Pinjin straight delivery pipe is made in Xingtai with coupling ends. Diameter, wall and length are quoted after the pump model. No fixed DN table, no list price, no small-batch shipping. A marketplace DN125 or 20-piece MOQ is not this page.",
-      "imageAlt": "Concrete pump delivery pipe factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Straight delivery pipe, Xingtai — diameter and length quoted after the pump model",
+      "title": "Concrete Pump Delivery Pipe Quote Row: Pipe (fluid conveyance) — Manufacture / Sizes / Standards / Installation",
+      "seoTitle": "Pipe (fluid conveyance) — Manufacture",
+      "description": "“Manufacture” é um capítulo da página de origem. Não muda o nome de Concrete Pump Delivery Pipe Quote Row. Valores já impressos nesta página: 100–125 mm, 80 mm, 125 mm.",
+      "imageAlt": "Figura da página de origem sobre Pipe (fluid conveyance)",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)",
       "relatedPathLabels": [
         "Concrete pump delivery pipe 产品页",
         "Concrete pump parts manufacturer China",
@@ -153,32 +156,31 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai. Factory photos show red enamel pipes with reinforced coupling ends. Inner diameter, wall thickness and length are quoted after the pump model. This page does not publish a fixed DN table or a list price, and it is not sold in small batches.",
-        "who": "Service teams replacing or extending the steel line on a listed Pinjin pump, in project quantity, after DN and length are confirmed.",
+        "what": "“Manufacture” é um capítulo da página de origem. Não muda o nome de Concrete Pump Delivery Pipe Quote Row. Valores já impressos nesta página: 100–125 mm, 80 mm, 125 mm.",
+        "who": "Leitores que comparam Concrete Pump Delivery Pipe Quote Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "No published list price and no piece-count MOQ on the Pinjin page",
-          "Electric 20 prints 80 mm pipe; LZ-60 prints 100 / 125 mm — the pipe SKU still needs the model confirmed",
-          "A marketplace listing that prints DN100 / DN125 and a 20-piece minimum is not this table",
-          "The DN200 elbow and the rubber hose are separate SKUs"
+          "100–125 mm",
+          "80 mm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does Pinjin print a list price or a fixed DN table for the straight delivery pipe?",
-          "answer": "No. Diameter, wall and length are quoted after the pump model. The page does not publish a list price and does not sell small batches. Send the pump model, DN and length."
+          "question": "“Manufacture” acrescenta uma casa a Concrete Pump Delivery Pipe Quote Row?",
+          "answer": "Não. Valores já impressos nesta página: 100–125 mm, 80 mm, 125 mm."
         },
         {
-          "question": "Is the marketplace 20-piece MOQ the Pinjin delivery-pipe minimum?",
-          "answer": "No. A Made-in-China delivery-pipe listing shows price to be negotiated above 20 pieces, with DN100 / DN125 / custom and ST52 or 45Mn2. Those cells are not printed on the Pinjin pipe page."
+          "question": "“Sizes” pode preencher uma casa em branco de Concrete Pump Delivery Pipe Quote Row?",
+          "answer": "Não. As casas em branco de Concrete Pump Delivery Pipe Quote Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Delivery Pipe Quote Row",
-      "seoTitle": "Concrete Pump Delivery Pipe | Pinjin Xingtai Quote by DN",
-      "description": "Pinjin straight delivery pipe is made in Xingtai with coupling ends. Diameter, wall and length are quoted after the pump model. No fixed DN table, no list price, no small-batch shipping. A marketplace DN125 or 20-piece MOQ is not this page.",
-      "imageAlt": "Concrete pump delivery pipe factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Straight delivery pipe, Xingtai — diameter and length quoted after the pump model",
+      "title": "Concrete Pump Delivery Pipe Quote Row: Pipe (fluid conveyance) — Manufacture / Sizes / Standards / Installation",
+      "seoTitle": "Pipe (fluid conveyance) — Manufacture",
+      "description": "«Manufacture» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pump Delivery Pipe Quote Row. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 80 mm, 125 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Pipe (fluid conveyance)",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)",
       "relatedPathLabels": [
         "Concrete pump delivery pipe 产品页",
         "Concrete pump parts manufacturer China",
@@ -186,32 +188,31 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai. Factory photos show red enamel pipes with reinforced coupling ends. Inner diameter, wall thickness and length are quoted after the pump model. This page does not publish a fixed DN table or a list price, and it is not sold in small batches.",
-        "who": "Service teams replacing or extending the steel line on a listed Pinjin pump, in project quantity, after DN and length are confirmed.",
+        "what": "«Manufacture» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pump Delivery Pipe Quote Row. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 80 mm, 125 mm.",
+        "who": "قرّاء يقارنون Concrete Pump Delivery Pipe Quote Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "No published list price and no piece-count MOQ on the Pinjin page",
-          "Electric 20 prints 80 mm pipe; LZ-60 prints 100 / 125 mm — the pipe SKU still needs the model confirmed",
-          "A marketplace listing that prints DN100 / DN125 and a 20-piece minimum is not this table",
-          "The DN200 elbow and the rubber hose are separate SKUs"
+          "100–125 mm",
+          "80 mm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does Pinjin print a list price or a fixed DN table for the straight delivery pipe?",
-          "answer": "No. Diameter, wall and length are quoted after the pump model. The page does not publish a list price and does not sell small batches. Send the pump model, DN and length."
+          "question": "هل يضيف «Manufacture» خانة إلى Concrete Pump Delivery Pipe Quote Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 80 mm, 125 mm."
         },
         {
-          "question": "Is the marketplace 20-piece MOQ the Pinjin delivery-pipe minimum?",
-          "answer": "No. A Made-in-China delivery-pipe listing shows price to be negotiated above 20 pieces, with DN100 / DN125 / custom and ST52 or 45Mn2. Those cells are not printed on the Pinjin pipe page."
+          "question": "هل يستطيع «Sizes» ملء خانة فارغة لـ Concrete Pump Delivery Pipe Quote Row؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Delivery Pipe Quote Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Delivery Pipe Quote Row",
-      "seoTitle": "Concrete Pump Delivery Pipe | Pinjin Xingtai Quote by DN",
-      "description": "Pinjin straight delivery pipe is made in Xingtai with coupling ends. Diameter, wall and length are quoted after the pump model. No fixed DN table, no list price, no small-batch shipping. A marketplace DN125 or 20-piece MOQ is not this page.",
-      "imageAlt": "Concrete pump delivery pipe factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Straight delivery pipe, Xingtai — diameter and length quoted after the pump model",
+      "title": "Concrete Pump Delivery Pipe Quote Row: Pipe (fluid conveyance) — Manufacture / Sizes / Standards / Installation",
+      "seoTitle": "Pipe (fluid conveyance) — Manufacture",
+      "description": "“Manufacture” — глава на странице-источнике. Она не переименовывает Concrete Pump Delivery Pipe Quote Row. Уже напечатанные значения на этой странице: 100–125 mm, 80 mm, 125 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Pipe (fluid conveyance)",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)",
       "relatedPathLabels": [
         "Concrete pump delivery pipe 产品页",
         "Concrete pump parts manufacturer China",
@@ -219,25 +220,25 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai. Factory photos show red enamel pipes with reinforced coupling ends. Inner diameter, wall thickness and length are quoted after the pump model. This page does not publish a fixed DN table or a list price, and it is not sold in small batches.",
-        "who": "Service teams replacing or extending the steel line on a listed Pinjin pump, in project quantity, after DN and length are confirmed.",
+        "what": "“Manufacture” — глава на странице-источнике. Она не переименовывает Concrete Pump Delivery Pipe Quote Row. Уже напечатанные значения на этой странице: 100–125 mm, 80 mm, 125 mm.",
+        "who": "Читатели, которые сверяют Concrete Pump Delivery Pipe Quote Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "No published list price and no piece-count MOQ on the Pinjin page",
-          "Electric 20 prints 80 mm pipe; LZ-60 prints 100 / 125 mm — the pipe SKU still needs the model confirmed",
-          "A marketplace listing that prints DN100 / DN125 and a 20-piece minimum is not this table",
-          "The DN200 elbow and the rubber hose are separate SKUs"
+          "100–125 mm",
+          "80 mm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does Pinjin print a list price or a fixed DN table for the straight delivery pipe?",
-          "answer": "No. Diameter, wall and length are quoted after the pump model. The page does not publish a list price and does not sell small batches. Send the pump model, DN and length."
+          "question": "Добавляет ли “Manufacture” клетку к Concrete Pump Delivery Pipe Quote Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 100–125 mm, 80 mm, 125 mm."
         },
         {
-          "question": "Is the marketplace 20-piece MOQ the Pinjin delivery-pipe minimum?",
-          "answer": "No. A Made-in-China delivery-pipe listing shows price to be negotiated above 20 pieces, with DN100 / DN125 / custom and ST52 or 45Mn2. Those cells are not printed on the Pinjin pipe page."
+          "question": "Может ли “Sizes” заполнить пустую клетку для Concrete Pump Delivery Pipe Quote Row?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Delivery Pipe Quote Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

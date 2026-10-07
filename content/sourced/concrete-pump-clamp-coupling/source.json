@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
-  "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin Xingtai",
-  "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until residual pressure is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
+  "title": "Hose coupling — Threaded coupler types / Non-threaded gendered coupler types / Non-threaded genderless coupler types / Flanged couplings",
+  "seoTitle": "Hose coupling — Threaded coupler types",
+  "description": "Read “Threaded coupler types” as context from the source. It is not a new nameplate for concrete pump clamp. Printed cells already on this page: 100–125 mm, 3.5 kg, 80 mm.",
   "primaryKeyword": "concrete pump clamp",
   "secondaryKeywords": [
     "concrete pump coupling",
@@ -52,13 +52,12 @@
     }
   ],
   "answerBlock": {
-    "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until residual pressure is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
-    "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+    "what": "Read “Threaded coupler types” as context from the source. It is not a new nameplate for concrete pump clamp. Printed cells already on this page: 100–125 mm, 3.5 kg, 80 mm.",
+    "who": "Readers checking concrete pump clamp against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Use the DN printed on the pump page; DN80 is the listed clamp",
-      "ACPA: never open a coupling under pressure",
-      "Inspect gasket and pin before each pour",
-      "Other diameters and quantities are quoted from Xingtai, not invented as SKUs"
+      "100–125 mm",
+      "3.5 kg",
+      "80 mm"
     ],
     "relatedModels": [
       "concrete-pump-pipe-clamp-dn80",
@@ -68,24 +67,25 @@
   },
   "faqs": [
     {
-      "question": "Which clamp SKU does Pinjin list on the website?",
-      "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+      "question": "Does “Threaded coupler types” add a cell to concrete pump clamp?",
+      "answer": "No. Hebei Pinjin Machinery lists one clamp on the public site: DN80 pipe clamp."
     },
     {
-      "question": "Can I open a coupling to check a plug while the line is still pressurised?",
-      "answer": "No. ACPA: never open a coupling until residual pressure is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
-    },
-    {
-      "question": "How often should the gasket be replaced on a Pinjin clamp?",
-      "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a Xingtai quote — unpublished hours are not a factory spec."
+      "question": "Can “Non-threaded gendered coupler types” fill a blank cell for concrete pump clamp?",
+      "answer": "No. Blank cells for concrete pump clamp stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/concrete-pump-pipe-clamp-dn80/concrete-pump-pipe-clamp-dn80.webp",
-    "alt": "DN80 concrete pump pipe clamp EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery Xingtai",
-    "caption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented."
+    "src": "/images/articles/concrete-pump-clamp-coupling/Express.png",
+    "alt": "Figure from the source page about Hose coupling",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Hose_coupling"
   },
   "sources": [
+    {
+      "name": "Hose coupling (source page)",
+      "url": "https://en.wikipedia.org/wiki/Hose_coupling",
+      "type": "industry"
+    },
     {
       "name": "Pinjin DN80 pipe clamp product page",
       "url": "https://pinjinpump.com/en/products/concrete-pump-pipe-clamp-dn80/",
@@ -115,9 +115,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "混凝土泵管卡/接头：DN80、密封、禁止带压打开",
-      "description": "品锦列 DN80 管卡，EN 14420-3，PN10 / PN16，3.5 kg。ACPA：卸掉残余压力前不要打开接头。其他直径按管路报价，不编造料号。",
-      "imageAlt": "DN80 concrete pump 管卡 EN 14420-3 PN10 PN16 from 河北品锦机械 邢台",
+      "title": "混凝土泵管卡/接头：Hose coupling（Threaded coupler types / Non-threaded gendered coupler types / Non-threaded genderless coupler types / Flanged couplings）",
+      "description": "「Threaded coupler types」只作来源页上的背景，不是给混凝土泵管卡/接头新造的铭牌。本页已经印出的读数：100–125 mm, 3.5 kg, 80 mm。",
+      "imageAlt": "来源页插图：Hose coupling",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -125,36 +125,31 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until 残余压力 is relieved. 电动20 prints 80 mm pipe, so DN80 is the matching listed coupling. 电动15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. 品锦 does not print a factory gasket life in hours.",
-        "who": "Buyers matching a pipeline to a listed 品锦 pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "what": "「Threaded coupler types」只作来源页上的背景，不是给混凝土泵管卡/接头新造的铭牌。本页已经印出的读数：100–125 mm, 3.5 kg, 80 mm。",
+        "who": "想把混凝土泵管卡/接头和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Use the DN printed on the pump page; DN80 is the listed clamp",
-          "ACPA: 禁止在带压时打开管接头",
-          "Inspect gasket and pin before each pour",
-          "Other diameters and quantities are quoted from 邢台, not invented as SKUs"
+          "100–125 mm",
+          "3.5 kg",
+          "80 mm"
         ]
       },
-      "seoTitle": "混凝土泵管卡与接头安全 | 品锦邢台",
-      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "seoTitle": "Hose coupling：Threaded coupler types",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Hose_coupling",
       "faqs": [
         {
-          "question": "Which clamp SKU does 品锦 list on the website?",
-          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. 电动20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+          "question": "「Threaded coupler types」会给混凝土泵管卡/接头增加单元格吗？",
+          "answer": "不会。河北品锦机械在公开站点只列一个管卡：DN80 管卡。单元格为 EN 14420-3、工作压力 PN10 / PN16、重量 3.5 kg。电动 20 印的是 80 mm 输送管，因此该接头是匹配的已列规格。"
         },
         {
-          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
-          "answer": "No. ACPA: never open a coupling until 残余压力 is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
-        },
-        {
-          "question": "How often should the gasket be replaced on a 品锦 clamp?",
-          "answer": "品锦 does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a 邢台 quote — unpublished hours are not a factory spec."
+          "question": "「Non-threaded gendered coupler types」能补上混凝土泵管卡/接头的空白格吗？",
+          "answer": "不能。混凝土泵管卡/接头没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
-      "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until pressão residual is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
-      "imageAlt": "DN80 concrete pump abraçadeira de tubo EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery Xingtai",
+      "title": "Concrete Pump Clamp / Coupling: Hose coupling — Threaded coupler types / Non-threaded gendered coupler types / Non-threaded genderless coupler types / Flanged couplings",
+      "description": "Leia “Threaded coupler types” como contexto da origem. Não é uma placa nova para Concrete Pump Clamp / Coupling. Valores já impressos nesta página: 100–125 mm, 3.5 kg, 80 mm.",
+      "imageAlt": "Figura da página de origem sobre Hose coupling",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -162,36 +157,31 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until pressão residual is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
-        "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "what": "Leia “Threaded coupler types” como contexto da origem. Não é uma placa nova para Concrete Pump Clamp / Coupling. Valores já impressos nesta página: 100–125 mm, 3.5 kg, 80 mm.",
+        "who": "Leitores que comparam Concrete Pump Clamp / Coupling com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Use the DN printed on the pump page; DN80 is the listed clamp",
-          "ACPA: nunca abra um acoplamento sob pressão",
-          "Inspect gasket and pin before each pour",
-          "Other diameters and quantities are quoted from Xingtai, not invented as SKUs"
+          "100–125 mm",
+          "3.5 kg",
+          "80 mm"
         ]
       },
-      "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin Xingtai",
-      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "seoTitle": "Hose coupling — Threaded coupler types",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Hose_coupling",
       "faqs": [
         {
-          "question": "Which clamp SKU does Pinjin list on the website?",
-          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+          "question": "“Threaded coupler types” acrescenta uma casa a Concrete Pump Clamp / Coupling?",
+          "answer": "Não. Valores já impressos nesta página: 100–125 mm, 3.5 kg, 80 mm."
         },
         {
-          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
-          "answer": "No. ACPA: never open a coupling until pressão residual is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
-        },
-        {
-          "question": "How often should the gasket be replaced on a Pinjin clamp?",
-          "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a Xingtai quote — unpublished hours are not a factory spec."
+          "question": "“Non-threaded gendered coupler types” pode preencher uma casa em branco de Concrete Pump Clamp / Coupling?",
+          "answer": "Não. As casas em branco de Concrete Pump Clamp / Coupling continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
-      "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until ضغط متبقٍ is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
-      "imageAlt": "DN80 concrete pump مشبك الأنبوب EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery شينغتاي",
+      "title": "Concrete Pump Clamp / Coupling: Hose coupling — Threaded coupler types / Non-threaded gendered coupler types / Non-threaded genderless coupler types / Flanged couplings",
+      "description": "«Threaded coupler types» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Concrete Pump Clamp / Coupling. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 3.5 kg, 80 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Hose coupling",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -199,36 +189,31 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until ضغط متبقٍ is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
-        "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "what": "«Threaded coupler types» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Concrete Pump Clamp / Coupling. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 3.5 kg, 80 mm.",
+        "who": "قرّاء يقارنون Concrete Pump Clamp / Coupling بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Use the DN printed on the pump page; DN80 is the listed clamp",
-          "ACPA: لا تفتح الوصلة تحت الضغط",
-          "Inspect gasket and pin before each pour",
-          "Other diameters and quantities are quoted from شينغتاي, not invented as SKUs"
+          "100–125 mm",
+          "3.5 kg",
+          "80 mm"
         ]
       },
-      "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin شينغتاي",
-      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "seoTitle": "Hose coupling — Threaded coupler types",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Hose_coupling",
       "faqs": [
         {
-          "question": "Which clamp SKU does Pinjin list on the website?",
-          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+          "question": "هل يضيف «Threaded coupler types» خانة إلى Concrete Pump Clamp / Coupling؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 3.5 kg, 80 mm."
         },
         {
-          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
-          "answer": "No. ACPA: never open a coupling until ضغط متبقٍ is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
-        },
-        {
-          "question": "How often should the gasket be replaced on a Pinjin clamp?",
-          "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a شينغتاي quote — unpublished hours are not a factory spec."
+          "question": "هل يستطيع «Non-threaded gendered coupler types» ملء خانة فارغة لـ Concrete Pump Clamp / Coupling؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Clamp / Coupling تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Clamp / Coupling: DN80, Gasket, Never Open Under Pressure",
-      "description": "Pinjin lists a DN80 clamp, EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: never open a coupling until остаточное давление is relieved. Gaskets and pins are inspected daily. Other diameters are quoted against the pipeline, not invented as extra SKUs.",
-      "imageAlt": "DN80 concrete pump хомут трубопровода EN 14420-3 PN10 PN16 from Hebei Pinjin Machinery Синтай",
+      "title": "Concrete Pump Clamp / Coupling: Hose coupling — Threaded coupler types / Non-threaded gendered coupler types / Non-threaded genderless coupler types / Flanged couplings",
+      "description": "“Threaded coupler types” — только контекст источника, а не новая табличка для Concrete Pump Clamp / Coupling. Уже напечатанные значения на этой странице: 100–125 mm, 3.5 kg, 80 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Hose coupling",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -236,31 +221,27 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "The listed clamp is [DN80](/products/concrete-pump-pipe-clamp-dn80/): EN 14420-3, PN10 / PN16, 3.5 kg. ACPA: inspect clamps, gaskets and pins daily; never open a coupling until остаточное давление is relieved. Electric 20 prints 80 mm pipe, so DN80 is the matching listed coupling. Electric 15 prints 100–125 mm — that diameter is quoted, not a second clamp SKU on the site. Pinjin does not print a factory gasket life in hours.",
-        "who": "Buyers matching a pipeline to a listed Pinjin pump who need the one published clamp SKU and the ACPA pressure rule — not a competitor’s full DN chart.",
+        "what": "“Threaded coupler types” — только контекст источника, а не новая табличка для Concrete Pump Clamp / Coupling. Уже напечатанные значения на этой странице: 100–125 mm, 3.5 kg, 80 mm.",
+        "who": "Читатели, которые сверяют Concrete Pump Clamp / Coupling со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Use the DN printed on the pump page; DN80 is the listed clamp",
-          "ACPA: не открывать соединение под давлением",
-          "Inspect gasket and pin before each pour",
-          "Other diameters and quantities are quoted from Синтай, not invented as SKUs"
+          "100–125 mm",
+          "3.5 kg",
+          "80 mm"
         ]
       },
-      "seoTitle": "Concrete Pump Clamp and Coupling Safety | Pinjin Синтай",
-      "imageCaption": "Listed DN80 clamp — 3.5 kg, EN 14420-3, PN10 / PN16. Other DN quoted, not invented.",
+      "seoTitle": "Hose coupling — Threaded coupler types",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Hose_coupling",
       "faqs": [
         {
-          "question": "Which clamp SKU does Pinjin list on the website?",
-          "answer": "DN80, EN 14420-3, PN10 / PN16, 3.5 kg. Electric 20 lists 80 mm pipe. Other diameters are quoted against the pipeline after the pump model — they are not extra clamp SKUs on this site."
+          "question": "Добавляет ли “Threaded coupler types” клетку к Concrete Pump Clamp / Coupling?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 100–125 mm, 3.5 kg, 80 mm."
         },
         {
-          "question": "Can I open a coupling to check a plug while the line is still pressurised?",
-          "answer": "No. ACPA: never open a coupling until остаточное давление is relieved. Reverse pump or follow the blockage page. Compressed air is not a cleaning method we will recommend from this article."
-        },
-        {
-          "question": "How often should the gasket be replaced on a Pinjin clamp?",
-          "answer": "Pinjin does not print a gasket hour interval. ACPA: inspect gaskets and pins daily; replace when cut, crushed or missing. Photograph the clamp OD and send quantity with the pump model if you need a Синтай quote — unpublished hours are not a factory spec."
+          "question": "Может ли “Non-threaded gendered coupler types” заполнить пустую клетку для Concrete Pump Clamp / Coupling?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Clamp / Coupling остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

@@ -1,41 +1,22 @@
-## Catalogue pressure is a cell, not a derived curve
+## Procedure
 
-Buyers ask us to “calculate” pumping pressure from slump. We will not invent that equation. On Pinjin страница изделияs, max давление на выходе is a printed cell. Conveying distance is another printed cell. Mix slump is a site figure you send with the inquiry. ACI 304.2R-17 is the industry document we cite for conventional slump bands and заполнитель-to-pipe limits.
+![Иллюстрация со страницы-источника: Concrete slump test](/images/articles/concrete-pumping-pressure-slump-aggregate/Cono_de_Abrams_05.jpg)
+*Изображение со страницы-источника: https://en.wikipedia.org/wiki/Concrete_slump_test*
 
-![Electric 40 concrete pump, 23 MPa catalogue давление на выходе, Hebei Pinjin Machinery Синтай](/images/products/electric-40-concrete-pump/main.webp)
-*Electric 40, Синтай catalogue — 45 kW, 21 m³/h, 23 MPa*
+“Procedure” — глава на странице-источнике. Она не переименовывает Concrete Pumping Pressure, Slump and Aggregate. Уже напечатанные значения на этой странице: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.
 
-## Published давление на выходе on nearby electric trailers
+Пустые клетки на этой странице остаются пустыми. “Procedure” их не заполняет.
 
-| Model | Max давление на выходе | Output | Distance notes |
-| Electric 20 | 10 MPa | 8–10 m³/h | 120 m / 40 m; заполнитель 1–2 cm |
-| Electric 30 | 20 MPa | 12–15 m³/h | мелкий камень 60 m / 180 m; agg13 20 m / 60 m |
-| Electric Low Pressure 40 | 20 MPa | 12–15 m³/h | мелкий камень 80 m / 240 m |
-| Electric 40 | 23 MPa | 21 m³/h | мелкий камень 120 m / 360 m; agg13 40 m / 120 m |
+## Interpretation of results
 
-Low Pressure 40 is not a 10 MPa machine. Its printed pressure is 20 MPa, same band as Electric 30. The “low pressure” name is a мелкий камень tune; see the [Low Pressure 40 guide](/blog/low-pressure-40-concrete-pump-guide/). High-rise matching against Electric 40 / 60 / 80 catalogue heights is a different article: [high-rise selection](/blog/high-rise-building-concrete-pump-selection/).
+Concrete Pumping Pressure, Slump and Aggregate остаётся строкой, которая уже была в этом тексте. “Interpretation of results” объясняет тему источника и не добавляет клетку. Эта глава не добавляет цифру.
 
-## What ACI 304.2R-17 actually says here
+## Limitations of the slump test
 
-We quote the guide, we do not rewrite it into a factory formula:
+Держите “Limitations of the slump test” и Concrete Pumping Pressure, Slump and Aggregate отдельно. Источник не заполняет пустую клетку. Эта глава не добавляет цифру.
 
-- For conventional mixtures without admixtures, a 2–6 in (50–150 mm) slump range has been the traditional target used as a pumpability indicator.
-- Angular coarse заполнитель is limited to one-third of the smallest inside diameter of the pump or pipeline; well-rounded заполнитель to two-fifths.
-- Pumped concrete moves as a cylinder on a lubricating film; the pipeline must be primed, and the mixture must stay stable (non-segregating).
+## Differences in standards
 
-Higher slump with water-reducers exists in the same ACI document as a later development. We do not turn that into a Синтай dosage table. If your mix uses admixtures, write that in the inquiry along with slump and max stone.
+Глава “Differences in standards” остаётся на странице-источнике. Concrete Pumping Pressure, Slump and Aggregate — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.
 
-## Aggregate still has to fit the pump row
-
-Pressure does not cancel an oversized stone. Electric 20’s 10 MPa row is still 1–2 cm max заполнитель. Electric 30’s 20 MPa row is still ≤3 cm, with separate мелкий камень and agg13 distances. Selection detail: [Fine Stone Concrete Pump: Aggregate Size](/blog/fine-stone-concrete-pump-aggregate-size/).
-
-If the line blocks, release pressure before opening clamps. Never use compressed air to force a plug. That procedure is [Concrete Pump Blockage](/blog/concrete-pump-blockage-causes-prevention/), citing ACPA — not a Pinjin invention.
-
-## Related Pinjin models
-
-- [Electric 20](/products/electric-20-concrete-pump/)
-- [Electric 30](/products/electric-30-concrete-pump/)
-- [Electric Low Pressure 40](/products/electric-low-pressure-40-concrete-pump/)
-- [Electric 40](/products/electric-40-concrete-pump/)
-
-Send slump (and whether it is water or admixture), max stone, pipe DN and length, and the pressure cell you think you need. We will confirm against the printed row only.
+Страницы, уже указанные в этом тексте: [Low Pressure 40 guide](/blog/low-pressure-40-concrete-pump-guide/), [high-rise selection](/blog/high-rise-building-concrete-pump-selection/), [Fine Stone Concrete Pump: Aggregate Size](/blog/fine-stone-concrete-pump-aggregate-size/).

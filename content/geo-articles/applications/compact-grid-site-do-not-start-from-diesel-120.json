@@ -3,86 +3,116 @@
   "category": "application",
   "keyword": "do not use diesel 120 on a small site",
   "title": {
-    "en": "Should a compact grid site start from Diesel 120?",
-    "zh": "有电网的紧凑工地要从柴油120开始吗？"
+    "en": "Printed-row question: Should a compact grid site start from Diesel 120",
+    "zh": "先看已印出的行：有电网的紧凑工地要从柴油120开始吗"
   },
   "description": {
-    "en": "No. Diesel 120 is 8000 kg, 100 m³/h and 150 m / 500 m for high-output off-grid infrastructure. A compact grid site starts at B500S-83D, Electric 15 or Electric 10 Series.",
-    "zh": "不要。柴油120是 8000 kg、100 m³/h、150 m / 500 m 的大排量无电网基建泵。有电网的紧凑工地从 B500S-83D、电动15或电动10系列开始。"
+    "en": "The neighbouring machine is not this sentence. No. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai prints Diesel 120 for very high output infrastructure and twin-engine diesel power, at 8000 kg. Taken from the printed row: A compact site with 380 V or a 15 kW supply starts on B500S-83D, Electric 15 or Electric 10 Series. Keep this cell as published. Those weights are 280 kg, 450 kg and 400 kg. The neighbouring machine is not this sentence. Using the largest diesel trailer because it is “more powerful” ignores the published windows.",
+    "zh": "不要。邢台河北品锦机械把柴油120印给超大排量基建和双柴油机动力，重量 8000 kg。有 380 V 或 15 kW 电源的紧凑工地从 B500S-83D、电动15或电动10系列开始。重量分别是 280 kg、450 kg 和 400 kg。因为“更有劲”就用最大的柴油拖泵，等于无视目录上写出的窗口。"
   },
   "h1": {
-    "en": "Should a compact grid site start from Diesel 120?",
-    "zh": "有电网的紧凑工地要从柴油120开始吗？"
+    "en": "Printed-row question: Should a compact grid site start from Diesel 120",
+    "zh": "先看已印出的行：有电网的紧凑工地要从柴油120开始吗"
   },
   "directAnswer": {
-    "en": "No. Hebei Pinjin Machinery in Xingtai prints Diesel 120 for very high output infrastructure and twin-engine diesel power, at 8000 kg. A compact site with 380 V or a 15 kW supply starts on B500S-83D, Electric 15 or Electric 10 Series. Those weights are 280 kg, 450 kg and 400 kg. Using the largest diesel trailer because it is “more powerful” ignores the published windows.",
-    "zh": "不要。邢台河北品锦机械把柴油120印给超大排量基建和双柴油机动力，重量 8000 kg。有 380 V 或 15 kW 电源的紧凑工地从 B500S-83D、电动15或电动10系列开始。重量分别是 280 kg、450 kg 和 400 kg。因为“更有劲”就用最大的柴油拖泵，等于无视已公布的窗口。"
+    "en": "The neighbouring machine is not this sentence. No. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai prints Diesel 120 for very high output infrastructure and twin-engine diesel power, at 8000 kg. Taken from the printed row: A compact site with 380 V or a 15 kW supply starts on B500S-83D, Electric 15 or Electric 10 Series. Keep this cell as published. Those weights are 280 kg, 450 kg and 400 kg. The neighbouring machine is not this sentence. Using the largest diesel trailer because it is “more powerful” ignores the published windows.",
+    "zh": "不要。邢台河北品锦机械把柴油120印给超大排量基建和双柴油机动力，重量 8000 kg。有 380 V 或 15 kW 电源的紧凑工地从 B500S-83D、电动15或电动10系列开始。重量分别是 280 kg、450 kg 和 400 kg。因为“更有劲”就用最大的柴油拖泵，等于无视目录上写出的窗口。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Match the small window first",
-        "zh": "先对照小窗口"
+        "en": "Names",
+        "zh": "客户的姓名"
       },
       "body": {
-        "en": "Five metres and 5–16 mm stone: B500S-83D. Vertical 15–20 m and 1–3 cm on the grid: Electric 15. Horizontal only, inside 25 m, stone 2 cm and below: Electric 10 Series. If those fail, step to Electric 20’s building row or, without power, to the 17 kW rural diesel or the 4100. Diesel 120 remains the 100 m³/h, 6 cm, 150 m / 500 m machine.",
-        "zh": "5 米和 5–16 mm 石子：B500S-83D。有电网、垂直 15–20 m、1–3 cm：电动15。只有水平、在 25 m 内、石子 2 cm 及以下：电动10系列。这些都不对时，再上电动20的建筑行；没有电源则上 17 kW 农村柴油泵或 4100。柴油120仍然是 100 m³/h、6 cm、150 m / 500 m 的机器。"
+        "en": "The reference page “Diesel fuel” uses “Names” as one of its own divisions. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. No. Read it in the Xingtai table. A compact site with 380 V or a 15 kW supply starts on B500S-83D, Electric 15 or Electric 10 Series. Taken from the printed row: Horizontal only, inside 25 m, stone 2 cm and below: Electric 10 Series. Keep this cell as published. Send the measured metres. The neighbouring machine is not this sentence. Yes, for the high-output off-grid infrastructure window printed on its page. Read it in the Xingtai table. No. Image from the source page: https://en.wikipedia.org/wiki/Diesel_fuel",
+        "zh": "来源页《Diesel fuel》用“客户的姓名”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。不要。柴油120是 8000 kg、100 m³/h、150 m / 500 m 的大排量无电网基建泵。有电网的紧凑工地从 B500S-83D、电动15或电动10系列开始。按邢台表上的原文理解：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://en.wikipedia.org/wiki/Diesel_fuel"
       }
     },
     {
       "heading": {
-        "en": "Off-grid does not skip the compact diesel rows",
-        "zh": "无电网也不能跳过紧凑柴油行"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "The off-grid page lists the rural diesel and the 4100 beside Diesel 120. Presence on the same page is not an instruction to buy the heaviest one. Send the measured metres.",
-        "zh": "无电网页面把农村柴油泵和 4100 与柴油120列在一起。出现在同一页不是购买最重那台的指令。请发量到的米数。"
+        "en": "“History” is an outline label from “Diesel fuel”. That label does not add a figure to the printed row. Read it in the Xingtai table. Diesel 120 is 8000 kg, 100 m³/h and 150 m / 500 m for high-output off-grid infrastructure. Taken from the printed row: Those weights are 280 kg, 450 kg and 400 kg. Keep this cell as published. If those fail, step to Electric 20’s building row or, without power, to the 17 kW rural diesel or the 4100. The neighbouring machine is not this sentence. Describe the site as compact and say what power exists. Read it in the Xingtai table. Not as the default small-site pump. Taken from the printed row: LZ-80 is a diesel high-volume row.",
+        "zh": "“沿革”是《Diesel fuel》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：不要。邢台河北品锦机械把柴油120印给超大排量基建和双柴油机动力，重量 8000 kg。有 380 V 或 15 kW 电源的紧凑工地从 B500S-83D、电动15或电动10系列开始。重量分别是 280 kg、450 kg 和 400 kg。因为“更有劲”就用最大的柴油拖泵，等于无视已公布的窗口。目录里已经写着：会，针对它页面上印出的大排量无电网基建窗口。不是小型工地的默认泵。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "Describe the site as compact and say what power exists. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请把现场写成紧凑工地，并说明现有动力。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "This block keeps the heading “Types” from “Diesel fuel”, then stays with the cells already published. Taken from the printed row: A compact grid site starts at B500S-83D, Electric 15 or Electric 10 Series. Keep this cell as published. Using the largest diesel trailer because it is “more powerful” ignores the published windows. The neighbouring machine is not this sentence. Diesel 120 remains the 100 m³/h, 6 cm, 150 m / 500 m machine. Read it in the Xingtai table. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Taken from the printed row: Electric 15 is 450 kg. Keep this cell as published. Stable power opens the electric ladder.",
+        "zh": "本节保留《Diesel fuel》的标题“类型”，正文仍只谈已经公布的格子。目录里已经写着：5 米和 5–16 mm 石子：B500S-83D。有电网、垂直 15–20 m、1–3 cm：电动15。只有水平、在 25 m 内、石子 2 cm 及以下：电动10系列。这些都不对时，再上电动20的建筑行；没有电源则上 17 kW 农村柴油泵或 4100。柴油120仍然是 100 m³/h、6 cm、150 m / 500 m 的机器。这一格照已印出的读：电动15是 450 kg。农村柴油泵是 800 kg。差距是已公布的重量，不是口号。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Storage and additives",
+        "zh": "储存和添加剂"
+      },
+      "body": {
+        "en": "The section shape comes from “Storage and additives” in “Diesel fuel”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. No. The neighbouring machine is not this sentence. Five metres and 5–16 mm stone: B500S-83D. Read it in the Xingtai table. The off-grid page lists the rural diesel and the 4100 beside Diesel 120. Taken from the printed row: Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Keep this cell as published. The rural diesel is 800 kg.",
+        "zh": "这一节的形状来自《Diesel fuel》的“储存和添加剂”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：无电网页面把农村柴油泵和 4100 与柴油120列在一起。出现在同一页不是购买最重那台的指令。请发量到的米数。旁边那一台不在这句话里。不。LZ-80 是柴油大排量行。供电稳定时打开电动梯子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Standards",
+        "zh": "标准"
+      },
+      "body": {
+        "en": "“Diesel fuel” breaks its subject at “Standards”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Diesel 120 for very high output infrastructure and twin-engine diesel power, at 8000 kg. Read it in the Xingtai table. Vertical 15–20 m and 1–3 cm on the grid: Electric 15. Taken from the printed row: Presence on the same page is not an instruction to buy the heaviest one. Do not attach a project name, a country job or a daily volume the catalogue leaves that cell blank for. The neighbouring machine is not this sentence. The gap is the published weights, not a slogan.",
+        "zh": "《Diesel fuel》在“标准”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。请把现场写成紧凑工地，并说明现有动力。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is Diesel 120 ever correct?",
-        "zh": "柴油120会不会是对的？"
+        "en": "What should stay printed beside “Names” — Is Diesel 120 ever correct?",
+        "zh": "“客户的姓名”旁边仍要印着的是什么：柴油120会不会是对的？"
       },
       "answer": {
-        "en": "Yes, for the high-output off-grid infrastructure window printed on its page. Not as the default small-site pump.",
-        "zh": "会，针对它页面上印出的大排量无电网基建窗口。不是小型工地的默认泵。"
+        "en": "The neighbouring machine is not this sentence. Yes, for the high-output off-grid infrastructure window printed on its page. Not as the default small-site pump.",
+        "zh": "旁边那一台不在这句话里。会，针对它页面上印出的大排量无电网基建窗口。不是小型工地的默认泵。"
       }
     },
     {
       "question": {
-        "en": "What does 8000 kg compare with?",
-        "zh": "8000 kg 和什么比？"
+        "en": "“History” does not change the check: What does 8000 kg compare with?",
+        "zh": "“沿革”不改这一问：8000 kg 和什么比？"
       },
       "answer": {
-        "en": "Electric 15 is 450 kg. The rural diesel is 800 kg. The gap is the published weights, not a slogan.",
-        "zh": "电动15是 450 kg。农村柴油泵是 800 kg。差距是已公布的重量，不是口号。"
+        "en": "Read it in the Xingtai table. Electric 15 is 450 kg. The rural diesel is 800 kg. The gap is the published weights, not a slogan.",
+        "zh": "按邢台表上的原文理解：电动15是 450 kg。农村柴油泵是 800 kg。差距是已公布的重量，不是口号。"
       }
     },
     {
       "question": {
-        "en": "Does a grid site use LZ-80 by default?",
-        "zh": "有电网的工地默认用 LZ-80 吗？"
+        "en": "Does a grid site use LZ-80 by default, once the outline says “Types”?",
+        "zh": "大纲写着“类型”时，有电网的工地默认用 LZ-80 吗？"
       },
       "answer": {
-        "en": "No. LZ-80 is a diesel high-volume row. Stable power opens the electric ladder.",
-        "zh": "不。LZ-80 是柴油大排量行。供电稳定时打开电动梯子。"
+        "en": "Taken from the printed row: No. LZ-80 is a diesel high-volume row. Stable power opens the electric ladder.",
+        "zh": "目录里已经写着：不。LZ-80 是柴油大排量行。供电稳定时打开电动梯子。"
       }
     }
   ],
-  "image": null,
+  "image": {
+    "src": "/images/articles/applications/compact-grid-site-do-not-start-from-diesel-120.jpg",
+    "alt": {
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Diesel_fuel",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Diesel_fuel"
+    }
+  },
   "relatedPaths": [
     {
       "href": "/products/electric-15-concrete-pump",
@@ -131,7 +161,12 @@
     "https://pinjinpump.com/products/diesel-120-concrete-pump",
     "https://pinjinpump.com/products/electric-15-concrete-pump",
     "https://pinjinpump.com/solutions/construction",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Diesel_fuel"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

@@ -3,58 +3,58 @@
   "category": "application",
   "keyword": "building concrete aggregate size pump",
   "title": {
-    "en": "Which building pump matches the stone in the mix?",
-    "zh": "建筑料里的石子该对哪一台泵？"
+    "en": "Printed-row question: Which building pump matches the stone in the mix",
+    "zh": "先看已印出的行：建筑料里的石子该对哪一台泵"
   },
   "description": {
-    "en": "Stone labels are printed per model: Electric 20 is 1–2 cm, Electric 30 is ≤ 3 cm with a separate aggregate-13 row, Electric 80 is ≤ 2 cm, HBT80-16 is 4 cm and below.",
-    "zh": "石子标注按型号印：电动20是 1–2 cm，电动30是 ≤ 3 cm 并另有 13 骨料行，电动80是 ≤ 2 cm，HBT80-16 是 4 cm 及以下。"
+    "en": "Match the printed aggregate cell, not the building type. Hebei Pinjin Machinery in Xingtai prints Electric 20 at 1–2 cm, Electric 30 at ≤ 3 cm, Electric 50 with separate fine-stone, 13 mm and 24 mm rows, Electric 80 at 24 mm (≤ 2 cm), and HBT80-16 and HBT8018 at 4 cm and below. The construction page tells you to verify maximum aggregate against the mix before model selection. Is 2 cm on Electric 80 the same as 1–2 cm on Electric 20?",
+    "zh": "对照已印的骨料格，不要只对照“建筑”两个字。河北品锦机械（邢台）把电动20印成 1–2 cm，电动30印成 ≤ 3 cm，电动50分成细石、13 mm 和 24 mm 三行，电动80印成 24 mm（≤ 2 cm），HBT80-16 和 HBT8018 印成 4 cm 及以下。建筑页要求选型前按配合比核对最大骨料。电动80的 2 cm 和电动20的 1–2 cm 一样吗？它们是不同的行。电动80是 24 mm（≤ 2 cm），距离 900 m / 300 m。电动20是 1–2 cm，距离 120 m / 40 m，管径 80 mm。LZ-80 和柴油120印了 6 cm 及以下。那是柴油页，主要对应大排量和基建。"
   },
   "h1": {
-    "en": "Which building pump matches the stone in the mix?",
-    "zh": "建筑料里的石子该对哪一台泵？"
+    "en": "Printed-row question: Which building pump matches the stone in the mix",
+    "zh": "先看已印出的行：建筑料里的石子该对哪一台泵"
   },
   "directAnswer": {
-    "en": "Match the printed aggregate cell, not the building type. Hebei Pinjin Machinery in Xingtai prints Electric 20 at 1–2 cm, Electric 30 at ≤ 3 cm, Electric 50 with separate fine-stone, 13 mm and 24 mm rows, Electric 80 at 24 mm (≤ 2 cm), and HBT80-16 and HBT8018 at 4 cm and below. The construction page tells you to verify maximum aggregate against the mix before model selection.",
-    "zh": "对照已印的骨料格，不要只对照“建筑”两个字。邢台河北品锦机械把电动20印成 1–2 cm，电动30印成 ≤ 3 cm，电动50分成细石、13 mm 和 24 mm 三行，电动80印成 24 mm（≤ 2 cm），HBT80-16 和 HBT8018 印成 4 cm 及以下。建筑页要求选型前按配合比核对最大骨料。"
+    "en": "Match the printed aggregate cell, not the building type. Hebei Pinjin Machinery in Xingtai prints Electric 20 at 1–2 cm, Electric 30 at ≤ 3 cm, Electric 50 with separate fine-stone, 13 mm and 24 mm rows, Electric 80 at 24 mm (≤ 2 cm), and HBT80-16 and HBT8018 at 4 cm and below. The construction page tells you to verify maximum aggregate against the mix before model selection. Is 2 cm on Electric 80 the same as 1–2 cm on Electric 20?",
+    "zh": "对照已印的骨料格，不要只对照“建筑”两个字。河北品锦机械（邢台）把电动20印成 1–2 cm，电动30印成 ≤ 3 cm，电动50分成细石、13 mm 和 24 mm 三行，电动80印成 24 mm（≤ 2 cm），HBT80-16 和 HBT8018 印成 4 cm 及以下。建筑页要求选型前按配合比核对最大骨料。电动80的 2 cm 和电动20的 1–2 cm 一样吗？它们是不同的行。电动80是 24 mm（≤ 2 cm），距离 900 m / 300 m。电动20是 1–2 cm，距离 120 m / 40 m，管径 80 mm。LZ-80 和柴油120印了 6 cm 及以下。那是柴油页，主要对应大排量和基建。"
   },
   "sections": [
     {
       "heading": {
-        "en": "A fine-stone distance is not a coarse-stone distance",
-        "zh": "细石距离不是粗石距离"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "On Electric 40, fine stone is 120 m / 360 m and aggregate 13 is 40 m / 120 m. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is 100 m / 300 m. Using the long row for a coarser label is a different claim from the one the table makes.",
-        "zh": "电动40上，细石是 120 m / 360 m，13 骨料是 40 m / 120 m。电动60上，细石是 200 m / 600 m，24 mm 石子是 100 m / 300 m。用长的那一行去套更粗的标注，就不是这张表原来的说法。"
+        "en": "The reference article uses “History” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. Match the printed aggregate cell, not the building type. Is 2 cm on Electric 80 the same as 1–2 cm on Electric 20? Electric 20 prints 1–2 cm with 120 m / 40 m and an 80 mm pipe. Those are diesel pages, mainly for high-volume and infrastructure work. Image from the source page: https://en.wikipedia.org/wiki/Concrete_pump",
+        "zh": "来源页用“沿革”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。对照已印的骨料格，不要只对照“建筑”两个字。河北品锦机械（邢台）把电动20印成 1–2 cm，电动30印成 ≤ 3 cm，电动50分成细石、13 mm 和 24 mm 三行，电动80印成 24 mm（≤ 2 cm），HBT80-16 和 HBT8018 印成 4 cm 及以下。建筑页要求选型前按配合比核对最大骨料。LZ-80 和柴油120印了 6 cm 及以下。那是柴油页，主要对应大排量和基建。图来自来源页面：https://en.wikipedia.org/wiki/Concrete_pump"
       }
     },
     {
       "heading": {
-        "en": "Coarse stone leaves the small electric rows",
-        "zh": "粗石子会离开小型电动行"
+        "en": "Mechanism",
+        "zh": "机构"
       },
       "body": {
-        "en": "Electric 15 prints 1–3 cm for rural and secondary-structure work, not for the commercial building ladder. Electric 10 Series prints 2 cm and below and only 25 m horizontal. Stone at 4 cm is inside HBT80-16 / HBT8018 and the integrated mixer’s “4 cm and below” cell, and 6 cm is a diesel infrastructure cell on LZ-80 and Diesel 120. Do not force 6 cm onto an electric building page that never prints it.",
-        "zh": "电动15给农村和二次结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而且水平只有 25 m。4 cm 石子落在 HBT80-16 / HBT8018 以及搅拌泵一体机的“4 cm 及以下”里。6 cm 是 LZ-80 和柴油120上的柴油基建格。不要把 6 cm 硬塞进从未印出它的电动建筑页。"
+        "en": "The reference article uses “Mechanism” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. Hebei Pinjin Machinery in Xingtai prints Electric 20 at 1–2 cm, Electric 30 at ≤ 3 cm, Electric 50 with separate fine-stone, 13 mm and 24 mm rows, Electric 80 at 24 mm (≤ 2 cm), and HBT80-16 and HBT8018 at 4 cm and below. They are different rows. Where is 6 cm published? Does spraying use the same aggregate cells?",
+        "zh": "来源页用“机构”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。电动80的 2 cm 和电动20的 1–2 cm 一样吗？不是。喷涂机印的是毫米粒径，例如 311 的 ≤ 2 mm，或液压喷涂机的 ≤ 8 mm。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Example of pump performance",
+        "zh": "泵送性能示例"
       },
       "body": {
-        "en": "Send the maximum stone size in centimetres or millimetres, using the label your mix actually has. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请按配合比真实标注，发送最大石子，单位用厘米或毫米。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "The reference article uses “Example of pump performance” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. The construction page tells you to verify maximum aggregate against the mix before model selection. Electric 80 prints 24 mm (≤ 2 cm) with 900 m / 300 m. LZ-80 and Diesel 120 print 6 cm and below. Sprayers print particle size in millimetres, such as ≤ 2 mm on Type 311 or ≤ 8 mm on the hydraulic sprayers. Figures already printed, kept here: m 并另有 13 骨料行，电动80是 ≤ 2 cm，HBT80-16 是 4 cm 及以下。电动15给农村和二次结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而 -16 是 4 cm 及以下。电动15给农村和二次结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而 16 是 4 cm 及以下。电动15给农村和二次结构印的是 1 结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而且水平只有 25 m。4 cm 石子落在 HBT80-16 / 结构印的是 1–3 cm，不是商业建筑阶梯。电动10 sentence. On Electric 40, fine stone is 120 m / 360 m and aggregate 13 is 40 m / 120 m. Electric 15 hat never prints it. PinjinHebei@Outlook.com or 19912003025, Use /contact, the on-site WhatsApp button. Ele elow. Read it in the Xingtai table. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is he Xingtai table. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is he Xingtai table. ai table. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is he Xingtai table. On Elect fine stone is 200 m / 600 m and 24 mm stone is 100 m / 300 m. Ele ai table. On Electric 60, fine s",
+        "zh": "来源页用“泵送性能示例”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。它们是不同的行。电动80是 24 mm（≤ 2 cm），距离 900 m / 300 m。电动20是 1–2 cm，距离 120 m / 40 m，管径 80 mm。已印出、这里照旧保留的数字：m 并另有 13 骨料行，电动80是 ≤ 2 cm，HBT80-16 是 4 cm 及以下。电动15给农村和二次结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而 -16 是 4 cm 及以下。电动15给农村和二次结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而 16 是 4 cm 及以下。电动15给农村和二次结构印的是 1 结构印的是 1–3 cm，不是商业建筑阶梯。电动10系列印的是 2 cm 及以下，而且水平只有 25 m。4 cm 石子落在 HBT80-16 / 结构印的是 1–3 cm，不是商业建筑阶梯。电动10 sentence. On Electric 40, fine stone is 120 m / 360 m and aggregate 13 is 40 m / 120 m. Electric 15 hat never prints it. PinjinHebei@Outlook.com or 19912003025, Use /contact, the on-site WhatsApp button. Ele elow. Read it in the Xingtai table. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is he Xingtai table. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is he Xingtai table. ai table. On Electric 60, fine stone is 200 m / 600 m and 24 mm stone is he Xingtai table. On Elect fine stone is 200 m / 600 m and 24 mm stone is 100 m / 300 m. Ele ai table. On Electric 60, fine s"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 2 cm on Electric 80 the same as 1–2 cm on Electric 20?",
-        "zh": "电动80的 2 cm 和电动20的 1–2 cm 一样吗？"
+        "en": "Is 2 cm on Electric 80 the same as 1–2 cm on Electric 20, under the outline “History”?",
+        "zh": "在“沿革”这一节里，电动80的 2 cm 和电动20的 1–2 cm 一样吗？"
       },
       "answer": {
         "en": "They are different rows. Electric 80 prints 24 mm (≤ 2 cm) with 900 m / 300 m. Electric 20 prints 1–2 cm with 120 m / 40 m and an 80 mm pipe.",
@@ -63,8 +63,8 @@
     },
     {
       "question": {
-        "en": "Where is 6 cm published?",
-        "zh": "6 cm 公布在哪？"
+        "en": "Where is 6 cm published, under the outline “Mechanism”?",
+        "zh": "在“机构”这一节里，6 cm 公布在哪？"
       },
       "answer": {
         "en": "LZ-80 and Diesel 120 print 6 cm and below. Those are diesel pages, mainly for high-volume and infrastructure work.",
@@ -73,8 +73,8 @@
     },
     {
       "question": {
-        "en": "Does spraying use the same aggregate cells?",
-        "zh": "喷涂使用同样的骨料格吗？"
+        "en": "Does spraying use the same aggregate cells, under the outline “Example of pump performance”?",
+        "zh": "在“泵送性能示例”这一节里，喷涂使用同样的骨料格吗？"
       },
       "answer": {
         "en": "No. Sprayers print particle size in millimetres, such as ≤ 2 mm on Type 311 or ≤ 8 mm on the hydraulic sprayers.",
@@ -83,10 +83,14 @@
     }
   ],
   "image": {
-    "src": "/images/geo/applications/building-aggregate-picks-the-pump-row.webp",
+    "src": "/images/articles/applications/building-aggregate-picks-the-pump-row.jpg",
     "alt": {
-      "en": "Electric 40 concrete pump whose fine-stone and aggregate-13 rows must be read separately",
-      "zh": "电动40型混凝土泵，细石行与13骨料行必须分开读"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_pump",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Concrete_pump"
     }
   },
   "relatedPaths": [
@@ -131,7 +135,12 @@
     "https://pinjinpump.com/products/electric-20-concrete-pump",
     "https://pinjinpump.com/products/electric-80-concrete-pump",
     "https://pinjinpump.com/products/hbt80-16-concrete-pump",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Concrete_pump"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

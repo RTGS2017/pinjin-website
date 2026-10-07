@@ -1,8 +1,8 @@
 {
   "slug": "lz-60-diesel-concrete-pump-guide",
-  "title": "LZ-60 Diesel Concrete Pump Catalogue Row",
-  "seoTitle": "LZ-60 Diesel Concrete Pump | Pinjin 145 kW 50 m³/h Xingtai",
-  "description": "LZ-60 is a Xingtai diesel trailer pump: 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Same HBT60-13.132 mark as Diesel 60, different table. Not a boom pump.",
+  "title": "Intercooler — Multiple stages of compression / Method of heat transfer / Alternatives",
+  "seoTitle": "Intercooler — Multiple stages of compression",
+  "description": "Keep “Multiple stages of compression” and LZ-60 diesel concrete pump apart. The source does not fill a blank cell. Printed cells already on this page: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
   "primaryKeyword": "LZ-60 diesel concrete pump",
   "secondaryKeywords": [
     "145 kW diesel trailer concrete pump",
@@ -45,13 +45,15 @@
     }
   ],
   "answerBlock": {
-    "what": "LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: model LZ-60 / HBT60-13.132, 6105 diesel 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m, delivery height 300 m, aggregate 4 cm and below, delivery pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Hopper volume is not printed on this page. It is not Diesel 60 and not a boom pump.",
-    "who": "Contractors matching 50 m³/h, 35 MPa and 100 m / 300 m on a 5500 kg diesel trailer, with stone at or under 4 cm.",
+    "what": "Keep “Multiple stages of compression” and LZ-60 diesel concrete pump apart. The source does not fill a blank cell. Printed cells already on this page: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+    "who": "Readers checking LZ-60 diesel concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "145 kW / 50 m³/h / 35 MPa versus Diesel 60 at 144 kW / 35 m³/h / 30 MPa / 150 m / 350 m / 3500 kg",
-      "Both pages print HBT60-13.132 — open the named row",
-      "Pipe cell 100 / 125 mm; hopper m³ is not on the LZ-60 sheet",
-      "Alibaba showroom titles mix 15–90 m³ capacity strings; they do not rewrite this 50 m³/h cell"
+      "50-90 m",
+      "145 kW",
+      "50 m³/h",
+      "35 MPa",
+      "4 cm",
+      "125 mm"
     ],
     "relatedModels": [
       "lz-60-diesel-concrete-pump",
@@ -61,20 +63,25 @@
   },
   "faqs": [
     {
-      "question": "Does the LZ-60 page print a hopper volume?",
-      "answer": "No. LZ-60 lists 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m and 5500 kg. Hopper m³ is not on that sheet. Diesel 60 prints hopper 0.4 m³ on its own page."
+      "question": "Does “Multiple stages of compression” add a cell to LZ-60 diesel concrete pump?",
+      "answer": "No. LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Can I use the Alibaba 15–90 m³ capacity title as the LZ-60 output?",
-      "answer": "No. A March 2025 Alibaba trailer-pump showroom listing uses a 15-20-30-50-90 m³ capacity title. LZ-60 prints 50 m³/h. Quote the Xingtai cell, not the marketplace title."
+      "question": "Can “Method of heat transfer” fill a blank cell for LZ-60 diesel concrete pump?",
+      "answer": "No. Blank cells for LZ-60 diesel concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/lz-60-diesel-concrete-pump/lz-60-diesel-concrete-pump.webp",
-    "alt": "LZ-60 diesel concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "LZ-60 trailer pump, Xingtai catalogue — 145 kW, 50 m³/h, pipe 100 / 125 mm"
+    "src": "/images/articles/lz-60-diesel-concrete-pump-guide/Inter_Cooler.jpg",
+    "alt": "Figure from the source page about Intercooler",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Intercooler"
   },
   "sources": [
+    {
+      "name": "Intercooler (source page)",
+      "url": "https://en.wikipedia.org/wiki/Intercooler",
+      "type": "industry"
+    },
     {
       "name": "Pinjin LZ-60 product page",
       "url": "https://pinjinpump.com/en/products/lz-60-diesel-concrete-pump/",
@@ -107,11 +114,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "LZ-60柴油混凝土泵目录行",
-      "seoTitle": "LZ-60 Diesel Concrete Pump | 品锦 145 kW 50 m³/h 邢台",
-      "description": "LZ-60 is a Xingtai diesel trailer pump: 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Same HBT60-13.132 mark as Diesel 60, different table. Not a boom pump.",
-      "imageAlt": "LZ-60 diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "LZ-60 trailer pump, Xingtai catalogue — 145 kW, 50 m³/h, pipe 100 / 125 mm",
+      "title": "LZ-60柴油混凝土泵目录行：Intercooler（Multiple stages of compression / Method of heat transfer / Alternatives）",
+      "seoTitle": "Intercooler：Multiple stages of compression",
+      "description": "把「Multiple stages of compression」和LZ-60柴油混凝土泵目录行分开。来源页不填空白格。本页已经印出的读数：50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW。",
+      "imageAlt": "来源页插图：Intercooler",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Intercooler",
       "relatedPathLabels": [
         "LZ-60 diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: model LZ-60 / HBT60-13.132, 6105 diesel 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m, delivery height 300 m, aggregate 4 cm and below, delivery pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Hopper volume is not printed on this page. It is not Diesel 60 and not a boom pump.",
-        "who": "Contractors matching 50 m³/h, 35 MPa and 100 m / 300 m on a 5500 kg diesel trailer, with stone at or under 4 cm.",
+        "what": "把「Multiple stages of compression」和LZ-60柴油混凝土泵目录行分开。来源页不填空白格。本页已经印出的读数：50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW。",
+        "who": "想把LZ-60柴油混凝土泵目录行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "145 kW / 50 m³/h / 35 MPa versus Diesel 60 at 144 kW / 35 m³/h / 30 MPa / 150 m / 350 m / 3500 kg",
-          "Both pages print HBT60-13.132 — open the named row",
-          "Pipe cell 100 / 125 mm; hopper m³ is not on the LZ-60 sheet",
-          "Alibaba showroom titles mix 15–90 m³ capacity strings; they do not rewrite this 50 m³/h cell"
+          "50-90 m",
+          "145 kW",
+          "50 m³/h",
+          "35 MPa",
+          "4 cm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the LZ-60 page print a hopper volume?",
-          "answer": "No. LZ-60 lists 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m and 5500 kg. Hopper m³ is not on that sheet. Diesel 60 prints hopper 0.4 m³ on its own page."
+          "question": "「Multiple stages of compression」会给LZ-60柴油混凝土泵目录行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW。"
         },
         {
-          "question": "Can I use the Alibaba 15–90 m³ capacity title as the LZ-60 output?",
-          "answer": "No. A March 2025 Alibaba trailer-pump showroom listing uses a 15-20-30-50-90 m³ capacity title. LZ-60 prints 50 m³/h. Quote the Xingtai cell, not the marketplace title."
+          "question": "「Method of heat transfer」能补上LZ-60柴油混凝土泵目录行的空白格吗？",
+          "answer": "不能。LZ-60柴油混凝土泵目录行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "LZ-60 Diesel Concrete Pump Catalogue Row",
-      "seoTitle": "LZ-60 Diesel Concrete Pump | Pinjin 145 kW 50 m³/h Xingtai",
-      "description": "LZ-60 is a Xingtai diesel trailer pump: 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Same HBT60-13.132 mark as Diesel 60, different table. Not a boom pump.",
-      "imageAlt": "LZ-60 diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "LZ-60 trailer pump, Xingtai catalogue — 145 kW, 50 m³/h, pipe 100 / 125 mm",
+      "title": "LZ-60 Diesel Concrete Pump Catalogue Row: Intercooler — Multiple stages of compression / Method of heat transfer / Alternatives",
+      "seoTitle": "Intercooler — Multiple stages of compression",
+      "description": "Separe “Multiple stages of compression” e LZ-60 Diesel Concrete Pump Catalogue Row. A origem não preenche uma casa em branco. Valores já impressos nesta página: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+      "imageAlt": "Figura da página de origem sobre Intercooler",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Intercooler",
       "relatedPathLabels": [
         "LZ-60 diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -152,32 +161,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: model LZ-60 / HBT60-13.132, 6105 diesel 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m, delivery height 300 m, aggregate 4 cm and below, delivery pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Hopper volume is not printed on this page. It is not Diesel 60 and not a boom pump.",
-        "who": "Contractors matching 50 m³/h, 35 MPa and 100 m / 300 m on a 5500 kg diesel trailer, with stone at or under 4 cm.",
+        "what": "Separe “Multiple stages of compression” e LZ-60 Diesel Concrete Pump Catalogue Row. A origem não preenche uma casa em branco. Valores já impressos nesta página: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+        "who": "Leitores que comparam LZ-60 Diesel Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "145 kW / 50 m³/h / 35 MPa versus Diesel 60 at 144 kW / 35 m³/h / 30 MPa / 150 m / 350 m / 3500 kg",
-          "Both pages print HBT60-13.132 — open the named row",
-          "Pipe cell 100 / 125 mm; hopper m³ is not on the LZ-60 sheet",
-          "Alibaba showroom titles mix 15–90 m³ capacity strings; they do not rewrite this 50 m³/h cell"
+          "50-90 m",
+          "145 kW",
+          "50 m³/h",
+          "35 MPa",
+          "4 cm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the LZ-60 page print a hopper volume?",
-          "answer": "No. LZ-60 lists 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m and 5500 kg. Hopper m³ is not on that sheet. Diesel 60 prints hopper 0.4 m³ on its own page."
+          "question": "“Multiple stages of compression” acrescenta uma casa a LZ-60 Diesel Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW."
         },
         {
-          "question": "Can I use the Alibaba 15–90 m³ capacity title as the LZ-60 output?",
-          "answer": "No. A March 2025 Alibaba trailer-pump showroom listing uses a 15-20-30-50-90 m³ capacity title. LZ-60 prints 50 m³/h. Quote the Xingtai cell, not the marketplace title."
+          "question": "“Method of heat transfer” pode preencher uma casa em branco de LZ-60 Diesel Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de LZ-60 Diesel Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "LZ-60 Diesel Concrete Pump Catalogue Row",
-      "seoTitle": "LZ-60 Diesel Concrete Pump | Pinjin 145 kW 50 m³/h Xingtai",
-      "description": "LZ-60 is a Xingtai diesel trailer pump: 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Same HBT60-13.132 mark as Diesel 60, different table. Not a boom pump.",
-      "imageAlt": "LZ-60 diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "LZ-60 trailer pump, Xingtai catalogue — 145 kW, 50 m³/h, pipe 100 / 125 mm",
+      "title": "LZ-60 Diesel Concrete Pump Catalogue Row: Intercooler — Multiple stages of compression / Method of heat transfer / Alternatives",
+      "seoTitle": "Intercooler — Multiple stages of compression",
+      "description": "افصل «Multiple stages of compression» عن LZ-60 Diesel Concrete Pump Catalogue Row. المصدر لا يملأ خانة فارغة. قيم مطبوعة أصلًا في هذه الصفحة: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Intercooler",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Intercooler",
       "relatedPathLabels": [
         "LZ-60 diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -185,32 +196,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: model LZ-60 / HBT60-13.132, 6105 diesel 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m, delivery height 300 m, aggregate 4 cm and below, delivery pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Hopper volume is not printed on this page. It is not Diesel 60 and not a boom pump.",
-        "who": "Contractors matching 50 m³/h, 35 MPa and 100 m / 300 m on a 5500 kg diesel trailer, with stone at or under 4 cm.",
+        "what": "افصل «Multiple stages of compression» عن LZ-60 Diesel Concrete Pump Catalogue Row. المصدر لا يملأ خانة فارغة. قيم مطبوعة أصلًا في هذه الصفحة: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+        "who": "قرّاء يقارنون LZ-60 Diesel Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "145 kW / 50 m³/h / 35 MPa versus Diesel 60 at 144 kW / 35 m³/h / 30 MPa / 150 m / 350 m / 3500 kg",
-          "Both pages print HBT60-13.132 — open the named row",
-          "Pipe cell 100 / 125 mm; hopper m³ is not on the LZ-60 sheet",
-          "Alibaba showroom titles mix 15–90 m³ capacity strings; they do not rewrite this 50 m³/h cell"
+          "50-90 m",
+          "145 kW",
+          "50 m³/h",
+          "35 MPa",
+          "4 cm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the LZ-60 page print a hopper volume?",
-          "answer": "No. LZ-60 lists 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m and 5500 kg. Hopper m³ is not on that sheet. Diesel 60 prints hopper 0.4 m³ on its own page."
+          "question": "هل يضيف «Multiple stages of compression» خانة إلى LZ-60 Diesel Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW."
         },
         {
-          "question": "Can I use the Alibaba 15–90 m³ capacity title as the LZ-60 output?",
-          "answer": "No. A March 2025 Alibaba trailer-pump showroom listing uses a 15-20-30-50-90 m³ capacity title. LZ-60 prints 50 m³/h. Quote the Xingtai cell, not the marketplace title."
+          "question": "هل يستطيع «Method of heat transfer» ملء خانة فارغة لـ LZ-60 Diesel Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ LZ-60 Diesel Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "LZ-60 Diesel Concrete Pump Catalogue Row",
-      "seoTitle": "LZ-60 Diesel Concrete Pump | Pinjin 145 kW 50 m³/h Xingtai",
-      "description": "LZ-60 is a Xingtai diesel trailer pump: 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Same HBT60-13.132 mark as Diesel 60, different table. Not a boom pump.",
-      "imageAlt": "LZ-60 diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "LZ-60 trailer pump, Xingtai catalogue — 145 kW, 50 m³/h, pipe 100 / 125 mm",
+      "title": "LZ-60 Diesel Concrete Pump Catalogue Row: Intercooler — Multiple stages of compression / Method of heat transfer / Alternatives",
+      "seoTitle": "Intercooler — Multiple stages of compression",
+      "description": "Держите “Multiple stages of compression” и LZ-60 Diesel Concrete Pump Catalogue Row отдельно. Источник не заполняет пустую клетку. Уже напечатанные значения на этой странице: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Intercooler",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Intercooler",
       "relatedPathLabels": [
         "LZ-60 diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -218,25 +231,28 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "LZ-60 Diesel Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: model LZ-60 / HBT60-13.132, 6105 diesel 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m, delivery height 300 m, aggregate 4 cm and below, delivery pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m, 5500 kg. Hopper volume is not printed on this page. It is not Diesel 60 and not a boom pump.",
-        "who": "Contractors matching 50 m³/h, 35 MPa and 100 m / 300 m on a 5500 kg diesel trailer, with stone at or under 4 cm.",
+        "what": "Держите “Multiple stages of compression” и LZ-60 Diesel Concrete Pump Catalogue Row отдельно. Источник не заполняет пустую клетку. Уже напечатанные значения на этой странице: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW.",
+        "who": "Читатели, которые сверяют LZ-60 Diesel Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "145 kW / 50 m³/h / 35 MPa versus Diesel 60 at 144 kW / 35 m³/h / 30 MPa / 150 m / 350 m / 3500 kg",
-          "Both pages print HBT60-13.132 — open the named row",
-          "Pipe cell 100 / 125 mm; hopper m³ is not on the LZ-60 sheet",
-          "Alibaba showroom titles mix 15–90 m³ capacity strings; they do not rewrite this 50 m³/h cell"
+          "50-90 m",
+          "145 kW",
+          "50 m³/h",
+          "35 MPa",
+          "4 cm",
+          "125 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Does the LZ-60 page print a hopper volume?",
-          "answer": "No. LZ-60 lists 6105 / 145 kW, 50 m³/h, 35 MPa, conveying 100 m, height 300 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6.6 × 1.8 × 1.9 m and 5500 kg. Hopper m³ is not on that sheet. Diesel 60 prints hopper 0.4 m³ on its own page."
+          "question": "Добавляет ли “Multiple stages of compression” клетку к LZ-60 Diesel Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 50-90 m, 145 kW, 50 m³/h, 35 MPa, 4 cm, 125 mm, 5500 kg, 144 kW."
         },
         {
-          "question": "Can I use the Alibaba 15–90 m³ capacity title as the LZ-60 output?",
-          "answer": "No. A March 2025 Alibaba trailer-pump showroom listing uses a 15-20-30-50-90 m³ capacity title. LZ-60 prints 50 m³/h. Quote the Xingtai cell, not the marketplace title."
+          "question": "Может ли “Method of heat transfer” заполнить пустую клетку для LZ-60 Diesel Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для LZ-60 Diesel Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

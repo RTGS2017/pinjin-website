@@ -1,7 +1,7 @@
 {
-  "title": "M9 Automatic Plaster Spraying Machine Catalogue Row",
-  "seoTitle": "M9 Automatic Plaster Spraying Machine | Pinjin Xingtai",
-  "description": "M9 is a Xingtai automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm) and not a trailer concrete pump. Quote only.",
+  "title": "Gypsum — Physical properties / Crystal varieties / Occurrence / Mining",
+  "seoTitle": "Gypsum — Physical properties",
+  "description": "Opening the source at “Physical properties” means reading that page, not a second catalogue for M9 automatic plaster spraying machine. Printed cells already on this page: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
   "primaryKeyword": "M9 automatic plaster spraying machine",
   "secondaryKeywords": [
     "gypsum spraying machine 380V",
@@ -52,13 +52,15 @@
     }
   ],
   "answerBlock": {
-    "what": "M9 is a Xingtai automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, loading height 90 cm, 1230 × 720 × 1550 mm, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm), not a diesel concrete sprayer and not a trailer concrete pump. Quote only.",
-    "who": "Finishing contractors matching 30 L/min, ≤4 mm particle and 380 V/50 Hz to plaster or gypsum work whose hose stays inside 50 m / 20 m.",
+    "what": "Opening the source at “Physical properties” means reading that page, not a second catalogue for M9 automatic plaster spraying machine. Printed cells already on this page: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+    "who": "Readers checking M9 automatic plaster spraying machine against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Particle ≤4 mm plaster / gypsum, not ≤8 mm concrete mortar",
-      "Output 30 L/min and pressure 50 bar",
-      "25 mm hose, 115 L hopper, 90 cm loading height",
-      "380 V/50 Hz site supply"
+      "1230 × 720 × 1550 mm",
+      "3–5 MPa",
+      "380 V",
+      "25 mm",
+      "90 cm",
+      "4 mm"
     ],
     "relatedModels": [
       "m9-automatic-plaster-spraying-machine",
@@ -69,20 +71,25 @@
   },
   "faqs": [
     {
-      "question": "Is the M9 a fine-stone concrete pump?",
-      "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+      "question": "Does “Physical properties” add a cell to M9 automatic plaster spraying machine?",
+      "answer": "No. M9 Automatic Plaster Spraying Machine is a 380 V/50 Hz plaster spraying machine manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Can M9 spray the hydraulic row’s ≤8 mm mortar?",
-      "answer": "No. M9 lists particle ≤4 mm. Concrete mortar at ≤8 mm belongs on the hydraulic concrete sprayers."
+      "question": "Can “Crystal varieties” fill a blank cell for M9 automatic plaster spraying machine?",
+      "answer": "No. Blank cells for M9 automatic plaster spraying machine stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/m9-automatic-plaster-spraying-machine/m9-automatic-plaster-spraying-machine.webp",
-    "alt": "M9 automatic plaster spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "M9 automatic plaster spraying machine, Xingtai catalogue — 30 L/min, particle ≤4 mm, 200 kg"
+    "src": "/images/articles/m9-plaster-spraying-machine-guide/WhiteSandsGypsum.jpg",
+    "alt": "Figure from the source page about Gypsum",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Gypsum"
   },
   "sources": [
+    {
+      "name": "Gypsum (source page)",
+      "url": "https://en.wikipedia.org/wiki/Gypsum",
+      "type": "industry"
+    },
     {
       "name": "Pinjin M9 plaster spraying machine product page",
       "url": "https://pinjinpump.com/en/products/m9-automatic-plaster-spraying-machine/",
@@ -102,9 +109,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row",
-      "description": "M9 is a 邢台 automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm) and not a trailer concrete pump. Quote only.",
-      "imageAlt": "M9 automatic plaster spraying machine factory product photo, 河北品锦机械 邢台",
+      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row：Gypsum（Physical properties / Crystal varieties / Occurrence / Mining）",
+      "description": "翻到来源页的「Physical properties」，读的是那一页，不是M9 Automatic Plaster Spraying Machine Catalogue Row的第二份目录。本页已经印出的读数：1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW。",
+      "imageAlt": "来源页插图：Gypsum",
       "relatedPathLabels": [
         "M9 automatic plaster spraying machine 产品页",
         "Concrete spraying machine manufacturer China",
@@ -112,32 +119,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "M9 is a 邢台 automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, loading height 90 cm, 1230 × 720 × 1550 mm, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm), not a diesel concrete sprayer and not a trailer concrete pump. Quote only.",
-        "who": "Finishing contractors matching 30 L/min, ≤4 mm particle and 380 V/50 Hz to plaster or gypsum work whose hose stays inside 50 m / 20 m.",
+        "what": "翻到来源页的「Physical properties」，读的是那一页，不是M9 Automatic Plaster Spraying Machine Catalogue Row的第二份目录。本页已经印出的读数：1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW。",
+        "who": "想把M9 Automatic Plaster Spraying Machine Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Particle ≤4 mm plaster / gypsum, not ≤8 mm concrete mortar",
-          "Output 30 L/min and pressure 50 bar",
-          "25 mm hose, 115 L hopper, 90 cm loading height",
-          "380 V/50 Hz site supply"
+          "1230 × 720 × 1550 mm",
+          "3–5 MPa",
+          "380 V",
+          "25 mm",
+          "90 cm",
+          "4 mm"
         ]
       },
-      "seoTitle": "M9 Automatic Plaster Spraying Machine | 品锦 邢台",
-      "imageCaption": "M9 automatic plaster spraying machine, 邢台 catalogue — 30 L/min, particle ≤4 mm, 200 kg",
+      "seoTitle": "Gypsum：Physical properties",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Gypsum",
       "faqs": [
         {
-          "question": "Is the M9 a 细石 concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "「Physical properties」会给M9 Automatic Plaster Spraying Machine Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW。"
         },
         {
-          "question": "Can M9 spray the hydraulic row’s ≤8 mm mortar?",
-          "answer": "No. M9 lists particle ≤4 mm. Concrete mortar at ≤8 mm belongs on the hydraulic concrete sprayers."
+          "question": "「Crystal varieties」能补上M9 Automatic Plaster Spraying Machine Catalogue Row的空白格吗？",
+          "answer": "不能。M9 Automatic Plaster Spraying Machine Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row",
-      "description": "M9 is a Xingtai automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm) and not a trailer concrete pump. Quote only.",
-      "imageAlt": "M9 automatic plaster spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
+      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row: Gypsum — Physical properties / Crystal varieties / Occurrence / Mining",
+      "description": "Abrir a origem em “Physical properties” é ler essa página, não um segundo catálogo de M9 Automatic Plaster Spraying Machine Catalogue Row. Valores já impressos nesta página: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+      "imageAlt": "Figura da página de origem sobre Gypsum",
       "relatedPathLabels": [
         "M9 automatic plaster spraying machine página do produto",
         "Concrete spraying machine manufacturer China",
@@ -145,32 +154,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "M9 is a Xingtai automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, loading height 90 cm, 1230 × 720 × 1550 mm, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm), not a diesel concrete sprayer and not a trailer concrete pump. Quote only.",
-        "who": "Finishing contractors matching 30 L/min, ≤4 mm particle and 380 V/50 Hz to plaster or gypsum work whose hose stays inside 50 m / 20 m.",
+        "what": "Abrir a origem em “Physical properties” é ler essa página, não um segundo catálogo de M9 Automatic Plaster Spraying Machine Catalogue Row. Valores já impressos nesta página: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+        "who": "Leitores que comparam M9 Automatic Plaster Spraying Machine Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Particle ≤4 mm plaster / gypsum, not ≤8 mm concrete mortar",
-          "Output 30 L/min and pressure 50 bar",
-          "25 mm hose, 115 L hopper, 90 cm loading height",
-          "380 V/50 Hz site supply"
+          "1230 × 720 × 1550 mm",
+          "3–5 MPa",
+          "380 V",
+          "25 mm",
+          "90 cm",
+          "4 mm"
         ]
       },
-      "seoTitle": "M9 Automatic Plaster Spraying Machine | Pinjin Xingtai",
-      "imageCaption": "M9 automatic plaster spraying machine, Xingtai catalogue — 30 L/min, particle ≤4 mm, 200 kg",
+      "seoTitle": "Gypsum — Physical properties",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Gypsum",
       "faqs": [
         {
-          "question": "Is the M9 a pedra fina concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "“Physical properties” acrescenta uma casa a M9 Automatic Plaster Spraying Machine Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW."
         },
         {
-          "question": "Can M9 spray the hydraulic row’s ≤8 mm mortar?",
-          "answer": "No. M9 lists particle ≤4 mm. Concrete mortar at ≤8 mm belongs on the hydraulic concrete sprayers."
+          "question": "“Crystal varieties” pode preencher uma casa em branco de M9 Automatic Plaster Spraying Machine Catalogue Row?",
+          "answer": "Não. As casas em branco de M9 Automatic Plaster Spraying Machine Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row",
-      "description": "M9 is a شينغتاي automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm) and not a trailer concrete pump. Quote only.",
-      "imageAlt": "M9 automatic plaster spraying machine factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row: Gypsum — Physical properties / Crystal varieties / Occurrence / Mining",
+      "description": "فتح المصدر عند «Physical properties» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ M9 Automatic Plaster Spraying Machine Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Gypsum",
       "relatedPathLabels": [
         "M9 automatic plaster spraying machine صفحة المنتج",
         "Concrete spraying machine manufacturer China",
@@ -178,32 +189,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "M9 is a شينغتاي automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, loading height 90 cm, 1230 × 720 × 1550 mm, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm), not a diesel concrete sprayer and not a trailer concrete pump. Quote only.",
-        "who": "Finishing contractors matching 30 L/min, ≤4 mm particle and 380 V/50 Hz to plaster or gypsum work whose hose stays inside 50 m / 20 m.",
+        "what": "فتح المصدر عند «Physical properties» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ M9 Automatic Plaster Spraying Machine Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+        "who": "قرّاء يقارنون M9 Automatic Plaster Spraying Machine Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Particle ≤4 mm plaster / gypsum, not ≤8 mm concrete mortar",
-          "Output 30 L/min and pressure 50 bar",
-          "25 mm hose, 115 L hopper, 90 cm loading height",
-          "380 V/50 Hz site supply"
+          "1230 × 720 × 1550 mm",
+          "3–5 MPa",
+          "380 V",
+          "25 mm",
+          "90 cm",
+          "4 mm"
         ]
       },
-      "seoTitle": "M9 Automatic Plaster Spraying Machine | Pinjin شينغتاي",
-      "imageCaption": "M9 automatic plaster spraying machine, شينغتاي catalogue — 30 L/min, particle ≤4 mm, 200 kg",
+      "seoTitle": "Gypsum — Physical properties",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Gypsum",
       "faqs": [
         {
-          "question": "Is the M9 a حصى ناعم concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "هل يضيف «Physical properties» خانة إلى M9 Automatic Plaster Spraying Machine Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW."
         },
         {
-          "question": "Can M9 spray the hydraulic row’s ≤8 mm mortar?",
-          "answer": "No. M9 lists particle ≤4 mm. Concrete mortar at ≤8 mm belongs on the hydraulic concrete sprayers."
+          "question": "هل يستطيع «Crystal varieties» ملء خانة فارغة لـ M9 Automatic Plaster Spraying Machine Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ M9 Automatic Plaster Spraying Machine Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row",
-      "description": "M9 is a Синтай automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm) and not a trailer concrete pump. Quote only.",
-      "imageAlt": "M9 automatic plaster spraying machine factory product photo, Hebei Pinjin Machinery Синтай",
+      "title": "M9 Automatic Plaster Spraying Machine Catalogue Row: Gypsum — Physical properties / Crystal varieties / Occurrence / Mining",
+      "description": "Открыть источник на “Physical properties” значит читать ту страницу, а не второй каталог M9 Automatic Plaster Spraying Machine Catalogue Row. Уже напечатанные значения на этой странице: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Gypsum",
       "relatedPathLabels": [
         "M9 automatic plaster spraying machine страница изделия",
         "Concrete spraying machine manufacturer China",
@@ -211,27 +224,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "M9 is a Синтай automatic plaster spraying machine listing 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, 115 L hopper, particle ≤4 mm and 50 m / 20 m, loading height 90 cm, 1230 × 720 × 1550 mm, 200 kg. It is not a hydraulic concrete sprayer (5 or 7 m³/h, ≤8 mm), not a diesel concrete sprayer and not a trailer concrete pump. Quote only.",
-        "who": "Finishing contractors matching 30 L/min, ≤4 mm particle and 380 V/50 Hz to plaster or gypsum work whose hose stays inside 50 m / 20 m.",
+        "what": "Открыть источник на “Physical properties” значит читать ту страницу, а не второй каталог M9 Automatic Plaster Spraying Machine Catalogue Row. Уже напечатанные значения на этой странице: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW.",
+        "who": "Читатели, которые сверяют M9 Automatic Plaster Spraying Machine Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Particle ≤4 mm plaster / gypsum, not ≤8 mm concrete mortar",
-          "Output 30 L/min and pressure 50 bar",
-          "25 mm hose, 115 L hopper, 90 cm loading height",
-          "380 V/50 Hz site supply"
+          "1230 × 720 × 1550 mm",
+          "3–5 MPa",
+          "380 V",
+          "25 mm",
+          "90 cm",
+          "4 mm"
         ]
       },
-      "seoTitle": "M9 Automatic Plaster Spraying Machine | Pinjin Синтай",
-      "imageCaption": "M9 automatic plaster spraying machine, Синтай catalogue — 30 L/min, particle ≤4 mm, 200 kg",
+      "seoTitle": "Gypsum — Physical properties",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Gypsum",
       "faqs": [
         {
-          "question": "Is the M9 a мелкий камень concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "Добавляет ли “Physical properties” клетку к M9 Automatic Plaster Spraying Machine Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 1230 × 720 × 1550 mm, 3–5 MPa, 380 V, 25 mm, 90 cm, 4 mm, 200 kg, 4 kW."
         },
         {
-          "question": "Can M9 spray the hydraulic row’s ≤8 mm mortar?",
-          "answer": "No. M9 lists particle ≤4 mm. Concrete mortar at ≤8 mm belongs on the hydraulic concrete sprayers."
+          "question": "Может ли “Crystal varieties” заполнить пустую клетку для M9 Automatic Plaster Spraying Machine Catalogue Row?",
+          "answer": "Нет. Пустые клетки для M9 Automatic Plaster Spraying Machine Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

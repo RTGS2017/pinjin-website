@@ -1,8 +1,8 @@
 {
   "slug": "renze-machinery-cluster-2024",
-  "title": "Renze 2024 machinery cluster: 102亿元 and city-first Beijing-Tianjin contracts",
-  "seoTitle": "Renze 2024 machinery cluster: 102亿元 and city-first Beijing-Tianjin contracts",
-  "description": "Xingtai Science and Technology Bureau, 6 January 2025: Renze machinery-manufacturing revenue 102亿元 in January–November 2024, up 7.6%; rubber-plastic 96.5亿元, up 6.0%; Beijing-Tianjin technology contracts 3.36亿元, rank 1 in the city.",
+  "title": "Xingtai — Geography / Administrative divisions / Economy / Transport",
+  "seoTitle": "Xingtai — Geography",
+  "description": "Opening the source at “Geography” means reading that page, not a second catalogue for 任泽 机械制造 102亿元. No added figure is taken from that chapter.",
   "primaryKeyword": "任泽 机械制造 102亿元",
   "secondaryKeywords": [
     "任泽 机械制造 102亿元",
@@ -42,40 +42,34 @@
     }
   ],
   "answerBlock": {
-    "what": "Xingtai Science and Technology Bureau, 6 January 2025: Renze machinery-manufacturing revenue 102亿元 in January–November 2024, up 7.6%; rubber-plastic 96.5亿元, up 6.0%; Beijing-Tianjin technology contracts 3.36亿元, rank 1 in the city.",
-    "who": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
+    "what": "Opening the source at “Geography” means reading that page, not a second catalogue for 任泽 机械制造 102亿元. No added figure is taken from that chapter.",
+    "who": "Readers checking 任泽 机械制造 102亿元 against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "102亿元, up 7.6%. Rubber-plastic new materials: 96.5亿元, up 6.0%.",
-      "Turnover 3.36亿元, rank 1 in the city.",
-      "49. National science-and-technology SMEs: 75. Provincial science-and-technology SMEs: 396.",
-      "24."
+      "No added figure."
     ],
     "relatedModels": []
   },
   "faqs": [
     {
-      "question": "What machinery-cluster revenue does Xingtai's notice print for January–November 2024?",
-      "answer": "102亿元, up 7.6%. Rubber-plastic new materials: 96.5亿元, up 6.0%."
+      "question": "Does “Geography” add a cell to 任泽 机械制造 102亿元?",
+      "answer": "No. Source: Xingtai government information disclosure, Municipal Science and Technology Bureau, 6 January 2025 http://info.xingtai.gov.cn/single/97/382701.html January–November 2024: machinery-manufacturing cluster revenue 102亿元, up 7.6% year on year; rubber-plastic new-materials cluster revenue 96.5亿元, up 6.0%."
     },
     {
-      "question": "Where did Renze rank in Xingtai for Beijing-Tianjin technology contracts in 2024?",
-      "answer": "Turnover 3.36亿元, rank 1 in the city."
-    },
-    {
-      "question": "How many high-tech enterprises does the notice list for 2024?",
-      "answer": "49. National science-and-technology SMEs: 75. Provincial science-and-technology SMEs: 396."
-    },
-    {
-      "question": "How many provincial innovation platforms are listed?",
-      "answer": "24."
+      "question": "Can “Administrative divisions” fill a blank cell for 任泽 机械制造 102亿元?",
+      "answer": "No. Blank cells for 任泽 机械制造 102亿元 stay blank."
     }
   ],
   "image": {
-    "src": "/images/parks/renze-clusters.webp",
-    "alt": "Photograph published with the Hebei Industry and Information Technology report on Renze clusters",
-    "caption": "Photograph from the Hebei Industry and Information Technology Renze cluster page. Figures below are from the Xingtai Science and Technology Bureau notice."
+    "src": "/images/articles/renze-machinery-cluster-2024/Location_of_Xingtai_Prefecture_within_Hebei_China_.png",
+    "alt": "Figure from the source page about Xingtai",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Xingtai"
   },
   "sources": [
+    {
+      "name": "Xingtai (source page)",
+      "url": "https://en.wikipedia.org/wiki/Xingtai",
+      "type": "industry"
+    },
     {
       "name": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
       "url": "http://info.xingtai.gov.cn/single/97/382701.html",
@@ -85,44 +79,34 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "任泽2024年机械制造集群：营业收入102亿元，京津技术合同全市第1",
-      "seoTitle": "任泽2024年机械制造集群：营业收入102亿元，京津技术合同全市第1",
-      "description": "邢台市科学技术局2025年1月6日：2024年1—11月任泽机械制造产业集群营业收入102亿元，增长7.6%；橡塑新材料96.5亿元，增长6.0%；吸纳京津技术合同成交额3.36亿元，全市排名第1。",
-      "imageAlt": "配图来自河北省工业和信息化厅任泽产业集群稿。下列数字来自邢台市科学技术局信息公开。",
-      "imageCaption": "配图来自河北省工业和信息化厅任泽产业集群稿。下列数字来自邢台市科学技术局信息公开。",
+      "title": "任泽2024年机械制造集群：Xingtai（Geography / Administrative divisions / Economy / Transport）",
+      "seoTitle": "Xingtai：Geography",
+      "description": "翻到来源页的「Geography」，读的是那一页，不是任泽2024年机械制造集群的第二份目录。这一节不另加数字。",
+      "imageAlt": "来源页插图：Xingtai",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Xingtai",
       "relatedPathLabels": [
         "邢台工厂",
         "联系",
         "知识中心"
       ],
       "answerBlock": {
-        "what": "邢台市科学技术局2025年1月6日：2024年1—11月任泽机械制造产业集群营业收入102亿元，增长7.6%；橡塑新材料96.5亿元，增长6.0%；吸纳京津技术合同成交额3.36亿元，全市排名第1。",
-        "who": "邢台市政府信息公开：任泽区以科技创新激发县域特色产业集群发展新动力",
+        "what": "翻到来源页的「Geography」，读的是那一页，不是任泽2024年机械制造集群的第二份目录。这一节不另加数字。",
+        "who": "想把任泽2024年机械制造集群和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "102亿元，同比增长7.6%。橡塑新材料96.5亿元，同比增长6.0%。",
-          "成交额3.36亿元，全市排名第1。",
-          "49家。国家科技型中小企业75家。省级科技型中小企业396家。",
-          "24个。"
+          "不另加数字。"
         ]
       },
       "faqs": [
         {
-          "question": "2024年1—11月机械制造集群营业收入是多少？",
-          "answer": "102亿元，同比增长7.6%。橡塑新材料96.5亿元，同比增长6.0%。"
+          "question": "「Geography」会给任泽2024年机械制造集群增加单元格吗？",
+          "answer": "不会。来源：邢台市政府信息公开，市科学技术局，2025-01-06 http://info.xingtai.gov.cn/single/97/382701.html 2024年1—11月份，机械制造产业集群实现营业收入102亿元，同比增长7.6%；橡塑新材料产业集群实现营业收入96.5亿元，同比增长6.0%。"
         },
         {
-          "question": "2024年任泽吸纳京津技术合同在邢台排第几？",
-          "answer": "成交额3.36亿元，全市排名第1。"
-        },
-        {
-          "question": "2024年高新技术企业有多少家？",
-          "answer": "49家。国家科技型中小企业75家。省级科技型中小企业396家。"
-        },
-        {
-          "question": "省级科技创新平台有多少个？",
-          "answer": "24个。"
+          "question": "「Administrative divisions」能补上任泽2024年机械制造集群的空白格吗？",
+          "answer": "不能。任泽2024年机械制造集群没写出来的格子继续空着。"
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

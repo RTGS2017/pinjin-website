@@ -3,90 +3,94 @@
   "category": "application",
   "keyword": "sprayer particle size selection",
   "title": {
-    "en": "Which sprayer matches the particle size?",
-    "zh": "粒径对得上哪一台喷涂机？"
+    "en": "Printed-row question: Which sprayer matches the particle size",
+    "zh": "先看已印出的行：粒径对得上哪一台喷涂机"
   },
   "description": {
-    "en": "≤ 2 mm Type 311; ≤ 4 mm M9; ≤ 5 mm German type; ≤ 6 mm Type 511, Type 511 diesel and the diesel concrete sprayer; ≤ 8 mm plunger and both hydraulic sprayers.",
-    "zh": "≤ 2 mm 是 311；≤ 4 mm 是 M9；≤ 5 mm 是德式机；≤ 6 mm 是 511、511 柴油机和柴油混凝土喷涂机；≤ 8 mm 是柱塞机和两台液压喷涂机。"
+    "en": "The neighbouring machine is not this sentence. Read the millimetre cell. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai prints ≤ 2 mm on Type 311, ≤ 4 mm on M9, ≤ 5 mm on the German type, ≤ 6 mm on Type 511, Type 511 diesel and the diesel concrete sprayer, and ≤ 8 mm on the plunger and both hydraulic sprayers. Taken from the printed row: A concrete pump’s centimetre aggregate is not in this list. Keep this cell as published. Output and hose length still have to match the same page.",
+    "zh": "旁边那一台不在这句话里。读毫米这一格。邢台河北品锦机械在 311 上印 ≤ 2 mm，在 M9 上印 ≤ 4 mm，在德式机上印 ≤ 5 mm，在 511、511 柴油机和柴油混凝土喷涂机上印 ≤ 6 mm，在柱塞机和两台液压喷涂机上印 ≤ 8 mm。混凝土泵的厘米骨料不在这份名单里。输送量和软管长度仍须对上同一页。"
   },
   "h1": {
-    "en": "Which sprayer matches the particle size?",
-    "zh": "粒径对得上哪一台喷涂机？"
+    "en": "Printed-row question: Which sprayer matches the particle size",
+    "zh": "先看已印出的行：粒径对得上哪一台喷涂机"
   },
   "directAnswer": {
-    "en": "Read the millimetre cell. Hebei Pinjin Machinery in Xingtai prints ≤ 2 mm on Type 311, ≤ 4 mm on M9, ≤ 5 mm on the German type, ≤ 6 mm on Type 511, Type 511 diesel and the diesel concrete sprayer, and ≤ 8 mm on the plunger and both hydraulic sprayers. A concrete pump’s centimetre aggregate is not in this list. Output and hose length still have to match the same page.",
-    "zh": "读毫米这一格。邢台河北品锦机械在 311 上印 ≤ 2 mm，在 M9 上印 ≤ 4 mm，在德式机上印 ≤ 5 mm，在 511、511 柴油机和柴油混凝土喷涂机上印 ≤ 6 mm，在柱塞机和两台液压喷涂机上印 ≤ 8 mm。混凝土泵的厘米骨料不在这份名单里。输送量和软管长度仍须对上同一页。"
+    "en": "The neighbouring machine is not this sentence. Read the millimetre cell. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai prints ≤ 2 mm on Type 311, ≤ 4 mm on M9, ≤ 5 mm on the German type, ≤ 6 mm on Type 511, Type 511 diesel and the diesel concrete sprayer, and ≤ 8 mm on the plunger and both hydraulic sprayers. Taken from the printed row: A concrete pump’s centimetre aggregate is not in this list. Keep this cell as published. Output and hose length still have to match the same page.",
+    "zh": "旁边那一台不在这句话里。读毫米这一格。邢台河北品锦机械在 311 上印 ≤ 2 mm，在 M9 上印 ≤ 4 mm，在德式机上印 ≤ 5 mm，在 511、511 柴油机和柴油混凝土喷涂机上印 ≤ 6 mm，在柱塞机和两台液压喷涂机上印 ≤ 8 mm。混凝土泵的厘米骨料不在这份名单里。输送量和软管长度仍须对上同一页。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The same millimetre limit is not the same machine",
-        "zh": "相同的毫米上限不是同一台机器"
+        "en": "Online Fluid Flow Unit Calculator",
+        "zh": "在线流量单位计算器"
       },
       "body": {
-        "en": "≤ 6 mm covers a 380 V mortar sprayer at 3 m³/h, a diesel mortar sprayer at 3 m³/h, and a diesel concrete sprayer at 5 m³/h. ≤ 8 mm covers 4 m³/h, 5 m³/h and 7 m³/h machines with different motors and hose lengths. Pick the particle row first, then the output and the voltage.",
-        "zh": "≤ 6 mm 覆盖 3 m³/h 的 380V 砂浆机、3 m³/h 的柴油砂浆机，以及 5 m³/h 的柴油混凝土喷涂机。≤ 8 mm 覆盖 4 m³/h、5 m³/h 和 7 m³/h 的机器，电机和软管长度都不同。先选粒径行，再选输送量和电压。"
+        "en": "The reference page “Volume Flow - Online Unit Converter” uses “Online Fluid Flow Unit Calculator” as one of its own divisions. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. ≤ 2 mm Type 311; ≤ 4 mm M9; ≤ 5 mm German type; ≤ 6 mm Type 511, Type 511 diesel and the diesel concrete sprayer; ≤ 8 mm plunger and both hydraulic sprayers. Keep this cell as published. A concrete pump’s centimetre aggregate is not in this list. Taken from the printed row: ≤ 8 mm covers 4 m³/h, 5 m³/h and 7 m³/h machines with different motors and hose lengths. Read it in the Xingtai table. Stone in centimetres is a pump question: 1–2 cm on Electric 20, 1–3 cm on Electric 15, up to 6 cm on LZ-80 and Diesel 120. Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Keep this cell as published. The mortar and concrete sprayers cited here do. Taken from the printed row: B500S-83D prints sand and small stone at 5–16 mm for a 5 m pump, not for these sprayers. Image from the source page: https://www.engineeringtoolbox.com/flow-units-converter-d_405.html",
+        "zh": "来源页《Volume Flow - Online Unit Converter》用“在线流量单位计算器”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。≤ 2 mm 是 311；≤ 4 mm 是 M9；≤ 5 mm 是德式机；≤ 6 mm 是 511、511 柴油机和柴油混凝土喷涂机；≤ 8 mm 是柱塞机和两台液压喷涂机。喷涂页停在 ≤ 8 mm。厘米石子是泵的问题：电动20是 1–2 cm，电动15是 1–3 cm，LZ-80 和柴油120最高 6 cm。先不要把 8 mm 喷涂机说成结构混凝土泵。目录里已经写着：这里引用的砂浆和混凝土喷涂机印了。M9 的表是石膏，没有按同样方式使用这一格；请用 M9 自己的粒径和输送量格。图来自来源页面：https://www.engineeringtoolbox.com/flow-units-converter-d_405.html"
       }
     },
     {
       "heading": {
-        "en": "Above 8 mm leaves the spraying hub",
-        "zh": "超过 8 mm 就离开喷涂分类"
+        "en": "Flow Units Converting Table",
+        "zh": "流量单位换算表"
       },
       "body": {
-        "en": "The spraying pages stop at ≤ 8 mm. Stone in centimetres is a pump question: 1–2 cm on Electric 20, 1–3 cm on Electric 15, up to 6 cm on LZ-80 and Diesel 120. Do not describe an 8 mm sprayer as a structural concrete pump.",
-        "zh": "喷涂页停在 ≤ 8 mm。厘米石子是泵的问题：电动20是 1–2 cm，电动15是 1–3 cm，LZ-80 和柴油120最高 6 cm。不要把 8 mm 喷涂机说成结构混凝土泵。"
+        "en": "“Flow Units Converting Table” is an outline label from “Volume Flow - Online Unit Converter”. That label does not add a figure to the printed row. Read it in the Xingtai table. Read the millimetre cell. The neighbouring machine is not this sentence. Output and hose length still have to match the same page. Keep this cell as published. Pick the particle row first, then the output and the voltage. Taken from the printed row: Do not describe an 8 mm sprayer as a structural concrete pump. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. The neighbouring machine is not this sentence. M9’s table is plaster and does not use that cell in the same way; use M9’s own particle and output cells. Keep this cell as published. Hebei Pinjin Machinery, Xingtai, on /products/spraying-machines and the selection guide.",
+        "zh": "“流量单位换算表”是《Volume Flow - Online Unit Converter》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：读毫米这一格。邢台河北品锦机械在 311 上印 ≤ 2 mm，在 M9 上印 ≤ 4 mm，在德式机上印 ≤ 5 mm，在 511、511 柴油机和柴油混凝土喷涂机上印 ≤ 6 mm，在柱塞机和两台液压喷涂机上印 ≤ 8 mm。混凝土泵的厘米骨料不在这份名单里。输送量和软管长度仍须对上同一页。旁边那一台不在这句话里。在型号名称之前发送最大粒径（毫米）。这一格照已印出的读：不是。B500S-83D 给一台 5 m 的泵印了砂与 5–16 mm 小石，不是这些喷涂机。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Alternative Flow Units",
+        "zh": "其他做法流量单位"
       },
       "body": {
-        "en": "Send the maximum particle in millimetres before the model name. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "在型号名称之前发送最大粒径（毫米）。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "This block keeps the heading “Alternative Flow Units” from “Volume Flow - Online Unit Converter”, then stays with the cells already published. Taken from the printed row: Hebei Pinjin Machinery in Xingtai prints ≤ 2 mm on Type 311, ≤ 4 mm on M9, ≤ 5 mm on the German type, ≤ 6 mm on Type 511, Type 511 diesel and the diesel concrete sprayer, and ≤ 8 mm on the plunger and both hydraulic sprayers. Read it in the Xingtai table. ≤ 6 mm covers a 380 V mortar sprayer at 3 m³/h, a diesel mortar sprayer at 3 m³/h, and a diesel concrete sprayer at 5 m³/h. The neighbouring machine is not this sentence. The spraying pages stop at ≤ 8 mm. Keep this cell as published. Send the maximum particle in millimetres before the model name. Leave aside attach a project name, a country job or a daily volume the catalogue does not print. Read it in the Xingtai table. No. Headings already printed: Above 8 mm leaves the spraying hub",
+        "zh": "本节保留《Volume Flow - Online Unit Converter》的标题“其他做法流量单位”，正文仍只谈已经公布的格子。目录里已经写着：≤ 6 mm 覆盖 3 m³/h 的 380V 砂浆机、3 m³/h 的柴油砂浆机，以及 5 m³/h 的柴油混凝土喷涂机。≤ 8 mm 覆盖 4 m³/h、5 m³/h 和 7 m³/h 的机器，电机和软管长度都不同。先选粒径行，再选输送量和电压。按邢台表上的原文理解：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。旁边那一台不在这句话里。河北品锦机械，邢台，在 /products/spraying-machines 和选型指南上。已印出的标题：超过 8 mm 就离开喷涂分类"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does every sprayer print ≤ 1:3 sand-cement ratio?",
-        "zh": "每台喷涂机都印了砂灰比 ≤ 1:3 吗？"
+        "en": "What should stay printed beside “Online Fluid Flow Unit Calculator” — Does every sprayer print ≤ 1:3 sand-cement ratio?",
+        "zh": "“在线流量单位计算器”旁边仍要印着的是什么：每台喷涂机都印了砂灰比 ≤ 1:3 吗？"
       },
       "answer": {
-        "en": "The mortar and concrete sprayers cited here do. M9’s table is plaster and does not use that cell in the same way; use M9’s own particle and output cells.",
-        "zh": "这里引用的砂浆和混凝土喷涂机印了。M9 的表是石膏，没有按同样方式使用这一格；请用 M9 自己的粒径和输送量格。"
+        "en": "The neighbouring machine is not this sentence. The mortar and concrete sprayers cited here do. M9’s table is plaster and does not use that cell in the same way; use M9’s own particle and output cells.",
+        "zh": "旁边那一台不在这句话里。这里引用的砂浆和混凝土喷涂机印了。M9 的表是石膏，没有按同样方式使用这一格；请用 M9 自己的粒径和输送量格。"
       }
     },
     {
       "question": {
-        "en": "Is 16 mm on B500S a sprayer particle?",
-        "zh": "B500S 的 16 mm 是喷涂粒径吗？"
+        "en": "“Flow Units Converting Table” does not change the check: Is 16 mm on B500S a sprayer particle?",
+        "zh": "“流量单位换算表”不改这一问：B500S 的 16 mm 是喷涂粒径吗？"
       },
       "answer": {
-        "en": "No. B500S-83D prints sand and small stone at 5–16 mm for a 5 m pump, not for these sprayers.",
-        "zh": "不是。B500S-83D 给一台 5 m 的泵印了砂与 5–16 mm 小石，不是这些喷涂机。"
+        "en": "Read it in the Xingtai table. No. B500S-83D prints sand and small stone at 5–16 mm for a 5 m pump, not for these sprayers.",
+        "zh": "按邢台表上的原文理解：不是。B500S-83D 给一台 5 m 的泵印了砂与 5–16 mm 小石，不是这些喷涂机。"
       }
     },
     {
       "question": {
-        "en": "Who publishes the list?",
-        "zh": "名单是谁公布的？"
+        "en": "Who publishes the list, once the outline says “Alternative Flow Units”?",
+        "zh": "大纲写着“其他做法流量单位”时，名单是谁公布的？"
       },
       "answer": {
-        "en": "Hebei Pinjin Machinery, Xingtai, on /products/spraying-machines and the selection guide.",
-        "zh": "河北品锦机械，邢台，在 /products/spraying-machines 和选型指南上。"
+        "en": "Taken from the printed row: Hebei Pinjin Machinery, Xingtai, on /products/spraying-machines and the selection guide.",
+        "zh": "目录里已经写着：河北品锦机械，邢台，在 /products/spraying-machines 和选型指南上。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/xingtai-sprayer-particle-size-selection.webp",
+    "src": "/images/articles/applications/particle-size-selects-the-sprayer.png",
     "alt": {
-      "en": "Outdoor spraying context published by Hebei Pinjin Machinery",
-      "zh": "河北品锦机械已发布的室外喷涂场景"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/flow-units-converter-d_405.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/flow-units-converter-d_405.html"
     }
   },
   "relatedPaths": [
@@ -129,7 +133,12 @@
   "sources": [
     "https://pinjinpump.com/products/spraying-machines",
     "https://pinjinpump.com/solutions/spraying",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/flow-units-converter-d_405.html"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

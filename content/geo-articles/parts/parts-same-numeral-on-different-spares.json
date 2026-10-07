@@ -3,92 +3,112 @@
   "category": "parts",
   "keyword": "same size number on different concrete pump parts",
   "title": {
-    "en": "When the same number is a different Pinjin spare",
-    "zh": "同一个数字在品锦是不同配件时"
+    "en": "Engineering fit is an outline for same size number on different concrete pump parts, not a second table",
+    "zh": "《工程配合》是same size number on different concrete pump parts的大纲，不是第二张表"
   },
   "description": {
-    "en": "φ80 is a mixing seal, a main-cylinder seal, a swing-cylinder seal, an S-tube small-end seal and a swing-arm ball. DN80 is a clamp. 80 mm is the Electric 20 pipe cell. Hebei Pinjin Machinery does not merge those rows.",
-    "zh": "φ80 是搅拌密封、主油缸密封、摆缸密封、S 管小端密封和摆臂球头。DN80 是管卡。80 mm 是电动20的管子格子。河北品锦机械没有把这些行合并。"
+    "en": "Section titles come from Engineering fit; the same size number on different concrete pump parts figures stay the printed ones. A repeated size on the Xingtai wear-part list is not one item. Each product page keeps its own name, unit and, where printed, material. No page assigns the shared number to one pump model.",
+    "zh": "节标题来自《工程配合》，same size number on different concrete pump parts的数字仍是已印数字。邢台易损件清单上重复的尺寸不是一件物品。每张产品页保留自己的名称、单位，以及印出的材料。没有一页把这个共用数字指定给一台泵。"
   },
   "h1": {
-    "en": "The same printed number on different spare pages",
-    "zh": "不同配件页上的同一个数字"
+    "en": "Engineering fit sets the order for the same size number on different concrete pump parts note",
+    "zh": "《工程配合》决定这篇same size number on different concrete pump parts笔记的次序"
   },
   "directAnswer": {
-    "en": "A repeated size on the Xingtai wear-part list is not one item. Each product page keeps its own name, unit and, where printed, material. No page assigns the shared number to one pump model.",
-    "zh": "邢台易损件清单上重复的尺寸不是一件物品。每张产品页保留自己的名称、单位，以及印出的材料。没有一页把这个共用数字指定给一台泵。"
+    "en": "The short answer for same size number on different concrete pump parts uses the cells Xingtai already printed. Engineering fit is the outline those cells are filed under. A repeated size on the Xingtai wear-part list is not one item. Each product page keeps its own name, unit and, where printed, material. No page assigns the shared number to one pump model.",
+    "zh": "same size number on different concrete pump parts的简答只用邢台已经印出的格子。《工程配合》是这些格子所依的大纲。 邢台易损件清单上重复的尺寸不是一件物品。每张产品页保留自己的名称、单位，以及印出的材料。没有一页把这个共用数字指定给一台泵。"
   },
   "sections": [
     {
       "heading": {
-        "en": "φ80 and 80 mm",
-        "zh": "φ80 和 80 mm"
+        "en": "Overview",
+        "zh": "概述"
       },
       "body": {
-        "en": "Mixing seal φ80, set, no material printed. Main-cylinder seal φ80, set. Swing-cylinder seal φ80, set. S-tube small-end seal φ80, set. Swing-arm ball φ80, piece, white or black, upper or lower. Clamp DN80 / 3″ / 89, EN14420-3, PN10/16. Electric 20 delivery pipe inner diameter 80 mm. These seven uses stay on seven pages.",
-        "zh": "搅拌密封 φ80，套，未印材料。主油缸密封 φ80，套。摆缸密封 φ80，套。S 管小端密封 φ80，套。摆臂球头 φ80，个，白或黑，上或下。管卡 DN80 / 3″ / 89，EN14420-3，PN10/16。电动20输送管内径 80 mm。这七处仍在七张页面上。"
+        "en": "A reader who opens the source page will find “Overview”. This note keeps the heading and puts the printed fragment beneath it. Mixing seal φ80, set, no material printed. Main-cylinder seal φ80, set. Swing-cylinder seal φ80, set. S-tube small-end seal φ80, set. Swing-arm ball φ80, piece, white or black, upper or lower. Clamp DN80 / 3″ / 89, EN14420-3, PN10/16. Electric 20 delivery pipe inner diameter 80 mm. These seven uses stay on seven pages. φ60 and φ70 are both a swing-cylinder seal and a swing-arm ball. φ90 is both a swing-cylinder seal and an S-tube small-end seal. φ100 as an S-tube small-end seal is not the pipe cell 100 / 125 mm. Shared piston ODs are listed on the split and integral pages and remain two parts. Stop when the printed fragment stops.",
+        "zh": "打开来源页会看到“概述”。这篇笔记保留该标题，并把已印片段放在标题下面。 搅拌密封 φ80，套，未印材料。主油缸密封 φ80，套。摆缸密封 φ80，套。S 管小端密封 φ80，套。摆臂球头 φ80，个，白或黑，上或下。管卡 DN80 / 3″ / 89，EN14420-3，PN10/16。电动20输送管内径 80 mm。这七处仍在七张页面上。 φ60 和 φ70 同时是摆缸密封和摆臂球头。φ90 同时是摆缸密封和 S 管小端密封。作为 S 管小端密封的 φ100 不是管子格子 100 / 125 mm。两张活塞页上相同的外径仍然是两件配件。 印出的片段结束，这句话也结束。"
       }
     },
     {
       "heading": {
-        "en": "Other repeated sizes",
-        "zh": "其他重复尺寸"
+        "en": "Hole and shaft basis",
+        "zh": "来源章节：Hole and shaft basis"
       },
       "body": {
-        "en": "φ60 and φ70 are both a swing-cylinder seal and a swing-arm ball. φ90 is both a swing-cylinder seal and an S-tube small-end seal. φ100 as an S-tube small-end seal is not the pipe cell 100 / 125 mm. Shared piston ODs are listed on the split and integral pages and remain two parts.",
-        "zh": "φ60 和 φ70 同时是摆缸密封和摆臂球头。φ90 同时是摆缸密封和 S 管小端密封。作为 S 管小端密封的 φ100 不是管子格子 100 / 125 mm。两张活塞页上相同的外径仍然是两件配件。"
+        "en": "Use “Hole and shaft basis” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Put the part name before the number. A number alone is not an order line. Unprinted cells stay unprinted.",
+        "zh": "用“来源章节：Hole and shaft basis”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 数字前面写配件名称。只有数字不能作为订货行。 没有印出的格子保持不印。"
       }
     },
     {
       "heading": {
-        "en": "What to send",
-        "zh": "询价写什么"
+        "en": "Types of fit",
+        "zh": "类型的 配合"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Put the part name before the number. A number alone is not an order line.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 数字前面写配件名称。只有数字不能作为订货行。"
+        "en": "Use “Types of fit” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. A repeated size on the Xingtai wear-part list is not one item. Each product page keeps its own name, unit and, where printed, material. No page assigns the shared number to one pump model. The outline does not complete a blank.",
+        "zh": "用“类型的 配合”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 邢台易损件清单上重复的尺寸不是一件物品。每张产品页保留自己的名称、单位，以及印出的材料。没有一页把这个共用数字指定给一台泵。 大纲补不上空白格子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Interference fits",
+        "zh": "来源章节：Interference fits"
+      },
+      "body": {
+        "en": "Read “Interference fits” as the source author’s section, not as a Pinjin test result. The sentence that follows is the printed fragment. No. Name the page: mixing seal, main-cylinder seal, swing-cylinder seal, S-tube small-end seal, or swing-arm ball. No. It is the delivery-pipe inner diameter cell on that pump page. The heading stops there.",
+        "zh": "把“来源章节：Interference fits”读成来源作者的分节，不要读成品锦的试验结果。后面跟的是已印片段。 不能。写明是哪一页：搅拌密封、主油缸密封、摆缸密封、S 管小端密封或摆臂球头。 不是。它是该泵页上的输送管内径格。 标题到此为止。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Location fits",
+        "zh": "来源章节：Location fits"
+      },
+      "body": {
+        "en": "“Location fits” is a heading on the crawled page, used here only as the section name. It does not create a measurement. This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. Stop when the printed fragment stops.",
+        "zh": "“来源章节：Location fits”是抓到的那一页自己的章节名，这里只拿来当标题，不另造一个测量值。 这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。 印出的片段结束，这句话也结束。"
+      }
+    },
+    {
+      "heading": {
+        "en": "RC fits",
+        "zh": "来源章节：RC fits"
+      },
+      "body": {
+        "en": "“RC fits” organises the source article. Organised under it here is catalogue language, unchanged in its figures. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. The heading stops there. Image from the source page: https://en.wikipedia.org/wiki/Engineering_fit",
+        "zh": "“来源章节：RC fits”用来组织来源文章。组织在它下面的，是目录里的说法，数字保持原样。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 标题到此为止。 图来自来源页：https://en.wikipedia.org/wiki/Engineering_fit"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Can one φ80 order cover every page?",
-        "zh": "一次 φ80 询价能覆盖每一页吗？"
+        "en": "Where does the photograph sit relative to the printed same size number on different concrete pump parts cells?",
+        "zh": "这张配图相对same size number on different concrete pump parts的已印格子处于什么位置？"
       },
       "answer": {
-        "en": "No. Name the page: mixing seal, main-cylinder seal, swing-cylinder seal, S-tube small-end seal, or swing-arm ball.",
-        "zh": "不能。写明是哪一页：搅拌密封、主油缸密封、摆缸密封、S 管小端密封或摆臂球头。"
+        "en": "No. Name the page: mixing seal, main-cylinder seal, swing-cylinder seal, S-tube small-end seal, or swing-arm ball. The heading and the source photograph do not add a further figure.",
+        "zh": "不能。写明是哪一页：搅拌密封、主油缸密封、摆缸密封、S 管小端密封或摆臂球头。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is Electric 20's 80 mm a piston?",
-        "zh": "电动20的 80 mm 是活塞吗？"
+        "en": "Which printed fragment stays in force when the section is “RC fits” for same size number on different concrete pump parts?",
+        "zh": "章节为“来源章节：RC fits”时，same size number on different concrete pump parts仍以哪一句已印文字为准？"
       },
       "answer": {
-        "en": "No. It is the delivery-pipe inner diameter cell on that pump page.",
-        "zh": "不是。它是该泵页上的输送管内径格。"
+        "en": "No. It is the delivery-pipe inner diameter cell on that pump page. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。它是该泵页上的输送管内径格。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Does a shared number assign a pump?",
-        "zh": "共用数字会指定泵型号吗？"
+        "en": "What should an inquiry repeat for same size number on different concrete pump parts under the heading “Overview”?",
+        "zh": "询价same size number on different concrete pump parts时，在“概述”这一节应当重复什么？"
       },
       "answer": {
-        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine.",
-        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is life printed?",
-        "zh": "印了寿命吗？"
-      },
-      "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "This wear-part page does not name a pump model for the size. The same numeral on a pump page is not an assignment. Confirm the size on the machine. The heading and the source photograph do not add a further figure.",
+        "zh": "这张易损件页没有把该尺寸写到某一台已公布泵上。泵页上出现同一个数字，也不等于已经指定机型。请在机器上核对尺寸。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -207,8 +227,19 @@
       "name": "品锦目录：Concrete Pump Swing-Arm Ball",
       "url": "https://pinjinpump.com/zh/products/concrete-pump-swing-arm-ball/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Engineering fit",
+      "url": "https://en.wikipedia.org/wiki/Engineering_fit",
+      "type": "reference"
     }
   ],
   "status": "ready",
-  "image": null
+  "image": {
+    "src": "/images/articles/parts/parts-same-numeral-on-different-spares-21bda435.png",
+    "alt": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Engineering_fit",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Engineering_fit"
+    }
+  }
 }

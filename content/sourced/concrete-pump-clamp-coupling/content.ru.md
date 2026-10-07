@@ -1,26 +1,22 @@
-## Единственный SKU хомута в каталоге
+## Threaded coupler types
 
-Hebei Pinjin Machinery lists one clamp on the public site: [DN80 pipe clamp](/products/concrete-pump-pipe-clamp-dn80/). The cells are EN 14420-3, working pressure PN10 / PN16, weight 3.5 kg. [Electric 20](/products/electric-20-concrete-pump/) prints 80 mm бетоновод, so that coupling is the matching listed size.
+![Иллюстрация со страницы-источника: Hose coupling](/images/articles/concrete-pump-clamp-coupling/Express.png)
+*Изображение со страницы-источника: https://en.wikipedia.org/wiki/Hose_coupling*
 
-[Electric 15](/products/electric-15-concrete-pump/) prints 100–125 mm. That diameter is quoted with the pipeline. It is not a second clamp SKU on this website. Marketplace “full set” clamp kits are observation, not a Pinjin table.
+“Threaded coupler types” — только контекст источника, а не новая табличка для Concrete Pump Clamp / Coupling. Уже напечатанные значения на этой странице: 100–125 mm, 3.5 kg, 80 mm.
 
-![DN80 concrete pump хомут трубопровода from Hebei Pinjin Machinery in Синтай](/images/products/concrete-pump-pipe-clamp-dn80/concrete-pump-pipe-clamp-dn80.webp)
-*DN80 clamp — EN 14420-3, PN10 / PN16, 3.5 kg. Inspect gasket and pin; never open under pressure.*
+Пустые клетки на этой странице остаются пустыми. “Threaded coupler types” их не заполняет.
 
-## ACPA: ежедневный осмотр, не открывать под давлением
+## Non-threaded gendered coupler types
 
-ACPA’s study guide: inspect clamps, gaskets and locking pins before the pour. A missing or crushed gasket leaks grout and can let a coupling walk. Never open a coupling until остаточное давление in the line is relieved. That rule is also on our [blockage page](/blog/concrete-pump-blockage-causes-prevention/).
+Открыть источник на “Non-threaded gendered coupler types” значит читать ту страницу, а не второй каталог Concrete Pump Clamp / Coupling. Эта глава не добавляет цифру.
 
-The [daily maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/) starts at the hopper and grate, then clamps and leaks. Priming coats the wall — [priming article](/blog/concrete-pump-priming-grout-lubrication/) — it does not replace a pin check.
+## Non-threaded genderless coupler types
 
-If a diameter change is in the line, ACPA says look at the reducer first — [reducer article](/blog/concrete-pump-reducer-taper-pipe/). Do not invent a Pinjin reducer SKU to “fix” a clamp leak.
+“Non-threaded genderless coupler types” — глава на странице-источнике. Она не переименовывает Concrete Pump Clamp / Coupling. Эта глава не добавляет цифру.
 
-## Труба, рукав и количество
+## Flanged couplings
 
-[Delivery pipe](/products/concrete-pump-delivery-pipe/) is quoted after model, DN and length. [Rubber hose](/products/concrete-pump-delivery-hose/) is quoted the same way. The [hose vs steel](/blog/concrete-pump-hose-vs-steel-pipe/) page says catalogue distances are not hose-only budgets.
+Concrete Pump Clamp / Coupling остаётся строкой, которая уже была в этом тексте. “Flanged couplings” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 100–125 mm, 3.5 kg, 80 mm.
 
-Pinjin does not print clamp gasket hours. Photograph OD and send quantity.
-
-## Запрос
-
-Pump model, DN, clamp quantity, pipe vs hose length. [Contact Xingtai](/contact/).
+Страницы, уже указанные в этом тексте: [DN80 pipe clamp](/products/concrete-pump-pipe-clamp-dn80/), [Electric 20](/products/electric-20-concrete-pump/), [Electric 15](/products/electric-15-concrete-pump/).

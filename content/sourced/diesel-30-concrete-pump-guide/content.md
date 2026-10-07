@@ -1,29 +1,26 @@
-## Catalogue Diesel 30 row
+## Introduction
 
-Diesel 30 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm aggregate). Hopper 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, aggregate 3 cm and below.
+A diesel engine is introduced as a compression-ignition machine: the piston heats the air, then fuel is injected. That is why this trailer is described as diesel rather than electric. The introduction does not invent an output or a price.
 
-![Diesel 30 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/diesel-30-concrete-pump/diesel-30-concrete-pump.webp)
-*Diesel 30, Xingtai catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m (1 cm aggregate)*
+Hebei Pinjin Machinery already prints the Diesel 30 row in Xingtai as a 4105 diesel at 56 kW, 15 m³/h, 20 MPa, and 60 m / 180 m when the aggregate note says 1 cm. This page does not add bore, stroke, fuel use, a destination country, or a jobsite story.
 
-## Neighbour diesel trailer rows
+![Figure from the source page about diesel engines](/images/articles/diesel-30-concrete-pump-guide/Neckarsulm-AudiForum-Audi-R10-TDI.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Diesel_engine*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| Diesel 30 | 4105 / 56 kW | 15 m³/h | 20 MPa | 60 m / 180 m (1 cm aggregate) | 2000 kg |
-| Diesel 40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm aggregate) | 2800 kg |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm aggregate) | 3300 kg |
-| Rural diesel | see product page | 5–8 m³/h | see product page | see product page | see product page |
+## History
 
-SmartBuy: diesel is more practical on remote sites when grid or a large generator is missing; electric needs a stable supply. Sites without electricity: [diesel without grid](/blog/diesel-concrete-pump-no-electricity/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+The history chapter on the source page follows compression-ignition experiments into later production engines. That timeline is not a shipping date and not a customer reference for this factory.
 
-## When this row fits
+The neighbour already printed on this site is Diesel 40: 4108 / 66 kW and 26 m³/h. That is a different row, not a historical upgrade of Diesel 30. Read each product page for its own cells.
 
-Sites without stable grid power. Rural and infrastructure placement matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm aggregate) on a 2000 kg trailer.
+## Operating principle
 
-## When to open another page
+Operating principle here means the fuel burns because the air was compressed, not because a spark plug fired. On a concrete pump that only identifies the drive. It does not calculate pipeline pressure.
 
-- 26 m³/h / 66 kW → [Diesel 40](/products/diesel-40-concrete-pump/).
-- 5–8 m³/h rural diesel row → [rural diesel concrete pump](/products/rural-diesel-concrete-pump/).
-- Grid already on site → compare the [electric hub](/products/electric-concrete-pumps/).
-- Not a truck-mounted placing boom, not a mixing plant, not the [diesel spraying machine](/products/diesel-concrete-spraying-machine/).
+The 20 MPa outlet cell and the 60 m / 180 m pair stay the printed figures for 1 cm aggregate. Do not turn the principle into a formula that fills a blank cell.
 
-Product page: [Diesel 30 concrete pump](/products/diesel-30-concrete-pump/). Inquiry: [contact](/contact/).
+## Classification
+
+Engines get classified by cycle, speed and how they take in air. Those classes are not model names on the trailer table. Diesel 30 is one printed row.
+
+It is not Electric 30, and it is not the rural diesel row already printed at 5–8 m³/h. If the site has no stable grid, stay with the diesel row that matches the printed window. If the grid is present, open the electric hub instead of reclassifying this engine.

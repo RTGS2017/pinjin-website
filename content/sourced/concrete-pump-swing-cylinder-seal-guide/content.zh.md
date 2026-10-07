@@ -1,27 +1,22 @@
-## Catalogue swing-cylinder seal kits
+## Parts
 
-Concrete Pump Swing Cylinder Seal is a wear replacement kit supplied by 河北品锦机械 from 邢台, Hebei, China. Catalogue sizes: φ60, φ70, φ80, φ90. Confirm the kit on the swing / pendulum cylinder that switches the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.
+![来源页插图：Hydraulic cylinder](/images/articles/concrete-pump-swing-cylinder-seal-guide/Cutawayweldedcylinder544x123.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Hydraulic_cylinder*
 
-![Concrete pump swing cylinder seal factory product photo, 河北品锦机械 邢台](/images/products/concrete-pump-swing-cylinder-seal/concrete-pump-swing-cylinder-seal.webp)
-*Swing cylinder seal kits, 邢台 catalogue — φ60 / φ70 / φ80 / φ90*
+Concrete Pump Swing Cylinder Seal Kit Catalogue Sizes还是本文原有的那一行。「Parts」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-## Swing cylinder versus main cylinder
+本页没写出来的格子继续空着。「Parts」不去填它们。
 
-| Kit | Sizes listed | Unit | Role on the pump |
-| Swing / pendulum cylinder | φ60 / φ70 / φ80 / φ90 | Set | Switches the S-tube |
-| Main cylinder | φ63 / φ80 / 80×125 / 90×140 / 90–160 / 95×140 / 100×150 / 461K | Set | Main pumping cylinder |
-| S-tube seal | large φ210 / 220 / 250; small φ80–105 | Set | S-tube ends |
+## Designs
 
-Related SKUs: [main cylinder seal](/products/concrete-pump-main-cylinder-seal/), [S-tube seal](/blog/concrete-pump-s-tube-seal-guide/), [swing-arm ball](/products/concrete-pump-swing-arm-ball/). Hub: [concrete pump parts](/products/concrete-pump-parts/).
+把「Designs」和Concrete Pump Swing Cylinder Seal Kit Catalogue Sizes分开。来源页不填空白格。这一节不另加数字。
 
-## When this kit fits
+## Piston rod construction
 
-S-valve swing-cylinder seal replacement after the OD matches φ60–φ90. Project quantities, not sample parcels.
+来源章节「Piston rod construction」留在来源页。Concrete Pump Swing Cylinder Seal Kit Catalogue Sizes仍是这里已经写过的那一行。这一节不另加数字。
 
-## When to open another page
+## Distribution of forces on components
 
-- Main pumping-cylinder leak at 80×125 or 90×140 → [main cylinder seal](/products/concrete-pump-main-cylinder-seal/).
-- S-tube end leak → [S-tube seal](/products/concrete-pump-s-tube-seal/).
-- Pump output and distance → a trailer 产品页.
+「Distribution of forces on components」不能代替规格。Concrete Pump Swing Cylinder Seal Kit Catalogue Sizes维持已印的那一行。这一节不另加数字。
 
-询价: [contact](/contact/).
+本文原先已经指向这些页面：[main cylinder seal](/products/concrete-pump-main-cylinder-seal/), [S-tube seal](/blog/concrete-pump-s-tube-seal-guide/), [swing-arm ball](/products/concrete-pump-swing-arm-ball/)。

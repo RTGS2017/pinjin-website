@@ -1,30 +1,26 @@
-## Catalogue Diesel 50 row
+## المحركات الترددية
 
-Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي, Hebei, China. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm ركام). Hopper 0.4 m³, Kawasaki 140 hydraulic pump, 4600 × 1650 × 1850 mm, 3300 kg.
+المحرك الترددي يحرّك مكابس ذهابًا وإيابًا في أسطوانات. هذه عائلة ديزل 6105 المطبوع على الديزل 50. الفصل لا يقيس قطرًا جديدًا.
 
-![Diesel 50 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي](/images/products/diesel-50-concrete-pump/diesel-50-concrete-pump.webp)
-*Diesel 50, شينغتاي catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m (1 cm ركام)*
+يبقى الصف 99 كيلوواط و30 م³/س و30 ميغاباسكال و150 م / 450 م لركام 1 سم، مع خلية 3300 كغ المطبوعة بجانبه. لا يُضاف بلد وجهة.
 
-## Neighbour diesel trailer rows
+![شكل من صفحة المصدر عن محركات الاحتراق الداخلي](/images/articles/diesel-50-concrete-pump-guide/Clevelandblock.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Internal_combustion_engine*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| Diesel 30 | 4105 / 56 kW | 15 m³/h | 20 MPa | 60 m / 180 m (1 cm ركام) | see صفحة المنتج |
-| Diesel 40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm ركام) | see صفحة المنتج |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm ركام) | 3300 kg |
-| Diesel 60 / HBT60-13.132 | 6105 / 144 kW | 35 m³/h | 30 MPa | 150 m / 350 m | see صفحة المنتج |
+## عنفات الاحتراق
 
-Sites without electricity: [diesel concrete pump for sites without electricity](/blog/diesel-concrete-pump-no-electricity/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+عنفة الاحتراق تحرق الوقود في تيار مستمر وتدير عمودًا. صفحة الديزل 50 لا تطبع عنفة. لا تعِد تسمية ديزل 6105 كذلك.
 
-## When this row fits
+إن احتاج الصب صف 35 م³/س فذلك الديزل 60 المطبوع على حدة. فصل العنفة ليس جسرًا بين الصفين.
 
-Sites without stable grid power. Rural and infrastructure concrete placement that matches 30 m³/h, 30 MPa and 150 m / 450 m (1 cm ركام). Trailer-mounted diesel pumping jobs.
+## محركات فانكل
 
-## When to open another page
+يستخدم محرك فانكل دوارًا في مبيت بدل المكابس الترددية. لا شيء مطبوع على الديزل 50 هو إزاحة دوار.
 
-- 26 m³/h / 66 kW → [Diesel 40](/products/diesel-40-concrete-pump/).
-- 35 m³/h / 144 kW → [Diesel 60](/products/diesel-60-concrete-pump/).
-- 15 m³/h compact diesel trailer → [Diesel 30](/products/diesel-30-concrete-pump/).
-- Not a truck-mounted placing boom and not a concrete batching plant.
-- Not the [diesel concrete spraying machine](/products/diesel-concrete-spraying-machine/) (28/32 HP, 5 m³/h, particle ≤6 mm).
+أبقِ رمز المحرك 6105 / 99 كيلوواط. الرقم التجاري 50 ليس مقاس فانكل ولا ضغطًا.
 
-Product page: [Diesel 50 concrete pump](/products/diesel-50-concrete-pump/). استفسار: [contact](/contact/).
+## الحث القسري
+
+يدفع الحث القسري هواء إضافيًا إلى الأسطوانة بضاغط. صفحة الديزل 50 لا تطبع ضغط تعزيز ولا طراز ضاغط.
+
+رقم 30 ميغاباسكال هو خلية مخرج الخرسانة الموجودة أصلًا في صفحة المنتج. اتركها هناك. هذا الفصل لا يضيف سعرًا ولا حالة موقع.

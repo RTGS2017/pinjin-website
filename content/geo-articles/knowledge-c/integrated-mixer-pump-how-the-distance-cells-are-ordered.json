@@ -7,58 +7,68 @@
     "zh": "搅拌泵一体机输送距离怎么读"
   },
   "title": {
-    "en": "How Integrated Mixer Pump Orders Its Distance Cells",
-    "zh": "搅拌泵一体机的距离格子按什么顺序印"
+    "en": "how to read Integrated Mixer Pump pumping distance — Flow rate or discharge in an open conduit, channel or river can be calculated with the velocity-area principle.",
+    "zh": "搅拌泵一体机输送距离怎么读——明渠、渠道或河道的流量可以用流速面积法计算"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery prints the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m. Read each label with its own figur",
-    "zh": "河北品锦机械在邢台把搅拌泵一体机的距离文字印成：输送距离（水平/垂直）是100 m / 300 m。每一条标题只带它自己的数字。同一页如果同时有水平和垂直，两者不能对调；没有印出的垂直格也不能用别的型号去填。画面「Concrete mixer」的主体是双卧轴 混凝土搅拌机，不能代替这些格子。"
+    "en": "how to read Integrated Mixer Pump pumping distance How Integrated Mixer Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m.",
+    "zh": "搅拌泵一体机输送距离怎么读搅拌泵一体机的距离格子按什么顺序印河北品锦机械在邢台把搅拌泵一体机的距离文字写成：输送距离（水平/垂直）是100 m / 300 m。"
   },
   "h1": {
-    "en": "How Integrated Mixer Pump Orders Its Distance Cells",
-    "zh": "搅拌泵一体机的距离格子按什么顺序印"
+    "en": "how to read Integrated Mixer Pump pumping distance — Flow rate or discharge in an open conduit, channel or river can be calculated with the velocity-area principle.",
+    "zh": "搅拌泵一体机输送距离怎么读——明渠、渠道或河道的流量可以用流速面积法计算"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m. Read each label with its own figure. Horizontal and vertical are not interchangeable when both appear, and a missing vertical cell is not filled from another model. The frame “Concrete mixer” shows Twin shaft concrete mixer and does not replace these cells.",
-    "zh": "河北品锦机械在邢台把搅拌泵一体机的距离文字印成：输送距离（水平/垂直）是100 m / 300 m。每一条标题只带它自己的数字。同一页如果同时有水平和垂直，两者不能对调；没有印出的垂直格也不能用别的型号去填。画面「Concrete mixer」的主体是双卧轴 混凝土搅拌机，不能代替这些格子。"
+    "en": "how to read Integrated Mixer Pump pumping distance How Integrated Mixer Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m.",
+    "zh": "搅拌泵一体机输送距离怎么读搅拌泵一体机的距离格子按什么顺序印河北品锦机械在邢台把搅拌泵一体机的距离文字写成：输送距离（水平/垂直）是100 m / 300 m。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Each distance label owns its figure",
-        "zh": "每条距离标题只拥有自己的数字"
+        "en": "Flow rate or discharge in an open conduit, channel or river can be calculated with the velocity-area principle.",
+        "zh": "明渠、渠道或河道的流量可以用流速面积法计算"
       },
       "body": {
-        "en": "Pumping Distance (H / V) is 100 m / 300 m. A pipeline loses pressure to friction, so a horizontal run and a vertical rise are different duties. The sheet already separates them when it prints both. Hopper Capacity 0.4 m³. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm.",
-        "zh": "输送距离（水平/垂直）是100 m / 300 m。管路沿程要克服摩擦，水平段和垂直升高不是同一项工作。目录在同时印出两者时已经把它们分开。料斗容积 0.4 m³。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。"
+        "en": "https://www.engineeringtoolbox.com/velocity-area-computing-flow-principle-d_1974.html how to read Integrated Mixer Pump pumping distance Read each label with its own figure. Pumping Distance (H / V) is 100 m / 300 m. Max. Aggregate Size 4 cm and below. Hebei Pinjin Machinery does not read a metre figure off that frame. Neither cell is a metre. Only when the label itself puts them in that order. Theoretical Output is 21 m³/h.",
+        "zh": "https://www.engineeringtoolbox.com/velocity-area-computing-flow-principle-d_1974.html搅拌泵一体机输送距离怎么读同一页如果同时有水平和垂直，两者不能对调；没有写出的垂直格也不能用别的型号去填。管路沿程要克服摩擦，水平段和垂直升高不是同一项工作。输送管内径 100 / 125 mm。理论输送量是21 m³/h，最大出口压力是23 MPa。水平和垂直可以对调吗？米数只来自已经写出的目录格。双卧轴 混凝土搅拌机。"
       }
     },
     {
       "heading": {
-        "en": "The frame is not a measuring tape",
-        "zh": "这一帧不是卷尺"
+        "en": "Example - Computing Flow Rate in a Channel",
+        "zh": "示例：计算渠道流量"
       },
       "body": {
-        "en": "Source page: en.wikipedia.org, “Concrete mixer”. Subject: Twin shaft concrete mixer. Hebei Pinjin Machinery does not read a metre figure off that frame. If a distance cell is missing on the Integrated Mixer Pump sheet, it stays missing.",
-        "zh": "来源页：en.wikipedia.org，「Concrete mixer」。主体：双卧轴 混凝土搅拌机。河北品锦机械不从这一帧上读米数。搅拌泵一体机这一页如果少了某一距离格，就让它继续空着。"
+        "en": "How Integrated Mixer Pump Orders Its Distance Cells Horizontal and vertical are not interchangeable when both appear, and a missing vertical cell is not filled from another model. A pipeline loses pressure to friction, so a horizontal run and a vertical rise are different duties. Delivery Pipe Diameter 100 / 125 mm. If a distance cell is missing on the Integrated Mixer Pump sheet, it stays missing. Do not paste another manufacturer's boom length onto Integrated Mixer Pump. Keep the listed order. Hebei Pinjin Machinery, Xingtai, Hebei, China",
+        "zh": "搅拌泵一体机的距离格子按什么顺序印画面「Concrete mixer」的主体是双卧轴 混凝土搅拌机，不能代替这些格子。目录在同时写出两者时已经把它们分开。主体：双卧轴 混凝土搅拌机。这两格都不是米。只有标题本身写成那个顺序时才按那个顺序。输送量印在哪里？"
       }
     },
     {
       "heading": {
-        "en": "Output is not the distance",
-        "zh": "输送量不是距离"
+        "en": "Simple Average Method",
+        "zh": "简单平均法"
       },
       "body": {
-        "en": "Theoretical Output is 21 m³/h and Max. Outlet Pressure is 23 MPa. Neither cell is a metre. Do not paste another manufacturer's boom length onto Integrated Mixer Pump.",
-        "zh": "理论输送量是21 m³/h，最大出口压力是23 MPa。这两格都不是米。不要把别的厂家臂长贴到搅拌泵一体机上。"
+        "en": "Hebei Pinjin Machinery lists the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m. The frame “Concrete mixer” shows Twin shaft concrete mixer and does not replace these cells. The sheet already separates them when it lists both. The frame is not a measuring tape Output is not the distance Which distance text does Integrated Mixer Pump list? No. Metres come from the catalogue cells that exist. Twin shaft concrete mixer.",
+        "zh": "河北品锦机械在邢台把搅拌泵一体机的距离文字写成：输送距离（水平/垂直）是100 m / 300 m。每条距离标题只拥有自己的数字料斗容积 0.4 m³。搅拌泵一体机这一页如果少了某一距离格，就让它继续空着。不要把别的厂家臂长贴到搅拌泵一体机上。保留写出来的次序。理论输送量是21 m³/h。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Midsection Method",
+        "zh": "中断面法"
+      },
+      "body": {
+        "en": "Read each label with its own figur Each distance label owns its figure Hopper Capacity 0.4 m³. Subject: Twin shaft concrete mixer. Theoretical Output is 21 m³/h and Max. Outlet Pressure is 23 MPa. Can horizontal and vertical be swapped? Where is output listed? Subject of the frame for the Integrated Mixer Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "每一条标题只带它自己的数字。输送距离（水平/垂直）是100 m / 300 m。最大骨料粒径 4 cm and below。输送量不是距离搅拌泵一体机写了哪几句距离？不会。河北品锦机械，中国河北邢台"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which distance text does Integrated Mixer Pump print?",
-        "zh": "搅拌泵一体机印了哪几句距离？"
+        "en": "Which distance text does Integrated Mixer Pump list?",
+        "zh": "搅拌泵一体机写了哪几句距离？"
       },
       "answer": {
         "en": "Pumping Distance (H / V) is 100 m / 300 m.",
@@ -71,23 +81,13 @@
         "zh": "水平和垂直可以对调吗？"
       },
       "answer": {
-        "en": "Only when the label itself puts them in that order. Keep the printed order.",
-        "zh": "只有标题本身写成那个顺序时才按那个顺序。保留印出来的次序。"
+        "en": "Only when the label itself puts them in that order. Keep the listed order.",
+        "zh": "只有标题本身写成那个顺序时才按那个顺序。保留写出来的次序。"
       }
     },
     {
       "question": {
-        "en": "Does the frame add metres?",
-        "zh": "这一帧会补上米数吗？"
-      },
-      "answer": {
-        "en": "No. Metres come from the catalogue cells that exist.",
-        "zh": "不会。米数只来自已经印出的目录格。"
-      }
-    },
-    {
-      "question": {
-        "en": "Where is output printed?",
+        "en": "Where is output listed?",
         "zh": "输送量印在哪里？"
       },
       "answer": {
@@ -97,10 +97,10 @@
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/twin-shaft-concrete-mixer.webp",
+    "src": "/images/articles/knowledge/integrated-mixer-pump-how-the-distance-cells-are-ordered.png",
     "alt": {
-      "en": "Twin shaft concrete mixer. Subject of the frame for the Integrated Mixer Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "双卧轴 混凝土搅拌机。搅拌泵一体机目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/velocity-area-computing-flow-principle-d_1974.html",
+      "zh": "https://www.engineeringtoolbox.com/velocity-area-computing-flow-principle-d_1974.html"
     }
   },
   "relatedPaths": [
@@ -117,7 +117,8 @@
     "https://pinjinpump.com/en/products/integrated-mixer-pump/",
     "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/velocity-area-computing-flow-principle-d_1974.html"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +126,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery prints the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m. Read each label with its own figure. Horizontal and vertical are not interchangeable when both appear, and a missing vertical cell is not filled from another model. The frame “Concrete mixer” shows Twin shaft concrete mixer and does not replace these cells.",
-      "zh": "河北品锦机械在邢台把搅拌泵一体机的距离文字印成：输送距离（水平/垂直）是100 m / 300 m。每一条标题只带它自己的数字。同一页如果同时有水平和垂直，两者不能对调；没有印出的垂直格也不能用别的型号去填。画面「Concrete mixer」的主体是双卧轴 混凝土搅拌机，不能代替这些格子。"
+      "en": "how to read Integrated Mixer Pump pumping distance How Integrated Mixer Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the Integrated Mixer Pump distance text in Xingtai as follows: Pumping Distance (H / V) is 100 m / 300 m.",
+      "zh": "搅拌泵一体机输送距离怎么读搅拌泵一体机的距离格子按什么顺序印河北品锦机械在邢台把搅拌泵一体机的距离文字写成：输送距离（水平/垂直）是100 m / 300 m。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

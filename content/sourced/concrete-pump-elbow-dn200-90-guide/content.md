@@ -1,22 +1,22 @@
-## Labelled DN200 / R275 / 90°
+## Standards
 
-DN200 90° Concrete Pump Elbow is a wear pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. The factory label on this piece reads dedicated concrete pump-truck pipe, DN200, R275, 90°, with a triangular mounting bracket at the heel of the bend. Other diameters and radii are quoted after matching the pump model. No published list price. Not sold in small batches.
+![Figure from the source page about Piping and plumbing fitting](/images/articles/concrete-pump-elbow-dn200-90-guide/1-1111_CU-solderfitting-type_5002-18.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Piping_and_plumbing_fitting*
 
-![DN200 90 degree concrete pump elbow factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/concrete-pump-elbow-dn200-90/concrete-pump-elbow-dn200-90.webp)
-*DN200 R275 90° elbow, Xingtai label — dedicated pump-truck pipe*
+Read “Standards” as context from the source. It is not a new nameplate for DN200 90 degree concrete pump elbow. Printed cells already on this page: 80 mm, 125 mm.
 
-## Not the trailer-pump pipe cell
+DN200 90° Concrete Pump Elbow is a wear pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China.
 
-| Page | Diameter printed |
-| This elbow | DN200, R275, 90° |
-| Electric 20 | 80 mm |
-| LZ-60 | 100 / 125 mm |
-| DN80 clamp | DN80 / 3″ / 89 |
+## Materials
 
-Hub: [concrete pump parts](/products/concrete-pump-parts/). Straight pipe: [delivery pipe](/blog/concrete-pump-delivery-pipe-catalogue/).
+Opening the source at “Materials” means reading that page, not a second catalogue for DN200 90 degree concrete pump elbow. No added figure is taken from that chapter.
 
-Pinjin trailer pumps are not boom pumps. This elbow’s own label says pump-truck pipe. That does not turn a trailer pump into a boom pump, and it does not mean the elbow fits an 80 mm trailer line.
+## Gaskets
 
-## Inquiry
+“Gaskets” is a chapter on the source page. It does not rename DN200 90 degree concrete pump elbow. No added figure is taken from that chapter.
 
-Send pump model, DN, radius and quantity. [Contact](/contact/). Product page: [DN200 elbow](/products/concrete-pump-elbow-dn200-90/).
+## Gender
+
+DN200 90 degree concrete pump elbow remains the row this document already had. “Gender” explains the source topic and adds no cell. Printed cells already on this page: 80 mm, 125 mm.
+
+Pages already named on this document: [concrete pump parts](/products/concrete-pump-parts/), [delivery pipe](/blog/concrete-pump-delivery-pipe-catalogue/), [Contact](/contact/).

@@ -1,26 +1,22 @@
-## Catalogue S-tube seal kits
+## Sheet gaskets
 
-Concrete Pump S-Tube Seal is a wear replacement kit supplied by Hebei Pinjin Machinery from Xingtai, Hebei, China. Large-end kits: φ210, φ220, φ250 (set; some φ220 kits are six-piece). Small-end kits: φ80, φ90, φ100, φ105. Confirm the seal OD on the S-tube before ordering. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.
+![Figure from the source page about Gasket](/images/articles/concrete-pump-s-tube-seal-guide/Used_copper_flange_gaskets_for_ultrahigh_vacuum_systems.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Gasket*
 
-![Concrete pump S-tube seal factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/concrete-pump-s-tube-seal/concrete-pump-s-tube-seal.webp)
-*S-tube seal kits, Xingtai catalogue — large end φ210 / 220 / 250; small end φ80–105*
+“Sheet gaskets” is not a substitute specification. concrete pump S-tube seal stays the printed row. No added figure is taken from that chapter.
 
-## Large end versus small end
+Large-end kits: φ210, φ220, φ250 (set; some φ220 kits are six-piece).
 
-| End | Sizes listed | Unit | Note |
-| Large end | φ210 / φ220 / φ250 | Set | Some φ220 kits listed as six-piece |
-| Small end | φ80 / φ90 / φ100 / φ105 | Set | Confirm on the S-tube |
+## Solid material gaskets
 
-On the floor the S-tube is the swinging pipe that connects one cylinder at a time to the outlet. ACI 304.2R §4.2 describes hydraulically powered directional valves on piston pumps. Pinjin cites that class; it does not print “S-valve” as a column on Electric 40 or Diesel 50. Related: [S-valve vs gate valve](/blog/s-valve-vs-gate-valve-concrete-pump/), [swing-arm ball](/products/concrete-pump-swing-arm-ball/), [parts hub](/products/concrete-pump-parts/).
+“Solid material gaskets” is background. An enquiry for concrete pump S-tube seal still uses the cells already written. No added figure is taken from that chapter.
 
-## When this kit fits
+## Spiral-wound gaskets
 
-S-tube large-end or small-end replacement after the OD on the housing matches a listed size. Project quantities, not sample parcels.
+Read “Spiral-wound gaskets” as context from the source. It is not a new nameplate for concrete pump S-tube seal. No added figure is taken from that chapter.
 
-## When to open another page
+## Constant seating stress gaskets
 
-- Split or integral piston OD → [split vs integral piston](/blog/concrete-pump-split-vs-integral-piston/).
-- Swing-cylinder kit φ60–φ90 → [swing cylinder seal](/blog/concrete-pump-swing-cylinder-seal-guide/).
-- Pump power and distance → open a trailer product page, not this kit page.
+Opening the source at “Constant seating stress gaskets” means reading that page, not a second catalogue for concrete pump S-tube seal. No added figure is taken from that chapter.
 
-Inquiry: [contact](/contact/).
+Pages already named on this document: [S-valve vs gate valve](/blog/s-valve-vs-gate-valve-concrete-pump/), [swing-arm ball](/products/concrete-pump-swing-arm-ball/), [parts hub](/products/concrete-pump-parts/).

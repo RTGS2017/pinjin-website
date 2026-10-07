@@ -1,7 +1,7 @@
 {
-  "title": "Electric 80 Concrete Pump Catalogue Row",
-  "seoTitle": "Electric 80 HBT80 Concrete Pump | Pinjin 60 m³/h",
-  "description": "Electric 80 is a Xingtai high-capacity electric trailer pump listing 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m at 2 cm aggregate, model HBT80-1816-110, 6000 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a truck-mounted boom pump. Match the printed table, then inquire.",
+  "title": "Transformer — Ideal transformer / Real transformer / Transformer EMF equation / Polarity",
+  "seoTitle": "Transformer — Ideal transformer",
+  "description": "Read “Ideal transformer” as context from the source. It is not a new nameplate for Electric 80 concrete pump. Printed cells already on this page: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
   "primaryKeyword": "Electric 80 concrete pump",
   "secondaryKeywords": [
     "HBT80-1816-110 concrete pump",
@@ -54,13 +54,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric 80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical (2 cm aggregate), model HBT80-1816-110, hopper 0.7 m³, max aggregate 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg. It is not Electric 60 and not a boom pump or mixing plant.",
-    "who": "Contractors matching 60 m³/h, 40 MPa and 900 m / 300 m at ≤ 2 cm aggregate to a high-rise or long-distance pour that can supply the listed 110 kW motor.",
+    "what": "Read “Ideal transformer” as context from the source. It is not a new nameplate for Electric 80 concrete pump. Printed cells already on this page: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+    "who": "Readers checking Electric 80 concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Theoretical output 60 m³/h versus Electric 60 at 40 m³/h",
-      "Distance 900 m / 300 m at 2 cm aggregate",
-      "110 kW motor and Kawasaki 140 double pump",
-      "6000 kg frame versus Electric 60 at 3300 kg"
+      "6600 × 1800 × 1800 mm",
+      "110 kW",
+      "60 m³/h",
+      "40 MPa",
+      "2 cm",
+      "24 mm"
     ],
     "relatedModels": [
       "electric-80-concrete-pump",
@@ -71,20 +73,25 @@
   },
   "faqs": [
     {
-      "question": "Is Electric 80 the same row as HBT8018?",
-      "answer": "No. Electric 80 lists HBT80-1816-110, 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m (2 cm aggregate), 6000 kg. HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. Compare each product page."
+      "question": "Does “Ideal transformer” add a cell to Electric 80 concrete pump?",
+      "answer": "No. Electric 80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Does Electric 80 replace Electric 60?",
-      "answer": "No. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 3300 kg. Compact frames do not replace the Electric 80 row."
+      "question": "Can “Real transformer” fill a blank cell for Electric 80 concrete pump?",
+      "answer": "No. Blank cells for Electric 80 concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-80-concrete-pump/electric-80-concrete-pump.webp",
-    "alt": "Electric 80 HBT80 trailer concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 80 trailer pump, Xingtai catalogue — 110 kW, 60 m³/h, 900 m / 300 m"
+    "src": "/images/articles/electric-80-concrete-pump-guide/Transformer-hightolow_smaller.jpg",
+    "alt": "Figure from the source page about Transformer",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Transformer"
   },
   "sources": [
+    {
+      "name": "Transformer (source page)",
+      "url": "https://en.wikipedia.org/wiki/Transformer",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 80 product page",
       "url": "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
@@ -109,9 +116,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "电动80 Concrete Pump Catalogue Row",
-      "description": "电动80 is a 邢台 high-capacity electric 拖式泵 listing 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m at 2 cm 骨料, model HBT80-1816-110, 6000 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a truck-mounted 臂架泵. Match the printed table, then inquire.",
-      "imageAlt": "电动80 HBT80 trailer concrete pump factory product photo, 河北品锦机械 邢台",
+      "title": "电动80 Concrete Pump Catalogue Row：Transformer（Ideal transformer / Real transformer / Transformer EMF equation / Polarity）",
+      "description": "「Ideal transformer」只作来源页上的背景，不是给电动80 Concrete Pump Catalogue Row新造的铭牌。本页已经印出的读数：6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW。",
+      "imageAlt": "来源页插图：Transformer",
       "relatedPathLabels": [
         "电动80 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "电动80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m 水平 / 300 m 垂直 (2 cm 骨料), model HBT80-1816-110, hopper 0.7 m³, max 骨料 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg. It is not Electric 60 and not a 臂架泵 or mixing plant.",
-        "who": "Contractors matching 60 m³/h, 40 MPa and 900 m / 300 m at ≤ 2 cm 骨料 to a high-rise or long-distance pour that can supply the listed 110 kW motor.",
+        "what": "「Ideal transformer」只作来源页上的背景，不是给电动80 Concrete Pump Catalogue Row新造的铭牌。本页已经印出的读数：6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW。",
+        "who": "想把电动80 Concrete Pump Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Theoretical output 60 m³/h versus Electric 60 at 40 m³/h",
-          "Distance 900 m / 300 m at 2 cm 骨料",
-          "110 kW motor and Kawasaki 140 double pump",
-          "6000 kg frame versus Electric 60 at 3300 kg"
+          "6600 × 1800 × 1800 mm",
+          "110 kW",
+          "60 m³/h",
+          "40 MPa",
+          "2 cm",
+          "24 mm"
         ]
       },
-      "seoTitle": "电动80 HBT80 Concrete Pump | 品锦 60 m³/h",
-      "imageCaption": "电动80 拖式泵, 邢台 catalogue — 110 kW, 60 m³/h, 900 m / 300 m",
+      "seoTitle": "Transformer：Ideal transformer",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Transformer",
       "faqs": [
         {
-          "question": "Is 电动80 the same row as HBT8018?",
-          "answer": "No. 电动80 lists HBT80-1816-110, 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m (2 cm 骨料), 6000 kg. HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. Compare each 产品页."
+          "question": "「Ideal transformer」会给电动80 Concrete Pump Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW。"
         },
         {
-          "question": "Does 电动80 replace Electric 60?",
-          "answer": "No. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 细石 200 m / 600 m, 3300 kg. Compact frames do not replace the 电动80 row."
+          "question": "「Real transformer」能补上电动80 Concrete Pump Catalogue Row的空白格吗？",
+          "answer": "不能。电动80 Concrete Pump Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric 80 Concrete Pump Catalogue Row",
-      "description": "Electric 80 is a Xingtai high-capacity electric bomba reboque listing 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m at 2 cm agregado, model HBT80-1816-110, 6000 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a truck-mounted bomba lança. Match the printed table, then inquire.",
-      "imageAlt": "Electric 80 HBT80 trailer concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
+      "title": "Electric 80 Concrete Pump Catalogue Row: Transformer — Ideal transformer / Real transformer / Transformer EMF equation / Polarity",
+      "description": "Leia “Ideal transformer” como contexto da origem. Não é uma placa nova para Electric 80 Concrete Pump Catalogue Row. Valores já impressos nesta página: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+      "imageAlt": "Figura da página de origem sobre Transformer",
       "relatedPathLabels": [
         "Electric 80 concrete pump página do produto",
         "Electric concrete pump manufacturer China",
@@ -152,32 +161,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical (2 cm agregado), model HBT80-1816-110, hopper 0.7 m³, max agregado 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg. It is not Electric 60 and not a bomba lança or mixing plant.",
-        "who": "Contractors matching 60 m³/h, 40 MPa and 900 m / 300 m at ≤ 2 cm agregado to a high-rise or long-distance pour that can supply the listed 110 kW motor.",
+        "what": "Leia “Ideal transformer” como contexto da origem. Não é uma placa nova para Electric 80 Concrete Pump Catalogue Row. Valores já impressos nesta página: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+        "who": "Leitores que comparam Electric 80 Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Theoretical output 60 m³/h versus Electric 60 at 40 m³/h",
-          "Distance 900 m / 300 m at 2 cm agregado",
-          "110 kW motor and Kawasaki 140 double pump",
-          "6000 kg frame versus Electric 60 at 3300 kg"
+          "6600 × 1800 × 1800 mm",
+          "110 kW",
+          "60 m³/h",
+          "40 MPa",
+          "2 cm",
+          "24 mm"
         ]
       },
-      "seoTitle": "Electric 80 HBT80 Concrete Pump | Pinjin 60 m³/h",
-      "imageCaption": "Electric 80 bomba reboque, Xingtai catalogue — 110 kW, 60 m³/h, 900 m / 300 m",
+      "seoTitle": "Transformer — Ideal transformer",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Transformer",
       "faqs": [
         {
-          "question": "Is Electric 80 the same row as HBT8018?",
-          "answer": "No. Electric 80 lists HBT80-1816-110, 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m (2 cm agregado), 6000 kg. HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. Compare each página do produto."
+          "question": "“Ideal transformer” acrescenta uma casa a Electric 80 Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW."
         },
         {
-          "question": "Does Electric 80 replace Electric 60?",
-          "answer": "No. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, pedra fina 200 m / 600 m, 3300 kg. Compact frames do not replace the Electric 80 row."
+          "question": "“Real transformer” pode preencher uma casa em branco de Electric 80 Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Electric 80 Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric 80 Concrete Pump Catalogue Row",
-      "description": "Electric 80 is a شينغتاي high-capacity electric مضخة مقطورة listing 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m at 2 cm ركام, model HBT80-1816-110, 6000 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a truck-mounted مضخة ذراع. Match the printed table, then inquire.",
-      "imageAlt": "Electric 80 HBT80 trailer concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "title": "Electric 80 Concrete Pump Catalogue Row: Transformer — Ideal transformer / Real transformer / Transformer EMF equation / Polarity",
+      "description": "«Ideal transformer» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Electric 80 Concrete Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Transformer",
       "relatedPathLabels": [
         "Electric 80 concrete pump صفحة المنتج",
         "Electric concrete pump manufacturer China",
@@ -185,32 +196,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m أفقي / 300 m عمودي (2 cm ركام), model HBT80-1816-110, hopper 0.7 m³, max ركام 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg. It is not Electric 60 and not a مضخة ذراع or mixing plant.",
-        "who": "Contractors matching 60 m³/h, 40 MPa and 900 m / 300 m at ≤ 2 cm ركام to a high-rise or long-distance pour that can supply the listed 110 kW motor.",
+        "what": "«Ideal transformer» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Electric 80 Concrete Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+        "who": "قرّاء يقارنون Electric 80 Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Theoretical output 60 m³/h versus Electric 60 at 40 m³/h",
-          "Distance 900 m / 300 m at 2 cm ركام",
-          "110 kW motor and Kawasaki 140 double pump",
-          "6000 kg frame versus Electric 60 at 3300 kg"
+          "6600 × 1800 × 1800 mm",
+          "110 kW",
+          "60 m³/h",
+          "40 MPa",
+          "2 cm",
+          "24 mm"
         ]
       },
-      "seoTitle": "Electric 80 HBT80 Concrete Pump | Pinjin 60 m³/h",
-      "imageCaption": "Electric 80 مضخة مقطورة, شينغتاي catalogue — 110 kW, 60 m³/h, 900 m / 300 m",
+      "seoTitle": "Transformer — Ideal transformer",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Transformer",
       "faqs": [
         {
-          "question": "Is Electric 80 the same row as HBT8018?",
-          "answer": "No. Electric 80 lists HBT80-1816-110, 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m (2 cm ركام), 6000 kg. HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. Compare each صفحة المنتج."
+          "question": "هل يضيف «Ideal transformer» خانة إلى Electric 80 Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW."
         },
         {
-          "question": "Does Electric 80 replace Electric 60?",
-          "answer": "No. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, حصى ناعم 200 m / 600 m, 3300 kg. Compact frames do not replace the Electric 80 row."
+          "question": "هل يستطيع «Real transformer» ملء خانة فارغة لـ Electric 80 Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Electric 80 Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric 80 Concrete Pump Catalogue Row",
-      "description": "Electric 80 is a Синтай high-capacity electric прицепной насос listing 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m at 2 cm заполнитель, model HBT80-1816-110, 6000 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a truck-mounted автобетононасос со стрелой. Match the printed table, then inquire.",
-      "imageAlt": "Electric 80 HBT80 trailer concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
+      "title": "Electric 80 Concrete Pump Catalogue Row: Transformer — Ideal transformer / Real transformer / Transformer EMF equation / Polarity",
+      "description": "“Ideal transformer” — только контекст источника, а не новая табличка для Electric 80 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Transformer",
       "relatedPathLabels": [
         "Electric 80 concrete pump страница изделия",
         "Electric concrete pump manufacturer China",
@@ -218,27 +231,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m горизонталь / 300 m вертикаль (2 cm заполнитель), model HBT80-1816-110, hopper 0.7 m³, max заполнитель 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg. It is not Electric 60 and not a автобетононасос со стрелой or mixing plant.",
-        "who": "Contractors matching 60 m³/h, 40 MPa and 900 m / 300 m at ≤ 2 cm заполнитель to a high-rise or long-distance pour that can supply the listed 110 kW motor.",
+        "what": "“Ideal transformer” — только контекст источника, а не новая табличка для Electric 80 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.",
+        "who": "Читатели, которые сверяют Electric 80 Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Theoretical output 60 m³/h versus Electric 60 at 40 m³/h",
-          "Distance 900 m / 300 m at 2 cm заполнитель",
-          "110 kW motor and Kawasaki 140 double pump",
-          "6000 kg frame versus Electric 60 at 3300 kg"
+          "6600 × 1800 × 1800 mm",
+          "110 kW",
+          "60 m³/h",
+          "40 MPa",
+          "2 cm",
+          "24 mm"
         ]
       },
-      "seoTitle": "Electric 80 HBT80 Concrete Pump | Pinjin 60 m³/h",
-      "imageCaption": "Electric 80 прицепной насос, Синтай catalogue — 110 kW, 60 m³/h, 900 m / 300 m",
+      "seoTitle": "Transformer — Ideal transformer",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Transformer",
       "faqs": [
         {
-          "question": "Is Electric 80 the same row as HBT8018?",
-          "answer": "No. Electric 80 lists HBT80-1816-110, 110 kW, 60 m³/h, 40 MPa, 900 m / 300 m (2 cm заполнитель), 6000 kg. HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. Compare each страница изделия."
+          "question": "Добавляет ли “Ideal transformer” клетку к Electric 80 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW."
         },
         {
-          "question": "Does Electric 80 replace Electric 60?",
-          "answer": "No. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, мелкий камень 200 m / 600 m, 3300 kg. Compact frames do not replace the Electric 80 row."
+          "question": "Может ли “Real transformer” заполнить пустую клетку для Electric 80 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Electric 80 Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

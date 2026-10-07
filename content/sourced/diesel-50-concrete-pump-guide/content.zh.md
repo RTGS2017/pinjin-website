@@ -1,30 +1,26 @@
-## Catalogue Diesel 50 row
+## 往复式发动机
 
-Diesel 50 Concrete Pump is a diesel trailer concrete pump manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 6105 diesel 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m (1 cm 骨料). Hopper 0.4 m³, Kawasaki 140 hydraulic pump, 4600 × 1650 × 1850 mm, 3300 kg.
+往复式发动机是活塞在气缸里来回走。柴油50上已印的 6105 柴油机属于这一类。这一章不新量一个缸径。
 
-![Diesel 50 concrete pump factory product photo, 河北品锦机械 邢台](/images/products/diesel-50-concrete-pump/diesel-50-concrete-pump.webp)
-*Diesel 50, 邢台 catalogue — 6105 / 99 kW, 30 m³/h, 150 m / 450 m (1 cm 骨料)*
+这一行仍是 99 kW、30 m³/h、30 MPa，1 cm 骨料时 150 m / 450 m，旁边已经印着 3300 kg。不新增出口国。
 
-## Neighbour diesel trailer rows
+![来源页上关于内燃机的图](/images/articles/diesel-50-concrete-pump-guide/Clevelandblock.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Internal_combustion_engine*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| 柴油30 | 4105 / 56 kW | 15 m³/h | 20 MPa | 60 m / 180 m (1 cm 骨料) | see 产品页 |
-| 柴油40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm 骨料) | see 产品页 |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm 骨料) | 3300 kg |
-| Diesel 60 / HBT60-13.132 | 6105 / 144 kW | 35 m³/h | 30 MPa | 150 m / 350 m | see 产品页 |
+## 燃气轮机
 
-Sites without electricity: [diesel concrete pump for sites without electricity](/blog/diesel-concrete-pump-no-electricity/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+燃气轮机在连续气流里烧燃料并带动轴。柴油50这一页没有印轮机。不要把 6105 柴油机改叫成轮机。
 
-## When this row fits
+若浇筑要的是 35 m³/h 那一行，那是另印的柴油60。轮机这一章不是两行之间的桥。
 
-Sites without stable grid power. Rural and infrastructure concrete placement that matches 30 m³/h, 30 MPa and 150 m / 450 m (1 cm 骨料). Trailer-mounted diesel pumping jobs.
+## 汪克尔发动机
 
-## When to open another page
+汪克尔发动机用壳体里的转子，而不是往复活塞。柴油50上没有任何一格是转子排量。
 
-- 26 m³/h / 66 kW → [Diesel 40](/products/diesel-40-concrete-pump/).
-- 35 m³/h / 144 kW → [Diesel 60](/products/diesel-60-concrete-pump/).
-- 15 m³/h compact diesel trailer → [Diesel 30](/products/diesel-30-concrete-pump/).
-- Not a truck-mounted placing boom and not a concrete batching plant.
-- Not the [diesel concrete spraying machine](/products/diesel-concrete-spraying-machine/) (28/32 HP, 5 m³/h, particle ≤6 mm).
+发动机代号仍是 6105 / 99 kW。商品名里的 50 不是汪克尔尺寸，也不是压力。
 
-Product page: [Diesel 50 concrete pump](/products/diesel-50-concrete-pump/). 询价: [contact](/contact/).
+## 强制进气
+
+强制进气是用压气机把额外的空气推进气缸。柴油50这一页不印增压压力，也不印压气机型号。
+
+30 MPa 是产品页上已经有的混凝土出口格子。把它留在那里。这一章不补价格，也不补工地案例。

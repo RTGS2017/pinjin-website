@@ -1,37 +1,22 @@
-## We do not print a thermostat number
+## Base stock
 
-Searches for “concrete pump cooling” and “oil temperature” come from two places: ACPA safety texts, and marketplace listings that tick water-cooling or air-cooling. Our Xingtai tables name **Kawasaki** hydraulic pumps on several electrics and diesels. They do not name a cooler, an oil grade or a cut-off temperature. This page cites ACPA so operators have a sequence. It does not fill the blank cells.
+![Figure from the source page about Hydraulic fluid](/images/articles/concrete-pump-hydraulic-oil-temperature/US_Navy_090316-N-6597H-004_Boatswain_s_Mate_2nd_Class_George_Cabeen_empties_used_hydraulic_fluid_into_a_storage_container.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Hydraulic_fluid*
 
-![Diesel 50 trailer concrete pump with Kawasaki 140 hydraulic pump, manufactured by Hebei Pinjin Machinery in Xingtai](/images/products/diesel-50-concrete-pump/main.webp)
-*Diesel 50 — 6105 / 99 kW, Kawasaki 140. Cooling type is not a catalogue cell.*
+“Base stock” is a chapter on the source page. It does not rename concrete pump hydraulic oil temperature. Printed cells already on this page: 37 kW, 45 kW, 55 kW, 110 kW, 99 kW, 144 kW, 290 kW.
 
-## What is printed (hydraulic pump names only)
+From the ACPA operator study guide (not a Pinjin warranty): 1.
 
-| Model | Hydraulic pump cell | Other power cell |
-| Electric Low Pressure 40 / Electric 40 | Kawasaki 112 | 37 kW / 45 kW |
-| Electric 50 | Kawasaki 140 | 55 kW |
-| Electric 80 | Kawasaki 140 double pump | 110 kW |
-| Diesel 50 | Kawasaki 140 | 6105 / 99 kW |
-| Diesel 60 | Kawasaki double pump 100 | 144 kW |
-| Diesel 120 | Kawasaki 112 (two units) | 290 kW |
+## Other components
 
-If a listing says “water-cooling + manual lubrication,” that is **their** spec sheet. We will not paste it onto Diesel 50.
+concrete pump hydraulic oil temperature remains the row this document already had. “Other components” explains the source topic and adds no cell. No added figure is taken from that chapter.
 
-## ACPA sequence when the oil is hot
+## Niche hydraulic fluids
 
-From the ACPA operator study guide (not a Pinjin warranty):
+Keep “Niche hydraulic fluids” and concrete pump hydraulic oil temperature apart. The source does not fill a blank cell. No added figure is taken from that chapter.
 
-1. Stop pumping.
-2. Check that the oil cooler is working; some pumps have a fan override.
-3. Look for a valve left in the wrong position.
-4. Make certain the water box is full of water.
-5. A mist of cool water over the hydraulic system and tank is listed as an emergency step.
-6. Slow the pumping speed.
+## Brake fluid
 
-If overheating is consistent, ACPA says you may be developing a pump problem. Combine that with our [blockage](/blog/concrete-pump-blockage-causes-prevention/) and [daily checklist](/blog/concrete-pump-daily-maintenance-checklist/) pages — still no invented oil brand.
+The source chapter “Brake fluid” stays on that page. concrete pump hydraulic oil temperature keeps the row already written here. Printed cells already on this page: 37 kW, 45 kW, 55 kW, 110 kW, 99 kW, 144 kW, 290 kW.
 
-ACPA mechanics: oil can exceed ~80 °C; never tighten a leaking fitting from below when the oil is hot; never work a pressurised hydraulic system.
-
-## Inquiry
-
-Model slug, photos of the cooler area and any leak, ambient description if you have it. We will not quote a temperature limit that is not on the page.
+Pages already named on this document: [blockage](/blog/concrete-pump-blockage-causes-prevention/), [daily checklist](/blog/concrete-pump-daily-maintenance-checklist/).

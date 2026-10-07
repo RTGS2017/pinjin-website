@@ -6,100 +6,100 @@
     "zh": "混凝土泵参数空格为什么不能抄"
   },
   "title": {
-    "en": "Why a Blank Pump Cell Cannot Be Copied",
-    "zh": "混凝土泵的空白参数格为什么不能抄"
+    "en": "What a Blank Pump Cell Cannot Be Copied lists, with Asphalt concrete as the illustration",
+    "zh": "混凝土泵的空白参数格为什么不能抄列出的内容，用「瀝青路面」做插图"
   },
   "description": {
-    "en": "A missing pipe, pressure, aggregate or voltage cell on one Xingtai page is not filled from the next model.",
-    "zh": "某一页邢台参数缺少管径、压力、骨料或电压时，不能用下一型号来填。"
+    "en": "a Blank Pump Cell Cannot Be Copied. 10 MPa stays in the catalogue entry. Illustration: Asphalt concrete.",
+    "zh": "混凝土泵的空白参数格为什么不能抄。10 MPa仍在目录格子里。插图来自「瀝青路面」。"
   },
   "h1": {
-    "en": "Why a Blank Pump Cell Cannot Be Copied",
-    "zh": "混凝土泵的空白参数格为什么不能抄"
+    "en": "What a Blank Pump Cell Cannot Be Copied lists, with Asphalt concrete as the illustration",
+    "zh": "混凝土泵的空白参数格为什么不能抄列出的内容，用「瀝青路面」做插图"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery expects each concrete pump page in Xingtai to be read alone. Electric 15 has no pressure cell, so Electric 20's 10 MPa is not its pressure. Diesel 40's specification table has no aggregate row. Electric 10 has no vertical distance. LZ-80's height says consult factory standard, which is not LZ-60's 300 m. Copying a neighbour's cell invents a figure the catalogue does not print.",
-    "zh": "河北品锦机械要求邢台的每一台混凝土泵页面单独阅读。电动15没有压力格，所以电动20的 10 MPa 不是它的压力。柴油40的规格表没有骨料行。电动10没有垂直距离。LZ-80 的高度写咨询工厂标准，那不是 LZ-60 的 300 m。抄相邻格子，等于编一个目录没有印的数字。"
+    "en": "Hebei Pinjin Machinery expects each concrete pump page in Xingtai to be read alone. Electric 15 has no pressure entry, so Electric 20's 10 MPa is not its pressure. The picture is from https://en.wikipedia.org/wiki/Asphalt_concrete.",
+    "zh": "河北品锦机械要求邢台的每一台混凝土泵页面单独阅读。电动15没有压力格，所以电动20的 10 MPa 不是它的压力。图片来自https://en.wikipedia.org/wiki/Asphalt_concrete。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Examples of blanks",
-        "zh": "空白的例子"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "Electric 15 prints no outlet pressure. B500S-83D prints no theoretical output in m³/h. Diesel 50 prints no aggregate size. Electric 60 prints no pipe diameter. HBT8018 prints no hopper volume. Each of those absences is specific. Hebei Pinjin Machinery does not publish a rule that the nearest model supplies the missing number.",
-        "zh": "电动15不印出口压力。B500S-83D 不印以 m³/h 表示的理论输送量。柴油50不印骨料粒径。电动60不印管径。HBT8018 不印料斗容积。每一处缺失都是具体的。河北品锦机械没有公布“用最接近的型号补数字”的规则。"
+        "en": "The figure is the one published at https://en.wikipedia.org/wiki/Asphalt_concrete: Asphalt plant pic. Hebei Pinjin Machinery expects each concrete pump page in Xingtai to be read alone. Electric 10 has no vertical distance. Electric 15 lists no outlet pressure. Electric 60 lists no pipe diameter. Hebei Pinjin Machinery does not publish a rule that the nearest model supplies the missing number. Electric 80 and LZ-80 are different output notations. For a missing entry, write that it is not shown and use /en/contact/.",
+        "zh": "这张图是https://en.wikipedia.org/wiki/Asphalt_concrete页上的Asphalt plant pic。河北品锦机械要求邢台的每一台混凝土泵页面单独阅读。B500S-83D 不标出以 m³/h 表示的理论输送量。请把网址里的型号留住，例如 /zh/products/electric-30-concrete-pump/ 或 /zh/products/diesel-30-concrete-pump/。"
       }
     },
     {
       "heading": {
-        "en": "Same words, different pages",
-        "zh": "相同的词，不同的页"
+        "en": "Mixture formulations",
+        "zh": "配合比"
       },
       "body": {
-        "en": "A shared commercial number such as 30, 40 or 80 does not authorise a copy. Electric 30 and Diesel 30 are different power lines. Electric 80 and LZ-80 are different output notations. Keep the slug in the address, /en/products/electric-30-concrete-pump/ or /en/products/diesel-30-concrete-pump/.",
-        "zh": "商品名里相同的 30、40 或 80 并不能授权抄写。电动30和柴油30的动力行不同。电动80和 LZ-80 的产量写法不同。请把网址里的型号留住，例如 /zh/products/electric-30-concrete-pump/ 或 /zh/products/diesel-30-concrete-pump/。"
+        "en": "Electric 15 has no pressure entry, so Electric 20's 10 MPa is not its pressure. LZ-80's height says consult factory standard, which is not LZ-60's 300 m. B500S-83D lists no theoretical output in m³/h. HBT8018 lists no hopper volume. A shared commercial number such as 30, 40 or 80 does not authorise a copy. Keep the slug in the address, /en/products/electric-30-concrete-pump/ or /en/products/diesel-30-concrete-pump/. The factory is Hebei Pinjin Machinery in Renze Industrial Park, Xingtai.",
+        "zh": "电动15没有压力格，所以电动20的 10 MPa 不是它的压力。河北品锦机械没有公布“用最接近的型号补数字”的规则。缺的格子就写明没有写出，并使用 /zh/contact/。"
       }
     },
     {
       "heading": {
-        "en": "What to do instead",
-        "zh": "应当怎样做"
+        "en": "Roadway performance characteristics",
+        "zh": "路面性能特点"
       },
       "body": {
-        "en": "Quote only cells that are on the page you opened. For a missing cell, write that it is not printed and use /en/contact/. The factory is Hebei Pinjin Machinery in Renze Industrial Park, Xingtai.",
-        "zh": "只引用你打开的那一页上的格子。缺的格子就写明没有印出，并使用 /zh/contact/。工厂是位于邢台任泽工业园区的河北品锦机械。"
+        "en": "Diesel 40's specification table has no aggregate row. Copying a neighbour's entry invents a figure the catalogue does not list. Diesel 50 lists no aggregate size. Each of those absences is specific. Electric 30 and Diesel 30 are different power lines. Quote only entries that are on the page you opened.",
+        "zh": "LZ-80 的高度写咨询工厂标准，那不是 LZ-60 的 300 m。商品名里相同的 30、40 或 80 并不能授权抄写。工厂是位于邢台任泽工业园区的河北品锦机械。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Can I use Electric 20's pipe on Diesel 30?",
+        "en": "On this row: Can I use Electric 20's pipe on Diesel 30?",
         "zh": "可以把电动20的管径用在柴油30上吗？"
       },
       "answer": {
-        "en": "No. Diesel 30 does not print a pipe diameter. Electric 20's 80 mm stays on Electric 20.",
-        "zh": "不能。柴油30没有印管径。电动20的 80 mm 留在电动20。"
+        "en": "No. Diesel 30 does not list a pipe diameter. Electric 20's 80 mm stays on Electric 20. It is not a figure printed inside https://en.wikipedia.org/wiki/Asphalt_concrete.",
+        "zh": "不能。柴油30没有标出管径。电动20的 80 mm 留在电动20。它不是https://en.wikipedia.org/wiki/Asphalt_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is consult factory standard equal to 300 m?",
+        "en": "On this row: Is consult factory standard equal to 300 m?",
         "zh": "咨询工厂标准等于 300 m 吗？"
       },
       "answer": {
-        "en": "No. 300 m is LZ-60's delivery height. LZ-80 does not print that number.",
-        "zh": "不等于。300 m 是 LZ-60 的输送高度。LZ-80 没有印这个数字。"
+        "en": "No. 300 m is LZ-60's delivery height. LZ-80 does not list that number. It is not a figure printed inside https://en.wikipedia.org/wiki/Asphalt_concrete.",
+        "zh": "不等于。300 m 是 LZ-60 的输送高度。LZ-80 没有标出这个数字。它不是https://en.wikipedia.org/wiki/Asphalt_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does a shared model string merge two pages?",
+        "en": "On this row: Does a shared model string merge two pages?",
         "zh": "相同的型号字符串能合并两个页面吗？"
       },
       "answer": {
-        "en": "No. Read the page slug. Shared text does not fill cells that differ or cells that one page lacks.",
-        "zh": "不能。请读页面地址。相同的文字不能填补不同的格子，也不能填补某一页缺少的格子。"
+        "en": "No. Read the page slug. Shared text does not fill entries that differ or entries that one page lacks. It is not a figure printed inside https://en.wikipedia.org/wiki/Asphalt_concrete.",
+        "zh": "不能。请读页面地址。相同的文字不能填补不同的格子，也不能填补某一页缺少的格子。它不是https://en.wikipedia.org/wiki/Asphalt_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Who confirms a missing figure?",
+        "en": "On this row: Who confirms a missing figure?",
         "zh": "缺的数字由谁确认？"
       },
       "answer": {
-        "en": "Hebei Pinjin Machinery, through the contact page. The sheet itself does not supply it.",
-        "zh": "河北品锦机械，通过联系页。参数页本身没有提供。"
+        "en": "Hebei Pinjin Machinery, through the contact page. The sheet itself does not supply it. It is not a figure printed inside https://en.wikipedia.org/wiki/Asphalt_concrete.",
+        "zh": "河北品锦机械，通过联系页。参数页本身没有提供。它不是https://en.wikipedia.org/wiki/Asphalt_concrete画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/why-a-blank-pump-cell-cannot-be-copied-pinjin.webp",
+    "src": "/images/articles/knowledge/why-a-blank-pump-cell-cannot-be-copied-asphalt-plant-pic.jpg",
     "alt": {
-      "en": "Why a Blank Pump Cell Cannot Be Copied, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "混凝土泵的空白参数格为什么不能抄，河北品锦机械，河北邢台"
+      "en": "Asphalt plant pic. Image from the source page: https://en.wikipedia.org/wiki/Asphalt_concrete.",
+      "zh": "Asphalt plant pic。图来自来源页：https://en.wikipedia.org/wiki/Asphalt_concrete。"
     }
   },
   "relatedPaths": [
@@ -134,7 +134,8 @@
     "https://pinjinpump.com/en/contact/",
     "https://pinjinpump.com/zh/contact/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Asphalt_concrete"
   ],
   "status": "draft"
 }

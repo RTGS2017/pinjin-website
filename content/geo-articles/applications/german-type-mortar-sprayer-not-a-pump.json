@@ -3,90 +3,94 @@
   "category": "application",
   "keyword": "german type mortar spraying machine",
   "title": {
-    "en": "What job fits the German type mortar sprayer?",
-    "zh": "德式砂浆喷涂机对得上什么作业？"
+    "en": "Which printed window fits this check: which printed window fits this check: what job fits the German type mortar sprayer",
+    "zh": "这一问只对一个窗口：这一问只对一个窗口：德式砂浆喷涂机对得上什么作业"
   },
   "description": {
-    "en": "Mortar inside 3–5 m³/h, ≤ 5 mm, 8 MPa, 40 m / 20 m, on 380 V dual motors 7.5/9 kW. It is not the 5 m³/h hydraulic concrete sprayer.",
-    "zh": "砂浆在 3–5 m³/h、≤ 5 mm、8 MPa、40 m / 20 m 内，380V 双电机 7.5/9 kW。它不是 5 m³/h 液压混凝土喷涂机。"
+    "en": "The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Read it in the Xingtai table. Mortar spraying inside 3–5 m³/h and ≤ 5 mm, with 380 V for 7.5/9 kW dual motors. Taken from the printed row: Read it in the Xingtai table. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints 8 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm and 360 kg. The neighbouring machine is not this sentence. Taken from the printed row: It is not a trailer pump and not the hydraulic concrete sprayer that also uses 7.5/9 kW.",
+    "zh": "旁边那一台不在这句话里。旁边那一台不在这句话里。砂浆喷涂在 3–5 m³/h 和 ≤ 5 mm 内，并且有 380V 供给 7.5/9 kW 双电机。邢台河北品锦机械印了 8 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、360 kg。它不是拖泵，也不是同样使用 7.5/9 kW 的液压混凝土喷涂机。"
   },
   "h1": {
-    "en": "What job fits the German type mortar sprayer?",
-    "zh": "德式砂浆喷涂机对得上什么作业？"
+    "en": "Which printed window fits this check: which printed window fits this check: what job fits the German type mortar sprayer",
+    "zh": "这一问只对一个窗口：这一问只对一个窗口：德式砂浆喷涂机对得上什么作业"
   },
   "directAnswer": {
-    "en": "Mortar spraying inside 3–5 m³/h and ≤ 5 mm, with 380 V for 7.5/9 kW dual motors. Hebei Pinjin Machinery in Xingtai prints 8 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm and 360 kg. It is not a trailer pump and not the hydraulic concrete sprayer that also uses 7.5/9 kW.",
-    "zh": "砂浆喷涂在 3–5 m³/h 和 ≤ 5 mm 内，并且有 380V 供给 7.5/9 kW 双电机。邢台河北品锦机械印了 8 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、360 kg。它不是拖泵，也不是同样使用 7.5/9 kW 的液压混凝土喷涂机。"
+    "en": "The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Read it in the Xingtai table. Mortar spraying inside 3–5 m³/h and ≤ 5 mm, with 380 V for 7.5/9 kW dual motors. Taken from the printed row: Read it in the Xingtai table. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints 8 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm and 360 kg. The neighbouring machine is not this sentence. Taken from the printed row: It is not a trailer pump and not the hydraulic concrete sprayer that also uses 7.5/9 kW.",
+    "zh": "旁边那一台不在这句话里。旁边那一台不在这句话里。砂浆喷涂在 3–5 m³/h 和 ≤ 5 mm 内，并且有 380V 供给 7.5/9 kW 双电机。邢台河北品锦机械印了 8 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、360 kg。它不是拖泵，也不是同样使用 7.5/9 kW 的液压混凝土喷涂机。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Same motors, different machine from the 5 m³/h sprayer",
-        "zh": "电机数字相同，和 5 m³/h 喷涂机不是一台"
+        "en": "Saturation Pressure of Water Vapor",
+        "zh": "饱和压力水"
       },
       "body": {
-        "en": "The hydraulic concrete sprayer prints 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤ 8 mm, 100 m / 50 m and 295 kg. The German type prints 3–5 m³/h, 32/38 mm, ≤ 5 mm, 40 m / 20 m and 360 kg. Shared motor figures and 8 MPa do not merge the hose, the particle or the distance.",
-        "zh": "液压混凝土喷涂机印的是 7.5/9 kW、5 m³/h、8 MPa、管径 38/51 mm、粒径 ≤ 8 mm、100 m / 50 m、295 kg。德式机印的是 3–5 m³/h、32/38 mm、≤ 5 mm、40 m / 20 m、360 kg。电机数字和 8 MPa 相同，并不能合并软管、粒径或距离。"
+        "en": "This block keeps the heading “Saturation Pressure of Water Vapor” from “Moist Air - Water Vapor and Saturation Pressure”, then stays with the cells already published. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints 8 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm and 360 kg. Taken from the printed row: Mortar spraying inside 3–5 m³/h and ≤ 5 mm, with 380 V for 7.5/9 kW dual motors. Read it in the Xingtai table. Taken from the printed row: It is not a trailer pump and not the hydraulic concrete sprayer that also uses 7.5/9 kW. The neighbouring machine is not this sentence. Mortar inside 3–5 m³/h, ≤ 5 mm, 8 MPa, 40 m / 20 m, on 380 V dual motors 7.5/9 kW. Keep this cell as published. Taken from the printed row: Say ≤ 5 mm only if the particle really is inside that cell. Taken from the printed row: The neighbouring machine is not this sentence. Read it in the Xingtai table. The sentences are a restatement of the catalogue, not of that article. The neighbouring machine is not this sentence. Taken from the printed row: The German type prints 3–5 m³/h, 32/38 mm, ≤ 5 mm, 40 m / 20 m and 360 kg. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: Here the same break only holds the cells this model already prints. Read it in the Xingtai table. Shared motor figures and 8 MPa do not merge the hose, the particle or the distance. The neighbouring machine is not this sentence. Read it in the Xingtai table. Keep this cell as published. Keep this cell as published. Taken from the printed row: Type 511 is 7.5 kW, 3 m³/h, 3–5 MPa, ≤ 6 mm and 30 m / 15 m. Read it in the Xingtai table. Taken from the printed row: No-grid mortar spraying in this output class is Type 511 diesel. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Keep this cell as published. Choose the German type when you need the printed 3–5 m³/h band, 8 MPa and ≤ 5 mm, not when the particle is 6 mm. Taken from the printed row: It is the printed range. Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. No-grid mortar spraying in this output class is Type 511 diesel. Image from the source page: https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html",
+        "zh": "本节保留《Moist Air - Water Vapor and Saturation Pressure》的标题“饱和压力水”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。旁边那一台不在这句话里。砂浆喷涂在 3–5 m³/h 和 ≤ 5 mm 内，并且有 380V 供给 7.5/9 kW 双电机。邢台河北品锦机械印了 8 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、360 kg。它不是拖泵，也不是同样使用 7.5/9 kW 的液压混凝土喷涂机。这一格照已印出的读：《Natural Draft - Air Flow Volume and Velocity》在“密度温度”处把题目拆开。这里这一段只放这台机器已经印出的格子。目录里已经写着：液压混凝土喷涂机印的是 7.5/9 kW、5 m³/h、8 MPa、管径 38/51 mm、粒径 ≤ 8 mm、100 m / 50 m、295 kg。德式机印的是 3–5 m³/h、32/38 mm、≤ 5 mm、40 m / 20 m、360 kg。电机数字和 8 MPa 相同，并不能合并软管、粒径或距离。这一格照已印出的读：不。这一页印的是 380V。这一档没有电网的砂浆喷涂是 511 柴油机。目录里已经写着：按邢台表上的原文理解：不。这一页印的是 380V。这一档没有电网的砂浆喷涂是 511 柴油机。图来自来源页面：https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html"
       }
     },
     {
       "heading": {
-        "en": "Type 511 is the narrower 3 m³/h neighbour",
-        "zh": "511 是旁边较窄的 3 m³/h"
+        "en": "Density of Water Vapor",
+        "zh": "密度水"
       },
       "body": {
-        "en": "Type 511 is 7.5 kW, 3 m³/h, 3–5 MPa, ≤ 6 mm and 30 m / 15 m. Choose the German type when you need the printed 3–5 m³/h band, 8 MPa and ≤ 5 mm, not when the particle is 6 mm.",
-        "zh": "511 是 7.5 kW、3 m³/h、3–5 MPa、≤ 6 mm、30 m / 15 m。需要已印的 3–5 m³/h、8 MPa 和 ≤ 5 mm 时选德式机；粒径是 6 mm 时不要选它。"
+        "en": "The section shape comes from “Density of Water Vapor” in “Moist Air - Water Vapor and Saturation Pressure”. The sentences are a restatement of the catalogue, not of that article. Read it in the Xingtai table. Mortar spraying inside 3–5 m³/h and ≤ 5 mm, with 380 V for 7.5/9 kW dual motors. The neighbouring machine is not this sentence. Taken from the printed row: It is not a trailer pump and not the hydraulic concrete sprayer that also uses 7.5/9 kW. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: This block keeps the heading “Natural Draft Head” from “Natural Draft - Air Flow Volume and Velocity”, then stays with the cells already published. Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. Keep this cell as published. Keep this cell as published. Do not replace it with 5 m³/h from the hydraulic sprayer. Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. No. Keep this cell as published. Taken from the printed row: Mortar spraying inside 3–5 m³/h and ≤ 5 mm, with 380 V for 7.5/9 kW dual motors. Taken from the printed row: The neighbouring machine is not this sentence. Read it in the Xingtai table. The page prints 380 V. Xingtai-based Hebei Pinjin Machinery prints 8 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm and 360 kg. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: The reference page “Natural Draft - Air Flow Volume and Velocity” uses “Major and Minor System Loss” as one of its own divisions. Read it in the Xingtai table. It is not a trailer pump and not the hydraulic concrete sprayer that also uses 7.5/9 kW. Taken from the printed row: It is the catalogue name printed by Xingtai-based Hebei Pinjin Machinery. Keep this cell as published. Headings already printed: Same motors, different machine from the 5 m³/h sprayer Type 511 is the narrower 3 m³/h neighbour It is the catalogue name printed by Xingtai-based Hebei Pinjin Machinery. Taken from the printed row: No. Read it in the Xingtai table. It is the printed range.",
+        "zh": "这一节的形状来自《Moist Air - Water Vapor and Saturation Pressure》的“密度水”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：旁边那一台不在这句话里。砂浆喷涂在 3–5 m³/h 和 ≤ 5 mm 内，并且有 380V 供给 7.5/9 kW 双电机。邢台河北品锦机械印了 8 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、360 kg。它不是拖泵，也不是同样使用 7.5/9 kW 的液压混凝土喷涂机。旁边那一台不在这句话里。把《Natural Draft - Air Flow Volume and Velocity》的“压力计算器”借来当骨架，里面填的是本页这一格已经印出的窗口。这一格照已印出的读：511 是 7.5 kW、3 m³/h、3–5 MPa、≤ 6 mm、30 m / 15 m。需要已印的 3–5 m³/h、8 MPa 和 ≤ 5 mm 时选德式机；粒径是 6 mm 时不要选它。旁边那一台不在这句话里。它是已印的区间。不要用液压喷涂机的 5 m³/h 替换它。这一格照已印出的读：目录里已经写着：它是已印的区间。不要用液压喷涂机的 5 m³/h 替换它。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Example - Saturation Pressure Water Vapor",
+        "zh": "例子饱和压力水"
       },
       "body": {
-        "en": "Say ≤ 5 mm only if the particle really is inside that cell. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "只有粒径确实在这一格内时，才写 ≤ 5 mm。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Moist Air - Water Vapor and Saturation Pressure” breaks its subject at “Example - Saturation Pressure Water Vapor”. Here the same break only holds the cells this model already prints. Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints 8 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, 40 m horizontal / 20 m vertical, 1700 × 650 × 800 mm and 360 kg. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: The hydraulic concrete sprayer prints 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤ 8 mm, 100 m / 50 m and 295 kg. Read it in the Xingtai table. This page does not turn it into a German project or a German factory. The neighbouring machine is not this sentence. Image from the source page: https://www.engineeringtoolbox.com/natural-draught-ventilation-d_122.html The section shape comes from “Natural Draft Pressure” in “Natural Draft - Air Flow Volume and Velocity”. Keep this cell as published. It is not the 5 m³/h hydraulic concrete sprayer. Taken from the printed row: Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. “Natural Draft - Air Flow Volume and Velocity” breaks its subject at “Density and Temperature”. The neighbouring machine is not this sentence. Keep this cell as published. Keep this cell as published. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: Borrow “Natural Draft Pressure Calculator” from “Natural Draft - Air Flow Volume and Velocity” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. What follows is the Xingtai row, said again in different words. Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. This page does not turn it into a German project or a German factory. Keep this cell as published. The page prints 380 V. Taken from the printed row: Leave aside replace it with 5 m³/h from the hydraulic sprayer.",
+        "zh": "《Moist Air - Water Vapor and Saturation Pressure》在“例子饱和压力水”处把题目拆开。这里这一段只放这台机器已经印出的格子。本节保留《Natural Draft - Air Flow Volume and Velocity》的标题“扬程”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。砂浆在 3–5 m³/h、≤ 5 mm、8 MPa、40 m / 20 m 内，380V 双电机 7.5/9 kW。它不是 5 m³/h 液压混凝土喷涂机。按邢台表上的原文理解：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://www.engineeringtoolbox.com/natural-draught-ventilation-d_122.html 这一节的形状来自《Natural Draft - Air Flow Volume and Velocity》的“压力”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：砂浆喷涂在 3–5 m³/h 和 ≤ 5 mm 内，并且有 380V 供给 7.5/9 kW 双电机。河北品锦机械（邢台）印了 8 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、水平 40 m / 垂直 20 m、外形 1700 × 650 × 800 mm、360 kg。它不是拖泵，也不是同样使用 7.5/9 kW 的液压混凝土喷涂机。它是河北品锦机械（邢台）印出的目录名称。本页不把它写成德国项目或德国工厂。按邢台表上的原文理解：来源页《Natural Draft - Air Flow Volume and Velocity》用“系统损失”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。只有粒径确实在这一格内时，才写 ≤ 5 mm。已印出的标题：电机数字相同，和 5 m³/h 喷涂机不是一台 511 是旁边较窄的 3 m³/h 旁边那一台不在这句话里。它是邢台河北品锦机械印出的目录名称。本页不把它写成德国项目或德国工厂。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is “German type” a country of origin claim?",
-        "zh": "“德式”是产地声明吗？"
+        "en": "What should stay printed beside “Saturation Pressure of Water Vapor” — What should stay printed beside “Natural Draft Head” — Is “German type” a country of origin claim?",
+        "zh": "“饱和压力水”旁边仍要印着的是什么：“扬程”旁边仍要印着的是什么：“德式”是产地声明吗？"
       },
       "answer": {
-        "en": "It is the catalogue name printed by Hebei Pinjin Machinery in Xingtai. This page does not turn it into a German project or a German factory.",
-        "zh": "它是邢台河北品锦机械印出的目录名称。本页不把它写成德国项目或德国工厂。"
+        "en": "The neighbouring machine is not this sentence. It is the catalogue name printed by Xingtai-based Hebei Pinjin Machinery. This page does not turn it into a German project or a German factory.",
+        "zh": "旁边那一台不在这句话里。旁边那一台不在这句话里。它是邢台河北品锦机械印出的目录名称。本页不把它写成德国项目或德国工厂。"
       }
     },
     {
       "question": {
-        "en": "Does it run on diesel?",
-        "zh": "它烧柴油吗？"
+        "en": "“Density of Water Vapor” does not change the check: “Natural Draft Pressure” does not change the check: Does it run on diesel?",
+        "zh": "“密度水”不改这一问：“压力”不改这一问：它烧柴油吗？"
       },
       "answer": {
-        "en": "No. The page prints 380 V. No-grid mortar spraying in this output class is Type 511 diesel.",
-        "zh": "不。这一页印的是 380V。这一档没有电网的砂浆喷涂是 511 柴油机。"
+        "en": "Read it in the Xingtai table. Read it in the Xingtai table. No. The page prints 380 V. No-grid mortar spraying in this output class is Type 511 diesel.",
+        "zh": "按邢台表上的原文理解：按邢台表上的原文理解：不。这一页印的是 380V。这一档没有电网的砂浆喷涂是 511 柴油机。"
       }
     },
     {
       "question": {
-        "en": "Is 3–5 m³/h one number?",
-        "zh": "3–5 m³/h 是一个单值吗？"
+        "en": "Is 3–5 m³/h one number, once the outline says “Density and Temperature”, once the outline says “Example - Saturation Pressure Water Vapor”?",
+        "zh": "大纲写着“例子饱和压力水”时，大纲写着“密度温度”时，3–5 m³/h 是一个单值吗？"
       },
       "answer": {
-        "en": "It is the printed range. Do not replace it with 5 m³/h from the hydraulic sprayer.",
-        "zh": "它是已印的区间。不要用液压喷涂机的 5 m³/h 替换它。"
+        "en": "Taken from the printed row: It is the printed range. Leave aside replace it with 5 m³/h from the hydraulic sprayer.",
+        "zh": "目录里已经写着：目录里已经写着：它是已印的区间。不要用液压喷涂机的 5 m³/h 替换它。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/german-type-mortar-sprayer-not-a-pump.webp",
+    "src": "/images/articles/applications/german-type-mortar-sprayer-not-a-pump.png",
     "alt": {
-      "en": "German type mortar spraying machine manufactured in Xingtai by Hebei Pinjin Machinery",
-      "zh": "河北品锦机械在邢台制造的德式砂浆喷涂机"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html"
     }
   },
   "relatedPaths": [
@@ -101,7 +105,13 @@
   "sources": [
     "https://pinjinpump.com/products/german-type-mortar-spraying-machine",
     "https://pinjinpump.com/solutions/spraying",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/natural-draught-ventilation-d_122.html",
+    "https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

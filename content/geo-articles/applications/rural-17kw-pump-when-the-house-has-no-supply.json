@@ -3,90 +3,104 @@
   "category": "application",
   "keyword": "17 kW rural diesel concrete pump",
   "title": {
-    "en": "Which pump is named for a house without a motor supply?",
-    "zh": "没有电机电源的住宅，点名的是哪一台泵？"
+    "en": "Printed-row question: Which pump is named for a house without a motor supply",
+    "zh": "先看已印出的行：没有电机电源的住宅，点名的是哪一台泵"
   },
   "description": {
-    "en": "The Rural Diesel Concrete Pump: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, 800 kg.",
-    "zh": "农村自建房柴油混凝土泵：17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、800 kg。"
+    "en": "The neighbouring machine is not this sentence. The rural self-built house diesel pump. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai names it that way and prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Taken from the printed row: The application lines are rural houses, small sites, secondary structure and short-to-medium pipelines. Keep this cell as published. Electric 15’s 60–80 m horizontal cell does not move onto this diesel row.",
+    "zh": "旁边那一台不在这句话里。农村自建房柴油混凝土泵。邢台河北品锦机械就是这样命名的，并印了 17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、料斗 0.2 m³、外形 2200 × 1100 × 1250 mm、800 kg。应用句是农村住宅、小型工地、二次结构和中短距离管路。电动15的水平 60–80 m 不能搬到这台柴油泵上。"
   },
   "h1": {
-    "en": "Which pump is named for a house without a motor supply?",
-    "zh": "没有电机电源的住宅，点名的是哪一台泵？"
+    "en": "Printed-row question: Which pump is named for a house without a motor supply",
+    "zh": "先看已印出的行：没有电机电源的住宅，点名的是哪一台泵"
   },
   "directAnswer": {
-    "en": "The rural self-built house diesel pump. Hebei Pinjin Machinery in Xingtai names it that way and prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. The application lines are rural houses, small sites, secondary structure and short-to-medium pipelines. Electric 15’s 60–80 m horizontal cell does not move onto this diesel row.",
-    "zh": "农村自建房柴油混凝土泵。邢台河北品锦机械就是这样命名的，并印了 17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、料斗 0.2 m³、外形 2200 × 1100 × 1250 mm、800 kg。应用句是农村住宅、小型工地、二次结构和中短距离管路。电动15的水平 60–80 m 不能搬到这台柴油泵上。"
+    "en": "The neighbouring machine is not this sentence. The rural self-built house diesel pump. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai names it that way and prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Taken from the printed row: The application lines are rural houses, small sites, secondary structure and short-to-medium pipelines. Keep this cell as published. Electric 15’s 60–80 m horizontal cell does not move onto this diesel row.",
+    "zh": "旁边那一台不在这句话里。农村自建房柴油混凝土泵。邢台河北品锦机械就是这样命名的，并印了 17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、料斗 0.2 m³、外形 2200 × 1100 × 1250 mm、800 kg。应用句是农村住宅、小型工地、二次结构和中短距离管路。电动15的水平 60–80 m 不能搬到这台柴油泵上。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Diesel 30 is the next trailer, not a rename",
-        "zh": "柴油30是下一台拖泵，不是改名"
+        "en": "Pump Affinity Laws for a Specific Centrifugal Pump",
+        "zh": "泵相似定律比离心泵"
       },
       "body": {
-        "en": "Diesel 30 is 56 kW, 15 m³/h, 60 m / 180 m and 2000 kg. Open it when the house line has left 30–50 m horizontal or 5–8 m³/h. A 17 kW match should not be written up as a 56 kW trailer.",
-        "zh": "柴油30是 56 kW、15 m³/h、60 m / 180 m、2000 kg。住宅管路离开水平 30–50 m 或 5–8 m³/h 时再打开它。对得上 17 kW 的工况，不要写成 56 kW 拖泵。"
+        "en": "The reference page “Affinity Laws for Pumps: Principles, Formulas & Calculator” uses “Pump Affinity Laws for a Specific Centrifugal Pump” as one of its own divisions. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. The Rural Diesel Concrete Pump: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, 800 kg. The neighbouring machine is not this sentence. Electric 15’s 60–80 m horizontal cell does not move onto this diesel row. The neighbouring machine is not this sentence. It prints a wider 40–100 m / 15–45 m window, 6–12 m³/h, 40 kW and slump 180–220 mm at 1300 kg. Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. The neighbouring machine is not this sentence. The product is the rural diesel pump. Image from the source page: https://www.engineeringtoolbox.com/affinity-laws-d_408.html",
+        "zh": "来源页《Affinity Laws for Pumps: Principles, Formulas & Calculator》用“泵相似定律比离心泵”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。农村自建房柴油混凝土泵：17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、800 kg。旁边那一台不在这句话里。请说明没有 15 kW 电机的电源，并给出管路长度。旁边那一台不在这句话里。是。图来自来源页面：https://www.engineeringtoolbox.com/affinity-laws-d_408.html"
       }
     },
     {
       "heading": {
-        "en": "The tractor 4100 is the other house diesel path",
-        "zh": "拖拉机带动4100是另一条住宅柴油路径"
+        "en": "Volume Capacity",
+        "zh": "体积能力"
       },
       "body": {
-        "en": "It prints a wider 40–100 m / 15–45 m window, 6–12 m³/h, 40 kW and slump 180–220 mm at 1300 kg. Choose it when those cells are the ones you measured. The 17 kW pump remains the named compact diesel.",
-        "zh": "它印了更宽的 40–100 m / 15–45 m、6–12 m³/h、40 kW、坍落度 180–220 mm、1300 kg。你量到的是这些格子时选它。17 kW 泵仍然是点名的紧凑柴油机。"
+        "en": "“Volume Capacity” is an outline label from “Affinity Laws for Pumps: Principles, Formulas & Calculator”. That label does not add a figure to the printed row. Read it in the Xingtai table. The rural self-built house diesel pump. Read it in the Xingtai table. Diesel 30 is 56 kW, 15 m³/h, 60 m / 180 m and 2000 kg. Read it in the Xingtai table. Choose it when those cells are the ones you measured. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Read it in the Xingtai table. Electric 15 does not print an outlet-pressure cell.",
+        "zh": "“体积能力”是《Affinity Laws for Pumps: Principles, Formulas & Calculator》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：农村自建房柴油混凝土泵。邢台河北品锦机械就是这样命名的，并印了 17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、料斗 0.2 m³、外形 2200 × 1100 × 1250 mm、800 kg。应用句是农村住宅、小型工地、二次结构和中短距离管路。电动15的水平 60–80 m 不能搬到这台柴油泵上。按邢台表上的原文理解：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Head or Pressure",
+        "zh": "扬程压力"
       },
       "body": {
-        "en": "Say there is no supply for a 15 kW electric motor, and give the pipe lengths. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请说明没有 15 kW 电机的电源，并给出管路长度。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "This block keeps the heading “Head or Pressure” from “Affinity Laws for Pumps: Principles, Formulas & Calculator”, then stays with the cells already published. Taken from the printed row: Hebei Pinjin Machinery in Xingtai names it that way and prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Taken from the printed row: Open it when the house line has left 30–50 m horizontal or 5–8 m³/h. Taken from the printed row: The 17 kW pump remains the named compact diesel. Leave aside attach a project name, a country job or a daily volume the catalogue does not print. Taken from the printed row: 15 MPa is on this diesel page and on the 4100.",
+        "zh": "本节保留《Affinity Laws for Pumps: Principles, Formulas & Calculator》的标题“扬程压力”，正文仍只谈已经公布的格子。目录里已经写着：柴油30是 56 kW、15 m³/h、60 m / 180 m、2000 kg。住宅管路离开水平 30–50 m 或 5–8 m³/h 时再打开它。对得上 17 kW 的工况，不要写成 56 kW 拖泵。目录里已经写着：规格标注是柴油机功率 17 kW。产品是农村柴油泵。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power",
+        "zh": "功率"
+      },
+      "body": {
+        "en": "The section shape comes from “Power” in “Affinity Laws for Pumps: Principles, Formulas & Calculator”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. The application lines are rural houses, small sites, secondary structure and short-to-medium pipelines. Keep this cell as published. A 17 kW match should not be written up as a 56 kW trailer. Keep this cell as published. Say there is no supply for a 15 kW electric motor, and give the pipe lengths. Keep this cell as published. The specification label is diesel engine power, 17 kW. Keep this cell as published. Yes. Headings already printed: Diesel 30 is the next trailer, not a rename The tractor 4100 is the other house diesel path",
+        "zh": "这一节的形状来自《Affinity Laws for Pumps: Principles, Formulas & Calculator》的“功率”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：它印了更宽的 40–100 m / 15–45 m、6–12 m³/h、40 kW、坍落度 180–220 mm、1300 kg。你量到的是这些格子时选它。17 kW 泵仍然是点名的紧凑柴油机。这一格照已印出的读：电动15没有出口压力格。15 MPa 在这台柴油页和 4100 上。已印出的标题：柴油30是下一台拖泵，不是改名 拖拉机带动4100是另一条住宅柴油路径"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does this pump print 17 kW as a motor or a diesel engine?",
-        "zh": "这台泵的 17 kW 是电机还是柴油机？"
+        "en": "What should stay printed beside “Pump Affinity Laws for a Specific Centrifugal Pump” — Does this pump print 17 kW as a motor or a diesel engine?",
+        "zh": "“泵相似定律比离心泵”旁边仍要印着的是什么：这台泵的 17 kW 是电机还是柴油机？"
       },
       "answer": {
-        "en": "The specification label is diesel engine power, 17 kW. The product is the rural diesel pump.",
-        "zh": "规格标注是柴油机功率 17 kW。产品是农村柴油泵。"
+        "en": "The neighbouring machine is not this sentence. The specification label is diesel engine power, 17 kW. The product is the rural diesel pump.",
+        "zh": "旁边那一台不在这句话里。规格标注是柴油机功率 17 kW。产品是农村柴油泵。"
       }
     },
     {
       "question": {
-        "en": "Is 15 MPa on Electric 15 too?",
-        "zh": "电动15也是 15 MPa 吗？"
+        "en": "“Volume Capacity” does not change the check: Is 15 MPa on Electric 15 too?",
+        "zh": "“体积能力”不改这一问：电动15也是 15 MPa 吗？"
       },
       "answer": {
-        "en": "Electric 15 does not print an outlet-pressure cell. 15 MPa is on this diesel page and on the 4100.",
-        "zh": "电动15没有出口压力格。15 MPa 在这台柴油页和 4100 上。"
+        "en": "Read it in the Xingtai table. Electric 15 does not print an outlet-pressure cell. 15 MPa is on this diesel page and on the 4100.",
+        "zh": "按邢台表上的原文理解：电动15没有出口压力格。15 MPa 在这台柴油页和 4100 上。"
       }
     },
     {
       "question": {
-        "en": "Is the hopper 0.2 m³?",
-        "zh": "料斗是 0.2 m³ 吗？"
+        "en": "Is the hopper 0.2 m³, once the outline says “Head or Pressure”?",
+        "zh": "大纲写着“扬程压力”时，料斗是 0.2 m³ 吗？"
       },
       "answer": {
-        "en": "Yes.",
-        "zh": "是。"
+        "en": "Taken from the printed row: Yes.",
+        "zh": "目录里已经写着：是。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/rural-17kw-pump-when-the-house-has-no-supply.webp",
+    "src": "/images/articles/applications/rural-17kw-pump-when-the-house-has-no-supply.png",
     "alt": {
-      "en": "17 kW rural diesel concrete pump from Hebei Pinjin Machinery for a house without grid supply",
-      "zh": "河北品锦机械 17 千瓦农村柴油混凝土泵，用于没有电网的住宅"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/affinity-laws-d_408.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/affinity-laws-d_408.html"
     }
   },
   "relatedPaths": [
@@ -129,7 +143,12 @@
   "sources": [
     "https://pinjinpump.com/products/rural-diesel-concrete-pump",
     "https://pinjinpump.com/solutions/industrial-projects",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/affinity-laws-d_408.html"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

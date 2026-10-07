@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes",
-  "seoTitle": "Concrete Pump S-Tube Seal | Pinjin φ210–φ250 / φ80–φ105",
-  "description": "Pinjin S-tube seals are quote-only kits: large end φ210 / φ220 / φ250 (some six-piece); small end φ80 / φ90 / φ100 / φ105. Confirm the OD on the S-tube. Not OEM parts of other brands. No list price. No printed replacement hours. Used on S-valve trailer pumps, not a gate-valve SKU.",
+  "title": "Gasket — Sheet gaskets / Solid material gaskets / Spiral-wound gaskets / Constant seating stress gaskets",
+  "seoTitle": "Gasket — Sheet gaskets",
+  "description": "“Sheet gaskets” is not a substitute specification. concrete pump S-tube seal stays the printed row. No added figure is taken from that chapter.",
   "primaryKeyword": "concrete pump S-tube seal",
   "secondaryKeywords": [
     "S-tube large end seal φ220",
@@ -44,13 +44,10 @@
     }
   ],
   "answerBlock": {
-    "what": "Concrete Pump S-Tube Seal is a wear replacement kit supplied by Hebei Pinjin Machinery from Xingtai. Catalogue sizes: large-end kits φ210, φ220, φ250 (set; some φ220 kits are six-piece); small-end kits φ80, φ90, φ100, φ105. Confirm the seal OD on the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.",
-    "who": "Teams replacing an S-tube large-end or small-end kit after matching a listed OD on the S-valve housing.",
+    "what": "“Sheet gaskets” is not a substitute specification. concrete pump S-tube seal stays the printed row. No added figure is taken from that chapter.",
+    "who": "Readers checking concrete pump S-tube seal against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Large end φ210 / φ220 / φ250 versus small end φ80 / φ90 / φ100 / φ105",
-      "Some large-end kits listed as six-piece sets",
-      "S-tube is the swinging pipe that connects one cylinder to the outlet",
-      "No printed hours; SmartBuy monthly seal bullet is marketplace text"
+      "No added figure."
     ],
     "relatedModels": [
       "concrete-pump-s-tube-seal",
@@ -60,20 +57,25 @@
   },
   "faqs": [
     {
-      "question": "Does Electric 40’s specification table list an S-tube OD?",
-      "answer": "No. Electric 40 lists motor, output, pressure, hopper, distance, Kawasaki 112 and weight. S-tube ODs live on the S-tube seal page: large end φ210 / φ220 / φ250; small end φ80–φ105."
+      "question": "Does “Sheet gaskets” add a cell to concrete pump S-tube seal?",
+      "answer": "No. Large-end kits: φ210, φ220, φ250 (set; some φ220 kits are six-piece)."
     },
     {
-      "question": "Are S-tube seals sold per piece like integral pistons?",
-      "answer": "No. S-tube seals are listed as sets (large end and small end). Integral pistons are sold per piece. Confirm the kit on the S-tube."
+      "question": "Can “Solid material gaskets” fill a blank cell for concrete pump S-tube seal?",
+      "answer": "No. Blank cells for concrete pump S-tube seal stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/concrete-pump-s-tube-seal/concrete-pump-s-tube-seal.webp",
-    "alt": "Concrete pump S-tube seal factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "S-tube seal kits, Xingtai catalogue — large end φ210 / 220 / 250; small end φ80–105"
+    "src": "/images/articles/concrete-pump-s-tube-seal-guide/Used_copper_flange_gaskets_for_ultrahigh_vacuum_systems.jpg",
+    "alt": "Figure from the source page about Gasket",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Gasket"
   },
   "sources": [
+    {
+      "name": "Gasket (source page)",
+      "url": "https://en.wikipedia.org/wiki/Gasket",
+      "type": "industry"
+    },
     {
       "name": "Pinjin S-Tube Seal product page",
       "url": "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
@@ -111,11 +113,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes",
-      "seoTitle": "Concrete Pump S-Tube Seal | Pinjin φ210–φ250 / φ80–φ105",
-      "description": "Pinjin S-tube seals are quote-only kits: large end φ210 / φ220 / φ250 (some six-piece); small end φ80 / φ90 / φ100 / φ105. Confirm the OD on the S-tube. Not OEM parts of other brands. No list price. No printed replacement hours. Used on S-valve 拖式泵s, not a gate-valve SKU.",
-      "imageAlt": "Concrete pump S-tube seal factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "S-tube seal kits, 邢台 catalogue — large end φ210 / 220 / 250; small end φ80–105",
+      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes：Gasket（Sheet gaskets / Solid material gaskets / Spiral-wound gaskets / Constant seating stress gaskets）",
+      "seoTitle": "Gasket：Sheet gaskets",
+      "description": "「Sheet gaskets」不能代替规格。Concrete Pump S-Tube Seal Kit Catalogue Sizes维持已印的那一行。这一节不另加数字。",
+      "imageAlt": "来源页插图：Gasket",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Gasket",
       "relatedPathLabels": [
         "Concrete pump S-tube seal 产品页",
         "Concrete pump parts manufacturer China",
@@ -123,32 +125,29 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Concrete Pump S-Tube Seal is a wear replacement kit supplied by 河北品锦机械 from 邢台. Catalogue sizes: large-end kits φ210, φ220, φ250 (set; some φ220 kits are six-piece); small-end kits φ80, φ90, φ100, φ105. Confirm the seal OD on the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.",
-        "who": "Teams replacing an S-tube large-end or small-end kit after matching a listed OD on the S-valve housing.",
+        "what": "「Sheet gaskets」不能代替规格。Concrete Pump S-Tube Seal Kit Catalogue Sizes维持已印的那一行。这一节不另加数字。",
+        "who": "想把Concrete Pump S-Tube Seal Kit Catalogue Sizes和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Large end φ210 / φ220 / φ250 versus small end φ80 / φ90 / φ100 / φ105",
-          "Some large-end kits listed as six-piece sets",
-          "S-tube is the swinging pipe that connects one cylinder to the outlet",
-          "No printed hours; SmartBuy monthly seal bullet is marketplace text"
+          "不另加数字。"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 40’s specification table list an S-tube OD?",
-          "answer": "No. Electric 40 lists motor, output, pressure, 料斗, distance, Kawasaki 112 and weight. S-tube ODs live on the S-tube seal page: large end φ210 / φ220 / φ250; small end φ80–φ105."
+          "question": "「Sheet gaskets」会给Concrete Pump S-Tube Seal Kit Catalogue Sizes增加单元格吗？",
+          "answer": "不会。这一节不另加数字。"
         },
         {
-          "question": "Are S-tube seals sold per piece like integral pistons?",
-          "answer": "No. S-tube seals are listed as sets (large end and small end). Integral pistons are sold per piece. Confirm the kit on the S-tube."
+          "question": "「Solid material gaskets」能补上Concrete Pump S-Tube Seal Kit Catalogue Sizes的空白格吗？",
+          "answer": "不能。Concrete Pump S-Tube Seal Kit Catalogue Sizes没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes",
-      "seoTitle": "Concrete Pump S-Tube Seal | Pinjin φ210–φ250 / φ80–φ105",
-      "description": "Pinjin S-tube seals are quote-only kits: large end φ210 / φ220 / φ250 (some six-piece); small end φ80 / φ90 / φ100 / φ105. Confirm the OD on the S-tube. Not OEM parts of other brands. No list price. No printed replacement hours. Used on S-valve bomba reboques, not a gate-valve SKU.",
-      "imageAlt": "Concrete pump S-tube seal factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "S-tube seal kits, Xingtai catalogue — large end φ210 / 220 / 250; small end φ80–105",
+      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes: Gasket — Sheet gaskets / Solid material gaskets / Spiral-wound gaskets / Constant seating stress gaskets",
+      "seoTitle": "Gasket — Sheet gaskets",
+      "description": "“Sheet gaskets” não substitui uma especificação. Concrete Pump S-Tube Seal Kit Catalogue Sizes mantém a linha impressa. Esse capítulo não acrescenta valor.",
+      "imageAlt": "Figura da página de origem sobre Gasket",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Gasket",
       "relatedPathLabels": [
         "Concrete pump S-tube seal página do produto",
         "Concrete pump parts manufacturer China",
@@ -156,32 +155,29 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Concrete Pump S-Tube Seal is a wear replacement kit supplied by Hebei Pinjin Machinery from Xingtai. Catalogue sizes: large-end kits φ210, φ220, φ250 (set; some φ220 kits are six-piece); small-end kits φ80, φ90, φ100, φ105. Confirm the seal OD on the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.",
-        "who": "Teams replacing an S-tube large-end or small-end kit after matching a listed OD on the S-valve housing.",
+        "what": "“Sheet gaskets” não substitui uma especificação. Concrete Pump S-Tube Seal Kit Catalogue Sizes mantém a linha impressa. Esse capítulo não acrescenta valor.",
+        "who": "Leitores que comparam Concrete Pump S-Tube Seal Kit Catalogue Sizes com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Large end φ210 / φ220 / φ250 versus small end φ80 / φ90 / φ100 / φ105",
-          "Some large-end kits listed as six-piece sets",
-          "S-tube is the swinging pipe that connects one cylinder to the outlet",
-          "No printed hours; SmartBuy monthly seal bullet is marketplace text"
+          "Sem valor novo."
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 40’s specification table list an S-tube OD?",
-          "answer": "No. Electric 40 lists motor, output, pressure, tremonha, distance, Kawasaki 112 and weight. S-tube ODs live on the S-tube seal page: large end φ210 / φ220 / φ250; small end φ80–φ105."
+          "question": "“Sheet gaskets” acrescenta uma casa a Concrete Pump S-Tube Seal Kit Catalogue Sizes?",
+          "answer": "Não. Esse capítulo não acrescenta valor."
         },
         {
-          "question": "Are S-tube seals sold per piece like integral pistons?",
-          "answer": "No. S-tube seals are listed as sets (large end and small end). Integral pistons are sold per piece. Confirm the kit on the S-tube."
+          "question": "“Solid material gaskets” pode preencher uma casa em branco de Concrete Pump S-Tube Seal Kit Catalogue Sizes?",
+          "answer": "Não. As casas em branco de Concrete Pump S-Tube Seal Kit Catalogue Sizes continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes",
-      "seoTitle": "Concrete Pump S-Tube Seal | Pinjin φ210–φ250 / φ80–φ105",
-      "description": "Pinjin S-tube seals are quote-only kits: large end φ210 / φ220 / φ250 (some six-piece); small end φ80 / φ90 / φ100 / φ105. Confirm the OD on the S-tube. Not OEM parts of other brands. No list price. No printed replacement hours. Used on S-valve مضخة مقطورةs, not a gate-valve SKU.",
-      "imageAlt": "Concrete pump S-tube seal factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "S-tube seal kits, شينغتاي catalogue — large end φ210 / 220 / 250; small end φ80–105",
+      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes: Gasket — Sheet gaskets / Solid material gaskets / Spiral-wound gaskets / Constant seating stress gaskets",
+      "seoTitle": "Gasket — Sheet gaskets",
+      "description": "«Sheet gaskets» لا يحل محل مواصفة. يبقى Concrete Pump S-Tube Seal Kit Catalogue Sizes على الصف المطبوع. هذا الفصل لا يضيف رقمًا.",
+      "imageAlt": "صورة من صفحة المصدر عن Gasket",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Gasket",
       "relatedPathLabels": [
         "Concrete pump S-tube seal صفحة المنتج",
         "Concrete pump parts manufacturer China",
@@ -189,32 +185,29 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Concrete Pump S-Tube Seal is a wear replacement kit supplied by Hebei Pinjin Machinery from شينغتاي. Catalogue sizes: large-end kits φ210, φ220, φ250 (set; some φ220 kits are six-piece); small-end kits φ80, φ90, φ100, φ105. Confirm the seal OD on the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.",
-        "who": "Teams replacing an S-tube large-end or small-end kit after matching a listed OD on the S-valve housing.",
+        "what": "«Sheet gaskets» لا يحل محل مواصفة. يبقى Concrete Pump S-Tube Seal Kit Catalogue Sizes على الصف المطبوع. هذا الفصل لا يضيف رقمًا.",
+        "who": "قرّاء يقارنون Concrete Pump S-Tube Seal Kit Catalogue Sizes بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Large end φ210 / φ220 / φ250 versus small end φ80 / φ90 / φ100 / φ105",
-          "Some large-end kits listed as six-piece sets",
-          "S-tube is the swinging pipe that connects one cylinder to the outlet",
-          "No printed hours; SmartBuy monthly seal bullet is marketplace text"
+          "بلا رقم جديد."
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 40’s specification table list an S-tube OD?",
-          "answer": "No. Electric 40 lists motor, output, pressure, قادوس, distance, Kawasaki 112 and weight. S-tube ODs live on the S-tube seal page: large end φ210 / φ220 / φ250; small end φ80–φ105."
+          "question": "هل يضيف «Sheet gaskets» خانة إلى Concrete Pump S-Tube Seal Kit Catalogue Sizes؟",
+          "answer": "لا. هذا الفصل لا يضيف رقمًا."
         },
         {
-          "question": "Are S-tube seals sold per piece like integral pistons?",
-          "answer": "No. S-tube seals are listed as sets (large end and small end). Integral pistons are sold per piece. Confirm the kit on the S-tube."
+          "question": "هل يستطيع «Solid material gaskets» ملء خانة فارغة لـ Concrete Pump S-Tube Seal Kit Catalogue Sizes؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump S-Tube Seal Kit Catalogue Sizes تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes",
-      "seoTitle": "Concrete Pump S-Tube Seal | Pinjin φ210–φ250 / φ80–φ105",
-      "description": "Pinjin S-tube seals are quote-only kits: large end φ210 / φ220 / φ250 (some six-piece); small end φ80 / φ90 / φ100 / φ105. Confirm the OD on the S-tube. Not OEM parts of other brands. No list price. No printed replacement hours. Used on S-valve прицепной насосs, not a gate-valve SKU.",
-      "imageAlt": "Concrete pump S-tube seal factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "S-tube seal kits, Синтай catalogue — large end φ210 / 220 / 250; small end φ80–105",
+      "title": "Concrete Pump S-Tube Seal Kit Catalogue Sizes: Gasket — Sheet gaskets / Solid material gaskets / Spiral-wound gaskets / Constant seating stress gaskets",
+      "seoTitle": "Gasket — Sheet gaskets",
+      "description": "“Sheet gaskets” не заменяет характеристику. Concrete Pump S-Tube Seal Kit Catalogue Sizes остаётся напечатанной строкой. Эта глава не добавляет цифру.",
+      "imageAlt": "Иллюстрация со страницы-источника: Gasket",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Gasket",
       "relatedPathLabels": [
         "Concrete pump S-tube seal страница изделия",
         "Concrete pump parts manufacturer China",
@@ -222,25 +215,23 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Concrete Pump S-Tube Seal is a wear replacement kit supplied by Hebei Pinjin Machinery from Синтай. Catalogue sizes: large-end kits φ210, φ220, φ250 (set; some φ220 kits are six-piece); small-end kits φ80, φ90, φ100, φ105. Confirm the seal OD on the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.",
-        "who": "Teams replacing an S-tube large-end or small-end kit after matching a listed OD on the S-valve housing.",
+        "what": "“Sheet gaskets” не заменяет характеристику. Concrete Pump S-Tube Seal Kit Catalogue Sizes остаётся напечатанной строкой. Эта глава не добавляет цифру.",
+        "who": "Читатели, которые сверяют Concrete Pump S-Tube Seal Kit Catalogue Sizes со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Large end φ210 / φ220 / φ250 versus small end φ80 / φ90 / φ100 / φ105",
-          "Some large-end kits listed as six-piece sets",
-          "S-tube is the swinging pipe that connects one cylinder to the outlet",
-          "No printed hours; SmartBuy monthly seal bullet is marketplace text"
+          "Без новой цифры."
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 40’s specification table list an S-tube OD?",
-          "answer": "No. Electric 40 lists motor, output, pressure, бункер, distance, Kawasaki 112 and weight. S-tube ODs live on the S-tube seal page: large end φ210 / φ220 / φ250; small end φ80–φ105."
+          "question": "Добавляет ли “Sheet gaskets” клетку к Concrete Pump S-Tube Seal Kit Catalogue Sizes?",
+          "answer": "Нет. Эта глава не добавляет цифру."
         },
         {
-          "question": "Are S-tube seals sold per piece like integral pistons?",
-          "answer": "No. S-tube seals are listed as sets (large end and small end). Integral pistons are sold per piece. Confirm the kit on the S-tube."
+          "question": "Может ли “Solid material gaskets” заполнить пустую клетку для Concrete Pump S-Tube Seal Kit Catalogue Sizes?",
+          "answer": "Нет. Пустые клетки для Concrete Pump S-Tube Seal Kit Catalogue Sizes остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

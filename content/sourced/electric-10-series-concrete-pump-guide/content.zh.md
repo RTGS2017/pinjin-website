@@ -1,29 +1,26 @@
-## Catalogue Electric 10 Series row
+## 功率因数
 
-Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, 料斗 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, 骨料 2 cm and below.
+功率因数比较的是交流电机上的有功功率和视在功率。电动10系列产品页不印功率因数，所以这一章不补一个。
 
-![Electric 10 Series concrete pump factory product photo, 河北品锦机械 邢台](/images/products/electric-10-series-concrete-pump/electric-10-series-concrete-pump.webp)
-*Electric 10 Series, 邢台 catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg*
+已经印出的是 15 kW、理论 21 m³/h、23 MPa、水平 25 m、料斗 0.1 m³、骨料 2 cm 及以下。额定电压除非产品页自己印了，否则保持空白。
 
-## Neighbour compact / electric rows
+![来源页上关于感应电机的图](/images/articles/electric-10-series-concrete-pump-guide/Rotatingfield.png)
+*图片来自来源页：https://en.wikipedia.org/wiki/Induction_motor*
 
-| Model | Power | Theoretical output | Distance | 料斗 | Weight |
-| Electric 10 Series | 15 kW | 21 m³/h | 25 m horizontal | 0.1 m³ | 400 kg |
-| Electric 15 | see 产品页 | 8–10 m³/h | 15–20 m vertical | see 产品页 | see 产品页 |
-| Electric 40 | 45 kW | 21 m³/h | fine-stone 120 m / 360 m | 0.4 m³ | 2300 kg |
-| B500S-83D | 7.5 kW | not listed | 5 m / 5 m | not listed | 280 kg |
+## 效率
 
-Alibaba SmartBuy (20 November 2025) groups mini / line pumps at 10–30 m³/h and 拖式泵s at 30–90 m³/h. Those are marketplace bands. ACI PRC-304.2-17 distinguishes 拖式泵s from truck-mounted 臂架泵s; this page is not a boom SKU. Hub: [electric concrete pumps](/products/electric-concrete-pumps/).
+电机效率是电输入里有多少变成轴上的功。它和理论混凝土输送量不是同一句话。本页不编一个百分数。
 
-## When this row fits
+我们守住的产量格子是已印的理论 21 m³/h，旁边是 15 kW。不要把两个数相除，然后说那是我们公布的效率。
 
-Rural self-built houses, small building sites and secondary structure inside 25 m horizontal and 2 cm 骨料, with a 15 kW supply and a 400 kg compact frame.
+## 斯坦梅茨等效电路
 
-## When to open another page
+斯坦梅茨等效电路是感应电机的教学模型：用电阻和电抗代替绕组。它不是这台拖泵的接线图。
 
-- 8–10 m³/h / 15–20 m vertical electric house row → [Electric 15](/products/electric-15-concrete-pump/).
-- 21 m³/h with 120 m / 360 m fine-stone and 45 kW → [Electric 40](/products/electric-40-concrete-pump/).
-- 5 m / 5 m sand and 5–16 mm stone, 7.5 kW, no m³/h cell → [B500S-83D](/products/b500s-83d-two-stage-pump/).
-- Not a truck-mounted placing boom and not a concrete 搅拌站.
+我们印的外形是 1800 × 800 × 1200 mm、400 kg。窄门问题用这组数。不要把等效电路里的元件值抄到泵的页面上。
 
-Product page: [Electric 10 Series concrete pump](/products/electric-10-series-concrete-pump/). 询价: [contact](/contact/).
+## 直线感应电机
+
+直线感应电机把定子摊成平直的轨道，力沿着直线走。电动10系列不是那种机器。它是带旋转电机的紧凑拖泵。
+
+电动20仍是旁边那一台：22 kW、900 kg。不要因为都是电动就把两行并成一台。这一章不补价格，也不补案例。

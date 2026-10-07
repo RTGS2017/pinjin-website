@@ -7,100 +7,100 @@
     "zh": "电动10系列混凝土泵目录没有活塞行程"
   },
   "title": {
-    "en": "Why Electric 10 Series Concrete Pump Prints No Piston Stroke",
-    "zh": "为什么电动10系列混凝土泵不印活塞行程"
+    "en": "Electric 10 Series Concrete Pump: 21 m³/h beside the Reciprocating pump article",
+    "zh": "为什么电动10系列混凝土泵不印活塞行程：对照「往复泵」时，21 m³/h仍在原页"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 10 Series Concrete Pump in Xingtai. The row does print Theoretical O",
-    "zh": "河北品锦机械没有在邢台的电动10系列混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量21 m³/h和最大出口压力23 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Mobile crane」的主体是Demag AC1000, a 1000 ton 汽车起重机，也没有补上行程数字。"
+    "en": "Electric 10 Series Concrete Pump. 21 m³/h stays in the catalogue entry. Illustration: Reciprocating pump.",
+    "zh": "为什么电动10系列混凝土泵不印活塞行程。21 m³/h仍在目录格子里。插图来自「往复泵」。"
   },
   "h1": {
-    "en": "Why Electric 10 Series Concrete Pump Prints No Piston Stroke",
-    "zh": "为什么电动10系列混凝土泵不印活塞行程"
+    "en": "Electric 10 Series Concrete Pump: 21 m³/h beside the Reciprocating pump article",
+    "zh": "为什么电动10系列混凝土泵不印活塞行程：对照「往复泵」时，21 m³/h仍在原页"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 10 Series Concrete Pump in Xingtai. The row does print Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Mobile crane” shows Demag AC1000, a 1000 ton mobile crane and adds no stroke figure.",
-    "zh": "河北品锦机械没有在邢台的电动10系列混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量21 m³/h和最大出口压力23 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Mobile crane」的主体是Demag AC1000, a 1000 ton 汽车起重机，也没有补上行程数字。"
+    "en": "Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 10 Series Concrete Pump in Xingtai. The row does list Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa. The picture is from https://en.wikipedia.org/wiki/Reciprocating_pump.",
+    "zh": "河北品锦机械没有在邢台的电动10系列混凝土泵这一行标出活塞行程、冲次或挤压间隙。这一行标出了理论输送量21 m³/h和最大出口压力23 MPa。图片来自https://en.wikipedia.org/wiki/Reciprocating_pump。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Named parts are not a service procedure",
-        "zh": "点出名称不等于维修步骤"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. This Electric 10 Series Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already prints. Hopper Capacity 0.1 m³. Max. Aggregate Size 2 cm and below. Main Unit Weight 400 kg.",
-        "zh": "另一份易损件清单用外径列出活塞和摆臂类替换件。电动10系列混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有印出的材料牌号。料斗容积 0.1 m³。最大骨料粒径 2 cm and below。整机重量 400 kg。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Reciprocating_pump. The picture shows Windmill operated water pump. Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 10 Series Concrete Pump in Xingtai. The frame “Mobile crane” shows Demag AC1000, a 1000 ton mobile crane and adds no stroke figure. Maximum aggregate size is 2 cm and below. It is not a measured stroke for Electric 10 Series Concrete Pump.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Reciprocating_pump。画面是Windmill operated water pump。河北品锦机械没有在邢台的电动10系列混凝土泵这一行标出活塞行程、冲次或挤压间隙。电动10系列混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有写出的材料牌号。管路长度仍要读这个型号自己的距离格，不读这一帧，也不读另一台泵。"
       }
     },
     {
       "heading": {
-        "en": "The frame does not supply the missing stroke",
-        "zh": "这一帧不补上缺失的行程"
+        "en": "Main components of reciprocating pump",
+        "zh": "往复泵的主要部件"
       },
       "body": {
-        "en": "From en.wikipedia.org, “Mobile crane”. Subject: Demag AC1000, a 1000 ton mobile crane. If a piston or valve is visible there, that is the subject of the frame. It is not a measured stroke for Electric 10 Series Concrete Pump.",
-        "zh": "来自 en.wikipedia.org，「Mobile crane」。主体：Demag AC1000, a 1000 ton 汽车起重机。如果画面里能看到活塞或阀，那只是这一帧的主体。它不是电动10系列混凝土泵的实测行程。"
+        "en": "The row does list Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa. The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. Main-unit weight is 400 kg. Theoretical Output 21 m³/h.",
+        "zh": "这一行标出了理论输送量21 m³/h和最大出口压力23 MPa。最大骨料粒径 2 cm and below。"
       }
     },
     {
       "heading": {
-        "en": "Keep the printed duty",
-        "zh": "保留已经印出的工作参数"
+        "en": "Reciprocating Pump Application",
+        "zh": "往复泵的用途"
       },
       "body": {
-        "en": "Theoretical Output 21 m³/h. Max. Outlet Pressure 23 MPa. Pipeline length still has to be read from this model's own distance cells, not from the frame and not from a different pump.",
-        "zh": "理论输送量21 m³/h。最大出口压力23 MPa。管路长度仍要读这个型号自己的距离格，不读这一帧，也不读另一台泵。"
+        "en": "A piston displaces concrete into the line. a squeeze pump compresses a hose. This Electric 10 Series Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already lists. Subject: Demag AC1000, a 1000 ton mobile crane. Max. Outlet Pressure 23 MPa.",
+        "zh": "画面「Mobile crane」的主体是Demag AC1000, a 1000 ton 汽车起重机，也没有补上行程数字。主体：Demag AC1000, a 1000 ton 汽车起重机。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Examples",
+        "zh": "实例"
+      },
+      "body": {
+        "en": "The sheet does not choose between them by inventing a stroke. Hopper capacity is 0.1 m³. If a piston or valve is visible there, that is the subject of the frame. Pipeline length still has to be read from this model's own distance entries, not from the frame and not from a different pump.",
+        "zh": "另一份易损件清单用外径列出活塞和摆臂类替换件。如果画面里能看到活塞或阀，那只是这一帧的主体。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 10 Series Concrete Pump print a piston stroke?",
-        "zh": "电动10系列混凝土泵印了活塞行程吗？"
+        "en": "Does Electric 10 Series Concrete Pump list a piston stroke?",
+        "zh": "电动10系列混凝土泵标出了活塞行程吗？"
       },
       "answer": {
-        "en": "No.",
-        "zh": "没有。"
+        "en": "No. It is not a figure printed inside https://en.wikipedia.org/wiki/Reciprocating_pump.",
+        "zh": "没有。它不是https://en.wikipedia.org/wiki/Reciprocating_pump画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What duty is printed instead?",
-        "zh": "那印了什么工作参数？"
+        "en": "What duty is shown instead?",
+        "zh": "那标出了什么工作参数？"
       },
       "answer": {
-        "en": "Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa.",
-        "zh": "理论输送量21 m³/h，最大出口压力23 MPa。"
+        "en": "Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa. It is not a figure printed inside https://en.wikipedia.org/wiki/Reciprocating_pump.",
+        "zh": "理论输送量21 m³/h，最大出口压力23 MPa。它不是https://en.wikipedia.org/wiki/Reciprocating_pump画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does a piston in the frame set the stroke?",
-        "zh": "画面里的活塞能确定行程吗？"
+        "en": "Are service hours shown?",
+        "zh": "标出了保养小时吗？"
       },
       "answer": {
-        "en": "No. The frame is not a stroke measurement.",
-        "zh": "不能。这一帧不是行程测量。"
-      }
-    },
-    {
-      "question": {
-        "en": "Are service hours printed?",
-        "zh": "印了保养小时吗？"
-      },
-      "answer": {
-        "en": "No. Hours, torque and price stay unprinted.",
-        "zh": "没有。小时、扭矩和价格都没有印。"
+        "en": "No. Hours, torque and price stay unprinted. It is not a figure printed inside https://en.wikipedia.org/wiki/Reciprocating_pump.",
+        "zh": "没有。小时、扭矩和价格都没有标出。它不是https://en.wikipedia.org/wiki/Reciprocating_pump画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/demag-ac1000-1000-ton-mobile-crane.webp",
+    "src": "/images/articles/knowledge/electric-10-series-sheet-prints-no-piston-stroke-windmill-operated-water-pump.jpg",
     "alt": {
-      "en": "Demag AC1000, a 1000 ton mobile crane. Subject of the frame for the Electric 10 Series Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "Demag AC1000, a 1000 ton 汽车起重机。电动10系列混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "Windmill operated water pump. Image from the source page: https://en.wikipedia.org/wiki/Reciprocating_pump.",
+      "zh": "Windmill operated water pump。图来自来源页：https://en.wikipedia.org/wiki/Reciprocating_pump。"
     }
   },
   "relatedPaths": [
@@ -117,7 +117,8 @@
     "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-10-series-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Reciprocating_pump"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +126,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 10 Series Concrete Pump in Xingtai. The row does print Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Mobile crane” shows Demag AC1000, a 1000 ton mobile crane and adds no stroke figure.",
-      "zh": "河北品锦机械没有在邢台的电动10系列混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量21 m³/h和最大出口压力23 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Mobile crane」的主体是Demag AC1000, a 1000 ton 汽车起重机，也没有补上行程数字。"
+      "en": "Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 10 Series Concrete Pump in Xingtai. The row does list Theoretical Output 21 m³/h and Max. Outlet Pressure 23 MPa. The picture is from https://en.wikipedia.org/wiki/Reciprocating_pump.",
+      "zh": "河北品锦机械没有在邢台的电动10系列混凝土泵这一行标出活塞行程、冲次或挤压间隙。这一行标出了理论输送量21 m³/h和最大出口压力23 MPa。图片来自https://en.wikipedia.org/wiki/Reciprocating_pump。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

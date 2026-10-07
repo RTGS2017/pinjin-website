@@ -1,7 +1,7 @@
 {
-  "title": "Electric 50 Concrete Pump Catalogue Row",
-  "seoTitle": "Electric 50 Concrete Pump | Pinjin 55 kW 26 m³/h",
-  "description": "Electric 50 is a Xingtai electric trailer pump listing 55 kW, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, hopper 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. It is not Electric 40 (45 kW, 21 m³/h, 23 MPa) and not Electric 60 (90 kW, 40 m³/h). Match the printed table, then inquire.",
+  "title": "Electric power — Sources and loads / Passive sign convention / Resistive circuits / Alternating current",
+  "seoTitle": "Electric power — Sources and loads",
+  "description": "“Sources and loads” is background. An enquiry for Electric 50 concrete pump still uses the cells already written. Printed cells already on this page: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
   "primaryKeyword": "Electric 50 concrete pump",
   "secondaryKeywords": [
     "55 kW electric trailer concrete pump",
@@ -44,13 +44,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric 50 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 55 kW motor, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, hopper 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. The same page prints 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. It is not Electric 40 and not Electric 60.",
-    "who": "Grid-powered sites matching 26 m³/h, 30 MPa and the printed stone-distance pairs on a 2800 kg trailer.",
+    "what": "“Sources and loads” is background. An enquiry for Electric 50 concrete pump still uses the cells already written. Printed cells already on this page: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+    "who": "Readers checking Electric 50 concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "55 kW / 26 m³/h / 30 MPa versus Electric 40 at 45 kW / 21 m³/h / 23 MPa",
-      "Fine stone 150 m / 350 m versus Electric 60 fine stone 200 m / 600 m",
-      "Hopper 0.4 m³ (same litres as Electric 40, different output)",
-      "Kawasaki 140 versus Electric 40 Kawasaki 112"
+      "4100 × 1600 × 1600 mm",
+      "30–90 m³/h",
+      "55 kW",
+      "26 m³/h",
+      "30 MPa",
+      "2800 kg"
     ],
     "relatedModels": [
       "electric-50-concrete-pump",
@@ -60,20 +62,25 @@
   },
   "faqs": [
     {
-      "question": "Does Electric 50 share Electric 40’s 0.4 m³ hopper so they place the same m³/h?",
-      "answer": "No. Both list hopper 0.4 m³. Electric 50 lists 26 m³/h; Electric 40 lists 21 m³/h. Hopper litres are a grate buffer, not pumping output."
+      "question": "Does “Sources and loads” add a cell to Electric 50 concrete pump?",
+      "answer": "No. Electric 50 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Is Diesel 40 the diesel copy of Electric 50’s 26 m³/h?",
-      "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm aggregate). Electric 50 lists 55 kW, 30 MPa, fine stone 150 m / 350 m. Same 26 m³/h cell, different power and distance rows. Open the matching page."
+      "question": "Can “Passive sign convention” fill a blank cell for Electric 50 concrete pump?",
+      "answer": "No. Blank cells for Electric 50 concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-50-concrete-pump/electric-50-concrete-pump.webp",
-    "alt": "Electric 50 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 50 trailer pump, Xingtai catalogue — 55 kW, 26 m³/h, fine stone 150 m / 350 m"
+    "src": "/images/articles/electric-50-concrete-pump-guide/Electric_source_and_load_animation_2.gif",
+    "alt": "Figure from the source page about Electric power",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Electric_power"
   },
   "sources": [
+    {
+      "name": "Electric power (source page)",
+      "url": "https://en.wikipedia.org/wiki/Electric_power",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 50 product page",
       "url": "https://pinjinpump.com/en/products/electric-50-concrete-pump/",
@@ -111,11 +118,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Electric 50 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 50 Concrete Pump | Pinjin 55 kW 26 m³/h",
-      "description": "Electric 50 is a 邢台 electric 拖式泵 listing 55 kW, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, 料斗 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. It is not Electric 40 (45 kW, 21 m³/h, 23 MPa) and not Electric 60 (90 kW, 40 m³/h). Match the printed table, then 询价.",
-      "imageAlt": "Electric 50 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Electric 50 拖式泵, 邢台 catalogue — 55 kW, 26 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric 50 Concrete Pump Catalogue Row：Electric power（Sources and loads / Passive sign convention / Resistive circuits / Alternating current）",
+      "seoTitle": "Electric power：Sources and loads",
+      "description": "「Sources and loads」是背景。Electric 50 Concrete Pump Catalogue Row的询价仍看已经写下的单元格。本页已经印出的读数：4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm。",
+      "imageAlt": "来源页插图：Electric power",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Electric_power",
       "relatedPathLabels": [
         "Electric 50 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -123,32 +130,34 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 50 Concrete Pump is an electric 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 55 kW motor, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, 料斗 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. The same page prints 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. It is not Electric 40 and not Electric 60.",
-        "who": "Grid-powered sites matching 26 m³/h, 30 MPa and the printed stone-distance pairs on a 2800 kg trailer.",
+        "what": "「Sources and loads」是背景。Electric 50 Concrete Pump Catalogue Row的询价仍看已经写下的单元格。本页已经印出的读数：4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm。",
+        "who": "想把Electric 50 Concrete Pump Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "55 kW / 26 m³/h / 30 MPa versus Electric 40 at 45 kW / 21 m³/h / 23 MPa",
-          "Fine stone 150 m / 350 m versus Electric 60 fine stone 200 m / 600 m",
-          "料斗 0.4 m³ (same litres as Electric 40, different output)",
-          "Kawasaki 140 versus Electric 40 Kawasaki 112"
+          "4100 × 1600 × 1600 mm",
+          "30–90 m³/h",
+          "55 kW",
+          "26 m³/h",
+          "30 MPa",
+          "2800 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 50 share Electric 40’s 0.4 m³ 料斗 so they place the same m³/h?",
-          "answer": "No. Both list 料斗 0.4 m³. Electric 50 lists 26 m³/h; Electric 40 lists 21 m³/h. 料斗 litres are a grate buffer, not pumping output."
+          "question": "「Sources and loads」会给Electric 50 Concrete Pump Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm。"
         },
         {
-          "question": "Is Diesel 40 the diesel copy of Electric 50’s 26 m³/h?",
-          "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm 骨料). Electric 50 lists 55 kW, 30 MPa, fine stone 150 m / 350 m. Same 26 m³/h cell, different power and distance rows. Open the matching page."
+          "question": "「Passive sign convention」能补上Electric 50 Concrete Pump Catalogue Row的空白格吗？",
+          "answer": "不能。Electric 50 Concrete Pump Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric 50 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 50 Concrete Pump | Pinjin 55 kW 26 m³/h",
-      "description": "Electric 50 is a Xingtai electric bomba reboque listing 55 kW, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, tremonha 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. It is not Electric 40 (45 kW, 21 m³/h, 23 MPa) and not Electric 60 (90 kW, 40 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Electric 50 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Electric 50 bomba reboque, Xingtai catalogue — 55 kW, 26 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric 50 Concrete Pump Catalogue Row: Electric power — Sources and loads / Passive sign convention / Resistive circuits / Alternating current",
+      "seoTitle": "Electric power — Sources and loads",
+      "description": "“Sources and loads” é contexto. Um pedido sobre Electric 50 Concrete Pump Catalogue Row continua a usar as casas já escritas. Valores já impressos nesta página: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+      "imageAlt": "Figura da página de origem sobre Electric power",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Electric_power",
       "relatedPathLabels": [
         "Electric 50 concrete pump página do produto",
         "Electric concrete pump manufacturer China",
@@ -156,32 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 50 Concrete Pump is an electric bomba reboque manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 55 kW motor, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, tremonha 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. The same page prints 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. It is not Electric 40 and not Electric 60.",
-        "who": "Grid-powered sites matching 26 m³/h, 30 MPa and the printed stone-distance pairs on a 2800 kg trailer.",
+        "what": "“Sources and loads” é contexto. Um pedido sobre Electric 50 Concrete Pump Catalogue Row continua a usar as casas já escritas. Valores já impressos nesta página: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+        "who": "Leitores que comparam Electric 50 Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "55 kW / 26 m³/h / 30 MPa versus Electric 40 at 45 kW / 21 m³/h / 23 MPa",
-          "Fine stone 150 m / 350 m versus Electric 60 fine stone 200 m / 600 m",
-          "Tremonha 0.4 m³ (same litres as Electric 40, different output)",
-          "Kawasaki 140 versus Electric 40 Kawasaki 112"
+          "4100 × 1600 × 1600 mm",
+          "30–90 m³/h",
+          "55 kW",
+          "26 m³/h",
+          "30 MPa",
+          "2800 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 50 share Electric 40’s 0.4 m³ tremonha so they place the same m³/h?",
-          "answer": "No. Both list tremonha 0.4 m³. Electric 50 lists 26 m³/h; Electric 40 lists 21 m³/h. Tremonha litres are a grate buffer, not pumping output."
+          "question": "“Sources and loads” acrescenta uma casa a Electric 50 Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm."
         },
         {
-          "question": "Is Diesel 40 the diesel copy of Electric 50’s 26 m³/h?",
-          "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm agregado). Electric 50 lists 55 kW, 30 MPa, fine stone 150 m / 350 m. Same 26 m³/h cell, different power and distance rows. Open the matching page."
+          "question": "“Passive sign convention” pode preencher uma casa em branco de Electric 50 Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Electric 50 Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric 50 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 50 Concrete Pump | Pinjin 55 kW 26 m³/h",
-      "description": "Electric 50 is a شينغتاي electric مضخة مقطورة listing 55 kW, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, قادوس 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. It is not Electric 40 (45 kW, 21 m³/h, 23 MPa) and not Electric 60 (90 kW, 40 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Electric 50 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Electric 50 مضخة مقطورة, شينغتاي catalogue — 55 kW, 26 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric 50 Concrete Pump Catalogue Row: Electric power — Sources and loads / Passive sign convention / Resistive circuits / Alternating current",
+      "seoTitle": "Electric power — Sources and loads",
+      "description": "«Sources and loads» خلفية. طلب Electric 50 Concrete Pump Catalogue Row يبقى على الخلايا المكتوبة من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Electric power",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Electric_power",
       "relatedPathLabels": [
         "Electric 50 concrete pump صفحة المنتج",
         "Electric concrete pump manufacturer China",
@@ -189,32 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 50 Concrete Pump is an electric مضخة مقطورة manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 55 kW motor, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, قادوس 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. The same page prints 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. It is not Electric 40 and not Electric 60.",
-        "who": "Grid-powered sites matching 26 m³/h, 30 MPa and the printed stone-distance pairs on a 2800 kg trailer.",
+        "what": "«Sources and loads» خلفية. طلب Electric 50 Concrete Pump Catalogue Row يبقى على الخلايا المكتوبة من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+        "who": "قرّاء يقارنون Electric 50 Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "55 kW / 26 m³/h / 30 MPa versus Electric 40 at 45 kW / 21 m³/h / 23 MPa",
-          "Fine stone 150 m / 350 m versus Electric 60 fine stone 200 m / 600 m",
-          "قادوس 0.4 m³ (same litres as Electric 40, different output)",
-          "Kawasaki 140 versus Electric 40 Kawasaki 112"
+          "4100 × 1600 × 1600 mm",
+          "30–90 m³/h",
+          "55 kW",
+          "26 m³/h",
+          "30 MPa",
+          "2800 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 50 share Electric 40’s 0.4 m³ قادوس so they place the same m³/h?",
-          "answer": "No. Both list قادوس 0.4 m³. Electric 50 lists 26 m³/h; Electric 40 lists 21 m³/h. قادوس litres are a grate buffer, not pumping output."
+          "question": "هل يضيف «Sources and loads» خانة إلى Electric 50 Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm."
         },
         {
-          "question": "Is Diesel 40 the diesel copy of Electric 50’s 26 m³/h?",
-          "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm ركام). Electric 50 lists 55 kW, 30 MPa, fine stone 150 m / 350 m. Same 26 m³/h cell, different power and distance rows. Open the matching page."
+          "question": "هل يستطيع «Passive sign convention» ملء خانة فارغة لـ Electric 50 Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Electric 50 Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric 50 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 50 Concrete Pump | Pinjin 55 kW 26 m³/h",
-      "description": "Electric 50 is a Синтай electric прицепной насос listing 55 kW, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, бункер 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. It is not Electric 40 (45 kW, 21 m³/h, 23 MPa) and not Electric 60 (90 kW, 40 m³/h). Match the printed table, then inquire.",
-      "imageAlt": "Electric 50 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Electric 50 прицепной насос, Синтай catalogue — 55 kW, 26 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric 50 Concrete Pump Catalogue Row: Electric power — Sources and loads / Passive sign convention / Resistive circuits / Alternating current",
+      "seoTitle": "Electric power — Sources and loads",
+      "description": "“Sources and loads” — фон. Запрос по Electric 50 Concrete Pump Catalogue Row по-прежнему смотрит на уже записанные клетки. Уже напечатанные значения на этой странице: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Electric power",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Electric_power",
       "relatedPathLabels": [
         "Electric 50 concrete pump страница изделия",
         "Electric concrete pump manufacturer China",
@@ -222,25 +235,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 50 Concrete Pump is an electric прицепной насос manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 55 kW motor, 26 m³/h, 30 MPa, fine stone 150 m / 350 m, бункер 0.4 m³, Kawasaki 140, 4100 × 1600 × 1600 mm, 2800 kg. The same page prints 13 mm stone 80 m / 240 m and 24 mm stone 60 m / 180 m. It is not Electric 40 and not Electric 60.",
-        "who": "Grid-powered sites matching 26 m³/h, 30 MPa and the printed stone-distance pairs on a 2800 kg trailer.",
+        "what": "“Sources and loads” — фон. Запрос по Electric 50 Concrete Pump Catalogue Row по-прежнему смотрит на уже записанные клетки. Уже напечатанные значения на этой странице: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm.",
+        "who": "Читатели, которые сверяют Electric 50 Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "55 kW / 26 m³/h / 30 MPa versus Electric 40 at 45 kW / 21 m³/h / 23 MPa",
-          "Fine stone 150 m / 350 m versus Electric 60 fine stone 200 m / 600 m",
-          "Бункер 0.4 m³ (same litres as Electric 40, different output)",
-          "Kawasaki 140 versus Electric 40 Kawasaki 112"
+          "4100 × 1600 × 1600 mm",
+          "30–90 m³/h",
+          "55 kW",
+          "26 m³/h",
+          "30 MPa",
+          "2800 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 50 share Electric 40’s 0.4 m³ бункер so they place the same m³/h?",
-          "answer": "No. Both list бункер 0.4 m³. Electric 50 lists 26 m³/h; Electric 40 lists 21 m³/h. Бункер litres are a grate buffer, not pumping output."
+          "question": "Добавляет ли “Sources and loads” клетку к Electric 50 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 4100 × 1600 × 1600 mm, 30–90 m³/h, 55 kW, 26 m³/h, 30 MPa, 2800 kg, 13 mm, 24 mm."
         },
         {
-          "question": "Is Diesel 40 the diesel copy of Electric 50’s 26 m³/h?",
-          "answer": "Diesel 40 lists 4108 / 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm заполнитель). Electric 50 lists 55 kW, 30 MPa, fine stone 150 m / 350 m. Same 26 m³/h cell, different power and distance rows. Open the matching page."
+          "question": "Может ли “Passive sign convention” заполнить пустую клетку для Electric 50 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Electric 50 Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

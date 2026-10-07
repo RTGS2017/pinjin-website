@@ -1,7 +1,7 @@
 {
-  "title": "Integrated Mixer Pump Catalogue Row",
-  "seoTitle": "Integrated Mixer Pump | Pinjin 45 kW + 14 kW",
-  "description": "Xingtai electric integrated mixer pump lists main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, aggregate 4 cm and below, pipe 100 / 125 mm, 4500 kg. It mixes and pumps on one trailer. It is not a mixing plant and not the diesel mixer pump. Match the printed table, then inquire.",
+  "title": "Concrete plant — Repose batching plant / Inline blending plant / Dry mix concrete plant / Wet mix concrete plant",
+  "seoTitle": "Concrete plant — Repose batching plant",
+  "description": "Read “Repose batching plant” as context from the source. It is not a new nameplate for integrated mixer pump. Printed cells already on this page: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
   "primaryKeyword": "integrated mixer pump",
   "secondaryKeywords": [
     "electric concrete mixer pump China",
@@ -54,13 +54,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Integrated Mixer Pump is an electric integrated concrete mixer pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, max aggregate 4 cm and below, delivery pipe 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer. It is not a mixing plant and not a boom pump.",
-    "who": "Contractors who need mix and pump in one unit and can supply the listed 45 kW + 14 kW motors, matching 21 m³/h, 23 MPa and 100 m / 300 m.",
+    "what": "Read “Repose batching plant” as context from the source. It is not a new nameplate for integrated mixer pump. Printed cells already on this page: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+    "who": "Readers checking integrated mixer pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Mix and pump on one trailer versus a pump-only Electric 40",
-      "45 kW + 14 kW versus diesel mixer 4108 / 66–75 kW",
-      "Output 21 m³/h electric versus 25 m³/h diesel mixer",
-      "Pipe DN 100 / 125 mm and aggregate 4 cm and below"
+      "3900 × 1500 × 1600 mm",
+      "66–75 kW",
+      "45 kW",
+      "14 kW",
+      "21 m³/h",
+      "23 MPa"
     ],
     "relatedModels": [
       "integrated-mixer-pump",
@@ -70,20 +72,25 @@
   },
   "faqs": [
     {
-      "question": "Is a mixer pump the same as a mixing plant?",
-      "answer": "No. A mixer pump mixes and pumps on one Xingtai trailer. Pinjin does not list a concrete batching plant on this catalogue."
+      "question": "Does “Repose batching plant” add a cell to integrated mixer pump?",
+      "answer": "No. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m."
     },
     {
-      "question": "Is the electric mixer pump the same as Electric 40?",
-      "answer": "No. Electric 40 is a pump-only trailer: 45 kW, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m, 2300 kg. This mixer pump adds a 14 kW mixer motor, lists 100 m / 300 m, pipe 100 / 125 mm and 4500 kg."
+      "question": "Can “Inline blending plant” fill a blank cell for integrated mixer pump?",
+      "answer": "No. Blank cells for integrated mixer pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/integrated-mixer-pump/integrated-mixer-pump.webp",
-    "alt": "Integrated mixer pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Integrated mixer pump, Xingtai catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m"
+    "src": "/images/articles/integrated-mixer-pump-catalogue/A_4-Bin_Inline_Blending_Concrete_Batch_Plant.jpg",
+    "alt": "Figure from the source page about Concrete plant",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_plant"
   },
   "sources": [
+    {
+      "name": "Concrete plant (source page)",
+      "url": "https://en.wikipedia.org/wiki/Concrete_plant",
+      "type": "industry"
+    },
     {
       "name": "Pinjin integrated mixer pump product page",
       "url": "https://pinjinpump.com/en/products/integrated-mixer-pump/",
@@ -108,9 +115,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Integrated Mixer Pump Catalogue Row",
-      "description": "邢台 electric integrated 搅拌泵 lists main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, 骨料 4 cm and below, pipe 100 / 125 mm, 4500 kg. It mixes and pumps on one trailer. It is not a mixing plant and not the diesel 搅拌泵. Match the printed table, then inquire.",
-      "imageAlt": "Integrated 搅拌泵 factory product photo, 河北品锦机械 邢台",
+      "title": "Integrated Mixer Pump Catalogue Row：Concrete plant（Repose batching plant / Inline blending plant / Dry mix concrete plant / Wet mix concrete plant）",
+      "description": "「Repose batching plant」只作来源页上的背景，不是给Integrated Mixer Pump Catalogue Row新造的铭牌。本页已经印出的读数：3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm。",
+      "imageAlt": "来源页插图：Concrete plant",
       "relatedPathLabels": [
         "Integrated 搅拌泵 产品页",
         "Concrete 搅拌泵 manufacturer China",
@@ -118,32 +125,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Integrated Mixer Pump is an electric integrated concrete 搅拌泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, max 骨料 4 cm and below, 输送管 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer. It is not a mixing plant and not a 臂架泵.",
-        "who": "Contractors who need mix and pump in one unit and can supply the listed 45 kW + 14 kW motors, matching 21 m³/h, 23 MPa and 100 m / 300 m.",
+        "what": "「Repose batching plant」只作来源页上的背景，不是给Integrated Mixer Pump Catalogue Row新造的铭牌。本页已经印出的读数：3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm。",
+        "who": "想把Integrated Mixer Pump Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Mix and pump on one trailer versus a pump-only 电动40",
-          "45 kW + 14 kW versus diesel mixer 4108 / 66–75 kW",
-          "Output 21 m³/h electric versus 25 m³/h diesel mixer",
-          "Pipe DN 100 / 125 mm and 骨料 4 cm and below"
+          "3900 × 1500 × 1600 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Integrated Mixer Pump | 品锦 45 kW + 14 kW",
-      "imageCaption": "Integrated 搅拌泵, 邢台 catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m",
+      "seoTitle": "Concrete plant：Repose batching plant",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Concrete_plant",
       "faqs": [
         {
-          "question": "Is a 搅拌泵 the same as a mixing plant?",
-          "answer": "No. A 搅拌泵 mixes and pumps on one 邢台 trailer. 品锦 does not list a concrete batching plant on this catalogue."
+          "question": "「Repose batching plant」会给Integrated Mixer Pump Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm。"
         },
         {
-          "question": "Is the electric 搅拌泵 the same as 电动40?",
-          "answer": "No. 电动40 is a pump-only trailer: 45 kW, 21 m³/h, 23 MPa, 细石 120 m / 360 m, 2300 kg. This 搅拌泵 adds a 14 kW mixer motor, lists 100 m / 300 m, pipe 100 / 125 mm and 4500 kg."
+          "question": "「Inline blending plant」能补上Integrated Mixer Pump Catalogue Row的空白格吗？",
+          "answer": "不能。Integrated Mixer Pump Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Integrated Mixer Pump Catalogue Row",
-      "description": "Xingtai electric integrated bomba misturadora lists main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, agregado 4 cm and below, pipe 100 / 125 mm, 4500 kg. It mixes and pumps on one trailer. It is not a mixing plant and not the diesel bomba misturadora. Match the printed table, then inquire.",
-      "imageAlt": "Integrated bomba misturadora factory product photo, Hebei Pinjin Machinery Xingtai",
+      "title": "Integrated Mixer Pump Catalogue Row: Concrete plant — Repose batching plant / Inline blending plant / Dry mix concrete plant / Wet mix concrete plant",
+      "description": "Leia “Repose batching plant” como contexto da origem. Não é uma placa nova para Integrated Mixer Pump Catalogue Row. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+      "imageAlt": "Figura da página de origem sobre Concrete plant",
       "relatedPathLabels": [
         "Integrated bomba misturadora página do produto",
         "Concrete bomba misturadora manufacturer China",
@@ -151,32 +160,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Integrated Mixer Pump is an electric integrated concrete bomba misturadora manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, max agregado 4 cm and below, tubo de entrega 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer. It is not a mixing plant and not a bomba lança.",
-        "who": "Contractors who need mix and pump in one unit and can supply the listed 45 kW + 14 kW motors, matching 21 m³/h, 23 MPa and 100 m / 300 m.",
+        "what": "Leia “Repose batching plant” como contexto da origem. Não é uma placa nova para Integrated Mixer Pump Catalogue Row. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+        "who": "Leitores que comparam Integrated Mixer Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Mix and pump on one trailer versus a pump-only Electric 40",
-          "45 kW + 14 kW versus diesel mixer 4108 / 66–75 kW",
-          "Output 21 m³/h electric versus 25 m³/h diesel mixer",
-          "Pipe DN 100 / 125 mm and agregado 4 cm and below"
+          "3900 × 1500 × 1600 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Integrated Mixer Pump | Pinjin 45 kW + 14 kW",
-      "imageCaption": "Integrated bomba misturadora, Xingtai catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m",
+      "seoTitle": "Concrete plant — Repose batching plant",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Concrete_plant",
       "faqs": [
         {
-          "question": "Is a bomba misturadora the same as a mixing plant?",
-          "answer": "No. A bomba misturadora mixes and pumps on one Xingtai trailer. Pinjin does not list a concrete batching plant on this catalogue."
+          "question": "“Repose batching plant” acrescenta uma casa a Integrated Mixer Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm."
         },
         {
-          "question": "Is the electric bomba misturadora the same as Electric 40?",
-          "answer": "No. Electric 40 is a pump-only trailer: 45 kW, 21 m³/h, 23 MPa, pedra fina 120 m / 360 m, 2300 kg. This bomba misturadora adds a 14 kW mixer motor, lists 100 m / 300 m, pipe 100 / 125 mm and 4500 kg."
+          "question": "“Inline blending plant” pode preencher uma casa em branco de Integrated Mixer Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Integrated Mixer Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Integrated Mixer Pump Catalogue Row",
-      "description": "شينغتاي electric integrated مضخة خلاط lists main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, ركام 4 cm and below, pipe 100 / 125 mm, 4500 kg. It mixes and pumps on one trailer. It is not a mixing plant and not the diesel مضخة خلاط. Match the printed table, then inquire.",
-      "imageAlt": "Integrated مضخة خلاط factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "title": "Integrated Mixer Pump Catalogue Row: Concrete plant — Repose batching plant / Inline blending plant / Dry mix concrete plant / Wet mix concrete plant",
+      "description": "«Repose batching plant» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Integrated Mixer Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Concrete plant",
       "relatedPathLabels": [
         "Integrated مضخة خلاط صفحة المنتج",
         "Concrete مضخة خلاط manufacturer China",
@@ -184,32 +195,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Integrated Mixer Pump is an electric integrated concrete مضخة خلاط manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, max ركام 4 cm and below, أنبوب النقل 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer. It is not a mixing plant and not a مضخة ذراع.",
-        "who": "Contractors who need mix and pump in one unit and can supply the listed 45 kW + 14 kW motors, matching 21 m³/h, 23 MPa and 100 m / 300 m.",
+        "what": "«Repose batching plant» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Integrated Mixer Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+        "who": "قرّاء يقارنون Integrated Mixer Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Mix and pump on one trailer versus a pump-only Electric 40",
-          "45 kW + 14 kW versus diesel mixer 4108 / 66–75 kW",
-          "Output 21 m³/h electric versus 25 m³/h diesel mixer",
-          "Pipe DN 100 / 125 mm and ركام 4 cm and below"
+          "3900 × 1500 × 1600 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Integrated Mixer Pump | Pinjin 45 kW + 14 kW",
-      "imageCaption": "Integrated مضخة خلاط, شينغتاي catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m",
+      "seoTitle": "Concrete plant — Repose batching plant",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Concrete_plant",
       "faqs": [
         {
-          "question": "Is a مضخة خلاط the same as a mixing plant?",
-          "answer": "No. A مضخة خلاط mixes and pumps on one شينغتاي trailer. Pinjin does not list a concrete batching plant on this catalogue."
+          "question": "هل يضيف «Repose batching plant» خانة إلى Integrated Mixer Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm."
         },
         {
-          "question": "Is the electric مضخة خلاط the same as Electric 40?",
-          "answer": "No. Electric 40 is a pump-only trailer: 45 kW, 21 m³/h, 23 MPa, حصى ناعم 120 m / 360 m, 2300 kg. This مضخة خلاط adds a 14 kW mixer motor, lists 100 m / 300 m, pipe 100 / 125 mm and 4500 kg."
+          "question": "هل يستطيع «Inline blending plant» ملء خانة فارغة لـ Integrated Mixer Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Integrated Mixer Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Integrated Mixer Pump Catalogue Row",
-      "description": "Синтай electric integrated бетононасос-миксер lists main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, заполнитель 4 cm and below, pipe 100 / 125 mm, 4500 kg. It mixes and pumps on one trailer. It is not a mixing plant and not the diesel бетононасос-миксер. Match the printed table, then inquire.",
-      "imageAlt": "Integrated бетононасос-миксер factory product photo, Hebei Pinjin Machinery Синтай",
+      "title": "Integrated Mixer Pump Catalogue Row: Concrete plant — Repose batching plant / Inline blending plant / Dry mix concrete plant / Wet mix concrete plant",
+      "description": "“Repose batching plant” — только контекст источника, а не новая табличка для Integrated Mixer Pump Catalogue Row. Уже напечатанные значения на этой странице: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Concrete plant",
       "relatedPathLabels": [
         "Integrated бетононасос-миксер страница изделия",
         "Concrete бетононасос-миксер manufacturer China",
@@ -217,27 +230,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Integrated Mixer Pump is an electric integrated concrete бетононасос-миксер manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m, hopper 0.4 m³, max заполнитель 4 cm and below, бетоновод 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer. It is not a mixing plant and not a автобетононасос со стрелой.",
-        "who": "Contractors who need mix and pump in one unit and can supply the listed 45 kW + 14 kW motors, matching 21 m³/h, 23 MPa and 100 m / 300 m.",
+        "what": "“Repose batching plant” — только контекст источника, а не новая табличка для Integrated Mixer Pump Catalogue Row. Уже напечатанные значения на этой странице: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.",
+        "who": "Читатели, которые сверяют Integrated Mixer Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Mix and pump on one trailer versus a pump-only Electric 40",
-          "45 kW + 14 kW versus diesel mixer 4108 / 66–75 kW",
-          "Output 21 m³/h electric versus 25 m³/h diesel mixer",
-          "Pipe DN 100 / 125 mm and заполнитель 4 cm and below"
+          "3900 × 1500 × 1600 mm",
+          "66–75 kW",
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Integrated Mixer Pump | Pinjin 45 kW + 14 kW",
-      "imageCaption": "Integrated бетононасос-миксер, Синтай catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m",
+      "seoTitle": "Concrete plant — Repose batching plant",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Concrete_plant",
       "faqs": [
         {
-          "question": "Is a бетононасос-миксер the same as a mixing plant?",
-          "answer": "No. A бетононасос-миксер mixes and pumps on one Синтай trailer. Pinjin does not list a concrete batching plant on this catalogue."
+          "question": "Добавляет ли “Repose batching plant” клетку к Integrated Mixer Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm."
         },
         {
-          "question": "Is the electric бетононасос-миксер the same as Electric 40?",
-          "answer": "No. Electric 40 is a pump-only trailer: 45 kW, 21 m³/h, 23 MPa, мелкий камень 120 m / 360 m, 2300 kg. This бетононасос-миксер adds a 14 kW mixer motor, lists 100 m / 300 m, pipe 100 / 125 mm and 4500 kg."
+          "question": "Может ли “Inline blending plant” заполнить пустую клетку для Integrated Mixer Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Integrated Mixer Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

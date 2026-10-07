@@ -1,24 +1,18 @@
-## What buyers mean by صمام S vs gate valve
+## Typical use
 
-Alibaba filters and spec sheets often show “distribution valve: صمام S” next to hopper litres. The same buying guide tells purchasers to check hopper size and S/S valve type. That is a **marketplace dimension**, not a licence to fill a blank cell on a Pinjin pump page.
+![صورة من صفحة المصدر عن Gate valve](/images/articles/s-valve-vs-gate-valve-concrete-pump/Drehantrieb_auf_schieber.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Gate_valve*
 
-At شينغتاي we machine and quote **صمام S قطع التآكل**. We do not print “صمام S” or “gate valve” as a column on Electric 20, Diesel 50 or Electric 80. If a competitor listing says pendulum or slide-gate, that is their machine, not a hidden Pinjin SKU.
+«Typical use» لا يحل محل مواصفة. يبقى S-Valve vs Gate Valve on a Trailer Concrete Pump على الصف المطبوع. هذا الفصل لا يضيف رقمًا.
 
-![Pinjin أنبوب S seal wear part manufactured in شينغتاي for trailer concrete pump صمام S assemblies](/images/products/concrete-pump-s-tube-seal/concrete-pump-s-tube-seal.webp)
-*أنبوب S seal from the شينغتاي wear-parts list — quote by outer diameter*
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Typical use» لا يملؤها.
 
-## What the catalogue actually lists
+## Valve construction
 
-The [parts hub](/products/concrete-pump-parts/) says: pipeline parts and صمام S قطع التآكل — pipes, elbows, clamps, hoses, pistons, seals and springs. Quote only; not sold in small batches.
+«Valve construction» خلفية. طلب S-Valve vs Gate Valve on a Trailer Concrete Pump يبقى على الخلايا المكتوبة من قبل. هذا الفصل لا يضيف رقمًا.
 
-On the floor, the أنبوب S is the swinging pipe that connects one cylinder at a time to the outlet. Wear shows on the cutting pair, أنبوب S seal and swing-arm ball. Photograph chips and seating; send the model slug. The daily checklist already tells operators to observe the صمام S without inventing replacement hours — see [maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/) and [spare parts](/blog/concrete-pump-spare-parts-wear-parts/).
+## Images
 
-## Industry class, not a Pinjin shoot-out
+«Images» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ S-Valve vs Gate Valve on a Trailer Concrete Pump. هذا الفصل لا يضيف رقمًا.
 
-ACI 304.2R §4.2 describes hydraulically powered directional valves on piston pumps, and separately ball-valve pumps. We cite the section so the words “valve type” have an industry home. We do not publish a factory white-paper that ranks أنبوب S against slide-gate for every mix. We also do not list a ball-valve trailer.
-
-If the inquiry is “need gate-valve pump like listing X”, we answer: not a catalogue name. Open a trailer page for power, output, distance and ركام; open a wear-part page for OD.
-
-## استفسار
-
-Parts: name, outer diameter or kit, quantity, pump model. Pumps: mix, stone, H/V, power. No list price. No other-brand OEM claim.
+صفحات مذكورة أصلًا في هذا النص: [parts hub](/products/concrete-pump-parts/), [maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/), [spare parts](/blog/concrete-pump-spare-parts-wear-parts/).

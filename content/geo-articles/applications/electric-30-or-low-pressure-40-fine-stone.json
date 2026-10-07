@@ -3,90 +3,104 @@
   "category": "application",
   "keyword": "fine stone building pump electric 30",
   "title": {
-    "en": "Electric 30 or low-pressure 40 for fine-stone buildings?",
-    "zh": "细石建筑选电动30还是低压40？"
+    "en": "Electric 30 or low-pressure 40 for fine-stone buildings, read as separate catalogue cells",
+    "zh": "细石建筑选电动30还是低压40，各格分开读"
   },
   "description": {
-    "en": "Both print 12–15 m³/h and 20 MPa. Electric 30 fine stone is 60 m / 180 m and also has aggregate 13. Low-pressure 40 fine stone is 80 m / 240 m and has no aggregate-13 row.",
-    "zh": "两台都是 12–15 m³/h、20 MPa。电动30细石是 60 m / 180 m，并另有 13 骨料行。低压40细石是 80 m / 240 m，没有 13 骨料行。"
+    "en": "Read it in the Xingtai table. If the mix is fine stone and the pipe fits 60 m horizontal / 180 m vertical, Electric 30 is the printed row at 30 kW. Taken from the printed row: If the fine-stone pipe needs the longer 80 m / 240 m window, open Electric Low Pressure 40 at 37 kW. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints both as building pumps at 12–15 m³/h and 20 MPa. The neighbouring machine is not this sentence. Only Electric 30 also prints aggregate 13 at 20 m / 60 m.",
+    "zh": "按邢台表上的原文理解：料是细石且管路落在水平 60 m / 垂直 180 m 内，电动30就是 30 kW 的那一行。细石管路需要更长的 80 m / 240 m 窗口，就打开 37 kW 的电动低压40。邢台河北品锦机械把两台都写成 12–15 m³/h、20 MPa 的建筑泵。只有电动30另外印了 13 骨料 20 m / 60 m。"
   },
   "h1": {
-    "en": "Electric 30 or low-pressure 40 for fine-stone buildings?",
-    "zh": "细石建筑选电动30还是低压40？"
+    "en": "Electric 30 or low-pressure 40 for fine-stone buildings, read as separate catalogue cells",
+    "zh": "细石建筑选电动30还是低压40，各格分开读"
   },
   "directAnswer": {
-    "en": "If the mix is fine stone and the pipe fits 60 m horizontal / 180 m vertical, Electric 30 is the printed row at 30 kW. If the fine-stone pipe needs the longer 80 m / 240 m window, open Electric Low Pressure 40 at 37 kW. Hebei Pinjin Machinery in Xingtai prints both as building pumps at 12–15 m³/h and 20 MPa. Only Electric 30 also prints aggregate 13 at 20 m / 60 m.",
-    "zh": "料是细石且管路落在水平 60 m / 垂直 180 m 内，电动30就是 30 kW 的那一行。细石管路需要更长的 80 m / 240 m 窗口，就打开 37 kW 的电动低压40。邢台河北品锦机械把两台都写成 12–15 m³/h、20 MPa 的建筑泵。只有电动30另外印了 13 骨料 20 m / 60 m。"
+    "en": "Read it in the Xingtai table. If the mix is fine stone and the pipe fits 60 m horizontal / 180 m vertical, Electric 30 is the printed row at 30 kW. Taken from the printed row: If the fine-stone pipe needs the longer 80 m / 240 m window, open Electric Low Pressure 40 at 37 kW. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints both as building pumps at 12–15 m³/h and 20 MPa. The neighbouring machine is not this sentence. Only Electric 30 also prints aggregate 13 at 20 m / 60 m.",
+    "zh": "按邢台表上的原文理解：料是细石且管路落在水平 60 m / 垂直 180 m 内，电动30就是 30 kW 的那一行。细石管路需要更长的 80 m / 240 m 窗口，就打开 37 kW 的电动低压40。邢台河北品锦机械把两台都写成 12–15 m³/h、20 MPa 的建筑泵。只有电动30另外印了 13 骨料 20 m / 60 m。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Same output does not mean the same distance",
-        "zh": "输送量相同不等于距离相同"
+        "en": "Structural design considerations",
+        "zh": "结构部位方案分项"
       },
       "body": {
-        "en": "Both list 12–15 m³/h, 20 MPa, hopper 0.3 m³, size 3300 × 1500 × 1500 mm and 1200 kg. The motors differ (30 kW and 37 kW). The fine-stone distances differ. Low-pressure 40 also prints a Kawasaki 112 hydraulic pump cell that Electric 30’s table does not list in the same way. Match the distance row you need, then the motor the site can feed.",
-        "zh": "两台都列了 12–15 m³/h、20 MPa、料斗 0.3 m³、外形 3300 × 1500 × 1500 mm 和 1200 kg。电机不同（30 kW 和 37 kW）。细石距离不同。低压40还印了川崎 112 液压泵格，电动30的表没有按同样方式列出。先对你需要的距离行，再对现场能供的电机。"
+        "en": "“Structural design considerations” is an outline label from “Shear wall”. That label does not add a figure to the printed row. Read it in the Xingtai table. Both print 12–15 m³/h and 20 MPa. Read it in the Xingtai table. If the fine-stone pipe needs the longer 80 m / 240 m window, open Electric Low Pressure 40 at 37 kW. Read it in the Xingtai table. The motors differ (30 kW and 37 kW). Read it in the Xingtai table. Electric 30 maximum aggregate is ≤ 3 cm, with the short aggregate-13 distance. Read it in the Xingtai table. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. Both print 1200 kg. Read it in the Xingtai table. It is the medium-building row. Image from the source page: https://en.wikipedia.org/wiki/Shear_wall",
+        "zh": "“结构部位方案分项”是《Shear wall》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：两台都是 12–15 m³/h、20 MPa。电动30细石是 60 m / 180 m，并另有 13 骨料行。低压40细石是 80 m / 240 m，没有 13 骨料行。按邢台表上的原文理解：只有你能确认料名是细石时，才写“细石”。按邢台表上的原文理解：/solutions/construction，因为两台产品都印了建筑与商业浇筑。图来自来源页面：https://en.wikipedia.org/wiki/Shear_wall"
       }
     },
     {
       "heading": {
-        "en": "Aggregate 13 has only one of these pages",
-        "zh": "13 骨料只在其中一页"
+        "en": "Arrangement in buildings with different functions",
+        "zh": "建筑作用"
       },
       "body": {
-        "en": "Electric 30 maximum aggregate is ≤ 3 cm, with the short aggregate-13 distance. Electric Low Pressure 40 does not print that second distance and does not print a maximum-aggregate cell in the specification list. A 13-aggregate building line should not be assigned to the low-pressure 40 from silence.",
-        "zh": "电动30最大骨料是 ≤ 3 cm，并有较短的 13 骨料距离。电动低压40没有印第二段距离，规格表里也没有最大骨料格。不能因为空白就把 13 骨料建筑管路分给低压40。"
+        "en": "This block keeps the heading “Arrangement in buildings with different functions” from “Shear wall”, then stays with the cells already published. Taken from the printed row: Electric 30 fine stone is 60 m / 180 m and also has aggregate 13. Xingtai-based Hebei Pinjin Machinery prints both as building pumps at 12–15 m³/h and 20 MPa. Taken from the printed row: The fine-stone distances differ. Taken from the printed row: Electric Low Pressure 40 does not print that second distance and does not print a maximum-aggregate cell in the specification list. Taken from the printed row: Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: The distances do not match just because the weight does. Taken from the printed row: /solutions/construction, because both products print building and commercial placement.",
+        "zh": "本节保留《Shear wall》的标题“建筑作用”，正文仍只谈已经公布的格子。料是细石且管路落在水平 60 m / 垂直 180 m 内，电动30就是 30 kW 的那一行。细石管路需要更长的 80 m / 240 m 窗口，就打开 37 kW 的电动低压40。河北品锦机械（邢台）把两台都写成 12–15 m³/h、20 MPa 的建筑泵。只有电动30另外印了 13 骨料 20 m / 60 m。目录里已经写着：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Construction methods",
+        "zh": "建造工法"
       },
       "body": {
-        "en": "Write “fine stone” only if that is the mix name you can stand behind. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "只有你能确认料名是细石时，才写“细石”。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "The section shape comes from “Construction methods” in “Shear wall”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Low-pressure 40 fine stone is 80 m / 240 m and has no aggregate-13 row. Keep this cell as published. Only Electric 30 also prints aggregate 13 at 20 m / 60 m. Keep this cell as published. Low-pressure 40 also prints a Kawasaki 112 hydraulic pump cell that Electric 30’s table does not list in the same way. Keep this cell as published. A 13-aggregate building line should not be assigned to the low-pressure 40 from silence. Do not attach a project name, a country job or a daily volume the catalogue leaves that cell blank for. Keep this cell as published. No.",
+        "zh": "这一节的形状来自《Shear wall》的“建造工法”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：两台都列了 12–15 m³/h、20 MPa、料斗 0.3 m³、外形 3300 × 1500 × 1500 mm 和 1200 kg。电机不同（30 kW 和 37 kW）。细石距离不同。低压40还印了川崎 112 液压泵格，电动30的表没有按同样方式列出。先对你需要的距离行，再对现场能供的电机。这一格照已印出的读：一样。两台都印 1200 kg。重量相同并不表示距离相同。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Nonplanar shear walls",
+        "zh": "剪切墙"
+      },
+      "body": {
+        "en": "“Shear wall” breaks its subject at “Nonplanar shear walls”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. If the mix is fine stone and the pipe fits 60 m horizontal / 180 m vertical, Electric 30 is the printed row at 30 kW. The neighbouring machine is not this sentence. Both list 12–15 m³/h, 20 MPa, hopper 0.3 m³, size 3300 × 1500 × 1500 mm and 1200 kg. The neighbouring machine is not this sentence. Match the distance row you need, then the motor the site can feed. The neighbouring machine is not this sentence. Write “fine stone” only if that is the mix name you can stand behind. The neighbouring machine is not this sentence. Yes. The neighbouring machine is not this sentence. Standard Electric 40 is 45 kW and 21 m³/h. Headings already printed: Aggregate 13 has only one of these pages",
+        "zh": "《Shear wall》在“剪切墙”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。电动30最大骨料是 ≤ 3 cm，并有较短的 13 骨料距离。电动低压40没有印第二段距离，规格表里也没有最大骨料格。不能因为空白就把 13 骨料建筑管路分给低压40。旁边那一台不在这句话里。不在。标准电动40是 45 kW、21 m³/h，属于中型建筑行。已印出的标题：13 骨料只在其中一页"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Are the weights the same?",
-        "zh": "重量一样吗？"
+        "en": "“Structural design considerations” does not change the check: Are the weights the same?",
+        "zh": "“结构部位方案分项”不改这一问：重量一样吗？"
       },
       "answer": {
-        "en": "Yes. Both print 1200 kg. The distances do not match just because the weight does.",
-        "zh": "一样。两台都印 1200 kg。重量相同并不表示距离相同。"
+        "en": "Read it in the Xingtai table. Yes. Both print 1200 kg. The distances do not match just because the weight does.",
+        "zh": "按邢台表上的原文理解：一样。两台都印 1200 kg。重量相同并不表示距离相同。"
       }
     },
     {
       "question": {
-        "en": "Is the standard Electric 40 in this pair?",
-        "zh": "标准电动40在这一对里吗？"
+        "en": "Is the standard Electric 40 in this pair, once the outline says “Arrangement in buildings with different functions”?",
+        "zh": "大纲写着“建筑作用”时，标准电动40在这一对里吗？"
       },
       "answer": {
-        "en": "No. Standard Electric 40 is 45 kW and 21 m³/h. It is the medium-building row.",
-        "zh": "不在。标准电动40是 45 kW、21 m³/h，属于中型建筑行。"
+        "en": "Taken from the printed row: No. Standard Electric 40 is 45 kW and 21 m³/h. It is the medium-building row.",
+        "zh": "目录里已经写着：不在。标准电动40是 45 kW、21 m³/h，属于中型建筑行。"
       }
     },
     {
       "question": {
-        "en": "Which solution page applies?",
-        "zh": "对应哪一页应用？"
+        "en": "Under “Construction methods”, which solution page applies?",
+        "zh": "在“建造工法”这一节里，对应哪一页应用？"
       },
       "answer": {
-        "en": "/solutions/construction, because both products print building and commercial placement.",
-        "zh": "/solutions/construction，因为两台产品都印了建筑与商业浇筑。"
+        "en": "Keep this cell as published. /solutions/construction, because both products print building and commercial placement.",
+        "zh": "这一格照已印出的读：/solutions/construction，因为两台产品都印了建筑与商业浇筑。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/electric-30-or-low-pressure-40-fine-stone.webp",
+    "src": "/images/articles/applications/electric-30-or-low-pressure-40-fine-stone.jpg",
     "alt": {
-      "en": "Low-pressure Electric 40 from Xingtai compared with Electric 30 for fine-stone building lines",
-      "zh": "邢台电动低压40，与电动30对照细石建筑管路"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Shear_wall",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Shear_wall"
     }
   },
   "relatedPaths": [
@@ -130,7 +144,12 @@
     "https://pinjinpump.com/products/electric-30-concrete-pump",
     "https://pinjinpump.com/products/electric-low-pressure-40-concrete-pump",
     "https://pinjinpump.com/solutions/construction",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Shear_wall"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

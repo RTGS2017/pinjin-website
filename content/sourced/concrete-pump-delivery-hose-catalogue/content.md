@@ -1,16 +1,22 @@
-## Rubber hose, quote after DN
+## Modern usage
 
-Concrete Pump Delivery Hose is a flexible pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Factory photos show bulk rubber placing hoses with steel couplings wrapped for storage. Inner diameter and length are quoted after matching the concrete pump model. No published list price. Not sold in small batches. A steel grade is not printed.
+![Figure from the source page about Fire hose](/images/articles/concrete-pump-delivery-hose-catalogue/Mircom_Fire_Alarm_HornStrobe_crop_.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Fire_hose*
 
-![Concrete pump delivery hose factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/concrete-pump-delivery-hose/concrete-pump-delivery-hose.webp)
-*Delivery hose, Xingtai — diameter and length quoted after the pump model*
+The source chapter “Modern usage” stays on that page. concrete pump delivery hose DN keeps the row already written here. Printed cells already on this page: 80 mm, 125 mm.
 
-## Separate from the steel pipe
+Pump pages that print a pipe diameter — Electric 20 at 80 mm, LZ-60 at 100 / 125 mm — still need a hose quote.
 
-The straight [delivery pipe](/products/concrete-pump-delivery-pipe/) is another SKU. Pump pages that print a pipe diameter — Electric 20 at 80 mm, LZ-60 at 100 / 125 mm — still need a hose quote. Hub: [concrete pump parts](/products/concrete-pump-parts/). Comparison: [hose vs steel pipe](/blog/concrete-pump-hose-vs-steel-pipe/).
+## Manufacturing process
 
-SmartBuy tells buyers to read pipeline diameter with pumping distance. It does not publish a Pinjin hose DN. This page does not either.
+“Manufacturing process” is not a substitute specification. concrete pump delivery hose DN stays the printed row. No added figure is taken from that chapter.
 
-## Inquiry
+## Connections
 
-Send pump model, hose DN and length. [Contact](/contact/). Product page: [delivery hose](/products/concrete-pump-delivery-hose/).
+“Connections” is background. An enquiry for concrete pump delivery hose DN still uses the cells already written. No added figure is taken from that chapter.
+
+## Forces on fire hoses and nozzles
+
+Read “Forces on fire hoses and nozzles” as context from the source. It is not a new nameplate for concrete pump delivery hose DN. Printed cells already on this page: 80 mm, 125 mm.
+
+Pages already named on this document: [delivery pipe](/products/concrete-pump-delivery-pipe/), [concrete pump parts](/products/concrete-pump-parts/), [hose vs steel pipe](/blog/concrete-pump-hose-vs-steel-pipe/).

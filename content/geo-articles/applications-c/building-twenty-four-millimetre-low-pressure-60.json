@@ -11,25 +11,25 @@
     "zh": "电动低压60建筑浇筑"
   },
   "title": {
-    "en": "This is a grid-powered building pour through a pipeline — Electric Low Pressure 60. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
-    "zh": "这是有电网、走管道的建筑浇筑：电动低压60。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
+    "en": "One window only: This is a grid-powered building pour through a pipeline — Electric Low Pressure 60. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
+    "zh": "只留一个窗口：这是有电网、走管道的建筑浇筑：电动低压60。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
   },
   "description": {
-    "en": "This is a grid-powered building pour through a pipeline. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Hebei Pinjin",
-    "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、"
+    "en": "Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. Taken from the printed row: The model cell also prints Electric 75-60. Keep this cell as published. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. The neighbouring machine is not this sentence. The photograph is a working-condition reference from a public article about this kind of work. Read it in the Xingtai table. It is not a Pinjin contract record. Taken from the printed row: This page names no project, no country job, no price and no daily volume.",
+    "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。先不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "h1": {
-    "en": "This is a grid-powered building pour through a pipeline — Electric Low Pressure 60. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
-    "zh": "这是有电网、走管道的建筑浇筑：电动低压60。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
+    "en": "One window only: This is a grid-powered building pour through a pipeline — Electric Low Pressure 60. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
+    "zh": "只留一个窗口：这是有电网、走管道的建筑浇筑：电动低压60。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
   },
   "directAnswer": {
-    "en": "This is a grid-powered building pour through a pipeline. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. The model cell also prints Electric 75-60. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-    "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+    "en": "Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. Taken from the printed row: The model cell also prints Electric 75-60. Keep this cell as published. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. The neighbouring machine is not this sentence. The photograph is a working-condition reference from a public article about this kind of work. Read it in the Xingtai table. It is not a Pinjin contract record. Taken from the printed row: This page names no project, no country job, no price and no daily volume.",
+    "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。先不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "answerBlock": {
     "what": {
-      "en": "This is a grid-powered building pour through a pipeline. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. The model cell also prints Electric 75-60. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-      "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+      "en": "Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. Taken from the printed row: The model cell also prints Electric 75-60. Keep this cell as published. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. The neighbouring machine is not this sentence. The photograph is a working-condition reference from a public article about this kind of work. Read it in the Xingtai table. It is not a Pinjin contract record. Taken from the printed row: This page names no project, no country job, no price and no daily volume.",
+      "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。先不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
@@ -43,72 +43,96 @@
   "sections": [
     {
       "heading": {
-        "en": "What the pour has to match",
-        "zh": "浇筑要对上什么"
+        "en": "Components",
+        "zh": "组成部分"
       },
       "body": {
-        "en": "This is a grid-powered building pour through a pipeline. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. The published Electric Low Pressure 60 row is 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. The model cell also prints Electric 75-60.",
-        "zh": "这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。已公布的电动低压60是75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。"
+        "en": "Borrow “Components” from “Electric motor” as the skeleton, and fill it with the printed window for this page. Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. The model cell also prints Electric 75-60. Read it in the Xingtai table. This is a grid-powered building pour through a pipeline. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. The published Electric Low Pressure 60 row is 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. The neighbouring machine is not this sentence. It is not a Pinjin contract record. Read it in the Xingtai table. No. Taken from the printed row: Electric Low Pressure 60 prints theoretical catalogue figures only. Image from the source page: https://en.wikipedia.org/wiki/Electric_motor",
+        "zh": "把《Electric motor》的“组成部分”借来当骨架，里面填的是本页这一格已经印出的窗口。这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、 这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。先不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。旁边那一台不在这句话里。不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。图来自来源页面：https://en.wikipedia.org/wiki/Electric_motor"
       }
     },
     {
       "heading": {
-        "en": "Do not slide onto the neighbouring row",
-        "zh": "不要滑到相邻的那一行"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "Electric 60 prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. The shared job site in the photograph does not merge the two tables. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-        "zh": "电动60印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+        "en": "The reference page “Electric motor” uses “History” as one of its own divisions. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Read it in the Xingtai table. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. Taken from the printed row: On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Keep this cell as published. It is not a Pinjin contract record. The neighbouring machine is not this sentence. The model cell also prints Electric 75-60. Read it in the Xingtai table. This page names no project, no country job, no price and no daily volume. Taken from the printed row: It shows this kind of work. Keep this cell as published. This page names no floor, no contract volume and no price.",
+        "zh": "来源页《Electric motor》用“沿革”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。邢台河北品锦机械把电动低压60列为75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。不要把同一工况挪到电动60，那一行印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。按邢台表上的原文理解：在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
       }
     },
     {
       "heading": {
-        "en": "What Xingtai should receive",
-        "zh": "向邢台要带上什么"
+        "en": "Inputs",
+        "zh": "输入"
       },
       "body": {
-        "en": "Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job, a price or a daily volume.",
-        "zh": "请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。"
+        "en": "“Inputs” is an outline label from “Electric motor”. That label does not add a figure to the printed row. Read it in the Xingtai table. Hebei Pinjin This is a grid-powered building pour through a pipeline. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. This note names no project, no country job, no price and no daily volume. Read it in the Xingtai table. Electric 60 prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. Taken from the printed row: Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Keep this cell as published. Hebei Pinjin Machinery does not name it as a contract record.",
+        "zh": "“输入”是《Electric motor》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：这是有电网、走管道的建筑浇筑。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。已公布的电动低压60是75 kW、35 m³/h、30 MPa、细石 150 m / 350 m、13 mm 石子 100 m / 300 m、24 mm 石子 80 m / 240 m、料斗 0.5 m³、川崎双泵 100、外形 4600 × 1700 × 1700 mm、3500 kg。型号格同时印 Electric 75-60。目录里已经写着：不是。电动低压60只印理论目录数字。本页不写楼层、合同方量或价格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Types",
+        "zh": "类型"
+      },
+      "body": {
+        "en": "This block keeps the heading “Types” from “Electric motor”, then stays with the cells already published. Taken from the printed row: On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Keep this cell as published. It is not a Pinjin contract record. The neighbouring machine is not this sentence. The model cell also prints Electric 75-60. Read it in the Xingtai table. This is a grid-powered building pour through a pipeline. Taken from the printed row: The shared job site in the photograph does not merge the two tables. Keep this cell as published. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. The neighbouring machine is not this sentence. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
+        "zh": "本节保留《Electric motor》的标题“类型”，正文仍只谈已经公布的格子。目录里已经写着：电动60印的是90 kW、40 m³/h、35 MPa、细石 200 m / 600 m、13 mm 石子 150 m / 450 m、24 mm 石子 100 m / 300 m、料斗 0.7 m³、川崎双泵 112、外形 6600 × 1800 × 1800 mm、3300 kg。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Self-commutated motor",
+        "zh": "自整流电机"
+      },
+      "body": {
+        "en": "The section shape comes from “Self-commutated motor” in “Electric motor”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists Electric Low Pressure 60 at 75 kW, 35 m³/h, 30 MPa, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, hopper 0.5 m³, Kawasaki double pump 100, 4600 × 1700 × 1700 mm and 3500 kg. The neighbouring machine is not this sentence. This page names no project, no country job, no price and no daily volume. Read it in the Xingtai table. Do not move the same condition onto Electric 60, which prints 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 13 mm stone 150 m / 450 m, 24 mm stone 100 m / 300 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm and 3300 kg. Taken from the printed row: On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW. Keep this cell as published. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. Do not attach a project name, a country job, a price or a daily volume. Read it in the Xingtai table. No.",
+        "zh": "这一节的形状来自《Electric motor》的“自整流电机”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is the photograph a Pinjin jobsite?",
-        "zh": "这张照片是品锦的工地吗？"
+        "en": "Under “Components”, is the photograph a Pinjin jobsite?",
+        "zh": "在“组成部分”这一节里，这张照片是品锦的工地吗？"
       },
       "answer": {
-        "en": "No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
-        "zh": "不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
+        "en": "Keep this cell as published. No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
+        "zh": "这一格照已印出的读：不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
       }
     },
     {
       "question": {
-        "en": "What does the Electric Low Pressure 60 row print for this check?",
-        "zh": "电动低压60这一行，这次要核对的数字是什么？"
+        "en": "What should stay printed beside “History” — What does the Electric Low Pressure 60 row print for this check?",
+        "zh": "“沿革”旁边仍要印着的是什么：电动低压60这一行，这次要核对的数字是什么？"
       },
       "answer": {
-        "en": "On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
-        "zh": "在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
+        "en": "The neighbouring machine is not this sentence. On this low-pressure row the 24 mm cell is 80 m horizontal / 240 m vertical, and the motor is 75 kW.",
+        "zh": "旁边那一台不在这句话里。在这条低压行上，24 mm 格是水平 80 m / 垂直 240 m，电机是 75 kW。"
       }
     },
     {
       "question": {
-        "en": "Is the printed output a contract volume?",
-        "zh": "印出的输送量是合同方量吗？"
+        "en": "“Inputs” does not change the check: Is the printed output a contract volume?",
+        "zh": "“输入”不改这一问：印出的输送量是合同方量吗？"
       },
       "answer": {
-        "en": "No. Electric Low Pressure 60 prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
-        "zh": "不是。电动低压60只印理论目录数字。本页不写楼层、合同方量或价格。"
+        "en": "Read it in the Xingtai table. No. Electric Low Pressure 60 prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
+        "zh": "按邢台表上的原文理解：不是。电动低压60只印理论目录数字。本页不写楼层、合同方量或价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications-c/building-twenty-four-millimetre-low-pressure-60.webp",
+    "src": "/images/articles/applications/building-twenty-four-millimetre-low-pressure-60.png",
     "alt": {
-      "en": "This is a grid-powered building pour through a pipeline. Published row: Electric Low Pressure 60, Hebei Pinjin Machinery, Xingtai.",
-      "zh": "这是有电网、走管道的建筑浇筑。已公布机型：电动低压60，河北品锦机械，邢台。"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Electric_motor",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Electric_motor"
     }
   },
   "relatedPaths": [
@@ -124,7 +148,8 @@
     "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-low-pressure-60-concrete-pump/",
     "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
-    "https://pinjinpump.com/zh/products/electric-60-concrete-pump/"
+    "https://pinjinpump.com/zh/products/electric-60-concrete-pump/",
+    "https://en.wikipedia.org/wiki/Electric_motor"
   ],
   "status": "ready"
 }

@@ -1,27 +1,22 @@
-## Massa e envelope impressos — não um kit rodoviário
+## Hitching
 
-Hebei Pinjin Machinery prints weight and L×W×H on each trailer página do produto. Those cells are what we will quote. We will not invent a CDL class, axle rating, tyre load index or homologação rodoviária.
+![Figura da página de origem sobre Trailer (vehicle)](/images/articles/trailer-concrete-pump-towing-chassis/Camel_bus_in_Havana.jpg)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Trailer_(vehicle)*
 
-| Model | Mass | L×W×H (mm) |
-| [Electric 15](/products/electric-15-concrete-pump/) | 450 kg | 1900×900×1200 |
-| [Electric 20](/products/electric-20-concrete-pump/) | 900 kg | 2800 × 1300 × 1500 |
-| [Electric 30](/products/electric-30-concrete-pump/) | 1200 kg | 3300 × 1500 × 1500 |
-| [Electric 40](/products/electric-40-concrete-pump/) | 2300 kg | 3900 × 1500 × 1600 |
-| [Electric 80](/products/electric-80-concrete-pump/) | 6000 kg | 6600 × 1800 × 1800 |
+Leia “Hitching” como contexto da origem. Não é uma placa nova para Trailer Concrete Pump Towing, Chassis and Site Move. Valores já impressos nesta página: 450 kg, 900 kg, 1200 kg, 2300 kg, 6000 kg, 2000 kg, 6500 kg, 4500 kg.
 
-Diesel 30 lists 2000 kg. HBT8018 lists 6500 kg. Integrated bomba misturadora lists 4500 kg. Read the página do produto for the row you are buying — do not mix columns.
+As casas em branco nesta página continuam em branco. “Hitching” não as preenche.
 
-![Electric 40 trailer chassis from Hebei Pinjin Machinery in Xingtai](/images/products/electric-40-concrete-pump/main.webp)
-*Electric 40 — 2300 kg, 3900 × 1500 × 1600 mm. Site photo of a trailer frame, not a highway certificate.*
+## Jacks
 
-## Prática de engate ACPA vs desenhos Pinjin
+Abrir a origem em “Jacks” é ler essa página, não um segundo catálogo de Trailer Concrete Pump Towing, Chassis and Site Move. Esse capítulo não acrescenta valor.
 
-ACPA’s study guide discusses hitch, corrente de segurança and not towing or dragging a pipeline that is still charged. Relieve pressure before moving. That is operator practice, not a Pinjin axle drawing.
+## Electrical components
 
-The [trailer vs boom](/blog/trailer-concrete-pump-vs-boom-pump/) page already explains why these machines are line pumps on a chassis, not truck booms. This page is only mass, envelope and the “não invente a road kit” note. [Mini / narrow-access](/blog/mini-concrete-pump-narrow-space/) covers door width for Electric 15.
+“Electrical components” é um capítulo da página de origem. Não muda o nome de Trailer Concrete Pump Towing, Chassis and Site Move. Esse capítulo não acrescenta valor.
 
-Hopper and grate still get a daily check after the move — [hopper grille](/blog/concrete-pump-hopper-grille-agitator/). A bounced grate is a blockage cause, not a towing feature.
+## Stability
 
-## Consulta
+Trailer Concrete Pump Towing, Chassis and Site Move continua a ser a linha que este texto já tinha. “Stability” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 450 kg, 900 kg, 1200 kg, 2300 kg, 6000 kg, 2000 kg, 6500 kg, 4500 kg.
 
-Model slug, whether the move is on-site skidding or public-road towing, crane or tractor you will use. Unpublished hitch SKUs are not promised. [Contact](/contact/).
+Páginas já indicadas neste texto: [Electric 15](/products/electric-15-concrete-pump/), [Electric 20](/products/electric-20-concrete-pump/), [Electric 30](/products/electric-30-concrete-pump/).

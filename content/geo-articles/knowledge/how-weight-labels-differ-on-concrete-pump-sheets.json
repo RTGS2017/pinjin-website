@@ -6,100 +6,110 @@
     "zh": "混凝土泵重量标题净重总重整机怎么区分"
   },
   "title": {
-    "en": "How Weight Labels Differ on Concrete Pump Sheets",
-    "zh": "混凝土泵参数页的重量标题有什么不同"
+    "en": "Reinforced concrete does not replace what Weight Labels Differ on Concrete Pump Sheets lists",
+    "zh": "「钢筋混凝土」不能替换混凝土泵参数页的重量标题有什么不同列出的数字"
   },
   "description": {
-    "en": "Xingtai sheets say main unit weight, total weight or net weight. The kilograms belong to the label on that page.",
-    "zh": "邢台参数页写整机重量、总重或净重。千克数属于该页的标题。"
+    "en": "Weight Labels Differ on Concrete Pump Sheets. 280 kg stays in the catalogue entry. Illustration: Reinforced concrete.",
+    "zh": "混凝土泵参数页的重量标题有什么不同。280 kg仍在目录格子里。插图来自「钢筋混凝土」。"
   },
   "h1": {
-    "en": "How Weight Labels Differ on Concrete Pump Sheets",
-    "zh": "混凝土泵参数页的重量标题有什么不同"
+    "en": "Reinforced concrete does not replace what Weight Labels Differ on Concrete Pump Sheets lists",
+    "zh": "「钢筋混凝土」不能替换混凝土泵参数页的重量标题有什么不同列出的数字"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints machine weight on its Xingtai concrete pumps, and the English label is not identical everywhere. Many trailer rows say main unit weight. HBT8018, LZ-60 and the tractor page say total weight. B500S-83D says net weight, 280 kg. Diesel 120 prints 8000 kg. Electric 10 prints 400 kg. The kilograms are not theoretical output, and a heavier row is not automatically a higher m³/h row.",
-    "zh": "河北品锦机械在邢台混凝土泵上印了机器重量，英文标题并不处处相同。许多拖泵行写整机重量。HBT8018、LZ-60 和拖拉机页写总重。B500S-83D 写净重 280 kg。柴油120印 8000 kg。电动10印 400 kg。千克数不是理论输送量，更重的一行也不自动是更高的立方米每小时。"
+    "en": "Hebei Pinjin Machinery lists machine weight on its Xingtai concrete pumps, and the English label is not identical everywhere. Many trailer rows say main unit weight. The picture is from https://en.wikipedia.org/wiki/Reinforced_concrete.",
+    "zh": "河北品锦机械在邢台混凝土泵上标出了机器重量，英文标题并不处处相同。HBT8018、LZ-60 和拖拉机页写总重。图片来自https://en.wikipedia.org/wiki/Reinforced_concrete。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Labels you will actually see",
-        "zh": "你会看到的标题"
+        "en": "Description",
+        "zh": "描述"
       },
       "body": {
-        "en": "Electric 20 prints main unit weight 900 kg. Electric 15 prints total weight 450 kg. B500S-83D prints net weight 280 kg. The Chinese line on these pages is 整机重量. Hebei Pinjin Machinery does not print a second weight, such as an axle load, beside that cell.",
-        "zh": "电动20的整机重量为 900 kg。电动15的整机重量为 450 kg。B500S-83D 的净重为 280 kg。这些页面的中文行是整机重量。河北品锦机械没有在这一格旁边再印第二项重量，例如轴荷。"
+        "en": "The figure is the one published at https://en.wikipedia.org/wiki/Reinforced_concrete: Reinforced concrete. Hebei Pinjin Machinery lists machine weight on its Xingtai concrete pumps, and the English label is not identical everywhere. Diesel 120 lists 8000 kg. Electric 15 lists total weight 450 kg. Electric 10 lists 400 kg and 21 m³/h. Compare weight with weight and output with output.",
+        "zh": "这张图是https://en.wikipedia.org/wiki/Reinforced_concrete页上的Reinforced concrete。河北品锦机械在邢台混凝土泵上标出了机器重量，英文标题并不处处相同。B500S-83D 的净重为 280 kg。柴油120标出 8000 kg 和 100 m³/h。"
       }
     },
     {
       "heading": {
-        "en": "Weight does not rank output",
-        "zh": "重量不能用来给产量排序"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "Electric 10 prints 400 kg and 21 m³/h. Electric 20 prints 900 kg and 8–10 m³/h. The lighter page has the higher printed output. Diesel 120 prints 8000 kg and 100 m³/h. Compare weight with weight and output with output.",
-        "zh": "电动10印 400 kg 和 21 m³/h。电动20印 900 kg 和 8–10 m³/h。更轻的一页印出了更高的产量。柴油120印 8000 kg 和 100 m³/h。重量和重量比，产量和产量比。"
+        "en": "Many trailer rows say main unit weight. Electric 10 lists 400 kg. B500S-83D lists net weight 280 kg. Electric 20 lists 900 kg and 8–10 m³/h. HBT8018 and HBT80-16 both list 6500 kg, but their output entries are 60 m³/h and 50 m³/h.",
+        "zh": "HBT8018、LZ-60 和拖拉机页写总重。河北品锦机械没有在这一格旁边再标出第二项重量，例如轴荷。HBT8018 和 HBT80-16 都标出 6500 kg，但产量格分别是 60 m³/h 和 50 m³/h。"
       }
     },
     {
       "heading": {
-        "en": "Do not mix the figures",
-        "zh": "不要把数字混用"
+        "en": "Use in construction",
+        "zh": "在施工中的用途"
       },
       "body": {
-        "en": "HBT8018 and HBT80-16 both print 6500 kg, but their output cells are 60 m³/h and 50 m³/h. Equal weight does not equal the rest of the sheet. Open the product page rather than a weight-only shortlist.",
-        "zh": "HBT8018 和 HBT80-16 都印 6500 kg，但产量格分别是 60 m³/h 和 50 m³/h。重量相同不等于整页相同。请打开产品页，而不是只按重量列清单。"
+        "en": "HBT8018, LZ-60 and the tractor page say total weight. The kilograms are not theoretical output, and a heavier row is not automatically a higher m³/h row. The Chinese line on these pages is 整机重量. The lighter page has the higher shown output. Equal weight does not equal the rest of the sheet.",
+        "zh": "B500S-83D 写净重 280 kg。电动10标出 400 kg 和 21 m³/h。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Behavior",
+        "zh": "性能表现"
+      },
+      "body": {
+        "en": "B500S-83D says net weight, 280 kg. Electric 20 lists main unit weight 900 kg. Hebei Pinjin Machinery does not list a second weight, such as an axle load, beside that entry. Diesel 120 lists 8000 kg and 100 m³/h. Open the product page rather than a weight-only shortlist.",
+        "zh": "千克数不是理论输送量，更重的一行也不自动是更高的立方米每小时。电动20标出 900 kg 和 8–10 m³/h。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What is the lightest printed weight?",
-        "zh": "印出的最轻重量是多少？"
+        "en": "What is the lightest shown weight?",
+        "zh": "写出的最轻重量是多少？"
       },
       "answer": {
-        "en": "B500S-83D prints 280 kg. That is the net-weight cell on its page.",
-        "zh": "B500S-83D 印 280 kg。这是它页面上的净重格。"
+        "en": "B500S-83D lists 280 kg. That is the net-weight entry on its page. It is not a figure printed inside https://en.wikipedia.org/wiki/Reinforced_concrete.",
+        "zh": "B500S-83D 标出 280 kg。这是它页面上的净重格。它不是https://en.wikipedia.org/wiki/Reinforced_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What is the heaviest printed weight?",
-        "zh": "印出的最重重量是多少？"
+        "en": "What is the heaviest shown weight?",
+        "zh": "写出的最重重量是多少？"
       },
       "answer": {
-        "en": "Diesel 120 prints 8000 kg as main unit weight.",
-        "zh": "柴油120的整机重量印 8000 kg。"
+        "en": "Diesel 120 lists 8000 kg as main unit weight. It is not a figure printed inside https://en.wikipedia.org/wiki/Reinforced_concrete.",
+        "zh": "柴油120的整机重量标出 8000 kg。它不是https://en.wikipedia.org/wiki/Reinforced_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 10 weigh 400 kg?",
+        "en": "On this row: Does Electric 10 weigh 400 kg?",
         "zh": "电动10是 400 kg 吗？"
       },
       "answer": {
-        "en": "The page prints main unit weight 400 kg. It also prints 21 m³/h, which is a different cell.",
-        "zh": "该页整机重量印 400 kg。它还印 21 m³/h，那是另一格。"
+        "en": "The page lists main unit weight 400 kg. It also lists 21 m³/h, which is a different entry. It is not a figure printed inside https://en.wikipedia.org/wiki/Reinforced_concrete.",
+        "zh": "该页整机重量标出 400 kg。它还标出 21 m³/h，那是另一格。它不是https://en.wikipedia.org/wiki/Reinforced_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Are total weight and net weight a published conversion?",
+        "en": "On this row: Are total weight and net weight a published conversion?",
         "zh": "总重和净重有公布的换算吗？"
       },
       "answer": {
-        "en": "No. Use the label and the number printed on the concrete pump you opened.",
-        "zh": "没有。使用你打开的那台混凝土泵上的标题和数字。"
+        "en": "No. Use the label and the number shown on the concrete pump you opened. It is not a figure printed inside https://en.wikipedia.org/wiki/Reinforced_concrete.",
+        "zh": "没有。使用你打开的那台混凝土泵上的标题和数字。它不是https://en.wikipedia.org/wiki/Reinforced_concrete画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-weight-labels-differ-on-concrete-pump-sheets-pinjin.webp",
+    "src": "/images/articles/knowledge/how-weight-labels-differ-on-concrete-pump-sheets-reinforced-concrete.jpg",
     "alt": {
-      "en": "How Weight Labels Differ on Concrete Pump Sheets, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "混凝土泵参数页的重量标题有什么不同，河北品锦机械，河北邢台"
+      "en": "Reinforced concrete. Image from the source page: https://en.wikipedia.org/wiki/Reinforced_concrete.",
+      "zh": "Reinforced concrete。图来自来源页：https://en.wikipedia.org/wiki/Reinforced_concrete。"
     }
   },
   "relatedPaths": [
@@ -132,7 +142,8 @@
     "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Reinforced_concrete"
   ],
   "status": "draft"
 }

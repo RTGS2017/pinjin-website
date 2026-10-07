@@ -1,7 +1,7 @@
 {
-  "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer",
-  "seoTitle": "Fine Stone Concrete Pump vs Mortar Sprayer | Pinjin",
-  "description": "Fine-stone trailer pumps move stone concrete in pipe. Pinjin spraying machines spray mortar, concrete or plaster through a hose at ≤8 mm or ≤4 mm particle. Compare Electric Low Pressure 40 (12–15 m³/h, fine-stone 80/240 m) with the hydraulic sprayer (5 m³/h, ≤8 mm) and M9 plaster (30 L/min, ≤4 mm).",
+  "title": "Plaster — Clay plaster / Gypsum plaster / Lime plaster / Cement plaster",
+  "seoTitle": "Plaster — Clay plaster",
+  "description": "Read “Clay plaster” as context from the source. It is not a new nameplate for fine stone concrete pump vs mortar sprayer. Printed cells already on this page: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
   "primaryKeyword": "fine stone concrete pump vs mortar sprayer",
   "secondaryKeywords": [
     "mortar spraying machine",
@@ -54,13 +54,15 @@
     }
   ],
   "answerBlock": {
-    "what": "A fine-stone concrete pump is a trailer that pipelines concrete whose stone sits in the published aggregate / fine-stone row (example: Electric Low Pressure 40, 12–15 m³/h, 20 MPa, fine-stone 80 m / 240 m). A mortar or plaster sprayer is a finishing machine: Pinjin hydraulic concrete sprayers list 5 or 7 m³/h, 8 MPa, particle ≤8 mm; M9 plaster lists 30 L/min, 50 bar, particle ≤4 mm. They are not interchangeable.",
-    "who": "Buyers who were quoted both a ‘fine stone pump’ and a ‘mortar sprayer’ for floor or wall work and need the particle-size split.",
+    "what": "Read “Clay plaster” as context from the source. It is not a new nameplate for fine stone concrete pump vs mortar sprayer. Printed cells already on this page: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+    "who": "Readers checking fine stone concrete pump vs mortar sprayer against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Particle / stone size: centimetres on trailers versus ≤8 mm or ≤4 mm on sprayers",
-      "Output units: m³/h on pumps versus m³/h or L/min on sprayers",
-      "Hose versus pipeline DN",
-      "Job: structural / floor fill versus finishing spray"
+      "12–15 m³/h",
+      "8–10 m³/h",
+      "1–3 cm",
+      "20 MPa",
+      "3 cm",
+      "5 m³/h"
     ],
     "relatedModels": [
       "electric-low-pressure-40-concrete-pump",
@@ -71,20 +73,25 @@
   },
   "faqs": [
     {
-      "question": "Can I pump 1–3 cm stone with a Pinjin spraying machine?",
-      "answer": "No. Hydraulic sprayers list particle ≤8 mm; the diesel sprayer lists ≤6 mm; M9 lists ≤4 mm. 1–3 cm stone belongs on a trailer pump such as Electric 15 or Electric 30."
+      "question": "Does “Clay plaster” add a cell to fine stone concrete pump vs mortar sprayer?",
+      "answer": "No. Floor-heating backfill, screed with stone, columns and beams with 1–3 cm stone — those stay on the pump side."
     },
     {
-      "question": "Is the M9 a fine-stone concrete pump?",
-      "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+      "question": "Can “Gypsum plaster” fill a blank cell for fine stone concrete pump vs mortar sprayer?",
+      "answer": "No. Blank cells for fine stone concrete pump vs mortar sprayer stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp",
-    "alt": "Hydraulic concrete spraying machine from Hebei Pinjin Machinery Xingtai, particle ≤8 mm",
-    "caption": "Hydraulic concrete spraying machine, Xingtai catalogue — 5 m³/h, particle ≤8 mm, not a trailer pump"
+    "src": "/images/articles/fine-stone-concrete-pump-vs-mortar-sprayer/Nymph_MET_DP214931.jpg",
+    "alt": "Figure from the source page about Plaster",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Plaster"
   },
   "sources": [
+    {
+      "name": "Plaster (source page)",
+      "url": "https://en.wikipedia.org/wiki/Plaster",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric Low Pressure 40 product page",
       "url": "https://pinjinpump.com/en/products/electric-low-pressure-40-concrete-pump/",
@@ -109,9 +116,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer",
-      "description": "Fine-stone 拖式泵s move stone concrete in pipe. 品锦 spraying machines spray mortar, concrete or plaster through a hose at ≤8 mm or ≤4 mm particle. Compare Electric Low Pressure 40 (12–15 m³/h, 细石 80/240 m) with the hydraulic sprayer (5 m³/h, ≤8 mm) and M9 plaster (30 L/min, ≤4 mm).",
-      "imageAlt": "Hydraulic concrete spraying machine from 河北品锦机械 邢台, particle ≤8 mm",
+      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer：Plaster（Clay plaster / Gypsum plaster / Lime plaster / Cement plaster）",
+      "description": "「Clay plaster」只作来源页上的背景，不是给Fine Stone Concrete Pump vs Mortar and Plaster Sprayer新造的铭牌。本页已经印出的读数：12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm。",
+      "imageAlt": "来源页插图：Plaster",
       "relatedPathLabels": [
         "Concrete spraying machine manufacturer China",
         "Low pressure 细石 电动40 guide",
@@ -119,32 +126,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "A 细石 concrete pump is a trailer that pipelines concrete whose stone sits in the published 骨料 / 细石 row (example: Electric Low Pressure 40, 12–15 m³/h, 20 MPa, 细石 80 m / 240 m). A mortar or plaster sprayer is a finishing machine: 品锦 hydraulic concrete sprayers list 5 or 7 m³/h, 8 MPa, particle ≤8 mm; M9 plaster lists 30 L/min, 50 bar, particle ≤4 mm. They are not interchangeable.",
-        "who": "Buyers who were quoted both a ‘细石 pump’ and a ‘砂浆喷涂机’ for floor or wall work and need the particle-size split.",
+        "what": "「Clay plaster」只作来源页上的背景，不是给Fine Stone Concrete Pump vs Mortar and Plaster Sprayer新造的铭牌。本页已经印出的读数：12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm。",
+        "who": "想把Fine Stone Concrete Pump vs Mortar and Plaster Sprayer和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Particle / stone size: centimetres on trailers versus ≤8 mm or ≤4 mm on sprayers",
-          "Output units: m³/h on pumps versus m³/h or L/min on sprayers",
-          "Hose versus pipeline DN",
-          "Job: structural / floor fill versus finishing spray"
+          "12–15 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "20 MPa",
+          "3 cm",
+          "5 m³/h"
         ]
       },
-      "seoTitle": "Fine Stone Concrete Pump vs Mortar Sprayer | 品锦",
-      "imageCaption": "Hydraulic concrete spraying machine, 邢台 catalogue — 5 m³/h, particle ≤8 mm, not a 拖式泵",
+      "seoTitle": "Plaster：Clay plaster",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Plaster",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with a 品锦 spraying machine?",
-          "answer": "No. Hydraulic sprayers list particle ≤8 mm; the diesel sprayer lists ≤6 mm; M9 lists ≤4 mm. 1–3 cm stone belongs on a 拖式泵 such as 电动15 or 电动30."
+          "question": "「Clay plaster」会给Fine Stone Concrete Pump vs Mortar and Plaster Sprayer增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm。"
         },
         {
-          "question": "Is the M9 a 细石 concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "「Gypsum plaster」能补上Fine Stone Concrete Pump vs Mortar and Plaster Sprayer的空白格吗？",
+          "answer": "不能。Fine Stone Concrete Pump vs Mortar and Plaster Sprayer没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer",
-      "description": "Fine-stone bomba reboques move stone concrete in pipe. Pinjin spraying machines spray mortar, concrete or plaster through a hose at ≤8 mm or ≤4 mm particle. Compare Electric Low Pressure 40 (12–15 m³/h, pedra fina 80/240 m) with the hydraulic sprayer (5 m³/h, ≤8 mm) and M9 plaster (30 L/min, ≤4 mm).",
-      "imageAlt": "Hydraulic concrete spraying machine from Hebei Pinjin Machinery Xingtai, particle ≤8 mm",
+      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer: Plaster — Clay plaster / Gypsum plaster / Lime plaster / Cement plaster",
+      "description": "Leia “Clay plaster” como contexto da origem. Não é uma placa nova para Fine Stone Concrete Pump vs Mortar and Plaster Sprayer. Valores já impressos nesta página: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+      "imageAlt": "Figura da página de origem sobre Plaster",
       "relatedPathLabels": [
         "Concrete spraying machine manufacturer China",
         "Low pressure pedra fina Electric 40 guide",
@@ -152,32 +161,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A pedra fina concrete pump is a trailer that pipelines concrete whose stone sits in the published agregado / pedra fina row (example: Electric Low Pressure 40, 12–15 m³/h, 20 MPa, pedra fina 80 m / 240 m). A mortar or plaster sprayer is a finishing machine: Pinjin hydraulic concrete sprayers list 5 or 7 m³/h, 8 MPa, particle ≤8 mm; M9 plaster lists 30 L/min, 50 bar, particle ≤4 mm. They are not interchangeable.",
-        "who": "Buyers who were quoted both a ‘pedra fina pump’ and a ‘pulverizador de argamassa’ for floor or wall work and need the particle-size split.",
+        "what": "Leia “Clay plaster” como contexto da origem. Não é uma placa nova para Fine Stone Concrete Pump vs Mortar and Plaster Sprayer. Valores já impressos nesta página: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+        "who": "Leitores que comparam Fine Stone Concrete Pump vs Mortar and Plaster Sprayer com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Particle / stone size: centimetres on trailers versus ≤8 mm or ≤4 mm on sprayers",
-          "Output units: m³/h on pumps versus m³/h or L/min on sprayers",
-          "Hose versus pipeline DN",
-          "Job: structural / floor fill versus finishing spray"
+          "12–15 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "20 MPa",
+          "3 cm",
+          "5 m³/h"
         ]
       },
-      "seoTitle": "Fine Stone Concrete Pump vs Mortar Sprayer | Pinjin",
-      "imageCaption": "Hydraulic concrete spraying machine, Xingtai catalogue — 5 m³/h, particle ≤8 mm, not a bomba reboque",
+      "seoTitle": "Plaster — Clay plaster",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Plaster",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with a Pinjin spraying machine?",
-          "answer": "No. Hydraulic sprayers list particle ≤8 mm; the diesel sprayer lists ≤6 mm; M9 lists ≤4 mm. 1–3 cm stone belongs on a bomba reboque such as Electric 15 or Electric 30."
+          "question": "“Clay plaster” acrescenta uma casa a Fine Stone Concrete Pump vs Mortar and Plaster Sprayer?",
+          "answer": "Não. Valores já impressos nesta página: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm."
         },
         {
-          "question": "Is the M9 a pedra fina concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "“Gypsum plaster” pode preencher uma casa em branco de Fine Stone Concrete Pump vs Mortar and Plaster Sprayer?",
+          "answer": "Não. As casas em branco de Fine Stone Concrete Pump vs Mortar and Plaster Sprayer continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer",
-      "description": "Fine-stone مضخة مقطورةs move stone concrete in pipe. Pinjin spraying machines spray mortar, concrete or plaster through a hose at ≤8 mm or ≤4 mm particle. Compare Electric Low Pressure 40 (12–15 m³/h, حصى ناعم 80/240 m) with the hydraulic sprayer (5 m³/h, ≤8 mm) and M9 plaster (30 L/min, ≤4 mm).",
-      "imageAlt": "Hydraulic concrete spraying machine from Hebei Pinjin Machinery شينغتاي, particle ≤8 mm",
+      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer: Plaster — Clay plaster / Gypsum plaster / Lime plaster / Cement plaster",
+      "description": "«Clay plaster» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Fine Stone Concrete Pump vs Mortar and Plaster Sprayer. قيم مطبوعة أصلًا في هذه الصفحة: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Plaster",
       "relatedPathLabels": [
         "Concrete spraying machine manufacturer China",
         "Low pressure حصى ناعم Electric 40 guide",
@@ -185,32 +196,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A حصى ناعم concrete pump is a trailer that pipelines concrete whose stone sits in the published ركام / حصى ناعم row (example: Electric Low Pressure 40, 12–15 m³/h, 20 MPa, حصى ناعم 80 m / 240 m). A mortar or plaster sprayer is a finishing machine: Pinjin hydraulic concrete sprayers list 5 or 7 m³/h, 8 MPa, particle ≤8 mm; M9 plaster lists 30 L/min, 50 bar, particle ≤4 mm. They are not interchangeable.",
-        "who": "Buyers who were quoted both a ‘حصى ناعم pump’ and a ‘رشاش الملاط’ for floor or wall work and need the particle-size split.",
+        "what": "«Clay plaster» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Fine Stone Concrete Pump vs Mortar and Plaster Sprayer. قيم مطبوعة أصلًا في هذه الصفحة: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+        "who": "قرّاء يقارنون Fine Stone Concrete Pump vs Mortar and Plaster Sprayer بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Particle / stone size: centimetres on trailers versus ≤8 mm or ≤4 mm on sprayers",
-          "Output units: m³/h on pumps versus m³/h or L/min on sprayers",
-          "Hose versus pipeline DN",
-          "Job: structural / floor fill versus finishing spray"
+          "12–15 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "20 MPa",
+          "3 cm",
+          "5 m³/h"
         ]
       },
-      "seoTitle": "Fine Stone Concrete Pump vs Mortar Sprayer | Pinjin",
-      "imageCaption": "Hydraulic concrete spraying machine, شينغتاي catalogue — 5 m³/h, particle ≤8 mm, not a مضخة مقطورة",
+      "seoTitle": "Plaster — Clay plaster",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Plaster",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with a Pinjin spraying machine?",
-          "answer": "No. Hydraulic sprayers list particle ≤8 mm; the diesel sprayer lists ≤6 mm; M9 lists ≤4 mm. 1–3 cm stone belongs on a مضخة مقطورة such as Electric 15 or Electric 30."
+          "question": "هل يضيف «Clay plaster» خانة إلى Fine Stone Concrete Pump vs Mortar and Plaster Sprayer؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm."
         },
         {
-          "question": "Is the M9 a حصى ناعم concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "هل يستطيع «Gypsum plaster» ملء خانة فارغة لـ Fine Stone Concrete Pump vs Mortar and Plaster Sprayer؟",
+          "answer": "لا. الخانات الفارغة لـ Fine Stone Concrete Pump vs Mortar and Plaster Sprayer تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer",
-      "description": "Fine-stone прицепной насосs move stone concrete in pipe. Pinjin spraying machines spray mortar, concrete or plaster through a hose at ≤8 mm or ≤4 mm particle. Compare Electric Low Pressure 40 (12–15 m³/h, мелкий камень 80/240 m) with the hydraulic sprayer (5 m³/h, ≤8 mm) and M9 plaster (30 L/min, ≤4 mm).",
-      "imageAlt": "Hydraulic concrete spraying machine from Hebei Pinjin Machinery Синтай, particle ≤8 mm",
+      "title": "Fine Stone Concrete Pump vs Mortar and Plaster Sprayer: Plaster — Clay plaster / Gypsum plaster / Lime plaster / Cement plaster",
+      "description": "“Clay plaster” — только контекст источника, а не новая табличка для Fine Stone Concrete Pump vs Mortar and Plaster Sprayer. Уже напечатанные значения на этой странице: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Plaster",
       "relatedPathLabels": [
         "Concrete spraying machine manufacturer China",
         "Low pressure мелкий камень Electric 40 guide",
@@ -218,27 +231,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A мелкий камень concrete pump is a trailer that pipelines concrete whose stone sits in the published заполнитель / мелкий камень row (example: Electric Low Pressure 40, 12–15 m³/h, 20 MPa, мелкий камень 80 m / 240 m). A mortar or plaster sprayer is a finishing machine: Pinjin hydraulic concrete sprayers list 5 or 7 m³/h, 8 MPa, particle ≤8 mm; M9 plaster lists 30 L/min, 50 bar, particle ≤4 mm. They are not interchangeable.",
-        "who": "Buyers who were quoted both a ‘мелкий камень pump’ and a ‘растворонасос’ for floor or wall work and need the particle-size split.",
+        "what": "“Clay plaster” — только контекст источника, а не новая табличка для Fine Stone Concrete Pump vs Mortar and Plaster Sprayer. Уже напечатанные значения на этой странице: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm.",
+        "who": "Читатели, которые сверяют Fine Stone Concrete Pump vs Mortar and Plaster Sprayer со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Particle / stone size: centimetres on trailers versus ≤8 mm or ≤4 mm on sprayers",
-          "Output units: m³/h on pumps versus m³/h or L/min on sprayers",
-          "Hose versus pipeline DN",
-          "Job: structural / floor fill versus finishing spray"
+          "12–15 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "20 MPa",
+          "3 cm",
+          "5 m³/h"
         ]
       },
-      "seoTitle": "Fine Stone Concrete Pump vs Mortar Sprayer | Pinjin",
-      "imageCaption": "Hydraulic concrete spraying machine, Синтай catalogue — 5 m³/h, particle ≤8 mm, not a прицепной насос",
+      "seoTitle": "Plaster — Clay plaster",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Plaster",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with a Pinjin spraying machine?",
-          "answer": "No. Hydraulic sprayers list particle ≤8 mm; the diesel sprayer lists ≤6 mm; M9 lists ≤4 mm. 1–3 cm stone belongs on a прицепной насос such as Electric 15 or Electric 30."
+          "question": "Добавляет ли “Clay plaster” клетку к Fine Stone Concrete Pump vs Mortar and Plaster Sprayer?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 12–15 m³/h, 8–10 m³/h, 1–3 cm, 20 MPa, 3 cm, 5 m³/h, 8 MPa, 8 mm."
         },
         {
-          "question": "Is the M9 a мелкий камень concrete pump?",
-          "answer": "No. M9 is a 380 V/50 Hz plaster sprayer: 30 L/min, 50 bar, 25 mm hose, particle ≤4 mm, 200 kg. It is not Electric Low Pressure 40."
+          "question": "Может ли “Gypsum plaster” заполнить пустую клетку для Fine Stone Concrete Pump vs Mortar and Plaster Sprayer?",
+          "answer": "Нет. Пустые клетки для Fine Stone Concrete Pump vs Mortar and Plaster Sprayer остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

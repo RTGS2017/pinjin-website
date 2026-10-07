@@ -1,29 +1,22 @@
-## Catalogue Electric 40 row
+## Types of motor controller
 
-Electric 40 Concrete Pump is an electric 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 45 kW motor, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m. 料斗 0.4 m³, Kawasaki 112 hydraulic pump, 3900 × 1500 × 1600 mm, 2300 kg. Aggregate-13 pumping on this page: 40 m / 120 m.
+![来源页插图：Motor controller](/images/articles/electric-40-concrete-pump-guide/Canon_PowerShot_S45_-_main_board_-_Rohm_BD6753KV-91775.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Motor_controller*
 
-![Electric 40 concrete pump factory product photo, 河北品锦机械 邢台](/images/products/electric-40-concrete-pump/electric-40-concrete-pump.webp)
-*Electric 40, 邢台 catalogue — 45 kW, 21 m³/h, fine-stone 120 m / 360 m*
+把「Types of motor controller」和Electric 40 Concrete Pump Catalogue Row分开。来源页不填空白格。本页已经印出的读数：3900 × 1500 × 1600 mm, 45 kW, 21 m³/h, 23 MPa, 2300 kg, 15 kW, 400 kg, 55 kW。
 
-## Neighbour electric / mixer rows
+本页没写出来的格子继续空着。「Types of motor controller」不去填它们。
 
-| Model | Motor | Theoretical output | Pressure | Distance | Weight |
-| Electric 10 Series | 15 kW | 21 m³/h | 23 MPa | 25 m horizontal | 400 kg |
-| Electric 40 | 45 kW | 21 m³/h | 23 MPa | fine-stone 120 m / 360 m | 2300 kg |
-| Electric 50 | 55 kW | 26 m³/h | 30 MPa | fine stone 150 m / 350 m | 2800 kg |
-| Integrated mixer pump | 45 kW + 14 kW | 21 m³/h | 23 MPa | 100 m / 300 m | 4500 kg |
+## Overload relays
 
-Alibaba SmartBuy (20 November 2025) tells buyers to match pumping capacity (m³/h) to daily pour volume and to read 料斗 size with S/S valve type. 料斗 0.4 m³ here is a buffer, not cubic metres placed per hour. Hub: [electric concrete pumps](/products/electric-concrete-pumps/). kW versus output: [motor kW vs output](/blog/concrete-pump-motor-kw-vs-output/).
+来源章节「Overload relays」留在来源页。Electric 40 Concrete Pump Catalogue Row仍是这里已经写过的那一行。这一节不另加数字。
 
-## When this row fits
+## Loss of voltage protection
 
-Building and commercial placement on a grid site that matches 21 m³/h, 23 MPa and fine-stone 120 m / 360 m on a 2300 kg trailer.
+「Loss of voltage protection」不能代替规格。Electric 40 Concrete Pump Catalogue Row维持已印的那一行。这一节不另加数字。
 
-## When to open another page
+## Motor ride-through under voltage events
 
-- Same 21 m³/h but 15 kW / 25 m / 400 kg → [Electric 10 Series](/products/electric-10-series-concrete-pump/).
-- 26 m³/h / 55 kW / 30 MPa → [Electric 50](/products/electric-50-concrete-pump/).
-- Mix and pump on one trailer → [integrated mixer pump](/products/integrated-mixer-pump/).
-- Not a truck-mounted placing boom and not a concrete batching plant.
+「Motor ride-through under voltage events」是背景。Electric 40 Concrete Pump Catalogue Row的询价仍看已经写下的单元格。本页已经印出的读数：3900 × 1500 × 1600 mm, 45 kW, 21 m³/h, 23 MPa, 2300 kg, 15 kW, 400 kg, 55 kW。
 
-Product page: [Electric 40 concrete pump](/products/electric-40-concrete-pump/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[electric concrete pumps](/products/electric-concrete-pumps/), [motor kW vs output](/blog/concrete-pump-motor-kw-vs-output/), [Electric 10 Series](/products/electric-10-series-concrete-pump/)。

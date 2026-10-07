@@ -1,29 +1,26 @@
-## Catalogue Electric 10 Series row
+## Power factor
 
-Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, hopper 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, aggregate 2 cm and below.
+Power factor compares real power with apparent power on an alternating-current motor. The Electric 10 Series product page does not print a power factor, so this chapter does not supply one.
 
-![Electric 10 Series concrete pump factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/electric-10-series-concrete-pump/electric-10-series-concrete-pump.webp)
-*Electric 10 Series, Xingtai catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg*
+What is printed is 15 kW, 21 m³/h theoretical, 23 MPa, 25 m horizontal, hopper 0.1 m³ and aggregate 2 cm and below. Rated voltage stays blank unless the product page itself prints it.
 
-## Neighbour compact / electric rows
+![Figure from the source page about induction motors](/images/articles/electric-10-series-concrete-pump-guide/Rotatingfield.png)
+*Image from the source page: https://en.wikipedia.org/wiki/Induction_motor*
 
-| Model | Power | Theoretical output | Distance | Hopper | Weight |
-| Electric 10 Series | 15 kW | 21 m³/h | 25 m horizontal | 0.1 m³ | 400 kg |
-| Electric 15 | see product page | 8–10 m³/h | 15–20 m vertical | see product page | see product page |
-| Electric 40 | 45 kW | 21 m³/h | fine-stone 120 m / 360 m | 0.4 m³ | 2300 kg |
-| B500S-83D | 7.5 kW | not listed | 5 m / 5 m | not listed | 280 kg |
+## Efficiency
 
-Alibaba SmartBuy (20 November 2025) groups mini / line pumps at 10–30 m³/h and trailer pumps at 30–90 m³/h. Those are marketplace bands. ACI PRC-304.2-17 distinguishes trailer pumps from truck-mounted boom pumps; this page is not a boom SKU. Hub: [electric concrete pumps](/products/electric-concrete-pumps/).
+Motor efficiency is how much of the electrical input becomes shaft work. It is not the same sentence as theoretical concrete output. This page does not invent a percentage.
 
-## When this row fits
+The output cell we will defend is the printed 21 m³/h theoretical figure, next to 15 kW. Do not divide one by the other and call the result an efficiency we publish.
 
-Rural self-built houses, small building sites and secondary structure inside 25 m horizontal and 2 cm aggregate, with a 15 kW supply and a 400 kg compact frame.
+## Steinmetz equivalent circuit
 
-## When to open another page
+The Steinmetz equivalent circuit is a teaching model of an induction motor: resistances and reactances standing in for the windings. It is not a wiring diagram of this trailer.
 
-- 8–10 m³/h / 15–20 m vertical electric house row → [Electric 15](/products/electric-15-concrete-pump/).
-- 21 m³/h with 120 m / 360 m fine-stone and 45 kW → [Electric 40](/products/electric-40-concrete-pump/).
-- 5 m / 5 m sand and 5–16 mm stone, 7.5 kW, no m³/h cell → [B500S-83D](/products/b500s-83d-two-stage-pump/).
-- Not a truck-mounted placing boom and not a concrete mixing plant.
+The envelope we print is 1800 × 800 × 1200 mm and 400 kg. Use that for a narrow gate. Do not copy component values out of the equivalent circuit onto the pump page.
 
-Product page: [Electric 10 Series concrete pump](/products/electric-10-series-concrete-pump/). Inquiry: [contact](/contact/).
+## Linear induction motor
+
+A linear induction motor unfolds the stator into a flat track so the force is in a straight line. The Electric 10 Series is not that machine. It is a compact trailer pump with a rotating motor.
+
+Electric 20 remains the neighbour at 22 kW and 900 kg. Do not merge the two rows because both are electric. This chapter adds no price and no case.

@@ -3,100 +3,100 @@
   "category": "buying",
   "keyword": "concrete pump model number is not m3/h",
   "title": {
-    "en": "The Numeral in a Pinjin Model Name Is Not the Output",
-    "zh": "品锦型号名称里的数字不是输送量"
+    "en": "Imperial units: concrete pump model number is not m3/h keeps Diesel 30 prints 15 m³/h",
+    "zh": "英制单位：品锦型号名称里的数字不是输送量保留「柴油30印 15 m³/h。」"
   },
   "description": {
-    "en": "On Hebei Pinjin Machinery’s Xingtai sheets, the number in the name is not m³/h. Electric 30 prints 12–15 m³/h. Diesel 30 prints 15 m³/h. Electric 10 Series prints 21 m³/h.",
-    "zh": "在河北品锦机械的邢台参数页上，名称里的数字不是 m³/h。电动30印 12–15 m³/h。柴油30印 15 m³/h。电动10系列印 21 m³/h。"
+    "en": "concrete pump model number is not m3/h at /products/electric-10-series-concrete-pump. Diesel 30 prints 15 m³/h Electric 20 prints 8–10 m³/h",
+    "zh": "品锦型号名称里的数字不是输送量见 /products/electric-10-series-concrete-pump。柴油30印 15 m³/h。电动20印 8–10 m³/h。"
   },
   "h1": {
-    "en": "Read the Output Cell, Not the Numeral in the Name",
-    "zh": "读输送量格子，不要读名称里的数字"
+    "en": "SI units is the heading; concrete pump model number is not m3/h stays the subject",
+    "zh": "标题是「国际单位制」，主体仍是品锦型号名称里的数字不是输送量"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery in Xingtai does not define the numeral in a model name as theoretical output. Diesel 30 prints 15 m³/h. Electric 60 prints 40 m³/h while Electric Low Pressure 60 prints 35 m³/h. Electric 80 prints 60 m³/h while HBT80-16, which shares the string HBT80-1816-110, prints 50 m³/h. Put the output cell in the inquiry, and keep the name only as the path.",
-    "zh": "河北品锦机械（邢台）没有把型号名称里的数字定义成理论输送量。柴油30印 15 m³/h。电动60印 40 m³/h，电动低压60印 35 m³/h。电动80印 60 m³/h，而与之共享字符串 HBT80-1816-110 的 HBT80-16 印 50 m³/h。询盘里写输送量格子，名称只作为路径。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for concrete pump model number is not m3/h. The row to open is /products/electric-10-series-concrete-pump. Diesel 30 prints 15 m³/h. Electric 20 prints 8–10 m³/h. Electric 15 and Electric 20 print 8–10 m³/h. Diesel 120 prints 100 m³/h, below the “120”. Example: “Electric 30 page prints 12–15 m³/h. It prints 30 m³/h, 6105 / 99 kW and 150 m / 450 m. The sheet prints 60 m³/h, 110 kW and 900 m / 300 m. Electric 10 Series prints 21 m³/h, above the “10” in the name. Electric 60 prints 40 m³/h while Electric Low Pressure 60 prints 35 m³/h. we need to discuss X.” Do not replace 12–15 with 30 because the name says 30. Electric 80 prints 60 m³/h while HBT80-16, which shares the string HBT80-1816-110, prints 50 m³/h. The section title “Imperial units” comes from the source page and does not add a rating.",
+    "zh": "河北品锦机械在邢台印出的是品锦型号名称里的数字不是输送量的数字。要打开的行是 /products/electric-10-series-concrete-pump。柴油30印 15 m³/h。电动20印 8–10 m³/h。例如：“电动30页印 12–15 m³/h.电动15和电动20印的是 8–10 m³/h。电动10系列印 21 m³/h，高于名称里的“10”。柴油120印 100 m³/h，低于名称里的“120”。电动60印 40 m³/h，电动低压60印 35 m³/h。该页印 60 m³/h、110 kW、900 m / 300 m。我们需要讨论的是……”不要因为名称是 30 就把 12–15 改成 30。它印 30 m³/h、6105 / 99 kW、150 m / 450 m。电动80印 60 m³/h，而与之共享字符串 HBT80-1816-110 的 HBT80-16 印 50 m³/h。节标题「英制单位」来自来源页，不另加额定值。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Three names that under-shoot or over-shoot",
-        "zh": "三个对不上的名称"
+        "en": "Imperial units",
+        "zh": "英制单位"
       },
       "body": {
-        "en": "Electric 10 Series prints 21 m³/h, above the “10” in the name. Diesel 120 prints 100 m³/h, below the “120”. Electric 20 prints 8–10 m³/h. Quote the range or the single figure exactly as the page prints it.",
-        "zh": "电动10系列印 21 m³/h，高于名称里的“10”。柴油120印 100 m³/h，低于名称里的“120”。电动20印 8–10 m³/h。按页面印出的区间或单值原文报价。"
+        "en": "This section is titled “Imperial units”. concrete pump model number is not m3/h still prints the cells below. Diesel 30 prints 15 m³/h. Diesel 120 prints 100 m³/h, below the “120”. The sheet prints 60 m³/h, 110 kW and 900 m / 300 m. we need to discuss X.” Do not replace 12–15 with 30 because the name says 30.",
+        "zh": "本节标题是「英制单位」。品锦型号名称里的数字不是输送量下面这些格子仍是印出来的。我们需要讨论的是……”不要因为名称是 30 就把 12–15 改成 30。柴油120印 100 m³/h，低于名称里的“120”。该页印 60 m³/h、110 kW、900 m / 300 m。柴油30印 15 m³/h。"
       }
     },
     {
       "heading": {
-        "en": "Output is not a promised site total",
-        "zh": "输送量不是工地承诺总量"
+        "en": "SI units",
+        "zh": "国际单位制"
       },
       "body": {
-        "en": "The sheets call many of these lines theoretical output or output capacity. Hebei Pinjin Machinery does not print an on-site guaranteed m³/h beside them. Your inquiry can state the output you need; Xingtai then matches a printed cell. It does not turn the cell into a new guarantee on this page.",
-        "zh": "这些表把许多行称为理论输送量或输出能力。河北品锦机械没有在旁边印工地保证的 m³/h。询盘可以写你需要的输送量；邢台再对照已印格子。本篇不会把格子改写成新的保证值。"
+        "en": "Under “SI units”, concrete pump model number is not m3/h contributes only the printed cells in this part. Electric 20 prints 8–10 m³/h. Example: “Electric 30 page prints 12–15 m³/h. Electric 10 Series prints 21 m³/h, above the “10” in the name. Electric 80 prints 60 m³/h while HBT80-16, which shares the string HBT80-1816-110, prints 50 m³/h.",
+        "zh": "在「国际单位制」下，品锦型号名称里的数字不是输送量这一节只放已印出的格子。电动20印 8–10 m³/h。例如：“电动30页印 12–15 m³/h.电动10系列印 21 m³/h，高于名称里的“10”。电动80印 60 m³/h，而与之共享字符串 HBT80-1816-110 的 HBT80-16 印 50 m³/h。"
       }
     },
     {
       "heading": {
-        "en": "How to write the output in the inquiry",
-        "zh": "询盘里输送量怎么写"
+        "en": "Example - Flow Velocity in a Steel Pipe",
+        "zh": "示例 - 流速 在 钢 管道"
       },
       "body": {
-        "en": "Write the figure from the page and the figure you need as two separate numbers. Example: “Electric 30 page prints 12–15 m³/h; we need to discuss X.” Do not replace 12–15 with 30 because the name says 30. Contact [/en/contact/](/en/contact/).",
-        "zh": "把页面上的数字和你需要的数字分成两个数来写。例如：“电动30页印 12–15 m³/h；我们需要讨论的是……”不要因为名称是 30 就把 12–15 改成 30。联系 [/zh/contact/](/zh/contact/)。"
+        "en": "“Example - Flow Velocity in a Steel Pipe” titles this part of the concrete pump model number is not m3/h note. The figures stay the printed ones. Electric 15 and Electric 20 print 8–10 m³/h. It prints 30 m³/h, 6105 / 99 kW and 150 m / 450 m. Electric 60 prints 40 m³/h while Electric Low Pressure 60 prints 35 m³/h. The photograph is an image from the source page https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html.",
+        "zh": "「示例 - 流速 在 钢 管道」是品锦型号名称里的数字不是输送量这一节的标题。数字仍以已印的为准。电动15和电动20印的是 8–10 m³/h。它印 30 m³/h、6105 / 99 kW、150 m / 450 m。电动60印 40 m³/h，电动低压60印 35 m³/h。配图来自来源页 https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 80 deliver 80 m³/h?",
-        "zh": "电动80是 80 m³/h 吗？"
+        "en": "Does “Imperial units” replace Diesel 30 prints 15 m³/h?",
+        "zh": "「英制单位」会替换「柴油30印 15 m³/h。」吗？"
       },
       "answer": {
-        "en": "The sheet prints 60 m³/h, 110 kW and 900 m / 300 m.",
-        "zh": "该页印 60 m³/h、110 kW、900 m / 300 m。"
+        "en": "No. Diesel 30 prints 15 m³/h remains the printed wording for concrete pump model number is not m3/h.",
+        "zh": "不会。柴油30印 15 m³/h。仍是品锦型号名称里的数字不是输送量已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Does Diesel 50 deliver 50 m³/h?",
-        "zh": "柴油50是 50 m³/h 吗？"
+        "en": "Where does Electric 20 prints 8–10 m³/h belong on the concrete pump model number is not m3/h row?",
+        "zh": "品锦型号名称里的数字不是输送量这一行里，「电动20印 8–10 m³/h。」放在哪里？"
       },
       "answer": {
-        "en": "It prints 30 m³/h, 6105 / 99 kW and 150 m / 450 m.",
-        "zh": "它印 30 m³/h、6105 / 99 kW、150 m / 450 m。"
+        "en": "It belongs on /products/electric-10-series-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-10-series-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Is a range such as 8–10 one number?",
-        "zh": "8–10 这种区间是一个数吗？"
+        "en": "What does “SI units” add to concrete pump model number is not m3/h?",
+        "zh": "「国际单位制」给品锦型号名称里的数字不是输送量增加了什么？"
       },
       "answer": {
-        "en": "No. Electric 15 and Electric 20 print 8–10 m³/h. Keep the range.",
-        "zh": "不是。电动15和电动20印的是 8–10 m³/h。保留区间。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Who confirms whether a needed output fits?",
-        "zh": "谁确认需要的输送量是否对得上？"
+        "en": "Which path names the concrete pump model number is not m3/h row?",
+        "zh": "哪条路径对应品锦型号名称里的数字不是输送量这一行？"
       },
       "answer": {
-        "en": "Hebei Pinjin Machinery in Xingtai, after you send both numbers to the contact page.",
-        "zh": "河北品锦机械（邢台），在你把两个数字发到询盘页之后。"
+        "en": "/products/electric-10-series-concrete-pump",
+        "zh": "/products/electric-10-series-concrete-pump"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-electric-10-series-output-cell-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-model-numeral-is-not-output-bf802b41.png",
     "alt": {
-      "en": "Electric 10 Series concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "电动10系列混凝土泵，由河北品锦机械厂家制造，邢台"
+      "en": "Pipe Velocity Calculator with Flow Data & Charts. Image from the source page: https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html.",
+      "zh": "Pipe Velocity Calculator with Flow Data & Charts。图来自来源页：https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +125,8 @@
     "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/pipe-velocity-d_1096.html"
   ],
   "status": "ready"
 }

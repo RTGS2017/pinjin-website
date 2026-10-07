@@ -6,100 +6,110 @@
     "zh": "柴油120是不是两台发动机"
   },
   "title": {
-    "en": "How Diesel 120 Prints Two Engine Units",
-    "zh": "柴油120怎样印出两台发动机"
+    "en": "Air compressor does not replace what Diesel 120 Prints Two Engine Units lists",
+    "zh": "「空氣壓縮機」不能替换柴油120怎样印出两台发动机列出的数字"
   },
   "description": {
-    "en": "Diesel 120 prints 290 kW as two units of 145 kW, and it prints two Kawasaki 112 hydraulic pumps. It does not say the units run one at a time.",
-    "zh": "柴油120把 290 kW 印成两台各 145 kW，并印两台川崎112液压泵。它没有说这两台可以轮流单开。"
+    "en": "Diesel 120 Prints Two Engine Units. 290 kW stays in the catalogue entry. Illustration: Air compressor.",
+    "zh": "柴油120怎样印出两台发动机。290 kW仍在目录格子里。插图来自「空氣壓縮機」。"
   },
   "h1": {
-    "en": "How Diesel 120 Prints Two Engine Units",
-    "zh": "柴油120怎样印出两台发动机"
+    "en": "Air compressor does not replace what Diesel 120 Prints Two Engine Units lists",
+    "zh": "「空氣壓縮機」不能替换柴油120怎样印出两台发动机列出的数字"
   },
   "directAnswer": {
-    "en": "The Diesel 120 concrete pump from Hebei Pinjin Machinery in Xingtai prints engine power as 290 kW (two units 145 kW). The hydraulic-pump cell prints Kawasaki 112 (two units). Theoretical output is a single 100 m³/h, not 100 per engine. Outlet pressure is 40 MPa and distance is 150 m / 500 m. The page does not print a procedure for running one unit alone, so this note does not invent one.",
-    "zh": "河北品锦机械在邢台的柴油120混凝土泵把发动机功率印成 290 kW（两台各 145 kW）。液压泵格印川崎112（两台）。理论输送量是单独的 100 m³/h，不是每台发动机 100。出口压力 40 MPa，距离 150 m / 500 m。页面没有印只开一台的步骤，因此本文也不编造。"
+    "en": "The Diesel 120 concrete pump from Hebei Pinjin Machinery in Xingtai lists engine power as 290 kW (two units 145 kW). The hydraulic-pump entry lists Kawasaki 112 (two units). The picture is from https://en.wikipedia.org/wiki/Air_compressor.",
+    "zh": "河北品锦机械在邢台的柴油120混凝土泵把发动机功率写成 290 kW（两台各 145 kW）。理论输送量是单独的 100 m³/h，不是每台发动机 100。图片来自https://en.wikipedia.org/wiki/Air_compressor。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What two units refers to",
-        "zh": "“两台”指什么"
+        "en": "Classification",
+        "zh": "分类"
       },
       "body": {
-        "en": "It refers to the power cell and, separately, to the hydraulic-pump cell. Both say two units. Hebei Pinjin Machinery does not print the engine code 4105, 4108 or 6105 on this page. Aggregate is 6 cm and below. Weight is 8000 kg.",
-        "zh": "它分别指功率格和液压泵格。两边都写两台。河北品锦机械没有在这一页印 4105、4108 或 6105。骨料为 6 cm 及以下。重量为 8000 kg。"
+        "en": "The figure is the one published at https://en.wikipedia.org/wiki/Air_compressor: AirCompressorHusky. The Diesel 120 concrete pump from Hebei Pinjin Machinery in Xingtai lists engine power as 290 kW (two units 145 kW). The page does not list a procedure for running one unit alone, so this note does not invent one. The output entry already says 100 m³/h. Unlike LZ-80, Diesel 120 does not list high and low ceilings.",
+        "zh": "这张图是https://en.wikipedia.org/wiki/Air_compressor页上的AirCompressorHusky。河北品锦机械在邢台的柴油120混凝土泵把发动机功率写成 290 kW（两台各 145 kW）。河北品锦机械没有在这一页标出 4105、4108 或 6105。如果这个问题重要，请用 /zh/contact/，不要猜一个一半的产量。"
       }
     },
     {
       "heading": {
-        "en": "Output is not doubled by the reader",
-        "zh": "产量不要由读者再乘一次"
+        "en": "Cooling",
+        "zh": "冷却"
       },
       "body": {
-        "en": "The output cell already says 100 m³/h. It does not say 100 m³/h times two. Adding another 100 would invent a figure. The distance pair is likewise one pair, 150 m horizontal and 500 m vertical.",
-        "zh": "产量格已经写了 100 m³/h。它没有写 100 m³/h 乘以二。再加一个 100 就是编造。距离也是一组：水平 150 m，垂直 500 m。"
+        "en": "The hydraulic-pump entry lists Kawasaki 112 (two units). It refers to the power entry and, separately, to the hydraulic-pump entry. It does not say 100 m³/h times two. It also does not say that one 145 kW unit is a listed operating mode.",
+        "zh": "理论输送量是单独的 100 m³/h，不是每台发动机 100。距离也是一组：水平 150 m，垂直 500 m。"
       }
     },
     {
       "heading": {
-        "en": "No single-engine mode is printed",
-        "zh": "没有印出单机模式"
+        "en": "Applications",
+        "zh": "应用"
       },
       "body": {
-        "en": "Unlike LZ-80, Diesel 120 does not print high and low ceilings. It also does not say that one 145 kW unit is a listed operating mode. If that question matters, use /en/contact/ rather than a guessed half output.",
-        "zh": "和 LZ-80 不同，柴油120没有印高低两档上限。它也没有说一台 145 kW 是列出的运行模式。如果这个问题重要，请用 /zh/contact/，不要猜一个一半的产量。"
+        "en": "Theoretical output is a single 100 m³/h, not 100 per engine. Hebei Pinjin Machinery does not list the engine code 4105, 4108 or 6105 on this page. Adding another 100 would invent a figure. If that question matters, use /en/contact/ rather than a guessed half output.",
+        "zh": "出口压力 40 MPa，距离 150 m / 500 m。和 LZ-80 不同，柴油120没有标出高低两档上限。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power source",
+        "zh": "动力来源"
+      },
+      "body": {
+        "en": "Outlet pressure is 40 MPa and distance is 150 m / 500 m. Aggregate is 6 cm and below. The distance pair is likewise one pair, 150 m horizontal and 500 m vertical. Also on this row: cm and below. Weight is 8000 kg. The output ce.",
+        "zh": "页面没有标出只开一台的步骤，因此本文也不编造。它也没有说一台 145 kW 是列出的运行模式。这一行还有这些已印出的片段：cm and below. Weight is 8000 kg. The output ce。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "How many kilowatts are printed in total?",
-        "zh": "合计印了多少千瓦？"
+        "en": "How many kilowatts are shown in total?",
+        "zh": "合计标出了多少千瓦？"
       },
       "answer": {
-        "en": "290 kW, written as two units of 145 kW.",
-        "zh": "290 kW，写成两台各 145 kW。"
+        "en": "290 kW, written as two units of 145 kW. It is not a figure printed inside https://en.wikipedia.org/wiki/Air_compressor.",
+        "zh": "290 kW，写成两台各 145 kW。它不是https://en.wikipedia.org/wiki/Air_compressor画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is output 200 m³/h if there are two engines?",
+        "en": "On this row: Is output 200 m³/h if there are two engines?",
         "zh": "两台发动机是否意味着产量 200 m³/h？"
       },
       "answer": {
-        "en": "No. The printed theoretical output is 100 m³/h.",
-        "zh": "不是。印出的理论输送量是 100 m³/h。"
+        "en": "No. The shown theoretical output is 100 m³/h. It is not a figure printed inside https://en.wikipedia.org/wiki/Air_compressor.",
+        "zh": "不是。写出的理论输送量是 100 m³/h。它不是https://en.wikipedia.org/wiki/Air_compressor画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What hydraulic pump text is printed?",
-        "zh": "液压泵印了什么？"
+        "en": "What hydraulic pump text is shown?",
+        "zh": "液压泵标出了什么？"
       },
       "answer": {
-        "en": "Kawasaki 112 (two units).",
-        "zh": "川崎112（两台）。"
+        "en": "Kawasaki 112 (two units). It is not a figure printed inside https://en.wikipedia.org/wiki/Air_compressor.",
+        "zh": "川崎112（两台）。它不是https://en.wikipedia.org/wiki/Air_compressor画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the page list a one-engine setting?",
+        "en": "On this row: Does the page list a one-engine setting?",
         "zh": "页面列出单发动机设定吗？"
       },
       "answer": {
-        "en": "No. Hebei Pinjin Machinery does not print that mode.",
-        "zh": "没有。河北品锦机械没有印这种模式。"
+        "en": "No. Hebei Pinjin Machinery does not list that mode. It is not a figure printed inside https://en.wikipedia.org/wiki/Air_compressor.",
+        "zh": "没有。河北品锦机械没有标出这种模式。它不是https://en.wikipedia.org/wiki/Air_compressor画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-diesel-120-prints-two-engine-units-pinjin.webp",
+    "src": "/images/articles/knowledge/how-diesel-120-prints-two-engine-units-aircompressorhusky.jpg",
     "alt": {
-      "en": "How Diesel 120 Prints Two Engine Units, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "柴油120怎样印出两台发动机，河北品锦机械，河北邢台"
+      "en": "AirCompressorHusky. Image from the source page: https://en.wikipedia.org/wiki/Air_compressor.",
+      "zh": "AirCompressorHusky。图来自来源页：https://en.wikipedia.org/wiki/Air_compressor。"
     }
   },
   "relatedPaths": [
@@ -118,7 +128,8 @@
     "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
     "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://en.wikipedia.org/wiki/Air_compressor"
   ],
   "status": "draft"
 }

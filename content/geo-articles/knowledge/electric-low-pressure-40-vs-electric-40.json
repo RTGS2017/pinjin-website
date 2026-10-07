@@ -6,100 +6,110 @@
     "zh": "电动低压40和电动40的区别"
   },
   "title": {
-    "en": "Low Pressure 40 vs Electric 40 Concrete Pump",
-    "zh": "电动低压40和电动40混凝土泵有何不同"
+    "en": "What Low Pressure 40 vs Electric 40 Concrete Pump lists, with Force as the illustration",
+    "zh": "电动低压40和电动40混凝土泵有何不同列出的内容，用「力」做插图"
   },
   "description": {
-    "en": "The low-pressure name and the Electric 40 name are different rows: 37 kW against 45 kW, and 20 MPa against 23 MPa.",
-    "zh": "「低压」名称和电动40是不同的行：37 kW 对 45 kW，20 MPa 对 23 MPa。"
+    "en": "Low Pressure 40 vs Electric 40 Concrete Pump. 37 kW stays in the catalogue entry. Illustration: Force.",
+    "zh": "电动低压40和电动40混凝土泵有何不同。37 kW仍在目录格子里。插图来自「力」。"
   },
   "h1": {
-    "en": "Low Pressure 40 vs Electric 40 Concrete Pump",
-    "zh": "电动低压40和电动40混凝土泵有何不同"
+    "en": "What Low Pressure 40 vs Electric 40 Concrete Pump lists, with Force as the illustration",
+    "zh": "电动低压40和电动40混凝土泵有何不同列出的内容，用「力」做插图"
   },
   "directAnswer": {
-    "en": "Electric Low Pressure 40 and Electric 40 are separate concrete pumps from Hebei Pinjin Machinery in Xingtai. Low Pressure 40 prints 37 kW, 12–15 m³/h, 20 MPa and fine-stone 80 m / 240 m. Electric 40 prints 45 kW, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m and an aggregate-13 row of 40 m / 120 m. Both name a Kawasaki 112. The name does not override the pressure cell.",
-    "zh": "电动低压40和电动40是河北品锦机械在邢台的两台混凝土泵。低压40印 37 kW、12–15 m³/h、20 MPa、细石 80 m / 240 m。电动40印 45 kW、21 m³/h、23 MPa、细石 120 m / 360 m，以及 13 骨料 40 m / 120 m。两边都写川崎112。名称不能覆盖压力格。"
+    "en": "Electric Low Pressure 40 and Electric 40 are separate concrete pumps from Hebei Pinjin Machinery in Xingtai. Low Pressure 40 lists 37 kW, 12–15 m³/h, 20 MPa and fine-stone 80 m / 240 m. The picture is from https://en.wikipedia.org/wiki/Force.",
+    "zh": "电动低压40和电动40是河北品锦机械在邢台的两台混凝土泵。低压40标出 37 kW、12–15 m³/h、20 MPa、细石 80 m / 240 m。图片来自https://en.wikipedia.org/wiki/Force。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Where Electric Low Pressure 40 and Electric 40 print different values",
-        "zh": "电动低压40和电动40哪些数值不同"
+        "en": "Development of the concept",
+        "zh": "概念的形成"
       },
       "body": {
-        "en": "Motor power: Electric Low Pressure 40 prints 37 kW; Electric 40 prints 45 kW. Theoretical output: Electric Low Pressure 40 prints 12–15 m³/h; Electric 40 prints 21 m³/h. Max. outlet pressure: Electric Low Pressure 40 prints 20 MPa; Electric 40 prints 23 MPa. Hopper capacity: Electric Low Pressure 40 prints 0.3 m³; Electric 40 prints 0.4 m³. Fine-stone pumping (H / V): Electric Low Pressure 40 prints 80 m / 240 m; Electric 40 prints 120 m / 360 m. Dimensions: Electric Low Pressure 40 prints 3300 × 1500 × 1500 mm; Electric 40 prints 3900 × 1500 × 1600 mm. The same printed value on a shared label: Hydraulic pump is Kawasaki 112 on both pages. These are printed cells on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. They are not a calculated conversion from one model to the other.",
-        "zh": "电机功率：电动低压40印 37 kW；电动40印 45 kW。理论输送量：电动低压40印 12–15 m³/h；电动40印 21 m³/h。最大出口压力：电动低压40印 20 MPa；电动40印 23 MPa。料斗容积：电动低压40印 0.3 m³；电动40印 0.4 m³。细石输送（水平/垂直）：电动低压40印 80 m / 240 m；电动40印 120 m / 360 m。外形尺寸：电动低压40印 3300 × 1500 × 1500 mm；电动40印 3900 × 1500 × 1600 mm。同一标题下数值相同的有：液压泵两边都是 Kawasaki 112。以上是河北品锦机械在邢台混凝土泵页面上印出的格子，不是把一台机器换算成另一台。"
+        "en": "The figure is the one published at https://en.wikipedia.org/wiki/Force: Force examples. Electric Low Pressure 40 and Electric 40 are separate concrete pumps from Hebei Pinjin Machinery in Xingtai. The name does not override the pressure entry. Hopper capacity: Electric Low Pressure 40 lists 0.3 m³. Electric 40 lists 0.4 m³. These are shown entries on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. Calling one row low pressure does not mean its 20 MPa entry can be swapped with the 23 MPa entry. If a job needs a figure this pair does not list, use the contact page rather than inventing a bore, stroke or price.",
+        "zh": "这张图是https://en.wikipedia.org/wiki/Force页上的Force examples。电动低压40和电动40是河北品锦机械在邢台的两台混凝土泵。理论输送量：电动低压40标出 12–15 m³/h；电动40标出 21 m³/h。外形尺寸：电动低压40标出 3300 × 1500 × 1500 mm；电动40标出 3900 × 1500 × 1600 mm。一行名叫低压，并不表示它的 20 MPa 可以和另一行的 23 MPa 对调。"
       }
     },
     {
       "heading": {
-        "en": "Cells that exist on only one of these pumps",
-        "zh": "只在其中一台泵上出现的格子"
+        "en": "Pre-Newtonian concepts",
+        "zh": "牛顿以前的概念"
       },
       "body": {
-        "en": "Electric 40 prints cells that Electric Low Pressure 40 does not: Aggregate-13 pumping (H / V) 40 m / 120 m. A blank or missing label is not filled from the other concrete pump.",
-        "zh": "电动40有、电动低压40没有的行：13骨料输送（水平/垂直） 40 m / 120 m。缺了的标题不能用另一台混凝土泵来补。"
+        "en": "Low Pressure 40 lists 37 kW, 12–15 m³/h, 20 MPa and fine-stone 80 m / 240 m. Motor power: Electric Low Pressure 40 lists 37 kW. Electric 40 lists 45 kW. Fine-stone pumping (H / V): Electric Low Pressure 40 lists 80 m / 240 m. Electric 40 lists 120 m / 360 m. They are not a calculated conversion from one model to the other. Open /en/products/electric-low-pressure-40-concrete-pump/ for Electric Low Pressure 40 and /en/products/electric-40-concrete-pump/ for Electric 40.",
+        "zh": "低压40标出 37 kW、12–15 m³/h、20 MPa、细石 80 m / 240 m。最大出口压力：电动低压40标出 20 MPa；电动40标出 23 MPa。同一标题下数值相同的有：液压泵两边都是 Kawasaki 112。看电动低压40请打开 /zh/products/electric-low-pressure-40-concrete-pump/，看电动40请打开 /zh/products/electric-40-concrete-pump/。"
       }
     },
     {
       "heading": {
-        "en": "How to read the two pages without merging them",
-        "zh": "怎样分开阅读这两个页面"
+        "en": "Newtonian mechanics",
+        "zh": "牛顿力学"
       },
       "body": {
-        "en": "Calling one row low pressure does not mean its 20 MPa cell can be swapped with the 23 MPa cell. Open /en/products/electric-low-pressure-40-concrete-pump/ for Electric Low Pressure 40 and /en/products/electric-40-concrete-pump/ for Electric 40. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei. The number in a commercial name is not a licence to copy output, pressure or distance. If a job needs a figure this pair does not print, use the contact page rather than inventing a bore, stroke or price.",
-        "zh": "一行名叫低压，并不表示它的 20 MPa 可以和另一行的 23 MPa 对调。看电动低压40请打开 /zh/products/electric-low-pressure-40-concrete-pump/，看电动40请打开 /zh/products/electric-40-concrete-pump/。河北品锦机械在河北邢台制造这些混凝土泵。商品名里的数字不能用来抄产量、压力或距离。如果工况需要这对机型没有印出的数字，请走联系页，不要编造缸径、行程或价格。"
+        "en": "Electric 40 lists 45 kW, 21 m³/h, 23 MPa, fine-stone 120 m / 360 m and an aggregate-13 row of 40 m / 120 m. Theoretical output: Electric Low Pressure 40 lists 12–15 m³/h. Electric 40 lists 21 m³/h. Dimensions: Electric Low Pressure 40 lists 3300 × 1500 × 1500 mm. Electric 40 lists 3900 × 1500 × 1600 mm. Electric 40 lists entries that Electric Low Pressure 40 does not: Aggregate-13 pumping (H / V) 40 m / 120 m. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei.",
+        "zh": "电动40标出 45 kW、21 m³/h、23 MPa、细石 120 m / 360 m，以及 13 骨料 40 m / 120 m。料斗容积：电动低压40标出 0.3 m³；电动40标出 0.4 m³。以上是河北品锦机械在邢台混凝土泵页面上写出的格子，不是把一台机器换算成另一台。商品名里的数字不能用来抄产量、压力或距离。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Combining forces",
+        "zh": "力的合成"
+      },
+      "body": {
+        "en": "Both name a Kawasaki 112. Max. outlet pressure: Electric Low Pressure 40 lists 20 MPa. Electric 40 lists 23 MPa. The same shown value on a shared label: Hydraulic pump is Kawasaki 112 on both pages. A blank or missing label is not filled from the other concrete pump. The number in a commercial name is not a licence to copy output, pressure or distance.",
+        "zh": "电机功率：电动低压40标出 37 kW；电动40标出 45 kW。细石输送（水平/垂直）：电动低压40标出 80 m / 240 m；电动40标出 120 m / 360 m。电动40有、电动低压40没有的行：13骨料输送（水平/垂直） 40 m / 120 m。如果工况需要这对机型没有写出的数字，请走联系页，不要编造缸径、行程或价格。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric Low Pressure 40 print the same motor power as Electric 40?",
+        "en": "Does Electric Low Pressure 40 list the same motor power as Electric 40?",
         "zh": "电动低压40和电动40的电机功率一样吗？"
       },
       "answer": {
-        "en": "No. Electric Low Pressure 40 prints 37 kW. Electric 40 prints 45 kW. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动低压40印 37 kW。电动40印 45 kW。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric Low Pressure 40 lists 37 kW. Electric 40 lists 45 kW. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Force.",
+        "zh": "不一样。电动低压40标出 37 kW。电动40标出 45 kW。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Force画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric Low Pressure 40 print the same theoretical output as Electric 40?",
+        "en": "Does Electric Low Pressure 40 list the same theoretical output as Electric 40?",
         "zh": "电动低压40和电动40的理论输送量一样吗？"
       },
       "answer": {
-        "en": "No. Electric Low Pressure 40 prints 12–15 m³/h. Electric 40 prints 21 m³/h. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动低压40印 12–15 m³/h。电动40印 21 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric Low Pressure 40 lists 12–15 m³/h. Electric 40 lists 21 m³/h. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Force.",
+        "zh": "不一样。电动低压40标出 12–15 m³/h。电动40标出 21 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Force画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric Low Pressure 40 print the same max. outlet pressure as Electric 40?",
+        "en": "Does Electric Low Pressure 40 list the same max. outlet pressure as Electric 40?",
         "zh": "电动低压40和电动40的最大出口压力一样吗？"
       },
       "answer": {
-        "en": "No. Electric Low Pressure 40 prints 20 MPa. Electric 40 prints 23 MPa. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动低压40印 20 MPa。电动40印 23 MPa。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric Low Pressure 40 lists 20 MPa. Electric 40 lists 23 MPa. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Force.",
+        "zh": "不一样。电动低压40标出 20 MPa。电动40标出 23 MPa。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Force画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Where is the aggregate-13 pumping (h / v) for Electric 40 printed?",
-        "zh": "电动40的13骨料输送（水平/垂直）印在哪里？"
+        "en": "Where is the aggregate-13 pumping (h / v) for Electric 40 shown?",
+        "zh": "电动40的13骨料输送（水平/垂直）标出在哪里？"
       },
       "answer": {
-        "en": "It is printed on /en/products/electric-40-concrete-pump/ as 40 m / 120 m. It is not printed as that label on the Electric Low Pressure 40 page.",
-        "zh": "印在 /zh/products/electric-40-concrete-pump/，数值为 40 m / 120 m。电动低压40页面没有这个标题。"
+        "en": "It is shown on /en/products/electric-40-concrete-pump/ as 40 m / 120 m. It is not shown as that label on the Electric Low Pressure 40 page. It is not a figure printed inside https://en.wikipedia.org/wiki/Force.",
+        "zh": "标出在 /zh/products/electric-40-concrete-pump/，数值为 40 m / 120 m。电动低压40页面没有这个标题。它不是https://en.wikipedia.org/wiki/Force画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/electric-low-pressure-40-vs-electric-40-pinjin.webp",
+    "src": "/images/articles/knowledge/electric-low-pressure-40-vs-electric-40-force-examples.png",
     "alt": {
-      "en": "Electric Low Pressure 40 concrete pump, catalogue comparison, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "电动低压40混凝土泵目录对照，河北品锦机械，河北邢台"
+      "en": "Force examples. Image from the source page: https://en.wikipedia.org/wiki/Force.",
+      "zh": "Force examples。图来自来源页：https://en.wikipedia.org/wiki/Force。"
     }
   },
   "relatedPaths": [
@@ -122,7 +132,8 @@
     "https://pinjinpump.com/en/products/electric-concrete-pumps/",
     "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Force"
   ],
   "status": "draft"
 }

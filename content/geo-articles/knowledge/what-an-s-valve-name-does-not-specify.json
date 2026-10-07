@@ -6,100 +6,100 @@
     "zh": "品锦混凝土泵上的S阀名称没有写明什么"
   },
   "title": {
-    "en": "What an S-Valve Name Does Not Specify",
-    "zh": "S阀这个名称没有写明什么"
+    "en": "Prestressed concrete illustrates the note on an S-Valve Name Does Not Specify",
+    "zh": "「預力混凝土」用来说明S阀这个名称没有写明什么"
   },
   "description": {
-    "en": "The Xingtai parts list names S-valve pistons and an S-tube. It does not print swing angle, bore or a service sequence.",
-    "zh": "邢台配件清单写出S阀活塞和S管。它没有印摆角、缸径或保养顺序。"
+    "en": "an S-Valve Name Does Not Specify. Illustration: Prestressed concrete.",
+    "zh": "S阀这个名称没有写明什么。插图来自「預力混凝土」。"
   },
   "h1": {
-    "en": "What an S-Valve Name Does Not Specify",
-    "zh": "S阀这个名称没有写明什么"
+    "en": "Prestressed concrete illustrates the note on an S-Valve Name Does Not Specify",
+    "zh": "「預力混凝土」用来说明S阀这个名称没有写明什么"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery uses the words S-valve and S-tube for concrete pump wear parts made in Xingtai. The parts category calls them S-valve wear parts. The split-piston line says the set is for S-valve concrete pumps, and a separate line names an S-tube seal. Those names mark a circuit. They do not print a swing angle, a bore, a stroke or a replacement sequence.",
-    "zh": "河北品锦机械用 S阀 和 S管 来称呼在邢台生产的混凝土泵易损件。配件分类称之为 S阀易损件。分体活塞一行写明用于 S阀混凝土泵，另一行写出 S管密封。这些名称标出一条回路。它们没有印摆角、缸径、行程或更换顺序。泵的产量、压力和距离仍要回参数页去读。"
+    "en": "Hebei Pinjin Machinery uses the words S-valve and S-tube for concrete pump wear parts made in Xingtai. The parts category calls them S-valve wear parts. The picture is from https://en.wikipedia.org/wiki/Prestressed_concrete.",
+    "zh": "河北品锦机械用 S阀 和 S管 来称呼在邢台生产的混凝土泵易损件。分体活塞一行写明用于 S阀混凝土泵，另一行写出 S管密封。图片来自https://en.wikipedia.org/wiki/Prestressed_concrete。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Where the words appear",
-        "zh": "这些词出现在哪里"
+        "en": "Pre-tensioned concrete",
+        "zh": "先张混凝土"
       },
       "body": {
-        "en": "They appear on the concrete pump parts category and on the named wear-part pages, not as a timed diagram on Electric 20 or Diesel 40. A hopper on a pump sheet is still a hopper cell. An S-tube seal name does not add a hopper volume.",
-        "zh": "它们出现在混凝土泵配件分类和点名的易损件页面上，不是电动20或柴油40上的节拍图。泵页上的料斗仍然只是料斗格。S管密封这个名称不会多出一个料斗容积。"
+        "en": "Downloaded from https://en.wikipedia.org/wiki/Prestressed_concrete. The image subject is Prestressed concrete. Hebei Pinjin Machinery uses the words S-valve and S-tube for concrete pump wear parts made in Xingtai. Those names mark a circuit. A hopper on a pump sheet is still a hopper entry. Together they are the published vocabulary. The S-valve name does not replace them.",
+        "zh": "此图下载自https://en.wikipedia.org/wiki/Prestressed_concrete。画面内容是Prestressed concrete。河北品锦机械用 S阀 和 S管 来称呼在邢台生产的混凝土泵易损件。目录还写出主油缸密封、摆缸密封和摆臂球头。"
       }
     },
     {
       "heading": {
-        "en": "Names beside the S-tube",
-        "zh": "S管旁边的名称"
+        "en": "Post-tensioned concrete",
+        "zh": "后张混凝土"
       },
       "body": {
-        "en": "The catalogue also names a main-cylinder seal, a swing-cylinder seal and a swing-arm ball. Together they are the published vocabulary. Hebei Pinjin Machinery does not print the degrees of swing or the order of movement.",
-        "zh": "目录还写出主油缸密封、摆缸密封和摆臂球头。合在一起，这是已公布的用词。河北品锦机械没有印摆动角度或动作顺序。"
+        "en": "The parts category calls them S-valve wear parts. They do not list a swing angle, a bore, a stroke or a replacement sequence. An S-tube seal name does not add a hopper volume. Hebei Pinjin Machinery does not list the degrees of swing or the order of movement. For a size the parts page does not need this article to repeat, open the part page itself or /en/contact/.",
+        "zh": "分体活塞一行写明用于 S阀混凝土泵，另一行写出 S管密封。动力、理论输送量、写出了的压力，以及这台混凝土泵上的距离标题，仍然是性能格。"
       }
     },
     {
       "heading": {
-        "en": "What you still read on the pump",
-        "zh": "泵上仍要读什么"
+        "en": "Tendon durability and corrosion protection",
+        "zh": "预应力筋耐久性与防腐"
       },
       "body": {
-        "en": "Power, theoretical output, pressure where printed, and the distance label on that concrete pump remain the performance cells. The S-valve name does not replace them. For a size the parts page does not need this article to repeat, open the part page itself or /en/contact/.",
-        "zh": "动力、理论输送量、印出了的压力，以及这台混凝土泵上的距离标题，仍然是性能格。S阀名称不能代替它们。配件页上的尺寸不必在本文重复，请打开配件页或 /zh/contact/。"
+        "en": "The split-piston line says the set is for S-valve concrete pumps, and a separate line names an S-tube seal. They appear on the concrete pump parts category and on the named wear-part pages, not as a timed diagram on Electric 20 or Diesel 40. The catalogue also names a main-cylinder seal, a swing-cylinder seal and a swing-arm ball. Power, theoretical output, pressure where shown, and the distance label on that concrete pump remain the performance entries.",
+        "zh": "它们出现在混凝土泵配件分类和点名的易损件页面上，不是电动20或柴油40上的节拍图。配件页上的尺寸不必在本文重复，请打开配件页或 /zh/contact/。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does the pump sheet draw an S-valve cycle?",
+        "en": "On this row: Does the pump sheet draw an S-valve cycle?",
         "zh": "泵的参数页画了S阀循环吗？"
       },
       "answer": {
-        "en": "No. The cycle timing is not printed. The name is on the parts list.",
-        "zh": "没有。循环节拍没有印出。名称在配件清单上。"
+        "en": "No. The cycle timing is not shown. The name is on the parts list. It is not a figure printed inside https://en.wikipedia.org/wiki/Prestressed_concrete.",
+        "zh": "没有。循环节拍没有写出。名称在配件清单上。它不是https://en.wikipedia.org/wiki/Prestressed_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is a gate-valve model listed as a pump code?",
+        "en": "On this row: Is a gate-valve model listed as a pump code?",
         "zh": "有没有闸阀型号被列成泵的代号？"
       },
       "answer": {
-        "en": "The concrete pump rows do not print a gate-valve model code. The wear-part wording that is printed says S-valve.",
-        "zh": "混凝土泵各行没有印闸阀型号代号。印出的易损件用词是 S阀。"
+        "en": "The concrete pump rows do not list a gate-valve model code. The wear-part wording that is shown says S-valve. It is not a figure printed inside https://en.wikipedia.org/wiki/Prestressed_concrete.",
+        "zh": "混凝土泵各行没有标出闸阀型号代号。写出的易损件用词是 S阀。它不是https://en.wikipedia.org/wiki/Prestressed_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the S-tube name include a bore?",
+        "en": "On this row: Does the S-tube name include a bore?",
         "zh": "S管名称包含缸径吗？"
       },
       "answer": {
-        "en": "No. Bore is not printed on the pump sheets or as part of that name.",
-        "zh": "不包含。泵的参数页没有印缸径，名称里也没有。"
+        "en": "No. Bore is not shown on the pump sheets or as part of that name. It is not a figure printed inside https://en.wikipedia.org/wiki/Prestressed_concrete.",
+        "zh": "不包含。泵的参数页没有标出缸径，名称里也没有。它不是https://en.wikipedia.org/wiki/Prestressed_concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Where is the S-valve wording published?",
+        "en": "On this row: Where is the S-valve wording published?",
         "zh": "S阀用词公布在哪里？"
       },
       "answer": {
-        "en": "On the concrete pump parts category and the piston and S-tube pages of Hebei Pinjin Machinery.",
-        "zh": "在河北品锦机械的混凝土泵配件分类，以及活塞和 S管页面上。"
+        "en": "On the concrete pump parts category and the piston and S-tube pages of Hebei Pinjin Machinery. It is not a figure printed inside https://en.wikipedia.org/wiki/Prestressed_concrete.",
+        "zh": "在河北品锦机械的混凝土泵配件分类，以及活塞和 S管页面上。它不是https://en.wikipedia.org/wiki/Prestressed_concrete画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/what-an-s-valve-name-does-not-specify-pinjin.webp",
+    "src": "/images/articles/knowledge/what-an-s-valve-name-does-not-specify-prestressed-concrete.png",
     "alt": {
-      "en": "What an S-Valve Name Does Not Specify, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "S阀这个名称没有写明什么，河北品锦机械，河北邢台"
+      "en": "Prestressed concrete. Image from the source page: https://en.wikipedia.org/wiki/Prestressed_concrete.",
+      "zh": "Prestressed concrete。图来自来源页：https://en.wikipedia.org/wiki/Prestressed_concrete。"
     }
   },
   "relatedPaths": [
@@ -124,7 +124,8 @@
     "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
     "https://pinjinpump.com/zh/products/concrete-pump-s-tube-seal/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Prestressed_concrete"
   ],
   "status": "draft"
 }

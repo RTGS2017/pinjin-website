@@ -3,92 +3,82 @@
   "category": "parts",
   "keyword": "Diesel Mixer Integrated Pump missing pipe diameter",
   "title": {
-    "en": "Diesel mixer pump does not print a pipe diameter",
-    "zh": "柴油搅拌泵一体机没有印管径"
+    "en": "Piston names the sections; Diesel Mixer Integrated Pump missing pipe diameter keeps the printed cells",
+    "zh": "《活塞》只提供章节，Diesel Mixer Integrated Pump missing pipe diameter仍用已印格子"
   },
   "description": {
-    "en": "The Diesel Mixer Integrated Pump page has no delivery-pipe diameter. The electric Integrated Mixer Pump page does, at 100 / 125 mm. Do not copy that cell across.",
-    "zh": "柴油搅拌泵一体机页面没有输送管内径。电动搅拌泵一体机页面有，是 100 / 125 mm。不要把那一格抄过来。"
+    "en": "The Diesel Mixer Integrated Pump missing pipe diameter note follows the outline of Piston. Diesel Mixer Integrated Pump is a diesel mix-and-pump unit made in Xingtai. Its sheet prints output, pressure and stone distances, and it omits delivery-pipe inner diameter. The electric mixer pump's 100 / 125 mm cell stays on the electric page. Mixing-seal sizes are not named on either mixer page.",
+    "zh": "Diesel Mixer Integrated Pump missing pipe diameter这篇笔记顺着《活塞》的大纲写。柴油搅拌泵一体机是邢台制造的柴油搅拌泵送一体机。参数印了输送量、压力和石子距离，没有印输送管内径。电动搅拌泵的 100 / 125 mm 留在电动那一页。两张搅拌泵页面都没有点名搅拌密封尺寸。"
   },
   "h1": {
-    "en": "Diesel Mixer Integrated Pump, pipe diameter not printed",
-    "zh": "柴油搅拌泵一体机，未印管径"
+    "en": "How Piston arranges a note that only repeats Diesel Mixer Integrated Pump missing pipe diameter",
+    "zh": "《活塞》怎样安排一篇只重复Diesel Mixer Integrated Pump missing pipe diameter的笔记"
   },
   "directAnswer": {
-    "en": "Diesel Mixer Integrated Pump is a diesel mix-and-pump unit made in Xingtai. Its sheet prints output, pressure and stone distances, and it omits delivery-pipe inner diameter. The electric mixer pump's 100 / 125 mm cell stays on the electric page. Mixing-seal sizes are not named on either mixer page.",
-    "zh": "柴油搅拌泵一体机是邢台制造的柴油搅拌泵送一体机。参数印了输送量、压力和石子距离，没有印输送管内径。电动搅拌泵的 100 / 125 mm 留在电动那一页。两张搅拌泵页面都没有点名搅拌密封尺寸。"
+    "en": "For Diesel Mixer Integrated Pump missing pipe diameter, copy the printed fragments and ignore any urge to borrow a figure from Piston. Piston only lends its headings. Diesel Mixer Integrated Pump is a diesel mix-and-pump unit made in Xingtai. Its sheet prints output, pressure and stone distances, and it omits delivery-pipe inner diameter. The electric mixer pump's 100 / 125 mm cell stays on the electric page. Mixing-seal sizes are not named on either mixer page.",
+    "zh": "写Diesel Mixer Integrated Pump missing pipe diameter时，只抄已印片段，不要从来源页《活塞》借数字。《活塞》只出借标题。 柴油搅拌泵一体机是邢台制造的柴油搅拌泵送一体机。参数印了输送量、压力和石子距离，没有印输送管内径。电动搅拌泵的 100 / 125 mm 留在电动那一页。两张搅拌泵页面都没有点名搅拌密封尺寸。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What this diesel page prints",
-        "zh": "这张柴油页印了什么"
+        "en": "Piston engines",
+        "zh": "活塞发动机"
       },
       "body": {
-        "en": "Model Diesel Mixer Integrated. Engine 4108 / 66–75 kW. Output 25 m³/h. Maximum outlet pressure 23 MPa. Hopper 0.4 m³. Stone capacity, labelled horizontal / vertical, 100 / 300 m. 13 mm stone 60 / 180 m. 24 mm stone 40 / 120 m. Size 4100 × 2200 × 3000 mm. Weight 4200 kg. Series note: 30 model with 400 mixer; 40/50 model with 500 mixer. The 100 / 300 m cell is distance, not a pipe DN.",
-        "zh": "型号 Diesel Mixer Integrated。柴油机 4108 / 66–75 kW。输送量 25 m³/h。最大出口压力 23 MPa。料斗 0.4 m³。细石输送按水平/垂直标注为 100 / 300 m。13 mm 石子 60 / 180 m。24 mm 石子 40 / 120 m。外形 4100 × 2200 × 3000 mm。重量 4200 kg。系列说明：30 机型配 400 搅拌；40/50 机型配 500 搅拌。100 / 300 m 是距离，不是管径。"
+        "en": "Use “Piston engines” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. Model Diesel Mixer Integrated. Engine 4108 / 66–75 kW. Output 25 m³/h. Maximum outlet pressure 23 MPa. Hopper 0.4 m³. Stone capacity, labelled horizontal / vertical, 100 / 300 m. 13 mm stone 60 / 180 m. 24 mm stone 40 / 120 m. Size 4100 × 2200 × 3000 mm. Weight 4200 kg. Series note: 30 model with 400 mixer. 40/50 model with 500 mixer. The 100 / 300 m cell is distance, not a pipe DN. Integrated Mixer Pump prints delivery pipe 100 / 125 mm, main motor 45 kW / mixer 14 kW, output 21 m³/h and pressure 23 MPa. Sharing a 400/500 mixer note does not copy the pipe cell. Mixing seals φ65 and φ80, and the generation kits, do not name either mixer. Unprinted cells stay unprinted.",
+        "zh": "用“活塞发动机”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 型号 Diesel Mixer Integrated。柴油机 4108 / 66–75 kW。输送量 25 m³/h。最大出口压力 23 MPa。料斗 0.4 m³。细石输送按水平/垂直标注为 100 / 300 m。13 mm 石子 60 / 180 m。24 mm 石子 40 / 120 m。外形 4100 × 2200 × 3000 mm。重量 4200 kg。系列说明：30 机型配 400 搅拌。 40/50 机型配 500 搅拌。100 / 300 m 是距离，不是管径。 搅拌泵一体机印了输送管 100 / 125 mm、主电机 45 kW / 搅拌电机 14 kW、输送量 21 m³/h、压力 23 MPa。两边都提到 400/500 搅拌，也不会把管径格抄过去。搅拌密封 φ65、φ80 和分代套件都没有点名这两台搅拌泵。 没有印出的格子保持不印。"
       }
     },
     {
       "heading": {
-        "en": "The electric mixer page is not a donor",
-        "zh": "电动搅拌泵页不能借数"
+        "en": "Pumps",
+        "zh": "泵"
       },
       "body": {
-        "en": "Integrated Mixer Pump prints delivery pipe 100 / 125 mm, main motor 45 kW / mixer 14 kW, output 21 m³/h and pressure 23 MPa. Sharing a 400/500 mixer note does not copy the pipe cell. Mixing seals φ65 and φ80, and the generation kits, do not name either mixer.",
-        "zh": "搅拌泵一体机印了输送管 100 / 125 mm、主电机 45 kW / 搅拌电机 14 kW、输送量 21 m³/h、压力 23 MPa。两边都提到 400/500 搅拌，也不会把管径格抄过去。搅拌密封 φ65、φ80 和分代套件都没有点名这两台搅拌泵。"
+        "en": "Where the source outline says “Pumps”, the catalogue fragment below is the fragment a buyer is allowed to copy. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. For a straight pipe or hose, name Diesel Mixer Integrated Pump and state that DN is not printed. For a mixing seal, name the seal row you checked on the machine, not the 400 or 500 mixer note. Diesel Mixer Integrated Pump is a diesel mix-and-pump unit made in Xingtai. Its sheet prints output, pressure and stone distances, and it omits delivery-pipe inner diameter. The electric mixer pump's 100 / 125 mm cell stays on the electric page. Mixing-seal sizes are not named on either mixer page. No. The label is stone conveying, horizontal / vertical, in metres. The outline does not complete a blank.",
+        "zh": "来源大纲写到“泵”时，下面这句才是买方可以照抄的目录原文。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 直管或胶管请写柴油搅拌泵一体机，并写明公称直径没有印出。搅拌密封请写在机器上核对到的密封行，不要写 400 或 500 搅拌说明。 柴油搅拌泵一体机是邢台制造的柴油搅拌泵送一体机。参数印了输送量、压力和石子距离，没有印输送管内径。电动搅拌泵的 100 / 125 mm 留在电动那一页。两张搅拌泵页面都没有点名搅拌密封尺寸。 不是。这一格的标签是细石输送，水平/垂直，单位是米。 大纲补不上空白格子。"
       }
     },
     {
       "heading": {
-        "en": "What to send",
-        "zh": "询价写什么"
+        "en": "Air cannons",
+        "zh": "来源章节：Air cannons"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. For a straight pipe or hose, name Diesel Mixer Integrated Pump and state that DN is not printed. For a mixing seal, name the seal row you checked on the machine, not the 400 or 500 mixer note.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 直管或胶管请写柴油搅拌泵一体机，并写明公称直径没有印出。搅拌密封请写在机器上核对到的密封行，不要写 400 或 500 搅拌说明。"
+        "en": "Nothing about the phrase “Air cannons” is a second data sheet. The data-sheet fragment, if one was printed, is quoted next. Only on an inquiry for the electric Integrated Mixer Pump. This diesel page does not print it. No. Generation and upper-pump seal kits are on the mixing-seal page, with no model name. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. The outline does not complete a blank. Image from the source page: https://en.wikipedia.org/wiki/Piston",
+        "zh": "“来源章节：Air cannons”这几个字不是第二张数据表。若目录印过数据，下面引用的才是那一句。 只有询价对象是电动搅拌泵一体机时可以。这张柴油页没有印这个数字。 没有。分代和上泵密封套件在搅拌密封页上，没有型号名。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 大纲补不上空白格子。 图来自来源页：https://en.wikipedia.org/wiki/Piston"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 100 / 300 m the pipe size?",
-        "zh": "100 / 300 m 是管径吗？"
+        "en": "Does “Pumps” on Piston fill a blank on the Diesel Mixer Integrated Pump missing pipe diameter row?",
+        "zh": "《活塞》上的“泵”会填上Diesel Mixer Integrated Pump missing pipe diameter的空白格子吗？"
       },
       "answer": {
-        "en": "No. The label is stone conveying, horizontal / vertical, in metres.",
-        "zh": "不是。这一格的标签是细石输送，水平/垂直，单位是米。"
+        "en": "No. The label is stone conveying, horizontal / vertical, in metres. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。这一格的标签是细石输送，水平/垂直，单位是米。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Can I use the electric mixer's 100 / 125 mm?",
-        "zh": "能用电动搅拌泵的 100 / 125 mm 吗？"
+        "en": "Why is Piston not a source of extra ratings for Diesel Mixer Integrated Pump missing pipe diameter?",
+        "zh": "为什么《活塞》不能给Diesel Mixer Integrated Pump missing pipe diameter增加额定值？"
       },
       "answer": {
-        "en": "Only on an inquiry for the electric Integrated Mixer Pump. This diesel page does not print it.",
-        "zh": "只有询价对象是电动搅拌泵一体机时可以。这张柴油页没有印这个数字。"
+        "en": "Only on an inquiry for the electric Integrated Mixer Pump. This diesel page does not print it. The heading and the source photograph do not add a further figure.",
+        "zh": "只有询价对象是电动搅拌泵一体机时可以。这张柴油页没有印这个数字。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is a seal generation printed?",
-        "zh": "印了密封代际吗？"
+        "en": "Can the outline heading “Piston engines” rename Diesel Mixer Integrated Pump missing pipe diameter?",
+        "zh": "大纲标题“活塞发动机”可以改掉Diesel Mixer Integrated Pump missing pipe diameter的名称吗？"
       },
       "answer": {
-        "en": "No. Generation and upper-pump seal kits are on the mixing-seal page, with no model name.",
-        "zh": "没有。分代和上泵密封套件在搅拌密封页上，没有型号名。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is life printed?",
-        "zh": "印了寿命吗？"
-      },
-      "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "No. Generation and upper-pump seal kits are on the mixing-seal page, with no model name. The heading and the source photograph do not add a further figure.",
+        "zh": "没有。分代和上泵密封套件在搅拌密封页上，没有型号名。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -159,14 +149,19 @@
       "name": "品锦目录：Concrete Pump Mixing Seal",
       "url": "https://pinjinpump.com/zh/products/concrete-pump-mixing-seal/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Piston",
+      "url": "https://en.wikipedia.org/wiki/Piston",
+      "type": "reference"
     }
   ],
   "status": "ready",
   "image": {
-    "src": "/images/geo/parts/pinjin-parts-diesel-mixer-pump-has-no-pipe-diameter.webp",
+    "src": "/images/articles/parts/parts-diesel-mixer-pump-has-no-pipe-diameter-9bbbd4af.gif",
     "alt": {
-      "en": "Diesel Mixer Integrated Pump, pipe diameter not printed, 品锦, Hebei Pinjin Machinery, Xingtai",
-      "zh": "柴油搅拌泵一体机，未印管径，品锦机械，河北邢台"
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Piston",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Piston"
     }
   }
 }

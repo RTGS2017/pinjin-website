@@ -1,17 +1,22 @@
-来源一：邢台市2024年国民经济和社会发展统计公报，对外经济  
-https://tjgb.hongheiku.com/djs/63374.html
+## Theories and models
 
-来源二：中国工程机械工业协会会长苏子孟报告，铁甲工程机械网2025-05-15转载  
-https://www.cehome.com/news/20250515/338335.shtml
+![来源页插图：International trade](/images/articles/xingtai-and-china-machinery-trade-2024/Volume_of_world_merchandise_exports.png)
+*图片来自来源页：https://en.wikipedia.org/wiki/International_trade*
 
-## 邢台市2024年进出口
-
-2024年，全年进出口总值234.7亿元，比上年下降7.3%。其中，出口总值205.6亿元，下降9.0%；进口总值29.1亿元，增长6.6%。对共建“一带一路”国家进出口128.9亿元，占进出口总值的54.9%；对《区域全面经济伙伴关系协定》（RCEP）其他成员国进出口67.3亿元，占进出口总值的28.7%。民营企业进出口206.3亿元，下降5.8%。在出口商品中，机电产品出口108.2亿元，下降16.4%；钢材出口2.7亿元，增长13.3%；电动汽车、锂离子蓄电池、光伏产品等“新三样”产品出口30.6亿元，下降48.7%。
-
-## 中国工程机械2024年出口
+2024年邢台进出口公报与中国工程机械出口额还是本文原有的那一行。「Theories and models」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
 协会根据海关数据整理的2024年工程机械出口额为528.59亿美元，同比增长8.87%，再创历史新高。按照以人民币计价的出口额计算，2024年出口额同比增长10.1%。2021年至2024年工程机械产品出口额连续四年快速增长。
 
-2024年工程机械产品出口额首次突破500亿美元。
+## Most traded export products
 
-![配图来自河北省工业和信息化厅任泽产业集群稿](/images/parks/renze-clusters.webp)
+把「Most traded export products」和2024年邢台进出口公报与中国工程机械出口额分开。来源页不填空白格。这一节不另加数字。
+
+## Largest countries or regions by total international trade
+
+来源章节「Largest countries or regions by total international trade」留在来源页。2024年邢台进出口公报与中国工程机械出口额仍是这里已经写过的那一行。这一节不另加数字。
+
+## Top traded commodities by value (exports)
+
+「Top traded commodities by value (exports)」不能代替规格。2024年邢台进出口公报与中国工程机械出口额维持已印的那一行。这一节不另加数字。
+
+本页没写出来的格子继续空着。「Top traded commodities by value (exports)」不去填它们。

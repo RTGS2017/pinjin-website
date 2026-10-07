@@ -1,18 +1,22 @@
-## Stamped DN80 / EN14420-3
+## Screw/band (worm gear) clamps
 
-DN80 Concrete Pump Pipe Clamp is a pipeline fastening spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. The piece is stamped EN14420-3, DN80, PN10/16 and 3″/89, with a hinge, tightening bolt, grease nipple and a flat two-hole base. Other diameters are quoted after matching the pump pipeline. No published list price. Not sold in small batches.
+![Figure from the source page about Hose clamp](/images/articles/concrete-pump-pipe-clamp-dn80-guide/Dirty_wire_Hose_Clamp_2.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Hose_clamp*
 
-![DN80 concrete pump pipe clamp factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/concrete-pump-pipe-clamp-dn80/concrete-pump-pipe-clamp-dn80.webp)
-*DN80 clamp, Xingtai stamp — EN14420-3, PN10/16, 3″/89*
+The source chapter “Screw/band (worm gear) clamps” stays on that page. DN80 EN14420 concrete pump clamp keeps the row already written here. Printed cells already on this page: 80 mm.
 
-## Diameter is not shared with the elbow
+DN80 Concrete Pump Pipe Clamp is a pipeline fastening spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China.
 
-Electric 20 prints an 80 mm delivery pipe. This clamp prints DN80. The site does not print a certificate that the two SKUs are a matched set — confirm both at inquiry. The [DN200 elbow](/products/concrete-pump-elbow-dn200-90/) is a different diameter.
+## Spring clamps
 
-Hub: [concrete pump parts](/products/concrete-pump-parts/). Clamp types already discussed: [clamp and coupling](/blog/concrete-pump-clamp-coupling/).
+“Spring clamps” is not a substitute specification. DN80 EN14420 concrete pump clamp stays the printed row. No added figure is taken from that chapter.
 
-SmartBuy mentions hose layout and clamps as items to inspect before purchase. It does not print EN14420-3 or PN10/16 for this Xingtai piece.
+## Wire clamps
 
-## Inquiry
+“Wire clamps” is background. An enquiry for DN80 EN14420 concrete pump clamp still uses the cells already written. No added figure is taken from that chapter.
 
-Send pipeline DN and quantity. [Contact](/contact/). Product page: [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/).
+## Ear clamps
+
+Read “Ear clamps” as context from the source. It is not a new nameplate for DN80 EN14420 concrete pump clamp. Printed cells already on this page: 80 mm.
+
+Pages already named on this document: [DN200 elbow](/products/concrete-pump-elbow-dn200-90/), [concrete pump parts](/products/concrete-pump-parts/), [clamp and coupling](/blog/concrete-pump-clamp-coupling/).

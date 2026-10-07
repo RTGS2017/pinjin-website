@@ -1,8 +1,8 @@
 {
   "slug": "rural-diesel-concrete-pump-guide",
-  "title": "Rural Diesel Concrete Pump Catalogue Row",
-  "seoTitle": "Rural Diesel Concrete Pump | Pinjin 17 kW 5–8 m³/h Xingtai",
-  "description": "The rural diesel pump is a Xingtai compact trailer: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Pipe DN is not printed. It is not Tractor-Driven 4100 and not a spraying machine.",
+  "title": "Tractor — Applications and variations / Vintage tractors / Tractor runs / Nebraska tests",
+  "seoTitle": "Tractor — Applications and variations",
+  "description": "rural diesel concrete pump remains the row this document already had. “Applications and variations” explains the source topic and adds no cell. Printed cells already on this page: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
   "primaryKeyword": "rural diesel concrete pump",
   "secondaryKeywords": [
     "17 kW rural concrete pump",
@@ -45,13 +45,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Rural Diesel Concrete Pump is a compact diesel concrete pump for rural houses manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 17 kW diesel, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Delivery pipe diameter is not printed. It is not Tractor-Driven 4100 and not a mortar spraying machine.",
-    "who": "Rural house jobs matched to 5–8 m³/h, 15 MPa and 30–50 m / 10–30 m on an 800 kg diesel unit, with stone 1–3 cm.",
+    "what": "rural diesel concrete pump remains the row this document already had. “Applications and variations” explains the source topic and adds no cell. Printed cells already on this page: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+    "who": "Readers checking rural diesel concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "17 kW / 5–8 m³/h / 800 kg versus Tractor-Driven 4100 at 40 kW / 6–12 m³/h / 1300 kg",
-      "Vertical cell is the range 10–30 m, not a single 30 m figure",
-      "Pipe DN is not on this sheet",
-      "SmartBuy mini band 10–30 m³/h and residential 30–60 m³/h do not replace 5–8 m³/h"
+      "2200 × 1100 × 1250 mm",
+      "5–8 m³/h",
+      "30–50 m",
+      "10–30 m",
+      "1–3 cm",
+      "6–12 m³/h"
     ],
     "relatedModels": [
       "rural-diesel-concrete-pump",
@@ -61,20 +63,25 @@
   },
   "faqs": [
     {
-      "question": "Does the rural diesel pump print a delivery pipe diameter?",
-      "answer": "No. The sheet prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Pipe DN is not on that page. Straight pipe and hose are quoted after the pump model."
+      "question": "Does “Applications and variations” add a cell to rural diesel concrete pump?",
+      "answer": "No. Catalogue parameters: 17 kW diesel, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg."
     },
     {
-      "question": "Is 5–8 m³/h inside the Alibaba SmartBuy mini-pump 10–30 m³/h band?",
-      "answer": "SmartBuy describes mini pumps as about 10–30 m³/h and a residential FAQ as 30–60 m³/h. The rural diesel page prints 5–8 m³/h. The marketplace band does not rewrite the Xingtai cell."
+      "question": "Can “Vintage tractors” fill a blank cell for rural diesel concrete pump?",
+      "answer": "No. Blank cells for rural diesel concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/rural-diesel-concrete-pump/rural-diesel-concrete-pump.webp",
-    "alt": "Rural diesel concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Rural diesel pump, Xingtai catalogue — 17 kW, 5–8 m³/h, 800 kg"
+    "src": "/images/articles/rural-diesel-concrete-pump-guide/Tractor_for_hauling_logs_Maine_IMG_2036.JPG",
+    "alt": "Figure from the source page about Tractor",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Tractor"
   },
   "sources": [
+    {
+      "name": "Tractor (source page)",
+      "url": "https://en.wikipedia.org/wiki/Tractor",
+      "type": "industry"
+    },
     {
       "name": "Pinjin rural diesel product page",
       "url": "https://pinjinpump.com/en/products/rural-diesel-concrete-pump/",
@@ -107,11 +114,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "农村柴油混凝土泵目录行",
-      "seoTitle": "Rural Diesel Concrete Pump | 品锦 17 kW 5–8 m³/h 邢台",
-      "description": "The rural diesel pump is a Xingtai compact trailer: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Pipe DN is not printed. It is not Tractor-Driven 4100 and not a spraying machine.",
-      "imageAlt": "Rural diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Rural diesel pump, Xingtai catalogue — 17 kW, 5–8 m³/h, 800 kg",
+      "title": "农村柴油混凝土泵目录行：Tractor（Applications and variations / Vintage tractors / Tractor runs / Nebraska tests）",
+      "seoTitle": "Tractor：Applications and variations",
+      "description": "农村柴油混凝土泵目录行还是本文原有的那一行。「Applications and variations」讲的是来源页的题目，不另加单元格。本页已经印出的读数：2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。",
+      "imageAlt": "来源页插图：Tractor",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Tractor",
       "relatedPathLabels": [
         "Rural diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Rural Diesel Concrete Pump is a compact diesel concrete pump for rural houses manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 17 kW diesel, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Delivery pipe diameter is not printed. It is not Tractor-Driven 4100 and not a mortar spraying machine.",
-        "who": "Rural house jobs matched to 5–8 m³/h, 15 MPa and 30–50 m / 10–30 m on an 800 kg diesel unit, with stone 1–3 cm.",
+        "what": "农村柴油混凝土泵目录行还是本文原有的那一行。「Applications and variations」讲的是来源页的题目，不另加单元格。本页已经印出的读数：2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。",
+        "who": "想把农村柴油混凝土泵目录行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "17 kW / 5–8 m³/h / 800 kg versus Tractor-Driven 4100 at 40 kW / 6–12 m³/h / 1300 kg",
-          "Vertical cell is the range 10–30 m, not a single 30 m figure",
-          "Pipe DN is not on this sheet",
-          "SmartBuy mini band 10–30 m³/h and residential 30–60 m³/h do not replace 5–8 m³/h"
+          "2200 × 1100 × 1250 mm",
+          "5–8 m³/h",
+          "30–50 m",
+          "10–30 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does the rural diesel pump print a delivery pipe diameter?",
-          "answer": "No. The sheet prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Pipe DN is not on that page. Straight pipe and hose are quoted after the pump model."
+          "question": "「Applications and variations」会给农村柴油混凝土泵目录行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。"
         },
         {
-          "question": "Is 5–8 m³/h inside the Alibaba SmartBuy mini-pump 10–30 m³/h band?",
-          "answer": "SmartBuy describes mini pumps as about 10–30 m³/h and a residential FAQ as 30–60 m³/h. The rural diesel page prints 5–8 m³/h. The marketplace band does not rewrite the Xingtai cell."
+          "question": "「Vintage tractors」能补上农村柴油混凝土泵目录行的空白格吗？",
+          "answer": "不能。农村柴油混凝土泵目录行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Rural Diesel Concrete Pump Catalogue Row",
-      "seoTitle": "Rural Diesel Concrete Pump | Pinjin 17 kW 5–8 m³/h Xingtai",
-      "description": "The rural diesel pump is a Xingtai compact trailer: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Pipe DN is not printed. It is not Tractor-Driven 4100 and not a spraying machine.",
-      "imageAlt": "Rural diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Rural diesel pump, Xingtai catalogue — 17 kW, 5–8 m³/h, 800 kg",
+      "title": "Rural Diesel Concrete Pump Catalogue Row: Tractor — Applications and variations / Vintage tractors / Tractor runs / Nebraska tests",
+      "seoTitle": "Tractor — Applications and variations",
+      "description": "Rural Diesel Concrete Pump Catalogue Row continua a ser a linha que este texto já tinha. “Applications and variations” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+      "imageAlt": "Figura da página de origem sobre Tractor",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Tractor",
       "relatedPathLabels": [
         "Rural diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -152,32 +161,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Rural Diesel Concrete Pump is a compact diesel concrete pump for rural houses manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 17 kW diesel, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Delivery pipe diameter is not printed. It is not Tractor-Driven 4100 and not a mortar spraying machine.",
-        "who": "Rural house jobs matched to 5–8 m³/h, 15 MPa and 30–50 m / 10–30 m on an 800 kg diesel unit, with stone 1–3 cm.",
+        "what": "Rural Diesel Concrete Pump Catalogue Row continua a ser a linha que este texto já tinha. “Applications and variations” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+        "who": "Leitores que comparam Rural Diesel Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "17 kW / 5–8 m³/h / 800 kg versus Tractor-Driven 4100 at 40 kW / 6–12 m³/h / 1300 kg",
-          "Vertical cell is the range 10–30 m, not a single 30 m figure",
-          "Pipe DN is not on this sheet",
-          "SmartBuy mini band 10–30 m³/h and residential 30–60 m³/h do not replace 5–8 m³/h"
+          "2200 × 1100 × 1250 mm",
+          "5–8 m³/h",
+          "30–50 m",
+          "10–30 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does the rural diesel pump print a delivery pipe diameter?",
-          "answer": "No. The sheet prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Pipe DN is not on that page. Straight pipe and hose are quoted after the pump model."
+          "question": "“Applications and variations” acrescenta uma casa a Rural Diesel Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m."
         },
         {
-          "question": "Is 5–8 m³/h inside the Alibaba SmartBuy mini-pump 10–30 m³/h band?",
-          "answer": "SmartBuy describes mini pumps as about 10–30 m³/h and a residential FAQ as 30–60 m³/h. The rural diesel page prints 5–8 m³/h. The marketplace band does not rewrite the Xingtai cell."
+          "question": "“Vintage tractors” pode preencher uma casa em branco de Rural Diesel Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Rural Diesel Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Rural Diesel Concrete Pump Catalogue Row",
-      "seoTitle": "Rural Diesel Concrete Pump | Pinjin 17 kW 5–8 m³/h Xingtai",
-      "description": "The rural diesel pump is a Xingtai compact trailer: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Pipe DN is not printed. It is not Tractor-Driven 4100 and not a spraying machine.",
-      "imageAlt": "Rural diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Rural diesel pump, Xingtai catalogue — 17 kW, 5–8 m³/h, 800 kg",
+      "title": "Rural Diesel Concrete Pump Catalogue Row: Tractor — Applications and variations / Vintage tractors / Tractor runs / Nebraska tests",
+      "seoTitle": "Tractor — Applications and variations",
+      "description": "Rural Diesel Concrete Pump Catalogue Row يبقى الصف الذي كان في هذا النص. «Applications and variations» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+      "imageAlt": "صورة من صفحة المصدر عن Tractor",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Tractor",
       "relatedPathLabels": [
         "Rural diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -185,32 +196,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Rural Diesel Concrete Pump is a compact diesel concrete pump for rural houses manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 17 kW diesel, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Delivery pipe diameter is not printed. It is not Tractor-Driven 4100 and not a mortar spraying machine.",
-        "who": "Rural house jobs matched to 5–8 m³/h, 15 MPa and 30–50 m / 10–30 m on an 800 kg diesel unit, with stone 1–3 cm.",
+        "what": "Rural Diesel Concrete Pump Catalogue Row يبقى الصف الذي كان في هذا النص. «Applications and variations» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+        "who": "قرّاء يقارنون Rural Diesel Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "17 kW / 5–8 m³/h / 800 kg versus Tractor-Driven 4100 at 40 kW / 6–12 m³/h / 1300 kg",
-          "Vertical cell is the range 10–30 m, not a single 30 m figure",
-          "Pipe DN is not on this sheet",
-          "SmartBuy mini band 10–30 m³/h and residential 30–60 m³/h do not replace 5–8 m³/h"
+          "2200 × 1100 × 1250 mm",
+          "5–8 m³/h",
+          "30–50 m",
+          "10–30 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does the rural diesel pump print a delivery pipe diameter?",
-          "answer": "No. The sheet prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Pipe DN is not on that page. Straight pipe and hose are quoted after the pump model."
+          "question": "هل يضيف «Applications and variations» خانة إلى Rural Diesel Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m."
         },
         {
-          "question": "Is 5–8 m³/h inside the Alibaba SmartBuy mini-pump 10–30 m³/h band?",
-          "answer": "SmartBuy describes mini pumps as about 10–30 m³/h and a residential FAQ as 30–60 m³/h. The rural diesel page prints 5–8 m³/h. The marketplace band does not rewrite the Xingtai cell."
+          "question": "هل يستطيع «Vintage tractors» ملء خانة فارغة لـ Rural Diesel Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Rural Diesel Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Rural Diesel Concrete Pump Catalogue Row",
-      "seoTitle": "Rural Diesel Concrete Pump | Pinjin 17 kW 5–8 m³/h Xingtai",
-      "description": "The rural diesel pump is a Xingtai compact trailer: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Pipe DN is not printed. It is not Tractor-Driven 4100 and not a spraying machine.",
-      "imageAlt": "Rural diesel concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Rural diesel pump, Xingtai catalogue — 17 kW, 5–8 m³/h, 800 kg",
+      "title": "Rural Diesel Concrete Pump Catalogue Row: Tractor — Applications and variations / Vintage tractors / Tractor runs / Nebraska tests",
+      "seoTitle": "Tractor — Applications and variations",
+      "description": "Rural Diesel Concrete Pump Catalogue Row остаётся строкой, которая уже была в этом тексте. “Applications and variations” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+      "imageAlt": "Иллюстрация со страницы-источника: Tractor",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Tractor",
       "relatedPathLabels": [
         "Rural diesel concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -218,25 +231,28 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Rural Diesel Concrete Pump is a compact diesel concrete pump for rural houses manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 17 kW diesel, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm, 800 kg. Delivery pipe diameter is not printed. It is not Tractor-Driven 4100 and not a mortar spraying machine.",
-        "who": "Rural house jobs matched to 5–8 m³/h, 15 MPa and 30–50 m / 10–30 m on an 800 kg diesel unit, with stone 1–3 cm.",
+        "what": "Rural Diesel Concrete Pump Catalogue Row остаётся строкой, которая уже была в этом тексте. “Applications and variations” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+        "who": "Читатели, которые сверяют Rural Diesel Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "17 kW / 5–8 m³/h / 800 kg versus Tractor-Driven 4100 at 40 kW / 6–12 m³/h / 1300 kg",
-          "Vertical cell is the range 10–30 m, not a single 30 m figure",
-          "Pipe DN is not on this sheet",
-          "SmartBuy mini band 10–30 m³/h and residential 30–60 m³/h do not replace 5–8 m³/h"
+          "2200 × 1100 × 1250 mm",
+          "5–8 m³/h",
+          "30–50 m",
+          "10–30 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does the rural diesel pump print a delivery pipe diameter?",
-          "answer": "No. The sheet prints 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, hopper 0.2 m³, 2200 × 1100 × 1250 mm and 800 kg. Pipe DN is not on that page. Straight pipe and hose are quoted after the pump model."
+          "question": "Добавляет ли “Applications and variations” клетку к Rural Diesel Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 2200 × 1100 × 1250 mm, 5–8 m³/h, 30–50 m, 10–30 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m."
         },
         {
-          "question": "Is 5–8 m³/h inside the Alibaba SmartBuy mini-pump 10–30 m³/h band?",
-          "answer": "SmartBuy describes mini pumps as about 10–30 m³/h and a residential FAQ as 30–60 m³/h. The rural diesel page prints 5–8 m³/h. The marketplace band does not rewrite the Xingtai cell."
+          "question": "Может ли “Vintage tractors” заполнить пустую клетку для Rural Diesel Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Rural Diesel Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

@@ -1,7 +1,7 @@
 {
-  "title": "Diesel 40 Concrete Pump Catalogue Row",
-  "seoTitle": "Diesel 40 Concrete Pump | Pinjin 4108 66 kW",
-  "description": "Diesel 40 is a Xingtai diesel trailer pump listing 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm aggregate), hopper 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30 (56 kW, 15 m³/h), not Diesel 50 (99 kW, 30 m³/h) and not Electric 40. Match the printed table, then inquire.",
+  "title": "Fuel names and storage notes do not rename the Diesel 40 row",
+  "seoTitle": "Diesel fuel chapters next to the Diesel 40 trailer",
+  "description": "The diesel-fuel source uses names, history, types, and storage. Those chapters describe the liquid. They do not replace the Xingtai cells printed for Diesel 40.",
   "primaryKeyword": "Diesel 40 concrete pump",
   "secondaryKeywords": [
     "4108 diesel concrete pump 66 kW",
@@ -44,8 +44,8 @@
     }
   ],
   "answerBlock": {
-    "what": "Diesel 40 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm aggregate), hopper 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30, not Diesel 50 and not Electric 40.",
-    "who": "Sites without stable grid matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm aggregate) on a 2800 kg diesel trailer.",
+    "what": "Diesel 40 stays the printed Xingtai row: 4108 diesel, 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m at 1 cm aggregate, hopper 0.4 m³, 2800 kg.",
+    "who": "Readers comparing a fuel vocabulary with the Diesel 40 nameplate before they ask for a quote.",
     "factors": [
       "4108 / 66 kW versus Diesel 30 at 56 kW and Diesel 50 at 99 kW",
       "Theoretical output 26 m³/h",
@@ -60,20 +60,25 @@
   },
   "faqs": [
     {
-      "question": "Does Diesel 40 print 1 cm aggregate on the 120 m / 360 m pair?",
-      "answer": "Yes. Diesel 40 lists 120 m / 360 m (1 cm aggregate), 4108 / 66 kW, 26 m³/h, 25 MPa, hopper 0.4 m³, Kawasaki 112, 2800 kg. Electric 40’s 120 m / 360 m pair is the fine-stone row at 21 m³/h / 45 kW."
+      "question": "Does a storage chapter set a tank size for Diesel 40?",
+      "answer": "No. Storage on the source page is about the fuel, not a tank we print. This page adds no tank volume."
     },
     {
-      "question": "Does Diesel 40 replace Diesel 50 on a no-grid site?",
-      "answer": "No. Diesel 50 lists 6105 / 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m, Kawasaki 140, 3300 kg. Match the printed row."
+      "question": "Is Diesel 40 the 56 kW row?",
+      "answer": "No. Diesel 40 prints 4108 / 66 kW and 26 m³/h. The 56 kW / 15 m³/h row is Diesel 30."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-40-concrete-pump/diesel-40-concrete-pump.webp",
-    "alt": "Diesel 40 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel 40 trailer pump, Xingtai catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m"
+    "src": "/images/articles/diesel-40-concrete-pump-guide/Essodiesel.jpg",
+    "alt": "Figure from the source page about diesel fuel",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Diesel_fuel"
   },
   "sources": [
+    {
+      "name": "Diesel fuel (source page)",
+      "url": "https://en.wikipedia.org/wiki/Diesel_fuel",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Diesel 40 product page",
       "url": "https://pinjinpump.com/en/products/diesel-40-concrete-pump/",
@@ -111,11 +116,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Diesel 40 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 40 Concrete Pump | Pinjin 4108 66 kW",
-      "description": "Diesel 40 is a 邢台 diesel 拖式泵 listing 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm 骨料), 料斗 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30 (56 kW, 15 m³/h), not Diesel 50 (99 kW, 30 m³/h) and not Electric 40. Match the printed table, then 询价.",
-      "imageAlt": "Diesel 40 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Diesel 40 拖式泵, 邢台 catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m",
+      "title": "燃料名称和储存说明改不了柴油40这一行",
+      "seoTitle": "柴油燃料章节对照柴油40拖泵",
+      "description": "柴油燃料来源页用的是名称、沿革、种类和储存。这些章节描述的是液体，不替代邢台已经印出的柴油40格子。",
+      "imageAlt": "来源页上关于柴油燃料的图",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Diesel_fuel",
       "relatedPathLabels": [
         "Diesel 40 concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -123,8 +128,8 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel 40 Concrete Pump is a diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm 骨料), 料斗 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30, not Diesel 50 and not Electric 40.",
-        "who": "Sites without stable grid matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm 骨料) on a 2800 kg diesel trailer.",
+        "what": "柴油40仍是邢台已印的一行：4108 柴油机、66 kW、26 m³/h、25 MPa，1 cm 骨料时 120 m / 360 m，料斗 0.4 m³，2800 kg。",
+        "who": "想先把燃料词汇和柴油40铭牌分开、再询价的读者。",
         "factors": [
           "4108 / 66 kW versus Diesel 30 at 56 kW and Diesel 50 at 99 kW",
           "Theoretical output 26 m³/h",
@@ -134,21 +139,21 @@
       },
       "faqs": [
         {
-          "question": "Does Diesel 40 print 1 cm 骨料 on the 120 m / 360 m pair?",
-          "answer": "Yes. Diesel 40 lists 120 m / 360 m (1 cm 骨料), 4108 / 66 kW, 26 m³/h, 25 MPa, 料斗 0.4 m³, Kawasaki 112, 2800 kg. Electric 40’s 120 m / 360 m pair is the fine-stone row at 21 m³/h / 45 kW."
+          "question": "储存这一章会给柴油40定一个油箱容积吗？",
+          "answer": "不会。来源页的储存讲的是燃料，不是我们印出的油箱。本页不新增油箱容积。"
         },
         {
-          "question": "Does Diesel 40 replace Diesel 50 on a no-grid site?",
-          "answer": "No. Diesel 50 lists 6105 / 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m, Kawasaki 140, 3300 kg. Match the printed row."
+          "question": "柴油40是 56 kW 那一行吗？",
+          "answer": "不是。柴油40印的是 4108 / 66 kW 和 26 m³/h。56 kW / 15 m³/h 是柴油30。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel 40 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 40 Concrete Pump | Pinjin 4108 66 kW",
-      "description": "Diesel 40 is a Xingtai diesel bomba reboque listing 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm agregado), tremonha 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30 (56 kW, 15 m³/h), not Diesel 50 (99 kW, 30 m³/h) and not Electric 40. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 40 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Diesel 40 bomba reboque, Xingtai catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m",
+      "title": "Nomes e armazenamento do combustível não rebatizam a linha Diesel 40",
+      "seoTitle": "Capítulos do combustível diesel junto do reboque Diesel 40",
+      "description": "A página sobre combustível diesel usa nomes, história, tipos e armazenamento. Esses capítulos descrevem o líquido e não substituem as células impressas do Diesel 40.",
+      "imageAlt": "Figura da página de origem sobre combustível diesel",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Diesel_fuel",
       "relatedPathLabels": [
         "Diesel 40 concrete pump página do produto",
         "Diesel concrete pump manufacturer China",
@@ -156,8 +161,8 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 40 Concrete Pump is a diesel bomba reboque manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm agregado), tremonha 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30, not Diesel 50 and not Electric 40.",
-        "who": "Sites without stable grid matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm agregado) on a 2800 kg diesel trailer.",
+        "what": "O Diesel 40 continua a linha impressa: diesel 4108, 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m com agregado de 1 cm, tremonha 0,4 m³, 2800 kg.",
+        "who": "Leitores que separam o vocabulário do combustível da placa do Diesel 40 antes de pedir cotação.",
         "factors": [
           "4108 / 66 kW versus Diesel 30 at 56 kW and Diesel 50 at 99 kW",
           "Theoretical output 26 m³/h",
@@ -167,21 +172,21 @@
       },
       "faqs": [
         {
-          "question": "Does Diesel 40 print 1 cm agregado on the 120 m / 360 m pair?",
-          "answer": "Yes. Diesel 40 lists 120 m / 360 m (1 cm agregado), 4108 / 66 kW, 26 m³/h, 25 MPa, tremonha 0.4 m³, Kawasaki 112, 2800 kg. Electric 40’s 120 m / 360 m pair is the fine-stone row at 21 m³/h / 45 kW."
+          "question": "O capítulo de armazenamento define um depósito para o Diesel 40?",
+          "answer": "Não. O armazenamento na origem fala do combustível, não de um depósito que imprimimos."
         },
         {
-          "question": "Does Diesel 40 replace Diesel 50 on a no-grid site?",
-          "answer": "No. Diesel 50 lists 6105 / 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m, Kawasaki 140, 3300 kg. Match the printed row."
+          "question": "O Diesel 40 é a linha de 56 kW?",
+          "answer": "Não. O Diesel 40 imprime 4108 / 66 kW e 26 m³/h. A linha de 56 kW / 15 m³/h é o Diesel 30."
         }
       ]
     },
     "ar": {
-      "title": "Diesel 40 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 40 Concrete Pump | Pinjin 4108 66 kW",
-      "description": "Diesel 40 is a شينغتاي diesel مضخة مقطورة listing 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm ركام), قادوس 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30 (56 kW, 15 m³/h), not Diesel 50 (99 kW, 30 m³/h) and not Electric 40. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 40 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Diesel 40 مضخة مقطورة, شينغتاي catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m",
+      "title": "أسماء الوقود وملاحظات التخزين لا تعيد تسمية صف الديزل 40",
+      "seoTitle": "فصول وقود الديزل بجانب مقطورة الديزل 40",
+      "description": "تستخدم صفحة وقود الديزل الأسماء والتاريخ والأنواع والتخزين. تصف هذه الفصول السائل ولا تستبدل خلايا الديزل 40 المطبوعة.",
+      "imageAlt": "شكل من صفحة المصدر عن وقود الديزل",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Diesel_fuel",
       "relatedPathLabels": [
         "Diesel 40 concrete pump صفحة المنتج",
         "Diesel concrete pump manufacturer China",
@@ -189,8 +194,8 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 40 Concrete Pump is a diesel مضخة مقطورة manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm ركام), قادوس 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30, not Diesel 50 and not Electric 40.",
-        "who": "Sites without stable grid matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm ركام) on a 2800 kg diesel trailer.",
+        "what": "يبقى الديزل 40 الصف المطبوع: ديزل 4108، 66 كيلوواط، 26 م³/س، 25 ميغاباسكال، 120 م / 360 م لركام 1 سم، قادوس 0.4 م³، 2800 كغ.",
+        "who": "قرّاء يفصلون مفردات الوقود عن لوحة الديزل 40 قبل طلب عرض.",
         "factors": [
           "4108 / 66 kW versus Diesel 30 at 56 kW and Diesel 50 at 99 kW",
           "Theoretical output 26 m³/h",
@@ -200,21 +205,21 @@
       },
       "faqs": [
         {
-          "question": "Does Diesel 40 print 1 cm ركام on the 120 m / 360 m pair?",
-          "answer": "Yes. Diesel 40 lists 120 m / 360 m (1 cm ركام), 4108 / 66 kW, 26 m³/h, 25 MPa, قادوس 0.4 m³, Kawasaki 112, 2800 kg. Electric 40’s 120 m / 360 m pair is the fine-stone row at 21 m³/h / 45 kW."
+          "question": "هل يحدد فصل التخزين حجم خزان للديزل 40؟",
+          "answer": "لا. التخزين في المصدر عن الوقود، لا عن خزان نطبعه. هذه الصفحة لا تضيف حجم خزان."
         },
         {
-          "question": "Does Diesel 40 replace Diesel 50 on a no-grid site?",
-          "answer": "No. Diesel 50 lists 6105 / 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m, Kawasaki 140, 3300 kg. Match the printed row."
+          "question": "هل الديزل 40 هو صف 56 كيلوواط؟",
+          "answer": "لا. الديزل 40 يطبع 4108 / 66 كيلوواط و26 م³/س. صف 56 كيلوواط / 15 م³/س هو الديزل 30."
         }
       ]
     },
     "ru": {
-      "title": "Diesel 40 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 40 Concrete Pump | Pinjin 4108 66 kW",
-      "description": "Diesel 40 is a Синтай diesel прицепной насос listing 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm заполнитель), бункер 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30 (56 kW, 15 m³/h), not Diesel 50 (99 kW, 30 m³/h) and not Electric 40. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 40 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Diesel 40 прицепной насос, Синтай catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m",
+      "title": "Названия топлива и заметки о хранении не переименовывают строку Diesel 40",
+      "seoTitle": "Главы о дизельном топливе рядом с прицепом Diesel 40",
+      "description": "Страница о дизельном топливе строится из названий, истории, видов и хранения. Эти главы описывают жидкость и не заменяют напечатанные ячейки Diesel 40.",
+      "imageAlt": "Иллюстрация со страницы-источника о дизельном топливе",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Diesel_fuel",
       "relatedPathLabels": [
         "Diesel 40 concrete pump страница изделия",
         "Diesel concrete pump manufacturer China",
@@ -222,8 +227,8 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 40 Concrete Pump is a diesel прицепной насос manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm заполнитель), бункер 0.4 m³, Kawasaki 112, 4200 × 1600 × 1800 mm, 2800 kg. It is not Diesel 30, not Diesel 50 and not Electric 40.",
-        "who": "Sites without stable grid matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm заполнитель) on a 2800 kg diesel trailer.",
+        "what": "Diesel 40 остаётся напечатанной строкой: дизель 4108, 66 кВт, 26 м³/ч, 25 МПа, 120 м / 360 м при заполнителе 1 см, бункер 0,4 м³, 2800 кг.",
+        "who": "Читатели, которые отделяют словарь топлива от таблички Diesel 40 до запроса цены.",
         "factors": [
           "4108 / 66 kW versus Diesel 30 at 56 kW and Diesel 50 at 99 kW",
           "Theoretical output 26 m³/h",
@@ -233,14 +238,15 @@
       },
       "faqs": [
         {
-          "question": "Does Diesel 40 print 1 cm заполнитель on the 120 m / 360 m pair?",
-          "answer": "Yes. Diesel 40 lists 120 m / 360 m (1 cm заполнитель), 4108 / 66 kW, 26 m³/h, 25 MPa, бункер 0.4 m³, Kawasaki 112, 2800 kg. Electric 40’s 120 m / 360 m pair is the fine-stone row at 21 m³/h / 45 kW."
+          "question": "Задаёт ли глава о хранении объём бака Diesel 40?",
+          "answer": "Нет. Хранение на странице-источнике — про топливо, не про бак, который мы печатаем."
         },
         {
-          "question": "Does Diesel 40 replace Diesel 50 on a no-grid site?",
-          "answer": "No. Diesel 50 lists 6105 / 99 kW, 30 m³/h, 30 MPa, 150 m / 450 m, Kawasaki 140, 3300 kg. Match the printed row."
+          "question": "Diesel 40 — это строка 56 кВт?",
+          "answer": "Нет. Diesel 40 печатает 4108 / 66 кВт и 26 м³/ч. Строка 56 кВт / 15 м³/ч — это Diesel 30."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

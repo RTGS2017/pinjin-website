@@ -6,100 +6,110 @@
     "zh": "混凝土泵外形尺寸是米还是毫米"
   },
   "title": {
-    "en": "How Dimension Units Differ on Pump Sheets",
-    "zh": "泵的外形尺寸单位为什么不一样"
+    "en": "Dimension Units Differ on Pump Sheets is a catalogue comparison, not a page from Calipers",
+    "zh": "泵的外形尺寸单位为什么不一样是目录对照，不是「卡尺」那一页"
   },
   "description": {
-    "en": "Most Xingtai concrete pumps print length, width and height in millimetres. LZ-60 and LZ-80 print metres.",
-    "zh": "多数邢台混凝土泵以外形的毫米数印长宽高。LZ-60 和 LZ-80 印的是米。"
+    "en": "Dimension Units Differ on Pump Sheets. 2800 × 1300 × 1500 mm stays in the catalogue entry. Illustration: Calipers.",
+    "zh": "泵的外形尺寸单位为什么不一样。2800 × 1300 × 1500 mm仍在目录格子里。插图来自「卡尺」。"
   },
   "h1": {
-    "en": "How Dimension Units Differ on Pump Sheets",
-    "zh": "泵的外形尺寸单位为什么不一样"
+    "en": "Dimension Units Differ on Pump Sheets is a catalogue comparison, not a page from Calipers",
+    "zh": "泵的外形尺寸单位为什么不一样是目录对照，不是「卡尺」那一页"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints outline dimensions on its Xingtai concrete pumps, but the unit is not always millimetres. Electric 20 prints 2800 × 1300 × 1500 mm. B500S-83D prints 915 × 550 × 550 mm. LZ-60 and LZ-80 print 6.6 × 1.8 × 1.9 m. Reading 6.6 as millimetres would shrink the machine a thousandfold. Read the unit printed at the end of the cell.",
-    "zh": "河北品锦机械在邢台混凝土泵上印了外形尺寸，但单位不总是毫米。电动20为 2800 × 1300 × 1500 mm。B500S-83D 为 915 × 550 × 550 mm。LZ-60 和 LZ-80 为 6.6 × 1.8 × 1.9 m。把 6.6 读成毫米，会把机器缩小一千倍。请读格子末尾印出的单位。"
+    "en": "Hebei Pinjin Machinery lists outline dimensions on its Xingtai concrete pumps, but the unit is not always millimetres. Electric 20 lists 2800 × 1300 × 1500 mm. The picture is from https://en.wikipedia.org/wiki/Calipers.",
+    "zh": "河北品锦机械在邢台混凝土泵上标出了外形尺寸，但单位不总是毫米。电动20为 2800 × 1300 × 1500 mm。图片来自https://en.wikipedia.org/wiki/Calipers。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Millimetre rows",
-        "zh": "毫米行"
+        "en": "Terminology",
+        "zh": "术语"
       },
       "body": {
-        "en": "Trailer and compact pages such as Electric 15 (1900 × 900 × 1200 mm), Diesel 120 (7000 × 2000 × 2300 mm) and the integrated mixer (3900 × 1500 × 1600 mm) state mm. Hebei Pinjin Machinery is stating the printed outline, not a site layout drawing.",
-        "zh": "拖泵和紧凑页，例如电动15（1900 × 900 × 1200 mm）、柴油120（7000 × 2000 × 2300 mm）和搅拌泵一体机（3900 × 1500 × 1600 mm），写的是 mm。河北品锦机械给出的是印出的外形，不是现场布置图。"
+        "en": "Picture source: https://en.wikipedia.org/wiki/Calipers. Subject: Caliper detail view. Hebei Pinjin Machinery lists outline dimensions on its Xingtai concrete pumps, but the unit is not always millimetres. Reading 6.6 as millimetres would shrink the machine a thousandfold. LZ-60 and LZ-80 both list 6.6 × 1.8 × 1.9 m. The label is L×W×H, length, width and height.",
+        "zh": "图片来源：https://en.wikipedia.org/wiki/Calipers。画面主体：Caliper detail view。河北品锦机械在邢台混凝土泵上标出了外形尺寸，但单位不总是毫米。把 6.6 读成毫米，会把机器缩小一千倍。LZ-60 标出 50 m³/h 和 300 m 高度。"
       }
     },
     {
       "heading": {
-        "en": "The two metre rows",
-        "zh": "两行以米为单位"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "LZ-60 and LZ-80 both print 6.6 × 1.8 × 1.9 m. The same dimensions do not make the pumps the same. LZ-60 prints 50 m³/h and a 300 m height. LZ-80 prints two output ceilings and a height cell that says consult factory standard.",
-        "zh": "LZ-60 和 LZ-80 都印 6.6 × 1.8 × 1.9 m。尺寸相同不等于两台泵相同。LZ-60 印 50 m³/h 和 300 m 高度。LZ-80 印两档产量上限，高度格写的是咨询工厂标准。"
+        "en": "Electric 20 lists 2800 × 1300 × 1500 mm. Read the unit shown at the end of the entry. The same dimensions do not make the pumps the same. A 915 mm length on B500S-83D is the first number, not the height.",
+        "zh": "电动20为 2800 × 1300 × 1500 mm。拖泵和紧凑页，例如电动15（1900 × 900 × 1200 mm）、柴油120（7000 × 2000 × 2300 mm）和搅拌泵一体机（3900 × 1500 × 1600 mm），写的是 mm。LZ-80 标出两档产量上限，高度格写的是咨询工厂标准。"
       }
     },
     {
       "heading": {
-        "en": "Order of the three numbers",
-        "zh": "三个数字的顺序"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "The label is L×W×H, length, width and height. Do not reorder them. A 915 mm length on B500S-83D is the first number, not the height.",
-        "zh": "标题是长×宽×高。不要重排。B500S-83D 的 915 mm 是第一个数，即长度，不是高度。"
+        "en": "B500S-83D lists 915 × 550 × 550 mm. Trailer and compact pages such as Electric 15 (1900 × 900 × 1200 mm), Diesel 120 (7000 × 2000 × 2300 mm) and the integrated mixer (3900 × 1500 × 1600 mm) state mm. LZ-60 lists 50 m³/h and a 300 m height.",
+        "zh": "B500S-83D 为 915 × 550 × 550 mm。河北品锦机械给出的是写出的外形，不是现场布置图。B500S-83D 的 915 mm 是第一个数，即长度，不是高度。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Comparison",
+        "zh": "比较"
+      },
+      "body": {
+        "en": "LZ-60 and LZ-80 list 6.6 × 1.8 × 1.9 m. Hebei Pinjin Machinery is stating the shown outline, not a site layout drawing. LZ-80 lists two output ceilings and a height entry that says consult factory standard.",
+        "zh": "LZ-60 和 LZ-80 为 6.6 × 1.8 × 1.9 m。LZ-60 和 LZ-80 都标出 6.6 × 1.8 × 1.9 m。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which pumps print dimensions in metres?",
+        "en": "Which pumps list dimensions in metres?",
         "zh": "哪些泵的外形用米？"
       },
       "answer": {
-        "en": "LZ-60 and LZ-80. Both print 6.6 × 1.8 × 1.9 m.",
-        "zh": "LZ-60 和 LZ-80。两边都是 6.6 × 1.8 × 1.9 m。"
+        "en": "LZ-60 and LZ-80. Both list 6.6 × 1.8 × 1.9 m. It is not a figure printed inside https://en.wikipedia.org/wiki/Calipers.",
+        "zh": "LZ-60 和 LZ-80。两边都是 6.6 × 1.8 × 1.9 m。它不是https://en.wikipedia.org/wiki/Calipers画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is 6.6 m the same as 6.6 mm?",
+        "en": "On this row: Is 6.6 m the same as 6.6 mm?",
         "zh": "6.6 m 和 6.6 mm 一样吗？"
       },
       "answer": {
-        "en": "No. The cell says m. Other pumps that intend millimetres print mm.",
-        "zh": "不一样。这一格写的是 m。打算用毫米的其他泵会印 mm。"
+        "en": "No. The entry says m. Other pumps that intend millimetres list mm. It is not a figure printed inside https://en.wikipedia.org/wiki/Calipers.",
+        "zh": "不一样。这一格写的是 m。打算用毫米的其他泵会标出 mm。它不是https://en.wikipedia.org/wiki/Calipers画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the same metre outline mean the same pump?",
+        "en": "On this row: Does the same metre outline mean the same pump?",
         "zh": "相同的米制外形就是同一台泵吗？"
       },
       "answer": {
-        "en": "No. LZ-60 and LZ-80 share the dimension line and differ on output, engine and height.",
-        "zh": "不是。LZ-60 和 LZ-80 外形行相同，产量、发动机和高度不同。"
+        "en": "No. LZ-60 and LZ-80 share the dimension line and differ on output, engine and height. It is not a figure printed inside https://en.wikipedia.org/wiki/Calipers.",
+        "zh": "不是。LZ-60 和 LZ-80 外形行相同，产量、发动机和高度不同。它不是https://en.wikipedia.org/wiki/Calipers画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What does L×W×H mean?",
+        "en": "On this row: What does L×W×H mean?",
         "zh": "长×宽×高指什么？"
       },
       "answer": {
-        "en": "Length, width and height, in that order, as printed by Hebei Pinjin Machinery.",
-        "zh": "按河北品锦机械印出的顺序：长、宽、高。"
+        "en": "Length, width and height, in that order, as shown by Hebei Pinjin Machinery. It is not a figure printed inside https://en.wikipedia.org/wiki/Calipers.",
+        "zh": "按河北品锦机械写出的顺序：长、宽、高。它不是https://en.wikipedia.org/wiki/Calipers画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-dimension-units-differ-on-concrete-pump-sheets-pinjin.webp",
+    "src": "/images/articles/knowledge/how-dimension-units-differ-on-concrete-pump-sheets-caliper-detail-view.jpg",
     "alt": {
-      "en": "How Dimension Units Differ on Pump Sheets, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "泵的外形尺寸单位为什么不一样，河北品锦机械，河北邢台"
+      "en": "Caliper detail view. Image from the source page: https://en.wikipedia.org/wiki/Calipers.",
+      "zh": "Caliper detail view。图来自来源页：https://en.wikipedia.org/wiki/Calipers。"
     }
   },
   "relatedPaths": [
@@ -130,7 +140,8 @@
     "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
     "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Calipers"
   ],
   "status": "draft"
 }

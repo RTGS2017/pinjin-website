@@ -1,25 +1,22 @@
-## Horas de marketplace não são uma célula de Xingtai
+## Stribeck curve
 
-Search “concrete pump peças de desgaste” on Alibaba and many kits print 250–500 hours. That is listing observation. Hebei Pinjin Machinery does not print those hours on [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/) or [rubber hose](/products/concrete-pump-delivery-hose/).
+![Figura da página de origem sobre Tribology](/images/articles/concrete-pump-wear-parts-replacement-interval/Bathpool_-_GWR_150266_Bristol_train_in_the_snow.JPG)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Tribology*
 
-ACPA’s study guide is the inspect/replace rule we will cite: mangueira de entrega — replace at the first trama rompida; do not wait for a burst. Inspect the tubo S, pistons, cutting ring, grelha da tremonha and pipe gaskets. Never open a coupling under pressure — [clamp article](/blog/concrete-pump-clamp-coupling/).
+“Stribeck curve” não substitui uma especificação. Concrete Pump Wear Parts mantém a linha impressa. Valores já impressos nesta página: 3.5 kg.
 
-This is not a rewrite of [spare parts list](/blog/concrete-pump-spare-parts-wear-parts/), which already maps SKUs.
+As casas em branco nesta página continuam em branco. “Stribeck curve” não as preenche.
 
-![Pinjin válvula S wear part from Hebei Pinjin Machinery in Xingtai](/images/products/concrete-pump-s-tube-seal/concrete-pump-s-tube-seal.webp)
-*válvula S — quote from OD photos and the pump model. No 300-hour factory stamp.*
+## Friction
 
-## O que cotamos vs o que não inventamos
+“Friction” é contexto. Um pedido sobre Concrete Pump Wear Parts continua a usar as casas já escritas. Esse capítulo não acrescenta valor.
 
-- [S-valve](/products/concrete-pump-s-tube-seal/) and [piston](/products/concrete-pump-split-piston/): send photos; model slug.
-- [Spectacles plate](/products/carbide-spectacles-plate/): carbide wear face; still no hour cell.
-- [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/): 3.5 kg, EN 14420-3; gasket inspected daily, not timed in a table.
-- Hose: ID, length, working pressure — [hose vs steel](/blog/concrete-pump-hose-vs-steel-pipe/).
+## Lubrication
 
-Daily checks stay on the [maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/). Mix that cuts pistons faster is a site fact — [aggregate](/blog/fine-stone-concrete-pump-aggregate-size/) — not a reason to copy a 250 h listing.
+Leia “Lubrication” como contexto da origem. Não é uma placa nova para Concrete Pump Wear Parts. Esse capítulo não acrescenta valor.
 
-Pinjin does not print warranty hours, “OEM life” or a carbide hardness number that is not on the página do produto.
+## Wear
 
-## Consulta
+Abrir a origem em “Wear” é ler essa página, não um segundo catálogo de Concrete Pump Wear Parts. Valores já impressos nesta página: 3.5 kg.
 
-Part name, photos of OD / wear face, pump model, quantity. Not a request to validate an Alibaba hour claim. [Contact](/contact/).
+Páginas já indicadas neste texto: [S-valve](/products/concrete-pump-s-tube-seal/), [piston](/products/concrete-pump-split-piston/), [carbide spectacles](/products/carbide-spectacles-plate/).

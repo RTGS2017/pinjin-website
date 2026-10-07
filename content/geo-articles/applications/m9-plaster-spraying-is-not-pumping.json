@@ -3,90 +3,94 @@
   "category": "application",
   "keyword": "M9 plaster spraying machine",
   "title": {
-    "en": "Which machine is the plaster sprayer?",
-    "zh": "哪一台是石膏喷涂机？"
+    "en": "Stay on one row while resolving which machine is the plaster sprayer",
+    "zh": "选型时不要并格：哪一台是石膏喷涂机"
   },
   "description": {
-    "en": "M9: 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, hopper 115 L, particle ≤ 4 mm, 50 m / 20 m, 200 kg. It is not a concrete pump.",
-    "zh": "M9：380V/50Hz、30 L/min、50 bar、管径 25 mm、料斗 115 L、粒径 ≤ 4 mm、50 m / 20 m、200 kg。它不是混凝土泵。"
+    "en": "Keep this cell as published. M9. Xingtai-based Hebei Pinjin Machinery lists the M9 automatic plaster spraying machine for gypsum or plaster inside 30 L/min and ≤ 4 mm: 380 V/50 Hz, 50 bar, hose 25 mm, hopper 115 L, loading height 90 cm, 50 m horizontal / 20 m vertical, 1230 × 720 × 1550 mm and 200 kg. Read it in the Xingtai table. Output is in litres per minute, not m³/h.",
+    "zh": "这一格照已印出的读：M9。邢台河北品锦机械把 M9 全自动石膏喷涂机列为 30 L/min 和 ≤ 4 mm 内的石膏或抹灰：380V/50Hz、50 bar、管径 25 mm、料斗 115 L、上料高度 90 cm、水平 50 m / 垂直 20 m、外形 1230 × 720 × 1550 mm、200 kg。输送量用升/分钟，不是 m³/h。"
   },
   "h1": {
-    "en": "Which machine is the plaster sprayer?",
-    "zh": "哪一台是石膏喷涂机？"
+    "en": "Stay on one row while resolving which machine is the plaster sprayer",
+    "zh": "选型时不要并格：哪一台是石膏喷涂机"
   },
   "directAnswer": {
-    "en": "M9. Hebei Pinjin Machinery in Xingtai lists the M9 automatic plaster spraying machine for gypsum or plaster inside 30 L/min and ≤ 4 mm: 380 V/50 Hz, 50 bar, hose 25 mm, hopper 115 L, loading height 90 cm, 50 m horizontal / 20 m vertical, 1230 × 720 × 1550 mm and 200 kg. Output is in litres per minute, not m³/h.",
-    "zh": "M9。邢台河北品锦机械把 M9 全自动石膏喷涂机列为 30 L/min 和 ≤ 4 mm 内的石膏或抹灰：380V/50Hz、50 bar、管径 25 mm、料斗 115 L、上料高度 90 cm、水平 50 m / 垂直 20 m、外形 1230 × 720 × 1550 mm、200 kg。输送量用升/分钟，不是 m³/h。"
+    "en": "Keep this cell as published. M9. Xingtai-based Hebei Pinjin Machinery lists the M9 automatic plaster spraying machine for gypsum or plaster inside 30 L/min and ≤ 4 mm: 380 V/50 Hz, 50 bar, hose 25 mm, hopper 115 L, loading height 90 cm, 50 m horizontal / 20 m vertical, 1230 × 720 × 1550 mm and 200 kg. Read it in the Xingtai table. Output is in litres per minute, not m³/h.",
+    "zh": "这一格照已印出的读：M9。邢台河北品锦机械把 M9 全自动石膏喷涂机列为 30 L/min 和 ≤ 4 mm 内的石膏或抹灰：380V/50Hz、50 bar、管径 25 mm、料斗 115 L、上料高度 90 cm、水平 50 m / 垂直 20 m、外形 1230 × 720 × 1550 mm、200 kg。输送量用升/分钟，不是 m³/h。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Do not convert 30 L/min into a pump output",
-        "zh": "不要把 30 L/min 换成泵的输送量"
+        "en": "Pressure drop diagrams for PTFE, PP, PFA and PVDF lined pipes.",
+        "zh": "压力降示意管"
       },
       "body": {
-        "en": "The cell is 30 L/min. A trailer pump such as Electric 20 prints 8–10 m³/h. Those units are not interchangeable on this page, and M9’s particle limit is ≤ 4 mm. Interior finishing that is actually a concrete pipeline pour belongs on a pump page.",
-        "zh": "这一格是 30 L/min。电动20这类拖泵印的是 8–10 m³/h。在本页上这些单位不能互换，而且 M9 的粒径上限是 ≤ 4 mm。室内作业如果实际上是混凝土管道浇筑，就去泵的页面。"
+        "en": "The section shape comes from “Pressure drop diagrams for PTFE, PP, PFA and PVDF lined pipes.” in “Lined Pipes - Pressure Loss vs. Water Flow”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. M9: 380 V/50 Hz, 30 L/min, 50 bar, 25 mm hose, hopper 115 L, particle ≤ 4 mm, 50 m / 20 m, 200 kg. Xingtai-based Hebei Pinjin Machinery lists the M9 automatic plaster spraying machine for gypsum or plaster inside 30 L/min and ≤ 4 mm: 380 V/50 Hz, 50 bar, hose 25 mm, hopper 115 L, loading height 90 cm, 50 m horizontal / 20 m vertical, 1230 × 720 × 1550 mm and 200 kg. Read it in the Xingtai table. A trailer pump such as Electric 20 prints 8–10 m³/h. The neighbouring machine is not this sentence. The diesel concrete sprayer is not a plaster substitute. Keep this cell as published. Plaster that needs the 115 L hopper and 30 L/min stays on M9 and needs the printed supply. Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. It is the printed maximum outlet pressure for M9. The neighbouring machine is not this sentence. Yes, as printed, with a 115 L hopper. Image from the source page: https://www.engineeringtoolbox.com/lined-pipe-pressure-loss-d_1178.html",
+        "zh": "这一节的形状来自《Lined Pipes - Pressure Loss vs. Water Flow》的“压力降示意管”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：M9：380V/50Hz、30 L/min、50 bar、管径 25 mm、料斗 115 L、粒径 ≤ 4 mm、50 m / 20 m、200 kg。它不是混凝土泵。目录里已经写着：柴油混凝土喷涂机不是石膏的替代品。它印的是 5 m³/h 和 ≤ 6 mm。311 可以用 220/380V，但它是 ≤ 2 mm、2 m³/h 的细砂浆，垂直只有 5 m。需要 115 L 料斗和 30 L/min 的石膏，留在 M9，并需要已印的电源。按邢台表上的原文理解：它是 M9 已印的最大出口压力。其他喷涂机印的是 MPa。不要在本页把它换算成一个未公布的 MPa 说法。图来自来源页面：https://www.engineeringtoolbox.com/lined-pipe-pressure-loss-d_1178.html"
       }
     },
     {
       "heading": {
-        "en": "No 380 V/50 Hz means M9 is the wrong row",
-        "zh": "没有 380V/50Hz，M9 就是错行"
+        "en": "Pressure Drop - Imperial Units",
+        "zh": "压力降英制单位"
       },
       "body": {
-        "en": "The diesel concrete sprayer is not a plaster substitute. It prints 5 m³/h and ≤ 6 mm. Type 311 can run on 220/380 V but it is fine mortar at ≤ 2 mm and 2 m³/h, with only 5 m vertical. Plaster that needs the 115 L hopper and 30 L/min stays on M9 and needs the printed supply.",
-        "zh": "柴油混凝土喷涂机不是石膏的替代品。它印的是 5 m³/h 和 ≤ 6 mm。311 可以用 220/380V，但它是 ≤ 2 mm、2 m³/h 的细砂浆，垂直只有 5 m。需要 115 L 料斗和 30 L/min 的石膏，留在 M9，并需要已印的电源。"
+        "en": "“Lined Pipes - Pressure Loss vs. Water Flow” breaks its subject at “Pressure Drop - Imperial Units”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. It is not a concrete pump. Keep this cell as published. Output is in litres per minute, not m³/h. Taken from the printed row: Those units are not interchangeable on this page, and M9’s particle limit is ≤ 4 mm. Read it in the Xingtai table. It prints 5 m³/h and ≤ 6 mm. The neighbouring machine is not this sentence. Send particle size and confirm 380 V/50 Hz. Keep this cell as published. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: Other sprayers print MPa. Read it in the Xingtai table. It is the machine the spraying page and the FAQ name for automatic plaster.",
+        "zh": "《Lined Pipes - Pressure Loss vs. Water Flow》在“压力降英制单位”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。M9。邢台河北品锦机械把 M9 全自动石膏喷涂机列为 30 L/min 和 ≤ 4 mm 内的石膏或抹灰：380V/50Hz、50 bar、管径 25 mm、料斗 115 L、上料高度 90 cm、水平 50 m / 垂直 20 m、外形 1230 × 720 × 1550 mm、200 kg。输送量用升/分钟，不是 m³/h。这一格照已印出的读：请发送粒径并确认 380V/50Hz。不要给这台机器发送混凝土的 m³/h。目录里已经写着：是，已印，料斗 115 L。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Pressure Drop - SI units",
+        "zh": "压力降国际单位单位"
       },
       "body": {
-        "en": "Send particle size and confirm 380 V/50 Hz. Do not send a concrete m³/h figure for this machine. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请发送粒径并确认 380V/50Hz。不要给这台机器发送混凝土的 m³/h。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "Borrow “Pressure Drop - SI units” from “Lined Pipes - Pressure Loss vs. Water Flow” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. M9. The neighbouring machine is not this sentence. The cell is 30 L/min. Keep this cell as published. Interior finishing that is actually a concrete pipeline pour belongs on a pump page. Taken from the printed row: Type 311 can run on 220/380 V but it is fine mortar at ≤ 2 mm and 2 m³/h, with only 5 m vertical. Read it in the Xingtai table. Do not send a concrete m³/h figure for this machine. Leave aside attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. Do not convert it into an unpublished MPa claim on this page. Taken from the printed row: Other rows are mortar or concrete spraying. Headings already printed: Do not convert 30 L/min into a pump output No 380 V/50 Hz means M9 is the wrong row",
+        "zh": "把《Lined Pipes - Pressure Loss vs. Water Flow》的“压力降国际单位单位”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：这一格是 30 L/min。电动20这类拖泵印的是 8–10 m³/h。在本页上这些单位不能互换，而且 M9 的粒径上限是 ≤ 4 mm。室内作业如果实际上是混凝土管道浇筑，就去泵的页面。旁边那一台不在这句话里。请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。这一格照已印出的读：它是喷涂页和问答里点名的全自动石膏机。其他行是砂浆或混凝土喷涂。已印出的标题：不要把 30 L/min 换成泵的输送量 没有 380V/50Hz，M9 就是错行"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What is 50 bar in the table?",
-        "zh": "表上的 50 bar 是什么？"
+        "en": "Under “Pressure drop diagrams for PTFE, PP, PFA and PVDF lined pipes.”, what is 50 bar in the table?",
+        "zh": "在“压力降示意管”这一节里，表上的 50 bar 是什么？"
       },
       "answer": {
-        "en": "It is the printed maximum outlet pressure for M9. Other sprayers print MPa. Do not convert it into an unpublished MPa claim on this page.",
-        "zh": "它是 M9 已印的最大出口压力。其他喷涂机印的是 MPa。不要在本页把它换算成一个未公布的 MPa 说法。"
+        "en": "Keep this cell as published. It is the printed maximum outlet pressure for M9. Other sprayers print MPa. Do not convert it into an unpublished MPa claim on this page.",
+        "zh": "这一格照已印出的读：它是 M9 已印的最大出口压力。其他喷涂机印的是 MPa。不要在本页把它换算成一个未公布的 MPa 说法。"
       }
     },
     {
       "question": {
-        "en": "Is the loading height 90 cm?",
-        "zh": "上料高度是 90 cm 吗？"
+        "en": "What should stay printed beside “Pressure Drop - Imperial Units” — Is the loading height 90 cm?",
+        "zh": "“压力降英制单位”旁边仍要印着的是什么：上料高度是 90 cm 吗？"
       },
       "answer": {
-        "en": "Yes, as printed, with a 115 L hopper.",
-        "zh": "是，已印，料斗 115 L。"
+        "en": "The neighbouring machine is not this sentence. Yes, as printed, with a 115 L hopper.",
+        "zh": "旁边那一台不在这句话里。是，已印，料斗 115 L。"
       }
     },
     {
       "question": {
-        "en": "Is M9 the only plaster machine?",
-        "zh": "M9 是唯一的石膏机吗？"
+        "en": "“Pressure Drop - SI units” does not change the check: Is M9 the only plaster machine?",
+        "zh": "“压力降国际单位单位”不改这一问：M9 是唯一的石膏机吗？"
       },
       "answer": {
-        "en": "It is the machine the spraying page and the FAQ name for automatic plaster. Other rows are mortar or concrete spraying.",
-        "zh": "它是喷涂页和问答里点名的全自动石膏机。其他行是砂浆或混凝土喷涂。"
+        "en": "Read it in the Xingtai table. It is the machine the spraying page and the FAQ name for automatic plaster. Other rows are mortar or concrete spraying.",
+        "zh": "按邢台表上的原文理解：它是喷涂页和问答里点名的全自动石膏机。其他行是砂浆或混凝土喷涂。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/m9-plaster-spraying-is-not-pumping.webp",
+    "src": "/images/articles/applications/m9-plaster-spraying-is-not-pumping.png",
     "alt": {
-      "en": "M9 automatic plaster spraying machine from Hebei Pinjin Machinery in Xingtai",
-      "zh": "邢台河北品锦机械 M9 全自动石膏喷涂机"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/lined-pipe-pressure-loss-d_1178.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/lined-pipe-pressure-loss-d_1178.html"
     }
   },
   "relatedPaths": [
@@ -129,7 +133,12 @@
   "sources": [
     "https://pinjinpump.com/products/m9-automatic-plaster-spraying-machine",
     "https://pinjinpump.com/solutions/spraying",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/lined-pipe-pressure-loss-d_1178.html"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

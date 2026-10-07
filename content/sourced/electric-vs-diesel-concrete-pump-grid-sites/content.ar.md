@@ -1,25 +1,22 @@
-## This is not the “no electricity” article
+## Functionalities
 
-We already wrote how to start from diesel when there is no ثلاثي الطور supply. This page is the opposite buyer: the site **has** (or claims to have) industrial power, and a marketplace listing still pushes a diesel trailer. Alibaba’s pump-machine FAQ asks whether electric pumps work on remote sites — “only if reliable grid or large generators exist.” We treat that as the right question. We لا تختلق fuel litres per hour or generator kVA.
+![صورة من صفحة المصدر عن Electrical grid](/images/articles/electric-vs-diesel-concrete-pump-grid-sites/Staying_big_or_getting_smaller.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Electrical_grid*
 
-![Electric 40 trailer concrete pump, 45 kW grid-powered unit manufactured by Hebei Pinjin Machinery in شينغتاي](/images/products/electric-40-concrete-pump/main.webp)
-*Electric 40 — 45 kW motor, 21 m³/h, 23 MPa, حصى ناعم 120 m / 360 m*
+Electric vs Diesel Concrete Pump When the Site Has Power يبقى الصف الذي كان في هذا النص. «Functionalities» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.
 
-## Two printed rows, two power stories
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Functionalities» لا يملؤها.
 
-| Model | Power | Output | Pressure | Distance |
-| Electric 40 | 45 kW motor | 21 m³/h | 23 MPa | Fine-stone 120 m / 360 m |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m |
-| Electric 15 | 15 kW | 8–10 m³/h | — | 60–80 m / 15–20 m |
+## Management, operation and ownership
 
-If the pour needs ~21 m³/h on a grid, we open Electric 40 (or Electric 50 at 55 kW / 26 m³/h) — not Diesel 50 “because export buyers like diesel.” If the 45 kW motor cannot be fed, Diesel 50 is a different machine with a different output and distance pair. Do not swap labels.
+افصل «Management, operation and ownership» عن Electric vs Diesel Concrete Pump When the Site Has Power. المصدر لا يملأ خانة فارغة. هذا الفصل لا يضيف رقمًا.
 
-For true off-grid rural work, stay on [diesel without electricity](/blog/diesel-concrete-pump-no-electricity/). Price and freight still follow [price factors](/blog/concrete-pump-price-factors-china/) — no list price here.
+## Failures and issues
 
-## Enclosed pours
+يبقى الفصل «Failures and issues» في صفحة المصدر. Electric vs Diesel Concrete Pump When the Site Has Power هو الصف المكتوب هنا من قبل. هذا الفصل لا يضيف رقمًا.
 
-Electric motors do not remove the need for a listed kW at the panel. Diesel in a قبو or tunnel needs the contractor’s exhaust plan. We do not publish ppm, CFM or “tunnel-certified” badges. If the job is spraying without 380 V, the diesel concrete sprayer (28/32 HP, 5 m³/h) is a spraying SKU, not a مضخة مقطورة.
+## Trends
 
-## استفسار
+«Trends» لا يحل محل مواصفة. يبقى Electric vs Diesel Concrete Pump When the Site Has Power على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.
 
-Voltage and frequency **or** diesel; mix; stone; H/V; target m³/h. If you only write “diesel, same as electric 40,” we will send you back to the two tables.
+صفحات مذكورة أصلًا في هذا النص: [diesel without electricity](/blog/diesel-concrete-pump-no-electricity/), [price factors](/blog/concrete-pump-price-factors-china/).

@@ -6,100 +6,110 @@
     "zh": "混凝土泵工作原理"
   },
   "title": {
-    "en": "How a Pinjin Concrete Pump Moves Concrete",
-    "zh": "品锦混凝土泵怎样输送混凝土"
+    "en": "a Pinjin Concrete Pump Moves Concrete keeps its own figures; Concrete block is only the picture",
+    "zh": "品锦混凝土泵怎样输送混凝土保留自己的数字，「Concrete block」只是配图"
   },
   "description": {
-    "en": "How a Pinjin Concrete Pump Moves Concrete",
-    "zh": "品锦混凝土泵怎样输送混凝土"
+    "en": "a Pinjin Concrete Pump Moves Concrete. 80 mm stays in the catalogue entry. Illustration: Concrete block.",
+    "zh": "品锦混凝土泵怎样输送混凝土。80 mm仍在目录格子里。插图来自「Concrete block」。"
   },
   "h1": {
-    "en": "Hebei Pinjin Machinery describes its Xingtai concrete pumps as pipeline machines. The sheets name hoppers and, on some rows, hydraulic pumps. The parts list names an S-valve, pistons and cylinder seals. Bore, stroke and strokes per minute are not printed.",
-    "zh": "河北品锦机械把邢台混凝土泵写成管道机器。参数页写料斗，部分行写液压泵。配件目录写明S阀、活塞和油缸密封。缸径、行程和每分钟冲程没有印出。"
+    "en": "a Pinjin Concrete Pump Moves Concrete keeps its own figures; Concrete block is only the picture",
+    "zh": "品锦混凝土泵怎样输送混凝土保留自己的数字，「Concrete block」只是配图"
   },
   "directAnswer": {
-    "en": "A concrete pump from Hebei Pinjin Machinery in Xingtai moves concrete from a hopper into a delivery pipe. That is the path the catalogue describes. Some pump pages also name a hydraulic pump, such as a Kawasaki unit. The parts list names S-valve pistons, an S-tube seal, a main-cylinder seal and a swing-cylinder seal. The sheets do not print cylinder bore, piston stroke or strokes per minute, so this note does not invent a timed cycle.",
-    "zh": "河北品锦机械在邢台的混凝土泵，把混凝土从料斗送进输送管。这是目录描述的路径。部分泵页还写出液压泵，例如川崎机组。配件目录写明S阀活塞、S管密封、主油缸密封和摆缸密封。参数页不印缸径、活塞行程或每分钟冲程，因此这里不编造一套带节拍的循环。"
+    "en": "A concrete pump from Hebei Pinjin Machinery in Xingtai moves concrete from a hopper into a delivery pipe. That is the path the catalogue describes. The picture is from https://en.wikipedia.org/wiki/Concrete_block.",
+    "zh": "河北品锦机械在邢台的混凝土泵，把混凝土从料斗送进输送管。配件目录写明S阀活塞、S管密封、主油缸密封和摆缸密封。图片来自https://en.wikipedia.org/wiki/Concrete_block。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The path that is actually named",
-        "zh": "实际被点名的路径"
+        "en": "Naming",
+        "zh": "名称"
       },
       "body": {
-        "en": "Many concrete pump sheets print a hopper capacity. Pages that print a delivery-pipe diameter name that diameter only for themselves: Electric 20 prints 80 mm, Electric 15 prints 100–125 mm, and the integrated mixer, HBT8018, HBT80-16 and LZ-60 print 100 / 125 mm. Pages without a pipe cell do not receive a borrowed diameter. Hebei Pinjin Machinery builds these machines in Xingtai. The concrete leaves through the pipe the page names, not through a truck placing boom.",
-        "zh": "许多混凝土泵页面印了料斗容积。印了输送管内径的页面，管径只属于自己：电动20为 80 mm，电动15为 100–125 mm，搅拌泵一体机、HBT8018、HBT80-16 和 LZ-60 为 100 / 125 mm。没有管径格的页面不能借用管径。河北品锦机械在邢台制造这些机器。混凝土从该页写出的管道离开，不是从车载布料杆离开。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_block. The picture shows Concreteblocks. A concrete pump from Hebei Pinjin Machinery in Xingtai moves concrete from a hopper into a delivery pipe. The sheets do not list cylinder bore, piston stroke or strokes per minute, so this note does not invent a timed cycle. Hebei Pinjin Machinery builds these machines in Xingtai. Separate lines name an S-tube seal, a main-cylinder seal, a swing-cylinder seal and a swing-arm ball. Do not draw piston speed, cylinder diameter or strokes per minute for a Hebei Pinjin Machinery concrete pump.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Concrete_block。画面是Concreteblocks。河北品锦机械在邢台的混凝土泵，把混凝土从料斗送进输送管。混凝土从该页写出的管道离开，不是从车载布料杆离开。如果项目需要页面没标出的结构尺寸，请通过 /zh/contact/ 询问，空白格子保持空白。"
       }
     },
     {
       "heading": {
-        "en": "Assemblies named without a cycle diagram",
-        "zh": "点了名称、但没有循环图的总成"
+        "en": "Composition",
+        "zh": "组成"
       },
       "body": {
-        "en": "The spare-parts category calls the wear range S-valve parts. The split-piston line says the set is for S-valve concrete pumps. Separate lines name an S-tube seal, a main-cylinder seal, a swing-cylinder seal and a swing-arm ball. Those names tell you the vocabulary of the circuit. They do not publish bore, stroke, swing angle or a step order. A Kawasaki name on a pump row is the hydraulic-pump cell, not a displacement.",
-        "zh": "配件分类把易损件称为 S 阀配件。分体活塞一行写明用于 S 阀混凝土泵。另外的行写明 S 管密封、主油缸密封、摆缸密封和摆臂球头。这些名称给出回路用词，并没有公布缸径、行程、摆角或步骤顺序。泵页上的川崎名称是液压泵格，不是排量。"
+        "en": "That is the path the catalogue describes. Many concrete pump sheets list a hopper capacity. The concrete leaves through the pipe the page names, not through a truck placing boom. Those names tell you the vocabulary of the circuit. Those figures are absent.",
+        "zh": "配件目录写明S阀活塞、S管密封、主油缸密封和摆缸密封。另外的行写明 S 管密封、主油缸密封、摆缸密封和摆臂球头。"
       }
     },
     {
       "heading": {
-        "en": "What not to add",
-        "zh": "不要自行补上什么"
+        "en": "Sizes and structure",
+        "zh": "尺寸与结构"
       },
       "body": {
-        "en": "Do not draw piston speed, cylinder diameter or strokes per minute for a Hebei Pinjin Machinery concrete pump. Those figures are absent. Do not turn the parts names into a replacement procedure. If a project needs a structural size the page does not print, ask through /en/contact/ and keep the blank cell blank.",
-        "zh": "不要为河北品锦机械的混凝土泵画活塞速度、缸径或每分钟冲程。这些数字没有公布。不要把配件名称写成更换步骤。如果项目需要页面没印的结构尺寸，请通过 /zh/contact/ 询问，空白格子保持空白。"
+        "en": "Some pump pages also name a hydraulic pump, such as a Kawasaki unit. Pages that list a delivery-pipe diameter name that diameter only for themselves: Electric 20 lists 80 mm, Electric 15 lists 100–125 mm, and the integrated mixer, HBT8018, HBT80-16 and LZ-60 list 100 / 125 mm. The spare-parts category calls the wear range S-valve parts. They do not publish bore, stroke, swing angle or a step order. Do not turn the parts names into a replacement procedure.",
+        "zh": "参数页不标出缸径、活塞行程或每分钟冲程，因此这里不编造一套带节拍的循环。这些名称给出回路用词，并没有公布缸径、行程、摆角或步骤顺序。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Uses",
+        "zh": "用途"
+      },
+      "body": {
+        "en": "The parts list names S-valve pistons, an S-tube seal, a main-cylinder seal and a swing-cylinder seal. Pages without a pipe entry do not receive a borrowed diameter. The split-piston line says the set is for S-valve concrete pumps. A Kawasaki name on a pump row is the hydraulic-pump entry, not a displacement. If a project needs a structural size the page does not list, ask through /en/contact/ and keep the blank entry blank.",
+        "zh": "标出了输送管内径的页面，管径只属于自己：电动20为 80 mm，电动15为 100–125 mm，搅拌泵一体机、HBT8018、HBT80-16 和 LZ-60 为 100 / 125 mm。不要为河北品锦机械的混凝土泵画活塞速度、缸径或每分钟冲程。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does the catalogue print piston stroke?",
-        "zh": "目录印活塞行程吗？"
+        "en": "Does the catalogue list piston stroke?",
+        "zh": "目录标出活塞行程吗？"
       },
       "answer": {
-        "en": "No. Hebei Pinjin Machinery does not print piston stroke, cylinder bore or strokes per minute on the Xingtai concrete pump sheets.",
-        "zh": "没有。河北品锦机械没有在邢台混凝土泵参数页印出活塞行程、缸径或每分钟冲程。"
+        "en": "No. Hebei Pinjin Machinery does not list piston stroke, cylinder bore or strokes per minute on the Xingtai concrete pump sheets. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete_block.",
+        "zh": "没有。河北品锦机械没有在邢台混凝土泵参数页写出活塞行程、缸径或每分钟冲程。它不是https://en.wikipedia.org/wiki/Concrete_block画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Where does the concrete leave the machine?",
+        "en": "On this row: Where does the concrete leave the machine?",
         "zh": "混凝土从机器哪里离开？"
       },
       "answer": {
-        "en": "Through the delivery pipe named on that model page. If the page has no pipe diameter, do not borrow one from another concrete pump.",
-        "zh": "通过该型号页写出的输送管。如果该页没有管径，不要向另一台混凝土泵借用。"
+        "en": "Through the delivery pipe named on that model page. If the page has no pipe diameter, do not borrow one from another concrete pump. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete_block.",
+        "zh": "通过该型号页写出的输送管。如果该页没有管径，不要向另一台混凝土泵借用。它不是https://en.wikipedia.org/wiki/Concrete_block画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What does a Kawasaki line mean?",
+        "en": "On this row: What does a Kawasaki line mean?",
         "zh": "川崎这一行是什么意思？"
       },
       "answer": {
-        "en": "It is the hydraulic-pump name printed on that concrete pump page. The cell does not add a displacement figure.",
-        "zh": "它是该混凝土泵页面印出的液压泵名称。这一格没有附带排量。"
+        "en": "It is the hydraulic-pump name shown on that concrete pump page. The entry does not add a displacement figure. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete_block.",
+        "zh": "它是该混凝土泵页面写出的液压泵名称。这一格没有附带排量。它不是https://en.wikipedia.org/wiki/Concrete_block画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is there a published pumping-cycle diagram?",
+        "en": "On this row: Is there a published pumping-cycle diagram?",
         "zh": "有没有公布的泵送循环图？"
       },
       "answer": {
-        "en": "No timed cycle is printed. The published path is hopper to delivery pipe, plus the assembly names on the parts list.",
-        "zh": "没有印出带节拍的循环。已公布的路径是料斗到输送管，再加上配件清单上的总成名称。"
+        "en": "No timed cycle is shown. The published path is hopper to delivery pipe, plus the assembly names on the parts list. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete_block.",
+        "zh": "没有写出带节拍的循环。已公布的路径是料斗到输送管，再加上配件清单上的总成名称。它不是https://en.wikipedia.org/wiki/Concrete_block画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-a-pinjin-concrete-pump-moves-concrete-pinjin.webp",
+    "src": "/images/articles/knowledge/how-a-pinjin-concrete-pump-moves-concrete-concreteblocks.jpg",
     "alt": {
-      "en": "How a Xingtai concrete pump feeds a delivery pipe, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "邢台混凝土泵如何进入输送管，河北品锦机械，河北邢台"
+      "en": "Concreteblocks. Image from the source page: https://en.wikipedia.org/wiki/Concrete_block.",
+      "zh": "Concreteblocks。图来自来源页：https://en.wikipedia.org/wiki/Concrete_block。"
     }
   },
   "relatedPaths": [
@@ -128,7 +138,8 @@
     "https://pinjinpump.com/en/products/concrete-pump-s-tube-seal/",
     "https://pinjinpump.com/zh/products/concrete-pump-s-tube-seal/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Concrete_block"
   ],
   "status": "draft"
 }

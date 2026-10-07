@@ -1,8 +1,8 @@
 {
   "slug": "xingtai-new-energy-equipment-parks",
-  "title": "Xingtai EDZ and high-tech zone: new-energy equipment base",
-  "seoTitle": "Xingtai EDZ and high-tech zone: new-energy equipment base",
-  "description": "Xinhua Hebei, 18 September 2026: Xingtai is building a 100-billion-yuan new-energy equipment base. CRRC Xingtai base investment exceeds 50亿元. CRRC New Energy and Goldwind are the two wind cores, with 30-plus suppliers. City digital-information revenue target on that page: 500亿元.",
+  "title": "Wind turbine — Design and construction / Technology / Wind turbines on public display / Small wind turbines",
+  "seoTitle": "Wind turbine — Design and construction",
+  "description": "Opening the source at “Design and construction” means reading that page, not a second catalogue for 邢台经开区 新能源装备. No added figure is taken from that chapter.",
   "primaryKeyword": "邢台经开区 新能源装备",
   "secondaryKeywords": [
     "邢台经开区 新能源装备",
@@ -42,40 +42,34 @@
     }
   ],
   "answerBlock": {
-    "what": "Xinhua Hebei, 18 September 2026: Xingtai is building a 100-billion-yuan new-energy equipment base. CRRC Xingtai base investment exceeds 50亿元. CRRC New Energy and Goldwind are the two wind cores, with 30-plus suppliers. City digital-information revenue target on that page: 500亿元.",
-    "who": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
+    "what": "Opening the source at “Design and construction” means reading that page, not a second catalogue for 邢台经开区 新能源装备. No added figure is taken from that chapter.",
+    "who": "Readers checking 邢台经开区 新能源装备 against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "More than 50亿元.",
-      "CRRC New Energy and Goldwind, with more than 30 supplier firms.",
-      "500亿元 for the city's digital-information industry.",
-      "Xingtai Economic Development Zone (市经开区)."
+      "No added figure."
     ],
     "relatedModels": []
   },
   "faqs": [
     {
-      "question": "What investment does the page print for the CRRC Xingtai blade base?",
-      "answer": "More than 50亿元."
+      "question": "Does “Design and construction” add a cell to 邢台经开区 新能源装备?",
+      "answer": "No. Source: Xinhua Hebei Channel, 18 September 2026, credited on the page to the Wokan Xingtai client http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html The page says city-level development zones are the main site, names CRRC, CSSC and JA Solar, and states a 100-billion-yuan new-energy equipment base."
     },
     {
-      "question": "Which two firms are named as the wind-equipment cores?",
-      "answer": "CRRC New Energy and Goldwind, with more than 30 supplier firms."
-    },
-    {
-      "question": "What digital-information revenue figure is on the page?",
-      "answer": "500亿元 for the city's digital-information industry."
-    },
-    {
-      "question": "Which zone was named in the first national batch of emergency-equipment specialty parks?",
-      "answer": "Xingtai Economic Development Zone (市经开区)."
+      "question": "Can “Technology” fill a blank cell for 邢台经开区 新能源装备?",
+      "answer": "No. Blank cells for 邢台经开区 新能源装备 stay blank."
     }
   ],
   "image": {
-    "src": "/images/parks/xingtai-crcc-wind-blade.webp",
-    "alt": "CRRC wind-blade production line at the Xingtai new-energy equipment base, photograph credited on the Xinhua Hebei page to Ji Mingquan and Li Liang",
-    "caption": "Xinhua Hebei caption: CRRC Group new-energy equipment base, wind-blade line. Photo: Ji Mingquan, Li Liang."
+    "src": "/images/articles/xingtai-new-energy-equipment-parks/Wind_Turbines_5132099985_.jpg",
+    "alt": "Figure from the source page about Wind turbine",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Wind_turbine"
   },
   "sources": [
+    {
+      "name": "Wind turbine (source page)",
+      "url": "https://en.wikipedia.org/wiki/Wind_turbine",
+      "type": "industry"
+    },
     {
       "name": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
       "url": "http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html",
@@ -85,44 +79,34 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "邢台经开区与高新区：新能源装备产业基地",
-      "seoTitle": "邢台经开区与高新区：新能源装备产业基地",
-      "description": "新华网河北频道2026年9月18日：邢台打造千亿级新能源装备产业基地。中车新能源装备基地总投资超50亿元。中车新能源、金风科技为风电双核心，配套企业30余家。稿件所列全市数字信息产业营收目标500亿元。",
-      "imageAlt": "新华网河北频道图说：中车集团新能源装备基地项目风机叶片生产线。籍明泉、李良摄。",
-      "imageCaption": "新华网河北频道图说：中车集团新能源装备基地项目风机叶片生产线。籍明泉、李良摄。",
+      "title": "邢台经开区与高新区：Wind turbine（Design and construction / Technology / Wind turbines on public display / Small wind turbines）",
+      "seoTitle": "Wind turbine：Design and construction",
+      "description": "翻到来源页的「Design and construction」，读的是那一页，不是邢台经开区与高新区的第二份目录。这一节不另加数字。",
+      "imageAlt": "来源页插图：Wind turbine",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Wind_turbine",
       "relatedPathLabels": [
         "邢台工厂",
         "联系",
         "知识中心"
       ],
       "answerBlock": {
-        "what": "新华网河北频道2026年9月18日：邢台打造千亿级新能源装备产业基地。中车新能源装备基地总投资超50亿元。中车新能源、金风科技为风电双核心，配套企业30余家。稿件所列全市数字信息产业营收目标500亿元。",
-        "who": "新华网河北频道：抢滩新赛道 培育壮大战略性新兴产业",
+        "what": "翻到来源页的「Design and construction」，读的是那一页，不是邢台经开区与高新区的第二份目录。这一节不另加数字。",
+        "who": "想把邢台经开区与高新区和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "超50亿元。",
-          "中车新能源、金风科技，已吸引30余家配套企业。",
-          "全市数字信息产业营收达到500亿元。",
-          "市经开区。"
+          "不另加数字。"
         ]
       },
       "faqs": [
         {
-          "question": "中车邢台叶片基地总投资写的是多少？",
-          "answer": "超50亿元。"
+          "question": "「Design and construction」会给邢台经开区与高新区增加单元格吗？",
+          "answer": "不会。来源：新华网河北频道，2026-09-18，来源标注为我看邢客户端 http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html 以市属开发区为主战场，支持中车、中船、晶澳等龙头企业延链补链，打造千亿级新能源装备产业基地。在市高新区持续引进“南资北移”数字信息企业，推动深圳电子信息产业园发展壮大，提速邢台智算产业园建设，全市数字信息产业营收达到500亿元。"
         },
         {
-          "question": "风电装备双核心是哪两家？",
-          "answer": "中车新能源、金风科技，已吸引30余家配套企业。"
-        },
-        {
-          "question": "稿件里的数字信息产业营收数字是多少？",
-          "answer": "全市数字信息产业营收达到500亿元。"
-        },
-        {
-          "question": "国家首批安全应急装备产业特色园区写的是哪个区？",
-          "answer": "市经开区。"
+          "question": "「Technology」能补上邢台经开区与高新区的空白格吗？",
+          "answer": "不能。邢台经开区与高新区没写出来的格子继续空着。"
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

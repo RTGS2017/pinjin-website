@@ -1,22 +1,22 @@
-## Grelha primeiro — ACPA, não tabela de RPM
+## Industrial mixers
 
-ACPA’s study guide: keep the grelha da tremonha in place while the hopper is charged. It is the last screen before the valve. Oversize stone, a dropped hammer or a shovel that bypasses the grate is a blockage and an injury. Never put hands or tools into a turning agitator.
+![Figura da página de origem sobre Concrete mixer](/images/articles/concrete-pump-hopper-grille-agitator/Cement_mixer2.jpg)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Concrete_mixer*
 
-Hebei Pinjin Machinery prints hopper volume where it exists. [Electric 40](/products/electric-40-concrete-pump/) lists 0.4 m³. We do not print agitator RPM, paddle count, grate-bar millimetres or cooling-water litres per minute. Marketplace “water-cooled hopper” claims are observation, not a Xingtai cell.
+O capítulo “Industrial mixers” fica na página de origem. Concrete Pump Hopper, Grille and Agitator continua a ser a linha já escrita aqui. Valores já impressos nesta página: 45 kW, 14 kW, 21 m³/h, 0.4 m.
 
-![Electric 40 hopper on a Pinjin bomba reboque from Xingtai](/images/products/electric-40-concrete-pump/main.webp)
-*Electric 40 hopper — 0.4 m³ listed. Grate down while charging. Photo is not an RPM drawing.*
+As casas em branco nesta página continuam em branco. “Industrial mixers” não as preenche.
 
-## Linhas compactas ainda têm grelha
+## Trucks and trailers
 
-[Electric 15](/products/electric-15-concrete-pump/) does not print a hopper-m³ cell on the public table; it still has a hopper and grate on the machine in the product photos. Daily inspect is on the [maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/). A dirty grate that lets oversize stone through is a [blockage](/blog/concrete-pump-blockage-causes-prevention/) cause, not a reason to raise pressure.
+“Trucks and trailers” não substitui uma especificação. Concrete Pump Hopper, Grille and Agitator mantém a linha impressa. Esse capítulo não acrescenta valor.
 
-[Integrated mixer pump](/products/integrated-mixer-pump/) is 45 kW + 14 kW, 21 m³/h — a mixer on the same trailer, not a licence to skip the grate on the pump hopper.
+## On-site and portable concrete mixers
 
-Prime after the grate is clean — [priming](/blog/concrete-pump-priming-grout-lubrication/). Mix stone still has to match the printed agregado cell — [aggregate](/blog/fine-stone-concrete-pump-aggregate-size/).
+“On-site and portable concrete mixers” é contexto. Um pedido sobre Concrete Pump Hopper, Grille and Agitator continua a usar as casas já escritas. Esse capítulo não acrescenta valor.
 
-After a site move, check that the grate seated — [towing](/blog/trailer-concrete-pump-towing-chassis/).
+## Self-loading concrete mixers
 
-## Consulta
+Leia “Self-loading concrete mixers” como contexto da origem. Não é uma placa nova para Concrete Pump Hopper, Grille and Agitator. Valores já impressos nesta página: 45 kW, 14 kW, 21 m³/h, 0.4 m.
 
-Model slug, hopper photo if the grate or agitator looks different from the página do produto, mix stone size. No unpublished RPM. [Contact](/contact/).
+Páginas já indicadas neste texto: [Electric 40](/products/electric-40-concrete-pump/), [Electric 15](/products/electric-15-concrete-pump/), [maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/).

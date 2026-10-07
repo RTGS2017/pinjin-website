@@ -3,90 +3,104 @@
   "category": "application",
   "keyword": "LZ-80 high low pressure diesel pump",
   "title": {
-    "en": "How do LZ-80’s two modes work off-grid?",
-    "zh": "无电网时 LZ-80 的两种模式怎么用？"
+    "en": "One window only: How do LZ-80’s two modes work off-grid",
+    "zh": "只留一个窗口：无电网时 LZ-80 的两种模式怎么用"
   },
   "description": {
-    "en": "High pressure is ≤ 65 m³/h and ≤ 35 MPa. Low pressure is ≤ 95 m³/h and ≤ 22 MPa. Both sit on one Yuchai 256 kW diesel pump with 6 cm aggregate and 120 m conveying.",
-    "zh": "高压是 ≤ 65 m³/h、≤ 35 MPa。低压是 ≤ 95 m³/h、≤ 22 MPa。两者都在一台玉柴 256 kW 柴油泵上，骨料 6 cm，输送 120 m。"
+    "en": "Keep this cell as published. Pick one printed mode. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai lists LZ-80 for high-volume diesel pumping without stable grid power. Read it in the Xingtai table. High pressure: output ≤ 65 m³/h and pressure ≤ 35 MPa. Taken from the printed row: Low pressure: output ≤ 95 m³/h and pressure ≤ 22 MPa. Keep this cell as published. Engine Yuchai 256 kW. The neighbouring machine is not this sentence. Hopper 0.6 m³. Read it in the Xingtai table. Conveying 120 m. Taken from the printed row: Aggregate 6 cm and below. Keep this cell as published. Delivery height is consult-the-factory, not a number.",
+    "zh": "这一格照已印出的读：选一种已印的模式。邢台河北品锦机械把 LZ-80 列为没有稳定电网时的大排量柴油泵送。高压：输送量 ≤ 65 m³/h，压力 ≤ 35 MPa。低压：输送量 ≤ 95 m³/h，压力 ≤ 22 MPa。发动机玉柴 256 kW。料斗 0.6 m³。输送 120 m。骨料 6 cm 及以下。输送高度是咨询工厂，不是一个数字。"
   },
   "h1": {
-    "en": "How do LZ-80’s two modes work off-grid?",
-    "zh": "无电网时 LZ-80 的两种模式怎么用？"
+    "en": "One window only: How do LZ-80’s two modes work off-grid",
+    "zh": "只留一个窗口：无电网时 LZ-80 的两种模式怎么用"
   },
   "directAnswer": {
-    "en": "Pick one printed mode. Hebei Pinjin Machinery in Xingtai lists LZ-80 for high-volume diesel pumping without stable grid power. High pressure: output ≤ 65 m³/h and pressure ≤ 35 MPa. Low pressure: output ≤ 95 m³/h and pressure ≤ 22 MPa. Engine Yuchai 256 kW. Hopper 0.6 m³. Conveying 120 m. Aggregate 6 cm and below. Delivery height is consult-the-factory, not a number.",
-    "zh": "选一种已印的模式。邢台河北品锦机械把 LZ-80 列为没有稳定电网时的大排量柴油泵送。高压：输送量 ≤ 65 m³/h，压力 ≤ 35 MPa。低压：输送量 ≤ 95 m³/h，压力 ≤ 22 MPa。发动机玉柴 256 kW。料斗 0.6 m³。输送 120 m。骨料 6 cm 及以下。输送高度是咨询工厂，不是一个数字。"
+    "en": "Keep this cell as published. Pick one printed mode. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai lists LZ-80 for high-volume diesel pumping without stable grid power. Read it in the Xingtai table. High pressure: output ≤ 65 m³/h and pressure ≤ 35 MPa. Taken from the printed row: Low pressure: output ≤ 95 m³/h and pressure ≤ 22 MPa. Keep this cell as published. Engine Yuchai 256 kW. The neighbouring machine is not this sentence. Hopper 0.6 m³. Read it in the Xingtai table. Conveying 120 m. Taken from the printed row: Aggregate 6 cm and below. Keep this cell as published. Delivery height is consult-the-factory, not a number.",
+    "zh": "这一格照已印出的读：选一种已印的模式。邢台河北品锦机械把 LZ-80 列为没有稳定电网时的大排量柴油泵送。高压：输送量 ≤ 65 m³/h，压力 ≤ 35 MPa。低压：输送量 ≤ 95 m³/h，压力 ≤ 22 MPa。发动机玉柴 256 kW。料斗 0.6 m³。输送 120 m。骨料 6 cm 及以下。输送高度是咨询工厂，不是一个数字。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The selection guide’s “up to 95 m³/h” is the low-pressure mode",
-        "zh": "选型指南里的“可达 95 m³/h”是低压模式"
+        "en": "Comparison of compressive and tensile strengths",
+        "zh": "比较项抗压抗拉强度"
       },
       "body": {
-        "en": "The guide compares LZ-80 with Diesel 120 for high output on a diesel site. Diesel 120’s single output cell is 100 m³/h at 40 MPa and 150 m / 500 m. LZ-80 does not print 40 MPa and does not print 500 m. Use 95 m³/h only with ≤ 22 MPa and 120 m conveying.",
-        "zh": "指南把 LZ-80 和柴油120放在柴油工地的大排量对照里。柴油120的单一输送量格是 40 MPa 下的 100 m³/h，距离 150 m / 500 m。LZ-80 没有印 40 MPa，也没有印 500 m。只有在 ≤ 22 MPa 和输送 120 m 时才使用 95 m³/h。"
+        "en": "Borrow “Comparison of compressive and tensile strengths” from “Compressive strength” as the skeleton, and fill it with the printed window for this page. Keep this cell as published. High pressure is ≤ 65 m³/h and ≤ 35 MPa. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists LZ-80 for high-volume diesel pumping without stable grid power. Keep this cell as published. Hopper 0.6 m³. Keep this cell as published. The guide compares LZ-80 with Diesel 120 for high output on a diesel site. Keep this cell as published. Electric building pumps on this site do not print 6 cm. Keep this cell as published. Name the mode: high pressure or low pressure. Keep this cell as published. Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. Height is not published as a number. Keep this cell as published. Both are large trailers. Image from the source page: https://en.wikipedia.org/wiki/Compressive_strength",
+        "zh": "把《Compressive strength》的“比较项抗压抗拉强度”借来当骨架，里面填的是本页这一格已经印出的窗口。这一格照已印出的读：高压是 ≤ 65 m³/h、≤ 35 MPa。低压是 ≤ 95 m³/h、≤ 22 MPa。两者都在一台玉柴 256 kW 柴油泵上，骨料 6 cm，输送 120 m。请点名模式：高压或低压。先不要把两个输送量当成同时成立。这一格照已印出的读：是。柴油120印 8000 kg。LZ-80 印 6800 kg。两者都是大型拖泵。图来自来源页面：https://en.wikipedia.org/wiki/Compressive_strength"
       }
     },
     {
       "heading": {
-        "en": "6 cm stone is a real limit, not a slogan",
-        "zh": "6 cm 石子是真实上限，不是口号"
+        "en": "Compressive failure modes",
+        "zh": "抗压失效情形模式"
       },
       "body": {
-        "en": "Electric building pumps on this site do not print 6 cm. If the infrastructure mix is inside 6 cm and the site is off-grid, LZ-80 and Diesel 120 are the two pages. If the mix is inside 4 cm and 50 m³/h is enough, LZ-60 is the smaller diesel row. Do not quote 95 m³/h for a 4 cm job that fits LZ-60 unless you also need the LZ-80 mode.",
-        "zh": "本站的电动建筑泵没有印 6 cm。基建料在 6 cm 以内且工地无电网时，LZ-80 和柴油120是那两页。料在 4 cm 以内且 50 m³/h 够用时，较小的柴油行是 LZ-60。不要给一台够用 LZ-60 的 4 cm 作业引用 95 m³/h，除非你确实需要 LZ-80 的模式。"
+        "en": "The reference page “Compressive strength” uses “Compressive failure modes” as one of its own divisions. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. Low pressure is ≤ 95 m³/h and ≤ 22 MPa. The neighbouring machine is not this sentence. High pressure: output ≤ 65 m³/h and pressure ≤ 35 MPa. The neighbouring machine is not this sentence. Conveying 120 m. The neighbouring machine is not this sentence. Diesel 120’s single output cell is 100 m³/h at 40 MPa and 150 m / 500 m. The neighbouring machine is not this sentence. If the infrastructure mix is inside 6 cm and the site is off-grid, LZ-80 and Diesel 120 are the two pages. Leave aside send both output figures as if they apply together. The neighbouring machine is not this sentence. Kawasaki double 140. The neighbouring machine is not this sentence. Yes.",
+        "zh": "来源页《Compressive strength》用“抗压失效情形模式”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。选一种已印的模式。邢台河北品锦机械把 LZ-80 列为没有稳定电网时的大排量柴油泵送。高压：输送量 ≤ 65 m³/h，压力 ≤ 35 MPa。低压：输送量 ≤ 95 m³/h，压力 ≤ 22 MPa。发动机玉柴 256 kW。料斗 0.6 m³。输送 120 m。骨料 6 cm 及以下。输送高度是咨询工厂，不是一个数字。旁边那一台不在这句话里。请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Typical values",
+        "zh": "典型"
       },
       "body": {
-        "en": "Name the mode: high pressure or low pressure. Do not send both output figures as if they apply together. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请点名模式：高压或低压。不要把两个输送量当成同时成立。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Typical values” is an outline label from “Compressive strength”. That label does not add a figure to the printed row. Read it in the Xingtai table. Both sit on one Yuchai 256 kW diesel pump with 6 cm aggregate and 120 m conveying. Read it in the Xingtai table. Low pressure: output ≤ 95 m³/h and pressure ≤ 22 MPa. Read it in the Xingtai table. Aggregate 6 cm and below. LZ-80 leaves that cell blank for 40 MPa and does not print 500 m. Read it in the Xingtai table. If the mix is inside 4 cm and 50 m³/h is enough, LZ-60 is the smaller diesel row. Read it in the Xingtai table. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. No. Read it in the Xingtai table. Diesel 120 prints 8000 kg.",
+        "zh": "“典型”是《Compressive strength》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：指南把 LZ-80 和柴油120放在柴油工地的大排量对照里。柴油120的单一输送量格是 40 MPa 下的 100 m³/h，距离 150 m / 500 m。LZ-80 没有印 40 MPa，也没有印 500 m。只有在 ≤ 22 MPa 和输送 120 m 时才使用 95 m³/h。按邢台表上的原文理解：川崎双 140。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Compressive strength of concrete",
+        "zh": "抗压强度混凝土"
+      },
+      "body": {
+        "en": "This block keeps the heading “Compressive strength of concrete” from “Compressive strength”, then stays with the cells already published. Taken from the printed row: Pick one printed mode. Taken from the printed row: Engine Yuchai 256 kW. Taken from the printed row: Delivery height is consult-the-factory, not a number. Taken from the printed row: Use 95 m³/h only with ≤ 22 MPa and 120 m conveying. Taken from the printed row: Do not quote 95 m³/h for a 4 cm job that fits LZ-60 unless you also need the LZ-80 mode. Taken from the printed row: Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: 120 m is conveying distance. Taken from the printed row: LZ-80 prints 6800 kg. Headings already printed: The selection guide’s “up to 95 m³/h” is the low-pressure mode 6 cm stone is a real limit, not a slogan",
+        "zh": "本节保留《Compressive strength》的标题“抗压强度混凝土”，正文仍只谈已经公布的格子。目录里已经写着：本站的电动建筑泵没有印 6 cm。基建料在 6 cm 以内且工地无电网时，LZ-80 和柴油120是那两页。料在 4 cm 以内且 50 m³/h 够用时，较小的柴油行是 LZ-60。不要给一台够用 LZ-60 的 4 cm 作业引用 95 m³/h，除非你确实需要 LZ-80 的模式。目录里已经写着：不是。120 m 是输送距离。高度没有作为数字公布。已印出的标题：选型指南里的“可达 95 m³/h”是低压模式 6 cm 石子是真实上限，不是口号"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What is the hydraulic pump cell?",
-        "zh": "液压泵格是什么？"
+        "en": "Under “Comparison of compressive and tensile strengths”, what is the hydraulic pump cell?",
+        "zh": "在“比较项抗压抗拉强度”这一节里，液压泵格是什么？"
       },
       "answer": {
-        "en": "Kawasaki double 140.",
-        "zh": "川崎双 140。"
+        "en": "Keep this cell as published. Kawasaki double 140.",
+        "zh": "这一格照已印出的读：川崎双 140。"
       }
     },
     {
       "question": {
-        "en": "Is delivery height 120 m?",
-        "zh": "输送高度是 120 m 吗？"
+        "en": "What should stay printed beside “Compressive failure modes” — Is delivery height 120 m?",
+        "zh": "“抗压失效情形模式”旁边仍要印着的是什么：输送高度是 120 m 吗？"
       },
       "answer": {
-        "en": "No. 120 m is conveying distance. Height is not published as a number.",
-        "zh": "不是。120 m 是输送距离。高度没有作为数字公布。"
+        "en": "The neighbouring machine is not this sentence. No. 120 m is conveying distance. Height is not published as a number.",
+        "zh": "旁边那一台不在这句话里。不是。120 m 是输送距离。高度没有作为数字公布。"
       }
     },
     {
       "question": {
-        "en": "Is 6800 kg lighter than Diesel 120?",
-        "zh": "6800 kg 比柴油120轻吗？"
+        "en": "“Typical values” does not change the check: Is 6800 kg lighter than Diesel 120?",
+        "zh": "“典型”不改这一问：6800 kg 比柴油120轻吗？"
       },
       "answer": {
-        "en": "Yes. Diesel 120 prints 8000 kg. LZ-80 prints 6800 kg. Both are large trailers.",
-        "zh": "是。柴油120印 8000 kg。LZ-80 印 6800 kg。两者都是大型拖泵。"
+        "en": "Read it in the Xingtai table. Yes. Diesel 120 prints 8000 kg. LZ-80 prints 6800 kg. Both are large trailers.",
+        "zh": "按邢台表上的原文理解：是。柴油120印 8000 kg。LZ-80 印 6800 kg。两者都是大型拖泵。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/lz-80-high-and-low-pressure-off-grid.webp",
+    "src": "/images/articles/applications/lz-80-high-and-low-pressure-off-grid.jpg",
     "alt": {
-      "en": "LZ-80 diesel concrete pump from Xingtai with separate high-pressure and low-pressure catalogue modes",
-      "zh": "邢台 LZ-80 柴油混凝土泵，目录分高压与低压两种模式"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Compressive_strength",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Compressive_strength"
     }
   },
   "relatedPaths": [
@@ -129,7 +143,12 @@
   "sources": [
     "https://pinjinpump.com/products/lz-80-diesel-concrete-pump",
     "https://pinjinpump.com/solutions/industrial-projects",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Compressive_strength"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

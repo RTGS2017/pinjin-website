@@ -3,90 +3,94 @@
   "category": "application",
   "keyword": "type 511 mortar sprayer 380v",
   "title": {
-    "en": "Does Type 511 mortar spraying need 380 V?",
-    "zh": "511 砂浆喷涂需要 380V 吗？"
+    "en": "Does Type 511 mortar spraying need 380 V, read as separate catalogue cells",
+    "zh": "511 砂浆喷涂需要 380V 吗，各格分开读"
   },
   "description": {
-    "en": "Yes. Type 511 prints 380 V, 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤ 6 mm and 30 m / 15 m.",
-    "zh": "需要。511 印了 380V、7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤ 6 mm、30 m / 15 m。"
+    "en": "Read it in the Xingtai table. Yes. Taken from the printed row: Hebei Pinjin Machinery in Xingtai prints Type 511 as a 380 V mortar sprayer: 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, particle ≤ 6 mm, 30 m horizontal / 15 m vertical, 1700 × 550 × 900 mm and 260 kg. Keep this cell as published. If 380 V is absent, the same output window has a diesel page, Type 511 diesel, which is not this machine.",
+    "zh": "按邢台表上的原文理解：需要。邢台河北品锦机械把 511 印成 380V 砂浆喷涂机：7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、粒径 ≤ 6 mm、水平 30 m / 垂直 15 m、外形 1700 × 550 × 900 mm、260 kg。如果没有 380V，同一输送量窗口有柴油页，即 511 柴油机，那不是这台机器。"
   },
   "h1": {
-    "en": "Does Type 511 mortar spraying need 380 V?",
-    "zh": "511 砂浆喷涂需要 380V 吗？"
+    "en": "Does Type 511 mortar spraying need 380 V, read as separate catalogue cells",
+    "zh": "511 砂浆喷涂需要 380V 吗，各格分开读"
   },
   "directAnswer": {
-    "en": "Yes. Hebei Pinjin Machinery in Xingtai prints Type 511 as a 380 V mortar sprayer: 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, particle ≤ 6 mm, 30 m horizontal / 15 m vertical, 1700 × 550 × 900 mm and 260 kg. If 380 V is absent, the same output window has a diesel page, Type 511 diesel, which is not this machine.",
-    "zh": "需要。邢台河北品锦机械把 511 印成 380V 砂浆喷涂机：7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、粒径 ≤ 6 mm、水平 30 m / 垂直 15 m、外形 1700 × 550 × 900 mm、260 kg。如果没有 380V，同一输送量窗口有柴油页，即 511 柴油机，那不是这台机器。"
+    "en": "Read it in the Xingtai table. Yes. Taken from the printed row: Hebei Pinjin Machinery in Xingtai prints Type 511 as a 380 V mortar sprayer: 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, particle ≤ 6 mm, 30 m horizontal / 15 m vertical, 1700 × 550 × 900 mm and 260 kg. Keep this cell as published. If 380 V is absent, the same output window has a diesel page, Type 511 diesel, which is not this machine.",
+    "zh": "按邢台表上的原文理解：需要。邢台河北品锦机械把 511 印成 380V 砂浆喷涂机：7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、粒径 ≤ 6 mm、水平 30 m / 垂直 15 m、外形 1700 × 550 × 900 mm、260 kg。如果没有 380V，同一输送量窗口有柴油页，即 511 柴油机，那不是这台机器。"
   },
   "sections": [
     {
       "heading": {
-        "en": "≤ 6 mm and 3 m³/h define the mortar window",
-        "zh": "≤ 6 mm 和 3 m³/h 定义砂浆窗口"
+        "en": "Volume Units Online Calculator",
+        "zh": "体积单位在线计算器"
       },
       "body": {
-        "en": "Type 311 is finer and smaller: ≤ 2 mm, 2 m³/h, 15 m / 5 m. The German type is 3–5 m³/h, ≤ 5 mm, 8 MPa and 40 m / 20 m. The plunger is 4 m³/h and ≤ 8 mm. Stay on Type 511 when the particle is inside 6 mm, the rate is 3 m³/h and the hose is inside 30 m / 15 m.",
-        "zh": "311 更细、更小：≤ 2 mm、2 m³/h、15 m / 5 m。德式机是 3–5 m³/h、≤ 5 mm、8 MPa、40 m / 20 m。柱塞机是 4 m³/h、≤ 8 mm。粒径在 6 mm 内、速率是 3 m³/h、软管在 30 m / 15 m 内时，留在 511。"
+        "en": "“Volume Units Online Calculator” is an outline label from “Volume Units Converter”. That label does not add a figure to the printed row. Read it in the Xingtai table. Yes. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Type 511 as a 380 V mortar sprayer: 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, sand-cement ratio ≤ 1:3, particle ≤ 6 mm, 30 m horizontal / 15 m vertical, 1700 × 550 × 900 mm and 260 kg. Keep this cell as published. The German type is 3–5 m³/h, ≤ 5 mm, 8 MPa and 40 m / 20 m. Taken from the printed row: No trailer pump on this site is listed at 3 m³/h with a 32/38 mm hose. Read it in the Xingtai table. Confirm 380 V for the 7.5 kW motor, or say that supply is missing. The neighbouring machine is not this sentence. Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. Open Type 511 diesel. Taken from the printed row: Type 511 electric prints 260 kg. Image from the source page: https://www.engineeringtoolbox.com/volume-units-converter-d_1034.html",
+        "zh": "“体积单位在线计算器”是《Volume Units Converter》大纲上的标题。这个标题不给已印出的行增加数字。按邢台表上的原文理解：需要。511 印了 380V、7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、粒径 ≤ 6 mm、30 m / 15 m。旁边那一台不在这句话里。本站没有拖泵被列成 3 m³/h 加 32/38 mm 软管。管道泵印的是厘米骨料，以及大得多的输送量或不同的距离。不要让 511 去浇结构混凝土。这一格照已印出的读：这一格是 3–5 MPa，不是 8 MPa。8 MPa 印在其他喷涂机上，包括德式机。图来自来源页面：https://www.engineeringtoolbox.com/volume-units-converter-d_1034.html"
       }
     },
     {
       "heading": {
-        "en": "It is not a 3 m³/h concrete pump",
-        "zh": "它不是 3 m³/h 的混凝土泵"
+        "en": "Volume Units Converting Table",
+        "zh": "体积单位换算表"
       },
       "body": {
-        "en": "No trailer pump on this site is listed at 3 m³/h with a 32/38 mm hose. Pipeline pumps print centimetre aggregate and much larger outputs or different distances. Do not ask Type 511 to place structural concrete.",
-        "zh": "本站没有拖泵被列成 3 m³/h 加 32/38 mm 软管。管道泵印的是厘米骨料，以及大得多的输送量或不同的距离。不要让 511 去浇结构混凝土。"
+        "en": "This block keeps the heading “Volume Units Converting Table” from “Volume Units Converter”, then stays with the cells already published. Taken from the printed row: Type 511 prints 380 V, 7.5 kW, 3 m³/h, 3–5 MPa, hose 32/38 mm, particle ≤ 6 mm and 30 m / 15 m. Read it in the Xingtai table. If 380 V is absent, the same output window has a diesel page, Type 511 diesel, which is not this machine. The neighbouring machine is not this sentence. The plunger is 4 m³/h and ≤ 8 mm. Keep this cell as published. Pipeline pumps print centimetre aggregate and much larger outputs or different distances. Taken from the printed row: Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. The cell is 3–5 MPa, not 8 MPa. Leave aside keep this 7.5 kW page. Keep this cell as published. Type 511 diesel prints 360 kg.",
+        "zh": "本节保留《Volume Units Converter》的标题“体积单位换算表”，正文仍只谈已经公布的格子。需要。河北品锦机械（邢台）把 511 印成 380V 砂浆喷涂机：7.5 kW、3 m³/h、3–5 MPa、管径 32/38 mm、砂灰比 ≤ 1:3、粒径 ≤ 6 mm、水平 30 m / 垂直 15 m、外形 1700 × 550 × 900 mm、260 kg。如果没有 380V，同一输送量窗口有柴油页，即 511 柴油机，那不是这台机器。按邢台表上的原文理解：请确认 7.5 kW 电机有 380V，或说明没有这路电源。旁边那一台不在这句话里。打开 511 柴油机。不要留在这台 7.5 kW 的页面。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Other Volume Units",
+        "zh": "其余体积单位"
       },
       "body": {
-        "en": "Confirm 380 V for the 7.5 kW motor, or say that supply is missing. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请确认 7.5 kW 电机有 380V，或说明没有这路电源。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "The section shape comes from “Other Volume Units” in “Volume Units Converter”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Yes. Taken from the printed row: Type 311 is finer and smaller: ≤ 2 mm, 2 m³/h, 15 m / 5 m. Read it in the Xingtai table. Stay on Type 511 when the particle is inside 6 mm, the rate is 3 m³/h and the hose is inside 30 m / 15 m. The neighbouring machine is not this sentence. Do not ask Type 511 to place structural concrete. Keep this cell as published. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: 8 MPa is printed on other sprayers, including the German type. Read it in the Xingtai table. No. Headings already printed: ≤ 6 mm and 3 m³/h define the mortar window It is not a 3 m³/h concrete pump",
+        "zh": "这一节的形状来自《Volume Units Converter》的“其余体积单位”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：311 更细、更小：≤ 2 mm、2 m³/h、15 m / 5 m。德式机是 3–5 m³/h、≤ 5 mm、8 MPa、40 m / 20 m。柱塞机是 4 m³/h、≤ 8 mm。粒径在 6 mm 内、速率是 3 m³/h、软管在 30 m / 15 m 内时，留在 511。目录里已经写着：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。按邢台表上的原文理解：不是。电动 511 印 260 kg。511 柴油机印 360 kg。已印出的标题：≤ 6 mm 和 3 m³/h 定义砂浆窗口 它不是 3 m³/h 的混凝土泵"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is pressure a single number?",
-        "zh": "压力是一个固定数吗？"
+        "en": "“Volume Units Online Calculator” does not change the check: Is pressure a single number?",
+        "zh": "“体积单位在线计算器”不改这一问：压力是一个固定数吗？"
       },
       "answer": {
-        "en": "The cell is 3–5 MPa, not 8 MPa. 8 MPa is printed on other sprayers, including the German type.",
-        "zh": "这一格是 3–5 MPa，不是 8 MPa。8 MPa 印在其他喷涂机上，包括德式机。"
+        "en": "Read it in the Xingtai table. The cell is 3–5 MPa, not 8 MPa. 8 MPa is printed on other sprayers, including the German type.",
+        "zh": "按邢台表上的原文理解：这一格是 3–5 MPa，不是 8 MPa。8 MPa 印在其他喷涂机上，包括德式机。"
       }
     },
     {
       "question": {
-        "en": "What if there is no 380 V?",
-        "zh": "没有 380V 怎么办？"
+        "en": "What if there is no 380 V, once the outline says “Volume Units Converting Table”?",
+        "zh": "大纲写着“体积单位换算表”时，没有 380V 怎么办？"
       },
       "answer": {
-        "en": "Open Type 511 diesel. Do not keep this 7.5 kW page.",
-        "zh": "打开 511 柴油机。不要留在这台 7.5 kW 的页面。"
+        "en": "Taken from the printed row: Open Type 511 diesel. Do not keep this 7.5 kW page.",
+        "zh": "目录里已经写着：打开 511 柴油机。不要留在这台 7.5 kW 的页面。"
       }
     },
     {
       "question": {
-        "en": "Is 260 kg the diesel version?",
-        "zh": "260 kg 是柴油版吗？"
+        "en": "Under “Other Volume Units”, is 260 kg the diesel version?",
+        "zh": "在“其余体积单位”这一节里，260 kg 是柴油版吗？"
       },
       "answer": {
-        "en": "No. Type 511 electric prints 260 kg. Type 511 diesel prints 360 kg.",
-        "zh": "不是。电动 511 印 260 kg。511 柴油机印 360 kg。"
+        "en": "Keep this cell as published. No. Type 511 electric prints 260 kg. Type 511 diesel prints 360 kg.",
+        "zh": "这一格照已印出的读：不是。电动 511 印 260 kg。511 柴油机印 360 kg。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/type-511-mortar-spraying-needs-380v.webp",
+    "src": "/images/articles/applications/type-511-mortar-spraying-needs-380v.jpg",
     "alt": {
-      "en": "Type 511 mortar spraying machine from Xingtai, a 380 V unit",
-      "zh": "邢台 511 砂浆喷涂机，380V 机型"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/volume-units-converter-d_1034.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/volume-units-converter-d_1034.html"
     }
   },
   "relatedPaths": [
@@ -101,7 +105,12 @@
   "sources": [
     "https://pinjinpump.com/products/type-511-mortar-spraying-machine",
     "https://pinjinpump.com/solutions/spraying",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/volume-units-converter-d_1034.html"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

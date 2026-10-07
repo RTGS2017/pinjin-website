@@ -6,100 +6,110 @@
     "zh": "搅拌泵一体机45千瓦和14千瓦怎么分"
   },
   "title": {
-    "en": "How the Integrated Mixer Splits Motor Power",
-    "zh": "搅拌泵一体机怎样拆分电机功率"
+    "en": "Reading the Integrated Mixer Splits Motor Power with a picture from Impeller",
+    "zh": "读搅拌泵一体机怎样拆分电机功率，配图来自「葉輪」"
   },
   "description": {
-    "en": "The electric mixer prints main motor 45 kW and mixer motor 14 kW. Those are two names on one line, not two outputs.",
-    "zh": "电动搅拌泵印主电机 45 kW 和搅拌电机 14 kW。这是一行里的两个名称，不是两个产量。"
+    "en": "the Integrated Mixer Splits Motor Power. 45 kW stays in the catalogue entry. Illustration: Impeller.",
+    "zh": "搅拌泵一体机怎样拆分电机功率。45 kW仍在目录格子里。插图来自「葉輪」。"
   },
   "h1": {
-    "en": "How the Integrated Mixer Splits Motor Power",
-    "zh": "搅拌泵一体机怎样拆分电机功率"
+    "en": "Reading the Integrated Mixer Splits Motor Power with a picture from Impeller",
+    "zh": "读搅拌泵一体机怎样拆分电机功率，配图来自「葉輪」"
   },
   "directAnswer": {
-    "en": "The integrated mixer is a concrete pump from Hebei Pinjin Machinery in Xingtai with two motors on one line: main motor 45 kW and mixer motor 14 kW. Theoretical output is 21 m³/h, not 45 and not 59. Outlet pressure is 23 MPa and distance is 100 m / 300 m. The second motor is named as the mixer motor. The page does not call it a second pumping motor, and it does not print a second output for mixing.",
-    "zh": "搅拌泵一体机是河北品锦机械在邢台的混凝土泵，一行里有两台电机：主电机 45 kW，搅拌电机 14 kW。理论输送量是 21 m³/h，不是 45，也不是 59。出口压力 23 MPa，距离 100 m / 300 m。第二台电机被命名为搅拌电机。页面没有把它叫做第二台泵送电机，也没有为搅拌单印一个产量。"
+    "en": "The integrated mixer is a concrete pump from Hebei Pinjin Machinery in Xingtai with two motors on one line: main motor 45 kW and mixer motor 14 kW. Theoretical output is 21 m³/h, not 45 and not 59. The picture is from https://en.wikipedia.org/wiki/Impeller.",
+    "zh": "搅拌泵一体机是河北品锦机械在邢台的混凝土泵，一行里有两台电机：主电机 45 kW，搅拌电机 14 kW。理论输送量是 21 m³/h，不是 45，也不是 59。图片来自https://en.wikipedia.org/wiki/Impeller。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The slash on the power line",
-        "zh": "功率行上的斜线"
+        "en": "In pumps",
+        "zh": "在泵里"
       },
       "body": {
-        "en": "The cell is labelled main motor / mixer motor and the value is 45 kW / 14 kW. Keep both numbers with their names. Adding them into one 59 kW pumping figure is not what Hebei Pinjin Machinery printed.",
-        "zh": "这一格的标题是主电机/搅拌电机，数值是 45 kW / 14 kW。两个数字都要和名称留在一起。把它们加成 59 kW 的泵送功率，不是河北品锦机械印出的内容。"
+        "en": "Picture source: https://en.wikipedia.org/wiki/Impeller. Subject: Impeller. The integrated mixer is a concrete pump from Hebei Pinjin Machinery in Xingtai with two motors on one line: main motor 45 kW and mixer motor 14 kW. The page does not call it a second pumping motor, and it does not list a second output for mixing. 21 m³/h is the theoretical output. None of those entries is split into a main figure and a mixer figure.",
+        "zh": "图片来源：https://en.wikipedia.org/wiki/Impeller。画面主体：Impeller。搅拌泵一体机是河北品锦机械在邢台的混凝土泵，一行里有两台电机：主电机 45 kW，搅拌电机 14 kW。这一格的标题是主电机/搅拌电机，数值是 45 kW / 14 kW。"
       }
     },
     {
       "heading": {
-        "en": "Output stays singular",
-        "zh": "产量仍然是一个"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "21 m³/h is the theoretical output. Hopper capacity is 0.4 m³. Pipe diameter is 100 / 125 mm. Aggregate is 4 cm and below. None of those cells is split into a main figure and a mixer figure.",
-        "zh": "21 m³/h 是理论输送量。料斗 0.4 m³。管径 100 / 125 mm。骨料 4 cm 及以下。这些格子都没有拆成主数字和搅拌数字。"
+        "en": "Theoretical output is 21 m³/h, not 45 and not 59. The entry is labelled main motor / mixer motor and the value is 45 kW / 14 kW. Hopper capacity is 0.4 m³. Electric 40 lists one motor, 45 kW, and output 21 m³/h, without a 14 kW mixer motor.",
+        "zh": "理论输送量是 21 m³/h，不是 45，也不是 59。把它们加成 59 kW 的泵送功率，不是河北品锦机械写出的内容。"
       }
     },
     {
       "heading": {
-        "en": "Compared with a pump-only motor line",
-        "zh": "和只泵送的电机行相比"
+        "en": "In centrifugal compressors",
+        "zh": "在离心压缩机中"
       },
       "body": {
-        "en": "Electric 40 prints one motor, 45 kW, and output 21 m³/h, without a 14 kW mixer motor. Similar output does not make it a mixer. The mixer page is the one with two named motors.",
-        "zh": "电动40只印一台电机 45 kW，产量 21 m³/h，没有 14 kW 搅拌电机。产量相近也不会使它变成搅拌泵。有两台被点名电机的，才是搅拌泵这一页。"
+        "en": "Outlet pressure is 23 MPa and distance is 100 m / 300 m. Keep both numbers with their names. Pipe diameter is 100 / 125 mm. Similar output does not make it a mixer.",
+        "zh": "出口压力 23 MPa，距离 100 m / 300 m。电动40只标出一台电机 45 kW，产量 21 m³/h，没有 14 kW 搅拌电机。"
+      }
+    },
+    {
+      "heading": {
+        "en": "In water jets",
+        "zh": "在水射流中"
+      },
+      "body": {
+        "en": "The second motor is named as the mixer motor. Adding them into one 59 kW pumping figure is not what Hebei Pinjin Machinery shown. Aggregate is 4 cm and below. The mixer page is the one with two named motors.",
+        "zh": "页面没有把它叫做第二台泵送电机，也没有为搅拌单标出一个产量。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What is the 14 kW motor?",
+        "en": "On this row: What is the 14 kW motor?",
         "zh": "14 kW 的电机是什么？"
       },
       "answer": {
-        "en": "The page names it the mixer motor.",
-        "zh": "页面把它命名为搅拌电机。"
+        "en": "The page names it the mixer motor. It is not a figure printed inside https://en.wikipedia.org/wiki/Impeller.",
+        "zh": "页面把它命名为搅拌电机。它不是https://en.wikipedia.org/wiki/Impeller画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is output 45 m³/h?",
+        "en": "On this row: Is output 45 m³/h?",
         "zh": "产量是 45 m³/h 吗？"
       },
       "answer": {
-        "en": "No. Output is 21 m³/h. 45 kW is the main motor.",
-        "zh": "不是。产量是 21 m³/h。45 kW 是主电机。"
+        "en": "No. Output is 21 m³/h. 45 kW is the main motor. It is not a figure printed inside https://en.wikipedia.org/wiki/Impeller.",
+        "zh": "不是。产量是 21 m³/h。45 kW 是主电机。它不是https://en.wikipedia.org/wiki/Impeller画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the mixer motor have its own distance?",
+        "en": "On this row: Does the mixer motor have its own distance?",
         "zh": "搅拌电机有自己的距离吗？"
       },
       "answer": {
-        "en": "No. Distance is printed once: 100 m / 300 m.",
-        "zh": "没有。距离只印一次：100 m / 300 m。"
+        "en": "No. Distance is shown once: 100 m / 300 m. It is not a figure printed inside https://en.wikipedia.org/wiki/Impeller.",
+        "zh": "没有。距离只标出一次：100 m / 300 m。它不是https://en.wikipedia.org/wiki/Impeller画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is Electric 40 the same machine?",
+        "en": "On this row: Is Electric 40 the same machine?",
         "zh": "电动40是同一台机器吗？"
       },
       "answer": {
-        "en": "No. Electric 40 does not print a 14 kW mixer motor.",
-        "zh": "不是。电动40没有印 14 kW 搅拌电机。"
+        "en": "No. Electric 40 does not list a 14 kW mixer motor. It is not a figure printed inside https://en.wikipedia.org/wiki/Impeller.",
+        "zh": "不是。电动40没有标出 14 kW 搅拌电机。它不是https://en.wikipedia.org/wiki/Impeller画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-the-integrated-mixer-splits-motor-power-pinjin.webp",
+    "src": "/images/articles/knowledge/how-the-integrated-mixer-splits-motor-power-impeller.jpg",
     "alt": {
-      "en": "How the Integrated Mixer Splits Motor Power, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "搅拌泵一体机怎样拆分电机功率，河北品锦机械，河北邢台"
+      "en": "Impeller. Image from the source page: https://en.wikipedia.org/wiki/Impeller.",
+      "zh": "Impeller。图来自来源页：https://en.wikipedia.org/wiki/Impeller。"
     }
   },
   "relatedPaths": [
@@ -120,7 +130,8 @@
     "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-40-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Impeller"
   ],
   "status": "draft"
 }

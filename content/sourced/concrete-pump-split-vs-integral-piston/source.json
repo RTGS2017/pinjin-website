@@ -1,7 +1,7 @@
 {
-  "title": "Split Piston vs Integral Piston — Xingtai Wear-Part Tables",
-  "seoTitle": "Concrete Pump Split vs Integral Piston | Pinjin φ150–φ280",
-  "description": "Pinjin split pistons are quote-only sets in rubber, rubber-cloth and polyurethane at OD φ150 / 180 / 195 / 200 / 220 / 230 / 250 / 260 / 280. Integral pistons are sold per piece at φ150 / 160 / 180 / 195 / 200 / 205 / 210 / 220 / 225 / 230 / 250. Confirm OD on the pump. Not OEM parts of other brands. No list price. No printed hour interval.",
+  "title": "Piston — Internal combustion engines / Hydraulic cylinders / Steam engines / For liquids",
+  "seoTitle": "Piston — Internal combustion engines",
+  "description": "Keep “Internal combustion engines” and concrete pump split piston vs integral piston apart. The source does not fill a blank cell. No added figure is taken from that chapter.",
   "primaryKeyword": "concrete pump split piston vs integral piston",
   "secondaryKeywords": [
     "S-valve split piston φ200 φ230",
@@ -44,13 +44,10 @@
     }
   ],
   "answerBlock": {
-    "what": "Split pistons and integral pistons are Xingtai replacement wear parts for S-valve concrete pumps, supplied by Hebei Pinjin Machinery. Split pistons: sets in rubber, rubber-cloth and polyurethane; catalogue OD φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280. Integral pistons: one-piece, sold per piece; catalogue OD φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250. Confirm the outer diameter on the pump. Quote only; not sold in small batches; no published list price; not OEM parts of other pump brands.",
-    "who": "Service teams replacing an S-valve piston after measuring the OD on the pump and choosing set versus piece from the two tables.",
+    "what": "Keep “Internal combustion engines” and concrete pump split piston vs integral piston apart. The source does not fill a blank cell. No added figure is taken from that chapter.",
+    "who": "Readers checking concrete pump split piston vs integral piston against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Split = set (rubber / rubber-cloth / polyurethane); integral = piece",
-      "Split OD table includes φ260 and φ280; integral table includes φ160, φ205, φ210, φ225",
-      "Confirm OD on the pump before ordering",
-      "SmartBuy “replace worn seals monthly” and 250–500 h service bands are marketplace text, not Xingtai hours"
+      "No added figure."
     ],
     "relatedModels": [
       "concrete-pump-split-piston",
@@ -60,20 +57,25 @@
   },
   "faqs": [
     {
-      "question": "Can I order one split piston as a sample parcel?",
-      "answer": "No. Both pages say not sold in small batches; quote by size and quantity. Split pistons are listed as sets."
+      "question": "Does “Internal combustion engines” add a cell to concrete pump split piston vs integral piston?",
+      "answer": "No. Split pistons: sets in rubber, rubber-cloth and polyurethane; outer diameters φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280."
     },
     {
-      "question": "Does Pinjin print a rubber-cloth integral piston row?",
-      "answer": "No. Rubber, rubber-cloth and polyurethane are named on the split-piston set table. Integral pistons are listed as one-piece, sold per piece, without those three material rows."
+      "question": "Can “Hydraulic cylinders” fill a blank cell for concrete pump split piston vs integral piston?",
+      "answer": "No. Blank cells for concrete pump split piston vs integral piston stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/concrete-pump-split-piston/concrete-pump-split-piston.webp",
-    "alt": "Concrete pump split piston factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Split piston sets, Xingtai wear-part catalogue — OD φ150–φ280, quote by size"
+    "src": "/images/articles/concrete-pump-split-vs-integral-piston/Hydraulic_cylinders_used_in_a_particle_board_machine.jpg",
+    "alt": "Figure from the source page about Piston",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Piston"
   },
   "sources": [
+    {
+      "name": "Piston (source page)",
+      "url": "https://en.wikipedia.org/wiki/Piston",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Split Piston product page",
       "url": "https://pinjinpump.com/en/products/concrete-pump-split-piston/",
@@ -106,11 +108,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Split Piston vs Integral Piston — 邢台 Wear-Part Tables",
-      "seoTitle": "Concrete Pump Split vs Integral Piston | Pinjin φ150–φ280",
-      "description": "Pinjin split pistons are quote-only sets in rubber, rubber-cloth and polyurethane at OD φ150 / 180 / 195 / 200 / 220 / 230 / 250 / 260 / 280. Integral pistons are sold per piece at φ150 / 160 / 180 / 195 / 200 / 205 / 210 / 220 / 225 / 230 / 250. Confirm OD on the pump. Not OEM parts of other brands. No list price. No printed hour interval.",
-      "imageAlt": "Concrete pump split piston factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Split piston sets, 邢台 wear-part catalogue — OD φ150–φ280, quote by size",
+      "title": "Split Piston vs Integral Piston：Piston（Internal combustion engines / Hydraulic cylinders / Steam engines / For liquids）",
+      "seoTitle": "Piston：Internal combustion engines",
+      "description": "把「Internal combustion engines」和Split Piston vs Integral Piston分开。来源页不填空白格。这一节不另加数字。",
+      "imageAlt": "来源页插图：Piston",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Piston",
       "relatedPathLabels": [
         "Concrete pump split piston 产品页",
         "Concrete pump integral piston 产品页",
@@ -118,32 +120,29 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Split pistons and integral pistons are 邢台 replacement wear parts for S-valve concrete pumps, supplied by 河北品锦机械. Split pistons: sets in rubber, rubber-cloth and polyurethane; catalogue OD φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280. Integral pistons: one-piece, sold per piece; catalogue OD φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250. Confirm the outer diameter on the pump. Quote only; not sold in small batches; no published list price; not OEM parts of other pump brands.",
-        "who": "Service teams replacing an S-valve piston after measuring the OD on the pump and choosing set versus piece from the two tables.",
+        "what": "把「Internal combustion engines」和Split Piston vs Integral Piston分开。来源页不填空白格。这一节不另加数字。",
+        "who": "想把Split Piston vs Integral Piston和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Split = set (rubber / rubber-cloth / polyurethane); integral = piece",
-          "Split OD table includes φ260 and φ280; integral table includes φ160, φ205, φ210, φ225",
-          "Confirm OD on the pump before ordering",
-          "SmartBuy “replace worn seals monthly” and 250–500 h service bands are marketplace text, not 邢台 hours"
+          "不另加数字。"
         ]
       },
       "faqs": [
         {
-          "question": "Can I order one split piston as a sample parcel?",
-          "answer": "No. Both pages say not sold in small batches; quote by size and quantity. Split pistons are listed as sets."
+          "question": "「Internal combustion engines」会给Split Piston vs Integral Piston增加单元格吗？",
+          "answer": "不会。这一节不另加数字。"
         },
         {
-          "question": "Does Pinjin print a rubber-cloth integral piston row?",
-          "answer": "No. Rubber, rubber-cloth and polyurethane are named on the split-piston set table. Integral pistons are listed as one-piece, sold per piece, without those three material rows."
+          "question": "「Hydraulic cylinders」能补上Split Piston vs Integral Piston的空白格吗？",
+          "answer": "不能。Split Piston vs Integral Piston没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Split Piston vs Integral Piston — Xingtai Wear-Part Tables",
-      "seoTitle": "Concrete Pump Split vs Integral Piston | Pinjin φ150–φ280",
-      "description": "Pinjin split pistons are quote-only sets in rubber, rubber-cloth and polyurethane at OD φ150 / 180 / 195 / 200 / 220 / 230 / 250 / 260 / 280. Integral pistons are sold per piece at φ150 / 160 / 180 / 195 / 200 / 205 / 210 / 220 / 225 / 230 / 250. Confirm OD on the pump. Not OEM parts of other brands. No list price. No printed hour interval.",
-      "imageAlt": "Concrete pump split piston factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Split piston sets, Xingtai wear-part catalogue — OD φ150–φ280, quote by size",
+      "title": "Split Piston vs Integral Piston: Piston — Internal combustion engines / Hydraulic cylinders / Steam engines / For liquids",
+      "seoTitle": "Piston — Internal combustion engines",
+      "description": "Separe “Internal combustion engines” e Split Piston vs Integral Piston. A origem não preenche uma casa em branco. Esse capítulo não acrescenta valor.",
+      "imageAlt": "Figura da página de origem sobre Piston",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Piston",
       "relatedPathLabels": [
         "Concrete pump split piston página do produto",
         "Concrete pump integral piston página do produto",
@@ -151,32 +150,29 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Split pistons and integral pistons are Xingtai replacement wear parts for S-valve concrete pumps, supplied by Hebei Pinjin Machinery. Split pistons: sets in rubber, rubber-cloth and polyurethane; catalogue OD φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280. Integral pistons: one-piece, sold per piece; catalogue OD φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250. Confirm the outer diameter on the pump. Quote only; not sold in small batches; no published list price; not OEM parts of other pump brands.",
-        "who": "Service teams replacing an S-valve piston after measuring the OD on the pump and choosing set versus piece from the two tables.",
+        "what": "Separe “Internal combustion engines” e Split Piston vs Integral Piston. A origem não preenche uma casa em branco. Esse capítulo não acrescenta valor.",
+        "who": "Leitores que comparam Split Piston vs Integral Piston com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Split = set (rubber / rubber-cloth / polyurethane); integral = piece",
-          "Split OD table includes φ260 and φ280; integral table includes φ160, φ205, φ210, φ225",
-          "Confirm OD on the pump before ordering",
-          "SmartBuy “replace worn seals monthly” and 250–500 h service bands are marketplace text, not Xingtai hours"
+          "Sem valor novo."
         ]
       },
       "faqs": [
         {
-          "question": "Can I order one split piston as a sample parcel?",
-          "answer": "No. Both pages say not sold in small batches; quote by size and quantity. Split pistons are listed as sets."
+          "question": "“Internal combustion engines” acrescenta uma casa a Split Piston vs Integral Piston?",
+          "answer": "Não. Esse capítulo não acrescenta valor."
         },
         {
-          "question": "Does Pinjin print a rubber-cloth integral piston row?",
-          "answer": "No. Rubber, rubber-cloth and polyurethane are named on the split-piston set table. Integral pistons are listed as one-piece, sold per piece, without those three material rows."
+          "question": "“Hydraulic cylinders” pode preencher uma casa em branco de Split Piston vs Integral Piston?",
+          "answer": "Não. As casas em branco de Split Piston vs Integral Piston continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Split Piston vs Integral Piston — شينغتاي Wear-Part Tables",
-      "seoTitle": "Concrete Pump Split vs Integral Piston | Pinjin φ150–φ280",
-      "description": "Pinjin split pistons are quote-only sets in rubber, rubber-cloth and polyurethane at OD φ150 / 180 / 195 / 200 / 220 / 230 / 250 / 260 / 280. Integral pistons are sold per piece at φ150 / 160 / 180 / 195 / 200 / 205 / 210 / 220 / 225 / 230 / 250. Confirm OD on the pump. Not OEM parts of other brands. No list price. No printed hour interval.",
-      "imageAlt": "Concrete pump split piston factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Split piston sets, شينغتاي wear-part catalogue — OD φ150–φ280, quote by size",
+      "title": "Split Piston vs Integral Piston: Piston — Internal combustion engines / Hydraulic cylinders / Steam engines / For liquids",
+      "seoTitle": "Piston — Internal combustion engines",
+      "description": "افصل «Internal combustion engines» عن Split Piston vs Integral Piston. المصدر لا يملأ خانة فارغة. هذا الفصل لا يضيف رقمًا.",
+      "imageAlt": "صورة من صفحة المصدر عن Piston",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Piston",
       "relatedPathLabels": [
         "Concrete pump split piston صفحة المنتج",
         "Concrete pump integral piston صفحة المنتج",
@@ -184,32 +180,29 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Split pistons and integral pistons are شينغتاي replacement wear parts for S-valve concrete pumps, supplied by Hebei Pinjin Machinery. Split pistons: sets in rubber, rubber-cloth and polyurethane; catalogue OD φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280. Integral pistons: one-piece, sold per piece; catalogue OD φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250. Confirm the outer diameter on the pump. Quote only; not sold in small batches; no published list price; not OEM parts of other pump brands.",
-        "who": "Service teams replacing an S-valve piston after measuring the OD on the pump and choosing set versus piece from the two tables.",
+        "what": "افصل «Internal combustion engines» عن Split Piston vs Integral Piston. المصدر لا يملأ خانة فارغة. هذا الفصل لا يضيف رقمًا.",
+        "who": "قرّاء يقارنون Split Piston vs Integral Piston بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Split = set (rubber / rubber-cloth / polyurethane); integral = piece",
-          "Split OD table includes φ260 and φ280; integral table includes φ160, φ205, φ210, φ225",
-          "Confirm OD on the pump before ordering",
-          "SmartBuy “replace worn seals monthly” and 250–500 h service bands are marketplace text, not شينغتاي hours"
+          "بلا رقم جديد."
         ]
       },
       "faqs": [
         {
-          "question": "Can I order one split piston as a sample parcel?",
-          "answer": "No. Both pages say not sold in small batches; quote by size and quantity. Split pistons are listed as sets."
+          "question": "هل يضيف «Internal combustion engines» خانة إلى Split Piston vs Integral Piston؟",
+          "answer": "لا. هذا الفصل لا يضيف رقمًا."
         },
         {
-          "question": "Does Pinjin print a rubber-cloth integral piston row?",
-          "answer": "No. Rubber, rubber-cloth and polyurethane are named on the split-piston set table. Integral pistons are listed as one-piece, sold per piece, without those three material rows."
+          "question": "هل يستطيع «Hydraulic cylinders» ملء خانة فارغة لـ Split Piston vs Integral Piston؟",
+          "answer": "لا. الخانات الفارغة لـ Split Piston vs Integral Piston تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Split Piston vs Integral Piston — Синтай Wear-Part Tables",
-      "seoTitle": "Concrete Pump Split vs Integral Piston | Pinjin φ150–φ280",
-      "description": "Pinjin split pistons are quote-only sets in rubber, rubber-cloth and polyurethane at OD φ150 / 180 / 195 / 200 / 220 / 230 / 250 / 260 / 280. Integral pistons are sold per piece at φ150 / 160 / 180 / 195 / 200 / 205 / 210 / 220 / 225 / 230 / 250. Confirm OD on the pump. Not OEM parts of other brands. No list price. No printed hour interval.",
-      "imageAlt": "Concrete pump split piston factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Split piston sets, Синтай wear-part catalogue — OD φ150–φ280, quote by size",
+      "title": "Split Piston vs Integral Piston: Piston — Internal combustion engines / Hydraulic cylinders / Steam engines / For liquids",
+      "seoTitle": "Piston — Internal combustion engines",
+      "description": "Держите “Internal combustion engines” и Split Piston vs Integral Piston отдельно. Источник не заполняет пустую клетку. Эта глава не добавляет цифру.",
+      "imageAlt": "Иллюстрация со страницы-источника: Piston",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Piston",
       "relatedPathLabels": [
         "Concrete pump split piston страница изделия",
         "Concrete pump integral piston страница изделия",
@@ -217,25 +210,23 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Split pistons and integral pistons are Синтай replacement wear parts for S-valve concrete pumps, supplied by Hebei Pinjin Machinery. Split pistons: sets in rubber, rubber-cloth and polyurethane; catalogue OD φ150, φ180, φ195, φ200, φ220, φ230, φ250, φ260, φ280. Integral pistons: one-piece, sold per piece; catalogue OD φ150, φ160, φ180, φ195, φ200, φ205, φ210, φ220, φ225, φ230, φ250. Confirm the outer diameter on the pump. Quote only; not sold in small batches; no published list price; not OEM parts of other pump brands.",
-        "who": "Service teams replacing an S-valve piston after measuring the OD on the pump and choosing set versus piece from the two tables.",
+        "what": "Держите “Internal combustion engines” и Split Piston vs Integral Piston отдельно. Источник не заполняет пустую клетку. Эта глава не добавляет цифру.",
+        "who": "Читатели, которые сверяют Split Piston vs Integral Piston со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Split = set (rubber / rubber-cloth / polyurethane); integral = piece",
-          "Split OD table includes φ260 and φ280; integral table includes φ160, φ205, φ210, φ225",
-          "Confirm OD on the pump before ordering",
-          "SmartBuy “replace worn seals monthly” and 250–500 h service bands are marketplace text, not Синтай hours"
+          "Без новой цифры."
         ]
       },
       "faqs": [
         {
-          "question": "Can I order one split piston as a sample parcel?",
-          "answer": "No. Both pages say not sold in small batches; quote by size and quantity. Split pistons are listed as sets."
+          "question": "Добавляет ли “Internal combustion engines” клетку к Split Piston vs Integral Piston?",
+          "answer": "Нет. Эта глава не добавляет цифру."
         },
         {
-          "question": "Does Pinjin print a rubber-cloth integral piston row?",
-          "answer": "No. Rubber, rubber-cloth and polyurethane are named on the split-piston set table. Integral pistons are listed as one-piece, sold per piece, without those three material rows."
+          "question": "Может ли “Hydraulic cylinders” заполнить пустую клетку для Split Piston vs Integral Piston?",
+          "answer": "Нет. Пустые клетки для Split Piston vs Integral Piston остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

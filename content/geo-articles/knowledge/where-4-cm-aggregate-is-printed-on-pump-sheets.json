@@ -6,100 +6,110 @@
     "zh": "哪些混凝土泵印了4厘米骨料"
   },
   "title": {
-    "en": "Where 4 cm Aggregate Is Printed",
-    "zh": "4厘米骨料印在哪些泵上"
+    "en": "4 cm Aggregate Is Printed: 4 cm and below beside the Gravel article",
+    "zh": "4厘米骨料印在哪些泵上：对照「砾石」时，4 cm and below仍在原页"
   },
   "description": {
-    "en": "HBT8018, HBT80-16, LZ-60 and the integrated mixer print aggregate 4 cm and below. Electric 50 does not use that sentence.",
-    "zh": "HBT8018、HBT80-16、LZ-60 和搅拌泵一体机印骨料 4 cm 及以下。电动50没有使用这句话。"
+    "en": "4 cm Aggregate Is Printed. 4 cm and below stays in the catalogue entry. Illustration: Gravel.",
+    "zh": "4厘米骨料印在哪些泵上。4 cm and below仍在目录格子里。插图来自「砾石」。"
   },
   "h1": {
-    "en": "Where 4 cm Aggregate Is Printed",
-    "zh": "4厘米骨料印在哪些泵上"
+    "en": "4 cm Aggregate Is Printed: 4 cm and below beside the Gravel article",
+    "zh": "4厘米骨料印在哪些泵上：对照「砾石」时，4 cm and below仍在原页"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints maximum aggregate size 4 cm and below on four concrete pumps in Xingtai: HBT8018, HBT80-16, LZ-60 and the integrated mixer. Those pages also print pipe 100 / 125 mm, except you must still open each page for output and distance. Electric 50 does not use the 4 cm sentence. It prints separate 13 mm and 24 mm distance rows and no maximum-aggregate line.",
-    "zh": "河北品锦机械在邢台的四台混凝土泵上印了最大骨料 4 cm 及以下：HBT8018、HBT80-16、LZ-60 和搅拌泵一体机。这些页面也印管径 100 / 125 mm，但产量和距离仍要打开各自页面。电动50没有使用 4 cm 这句话。它印了分开的 13 mm 和 24 mm 距离行，没有最大骨料行。4 cm 及以下不是 6 cm 及以下。"
+    "en": "Hebei Pinjin Machinery lists maximum aggregate size 4 cm and below on four concrete pumps in Xingtai: HBT8018, HBT80-16, LZ-60 and the integrated mixer. Those pages also list pipe 100 / 125 mm, except you must still open each page for output and distance. The picture is from https://en.wikipedia.org/wiki/Gravel.",
+    "zh": "河北品锦机械在邢台的四台混凝土泵上标出了最大骨料 4 cm 及以下：HBT8018、HBT80-16、LZ-60 和搅拌泵一体机。这些页面也标出管径 100 / 125 mm，但产量和距离仍要打开各自页面。图片来自https://en.wikipedia.org/wiki/Gravel。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The four pages",
-        "zh": "这四页"
+        "en": "Definition and properties",
+        "zh": "定义与性质"
       },
       "body": {
-        "en": "HBT8018 prints 60 m³/h and conveying distance 150 m with height 450 m. HBT80-16 prints 50 m³/h, horizontal 120 m and height 360 m. LZ-60 prints 50 m³/h, conveying distance 100 m and height 300 m. The integrated mixer prints 21 m³/h and 100 m / 300 m. The shared aggregate sentence does not equalise those distance cells.",
-        "zh": "HBT8018 印 60 m³/h，输送距离 150 m，高度 450 m。HBT80-16 印 50 m³/h，水平 120 m，高度 360 m。LZ-60 印 50 m³/h，输送距离 100 m，高度 300 m。搅拌泵一体机印 21 m³/h 和 100 m / 300 m。相同的骨料句子不会把这些距离格变成一样。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Gravel. The picture shows Gravel on a beach in Thirasia, Santorini, Greece. Hebei Pinjin Machinery lists maximum aggregate size 4 cm and below on four concrete pumps in Xingtai: HBT8018, HBT80-16, LZ-60 and the integrated mixer. HBT8018 lists 60 m³/h and conveying distance 150 m with height 450 m. The shared aggregate sentence does not equalise those distance entries. Only LZ-80 and Diesel 120 list 6 cm and below.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Gravel。画面是Gravel on a beach in Thirasia, Santorini, Greece。河北品锦机械在邢台的四台混凝土泵上标出了最大骨料 4 cm 及以下：HBT8018、HBT80-16、LZ-60 和搅拌泵一体机。HBT80-16 标出 50 m³/h，水平 120 m，高度 360 m。只有 LZ-80 和柴油120标出 6 cm 及以下。"
       }
     },
     {
       "heading": {
-        "en": "Pages that use stone rows instead",
-        "zh": "改用石子行的页面"
+        "en": "Origin",
+        "zh": "来源"
       },
       "body": {
-        "en": "Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer print stone-size distance rows. They do not print the sentence 4 cm and below. Use the row heading they do print.",
-        "zh": "电动50、电动60、电动低压60和柴油搅拌泵印的是按石子粒径分的距离行。它们没有印“4 cm 及以下”这句话。请用它们实际印出的行标题。"
+        "en": "Those pages also list pipe 100 / 125 mm, except you must still open each page for output and distance. HBT80-16 lists 50 m³/h, horizontal 120 m and height 360 m. Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer list stone-size distance rows. Do not upgrade a 4 cm page to 6 cm because both are diesel or both look large.",
+        "zh": "这些页面也标出管径 100 / 125 mm，但产量和距离仍要打开各自页面。LZ-60 标出 50 m³/h，输送距离 100 m，高度 300 m。不要因为都是柴油或看起来都大，就把 4 cm 的页面升成 6 cm。"
       }
     },
     {
       "heading": {
-        "en": "6 cm remains a different cell",
-        "zh": "6 cm 仍是另一格"
+        "en": "Production and uses",
+        "zh": "生产与用途"
       },
       "body": {
-        "en": "Only LZ-80 and Diesel 120 print 6 cm and below. Do not upgrade a 4 cm page to 6 cm because both are diesel or both look large. Hebei Pinjin Machinery printed the smaller wording on purpose on the four pages above.",
-        "zh": "只有 LZ-80 和柴油120印 6 cm 及以下。不要因为都是柴油或看起来都大，就把 4 cm 的页面升成 6 cm。河北品锦机械是在上面四页印了较小的那种说法。"
+        "en": "Electric 50 does not use the 4 cm sentence. LZ-60 lists 50 m³/h, conveying distance 100 m and height 300 m. They do not list the sentence 4 cm and below. Hebei Pinjin Machinery shown the smaller wording on purpose on the four pages above.",
+        "zh": "它标出了分开的 13 mm 和 24 mm 距离行，没有最大骨料行。搅拌泵一体机标出 21 m³/h 和 100 m / 300 m。河北品锦机械是在上面四页标出了较小的那种说法。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Etymology",
+        "zh": "词源"
+      },
+      "body": {
+        "en": "It lists separate 13 mm and 24 mm distance rows and no maximum-aggregate line. The integrated mixer lists 21 m³/h and 100 m / 300 m. Use the row heading they do list.",
+        "zh": "HBT8018 标出 60 m³/h，输送距离 150 m，高度 450 m。电动50、电动60、电动低压60和柴油搅拌泵标出的是按石子粒径分的距离行。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which four pumps print 4 cm and below?",
-        "zh": "哪四台泵印 4 cm 及以下？"
+        "en": "Which four pumps list 4 cm and below?",
+        "zh": "哪四台泵标出 4 cm 及以下？"
       },
       "answer": {
-        "en": "HBT8018, HBT80-16, LZ-60 and the integrated mixer.",
-        "zh": "HBT8018、HBT80-16、LZ-60 和搅拌泵一体机。"
+        "en": "HBT8018, HBT80-16, LZ-60 and the integrated mixer. It is not a figure printed inside https://en.wikipedia.org/wiki/Gravel.",
+        "zh": "HBT8018、HBT80-16、LZ-60 和搅拌泵一体机。它不是https://en.wikipedia.org/wiki/Gravel画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the integrated mixer print a pipe size too?",
-        "zh": "搅拌泵一体机也印管径吗？"
+        "en": "Does the integrated mixer list a pipe size too?",
+        "zh": "搅拌泵一体机也标出管径吗？"
       },
       "answer": {
-        "en": "Yes. 100 / 125 mm, on that page.",
-        "zh": "印了。该页为 100 / 125 mm。"
+        "en": "Yes. 100 / 125 mm, on that page. It is not a figure printed inside https://en.wikipedia.org/wiki/Gravel.",
+        "zh": "标出了。该页为 100 / 125 mm。它不是https://en.wikipedia.org/wiki/Gravel画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 50 print 4 cm and below?",
-        "zh": "电动50印 4 cm 及以下吗？"
+        "en": "Does Electric 50 list 4 cm and below?",
+        "zh": "电动50标出 4 cm 及以下吗？"
       },
       "answer": {
-        "en": "No. It prints 13 mm and 24 mm distance rows and no maximum-aggregate line.",
-        "zh": "没有。它印 13 mm 和 24 mm 距离行，没有最大骨料行。"
+        "en": "No. It lists 13 mm and 24 mm distance rows and no maximum-aggregate line. It is not a figure printed inside https://en.wikipedia.org/wiki/Gravel.",
+        "zh": "没有。它标出 13 mm 和 24 mm 距离行，没有最大骨料行。它不是https://en.wikipedia.org/wiki/Gravel画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is 4 cm the same cell as 6 cm?",
+        "en": "Is 4 cm the same entry as 6 cm?",
         "zh": "4 cm 和 6 cm 是同一格吗？"
       },
       "answer": {
-        "en": "No. They are different printed wordings on different concrete pumps.",
-        "zh": "不是。它们是不同混凝土泵上不同的印出措辞。"
+        "en": "No. They are different shown wordings on different concrete pumps. It is not a figure printed inside https://en.wikipedia.org/wiki/Gravel.",
+        "zh": "不是。它们是不同混凝土泵上不同的写出措辞。它不是https://en.wikipedia.org/wiki/Gravel画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/where-4-cm-aggregate-is-printed-on-pump-sheets-pinjin.webp",
+    "src": "/images/articles/knowledge/where-4-cm-aggregate-is-printed-on-pump-sheets-gravel-on-a-beach-in-thirasia-santorini-gr.jpg",
     "alt": {
-      "en": "Where 4 cm Aggregate Is Printed, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "4厘米骨料印在哪些泵上，河北品锦机械，河北邢台"
+      "en": "Gravel on a beach in Thirasia, Santorini, Greece. Image from the source page: https://en.wikipedia.org/wiki/Gravel.",
+      "zh": "Gravel on a beach in Thirasia, Santorini, Greece。图来自来源页：https://en.wikipedia.org/wiki/Gravel。"
     }
   },
   "relatedPaths": [
@@ -126,7 +136,8 @@
     "https://pinjinpump.com/en/products/integrated-mixer-pump/",
     "https://pinjinpump.com/zh/products/integrated-mixer-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Gravel"
   ],
   "status": "draft"
 }

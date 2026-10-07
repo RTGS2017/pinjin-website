@@ -1,28 +1,22 @@
-## Duas células na mesma linha
+## Self-commutated motor
 
-Alibaba buying guides list power source and output as selection factors. That is observação de marketplace. On Pinjin pages, motor (or diesel) kW and theoretical m³/h are printed together. We will not invent a conversion that turns kW into extra cubic metres.
+![Figura da página de origem sobre Electric motor](/images/articles/concrete-pump-motor-kw-vs-output/An_electric_motor_presented_to_Kelvin_by_James_Joule_in_1842_Hunterian_Museum_Glasgow.jpg)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Electric_motor*
 
-This page does not repeat [output m³/h selection](/blog/concrete-pump-output-m3h-guide/). That article already maps the volume cell to pour size. Here we only show that the same output band can sit next to different kW.
+Concrete Pump Motor kW vs Catalogue Output continua a ser a linha que este texto já tinha. “Self-commutated motor” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.
 
-| Model | Motor / engine | Output | Mass |
-| [Electric 15](/products/electric-15-concrete-pump/) | 15 kW | 8–10 m³/h | 450 kg |
-| [Electric 20](/products/electric-20-concrete-pump/) | 22 kW | 8–10 m³/h | 900 kg |
-| [Electric 30](/products/electric-30-concrete-pump/) | 30 kW | 12–15 m³/h | 1200 kg |
-| [Electric 40](/products/electric-40-concrete-pump/) | 45 kW | 21 m³/h | 2300 kg |
-| [Electric 80](/products/electric-80-concrete-pump/) | 110 kW | 60 m³/h | 6000 kg |
-| [HBT8018](/products/hbt8018-concrete-pump/) | 132 kW | 60 m³/h | 6500 kg |
+As casas em branco nesta página continuam em branco. “Self-commutated motor” não as preenche.
 
-Electric 15 vs Electric 20 is already a comparison article — [15 vs 20](/blog/electric-20-vs-30-concrete-pump/). They share 8–10 m³/h; they do not share pipe DN (100–125 mm vs 80 mm) or mass.
+## Externally commutated AC machine
 
-![Electric 20 bomba reboque 22 kW from Hebei Pinjin Machinery in Xingtai](/images/products/electric-20-concrete-pump/main.webp)
-*Electric 20 — 22 kW, 8–10 m³/h. Do not interpolate an 18 kW SKU between 15 and 22.*
+Separe “Externally commutated AC machine” e Concrete Pump Motor kW vs Catalogue Output. A origem não preenche uma casa em branco. Esse capítulo não acrescenta valor.
 
-## Rede e diesel
+## Advanced types
 
-Electric rows are 380V 50Hz trifásico unless the page says otherwise. [Electric vs diesel](/blog/electric-vs-diesel-concrete-pump-grid-sites/) covers grid vs engine. Diesel kW on those pages is engine power, still not a second m³/h table.
+O capítulo “Advanced types” fica na página de origem. Concrete Pump Motor kW vs Catalogue Output continua a ser a linha já escrita aqui. Esse capítulo não acrescenta valor.
 
-Hopper volume is another cell — Electric 40 lists 0.4 m³ — see [hopper grille](/blog/concrete-pump-hopper-grille-agitator/). It does not scale linearly with kW either.
+## Comparison by major categories
 
-## Consulta
+“Comparison by major categories” não substitui uma especificação. Concrete Pump Motor kW vs Catalogue Output mantém a linha impressa. Valores já impressos nesta página: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.
 
-Target m³/h from the printed row, available kVA or diesel, pipe DN. No unpublished motor swap. [Contact](/contact/).
+Páginas já indicadas neste texto: [output m³/h selection](/blog/concrete-pump-output-m3h-guide/), [Electric 15](/products/electric-15-concrete-pump/), [Electric 20](/products/electric-20-concrete-pump/).

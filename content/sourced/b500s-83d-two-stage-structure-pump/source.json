@@ -1,7 +1,7 @@
 {
-  "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet",
-  "seoTitle": "B500S-83D Two-Stage Pump | Pinjin 7.5 kW 5 m / 5 m",
-  "description": "B500S-83D is a Xingtai compact two-stage manual/electric pump listing 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, 915 × 550 × 550 mm, 280 kg, short boom on the compact unit, sand and small stone 5–16 mm. It does not print m³/h. It is not Electric 10, not a truck-mounted placing boom and not the mini-access article. Match the sheet, then inquire.",
+  "title": "Reciprocating pump — Types / Main components of reciprocating pump / Reciprocating Pump Application",
+  "seoTitle": "Reciprocating pump — Types",
+  "description": "B500S-83D two-stage structure pump remains the row this document already had. “Types” explains the source topic and adds no cell. Printed cells already on this page: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
   "primaryKeyword": "B500S-83D two-stage structure pump",
   "secondaryKeywords": [
     "7.5 kW two-stage concrete pump",
@@ -44,13 +44,15 @@
     }
   ],
   "answerBlock": {
-    "what": "B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, standard delivery hose, 915 × 550 × 550 mm, 280 kg. The listed short boom is part of this compact unit; it is not a truck-mounted placing boom. Applicable materials: sand and small stone 5–16 mm. No m³/h cell is printed.",
-    "who": "Buyers placing sand or 5–16 mm small stone inside 5 m height and 5 m horizontal with 380 V, who accept a 280 kg wheeled compact unit.",
+    "what": "B500S-83D two-stage structure pump remains the row this document already had. “Types” explains the source topic and adds no cell. Printed cells already on this page: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+    "who": "Readers checking B500S-83D two-stage structure pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "7.5 kW / 380 V versus Electric 10 at 15 kW / 21 m³/h theoretical / 25 m",
-      "5 m / 5 m reach — not Electric 15’s 15–20 m vertical",
-      "Materials 5–16 mm sand and small stone; no m³/h on the sheet",
-      "Short boom on the compact unit, not a truck placing boom"
+      "915 × 550 × 550 mm",
+      "5–16 mm",
+      "8–10 m³/h",
+      "15–20 m",
+      "7.5 kW",
+      "380 V"
     ],
     "relatedModels": [
       "b500s-83d-two-stage-pump",
@@ -60,24 +62,25 @@
   },
   "faqs": [
     {
-      "question": "Does the B500S-83D sheet print hopper litres like Electric 10’s 0.1 m³?",
-      "answer": "No. B500S-83D lists 7.5 kW, 380 V, 5 m / 5 m, 280 kg and 5–16 mm materials. Hopper litres are not on that sheet. Electric 10 lists hopper 0.1 m³."
+      "question": "Does “Types” add a cell to B500S-83D two-stage structure pump?",
+      "answer": "No. B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Is the short boom a truck-mounted placing boom?",
-      "answer": "No. ACI PRC-304.2-17 separates trailer pumps from truck-mounted pumps. The B500S-83D boom is listed on the compact unit. Pinjin does not sell a boom-pump SKU."
-    },
-    {
-      "question": "Can B500S-83D place Electric 40’s 21 m³/h fine stone at 120 m?",
-      "answer": "No. Horizontal delivery on this sheet is 5 m. Fine-stone 120 m / 360 m belongs to [Electric 40](/products/electric-40-concrete-pump/)."
+      "question": "Can “Main components of reciprocating pump” fill a blank cell for B500S-83D two-stage structure pump?",
+      "answer": "No. Blank cells for B500S-83D two-stage structure pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp",
-    "alt": "B500S-83D two-stage structure pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "B500S-83D, Xingtai catalogue — 7.5 kW, 5 m / 5 m, 280 kg, sand and small stone 5–16 mm"
+    "src": "/images/articles/b500s-83d-two-stage-structure-pump/Windmill_operated_water_pump.jpg",
+    "alt": "Figure from the source page about Reciprocating pump",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Reciprocating_pump"
   },
   "sources": [
+    {
+      "name": "Reciprocating pump (source page)",
+      "url": "https://en.wikipedia.org/wiki/Reciprocating_pump",
+      "type": "industry"
+    },
     {
       "name": "Pinjin B500S-83D product page",
       "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
@@ -115,11 +118,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet",
-      "seoTitle": "B500S-83D Two-Stage Pump | Pinjin 7.5 kW 5 m / 5 m",
-      "description": "B500S-83D is a 邢台 compact two-stage manual/electric pump listing 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, 915 × 550 × 550 mm, 280 kg, short boom on the compact unit, sand and small stone 5–16 mm. It does not print m³/h. It is not Electric 10, not a truck-mounted placing boom and not the mini-access article. Match the sheet, then 询价.",
-      "imageAlt": "B500S-83D two-stage structure pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "B500S-83D, 邢台 catalogue — 7.5 kW, 5 m / 5 m, 280 kg, sand and small stone 5–16 mm",
+      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet：Reciprocating pump（Types / Main components of reciprocating pump / Reciprocating Pump Application）",
+      "seoTitle": "Reciprocating pump：Types",
+      "description": "B500S-83D Two-Stage Structure Pump Catalogue Sheet还是本文原有的那一行。「Types」讲的是来源页的题目，不另加单元格。本页已经印出的读数：915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW。",
+      "imageAlt": "来源页插图：Reciprocating pump",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Reciprocating_pump",
       "relatedPathLabels": [
         "B500S-83D two-stage structure pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -127,36 +130,34 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, standard delivery hose, 915 × 550 × 550 mm, 280 kg. The listed short boom is part of this compact unit; it is not a truck-mounted placing boom. Applicable materials: sand and small stone 5–16 mm. No m³/h cell is printed.",
-        "who": "Buyers placing sand or 5–16 mm small stone inside 5 m height and 5 m horizontal with 380 V, who accept a 280 kg wheeled compact unit.",
+        "what": "B500S-83D Two-Stage Structure Pump Catalogue Sheet还是本文原有的那一行。「Types」讲的是来源页的题目，不另加单元格。本页已经印出的读数：915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW。",
+        "who": "想把B500S-83D Two-Stage Structure Pump Catalogue Sheet和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "7.5 kW / 380 V versus Electric 10 at 15 kW / 21 m³/h theoretical / 25 m",
-          "5 m / 5 m reach — not Electric 15’s 15–20 m vertical",
-          "Materials 5–16 mm sand and small stone; no m³/h on the sheet",
-          "Short boom on the compact unit, not a truck placing boom"
+          "915 × 550 × 550 mm",
+          "5–16 mm",
+          "8–10 m³/h",
+          "15–20 m",
+          "7.5 kW",
+          "380 V"
         ]
       },
       "faqs": [
         {
-          "question": "Does the B500S-83D sheet print 料斗 litres like Electric 10’s 0.1 m³?",
-          "answer": "No. B500S-83D lists 7.5 kW, 380 V, 5 m / 5 m, 280 kg and 5–16 mm materials. 料斗 litres are not on that sheet. Electric 10 lists 料斗 0.1 m³."
+          "question": "「Types」会给B500S-83D Two-Stage Structure Pump Catalogue Sheet增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW。"
         },
         {
-          "question": "Is the short boom a truck-mounted placing boom?",
-          "answer": "No. ACI PRC-304.2-17 separates 拖式泵s from truck-mounted pumps. The B500S-83D boom is listed on the compact unit. Pinjin does not sell a boom-pump SKU."
-        },
-        {
-          "question": "Can B500S-83D place Electric 40’s 21 m³/h fine stone at 120 m?",
-          "answer": "No. Horizontal delivery on this sheet is 5 m. Fine-stone 120 m / 360 m belongs to [Electric 40](/products/electric-40-concrete-pump/)."
+          "question": "「Main components of reciprocating pump」能补上B500S-83D Two-Stage Structure Pump Catalogue Sheet的空白格吗？",
+          "answer": "不能。B500S-83D Two-Stage Structure Pump Catalogue Sheet没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet",
-      "seoTitle": "B500S-83D Two-Stage Pump | Pinjin 7.5 kW 5 m / 5 m",
-      "description": "B500S-83D is a Xingtai compact two-stage manual/electric pump listing 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, 915 × 550 × 550 mm, 280 kg, short boom on the compact unit, sand and small stone 5–16 mm. It does not print m³/h. It is not Electric 10, not a truck-mounted placing boom and not the mini-access article. Match the sheet, then inquire.",
-      "imageAlt": "B500S-83D two-stage structure pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "B500S-83D, Xingtai catalogue — 7.5 kW, 5 m / 5 m, 280 kg, sand and small stone 5–16 mm",
+      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet: Reciprocating pump — Types / Main components of reciprocating pump / Reciprocating Pump Application",
+      "seoTitle": "Reciprocating pump — Types",
+      "description": "B500S-83D Two-Stage Structure Pump Catalogue Sheet continua a ser a linha que este texto já tinha. “Types” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+      "imageAlt": "Figura da página de origem sobre Reciprocating pump",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Reciprocating_pump",
       "relatedPathLabels": [
         "B500S-83D two-stage structure pump página do produto",
         "Electric concrete pump manufacturer China",
@@ -164,36 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, standard delivery hose, 915 × 550 × 550 mm, 280 kg. The listed short boom is part of this compact unit; it is not a truck-mounted placing boom. Applicable materials: sand and small stone 5–16 mm. No m³/h cell is printed.",
-        "who": "Buyers placing sand or 5–16 mm small stone inside 5 m height and 5 m horizontal with 380 V, who accept a 280 kg wheeled compact unit.",
+        "what": "B500S-83D Two-Stage Structure Pump Catalogue Sheet continua a ser a linha que este texto já tinha. “Types” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+        "who": "Leitores que comparam B500S-83D Two-Stage Structure Pump Catalogue Sheet com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "7.5 kW / 380 V versus Electric 10 at 15 kW / 21 m³/h theoretical / 25 m",
-          "5 m / 5 m reach — not Electric 15’s 15–20 m vertical",
-          "Materials 5–16 mm sand and small stone; no m³/h on the sheet",
-          "Short boom on the compact unit, not a truck placing boom"
+          "915 × 550 × 550 mm",
+          "5–16 mm",
+          "8–10 m³/h",
+          "15–20 m",
+          "7.5 kW",
+          "380 V"
         ]
       },
       "faqs": [
         {
-          "question": "Does the B500S-83D sheet print tremonha litres like Electric 10’s 0.1 m³?",
-          "answer": "No. B500S-83D lists 7.5 kW, 380 V, 5 m / 5 m, 280 kg and 5–16 mm materials. Tremonha litres are not on that sheet. Electric 10 lists tremonha 0.1 m³."
+          "question": "“Types” acrescenta uma casa a B500S-83D Two-Stage Structure Pump Catalogue Sheet?",
+          "answer": "Não. Valores já impressos nesta página: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW."
         },
         {
-          "question": "Is the short boom a truck-mounted placing boom?",
-          "answer": "No. ACI PRC-304.2-17 separates bomba reboques from truck-mounted pumps. The B500S-83D boom is listed on the compact unit. Pinjin does not sell a boom-pump SKU."
-        },
-        {
-          "question": "Can B500S-83D place Electric 40’s 21 m³/h fine stone at 120 m?",
-          "answer": "No. Horizontal delivery on this sheet is 5 m. Fine-stone 120 m / 360 m belongs to [Electric 40](/products/electric-40-concrete-pump/)."
+          "question": "“Main components of reciprocating pump” pode preencher uma casa em branco de B500S-83D Two-Stage Structure Pump Catalogue Sheet?",
+          "answer": "Não. As casas em branco de B500S-83D Two-Stage Structure Pump Catalogue Sheet continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet",
-      "seoTitle": "B500S-83D Two-Stage Pump | Pinjin 7.5 kW 5 m / 5 m",
-      "description": "B500S-83D is a شينغتاي compact two-stage manual/electric pump listing 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, 915 × 550 × 550 mm, 280 kg, short boom on the compact unit, sand and small stone 5–16 mm. It does not print m³/h. It is not Electric 10, not a truck-mounted placing boom and not the mini-access article. Match the sheet, then inquire.",
-      "imageAlt": "B500S-83D two-stage structure pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "B500S-83D, شينغتاي catalogue — 7.5 kW, 5 m / 5 m, 280 kg, sand and small stone 5–16 mm",
+      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet: Reciprocating pump — Types / Main components of reciprocating pump / Reciprocating Pump Application",
+      "seoTitle": "Reciprocating pump — Types",
+      "description": "B500S-83D Two-Stage Structure Pump Catalogue Sheet يبقى الصف الذي كان في هذا النص. «Types» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Reciprocating pump",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Reciprocating_pump",
       "relatedPathLabels": [
         "B500S-83D two-stage structure pump صفحة المنتج",
         "Electric concrete pump manufacturer China",
@@ -201,36 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, standard delivery hose, 915 × 550 × 550 mm, 280 kg. The listed short boom is part of this compact unit; it is not a truck-mounted placing boom. Applicable materials: sand and small stone 5–16 mm. No m³/h cell is printed.",
-        "who": "Buyers placing sand or 5–16 mm small stone inside 5 m height and 5 m horizontal with 380 V, who accept a 280 kg wheeled compact unit.",
+        "what": "B500S-83D Two-Stage Structure Pump Catalogue Sheet يبقى الصف الذي كان في هذا النص. «Types» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+        "who": "قرّاء يقارنون B500S-83D Two-Stage Structure Pump Catalogue Sheet بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "7.5 kW / 380 V versus Electric 10 at 15 kW / 21 m³/h theoretical / 25 m",
-          "5 m / 5 m reach — not Electric 15’s 15–20 m vertical",
-          "Materials 5–16 mm sand and small stone; no m³/h on the sheet",
-          "Short boom on the compact unit, not a truck placing boom"
+          "915 × 550 × 550 mm",
+          "5–16 mm",
+          "8–10 m³/h",
+          "15–20 m",
+          "7.5 kW",
+          "380 V"
         ]
       },
       "faqs": [
         {
-          "question": "Does the B500S-83D sheet print قادوس litres like Electric 10’s 0.1 m³?",
-          "answer": "No. B500S-83D lists 7.5 kW, 380 V, 5 m / 5 m, 280 kg and 5–16 mm materials. قادوس litres are not on that sheet. Electric 10 lists قادوس 0.1 m³."
+          "question": "هل يضيف «Types» خانة إلى B500S-83D Two-Stage Structure Pump Catalogue Sheet؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW."
         },
         {
-          "question": "Is the short boom a truck-mounted placing boom?",
-          "answer": "No. ACI PRC-304.2-17 separates مضخة مقطورةs from truck-mounted pumps. The B500S-83D boom is listed on the compact unit. Pinjin does not sell a boom-pump SKU."
-        },
-        {
-          "question": "Can B500S-83D place Electric 40’s 21 m³/h fine stone at 120 m?",
-          "answer": "No. Horizontal delivery on this sheet is 5 m. Fine-stone 120 m / 360 m belongs to [Electric 40](/products/electric-40-concrete-pump/)."
+          "question": "هل يستطيع «Main components of reciprocating pump» ملء خانة فارغة لـ B500S-83D Two-Stage Structure Pump Catalogue Sheet؟",
+          "answer": "لا. الخانات الفارغة لـ B500S-83D Two-Stage Structure Pump Catalogue Sheet تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet",
-      "seoTitle": "B500S-83D Two-Stage Pump | Pinjin 7.5 kW 5 m / 5 m",
-      "description": "B500S-83D is a Синтай compact two-stage manual/electric pump listing 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, 915 × 550 × 550 mm, 280 kg, short boom on the compact unit, sand and small stone 5–16 mm. It does not print m³/h. It is not Electric 10, not a truck-mounted placing boom and not the mini-access article. Match the sheet, then inquire.",
-      "imageAlt": "B500S-83D two-stage structure pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "B500S-83D, Синтай catalogue — 7.5 kW, 5 m / 5 m, 280 kg, sand and small stone 5–16 mm",
+      "title": "B500S-83D Two-Stage Structure Pump Catalogue Sheet: Reciprocating pump — Types / Main components of reciprocating pump / Reciprocating Pump Application",
+      "seoTitle": "Reciprocating pump — Types",
+      "description": "B500S-83D Two-Stage Structure Pump Catalogue Sheet остаётся строкой, которая уже была в этом тексте. “Types” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Reciprocating pump",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Reciprocating_pump",
       "relatedPathLabels": [
         "B500S-83D two-stage structure pump страница изделия",
         "Electric concrete pump manufacturer China",
@@ -238,29 +235,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "B500S-83D Two-Stage Structure Pump is a compact two-stage manual/electric pump manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 7.5 kW, 380 V, 5 m delivery height, 5 m horizontal, standard delivery hose, 915 × 550 × 550 mm, 280 kg. The listed short boom is part of this compact unit; it is not a truck-mounted placing boom. Applicable materials: sand and small stone 5–16 mm. No m³/h cell is printed.",
-        "who": "Buyers placing sand or 5–16 mm small stone inside 5 m height and 5 m horizontal with 380 V, who accept a 280 kg wheeled compact unit.",
+        "what": "B500S-83D Two-Stage Structure Pump Catalogue Sheet остаётся строкой, которая уже была в этом тексте. “Types” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW.",
+        "who": "Читатели, которые сверяют B500S-83D Two-Stage Structure Pump Catalogue Sheet со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "7.5 kW / 380 V versus Electric 10 at 15 kW / 21 m³/h theoretical / 25 m",
-          "5 m / 5 m reach — not Electric 15’s 15–20 m vertical",
-          "Materials 5–16 mm sand and small stone; no m³/h on the sheet",
-          "Short boom on the compact unit, not a truck placing boom"
+          "915 × 550 × 550 mm",
+          "5–16 mm",
+          "8–10 m³/h",
+          "15–20 m",
+          "7.5 kW",
+          "380 V"
         ]
       },
       "faqs": [
         {
-          "question": "Does the B500S-83D sheet print бункер litres like Electric 10’s 0.1 m³?",
-          "answer": "No. B500S-83D lists 7.5 kW, 380 V, 5 m / 5 m, 280 kg and 5–16 mm materials. Бункер litres are not on that sheet. Electric 10 lists бункер 0.1 m³."
+          "question": "Добавляет ли “Types” клетку к B500S-83D Two-Stage Structure Pump Catalogue Sheet?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 15–20 m, 7.5 kW, 380 V, 280 kg, 15 kW."
         },
         {
-          "question": "Is the short boom a truck-mounted placing boom?",
-          "answer": "No. ACI PRC-304.2-17 separates прицепной насосs from truck-mounted pumps. The B500S-83D boom is listed on the compact unit. Pinjin does not sell a boom-pump SKU."
-        },
-        {
-          "question": "Can B500S-83D place Electric 40’s 21 m³/h fine stone at 120 m?",
-          "answer": "No. Horizontal delivery on this sheet is 5 m. Fine-stone 120 m / 360 m belongs to [Electric 40](/products/electric-40-concrete-pump/)."
+          "question": "Может ли “Main components of reciprocating pump” заполнить пустую клетку для B500S-83D Two-Stage Structure Pump Catalogue Sheet?",
+          "answer": "Нет. Пустые клетки для B500S-83D Two-Stage Structure Pump Catalogue Sheet остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

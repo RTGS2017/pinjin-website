@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "hydraulic concrete spraying machine 5 m3",
   "title": {
-    "en": "Is the 5 m³/h hydraulic sprayer a trailer pump?",
-    "zh": "5 m³/h 液压喷涂机是拖泵吗？"
+    "en": "The buyer’s check on this page is is the 5 m³/h hydraulic sprayer a trailer pump",
+    "zh": "本页要核对的是：5 m³/h 液压喷涂机是拖泵吗"
   },
   "description": {
-    "en": "No. It is a 380 V sprayer: 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤ 8 mm, 100 m / 50 m, 295 kg.",
-    "zh": "不是。它是 380V 喷涂机：7.5/9 kW、5 m³/h、8 MPa、管径 38/51 mm、粒径 ≤ 8 mm、100 m / 50 m、295 kg。"
+    "en": "The neighbouring machine is not this sentence. No. Xingtai-based Hebei Pinjin Machinery in Xingtai lists it for cement-mortar or concrete spraying inside 5 m³/h and ≤ 8 mm, on 380 V, with hose runs inside 100 m horizontal / 50 m vertical. Taken from the printed row: The rest of the table is all-copper dual motors 7.5/9 kW, 8 MPa, hose 38/51 mm, sand-cement ratio ≤ 1:3, 1500 × 700 × 1100 mm and 295 kg. Keep this cell as published. A trailer pump’s output starts much higher or on a different distance table.",
+    "zh": "要么在另一张距离表上，不是。邢台河北品锦机械把它列为 5 m³/h 和 ≤ 8 mm 内的水泥砂浆或混凝土喷涂，电源 380V，软管在水平 100 m / 垂直 50 m 内。表的其余部分是全铜双电机 7.5/9 kW、8 MPa、管径 38/51 mm、砂灰比 ≤ 1:3、外形 1500 × 700 × 1100 mm、295 kg。拖泵的输送量要么高得多。"
   },
   "h1": {
-    "en": "Is the 5 m³/h hydraulic sprayer a trailer pump?",
-    "zh": "5 m³/h 液压喷涂机是拖泵吗？"
+    "en": "The buyer’s check on this page is is the 5 m³/h hydraulic sprayer a trailer pump",
+    "zh": "本页要核对的是：5 m³/h 液压喷涂机是拖泵吗"
   },
   "directAnswer": {
-    "en": "No. Hebei Pinjin Machinery in Xingtai lists it for cement-mortar or concrete spraying inside 5 m³/h and ≤ 8 mm, on 380 V, with hose runs inside 100 m horizontal / 50 m vertical. The rest of the table is all-copper dual motors 7.5/9 kW, 8 MPa, hose 38/51 mm, sand-cement ratio ≤ 1:3, 1500 × 700 × 1100 mm and 295 kg. A trailer pump’s output starts much higher or on a different distance table.",
-    "zh": "不是。邢台河北品锦机械把它列为 5 m³/h 和 ≤ 8 mm 内的水泥砂浆或混凝土喷涂，电源 380V，软管在水平 100 m / 垂直 50 m 内。表的其余部分是全铜双电机 7.5/9 kW、8 MPa、管径 38/51 mm、砂灰比 ≤ 1:3、外形 1500 × 700 × 1100 mm、295 kg。拖泵的输送量要么高得多，要么在另一张距离表上。"
+    "en": "The neighbouring machine is not this sentence. No. Xingtai-based Hebei Pinjin Machinery in Xingtai lists it for cement-mortar or concrete spraying inside 5 m³/h and ≤ 8 mm, on 380 V, with hose runs inside 100 m horizontal / 50 m vertical. Taken from the printed row: The rest of the table is all-copper dual motors 7.5/9 kW, 8 MPa, hose 38/51 mm, sand-cement ratio ≤ 1:3, 1500 × 700 × 1100 mm and 295 kg. Keep this cell as published. A trailer pump’s output starts much higher or on a different distance table.",
+    "zh": "要么在另一张距离表上，不是。邢台河北品锦机械把它列为 5 m³/h 和 ≤ 8 mm 内的水泥砂浆或混凝土喷涂，电源 380V，软管在水平 100 m / 垂直 50 m 内。表的其余部分是全铜双电机 7.5/9 kW、8 MPa、管径 38/51 mm、砂灰比 ≤ 1:3、外形 1500 × 700 × 1100 mm、295 kg。拖泵的输送量要么高得多。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The 7 m³/h machine is the longer hose row",
-        "zh": "7 m³/h 那台是更长软管的一行"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "The high-flow hydraulic sprayer prints 11/15 kW, 7 m³/h, 150 m / 70 m, 650 kg, and names cement mortar, concrete and grout. It is still ≤ 8 mm and 8 MPa. Use 5 m³/h and 295 kg when the hose fits 100 m / 50 m and the site wants the smaller frame. Use 7 m³/h when the hose or the output cell requires it.",
-        "zh": "大流量液压喷涂机印的是 11/15 kW、7 m³/h、150 m / 70 m、650 kg，并写明水泥砂浆、混凝土和灌浆料。它仍然是 ≤ 8 mm 和 8 MPa。软管落在 100 m / 50 m 且现场要较小机架时，用 5 m³/h、295 kg。软管或输送量格需要时，用 7 m³/h。"
+        "en": "“Concrete mixer” breaks its subject at “History”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. No. Read it in the Xingtai table. A trailer pump’s output starts much higher or on a different distance table. The diesel concrete sprayer shows in the printed cell 5 m³/h as well, at 28/32 HP, ≤ 6 mm and 80 m / 40 m. PinjinHebei@Outlook.com or 19912003025, Use /contact, the on-site WhatsApp button. The neighbouring machine is not this sentence. Grout is printed on the 7 m³/h high-flow page, not as a separate claim on this 5 m³/h page. Image from the source page: https://en.wikipedia.org/wiki/Concrete_mixer",
+        "zh": "《Concrete mixer》在“沿革”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。不是。它是 380V 喷涂机：7.5/9 kW、5 m³/h、8 MPa、管径 38/51 mm、粒径 ≤ 8 mm、100 m / 50 m、295 kg。请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。先别附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://en.wikipedia.org/wiki/Concrete_mixer"
       }
     },
     {
       "heading": {
-        "en": "No grid: do not keep this 380 V page",
-        "zh": "没有电网：不要留在这张 380V 页"
+        "en": "Industrial mixers",
+        "zh": "工业搅拌机"
       },
       "body": {
-        "en": "The diesel concrete sprayer prints 5 m³/h as well, at 28/32 HP, ≤ 6 mm and 80 m / 40 m. Same 5 m³/h, tighter particle and a shorter hose. That is the off-grid 5 m³/h spraying row.",
-        "zh": "柴油混凝土喷涂机同样印了 5 m³/h，但是 28/32 HP、≤ 6 mm、80 m / 40 m。同是 5 m³/h，粒径更严，软管更短。那才是无电网的 5 m³/h 喷涂行。"
+        "en": "Borrow “Industrial mixers” from “Concrete mixer” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. It is a 380 V sprayer: 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤ 8 mm, 100 m / 50 m, 295 kg. And names cement mortar, concrete, grout, The high-flow hydraulic sprayer prints 11/15 kW, 7 m³/h, 150 m / 70 m, 650 kg. A shorter hose, Same 5 m³/h, tighter particle. Leave aside attach a project name, a country job or a daily volume the catalogue does not print. This note says cement-mortar or concrete spraying.",
+        "zh": "把《Concrete mixer》的“工业搅拌机”借来当骨架，里面填的是本页这一格已经印出的窗口。不是。邢台邢台这家河北品锦机械把它列为 5 m³/h 和 ≤ 8 mm 内的水泥砂浆或混凝土喷涂，电源 380V，软管在水平 100 m / 垂直 50 m 内。表的其余部分是全铜双电机 7.5/9 kW、8 MPa、管径 38/51 mm、砂灰比 ≤ 1:3、外形 1500 × 700 × 1100 mm、295 kg。拖泵的输送量要么高得多，要么在另一张距离表上。目录里已经写着：不是。水平是 100 m。垂直是 50 m。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Trucks and trailers",
+        "zh": "卡车和拖车"
       },
       "body": {
-        "en": "Say 5 m³/h hydraulic, ≤ 8 mm, and 380 V, if that is the row. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "如果就是这一行，请写明 5 m³/h 液压、≤ 8 mm 和 380V。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "The reference page “Concrete mixer” uses “Trucks and trailers” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: No. 8 MPa, It is still ≤ 8 mm. The neighbouring machine is not this sentence. That is the off-grid 5 m³/h spraying row. Read it in the Xingtai table. No. Taken from the printed row: No.",
+        "zh": "来源页《Concrete mixer》用“卡车和拖车”划分这一节。后面是邢台目录里已有内容，换一种说法写下。目录里已经写着：大流量液压喷涂机印的是 11/15 kW、7 m³/h、150 m / 70 m、650 kg，并写明水泥砂浆、混凝土和灌浆料。它仍然是 ≤ 8 mm 和 8 MPa。软管落在 100 m / 50 m 且现场要较小机架时，用 5 m³/h、295 kg。软管或输送量格需要时，用 7 m³/h。这一格照已印出的读：灌浆料印在 7 m³/h 大流量那一页，不是这台 5 m³/h 页面上的单独声明。这一页写的是水泥砂浆或混凝土喷涂。"
+      }
+    },
+    {
+      "heading": {
+        "en": "On-site and portable concrete mixers",
+        "zh": "现场和便携式混凝土搅拌机"
+      },
+      "body": {
+        "en": "“On-site and portable concrete mixers” is an outline label from “Concrete mixer”. That label does not add a figure to the printed row. Xingtai-based Hebei Pinjin Machinery in Xingtai lists it for cement-mortar or concrete spraying inside 5 m³/h and ≤ 8 mm, on 380 V, with hose runs inside 100 m horizontal / 50 m vertical. The site wants the smaller frame, Use 5 m³/h, 295 kg when the hose fits 100 m / 50 m. If that is the row, Say 5 m³/h hydraulic, ≤ 8 mm, and 380 V. Taken from the printed row: Horizontal is 100 m. Keep this cell as published. M9 is 200 kg, 30 L/min and ≤ 4 mm.",
+        "zh": "“现场和便携式混凝土搅拌机”是《Concrete mixer》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：柴油混凝土喷涂机同样印了 5 m³/h，但是 28/32 HP、≤ 6 mm、80 m / 40 m。同是 5 m³/h，粒径更严，软管更短。那才是无电网的 5 m³/h 喷涂行。旁边那一台不在这句话里。不可以。M9 是 200 kg、30 L/min、≤ 4 mm。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Self-loading concrete mixers",
+        "zh": "自装式混凝土搅拌机"
+      },
+      "body": {
+        "en": "This block keeps the heading “Self-loading concrete mixers” from “Concrete mixer”, then stays with the cells already published. The neighbouring machine is not this sentence. The rest of the table is all-copper dual motors 7.5/9 kW, 8 MPa, hose 38/51 mm, sand-cement ratio ≤ 1:3, 1500 × 700 × 1100 mm and 295 kg. Read it in the Xingtai table. Use 7 m³/h when the hose or the output cell requires it. Send Xingtai-based Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Keep this cell as published. Vertical is 50 m.",
+        "zh": "本节保留《Concrete mixer》的标题“自装式混凝土搅拌机”，正文仍只谈已经公布的格子。请写明 5 m³/h 液压、≤ 8 mm 和 380V，如果就是这一行。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 50 m horizontal?",
-        "zh": "50 m 是水平吗？"
+        "en": "What should stay printed beside “History” — Is 50 m horizontal?",
+        "zh": "“沿革”旁边仍要印着的是什么：50 m 是水平吗？"
       },
       "answer": {
-        "en": "No. Horizontal is 100 m. Vertical is 50 m.",
-        "zh": "不是。水平是 100 m。垂直是 50 m。"
+        "en": "The neighbouring machine is not this sentence. No. Horizontal is 100 m. Vertical is 50 m.",
+        "zh": "旁边那一台不在这句话里。不是。水平是 100 m。垂直是 50 m。"
       }
     },
     {
       "question": {
-        "en": "Does it list grout?",
-        "zh": "它列出灌浆料了吗？"
+        "en": "“Industrial mixers” does not change the check: Does it list grout?",
+        "zh": "“工业搅拌机”不改这一问：它列出灌浆料了吗？"
       },
       "answer": {
-        "en": "Grout is printed on the 7 m³/h high-flow page, not as a separate claim on this 5 m³/h page. This page says cement-mortar or concrete spraying.",
-        "zh": "灌浆料印在 7 m³/h 大流量那一页，不是这台 5 m³/h 页面上的单独声明。这一页写的是水泥砂浆或混凝土喷涂。"
+        "en": "Grout is printed on the 7 m³/h high-flow page, not as a separate claim on this 5 m³/h page. This note says cement-mortar or concrete spraying.",
+        "zh": "按邢台表上的原文理解：灌浆料印在 7 m³/h 大流量那一页，不是这台 5 m³/h 页面上的单独声明。这一页写的是水泥砂浆或混凝土喷涂。"
       }
     },
     {
       "question": {
-        "en": "Is 295 kg light enough to call it M9?",
-        "zh": "295 kg 轻到可以叫 M9 吗？"
+        "en": "Is 295 kg light enough to call it M9, once the outline says “Trucks and trailers”?",
+        "zh": "大纲写着“卡车和拖车”时，295 kg 轻到可以叫 M9 吗？"
       },
       "answer": {
-        "en": "No. M9 is 200 kg, 30 L/min and ≤ 4 mm.",
-        "zh": "不可以。M9 是 200 kg、30 L/min、≤ 4 mm。"
+        "en": "Taken from the printed row: No. M9 is 200 kg, 30 L/min and ≤ 4 mm.",
+        "zh": "目录里已经写着：不可以。M9 是 200 kg、30 L/min、≤ 4 mm。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/xingtai-hydraulic-concrete-sprayer-5-cubic-metres.webp",
+    "src": "/images/articles/applications/hydraulic-sprayer-5-cubic-metres-not-a-pump.jpg",
     "alt": {
-      "en": "Outdoor spraying context published by Hebei Pinjin Machinery",
-      "zh": "河北品锦机械已发布的室外喷涂场景"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_mixer",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Concrete_mixer"
     }
   },
   "relatedPaths": [
@@ -136,7 +160,12 @@
   "sources": [
     "https://pinjinpump.com/products/hydraulic-concrete-spraying-machine",
     "https://pinjinpump.com/solutions/spraying",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Concrete_mixer"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

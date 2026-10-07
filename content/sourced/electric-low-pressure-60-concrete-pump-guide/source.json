@@ -1,8 +1,8 @@
 {
   "slug": "electric-low-pressure-60-concrete-pump-guide",
-  "title": "Electric Low Pressure 60 Catalogue Row",
-  "seoTitle": "Electric Low Pressure 60 | Pinjin 75 kW 35 m³/h Xingtai",
-  "description": "Electric Low Pressure 60 (Electric 75-60) is a Xingtai electric trailer pump: 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm 100 m / 300 m, 24 mm 80 m / 240 m, Kawasaki double pump 100, 3500 kg. It is not Electric 60 at 90 kW.",
+  "title": "Pascal's law — Definition / Applications / Pascal's barrel",
+  "seoTitle": "Pascal's law — Definition",
+  "description": "Opening the source at “Definition” means reading that page, not a second catalogue for electric low pressure 60 concrete pump. Printed cells already on this page: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
   "primaryKeyword": "electric low pressure 60 concrete pump",
   "secondaryKeywords": [
     "Electric 75-60 concrete pump",
@@ -45,13 +45,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric Low Pressure 60 Concrete Pump is an electric low-pressure trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: Electric 75-60, 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, Kawasaki double pump 100, 4600 × 1700 × 1700 mm, 3500 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a boom pump.",
-    "who": "Grid sites matched to 35 m³/h, 30 MPa and fine stone 150 m / 350 m on a 3500 kg trailer at 75 kW.",
+    "what": "Opening the source at “Definition” means reading that page, not a second catalogue for electric low pressure 60 concrete pump. Printed cells already on this page: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+    "who": "Readers checking electric low pressure 60 concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "75 kW / 35 m³/h versus Electric 60 at 90 kW / 40 m³/h",
-      "Fine stone 150 / 350 m versus 24 mm stone 80 / 240 m on the same page",
-      "Hopper 0.5 m³ and Kawasaki double pump 100",
-      "An Alibaba 90 kW trailer title is not this 75 kW cell"
+      "4600 × 1700 × 1700 mm",
+      "30–90 m³/h",
+      "75 kW",
+      "35 m³/h",
+      "30 MPa",
+      "13 mm"
     ],
     "relatedModels": [
       "electric-low-pressure-60-concrete-pump",
@@ -61,20 +63,25 @@
   },
   "faqs": [
     {
-      "question": "Is Electric Low Pressure 60 the 90 kW trailer on the Alibaba showroom?",
-      "answer": "No. Low Pressure 60 prints 75 kW and 35 m³/h. Electric 60 prints 90 kW and 40 m³/h. A March 2025 Alibaba listing title reads 6013 electric trailer pump 90 kW. That title is not the 75 kW row."
+      "question": "Does “Definition” add a cell to electric low pressure 60 concrete pump?",
+      "answer": "No. Electric Low Pressure 60 Concrete Pump is an electric low-pressure trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Does Low Pressure 60 print one distance for every stone size?",
-      "answer": "No. Fine stone is 150 m / 350 m. 13 mm stone is 100 m / 300 m. 24 mm stone is 80 m / 240 m. Match the stone to the printed pair."
+      "question": "Can “Applications” fill a blank cell for electric low pressure 60 concrete pump?",
+      "answer": "No. Blank cells for electric low pressure 60 concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-low-pressure-60-concrete-pump/electric-low-pressure-60-concrete-pump.webp",
-    "alt": "Electric Low Pressure 60 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric Low Pressure 60, Xingtai catalogue — 75 kW, 35 m³/h, fine stone 150 m / 350 m"
+    "src": "/images/articles/electric-low-pressure-60-concrete-pump-guide/Pascal_s_Barrel.png",
+    "alt": "Figure from the source page about Pascal's law",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Pascal's_law"
   },
   "sources": [
+    {
+      "name": "Pascal's law (source page)",
+      "url": "https://en.wikipedia.org/wiki/Pascal's_law",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric Low Pressure 60 product page",
       "url": "https://pinjinpump.com/en/products/electric-low-pressure-60-concrete-pump/",
@@ -107,11 +114,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "电动低压60型目录行",
-      "seoTitle": "Electric Low Pressure 60 | 品锦 75 kW 35 m³/h 邢台",
-      "description": "Electric Low Pressure 60 (Electric 75-60) is a Xingtai electric trailer pump: 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm 100 m / 300 m, 24 mm 80 m / 240 m, Kawasaki double pump 100, 3500 kg. It is not Electric 60 at 90 kW.",
-      "imageAlt": "Electric Low Pressure 60 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric Low Pressure 60, Xingtai catalogue — 75 kW, 35 m³/h, fine stone 150 m / 350 m",
+      "title": "电动低压60型目录行：Pascal's law（Definition / Applications / Pascal's barrel）",
+      "seoTitle": "Pascal's law：Definition",
+      "description": "翻到来源页的「Definition」，读的是那一页，不是电动低压60型目录行的第二份目录。本页已经印出的读数：4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg。",
+      "imageAlt": "来源页插图：Pascal's law",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Pascal's_law",
       "relatedPathLabels": [
         "Electric Low Pressure 60 产品页",
         "Electric concrete pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric Low Pressure 60 Concrete Pump is an electric low-pressure trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: Electric 75-60, 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, Kawasaki double pump 100, 4600 × 1700 × 1700 mm, 3500 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a boom pump.",
-        "who": "Grid sites matched to 35 m³/h, 30 MPa and fine stone 150 m / 350 m on a 3500 kg trailer at 75 kW.",
+        "what": "翻到来源页的「Definition」，读的是那一页，不是电动低压60型目录行的第二份目录。本页已经印出的读数：4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg。",
+        "who": "想把电动低压60型目录行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "75 kW / 35 m³/h versus Electric 60 at 90 kW / 40 m³/h",
-          "Fine stone 150 / 350 m versus 24 mm stone 80 / 240 m on the same page",
-          "Hopper 0.5 m³ and Kawasaki double pump 100",
-          "An Alibaba 90 kW trailer title is not this 75 kW cell"
+          "4600 × 1700 × 1700 mm",
+          "30–90 m³/h",
+          "75 kW",
+          "35 m³/h",
+          "30 MPa",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric Low Pressure 60 the 90 kW trailer on the Alibaba showroom?",
-          "answer": "No. Low Pressure 60 prints 75 kW and 35 m³/h. Electric 60 prints 90 kW and 40 m³/h. A March 2025 Alibaba listing title reads 6013 electric trailer pump 90 kW. That title is not the 75 kW row."
+          "question": "「Definition」会给电动低压60型目录行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg。"
         },
         {
-          "question": "Does Low Pressure 60 print one distance for every stone size?",
-          "answer": "No. Fine stone is 150 m / 350 m. 13 mm stone is 100 m / 300 m. 24 mm stone is 80 m / 240 m. Match the stone to the printed pair."
+          "question": "「Applications」能补上电动低压60型目录行的空白格吗？",
+          "answer": "不能。电动低压60型目录行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric Low Pressure 60 Catalogue Row",
-      "seoTitle": "Electric Low Pressure 60 | Pinjin 75 kW 35 m³/h Xingtai",
-      "description": "Electric Low Pressure 60 (Electric 75-60) is a Xingtai electric trailer pump: 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm 100 m / 300 m, 24 mm 80 m / 240 m, Kawasaki double pump 100, 3500 kg. It is not Electric 60 at 90 kW.",
-      "imageAlt": "Electric Low Pressure 60 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric Low Pressure 60, Xingtai catalogue — 75 kW, 35 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric Low Pressure 60 Catalogue Row: Pascal's law — Definition / Applications / Pascal's barrel",
+      "seoTitle": "Pascal's law — Definition",
+      "description": "Abrir a origem em “Definition” é ler essa página, não um segundo catálogo de Electric Low Pressure 60 Catalogue Row. Valores já impressos nesta página: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+      "imageAlt": "Figura da página de origem sobre Pascal's law",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Pascal's_law",
       "relatedPathLabels": [
         "Electric Low Pressure 60 产品页",
         "Electric concrete pump manufacturer China",
@@ -152,32 +161,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric Low Pressure 60 Concrete Pump is an electric low-pressure trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: Electric 75-60, 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, Kawasaki double pump 100, 4600 × 1700 × 1700 mm, 3500 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a boom pump.",
-        "who": "Grid sites matched to 35 m³/h, 30 MPa and fine stone 150 m / 350 m on a 3500 kg trailer at 75 kW.",
+        "what": "Abrir a origem em “Definition” é ler essa página, não um segundo catálogo de Electric Low Pressure 60 Catalogue Row. Valores já impressos nesta página: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+        "who": "Leitores que comparam Electric Low Pressure 60 Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "75 kW / 35 m³/h versus Electric 60 at 90 kW / 40 m³/h",
-          "Fine stone 150 / 350 m versus 24 mm stone 80 / 240 m on the same page",
-          "Hopper 0.5 m³ and Kawasaki double pump 100",
-          "An Alibaba 90 kW trailer title is not this 75 kW cell"
+          "4600 × 1700 × 1700 mm",
+          "30–90 m³/h",
+          "75 kW",
+          "35 m³/h",
+          "30 MPa",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric Low Pressure 60 the 90 kW trailer on the Alibaba showroom?",
-          "answer": "No. Low Pressure 60 prints 75 kW and 35 m³/h. Electric 60 prints 90 kW and 40 m³/h. A March 2025 Alibaba listing title reads 6013 electric trailer pump 90 kW. That title is not the 75 kW row."
+          "question": "“Definition” acrescenta uma casa a Electric Low Pressure 60 Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg."
         },
         {
-          "question": "Does Low Pressure 60 print one distance for every stone size?",
-          "answer": "No. Fine stone is 150 m / 350 m. 13 mm stone is 100 m / 300 m. 24 mm stone is 80 m / 240 m. Match the stone to the printed pair."
+          "question": "“Applications” pode preencher uma casa em branco de Electric Low Pressure 60 Catalogue Row?",
+          "answer": "Não. As casas em branco de Electric Low Pressure 60 Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric Low Pressure 60 Catalogue Row",
-      "seoTitle": "Electric Low Pressure 60 | Pinjin 75 kW 35 m³/h Xingtai",
-      "description": "Electric Low Pressure 60 (Electric 75-60) is a Xingtai electric trailer pump: 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm 100 m / 300 m, 24 mm 80 m / 240 m, Kawasaki double pump 100, 3500 kg. It is not Electric 60 at 90 kW.",
-      "imageAlt": "Electric Low Pressure 60 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric Low Pressure 60, Xingtai catalogue — 75 kW, 35 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric Low Pressure 60 Catalogue Row: Pascal's law — Definition / Applications / Pascal's barrel",
+      "seoTitle": "Pascal's law — Definition",
+      "description": "فتح المصدر عند «Definition» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Electric Low Pressure 60 Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+      "imageAlt": "صورة من صفحة المصدر عن Pascal's law",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Pascal's_law",
       "relatedPathLabels": [
         "Electric Low Pressure 60 产品页",
         "Electric concrete pump manufacturer China",
@@ -185,32 +196,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric Low Pressure 60 Concrete Pump is an electric low-pressure trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: Electric 75-60, 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, Kawasaki double pump 100, 4600 × 1700 × 1700 mm, 3500 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a boom pump.",
-        "who": "Grid sites matched to 35 m³/h, 30 MPa and fine stone 150 m / 350 m on a 3500 kg trailer at 75 kW.",
+        "what": "فتح المصدر عند «Definition» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Electric Low Pressure 60 Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+        "who": "قرّاء يقارنون Electric Low Pressure 60 Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "75 kW / 35 m³/h versus Electric 60 at 90 kW / 40 m³/h",
-          "Fine stone 150 / 350 m versus 24 mm stone 80 / 240 m on the same page",
-          "Hopper 0.5 m³ and Kawasaki double pump 100",
-          "An Alibaba 90 kW trailer title is not this 75 kW cell"
+          "4600 × 1700 × 1700 mm",
+          "30–90 m³/h",
+          "75 kW",
+          "35 m³/h",
+          "30 MPa",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric Low Pressure 60 the 90 kW trailer on the Alibaba showroom?",
-          "answer": "No. Low Pressure 60 prints 75 kW and 35 m³/h. Electric 60 prints 90 kW and 40 m³/h. A March 2025 Alibaba listing title reads 6013 electric trailer pump 90 kW. That title is not the 75 kW row."
+          "question": "هل يضيف «Definition» خانة إلى Electric Low Pressure 60 Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg."
         },
         {
-          "question": "Does Low Pressure 60 print one distance for every stone size?",
-          "answer": "No. Fine stone is 150 m / 350 m. 13 mm stone is 100 m / 300 m. 24 mm stone is 80 m / 240 m. Match the stone to the printed pair."
+          "question": "هل يستطيع «Applications» ملء خانة فارغة لـ Electric Low Pressure 60 Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Electric Low Pressure 60 Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric Low Pressure 60 Catalogue Row",
-      "seoTitle": "Electric Low Pressure 60 | Pinjin 75 kW 35 m³/h Xingtai",
-      "description": "Electric Low Pressure 60 (Electric 75-60) is a Xingtai electric trailer pump: 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm 100 m / 300 m, 24 mm 80 m / 240 m, Kawasaki double pump 100, 3500 kg. It is not Electric 60 at 90 kW.",
-      "imageAlt": "Electric Low Pressure 60 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric Low Pressure 60, Xingtai catalogue — 75 kW, 35 m³/h, fine stone 150 m / 350 m",
+      "title": "Electric Low Pressure 60 Catalogue Row: Pascal's law — Definition / Applications / Pascal's barrel",
+      "seoTitle": "Pascal's law — Definition",
+      "description": "Открыть источник на “Definition” значит читать ту страницу, а не второй каталог Electric Low Pressure 60 Catalogue Row. Уже напечатанные значения на этой странице: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+      "imageAlt": "Иллюстрация со страницы-источника: Pascal's law",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Pascal's_law",
       "relatedPathLabels": [
         "Electric Low Pressure 60 产品页",
         "Electric concrete pump manufacturer China",
@@ -218,25 +231,28 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric Low Pressure 60 Concrete Pump is an electric low-pressure trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: Electric 75-60, 75 kW, 35 m³/h, 30 MPa, hopper 0.5 m³, fine stone 150 m / 350 m, 13 mm stone 100 m / 300 m, 24 mm stone 80 m / 240 m, Kawasaki double pump 100, 4600 × 1700 × 1700 mm, 3500 kg. It is not Electric 60 (90 kW, 40 m³/h) and not a boom pump.",
-        "who": "Grid sites matched to 35 m³/h, 30 MPa and fine stone 150 m / 350 m on a 3500 kg trailer at 75 kW.",
+        "what": "Открыть источник на “Definition” значит читать ту страницу, а не второй каталог Electric Low Pressure 60 Catalogue Row. Уже напечатанные значения на этой странице: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg.",
+        "who": "Читатели, которые сверяют Electric Low Pressure 60 Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "75 kW / 35 m³/h versus Electric 60 at 90 kW / 40 m³/h",
-          "Fine stone 150 / 350 m versus 24 mm stone 80 / 240 m on the same page",
-          "Hopper 0.5 m³ and Kawasaki double pump 100",
-          "An Alibaba 90 kW trailer title is not this 75 kW cell"
+          "4600 × 1700 × 1700 mm",
+          "30–90 m³/h",
+          "75 kW",
+          "35 m³/h",
+          "30 MPa",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric Low Pressure 60 the 90 kW trailer on the Alibaba showroom?",
-          "answer": "No. Low Pressure 60 prints 75 kW and 35 m³/h. Electric 60 prints 90 kW and 40 m³/h. A March 2025 Alibaba listing title reads 6013 electric trailer pump 90 kW. That title is not the 75 kW row."
+          "question": "Добавляет ли “Definition” клетку к Electric Low Pressure 60 Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 4600 × 1700 × 1700 mm, 30–90 m³/h, 75 kW, 35 m³/h, 30 MPa, 13 mm, 24 mm, 3500 kg."
         },
         {
-          "question": "Does Low Pressure 60 print one distance for every stone size?",
-          "answer": "No. Fine stone is 150 m / 350 m. 13 mm stone is 100 m / 300 m. 24 mm stone is 80 m / 240 m. Match the stone to the printed pair."
+          "question": "Может ли “Applications” заполнить пустую клетку для Electric Low Pressure 60 Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Electric Low Pressure 60 Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

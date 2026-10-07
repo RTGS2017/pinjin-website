@@ -1,29 +1,22 @@
-## Catalogue diesel spraying row
+## Dry vs. wet mix
 
-Diesel Concrete Spraying Machine is a diesel spraying machine manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: engine 28/32 HP, 5 m³/h, 8 MPa, hose 38/51 mm, sand-cement ratio ≤1:3, particle ≤6 mm, 80 m 水平 / 40 m 垂直, 2350 × 750 × 1050 mm, 480 kg. Quote only; no list price.
+![来源页插图：Shotcrete](/images/articles/diesel-concrete-spraying-machine-guide/Shotcrete_Covered_Cliff_Auckland.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Shotcrete*
 
-![Diesel concrete spraying machine factory product photo, 河北品锦机械 邢台](/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine.webp)
-*Diesel concrete spraying machine, 邢台 catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm. Not 柴油30.*
+翻到来源页的「Dry vs. wet mix」，读的是那一页，不是Diesel Concrete Spraying Machine Catalogue Row的第二份目录。本页已经印出的读数：2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm。
 
-## Neighbour rows (sprayer vs 拖式泵)
+本页没写出来的格子继续空着。「Dry vs. wet mix」不去填它们。
 
-| Catalogue family | Example | Output | Pressure | Particle / stone | Distance |
-| Diesel concrete sprayer | this page | 5 m³/h | 8 MPa | ≤6 mm | 80 m / 40 m |
-| Compact hydraulic sprayer | 7.5/9 kW | 5 m³/h | 8 MPa | ≤8 mm | 100 m / 50 m |
-| High-flow hydraulic sprayer | 11/15 kW | 7 m³/h | 8 MPa | ≤8 mm | 150 m / 70 m |
-| 柴油30 拖式泵 | 4105 / 56 kW | 15 m³/h | 20 MPa | 1 cm 骨料 on that page | 60 m / 180 m |
+## Shotcrete machines
 
-Do not treat this page as the [Diesel 30](/products/diesel-30-concrete-pump/) pump table. Sites without electricity looking at 拖式泵s: [diesel concrete pump for sites without electricity](/blog/diesel-concrete-pump-no-electricity/). Sprayers: [spraying machines](/products/spraying-machines/).
+「Shotcrete machines」是来源页自己的章节，不会把Diesel Concrete Spraying Machine Catalogue Row改成另一条目录。这一节不另加数字。
 
-## When this row fits
+## Shotcrete vs. gunite
 
-Concrete or mortar spraying on sites without 380 V grid. Jobs inside 5 m³/h, ≤6 mm particle and 80 m / 40 m. Hose 38/51 mm with sand-cement ratio ≤1:3.
+Diesel Concrete Spraying Machine Catalogue Row还是本文原有的那一行。「Shotcrete vs. gunite」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-## When to open another page
+## Applications
 
-- 380 V available → [hydraulic concrete sprayers](/products/hydraulic-concrete-spraying-machine/).
-- Plaster at ≤4 mm → [M9](/products/m9-automatic-plaster-spraying-machine/).
-- Trailer pipeline pumping → [Diesel 30](/products/diesel-30-concrete-pump/), not this sprayer.
-- Not for particle sizes above the printed ≤6 mm row.
+把「Applications」和Diesel Concrete Spraying Machine Catalogue Row分开。来源页不填空白格。本页已经印出的读数：2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm。
 
-Product page: [diesel concrete spraying machine](/products/diesel-concrete-spraying-machine/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[Diesel 30](/products/diesel-30-concrete-pump/), [diesel concrete pump for sites without electricity](/blog/diesel-concrete-pump-no-electricity/), [spraying machines](/products/spraying-machines/)。

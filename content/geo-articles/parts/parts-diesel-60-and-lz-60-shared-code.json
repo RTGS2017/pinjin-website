@@ -3,92 +3,92 @@
   "category": "parts",
   "keyword": "Diesel 60 and LZ-60 HBT60-13.132",
   "title": {
-    "en": "Diesel 60 and LZ-60 share a code and not a pipe cell",
-    "zh": "柴油60和 LZ-60 共用代号，不共用管径格"
+    "en": "Hydraulic motor names the sections; Diesel 60 and LZ-60 HBT60-13.132 keeps the printed cells",
+    "zh": "《液压电机》只提供章节，Diesel 60 and LZ-60 HBT60-13.132仍用已印格子"
   },
   "description": {
-    "en": "Both pages print HBT60-13.132. LZ-60 prints delivery pipe 100 / 125 mm and engine 6105 / 145 kW. Diesel 60 prints engine 6105 / 144 kW and no pipe diameter.",
-    "zh": "两页都印 HBT60-13.132。LZ-60 印输送管 100 / 125 mm，发动机 6105 / 145 kW。柴油60印发动机 6105 / 144 kW，没有管径。"
+    "en": "The Diesel 60 and LZ-60 HBT60-13.132 note follows the outline of Hydraulic motor. Diesel 60 Concrete Pump and LZ-60 Diesel Concrete Pump are two Xingtai pages that both print HBT60-13.132. Only LZ-60 prints delivery pipe inner diameter 100 / 125 mm. The engine kilowatts are 144 on Diesel 60 and 145 on LZ-60. Neither page prints a piston or seal size.",
+    "zh": "Diesel 60 and LZ-60 HBT60-13.132这篇笔记顺着《液压电机》的大纲写。柴油60型混凝土泵和 LZ-60柴油混凝土泵是邢台的两张页面，都印了 HBT60-13.132。只有 LZ-60 印了输送管内径 100 / 125 mm。柴油60的发动机千瓦是 144，LZ-60 是 145。两页都没有印活塞或密封尺寸。"
   },
   "h1": {
-    "en": "Diesel 60 and LZ-60, same printed code",
-    "zh": "柴油60与 LZ-60，相同的印出代号"
+    "en": "How Hydraulic motor arranges a note that only repeats Diesel 60 and LZ-60 HBT60-13.132",
+    "zh": "《液压电机》怎样安排一篇只重复Diesel 60 and LZ-60 HBT60-13.132的笔记"
   },
   "directAnswer": {
-    "en": "Diesel 60 Concrete Pump and LZ-60 Diesel Concrete Pump are two Xingtai pages that both print HBT60-13.132. Only LZ-60 prints delivery pipe inner diameter 100 / 125 mm. The engine kilowatts are 144 on Diesel 60 and 145 on LZ-60. Neither page prints a piston or seal size.",
-    "zh": "柴油60型混凝土泵和 LZ-60柴油混凝土泵是邢台的两张页面，都印了 HBT60-13.132。只有 LZ-60 印了输送管内径 100 / 125 mm。柴油60的发动机千瓦是 144，LZ-60 是 145。两页都没有印活塞或密封尺寸。"
+    "en": "For Diesel 60 and LZ-60 HBT60-13.132, copy the printed fragments and ignore any urge to borrow a figure from Hydraulic motor. Hydraulic motor only lends its headings. Diesel 60 Concrete Pump and LZ-60 Diesel Concrete Pump are two Xingtai pages that both print HBT60-13.132. Only LZ-60 prints delivery pipe inner diameter 100 / 125 mm. The engine kilowatts are 144 on Diesel 60 and 145 on LZ-60. Neither page prints a piston or seal size.",
+    "zh": "写Diesel 60 and LZ-60 HBT60-13.132时，只抄已印片段，不要从来源页《液压电机》借数字。《液压电机》只出借标题。 柴油60型混凝土泵和 LZ-60柴油混凝土泵是邢台的两张页面，都印了 HBT60-13.132。只有 LZ-60 印了输送管内径 100 / 125 mm。柴油60的发动机千瓦是 144，LZ-60 是 145。两页都没有印活塞或密封尺寸。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Diesel 60 as printed",
-        "zh": "柴油60的原文"
+        "en": "History of hydraulic motors",
+        "zh": "历史的 液压电动机"
       },
       "body": {
-        "en": "Model Diesel 60 / HBT60-13.132. Diesel engine 6105 / 144 kW. Output 35 m³/h. Maximum outlet pressure 30 MPa. Hopper 0.4 m³. Pumping distance 150 m / 350 m. Hydraulic pump Kawasaki double pump 100. Size 4800 × 1700 × 1700 mm. Weight 3500 kg. Aggregate size is not printed. Delivery pipe diameter is not printed.",
-        "zh": "型号 Diesel 60 / HBT60-13.132。柴油机 6105 / 144 kW。输送量 35 m³/h。最大出口压力 30 MPa。料斗 0.4 m³。输送距离 150 m / 350 m。液压泵为川崎双泵 100。外形 4800 × 1700 × 1700 mm。重量 3500 kg。骨料粒径没有印。输送管内径没有印。"
+        "en": "“History of hydraulic motors” is a heading on the crawled page, used here only as the section name. It does not create a measurement. Model Diesel 60 / HBT60-13.132. Diesel engine 6105 / 144 kW. Output 35 m³/h. Maximum outlet pressure 30 MPa. Hopper 0.4 m³. Pumping distance 150 m / 350 m. Hydraulic pump Kawasaki double pump 100. Size 4800 × 1700 × 1700 mm. Weight 3500 kg. Aggregate size is not printed. Delivery pipe diameter is not printed. Model LZ-60 / HBT60-13.132. Engine 6105 / 145 kW. Output 50 m³/h. Pumping pressure 35 MPa. Conveying distance 100 m. Delivery height 300 m. Aggregate 4 cm and below. Delivery pipe 100 / 125 mm. Size 6.6 × 1.8 × 1.9 m. Weight 5500 kg. The 100 m cell is distance. The pipe cell is 100 / 125 mm. The heading stops there.",
+        "zh": "“历史的 液压电动机”是抓到的那一页自己的章节名，这里只拿来当标题，不另造一个测量值。 型号 Diesel 60 / HBT60-13.132。柴油机 6105 / 144 kW。输送量 35 m³/h。最大出口压力 30 MPa。料斗 0.4 m³。输送距离 150 m / 350 m。液压泵为川崎双泵 100。外形 4800 × 1700 × 1700 mm。重量 3500 kg。骨料粒径没有印。输送管内径没有印。 型号 LZ-60 / HBT60-13.132。发动机 6105 / 145 kW。输送量 50 m³/h。泵送压力 35 MPa。输送距离 100 m。输送高度 300 m。骨料 4 cm 及以下。输送管 100 / 125 mm。外形 6.6 × 1.8 × 1.9 m。重量 5500 kg。100 m 那一格是距离。管径格是 100 / 125 mm。 标题到此为止。"
       }
     },
     {
       "heading": {
-        "en": "LZ-60 as printed",
-        "zh": "LZ-60 的原文"
+        "en": "Types",
+        "zh": "类型"
       },
       "body": {
-        "en": "Model LZ-60 / HBT60-13.132. Engine 6105 / 145 kW. Output 50 m³/h. Pumping pressure 35 MPa. Conveying distance 100 m. Delivery height 300 m. Aggregate 4 cm and below. Delivery pipe 100 / 125 mm. Size 6.6 × 1.8 × 1.9 m. Weight 5500 kg. The 100 m cell is distance. The pipe cell is 100 / 125 mm.",
-        "zh": "型号 LZ-60 / HBT60-13.132。发动机 6105 / 145 kW。输送量 50 m³/h。泵送压力 35 MPa。输送距离 100 m。输送高度 300 m。骨料 4 cm 及以下。输送管 100 / 125 mm。外形 6.6 × 1.8 × 1.9 m。重量 5500 kg。100 m 那一格是距离。管径格是 100 / 125 mm。"
+        "en": "Where the source outline says “Types”, the catalogue fragment below is the fragment a buyer is allowed to copy. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Use 100 / 125 mm only with the LZ-60 page. For Diesel 60, leave the pipe diameter blank. The Kawasaki double pump 100 cell is not a published spare page. Diesel 60 Concrete Pump and LZ-60 Diesel Concrete Pump are two Xingtai pages that both print HBT60-13.132. Only LZ-60 prints delivery pipe inner diameter 100 / 125 mm. The engine kilowatts are 144 on Diesel 60 and 145 on LZ-60. Neither page prints a piston or seal size. Stop when the printed fragment stops.",
+        "zh": "来源大纲写到“类型”时，下面这句才是买方可以照抄的目录原文。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 只有对照 LZ-60 那一页时才使用 100 / 125 mm。柴油60的管径留空。川崎双泵 100 那一格不是已公布的配件页。 柴油60型混凝土泵和 LZ-60柴油混凝土泵是邢台的两张页面，都印了 HBT60-13.132。只有 LZ-60 印了输送管内径 100 / 125 mm。柴油60的发动机千瓦是 144，LZ-60 是 145。两页都没有印活塞或密封尺寸。 印出的片段结束，这句话也结束。"
       }
     },
     {
       "heading": {
-        "en": "What a spare inquiry can say",
-        "zh": "配件询价可以写什么"
+        "en": "Braking",
+        "zh": "制动"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Use 100 / 125 mm only with the LZ-60 page. For Diesel 60, leave the pipe diameter blank. The Kawasaki double pump 100 cell is not a published spare page.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 只有对照 LZ-60 那一页时才使用 100 / 125 mm。柴油60的管径留空。川崎双泵 100 那一格不是已公布的配件页。"
+        "en": "A reader who opens the source page will find “Braking”. This note keeps the heading and puts the printed fragment beneath it. No. Diesel 60 prints 6105 / 144 kW. LZ-60 prints 6105 / 145 kW. No. Aggregate size is a missing field on the Diesel 60 page. LZ-60 prints 4 cm and below. Stop when the printed fragment stops.",
+        "zh": "打开来源页会看到“制动”。这篇笔记保留该标题，并把已印片段放在标题下面。 不是。柴油60印 6105 / 144 kW。LZ-60 印 6105 / 145 kW。 没有。骨料粒径在柴油60页面是缺字段。LZ-60 印的是 4 cm 及以下。 印出的片段结束，这句话也结束。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Uses",
+        "zh": "用途"
+      },
+      "body": {
+        "en": "Use “Uses” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. No. Piston outer diameter is a missing field on both model pages. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. No neighbouring page’s figure is copied onto this row. Image from the source page: https://en.wikipedia.org/wiki/Hydraulic_motor",
+        "zh": "用“用途”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 没有。活塞外径在两张型号页上都是缺字段。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 不把旁边那一页的数字抄到这一行。 图来自来源页：https://en.wikipedia.org/wiki/Hydraulic_motor"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Are 144 kW and 145 kW the same cell?",
-        "zh": "144 kW 和 145 kW 是同一格吗？"
+        "en": "Why is Hydraulic motor not a source of extra ratings for Diesel 60 and LZ-60 HBT60-13.132?",
+        "zh": "为什么《液压电机》不能给Diesel 60 and LZ-60 HBT60-13.132增加额定值？"
       },
       "answer": {
-        "en": "No. Diesel 60 prints 6105 / 144 kW. LZ-60 prints 6105 / 145 kW.",
-        "zh": "不是。柴油60印 6105 / 144 kW。LZ-60 印 6105 / 145 kW。"
+        "en": "No. Diesel 60 prints 6105 / 144 kW. LZ-60 prints 6105 / 145 kW. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。柴油60印 6105 / 144 kW。LZ-60 印 6105 / 145 kW。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Does Diesel 60 print aggregate size?",
-        "zh": "柴油60印了骨料粒径吗？"
+        "en": "Can the outline heading “Braking” rename Diesel 60 and LZ-60 HBT60-13.132?",
+        "zh": "大纲标题“制动”可以改掉Diesel 60 and LZ-60 HBT60-13.132的名称吗？"
       },
       "answer": {
-        "en": "No. Aggregate size is a missing field on the Diesel 60 page. LZ-60 prints 4 cm and below.",
-        "zh": "没有。骨料粒径在柴油60页面是缺字段。LZ-60 印的是 4 cm 及以下。"
+        "en": "No. Aggregate size is a missing field on the Diesel 60 page. LZ-60 prints 4 cm and below. The heading and the source photograph do not add a further figure.",
+        "zh": "没有。骨料粒径在柴油60页面是缺字段。LZ-60 印的是 4 cm 及以下。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is a piston size printed on either page?",
-        "zh": "两页印了活塞尺寸吗？"
+        "en": "Does “Uses” on Hydraulic motor fill a blank on the Diesel 60 and LZ-60 HBT60-13.132 row?",
+        "zh": "《液压电机》上的“用途”会填上Diesel 60 and LZ-60 HBT60-13.132的空白格子吗？"
       },
       "answer": {
-        "en": "No. Piston outer diameter is a missing field on both model pages.",
-        "zh": "没有。活塞外径在两张型号页上都是缺字段。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is pipe life printed?",
-        "zh": "印了管子寿命吗？"
-      },
-      "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "No. Piston outer diameter is a missing field on both model pages. The heading and the source photograph do not add a further figure.",
+        "zh": "没有。活塞外径在两张型号页上都是缺字段。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -149,14 +149,19 @@
       "name": "品锦目录：LZ-60 Diesel Concrete Pump",
       "url": "https://pinjinpump.com/zh/products/lz-60-diesel-concrete-pump/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Hydraulic motor",
+      "url": "https://en.wikipedia.org/wiki/Hydraulic_motor",
+      "type": "reference"
     }
   ],
   "status": "ready",
   "image": {
-    "src": "/images/geo/parts/pinjin-parts-diesel-60-and-lz-60-shared-code.webp",
+    "src": "/images/articles/parts/parts-diesel-60-and-lz-60-shared-code-64c0a12d.jpg",
     "alt": {
-      "en": "Diesel 60 and LZ-60, same printed code, 品锦, Hebei Pinjin Machinery, Xingtai",
-      "zh": "柴油60与 LZ-60，相同的印出代号，品锦机械，河北邢台"
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Hydraulic_motor",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Hydraulic_motor"
     }
   }
 }

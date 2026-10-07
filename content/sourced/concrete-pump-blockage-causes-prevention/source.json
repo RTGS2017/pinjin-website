@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Blockage: Causes, Prevention and Safe Response",
-  "seoTitle": "Concrete Pump Blockage Causes and Safe Response | Pinjin",
-  "description": "Prevent trailer-pump blockages with mix, pipeline and wash-down practice from the Xingtai daily checklist. If a plug forms, ACPA requires relieving line pressure before opening the system and forbids compressed air to force a blockage.",
+  "title": "Viscosity — Definitions / Momentum transport / Newtonian and non-Newtonian fluids / In solids",
+  "seoTitle": "Viscosity — Definitions",
+  "description": "“Definitions” is background. An enquiry for concrete pump blockage still uses the cells already written. No added figure is taken from that chapter.",
   "primaryKeyword": "concrete pump blockage",
   "secondaryKeywords": [
     "concrete pump plug",
@@ -55,13 +55,10 @@
     }
   ],
   "answerBlock": {
-    "what": "A blockage (plug) is concrete that has stopped moving in the valve, reducer or pipeline. Prevention on Pinjin trailers is the Xingtai daily checklist: hopper, clamps, leaks, S-valve observation, after-pour wash. If a plug forms, the American Concrete Pumping Association (ACPA) instructs operators to reverse-pump to relieve line pressure, locate the plug, and remove the section by hand. Never use compressed air to remove a blockage.",
-    "who": "Operators and site leads running trailer concrete pumps who need a sourced safety sequence, not a homemade air-blow trick.",
+    "what": "“Definitions” is background. An enquiry for concrete pump blockage still uses the cells already written. No added figure is taken from that chapter.",
+    "who": "Readers checking concrete pump blockage against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Mix stability and max aggregate versus pipe DN (see ACI 304.2R-17 and the Pinjin aggregate page)",
-      "Clamps, gaskets and pipeline support before the first load",
-      "Hopper not sucked empty (air in the line)",
-      "ACPA: relieve pressure, never compressed air on a plug"
+      "No added figure."
     ],
     "relatedModels": [
       "electric-40-concrete-pump",
@@ -71,20 +68,25 @@
   },
   "faqs": [
     {
-      "question": "Can I blow a pipeline blockage out with an air compressor?",
-      "answer": "No. ACPA’s safety alert states: never use compressed air to remove a blockage. Air stores energy; a concrete pump already produces far higher pressure than a typical compressor. Relieve line pressure by reverse pumping, then remove the plugged section."
+      "question": "Does “Definitions” add a cell to concrete pump blockage?",
+      "answer": "No. From the Xingtai daily checklist and from ACI 304.2R-17’s pumpability notes: - Mix that segregates, or stone larger than the published max aggregate / pipe DN (see aggregate size)."
     },
     {
-      "question": "Does Pinjin publish a blockage-hour table or a guaranteed unplug method?",
-      "answer": "No. We publish a daily checklist and we cite ACPA for the pressure-release rule. Mix, pipe and yesterday’s wash change wear. Photograph the valve and pipe and send the model slug to the Xingtai factory."
+      "question": "Can “Momentum transport” fill a blank cell for concrete pump blockage?",
+      "answer": "No. Blank cells for concrete pump blockage stay blank."
     }
   ],
   "image": {
-    "src": "/images/factory/pinjin-trailer-concrete-pump-assembly.webp",
-    "alt": "Trailer concrete pump assembly at Hebei Pinjin Machinery Xingtai factory",
-    "caption": "Trailer pump assembly, Xingtai factory — pipeline and valve access are part of daily inspection"
+    "src": "/images/articles/concrete-pump-blockage-causes-prevention/Runny_hunny.jpg",
+    "alt": "Figure from the source page about Viscosity",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Viscosity"
   },
   "sources": [
+    {
+      "name": "Viscosity (source page)",
+      "url": "https://en.wikipedia.org/wiki/Viscosity",
+      "type": "industry"
+    },
     {
       "name": "ACPA Safety Alert: Steps to Safely Remove a Blockage (1 Nov 2022)",
       "url": "https://www.concretepumpers.com/acpa-news/2022/11/01/safety-alert-steps-safely-remove-blockage",
@@ -109,9 +111,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Concrete Pump Blockage: Causes, Prevention and Safe Response",
-      "description": "Prevent trailer-pump blockages with mix, pipeline and wash-down practice from the 邢台 daily checklist. If a plug forms, ACPA requires relieving line pressure before opening the system and forbids compressed air to force a blockage.",
-      "imageAlt": "Trailer concrete pump assembly at 河北品锦机械 邢台 factory",
+      "title": "Concrete Pump Blockage：Viscosity（Definitions / Momentum transport / Newtonian and non-Newtonian fluids / In solids）",
+      "description": "「Definitions」是背景。Concrete Pump Blockage的询价仍看已经写下的单元格。这一节不另加数字。",
+      "imageAlt": "来源页插图：Viscosity",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -119,32 +121,29 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "A blockage (plug) is concrete that has stopped moving in the valve, reducer or pipeline. Prevention on 品锦 trailers is the 邢台 daily checklist: hopper, clamps, leaks, S阀 observation, after-pour wash. If a plug forms, the American Concrete Pumping Association (ACPA) instructs operators to reverse-pump to relieve line pressure, locate the plug, and remove the section by hand. Never use compressed air to remove a blockage.",
-        "who": "Operators and site leads running trailer concrete pumps who need a sourced safety sequence, not a homemade air-blow trick.",
+        "what": "「Definitions」是背景。Concrete Pump Blockage的询价仍看已经写下的单元格。这一节不另加数字。",
+        "who": "想把Concrete Pump Blockage和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Mix stability and max 骨料 versus pipe DN (see ACI 304.2R-17 and the 品锦 骨料 page)",
-          "Clamps, gaskets and pipeline support before the first load",
-          "Hopper not sucked empty (air in the line)",
-          "ACPA: relieve pressure, never compressed air on a plug"
+          "不另加数字。"
         ]
       },
-      "seoTitle": "Concrete Pump Blockage Causes and Safe Response | 品锦",
-      "imageCaption": "Trailer pump assembly, 邢台 factory — pipeline and valve access are part of daily inspection",
+      "seoTitle": "Viscosity：Definitions",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Viscosity",
       "faqs": [
         {
-          "question": "Can I blow a pipeline blockage out with an air compressor?",
-          "answer": "No. ACPA’s safety alert states: never use compressed air to remove a blockage. Air stores energy; a concrete pump already produces far higher pressure than a typical compressor. Relieve line pressure by reverse pumping, then remove the plugged section."
+          "question": "「Definitions」会给Concrete Pump Blockage增加单元格吗？",
+          "answer": "不会。这一节不另加数字。"
         },
         {
-          "question": "Does 品锦 publish a blockage-hour table or a guaranteed unplug method?",
-          "answer": "No. We publish a daily checklist and we cite ACPA for the pressure-release rule. Mix, pipe and yesterday’s wash change wear. Photograph the valve and pipe and send the model slug to the 邢台 factory."
+          "question": "「Momentum transport」能补上Concrete Pump Blockage的空白格吗？",
+          "answer": "不能。Concrete Pump Blockage没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Blockage: Causes, Prevention and Safe Response",
-      "description": "Prevent trailer-pump blockages with mix, pipeline and wash-down practice from the Xingtai daily checklist. If a plug forms, ACPA requires relieving line pressure before opening the system and forbids compressed air to force a blockage.",
-      "imageAlt": "Trailer concrete pump assembly at Hebei Pinjin Machinery Xingtai factory",
+      "title": "Concrete Pump Blockage: Viscosity — Definitions / Momentum transport / Newtonian and non-Newtonian fluids / In solids",
+      "description": "“Definitions” é contexto. Um pedido sobre Concrete Pump Blockage continua a usar as casas já escritas. Esse capítulo não acrescenta valor.",
+      "imageAlt": "Figura da página de origem sobre Viscosity",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -152,32 +151,29 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A blockage (plug) is concrete that has stopped moving in the valve, reducer or pipeline. Prevention on Pinjin trailers is the Xingtai daily checklist: hopper, clamps, leaks, válvula S observation, after-pour wash. If a plug forms, the American Concrete Pumping Association (ACPA) instructs operators to reverse-pump to relieve line pressure, locate the plug, and remove the section by hand. Never use compressed air to remove a blockage.",
-        "who": "Operators and site leads running trailer concrete pumps who need a sourced safety sequence, not a homemade air-blow trick.",
+        "what": "“Definitions” é contexto. Um pedido sobre Concrete Pump Blockage continua a usar as casas já escritas. Esse capítulo não acrescenta valor.",
+        "who": "Leitores que comparam Concrete Pump Blockage com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Mix stability and max agregado versus pipe DN (see ACI 304.2R-17 and the Pinjin agregado page)",
-          "Clamps, gaskets and pipeline support before the first load",
-          "Hopper not sucked empty (air in the line)",
-          "ACPA: relieve pressure, never compressed air on a plug"
+          "Sem valor novo."
         ]
       },
-      "seoTitle": "Concrete Pump Blockage Causes and Safe Response | Pinjin",
-      "imageCaption": "Trailer pump assembly, Xingtai factory — pipeline and valve access are part of daily inspection",
+      "seoTitle": "Viscosity — Definitions",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Viscosity",
       "faqs": [
         {
-          "question": "Can I blow a pipeline blockage out with an air compressor?",
-          "answer": "No. ACPA’s safety alert states: never use compressed air to remove a blockage. Air stores energy; a concrete pump already produces far higher pressure than a typical compressor. Relieve line pressure by reverse pumping, then remove the plugged section."
+          "question": "“Definitions” acrescenta uma casa a Concrete Pump Blockage?",
+          "answer": "Não. Esse capítulo não acrescenta valor."
         },
         {
-          "question": "Does Pinjin publish a blockage-hour table or a guaranteed unplug method?",
-          "answer": "No. We publish a daily checklist and we cite ACPA for the pressure-release rule. Mix, pipe and yesterday’s wash change wear. Photograph the valve and pipe and send the model slug to the Xingtai factory."
+          "question": "“Momentum transport” pode preencher uma casa em branco de Concrete Pump Blockage?",
+          "answer": "Não. As casas em branco de Concrete Pump Blockage continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Blockage: Causes, Prevention and Safe Response",
-      "description": "Prevent trailer-pump blockages with mix, pipeline and wash-down practice from the شينغتاي daily checklist. If a plug forms, ACPA requires relieving line pressure before opening the system and forbids compressed air to force a blockage.",
-      "imageAlt": "Trailer concrete pump assembly at Hebei Pinjin Machinery شينغتاي factory",
+      "title": "Concrete Pump Blockage: Viscosity — Definitions / Momentum transport / Newtonian and non-Newtonian fluids / In solids",
+      "description": "«Definitions» خلفية. طلب Concrete Pump Blockage يبقى على الخلايا المكتوبة من قبل. هذا الفصل لا يضيف رقمًا.",
+      "imageAlt": "صورة من صفحة المصدر عن Viscosity",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -185,32 +181,29 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A blockage (plug) is concrete that has stopped moving in the valve, reducer or pipeline. Prevention on Pinjin trailers is the شينغتاي daily checklist: hopper, clamps, leaks, صمام S observation, after-pour wash. If a plug forms, the American Concrete Pumping Association (ACPA) instructs operators to reverse-pump to relieve line pressure, locate the plug, and remove the section by hand. Never use compressed air to remove a blockage.",
-        "who": "Operators and site leads running trailer concrete pumps who need a sourced safety sequence, not a homemade air-blow trick.",
+        "what": "«Definitions» خلفية. طلب Concrete Pump Blockage يبقى على الخلايا المكتوبة من قبل. هذا الفصل لا يضيف رقمًا.",
+        "who": "قرّاء يقارنون Concrete Pump Blockage بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Mix stability and max ركام versus pipe DN (see ACI 304.2R-17 and the Pinjin ركام page)",
-          "Clamps, gaskets and pipeline support before the first load",
-          "Hopper not sucked empty (air in the line)",
-          "ACPA: relieve pressure, never compressed air on a plug"
+          "بلا رقم جديد."
         ]
       },
-      "seoTitle": "Concrete Pump Blockage Causes and Safe Response | Pinjin",
-      "imageCaption": "Trailer pump assembly, شينغتاي factory — pipeline and valve access are part of daily inspection",
+      "seoTitle": "Viscosity — Definitions",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Viscosity",
       "faqs": [
         {
-          "question": "Can I blow a pipeline blockage out with an air compressor?",
-          "answer": "No. ACPA’s safety alert states: never use compressed air to remove a blockage. Air stores energy; a concrete pump already produces far higher pressure than a typical compressor. Relieve line pressure by reverse pumping, then remove the plugged section."
+          "question": "هل يضيف «Definitions» خانة إلى Concrete Pump Blockage؟",
+          "answer": "لا. هذا الفصل لا يضيف رقمًا."
         },
         {
-          "question": "Does Pinjin publish a blockage-hour table or a guaranteed unplug method?",
-          "answer": "No. We publish a daily checklist and we cite ACPA for the pressure-release rule. Mix, pipe and yesterday’s wash change wear. Photograph the valve and pipe and send the model slug to the شينغتاي factory."
+          "question": "هل يستطيع «Momentum transport» ملء خانة فارغة لـ Concrete Pump Blockage؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Blockage تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Blockage: Causes, Prevention and Safe Response",
-      "description": "Prevent trailer-pump blockages with mix, pipeline and wash-down practice from the Синтай daily checklist. If a plug forms, ACPA requires relieving line pressure before opening the system and forbids compressed air to force a blockage.",
-      "imageAlt": "Trailer concrete pump assembly at Hebei Pinjin Machinery Синтай factory",
+      "title": "Concrete Pump Blockage: Viscosity — Definitions / Momentum transport / Newtonian and non-Newtonian fluids / In solids",
+      "description": "“Definitions” — фон. Запрос по Concrete Pump Blockage по-прежнему смотрит на уже записанные клетки. Эта глава не добавляет цифру.",
+      "imageAlt": "Иллюстрация со страницы-источника: Viscosity",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -218,27 +211,25 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A blockage (plug) is concrete that has stopped moving in the valve, reducer or pipeline. Prevention on Pinjin trailers is the Синтай daily checklist: hopper, clamps, leaks, S-клапан observation, after-pour wash. If a plug forms, the American Concrete Pumping Association (ACPA) instructs operators to reverse-pump to relieve line pressure, locate the plug, and remove the section by hand. Never use compressed air to remove a blockage.",
-        "who": "Operators and site leads running trailer concrete pumps who need a sourced safety sequence, not a homemade air-blow trick.",
+        "what": "“Definitions” — фон. Запрос по Concrete Pump Blockage по-прежнему смотрит на уже записанные клетки. Эта глава не добавляет цифру.",
+        "who": "Читатели, которые сверяют Concrete Pump Blockage со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Mix stability and max заполнитель versus pipe DN (see ACI 304.2R-17 and the Pinjin заполнитель page)",
-          "Clamps, gaskets and pipeline support before the first load",
-          "Hopper not sucked empty (air in the line)",
-          "ACPA: relieve pressure, never compressed air on a plug"
+          "Без новой цифры."
         ]
       },
-      "seoTitle": "Concrete Pump Blockage Causes and Safe Response | Pinjin",
-      "imageCaption": "Trailer pump assembly, Синтай factory — pipeline and valve access are part of daily inspection",
+      "seoTitle": "Viscosity — Definitions",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Viscosity",
       "faqs": [
         {
-          "question": "Can I blow a pipeline blockage out with an air compressor?",
-          "answer": "No. ACPA’s safety alert states: never use compressed air to remove a blockage. Air stores energy; a concrete pump already produces far higher pressure than a typical compressor. Relieve line pressure by reverse pumping, then remove the plugged section."
+          "question": "Добавляет ли “Definitions” клетку к Concrete Pump Blockage?",
+          "answer": "Нет. Эта глава не добавляет цифру."
         },
         {
-          "question": "Does Pinjin publish a blockage-hour table or a guaranteed unplug method?",
-          "answer": "No. We publish a daily checklist and we cite ACPA for the pressure-release rule. Mix, pipe and yesterday’s wash change wear. Photograph the valve and pipe and send the model slug to the Синтай factory."
+          "question": "Может ли “Momentum transport” заполнить пустую клетку для Concrete Pump Blockage?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Blockage остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

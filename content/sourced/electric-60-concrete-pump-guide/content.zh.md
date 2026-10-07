@@ -1,29 +1,22 @@
-## Catalogue Electric 60 row
+## Electrostatics
 
-Electric 60 Concrete Pump is an electric 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 90 kW motor, 40 m³/h, 35 MPa, fine stone 200 m / 600 m. 料斗 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. Same page: 13 mm stone 150 m / 450 m; 24 mm stone 100 m / 300 m.
+![来源页插图：Voltage](/images/articles/electric-60-concrete-pump-guide/9VBatteryWithMeter.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Voltage*
 
-![Electric 60 concrete pump factory product photo, 河北品锦机械 邢台](/images/products/electric-60-concrete-pump/electric-60-concrete-pump.webp)
-*Electric 60, 邢台 catalogue — 90 kW, 40 m³/h, fine stone 200 m / 600 m*
+「Electrostatics」是来源页自己的章节，不会把Electric 60 Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW。
 
-## Neighbour high-output electric rows
+本页没写出来的格子继续空着。「Electrostatics」不去填它们。
 
-| Model | Motor | Theoretical output | Pressure | Distance | Weight |
-| Electric 50 | 55 kW | 26 m³/h | 30 MPa | fine stone 150 m / 350 m | 2800 kg |
-| Electric 60 | 90 kW | 40 m³/h | 35 MPa | fine stone 200 m / 600 m | 3300 kg |
-| Electric 80 / HBT80-1816-110 | 110 kW | 60 m³/h | 40 MPa | 900 m / 300 m (2 cm 骨料) | 6000 kg |
-| HBT80-16 / HBT80-1816-110 | 110 kW | 50 m³/h | 40 MPa | 120 m / 360 m delivery height | 6500 kg |
+## Electrodynamics
 
-ACI PRC-304.2-17 treats 拖式泵s separately from truck-mounted pumps. Electric 60 is a trailer row, not a boom SKU. Vertical versus horizontal: [H vs V](/blog/concrete-pump-vertical-vs-horizontal-distance/). Hub: [electric concrete pumps](/products/electric-concrete-pumps/).
+Electric 60 Concrete Pump Catalogue Row还是本文原有的那一行。「Electrodynamics」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-## When this row fits
+## Circuit theory
 
-High-rise electric pumping and long-distance fine-stone conveying that match 40 m³/h, 35 MPa and 200 m / 600 m with a 90 kW supply.
+把「Circuit theory」和Electric 60 Concrete Pump Catalogue Row分开。来源页不填空白格。这一节不另加数字。
 
-## When to open another page
+## Addition of voltages
 
-- 26 m³/h / 55 kW → [Electric 50](/products/electric-50-concrete-pump/).
-- 60 m³/h / 110 kW / 900 m / 300 m → [Electric 80](/products/electric-80-concrete-pump/).
-- HBT80-16 50 m³/h / 120 m conveying → [HBT80-16](/products/hbt80-16-concrete-pump/).
-- Not a truck-mounted placing boom and not a 搅拌站.
+来源章节「Addition of voltages」留在来源页。Electric 60 Concrete Pump Catalogue Row仍是这里已经写过的那一行。本页已经印出的读数：6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW。
 
-Product page: [Electric 60 concrete pump](/products/electric-60-concrete-pump/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[H vs V](/blog/concrete-pump-vertical-vs-horizontal-distance/), [electric concrete pumps](/products/electric-concrete-pumps/), [Electric 50](/products/electric-50-concrete-pump/)。

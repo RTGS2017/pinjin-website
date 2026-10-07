@@ -1,7 +1,7 @@
 {
-  "title": "Diesel 120 Concrete Pump Catalogue Row",
-  "seoTitle": "Diesel 120 Concrete Pump | Pinjin twin 145 kW 100 m³/h",
-  "description": "Diesel 120 is a Xingtai high-capacity diesel trailer pump listing twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, hopper 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, aggregate 6 cm and below. It is not LZ-80 and not Electric 80. Match the printed table, then inquire.",
+  "title": "Fuel injection — Pressurising fuel / Metering fuel / Injecting fuel / Direct injection for petrol engines",
+  "seoTitle": "Fuel injection — Pressurising fuel",
+  "description": "“Pressurising fuel” is a chapter on the source page. It does not rename Diesel 120 concrete pump. Printed cells already on this page: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
   "primaryKeyword": "Diesel 120 concrete pump",
   "secondaryKeywords": [
     "100 m3/h diesel trailer pump",
@@ -44,13 +44,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Diesel 120 Concrete Pump is a high-capacity diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, hopper 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, aggregate 6 cm and below. It is not LZ-80, not Electric 80 and not a boom pump.",
-    "who": "Infrastructure pours matching 100 m³/h, 40 MPa and 150 m / 500 m with twin diesel engines and 6 cm aggregate on an 8000 kg trailer.",
+    "what": "“Pressurising fuel” is a chapter on the source page. It does not rename Diesel 120 concrete pump. Printed cells already on this page: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+    "who": "Readers checking Diesel 120 concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Twin 145 kW / 290 kW versus LZ-80 Yuchai 256 kW",
-      "Theoretical output 100 m³/h versus LZ-80 low pressure ≤ 95 m³/h",
-      "150 m / 500 m versus Electric 80 900 m / 300 m (2 cm aggregate, electric)",
-      "Hopper 0.6 m³, two Kawasaki 112 pumps, 8000 kg"
+      "7000 × 2000 × 2300 mm",
+      "145 kW",
+      "290 kW",
+      "100 m³/h",
+      "40 MPa",
+      "8000 kg"
     ],
     "relatedModels": [
       "diesel-120-concrete-pump",
@@ -60,20 +62,25 @@
   },
   "faqs": [
     {
-      "question": "Is 100 m³/h the SmartBuy mid-size commercial 60–90 m³/h recommendation?",
-      "answer": "No. SmartBuy cites 60–90 m³/h as a mid-sized commercial trailer example. Diesel 120 prints 100 m³/h, 290 kW and 8000 kg. The guide average is not this row."
+      "question": "Does “Pressurising fuel” add a cell to Diesel 120 concrete pump?",
+      "answer": "No. Diesel 120 Concrete Pump is a high-capacity diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Does Diesel 120 list a placing boom because 500 m vertical is printed?",
-      "answer": "No. ACI PRC-304.2-17 separates trailer pumps from truck-mounted pumps. Diesel 120 is a trailer table: 150 m / 500 m pipeline distance, not a boom reach SKU."
+      "question": "Can “Metering fuel” fill a blank cell for Diesel 120 concrete pump?",
+      "answer": "No. Blank cells for Diesel 120 concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-120-concrete-pump/diesel-120-concrete-pump.webp",
-    "alt": "Diesel 120 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel 120 trailer pump, Xingtai catalogue — twin 145 kW, 100 m³/h, 150 m / 500 m"
+    "src": "/images/articles/diesel-120-concrete-pump-guide/K-Jet_MT1.jpg",
+    "alt": "Figure from the source page about Fuel injection",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Fuel_injection"
   },
   "sources": [
+    {
+      "name": "Fuel injection (source page)",
+      "url": "https://en.wikipedia.org/wiki/Fuel_injection",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Diesel 120 product page",
       "url": "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
@@ -111,11 +118,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Diesel 120 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 120 Concrete Pump | Pinjin twin 145 kW 100 m³/h",
-      "description": "Diesel 120 is a 邢台 high-capacity diesel 拖式泵 listing twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, 料斗 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, 骨料 6 cm and below. It is not LZ-80 and not Electric 80. Match the printed table, then 询价.",
-      "imageAlt": "Diesel 120 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Diesel 120 拖式泵, 邢台 catalogue — twin 145 kW, 100 m³/h, 150 m / 500 m",
+      "title": "Diesel 120 Concrete Pump Catalogue Row：Fuel injection（Pressurising fuel / Metering fuel / Injecting fuel / Direct injection for petrol engines）",
+      "seoTitle": "Fuel injection：Pressurising fuel",
+      "description": "「Pressurising fuel」是来源页自己的章节，不会把Diesel 120 Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW。",
+      "imageAlt": "来源页插图：Fuel injection",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Fuel_injection",
       "relatedPathLabels": [
         "Diesel 120 concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -123,32 +130,34 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel 120 Concrete Pump is a high-capacity diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, 料斗 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, 骨料 6 cm and below. It is not LZ-80, not Electric 80 and not a 臂架泵.",
-        "who": "Infrastructure pours matching 100 m³/h, 40 MPa and 150 m / 500 m with twin diesel engines and 6 cm 骨料 on an 8000 kg trailer.",
+        "what": "「Pressurising fuel」是来源页自己的章节，不会把Diesel 120 Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW。",
+        "who": "想把Diesel 120 Concrete Pump Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Twin 145 kW / 290 kW versus LZ-80 Yuchai 256 kW",
-          "Theoretical output 100 m³/h versus LZ-80 low pressure ≤ 95 m³/h",
-          "150 m / 500 m versus Electric 80 900 m / 300 m (2 cm 骨料, electric)",
-          "料斗 0.6 m³, two Kawasaki 112 pumps, 8000 kg"
+          "7000 × 2000 × 2300 mm",
+          "145 kW",
+          "290 kW",
+          "100 m³/h",
+          "40 MPa",
+          "8000 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Is 100 m³/h the SmartBuy mid-size commercial 60–90 m³/h recommendation?",
-          "answer": "No. SmartBuy cites 60–90 m³/h as a mid-sized commercial trailer example. Diesel 120 prints 100 m³/h, 290 kW and 8000 kg. The guide average is not this row."
+          "question": "「Pressurising fuel」会给Diesel 120 Concrete Pump Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW。"
         },
         {
-          "question": "Does Diesel 120 list a placing boom because 500 m vertical is printed?",
-          "answer": "No. ACI PRC-304.2-17 separates 拖式泵s from truck-mounted pumps. Diesel 120 is a trailer table: 150 m / 500 m pipeline distance, not a boom reach SKU."
+          "question": "「Metering fuel」能补上Diesel 120 Concrete Pump Catalogue Row的空白格吗？",
+          "answer": "不能。Diesel 120 Concrete Pump Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel 120 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 120 Concrete Pump | Pinjin twin 145 kW 100 m³/h",
-      "description": "Diesel 120 is a Xingtai high-capacity diesel bomba reboque listing twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, tremonha 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, agregado 6 cm and below. It is not LZ-80 and not Electric 80. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 120 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Diesel 120 bomba reboque, Xingtai catalogue — twin 145 kW, 100 m³/h, 150 m / 500 m",
+      "title": "Diesel 120 Concrete Pump Catalogue Row: Fuel injection — Pressurising fuel / Metering fuel / Injecting fuel / Direct injection for petrol engines",
+      "seoTitle": "Fuel injection — Pressurising fuel",
+      "description": "“Pressurising fuel” é um capítulo da página de origem. Não muda o nome de Diesel 120 Concrete Pump Catalogue Row. Valores já impressos nesta página: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+      "imageAlt": "Figura da página de origem sobre Fuel injection",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Fuel_injection",
       "relatedPathLabels": [
         "Diesel 120 concrete pump página do produto",
         "Diesel concrete pump manufacturer China",
@@ -156,32 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 120 Concrete Pump is a high-capacity diesel bomba reboque manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, tremonha 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, agregado 6 cm and below. It is not LZ-80, not Electric 80 and not a bomba lança.",
-        "who": "Infrastructure pours matching 100 m³/h, 40 MPa and 150 m / 500 m with twin diesel engines and 6 cm agregado on an 8000 kg trailer.",
+        "what": "“Pressurising fuel” é um capítulo da página de origem. Não muda o nome de Diesel 120 Concrete Pump Catalogue Row. Valores já impressos nesta página: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+        "who": "Leitores que comparam Diesel 120 Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Twin 145 kW / 290 kW versus LZ-80 Yuchai 256 kW",
-          "Theoretical output 100 m³/h versus LZ-80 low pressure ≤ 95 m³/h",
-          "150 m / 500 m versus Electric 80 900 m / 300 m (2 cm agregado, electric)",
-          "Tremonha 0.6 m³, two Kawasaki 112 pumps, 8000 kg"
+          "7000 × 2000 × 2300 mm",
+          "145 kW",
+          "290 kW",
+          "100 m³/h",
+          "40 MPa",
+          "8000 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Is 100 m³/h the SmartBuy mid-size commercial 60–90 m³/h recommendation?",
-          "answer": "No. SmartBuy cites 60–90 m³/h as a mid-sized commercial trailer example. Diesel 120 prints 100 m³/h, 290 kW and 8000 kg. The guide average is not this row."
+          "question": "“Pressurising fuel” acrescenta uma casa a Diesel 120 Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW."
         },
         {
-          "question": "Does Diesel 120 list a placing boom because 500 m vertical is printed?",
-          "answer": "No. ACI PRC-304.2-17 separates bomba reboques from truck-mounted pumps. Diesel 120 is a trailer table: 150 m / 500 m pipeline distance, not a boom reach SKU."
+          "question": "“Metering fuel” pode preencher uma casa em branco de Diesel 120 Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Diesel 120 Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Diesel 120 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 120 Concrete Pump | Pinjin twin 145 kW 100 m³/h",
-      "description": "Diesel 120 is a شينغتاي high-capacity diesel مضخة مقطورة listing twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, قادوس 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, ركام 6 cm and below. It is not LZ-80 and not Electric 80. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 120 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Diesel 120 مضخة مقطورة, شينغتاي catalogue — twin 145 kW, 100 m³/h, 150 m / 500 m",
+      "title": "Diesel 120 Concrete Pump Catalogue Row: Fuel injection — Pressurising fuel / Metering fuel / Injecting fuel / Direct injection for petrol engines",
+      "seoTitle": "Fuel injection — Pressurising fuel",
+      "description": "«Pressurising fuel» فصل في صفحة المصدر. لا يغيّر اسم Diesel 120 Concrete Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Fuel injection",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Fuel_injection",
       "relatedPathLabels": [
         "Diesel 120 concrete pump صفحة المنتج",
         "Diesel concrete pump manufacturer China",
@@ -189,32 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 120 Concrete Pump is a high-capacity diesel مضخة مقطورة manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, قادوس 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, ركام 6 cm and below. It is not LZ-80, not Electric 80 and not a مضخة ذراع.",
-        "who": "Infrastructure pours matching 100 m³/h, 40 MPa and 150 m / 500 m with twin diesel engines and 6 cm ركام on an 8000 kg trailer.",
+        "what": "«Pressurising fuel» فصل في صفحة المصدر. لا يغيّر اسم Diesel 120 Concrete Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+        "who": "قرّاء يقارنون Diesel 120 Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Twin 145 kW / 290 kW versus LZ-80 Yuchai 256 kW",
-          "Theoretical output 100 m³/h versus LZ-80 low pressure ≤ 95 m³/h",
-          "150 m / 500 m versus Electric 80 900 m / 300 m (2 cm ركام, electric)",
-          "قادوس 0.6 m³, two Kawasaki 112 pumps, 8000 kg"
+          "7000 × 2000 × 2300 mm",
+          "145 kW",
+          "290 kW",
+          "100 m³/h",
+          "40 MPa",
+          "8000 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Is 100 m³/h the SmartBuy mid-size commercial 60–90 m³/h recommendation?",
-          "answer": "No. SmartBuy cites 60–90 m³/h as a mid-sized commercial trailer example. Diesel 120 prints 100 m³/h, 290 kW and 8000 kg. The guide average is not this row."
+          "question": "هل يضيف «Pressurising fuel» خانة إلى Diesel 120 Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW."
         },
         {
-          "question": "Does Diesel 120 list a placing boom because 500 m vertical is printed?",
-          "answer": "No. ACI PRC-304.2-17 separates مضخة مقطورةs from truck-mounted pumps. Diesel 120 is a trailer table: 150 m / 500 m pipeline distance, not a boom reach SKU."
+          "question": "هل يستطيع «Metering fuel» ملء خانة فارغة لـ Diesel 120 Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Diesel 120 Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Diesel 120 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 120 Concrete Pump | Pinjin twin 145 kW 100 m³/h",
-      "description": "Diesel 120 is a Синтай high-capacity diesel прицепной насос listing twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, бункер 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, заполнитель 6 cm and below. It is not LZ-80 and not Electric 80. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 120 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Diesel 120 прицепной насос, Синтай catalogue — twin 145 kW, 100 m³/h, 150 m / 500 m",
+      "title": "Diesel 120 Concrete Pump Catalogue Row: Fuel injection — Pressurising fuel / Metering fuel / Injecting fuel / Direct injection for petrol engines",
+      "seoTitle": "Fuel injection — Pressurising fuel",
+      "description": "“Pressurising fuel” — глава на странице-источнике. Она не переименовывает Diesel 120 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Fuel injection",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Fuel_injection",
       "relatedPathLabels": [
         "Diesel 120 concrete pump страница изделия",
         "Diesel concrete pump manufacturer China",
@@ -222,25 +235,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 120 Concrete Pump is a high-capacity diesel прицепной насос manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: twin 145 kW diesels (290 kW total), 100 m³/h, 40 MPa, 150 m / 500 m, бункер 0.6 m³, Kawasaki 112 (two units), 7000 × 2000 × 2300 mm, 8000 kg, заполнитель 6 cm and below. It is not LZ-80, not Electric 80 and not a автобетононасос со стрелой.",
-        "who": "Infrastructure pours matching 100 m³/h, 40 MPa and 150 m / 500 m with twin diesel engines and 6 cm заполнитель on an 8000 kg trailer.",
+        "what": "“Pressurising fuel” — глава на странице-источнике. Она не переименовывает Diesel 120 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW.",
+        "who": "Читатели, которые сверяют Diesel 120 Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Twin 145 kW / 290 kW versus LZ-80 Yuchai 256 kW",
-          "Theoretical output 100 m³/h versus LZ-80 low pressure ≤ 95 m³/h",
-          "150 m / 500 m versus Electric 80 900 m / 300 m (2 cm заполнитель, electric)",
-          "Бункер 0.6 m³, two Kawasaki 112 pumps, 8000 kg"
+          "7000 × 2000 × 2300 mm",
+          "145 kW",
+          "290 kW",
+          "100 m³/h",
+          "40 MPa",
+          "8000 kg"
         ]
       },
       "faqs": [
         {
-          "question": "Is 100 m³/h the SmartBuy mid-size commercial 60–90 m³/h recommendation?",
-          "answer": "No. SmartBuy cites 60–90 m³/h as a mid-sized commercial trailer example. Diesel 120 prints 100 m³/h, 290 kW and 8000 kg. The guide average is not this row."
+          "question": "Добавляет ли “Pressurising fuel” клетку к Diesel 120 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 7000 × 2000 × 2300 mm, 145 kW, 290 kW, 100 m³/h, 40 MPa, 8000 kg, 6 cm, 256 kW."
         },
         {
-          "question": "Does Diesel 120 list a placing boom because 500 m vertical is printed?",
-          "answer": "No. ACI PRC-304.2-17 separates прицепной насосs from truck-mounted pumps. Diesel 120 is a trailer table: 150 m / 500 m pipeline distance, not a boom reach SKU."
+          "question": "Может ли “Metering fuel” заполнить пустую клетку для Diesel 120 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Diesel 120 Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

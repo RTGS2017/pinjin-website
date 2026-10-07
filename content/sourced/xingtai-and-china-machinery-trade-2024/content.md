@@ -1,17 +1,22 @@
-Source 1: Xingtai Statistical Bulletin on National Economic and Social Development 2024, foreign-trade section  
-https://tjgb.hongheiku.com/djs/63374.html
+## Theories and models
 
-Source 2: Report by Su Zimeng, president of the China Construction Machinery Association, carried by Cehome on 15 May 2025  
-https://www.cehome.com/news/20250515/338335.shtml
+![Figure from the source page about International trade](/images/articles/xingtai-and-china-machinery-trade-2024/Volume_of_world_merchandise_exports.png)
+*Image from the source page: https://en.wikipedia.org/wiki/International_trade*
 
-## Xingtai imports and exports, 2024
+邢台 进出口 工程机械出口 remains the row this document already had. “Theories and models” explains the source topic and adds no cell. No added figure is taken from that chapter.
 
-Full-year imports and exports 234.7亿元, down 7.3% from the year before. Exports 205.6亿元, down 9.0%. Imports 29.1亿元, up 6.6%. Trade with Belt and Road countries 128.9亿元, 54.9% of the total. Trade with other RCEP members 67.3亿元, 28.7% of the total. Private enterprises 206.3亿元, down 5.8%. Among export goods: mechanical and electrical products 108.2亿元, down 16.4%; steel 2.7亿元, up 13.3%; electric vehicles, lithium batteries and photovoltaic products 30.6亿元, down 48.7%.
+Trade with Belt and Road countries 128.9亿元, 54.9% of the total.
 
-## China construction-machinery exports, 2024
+## Most traded export products
 
-The association's customs-based figure for 2024 construction-machinery exports is 528.59亿美元, up 8.87%, a new high. In renminbi the export value was up 10.1%. Export value rose quickly for four straight years, 2021 through 2024.
+Keep “Most traded export products” and 邢台 进出口 工程机械出口 apart. The source does not fill a blank cell. No added figure is taken from that chapter.
 
-2024 construction-machinery exports passed 50 billion US dollars for the first time.
+## Largest countries or regions by total international trade
 
-![Photograph from the Hebei Industry and Information Technology Renze cluster page](/images/parks/renze-clusters.webp)
+The source chapter “Largest countries or regions by total international trade” stays on that page. 邢台 进出口 工程机械出口 keeps the row already written here. No added figure is taken from that chapter.
+
+## Top traded commodities by value (exports)
+
+“Top traded commodities by value (exports)” is not a substitute specification. 邢台 进出口 工程机械出口 stays the printed row. No added figure is taken from that chapter.
+
+Blank cells on this page stay blank. “Top traded commodities by value (exports)” does not fill them.

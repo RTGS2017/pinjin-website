@@ -7,100 +7,100 @@
     "zh": "邢台车间行车照片标题怎么读"
   },
   "title": {
-    "en": "What the Xingtai Workshop Crane Photo Labels",
-    "zh": "邢台车间行车照片的标题写了什么"
+    "en": "the Xingtai Workshop Crane Photo Labels is a catalogue comparison, not a page from Crane (machine)",
+    "zh": "邢台车间行车照片的标题写了什么是目录对照，不是「起重机」那一页"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery labels the Xingtai workshop photograph as overhead lifting during assembly and production. The caption leaves crane tonnage, kilowatts and pumping distance unprinted.",
-    "zh": "河北品锦机械把邢台车间照片标成装配与生产中的起重吊运。说明文字没有印出行车吨位、千瓦和泵送距离。"
+    "en": "the Xingtai Workshop Crane Photo Labels. Illustration: Crane (machine).",
+    "zh": "邢台车间行车照片的标题写了什么。插图来自「起重机」。"
   },
   "h1": {
-    "en": "What the Xingtai Workshop Crane Photo Labels",
-    "zh": "邢台车间行车照片的标题写了什么"
+    "en": "the Xingtai Workshop Crane Photo Labels is a catalogue comparison, not a page from Crane (machine)",
+    "zh": "邢台车间行车照片的标题写了什么是目录对照，不是「起重机」那一页"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery labels this Xingtai workshop photograph “Workshop With Overhead Lifting.” The caption says heavy machinery components are handled in the Xingjiawan concrete machinery manufacturing area during assembly and production. Crane tonnage, motor kilowatts and pumping distance are absent from that caption.",
-    "zh": "河北品锦机械把这张邢台车间照片标成「配备起重能力的生产车间」。说明文字写的是在邢家湾混凝土机械制造集聚区的装配与生产中吊运重型部件。行车吨位、电机千瓦和泵送距离都没有写在这句说明里。"
+    "en": "Hebei Pinjin Machinery labels this Xingtai workshop photograph “Workshop With Overhead Lifting.” The caption says heavy machinery components are handled in the Xingjiawan concrete machinery manufacturing area during assembly and production. Crane tonnage, motor kilowatts and pumping distance are absent from that caption. The picture is from https://en.wikipedia.org/wiki/Crane_(machine).",
+    "zh": "河北品锦机械把这张邢台车间照片标成「配备起重能力的生产车间」。说明文字写的是在邢家湾混凝土机械制造集聚区的装配与生产中吊运重型部件。图片来自https://en.wikipedia.org/wiki/Crane_(machine)。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Where this frame is published",
-        "zh": "这一帧发在哪些页"
+        "en": "Etymology",
+        "zh": "词源"
       },
       "body": {
-        "en": "The file is the workshop frame on the [Xingtai factory page](/factory), the about block on the home page, and the product-detail proof strip that sits beside assembly and loading. Hebei Pinjin Machinery places the factory in Renze Industrial Park, Xingtai. The cluster note names Xingjiawan as a concrete machinery manufacturing area; the address line remains Renze Industrial Park.",
-        "zh": "这个文件是[邢台工厂页](/factory)的车间帧，也是首页关于区块和产品详情里紧挨装配、装车的能力条。河北品锦机械把工厂放在邢台任泽工业园区。集聚区说明把邢家湾写成混凝土机械制造区域；地址行仍是任泽工业园区。"
+        "en": "Picture source: https://en.wikipedia.org/wiki/Crane_(machine). Subject: Crane machine slewing platform. Hebei Pinjin Machinery labels this Xingtai workshop photograph “Workshop With Overhead Lifting.” The caption says heavy machinery components are handled in the Xingjiawan concrete machinery manufacturing area during assembly and production. The cluster note names Xingjiawan as a concrete machinery manufacturing area. the address line remains Renze Industrial Park. Power, theoretical output and outlet pressure stay on the catalogue rows linked from [electric concrete pumps](/products/electric-concrete-pumps), [diesel concrete pumps](/products/diesel-concrete-pumps) and [mixer pumps](/products/mixer-pumps).",
+        "zh": "图片来源：https://en.wikipedia.org/wiki/Crane_(machine)。画面主体：Crane machine slewing platform。河北品锦机械把这张邢台车间照片标成「配备起重能力的生产车间」。集聚区说明把邢家湾写成混凝土机械制造区域；地址行仍是任泽工业园区。首页外观也是另一张照片，邢台地址行写在[工厂](/factory)页。"
       }
     },
     {
       "heading": {
-        "en": "What the workshop caption prints",
-        "zh": "车间说明印了什么"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "The published factory line is workshop production, assembly, inspection and factory packing for concrete machinery. The home points next to this photo are factory-direct manufacturing, customization where the catalogue allows it, engineering contact, and quality control from materials to dispatch. A lifting capacity in tonnes is absent. Power, theoretical output and outlet pressure stay on the catalogue rows linked from [electric concrete pumps](/products/electric-concrete-pumps), [diesel concrete pumps](/products/diesel-concrete-pumps) and [mixer pumps](/products/mixer-pumps).",
-        "zh": "已公布的工厂表述是混凝土机械的车间生产、装配、检测和出厂包装。这张照片旁边的首页要点是工厂直供、目录允许时的定制、工程联系，以及从原材料到发运的质量管控。吨位起重能力没有写出。功率、理论输送量和出口压力留在[电动混凝土泵](/products/electric-concrete-pumps)、[柴油混凝土泵](/products/diesel-concrete-pumps)和[搅拌泵](/products/mixer-pumps)的目录行上。"
+        "en": "Crane tonnage, motor kilowatts and pumping distance are absent from that caption. The published factory line is workshop production, assembly, inspection and factory packing for concrete machinery. The hydraulic mortar spraying interior is a separate factory-gallery frame.",
+        "zh": "说明文字写的是在邢家湾混凝土机械制造集聚区的装配与生产中吊运重型部件。已公布的工厂表述是混凝土机械的车间生产、装配、检测和出厂包装。已列型号的问题走[联系页](/contact)。"
       }
     },
     {
       "heading": {
-        "en": "A different gallery frame keeps its own caption",
-        "zh": "另一帧画廊沿用自己的说明"
+        "en": "Mechanical principles",
+        "zh": "机械原理"
       },
       "body": {
-        "en": "The hydraulic mortar spraying interior is a separate factory-gallery frame. The home exterior is also a separate photograph, and it carries the Xingtai address line on the [factory](/factory) page. Questions about a listed model go through [contact](/contact).",
-        "zh": "液压砂浆喷涂室内图是工厂画廊里的另一帧。首页外观也是另一张照片，邢台地址行写在[工厂](/factory)页。已列型号的问题走[联系页](/contact)。"
+        "en": "The file is the workshop frame on the [Xingtai factory page](/factory), the about block on the home page, and the product-detail proof strip that sits beside assembly and loading. The home points next to this photo are factory-direct manufacturing, customization where the catalogue allows it, engineering contact, and quality control from materials to dispatch. The home exterior is also a separate photograph, and it carries the Xingtai address line on the [factory](/factory) page.",
+        "zh": "行车吨位、电机千瓦和泵送距离都没有写在这句说明里。这张照片旁边的首页要点是工厂直供、目录允许时的定制、工程联系，以及从原材料到发运的质量管控。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Types",
+        "zh": "类型"
+      },
+      "body": {
+        "en": "Hebei Pinjin Machinery places the factory in Renze Industrial Park, Xingtai. A lifting capacity in tonnes is absent. Questions about a listed model go through [contact](/contact).",
+        "zh": "这个文件是[邢台工厂页](/factory)的车间帧，也是首页关于区块和产品详情里紧挨装配、装车的能力条。功率、理论输送量和出口压力留在[电动混凝土泵](/products/electric-concrete-pumps)、[柴油混凝土泵](/products/diesel-concrete-pumps)和[搅拌泵](/products/mixer-pumps)的目录行上。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does the workshop photo print a crane tonnage?",
-        "zh": "车间照片印了行车吨位吗？"
+        "en": "Does the workshop photo list a crane tonnage?",
+        "zh": "车间照片标出了行车吨位吗？"
       },
       "answer": {
-        "en": "A tonnage is absent. The caption names overhead lifting of heavy components during assembly and production in Xingtai.",
-        "zh": "吨位没有写出。说明文字写的是邢台装配与生产中对重型部件的起重吊运。"
+        "en": "A tonnage is absent. The caption names overhead lifting of heavy components during assembly and production in Xingtai. It is not a figure printed inside https://en.wikipedia.org/wiki/Crane_(machine).",
+        "zh": "吨位没有写出。说明文字写的是邢台装配与生产中对重型部件的起重吊运。它不是https://en.wikipedia.org/wiki/Crane_(machine)画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Which address sits with this factory?",
+        "en": "On this row: Which address sits with this factory?",
         "zh": "这家工厂写的地址是哪一条？"
       },
       "answer": {
-        "en": "Renze Industrial Park, Xingtai City, Hebei Province, China. Xingjiawan is the published cluster note for the concrete machinery area.",
-        "zh": "中国河北省邢台市任泽工业园区。邢家湾是已公布的混凝土机械集聚区说明。"
+        "en": "Renze Industrial Park, Xingtai City, Hebei Province, China. Xingjiawan is the published cluster note for the concrete machinery area. It is not a figure printed inside https://en.wikipedia.org/wiki/Crane_(machine).",
+        "zh": "中国河北省邢台市任泽工业园区。邢家湾是已公布的混凝土机械集聚区说明。它不是https://en.wikipedia.org/wiki/Crane_(machine)画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Which catalogue lines does the factory page name?",
+        "en": "On this row: Which catalogue lines does the factory page name?",
         "zh": "工厂页点了哪些目录产品线？"
       },
       "answer": {
-        "en": "Electric concrete pumps, diesel concrete pumps, mixer pumps and spraying machines. A concrete mixing plant, boom pump or rebar line is absent from that list.",
-        "zh": "电动混凝土泵、柴油混凝土泵、搅拌泵和喷涂机。混凝土搅拌站、臂架泵或钢筋设备没有出现在这份名单里。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is this the same frame as the factory exterior?",
-        "zh": "这一帧和工厂外观是同一张吗？"
-      },
-      "answer": {
-        "en": "They are separate photographs. The exterior frame is the home hero; this frame is the workshop with overhead lifting.",
-        "zh": "它们是两张照片。外观帧是首页主图；这一帧是配备起重的车间。"
+        "en": "Electric concrete pumps, diesel concrete pumps, mixer pumps and spraying machines. A concrete mixing plant, boom pump or rebar line is absent from that list. It is not a figure printed inside https://en.wikipedia.org/wiki/Crane_(machine).",
+        "zh": "电动混凝土泵、柴油混凝土泵、搅拌泵和喷涂机。混凝土搅拌站、臂架泵或钢筋设备没有出现在这份名单里。它不是https://en.wikipedia.org/wiki/Crane_(machine)画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-b/xingtai-workshop-overhead-crane-hebei-pinjin-machinery.webp",
+    "src": "/images/articles/knowledge/what-the-xingtai-workshop-crane-photo-labels-crane-machine-slewing-platform.png",
     "alt": {
-      "en": "Xingtai workshop with overhead crane at Hebei Pinjin Machinery, Renze Industrial Park",
-      "zh": "邢台车间行车，河北品锦机械，任泽工业园区"
+      "en": "Crane machine slewing platform. Image from the source page: https://en.wikipedia.org/wiki/Crane_(machine).",
+      "zh": "Crane machine slewing platform。图来自来源页：https://en.wikipedia.org/wiki/Crane_(machine)。"
     }
   },
   "relatedPaths": [
@@ -119,7 +119,8 @@
     "https://pinjinpump.com/en/",
     "https://pinjinpump.com/zh/",
     "https://pinjinpump.com/en/about/",
-    "https://pinjinpump.com/zh/about/"
+    "https://pinjinpump.com/zh/about/",
+    "https://en.wikipedia.org/wiki/Crane_(machine)"
   ],
   "status": "ready"
 }

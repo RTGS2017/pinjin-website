@@ -1,29 +1,22 @@
-## Catalogue LZ-80 row
+## Radiator construction
 
-LZ-80 Diesel Concrete Pump is a high-capacity diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: Yuchai 256 kW, high pressure ≤ 65 m³/h / low pressure ≤ 95 m³/h, ≤ 35 / 22 MPa. 料斗 0.6 m³, conveying distance 120 m, Kawasaki double 140, 6.6 × 1.8 × 1.9 m, 6800 kg, 骨料 6 cm and below. Delivery height on the public table is consult factory standard.
+![来源页插图：Radiator (engine cooling)](/images/articles/lz-80-diesel-concrete-pump-guide/Tappo_pressurizzato.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Radiator_(engine_cooling)*
 
-![LZ-80 diesel concrete pump factory product photo, 河北品锦机械 邢台](/images/products/lz-80-diesel-concrete-pump/lz-80-diesel-concrete-pump.webp)
-*LZ-80, 邢台 catalogue — Yuchai 256 kW, high pressure ≤ 65 m³/h / low pressure ≤ 95 m³/h*
+「Radiator construction」是来源页自己的章节，不会把LZ-80 Diesel Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：256 kW, 65 m³/h, 95 m³/h, 22 MPa, 6800 kg, 6 cm, 145 kW, 50 m³/h。
 
-## Neighbour diesel high-output rows
+本页没写出来的格子继续空着。「Radiator construction」不去填它们。
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| LZ-60 / HBT60-13.132 | 6105 / 145 kW | 50 m³/h | 35 MPa | 100 m / 300 m | 5500 kg |
-| LZ-80 | Yuchai 256 kW | high pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h | ≤ 35 / 22 MPa | 120 m conveying | 6800 kg |
-| Diesel 120 | twin 145 kW (290 kW) | 100 m³/h | 40 MPa | 150 m / 500 m | 8000 kg |
-| Diesel 60 / HBT60-13.132 | 6105 / 144 kW | 35 m³/h | 30 MPa | 150 m / 350 m | 3500 kg |
+## Coolant pump
 
-Tunnel secondary lining that already cites LZ-80: [tunnel secondary lining](/blog/concrete-pump-tunnel-secondary-lining/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+LZ-80 Diesel Concrete Pump Catalogue Row还是本文原有的那一行。「Coolant pump」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-## When this row fits
+## Heater
 
-High-volume diesel pumping, coarse 骨料 pours up to 6 cm, infrastructure jobs that need the printed high-pressure / low-pressure modes.
+把「Heater」和LZ-80 Diesel Concrete Pump Catalogue Row分开。来源页不填空白格。这一节不另加数字。
 
-## When to open another page
+## Temperature control
 
-- 50 m³/h / 145 kW / 100 m / 300 m → [LZ-60](/products/lz-60-diesel-concrete-pump/).
-- 100 m³/h twin-engine → [Diesel 120](/products/diesel-120-concrete-pump/).
-- 35 m³/h Diesel 60 table → [Diesel 60](/products/diesel-60-concrete-pump/).
-- Not a truck-mounted placing boom. Delivery height stays blank until the factory answers.
+来源章节「Temperature control」留在来源页。LZ-80 Diesel Concrete Pump Catalogue Row仍是这里已经写过的那一行。本页已经印出的读数：256 kW, 65 m³/h, 95 m³/h, 22 MPa, 6800 kg, 6 cm, 145 kW, 50 m³/h。
 
-Product page: [LZ-80 diesel concrete pump](/products/lz-80-diesel-concrete-pump/). 询价: [contact](/contact/).
+本文原先已经指向这些页面：[tunnel secondary lining](/blog/concrete-pump-tunnel-secondary-lining/), [diesel concrete pumps](/products/diesel-concrete-pumps/), [LZ-60](/products/lz-60-diesel-concrete-pump/)。

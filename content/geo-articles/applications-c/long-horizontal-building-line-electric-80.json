@@ -11,25 +11,25 @@
     "zh": "电动80建筑浇筑"
   },
   "title": {
-    "en": "This is a grid-powered building pour through a pipeline — Electric 80. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h.",
-    "zh": "这是有电网、走管道的建筑浇筑：电动80。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。"
+    "en": "This is a grid-powered building pour through a pipeline — Electric 80. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h., read as separate catalogue cells",
+    "zh": "这是有电网、走管道的建筑浇筑：电动80。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。，各格分开读"
   },
   "description": {
-    "en": "This is a grid-powered building pour through a pipeline. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. A shared model code on another page does ",
-    "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外"
+    "en": "Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Read it in the Xingtai table. A shared model code on another page does not copy these two numbers across. Xingtai-based Hebei Pinjin Machinery lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. Keep this cell as published. The model cell also prints HBT80-1816-110. Leave aside move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Read it in the Xingtai table. The model cell also prints HBT80-1816-110. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. It is not a Pinjin contract record. The neighbouring machine is not this sentence. This page names no project, no country job, no price and no daily volume.",
+    "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。先不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "h1": {
-    "en": "This is a grid-powered building pour through a pipeline — Electric 80. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h.",
-    "zh": "这是有电网、走管道的建筑浇筑：电动80。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。"
+    "en": "This is a grid-powered building pour through a pipeline — Electric 80. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h., read as separate catalogue cells",
+    "zh": "这是有电网、走管道的建筑浇筑：电动80。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。，各格分开读"
   },
   "directAnswer": {
-    "en": "This is a grid-powered building pour through a pipeline. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. A shared model code on another page does not copy these two numbers across. Hebei Pinjin Machinery in Xingtai lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. The model cell also prints HBT80-1816-110. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT80-1816-110. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-    "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+    "en": "Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Read it in the Xingtai table. A shared model code on another page does not copy these two numbers across. Xingtai-based Hebei Pinjin Machinery lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. Keep this cell as published. The model cell also prints HBT80-1816-110. Leave aside move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Read it in the Xingtai table. The model cell also prints HBT80-1816-110. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. It is not a Pinjin contract record. The neighbouring machine is not this sentence. This page names no project, no country job, no price and no daily volume.",
+    "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。先不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "answerBlock": {
     "what": {
-      "en": "This is a grid-powered building pour through a pipeline. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. A shared model code on another page does not copy these two numbers across. Hebei Pinjin Machinery in Xingtai lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. The model cell also prints HBT80-1816-110. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT80-1816-110. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-      "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+      "en": "Keep this cell as published. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Read it in the Xingtai table. A shared model code on another page does not copy these two numbers across. Xingtai-based Hebei Pinjin Machinery lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. Keep this cell as published. The model cell also prints HBT80-1816-110. Leave aside move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Read it in the Xingtai table. The model cell also prints HBT80-1816-110. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. It is not a Pinjin contract record. The neighbouring machine is not this sentence. This page names no project, no country job, no price and no daily volume.",
+      "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。先不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
@@ -43,72 +43,76 @@
   "sections": [
     {
       "heading": {
-        "en": "What the pour has to match",
-        "zh": "浇筑要对上什么"
+        "en": "Density of Seawater vs. Temperature and Salinity",
+        "zh": "密度与温度"
       },
       "body": {
-        "en": "This is a grid-powered building pour through a pipeline. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. A shared model code on another page does not copy these two numbers across. The published Electric 80 row is 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. The model cell also prints HBT80-1816-110.",
-        "zh": "这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。已公布的电动80是110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。"
+        "en": "“Density of Seawater vs. Temperature and Salinity” is an outline label from “Seawater - Properties”. That label does not add a figure to the printed row. Keep this cell as published. This is a grid-powered building pour through a pipeline. Taken from the printed row: This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Read it in the Xingtai table. The model cell also prints HBT80-1816-110. The neighbouring machine is not this sentence. The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. This is a grid-powered building pour through a pipeline. Taken from the printed row: Hebei Pinjin Machinery in Xingtai lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. Read it in the Xingtai table. The model cell also prints HBT80-1816-110. This note names no project, no country job, no price and no daily volume. Keep this cell as published. A shared model code on another page does not copy these two numbers across. Taken from the printed row: HBT80-16 prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Read it in the Xingtai table. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Keep this cell as published. No. Taken from the printed row: This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Read it in the Xingtai table. Electric 80 prints theoretical catalogue figures only. Image from the source page: https://www.engineeringtoolbox.com/sea-water-properties-d_840.html",
+        "zh": "“密度与温度”是《Seawater - Properties》大纲上的标题。这个标题不给已印出的行增加数字。这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外 这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。先不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。目录里已经写着：HBT80-16印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。按邢台表上的原文理解：这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。图来自来源页面：https://www.engineeringtoolbox.com/sea-water-properties-d_840.html"
       }
     },
     {
       "heading": {
-        "en": "Do not slide onto the neighbouring row",
-        "zh": "不要滑到相邻的那一行"
+        "en": "Electrical Conductivity of Seawater vs. Temperature and Salinity",
+        "zh": "电气导热与温度"
       },
       "body": {
-        "en": "HBT80-16 prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT80-1816-110. The shared job site in the photograph does not merge the two tables. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-        "zh": "HBT80-16印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+        "en": "This block keeps the heading “Electrical Conductivity of Seawater vs. Temperature and Salinity” from “Seawater - Properties”, then stays with the cells already published. The neighbouring machine is not this sentence. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Keep this cell as published. A shared model code on another page does not copy these two numbers across. Leave aside move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Read it in the Xingtai table. It is not a Pinjin contract record. The neighbouring machine is not this sentence. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Keep this cell as published. The model cell also prints HBT80-1816-110. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Read it in the Xingtai table. This is a grid-powered building pour through a pipeline. The neighbouring machine is not this sentence. The published Electric 80 row is 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. Keep this cell as published. The model cell also prints HBT80-1816-110. Taken from the printed row: It is not a Pinjin contract record. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. The neighbouring machine is not this sentence. It shows this kind of work. Keep this cell as published. A shared model code on another page does not copy these two numbers across. Taken from the printed row: This page names no floor, no contract volume and no price.",
+        "zh": "本节保留《Seawater - Properties》的标题“电气导热与温度”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。邢台河北品锦机械把电动80列为110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。这一格照已印出的读：请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。目录里已经写着：不是。电动80只印理论目录数字。本页不写楼层、合同方量或价格。"
       }
     },
     {
       "heading": {
-        "en": "What Xingtai should receive",
-        "zh": "向邢台要带上什么"
+        "en": "Freezing Point of Seawater vs. Pressure and Salinity",
+        "zh": "凝固点与压力"
       },
       "body": {
-        "en": "Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job, a price or a daily volume.",
-        "zh": "请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。"
+        "en": "The section shape comes from “Freezing Point of Seawater vs. Pressure and Salinity” in “Seawater - Properties”. The sentences are a restatement of the catalogue, not of that article. Read it in the Xingtai table. A shared model code on another page does This is a grid-powered building pour through a pipeline. Xingtai-based Hebei Pinjin Machinery lists Electric 80 at 110 kW, 60 m³/h, 40 MPa, 900 m horizontal / 300 m vertical, aggregate 24 mm (≤ 2 cm), hopper 0.7 m³, Kawasaki 140 double pump, 6600 × 1800 × 1800 mm and 6000 kg. Keep this cell as published. The model cell also prints HBT80-1816-110. Taken from the printed row: This page names no project, no country job, no price and no daily volume. Read it in the Xingtai table. A shared model code on another page does not copy these two numbers across. The neighbouring machine is not this sentence. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Keep this cell as published. It is not a Pinjin contract record. Taken from the printed row: This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. Read it in the Xingtai table. The model cell also prints HBT80-1816-110. The neighbouring machine is not this sentence. The shared job site in the photograph does not merge the two tables. Keep this cell as published. This page names no project, no country job, no price and no daily volume. Taken from the printed row: Do not attach a project name, a country job, a price or a daily volume. Read it in the Xingtai table. Hebei Pinjin Machinery does not name it as a contract record. The neighbouring machine is not this sentence. No.",
+        "zh": "这一节的形状来自《Seawater - Properties》的“凝固点与压力”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：这是有电网、走管道的建筑浇筑。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。已公布的电动80是110 kW、60 m³/h、40 MPa、水平 900 m / 垂直 300 m、骨料 24 mm（≤ 2 cm）、料斗 0.7 m³、川崎 140 双泵、外形 6600 × 1800 × 1800 mm、6000 kg。型号格同时印 HBT80-1816-110。旁边那一台不在这句话里。不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is the photograph a Pinjin jobsite?",
-        "zh": "这张照片是品锦的工地吗？"
+        "en": "Under “Density of Seawater vs. Temperature and Salinity”, is the photograph a Pinjin jobsite?",
+        "zh": "在“密度与温度”这一节里，这张照片是品锦的工地吗？"
       },
       "answer": {
-        "en": "No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
-        "zh": "不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
+        "en": "Keep this cell as published. No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
+        "zh": "这一格照已印出的读：不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
       }
     },
     {
       "question": {
-        "en": "What does the Electric 80 row print for this check?",
-        "zh": "电动80这一行，这次要核对的数字是什么？"
+        "en": "What should stay printed beside “Electrical Conductivity of Seawater vs. Temperature and Salinity” — What does the Electric 80 row print for this check?",
+        "zh": "“电气导热与温度”旁边仍要印着的是什么：电动80这一行，这次要核对的数字是什么？"
       },
       "answer": {
-        "en": "This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. A shared model code on another page does not copy these two numbers across.",
-        "zh": "这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。"
+        "en": "The neighbouring machine is not this sentence. This electric row prints 900 m horizontal / 300 m vertical and 60 m³/h. A shared model code on another page does not copy these two numbers across.",
+        "zh": "旁边那一台不在这句话里。这一电动行印的是水平 900 m / 垂直 300 m、60 m³/h。另一页上相同的型号代码，不能把这两个数字抄过去。"
       }
     },
     {
       "question": {
-        "en": "Is the printed output a contract volume?",
-        "zh": "印出的输送量是合同方量吗？"
+        "en": "“Freezing Point of Seawater vs. Pressure and Salinity” does not change the check: Is the printed output a contract volume?",
+        "zh": "“凝固点与压力”不改这一问：印出的输送量是合同方量吗？"
       },
       "answer": {
-        "en": "No. Electric 80 prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
-        "zh": "不是。电动80只印理论目录数字。本页不写楼层、合同方量或价格。"
+        "en": "Read it in the Xingtai table. No. Electric 80 prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
+        "zh": "按邢台表上的原文理解：不是。电动80只印理论目录数字。本页不写楼层、合同方量或价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications-c/long-horizontal-building-line-electric-80.webp",
+    "src": "/images/articles/applications/long-horizontal-building-line-electric-80.jpg",
     "alt": {
-      "en": "This is a grid-powered building pour through a pipeline. Published row: Electric 80, Hebei Pinjin Machinery, Xingtai.",
-      "zh": "这是有电网、走管道的建筑浇筑。已公布机型：电动80，河北品锦机械，邢台。"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/sea-water-properties-d_840.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/sea-water-properties-d_840.html"
     }
   },
   "relatedPaths": [
@@ -125,7 +129,8 @@
     "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
-    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/"
+    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+    "https://www.engineeringtoolbox.com/sea-water-properties-d_840.html"
   ],
   "status": "ready"
 }

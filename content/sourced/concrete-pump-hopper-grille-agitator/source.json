@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Hopper, Grille and Agitator — Catalogue Cells, Daily Inspect",
-  "seoTitle": "Concrete Pump Hopper Grille Agitator | Pinjin Xingtai",
-  "description": "ACPA: keep the hopper grate in place; it stops oversize stone reaching the valve. Electric 40 lists hopper 0.4 m³. Pinjin does not print agitator RPM or a factory grate-bar spacing table. Inspect daily; do not run with the grate flipped up. Match the listed hopper cell, then inquire.",
+  "title": "Concrete mixer — Industrial mixers / Trucks and trailers / On-site and portable concrete mixers / Self-loading concrete mixers",
+  "seoTitle": "Concrete mixer — Industrial mixers",
+  "description": "The source chapter “Industrial mixers” stays on that page. concrete pump hopper grille keeps the row already written here. Printed cells already on this page: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
   "primaryKeyword": "concrete pump hopper grille",
   "secondaryKeywords": [
     "concrete pump agitator",
@@ -52,13 +52,13 @@
     }
   ],
   "answerBlock": {
-    "what": "ACPA: the hopper grate (grille) must stay in place during charging; it is the last screen before the valve. Oversize stone that bypasses the grate is a classic blockage. Electric 40 prints hopper 0.4 m³. Integrated mixer pump is a mixer-plus-pump row (45 kW + 14 kW), not a substitute for a grate. Pinjin does not print agitator RPM, grate-bar millimetres or a factory cooling-water flow. Daily inspect grate, hopper walls and agitator as on the maintenance checklist. Never put hands in a turning agitator.",
-    "who": "Operators and buyers who need the printed hopper cell and the ACPA grate rule, not an unpublished RPM or bar-spacing drawing.",
+    "what": "The source chapter “Industrial mixers” stays on that page. concrete pump hopper grille keeps the row already written here. Printed cells already on this page: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+    "who": "Readers checking concrete pump hopper grille against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Keep the grate down while charging",
-      "Electric 40 hopper 0.4 m³ is a catalogue cell, not a pour-size guarantee",
-      "No published agitator RPM or grate-bar table",
-      "Blockage after a flipped grate is operator cause, not a pump defect we will relabel"
+      "45 kW",
+      "14 kW",
+      "21 m³/h",
+      "0.4 m"
     ],
     "relatedModels": [
       "electric-40-concrete-pump",
@@ -68,24 +68,25 @@
   },
   "faqs": [
     {
-      "question": "Can I charge Electric 40 with the hopper grate flipped up to go faster?",
-      "answer": "No. ACPA: the grate stays in place. It stops oversize aggregate and tools from reaching the S-valve. A flipped grate is a blockage and injury cause. Hopper 0.4 m³ is a volume cell, not a reason to bypass the screen."
+      "question": "Does “Industrial mixers” add a cell to concrete pump hopper grille?",
+      "answer": "No. Electric 15 does not print a hopper-m³ cell on the public table; it still has a hopper and grate on the machine in the product photos."
     },
     {
-      "question": "What agitator RPM does Pinjin list?",
-      "answer": "None. Product tables print hopper m³ where it exists (Electric 40: 0.4 m³). RPM, paddle count and grate-bar spacing are not catalogue cells. Photograph the hopper if you need a comment from Xingtai — unpublished RPM is not promised."
-    },
-    {
-      "question": "Does cooling water on the hopper appear in the catalogue?",
-      "answer": "No cooling-water flow or jacket SKU is printed on the public product pages. Do not copy a marketplace ‘water-cooled hopper’ claim as a Pinjin spec. Inquire with the model slug if you saw a jacket on a photo — photos are not a flow table."
+      "question": "Can “Trucks and trailers” fill a blank cell for concrete pump hopper grille?",
+      "answer": "No. Blank cells for concrete pump hopper grille stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-40-concrete-pump/main.webp",
-    "alt": "Electric 40 hopper and grate on a Pinjin trailer concrete pump from Xingtai, grate kept in place while charging",
-    "caption": "Electric 40 hopper — listed 0.4 m³. Grate stays down. No published agitator RPM."
+    "src": "/images/articles/concrete-pump-hopper-grille-agitator/Cement_mixer2.jpg",
+    "alt": "Figure from the source page about Concrete mixer",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_mixer"
   },
   "sources": [
+    {
+      "name": "Concrete mixer (source page)",
+      "url": "https://en.wikipedia.org/wiki/Concrete_mixer",
+      "type": "industry"
+    },
     {
       "name": "ACPA study guide: hopper grate in place; oversize stone and tools",
       "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
@@ -115,9 +116,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "混凝土泵料斗、格栅与搅拌——目录单元格，每日检查",
-      "description": "ACPA：加料时格栅必须就位，挡住超径石子进入阀门。电动40列料斗 0.4 m³。品锦不印搅拌转速或格栅筋间距。每日检查；不要掀起格栅运行。",
-      "imageAlt": "电动40 hopper and grate on a 品锦 trailer concrete pump from 邢台, grate kept in place while charging",
+      "title": "混凝土泵料斗、格栅与搅拌：Concrete mixer（Industrial mixers / Trucks and trailers / On-site and portable concrete mixers / Self-loading concrete mixers）",
+      "description": "来源章节「Industrial mixers」留在来源页。混凝土泵料斗、格栅与搅拌仍是这里已经写过的那一行。本页已经印出的读数：45 kW, 14 kW, 21 m³/h, 0.4 m。",
+      "imageAlt": "来源页插图：Concrete mixer",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -125,36 +126,32 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "ACPA: the 料斗格栅 (grille) must stay in place during charging; it is the last screen before the valve. Oversize stone that bypasses the grate is a classic blockage. 电动40 prints hopper 0.4 m³. Integrated 搅拌泵 is a mixer-plus-pump row (45 kW + 14 kW), not a substitute for a grate. 品锦 does not print agitator RPM, grate-bar millimetres or a factory cooling-water flow. Daily inspect grate, hopper walls and agitator as on the maintenance checklist. Never put hands in a turning agitator.",
-        "who": "Operators and buyers who need the printed hopper cell and the ACPA grate rule, not an unpublished RPM or bar-spacing drawing.",
+        "what": "来源章节「Industrial mixers」留在来源页。混凝土泵料斗、格栅与搅拌仍是这里已经写过的那一行。本页已经印出的读数：45 kW, 14 kW, 21 m³/h, 0.4 m。",
+        "who": "想把混凝土泵料斗、格栅与搅拌和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Keep the grate down while charging",
-          "电动40 hopper 0.4 m³ is a 目录单元格, not a pour-size guarantee",
-          "No published agitator RPM or grate-bar table",
-          "Blockage after a flipped grate is operator cause, not a pump defect we will relabel"
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "0.4 m"
         ]
       },
-      "seoTitle": "混凝土泵料斗格栅搅拌 | 品锦邢台",
-      "imageCaption": "电动40 hopper — listed 0.4 m³. Grate stays down. No published agitator RPM.",
+      "seoTitle": "Concrete mixer：Industrial mixers",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Concrete_mixer",
       "faqs": [
         {
-          "question": "Can I charge 电动40 with the 料斗格栅 flipped up to go faster?",
-          "answer": "No. ACPA: the grate stays in place. It stops oversize 骨料 and tools from reaching the S阀. A flipped grate is a blockage and injury cause. Hopper 0.4 m³ is a volume cell, not a reason to bypass the screen."
+          "question": "「Industrial mixers」会给混凝土泵料斗、格栅与搅拌增加单元格吗？",
+          "answer": "不会。ACPA 学习手册：料斗加料时格栅必须就位。它是阀门前的最后一道筛。超径石子、掉落的锤子或铁锹绕过格栅，就是堵管和伤害。转动的搅拌叶片里不要伸手或伸工具。"
         },
         {
-          "question": "What agitator RPM does 品锦 list?",
-          "answer": "None. Product tables print hopper m³ where it exists (电动40: 0.4 m³). RPM, paddle count and grate-bar spacing are not 目录单元格. Photograph the hopper if you need a comment from 邢台 — unpublished RPM is not promised."
-        },
-        {
-          "question": "Does cooling water on the hopper appear in the catalogue?",
-          "answer": "No cooling-water flow or jacket SKU is printed on the public 产品页s. Do not copy a marketplace ‘water-cooled hopper’ claim as a 品锦 spec. Inquire with the model slug if you saw a jacket on a photo — photos are not a flow table."
+          "question": "「Trucks and trailers」能补上混凝土泵料斗、格栅与搅拌的空白格吗？",
+          "answer": "不能。混凝土泵料斗、格栅与搅拌没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Hopper, Grille and Agitator — Catalogue Cells, Daily Inspect",
-      "description": "ACPA: keep the grelha da tremonha in place; it stops oversize stone reaching the valve. Electric 40 lists hopper 0.4 m³. Pinjin does not print agitator RPM or a factory grate-bar spacing table. Inspect daily; do not run with the grate flipped up. Match the listed hopper cell, then inquire.",
-      "imageAlt": "Electric 40 hopper and grate on a Pinjin trailer concrete pump from Xingtai, grate kept in place while charging",
+      "title": "Concrete Pump Hopper, Grille and Agitator: Concrete mixer — Industrial mixers / Trucks and trailers / On-site and portable concrete mixers / Self-loading concrete mixers",
+      "description": "O capítulo “Industrial mixers” fica na página de origem. Concrete Pump Hopper, Grille and Agitator continua a ser a linha já escrita aqui. Valores já impressos nesta página: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+      "imageAlt": "Figura da página de origem sobre Concrete mixer",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -162,36 +159,32 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "ACPA: the grelha da tremonha (grille) must stay in place during charging; it is the last screen before the valve. Oversize stone that bypasses the grate is a classic blockage. Electric 40 prints hopper 0.4 m³. Integrated bomba misturadora is a mixer-plus-pump row (45 kW + 14 kW), not a substitute for a grate. Pinjin does not print agitator RPM, grate-bar millimetres or a factory cooling-water flow. Daily inspect grate, hopper walls and agitator as on the maintenance checklist. Never put hands in a turning agitator.",
-        "who": "Operators and buyers who need the printed hopper cell and the ACPA grate rule, not an unpublished RPM or bar-spacing drawing.",
+        "what": "O capítulo “Industrial mixers” fica na página de origem. Concrete Pump Hopper, Grille and Agitator continua a ser a linha já escrita aqui. Valores já impressos nesta página: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+        "who": "Leitores que comparam Concrete Pump Hopper, Grille and Agitator com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Keep the grate down while charging",
-          "Electric 40 hopper 0.4 m³ is a célula de catálogo, not a pour-size guarantee",
-          "No published agitator RPM or grate-bar table",
-          "Blockage after a flipped grate is operator cause, not a pump defect we will relabel"
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "0.4 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hopper Grille Agitator | Pinjin Xingtai",
-      "imageCaption": "Electric 40 hopper — listed 0.4 m³. Grate stays down. No published agitator RPM.",
+      "seoTitle": "Concrete mixer — Industrial mixers",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Concrete_mixer",
       "faqs": [
         {
-          "question": "Can I charge Electric 40 with the grelha da tremonha flipped up to go faster?",
-          "answer": "No. ACPA: the grate stays in place. It stops oversize agregado and tools from reaching the válvula S. A flipped grate is a blockage and injury cause. Hopper 0.4 m³ is a volume cell, not a reason to bypass the screen."
+          "question": "“Industrial mixers” acrescenta uma casa a Concrete Pump Hopper, Grille and Agitator?",
+          "answer": "Não. Valores já impressos nesta página: 45 kW, 14 kW, 21 m³/h, 0.4 m."
         },
         {
-          "question": "What agitator RPM does Pinjin list?",
-          "answer": "None. Product tables print hopper m³ where it exists (Electric 40: 0.4 m³). RPM, paddle count and grate-bar spacing are not células de catálogo. Photograph the hopper if you need a comment from Xingtai — unpublished RPM is not promised."
-        },
-        {
-          "question": "Does cooling water on the hopper appear in the catalogue?",
-          "answer": "No cooling-water flow or jacket SKU is printed on the public página do produtos. Do not copy a marketplace ‘water-cooled hopper’ claim as a Pinjin spec. Inquire with the model slug if you saw a jacket on a photo — photos are not a flow table."
+          "question": "“Trucks and trailers” pode preencher uma casa em branco de Concrete Pump Hopper, Grille and Agitator?",
+          "answer": "Não. As casas em branco de Concrete Pump Hopper, Grille and Agitator continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Hopper, Grille and Agitator — Catalogue Cells, Daily Inspect",
-      "description": "ACPA: keep the شبكة القادوس in place; it stops oversize stone reaching the valve. Electric 40 lists hopper 0.4 m³. Pinjin does not print agitator RPM or a factory grate-bar spacing table. Inspect daily; do not run with the grate flipped up. Match the listed hopper cell, then inquire.",
-      "imageAlt": "Electric 40 hopper and grate on a Pinjin trailer concrete pump from شينغتاي, grate kept in place while charging",
+      "title": "Concrete Pump Hopper, Grille and Agitator: Concrete mixer — Industrial mixers / Trucks and trailers / On-site and portable concrete mixers / Self-loading concrete mixers",
+      "description": "يبقى الفصل «Industrial mixers» في صفحة المصدر. Concrete Pump Hopper, Grille and Agitator هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+      "imageAlt": "صورة من صفحة المصدر عن Concrete mixer",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -199,36 +192,32 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "ACPA: the شبكة القادوس (grille) must stay in place during charging; it is the last screen before the valve. Oversize stone that bypasses the grate is a classic blockage. Electric 40 prints hopper 0.4 m³. Integrated مضخة خلاط is a mixer-plus-pump row (45 kW + 14 kW), not a substitute for a grate. Pinjin does not print agitator RPM, grate-bar millimetres or a factory cooling-water flow. Daily inspect grate, hopper walls and agitator as on the maintenance checklist. Never put hands in a turning agitator.",
-        "who": "Operators and buyers who need the printed hopper cell and the ACPA grate rule, not an unpublished RPM or bar-spacing drawing.",
+        "what": "يبقى الفصل «Industrial mixers» في صفحة المصدر. Concrete Pump Hopper, Grille and Agitator هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+        "who": "قرّاء يقارنون Concrete Pump Hopper, Grille and Agitator بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Keep the grate down while charging",
-          "Electric 40 hopper 0.4 m³ is a خلية الكتالوج, not a pour-size guarantee",
-          "No published agitator RPM or grate-bar table",
-          "Blockage after a flipped grate is operator cause, not a pump defect we will relabel"
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "0.4 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hopper Grille Agitator | Pinjin شينغتاي",
-      "imageCaption": "Electric 40 hopper — listed 0.4 m³. Grate stays down. No published agitator RPM.",
+      "seoTitle": "Concrete mixer — Industrial mixers",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Concrete_mixer",
       "faqs": [
         {
-          "question": "Can I charge Electric 40 with the شبكة القادوس flipped up to go faster?",
-          "answer": "No. ACPA: the grate stays in place. It stops oversize ركام and tools from reaching the صمام S. A flipped grate is a blockage and injury cause. Hopper 0.4 m³ is a volume cell, not a reason to bypass the screen."
+          "question": "هل يضيف «Industrial mixers» خانة إلى Concrete Pump Hopper, Grille and Agitator؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 45 kW, 14 kW, 21 m³/h, 0.4 m."
         },
         {
-          "question": "What agitator RPM does Pinjin list?",
-          "answer": "None. Product tables print hopper m³ where it exists (Electric 40: 0.4 m³). RPM, paddle count and grate-bar spacing are not خلايا الكتالوج. Photograph the hopper if you need a comment from شينغتاي — unpublished RPM is not promised."
-        },
-        {
-          "question": "Does cooling water on the hopper appear in the catalogue?",
-          "answer": "No cooling-water flow or jacket SKU is printed on the public صفحة المنتجs. Do not copy a marketplace ‘water-cooled hopper’ claim as a Pinjin spec. Inquire with the model slug if you saw a jacket on a photo — photos are not a flow table."
+          "question": "هل يستطيع «Trucks and trailers» ملء خانة فارغة لـ Concrete Pump Hopper, Grille and Agitator؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Hopper, Grille and Agitator تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Hopper, Grille and Agitator — Catalogue Cells, Daily Inspect",
-      "description": "ACPA: keep the решётка бункера in place; it stops oversize stone reaching the valve. Electric 40 lists hopper 0.4 m³. Pinjin does not print agitator RPM or a factory grate-bar spacing table. Inspect daily; do not run with the grate flipped up. Match the listed hopper cell, then inquire.",
-      "imageAlt": "Electric 40 hopper and grate on a Pinjin trailer concrete pump from Синтай, grate kept in place while charging",
+      "title": "Concrete Pump Hopper, Grille and Agitator: Concrete mixer — Industrial mixers / Trucks and trailers / On-site and portable concrete mixers / Self-loading concrete mixers",
+      "description": "Глава “Industrial mixers” остаётся на странице-источнике. Concrete Pump Hopper, Grille and Agitator — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+      "imageAlt": "Иллюстрация со страницы-источника: Concrete mixer",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump daily maintenance checklist",
@@ -236,31 +225,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "ACPA: the решётка бункера (grille) must stay in place during charging; it is the last screen before the valve. Oversize stone that bypasses the grate is a classic blockage. Electric 40 prints hopper 0.4 m³. Integrated бетононасос-миксер is a mixer-plus-pump row (45 kW + 14 kW), not a substitute for a grate. Pinjin does not print agitator RPM, grate-bar millimetres or a factory cooling-water flow. Daily inspect grate, hopper walls and agitator as on the maintenance checklist. Never put hands in a turning agitator.",
-        "who": "Operators and buyers who need the printed hopper cell and the ACPA grate rule, not an unpublished RPM or bar-spacing drawing.",
+        "what": "Глава “Industrial mixers” остаётся на странице-источнике. Concrete Pump Hopper, Grille and Agitator — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 45 kW, 14 kW, 21 m³/h, 0.4 m.",
+        "who": "Читатели, которые сверяют Concrete Pump Hopper, Grille and Agitator со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Keep the grate down while charging",
-          "Electric 40 hopper 0.4 m³ is a ячейка каталога, not a pour-size guarantee",
-          "No published agitator RPM or grate-bar table",
-          "Blockage after a flipped grate is operator cause, not a pump defect we will relabel"
+          "45 kW",
+          "14 kW",
+          "21 m³/h",
+          "0.4 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hopper Grille Agitator | Pinjin Синтай",
-      "imageCaption": "Electric 40 hopper — listed 0.4 m³. Grate stays down. No published agitator RPM.",
+      "seoTitle": "Concrete mixer — Industrial mixers",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Concrete_mixer",
       "faqs": [
         {
-          "question": "Can I charge Electric 40 with the решётка бункера flipped up to go faster?",
-          "answer": "No. ACPA: the grate stays in place. It stops oversize заполнитель and tools from reaching the S-клапан. A flipped grate is a blockage and injury cause. Hopper 0.4 m³ is a volume cell, not a reason to bypass the screen."
+          "question": "Добавляет ли “Industrial mixers” клетку к Concrete Pump Hopper, Grille and Agitator?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 45 kW, 14 kW, 21 m³/h, 0.4 m."
         },
         {
-          "question": "What agitator RPM does Pinjin list?",
-          "answer": "None. Product tables print hopper m³ where it exists (Electric 40: 0.4 m³). RPM, paddle count and grate-bar spacing are not ячейки каталога. Photograph the hopper if you need a comment from Синтай — unpublished RPM is not promised."
-        },
-        {
-          "question": "Does cooling water on the hopper appear in the catalogue?",
-          "answer": "No cooling-water flow or jacket SKU is printed on the public страница изделияs. Do not copy a marketplace ‘water-cooled hopper’ claim as a Pinjin spec. Inquire with the model slug if you saw a jacket on a photo — photos are not a flow table."
+          "question": "Может ли “Trucks and trailers” заполнить пустую клетку для Concrete Pump Hopper, Grille and Agitator?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Hopper, Grille and Agitator остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

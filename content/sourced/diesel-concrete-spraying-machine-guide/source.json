@@ -1,7 +1,7 @@
 {
-  "title": "Diesel Concrete Spraying Machine Catalogue Row",
-  "seoTitle": "Diesel Concrete Spraying Machine | Pinjin 28/32 HP",
-  "description": "Xingtai diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer and not M9 plaster. Quote only; no list price.",
+  "title": "Shotcrete — Dry vs. wet mix / Shotcrete machines / Shotcrete vs. gunite / Applications",
+  "seoTitle": "Shotcrete — Dry vs. wet mix",
+  "description": "Opening the source at “Dry vs. wet mix” means reading that page, not a second catalogue for diesel concrete spraying machine. Printed cells already on this page: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
   "primaryKeyword": "diesel concrete spraying machine",
   "secondaryKeywords": [
     "diesel mortar sprayer 28 HP",
@@ -53,13 +53,15 @@
     }
   ],
   "answerBlock": {
-    "what": "This Xingtai diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, hose 38/51 mm, 2350 × 750 × 1050 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer, not M9 plaster and not a mixing plant. Quote only; no list price.",
-    "who": "Contractors spraying mortar or concrete where 380 V is not available and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray.",
+    "what": "Opening the source at “Dry vs. wet mix” means reading that page, not a second catalogue for diesel concrete spraying machine. Printed cells already on this page: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+    "who": "Readers checking diesel concrete spraying machine against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Diesel fuel available and no 380 V grid",
-      "Particle ≤6 mm, not trailer-pump centimetre stone",
-      "Output 5 m³/h and pressure 8 MPa",
-      "Hose 38/51 mm and 80 m / 40 m"
+      "2350 × 750 × 1050 mm",
+      "5 m³/h",
+      "8 MPa",
+      "51 mm",
+      "6 mm",
+      "480 kg"
     ],
     "relatedModels": [
       "diesel-concrete-spraying-machine",
@@ -70,20 +72,25 @@
   },
   "faqs": [
     {
-      "question": "Is this the Diesel 30 concrete pump?",
-      "answer": "No. Diesel 30 is a trailer concrete pump: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m. This page is a spraying machine at 28/32 HP, 5 m³/h, particle ≤6 mm."
+      "question": "Does “Dry vs. wet mix” add a cell to diesel concrete spraying machine?",
+      "answer": "No. Catalogue parameters: engine 28/32 HP, 5 m³/h, 8 MPa, hose 38/51 mm, sand-cement ratio ≤1:3, particle ≤6 mm, 80 m horizontal / 40 m vertical, 2350 × 750 × 1050 mm, 480 kg."
     },
     {
-      "question": "When should I use a 380 V hydraulic sprayer instead?",
-      "answer": "If 380 V is available, compare the hydraulic concrete sprayers (7.5/9 kW at 5 m³/h or 11/15 kW at 7 m³/h). Plaster at ≤4 mm → M9."
+      "question": "Can “Shotcrete machines” fill a blank cell for diesel concrete spraying machine?",
+      "answer": "No. Blank cells for diesel concrete spraying machine stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-concrete-spraying-machine/diesel-concrete-spraying-machine.webp",
-    "alt": "Diesel concrete spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel concrete spraying machine, Xingtai catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm"
+    "src": "/images/articles/diesel-concrete-spraying-machine-guide/Shotcrete_Covered_Cliff_Auckland.jpg",
+    "alt": "Figure from the source page about Shotcrete",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Shotcrete"
   },
   "sources": [
+    {
+      "name": "Shotcrete (source page)",
+      "url": "https://en.wikipedia.org/wiki/Shotcrete",
+      "type": "industry"
+    },
     {
       "name": "Pinjin diesel concrete spraying machine product page",
       "url": "https://pinjinpump.com/en/products/diesel-concrete-spraying-machine/",
@@ -108,9 +115,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Diesel Concrete Spraying Machine Catalogue Row",
-      "description": "邢台 diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, 480 kg. It is not a 柴油30 trailer concrete pump, not a 380 V hydraulic sprayer and not M9 plaster. Quote only; no list price.",
-      "imageAlt": "Diesel concrete spraying machine factory product photo, 河北品锦机械 邢台",
+      "title": "Diesel Concrete Spraying Machine Catalogue Row：Shotcrete（Dry vs. wet mix / Shotcrete machines / Shotcrete vs. gunite / Applications）",
+      "description": "翻到来源页的「Dry vs. wet mix」，读的是那一页，不是Diesel Concrete Spraying Machine Catalogue Row的第二份目录。本页已经印出的读数：2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm。",
+      "imageAlt": "来源页插图：Shotcrete",
       "relatedPathLabels": [
         "Diesel concrete spraying machine 产品页",
         "Concrete spraying machine manufacturer China",
@@ -118,32 +125,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "This 邢台 diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, hose 38/51 mm, 2350 × 750 × 1050 mm, 480 kg. It is not a 柴油30 trailer concrete pump, not a 380 V hydraulic sprayer, not M9 plaster and not a mixing plant. Quote only; no list price.",
-        "who": "Contractors spraying mortar or concrete where 380 V is not available and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray.",
+        "what": "翻到来源页的「Dry vs. wet mix」，读的是那一页，不是Diesel Concrete Spraying Machine Catalogue Row的第二份目录。本页已经印出的读数：2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm。",
+        "who": "想把Diesel Concrete Spraying Machine Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Diesel fuel available and no 380 V grid",
-          "Particle ≤6 mm, not trailer-pump centimetre stone",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 80 m / 40 m"
+          "2350 × 750 × 1050 mm",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm",
+          "6 mm",
+          "480 kg"
         ]
       },
-      "seoTitle": "Diesel Concrete Spraying Machine | 品锦 28/32 HP",
-      "imageCaption": "Diesel concrete spraying machine, 邢台 catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm",
+      "seoTitle": "Shotcrete：Dry vs. wet mix",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Shotcrete",
       "faqs": [
         {
-          "question": "Is this the 柴油30 concrete pump?",
-          "answer": "No. 柴油30 is a trailer concrete pump: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m. This page is a spraying machine at 28/32 HP, 5 m³/h, particle ≤6 mm."
+          "question": "「Dry vs. wet mix」会给Diesel Concrete Spraying Machine Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm。"
         },
         {
-          "question": "When should I use a 380 V hydraulic sprayer instead?",
-          "answer": "If 380 V is available, compare the hydraulic concrete sprayers (7.5/9 kW at 5 m³/h or 11/15 kW at 7 m³/h). Plaster at ≤4 mm → M9."
+          "question": "「Shotcrete machines」能补上Diesel Concrete Spraying Machine Catalogue Row的空白格吗？",
+          "answer": "不能。Diesel Concrete Spraying Machine Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel Concrete Spraying Machine Catalogue Row",
-      "description": "Xingtai diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer and not M9 plaster. Quote only; no list price.",
-      "imageAlt": "Diesel concrete spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
+      "title": "Diesel Concrete Spraying Machine Catalogue Row: Shotcrete — Dry vs. wet mix / Shotcrete machines / Shotcrete vs. gunite / Applications",
+      "description": "Abrir a origem em “Dry vs. wet mix” é ler essa página, não um segundo catálogo de Diesel Concrete Spraying Machine Catalogue Row. Valores já impressos nesta página: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+      "imageAlt": "Figura da página de origem sobre Shotcrete",
       "relatedPathLabels": [
         "Diesel concrete spraying machine página do produto",
         "Concrete spraying machine manufacturer China",
@@ -151,32 +160,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "This Xingtai diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, hose 38/51 mm, 2350 × 750 × 1050 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer, not M9 plaster and not a mixing plant. Quote only; no list price.",
-        "who": "Contractors spraying mortar or concrete where 380 V is not available and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray.",
+        "what": "Abrir a origem em “Dry vs. wet mix” é ler essa página, não um segundo catálogo de Diesel Concrete Spraying Machine Catalogue Row. Valores já impressos nesta página: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+        "who": "Leitores que comparam Diesel Concrete Spraying Machine Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Diesel fuel available and no 380 V grid",
-          "Particle ≤6 mm, not trailer-pump centimetre stone",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 80 m / 40 m"
+          "2350 × 750 × 1050 mm",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm",
+          "6 mm",
+          "480 kg"
         ]
       },
-      "seoTitle": "Diesel Concrete Spraying Machine | Pinjin 28/32 HP",
-      "imageCaption": "Diesel concrete spraying machine, Xingtai catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm",
+      "seoTitle": "Shotcrete — Dry vs. wet mix",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Shotcrete",
       "faqs": [
         {
-          "question": "Is this the Diesel 30 concrete pump?",
-          "answer": "No. Diesel 30 is a trailer concrete pump: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m. This page is a spraying machine at 28/32 HP, 5 m³/h, particle ≤6 mm."
+          "question": "“Dry vs. wet mix” acrescenta uma casa a Diesel Concrete Spraying Machine Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm."
         },
         {
-          "question": "When should I use a 380 V hydraulic sprayer instead?",
-          "answer": "If 380 V is available, compare the hydraulic concrete sprayers (7.5/9 kW at 5 m³/h or 11/15 kW at 7 m³/h). Plaster at ≤4 mm → M9."
+          "question": "“Shotcrete machines” pode preencher uma casa em branco de Diesel Concrete Spraying Machine Catalogue Row?",
+          "answer": "Não. As casas em branco de Diesel Concrete Spraying Machine Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Diesel Concrete Spraying Machine Catalogue Row",
-      "description": "شينغتاي diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer and not M9 plaster. Quote only; no list price.",
-      "imageAlt": "Diesel concrete spraying machine factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "title": "Diesel Concrete Spraying Machine Catalogue Row: Shotcrete — Dry vs. wet mix / Shotcrete machines / Shotcrete vs. gunite / Applications",
+      "description": "فتح المصدر عند «Dry vs. wet mix» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Diesel Concrete Spraying Machine Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Shotcrete",
       "relatedPathLabels": [
         "Diesel concrete spraying machine صفحة المنتج",
         "Concrete spraying machine manufacturer China",
@@ -184,32 +195,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "This شينغتاي diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, hose 38/51 mm, 2350 × 750 × 1050 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer, not M9 plaster and not a mixing plant. Quote only; no list price.",
-        "who": "Contractors spraying mortar or concrete where 380 V is not available and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray.",
+        "what": "فتح المصدر عند «Dry vs. wet mix» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Diesel Concrete Spraying Machine Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+        "who": "قرّاء يقارنون Diesel Concrete Spraying Machine Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Diesel fuel available and no 380 V grid",
-          "Particle ≤6 mm, not trailer-pump centimetre stone",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 80 m / 40 m"
+          "2350 × 750 × 1050 mm",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm",
+          "6 mm",
+          "480 kg"
         ]
       },
-      "seoTitle": "Diesel Concrete Spraying Machine | Pinjin 28/32 HP",
-      "imageCaption": "Diesel concrete spraying machine, شينغتاي catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm",
+      "seoTitle": "Shotcrete — Dry vs. wet mix",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Shotcrete",
       "faqs": [
         {
-          "question": "Is this the Diesel 30 concrete pump?",
-          "answer": "No. Diesel 30 is a trailer concrete pump: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m. This page is a spraying machine at 28/32 HP, 5 m³/h, particle ≤6 mm."
+          "question": "هل يضيف «Dry vs. wet mix» خانة إلى Diesel Concrete Spraying Machine Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm."
         },
         {
-          "question": "When should I use a 380 V hydraulic sprayer instead?",
-          "answer": "If 380 V is available, compare the hydraulic concrete sprayers (7.5/9 kW at 5 m³/h or 11/15 kW at 7 m³/h). Plaster at ≤4 mm → M9."
+          "question": "هل يستطيع «Shotcrete machines» ملء خانة فارغة لـ Diesel Concrete Spraying Machine Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Diesel Concrete Spraying Machine Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Diesel Concrete Spraying Machine Catalogue Row",
-      "description": "Синтай diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer and not M9 plaster. Quote only; no list price.",
-      "imageAlt": "Diesel concrete spraying machine factory product photo, Hebei Pinjin Machinery Синтай",
+      "title": "Diesel Concrete Spraying Machine Catalogue Row: Shotcrete — Dry vs. wet mix / Shotcrete machines / Shotcrete vs. gunite / Applications",
+      "description": "Открыть источник на “Dry vs. wet mix” значит читать ту страницу, а не второй каталог Diesel Concrete Spraying Machine Catalogue Row. Уже напечатанные значения на этой странице: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Shotcrete",
       "relatedPathLabels": [
         "Diesel concrete spraying machine страница изделия",
         "Concrete spraying machine manufacturer China",
@@ -217,27 +230,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "This Синтай diesel concrete spraying machine lists 28/32 HP, 5 m³/h, 8 MPa, 80 m / 40 m and particle ≤6 mm, hose 38/51 mm, 2350 × 750 × 1050 mm, 480 kg. It is not a Diesel 30 trailer concrete pump, not a 380 V hydraulic sprayer, not M9 plaster and not a mixing plant. Quote only; no list price.",
-        "who": "Contractors spraying mortar or concrete where 380 V is not available and 5 m³/h / ≤6 mm / 80 m / 40 m covers the spray.",
+        "what": "Открыть источник на “Dry vs. wet mix” значит читать ту страницу, а не второй каталог Diesel Concrete Spraying Machine Catalogue Row. Уже напечатанные значения на этой странице: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm.",
+        "who": "Читатели, которые сверяют Diesel Concrete Spraying Machine Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Diesel fuel available and no 380 V grid",
-          "Particle ≤6 mm, not trailer-pump centimetre stone",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 80 m / 40 m"
+          "2350 × 750 × 1050 mm",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm",
+          "6 mm",
+          "480 kg"
         ]
       },
-      "seoTitle": "Diesel Concrete Spraying Machine | Pinjin 28/32 HP",
-      "imageCaption": "Diesel concrete spraying machine, Синтай catalogue — 28/32 HP, 5 m³/h, particle ≤6 mm",
+      "seoTitle": "Shotcrete — Dry vs. wet mix",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Shotcrete",
       "faqs": [
         {
-          "question": "Is this the Diesel 30 concrete pump?",
-          "answer": "No. Diesel 30 is a trailer concrete pump: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m. This page is a spraying machine at 28/32 HP, 5 m³/h, particle ≤6 mm."
+          "question": "Добавляет ли “Dry vs. wet mix” клетку к Diesel Concrete Spraying Machine Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 2350 × 750 × 1050 mm, 5 m³/h, 8 MPa, 51 mm, 6 mm, 480 kg, 9 kW, 8 mm."
         },
         {
-          "question": "When should I use a 380 V hydraulic sprayer instead?",
-          "answer": "If 380 V is available, compare the hydraulic concrete sprayers (7.5/9 kW at 5 m³/h or 11/15 kW at 7 m³/h). Plaster at ≤4 mm → M9."
+          "question": "Может ли “Shotcrete machines” заполнить пустую клетку для Diesel Concrete Spraying Machine Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Diesel Concrete Spraying Machine Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

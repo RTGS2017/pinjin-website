@@ -3,100 +3,110 @@
   "category": "buying",
   "keyword": "theoretical concrete pump output when ordering",
   "title": {
-    "en": "Treat Xingtai’s m³/h Cell as Catalogue Output When You Order",
-    "zh": "下单时把邢台的 m³/h 格子当作目录输送量"
+    "en": "theoretical concrete pump output when ordering — Diesel 50 says 30 m³/h — read beside “Flow Metering Principals”",
+    "zh": "下单时把邢台的 m³/h 格子当作目录输送量——柴油50写 30 m³/h。——对照「流量计量原理」来读"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints theoretical output or output capacity. That cell is what you compare. It is not labelled as a guaranteed site total, and it is not the numeral in the model name.",
-    "zh": "河北品锦机械在邢台印的是理论输送量或输出能力。采购对照的是这一格。它没有被标成工地保证总量，也不是型号名称里的数字。"
+    "en": "theoretical concrete pump output when ordering at /products/electric-20-concrete-pump. Diesel 50 says 30 m³/h Electric 20 says 8–10 m³/h",
+    "zh": "下单时把邢台的 m³/h 格子当作目录输送量见 /products/electric-20-concrete-pump。柴油50写 30 m³/h。不要用名称里的 40 替换它。"
   },
   "h1": {
-    "en": "Order from the Printed m³/h Cell",
-    "zh": "按印出的 m³/h 格子下单"
+    "en": "Differential Pressure Flow Meters is the heading; theoretical concrete pump output when ordering stays the subject",
+    "zh": "标题是「差压 流量计」，主体仍是下单时把邢台的 m³/h 格子当作目录输送量"
   },
   "directAnswer": {
-    "en": "When you order from Hebei Pinjin Machinery in Xingtai, copy the output words on the page. Electric 20 says 8–10 m³/h. Diesel 50 says 30 m³/h. LZ-80 says high pressure ≤ 65 m³/h and low pressure ≤ 95 m³/h. Those marks, including the range and the “≤”, stay in the inquiry. The pages do not add a second line called guaranteed site output. Your own required output is a separate sentence.",
-    "zh": "向河北品锦机械（邢台）下单时，抄页面上的输送量原文。电动20写 8–10 m³/h。柴油50写 30 m³/h。LZ-80 写高压 ≤ 65 m³/h、低压 ≤ 95 m³/h。区间和“≤”都留在询盘里。这些页面没有另加一行叫工地保证产量。你自己需要的输送量另写一句。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for theoretical concrete pump output when ordering. The row to open is /products/electric-20-concrete-pump. Diesel 50 says 30 m³/h. Electric 20 says 8–10 m³/h. It prints 60 m³/h at 132 kW. Electric 40’s printed output is 21 m³/h. Do not replace it with the 40 in the name. It is the printed range on Electric 15 and Electric 20. LZ-80 says high pressure ≤ 65 m³/h and low pressure ≤ 95 m³/h. Ordering “95 m³/h” without the low-pressure label drops half the cell. LZ-80’s two output figures belong to high-pressure and low-pressure modes on that diesel page. Write “page prints 21 m³/h” and “we need to discuss our required output” as different clauses. The section title “Flow Metering Principals” comes from the source page and does not add a rating.",
+    "zh": "河北品锦机械在邢台印出的是下单时把邢台的 m³/h 格子当作目录输送量的数字。要打开的行是 /products/electric-20-concrete-pump。柴油50写 30 m³/h。不要用名称里的 40 替换它。电动20写 8–10 m³/h。它是电动15和电动20上印出的区间。电动40印出的输送量是 21 m³/h。它印 60 m³/h，电机 132 kW。只写“95 m³/h”而不写低压，会丢掉半格。LZ-80 的两个输送量属于该柴油页上的高压和低压模式。LZ-80 写高压 ≤ 65 m³/h、低压 ≤ 95 m³/h。把“页面印 21 m³/h”和“我们需要讨论的目标输送量”写成不同的分句。节标题「流量计量原理」来自来源页，不另加额定值。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Two numbers in one inquiry",
-        "zh": "一封询盘里的两个数"
+        "en": "Flow Metering Principals",
+        "zh": "流量计量原理"
       },
       "body": {
-        "en": "Write “page prints 21 m³/h” and “we need to discuss our required output” as different clauses. Electric 40’s printed output is 21 m³/h. Do not replace it with the 40 in the name.",
-        "zh": "把“页面印 21 m³/h”和“我们需要讨论的目标输送量”写成不同的分句。电动40印出的输送量是 21 m³/h。不要用名称里的 40 替换它。"
+        "en": "“Flow Metering Principals” titles this part of the theoretical concrete pump output when ordering note. The figures stay the printed ones. Diesel 50 says 30 m³/h. Do not replace it with the 40 in the name. LZ-80’s two output figures belong to high-pressure and low-pressure modes on that diesel page.",
+        "zh": "「流量计量原理」是下单时把邢台的 m³/h 格子当作目录输送量这一节的标题。数字仍以已印的为准。柴油50写 30 m³/h。不要用名称里的 40 替换它。LZ-80 的两个输送量属于该柴油页上的高压和低压模式。"
       }
     },
     {
       "heading": {
-        "en": "Modes are still catalogue cells",
-        "zh": "模式仍然是目录格"
+        "en": "Differential Pressure Flow Meters",
+        "zh": "差压 流量计"
       },
       "body": {
-        "en": "LZ-80’s two output figures belong to high-pressure and low-pressure modes on that diesel page. Ordering “95 m³/h” without the low-pressure label drops half the cell. Delivery height on that page is “consult factory standard”, not a metres figure.",
-        "zh": "LZ-80 的两个输送量属于该柴油页上的高压和低压模式。只写“95 m³/h”而不写低压，会丢掉半格。该页输送高度是“咨询工厂标准”，不是一个米数。"
+        "en": "For theoretical concrete pump output when ordering, the heading “Differential Pressure Flow Meters” does not replace a cell. Electric 20 says 8–10 m³/h. It is the printed range on Electric 15 and Electric 20. Write “page prints 21 m³/h” and “we need to discuss our required output” as different clauses.",
+        "zh": "对下单时把邢台的 m³/h 格子当作目录输送量而言，标题「差压 流量计」并不替换任何格子。电动20写 8–10 m³/h。它是电动15和电动20上印出的区间。把“页面印 21 m³/h”和“我们需要讨论的目标输送量”写成不同的分句。"
       }
     },
     {
       "heading": {
-        "en": "Where to send both numbers",
-        "zh": "两个数发到哪里"
+        "en": "Orifice Plate",
+        "zh": "孔板"
       },
       "body": {
-        "en": "[/en/contact/](/en/contact/), with the slug. Hebei Pinjin Machinery confirms whether the printed cell is the one to quote. It does not confirm a price on this article.",
-        "zh": "连同型号地址发到 [/zh/contact/](/zh/contact/)。河北品锦机械确认要报价的是不是这一印出的格子。本篇不确认价格。"
+        "en": "theoretical concrete pump output when ordering is unchanged by the heading “Orifice Plate”. It prints 60 m³/h at 132 kW. LZ-80 says high pressure ≤ 65 m³/h and low pressure ≤ 95 m³/h.",
+        "zh": "下单时把邢台的 m³/h 格子当作目录输送量不因标题「孔板」而改动。它印 60 m³/h，电机 132 kW。LZ-80 写高压 ≤ 65 m³/h、低压 ≤ 95 m³/h。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Venturi Tube",
+        "zh": "文丘里管"
+      },
+      "body": {
+        "en": "This section is titled “Venturi Tube”. theoretical concrete pump output when ordering still prints the cells below. Electric 40’s printed output is 21 m³/h. Ordering “95 m³/h” without the low-pressure label drops half the cell. The photograph is an image from the source page https://www.engineeringtoolbox.com/flow-meters-d_493.html.",
+        "zh": "本节标题是「文丘里管」。下单时把邢台的 m³/h 格子当作目录输送量下面这些格子仍是印出来的。电动40印出的输送量是 21 m³/h。只写“95 m³/h”而不写低压，会丢掉半格。配图来自来源页 https://www.engineeringtoolbox.com/flow-meters-d_493.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 8–10 a promise of 10?",
-        "zh": "8–10 是保证 10 吗？"
+        "en": "Does “Flow Metering Principals” replace Diesel 50 says 30 m³/h?",
+        "zh": "「流量计量原理」会替换「柴油50写 30 m³/h。」吗？"
       },
       "answer": {
-        "en": "It is the printed range on Electric 15 and Electric 20. Keep both ends.",
-        "zh": "它是电动15和电动20上印出的区间。两端都保留。"
+        "en": "No. Diesel 50 says 30 m³/h remains the printed wording for theoretical concrete pump output when ordering.",
+        "zh": "不会。柴油50写 30 m³/h。仍是下单时把邢台的 m³/h 格子当作目录输送量已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Does HBT8018 print 80 m³/h?",
-        "zh": "HBT8018 印 80 m³/h 吗？"
+        "en": "Where does Electric 20 says 8–10 m³/h belong on the theoretical concrete pump output when ordering row?",
+        "zh": "下单时把邢台的 m³/h 格子当作目录输送量这一行里，「不要用名称里的 40 替换它。」放在哪里？"
       },
       "answer": {
-        "en": "It prints 60 m³/h at 132 kW.",
-        "zh": "它印 60 m³/h，电机 132 kW。"
+        "en": "It belongs on /products/electric-20-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-20-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Can I average two rows into one output?",
-        "zh": "可以把两行距离平均成一个输送量吗？"
+        "en": "What does “Differential Pressure Flow Meters” add to theoretical concrete pump output when ordering?",
+        "zh": "「差压 流量计」给下单时把邢台的 m³/h 格子当作目录输送量增加了什么？"
       },
       "answer": {
-        "en": "No. Output and distance are different cells.",
-        "zh": "不能。输送量和距离是不同的格子。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/flow-meters-d_493.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/flow-meters-d_493.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Who says if our needed rate fits?",
-        "zh": "谁说明我们需要的产量是否合适？"
+        "en": "Which path names the theoretical concrete pump output when ordering row?",
+        "zh": "哪条路径对应下单时把邢台的 m³/h 格子当作目录输送量这一行？"
       },
       "answer": {
-        "en": "Xingtai, after the inquiry. Not a marketplace average.",
-        "zh": "邢台，在询盘之后。不是平台上的平均数字。"
+        "en": "/products/electric-20-concrete-pump",
+        "zh": "/products/electric-20-concrete-pump"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-hbt8018-output-cell-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-theoretical-output-is-catalogue-not-guarantee-7cb71e29.gif",
     "alt": {
-      "en": "HBT8018 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "HBT8018 混凝土泵，由河北品锦机械厂家制造，邢台"
+      "en": "Fluid Flowmeters - Comparing Types. Image from the source page: https://www.engineeringtoolbox.com/flow-meters-d_493.html.",
+      "zh": "Fluid Flowmeters - Comparing Types。图来自来源页：https://www.engineeringtoolbox.com/flow-meters-d_493.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +135,8 @@
     "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/flow-meters-d_493.html"
   ],
   "status": "ready"
 }

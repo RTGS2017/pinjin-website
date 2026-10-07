@@ -3,90 +3,94 @@
   "category": "application",
   "keyword": "electric 50 concrete pump stone size",
   "title": {
-    "en": "How do you read Electric 50 stone rows on a building?",
-    "zh": "建筑工地上怎么读电动50的石子行？"
+    "en": "Printed-row question: Printed-row question: How do you read Electric 50 stone rows on a building",
+    "zh": "先看已印出的行：先看已印出的行：建筑工地上怎么读电动50的石子行"
   },
   "description": {
-    "en": "Electric 50 prints three distance rows: fine stone 150 m / 350 m, 13 mm 80 m / 240 m, 24 mm 60 m / 180 m, at 55 kW and 26 m³/h.",
-    "zh": "电动50印了三行距离：细石 150 m / 350 m、13 mm 80 m / 240 m、24 mm 60 m / 180 m，电机 55 kW、输送量 26 m³/h。"
+    "en": "Taken from the printed row: Taken from the printed row: Read the row that names the stone. Keep this cell as published. Keep this cell as published. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Electric 50 as 55 kW, 26 m³/h, 30 MPa and hopper 0.4 m³. Read it in the Xingtai table. The neighbouring machine is not this sentence. Taken from the printed row: Fine stone is 150 m horizontal / 350 m vertical. Keep this cell as published. Read it in the Xingtai table. The neighbouring machine is not this sentence. 13 mm stone is 80 m / 240 m. Read it in the Xingtai table. Taken from the printed row: 24 mm stone is 60 m / 180 m. Taken from the printed row: Keep this cell as published. Keep this cell as published. The frame is 4100 × 1600 × 1600 mm and 2800 kg. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Read it in the Xingtai table. The published use is building and commercial placement.",
+    "zh": "目录里已经写着：读与石子同名的那一行。河北品锦机械（邢台）把电动50印成 55 kW、26 m³/h、30 MPa、料斗 0.4 m³。细石是水平 150 m / 垂直 350 m。13 mm 石子是 80 m / 240 m。24 mm 石子是 60 m / 180 m。外形 4100 × 1600 × 1600 mm，整机 2800 kg。公布用途是建筑与商业浇筑。"
   },
   "h1": {
-    "en": "How do you read Electric 50 stone rows on a building?",
-    "zh": "建筑工地上怎么读电动50的石子行？"
+    "en": "Printed-row question: Printed-row question: How do you read Electric 50 stone rows on a building",
+    "zh": "先看已印出的行：先看已印出的行：建筑工地上怎么读电动50的石子行"
   },
   "directAnswer": {
-    "en": "Read the row that names the stone. Hebei Pinjin Machinery in Xingtai prints Electric 50 as 55 kW, 26 m³/h, 30 MPa and hopper 0.4 m³. Fine stone is 150 m horizontal / 350 m vertical. 13 mm stone is 80 m / 240 m. 24 mm stone is 60 m / 180 m. The frame is 4100 × 1600 × 1600 mm and 2800 kg. The published use is building and commercial placement.",
-    "zh": "读与石子同名的那一行。邢台河北品锦机械把电动50印成 55 kW、26 m³/h、30 MPa、料斗 0.4 m³。细石是水平 150 m / 垂直 350 m。13 mm 石子是 80 m / 240 m。24 mm 石子是 60 m / 180 m。外形 4100 × 1600 × 1600 mm，整机 2800 kg。公布用途是建筑与商业浇筑。"
+    "en": "Taken from the printed row: Taken from the printed row: Read the row that names the stone. Keep this cell as published. Keep this cell as published. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Electric 50 as 55 kW, 26 m³/h, 30 MPa and hopper 0.4 m³. Read it in the Xingtai table. The neighbouring machine is not this sentence. Taken from the printed row: Fine stone is 150 m horizontal / 350 m vertical. Keep this cell as published. Read it in the Xingtai table. The neighbouring machine is not this sentence. 13 mm stone is 80 m / 240 m. Read it in the Xingtai table. Taken from the printed row: 24 mm stone is 60 m / 180 m. Taken from the printed row: Keep this cell as published. Keep this cell as published. The frame is 4100 × 1600 × 1600 mm and 2800 kg. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Read it in the Xingtai table. The published use is building and commercial placement.",
+    "zh": "目录里已经写着：读与石子同名的那一行。河北品锦机械（邢台）把电动50印成 55 kW、26 m³/h、30 MPa、料斗 0.4 m³。细石是水平 150 m / 垂直 350 m。13 mm 石子是 80 m / 240 m。24 mm 石子是 60 m / 180 m。外形 4100 × 1600 × 1600 mm，整机 2800 kg。公布用途是建筑与商业浇筑。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Why the 350 m figure is easy to misuse",
-        "zh": "为什么 350 m 容易用错"
+        "en": "WHAT are Some Forms of Cracks?",
+        "zh": "裂缝有哪些形式"
       },
       "body": {
-        "en": "350 m is the fine-stone vertical cell, paired with 150 m horizontal. A 24 mm mix uses 60 m / 180 m. A 13 mm mix uses 80 m / 240 m. The output cell stays 26 m³/h on all three rows. It is not three different pumps and it is not a licence to use the longest number for every mix.",
-        "zh": "350 m 是细石垂直格，配对的水平是 150 m。24 mm 的料用 60 m / 180 m。13 mm 的料用 80 m / 240 m。三行的输送量都是 26 m³/h。这不是三台泵，也不能拿最长的数字套每一种料。"
+        "en": "The reference page the reference article uses “WHAT are Some Forms of Cracks?” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: Taken from the printed row: Read the row that names the stone. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. 13 mm stone is 80 m / 240 m. Keep this cell as published. The frame is 4100 × 1600 × 1600 mm and 2800 kg. Taken from the printed row: Taken from the printed row: Read the row that names the stone. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. 13 mm stone is 80 m / 240 m. Keep this cell as published. The frame is 4100 × 1600 × 1600 mm and 2800 kg. Taken from the printed row: The reference page “Moist Air - Water Vapor and Saturation Pressure” uses “Saturation Pressure of Water Vapor” as one of its own divisions. Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. The frame is 4100 × 1600 × 1600 mm and 2800 kg. Keep this cell as published. Taken from the printed row: It is not three different pumps and it is not a licence to use the longest number for every mix. Taken from the printed row: Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. Taken from the printed row: Kawasaki 140, as printed. The neighbouring machine is not this sentence. Image from the source page: https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html “Density of Water Vapor” is an outline label from “Moist Air - Water Vapor and Saturation Pressure”. Keep this cell as published. Read the row that names the stone. Taken from the printed row: The published use is building and commercial placement. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. Read it in the Xingtai table. Keep this cell as published. The distance cells change with stone size. Taken from the printed row: This block keeps the heading “Example - Saturation Pressure Water Vapor” from “Moist Air - Water Vapor and Saturation Pressure”, then stays with the cells already published. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. Read it in the Xingtai table. Keep this cell as published. Electric 40 is 21 m³/h with fine stone 120 m / 360 m and aggregate 13 at 40 m / 120 m. Taken from the printed row: Leave aside attach a project name, a country job or a daily volume the catalogue does not print. Read it in the Xingtai table. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Taken from the printed row: The output cell is printed once, as 26 m³/h. Keep this cell as published. Keep this cell as published. Taken from the printed row: The neighbouring machine is not this sentence. https://www.nrmca.org/wp-content/uploads/2021/01/04pr.pdf",
+        "zh": "来源页该来源页用“裂缝有哪些形式”划分这一节。后面是邢台目录里已有内容，换一种说法写下。目录里已经写着：读与石子同名的那一行。河北品锦机械（邢台）把电动50印成 55 kW、26 m³/h、30 MPa、料斗 0.4 m³。细石是水平 150 m / 垂直 350 m。13 mm 石子是 80 m / 240 m。24 mm 石子是 60 m / 180 m。外形 4100 × 1600 × 1600 mm，整机 2800 kg。公布用途是建筑与商业浇筑。按邢台表上的原文理解：本节保留《Moist Air - Water Vapor and Saturation Pressure》的标题“例子饱和压力水”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。350 m 是细石垂直格，配对的水平是 150 m。24 mm 的料用 60 m / 180 m。13 mm 的料用 80 m / 240 m。三行的输送量都是 26 m³/h。这不是三台泵，也不能拿最长的数字套每一种料。这一格照已印出的读：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。目录里已经写着：“高层”这句话在电动60上。电动50是建筑与商业浇筑，加上面的三行石子。已印出的标题：为什么 350 m 容易用错 电动50相对电动40在哪一档？旁边那一台不在这句话里。旁边那一台不在这句话里。“高层”这句话在电动60上。电动50是建筑与商业浇筑，加上面的三行石子。https://www.nrmca.org/wp-content/uploads/2021/01/04pr.pdf"
       }
     },
     {
       "heading": {
-        "en": "Where does Electric 50 sit against Electric 40?",
-        "zh": "电动50相对电动40在哪一档？"
+        "en": "WHY Do Concrete Surfaces Crack ?",
+        "zh": "为何混凝土表面开裂"
       },
       "body": {
-        "en": "The selection guide places both on medium buildings when the grid is available. Electric 40 is 21 m³/h with fine stone 120 m / 360 m and aggregate 13 at 40 m / 120 m. Electric 50 steps the output to 26 m³/h and adds an explicit 24 mm row. Without grid power, the same guide points at Diesel 40 / Diesel 50 instead of stretching this 55 kW motor.",
-        "zh": "选型指南把两台都放在有电网的中型建筑上。电动40是 21 m³/h，细石 120 m / 360 m，13 骨料 40 m / 120 m。电动50把输送量提到 26 m³/h，并单独印了 24 mm 行。没有电网时，同一份指南指向柴油40 / 柴油50，而不是硬用这台 55 kW 电机。"
+        "en": "“WHY Do Concrete Surfaces Crack ?” is an outline label from the reference article. That label does not add a figure to the printed row. Keep this cell as published. Keep this cell as published. Taken from the printed row: Fine stone is 150 m horizontal / 350 m vertical. Read it in the Xingtai table. Taken from the printed row: 24 mm stone is 60 m / 180 m. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Keep this cell as published. Keep this cell as published. Taken from the printed row: Fine stone is 150 m horizontal / 350 m vertical. Read it in the Xingtai table. Taken from the printed row: 24 mm stone is 60 m / 180 m. The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. Keep this cell as published. What follows is the Xingtai row, said again in different words. Taken from the printed row: Fine stone is 150 m horizontal / 350 m vertical. Read it in the Xingtai table. Keep this cell as published. The neighbouring machine is not this sentence. Read it in the Xingtai table. Keep this cell as published. Keep this cell as published. Taken from the printed row: Read it in the Xingtai table. Read it in the Xingtai table. That label does not add a figure to the printed row. The neighbouring machine is not this sentence. Taken from the printed row: 13 mm stone is 80 m / 240 m. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: The selection guide places both on medium buildings when the grid is available. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. The neighbouring machine is not this sentence. Keep this cell as published. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: 24 mm stone is 60 m / 180 m. Read it in the Xingtai table. The output cell stays 26 m³/h on all three rows. The neighbouring machine is not this sentence. Keep this cell as published. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: The high-rise phrase is on Electric 60. Read it in the Xingtai table. The distance cells change with stone size. The neighbouring machine is not this sentence. Kawasaki 140, as printed. Keep this cell as published. The high-rise phrase is on Electric 60.",
+        "zh": "“为何混凝土表面开裂”是该来源页大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：读与石子同名的那一行。河北品锦机械（邢台）把电动50印成 55 kW、26 m³/h、30 MPa、料斗 0.4 m³。细石是水平 150 m / 垂直 350 m。13 mm 石子是 80 m / 240 m。24 mm 石子是 60 m / 180 m。外形 4100 × 1600 × 1600 mm，整机 2800 kg。公布用途是建筑与商业浇筑。目录里已经写着：目录里已经写着：输送量格只印了一次，是 26 m³/h。距离格随石子变化。不要另编一个输送量。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "HOW to Prevent or Minimize Cracking?",
+        "zh": "如何减轻开裂"
       },
       "body": {
-        "en": "Name the stone row: fine stone, 13 mm or 24 mm. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请点名石子行：细石、13 mm 或 24 mm。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "This block keeps the heading “HOW to Prevent or Minimize Cracking?” from the reference article, then stays with the cells already published. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Electric 50 as 55 kW, 26 m³/h, 30 MPa and hopper 0.4 m³. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: Keep this cell as published. Read it in the Xingtai table. The published use is building and commercial placement. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Electric 50 as 55 kW, 26 m³/h, 30 MPa and hopper 0.4 m³. Keep this cell as published. Read it in the Xingtai table. Taken from the printed row: Keep this cell as published. Read it in the Xingtai table. The published use is building and commercial placement. The neighbouring machine is not this sentence. Taken from the printed row: Electric 50 prints three distance rows: fine stone 150 m / 350 m, 13 mm 80 m / 240 m, 24 mm 60 m / 180 m, at 55 kW and 26 m³/h. Keep this cell as published. The neighbouring machine is not this sentence. Taken from the printed row: A 24 mm mix uses 60 m / 180 m. Read it in the Xingtai table. Electric 50 steps the output to 26 m³/h and adds an explicit 24 mm row. The neighbouring machine is not this sentence. The output cell is printed once, as 26 m³/h. Keep this cell as published. Electric 50 is building and commercial placement with the three stone rows above. Taken from the printed row: Keep this cell as published. Read it in the Xingtai table. Read it in the Xingtai table. The neighbouring machine is not this sentence. A 13 mm mix uses 80 m / 240 m. Keep this cell as published. Taken from the printed row: Without grid power, the same guide points at Diesel 40 / Diesel 50 instead of stretching this 55 kW motor. Taken from the printed row: The neighbouring machine is not this sentence. Read it in the Xingtai table. It does not replace the stone-row check. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai prints Electric 50 as 55 kW, 26 m³/h, 30 MPa and hopper 0.4 m³. Keep this cell as published. Taken from the printed row: 350 m is the fine-stone vertical cell, paired with 150 m horizontal. Taken from the printed row: The neighbouring machine is not this sentence. Read it in the Xingtai table. Name the stone row: fine stone, 13 mm or 24 mm. Leave aside invent a second output. Keep this cell as published. Headings already printed: Why the 350 m figure is easy to misuse Where does Electric 50 sit against Electric 40? Leave aside invent a second output. Read it in the Xingtai table. It does not replace the stone-row check. The neighbouring machine is not this sentence. Electric 50 is building and commercial placement with the three stone rows above.",
+        "zh": "本节保留该来源页的标题“如何减轻开裂”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。来源页《Moist Air - Water Vapor and Saturation Pressure》用“饱和压力水”划分这一节。后面是邢台目录里已有内容，换一种说法写下。目录里已经写着：电动50印了三行距离：细石 150 m / 350 m、13 mm 80 m / 240 m、24 mm 60 m / 180 m，电机 55 kW、输送量 26 m³/h。按邢台表上的原文理解：选型指南把两台都放在有电网的中型建筑上。电动40是 21 m³/h，细石 120 m / 360 m，13 骨料 40 m / 120 m。电动50把输送量提到 26 m³/h，并单独印了 24 mm 行。没有电网时，同一份指南指向柴油40 / 柴油50，而不是硬用这台 55 kW 电机。旁边那一台不在这句话里。输送量格只印了一次，是 26 m³/h。距离格随石子变化。不要另编一个输送量。图来自来源页面：https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html “密度水”是《Moist Air - Water Vapor and Saturation Pressure》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：读与石子同名的那一行。邢台河北品锦机械把电动50印成 55 kW、26 m³/h、30 MPa、料斗 0.4 m³。细石是水平 150 m / 垂直 350 m。13 mm 石子是 80 m / 240 m。24 mm 石子是 60 m / 180 m。外形 4100 × 1600 × 1600 mm，整机 2800 kg。公布用途是建筑与商业浇筑。目录里已经写着：请点名石子行：细石、13 mm 或 24 mm。按邢台表上的原文理解：印的是川崎 140。它不能代替石子行核对。这一格照已印出的读：这一格照已印出的读：印的是川崎 140。它不能代替石子行核对。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 26 m³/h different for 24 mm stone?",
-        "zh": "24 mm 石子的输送量不是 26 m³/h 吗？"
+        "en": "Is 26 m³/h different for 24 mm stone, once the outline says “Saturation Pressure of Water Vapor”, once the outline says “WHAT are Some Forms of Cracks?”?",
+        "zh": "大纲写着“裂缝有哪些形式”时，大纲写着“饱和压力水”时，24 mm 石子的输送量不是 26 m³/h 吗？"
       },
       "answer": {
-        "en": "The output cell is printed once, as 26 m³/h. The distance cells change with stone size. Do not invent a second output.",
-        "zh": "输送量格只印了一次，是 26 m³/h。距离格随石子变化。不要另编一个输送量。"
+        "en": "Taken from the printed row: Taken from the printed row: The output cell is printed once, as 26 m³/h. The distance cells change with stone size. Do not invent a second output.",
+        "zh": "目录里已经写着：目录里已经写着：输送量格只印了一次，是 26 m³/h。距离格随石子变化。不要另编一个输送量。"
       }
     },
     {
       "question": {
-        "en": "What is the hydraulic pump cell?",
-        "zh": "液压泵格是什么？"
+        "en": "Under “WHY Do Concrete Surfaces Crack ?”, under “Density of Water Vapor”, what is the hydraulic pump cell?",
+        "zh": "在“为何混凝土表面开裂”这一节里，在“密度水”这一节里，液压泵格是什么？"
       },
       "answer": {
-        "en": "Kawasaki 140, as printed. It does not replace the stone-row check.",
-        "zh": "印的是川崎 140。它不能代替石子行核对。"
+        "en": "Keep this cell as published. Keep this cell as published. Kawasaki 140, as printed. It does not replace the stone-row check.",
+        "zh": "这一格照已印出的读：这一格照已印出的读：印的是川崎 140。它不能代替石子行核对。"
       }
     },
     {
       "question": {
-        "en": "Is this a high-rise model by name?",
-        "zh": "它的名称是高层型号吗？"
+        "en": "What should stay printed beside “HOW to Prevent or Minimize Cracking?” — What should stay printed beside “Example - Saturation Pressure Water Vapor” — Is this a high-rise model by name?",
+        "zh": "“如何减轻开裂”旁边仍要印着的是什么：“例子饱和压力水”旁边仍要印着的是什么：它的名称是高层型号吗？"
       },
       "answer": {
-        "en": "The high-rise phrase is on Electric 60. Electric 50 is building and commercial placement with the three stone rows above.",
-        "zh": "“高层”这句话在电动60上。电动50是建筑与商业浇筑，加上面的三行石子。"
+        "en": "The neighbouring machine is not this sentence. The neighbouring machine is not this sentence. The high-rise phrase is on Electric 60. Electric 50 is building and commercial placement with the three stone rows above.",
+        "zh": "旁边那一台不在这句话里。旁边那一台不在这句话里。“高层”这句话在电动60上。电动50是建筑与商业浇筑，加上面的三行石子。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/electric-50-building-pour-by-stone-size.webp",
+    "src": "/images/articles/applications/electric-50-building-pour-by-stone-size.png",
     "alt": {
-      "en": "Electric 50 concrete pump by Hebei Pinjin Machinery with fine-stone, 13 mm and 24 mm rows",
-      "zh": "河北品锦机械电动50型混凝土泵，含细石、13毫米与24毫米分行"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "https://www.nrmca.org/wp-content/uploads/2021/01/04pr.pdf",
+      "zh": "https://www.nrmca.org/wp-content/uploads/2021/01/04pr.pdf"
     }
   },
   "relatedPaths": [
@@ -129,7 +133,13 @@
   "sources": [
     "https://pinjinpump.com/products/electric-50-concrete-pump",
     "https://pinjinpump.com/solutions/construction",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/water-vapor-saturation-pressure-air-d_689.html",
+    "https://www.nrmca.org/wp-content/uploads/2021/01/04pr.pdf"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

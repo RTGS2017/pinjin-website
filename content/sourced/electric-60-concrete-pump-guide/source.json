@@ -1,7 +1,7 @@
 {
-  "title": "Electric 60 Concrete Pump Catalogue Row",
-  "seoTitle": "Electric 60 Concrete Pump | Pinjin 90 kW 40 m³/h",
-  "description": "Electric 60 is a Xingtai electric trailer pump listing 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. It is not Electric 50 (55 kW, 26 m³/h) and not Electric 80 (110 kW, 60 m³/h, 900 m / 300 m). Match the printed table, then inquire.",
+  "title": "Voltage — Electrostatics / Electrodynamics / Circuit theory / Addition of voltages",
+  "seoTitle": "Voltage — Electrostatics",
+  "description": "“Electrostatics” is a chapter on the source page. It does not rename Electric 60 concrete pump. Printed cells already on this page: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
   "primaryKeyword": "Electric 60 concrete pump",
   "secondaryKeywords": [
     "90 kW electric trailer concrete pump",
@@ -44,13 +44,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric 60 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 90 kW motor, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, hopper 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. Same page: 13 mm stone 150 m / 450 m; 24 mm stone 100 m / 300 m. It is not Electric 80 and not HBT80-16.",
-    "who": "High-rise and long-distance fine-stone jobs matching 40 m³/h, 35 MPa and 200 m / 600 m on a 90 kW grid.",
+    "what": "“Electrostatics” is a chapter on the source page. It does not rename Electric 60 concrete pump. Printed cells already on this page: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+    "who": "Readers checking Electric 60 concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "90 kW / 40 m³/h versus Electric 80 at 110 kW / 60 m³/h / 40 MPa",
-      "Fine stone 200 m / 600 m versus Electric 80 900 m / 300 m (2 cm aggregate)",
-      "Hopper 0.7 m³ (same litres as Electric 80, different output and distance)",
-      "Weight 3300 kg versus Electric 80 6000 kg"
+      "6600 × 1800 × 1800 mm",
+      "90 kW",
+      "40 m³/h",
+      "35 MPa",
+      "3300 kg",
+      "13 mm"
     ],
     "relatedModels": [
       "electric-60-concrete-pump",
@@ -60,20 +62,25 @@
   },
   "faqs": [
     {
-      "question": "Is Electric 60’s 3300 kg the same frame as Electric 80?",
-      "answer": "No. Electric 60 lists 3300 kg, 90 kW, 40 m³/h, 6600 × 1800 × 1800 mm. Electric 80 lists 6000 kg, 110 kW, 60 m³/h. Hopper 0.7 m³ appears on both pages."
+      "question": "Does “Electrostatics” add a cell to Electric 60 concrete pump?",
+      "answer": "No. Electric 60 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Is Electric 60’s 90 kW the Electric 80 motor?",
-      "answer": "No. Electric 80 lists 110 kW, 60 m³/h, 40 MPa, model HBT80-1816-110, 6000 kg. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 3300 kg."
+      "question": "Can “Electrodynamics” fill a blank cell for Electric 60 concrete pump?",
+      "answer": "No. Blank cells for Electric 60 concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-60-concrete-pump/electric-60-concrete-pump.webp",
-    "alt": "Electric 60 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 60 trailer pump, Xingtai catalogue — 90 kW, 40 m³/h, fine stone 200 m / 600 m"
+    "src": "/images/articles/electric-60-concrete-pump-guide/9VBatteryWithMeter.jpg",
+    "alt": "Figure from the source page about Voltage",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Voltage"
   },
   "sources": [
+    {
+      "name": "Voltage (source page)",
+      "url": "https://en.wikipedia.org/wiki/Voltage",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 60 product page",
       "url": "https://pinjinpump.com/en/products/electric-60-concrete-pump/",
@@ -111,11 +118,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Electric 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 60 Concrete Pump | Pinjin 90 kW 40 m³/h",
-      "description": "Electric 60 is a 邢台 electric 拖式泵 listing 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 料斗 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. It is not Electric 50 (55 kW, 26 m³/h) and not Electric 80 (110 kW, 60 m³/h, 900 m / 300 m). Match the printed table, then 询价.",
-      "imageAlt": "Electric 60 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Electric 60 拖式泵, 邢台 catalogue — 90 kW, 40 m³/h, fine stone 200 m / 600 m",
+      "title": "Electric 60 Concrete Pump Catalogue Row：Voltage（Electrostatics / Electrodynamics / Circuit theory / Addition of voltages）",
+      "seoTitle": "Voltage：Electrostatics",
+      "description": "「Electrostatics」是来源页自己的章节，不会把Electric 60 Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW。",
+      "imageAlt": "来源页插图：Voltage",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Voltage",
       "relatedPathLabels": [
         "Electric 60 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -123,32 +130,34 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 60 Concrete Pump is an electric 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 90 kW motor, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, 料斗 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. Same page: 13 mm stone 150 m / 450 m; 24 mm stone 100 m / 300 m. It is not Electric 80 and not HBT80-16.",
-        "who": "High-rise and long-distance fine-stone jobs matching 40 m³/h, 35 MPa and 200 m / 600 m on a 90 kW grid.",
+        "what": "「Electrostatics」是来源页自己的章节，不会把Electric 60 Concrete Pump Catalogue Row改成另一条目录。本页已经印出的读数：6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW。",
+        "who": "想把Electric 60 Concrete Pump Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "90 kW / 40 m³/h versus Electric 80 at 110 kW / 60 m³/h / 40 MPa",
-          "Fine stone 200 m / 600 m versus Electric 80 900 m / 300 m (2 cm 骨料)",
-          "料斗 0.7 m³ (same litres as Electric 80, different output and distance)",
-          "Weight 3300 kg versus Electric 80 6000 kg"
+          "6600 × 1800 × 1800 mm",
+          "90 kW",
+          "40 m³/h",
+          "35 MPa",
+          "3300 kg",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric 60’s 3300 kg the same frame as Electric 80?",
-          "answer": "No. Electric 60 lists 3300 kg, 90 kW, 40 m³/h, 6600 × 1800 × 1800 mm. Electric 80 lists 6000 kg, 110 kW, 60 m³/h. 料斗 0.7 m³ appears on both pages."
+          "question": "「Electrostatics」会给Electric 60 Concrete Pump Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW。"
         },
         {
-          "question": "Is Electric 60’s 90 kW the Electric 80 motor?",
-          "answer": "No. Electric 80 lists 110 kW, 60 m³/h, 40 MPa, model HBT80-1816-110, 6000 kg. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 3300 kg."
+          "question": "「Electrodynamics」能补上Electric 60 Concrete Pump Catalogue Row的空白格吗？",
+          "answer": "不能。Electric 60 Concrete Pump Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 60 Concrete Pump | Pinjin 90 kW 40 m³/h",
-      "description": "Electric 60 is a Xingtai electric bomba reboque listing 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, tremonha 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. It is not Electric 50 (55 kW, 26 m³/h) and not Electric 80 (110 kW, 60 m³/h, 900 m / 300 m). Match the printed table, then inquire.",
-      "imageAlt": "Electric 60 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Electric 60 bomba reboque, Xingtai catalogue — 90 kW, 40 m³/h, fine stone 200 m / 600 m",
+      "title": "Electric 60 Concrete Pump Catalogue Row: Voltage — Electrostatics / Electrodynamics / Circuit theory / Addition of voltages",
+      "seoTitle": "Voltage — Electrostatics",
+      "description": "“Electrostatics” é um capítulo da página de origem. Não muda o nome de Electric 60 Concrete Pump Catalogue Row. Valores já impressos nesta página: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+      "imageAlt": "Figura da página de origem sobre Voltage",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Voltage",
       "relatedPathLabels": [
         "Electric 60 concrete pump página do produto",
         "Electric concrete pump manufacturer China",
@@ -156,32 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 60 Concrete Pump is an electric bomba reboque manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 90 kW motor, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, tremonha 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. Same page: 13 mm stone 150 m / 450 m; 24 mm stone 100 m / 300 m. It is not Electric 80 and not HBT80-16.",
-        "who": "High-rise and long-distance fine-stone jobs matching 40 m³/h, 35 MPa and 200 m / 600 m on a 90 kW grid.",
+        "what": "“Electrostatics” é um capítulo da página de origem. Não muda o nome de Electric 60 Concrete Pump Catalogue Row. Valores já impressos nesta página: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+        "who": "Leitores que comparam Electric 60 Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "90 kW / 40 m³/h versus Electric 80 at 110 kW / 60 m³/h / 40 MPa",
-          "Fine stone 200 m / 600 m versus Electric 80 900 m / 300 m (2 cm agregado)",
-          "Tremonha 0.7 m³ (same litres as Electric 80, different output and distance)",
-          "Weight 3300 kg versus Electric 80 6000 kg"
+          "6600 × 1800 × 1800 mm",
+          "90 kW",
+          "40 m³/h",
+          "35 MPa",
+          "3300 kg",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric 60’s 3300 kg the same frame as Electric 80?",
-          "answer": "No. Electric 60 lists 3300 kg, 90 kW, 40 m³/h, 6600 × 1800 × 1800 mm. Electric 80 lists 6000 kg, 110 kW, 60 m³/h. Tremonha 0.7 m³ appears on both pages."
+          "question": "“Electrostatics” acrescenta uma casa a Electric 60 Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW."
         },
         {
-          "question": "Is Electric 60’s 90 kW the Electric 80 motor?",
-          "answer": "No. Electric 80 lists 110 kW, 60 m³/h, 40 MPa, model HBT80-1816-110, 6000 kg. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 3300 kg."
+          "question": "“Electrodynamics” pode preencher uma casa em branco de Electric 60 Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Electric 60 Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 60 Concrete Pump | Pinjin 90 kW 40 m³/h",
-      "description": "Electric 60 is a شينغتاي electric مضخة مقطورة listing 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, قادوس 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. It is not Electric 50 (55 kW, 26 m³/h) and not Electric 80 (110 kW, 60 m³/h, 900 m / 300 m). Match the printed table, then inquire.",
-      "imageAlt": "Electric 60 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Electric 60 مضخة مقطورة, شينغتاي catalogue — 90 kW, 40 m³/h, fine stone 200 m / 600 m",
+      "title": "Electric 60 Concrete Pump Catalogue Row: Voltage — Electrostatics / Electrodynamics / Circuit theory / Addition of voltages",
+      "seoTitle": "Voltage — Electrostatics",
+      "description": "«Electrostatics» فصل في صفحة المصدر. لا يغيّر اسم Electric 60 Concrete Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Voltage",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Voltage",
       "relatedPathLabels": [
         "Electric 60 concrete pump صفحة المنتج",
         "Electric concrete pump manufacturer China",
@@ -189,32 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 60 Concrete Pump is an electric مضخة مقطورة manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 90 kW motor, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, قادوس 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. Same page: 13 mm stone 150 m / 450 m; 24 mm stone 100 m / 300 m. It is not Electric 80 and not HBT80-16.",
-        "who": "High-rise and long-distance fine-stone jobs matching 40 m³/h, 35 MPa and 200 m / 600 m on a 90 kW grid.",
+        "what": "«Electrostatics» فصل في صفحة المصدر. لا يغيّر اسم Electric 60 Concrete Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+        "who": "قرّاء يقارنون Electric 60 Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "90 kW / 40 m³/h versus Electric 80 at 110 kW / 60 m³/h / 40 MPa",
-          "Fine stone 200 m / 600 m versus Electric 80 900 m / 300 m (2 cm ركام)",
-          "قادوس 0.7 m³ (same litres as Electric 80, different output and distance)",
-          "Weight 3300 kg versus Electric 80 6000 kg"
+          "6600 × 1800 × 1800 mm",
+          "90 kW",
+          "40 m³/h",
+          "35 MPa",
+          "3300 kg",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric 60’s 3300 kg the same frame as Electric 80?",
-          "answer": "No. Electric 60 lists 3300 kg, 90 kW, 40 m³/h, 6600 × 1800 × 1800 mm. Electric 80 lists 6000 kg, 110 kW, 60 m³/h. قادوس 0.7 m³ appears on both pages."
+          "question": "هل يضيف «Electrostatics» خانة إلى Electric 60 Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW."
         },
         {
-          "question": "Is Electric 60’s 90 kW the Electric 80 motor?",
-          "answer": "No. Electric 80 lists 110 kW, 60 m³/h, 40 MPa, model HBT80-1816-110, 6000 kg. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 3300 kg."
+          "question": "هل يستطيع «Electrodynamics» ملء خانة فارغة لـ Electric 60 Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Electric 60 Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric 60 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 60 Concrete Pump | Pinjin 90 kW 40 m³/h",
-      "description": "Electric 60 is a Синтай electric прицепной насос listing 90 kW, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, бункер 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. It is not Electric 50 (55 kW, 26 m³/h) and not Electric 80 (110 kW, 60 m³/h, 900 m / 300 m). Match the printed table, then inquire.",
-      "imageAlt": "Electric 60 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Electric 60 прицепной насос, Синтай catalogue — 90 kW, 40 m³/h, fine stone 200 m / 600 m",
+      "title": "Electric 60 Concrete Pump Catalogue Row: Voltage — Electrostatics / Electrodynamics / Circuit theory / Addition of voltages",
+      "seoTitle": "Voltage — Electrostatics",
+      "description": "“Electrostatics” — глава на странице-источнике. Она не переименовывает Electric 60 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Voltage",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Voltage",
       "relatedPathLabels": [
         "Electric 60 concrete pump страница изделия",
         "Electric concrete pump manufacturer China",
@@ -222,25 +235,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 60 Concrete Pump is an electric прицепной насос manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 90 kW motor, 40 m³/h, 35 MPa, fine stone 200 m / 600 m, бункер 0.7 m³, Kawasaki double pump 112, 6600 × 1800 × 1800 mm, 3300 kg. Same page: 13 mm stone 150 m / 450 m; 24 mm stone 100 m / 300 m. It is not Electric 80 and not HBT80-16.",
-        "who": "High-rise and long-distance fine-stone jobs matching 40 m³/h, 35 MPa and 200 m / 600 m on a 90 kW grid.",
+        "what": "“Electrostatics” — глава на странице-источнике. Она не переименовывает Electric 60 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW.",
+        "who": "Читатели, которые сверяют Electric 60 Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "90 kW / 40 m³/h versus Electric 80 at 110 kW / 60 m³/h / 40 MPa",
-          "Fine stone 200 m / 600 m versus Electric 80 900 m / 300 m (2 cm заполнитель)",
-          "Бункер 0.7 m³ (same litres as Electric 80, different output and distance)",
-          "Weight 3300 kg versus Electric 80 6000 kg"
+          "6600 × 1800 × 1800 mm",
+          "90 kW",
+          "40 m³/h",
+          "35 MPa",
+          "3300 kg",
+          "13 mm"
         ]
       },
       "faqs": [
         {
-          "question": "Is Electric 60’s 3300 kg the same frame as Electric 80?",
-          "answer": "No. Electric 60 lists 3300 kg, 90 kW, 40 m³/h, 6600 × 1800 × 1800 mm. Electric 80 lists 6000 kg, 110 kW, 60 m³/h. Бункер 0.7 m³ appears on both pages."
+          "question": "Добавляет ли “Electrostatics” клетку к Electric 60 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 90 kW, 40 m³/h, 35 MPa, 3300 kg, 13 mm, 24 mm, 55 kW."
         },
         {
-          "question": "Is Electric 60’s 90 kW the Electric 80 motor?",
-          "answer": "No. Electric 80 lists 110 kW, 60 m³/h, 40 MPa, model HBT80-1816-110, 6000 kg. Electric 60 lists 90 kW, 40 m³/h, 35 MPa, 3300 kg."
+          "question": "Может ли “Electrodynamics” заполнить пустую клетку для Electric 60 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Electric 60 Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

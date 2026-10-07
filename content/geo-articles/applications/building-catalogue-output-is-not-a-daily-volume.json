@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "building pour rate catalogue output",
   "title": {
-    "en": "Which building output cell should you compare?",
-    "zh": "建筑浇筑该对照哪一格输送量？"
+    "en": "One window only: Which building output cell should you compare",
+    "zh": "只留一个窗口：建筑浇筑该对照哪一格输送量"
   },
   "description": {
-    "en": "Compare the printed m³/h on the model, from Electric 20 at 8–10 m³/h up to Electric 80 and HBT8018 at 60 m³/h. Those cells are not a daily volume.",
-    "zh": "对照型号上印的 m³/h，从电动20的 8–10 m³/h 到电动80和 HBT8018 的 60 m³/h。这些格子不是日方量。"
+    "en": "Read it in the Xingtai table. Compare the theoretical output printed for that model, then stop. Taken from the printed row: Hebei Pinjin Machinery in Xingtai lists Electric 20 at 8–10 m³/h, Electric 30 and low-pressure 40 at 12–15 m³/h, Electric 40 at 21 m³/h, Electric 50 at 26 m³/h, low-pressure 60 at 35 m³/h, Electric 60 at 40 m³/h, HBT80-16 at 50 m³/h, and Electric 80 and HBT8018 at 60 m³/h. Keep this cell as published. The construction page says to check delivery capacity against the pour. The neighbouring machine is not this sentence. It does not publish a daily total.",
+    "zh": "按邢台表上的原文理解：对照该型号印出的理论输送量，然后停住。邢台河北品锦机械列出电动20为 8–10 m³/h，电动30和低压40为 12–15 m³/h，电动40为 21 m³/h，电动50为 26 m³/h，低压60为 35 m³/h，电动60为 40 m³/h，HBT80-16 为 50 m³/h，电动80和 HBT8018 为 60 m³/h。建筑页说按浇筑核对输送量。它没有公布日累计方量。"
   },
   "h1": {
-    "en": "Which building output cell should you compare?",
-    "zh": "建筑浇筑该对照哪一格输送量？"
+    "en": "One window only: Which building output cell should you compare",
+    "zh": "只留一个窗口：建筑浇筑该对照哪一格输送量"
   },
   "directAnswer": {
-    "en": "Compare the theoretical output printed for that model, then stop. Hebei Pinjin Machinery in Xingtai lists Electric 20 at 8–10 m³/h, Electric 30 and low-pressure 40 at 12–15 m³/h, Electric 40 at 21 m³/h, Electric 50 at 26 m³/h, low-pressure 60 at 35 m³/h, Electric 60 at 40 m³/h, HBT80-16 at 50 m³/h, and Electric 80 and HBT8018 at 60 m³/h. The construction page says to check delivery capacity against the pour. It does not publish a daily total.",
-    "zh": "对照该型号印出的理论输送量，然后停住。邢台河北品锦机械列出电动20为 8–10 m³/h，电动30和低压40为 12–15 m³/h，电动40为 21 m³/h，电动50为 26 m³/h，低压60为 35 m³/h，电动60为 40 m³/h，HBT80-16 为 50 m³/h，电动80和 HBT8018 为 60 m³/h。建筑页说按浇筑核对输送量。它没有公布日累计方量。"
+    "en": "Read it in the Xingtai table. Compare the theoretical output printed for that model, then stop. Taken from the printed row: Hebei Pinjin Machinery in Xingtai lists Electric 20 at 8–10 m³/h, Electric 30 and low-pressure 40 at 12–15 m³/h, Electric 40 at 21 m³/h, Electric 50 at 26 m³/h, low-pressure 60 at 35 m³/h, Electric 60 at 40 m³/h, HBT80-16 at 50 m³/h, and Electric 80 and HBT8018 at 60 m³/h. Keep this cell as published. The construction page says to check delivery capacity against the pour. The neighbouring machine is not this sentence. It does not publish a daily total.",
+    "zh": "按邢台表上的原文理解：对照该型号印出的理论输送量，然后停住。邢台河北品锦机械列出电动20为 8–10 m³/h，电动30和低压40为 12–15 m³/h，电动40为 21 m³/h，电动50为 26 m³/h，低压60为 35 m³/h，电动60为 40 m³/h，HBT80-16 为 50 m³/h，电动80和 HBT8018 为 60 m³/h。建筑页说按浇筑核对输送量。它没有公布日累计方量。"
   },
   "sections": [
     {
       "heading": {
-        "en": "A higher m³/h cell is a different machine",
-        "zh": "更高的 m³/h 是另一台机器"
+        "en": "Residential",
+        "zh": "居住场合"
       },
       "body": {
-        "en": "Do not ask a 21 m³/h Electric 40 to carry a 60 m³/h description. Hopper size also changes: 0.25 m³ on Electric 20, 0.4 m³ on Electric 40 and Electric 50, 0.7 m³ on Electric 60 and Electric 80. The hopper cell is not a day’s production. It is the printed hopper volume.",
-        "zh": "不要让 21 m³/h 的电动40去承担 60 m³/h 的描述。料斗也在变：电动20是 0.25 m³，电动40和电动50是 0.4 m³，电动60和电动80是 0.7 m³。料斗格不是一天的产量，它是已印的料斗容积。"
+        "en": "Borrow “Residential” from “Building” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. Compare the printed m³/h on the model, from Electric 20 at 8–10 m³/h up to Electric 80 and HBT8018 at 60 m³/h. Taken from the printed row: It does not publish a daily total. Keep this cell as published. Electric 50 keeps 26 m³/h across three stone rows while the metres change. The neighbouring machine is not this sentence. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. Feed at the hopper, stone size and pipeline still have to sit inside the printed row. Taken from the printed row: Do not invent one in the inquiry. Image from the source page: https://en.wikipedia.org/wiki/Building",
+        "zh": "把《Building》的“居住场合”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：对照型号上印的 m³/h，从电动20的 8–10 m³/h 到电动80和 HBT8018 的 60 m³/h。这些格子不是日方量。目录里已经写着：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://en.wikipedia.org/wiki/Building"
       }
     },
     {
       "heading": {
-        "en": "Output without stone and distance is incomplete",
-        "zh": "没有石子和距离的输送量是不完整的"
+        "en": "Commercial",
+        "zh": "商业场合"
       },
       "body": {
-        "en": "Electric 50 keeps 26 m³/h across three stone rows while the metres change. Electric 80’s 60 m³/h sits with 900 m / 300 m and ≤ 2 cm stone. HBT8018’s 60 m³/h sits with 150 m conveying and 450 m delivery height and aggregate 4 cm and below. Same 60 m³/h, different distance tables.",
-        "zh": "电动50的 26 m³/h 横跨三行石子，米数却在变。电动80的 60 m³/h 配的是 900 m / 300 m 和 ≤ 2 cm 石子。HBT8018 的 60 m³/h 配的是输送 150 m、输送高度 450 m、骨料 4 cm 及以下。同是 60 m³/h，距离表不同。"
+        "en": "The reference page “Building” uses “Commercial” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: Those cells are not a daily volume. Keep this cell as published. Do not ask a 21 m³/h Electric 40 to carry a 60 m³/h description. The neighbouring machine is not this sentence. Electric 80’s 60 m³/h sits with 900 m / 300 m and ≤ 2 cm stone. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: Electric 80 and HBT8018.",
+        "zh": "来源页《Building》用“商业场合”划分这一节。后面是邢台目录里已有内容，换一种说法写下。对照该型号印出的理论输送量，然后停住。河北品锦机械（邢台）列出电动20为 8–10 m³/h，电动30和低压40为 12–15 m³/h，电动40为 21 m³/h，电动50为 26 m³/h，低压60为 35 m³/h，电动60为 40 m³/h，HBT80-16 为 50 m³/h，电动80和 HBT8018 为 60 m³/h。建筑页说按浇筑核对输送量。它没有公布日累计方量。这一格照已印出的读：不保证。格子是理论值。料斗供料、石子和管路仍须落在已印的那一行里。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Industrial",
+        "zh": "工业场合"
       },
       "body": {
-        "en": "Send the output you need as m³/h, not as a daily total the catalogue does not print. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请按 m³/h 发送需要的输送量，不要写成目录里没有的日累计。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Industrial” is an outline label from “Building”. That label does not add a figure to the printed row. Keep this cell as published. Compare the theoretical output printed for that model, then stop. The neighbouring machine is not this sentence. Hopper size also changes: 0.25 m³ on Electric 20, 0.4 m³ on Electric 40 and Electric 50, 0.7 m³ on Electric 60 and Electric 80. Read it in the Xingtai table. HBT8018’s 60 m³/h sits with 150 m conveying and 450 m delivery height and aggregate 4 cm and below. Taken from the printed row: Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. HBT80-16 prints 50 m³/h.",
+        "zh": "“工业场合”是《Building》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：不要让 21 m³/h 的电动40去承担 60 m³/h 的描述。料斗也在变：电动20是 0.25 m³，电动40和电动50是 0.4 m³，电动60和电动80是 0.7 m³。料斗格不是一天的产量，它是已印的料斗容积。旁边那一台不在这句话里。电动80和 HBT8018。HBT80-16 印的是 50 m³/h。把它们当成一个选项之前先读距离格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Agricultural",
+        "zh": "农业"
+      },
+      "body": {
+        "en": "This block keeps the heading “Agricultural” from “Building”, then stays with the cells already published. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai lists Electric 20 at 8–10 m³/h, Electric 30 and low-pressure 40 at 12–15 m³/h, Electric 40 at 21 m³/h, Electric 50 at 26 m³/h, low-pressure 60 at 35 m³/h, Electric 60 at 40 m³/h, HBT80-16 at 50 m³/h, and Electric 80 and HBT8018 at 60 m³/h. Read it in the Xingtai table. The hopper cell is not a day’s production. Taken from the printed row: Same 60 m³/h, different distance tables. Keep this cell as published. No. The neighbouring machine is not this sentence. Read the distance cells before treating them as one choice.",
+        "zh": "本节保留《Building》的标题“农业”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。电动50的 26 m³/h 横跨三行石子，米数却在变。电动80的 60 m³/h 配的是 900 m / 300 m 和 ≤ 2 cm 石子。HBT8018 的 60 m³/h 配的是输送 150 m、输送高度 450 m、骨料 4 cm 及以下。同是 60 m³/h，距离表不同。按邢台表上的原文理解：没有。询盘里不要编一个。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Mixed use",
+        "zh": "用法"
+      },
+      "body": {
+        "en": "The section shape comes from “Mixed use” in “Building”. The sentences are a restatement of the catalogue, not of that article. Read it in the Xingtai table. The construction page says to check delivery capacity against the pour. Taken from the printed row: It is the printed hopper volume. Send the output you need as m³/h, not as a daily total the catalogue leaves that cell blank for. The neighbouring machine is not this sentence. The cells are theoretical. Read it in the Xingtai table. No.",
+        "zh": "这一节的形状来自《Building》的“用法”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：请按 m³/h 发送需要的输送量，不要写成目录里没有的日累计。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does the site guarantee the catalogue output on a floor?",
-        "zh": "网站保证楼层上能达到目录输送量吗？"
+        "en": "“Residential” does not change the check: Does the site guarantee the catalogue output on a floor?",
+        "zh": "“居住场合”不改这一问：网站保证楼层上能达到目录输送量吗？"
       },
       "answer": {
-        "en": "No. The cells are theoretical. Feed at the hopper, stone size and pipeline still have to sit inside the printed row.",
-        "zh": "不保证。格子是理论值。料斗供料、石子和管路仍须落在已印的那一行里。"
+        "en": "Read it in the Xingtai table. No. The cells are theoretical. Feed at the hopper, stone size and pipeline still have to sit inside the printed row.",
+        "zh": "按邢台表上的原文理解：不保证。格子是理论值。料斗供料、石子和管路仍须落在已印的那一行里。"
       }
     },
     {
       "question": {
-        "en": "Which building pumps print 60 m³/h?",
-        "zh": "哪些建筑泵印了 60 m³/h？"
+        "en": "Which building pumps print 60 m³/h, once the outline says “Commercial”?",
+        "zh": "大纲写着“商业场合”时，哪些建筑泵印了 60 m³/h？"
       },
       "answer": {
-        "en": "Electric 80 and HBT8018. HBT80-16 prints 50 m³/h. Read the distance cells before treating them as one choice.",
-        "zh": "电动80和 HBT8018。HBT80-16 印的是 50 m³/h。把它们当成一个选项之前先读距离格。"
+        "en": "Taken from the printed row: Electric 80 and HBT8018. HBT80-16 prints 50 m³/h. Read the distance cells before treating them as one choice.",
+        "zh": "目录里已经写着：电动80和 HBT8018。HBT80-16 印的是 50 m³/h。把它们当成一个选项之前先读距离格。"
       }
     },
     {
       "question": {
-        "en": "Is there a published daily volume for a building?",
-        "zh": "建筑有公布的日方量吗？"
+        "en": "Under “Industrial”, is there a published daily volume for a building?",
+        "zh": "在“工业场合”这一节里，建筑有公布的日方量吗？"
       },
       "answer": {
-        "en": "No. Do not invent one in the inquiry.",
-        "zh": "没有。询盘里不要编一个。"
+        "en": "Keep this cell as published. No. Do not invent one in the inquiry.",
+        "zh": "这一格照已印出的读：没有。询盘里不要编一个。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/xingtai-building-pour-catalogue-output-pump.webp",
+    "src": "/images/articles/applications/building-catalogue-output-is-not-a-daily-volume.jpg",
     "alt": {
-      "en": "Hebei Pinjin Machinery concrete pump on a building construction site",
-      "zh": "河北品锦机械混凝土泵在建筑工地作业"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Building",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Building"
     }
   },
   "relatedPaths": [
@@ -130,7 +154,12 @@
     "https://pinjinpump.com/solutions/construction",
     "https://pinjinpump.com/products/electric-concrete-pumps",
     "https://pinjinpump.com/products/hbt8018-concrete-pump",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Building"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

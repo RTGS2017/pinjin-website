@@ -6,100 +6,110 @@
     "zh": "HBT8018和LZ-60的区别"
   },
   "title": {
-    "en": "HBT8018 vs LZ-60 Concrete Pump",
-    "zh": "HBT8018和LZ-60混凝土泵有何不同"
+    "en": "HBT8018 vs LZ-60 Concrete Pump is a catalogue comparison, not a page from Concrete",
+    "zh": "HBT8018和LZ-60混凝土泵有何不同是目录对照，不是「混凝土」那一页"
   },
   "description": {
-    "en": "Both split reach into conveying distance and delivery height, and both print pipe 100 / 125 mm. Power source and the metre values differ.",
-    "zh": "两边都把距离拆成输送距离和输送高度，管径都印 100 / 125 mm。动力和米数不同。"
+    "en": "HBT8018 vs LZ-60 Concrete Pump. 125 mm stays in the catalogue entry. Illustration: Concrete.",
+    "zh": "HBT8018和LZ-60混凝土泵有何不同。125 mm仍在目录格子里。插图来自「混凝土」。"
   },
   "h1": {
-    "en": "HBT8018 vs LZ-60 Concrete Pump",
-    "zh": "HBT8018和LZ-60混凝土泵有何不同"
+    "en": "HBT8018 vs LZ-60 Concrete Pump is a catalogue comparison, not a page from Concrete",
+    "zh": "HBT8018和LZ-60混凝土泵有何不同是目录对照，不是「混凝土」那一页"
   },
   "directAnswer": {
-    "en": "HBT8018 and LZ-60 are concrete pumps from Hebei Pinjin Machinery in Xingtai that both print pipe 100 / 125 mm and aggregate 4 cm and below. HBT8018 prints a 132 kW motor, 60 m³/h, 40 MPa, conveying distance 150 m and height 450 m. LZ-60 prints engine 6105 / 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m and height 300 m. Same label style does not mean the same metres.",
-    "zh": "HBT8018 和 LZ-60 是河北品锦机械在邢台的混凝土泵，管径都印 100 / 125 mm，骨料都是 4 cm 及以下。HBT8018 印 132 kW 电机、60 m³/h、40 MPa、输送距离 150 m、高度 450 m。LZ-60 印发动机 6105 / 145 kW、50 m³/h、35 MPa、输送距离 100 m、高度 300 m。标题样式相同，不等于米数相同。"
+    "en": "HBT8018 and LZ-60 are concrete pumps from Hebei Pinjin Machinery in Xingtai that both list pipe 100 / 125 mm and aggregate 4 cm and below. HBT8018 lists a 132 kW motor, 60 m³/h, 40 MPa, conveying distance 150 m and height 450 m. The picture is from https://en.wikipedia.org/wiki/Concrete.",
+    "zh": "HBT8018 和 LZ-60 是河北品锦机械在邢台的混凝土泵，管径都标出 100 / 125 mm，骨料都是 4 cm 及以下。HBT8018 标出 132 kW 电机、60 m³/h、40 MPa、输送距离 150 m、高度 450 m。图片来自https://en.wikipedia.org/wiki/Concrete。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Where HBT8018 and LZ-60 print different values",
-        "zh": "HBT8018和LZ-60哪些数值不同"
+        "en": "Etymology",
+        "zh": "词源"
       },
       "body": {
-        "en": "Model line: HBT8018 prints HBT8018 / HBT8018-132S; LZ-60 prints LZ-60 / HBT60-13.132. Theoretical output: HBT8018 prints 60 m³/h; LZ-60 prints 50 m³/h. Pumping pressure: HBT8018 prints 40 MPa; LZ-60 prints 35 MPa. Conveying distance: HBT8018 prints 150 m; LZ-60 prints 100 m. Delivery height: HBT8018 prints 450 m; LZ-60 prints 300 m. Dimensions: HBT8018 prints 6700 × 1750 × 1800 mm; LZ-60 prints 6.6 × 1.8 × 1.9 m. The same printed value on a shared label: Max. aggregate size is 4 cm and below on both pages; Delivery pipe diameter is 100 / 125 mm on both pages. These are printed cells on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. They are not a calculated conversion from one model to the other.",
-        "zh": "型号行：HBT8018印 HBT8018 / HBT8018-132S；LZ-60印 LZ-60 / HBT60-13.132。理论输送量：HBT8018印 60 m³/h；LZ-60印 50 m³/h。泵送压力：HBT8018印 40 MPa；LZ-60印 35 MPa。输送距离：HBT8018印 150 m；LZ-60印 100 m。输送高度：HBT8018印 450 m；LZ-60印 300 m。外形尺寸：HBT8018印 6700 × 1750 × 1800 mm；LZ-60印 6.6 × 1.8 × 1.9 m。同一标题下数值相同的有：最大骨料粒径两边都是 4 cm and below；输送管内径两边都是 100 / 125 mm。以上是河北品锦机械在邢台混凝土泵页面上印出的格子，不是把一台机器换算成另一台。"
+        "en": "Picture source: https://en.wikipedia.org/wiki/Concrete. Subject: Bloczek betonowy. HBT8018 and LZ-60 are concrete pumps from Hebei Pinjin Machinery in Xingtai that both list pipe 100 / 125 mm and aggregate 4 cm and below. Model line: HBT8018 lists HBT8018 / HBT8018-132S. LZ-60 lists LZ-60 / HBT60-13.132. Delivery height: HBT8018 lists 450 m. LZ-60 lists 300 m. They are not a calculated conversion from one model to the other. Use the split labels, then keep each metre value on the page that lists it. If a job needs a figure this pair does not list, use the contact page rather than inventing a bore, stroke or price.",
+        "zh": "图片来源：https://en.wikipedia.org/wiki/Concrete。画面主体：Bloczek betonowy。HBT8018 和 LZ-60 是河北品锦机械在邢台的混凝土泵，管径都标出 100 / 125 mm，骨料都是 4 cm 及以下。理论输送量：HBT8018标出 60 m³/h；LZ-60标出 50 m³/h。外形尺寸：HBT8018标出 6700 × 1750 × 1800 mm；LZ-60标出 6.6 × 1.8 × 1.9 m。LZ-60有、HBT8018没有的行：发动机功率 6105 / 145 kW。如果工况需要这对机型没有写出的数字，请走联系页，不要编造缸径、行程或价格。"
       }
     },
     {
       "heading": {
-        "en": "Cells that exist on only one of these pumps",
-        "zh": "只在其中一台泵上出现的格子"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "HBT8018 prints cells that LZ-60 does not: Motor power 132 kW. LZ-60 prints cells that HBT8018 does not: Engine power 6105 / 145 kW. A blank or missing label is not filled from the other concrete pump.",
-        "zh": "HBT8018有、LZ-60没有的行：电机功率 132 kW。LZ-60有、HBT8018没有的行：发动机功率 6105 / 145 kW。缺了的标题不能用另一台混凝土泵来补。"
+        "en": "HBT8018 lists a 132 kW motor, 60 m³/h, 40 MPa, conveying distance 150 m and height 450 m. Theoretical output: HBT8018 lists 60 m³/h. LZ-60 lists 50 m³/h. Dimensions: HBT8018 lists 6700 × 1750 × 1800 mm. LZ-60 lists 6.6 × 1.8 × 1.9 m. HBT8018 lists entries that LZ-60 does not: Motor power 132 kW. Open /en/products/hbt8018-concrete-pump/ for HBT8018 and /en/products/lz-60-diesel-concrete-pump/ for LZ-60.",
+        "zh": "HBT8018 标出 132 kW 电机、60 m³/h、40 MPa、输送距离 150 m、高度 450 m。泵送压力：HBT8018标出 40 MPa；LZ-60标出 35 MPa。同一标题下数值相同的有：最大骨料粒径两边都是 4 cm and below；输送管内径两边都是 100 / 125 mm。先认出拆开的标题，再把每个米数留在写出它的那一页。"
       }
     },
     {
       "heading": {
-        "en": "How to read the two pages without merging them",
-        "zh": "怎样分开阅读这两个页面"
+        "en": "Composition",
+        "zh": "组成"
       },
       "body": {
-        "en": "Use the split labels, then keep each metre value on the page that prints it. Open /en/products/hbt8018-concrete-pump/ for HBT8018 and /en/products/lz-60-diesel-concrete-pump/ for LZ-60. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei. The number in a commercial name is not a licence to copy output, pressure or distance. If a job needs a figure this pair does not print, use the contact page rather than inventing a bore, stroke or price.",
-        "zh": "先认出拆开的标题，再把每个米数留在印出它的那一页。看HBT8018请打开 /zh/products/hbt8018-concrete-pump/，看LZ-60请打开 /zh/products/lz-60-diesel-concrete-pump/。河北品锦机械在河北邢台制造这些混凝土泵。商品名里的数字不能用来抄产量、压力或距离。如果工况需要这对机型没有印出的数字，请走联系页，不要编造缸径、行程或价格。"
+        "en": "LZ-60 lists engine 6105 / 145 kW, 50 m³/h, 35 MPa, conveying distance 100 m and height 300 m. Pumping pressure: HBT8018 lists 40 MPa. LZ-60 lists 35 MPa. The same shown value on a shared label: Max. aggregate size is 4 cm and below on both pages. Delivery pipe diameter is 100 / 125 mm on both pages. LZ-60 lists entries that HBT8018 does not: Engine power 6105 / 145 kW. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei.",
+        "zh": "LZ-60 标出发动机 6105 / 145 kW、50 m³/h、35 MPa、输送距离 100 m、高度 300 m。输送距离：HBT8018标出 150 m；LZ-60标出 100 m。以上是河北品锦机械在邢台混凝土泵页面上写出的格子，不是把一台机器换算成另一台。看HBT8018请打开 /zh/products/hbt8018-concrete-pump/，看LZ-60请打开 /zh/products/lz-60-diesel-concrete-pump/。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Production",
+        "zh": "生产"
+      },
+      "body": {
+        "en": "Same label style does not mean the same metres. Conveying distance: HBT8018 lists 150 m. LZ-60 lists 100 m. These are shown entries on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. A blank or missing label is not filled from the other concrete pump. The number in a commercial name is not a licence to copy output, pressure or distance.",
+        "zh": "型号行：HBT8018标出 HBT8018 / HBT8018-132S；LZ-60标出 LZ-60 / HBT60-13.132。输送高度：HBT8018标出 450 m；LZ-60标出 300 m。HBT8018有、LZ-60没有的行：电机功率 132 kW。商品名里的数字不能用来抄产量、压力或距离。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does HBT8018 print the same model line as LZ-60?",
+        "en": "Does HBT8018 list the same model line as LZ-60?",
         "zh": "HBT8018和LZ-60的型号行一样吗？"
       },
       "answer": {
-        "en": "No. HBT8018 prints HBT8018 / HBT8018-132S. LZ-60 prints LZ-60 / HBT60-13.132. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。HBT8018印 HBT8018 / HBT8018-132S。LZ-60印 LZ-60 / HBT60-13.132。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. HBT8018 lists HBT8018 / HBT8018-132S. LZ-60 lists LZ-60 / HBT60-13.132. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete.",
+        "zh": "不一样。HBT8018标出 HBT8018 / HBT8018-132S。LZ-60标出 LZ-60 / HBT60-13.132。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does HBT8018 print the same theoretical output as LZ-60?",
+        "en": "Does HBT8018 list the same theoretical output as LZ-60?",
         "zh": "HBT8018和LZ-60的理论输送量一样吗？"
       },
       "answer": {
-        "en": "No. HBT8018 prints 60 m³/h. LZ-60 prints 50 m³/h. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。HBT8018印 60 m³/h。LZ-60印 50 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. HBT8018 lists 60 m³/h. LZ-60 lists 50 m³/h. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete.",
+        "zh": "不一样。HBT8018标出 60 m³/h。LZ-60标出 50 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does HBT8018 print the same pumping pressure as LZ-60?",
+        "en": "Does HBT8018 list the same pumping pressure as LZ-60?",
         "zh": "HBT8018和LZ-60的泵送压力一样吗？"
       },
       "answer": {
-        "en": "No. HBT8018 prints 40 MPa. LZ-60 prints 35 MPa. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。HBT8018印 40 MPa。LZ-60印 35 MPa。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. HBT8018 lists 40 MPa. LZ-60 lists 35 MPa. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete.",
+        "zh": "不一样。HBT8018标出 40 MPa。LZ-60标出 35 MPa。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Concrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Why is motor power missing on LZ-60?",
+        "en": "On this row: Why is motor power missing on LZ-60?",
         "zh": "为什么LZ-60没有电机功率？"
       },
       "answer": {
-        "en": "The LZ-60 page does not print that label. HBT8018 prints 132 kW. Leave the missing cell blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps.",
-        "zh": "LZ-60这一页没有印这个标题。HBT8018印的是 132 kW。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。"
+        "en": "The LZ-60 page does not list that label. HBT8018 lists 132 kW. Leave the missing entry blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps. It is not a figure printed inside https://en.wikipedia.org/wiki/Concrete.",
+        "zh": "LZ-60这一页没有标出这个标题。HBT8018标出的是 132 kW。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。它不是https://en.wikipedia.org/wiki/Concrete画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/hbt8018-vs-lz-60-concrete-pump-pinjin.webp",
+    "src": "/images/articles/knowledge/hbt8018-vs-lz-60-concrete-pump-bloczek-betonowy.jpg",
     "alt": {
-      "en": "HBT8018 concrete pump, catalogue comparison, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "HBT8018混凝土泵目录对照，河北品锦机械，河北邢台"
+      "en": "Bloczek betonowy. Image from the source page: https://en.wikipedia.org/wiki/Concrete.",
+      "zh": "Bloczek betonowy。图来自来源页：https://en.wikipedia.org/wiki/Concrete。"
     }
   },
   "relatedPaths": [
@@ -126,7 +136,8 @@
     "https://pinjinpump.com/en/products/diesel-concrete-pumps/",
     "https://pinjinpump.com/zh/products/diesel-concrete-pumps/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Concrete"
   ],
   "status": "draft"
 }

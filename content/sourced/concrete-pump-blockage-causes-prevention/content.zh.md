@@ -1,55 +1,22 @@
-## A plug is a pressure problem first
+## Definitions
 
-When concrete stops at the discharge and the trailer is still stroking, treat it as a blockage. Do not add water wildly. Do not beat the pipe. Do not put compressed air behind the plug. The American Concrete Pumping Association published a safety alert after a fatality involving compressed air on a blockage: **never use compressed air to remove a blockage**. Relieve line pressure, then open the system.
+![来源页插图：Viscosity](/images/articles/concrete-pump-blockage-causes-prevention/Runny_hunny.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Viscosity*
 
-This page is for 品锦 拖式泵s assembled in 邢台. It is not a boom-pump or mixing-plant manual. It does not replace the machine instruction supplied with the unit.
+「Definitions」是背景。Concrete Pump Blockage的询价仍看已经写下的单元格。这一节不另加数字。
 
-![Trailer concrete pump assembly at 河北品锦机械 邢台 factory](/images/factory/pinjin-trailer-concrete-pump-assembly.webp)
-*Trailer concrete pump assembly, 邢台 factory*
+本页没写出来的格子继续空着。「Definitions」不去填它们。
 
-## Causes we can name without inventing a formula
+## Momentum transport
 
-From the 邢台 daily checklist and from ACI 304.2R-17’s pumpability notes:
+「Momentum transport」只作来源页上的背景，不是给Concrete Pump Blockage新造的铭牌。这一节不另加数字。
 
-- Mix that segregates, or stone larger than the published max 骨料 / pipe DN (see [aggregate size](/blog/fine-stone-concrete-pump-aggregate-size/)).
-- Pipeline not primed; clamps open, gaskets missing, line hanging on the gasket.
-- Hopper sucked low so air enters the cylinders — ACPA and ACI both treat air in the line as stored energy.
-- Leftover set concrete in the hopper, S阀 or reducer from the previous pour.
-- Reducers, dents or a DN that does not match the pump page ([pipe DN](/blog/concrete-pump-pipe-dn-selection/)).
+## Newtonian and non-Newtonian fluids
 
-We do not publish a “blockage every N hours” table. Wear depends on mix, pipe and whether the last crew washed the hopper.
+翻到来源页的「Newtonian and non-Newtonian fluids」，读的是那一页，不是Concrete Pump Blockage的第二份目录。这一节不另加数字。
 
-## Prevention: the same daily sequence we ship
+## In solids
 
-Walk this before the first load, as written on the [daily maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/):
+「In solids」是来源页自己的章节，不会把Concrete Pump Blockage改成另一条目录。这一节不另加数字。
 
-1. Hopper grate, walls and agitator free of set concrete.
-2. Pipeline clamps closed, pins in, gaskets present; line supported.
-3. Hydraulic leak walk-around (diesel: also engine leaks and belts by eye).
-4. S阀, cutting ring and spectacle plate observed; photograph chips.
-5. After the pour, wash hopper, valve and pipeline.
-
-Replacement pistons, seals and pipes are quoted after size — [spare parts](/blog/concrete-pump-spare-parts-wear-parts/). No list price, no small-batch parcels.
-
-## Safe response if the line stops — ACPA sequence
-
-Quoted from ACPA’s 1 November 2022 safety alert and the ACPA mechanics safety procedures. This is not a 品锦-invented method.
-
-- Clear the discharge area.
-- Rock the plug with forward-reverse. If it does not release, **reverse the pump for several strokes to relieve all line pressure**, then stop.
-- Do not jam the blockage (that packs fines and makes a harder plug).
-- **Never use compressed air to remove a blockage.** ACPA: air is compressible and stores energy; a typical compressor is far below concrete-pump pressure. “If the pump can't push it, air never will.”
-- After pressure is relieved, locate the unyielding section (step on hose or tap pipe lightly — do not hammer).
-- Remove the plugged piece, empty it fully, then rebuild the line. Do not assume the first lump is the whole plug.
-- Clear the discharge area before restarting; air will be in the system after rocking or removing a plug.
-
-ACPA’s mechanics manual repeats: stored-energy hazard; if air was introduced, bleed it before any clamp comes off; keep your body clear.
-
-If the valve or pipe looks damaged, photograph it and send the model slug to the 邢台 factory. We will quote 易损件 against the size on the machine.
-
-## Related 品锦 pages
-
-- [Electric 40](/products/electric-40-concrete-pump/) as a typical trailer this checklist applies to
-- [Delivery pipe](/products/concrete-pump-delivery-pipe/) and [split piston](/products/concrete-pump-split-piston/)
-- [Parts hub](/products/concrete-pump-parts/)
-- [Contact](/contact/)
+本文原先已经指向这些页面：[aggregate size](/blog/fine-stone-concrete-pump-aggregate-size/), [pipe DN](/blog/concrete-pump-pipe-dn-selection/), [daily maintenance checklist](/blog/concrete-pump-daily-maintenance-checklist/)。

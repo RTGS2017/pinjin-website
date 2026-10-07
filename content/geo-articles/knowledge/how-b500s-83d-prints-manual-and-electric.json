@@ -6,50 +6,50 @@
     "zh": "B500S-83D手动和电动怎么印"
   },
   "title": {
-    "en": "How B500S-83D Prints Manual and Electric",
-    "zh": "B500S-83D如何印出手动和电动"
+    "en": "B500S-83D manual or electric — Measure electric power with an ammeter and a voltmeter.",
+    "zh": "B500S-83D手动和电动怎么印——用电流表和电压表测量电功率"
   },
   "description": {
-    "en": "The B500S-83D type line says two-stage, manual / electric. Only one motor power and one voltage are printed.",
-    "zh": "B500S-83D 的型式行写两级结构、手动/电动。电机功率和电压只各印了一个。"
+    "en": "B500S-83D manual or electric How B500S-83D Prints Manual and Electric The B500S-83D type line says two-stage, manual / electric.",
+    "zh": "B500S-83D手动和电动怎么印B500S-83D如何写出手动和电动B500S-83D 的型式行写两级结构、手动/电动。"
   },
   "h1": {
-    "en": "How B500S-83D Prints Manual and Electric",
-    "zh": "B500S-83D如何印出手动和电动"
+    "en": "B500S-83D manual or electric — Measure electric power with an ammeter and a voltmeter.",
+    "zh": "B500S-83D手动和电动怎么印——用电流表和电压表测量电功率"
   },
   "directAnswer": {
-    "en": "B500S-83D is a compact concrete pump from Hebei Pinjin Machinery in Xingtai. Its type cell says two-stage structure pump, manual / electric. Motor power is 7.5 kW and rated voltage is 380 V. The page does not print a second power for manual operation, and it does not print an output in m³/h. Vertical and horizontal delivery are each 5 m. The words manual / electric are a type line, not two complete specification tables.",
-    "zh": "B500S-83D 是河北品锦机械在邢台的紧凑型混凝土泵。型式格写两级结构泵，手动/电动。电机功率 7.5 kW，额定电压 380 V。页面没有为手动运行再印一个功率，也没有印以 m³/h 计的产量。垂直和水平输送都是 5 m。手动/电动是型式行，不是两套完整规格表。"
+    "en": "B500S-83D manual or electric How B500S-83D Prints Manual and Electric The B500S-83D type line says two-stage, manual / electric.",
+    "zh": "B500S-83D手动和电动怎么印B500S-83D如何写出手动和电动B500S-83D 的型式行写两级结构、手动/电动。"
   },
   "sections": [
     {
       "heading": {
-        "en": "One power cell",
-        "zh": "只有一个功率格"
+        "en": "Measure electric power with an ammeter and a voltmeter.",
+        "zh": "用电流表和电压表测量电功率"
       },
       "body": {
-        "en": "7.5 kW is the motor-power figure. 380 V is the rated voltage. Hebei Pinjin Machinery does not print a manual-mode kilowatt beside them. Do not invent one.",
-        "zh": "7.5 kW 是电机功率。380 V 是额定电压。河北品锦机械没有在旁边再印一个手动档千瓦。不要编造。"
+        "en": "https://www.engineeringtoolbox.com/electric-power-measurement-d_2238.html B500S-83D manual or electric Only one motor power and one voltage are listed. Motor power is 7.5 kW and rated voltage is 380 V. The words manual / electric are a type line, not two complete specification tables. 380 V is the rated voltage. Reach stays at five metres Weight is 280 kg and the outline is 915 × 550 × 550 mm. Delivery hose is listed as Standard, not as a millimetre diameter. No. The page lists 7.5 kW once. What voltage is listed? No. Both directions are 5 m, listed once.",
+        "zh": "https://www.engineeringtoolbox.com/electric-power-measurement-d_2238.htmlB500S-83D手动和电动怎么印电机功率和电压只各写了一个。电机功率 7.5 kW，额定电压 380 V。手动/电动是型式行，不是两套完整规格表。380 V 是额定电压。距离停在五米重量 280 kg，外形 915 × 550 × 550 mm。输送胶管印的是标准，不是毫米管径。没有。B500S-83D 没有印以 m³/h 表示的理论输送量。有两套距离表吗？"
       }
     },
     {
       "heading": {
-        "en": "Reach stays at five metres",
-        "zh": "距离停在五米"
+        "en": "Example - Power consumption of a circuit with an electric heater",
+        "zh": "示例：电热器回路的功耗"
       },
       "body": {
-        "en": "Vertical delivery height is 5 m and horizontal delivery distance is 5 m. There is not a manual distance and an electric distance. Weight is 280 kg and the outline is 915 × 550 × 550 mm.",
-        "zh": "垂直输送高度 5 m，水平输送距离 5 m。没有一个手动距离再加一个电动距离。重量 280 kg，外形 915 × 550 × 550 mm。"
+        "en": "How B500S-83D Prints Manual and Electric B500S-83D is a compact concrete pump from Hebei Pinjin Machinery in Xingtai. The page does not list a second power for manual operation, and it does not list an output in m³/h. One power cell Hebei Pinjin Machinery does not list a manual-mode kilowatt beside them. Vertical delivery height is 5 m and horizontal delivery distance is 5 m. Materials and hose Those cells also are not split by manual and electric. Is there an m³/h output? 380 V, labelled rated voltage. How B500S-83D Prints Manual and Electric, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "B500S-83D如何写出手动和电动B500S-83D 是河北品锦机械在邢台的紧凑型混凝土泵。页面没有为手动运行再印一个功率，也没有印以 m³/h 计的产量。只有一个功率格河北品锦机械没有在旁边再印一个手动档千瓦。垂直输送高度 5 m，水平输送距离 5 m。材料和胶管这些格子也没有按手动和电动拆开。页面只印一次 7.5 kW。写了多少电压？两个方向都是 5 m，只印一次。"
       }
     },
     {
       "heading": {
-        "en": "Materials and hose",
-        "zh": "材料和胶管"
+        "en": "Electric Power Calculator",
+        "zh": "电功率计算器"
       },
       "body": {
-        "en": "Applicable materials are sand and small stone, 5–16 mm. Delivery hose is printed as Standard, not as a millimetre diameter. Those cells also are not split by manual and electric.",
-        "zh": "适用材料是砂与小石，5–16 mm。输送胶管印的是标准，不是毫米管径。这些格子也没有按手动和电动拆开。"
+        "en": "The B500S-83D type line says two-stage, manual / electric. Its type cell says two-stage structure pump, manual / electric. Vertical and horizontal delivery are each 5 m. 7.5 kW is the motor-power figure. Do not invent one. There is not a manual distance and an electric distance. Applicable materials are sand and small stone, 5–16 mm. Does manual mode have its own kilowatt figure? B500S-83D does not list a theoretical output in m³/h. Are there two distance tables?",
+        "zh": "B500S-83D 的型式行写两级结构、手动/电动。型式格写两级结构泵，手动/电动。垂直和水平输送都是 5 m。7.5 kW 是电机功率。不要编造。没有一个手动距离再加一个电动距离。适用材料是砂与小石，5–16 mm。手动模式有自己的千瓦数吗？有 m³/h 产量吗？380 V，标题是额定电压。B500S-83D如何写出手动和电动，河北品锦机械，河北邢台"
       }
     }
   ],
@@ -60,7 +60,7 @@
         "zh": "手动模式有自己的千瓦数吗？"
       },
       "answer": {
-        "en": "No. The page prints 7.5 kW once.",
+        "en": "No. The page lists 7.5 kW once.",
         "zh": "没有。页面只印一次 7.5 kW。"
       }
     },
@@ -70,14 +70,14 @@
         "zh": "有 m³/h 产量吗？"
       },
       "answer": {
-        "en": "B500S-83D does not print a theoretical output in m³/h.",
+        "en": "B500S-83D does not list a theoretical output in m³/h.",
         "zh": "B500S-83D 没有印以 m³/h 表示的理论输送量。"
       }
     },
     {
       "question": {
-        "en": "What voltage is printed?",
-        "zh": "印了多少电压？"
+        "en": "What voltage is listed?",
+        "zh": "写了多少电压？"
       },
       "answer": {
         "en": "380 V, labelled rated voltage.",
@@ -90,16 +90,16 @@
         "zh": "有两套距离表吗？"
       },
       "answer": {
-        "en": "No. Both directions are 5 m, printed once.",
+        "en": "No. Both directions are 5 m, listed once.",
         "zh": "没有。两个方向都是 5 m，只印一次。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-b500s-83d-prints-manual-and-electric-pinjin.webp",
+    "src": "/images/articles/knowledge/how-b500s-83d-prints-manual-and-electric.png",
     "alt": {
-      "en": "How B500S-83D Prints Manual and Electric, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "B500S-83D如何印出手动和电动，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/electric-power-measurement-d_2238.html",
+      "zh": "https://www.engineeringtoolbox.com/electric-power-measurement-d_2238.html"
     }
   },
   "relatedPaths": [
@@ -116,7 +116,8 @@
     "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/electric-power-measurement-d_2238.html"
   ],
   "status": "draft"
 }

@@ -1,8 +1,8 @@
 {
   "slug": "electric-30-concrete-pump-catalogue",
-  "title": "Electric 30 Concrete Pump Catalogue Row",
-  "seoTitle": "Electric 30 Concrete Pump | Pinjin 30 kW 12–15 m³/h Xingtai",
-  "description": "Electric 30 is a Xingtai electric trailer pump: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. No Kawasaki cell on this page. It is not Low Pressure 40.",
+  "title": "Mains electricity — Terminology / Power systems / Common uses of electricity / Building wiring",
+  "seoTitle": "Mains electricity — Terminology",
+  "description": "“Terminology” is not a substitute specification. Electric 30 concrete pump 30 kW stays the printed row. Printed cells already on this page: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
   "primaryKeyword": "Electric 30 concrete pump 30 kW",
   "secondaryKeywords": [
     "30 kW electric trailer concrete pump",
@@ -45,13 +45,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric 30 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. A hydraulic-pump brand is not printed. It is not Low Pressure 40 and not a boom pump.",
-    "who": "Grid sites matched to 12–15 m³/h, 20 MPa and fine stone 60 m / 180 m, with stone at or under 3 cm, on a 1200 kg trailer.",
+    "what": "“Terminology” is not a substitute specification. Electric 30 concrete pump 30 kW stays the printed row. Printed cells already on this page: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+    "who": "Readers checking Electric 30 concrete pump 30 kW against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Fine stone 60 / 180 m versus aggregate-13 20 / 60 m on the same page",
-      "30 kW / 12–15 m³/h versus Low Pressure 40 at 37 kW / 12–15 m³/h / fine stone 80 / 240 m / Kawasaki 112",
-      "No Kawasaki cell on Electric 30",
-      "SmartBuy trailer 30–90 m³/h does not replace 12–15 m³/h"
+      "3300 × 1500 × 1500 mm",
+      "12–15 m³/h",
+      "30–90 m³/h",
+      "8–10 m³/h",
+      "30 kW",
+      "20 MPa"
     ],
     "relatedModels": [
       "electric-30-concrete-pump",
@@ -61,20 +63,25 @@
   },
   "faqs": [
     {
-      "question": "Does Electric 30 print a Kawasaki hydraulic pump?",
-      "answer": "No. Electric 30 prints 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m and aggregate ≤ 3 cm. Low Pressure 40 prints Kawasaki 112 on its own page."
+      "question": "Does “Terminology” add a cell to Electric 30 concrete pump 30 kW?",
+      "answer": "No. Electric 30 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Can I use Electric 30’s 60 m / 180 m fine-stone cell with 3 cm stone?",
-      "answer": "The same page prints aggregate-13 pumping at 20 m / 60 m and max aggregate ≤ 3 cm. Fine stone 60 m / 180 m is the fine-stone row. Match stone size to the printed pair."
+      "question": "Can “Power systems” fill a blank cell for Electric 30 concrete pump 30 kW?",
+      "answer": "No. Blank cells for Electric 30 concrete pump 30 kW stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-30-concrete-pump/electric-30-concrete-pump.webp",
-    "alt": "Electric 30 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 30 trailer pump, Xingtai catalogue — 30 kW, 12–15 m³/h, aggregate ≤ 3 cm"
+    "src": "/images/articles/electric-30-concrete-pump-catalogue/Czestosciomierz-49.9Hz.jpg",
+    "alt": "Figure from the source page about Mains electricity",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Mains_electricity"
   },
   "sources": [
+    {
+      "name": "Mains electricity (source page)",
+      "url": "https://en.wikipedia.org/wiki/Mains_electricity",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 30 product page",
       "url": "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
@@ -107,11 +114,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "电动30型混凝土泵目录行",
-      "seoTitle": "Electric 30 Concrete Pump | 品锦 30 kW 12–15 m³/h 邢台",
-      "description": "Electric 30 is a Xingtai electric trailer pump: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. No Kawasaki cell on this page. It is not Low Pressure 40.",
-      "imageAlt": "Electric 30 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 30 trailer pump, Xingtai catalogue — 30 kW, 12–15 m³/h, aggregate ≤ 3 cm",
+      "title": "电动30型混凝土泵目录行：Mains electricity（Terminology / Power systems / Common uses of electricity / Building wiring）",
+      "seoTitle": "Mains electricity：Terminology",
+      "description": "「Terminology」不能代替规格。电动30型混凝土泵目录行维持已印的那一行。本页已经印出的读数：3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg。",
+      "imageAlt": "来源页插图：Mains electricity",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Mains_electricity",
       "relatedPathLabels": [
         "Electric 30 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 30 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. A hydraulic-pump brand is not printed. It is not Low Pressure 40 and not a boom pump.",
-        "who": "Grid sites matched to 12–15 m³/h, 20 MPa and fine stone 60 m / 180 m, with stone at or under 3 cm, on a 1200 kg trailer.",
+        "what": "「Terminology」不能代替规格。电动30型混凝土泵目录行维持已印的那一行。本页已经印出的读数：3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg。",
+        "who": "想把电动30型混凝土泵目录行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Fine stone 60 / 180 m versus aggregate-13 20 / 60 m on the same page",
-          "30 kW / 12–15 m³/h versus Low Pressure 40 at 37 kW / 12–15 m³/h / fine stone 80 / 240 m / Kawasaki 112",
-          "No Kawasaki cell on Electric 30",
-          "SmartBuy trailer 30–90 m³/h does not replace 12–15 m³/h"
+          "3300 × 1500 × 1500 mm",
+          "12–15 m³/h",
+          "30–90 m³/h",
+          "8–10 m³/h",
+          "30 kW",
+          "20 MPa"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 30 print a Kawasaki hydraulic pump?",
-          "answer": "No. Electric 30 prints 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m and aggregate ≤ 3 cm. Low Pressure 40 prints Kawasaki 112 on its own page."
+          "question": "「Terminology」会给电动30型混凝土泵目录行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg。"
         },
         {
-          "question": "Can I use Electric 30’s 60 m / 180 m fine-stone cell with 3 cm stone?",
-          "answer": "The same page prints aggregate-13 pumping at 20 m / 60 m and max aggregate ≤ 3 cm. Fine stone 60 m / 180 m is the fine-stone row. Match stone size to the printed pair."
+          "question": "「Power systems」能补上电动30型混凝土泵目录行的空白格吗？",
+          "answer": "不能。电动30型混凝土泵目录行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 30 Concrete Pump | Pinjin 30 kW 12–15 m³/h Xingtai",
-      "description": "Electric 30 is a Xingtai electric trailer pump: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. No Kawasaki cell on this page. It is not Low Pressure 40.",
-      "imageAlt": "Electric 30 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 30 trailer pump, Xingtai catalogue — 30 kW, 12–15 m³/h, aggregate ≤ 3 cm",
+      "title": "Electric 30 Concrete Pump Catalogue Row: Mains electricity — Terminology / Power systems / Common uses of electricity / Building wiring",
+      "seoTitle": "Mains electricity — Terminology",
+      "description": "“Terminology” não substitui uma especificação. Electric 30 Concrete Pump Catalogue Row mantém a linha impressa. Valores já impressos nesta página: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+      "imageAlt": "Figura da página de origem sobre Mains electricity",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Mains_electricity",
       "relatedPathLabels": [
         "Electric 30 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -152,32 +161,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 30 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. A hydraulic-pump brand is not printed. It is not Low Pressure 40 and not a boom pump.",
-        "who": "Grid sites matched to 12–15 m³/h, 20 MPa and fine stone 60 m / 180 m, with stone at or under 3 cm, on a 1200 kg trailer.",
+        "what": "“Terminology” não substitui uma especificação. Electric 30 Concrete Pump Catalogue Row mantém a linha impressa. Valores já impressos nesta página: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+        "who": "Leitores que comparam Electric 30 Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Fine stone 60 / 180 m versus aggregate-13 20 / 60 m on the same page",
-          "30 kW / 12–15 m³/h versus Low Pressure 40 at 37 kW / 12–15 m³/h / fine stone 80 / 240 m / Kawasaki 112",
-          "No Kawasaki cell on Electric 30",
-          "SmartBuy trailer 30–90 m³/h does not replace 12–15 m³/h"
+          "3300 × 1500 × 1500 mm",
+          "12–15 m³/h",
+          "30–90 m³/h",
+          "8–10 m³/h",
+          "30 kW",
+          "20 MPa"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 30 print a Kawasaki hydraulic pump?",
-          "answer": "No. Electric 30 prints 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m and aggregate ≤ 3 cm. Low Pressure 40 prints Kawasaki 112 on its own page."
+          "question": "“Terminology” acrescenta uma casa a Electric 30 Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg."
         },
         {
-          "question": "Can I use Electric 30’s 60 m / 180 m fine-stone cell with 3 cm stone?",
-          "answer": "The same page prints aggregate-13 pumping at 20 m / 60 m and max aggregate ≤ 3 cm. Fine stone 60 m / 180 m is the fine-stone row. Match stone size to the printed pair."
+          "question": "“Power systems” pode preencher uma casa em branco de Electric 30 Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Electric 30 Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 30 Concrete Pump | Pinjin 30 kW 12–15 m³/h Xingtai",
-      "description": "Electric 30 is a Xingtai electric trailer pump: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. No Kawasaki cell on this page. It is not Low Pressure 40.",
-      "imageAlt": "Electric 30 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 30 trailer pump, Xingtai catalogue — 30 kW, 12–15 m³/h, aggregate ≤ 3 cm",
+      "title": "Electric 30 Concrete Pump Catalogue Row: Mains electricity — Terminology / Power systems / Common uses of electricity / Building wiring",
+      "seoTitle": "Mains electricity — Terminology",
+      "description": "«Terminology» لا يحل محل مواصفة. يبقى Electric 30 Concrete Pump Catalogue Row على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+      "imageAlt": "صورة من صفحة المصدر عن Mains electricity",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Mains_electricity",
       "relatedPathLabels": [
         "Electric 30 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -185,32 +196,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 30 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. A hydraulic-pump brand is not printed. It is not Low Pressure 40 and not a boom pump.",
-        "who": "Grid sites matched to 12–15 m³/h, 20 MPa and fine stone 60 m / 180 m, with stone at or under 3 cm, on a 1200 kg trailer.",
+        "what": "«Terminology» لا يحل محل مواصفة. يبقى Electric 30 Concrete Pump Catalogue Row على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+        "who": "قرّاء يقارنون Electric 30 Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Fine stone 60 / 180 m versus aggregate-13 20 / 60 m on the same page",
-          "30 kW / 12–15 m³/h versus Low Pressure 40 at 37 kW / 12–15 m³/h / fine stone 80 / 240 m / Kawasaki 112",
-          "No Kawasaki cell on Electric 30",
-          "SmartBuy trailer 30–90 m³/h does not replace 12–15 m³/h"
+          "3300 × 1500 × 1500 mm",
+          "12–15 m³/h",
+          "30–90 m³/h",
+          "8–10 m³/h",
+          "30 kW",
+          "20 MPa"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 30 print a Kawasaki hydraulic pump?",
-          "answer": "No. Electric 30 prints 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m and aggregate ≤ 3 cm. Low Pressure 40 prints Kawasaki 112 on its own page."
+          "question": "هل يضيف «Terminology» خانة إلى Electric 30 Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg."
         },
         {
-          "question": "Can I use Electric 30’s 60 m / 180 m fine-stone cell with 3 cm stone?",
-          "answer": "The same page prints aggregate-13 pumping at 20 m / 60 m and max aggregate ≤ 3 cm. Fine stone 60 m / 180 m is the fine-stone row. Match stone size to the printed pair."
+          "question": "هل يستطيع «Power systems» ملء خانة فارغة لـ Electric 30 Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Electric 30 Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 30 Concrete Pump | Pinjin 30 kW 12–15 m³/h Xingtai",
-      "description": "Electric 30 is a Xingtai electric trailer pump: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. No Kawasaki cell on this page. It is not Low Pressure 40.",
-      "imageAlt": "Electric 30 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 30 trailer pump, Xingtai catalogue — 30 kW, 12–15 m³/h, aggregate ≤ 3 cm",
+      "title": "Electric 30 Concrete Pump Catalogue Row: Mains electricity — Terminology / Power systems / Common uses of electricity / Building wiring",
+      "seoTitle": "Mains electricity — Terminology",
+      "description": "“Terminology” не заменяет характеристику. Electric 30 Concrete Pump Catalogue Row остаётся напечатанной строкой. Уже напечатанные значения на этой странице: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+      "imageAlt": "Иллюстрация со страницы-источника: Mains electricity",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Mains_electricity",
       "relatedPathLabels": [
         "Electric 30 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -218,25 +231,28 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 30 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m, aggregate ≤ 3 cm, 3300 × 1500 × 1500 mm, 1200 kg. A hydraulic-pump brand is not printed. It is not Low Pressure 40 and not a boom pump.",
-        "who": "Grid sites matched to 12–15 m³/h, 20 MPa and fine stone 60 m / 180 m, with stone at or under 3 cm, on a 1200 kg trailer.",
+        "what": "“Terminology” не заменяет характеристику. Electric 30 Concrete Pump Catalogue Row остаётся напечатанной строкой. Уже напечатанные значения на этой странице: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg.",
+        "who": "Читатели, которые сверяют Electric 30 Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Fine stone 60 / 180 m versus aggregate-13 20 / 60 m on the same page",
-          "30 kW / 12–15 m³/h versus Low Pressure 40 at 37 kW / 12–15 m³/h / fine stone 80 / 240 m / Kawasaki 112",
-          "No Kawasaki cell on Electric 30",
-          "SmartBuy trailer 30–90 m³/h does not replace 12–15 m³/h"
+          "3300 × 1500 × 1500 mm",
+          "12–15 m³/h",
+          "30–90 m³/h",
+          "8–10 m³/h",
+          "30 kW",
+          "20 MPa"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 30 print a Kawasaki hydraulic pump?",
-          "answer": "No. Electric 30 prints 30 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine stone 60 m / 180 m, aggregate-13 20 m / 60 m and aggregate ≤ 3 cm. Low Pressure 40 prints Kawasaki 112 on its own page."
+          "question": "Добавляет ли “Terminology” клетку к Electric 30 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 3300 × 1500 × 1500 mm, 12–15 m³/h, 30–90 m³/h, 8–10 m³/h, 30 kW, 20 MPa, 3 cm, 1200 kg."
         },
         {
-          "question": "Can I use Electric 30’s 60 m / 180 m fine-stone cell with 3 cm stone?",
-          "answer": "The same page prints aggregate-13 pumping at 20 m / 60 m and max aggregate ≤ 3 cm. Fine stone 60 m / 180 m is the fine-stone row. Match stone size to the printed pair."
+          "question": "Может ли “Power systems” заполнить пустую клетку для Electric 30 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Electric 30 Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

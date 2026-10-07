@@ -1,29 +1,22 @@
-## Catalogue Electric 80 row
+## Ideal transformer
 
-Electric 80 Concrete Pump is a high-capacity electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Синтай, Hebei, China. Catalogue parameters: 110 kW, 60 m³/h, 40 MPa, 900 m горизонталь / 300 m вертикаль (2 cm заполнитель), model HBT80-1816-110. Hopper 0.7 m³, max заполнитель 24 mm (≤ 2 cm), Kawasaki 140 double pump, 6600 × 1800 × 1800 mm, 6000 kg.
+![Иллюстрация со страницы-источника: Transformer](/images/articles/electric-80-concrete-pump-guide/Transformer-hightolow_smaller.jpg)
+*Изображение со страницы-источника: https://en.wikipedia.org/wiki/Transformer*
 
-![Electric 80 HBT80 trailer concrete pump factory product photo, Hebei Pinjin Machinery Синтай](/images/products/electric-80-concrete-pump/electric-80-concrete-pump.webp)
-*Electric 80, Синтай catalogue — HBT80-1816-110, 110 kW, 60 m³/h, 900 m / 300 m*
+“Ideal transformer” — только контекст источника, а не новая табличка для Electric 80 Concrete Pump Catalogue Row. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.
 
-## Neighbour electric / HBT rows
+Пустые клетки на этой странице остаются пустыми. “Ideal transformer” их не заполняет.
 
-| Model | Motor | Theoretical output | Pressure | Distance | Weight |
-| Electric 60 | 90 kW | 40 m³/h | 35 MPa | мелкий камень 200 m / 600 m | 3300 kg |
-| HBT80-16 | 110 kW | 50 m³/h | 40 MPa | 120 m conveying / 360 m delivery height | 6500 kg |
-| Electric 80 / HBT80-1816-110 | 110 kW | 60 m³/h | 40 MPa | 900 m / 300 m (2 cm заполнитель) | 6000 kg |
-| HBT8018 / HBT8018-132S | 132 kW | 60 m³/h | 40 MPa | 150 m conveying / 450 m delivery height | 6500 kg |
+## Real transformer
 
-High-rise conversion of floors to metres: [high-rise building concrete pump selection](/blog/high-rise-building-concrete-pump-selection/). Output ladder: [concrete pump output m³/h](/blog/concrete-pump-output-m3h-guide/). Hub: [electric concrete pumps](/products/electric-concrete-pumps/).
+Открыть источник на “Real transformer” значит читать ту страницу, а не второй каталог Electric 80 Concrete Pump Catalogue Row. Эта глава не добавляет цифру.
 
-## When this row fits
+## Transformer EMF equation
 
-High-rise and long-distance pumping inside the listed 900 m / 300 m at 2 cm заполнитель. Large commercial and infrastructure pours that need the 60 m³/h catalogue output. Sites that can supply the listed 110 kW motor.
+“Transformer EMF equation” — глава на странице-источнике. Она не переименовывает Electric 80 Concrete Pump Catalogue Row. Эта глава не добавляет цифру.
 
-## When to open another page
+## Polarity
 
-- 40 m³/h / 90 kW / мелкий камень 200 m / 600 m → [Electric 60](/products/electric-60-concrete-pump/).
-- 50 m³/h HBT row → [HBT80-16](/products/hbt80-16-concrete-pump/).
-- 132 kW HBT8018-132S → [HBT8018](/products/hbt8018-concrete-pump/).
-- Not a truck-mounted placing boom and not a concrete batching plant.
+Electric 80 Concrete Pump Catalogue Row остаётся строкой, которая уже была в этом тексте. “Polarity” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 6600 × 1800 × 1800 mm, 110 kW, 60 m³/h, 40 MPa, 2 cm, 24 mm, 6000 kg, 90 kW.
 
-Product page: [Electric 80 concrete pump](/products/electric-80-concrete-pump/). Запрос: [contact](/contact/).
+Страницы, уже указанные в этом тексте: [high-rise building concrete pump selection](/blog/high-rise-building-concrete-pump-selection/), [concrete pump output m³/h](/blog/concrete-pump-output-m3h-guide/), [electric concrete pumps](/products/electric-concrete-pumps/).

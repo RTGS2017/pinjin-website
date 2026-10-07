@@ -6,100 +6,110 @@
     "zh": "电动10和电动15混凝土泵的区别"
   },
   "title": {
-    "en": "Electric 10 vs Electric 15 at the Same 15 kW",
-    "zh": "同为15千瓦时，电动10和电动15有何不同"
+    "en": "Electric 10 vs Electric 15 at the Same 15 kW: 15 kW beside the Contactor article",
+    "zh": "同为15千瓦时，电动10和电动15有何不同：对照「接触器」时，15 kW仍在原页"
   },
   "description": {
-    "en": "Both compact electric pumps print a 15 kW motor. Output, pressure, distance and pipe are not the same cells.",
-    "zh": "两台紧凑电动泵都印 15 kW 电机。产量、压力、距离和管径不是同一格。"
+    "en": "Electric 10 vs Electric 15 at the Same 15 kW. 15 kW stays in the catalogue entry. Illustration: Contactor.",
+    "zh": "同为15千瓦时，电动10和电动15有何不同。15 kW仍在目录格子里。插图来自「接触器」。"
   },
   "h1": {
-    "en": "Electric 10 vs Electric 15 at the Same 15 kW",
-    "zh": "同为15千瓦时，电动10和电动15有何不同"
+    "en": "Electric 10 vs Electric 15 at the Same 15 kW: 15 kW beside the Contactor article",
+    "zh": "同为15千瓦时，电动10和电动15有何不同：对照「接触器」时，15 kW仍在原页"
   },
   "directAnswer": {
-    "en": "Electric 10 Series and Electric 15 are concrete pumps from Hebei Pinjin Machinery in Xingtai that both print a 15 kW motor. Electric 10 prints 21 m³/h, 23 MPa and 25 m horizontal with no vertical line. Electric 15 prints 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal and a 100–125 mm pipe, and it prints no outlet pressure.",
-    "zh": "电动10系列和电动15是河北品锦机械在邢台的混凝土泵，电机都印 15 kW。电动10印 21 m³/h、23 MPa、水平 25 m，没有垂直行。电动15印 8–10 m³/h、垂直 15–20 m、水平 60–80 m、管内径 100–125 mm，并且不印出口压力。"
+    "en": "Electric 10 Series and Electric 15 are concrete pumps from Hebei Pinjin Machinery in Xingtai that both list a 15 kW motor. Electric 10 lists 21 m³/h, 23 MPa and 25 m horizontal with no vertical line. The picture is from https://en.wikipedia.org/wiki/Contactor.",
+    "zh": "电动10系列和电动15是河北品锦机械在邢台的混凝土泵，电机都标出 15 kW。电动10标出 21 m³/h、23 MPa、水平 25 m，没有垂直行。图片来自https://en.wikipedia.org/wiki/Contactor。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Where Electric 10 Series and Electric 15 print different values",
-        "zh": "电动10系列和电动15哪些数值不同"
+        "en": "Characteristics",
+        "zh": "特点"
       },
       "body": {
-        "en": "Theoretical output: Electric 10 Series prints 21 m³/h; Electric 15 prints 8–10 m³/h. Max. aggregate size: Electric 10 Series prints 2 cm and below; Electric 15 prints 1–3 cm. Dimensions: Electric 10 Series prints 1800 × 800 × 1200 mm; Electric 15 prints 1900 × 900 × 1200 mm. The same printed value on a shared label: Motor power is 15 kW on both pages. These are printed cells on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. They are not a calculated conversion from one model to the other.",
-        "zh": "理论输送量：电动10系列印 21 m³/h；电动15印 8–10 m³/h。最大骨料粒径：电动10系列印 2 cm and below；电动15印 1–3 cm。外形尺寸：电动10系列印 1800 × 800 × 1200 mm；电动15印 1900 × 900 × 1200 mm。同一标题下数值相同的有：电机功率两边都是 15 kW。以上是河北品锦机械在邢台混凝土泵页面上印出的格子，不是把一台机器换算成另一台。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Contactor. The picture shows Magnetic contactor. Electric 10 Series and Electric 15 are concrete pumps from Hebei Pinjin Machinery in Xingtai that both list a 15 kW motor. Max. aggregate size: Electric 10 Series lists 2 cm and below. Electric 15 lists 1–3 cm. They are not a calculated conversion from one model to the other. Equal motor kilowatts do not equal the same output or the same distance layout. If a job needs a figure this pair does not list, use the contact page rather than inventing a bore, stroke or price.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Contactor。画面是Magnetic contactor。电动10系列和电动15是河北品锦机械在邢台的混凝土泵，电机都标出 15 kW。最大骨料粒径：电动10系列标出 2 cm and below；电动15标出 1–3 cm。电动10系列有、电动15没有的行：最大出口压力 23 MPa；料斗容积 0.1 m³；水平输送距离 25 m；整机重量 400 kg。商品名里的数字不能用来抄产量、压力或距离。"
       }
     },
     {
       "heading": {
-        "en": "Cells that exist on only one of these pumps",
-        "zh": "只在其中一台泵上出现的格子"
+        "en": "Operating principle",
+        "zh": "工作原理"
       },
       "body": {
-        "en": "Electric 10 Series prints cells that Electric 15 does not: Max. outlet pressure 23 MPa; Hopper capacity 0.1 m³; Horizontal pumping distance 25 m; Main unit weight 400 kg. Electric 15 prints cells that Electric 10 Series does not: Vertical delivery height 15–20 m; Horizontal delivery distance 60–80 m; Delivery pipe diameter 100–125 mm; Total weight 450 kg. A blank or missing label is not filled from the other concrete pump.",
-        "zh": "电动10系列有、电动15没有的行：最大出口压力 23 MPa；料斗容积 0.1 m³；水平输送距离 25 m；整机重量 400 kg。电动15有、电动10系列没有的行：垂直输送高度 15–20 m；水平输送距离 60–80 m；输送管内径 100–125 mm；整机重量 450 kg。缺了的标题不能用另一台混凝土泵来补。"
+        "en": "Electric 10 lists 21 m³/h, 23 MPa and 25 m horizontal with no vertical line. Dimensions: Electric 10 Series lists 1800 × 800 × 1200 mm. Electric 15 lists 1900 × 900 × 1200 mm. Electric 10 Series lists entries that Electric 15 does not: Max. outlet pressure 23 MPa. Hopper capacity 0.1 m³. Horizontal pumping distance 25 m. Main unit weight 400 kg. Open /en/products/electric-10-series-concrete-pump/ for Electric 10 Series and /en/products/electric-15-concrete-pump/ for Electric 15.",
+        "zh": "电动10标出 21 m³/h、23 MPa、水平 25 m，没有垂直行。外形尺寸：电动10系列标出 1800 × 800 × 1200 mm；电动15标出 1900 × 900 × 1200 mm。电动15有、电动10系列没有的行：垂直输送高度 15–20 m；水平输送距离 60–80 m；输送管内径 100–125 mm；整机重量 450 kg。如果工况需要这对机型没有写出的数字，请走联系页，不要编造缸径、行程或价格。"
       }
     },
     {
       "heading": {
-        "en": "How to read the two pages without merging them",
-        "zh": "怎样分开阅读这两个页面"
+        "en": "Construction",
+        "zh": "构造"
       },
       "body": {
-        "en": "Equal motor kilowatts do not equal the same output or the same distance layout. Open /en/products/electric-10-series-concrete-pump/ for Electric 10 Series and /en/products/electric-15-concrete-pump/ for Electric 15. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei. The number in a commercial name is not a licence to copy output, pressure or distance. If a job needs a figure this pair does not print, use the contact page rather than inventing a bore, stroke or price.",
-        "zh": "电机千瓦数相同，不等于产量相同，也不等于距离的写法相同。看电动10系列请打开 /zh/products/electric-10-series-concrete-pump/，看电动15请打开 /zh/products/electric-15-concrete-pump/。河北品锦机械在河北邢台制造这些混凝土泵。商品名里的数字不能用来抄产量、压力或距离。如果工况需要这对机型没有印出的数字，请走联系页，不要编造缸径、行程或价格。"
+        "en": "Electric 15 lists 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal and a 100–125 mm pipe, and it lists no outlet pressure. The same shown value on a shared label: Motor power is 15 kW on both pages. Electric 15 lists entries that Electric 10 Series does not: Vertical delivery height 15–20 m. Horizontal delivery distance 60–80 m. Delivery pipe diameter 100–125 mm. Total weight 450 kg. Hebei Pinjin Machinery builds these concrete pumps in Xingtai, Hebei.",
+        "zh": "电动15标出 8–10 m³/h、垂直 15–20 m、水平 60–80 m、管内径 100–125 mm，并且不写出口压力。同一标题下数值相同的有：电机功率两边都是 15 kW。电机千瓦数相同，不等于产量相同，也不等于距离的写法相同。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Arc suppression",
+        "zh": "灭弧"
+      },
+      "body": {
+        "en": "Theoretical output: Electric 10 Series lists 21 m³/h. Electric 15 lists 8–10 m³/h. These are shown entries on the Hebei Pinjin Machinery pages for concrete pumps made in Xingtai. A blank or missing label is not filled from the other concrete pump. The number in a commercial name is not a licence to copy output, pressure or distance.",
+        "zh": "理论输送量：电动10系列标出 21 m³/h；电动15标出 8–10 m³/h。以上是河北品锦机械在邢台混凝土泵页面上写出的格子，不是把一台机器换算成另一台。看电动10系列请打开 /zh/products/electric-10-series-concrete-pump/，看电动15请打开 /zh/products/electric-15-concrete-pump/。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 10 Series print the same theoretical output as Electric 15?",
+        "en": "Does Electric 10 Series list the same theoretical output as Electric 15?",
         "zh": "电动10系列和电动15的理论输送量一样吗？"
       },
       "answer": {
-        "en": "No. Electric 10 Series prints 21 m³/h. Electric 15 prints 8–10 m³/h. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动10系列印 21 m³/h。电动15印 8–10 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric 10 Series lists 21 m³/h. Electric 15 lists 8–10 m³/h. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Contactor.",
+        "zh": "不一样。电动10系列标出 21 m³/h。电动15标出 8–10 m³/h。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Contactor画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 10 Series print the same max. aggregate size as Electric 15?",
+        "en": "Does Electric 10 Series list the same max. aggregate size as Electric 15?",
         "zh": "电动10系列和电动15的最大骨料粒径一样吗？"
       },
       "answer": {
-        "en": "No. Electric 10 Series prints 2 cm and below. Electric 15 prints 1–3 cm. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动10系列印 2 cm and below。电动15印 1–3 cm。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric 10 Series lists 2 cm and below. Electric 15 lists 1–3 cm. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Contactor.",
+        "zh": "不一样。电动10系列标出 2 cm and below。电动15标出 1–3 cm。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Contactor画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 10 Series print the same dimensions as Electric 15?",
+        "en": "Does Electric 10 Series list the same dimensions as Electric 15?",
         "zh": "电动10系列和电动15的外形尺寸一样吗？"
       },
       "answer": {
-        "en": "No. Electric 10 Series prints 1800 × 800 × 1200 mm. Electric 15 prints 1900 × 900 × 1200 mm. Both are Hebei Pinjin Machinery catalogue cells from Xingtai, and neither cell replaces the other.",
-        "zh": "不一样。电动10系列印 1800 × 800 × 1200 mm。电动15印 1900 × 900 × 1200 mm。两格都是河北品锦机械在邢台公布的目录，不能互相替代。"
+        "en": "No. Electric 10 Series lists 1800 × 800 × 1200 mm. Electric 15 lists 1900 × 900 × 1200 mm. Both are Hebei Pinjin Machinery catalogue entries from Xingtai, and neither entry replaces the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Contactor.",
+        "zh": "不一样。电动10系列标出 1800 × 800 × 1200 mm。电动15标出 1900 × 900 × 1200 mm。两格都是河北品锦机械在邢台公布的目录，不能互相替代。它不是https://en.wikipedia.org/wiki/Contactor画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Why is max. outlet pressure missing on Electric 15?",
+        "en": "On this row: Why is max. outlet pressure missing on Electric 15?",
         "zh": "为什么电动15没有最大出口压力？"
       },
       "answer": {
-        "en": "The Electric 15 page does not print that label. Electric 10 Series prints 23 MPa. Leave the missing cell blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps.",
-        "zh": "电动15这一页没有印这个标题。电动10系列印的是 23 MPa。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。"
+        "en": "The Electric 15 page does not list that label. Electric 10 Series lists 23 MPa. Leave the missing entry blank. Hebei Pinjin Machinery does not publish a rule for copying it across concrete pumps. It is not a figure printed inside https://en.wikipedia.org/wiki/Contactor.",
+        "zh": "电动15这一页没有标出这个标题。电动10系列标出的是 23 MPa。缺的格子保持空白。河北品锦机械没有公布把该格抄到另一台混凝土泵上的规则。它不是https://en.wikipedia.org/wiki/Contactor画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/electric-10-vs-electric-15-concrete-pump-pinjin.webp",
+    "src": "/images/articles/knowledge/electric-10-vs-electric-15-concrete-pump-magnetic-contactor.png",
     "alt": {
-      "en": "Electric 10 Series concrete pump, catalogue comparison, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "电动10系列混凝土泵目录对照，河北品锦机械，河北邢台"
+      "en": "Magnetic contactor. Image from the source page: https://en.wikipedia.org/wiki/Contactor.",
+      "zh": "Magnetic contactor。图来自来源页：https://en.wikipedia.org/wiki/Contactor。"
     }
   },
   "relatedPaths": [
@@ -122,7 +132,8 @@
     "https://pinjinpump.com/en/products/electric-concrete-pumps/",
     "https://pinjinpump.com/zh/products/electric-concrete-pumps/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Contactor"
   ],
   "status": "draft"
 }

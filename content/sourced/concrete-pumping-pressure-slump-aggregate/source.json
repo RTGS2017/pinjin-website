@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pumping Pressure, Slump and Aggregate",
-  "seoTitle": "Concrete Pumping Pressure, Slump and Aggregate | Pinjin",
-  "description": "Read outlet pressure from the Pinjin catalogue and slump/aggregate limits from ACI 304.2R-17. No factory-invented pressure–slump formula. Electric 20 is 10 MPa; Electric 30 and Low Pressure 40 are 20 MPa; Electric 40 is 23 MPa.",
+  "title": "Concrete slump test — Procedure / Interpretation of results / Limitations of the slump test / Differences in standards",
+  "seoTitle": "Concrete slump test — Procedure",
+  "description": "“Procedure” is a chapter on the source page. It does not rename concrete pumping pressure. Printed cells already on this page: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
   "primaryKeyword": "concrete pumping pressure",
   "secondaryKeywords": [
     "concrete slump pumping",
@@ -53,13 +53,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Pumping pressure on a Pinjin page is the published max outlet pressure, not a site-calculated friction number. Electric 20 lists 10 MPa; Electric 30 and Low Pressure 40 list 20 MPa; Electric 40 lists 23 MPa. ACI 304.2R-17 treats 2–6 in (50–150 mm) slump as the traditional target for conventional mixtures without admixtures, and limits coarse aggregate to one-third (angular) or two-fifths (rounded) of the smallest pipeline inside diameter. We do not publish a Pinjin pressure–slump equation.",
-    "who": "Engineers and buyers who need to line up mix slump and stone with a catalogue pressure row before inquiring.",
+    "what": "“Procedure” is a chapter on the source page. It does not rename concrete pumping pressure. Printed cells already on this page: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+    "who": "Readers checking concrete pumping pressure against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Catalogue max outlet pressure on the pump page",
-      "Max aggregate and, where printed, fine-stone versus agg13 distance",
-      "ACI 304.2R-17 slump band and aggregate-to-pipe limits as cited industry guidance",
-      "Pipeline length and DN — distance is a catalogue pair, not a derived formula here"
+      "8–10 m³/h",
+      "1–2 cm",
+      "12–15 m³/h",
+      "50–150 mm",
+      "10 MPa",
+      "20 MPa"
     ],
     "relatedModels": [
       "electric-20-concrete-pump",
@@ -70,20 +72,25 @@
   },
   "faqs": [
     {
-      "question": "Does Pinjin publish a formula that converts slump into outlet pressure?",
-      "answer": "No. We print outlet pressure, output, hopper and conveying distance. Slump target ranges in this article are quoted from ACI 304.2R-17, not from a factory equation."
+      "question": "Does “Procedure” add a cell to concrete pumping pressure?",
+      "answer": "No. ACI 304.2R-17 is the industry document we cite for conventional slump bands and aggregate-to-pipe limits."
     },
     {
-      "question": "Is Low Pressure 40 a 10 MPa pump?",
-      "answer": "No. Its catalogue max outlet pressure is 20 MPa, the same band as Electric 30. ‘Low pressure’ on that page is a fine-stone tune, explained in the Low Pressure 40 guide."
+      "question": "Can “Interpretation of results” fill a blank cell for concrete pumping pressure?",
+      "answer": "No. Blank cells for concrete pumping pressure stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-40-concrete-pump/main.webp",
-    "alt": "Electric 40 concrete pump, 23 MPa catalogue outlet pressure, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 40 trailer pump, Xingtai catalogue — 23 MPa, 21 m³/h"
+    "src": "/images/articles/concrete-pumping-pressure-slump-aggregate/Cono_de_Abrams_05.jpg",
+    "alt": "Figure from the source page about Concrete slump test",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_slump_test"
   },
   "sources": [
+    {
+      "name": "Concrete slump test (source page)",
+      "url": "https://en.wikipedia.org/wiki/Concrete_slump_test",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 20 product page",
       "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
@@ -113,9 +120,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Concrete Pumping Pressure, Slump and Aggregate",
-      "description": "Read 出口压力 from the 品锦 catalogue and slump/骨料 limits from ACI 304.2R-17. No factory-invented pressure–slump formula. 电动20 is 10 MPa; 电动30 and Low Pressure 40 are 20 MPa; 电动40 is 23 MPa.",
-      "imageAlt": "电动40 concrete pump, 23 MPa catalogue 出口压力, 河北品锦机械 邢台",
+      "title": "Concrete Pumping Pressure, Slump and Aggregate：Concrete slump test（Procedure / Interpretation of results / Limitations of the slump test / Differences in standards）",
+      "description": "「Procedure」是来源页自己的章节，不会把Concrete Pumping Pressure, Slump and Aggregate改成另一条目录。本页已经印出的读数：8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h。",
+      "imageAlt": "来源页插图：Concrete slump test",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Fine stone pump 骨料 size selection",
@@ -123,32 +130,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Pumping pressure on a 品锦 page is the published max 出口压力, not a site-calculated friction number. 电动20 lists 10 MPa; 电动30 and Low Pressure 40 list 20 MPa; 电动40 lists 23 MPa. ACI 304.2R-17 treats 2–6 in (50–150 mm) slump as the traditional target for conventional mixtures without admixtures, and limits coarse 骨料 to one-third (angular) or two-fifths (rounded) of the smallest pipeline inside diameter. We do not publish a 品锦 pressure–slump equation.",
-        "who": "Engineers and buyers who need to line up mix slump and stone with a catalogue pressure row before inquiring.",
+        "what": "「Procedure」是来源页自己的章节，不会把Concrete Pumping Pressure, Slump and Aggregate改成另一条目录。本页已经印出的读数：8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h。",
+        "who": "想把Concrete Pumping Pressure, Slump and Aggregate和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Catalogue max 出口压力 on the pump page",
-          "Max 骨料 and, where printed, 细石 versus agg13 distance",
-          "ACI 304.2R-17 slump band and 骨料-to-pipe limits as cited industry guidance",
-          "Pipeline length and DN — distance is a catalogue pair, not a derived formula here"
+          "8–10 m³/h",
+          "1–2 cm",
+          "12–15 m³/h",
+          "50–150 mm",
+          "10 MPa",
+          "20 MPa"
         ]
       },
-      "seoTitle": "Concrete Pumping Pressure, Slump and Aggregate | 品锦",
-      "imageCaption": "电动40 拖式泵, 邢台 catalogue — 23 MPa, 21 m³/h",
+      "seoTitle": "Concrete slump test：Procedure",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Concrete_slump_test",
       "faqs": [
         {
-          "question": "Does 品锦 publish a formula that converts slump into 出口压力?",
-          "answer": "No. We print 出口压力, output, hopper and conveying distance. Slump target ranges in this article are quoted from ACI 304.2R-17, not from a factory equation."
+          "question": "「Procedure」会给Concrete Pumping Pressure, Slump and Aggregate增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h。"
         },
         {
-          "question": "Is Low Pressure 40 a 10 MPa pump?",
-          "answer": "No. Its catalogue max 出口压力 is 20 MPa, the same band as 电动30. ‘Low pressure’ on that page is a 细石 tune, explained in the Low Pressure 40 guide."
+          "question": "「Interpretation of results」能补上Concrete Pumping Pressure, Slump and Aggregate的空白格吗？",
+          "answer": "不能。Concrete Pumping Pressure, Slump and Aggregate没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pumping Pressure, Slump and Aggregate",
-      "description": "Read pressão de saída from the Pinjin catalogue and slump/agregado limits from ACI 304.2R-17. No factory-invented pressure–slump formula. Electric 20 is 10 MPa; Electric 30 and Low Pressure 40 are 20 MPa; Electric 40 is 23 MPa.",
-      "imageAlt": "Electric 40 concrete pump, 23 MPa catalogue pressão de saída, Hebei Pinjin Machinery Xingtai",
+      "title": "Concrete Pumping Pressure, Slump and Aggregate: Concrete slump test — Procedure / Interpretation of results / Limitations of the slump test / Differences in standards",
+      "description": "“Procedure” é um capítulo da página de origem. Não muda o nome de Concrete Pumping Pressure, Slump and Aggregate. Valores já impressos nesta página: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+      "imageAlt": "Figura da página de origem sobre Concrete slump test",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Fine stone pump agregado size selection",
@@ -156,32 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pumping pressure on a Pinjin page is the published max pressão de saída, not a site-calculated friction number. Electric 20 lists 10 MPa; Electric 30 and Low Pressure 40 list 20 MPa; Electric 40 lists 23 MPa. ACI 304.2R-17 treats 2–6 in (50–150 mm) slump as the traditional target for conventional mixtures without admixtures, and limits coarse agregado to one-third (angular) or two-fifths (rounded) of the smallest pipeline inside diameter. We do not publish a Pinjin pressure–slump equation.",
-        "who": "Engineers and buyers who need to line up mix slump and stone with a catalogue pressure row before inquiring.",
+        "what": "“Procedure” é um capítulo da página de origem. Não muda o nome de Concrete Pumping Pressure, Slump and Aggregate. Valores já impressos nesta página: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+        "who": "Leitores que comparam Concrete Pumping Pressure, Slump and Aggregate com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Catalogue max pressão de saída on the pump page",
-          "Max agregado and, where printed, pedra fina versus agg13 distance",
-          "ACI 304.2R-17 slump band and agregado-to-pipe limits as cited industry guidance",
-          "Pipeline length and DN — distance is a catalogue pair, not a derived formula here"
+          "8–10 m³/h",
+          "1–2 cm",
+          "12–15 m³/h",
+          "50–150 mm",
+          "10 MPa",
+          "20 MPa"
         ]
       },
-      "seoTitle": "Concrete Pumping Pressure, Slump and Aggregate | Pinjin",
-      "imageCaption": "Electric 40 bomba reboque, Xingtai catalogue — 23 MPa, 21 m³/h",
+      "seoTitle": "Concrete slump test — Procedure",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Concrete_slump_test",
       "faqs": [
         {
-          "question": "Does Pinjin publish a formula that converts slump into pressão de saída?",
-          "answer": "No. We print pressão de saída, output, hopper and conveying distance. Slump target ranges in this article are quoted from ACI 304.2R-17, not from a factory equation."
+          "question": "“Procedure” acrescenta uma casa a Concrete Pumping Pressure, Slump and Aggregate?",
+          "answer": "Não. Valores já impressos nesta página: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h."
         },
         {
-          "question": "Is Low Pressure 40 a 10 MPa pump?",
-          "answer": "No. Its catalogue max pressão de saída is 20 MPa, the same band as Electric 30. ‘Low pressure’ on that page is a pedra fina tune, explained in the Low Pressure 40 guide."
+          "question": "“Interpretation of results” pode preencher uma casa em branco de Concrete Pumping Pressure, Slump and Aggregate?",
+          "answer": "Não. As casas em branco de Concrete Pumping Pressure, Slump and Aggregate continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pumping Pressure, Slump and Aggregate",
-      "description": "Read ضغط المخرج from the Pinjin catalogue and slump/ركام limits from ACI 304.2R-17. No factory-invented pressure–slump formula. Electric 20 is 10 MPa; Electric 30 and Low Pressure 40 are 20 MPa; Electric 40 is 23 MPa.",
-      "imageAlt": "Electric 40 concrete pump, 23 MPa catalogue ضغط المخرج, Hebei Pinjin Machinery شينغتاي",
+      "title": "Concrete Pumping Pressure, Slump and Aggregate: Concrete slump test — Procedure / Interpretation of results / Limitations of the slump test / Differences in standards",
+      "description": "«Procedure» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pumping Pressure, Slump and Aggregate. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+      "imageAlt": "صورة من صفحة المصدر عن Concrete slump test",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Fine stone pump ركام size selection",
@@ -189,32 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pumping pressure on a Pinjin page is the published max ضغط المخرج, not a site-calculated friction number. Electric 20 lists 10 MPa; Electric 30 and Low Pressure 40 list 20 MPa; Electric 40 lists 23 MPa. ACI 304.2R-17 treats 2–6 in (50–150 mm) slump as the traditional target for conventional mixtures without admixtures, and limits coarse ركام to one-third (angular) or two-fifths (rounded) of the smallest pipeline inside diameter. We do not publish a Pinjin pressure–slump equation.",
-        "who": "Engineers and buyers who need to line up mix slump and stone with a catalogue pressure row before inquiring.",
+        "what": "«Procedure» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pumping Pressure, Slump and Aggregate. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+        "who": "قرّاء يقارنون Concrete Pumping Pressure, Slump and Aggregate بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Catalogue max ضغط المخرج on the pump page",
-          "Max ركام and, where printed, حصى ناعم versus agg13 distance",
-          "ACI 304.2R-17 slump band and ركام-to-pipe limits as cited industry guidance",
-          "Pipeline length and DN — distance is a catalogue pair, not a derived formula here"
+          "8–10 m³/h",
+          "1–2 cm",
+          "12–15 m³/h",
+          "50–150 mm",
+          "10 MPa",
+          "20 MPa"
         ]
       },
-      "seoTitle": "Concrete Pumping Pressure, Slump and Aggregate | Pinjin",
-      "imageCaption": "Electric 40 مضخة مقطورة, شينغتاي catalogue — 23 MPa, 21 m³/h",
+      "seoTitle": "Concrete slump test — Procedure",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Concrete_slump_test",
       "faqs": [
         {
-          "question": "Does Pinjin publish a formula that converts slump into ضغط المخرج?",
-          "answer": "No. We print ضغط المخرج, output, hopper and conveying distance. Slump target ranges in this article are quoted from ACI 304.2R-17, not from a factory equation."
+          "question": "هل يضيف «Procedure» خانة إلى Concrete Pumping Pressure, Slump and Aggregate؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h."
         },
         {
-          "question": "Is Low Pressure 40 a 10 MPa pump?",
-          "answer": "No. Its catalogue max ضغط المخرج is 20 MPa, the same band as Electric 30. ‘Low pressure’ on that page is a حصى ناعم tune, explained in the Low Pressure 40 guide."
+          "question": "هل يستطيع «Interpretation of results» ملء خانة فارغة لـ Concrete Pumping Pressure, Slump and Aggregate؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pumping Pressure, Slump and Aggregate تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pumping Pressure, Slump and Aggregate",
-      "description": "Read давление на выходе from the Pinjin catalogue and slump/заполнитель limits from ACI 304.2R-17. No factory-invented pressure–slump formula. Electric 20 is 10 MPa; Electric 30 and Low Pressure 40 are 20 MPa; Electric 40 is 23 MPa.",
-      "imageAlt": "Electric 40 concrete pump, 23 MPa catalogue давление на выходе, Hebei Pinjin Machinery Синтай",
+      "title": "Concrete Pumping Pressure, Slump and Aggregate: Concrete slump test — Procedure / Interpretation of results / Limitations of the slump test / Differences in standards",
+      "description": "“Procedure” — глава на странице-источнике. Она не переименовывает Concrete Pumping Pressure, Slump and Aggregate. Уже напечатанные значения на этой странице: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+      "imageAlt": "Иллюстрация со страницы-источника: Concrete slump test",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Fine stone pump заполнитель size selection",
@@ -222,27 +235,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pumping pressure on a Pinjin page is the published max давление на выходе, not a site-calculated friction number. Electric 20 lists 10 MPa; Electric 30 and Low Pressure 40 list 20 MPa; Electric 40 lists 23 MPa. ACI 304.2R-17 treats 2–6 in (50–150 mm) slump as the traditional target for conventional mixtures without admixtures, and limits coarse заполнитель to one-third (angular) or two-fifths (rounded) of the smallest pipeline inside diameter. We do not publish a Pinjin pressure–slump equation.",
-        "who": "Engineers and buyers who need to line up mix slump and stone with a catalogue pressure row before inquiring.",
+        "what": "“Procedure” — глава на странице-источнике. Она не переименовывает Concrete Pumping Pressure, Slump and Aggregate. Уже напечатанные значения на этой странице: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h.",
+        "who": "Читатели, которые сверяют Concrete Pumping Pressure, Slump and Aggregate со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Catalogue max давление на выходе on the pump page",
-          "Max заполнитель and, where printed, мелкий камень versus agg13 distance",
-          "ACI 304.2R-17 slump band and заполнитель-to-pipe limits as cited industry guidance",
-          "Pipeline length and DN — distance is a catalogue pair, not a derived formula here"
+          "8–10 m³/h",
+          "1–2 cm",
+          "12–15 m³/h",
+          "50–150 mm",
+          "10 MPa",
+          "20 MPa"
         ]
       },
-      "seoTitle": "Concrete Pumping Pressure, Slump and Aggregate | Pinjin",
-      "imageCaption": "Electric 40 прицепной насос, Синтай catalogue — 23 MPa, 21 m³/h",
+      "seoTitle": "Concrete slump test — Procedure",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Concrete_slump_test",
       "faqs": [
         {
-          "question": "Does Pinjin publish a formula that converts slump into давление на выходе?",
-          "answer": "No. We print давление на выходе, output, hopper and conveying distance. Slump target ranges in this article are quoted from ACI 304.2R-17, not from a factory equation."
+          "question": "Добавляет ли “Procedure” клетку к Concrete Pumping Pressure, Slump and Aggregate?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 8–10 m³/h, 1–2 cm, 12–15 m³/h, 50–150 mm, 10 MPa, 20 MPa, 23 MPa, 21 m³/h."
         },
         {
-          "question": "Is Low Pressure 40 a 10 MPa pump?",
-          "answer": "No. Its catalogue max давление на выходе is 20 MPa, the same band as Electric 30. ‘Low pressure’ on that page is a мелкий камень tune, explained in the Low Pressure 40 guide."
+          "question": "Может ли “Interpretation of results” заполнить пустую клетку для Concrete Pumping Pressure, Slump and Aggregate?",
+          "answer": "Нет. Пустые клетки для Concrete Pumping Pressure, Slump and Aggregate остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

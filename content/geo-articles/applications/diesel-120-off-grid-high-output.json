@@ -3,58 +3,68 @@
   "category": "application",
   "keyword": "high output diesel concrete pump off-grid",
   "title": {
-    "en": "Which off-grid pump prints 100 m³/h?",
-    "zh": "哪台无电网泵印了 100 m³/h？"
+    "en": "Printed-row question: Which off-grid pump prints 100 m³/h",
+    "zh": "先看已印出的行：哪台无电网泵印了 100 m³/h"
   },
   "description": {
-    "en": "Diesel 120: twin 145 kW, 100 m³/h, 40 MPa, 150 m / 500 m, aggregate 6 cm and below, 8000 kg. LZ-80’s low-pressure mode prints ≤ 95 m³/h.",
-    "zh": "柴油120：双机 145 kW、100 m³/h、40 MPa、150 m / 500 m、骨料 6 cm 及以下、8000 kg。LZ-80 低压模式印的是 ≤ 95 m³/h。"
+    "en": "Xingtai-based Hebei Pinjin Machinery lists it for very high output infrastructure pours and twin-engine diesel power: 290 kW total, 100 m³/h, 40 MPa, hopper 0.6 m³, 150 m horizontal / 500 m vertical, aggregate 6 cm and below and 8000 kg. The selection guide’s high-output diesel question also names LZ-80, whose low-pressure mode is ≤ 95 m³/h at ≤ 22 MPa, not 100 m³/h at 40 MPa. How many engines are printed? Two units of 145 kW, 290 kW total.",
+    "zh": "柴油120。河北品锦机械（邢台）把它列为超大排量基建浇筑和双柴油机动力：合计 290 kW、100 m³/h、40 MPa、料斗 0.6 m³、水平 150 m / 垂直 500 m、骨料 6 cm 及以下、8000 kg。选型指南的大排量柴油问题还点了 LZ-80，其低压模式是 ≤ 95 m³/h、≤ 22 MPa，不是 40 MPa 下的 100 m³/h。两台 145 kW，合计 290 kW。6 cm 及以下是上限。它不是最小石子。这一页点名了大坝或工厂项目吗？"
   },
   "h1": {
-    "en": "Which off-grid pump prints 100 m³/h?",
-    "zh": "哪台无电网泵印了 100 m³/h？"
+    "en": "Printed-row question: Which off-grid pump prints 100 m³/h",
+    "zh": "先看已印出的行：哪台无电网泵印了 100 m³/h"
   },
   "directAnswer": {
-    "en": "Diesel 120. Hebei Pinjin Machinery in Xingtai lists it for very high output infrastructure pours and twin-engine diesel power: 290 kW total, 100 m³/h, 40 MPa, hopper 0.6 m³, 150 m horizontal / 500 m vertical, aggregate 6 cm and below and 8000 kg. The selection guide’s high-output diesel question also names LZ-80, whose low-pressure mode is ≤ 95 m³/h at ≤ 22 MPa, not 100 m³/h at 40 MPa.",
-    "zh": "柴油120。邢台河北品锦机械把它列为超大排量基建浇筑和双柴油机动力：合计 290 kW、100 m³/h、40 MPa、料斗 0.6 m³、水平 150 m / 垂直 500 m、骨料 6 cm 及以下、8000 kg。选型指南的大排量柴油问题还点了 LZ-80，其低压模式是 ≤ 95 m³/h、≤ 22 MPa，不是 40 MPa 下的 100 m³/h。"
+    "en": "Xingtai-based Hebei Pinjin Machinery lists it for very high output infrastructure pours and twin-engine diesel power: 290 kW total, 100 m³/h, 40 MPa, hopper 0.6 m³, 150 m horizontal / 500 m vertical, aggregate 6 cm and below and 8000 kg. The selection guide’s high-output diesel question also names LZ-80, whose low-pressure mode is ≤ 95 m³/h at ≤ 22 MPa, not 100 m³/h at 40 MPa. How many engines are printed? Two units of 145 kW, 290 kW total.",
+    "zh": "柴油120。河北品锦机械（邢台）把它列为超大排量基建浇筑和双柴油机动力：合计 290 kW、100 m³/h、40 MPa、料斗 0.6 m³、水平 150 m / 垂直 500 m、骨料 6 cm 及以下、8000 kg。选型指南的大排量柴油问题还点了 LZ-80，其低压模式是 ≤ 95 m³/h、≤ 22 MPa，不是 40 MPa 下的 100 m³/h。两台 145 kW，合计 290 kW。6 cm 及以下是上限。它不是最小石子。这一页点名了大坝或工厂项目吗？"
   },
   "sections": [
     {
       "heading": {
-        "en": "Do not start a compact site here",
-        "zh": "紧凑工地不要从这里开始"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The off-grid page includes Diesel 120 because remote infrastructure may need it. A house or a short secondary-structure line does not.",
-        "zh": "8000 kg 和 7000 × 2000 × 2300 mm 的机架，与 280 kg 的 B500S-83D 或 450 kg 的电动15相反。无电网页面列入柴油120，是因为偏远基建可能需要它。住宅或短的二次结构管路不需要。"
+        "en": "The reference article uses “History” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. Xingtai-based Hebei Pinjin Machinery lists it for very high output infrastructure pours and twin-engine diesel power: 290 kW total, 100 m³/h, 40 MPa, hopper 0.6 m³, 150 m horizontal / 500 m vertical, aggregate 6 cm and below and 8000 kg. Is 6 cm required? The scenarios are high-output infrastructure, the 500 m vertical listing and twin-engine diesel power. Image from the source page: https://en.wikipedia.org/wiki/Ready-mix_concrete",
+        "zh": "来源页用“沿革”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。柴油120。河北品锦机械（邢台）把它列为超大排量基建浇筑和双柴油机动力：合计 290 kW、100 m³/h、40 MPa、料斗 0.6 m³、水平 150 m / 垂直 500 m、骨料 6 cm 及以下、8000 kg。选型指南的大排量柴油问题还点了 LZ-80，其低压模式是 ≤ 95 m³/h、≤ 22 MPa，不是 40 MPa 下的 100 m³/h。没有。工况是超大排量基建、垂直 500 m 的列出，以及双柴油机动力。图来自来源页面：https://en.wikipedia.org/wiki/Ready-mix_concrete"
       }
     },
     {
       "heading": {
-        "en": "100 m³/h is not Electric 80’s output",
-        "zh": "100 m³/h 不是电动80的输送量"
+        "en": "Design",
+        "zh": "构造"
       },
       "body": {
-        "en": "Electric 80 prints 60 m³/h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. If the site later gains that grid and the stone is inside 2 cm, the long horizontal comparison changes page. It does not upgrade Diesel 120’s 150 m horizontal cell to 900 m.",
-        "zh": "电动80在 110 kW 电网和 ≤ 2 cm 石子下印了 60 m³/h 和水平 900 m。如果工地后来有了这路电，并且石子在 2 cm 以内，长水平对照要换页。它不会把柴油120的水平 150 m 升级成 900 m。"
+        "en": "The reference article uses “Design” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. The selection guide’s high-output diesel question also names LZ-80, whose low-pressure mode is ≤ 95 m³/h at ≤ 22 MPa, not 100 m³/h at 40 MPa. 6 cm and below is the maximum.",
+        "zh": "来源页用“构造”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。两台 145 kW，合计 290 kW。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Advantages of ready-mix concrete",
+        "zh": "预拌混凝土的优势"
       },
       "body": {
-        "en": "Confirm the site is off-grid and that 100 m³/h is the cell you are comparing, not a daily total. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请确认现场无电网，并且你对照的是 100 m³/h 这一格，不是日累计。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "The reference article uses “Advantages of ready-mix concrete” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. How many engines are printed? It is not a minimum stone size.",
+        "zh": "来源页用“预拌混凝土的优势”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。6 cm 及以下是上限。它不是最小石子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Metered concrete",
+        "zh": "计量混凝土"
+      },
+      "body": {
+        "en": "The reference article uses “Metered concrete” as this section’s outline. The sentences are the Xingtai catalogue, not a copy of that article. Two units of 145 kW, 290 kW total. Does the page name a dam or a plant? Figures already printed, kept here: t 40 MPa. Electric 80 shows in the printed cell 60 m³/h with 900 m horizontal, on a 110 kW grid an ctric 80 shows in the printed cell 60 m³/h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. rinted cell 60 m³/h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. Vertical pipe you mea h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. Vertical pipe you measured, and wheth ing machine is not this sentence. 8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 hine is not this sentence. 8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 kg not this sentence. 8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 kg B500S-83 × 2000 × 2300 mm frame are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The sto 2300 mm frame are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The stone is inside are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The stone is inside 2 cm, the l × 2300 mm 的机架，与 280 kg 的 B500S-83D 或 450 kg 的电动15相反。无电网页面列入柴油120。按邢台表上的原文理解：两台 145 kW，合计 290 kW。 ite WhatsApp button, PinjinHebei@Outlook.com or 19912003025, Use /contact. The neighbouring machine is not",
+        "zh": "来源页用“计量混凝土”作为这一节的大纲。下面是邢台目录里已有的话，不是照抄那篇文章。这一页点名了大坝或工厂项目吗？已印出、这里照旧保留的数字：t 40 MPa. Electric 80 shows in the printed cell 60 m³/h with 900 m horizontal, on a 110 kW grid an ctric 80 shows in the printed cell 60 m³/h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. rinted cell 60 m³/h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. Vertical pipe you mea h with 900 m horizontal, on a 110 kW grid and ≤ 2 cm stone. Vertical pipe you measured, and wheth ing machine is not this sentence. 8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 hine is not this sentence. 8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 kg not this sentence. 8000 kg and a 7000 × 2000 × 2300 mm frame are the opposite of the 280 kg B500S-83 × 2000 × 2300 mm frame are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The sto 2300 mm frame are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The stone is inside are the opposite of the 280 kg B500S-83D or the 450 kg Electric 15. The stone is inside 2 cm, the l × 2300 mm 的机架，与 280 kg 的 B500S-83D 或 450 kg 的电动15相反。无电网页面列入柴油120。按邢台表上的原文理解：两台 145 kW，合计 290 kW。 ite WhatsApp button, PinjinHebei@Outlook.com or 19912003025, Use /contact. The neighbouring machine is not"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "How many engines are printed?",
-        "zh": "印了几台发动机？"
+        "en": "How many engines are printed, under the outline “History”?",
+        "zh": "在“沿革”这一节里，印了几台发动机？"
       },
       "answer": {
         "en": "Two units of 145 kW, 290 kW total.",
@@ -63,8 +73,8 @@
     },
     {
       "question": {
-        "en": "Is 6 cm required?",
-        "zh": "必须是 6 cm 吗？"
+        "en": "Is 6 cm required, under the outline “Design”?",
+        "zh": "在“构造”这一节里，必须是 6 cm 吗？"
       },
       "answer": {
         "en": "6 cm and below is the maximum. It is not a minimum stone size.",
@@ -73,8 +83,8 @@
     },
     {
       "question": {
-        "en": "Does the page name a dam or a plant?",
-        "zh": "这一页点名了大坝或工厂项目吗？"
+        "en": "Does the page name a dam or a plant, under the outline “Advantages of ready-mix concrete”?",
+        "zh": "在“预拌混凝土的优势”这一节里，这一页点名了大坝或工厂项目吗？"
       },
       "answer": {
         "en": "No. The scenarios are high-output infrastructure, the 500 m vertical listing and twin-engine diesel power.",
@@ -83,10 +93,14 @@
     }
   ],
   "image": {
-    "src": "/images/geo/applications/diesel-120-off-grid-high-output.webp",
+    "src": "/images/articles/applications/diesel-120-off-grid-high-output.jpg",
     "alt": {
-      "en": "Diesel 120 high-output concrete pump from Xingtai for off-grid infrastructure",
-      "zh": "邢台柴油120型大排量混凝土泵，用于无电网基建"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Ready-mix_concrete",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Ready-mix_concrete"
     }
   },
   "relatedPaths": [
@@ -129,7 +143,12 @@
   "sources": [
     "https://pinjinpump.com/products/diesel-120-concrete-pump",
     "https://pinjinpump.com/solutions/industrial-projects",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Ready-mix_concrete"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

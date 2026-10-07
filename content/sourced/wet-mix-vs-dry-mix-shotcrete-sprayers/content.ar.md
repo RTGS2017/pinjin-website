@@ -1,24 +1,18 @@
-## Wet hose spray is not dry gunite, and it is not a مضخة مقطورة
+## Render finishes
 
-“Wet-mix vs dry-mix shotcrete” is a tunnel and slope vocabulary. Dry-mix (often called gunite) blows dry material and adds water at the nozzle. Wet-mix pumps a already-wet mix. Pinjin spraying machines belong to the **wet hose** side of that split: they list particle size, hose diameter and 380 V or diesel. They are not dry-mix robots. ACI 304.2R even states that its pumping guide does not address shotcreting — another reason we keep this page off the trailer-pump table.
+![صورة من صفحة المصدر عن Cement render](/images/articles/wet-mix-vs-dry-mix-shotcrete-sprayers/A_rendered_and_painted_French_house.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Cement_render*
 
-This is not a rewrite of [fine stone pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/). That article separates pipeline pumps from finishing sprayers. This one answers buyers who used shotcrete mix-process words.
+«Render finishes» لا يحل محل مواصفة. يبقى Wet-Mix vs Dry-Mix Shotcrete and Pinjin Sprayers على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 380 V, 9 kW, 5 m³/h, 8 mm, 51 mm, 15 kW, 7 m³/h, 6 mm.
 
-![Hydraulic concrete spraying machine, 5 m³/h wet hose sprayer manufactured by Hebei Pinjin Machinery in شينغتاي](/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp)
-*Hydraulic concrete sprayer — 7.5/9 kW, 5 m³/h, ≤8 mm, 38/51 mm hose*
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Render finishes» لا يملؤها.
 
-## Printed sprayer rows (wet hose)
+## Traditional rendering
 
-| Model | Power | Output | Particle | Hose | Distance |
-| Hydraulic concrete sprayer | 380 V, 7.5/9 kW | 5 m³/h | ≤8 mm | 38/51 mm | 100 m / 50 m |
-| High-flow hydraulic | 380 V, 11/15 kW | 7 m³/h | ≤8 mm | 38/51 mm | 150 m / 70 m |
-| Diesel concrete sprayer | 28/32 HP | 5 m³/h | ≤6 mm | 38/51 mm | 80 m / 40 m |
-| M9 plaster | 380 V/50 Hz | 30 L/min | ≤4 mm | 25 mm | 50 m / 20 m |
+«Traditional rendering» خلفية. طلب Wet-Mix vs Dry-Mix Shotcrete and Pinjin Sprayers يبقى على الخلايا المكتوبة من قبل. هذا الفصل لا يضيف رقمًا.
 
-Sand-cement ratio on the hydraulic and diesel concrete sprayers is listed ≤1:3. We do not publish rebound, accelerator or lining thickness. Competitor wet-mix pump pages (for example integrated shotcrete-grouting units) are **not** our SKUs — we opened them only to see how the market labels wet-mix.
+## Acrylic rendering
 
-Trailer pumps that place centimetre stone through steel pipe stay on `/products/electric-concrete-pumps` and `/products/diesel-concrete-pumps`. For tunnel **pipeline** lining, use the [tunnel lining pump article](/blog/concrete-pump-tunnel-secondary-lining/), not a sprayer particle row.
+«Acrylic rendering» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Wet-Mix vs Dry-Mix Shotcrete and Pinjin Sprayers. قيم مطبوعة أصلًا في هذه الصفحة: 380 V, 9 kW, 5 m³/h, 8 mm, 51 mm, 15 kW, 7 m³/h, 6 mm.
 
-## استفسار
-
-Material name, particle, 380 V vs diesel, hose length, output. If the words are “dry mix shotcrete robot,” we will say it غير مدرج.
+صفحات مذكورة أصلًا في هذا النص: [fine stone pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/), [tunnel lining pump article](/blog/concrete-pump-tunnel-secondary-lining/).

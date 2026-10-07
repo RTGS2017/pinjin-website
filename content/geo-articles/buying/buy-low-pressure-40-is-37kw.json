@@ -3,100 +3,110 @@
   "category": "buying",
   "keyword": "order electric low pressure 40",
   "title": {
-    "en": "Electric Low Pressure 40 Is the 37 kW Page, Not Electric 40",
-    "zh": "电动低压40是 37 kW 那一页，不是电动40"
+    "en": "Pressure Converter: Electric LOW Pressure 40 Concrete Pump keeps 12–15 m³/h, not 40 and not 21",
+    "zh": "压力换算：电动低压40是 37 kW 那一页，不是电动40保留「外形数字与电动30相同，与电动40不同。」"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints Electric Low Pressure 40 at 37 kW, 12–15 m³/h, 20 MPa and fine-stone 80 m / 240 m. Electric 40 is 45 kW and 21 m³/h.",
-    "zh": "河北品锦机械在邢台把电动低压40印成 37 kW、12–15 m³/h、20 MPa、细石 80 m / 240 m。电动40是 45 kW、21 m³/h。"
+    "en": "Electric LOW Pressure 40 Concrete Pump at /products/electric-low-pressure-40-concrete-pump. 12–15 m³/h, not 40 and not 21 Electric 40 is 45 kW, 21 m³/h and 2300 kg",
+    "zh": "电动低压40是 37 kW 那一页，不是电动40见 /products/electric-low-pressure-40-concrete-pump。外形数字与电动30相同，与电动40不同。12–15 m³/h，不是 40，也不是 21。"
   },
   "h1": {
-    "en": "Write 37 kW When the Order Says Low Pressure 40",
-    "zh": "订单写低压40时，要写 37 kW"
+    "en": "Keep Electric LOW Pressure 40 Concrete Pump under “Pressure Converting Tables” without new ratings",
+    "zh": "在「压力换算表」下保留电动低压40是 37 kW 那一页，不是电动40，不另写额定值"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery in Xingtai keeps Electric Low Pressure 40 as its own page: 37 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine-stone 80 m / 240 m, Kawasaki 112, 3300 × 1500 × 1500 mm and 1200 kg. The frame numbers match Electric 30, not Electric 40. Electric 40 is 45 kW, 21 m³/h and 2300 kg. An order that says “40” without “low pressure” and without 37 kW is the wrong sheet. No price is printed.",
-    "zh": "河北品锦机械（邢台）把电动低压40单独成页：37 kW、12–15 m³/h、20 MPa、料斗 0.3 m³、细石 80 m / 240 m、川崎 112、3300 × 1500 × 1500 mm、1200 kg。外形数字与电动30相同，与电动40不同。电动40是 45 kW、21 m³/h、2300 kg。只写“40”、不写“低压”、也不写 37 kW 的订单，对的是另一张表。没有印价格。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for Electric LOW Pressure 40 Concrete Pump. The row to open is /products/electric-low-pressure-40-concrete-pump. 12–15 m³/h, not 40 and not 21. Electric 40 is 45 kW, 21 m³/h and 2300 kg. Both print 3300 × 1500 × 1500 mm and 1200 kg. The frame numbers match Electric 30, not Electric 40. Path plus 37 kW plus the fine-stone label, to /en/contact/. The motor cell is the split: 37 kW here, 30 kW on Electric 30. It does not print Electric 40’s aggregate-13 row of 40 m / 120 m. An order that says “40” without “low pressure” and without 37 kW is the wrong sheet. Hebei Pinjin Machinery in Xingtai keeps Electric Low Pressure 40 as its own page: 37 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine-stone 80 m / 240 m, Kawasaki 112, 3300 × 1500 × 1500 mm and 1200 kg. The section title “Pressure Converter” comes from the source page and does not add a rating. No price is printed on the product page.",
+    "zh": "河北品锦机械在邢台印出的是电动低压40是 37 kW 那一页，不是电动40的数字。要打开的行是 /products/electric-low-pressure-40-concrete-pump。外形数字与电动30相同，与电动40不同。12–15 m³/h，不是 40，也不是 21。电动40是 45 kW、21 m³/h、2300 kg。它不印电动40的 13 骨料行 40 m / 120 m。分开它们的是电机格：这里 37 kW，电动30是 30 kW。路径加上 37 kW 和细石标题，发到 /zh/contact/。只写“40”、不写“低压”、也不写 37 kW 的订单，对的是另一张表。两者都印 3300 × 1500 × 1500 mm 和 1200 kg。河北品锦机械（邢台）把电动低压40单独成页：37 kW、12–15 m³/h、20 MPa、料斗 0.3 m³、细石 80 m / 240 m、川崎 112、3300 × 1500 × 1500 mm、1200 kg。节标题「压力换算」来自来源页，不另加额定值。产品页没有印价格。"
   },
   "sections": [
     {
       "heading": {
-        "en": "One distance row",
-        "zh": "只有一行距离"
+        "en": "Pressure Converter",
+        "zh": "压力换算"
       },
       "body": {
-        "en": "This page prints a fine-stone pair only. It does not print Electric 40’s aggregate-13 row of 40 m / 120 m.",
-        "zh": "这一页只印细石一组。它不印电动40的 13 骨料行 40 m / 120 m。"
+        "en": "Under “Pressure Converter”, Electric LOW Pressure 40 Concrete Pump contributes only the printed cells in this part. 12–15 m³/h, not 40 and not 21. Path plus 37 kW plus the fine-stone label, to /en/contact/. Hebei Pinjin Machinery in Xingtai keeps Electric Low Pressure 40 as its own page: 37 kW, 12–15 m³/h, 20 MPa, hopper 0.3 m³, fine-stone 80 m / 240 m, Kawasaki 112, 3300 × 1500 × 1500 mm and 1200 kg.",
+        "zh": "在「压力换算」下，电动低压40是 37 kW 那一页，不是电动40这一节只放已印出的格子。12–15 m³/h，不是 40，也不是 21。分开它们的是电机格：这里 37 kW，电动30是 30 kW。河北品锦机械（邢台）把电动低压40单独成页：37 kW、12–15 m³/h、20 MPa、料斗 0.3 m³、细石 80 m / 240 m、川崎 112、3300 × 1500 × 1500 mm、1200 kg。"
       }
     },
     {
       "heading": {
-        "en": "Same crate as Electric 30",
-        "zh": "与电动30同一外形数字"
+        "en": "Pressure Converting Tables",
+        "zh": "压力换算表"
       },
       "body": {
-        "en": "Both print 3300 × 1500 × 1500 mm and 1200 kg. The motor cell is the split: 37 kW here, 30 kW on Electric 30.",
-        "zh": "两者都印 3300 × 1500 × 1500 mm 和 1200 kg。分开它们的是电机格：这里 37 kW，电动30是 30 kW。"
+        "en": "“Pressure Converting Tables” titles this part of the Electric LOW Pressure 40 Concrete Pump note. The figures stay the printed ones. Electric 40 is 45 kW, 21 m³/h and 2300 kg. The motor cell is the split: 37 kW here, 30 kW on Electric 30.",
+        "zh": "「压力换算表」是电动低压40是 37 kW 那一页，不是电动40这一节的标题。数字仍以已印的为准。电动40是 45 kW、21 m³/h、2300 kg。路径加上 37 kW 和细石标题，发到 /zh/contact/。"
       }
     },
     {
       "heading": {
-        "en": "Inquiry",
-        "zh": "询盘"
+        "en": "Some other Pressure Units",
+        "zh": "一些 其他 压力单位"
       },
       "body": {
-        "en": "Path plus 37 kW plus the fine-stone label, to [/en/contact/](/en/contact/).",
-        "zh": "路径加上 37 kW 和细石标题，发到 [/zh/contact/](/zh/contact/)。"
+        "en": "For Electric LOW Pressure 40 Concrete Pump, the heading “Some other Pressure Units” does not replace a cell. Both print 3300 × 1500 × 1500 mm and 1200 kg. It does not print Electric 40’s aggregate-13 row of 40 m / 120 m.",
+        "zh": "对电动低压40是 37 kW 那一页，不是电动40而言，标题「一些 其他 压力单位」并不替换任何格子。两者都印 3300 × 1500 × 1500 mm 和 1200 kg。它不印电动40的 13 骨料行 40 m / 120 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "psi to bar Nomogram",
+        "zh": "psi 到 bar 诺模图"
+      },
+      "body": {
+        "en": "Electric LOW Pressure 40 Concrete Pump is unchanged by the heading “psi to bar Nomogram”. The frame numbers match Electric 30, not Electric 40. An order that says “40” without “low pressure” and without 37 kW is the wrong sheet. The photograph is an image from the source page https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html.",
+        "zh": "电动低压40是 37 kW 那一页，不是电动40不因标题「psi 到 bar 诺模图」而改动。外形数字与电动30相同，与电动40不同。只写“40”、不写“低压”、也不写 37 kW 的订单，对的是另一张表。配图来自来源页 https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is low pressure a switch on Electric 40?",
-        "zh": "低压是电动40上的开关吗？"
+        "en": "Does “Pressure Converter” replace 12–15 m³/h, not 40 and not 21?",
+        "zh": "「压力换算」会替换「外形数字与电动30相同，与电动40不同。」吗？"
       },
       "answer": {
-        "en": "No. It is a separate page.",
-        "zh": "不是。它是单独的一页。"
+        "en": "No. 12–15 m³/h, not 40 and not 21 remains the printed wording for Electric LOW Pressure 40 Concrete Pump.",
+        "zh": "不会。外形数字与电动30相同，与电动40不同。仍是电动低压40是 37 kW 那一页，不是电动40已印的说法。"
       }
     },
     {
       "question": {
-        "en": "What is the output?",
-        "zh": "输送量是多少？"
+        "en": "Where does Electric 40 is 45 kW, 21 m³/h and 2300 kg belong on the Electric LOW Pressure 40 Concrete Pump row?",
+        "zh": "电动低压40是 37 kW 那一页，不是电动40这一行里，「12–15 m³/h，不是 40，也不是 21。」放在哪里？"
       },
       "answer": {
-        "en": "12–15 m³/h, not 40 and not 21.",
-        "zh": "12–15 m³/h，不是 40，也不是 21。"
+        "en": "It belongs on /products/electric-low-pressure-40-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-low-pressure-40-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Does it print aggregate size?",
-        "zh": "印了骨料粒径吗？"
+        "en": "What does “Pressure Converting Tables” add to Electric LOW Pressure 40 Concrete Pump?",
+        "zh": "「压力换算表」给电动低压40是 37 kW 那一页，不是电动40增加了什么？"
       },
       "answer": {
-        "en": "The specification list used here does not. The distance label says fine stone. Send your stone size.",
-        "zh": "此处使用的规格列表没有。距离标题写的是细石。请发送你的石子粒径。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Where is the price?",
-        "zh": "价格在哪？"
+        "en": "Is a list price printed beside 12–15 m³/h, not 40 and not 21?",
+        "zh": "「外形数字与电动30相同，与电动40不同。」旁边印了标价吗？"
       },
       "answer": {
-        "en": "Ask Xingtai. It is not printed.",
-        "zh": "问邢台。没有印。"
+        "en": "No price is printed on /products/electric-low-pressure-40-concrete-pump.",
+        "zh": "/products/electric-low-pressure-40-concrete-pump 上没有印价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-low-pressure-40-37kw-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-low-pressure-40-is-37kw-878cee6d.png",
     "alt": {
-      "en": "Electric Low Pressure 40 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "电动低压40型混凝土泵，由河北品锦机械厂家制造，邢台"
+      "en": "Pressure Units - Online Converter. Image from the source page: https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html.",
+      "zh": "Pressure Units - Online Converter。图来自来源页：https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html。"
     }
   },
   "relatedPaths": [
@@ -121,7 +131,8 @@
     "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/pressure-units-converter-d_569.html"
   ],
   "status": "ready"
 }

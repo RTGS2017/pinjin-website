@@ -1,30 +1,22 @@
-## 平台“地下室泵”与已列目录单元格
+## Design and structural considerations
+
+![来源页插图：Basement](/images/articles/concrete-pump-for-basement-underground/Crawl-space-inside.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Basement*
+
+「Design and structural considerations」不能代替规格。地下室与地下浇筑用混凝土泵维持已印的那一行。本页已经印出的读数：1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm。
 
 Alibaba 选购指南和小型泵列表会提到地下室、室内和受限通道浇筑。那是平台观察。河北品锦机械不印“地下室机型”名称，也不印受限空间证书。
 
-我们实际印刷的是：
+## Drainage considerations
 
-- [电动 15](/products/electric-15-concrete-pump/)：15 kW、8–10 m³/h、380V 50Hz、60–80 m / 15–20 m、管径 100–125 mm、450 kg、1900×900×1200 mm。
-- [B500S-83D](/products/b500s-83d-two-stage-pump/)：7.5 kW、5 m / 5 m、砂与 5–16 mm 小石、280 kg、915 × 550 × 550 mm。
-- [电动 20](/products/electric-20-concrete-pump/)：22 kW、8–10 m³/h、80 mm 管、900 kg、2800 × 1300 × 1500 mm。
+「Drainage considerations」是背景。地下室与地下浇筑用混凝土泵的询价仍看已经写下的单元格。这一节不另加数字。
 
-[迷你 / 窄通道](/blog/mini-concrete-pump-narrow-space/) 已经覆盖门宽和整机质量。本页是地下 / 地下室说明：目录垂直米数不是楼层数，柴油尾气也不是地窖规格。
+## Basement culture and finishings
 
-![河北品锦机械邢台电动15紧凑拖式泵](/images/products/electric-15-concrete-pump/main.webp)
-*电动 15 — 450 kg、1900×900×1200 mm。量开口；不要把这张照片当成地下室证书。*
+「Basement culture and finishings」只作来源页上的背景，不是给地下室与地下浇筑用混凝土泵新造的铭牌。这一节不另加数字。
 
-## 电源与通风——目录未列项
+## Real estate floorspace measures
 
-电动 15 与电动 20 是 380V 50Hz 三相。若地下室没有电网，那是工地事实，不是品锦室内柴油额定。柴油机型（例如柴油 30 为 2000 kg）属于 [无电用柴油](/blog/diesel-concrete-pump-no-electricity/) 的讨论——在室外，尾气按买方规范处理。我们不编造换气次数。
+翻到来源页的「Real estate floorspace measures」，读的是那一页，不是地下室与地下浇筑用混凝土泵的第二份目录。本页已经印出的读数：1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm。
 
-ACI 304.2R 覆盖泵送浇筑。它不会把电动 15 的 15–20 m 垂直单元格变成两层地下室保证。管路当量长度仍然适用——[高层选型](/blog/high-rise-building-concrete-pump-selection/) 解释垂直与水平单元格，不会把地下室叫成高塔。
-
-## 配合比与距离
-
-B500S-83D 是细石 / 砂浆范围行（5–16 mm、5 m / 5 m）。需要 60 m 管路的粗石地下室底板不是这一行。电动 15 列 8–10 m³/h 和水平 60–80 m。那些是目录数字，不是浇筑时长承诺。
-
-混凝土到达前要润滑管路——[润滑](/blog/concrete-pump-priming-grout-lubrication/)。狭窄楼梯间里的干管照样会堵。
-
-## 询价
-
-门 / 电梯尺寸、电源（是否 380V 三相）、配合比照片、垂直与水平米数。[联系](/contact/)。
+本文原先已经指向这些页面：[Electric 15](/products/electric-15-concrete-pump/), [B500S](/products/b500s-83d-two-stage-pump/), [Electric 20](/products/electric-20-concrete-pump/)。

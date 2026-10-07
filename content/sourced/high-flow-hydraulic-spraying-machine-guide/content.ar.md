@@ -1,29 +1,18 @@
-## Catalogue high-flow hydraulic row (7 m³/h)
+## Dry vs. wet mix
 
-High-Flow Hydraulic Concrete Spraying Machine is a 380 V hydraulic spraying machine manufactured by Hebei Pinjin Machinery in شينغتاي, Hebei, China. Catalogue parameters: hydraulic control, all-copper dual motors 11/15 kW, 7 m³/h, 8 MPa, hose 38/51 mm, sand-cement ratio ≤1:3, particle ≤8 mm, 150 m أفقي / 70 m عمودي, 2500 × 1000 × 1100 mm, 650 kg. Printed materials: cement mortar, concrete, grout. Quote only; no list price.
+![صورة من صفحة المصدر عن Shotcrete](/images/articles/high-flow-hydraulic-spraying-machine-guide/Museum_of_the_History_of_Polish_Jews_in_Warsaw_building_0012.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Shotcrete*
 
-![High-flow hydraulic concrete spraying machine factory product photo, Hebei Pinjin Machinery شينغتاي](/images/products/high-flow-hydraulic-concrete-spraying-machine/high-flow-hydraulic-concrete-spraying-machine.webp)
-*High-flow hydraulic concrete spraying machine, شينغتاي catalogue — 11/15 kW, 7 m³/h, 150 m / 70 m*
+افصل «Dry vs. wet mix» عن High-Flow Hydraulic Concrete Spraying Machine Catalogue Row. المصدر لا يملأ خانة فارغة. قيم مطبوعة أصلًا في هذه الصفحة: 2500 × 1000 × 1100 mm, 7 m³/h, 380 V, 15 kW, 8 MPa, 51 mm, 8 mm, 650 kg.
 
-## Neighbour spraying rows
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Dry vs. wet mix» لا يملؤها.
 
-| Model | Power | Output | Pressure | Particle | Hose | Distance (H / V) | Weight |
-| Compact hydraulic | 380 V, 7.5/9 kW | 5 m³/h | 8 MPa | ≤8 mm | 38/51 mm | 100 m / 50 m | 295 kg |
-| High-flow hydraulic | 380 V, 11/15 kW | 7 m³/h | 8 MPa | ≤8 mm | 38/51 mm | 150 m / 70 m | 650 kg |
-| Diesel concrete sprayer | diesel 28/32 HP | 5 m³/h | 8 MPa | ≤6 mm | 38/51 mm | 80 m / 40 m | 480 kg |
-| M9 plaster | 380 V/50 Hz | 30 L/min | 50 bar | ≤4 mm | 25 mm | 50 m / 20 m | 200 kg |
+## Shotcrete machines
 
-Confirm 380 V, 7 m³/h, particle ≤8 mm and 150 m / 70 m against this table. Hub: [spraying machines](/products/spraying-machines/).
+يبقى الفصل «Shotcrete machines» في صفحة المصدر. High-Flow Hydraulic Concrete Spraying Machine Catalogue Row هو الصف المكتوب هنا من قبل. هذا الفصل لا يضيف رقمًا.
 
-## When this row fits
+## Shotcrete vs. gunite
 
-Cement mortar, concrete or grout spraying inside 7 m³/h and ≤8 mm. Longer hose runs up to the listed 150 m / 70 m. Sites that can supply 380 V for 11/15 kW dual motors.
+«Shotcrete vs. gunite» لا يحل محل مواصفة. يبقى High-Flow Hydraulic Concrete Spraying Machine Catalogue Row على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 2500 × 1000 × 1100 mm, 7 m³/h, 380 V, 15 kW, 8 MPa, 51 mm, 8 mm, 650 kg.
 
-## When to open another page
-
-- 5 m³/h and 295 kg → [compact hydraulic sprayer](/products/hydraulic-concrete-spraying-machine/).
-- Plaster at ≤4 mm → [M9](/products/m9-automatic-plaster-spraying-machine/).
-- No grid → [diesel sprayer](/products/diesel-concrete-spraying-machine/).
-- Not a trailer concrete pump, mixing plant or truck-mounted مضخة ذراع.
-
-Product page: [high-flow hydraulic concrete spraying machine](/products/high-flow-hydraulic-concrete-spraying-machine/). استفسار: [contact](/contact/).
+صفحات مذكورة أصلًا في هذا النص: [spraying machines](/products/spraying-machines/), [compact hydraulic sprayer](/products/hydraulic-concrete-spraying-machine/), [M9](/products/m9-automatic-plaster-spraying-machine/).

@@ -6,100 +6,110 @@
     "zh": "B500S-83D短臂架是什么意思"
   },
   "title": {
-    "en": "What the B500S-83D Short-Boom Line Says",
-    "zh": "B500S-83D的短臂架一行写了什么"
+    "en": "What the B500S-83D Short-Boom Line Says lists, with Screed as the illustration",
+    "zh": "B500S-83D的短臂架一行写了什么列出的内容，用「Screed」做插图"
   },
   "description": {
-    "en": "B500S-83D is the catalogue line that uses the word boom, and it says the short boom is not a truck-mounted placing boom.",
-    "zh": "B500S-83D 是目录里使用臂架一词的那一行，并写明短臂架不是车载布料杆。"
+    "en": "the B500S-83D Short-Boom Line Says. 5 m stays in the catalogue entry. Illustration: Screed.",
+    "zh": "B500S-83D的短臂架一行写了什么。5 m仍在目录格子里。插图来自「Screed」。"
   },
   "h1": {
-    "en": "What the B500S-83D Short-Boom Line Says",
-    "zh": "B500S-83D的短臂架一行写了什么"
+    "en": "What the B500S-83D Short-Boom Line Says lists, with Screed as the illustration",
+    "zh": "B500S-83D的短臂架一行写了什么列出的内容，用「Screed」做插图"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints a boom line on one concrete pump in Xingtai: B500S-83D. The cell says short boom on the compact unit, not a truck-mounted placing boom. No other pump page in the electric, diesel or mixer hubs uses that wording to claim a truck boom. The short boom does not change the printed reach, which is 5 m vertical and 5 m horizontal.",
-    "zh": "河北品锦机械在邢台只在一台混凝土泵上印了臂架行：B500S-83D。这一格写的是本机短臂架，不是车载布料杆。电动、柴油和搅拌泵分类里的其他泵页没有用这句话来声称车载臂架。短臂架不改变印出的距离，垂直和水平都是 5 m。它不能把这台紧凑机器当成臂架泵。"
+    "en": "Hebei Pinjin Machinery lists a boom line on one concrete pump in Xingtai: B500S-83D. The entry says short boom on the compact unit, not a truck-mounted placing boom. The picture is from https://en.wikipedia.org/wiki/Screed.",
+    "zh": "河北品锦机械在邢台只在一台混凝土泵上标出了臂架行：B500S-83D。电动、柴油和搅拌泵分类里的其他泵页没有用这句话来声称车载臂架。图片来自https://en.wikipedia.org/wiki/Screed。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The sentence on the page",
-        "zh": "页面上的那句话"
+        "en": "Screed board",
+        "zh": "刮板"
       },
       "body": {
-        "en": "Quote it as written: short boom on the compact unit, not a truck-mounted placing boom. Hebei Pinjin Machinery does not add a boom length in metres beside that sentence. The numeric reach remains 5 m and 5 m.",
-        "zh": "按原文引用：本机短臂架，不是车载布料杆。河北品锦机械没有在这句话旁边再加一个以米计的臂长。数字距离仍然是 5 m 和 5 m。"
+        "en": "The figure is the one published at https://en.wikipedia.org/wiki/Screed: Screed. Hebei Pinjin Machinery lists a boom line on one concrete pump in Xingtai: B500S-83D. Quote it as written: short boom on the compact unit, not a truck-mounted placing boom. Diesel 120's 150 m / 500 m pair is the same kind of pipeline entry. They do not describe a truck-mounted placing boom, which is not a catalogue product.",
+        "zh": "这张图是https://en.wikipedia.org/wiki/Screed页上的Screed。河北品锦机械在邢台只在一台混凝土泵上标出了臂架行：B500S-83D。电动80的 900 m / 300 m 是管道距离，不是臂长。"
       }
     },
     {
       "heading": {
-        "en": "Where the word does not appear",
-        "zh": "这个词没有出现的地方"
+        "en": "Screed rails",
+        "zh": "刮平导轨"
       },
       "body": {
-        "en": "Electric 80's 900 m / 300 m pair is a pipeline distance, not a boom length. Diesel 120's 150 m / 500 m pair is the same kind of pipeline cell. Do not rename those cells as boom reach.",
-        "zh": "电动80的 900 m / 300 m 是管道距离，不是臂长。柴油120的 150 m / 500 m 也是同一类管道格。不要把那些格子改名叫臂架距离。"
+        "en": "The entry says short boom on the compact unit, not a truck-mounted placing boom. Hebei Pinjin Machinery does not add a boom length in metres beside that sentence. Do not rename those entries as boom reach.",
+        "zh": "电动、柴油和搅拌泵分类里的其他泵页没有用这句话来声称车载臂架。柴油120的 150 m / 500 m 也是同一类管道格。"
       }
     },
     {
       "heading": {
-        "en": "The rest of the compact unit",
-        "zh": "紧凑机的其余部分"
+        "en": "Liquid and flow screeds",
+        "zh": "液态流动找平层"
       },
       "body": {
-        "en": "The same page prints 7.5 kW, 380 V, materials 5–16 mm and net weight 280 kg. Those cells describe B500S-83D. They do not describe a truck-mounted placing boom, which is not a catalogue product.",
-        "zh": "同一页还印 7.5 kW、380 V、材料 5–16 mm 和净重 280 kg。这些格子描述的是 B500S-83D。它们不描述车载布料杆，那不是目录产品。"
+        "en": "No other pump page in the electric, diesel or mixer hubs uses that wording to claim a truck boom. The numeric reach remains 5 m and 5 m. The same page lists 7.5 kW, 380 V, materials 5–16 mm and net weight 280 kg.",
+        "zh": "短臂架不改变写出的距离，垂直和水平都是 5 m。同一页还标出 7.5 kW、380 V、材料 5–16 mm 和净重 280 kg。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Screed coats",
+        "zh": "找平涂层"
+      },
+      "body": {
+        "en": "The short boom does not change the shown reach, which is 5 m vertical and 5 m horizontal. Electric 80's 900 m / 300 m pair is a pipeline distance, not a boom length. Those entries describe B500S-83D.",
+        "zh": "河北品锦机械没有在这句话旁边再加一个以米计的臂长。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Pinjin list a truck boom?",
+        "en": "On this row: Does Pinjin list a truck boom?",
         "zh": "品锦列出车载臂架了吗？"
       },
       "answer": {
-        "en": "No. The B500S-83D line says its short boom is not a truck-mounted placing boom.",
-        "zh": "没有。B500S-83D 写明短臂架不是车载布料杆。"
+        "en": "No. The B500S-83D line says its short boom is not a truck-mounted placing boom. It is not a figure printed inside https://en.wikipedia.org/wiki/Screed.",
+        "zh": "没有。B500S-83D 写明短臂架不是车载布料杆。它不是https://en.wikipedia.org/wiki/Screed画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "How long is the short boom?",
+        "en": "On this row: How long is the short boom?",
         "zh": "短臂架有多长？"
       },
       "answer": {
-        "en": "The page does not print a separate boom length. It prints 5 m vertical and 5 m horizontal delivery.",
-        "zh": "页面没有另印臂长。它印的是垂直 5 m 和水平 5 m 输送距离。"
+        "en": "The page does not list a separate boom length. It lists 5 m vertical and 5 m horizontal delivery. It is not a figure printed inside https://en.wikipedia.org/wiki/Screed.",
+        "zh": "页面没有另标出臂长。它标出的是垂直 5 m 和水平 5 m 输送距离。它不是https://en.wikipedia.org/wiki/Screed画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is Electric 80 a boom because the distance is long?",
+        "en": "On this row: Is Electric 80 a boom because the distance is long?",
         "zh": "电动80距离长，所以是臂架吗？"
       },
       "answer": {
-        "en": "No. Its 900 m / 300 m cell is a pumping-distance pair.",
-        "zh": "不是。它的 900 m / 300 m 是泵送距离数对。"
+        "en": "No. Its 900 m / 300 m entry is a pumping-distance pair. It is not a figure printed inside https://en.wikipedia.org/wiki/Screed.",
+        "zh": "不是。它的 900 m / 300 m 是泵送距离数对。它不是https://en.wikipedia.org/wiki/Screed画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Which factory prints this line?",
-        "zh": "这行字是哪家工厂印的？"
+        "en": "Which factory lists this line?",
+        "zh": "这行字是哪家工厂标出的？"
       },
       "answer": {
-        "en": "Hebei Pinjin Machinery, on the B500S-83D page, Xingtai.",
-        "zh": "河北品锦机械，在邢台的 B500S-83D 页面上。"
+        "en": "Hebei Pinjin Machinery, on the B500S-83D page, Xingtai. It is not a figure printed inside https://en.wikipedia.org/wiki/Screed.",
+        "zh": "河北品锦机械，在邢台的 B500S-83D 页面上。它不是https://en.wikipedia.org/wiki/Screed画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/what-the-b500s-83d-short-boom-line-says-pinjin.webp",
+    "src": "/images/articles/knowledge/what-the-b500s-83d-short-boom-line-says-screed.jpg",
     "alt": {
-      "en": "What the B500S-83D Short-Boom Line Says, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "B500S-83D的短臂架一行写了什么，河北品锦机械，河北邢台"
+      "en": "Screed. Image from the source page: https://en.wikipedia.org/wiki/Screed.",
+      "zh": "Screed。图来自来源页：https://en.wikipedia.org/wiki/Screed。"
     }
   },
   "relatedPaths": [
@@ -118,7 +128,8 @@
     "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Screed"
   ],
   "status": "draft"
 }

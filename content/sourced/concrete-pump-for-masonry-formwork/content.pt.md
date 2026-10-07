@@ -1,22 +1,22 @@
-## Lançar grout ou pedra fina — não pulverizar argamassa
+## Slab formwork (deck formwork)
 
-Masonry cores and small forma need a pumpable mix that matches the printed agregado cell. That is a placing job. Hebei Pinjin Machinery’s mortar-sprayer hub is for plaster and mortar spray. Do not treat a sprayer SKU as a core-fill pump. The comparison is already on [concrete pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/).
+![Figura da página de origem sobre Formwork](/images/articles/concrete-pump-for-masonry-formwork/Silo_Formwork.JPG)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Formwork*
 
-This page is also not a rewrite of [secondary-structure](/blog/secondary-structure-concrete-pump-column-beam/), which covers small columns. Here we only match listed compact / pedra fina rows to core and forma filling.
+“Slab formwork (deck formwork)” é um capítulo da página de origem. Não muda o nome de Concrete Pump for Masonry and Formwork Filling. Valores já impressos nesta página: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 7.5 kW, 280 kg.
 
-![B500S pedra fina pump from Hebei Pinjin Machinery in Xingtai](/images/products/b500s-83d-two-stage-pump/b500s-83d-two-stage-pump.webp)
-*B500S — 280 kg, 7.5 kW, 5–16 mm, 5 m / 5 m, 280 kg. Catalogue cells, not a alvenaria-bond certificate.*
+As casas em branco nesta página continuam em branco. “Slab formwork (deck formwork)” não as preenche.
 
-## Linhas listadas que os compradores comparam
+## Climbing formwork
 
-- [B500S](/products/b500s-83d-two-stage-pump/): 7.5 kW, 5 m / 5 m, 5–16 mm, 280 kg, 915 × 550 × 550 mm.
-- [Electric 15](/products/electric-15-concrete-pump/): 15 kW, 8–10 m³/h, 60–80 m / 15–20 m, 100–125 mm pipe, 450 kg.
-- [Electric 40](/products/electric-40-concrete-pump/): 45 kW, 21 m³/h, hopper 0.4 m³, 23 MPa, 2300 kg — a larger trailer row if the mix and distance leave the compact cells.
+Concrete Pump for Masonry and Formwork Filling continua a ser a linha que este texto já tinha. “Climbing formwork” explica o tema da origem e não acrescenta casa. Esse capítulo não acrescenta valor.
 
-[Aggregate size](/blog/fine-stone-concrete-pump-aggregate-size/) already says: match stone to the cell; não invente a “grout only” factory mix. Prime the line — [priming](/blog/concrete-pump-priming-grout-lubrication/). ACPA: a lean mix may not pass a reducer or a tight bend.
+## Flexible formwork
 
-Pinjin does not print forma-pressure ratings or a block-count yield. ACI 304.2R is placing guidance, not a Xingtai forma stamp.
+Separe “Flexible formwork” e Concrete Pump for Masonry and Formwork Filling. A origem não preenche uma casa em branco. Esse capítulo não acrescenta valor.
 
-## Consulta
+## Usage
 
-Mix photo (stone size), core or form dimensions, horizontal / vertical metres, whether you also need a sprayer for plaster. [Contact](/contact/).
+O capítulo “Usage” fica na página de origem. Concrete Pump for Masonry and Formwork Filling continua a ser a linha já escrita aqui. Valores já impressos nesta página: 915 × 550 × 550 mm, 5–16 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 7.5 kW, 280 kg.
+
+Páginas já indicadas neste texto: [concrete pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/), [secondary-structure](/blog/secondary-structure-concrete-pump-column-beam/), [B500S](/products/b500s-83d-two-stage-pump/).

@@ -1,7 +1,7 @@
 {
-  "title": "Electric 10 Series Concrete Pump Catalogue Row",
-  "seoTitle": "Electric 10 Series Concrete Pump | Pinjin 15 kW 400 kg",
-  "description": "Electric 10 Series is a Xingtai compact electric pump listing 15 kW, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, hopper 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, aggregate 2 cm and below. The 21 m³/h cell is not Electric 40 (45 kW, 120 m / 360 m, 2300 kg). Match the printed table, then inquire.",
+  "title": "Power factor is not a cell on the Electric 10 Series row",
+  "seoTitle": "Later induction-motor chapters beside the Electric 10 Series",
+  "description": "The induction-motor source also has power factor, efficiency, the Steinmetz equivalent circuit and the linear induction motor. The Electric 10 Series row stays 15 kW, 21 m³/h theoretical, 23 MPa, 25 m horizontal and 400 kg.",
   "primaryKeyword": "Electric 10 series concrete pump",
   "secondaryKeywords": [
     "15 kW compact concrete pump China",
@@ -44,8 +44,8 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, hopper 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, aggregate 2 cm and below. It is not Electric 15, not Electric 40 and not B500S-83D.",
-    "who": "Buyers matching a 400 kg compact electric unit to 25 m horizontal pipeline and 2 cm aggregate, with 15 kW on site.",
+    "what": "The Electric 10 Series prints 15 kW and 21 m³/h theoretical. Power factor and a linear-motor chapter do not add electrical cells that the product page left blank.",
+    "who": "Readers who followed the induction-motor page past rotation reversal and still need this compact row.",
     "factors": [
       "15 kW / 400 kg / 25 m horizontal versus Electric 40 at 45 kW / 2300 kg / 120 m / 360 m",
       "Theoretical output 21 m³/h is a printed cell, not Electric 40’s jobsite distance",
@@ -60,24 +60,25 @@
   },
   "faqs": [
     {
-      "question": "Is Electric 10 the same 21 m³/h machine as Electric 40?",
-      "answer": "No. Both print 21 m³/h theoretical output. Electric 10 lists 15 kW, hopper 0.1 m³, 25 m horizontal and 400 kg. Electric 40 lists 45 kW, hopper 0.4 m³, fine-stone 120 m / 360 m and 2300 kg. Match the full printed row."
+      "question": "Does this page print a power factor?",
+      "answer": "No. Power factor is a chapter on the source page. The Electric 10 Series page does not print one, and this article does not invent it."
     },
     {
-      "question": "Does the Alibaba mini-pump 10–30 m³/h band replace this table?",
-      "answer": "No. SmartBuy (20 November 2025) cites mini pumps at 10–30 m³/h as a marketplace type. Electric 10’s printed cells are 15 kW, 21 m³/h theoretical, 25 m horizontal and 400 kg. Use the Xingtai page."
-    },
-    {
-      "question": "Can Electric 10 replace B500S-83D for 5–16 mm sand?",
-      "answer": "No. B500S-83D lists 7.5 kW, 5 m / 5 m, 280 kg and sand / small stone 5–16 mm, with no m³/h cell. Electric 10 lists aggregate 2 cm and below and 25 m horizontal. Open the matching product page."
+      "question": "Is this pump a linear induction motor?",
+      "answer": "No. The linear-motor chapter is a different machine. This row is the 400 kg trailer already printed at 1800 × 800 × 1200 mm."
     }
   ],
   "image": {
-    "src": "/images/products/electric-10-series-concrete-pump/electric-10-series-concrete-pump.webp",
-    "alt": "Electric 10 Series concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 10 Series, Xingtai catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg"
+    "src": "/images/articles/electric-10-series-concrete-pump-guide/Rotatingfield.png",
+    "alt": "Figure from the source page about induction motors",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Induction_motor"
   },
   "sources": [
+    {
+      "name": "Induction motor (source page)",
+      "url": "https://en.wikipedia.org/wiki/Induction_motor",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 10 Series product page",
       "url": "https://pinjinpump.com/en/products/electric-10-series-concrete-pump/",
@@ -115,11 +116,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Electric 10 Series Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 10 Series Concrete Pump | Pinjin 15 kW 400 kg",
-      "description": "Electric 10 Series is a 邢台 compact electric pump listing 15 kW, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, 料斗 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, 骨料 2 cm and below. The 21 m³/h cell is not Electric 40 (45 kW, 120 m / 360 m, 2300 kg). Match the printed table, then 询价.",
-      "imageAlt": "Electric 10 Series concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Electric 10 Series, 邢台 catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg",
+      "title": "功率因数不是电动10系列这一行上的格子",
+      "seoTitle": "靠后的感应电机章节对照电动10系列",
+      "description": "感应电机来源页后面还有功率因数、效率、斯坦梅茨等效电路和直线感应电机。电动10系列这一行仍是 15 kW、理论 21 m³/h、23 MPa、水平 25 m、400 kg。",
+      "imageAlt": "来源页上关于感应电机的图",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Induction_motor",
       "relatedPathLabels": [
         "Electric 10 Series concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -127,8 +128,8 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, 料斗 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, 骨料 2 cm and below. It is not Electric 15, not Electric 40 and not B500S-83D.",
-        "who": "Buyers matching a 400 kg compact electric unit to 25 m horizontal pipeline and 2 cm 骨料, with 15 kW on site.",
+        "what": "电动10系列印的是 15 kW 和理论 21 m³/h。功率因数和直线电机那一章，不会把产品页留空的电气格子补上。",
+        "who": "顺着感应电机页读过反转之后、仍然要看这台紧凑机的读者。",
         "factors": [
           "15 kW / 400 kg / 25 m horizontal versus Electric 40 at 45 kW / 2300 kg / 120 m / 360 m",
           "Theoretical output 21 m³/h is a printed cell, not Electric 40’s jobsite distance",
@@ -138,25 +139,21 @@
       },
       "faqs": [
         {
-          "question": "Is Electric 10 the same 21 m³/h machine as Electric 40?",
-          "answer": "No. Both print 21 m³/h theoretical output. Electric 10 lists 15 kW, 料斗 0.1 m³, 25 m horizontal and 400 kg. Electric 40 lists 45 kW, 料斗 0.4 m³, fine-stone 120 m / 360 m and 2300 kg. Match the full printed row."
+          "question": "本页印功率因数吗？",
+          "answer": "不印。功率因数是来源页上的一章。电动10系列产品页没有印，这篇文章也不编。"
         },
         {
-          "question": "Does the Alibaba mini-pump 10–30 m³/h band replace this table?",
-          "answer": "No. SmartBuy (20 November 2025) cites mini pumps at 10–30 m³/h as a marketplace type. Electric 10’s printed cells are 15 kW, 21 m³/h theoretical, 25 m horizontal and 400 kg. Use the 邢台 page."
-        },
-        {
-          "question": "Can Electric 10 replace B500S-83D for 5–16 mm sand?",
-          "answer": "No. B500S-83D lists 7.5 kW, 5 m / 5 m, 280 kg and sand / small stone 5–16 mm, with no m³/h cell. Electric 10 lists 骨料 2 cm and below and 25 m horizontal. Open the matching 产品页."
+          "question": "这台泵是直线感应电机吗？",
+          "answer": "不是。直线电机那一章是另一种机器。这一行是已经印成 1800 × 800 × 1200 mm、400 kg 的拖泵。"
         }
       ]
     },
     "pt": {
-      "title": "Electric 10 Series Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 10 Series Concrete Pump | Pinjin 15 kW 400 kg",
-      "description": "Electric 10 Series is a Xingtai compact electric pump listing 15 kW, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, tremonha 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, agregado 2 cm and below. The 21 m³/h cell is not Electric 40 (45 kW, 120 m / 360 m, 2300 kg). Match the printed table, then inquire.",
-      "imageAlt": "Electric 10 Series concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Electric 10 Series, Xingtai catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg",
+      "title": "O fator de potência não é uma célula na série elétrica 10",
+      "seoTitle": "Capítulos posteriores do motor de indução junto da série elétrica 10",
+      "description": "A origem do motor de indução também tem fator de potência, eficiência, o circuito equivalente de Steinmetz e o motor de indução linear. A série elétrica 10 continua 15 kW, 21 m³/h teóricos, 23 MPa, 25 m na horizontal e 400 kg.",
+      "imageAlt": "Figura da página de origem sobre motores de indução",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Induction_motor",
       "relatedPathLabels": [
         "Electric 10 Series concrete pump página do produto",
         "Electric concrete pump manufacturer China",
@@ -164,8 +161,8 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, tremonha 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, agregado 2 cm and below. It is not Electric 15, not Electric 40 and not B500S-83D.",
-        "who": "Buyers matching a 400 kg compact electric unit to 25 m horizontal pipeline and 2 cm agregado, with 15 kW on site.",
+        "what": "A série elétrica 10 imprime 15 kW e 21 m³/h teóricos. O fator de potência e o capítulo do motor linear não acrescentam células elétricas que a página do produto deixou em branco.",
+        "who": "Leitores que passaram da inversão de rotação na página do motor de indução e ainda precisam desta linha compacta.",
         "factors": [
           "15 kW / 400 kg / 25 m horizontal versus Electric 40 at 45 kW / 2300 kg / 120 m / 360 m",
           "Theoretical output 21 m³/h is a printed cell, not Electric 40’s jobsite distance",
@@ -175,25 +172,21 @@
       },
       "faqs": [
         {
-          "question": "Is Electric 10 the same 21 m³/h machine as Electric 40?",
-          "answer": "No. Both print 21 m³/h theoretical output. Electric 10 lists 15 kW, tremonha 0.1 m³, 25 m horizontal and 400 kg. Electric 40 lists 45 kW, tremonha 0.4 m³, fine-stone 120 m / 360 m and 2300 kg. Match the full printed row."
+          "question": "Esta página imprime um fator de potência?",
+          "answer": "Não. O fator de potência é um capítulo da origem. A série elétrica 10 não o imprime, e este artigo não o inventa."
         },
         {
-          "question": "Does the Alibaba mini-pump 10–30 m³/h band replace this table?",
-          "answer": "No. SmartBuy (20 November 2025) cites mini pumps at 10–30 m³/h as a marketplace type. Electric 10’s printed cells are 15 kW, 21 m³/h theoretical, 25 m horizontal and 400 kg. Use the Xingtai page."
-        },
-        {
-          "question": "Can Electric 10 replace B500S-83D for 5–16 mm sand?",
-          "answer": "No. B500S-83D lists 7.5 kW, 5 m / 5 m, 280 kg and sand / small stone 5–16 mm, with no m³/h cell. Electric 10 lists agregado 2 cm and below and 25 m horizontal. Open the matching página do produto."
+          "question": "Esta bomba é um motor de indução linear?",
+          "answer": "Não. Esse capítulo é outra máquina. Esta linha é o reboque de 400 kg já impresso a 1800 × 800 × 1200 mm."
         }
       ]
     },
     "ar": {
-      "title": "Electric 10 Series Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 10 Series Concrete Pump | Pinjin 15 kW 400 kg",
-      "description": "Electric 10 Series is a شينغتاي compact electric pump listing 15 kW, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, قادوس 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, ركام 2 cm and below. The 21 m³/h cell is not Electric 40 (45 kW, 120 m / 360 m, 2300 kg). Match the printed table, then inquire.",
-      "imageAlt": "Electric 10 Series concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Electric 10 Series, شينغتاي catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg",
+      "title": "عامل القدرة ليس خلية في صف السلسلة الكهربائية 10",
+      "seoTitle": "فصول المحرك الحثي اللاحقة بجانب السلسلة الكهربائية 10",
+      "description": "في صفحة المحرك الحثي أيضًا عامل القدرة والكفاءة ودائرة شتاينمتز المكافئة والمحرك الحثي الخطي. تبقى السلسلة الكهربائية 10 عند 15 كيلوواط و21 م³/س نظريًا و23 ميغاباسكال و25 م أفقيًا و400 كغ.",
+      "imageAlt": "شكل من صفحة المصدر عن المحركات الحثية",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Induction_motor",
       "relatedPathLabels": [
         "Electric 10 Series concrete pump صفحة المنتج",
         "Electric concrete pump manufacturer China",
@@ -201,8 +194,8 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, قادوس 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, ركام 2 cm and below. It is not Electric 15, not Electric 40 and not B500S-83D.",
-        "who": "Buyers matching a 400 kg compact electric unit to 25 m horizontal pipeline and 2 cm ركام, with 15 kW on site.",
+        "what": "تطبع السلسلة الكهربائية 10 ‏15 كيلوواط و21 م³/س نظريًا. عامل القدرة وفصل المحرك الخطي لا يضيفان خلايا كهربائية تركتها صفحة المنتج فارغة.",
+        "who": "قرّاء تجاوزوا عكس الدوران في صفحة المحرك الحثي وما زالوا يحتاجون هذا الصف المدمج.",
         "factors": [
           "15 kW / 400 kg / 25 m horizontal versus Electric 40 at 45 kW / 2300 kg / 120 m / 360 m",
           "Theoretical output 21 m³/h is a printed cell, not Electric 40’s jobsite distance",
@@ -212,25 +205,21 @@
       },
       "faqs": [
         {
-          "question": "Is Electric 10 the same 21 m³/h machine as Electric 40?",
-          "answer": "No. Both print 21 m³/h theoretical output. Electric 10 lists 15 kW, قادوس 0.1 m³, 25 m horizontal and 400 kg. Electric 40 lists 45 kW, قادوس 0.4 m³, fine-stone 120 m / 360 m and 2300 kg. Match the full printed row."
+          "question": "هل تطبع هذه الصفحة عامل قدرة؟",
+          "answer": "لا. عامل القدرة فصل في المصدر. السلسلة الكهربائية 10 لا تطبعه، وهذا المقال لا يخترعه."
         },
         {
-          "question": "Does the Alibaba mini-pump 10–30 m³/h band replace this table?",
-          "answer": "No. SmartBuy (20 November 2025) cites mini pumps at 10–30 m³/h as a marketplace type. Electric 10’s printed cells are 15 kW, 21 m³/h theoretical, 25 m horizontal and 400 kg. Use the شينغتاي page."
-        },
-        {
-          "question": "Can Electric 10 replace B500S-83D for 5–16 mm sand?",
-          "answer": "No. B500S-83D lists 7.5 kW, 5 m / 5 m, 280 kg and sand / small stone 5–16 mm, with no m³/h cell. Electric 10 lists ركام 2 cm and below and 25 m horizontal. Open the matching صفحة المنتج."
+          "question": "هل هذه المضخة محرك حثي خطي؟",
+          "answer": "لا. ذلك الفصل آلة أخرى. هذا الصف هو المقطورة ذات 400 كغ المطبوعة عند 1800 × 800 × 1200 مم."
         }
       ]
     },
     "ru": {
-      "title": "Electric 10 Series Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 10 Series Concrete Pump | Pinjin 15 kW 400 kg",
-      "description": "Electric 10 Series is a Синтай compact electric pump listing 15 kW, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, бункер 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, заполнитель 2 cm and below. The 21 m³/h cell is not Electric 40 (45 kW, 120 m / 360 m, 2300 kg). Match the printed table, then inquire.",
-      "imageAlt": "Electric 10 Series concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Electric 10 Series, Синтай catalogue — 15 kW, 21 m³/h theoretical, 25 m horizontal, 400 kg",
+      "title": "Коэффициент мощности — не ячейка электрической серии 10",
+      "seoTitle": "Дальние главы об асинхронном двигателе рядом с электрической серией 10",
+      "description": "На странице об асинхронном двигателе есть ещё коэффициент мощности, КПД, схема Штейнмеца и линейный асинхронный двигатель. Электрическая серия 10 остаётся 15 кВт, теоретические 21 м³/ч, 23 МПа, 25 м по горизонтали и 400 кг.",
+      "imageAlt": "Иллюстрация со страницы-источника об асинхронных двигателях",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Induction_motor",
       "relatedPathLabels": [
         "Electric 10 Series concrete pump страница изделия",
         "Electric concrete pump manufacturer China",
@@ -238,8 +227,8 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Electric 10 Series Concrete Pump is a compact electric concrete pump manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 15 kW motor, 21 m³/h theoretical output, 23 MPa, 25 m horizontal, бункер 0.1 m³, 1800 × 800 × 1200 mm, 400 kg, заполнитель 2 cm and below. It is not Electric 15, not Electric 40 and not B500S-83D.",
-        "who": "Buyers matching a 400 kg compact electric unit to 25 m horizontal pipeline and 2 cm заполнитель, with 15 kW on site.",
+        "what": "Электрическая серия 10 печатает 15 кВт и теоретические 21 м³/ч. Коэффициент мощности и глава о линейном двигателе не добавляют электрические ячейки, которые страница изделия оставила пустыми.",
+        "who": "Читатели, которые прошли реверс на странице об асинхронном двигателе и всё ещё смотрят эту компактную строку.",
         "factors": [
           "15 kW / 400 kg / 25 m horizontal versus Electric 40 at 45 kW / 2300 kg / 120 m / 360 m",
           "Theoretical output 21 m³/h is a printed cell, not Electric 40’s jobsite distance",
@@ -249,18 +238,15 @@
       },
       "faqs": [
         {
-          "question": "Is Electric 10 the same 21 m³/h machine as Electric 40?",
-          "answer": "No. Both print 21 m³/h theoretical output. Electric 10 lists 15 kW, бункер 0.1 m³, 25 m horizontal and 400 kg. Electric 40 lists 45 kW, бункер 0.4 m³, fine-stone 120 m / 360 m and 2300 kg. Match the full printed row."
+          "question": "Печатает ли эта страница коэффициент мощности?",
+          "answer": "Нет. Это глава источника. Электрическая серия 10 его не печатает, и эта статья его не выдумывает."
         },
         {
-          "question": "Does the Alibaba mini-pump 10–30 m³/h band replace this table?",
-          "answer": "No. SmartBuy (20 November 2025) cites mini pumps at 10–30 m³/h as a marketplace type. Electric 10’s printed cells are 15 kW, 21 m³/h theoretical, 25 m horizontal and 400 kg. Use the Синтай page."
-        },
-        {
-          "question": "Can Electric 10 replace B500S-83D for 5–16 mm sand?",
-          "answer": "No. B500S-83D lists 7.5 kW, 5 m / 5 m, 280 kg and sand / small stone 5–16 mm, with no m³/h cell. Electric 10 lists заполнитель 2 cm and below and 25 m horizontal. Open the matching страница изделия."
+          "question": "Этот насос — линейный асинхронный двигатель?",
+          "answer": "Нет. Та глава про другую машину. Эта строка — уже напечатанный прицеп 400 кг при 1800 × 800 × 1200 мм."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

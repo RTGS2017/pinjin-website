@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "grid powered building concrete pump",
   "title": {
-    "en": "Stable power on a building: which ladder do you open?",
-    "zh": "建筑工地有稳定电，打开哪一架梯子？"
+    "en": "One window only: Stable power on a building: which ladder do you open",
+    "zh": "只留一个窗口：建筑工地有稳定电，打开哪一架梯子"
   },
   "description": {
-    "en": "Open the electric ladder from Electric 20 to Electric 80 / HBT. Diesel is the published alternative only when the grid is not stable.",
-    "zh": "从电动20打开到电动80 / HBT。只有电网不稳时，柴油才是已公布的另一条路。"
+    "en": "Read it in the Xingtai table. Open the electric catalogue. Taken from the printed row: Hebei Pinjin Machinery in Xingtai states the rule on the selection guide: stable power points to Electric 20–80 / HBT, and no stable grid points to a diesel trailer or the rural diesel pump. Keep this cell as published. On a building, that electric ladder is Electric 20 (8–10 m³/h, 120 m / 40 m), then the fine-stone 30 and low-pressure 40, then Electric 40 / 50 for medium buildings, then low-pressure 60 and Electric 60, then HBT80-16 or Electric 80 when the printed distance and output require them.",
+    "zh": "按邢台表上的原文理解：打开电动目录。邢台河北品锦机械在选型指南里写了规则：供电稳定指向电动20–80 / HBT，电网不稳指向柴油拖泵或农村柴油泵。在建筑上，这架电动梯子是电动20（8–10 m³/h、120 m / 40 m），然后是细石的 30 和低压40，然后是中型建筑的电动40 / 50，然后是低压60和电动60，距离和输送量需要时再到 HBT80-16 或电动80。"
   },
   "h1": {
-    "en": "Stable power on a building: which ladder do you open?",
-    "zh": "建筑工地有稳定电，打开哪一架梯子？"
+    "en": "One window only: Stable power on a building: which ladder do you open",
+    "zh": "只留一个窗口：建筑工地有稳定电，打开哪一架梯子"
   },
   "directAnswer": {
-    "en": "Open the electric catalogue. Hebei Pinjin Machinery in Xingtai states the rule on the selection guide: stable power points to Electric 20–80 / HBT, and no stable grid points to a diesel trailer or the rural diesel pump. On a building, that electric ladder is Electric 20 (8–10 m³/h, 120 m / 40 m), then the fine-stone 30 and low-pressure 40, then Electric 40 / 50 for medium buildings, then low-pressure 60 and Electric 60, then HBT80-16 or Electric 80 when the printed distance and output require them.",
-    "zh": "打开电动目录。邢台河北品锦机械在选型指南里写了规则：供电稳定指向电动20–80 / HBT，电网不稳指向柴油拖泵或农村柴油泵。在建筑上，这架电动梯子是电动20（8–10 m³/h、120 m / 40 m），然后是细石的 30 和低压40，然后是中型建筑的电动40 / 50，然后是低压60和电动60，距离和输送量需要时再到 HBT80-16 或电动80。"
+    "en": "Read it in the Xingtai table. Open the electric catalogue. Taken from the printed row: Hebei Pinjin Machinery in Xingtai states the rule on the selection guide: stable power points to Electric 20–80 / HBT, and no stable grid points to a diesel trailer or the rural diesel pump. Keep this cell as published. On a building, that electric ladder is Electric 20 (8–10 m³/h, 120 m / 40 m), then the fine-stone 30 and low-pressure 40, then Electric 40 / 50 for medium buildings, then low-pressure 60 and Electric 60, then HBT80-16 or Electric 80 when the printed distance and output require them.",
+    "zh": "按邢台表上的原文理解：打开电动目录。邢台河北品锦机械在选型指南里写了规则：供电稳定指向电动20–80 / HBT，电网不稳指向柴油拖泵或农村柴油泵。在建筑上，这架电动梯子是电动20（8–10 m³/h、120 m / 40 m），然后是细石的 30 和低压40，然后是中型建筑的电动40 / 50，然后是低压60和电动60，距离和输送量需要时再到 HBT80-16 或电动80。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Name the kilowatts the site can actually feed",
-        "zh": "写出现场真正能供的千瓦"
+        "en": "Terminology",
+        "zh": "术语"
       },
       "body": {
-        "en": "The motors on this ladder are 22, 30, 37, 45, 55, 75, 90, 110 and 132 kW depending on the page. A “stable grid” that cannot feed the motor on the row you like is not a match. The factory asks for voltage and frequency in the inquiry. It does not guess them from a country name.",
-        "zh": "这架梯子上的电机按页面分别是 22、30、37、45、55、75、90、110 和 132 kW。所谓稳定电网如果供不起你喜欢的那一行电机，就不算匹配。工厂在询盘里要电压和频率，不会用国家名称去猜。"
+        "en": "Borrow “Terminology” from “Mains electricity” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. Open the electric ladder from Electric 20 to Electric 80 / HBT. Taken from the printed row: The motors on this ladder are 22, 30, 37, 45, 55, 75, 90, 110 and 132 kW depending on the page. Keep this cell as published. B500S-83D is a 7.5 kW, 380 V unit for 5 m / 5 m sand and small stone. Leave aside attach a project name, a country job or a daily volume the catalogue does not print. Read it in the Xingtai table. On the selection guide question “Diesel or electric concrete pump?” and on /solutions/construction. Image from the source page: https://en.wikipedia.org/wiki/Mains_electricity",
+        "zh": "把《Mains electricity》的“术语”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：从电动20打开到电动80 / HBT。只有电网不稳时，柴油才是已公布的另一条路。目录里已经写着：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://en.wikipedia.org/wiki/Mains_electricity"
       }
     },
     {
       "heading": {
-        "en": "Compact electric units are not this ladder",
-        "zh": "紧凑电动泵不在这架梯子上"
+        "en": "Power systems",
+        "zh": "功率系统"
       },
       "body": {
-        "en": "Electric 15 (15 kW, 15–20 m vertical) and Electric 10 Series (15 kW, 25 m horizontal only) are rural, small-site and secondary-structure rows. B500S-83D is a 7.5 kW, 380 V unit for 5 m / 5 m sand and small stone. Put them on a tight or self-built job, not on a commercial building line that has already exceeded those cells.",
-        "zh": "电动15（15 kW、垂直 15–20 m）和电动10系列（15 kW、水平只有 25 m）是农村、小型工地和二次结构行。B500S-83D 是 7.5 kW、380 V、5 m / 5 m 的砂与小石机。它们放在狭小或自建工况上，不放在已经超出这些格子的商业建筑管路上。"
+        "en": "The reference page “Mains electricity” uses “Power systems” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: Diesel is the published alternative only when the grid is not stable. Keep this cell as published. A “stable grid” that cannot feed the motor on the row you like is not a match. The neighbouring machine is not this sentence. Put them on a tight or self-built job, not on a commercial building line that has already exceeded those cells. Read it in the Xingtai table. Its published scenarios are sites without stable grid power, plus rural and infrastructure placement.",
+        "zh": "来源页《Mains electricity》用“功率系统”划分这一节。后面是邢台目录里已有内容，换一种说法写下。打开电动目录。河北品锦机械（邢台）在选型指南里写了规则：供电稳定指向电动20–80 / HBT，电网不稳指向柴油拖泵或农村柴油泵。在建筑上，这架电动梯子是电动20（8–10 m³/h、120 m / 40 m），然后是细石的 30 和低压40，然后是中型建筑的电动40 / 50，然后是低压60和电动60，距离和输送量需要时再到 HBT80-16 或电动80。这一格照已印出的读：它公布的工况是电网供电不便，加上农村与基建浇筑。供电稳定的建筑留在电动梯子上。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Common uses of electricity",
+        "zh": "常见做法用场"
       },
       "body": {
-        "en": "Send voltage, frequency and the motor kilowatts you can support, beside the pipe lengths. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请在管路长度旁边，发送电压、频率和你能支持的电机千瓦。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Common uses of electricity” is an outline label from “Mains electricity”. That label does not add a figure to the printed row. Keep this cell as published. Open the electric catalogue. The neighbouring machine is not this sentence. The factory asks for voltage and frequency in the inquiry. Read it in the Xingtai table. Send voltage, frequency and the motor kilowatts you can support, beside the pipe lengths. Taken from the printed row: A building with stable power stays on the electric ladder.",
+        "zh": "“常见做法用场”是《Mains electricity》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：这架梯子上的电机按页面分别是 22、30、37、45、55、75、90、110 和 132 kW。所谓稳定电网如果供不起你喜欢的那一行电机，就不算匹配。工厂在询盘里要电压和频率，不会用国家名称去猜。旁边那一台不在这句话里。需要。它印的是 132 kW 电机、60 m³/h、输送距离 150 m、输送高度 450 m。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Building wiring",
+        "zh": "建筑接线"
+      },
+      "body": {
+        "en": "This block keeps the heading “Building wiring” from “Mains electricity”, then stays with the cells already published. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai states the rule on the selection guide: stable power points to Electric 20–80 / HBT, and no stable grid points to a diesel trailer or the rural diesel pump. Read it in the Xingtai table. It does not guess them from a country name. Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Keep this cell as published. Yes.",
+        "zh": "本节保留《Mains electricity》的标题“建筑接线”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。电动15（15 kW、垂直 15–20 m）和电动10系列（15 kW、水平只有 25 m）是农村、小型工地和二次结构行。B500S-83D 是 7.5 kW、380 V、5 m / 5 m 的砂与小石机。它们放在狭小或自建工况上，不放在已经超出这些格子的商业建筑管路上。按邢台表上的原文理解：在选型指南“选柴油泵还是电动泵？”以及 /solutions/construction。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Voltage levels",
+        "zh": "电压"
+      },
+      "body": {
+        "en": "The section shape comes from “Voltage levels” in “Mains electricity”. The sentences are a restatement of the catalogue, not of that article. Read it in the Xingtai table. On a building, that electric ladder is Electric 20 (8–10 m³/h, 120 m / 40 m), then the fine-stone 30 and low-pressure 40, then Electric 40 / 50 for medium buildings, then low-pressure 60 and Electric 60, then HBT80-16 or Electric 80 when the printed distance and output require them. Taken from the printed row: Electric 15 (15 kW, 15–20 m vertical) and Electric 10 Series (15 kW, 25 m horizontal only) are rural, small-site and secondary-structure rows. Keep this cell as published. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. The neighbouring machine is not this sentence. It prints a 132 kW motor, 60 m³/h, 150 m conveying and 450 m delivery height.",
+        "zh": "这一节的形状来自《Mains electricity》的“电压”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：请在管路长度旁边，发送电压、频率和你能支持的电机千瓦。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is Diesel 40 ever correct on a building?",
-        "zh": "柴油40会不会用在建筑上？"
+        "en": "“Terminology” does not change the check: Is Diesel 40 ever correct on a building?",
+        "zh": "“术语”不改这一问：柴油40会不会用在建筑上？"
       },
       "answer": {
-        "en": "Its published scenarios are sites without stable grid power, plus rural and infrastructure placement. A building with stable power stays on the electric ladder.",
-        "zh": "它公布的工况是电网供电不便，加上农村与基建浇筑。供电稳定的建筑留在电动梯子上。"
+        "en": "Read it in the Xingtai table. Its published scenarios are sites without stable grid power, plus rural and infrastructure placement. A building with stable power stays on the electric ladder.",
+        "zh": "按邢台表上的原文理解：它公布的工况是电网供电不便，加上农村与基建浇筑。供电稳定的建筑留在电动梯子上。"
       }
     },
     {
       "question": {
-        "en": "Does HBT8018 need a grid?",
-        "zh": "HBT8018 需要电网吗？"
+        "en": "Does HBT8018 need a grid, once the outline says “Power systems”?",
+        "zh": "大纲写着“功率系统”时，HBT8018 需要电网吗？"
       },
       "answer": {
-        "en": "Yes. It prints a 132 kW motor, 60 m³/h, 150 m conveying and 450 m delivery height.",
-        "zh": "需要。它印的是 132 kW 电机、60 m³/h、输送距离 150 m、输送高度 450 m。"
+        "en": "Taken from the printed row: Yes. It prints a 132 kW motor, 60 m³/h, 150 m conveying and 450 m delivery height.",
+        "zh": "目录里已经写着：需要。它印的是 132 kW 电机、60 m³/h、输送距离 150 m、输送高度 450 m。"
       }
     },
     {
       "question": {
-        "en": "Where is the rule written?",
-        "zh": "这条规则写在哪？"
+        "en": "Under “Common uses of electricity”, where is the rule written?",
+        "zh": "在“常见做法用场”这一节里，这条规则写在哪？"
       },
       "answer": {
-        "en": "On the selection guide question “Diesel or electric concrete pump?” and on /solutions/construction.",
-        "zh": "在选型指南“选柴油泵还是电动泵？”以及 /solutions/construction。"
+        "en": "Keep this cell as published. On the selection guide question “Diesel or electric concrete pump?” and on /solutions/construction.",
+        "zh": "这一格照已印出的读：在选型指南“选柴油泵还是电动泵？”以及 /solutions/construction。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/stable-grid-building-electric-ladder.webp",
+    "src": "/images/articles/applications/stable-grid-building-electric-ladder.jpg",
     "alt": {
-      "en": "Electric 80 concrete pump at the top of the Xingtai grid-powered building ladder",
-      "zh": "邢台有电网建筑梯子上的电动80型混凝土泵"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Mains_electricity",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Mains_electricity"
     }
   },
   "relatedPaths": [
@@ -130,7 +154,12 @@
     "https://pinjinpump.com/solutions/construction",
     "https://pinjinpump.com/products/electric-concrete-pumps",
     "https://pinjinpump.com/products/electric-20-concrete-pump",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Mains_electricity"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

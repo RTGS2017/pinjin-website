@@ -3,100 +3,110 @@
   "category": "buying",
   "keyword": "diesel 40 or diesel mixer 4108",
   "title": {
-    "en": "4108 on Diesel 40 Is Not the Diesel Mixer Order",
-    "zh": "柴油40上的 4108 不是柴油搅拌泵订单"
+    "en": "“Operating Volume Flow vs. Reference Volume Flow” leaves Diesel 40 is 2800 kg on the Diesel 40 Concrete Pump row",
+    "zh": "「运行 体积流量与参考 体积流量」不改柴油40上的 4108 不是柴油搅拌泵订单这一行里的「是 26 m³/h。」"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints 4108 on Diesel 40 at 66 kW and on the diesel mixer at 66–75 kW. Diesel 40 is pump-only at 26 m³/h. The mixer is 25 m³/h with three stone rows.",
-    "zh": "河北品锦机械在邢台把 4108 印在柴油40上为 66 kW，印在柴油搅拌泵上为 66–75 kW。柴油40是只泵送的 26 m³/h。搅拌泵是 25 m³/h 并有三行石子。"
+    "en": "Diesel 40 Concrete Pump at /products/diesel-40-concrete-pump. Diesel 40 is 2800 kg Diesel 40’s height is 1800 mm",
+    "zh": "柴油40上的 4108 不是柴油搅拌泵订单见 /products/diesel-40-concrete-pump。是 26 m³/h。柴油40不列搅拌电机。"
   },
   "h1": {
-    "en": "Say Whether the 4108 Order Includes a Mixer",
-    "zh": "写明这张 4108 订单是否包含搅拌"
+    "en": "Operating Volume Flow vs. Reference Volume Flow does not retitle the Diesel 40 Concrete Pump cells",
+    "zh": "「运行 体积流量与参考 体积流量」并不改写柴油40上的 4108 不是柴油搅拌泵订单的格子"
   },
   "directAnswer": {
-    "en": "A buyer who writes only “4108” has not ordered a machine from Hebei Pinjin Machinery in Xingtai. Diesel 40 prints 4108 / 66 kW, 26 m³/h, 25 MPa, hopper 0.4 m³, 120 m / 360 m, Kawasaki 112, 4200 × 1600 × 1800 mm and 2800 kg. The diesel mixer prints 4108 / 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, three stone-distance rows, 4100 × 2200 × 3000 mm and 4200 kg. The mixer path is the one that mixes and pumps. Diesel 40 does not list a mixer motor. Send one path to [/en/contact/](/en/contact/).",
-    "zh": "只写“4108”并没有向河北品锦机械（邢台）订下一台机器。柴油40印 4108 / 66 kW、26 m³/h、25 MPa、料斗 0.4 m³、120 m / 360 m、川崎 112、4200 × 1600 × 1800 mm、2800 kg。柴油搅拌泵印 4108 / 66–75 kW、25 m³/h、23 MPa、料斗 0.4 m³、三行石子距离、4100 × 2200 × 3000 mm、4200 kg。又搅拌又泵送的是搅拌泵路径。柴油40不列搅拌电机。把一条路径发到 [/zh/contact/](/zh/contact/)。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for Diesel 40 Concrete Pump. The row to open is /products/diesel-40-concrete-pump. Diesel 40 is 2800 kg. Diesel 40’s height is 1800 mm. 66–75 kW on the mixer is a range. Diesel 40 does not list a mixer motor. 3000 mm is printed on the diesel mixer. 66 kW on Diesel 40 is a single printed power. The mixer prints ≤ 1 inch, 13 mm and 24 mm as separate rows. Diesel 40’s description ties 120 m / 360 m to 1 cm aggregate. A buyer who writes only “4108” has not ordered a machine from Hebei Pinjin Machinery in Xingtai. Diesel 40 prints 4108 / 66 kW, 26 m³/h, 25 MPa, hopper 0.4 m³, 120 m / 360 m, Kawasaki 112, 4200 × 1600 × 1800 mm and 2800 kg. The diesel mixer prints 4108 / 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, three stone-distance rows, 4100 × 2200 × 3000 mm and 4200 kg. The section title “NTP - Normal Temperature and Pressure Conditions” comes from the source page and does not add a rating. No price is printed on the product page.",
+    "zh": "河北品锦机械在邢台印出的是柴油40上的 4108 不是柴油搅拌泵订单的数字。要打开的行是 /products/diesel-40-concrete-pump。是 26 m³/h。柴油40不列搅拌电机。柴油40是 2800 kg。柴油搅拌泵印了 3000 mm。柴油40的高度是 1800 mm。搅拌泵上的 66–75 kW 是区间。柴油40上的 66 kW 是一个印出的功率。只写“4108”并没有向河北品锦机械（邢台）订下一台机器。搅拌泵把 ≤ 1 英寸、13 mm 和 24 mm 分成不同的行。柴油40的说明把 120 m / 360 m 与 1 cm 骨料写在一起。柴油搅拌泵印 4108 / 66–75 kW、25 m³/h、23 MPa、料斗 0.4 m³、三行石子距离、4100 × 2200 × 3000 mm、4200 kg。柴油40印 4108 / 66 kW、26 m³/h、25 MPa、料斗 0.4 m³、120 m / 360 m、川崎 112、4200 × 1600 × 1800 mm、2800 kg。节标题「NTP - 标准温度与压力 条件」来自来源页，不另加额定值。产品页没有印价格。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Kilowatts are not the same string",
-        "zh": "千瓦不是同一串"
+        "en": "NTP - Normal Temperature and Pressure Conditions",
+        "zh": "NTP - 标准温度与压力 条件"
       },
       "body": {
-        "en": "66 kW on Diesel 40 is a single printed power. 66–75 kW on the mixer is a range. Keep the range if you order the mixer.",
-        "zh": "柴油40上的 66 kW 是一个印出的功率。搅拌泵上的 66–75 kW 是区间。订搅拌泵时保留区间。"
+        "en": "For Diesel 40 Concrete Pump, the heading “NTP - Normal Temperature and Pressure Conditions” does not replace a cell. Diesel 40 is 2800 kg. 3000 mm is printed on the diesel mixer. A buyer who writes only “4108” has not ordered a machine from Hebei Pinjin Machinery in Xingtai.",
+        "zh": "对柴油40上的 4108 不是柴油搅拌泵订单而言，标题「NTP - 标准温度与压力 条件」并不替换任何格子。柴油40是 2800 kg。柴油搅拌泵印了 3000 mm。只写“4108”并没有向河北品锦机械（邢台）订下一台机器。"
       }
     },
     {
       "heading": {
-        "en": "Height of the mixer frame",
-        "zh": "搅拌泵机架的高度"
+        "en": "Operating Volume Flow vs. Reference Volume Flow",
+        "zh": "运行 体积流量与参考 体积流量"
       },
       "body": {
-        "en": "3000 mm is printed on the diesel mixer. Diesel 40’s height is 1800 mm. A transport note that swaps them is the wrong crate.",
-        "zh": "柴油搅拌泵印了 3000 mm。柴油40的高度是 1800 mm。运输说明如果对调，箱子就错了。"
+        "en": "Diesel 40 Concrete Pump is unchanged by the heading “Operating Volume Flow vs. Reference Volume Flow”. Diesel 40’s height is 1800 mm. 66 kW on Diesel 40 is a single printed power. Diesel 40 prints 4108 / 66 kW, 26 m³/h, 25 MPa, hopper 0.4 m³, 120 m / 360 m, Kawasaki 112, 4200 × 1600 × 1800 mm and 2800 kg.",
+        "zh": "柴油40上的 4108 不是柴油搅拌泵订单不因标题「运行 体积流量与参考 体积流量」而改动。柴油40的高度是 1800 mm。柴油40上的 66 kW 是一个印出的功率。柴油40印 4108 / 66 kW、26 m³/h、25 MPa、料斗 0.4 m³、120 m / 360 m、川崎 112、4200 × 1600 × 1800 mm、2800 kg。"
       }
     },
     {
       "heading": {
-        "en": "One distance versus three",
-        "zh": "一组距离对三组"
+        "en": "Pressure Head",
+        "zh": "压力水头"
       },
       "body": {
-        "en": "Diesel 40’s description ties 120 m / 360 m to 1 cm aggregate. The mixer prints ≤ 1 inch, 13 mm and 24 mm as separate rows.",
-        "zh": "柴油40的说明把 120 m / 360 m 与 1 cm 骨料写在一起。搅拌泵把 ≤ 1 英寸、13 mm 和 24 mm 分成不同的行。"
+        "en": "This section is titled “Pressure Head”. Diesel 40 Concrete Pump still prints the cells below. 66–75 kW on the mixer is a range. The mixer prints ≤ 1 inch, 13 mm and 24 mm as separate rows. The diesel mixer prints 4108 / 66–75 kW, 25 m³/h, 23 MPa, hopper 0.4 m³, three stone-distance rows, 4100 × 2200 × 3000 mm and 4200 kg.",
+        "zh": "本节标题是「压力水头」。柴油40上的 4108 不是柴油搅拌泵订单下面这些格子仍是印出来的。搅拌泵上的 66–75 kW 是区间。搅拌泵把 ≤ 1 英寸、13 mm 和 24 mm 分成不同的行。柴油搅拌泵印 4108 / 66–75 kW、25 m³/h、23 MPa、料斗 0.4 m³、三行石子距离、4100 × 2200 × 3000 mm、4200 kg。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power",
+        "zh": "功率"
+      },
+      "body": {
+        "en": "Under “Power”, Diesel 40 Concrete Pump contributes only the printed cells in this part. Diesel 40 does not list a mixer motor. Diesel 40’s description ties 120 m / 360 m to 1 cm aggregate. The photograph is an image from the source page https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html.",
+        "zh": "在「功率」下，柴油40上的 4108 不是柴油搅拌泵订单这一节只放已印出的格子。柴油40不列搅拌电机。柴油40的说明把 120 m / 360 m 与 1 cm 骨料写在一起。是 26 m³/h。配图来自来源页 https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which page is 4200 kg?",
-        "zh": "哪一页是 4200 kg？"
+        "en": "Does “NTP - Normal Temperature and Pressure Conditions” replace Diesel 40 is 2800 kg?",
+        "zh": "「NTP - 标准温度与压力 条件」会替换「是 26 m³/h。」吗？"
       },
       "answer": {
-        "en": "The diesel mixer. Diesel 40 is 2800 kg.",
-        "zh": "柴油搅拌泵。柴油40是 2800 kg。"
+        "en": "No. Diesel 40 is 2800 kg remains the printed wording for Diesel 40 Concrete Pump.",
+        "zh": "不会。是 26 m³/h。仍是柴油40上的 4108 不是柴油搅拌泵订单已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Does Diesel 40 print 40 m³/h?",
-        "zh": "柴油40印 40 m³/h 吗？"
+        "en": "Where does Diesel 40’s height is 1800 mm belong on the Diesel 40 Concrete Pump row?",
+        "zh": "柴油40上的 4108 不是柴油搅拌泵订单这一行里，「柴油40不列搅拌电机。」放在哪里？"
       },
       "answer": {
-        "en": "No. 26 m³/h.",
-        "zh": "没有。是 26 m³/h。"
+        "en": "It belongs on /products/diesel-40-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/diesel-40-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Is the mixer a batching plant?",
-        "zh": "搅拌泵是搅拌站吗？"
+        "en": "What does “Operating Volume Flow vs. Reference Volume Flow” add to Diesel 40 Concrete Pump?",
+        "zh": "「运行 体积流量与参考 体积流量」给柴油40上的 4108 不是柴油搅拌泵订单增加了什么？"
       },
       "answer": {
-        "en": "No.",
-        "zh": "不是。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Is the price shared?",
-        "zh": "价格是共用的吗？"
+        "en": "Is a list price printed beside Diesel 40 is 2800 kg?",
+        "zh": "「是 26 m³/h。」旁边印了标价吗？"
       },
       "answer": {
-        "en": "No price is printed for either page.",
-        "zh": "两页都没有印价格。"
+        "en": "No price is printed on /products/diesel-40-concrete-pump.",
+        "zh": "/products/diesel-40-concrete-pump 上没有印价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-diesel-mixer-4108-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-diesel-40-4108-is-not-the-mixer-5e8c9a5c.png",
     "alt": {
-      "en": "Diesel mixer pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "柴油搅拌泵，由河北品锦机械厂家制造，邢台"
+      "en": "Fans - Volume Flow, Pressure Head and Power Consumption vs. Air Temperature and Density. Image from the source page: https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html.",
+      "zh": "Fans - Volume Flow, Pressure Head and Power Consumption vs. Air Temperature and Density。图来自来源页：https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html。"
     }
   },
   "relatedPaths": [
@@ -119,7 +129,8 @@
     "https://pinjinpump.com/en/products/mixer-pumps/",
     "https://pinjinpump.com/zh/products/mixer-pumps/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/air-density-temperature-fan-capacity-d_144.html"
   ],
   "status": "ready"
 }

@@ -3,90 +3,104 @@
   "category": "application",
   "keyword": "electric 20 concrete pump building",
   "title": {
-    "en": "Does Electric 20 match building and commercial placement?",
-    "zh": "电动20对得上建筑与商业浇筑吗？"
+    "en": "Stay on one row while resolving does Electric 20 match building and commercial placement",
+    "zh": "选型时不要并格：电动20对得上建筑与商业浇筑吗"
   },
   "description": {
-    "en": "Yes, when the line stays inside the printed Electric 20 cells: 22 kW, 8–10 m³/h, 10 MPa, 120 m / 40 m, 80 mm pipe, 1–2 cm aggregate, 900 kg.",
-    "zh": "可以，只要管路落在电动20已印格子内：22 kW、8–10 m³/h、10 MPa、120 m / 40 m、80 mm 管、骨料 1–2 cm、900 kg。"
+    "en": "Keep this cell as published. Yes. Xingtai-based Hebei Pinjin Machinery prints “building and commercial concrete placement” on the Electric 20. Read it in the Xingtai table. The table is 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, 80 mm pipe, aggregate 1–2 cm, 2800 × 1300 × 1500 mm and 900 kg. Taken from the printed row: It is not the rural self-built row.",
+    "zh": "这一格照已印出的读：可以。邢台河北品锦机械在电动20上印了“建筑与商业混凝土浇筑”。表是 22 kW、8–10 m³/h、10 MPa、料斗 0.25 m³、水平 120 m / 垂直 40 m、80 mm 管、骨料 1–2 cm、外形 2800 × 1300 × 1500 mm、900 kg。它不是农村自建房那一行。"
   },
   "h1": {
-    "en": "Does Electric 20 match building and commercial placement?",
-    "zh": "电动20对得上建筑与商业浇筑吗？"
+    "en": "Stay on one row while resolving does Electric 20 match building and commercial placement",
+    "zh": "选型时不要并格：电动20对得上建筑与商业浇筑吗"
   },
   "directAnswer": {
-    "en": "Yes. Hebei Pinjin Machinery in Xingtai prints “building and commercial concrete placement” on the Electric 20. The table is 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, 80 mm pipe, aggregate 1–2 cm, 2800 × 1300 × 1500 mm and 900 kg. It is not the rural self-built row.",
-    "zh": "可以。邢台河北品锦机械在电动20上印了“建筑与商业混凝土浇筑”。表是 22 kW、8–10 m³/h、10 MPa、料斗 0.25 m³、水平 120 m / 垂直 40 m、80 mm 管、骨料 1–2 cm、外形 2800 × 1300 × 1500 mm、900 kg。它不是农村自建房那一行。"
+    "en": "Keep this cell as published. Yes. Xingtai-based Hebei Pinjin Machinery prints “building and commercial concrete placement” on the Electric 20. Read it in the Xingtai table. The table is 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, 80 mm pipe, aggregate 1–2 cm, 2800 × 1300 × 1500 mm and 900 kg. Taken from the printed row: It is not the rural self-built row.",
+    "zh": "这一格照已印出的读：可以。邢台河北品锦机械在电动20上印了“建筑与商业混凝土浇筑”。表是 22 kW、8–10 m³/h、10 MPa、料斗 0.25 m³、水平 120 m / 垂直 40 m、80 mm 管、骨料 1–2 cm、外形 2800 × 1300 × 1500 mm、900 kg。它不是农村自建房那一行。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What is printed on the Electric 20 building row?",
-        "zh": "电动20的建筑行印了什么？"
+        "en": "Function",
+        "zh": "功能"
       },
       "body": {
-        "en": "The application lines are building and commercial placement, pipeline conveying on construction sites, and projects matched to the listed capacity and distance. The pipe cell is 80 mm, tighter than the 100–125 mm cell on Electric 15. Aggregate is 1–2 cm, not the 1–3 cm window on the rural compact pumps. If the stone is coarser than 2 cm, leave this page.",
-        "zh": "应用句是建筑与商业浇筑、施工现场管道输送，以及对照目录输送量与距离的工程。管径格是 80 mm，比电动15的 100–125 mm 更小。骨料是 1–2 cm，不是农村紧凑泵的 1–3 cm。石子粗于 2 cm，就离开这一页。"
+        "en": "The section shape comes from “Function” in “Tremie”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Yes, when the line stays inside the printed Electric 20 cells: 22 kW, 8–10 m³/h, 10 MPa, 120 m / 40 m, 80 mm pipe, 1–2 cm aggregate, 900 kg. Keep this cell as published. It is not the rural self-built row. Keep this cell as published. If the stone is coarser than 2 cm, leave this page. Keep this cell as published. A site without a supply for the 22 kW motor belongs on a diesel page, not on a larger electric name invented for this model. Do not attach a project name, a country job or a daily volume the catalogue leaves that cell blank for. Keep this cell as published. It is the Electric 20 cell. Image from the source page: https://en.wikipedia.org/wiki/Tremie",
+        "zh": "这一节的形状来自《Tremie》的“功能”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：可以，只要管路落在电动20已印格子内：22 kW、8–10 m³/h、10 MPa、120 m / 40 m、80 mm 管、骨料 1–2 cm、900 kg。这一格照已印出的读：请说明石子是否在 1–2 cm 内，管路是否在 120 m / 40 m 内。这一格照已印出的读：不是。它是已印的理论输送量。图来自来源页面：https://en.wikipedia.org/wiki/Tremie"
       }
     },
     {
       "heading": {
-        "en": "When is Electric 20 the wrong building pump?",
-        "zh": "什么时候不该停在电动20？"
+        "en": "Structure",
+        "zh": "结构"
       },
       "body": {
-        "en": "Vertical above 40 m or horizontal above 120 m is outside this table. Output above the printed 8–10 m³/h is also outside it. Fine-stone buildings with a separate 13-aggregate row start at Electric 30 (fine stone 60 m / 180 m, aggregate 13 at 20 m / 60 m). A site without a supply for the 22 kW motor belongs on a diesel page, not on a larger electric name invented for this model.",
-        "zh": "垂直超过 40 m 或水平超过 120 m，就不在这张表里。输送量高于已印的 8–10 m³/h，也不在这张表里。带单独 13 骨料行的细石建筑，从电动30开始（细石 60 m / 180 m，13 骨料 20 m / 60 m）。现场带不动 22 kW 电机，就去柴油页，不要给这台电动泵另编一个更大的电动名字。"
+        "en": "“Tremie” breaks its subject at “Structure”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. Yes. The neighbouring machine is not this sentence. The application lines are building and commercial placement, pipeline conveying on construction sites, and projects matched to the listed capacity and distance. The neighbouring machine is not this sentence. Vertical above 40 m or horizontal above 120 m is outside this table. The neighbouring machine is not this sentence. Say whether the stone is inside 1–2 cm and whether the pipe is inside 120 m / 40 m. The neighbouring machine is not this sentence. The product page does not use that sentence. The neighbouring machine is not this sentence. Other models print their own diameters.",
+        "zh": "《Tremie》在“结构”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。可以。邢台河北品锦机械在电动20上印了“建筑与商业混凝土浇筑”。表是 22 kW、8–10 m³/h、10 MPa、料斗 0.25 m³、水平 120 m / 垂直 40 m、80 mm 管、骨料 1–2 cm、外形 2800 × 1300 × 1500 mm、900 kg。它不是农村自建房那一行。旁边那一台不在这句话里。请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Placement",
+        "zh": "浇筑"
       },
       "body": {
-        "en": "Say whether the stone is inside 1–2 cm and whether the pipe is inside 120 m / 40 m. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请说明石子是否在 1–2 cm 内，管路是否在 120 m / 40 m 内。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "Borrow “Placement” from “Tremie” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai prints “building and commercial concrete placement” on the Electric 20. Read it in the Xingtai table. The pipe cell is 80 mm, tighter than the 100–125 mm cell on Electric 15. Read it in the Xingtai table. Output above the printed 8–10 m³/h is also outside it. Read it in the Xingtai table. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. Rural self-built houses are printed on Electric 15, Electric 10 Series, the rural diesel pump and the tractor-driven 4100. Read it in the Xingtai table. No.",
+        "zh": "把《Tremie》的“浇筑”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：应用句是建筑与商业浇筑、施工现场管道输送，以及对照目录输送量与距离的工程。管径格是 80 mm，比电动15的 100–125 mm 更小。骨料是 1–2 cm，不是农村紧凑泵的 1–3 cm。石子粗于 2 cm，就离开这一页。按邢台表上的原文理解：产品页没有这句。农村自建房印在电动15、电动10系列、农村柴油泵和拖拉机带动4100上。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Concrete",
+        "zh": "混凝土"
+      },
+      "body": {
+        "en": "The reference page “Tremie” uses “Concrete” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: The table is 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, 80 mm pipe, aggregate 1–2 cm, 2800 × 1300 × 1500 mm and 900 kg. Taken from the printed row: Aggregate is 1–2 cm, not the 1–3 cm window on the rural compact pumps. Taken from the printed row: Fine-stone buildings with a separate 13-aggregate row start at Electric 30 (fine stone 60 m / 180 m, aggregate 13 at 20 m / 60 m). Taken from the printed row: Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: No. Taken from the printed row: It is the printed theoretical output. Headings already printed: What is printed on the Electric 20 building row? When is Electric 20 the wrong building pump?",
+        "zh": "来源页《Tremie》用“混凝土”划分这一节。后面是邢台目录里已有内容，换一种说法写下。目录里已经写着：垂直超过 40 m 或水平超过 120 m，就不在这张表里。输送量高于已印的 8–10 m³/h，也不在这张表里。带单独 13 骨料行的细石建筑，从电动30开始（细石 60 m / 180 m，13 骨料 20 m / 60 m）。现场带不动 22 kW 电机，就去柴油页，不要给这台电动泵另编一个更大的电动名字。目录里已经写着：不是。它是电动20的格子。其他型号印自己的管径。已印出的标题：电动20的建筑行印了什么？ 什么时候不该停在电动20？"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is Electric 20 a rural self-built model?",
-        "zh": "电动20是农村自建房型号吗？"
+        "en": "Under “Function”, is Electric 20 a rural self-built model?",
+        "zh": "在“功能”这一节里，电动20是农村自建房型号吗？"
       },
       "answer": {
-        "en": "The product page does not use that sentence. Rural self-built houses are printed on Electric 15, Electric 10 Series, the rural diesel pump and the tractor-driven 4100.",
-        "zh": "产品页没有这句。农村自建房印在电动15、电动10系列、农村柴油泵和拖拉机带动4100上。"
+        "en": "Keep this cell as published. The product page does not use that sentence. Rural self-built houses are printed on Electric 15, Electric 10 Series, the rural diesel pump and the tractor-driven 4100.",
+        "zh": "这一格照已印出的读：产品页没有这句。农村自建房印在电动15、电动10系列、农村柴油泵和拖拉机带动4100上。"
       }
     },
     {
       "question": {
-        "en": "Does the 80 mm pipe apply to every Pinjin pump?",
-        "zh": "80 mm 管是品锦所有泵的管径吗？"
+        "en": "What should stay printed beside “Structure” — Does the 80 mm pipe apply to every Pinjin pump?",
+        "zh": "“结构”旁边仍要印着的是什么：80 mm 管是品锦所有泵的管径吗？"
       },
       "answer": {
-        "en": "No. It is the Electric 20 cell. Other models print their own diameters.",
-        "zh": "不是。它是电动20的格子。其他型号印自己的管径。"
+        "en": "The neighbouring machine is not this sentence. No. It is the Electric 20 cell. Other models print their own diameters.",
+        "zh": "旁边那一台不在这句话里。不是。它是电动20的格子。其他型号印自己的管径。"
       }
     },
     {
       "question": {
-        "en": "Is 8–10 m³/h a promised site output?",
-        "zh": "8–10 m³/h 是工地承诺产量吗？"
+        "en": "“Placement” does not change the check: Is 8–10 m³/h a promised site output?",
+        "zh": "“浇筑”不改这一问：8–10 m³/h 是工地承诺产量吗？"
       },
       "answer": {
-        "en": "No. It is the printed theoretical output.",
-        "zh": "不是。它是已印的理论输送量。"
+        "en": "Read it in the Xingtai table. No. It is the printed theoretical output.",
+        "zh": "按邢台表上的原文理解：不是。它是已印的理论输送量。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/electric-20-building-commercial-placement.webp",
+    "src": "/images/articles/applications/electric-20-building-commercial-placement.png",
     "alt": {
-      "en": "Electric 20 concrete pump manufactured by Hebei Pinjin Machinery in Xingtai for building placement",
-      "zh": "邢台河北品锦机械制造的电动20型混凝土泵，用于建筑浇筑对照"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Tremie",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Tremie"
     }
   },
   "relatedPaths": [
@@ -129,7 +143,12 @@
   "sources": [
     "https://pinjinpump.com/products/electric-20-concrete-pump",
     "https://pinjinpump.com/solutions/construction",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Tremie"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

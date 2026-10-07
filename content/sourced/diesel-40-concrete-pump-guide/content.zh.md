@@ -1,29 +1,26 @@
-## Catalogue Diesel 40 row
+## 名称
 
-Diesel 40 Concrete Pump is a diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm 骨料). 料斗 0.4 m³, Kawasaki 112 hydraulic pump, 4200 × 1600 × 1800 mm, 2800 kg.
+柴油燃料在日常说法里不止一个名字。这些名字指的是液体，不是拖泵型号。把机器叫做“柴油”，只说明驱动烧的是这种燃料。
 
-![Diesel 40 concrete pump factory product photo, 河北品锦机械 邢台](/images/products/diesel-40-concrete-pump/diesel-40-concrete-pump.webp)
-*Diesel 40, 邢台 catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m (1 cm 骨料)*
+我们真正印出的铭牌是柴油40：4108 柴油机、66 kW、26 m³/h、25 MPa，1 cm 骨料时 120 m / 360 m，料斗 0.4 m³，机重 2800 kg。燃料的别名挪不动这些格子。
 
-## Neighbour diesel trailer rows
+![来源页上关于柴油燃料的图](/images/articles/diesel-40-concrete-pump-guide/Essodiesel.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Diesel_fuel*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| Diesel 30 | 4105 / 56 kW | 15 m³/h | 20 MPa | 60 m / 180 m (1 cm 骨料) | 2000 kg |
-| Diesel 40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm 骨料) | 2800 kg |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm 骨料) | 3300 kg |
-| Diesel 60 / HBT60-13.132 | 6105 / 144 kW | 35 m³/h | 30 MPa | 150 m / 350 m | 3500 kg |
+## 沿革
 
-Sites without electricity: [diesel concrete pump for sites without electricity](/blog/diesel-concrete-pump-no-electricity/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+燃料的沿革讲的是这种液体怎样被命名和炼制。它不是这台邢台拖泵的发货记录，也不是我们声称运到过哪些国家的清单。
 
-## When this row fits
+柴油30仍是更小的相邻行：56 kW、15 m³/h。柴油50是 99 kW / 30 m³/h 那一行。它们各自留在自己的页面上。
 
-Sites without stable grid power matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm 骨料) on a 2800 kg trailer.
+## 种类
 
-## When to open another page
+燃料种类按标号和季节区分。这种分类属于油箱里的液体，不是藏在“柴油”两个字里的第二台混凝土泵。
 
-- 15 m³/h / 56 kW → [Diesel 30](/products/diesel-30-concrete-pump/).
-- 30 m³/h / 99 kW → [Diesel 50](/products/diesel-50-concrete-pump/).
-- Grid already present at 21 m³/h electric → [Electric 40](/products/electric-40-concrete-pump/).
-- Not a truck-mounted placing boom and not a 搅拌站.
+柴油40这一页不印季节性燃油标号。这一行旁边已经印出的液压泵名称是 Kawasaki 112。不要为了凑燃料种类再造一台液压泵。
 
-Product page: [Diesel 40 concrete pump](/products/diesel-40-concrete-pump/). 询价: [contact](/contact/).
+## 储存与添加剂
+
+来源页上的储存和添加剂，是对燃料本身的提醒：污染、进水、以及人们往里掺什么。它们不是混凝土配方，也不是易损件更换周期。
+
+浇筑条件对得上已印格子之后，再按产品页询柴油40。这一章不补价格、目的地或案例。

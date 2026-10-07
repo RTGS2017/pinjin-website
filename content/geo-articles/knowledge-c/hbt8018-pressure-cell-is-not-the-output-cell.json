@@ -7,57 +7,37 @@
     "zh": "HBT8018混凝土泵出口压力和输送量"
   },
   "title": {
-    "en": "How HBT8018 Concrete Pump Separates Pressure from Output",
-    "zh": "HBT8018混凝土泵怎样把压力和输送量分成两格"
+    "en": "HBT8018 Concrete Pump outlet pressure versus output — Static pressure graphical presentation throughout a fluid flow system.",
+    "zh": "HBT8018混凝土泵出口压力和输送量——流体系统里静压的图示"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery prints the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa. Output is a volume rate. Pressure is a sep",
-    "zh": "河北品锦机械在邢台把HBT8018混凝土泵的理论输送量印成60 m³/h，把泵送压力印成40 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Pump」的画面主体是射流泵。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+    "en": "HBT8018 Concrete Pump outlet pressure versus output How HBT8018 Concrete Pump Separates Pressure from Output Hebei Pinjin Machinery lists the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa.",
+    "zh": "HBT8018混凝土泵出口压力和输送量\nHBT8018混凝土泵怎样把压力和输送量分成两格\n河北品锦机械在邢台把HBT8018混凝土泵的理论输送量写成60 m³/h，把泵送压力写成40 MPa。"
   },
   "h1": {
-    "en": "How HBT8018 Concrete Pump Separates Pressure from Output",
-    "zh": "HBT8018混凝土泵怎样把压力和输送量分成两格"
+    "en": "HBT8018 Concrete Pump outlet pressure versus output — Static pressure graphical presentation throughout a fluid flow system.",
+    "zh": "HBT8018混凝土泵出口压力和输送量——流体系统里静压的图示"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa. Output is a volume rate. Pressure is a separate cell on the same sheet. The frame titled “Pump” shows Jet pump. That frame does not print these two cells, and another maker's plate is not copied onto this model.",
-    "zh": "河北品锦机械在邢台把HBT8018混凝土泵的理论输送量印成60 m³/h，把泵送压力印成40 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Pump」的画面主体是射流泵。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+    "en": "HBT8018 Concrete Pump outlet pressure versus output How HBT8018 Concrete Pump Separates Pressure from Output Hebei Pinjin Machinery lists the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa.",
+    "zh": "HBT8018混凝土泵出口压力和输送量\nHBT8018混凝土泵怎样把压力和输送量分成两格\n河北品锦机械在邢台把HBT8018混凝土泵的理论输送量写成60 m³/h，把泵送压力写成40 MPa。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The two cells stay apart",
-        "zh": "两格不要并成一个数"
+        "en": "Static pressure graphical presentation throughout a fluid flow system.",
+        "zh": "流体系统里静压的图示"
       },
       "body": {
-        "en": "On the HBT8018 Concrete Pump sheet, Theoretical Output is 60 m³/h and Pumping Pressure is 40 MPa. A piston pump pushes concrete into the line; a squeeze pump flattens a hose from outside. Either way, m³/h is not MPa. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Total Weight 6500 kg.",
-        "zh": "在HBT8018混凝土泵这一页，理论输送量是60 m³/h，泵送压力是40 MPa。活塞泵把混凝土推进管路，挤压泵从外面压扁软管。无论哪一种，立方米每小时都不是兆帕。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。整机重量 6500 kg。"
-      }
-    },
-    {
-      "heading": {
-        "en": "What the frame is allowed to show",
-        "zh": "这一帧可以说明什么"
-      },
-      "body": {
-        "en": "The frame comes from en.wikipedia.org, page “Pump”. Its subject is Jet pump. Hebei Pinjin Machinery does not treat that caption as a nameplate for the HBT8018 Concrete Pump. Stroke length, cycle rate and price are absent from both the caption and this catalogue row.",
-        "zh": "这一帧来自 en.wikipedia.org 的页面「Pump」。画面主体是射流泵。河北品锦机械不把这句说明当成HBT8018混凝土泵的铭牌。行程、冲次和价格在说明文字和这一行目录里都没有。"
-      }
-    },
-    {
-      "heading": {
-        "en": "Blanks that stay blank",
-        "zh": "空着的格子继续空着"
-      },
-      "body": {
-        "en": "The Xingtai row does not print a service interval, a seal torque, an export destination or a job case. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Total Weight 6500 kg. Those printed extras are still not a stroke length.",
-        "zh": "邢台这一行没有印保养小时间隔、密封扭矩、出口国家或工程案例。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。整机重量 6500 kg。这些已印的附加格仍然不是行程。"
+        "en": "https://www.engineeringtoolbox.com/pressure-gradient-diagrams-d_647.html HBT8018 Concrete Pump outlet pressure versus output How HBT8018 Concrete Pump Separates Pressure from Output Hebei Pinjin Machinery lists the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa. Output is a volume rate. Pressure is a sep Pressure is a separate cell on the same sheet. That frame does not list these two cells, and another maker's plate is not copied onto this model. The two cells stay apart On the HBT8018 Concrete Pump sheet, Theoretical Output is 60 m³/h and Pumping Pressure is 40 MPa. A piston pump pushes concrete into the line; a squeeze pump flattens a hose from outside. Either way, m³/h is not MPa. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Total Weight 6500 kg. What the frame is allowed to show Its subject is Jet pump. Hebei Pinjin Machinery does not treat that caption as a nameplate for the HBT8018 Concrete Pump. Stroke length, cycle rate and price are absent from both the caption and this catalogue row. Blanks that stay blank The Xingtai row does not list a service interval, a seal torque, an export destination or a job case. Those listed extras are still not a stroke length. What output does the HBT8018 Concrete Pump sheet list? Theoretical Output is 60 m³/h. What pressure cell is on the same sheet? Pumping Pressure is 40 MPa. The figures are catalogue cells. Is a piston stroke listed? No. The sheet leaves stroke length, cycle rate and price unprinted. Hebei Pinjin Machinery, Xingtai, Hebei, China Jet pump. Subject of the frame for the HBT8018 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "https://www.engineeringtoolbox.com/pressure-gradient-diagrams-d_647.html\nHBT8018混凝土泵出口压力和输送量\nHBT8018混凝土泵怎样把压力和输送量分成两格\n河北品锦机械在邢台把HBT8018混凝土泵的理论输送量写成60 m³/h，把泵送压力写成40 MPa。\n输送量是体积流量。\n压力是同一页上的另一格。\n两格不要并成一个数\n在HBT8018混凝土泵这一页，理论输送量是60 m³/h，泵送压力是40 MPa。\n活塞泵把混凝土推进管路，挤压泵从外面压扁软管。\n无论哪一种，立方米每小时都不是兆帕。\n最大骨料粒径 4 cm and below。\n输送管内径 100 / 125 mm。\n整机重量 6500 kg。\n河北品锦机械不把这句说明当成HBT8018混凝土泵的铭牌。\n行程、冲次和价格在说明文字和这一行目录里都没有。\n空着的格子继续空着\n邢台这一行没有印保养小时间隔、密封扭矩、出口国家或工程案例。\n这些已印的附加格仍然不是行程。\nHBT8018混凝土泵这一页的输送量印多少？\n理论输送量是60 m³/h。\n同一页的压力格是多少？\n泵送压力是40 MPa。\n没有。\n数字在目录格子里。\n写了活塞行程吗？\n这一页没有印行程、冲次和价格。\n河北品锦机械，中国河北邢台\n射流泵。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What output does the HBT8018 Concrete Pump sheet print?",
+        "en": "What output does the HBT8018 Concrete Pump sheet list?",
         "zh": "HBT8018混凝土泵这一页的输送量印多少？"
       },
       "answer": {
@@ -77,18 +57,8 @@
     },
     {
       "question": {
-        "en": "Does the frame print those figures?",
-        "zh": "这一帧印了这些数字吗？"
-      },
-      "answer": {
-        "en": "No. The frame shows its own subject. The figures are catalogue cells.",
-        "zh": "没有。这一帧只显示它自己的主体。数字在目录格子里。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is a piston stroke printed?",
-        "zh": "印了活塞行程吗？"
+        "en": "Is a piston stroke listed?",
+        "zh": "写了活塞行程吗？"
       },
       "answer": {
         "en": "No. The sheet leaves stroke length, cycle rate and price unprinted.",
@@ -97,10 +67,10 @@
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/jet-pump-concrete-pump.webp",
+    "src": "/images/articles/knowledge/hbt8018-pressure-cell-is-not-the-output-cell.png",
     "alt": {
-      "en": "Jet pump. Subject of the frame for the HBT8018 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "射流泵。HBT8018混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/pressure-gradient-diagrams-d_647.html",
+      "zh": "https://www.engineeringtoolbox.com/pressure-gradient-diagrams-d_647.html"
     }
   },
   "relatedPaths": [
@@ -117,7 +87,8 @@
     "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/pressure-gradient-diagrams-d_647.html"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +96,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery prints the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa. Output is a volume rate. Pressure is a separate cell on the same sheet. The frame titled “Pump” shows Jet pump. That frame does not print these two cells, and another maker's plate is not copied onto this model.",
-      "zh": "河北品锦机械在邢台把HBT8018混凝土泵的理论输送量印成60 m³/h，把泵送压力印成40 MPa。输送量是体积流量。压力是同一页上的另一格。标题为「Pump」的画面主体是射流泵。这一帧没有印出这两格，也不会把别的厂家铭牌抄到这个型号上。"
+      "en": "HBT8018 Concrete Pump outlet pressure versus output How HBT8018 Concrete Pump Separates Pressure from Output Hebei Pinjin Machinery lists the HBT8018 Concrete Pump in Xingtai with Theoretical Output 60 m³/h and Pumping Pressure 40 MPa.",
+      "zh": "HBT8018混凝土泵出口压力和输送量\nHBT8018混凝土泵怎样把压力和输送量分成两格\n河北品锦机械在邢台把HBT8018混凝土泵的理论输送量写成60 m³/h，把泵送压力写成40 MPa。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

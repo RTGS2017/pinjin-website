@@ -7,58 +7,38 @@
     "zh": "LZ-80柴油混凝土泵输送距离怎么读"
   },
   "title": {
-    "en": "How LZ-80 Diesel Concrete Pump Orders Its Distance Cells",
-    "zh": "LZ-80柴油混凝土泵的距离格子按什么顺序印"
+    "en": "how to read LZ-80 Diesel Concrete Pump pumping distance — Calculate minor pressure loss in piping systems with the Equivalent Pipe Length Method.",
+    "zh": "LZ-80柴油混凝土泵输送距离怎么读——用当量管长法计算管路的局部压力损失"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery prints the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m. Delivery Height is Consult factory standard",
-    "zh": "河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字印成：输送距离是120 m。 输送高度是Consult factory standard。每一条标题只带它自己的数字。同一页如果同时有水平和垂直，两者不能对调；没有印出的垂直格也不能用别的型号去填。画面「Diesel engine」的主体是Experimental 柴油机，不能代替这些格"
+    "en": "how to read LZ-80 Diesel Concrete Pump pumping distance How LZ-80 Diesel Concrete Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m.",
+    "zh": "LZ-80柴油混凝土泵输送距离怎么读\nLZ-80柴油混凝土泵的距离格子按什么顺序印\n河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字写成：输送距离是120 m。"
   },
   "h1": {
-    "en": "How LZ-80 Diesel Concrete Pump Orders Its Distance Cells",
-    "zh": "LZ-80柴油混凝土泵的距离格子按什么顺序印"
+    "en": "how to read LZ-80 Diesel Concrete Pump pumping distance — Calculate minor pressure loss in piping systems with the Equivalent Pipe Length Method.",
+    "zh": "LZ-80柴油混凝土泵输送距离怎么读——用当量管长法计算管路的局部压力损失"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m. Delivery Height is Consult factory standard. Read each label with its own figure. Horizontal and vertical are not interchangeable when both appear, and a missing vertical cell is not filled from another model. The frame “Diesel engine” shows Experimental Diesel Engine and does not replace these cells.",
-    "zh": "河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字印成：输送距离是120 m。 输送高度是Consult factory standard。每一条标题只带它自己的数字。同一页如果同时有水平和垂直，两者不能对调；没有印出的垂直格也不能用别的型号去填。画面「Diesel engine」的主体是Experimental 柴油机，不能代替这些格子。"
+    "en": "how to read LZ-80 Diesel Concrete Pump pumping distance How LZ-80 Diesel Concrete Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m.",
+    "zh": "LZ-80柴油混凝土泵输送距离怎么读\nLZ-80柴油混凝土泵的距离格子按什么顺序印\n河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字写成：输送距离是120 m。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Each distance label owns its figure",
-        "zh": "每条距离标题只拥有自己的数字"
+        "en": "Calculate minor pressure loss in piping systems with the Equivalent Pipe Length Method.",
+        "zh": "用当量管长法计算管路的局部压力损失"
       },
       "body": {
-        "en": "Conveying Distance is 120 m. Delivery Height is Consult factory standard. A pipeline loses pressure to friction, so a horizontal run and a vertical rise are different duties. The sheet already separates them when it prints both. Hopper Capacity 0.6 m³. Max. Aggregate Size 6 cm and below. Hydraulic Pump Kawasaki double 140.",
-        "zh": "输送距离是120 m。 输送高度是Consult factory standard。管路沿程要克服摩擦，水平段和垂直升高不是同一项工作。目录在同时印出两者时已经把它们分开。料斗容积 0.6 m³。最大骨料粒径 6 cm and below。液压泵 Kawasaki double 140。"
-      }
-    },
-    {
-      "heading": {
-        "en": "The frame is not a measuring tape",
-        "zh": "这一帧不是卷尺"
-      },
-      "body": {
-        "en": "Source page: en.wikipedia.org, “Diesel engine”. Subject: Experimental Diesel Engine. Hebei Pinjin Machinery does not read a metre figure off that frame. If a distance cell is missing on the LZ-80 Diesel Concrete Pump sheet, it stays missing.",
-        "zh": "来源页：en.wikipedia.org，「Diesel engine」。主体：Experimental 柴油机。河北品锦机械不从这一帧上读米数。LZ-80柴油混凝土泵这一页如果少了某一距离格，就让它继续空着。"
-      }
-    },
-    {
-      "heading": {
-        "en": "Output is not the distance",
-        "zh": "输送量不是距离"
-      },
-      "body": {
-        "en": "Theoretical Output is High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h and Pumping Pressure is High pressure ≤ 35 MPa; low pressure ≤ 22 MPa. Neither cell is a metre. Do not paste another manufacturer's boom length onto LZ-80 Diesel Concrete Pump.",
-        "zh": "理论输送量是High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h，泵送压力是High pressure ≤ 35 MPa; low pressure ≤ 22 MPa。这两格都不是米。不要把别的厂家臂长贴到LZ-80柴油混凝土泵上。"
+        "en": "https://www.engineeringtoolbox.com/equivalent-pipe-length-method-d_804.html how to read LZ-80 Diesel Concrete Pump pumping distance How LZ-80 Diesel Concrete Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m. Delivery Height is Consult factory standard Delivery Height is Consult factory standard. Read each label with its own figure. Horizontal and vertical are not interchangeable when both appear, and a missing vertical cell is not filled from another model. The frame “Diesel engine” shows Experimental Diesel Engine and does not replace these cells. Each distance label owns its figure Conveying Distance is 120 m. A pipeline loses pressure to friction, so a horizontal run and a vertical rise are different duties. The sheet already separates them when it lists both. Hopper Capacity 0.6 m³. Max. Aggregate Size 6 cm and below. Hydraulic Pump Kawasaki double 140. The frame is not a measuring tape Subject: Experimental Diesel Engine. Hebei Pinjin Machinery does not read a metre figure off that frame. If a distance cell is missing on the LZ-80 Diesel Concrete Pump sheet, it stays missing. Output is not the distance Theoretical Output is High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h and Pumping Pressure is High pressure ≤ 35 MPa; low pressure ≤ 22 MPa. Neither cell is a metre. Do not paste another manufacturer's boom length onto LZ-80 Diesel Concrete Pump. Which distance text does LZ-80 Diesel Concrete Pump list? Can horizontal and vertical be swapped? Only when the label itself puts them in that order. Keep the listed order. No. Metres come from the catalogue cells that exist. Where is output listed? Theoretical Output is High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h. Hebei Pinjin Machinery, Xingtai, Hebei, China Experimental Diesel Engine. Subject of the frame for the LZ-80 Diesel Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "https://www.engineeringtoolbox.com/equivalent-pipe-length-method-d_804.html\nLZ-80柴油混凝土泵输送距离怎么读\nLZ-80柴油混凝土泵的距离格子按什么顺序印\n河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字写成：输送距离是120 m。\n输送高度是Consult factory standard。\n每一条标题只带它自己的数字。\n同一页如果同时有水平和垂直，两者不能对调；没有写出的垂直格也不能用别的型号去填。\n画面「Diesel engine」的主体是Experimental 柴油机，不能代替这些格\n画面「Diesel engine」的主体是Experimental 柴油机，不能代替这些格子。\n每条距离标题只拥有自己的数字\n输送距离是120 m。\n管路沿程要克服摩擦，水平段和垂直升高不是同一项工作。\n目录在同时写出两者时已经把它们分开。\n料斗容积 0.6 m³。\n最大骨料粒径 6 cm and below。\n液压泵 Kawasaki double 140。\n主体：Experimental 柴油机。\nLZ-80柴油混凝土泵这一页如果少了某一距离格，就让它继续空着。\n输送量不是距离\n理论输送量是High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h，泵送压力是High pressure ≤ 35 MPa; low pressure ≤ 22 MPa。\n这两格都不是米。\n不要把别的厂家臂长贴到LZ-80柴油混凝土泵上。\nLZ-80柴油混凝土泵写了哪几句距离？\n水平和垂直可以对调吗？\n只有标题本身写成那个顺序时才按那个顺序。\n保留写出来的次序。\n不会。\n米数只来自已经写出的目录格。\n输送量印在哪里？\n理论输送量是High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h。\n河北品锦机械，中国河北邢台\nExperimental 柴油机。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which distance text does LZ-80 Diesel Concrete Pump print?",
-        "zh": "LZ-80柴油混凝土泵印了哪几句距离？"
+        "en": "Which distance text does LZ-80 Diesel Concrete Pump list?",
+        "zh": "LZ-80柴油混凝土泵写了哪几句距离？"
       },
       "answer": {
         "en": "Conveying Distance is 120 m. Delivery Height is Consult factory standard.",
@@ -71,23 +51,13 @@
         "zh": "水平和垂直可以对调吗？"
       },
       "answer": {
-        "en": "Only when the label itself puts them in that order. Keep the printed order.",
-        "zh": "只有标题本身写成那个顺序时才按那个顺序。保留印出来的次序。"
+        "en": "Only when the label itself puts them in that order. Keep the listed order.",
+        "zh": "只有标题本身写成那个顺序时才按那个顺序。保留写出来的次序。"
       }
     },
     {
       "question": {
-        "en": "Does the frame add metres?",
-        "zh": "这一帧会补上米数吗？"
-      },
-      "answer": {
-        "en": "No. Metres come from the catalogue cells that exist.",
-        "zh": "不会。米数只来自已经印出的目录格。"
-      }
-    },
-    {
-      "question": {
-        "en": "Where is output printed?",
+        "en": "Where is output listed?",
         "zh": "输送量印在哪里？"
       },
       "answer": {
@@ -97,10 +67,10 @@
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/experimental-diesel-engine.webp",
+    "src": "/images/articles/knowledge/lz-80-diesel-how-the-distance-cells-are-ordered.png",
     "alt": {
-      "en": "Experimental Diesel Engine. Subject of the frame for the LZ-80 Diesel Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "Experimental 柴油机。LZ-80柴油混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/equivalent-pipe-length-method-d_804.html",
+      "zh": "https://www.engineeringtoolbox.com/equivalent-pipe-length-method-d_804.html"
     }
   },
   "relatedPaths": [
@@ -117,7 +87,8 @@
     "https://pinjinpump.com/en/products/lz-80-diesel-concrete-pump/",
     "https://pinjinpump.com/zh/products/lz-80-diesel-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/equivalent-pipe-length-method-d_804.html"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +96,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery prints the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m. Delivery Height is Consult factory standard. Read each label with its own figure. Horizontal and vertical are not interchangeable when both appear, and a missing vertical cell is not filled from another model. The frame “Diesel engine” shows Experimental Diesel Engine and does not replace these cells.",
-      "zh": "河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字印成：输送距离是120 m。 输送高度是Consult factory standard。每一条标题只带它自己的数字。同一页如果同时有水平和垂直，两者不能对调；没有印出的垂直格也不能用别的型号去填。画面「Diesel engine」的主体是Experimental 柴油机，不能代替这些格子。"
+      "en": "how to read LZ-80 Diesel Concrete Pump pumping distance How LZ-80 Diesel Concrete Pump Orders Its Distance Cells Hebei Pinjin Machinery lists the LZ-80 Diesel Concrete Pump distance text in Xingtai as follows: Conveying Distance is 120 m.",
+      "zh": "LZ-80柴油混凝土泵输送距离怎么读\nLZ-80柴油混凝土泵的距离格子按什么顺序印\n河北品锦机械在邢台把LZ-80柴油混凝土泵的距离文字写成：输送距离是120 m。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

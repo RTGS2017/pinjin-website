@@ -1,29 +1,26 @@
-## Catalogue Diesel 60 row
+## Use of several turbochargers
 
-Diesel 60 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 6105 diesel 144 kW, 35 m³/h, 30 MPa, 150 m / 350 m, model HBT60-13.132. Hopper 0.4 m³, Kawasaki double pump 100, 4800 × 1700 × 1700 mm, 3500 kg.
+Some engines mount more than one turbocharger so boost arrives in stages. Diesel 60 does not print a turbo count. It prints one 6105 diesel at 144 kW, 35 m³/h, 30 MPa and 150 m / 350 m.
 
-![Diesel 60 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/diesel-60-concrete-pump/diesel-60-concrete-pump.webp)
-*Diesel 60, Xingtai catalogue — HBT60-13.132, 144 kW, 35 m³/h, 150 m / 350 m*
+Two engines on one trailer are a different row: Diesel 120, twin 145 kW diesels, 100 m³/h. Do not read “several turbochargers” as that twin-engine machine.
 
-## Neighbour diesel rows — do not merge model strings
+![Figure from the source page about turbochargers](/images/articles/diesel-60-concrete-pump-guide/Turbosuperchargers.png)
+*Image from the source page: https://en.wikipedia.org/wiki/Turbocharger*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm aggregate) | 3300 kg |
-| Diesel 60 / HBT60-13.132 | 6105 / 144 kW | 35 m³/h | 30 MPa | 150 m / 350 m | 3500 kg |
-| LZ-60 / HBT60-13.132 | 6105 / 145 kW | 50 m³/h | 35 MPa | 100 m / 300 m | 5500 kg |
-| LZ-80 | Yuchai 256 kW | high pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h | ≤ 35 / 22 MPa | 120 m conveying | 6800 kg |
+## Comparison with supercharging
 
-The LZ-60 page reprints the HBT60-13.132 string with different kW, output, pressure, distance and weight. Read each product page. Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+A supercharger is driven from the crankshaft. A turbocharger is driven by exhaust. The source page compares those drives. Diesel 60 does not print which one is fitted.
 
-## When this row fits
+The hydraulic name already on this row is Kawasaki double pump 100, and the frame is 4800 × 1700 × 1700 mm at 3500 kg. Those cells are not a supercharger part number.
 
-Sites without stable grid matching 35 m³/h, 30 MPa and 150 m / 350 m on the Diesel 60 table.
+## Applications
 
-## When to open another page
+The applications chapter surveys where turbochargers are used. A survey is not a list of export countries and not a Pinjin jobsite case.
 
-- 30 m³/h / 99 kW → [Diesel 50](/products/diesel-50-concrete-pump/).
-- 50 m³/h / 145 kW LZ-60 table → [LZ-60](/products/lz-60-diesel-concrete-pump/).
-- Dual-mode ≤ 65 / ≤ 95 m³/h → [LZ-80](/products/lz-80-diesel-concrete-pump/).
-- Not a truck-mounted placing boom and not a mixing plant.
+Ask with the printed window: 144 kW, 35 m³/h, 30 MPa, hopper 0.4 m³, 150 m / 350 m. If that window is short, open Diesel 120 rather than stretching this chapter.
 
-Product page: [Diesel 60 concrete pump](/products/diesel-60-concrete-pump/). Inquiry: [contact](/contact/).
+## Safety
+
+Turbocharger safety on the source page is about a hot housing and a shaft that stores energy while it spins. That is an engine warning. It is not permission to open a concrete pipeline that is still under pressure.
+
+This page still adds no price, no export country and no case. The printed mass is 3500 kg. Stop there.

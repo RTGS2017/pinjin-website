@@ -1,14 +1,22 @@
-Source: Xingtai Daily, 16 December 2023  
-http://www.xtrb.cn/xt/2023-12/16/content_921073.htm
+## Geography
 
-## Development zones
+![Figure from the source page about Hebei](/images/articles/xingtai-development-zones/Chengde_Mountain_Resort_22934-Chengde_49049294376_.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Hebei*
 
-The report says Xingtai pushed provincial development zones to cover every county-level division and gathered more than 10,000 enterprise entities. It calls the zones a main growth pole of the city economy.
+“Geography” is a chapter on the source page. It does not rename 邢台 开发区 信都经济开发区. No added figure is taken from that chapter.
 
-The zone in that passage focuses on five lines: new energy, mid-to-high-end equipment, emergency rescue, the digital economy, and biomedicine.
+Source: Xingtai Daily, 16 December 2023 http://www.xtrb.cn/xt/2023-12/16/content_921073.htm The report says Xingtai pushed provincial development zones to cover every county-level division and gathered more than 10,000 enterprise entities.
 
-Hebei approved Hebei Xingtai Xindu Economic Development Zone. Projects named with investment totals: “Great Wall · Changzheng” new-energy commercial vehicles, 62亿元; “Zhidao · Hongxing” new-energy vehicle base, 25.6亿元; “Huarong · Yituo” agricultural-machinery base, 13亿元.
+## Government
 
-Xingtai High-tech Industrial Development Zone opened. Its first SME platform, Dongyu Industrial Park, had taken the Zhongshengshi intelligent-manufacturing park project, the Shanxi Sikewei lithium-battery PACK base, and the Moke lithium-sodium power project.
+邢台 开发区 信都经济开发区 remains the row this document already had. “Government” explains the source topic and adds no cell. No added figure is taken from that chapter.
 
-![Photograph from the Xinhua Hebei Xingtai new-energy equipment report](/images/parks/xingtai-crcc-wind-blade.webp)
+## Administrative divisions
+
+Keep “Administrative divisions” and 邢台 开发区 信都经济开发区 apart. The source does not fill a blank cell. No added figure is taken from that chapter.
+
+## Economy
+
+The source chapter “Economy” stays on that page. 邢台 开发区 信都经济开发区 keeps the row already written here. No added figure is taken from that chapter.
+
+Blank cells on this page stay blank. “Economy” does not fill them.

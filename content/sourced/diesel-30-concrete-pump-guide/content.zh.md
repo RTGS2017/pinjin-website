@@ -1,29 +1,26 @@
-## Catalogue Diesel 30 row
+## 引言
 
-Diesel 30 Concrete Pump is a diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台, Hebei, China. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm 骨料). 料斗 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, 骨料 3 cm and below.
+柴油机的引言把它写成压缩着火的机器：活塞把空气压热，然后再喷油。所以这台拖泵被写成柴油而不是电动。引言本身不新造产量，也不新造价格。
 
-![Diesel 30 concrete pump factory product photo, 河北品锦机械 邢台](/images/products/diesel-30-concrete-pump/diesel-30-concrete-pump.webp)
-*Diesel 30, 邢台 catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m (1 cm 骨料)*
+河北品锦机械在邢台已经印出柴油30这一行：4105 柴油机、56 kW、15 m³/h、20 MPa，骨料注明 1 cm 时距离是 60 m / 180 m。本页不补缸径、行程、油耗、出口国或工地案例。
 
-## Neighbour diesel trailer rows
+![来源页上关于柴油机的图](/images/articles/diesel-30-concrete-pump-guide/Neckarsulm-AudiForum-Audi-R10-TDI.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Diesel_engine*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| Diesel 30 | 4105 / 56 kW | 15 m³/h | 20 MPa | 60 m / 180 m (1 cm 骨料) | 2000 kg |
-| Diesel 40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm 骨料) | 2800 kg |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm 骨料) | 3300 kg |
-| Rural diesel | see 产品页 | 5–8 m³/h | see 产品页 | see 产品页 | see 产品页 |
+## 沿革
 
-SmartBuy: diesel is more practical on remote sites when grid or a large generator is missing; electric needs a stable supply. Sites without electricity: [diesel without grid](/blog/diesel-concrete-pump-no-electricity/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+来源页的沿革把压缩着火试验写到后来的生产型发动机。这条时间线不是发货日期，也不是这家工厂的客户案例。
 
-## When this row fits
+本站已经印出的相邻行是柴油40：4108 / 66 kW、26 m³/h。那是另一行，不是柴油30的历史升级。格子以各自产品页为准。
 
-Sites without stable grid power. Rural and infrastructure placement matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm 骨料) on a 2000 kg trailer.
+## 工作原理
 
-## When to open another page
+这里的工作原理是：燃料燃烧是因为空气被压缩，不是因为火花塞点火。放到混凝土泵上，它只说明驱动方式，不算管路压力。
 
-- 26 m³/h / 66 kW → [Diesel 40](/products/diesel-40-concrete-pump/).
-- 5–8 m³/h rural diesel row → [rural diesel concrete pump](/products/rural-diesel-concrete-pump/).
-- Grid already on site → compare the [electric hub](/products/electric-concrete-pumps/).
-- Not a truck-mounted placing boom, not a 搅拌站, not the [diesel spraying machine](/products/diesel-concrete-spraying-machine/).
+20 MPa 的出口格子和 60 m / 180 m 这一对，仍是 1 cm 骨料下已经印出的数字。不要把原理写成公式去填空白格子。
 
-Product page: [Diesel 30 concrete pump](/products/diesel-30-concrete-pump/). 询价: [contact](/contact/).
+## 分类
+
+发动机会按循环、转速和进气方式分类。这些类别不是拖泵表上的型号名。柴油30只是印出的一行。
+
+它不是电动30，也不是已经印成 5–8 m³/h 的农用柴油行。现场没有稳定电网时，留在和已印窗口相符的柴油行。电网已经有了，就去看电动系列，不要把这台发动机改分类。

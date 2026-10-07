@@ -3,100 +3,110 @@
   "category": "buying",
   "keyword": "customize a concrete pump after a listed model",
   "title": {
-    "en": "Ask for Custom Work Only After a Listed Xingtai Model Is Confirmed",
-    "zh": "先确认邢台已列机型，再谈定制"
+    "en": "Hydraulic Pump Power: customize a concrete pump after a listed model keeps It does not create a fifth “40” page",
+    "zh": "液压泵功率：先确认邢台已列机型，再谈定制保留「它不会生成第五张“40”页。」"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai can discuss customized production after a listed model is confirmed. The site does not publish a fixed number of production days, and the change is not a new unlisted pump.",
-    "zh": "河北品锦机械在邢台可以在确认已列机型之后讨论定制生产。本站不公布固定生产天数，改动也不是一台目录外的新泵。"
+    "en": "customize a concrete pump after a listed model at /products/electric-40-concrete-pump. It does not create a fifth “40” page An inquiry that says “a pump like Electric 40 but with unnamed changes” needs the Electric 40 path plus a list of wh",
+    "zh": "先确认邢台已列机型，再谈定制见 /products/electric-40-concrete-pump。它不会生成第五张“40”页。一封写着“类似电动40、但改动未点名”的询盘，需要电动40的路径，加上你要讨论的已印格子。"
   },
   "h1": {
-    "en": "Custom Production Starts from a Page That Already Exists",
-    "zh": "定制生产从已经存在的页面开始"
+    "en": "Keep customize a concrete pump after a listed model under “Example - Power pumping Water, SI Units” without new ratings",
+    "zh": "在「示例 - 功率 泵送 水, 国际单位制」下保留先确认邢台已列机型，再谈定制，不另写额定值"
   },
   "directAnswer": {
-    "en": "The custom-machinery page at Hebei Pinjin Machinery in Xingtai says to customize catalogue electric pumps, diesel pumps and mixer pumps after confirming specifications with the factory. The category wording is the same: after a listed model is confirmed, customized production can be arranged, and no fixed production-day count is published. An inquiry that says “a pump like Electric 40 but with unnamed changes” needs the Electric 40 path plus a list of which printed cells you want to discuss. It does not create a fifth “40” page.",
-    "zh": "河北品锦机械（邢台）的定制机械页写明：与工厂确认规格后，可对目录中的电动泵、柴油泵和搅拌泵做定制。分类口径相同：对照已列机型确认后可安排定制生产，并且不公布固定生产天数。一封写着“类似电动40、但改动未点名”的询盘，需要电动40的路径，加上你要讨论的已印格子。它不会生成第五张“40”页。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for customize a concrete pump after a listed model. The row to open is /products/electric-40-concrete-pump. It does not create a fifth “40” page. An inquiry that says “a pump like Electric 40 but with unnamed changes” needs the Electric 40 path plus a list of which printed cells you want to discuss. The section title “Hydraulic Pump Power” comes from the source page and does not add a rating.",
+    "zh": "河北品锦机械在邢台印出的是先确认邢台已列机型，再谈定制的数字。要打开的行是 /products/electric-40-concrete-pump。它不会生成第五张“40”页。一封写着“类似电动40、但改动未点名”的询盘，需要电动40的路径，加上你要讨论的已印格子。节标题「液压泵功率」来自来源页，不另加额定值。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Which families can be the base",
-        "zh": "哪些系列可以作为底"
+        "en": "Hydraulic Pump Power",
+        "zh": "液压泵功率"
       },
       "body": {
-        "en": "The published custom line names electric pumps, diesel pumps and mixer pumps. Open [/en/products/custom-machinery/](/en/products/custom-machinery/) and the model page together. A truck boom or a mixing plant is not available as the base, because those machines are not catalogue products.",
-        "zh": "已公布的定制范围点名电动泵、柴油泵和搅拌泵。请同时打开 [/zh/products/custom-machinery/](/zh/products/custom-machinery/) 和型号页。车载臂架或搅拌站不能当底，因为那些机器不是目录产品。"
+        "en": "Under “Hydraulic Pump Power”, customize a concrete pump after a listed model contributes only the printed cells in this part. It does not create a fifth “40” page.",
+        "zh": "在「液压泵功率」下，先确认邢台已列机型，再谈定制这一节只放已印出的格子。一封写着“类似电动40、但改动未点名”的询盘，需要电动40的路径，加上你要讨论的已印格子。"
       }
     },
     {
       "heading": {
-        "en": "What the note must contain",
-        "zh": "说明里必须有什么"
+        "en": "Example - Power pumping Water, SI Units",
+        "zh": "示例 - 功率 泵送 水, 国际单位制"
       },
       "body": {
-        "en": "The base slug, the printed cell you are asking to discuss, and the site facts (stone, distances, power). Do not send only the word “OEM”.",
-        "zh": "底型号地址、你要讨论的已印格子，以及现场事实（石子、距离、动力）。不要只发“OEM”两个字。"
+        "en": "“Example - Power pumping Water, SI Units” titles this part of the customize a concrete pump after a listed model note. The figures stay the printed ones. An inquiry that says “a pump like Electric 40 but with unnamed changes” needs the Electric 40 path plus a list of which printed cells you want to discuss.",
+        "zh": "「示例 - 功率 泵送 水, 国际单位制」是先确认邢台已列机型，再谈定制这一节的标题。数字仍以已印的为准。它不会生成第五张“40”页。"
       }
     },
     {
       "heading": {
-        "en": "Price and days",
-        "zh": "价格和天数"
+        "en": "Example - Power pumping Water, Imperial Units",
+        "zh": "示例 - 功率 泵送 水, 英制单位"
       },
       "body": {
-        "en": "Both stay off the public page. Ask [/en/contact/](/en/contact/). Hebei Pinjin Machinery does not print an OEM price list.",
-        "zh": "两者都不在公开页面上。请询问 [/zh/contact/](/zh/contact/)。河北品锦机械不印 OEM 价目。"
+        "en": "For customize a concrete pump after a listed model, the heading “Example - Power pumping Water, Imperial Units” does not replace a cell.",
+        "zh": "对先确认邢台已列机型，再谈定制而言，标题「示例 - 功率 泵送 水, 英制单位」并不替换任何格子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Shaft Pump Power",
+        "zh": "泵的轴功率"
+      },
+      "body": {
+        "en": "customize a concrete pump after a listed model is unchanged by the heading “Shaft Pump Power”. The photograph is an image from the source page https://www.engineeringtoolbox.com/pumps-power-d_505.html.",
+        "zh": "先确认邢台已列机型，再谈定制不因标题「泵的轴功率」而改动。配图来自来源页 https://www.engineeringtoolbox.com/pumps-power-d_505.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Can specifications be customized?",
-        "zh": "规格能否定制？"
+        "en": "Does “Hydraulic Pump Power” replace It does not create a fifth “40” page?",
+        "zh": "「液压泵功率」会替换「它不会生成第五张“40”页。」吗？"
       },
       "answer": {
-        "en": "Yes, after a listed model is confirmed. That is the published sentence.",
-        "zh": "可以，在确认已列机型之后。这是已公布的句子。"
+        "en": "No. It does not create a fifth “40” page remains the printed wording for customize a concrete pump after a listed model.",
+        "zh": "不会。它不会生成第五张“40”页。仍是先确认邢台已列机型，再谈定制已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Will the site show the new specification before I ask?",
-        "zh": "询问之前网站会显示新规格吗？"
+        "en": "Where does An inquiry that says “a pump like Electric 40 but with unnamed changes” needs the Electric 40 path plus a list of which printed cells you want to discuss belong on the customize a concrete pump after a listed model row?",
+        "zh": "先确认邢台已列机型，再谈定制这一行里，「一封写着“类似电动40、但改动未点名”的询盘，需要电动40的路径，加上你要讨论的已印格子。」放在哪里？"
       },
       "answer": {
-        "en": "No. Unprinted cells stay blank.",
-        "zh": "不会。未印的格子保持空白。"
+        "en": "It belongs on /products/electric-40-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-40-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Is every change accepted?",
-        "zh": "每一项改动都会接受吗？"
+        "en": "What does “Example - Power pumping Water, SI Units” add to customize a concrete pump after a listed model?",
+        "zh": "「示例 - 功率 泵送 水, 国际单位制」给先确认邢台已列机型，再谈定制增加了什么？"
       },
       "answer": {
-        "en": "The factory confirms that. This page only says the discussion starts from a listed model.",
-        "zh": "由工厂确认。本篇只说明讨论从已列机型开始。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/pumps-power-d_505.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/pumps-power-d_505.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Does custom include a boom pump?",
-        "zh": "定制包括臂架泵吗？"
+        "en": "Which path names the customize a concrete pump after a listed model row?",
+        "zh": "哪条路径对应先确认邢台已列机型，再谈定制这一行？"
       },
       "answer": {
-        "en": "No. Boom pumps are not catalogue products.",
-        "zh": "不包括。臂架泵不是目录产品。"
+        "en": "/products/electric-40-concrete-pump",
+        "zh": "/products/electric-40-concrete-pump"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-xingtai-pump-manufacturing-custom-manufacturer.webp",
+    "src": "/images/articles/buying/buy-custom-only-after-a-listed-model-2dbdc902.png",
     "alt": {
-      "en": "Concrete pump manufacturing at Hebei Pinjin Machinery, a Xingtai manufacturer",
-      "zh": "河北品锦机械厂家的混凝土泵制造现场，邢台"
+      "en": "Pump Power Calculator: Calculate Hydraulic and Shaft Power for Pumps. Image from the source page: https://www.engineeringtoolbox.com/pumps-power-d_505.html.",
+      "zh": "Pump Power Calculator: Calculate Hydraulic and Shaft Power for Pumps。图来自来源页：https://www.engineeringtoolbox.com/pumps-power-d_505.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +135,8 @@
     "https://pinjinpump.com/en/products/mixer-pumps/",
     "https://pinjinpump.com/zh/products/mixer-pumps/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/pumps-power-d_505.html"
   ],
   "status": "ready"
 }

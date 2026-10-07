@@ -1,7 +1,7 @@
 {
-  "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows",
-  "seoTitle": "HBT8018 vs HBT80-16 | Pinjin 132 kW vs 110 kW",
-  "description": "HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. HBT80-16 lists HBT80-1816-110, 110 kW, 50 m³/h, 40 MPa, 120 m / 360 m, 6500 kg. Electric 80 reprints HBT80-1816-110 with 60 m³/h and 900 m / 300 m — a third page. Match each printed table.",
+  "title": "Pump — Specifications / Pumping power / Efficiency / Minimum flow protection",
+  "seoTitle": "Pump — Specifications",
+  "description": "HBT8018 vs HBT80-16 concrete pump remains the row this document already had. “Specifications” explains the source topic and adds no cell. Printed cells already on this page: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
   "primaryKeyword": "HBT8018 vs HBT80-16 concrete pump",
   "secondaryKeywords": [
     "HBT8018-132S concrete pump",
@@ -44,13 +44,15 @@
     }
   ],
   "answerBlock": {
-    "what": "HBT8018 and HBT80-16 are two HBT-series trailer concrete pumps manufactured by Hebei Pinjin Machinery in Xingtai. HBT8018 / HBT8018-132S: 132 kW, 60 m³/h, 40 MPa, 150 m conveying, 450 m delivery height, aggregate 4 cm, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm, 6500 kg. HBT80-16 / HBT80-1816-110: 110 kW, 50 m³/h, 40 MPa, 120 m conveying, 360 m delivery height, 6600 × 1750 × 1800 mm, 6500 kg. Electric 80 uses the same HBT80-1816-110 string with 60 m³/h and 900 m / 300 m (2 cm aggregate), 6000 kg. Do not merge the three tables.",
-    "who": "Buyers comparing Xingtai HBT trailer rows at 50–60 m³/h / 40 MPa who can supply 110 kW or 132 kW.",
+    "what": "HBT8018 vs HBT80-16 concrete pump remains the row this document already had. “Specifications” explains the source topic and adds no cell. Printed cells already on this page: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+    "who": "Readers checking HBT8018 vs HBT80-16 concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "132 kW / 60 m³/h / 150 m / 450 m (HBT8018) versus 110 kW / 50 m³/h / 120 m / 360 m (HBT80-16)",
-      "Shared 6500 kg on both HBT pages versus Electric 80 at 6000 kg",
-      "Model string HBT80-1816-110 appears on HBT80-16 and Electric 80 with different output and distance",
-      "Both HBT pages list aggregate 4 cm and pipe 100 / 125 mm"
+      "6700 × 1750 × 1800 mm",
+      "6600 × 1750 × 1800 mm",
+      "132 kW",
+      "60 m³/h",
+      "40 MPa",
+      "4 cm"
     ],
     "relatedModels": [
       "hbt8018-concrete-pump",
@@ -60,20 +62,25 @@
   },
   "faqs": [
     {
-      "question": "Is HBT80-16 the same SKU as Electric 80 because both print HBT80-1816-110?",
-      "answer": "No. HBT80-16 lists 50 m³/h, 120 m / 360 m, 6500 kg, aggregate 4 cm. Electric 80 lists 60 m³/h, 900 m / 300 m (2 cm aggregate), hopper 0.7 m³, 6000 kg. Open the page whose table matches the inquiry."
+      "question": "Does “Specifications” add a cell to HBT8018 vs HBT80-16 concrete pump?",
+      "answer": "No. HBT8018 Concrete Pump and HBT80-16 Concrete Pump are HBT-series trailer concrete pumps manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Does HBT8018’s 150 m conveying equal Electric 80’s 900 m horizontal?",
-      "answer": "No. HBT8018 prints 150 m conveying and 450 m delivery height. Electric 80 prints 900 m / 300 m at 2 cm aggregate. Marketplace HBT model names (for example SmartBuy’s Zoomlion HBT60.16.110RS row) are other brands, not Xingtai cells."
+      "question": "Can “Pumping power” fill a blank cell for HBT8018 vs HBT80-16 concrete pump?",
+      "answer": "No. Blank cells for HBT8018 vs HBT80-16 concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/hbt8018-concrete-pump/hbt8018-concrete-pump.webp",
-    "alt": "HBT8018 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "HBT8018 trailer pump, Xingtai catalogue — HBT8018-132S, 132 kW, 60 m³/h"
+    "src": "/images/articles/hbt8018-vs-hbt80-16-concrete-pump/Lobbenpomp.gif",
+    "alt": "Figure from the source page about Pump",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Pump"
   },
   "sources": [
+    {
+      "name": "Pump (source page)",
+      "url": "https://en.wikipedia.org/wiki/Pump",
+      "type": "industry"
+    },
     {
       "name": "Pinjin HBT8018 product page",
       "url": "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
@@ -106,11 +113,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows",
-      "seoTitle": "HBT8018 vs HBT80-16 | Pinjin 132 kW vs 110 kW",
-      "description": "HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. HBT80-16 lists HBT80-1816-110, 110 kW, 50 m³/h, 40 MPa, 120 m / 360 m, 6500 kg. Electric 80 reprints HBT80-1816-110 with 60 m³/h and 900 m / 300 m — a third page. Match each printed table.",
-      "imageAlt": "HBT8018 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "HBT8018 拖式泵, 邢台 catalogue — HBT8018-132S, 132 kW, 60 m³/h",
+      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows：Pump（Specifications / Pumping power / Efficiency / Minimum flow protection）",
+      "seoTitle": "Pump：Specifications",
+      "description": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows还是本文原有的那一行。「Specifications」讲的是来源页的题目，不另加单元格。本页已经印出的读数：6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg。",
+      "imageAlt": "来源页插图：Pump",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Pump",
       "relatedPathLabels": [
         "HBT8018 concrete pump 产品页",
         "HBT80-16 concrete pump 产品页",
@@ -118,32 +125,34 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "HBT8018 and HBT80-16 are two HBT-series 拖式混凝土泵s manufactured by 河北品锦机械 in 邢台. HBT8018 / HBT8018-132S: 132 kW, 60 m³/h, 40 MPa, 150 m conveying, 450 m delivery height, 骨料 4 cm, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm, 6500 kg. HBT80-16 / HBT80-1816-110: 110 kW, 50 m³/h, 40 MPa, 120 m conveying, 360 m delivery height, 6600 × 1750 × 1800 mm, 6500 kg. Electric 80 uses the same HBT80-1816-110 string with 60 m³/h and 900 m / 300 m (2 cm 骨料), 6000 kg. Do not merge the three tables.",
-        "who": "Buyers comparing 邢台 HBT trailer rows at 50–60 m³/h / 40 MPa who can supply 110 kW or 132 kW.",
+        "what": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows还是本文原有的那一行。「Specifications」讲的是来源页的题目，不另加单元格。本页已经印出的读数：6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg。",
+        "who": "想把HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "132 kW / 60 m³/h / 150 m / 450 m (HBT8018) versus 110 kW / 50 m³/h / 120 m / 360 m (HBT80-16)",
-          "Shared 6500 kg on both HBT pages versus Electric 80 at 6000 kg",
-          "Model string HBT80-1816-110 appears on HBT80-16 and Electric 80 with different output and distance",
-          "Both HBT pages list 骨料 4 cm and pipe 100 / 125 mm"
+          "6700 × 1750 × 1800 mm",
+          "6600 × 1750 × 1800 mm",
+          "132 kW",
+          "60 m³/h",
+          "40 MPa",
+          "4 cm"
         ]
       },
       "faqs": [
         {
-          "question": "Is HBT80-16 the same SKU as Electric 80 because both print HBT80-1816-110?",
-          "answer": "No. HBT80-16 lists 50 m³/h, 120 m / 360 m, 6500 kg, 骨料 4 cm. Electric 80 lists 60 m³/h, 900 m / 300 m (2 cm 骨料), 料斗 0.7 m³, 6000 kg. Open the page whose table matches the inquiry."
+          "question": "「Specifications」会给HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg。"
         },
         {
-          "question": "Does HBT8018’s 150 m conveying equal Electric 80’s 900 m horizontal?",
-          "answer": "No. HBT8018 prints 150 m conveying and 450 m delivery height. Electric 80 prints 900 m / 300 m at 2 cm 骨料. Marketplace HBT model names (for example SmartBuy’s Zoomlion HBT60.16.110RS row) are other brands, not 邢台 cells."
+          "question": "「Pumping power」能补上HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows的空白格吗？",
+          "answer": "不能。HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows",
-      "seoTitle": "HBT8018 vs HBT80-16 | Pinjin 132 kW vs 110 kW",
-      "description": "HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. HBT80-16 lists HBT80-1816-110, 110 kW, 50 m³/h, 40 MPa, 120 m / 360 m, 6500 kg. Electric 80 reprints HBT80-1816-110 with 60 m³/h and 900 m / 300 m — a third page. Match each printed table.",
-      "imageAlt": "HBT8018 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "HBT8018 bomba reboque, Xingtai catalogue — HBT8018-132S, 132 kW, 60 m³/h",
+      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows: Pump — Specifications / Pumping power / Efficiency / Minimum flow protection",
+      "seoTitle": "Pump — Specifications",
+      "description": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows continua a ser a linha que este texto já tinha. “Specifications” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+      "imageAlt": "Figura da página de origem sobre Pump",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Pump",
       "relatedPathLabels": [
         "HBT8018 concrete pump página do produto",
         "HBT80-16 concrete pump página do produto",
@@ -151,32 +160,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "HBT8018 and HBT80-16 are two HBT-series bomba reboques manufactured by Hebei Pinjin Machinery in Xingtai. HBT8018 / HBT8018-132S: 132 kW, 60 m³/h, 40 MPa, 150 m conveying, 450 m delivery height, agregado 4 cm, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm, 6500 kg. HBT80-16 / HBT80-1816-110: 110 kW, 50 m³/h, 40 MPa, 120 m conveying, 360 m delivery height, 6600 × 1750 × 1800 mm, 6500 kg. Electric 80 uses the same HBT80-1816-110 string with 60 m³/h and 900 m / 300 m (2 cm agregado), 6000 kg. Do not merge the three tables.",
-        "who": "Buyers comparing Xingtai HBT trailer rows at 50–60 m³/h / 40 MPa who can supply 110 kW or 132 kW.",
+        "what": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows continua a ser a linha que este texto já tinha. “Specifications” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+        "who": "Leitores que comparam HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "132 kW / 60 m³/h / 150 m / 450 m (HBT8018) versus 110 kW / 50 m³/h / 120 m / 360 m (HBT80-16)",
-          "Shared 6500 kg on both HBT pages versus Electric 80 at 6000 kg",
-          "Model string HBT80-1816-110 appears on HBT80-16 and Electric 80 with different output and distance",
-          "Both HBT pages list agregado 4 cm and pipe 100 / 125 mm"
+          "6700 × 1750 × 1800 mm",
+          "6600 × 1750 × 1800 mm",
+          "132 kW",
+          "60 m³/h",
+          "40 MPa",
+          "4 cm"
         ]
       },
       "faqs": [
         {
-          "question": "Is HBT80-16 the same SKU as Electric 80 because both print HBT80-1816-110?",
-          "answer": "No. HBT80-16 lists 50 m³/h, 120 m / 360 m, 6500 kg, agregado 4 cm. Electric 80 lists 60 m³/h, 900 m / 300 m (2 cm agregado), tremonha 0.7 m³, 6000 kg. Open the page whose table matches the inquiry."
+          "question": "“Specifications” acrescenta uma casa a HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows?",
+          "answer": "Não. Valores já impressos nesta página: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg."
         },
         {
-          "question": "Does HBT8018’s 150 m conveying equal Electric 80’s 900 m horizontal?",
-          "answer": "No. HBT8018 prints 150 m conveying and 450 m delivery height. Electric 80 prints 900 m / 300 m at 2 cm agregado. Marketplace HBT model names (for example SmartBuy’s Zoomlion HBT60.16.110RS row) are other brands, not Xingtai cells."
+          "question": "“Pumping power” pode preencher uma casa em branco de HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows?",
+          "answer": "Não. As casas em branco de HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows",
-      "seoTitle": "HBT8018 vs HBT80-16 | Pinjin 132 kW vs 110 kW",
-      "description": "HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. HBT80-16 lists HBT80-1816-110, 110 kW, 50 m³/h, 40 MPa, 120 m / 360 m, 6500 kg. Electric 80 reprints HBT80-1816-110 with 60 m³/h and 900 m / 300 m — a third page. Match each printed table.",
-      "imageAlt": "HBT8018 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "HBT8018 مضخة مقطورة, شينغتاي catalogue — HBT8018-132S, 132 kW, 60 m³/h",
+      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows: Pump — Specifications / Pumping power / Efficiency / Minimum flow protection",
+      "seoTitle": "Pump — Specifications",
+      "description": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows يبقى الصف الذي كان في هذا النص. «Specifications» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+      "imageAlt": "صورة من صفحة المصدر عن Pump",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Pump",
       "relatedPathLabels": [
         "HBT8018 concrete pump صفحة المنتج",
         "HBT80-16 concrete pump صفحة المنتج",
@@ -184,32 +195,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "HBT8018 and HBT80-16 are two HBT-series مضخة مقطورةs manufactured by Hebei Pinjin Machinery in شينغتاي. HBT8018 / HBT8018-132S: 132 kW, 60 m³/h, 40 MPa, 150 m conveying, 450 m delivery height, ركام 4 cm, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm, 6500 kg. HBT80-16 / HBT80-1816-110: 110 kW, 50 m³/h, 40 MPa, 120 m conveying, 360 m delivery height, 6600 × 1750 × 1800 mm, 6500 kg. Electric 80 uses the same HBT80-1816-110 string with 60 m³/h and 900 m / 300 m (2 cm ركام), 6000 kg. Do not merge the three tables.",
-        "who": "Buyers comparing شينغتاي HBT trailer rows at 50–60 m³/h / 40 MPa who can supply 110 kW or 132 kW.",
+        "what": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows يبقى الصف الذي كان في هذا النص. «Specifications» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+        "who": "قرّاء يقارنون HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "132 kW / 60 m³/h / 150 m / 450 m (HBT8018) versus 110 kW / 50 m³/h / 120 m / 360 m (HBT80-16)",
-          "Shared 6500 kg on both HBT pages versus Electric 80 at 6000 kg",
-          "Model string HBT80-1816-110 appears on HBT80-16 and Electric 80 with different output and distance",
-          "Both HBT pages list ركام 4 cm and pipe 100 / 125 mm"
+          "6700 × 1750 × 1800 mm",
+          "6600 × 1750 × 1800 mm",
+          "132 kW",
+          "60 m³/h",
+          "40 MPa",
+          "4 cm"
         ]
       },
       "faqs": [
         {
-          "question": "Is HBT80-16 the same SKU as Electric 80 because both print HBT80-1816-110?",
-          "answer": "No. HBT80-16 lists 50 m³/h, 120 m / 360 m, 6500 kg, ركام 4 cm. Electric 80 lists 60 m³/h, 900 m / 300 m (2 cm ركام), قادوس 0.7 m³, 6000 kg. Open the page whose table matches the inquiry."
+          "question": "هل يضيف «Specifications» خانة إلى HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg."
         },
         {
-          "question": "Does HBT8018’s 150 m conveying equal Electric 80’s 900 m horizontal?",
-          "answer": "No. HBT8018 prints 150 m conveying and 450 m delivery height. Electric 80 prints 900 m / 300 m at 2 cm ركام. Marketplace HBT model names (for example SmartBuy’s Zoomlion HBT60.16.110RS row) are other brands, not شينغتاي cells."
+          "question": "هل يستطيع «Pumping power» ملء خانة فارغة لـ HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows؟",
+          "answer": "لا. الخانات الفارغة لـ HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows",
-      "seoTitle": "HBT8018 vs HBT80-16 | Pinjin 132 kW vs 110 kW",
-      "description": "HBT8018 lists HBT8018-132S, 132 kW, 60 m³/h, 40 MPa, 150 m conveying / 450 m delivery height, 6500 kg. HBT80-16 lists HBT80-1816-110, 110 kW, 50 m³/h, 40 MPa, 120 m / 360 m, 6500 kg. Electric 80 reprints HBT80-1816-110 with 60 m³/h and 900 m / 300 m — a third page. Match each printed table.",
-      "imageAlt": "HBT8018 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "HBT8018 прицепной насос, Синтай catalogue — HBT8018-132S, 132 kW, 60 m³/h",
+      "title": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows: Pump — Specifications / Pumping power / Efficiency / Minimum flow protection",
+      "seoTitle": "Pump — Specifications",
+      "description": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows остаётся строкой, которая уже была в этом тексте. “Specifications” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+      "imageAlt": "Иллюстрация со страницы-источника: Pump",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Pump",
       "relatedPathLabels": [
         "HBT8018 concrete pump страница изделия",
         "HBT80-16 concrete pump страница изделия",
@@ -217,25 +230,28 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "HBT8018 and HBT80-16 are two HBT-series прицепной насосs manufactured by Hebei Pinjin Machinery in Синтай. HBT8018 / HBT8018-132S: 132 kW, 60 m³/h, 40 MPa, 150 m conveying, 450 m delivery height, заполнитель 4 cm, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm, 6500 kg. HBT80-16 / HBT80-1816-110: 110 kW, 50 m³/h, 40 MPa, 120 m conveying, 360 m delivery height, 6600 × 1750 × 1800 mm, 6500 kg. Electric 80 uses the same HBT80-1816-110 string with 60 m³/h and 900 m / 300 m (2 cm заполнитель), 6000 kg. Do not merge the three tables.",
-        "who": "Buyers comparing Синтай HBT trailer rows at 50–60 m³/h / 40 MPa who can supply 110 kW or 132 kW.",
+        "what": "HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows остаётся строкой, которая уже была в этом тексте. “Specifications” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg.",
+        "who": "Читатели, которые сверяют HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "132 kW / 60 m³/h / 150 m / 450 m (HBT8018) versus 110 kW / 50 m³/h / 120 m / 360 m (HBT80-16)",
-          "Shared 6500 kg on both HBT pages versus Electric 80 at 6000 kg",
-          "Model string HBT80-1816-110 appears on HBT80-16 and Electric 80 with different output and distance",
-          "Both HBT pages list заполнитель 4 cm and pipe 100 / 125 mm"
+          "6700 × 1750 × 1800 mm",
+          "6600 × 1750 × 1800 mm",
+          "132 kW",
+          "60 m³/h",
+          "40 MPa",
+          "4 cm"
         ]
       },
       "faqs": [
         {
-          "question": "Is HBT80-16 the same SKU as Electric 80 because both print HBT80-1816-110?",
-          "answer": "No. HBT80-16 lists 50 m³/h, 120 m / 360 m, 6500 kg, заполнитель 4 cm. Electric 80 lists 60 m³/h, 900 m / 300 m (2 cm заполнитель), бункер 0.7 m³, 6000 kg. Open the page whose table matches the inquiry."
+          "question": "Добавляет ли “Specifications” клетку к HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 6700 × 1750 × 1800 mm, 6600 × 1750 × 1800 mm, 132 kW, 60 m³/h, 40 MPa, 4 cm, 125 mm, 6500 kg."
         },
         {
-          "question": "Does HBT8018’s 150 m conveying equal Electric 80’s 900 m horizontal?",
-          "answer": "No. HBT8018 prints 150 m conveying and 450 m delivery height. Electric 80 prints 900 m / 300 m at 2 cm заполнитель. Marketplace HBT model names (for example SmartBuy’s Zoomlion HBT60.16.110RS row) are other brands, not Синтай cells."
+          "question": "Может ли “Pumping power” заполнить пустую клетку для HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows?",
+          "answer": "Нет. Пустые клетки для HBT8018 vs HBT80-16 Concrete Pump Catalogue Rows остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

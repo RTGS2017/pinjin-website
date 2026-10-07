@@ -1,7 +1,7 @@
 {
-  "title": "Hydraulic Concrete Spraying Machine Catalogue Row",
-  "seoTitle": "Hydraulic Concrete Spraying Machine | Pinjin 5 m³/h",
-  "description": "Xingtai 380 V hydraulic concrete spraying machine lists dual copper motors 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 295 kg. It is not the 7 m³/h high-flow sprayer, not M9 plaster, not a diesel sprayer and not a trailer concrete pump. Quote only.",
+  "title": "Spray nozzle — Single-fluid nozzles / Two-fluid nozzles / Rotary atomizers / Ultrasonic atomizers",
+  "seoTitle": "Spray nozzle — Single-fluid nozzles",
+  "description": "“Single-fluid nozzles” is not a substitute specification. hydraulic concrete spraying machine stays the printed row. Printed cells already on this page: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
   "primaryKeyword": "hydraulic concrete spraying machine",
   "secondaryKeywords": [
     "5 m3/h hydraulic mortar sprayer",
@@ -52,13 +52,15 @@
     }
   ],
   "answerBlock": {
-    "what": "This Xingtai hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 1500 × 700 × 1100 mm, 295 kg. It is not a trailer concrete pump, not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.",
-    "who": "Contractors matching 5 m³/h, ≤8 mm particle and 380 V dual-motor supply to a spraying job whose hose stays inside 100 m / 50 m.",
+    "what": "“Single-fluid nozzles” is not a substitute specification. hydraulic concrete spraying machine stays the printed row. Printed cells already on this page: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+    "who": "Readers checking hydraulic concrete spraying machine against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Particle ≤8 mm and sand-cement ratio ≤1:3",
-      "Output 5 m³/h and pressure 8 MPa",
-      "Hose 38/51 mm and 100 m / 50 m",
-      "380 V for the listed 7.5/9 kW dual motors"
+      "1500 × 700 × 1100 mm",
+      "380 V",
+      "9 kW",
+      "5 m³/h",
+      "8 MPa",
+      "51 mm"
     ],
     "relatedModels": [
       "hydraulic-concrete-spraying-machine",
@@ -69,20 +71,25 @@
   },
   "faqs": [
     {
-      "question": "Can I pump 1–3 cm stone with this sprayer?",
-      "answer": "No. This hydraulic row lists particle ≤8 mm. 1–3 cm stone belongs on a trailer pump such as Electric 15 or Electric 30."
+      "question": "Does “Single-fluid nozzles” add a cell to hydraulic concrete spraying machine?",
+      "answer": "No. Hydraulic Concrete Spraying Machine is a 380 V hydraulic spraying machine manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "When do I open the high-flow hydraulic sprayer?",
-      "answer": "The high-flow unit lists 11/15 kW, 7 m³/h, 8 MPa, 150 m / 70 m and 650 kg. Use that page when 7 m³/h or 150 m / 70 m is the printed window you need."
+      "question": "Can “Two-fluid nozzles” fill a blank cell for hydraulic concrete spraying machine?",
+      "answer": "No. Blank cells for hydraulic concrete spraying machine stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/hydraulic-concrete-spraying-machine/hydraulic-concrete-spraying-machine.webp",
-    "alt": "Hydraulic concrete spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Hydraulic concrete spraying machine, Xingtai catalogue — 5 m³/h, particle ≤8 mm, 295 kg"
+    "src": "/images/articles/hydraulic-concrete-spraying-machine-guide/Compound_nozzle.png",
+    "alt": "Figure from the source page about Spray nozzle",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Spray_nozzle"
   },
   "sources": [
+    {
+      "name": "Spray nozzle (source page)",
+      "url": "https://en.wikipedia.org/wiki/Spray_nozzle",
+      "type": "industry"
+    },
     {
       "name": "Pinjin hydraulic concrete spraying machine product page",
       "url": "https://pinjinpump.com/en/products/hydraulic-concrete-spraying-machine/",
@@ -102,9 +109,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Hydraulic Concrete Spraying Machine Catalogue Row",
-      "description": "邢台 380 V hydraulic concrete spraying machine lists dual copper motors 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 295 kg. It is not the 7 m³/h high-flow sprayer, not M9 plaster, not a diesel sprayer and not a trailer concrete pump. Quote only.",
-      "imageAlt": "Hydraulic concrete spraying machine factory product photo, 河北品锦机械 邢台",
+      "title": "Hydraulic Concrete Spraying Machine Catalogue Row：Spray nozzle（Single-fluid nozzles / Two-fluid nozzles / Rotary atomizers / Ultrasonic atomizers）",
+      "description": "「Single-fluid nozzles」不能代替规格。Hydraulic Concrete Spraying Machine Catalogue Row维持已印的那一行。本页已经印出的读数：1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg。",
+      "imageAlt": "来源页插图：Spray nozzle",
       "relatedPathLabels": [
         "Hydraulic concrete spraying machine 产品页",
         "Concrete spraying machine manufacturer China",
@@ -112,32 +119,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "This 邢台 hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 1500 × 700 × 1100 mm, 295 kg. It is not a trailer concrete pump, not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.",
-        "who": "Contractors matching 5 m³/h, ≤8 mm particle and 380 V dual-motor supply to a spraying job whose hose stays inside 100 m / 50 m.",
+        "what": "「Single-fluid nozzles」不能代替规格。Hydraulic Concrete Spraying Machine Catalogue Row维持已印的那一行。本页已经印出的读数：1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg。",
+        "who": "想把Hydraulic Concrete Spraying Machine Catalogue Row和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Particle ≤8 mm and sand-cement ratio ≤1:3",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 100 m / 50 m",
-          "380 V for the listed 7.5/9 kW dual motors"
+          "1500 × 700 × 1100 mm",
+          "380 V",
+          "9 kW",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm"
         ]
       },
-      "seoTitle": "Hydraulic Concrete Spraying Machine | 品锦 5 m³/h",
-      "imageCaption": "Hydraulic concrete spraying machine, 邢台 catalogue — 5 m³/h, particle ≤8 mm, 295 kg",
+      "seoTitle": "Spray nozzle：Single-fluid nozzles",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Spray_nozzle",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with this sprayer?",
-          "answer": "No. This hydraulic row lists particle ≤8 mm. 1–3 cm stone belongs on a 拖式泵 such as 电动15 or 电动30."
+          "question": "「Single-fluid nozzles」会给Hydraulic Concrete Spraying Machine Catalogue Row增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg。"
         },
         {
-          "question": "When do I open the high-flow hydraulic sprayer?",
-          "answer": "The high-flow unit lists 11/15 kW, 7 m³/h, 8 MPa, 150 m / 70 m and 650 kg. Use that page when 7 m³/h or 150 m / 70 m is the printed window you need."
+          "question": "「Two-fluid nozzles」能补上Hydraulic Concrete Spraying Machine Catalogue Row的空白格吗？",
+          "answer": "不能。Hydraulic Concrete Spraying Machine Catalogue Row没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Hydraulic Concrete Spraying Machine Catalogue Row",
-      "description": "Xingtai 380 V hydraulic concrete spraying machine lists dual copper motors 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 295 kg. It is not the 7 m³/h high-flow sprayer, not M9 plaster, not a diesel sprayer and not a trailer concrete pump. Quote only.",
-      "imageAlt": "Hydraulic concrete spraying machine factory product photo, Hebei Pinjin Machinery Xingtai",
+      "title": "Hydraulic Concrete Spraying Machine Catalogue Row: Spray nozzle — Single-fluid nozzles / Two-fluid nozzles / Rotary atomizers / Ultrasonic atomizers",
+      "description": "“Single-fluid nozzles” não substitui uma especificação. Hydraulic Concrete Spraying Machine Catalogue Row mantém a linha impressa. Valores já impressos nesta página: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+      "imageAlt": "Figura da página de origem sobre Spray nozzle",
       "relatedPathLabels": [
         "Hydraulic concrete spraying machine página do produto",
         "Concrete spraying machine manufacturer China",
@@ -145,32 +154,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "This Xingtai hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 1500 × 700 × 1100 mm, 295 kg. It is not a trailer concrete pump, not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.",
-        "who": "Contractors matching 5 m³/h, ≤8 mm particle and 380 V dual-motor supply to a spraying job whose hose stays inside 100 m / 50 m.",
+        "what": "“Single-fluid nozzles” não substitui uma especificação. Hydraulic Concrete Spraying Machine Catalogue Row mantém a linha impressa. Valores já impressos nesta página: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+        "who": "Leitores que comparam Hydraulic Concrete Spraying Machine Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Particle ≤8 mm and sand-cement ratio ≤1:3",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 100 m / 50 m",
-          "380 V for the listed 7.5/9 kW dual motors"
+          "1500 × 700 × 1100 mm",
+          "380 V",
+          "9 kW",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm"
         ]
       },
-      "seoTitle": "Hydraulic Concrete Spraying Machine | Pinjin 5 m³/h",
-      "imageCaption": "Hydraulic concrete spraying machine, Xingtai catalogue — 5 m³/h, particle ≤8 mm, 295 kg",
+      "seoTitle": "Spray nozzle — Single-fluid nozzles",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Spray_nozzle",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with this sprayer?",
-          "answer": "No. This hydraulic row lists particle ≤8 mm. 1–3 cm stone belongs on a bomba reboque such as Electric 15 or Electric 30."
+          "question": "“Single-fluid nozzles” acrescenta uma casa a Hydraulic Concrete Spraying Machine Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg."
         },
         {
-          "question": "When do I open the high-flow hydraulic sprayer?",
-          "answer": "The high-flow unit lists 11/15 kW, 7 m³/h, 8 MPa, 150 m / 70 m and 650 kg. Use that page when 7 m³/h or 150 m / 70 m is the printed window you need."
+          "question": "“Two-fluid nozzles” pode preencher uma casa em branco de Hydraulic Concrete Spraying Machine Catalogue Row?",
+          "answer": "Não. As casas em branco de Hydraulic Concrete Spraying Machine Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Hydraulic Concrete Spraying Machine Catalogue Row",
-      "description": "شينغتاي 380 V hydraulic concrete spraying machine lists dual copper motors 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 295 kg. It is not the 7 m³/h high-flow sprayer, not M9 plaster, not a diesel sprayer and not a trailer concrete pump. Quote only.",
-      "imageAlt": "Hydraulic concrete spraying machine factory product photo, Hebei Pinjin Machinery شينغتاي",
+      "title": "Hydraulic Concrete Spraying Machine Catalogue Row: Spray nozzle — Single-fluid nozzles / Two-fluid nozzles / Rotary atomizers / Ultrasonic atomizers",
+      "description": "«Single-fluid nozzles» لا يحل محل مواصفة. يبقى Hydraulic Concrete Spraying Machine Catalogue Row على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+      "imageAlt": "صورة من صفحة المصدر عن Spray nozzle",
       "relatedPathLabels": [
         "Hydraulic concrete spraying machine صفحة المنتج",
         "Concrete spraying machine manufacturer China",
@@ -178,32 +189,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "This شينغتاي hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 1500 × 700 × 1100 mm, 295 kg. It is not a trailer concrete pump, not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.",
-        "who": "Contractors matching 5 m³/h, ≤8 mm particle and 380 V dual-motor supply to a spraying job whose hose stays inside 100 m / 50 m.",
+        "what": "«Single-fluid nozzles» لا يحل محل مواصفة. يبقى Hydraulic Concrete Spraying Machine Catalogue Row على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+        "who": "قرّاء يقارنون Hydraulic Concrete Spraying Machine Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Particle ≤8 mm and sand-cement ratio ≤1:3",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 100 m / 50 m",
-          "380 V for the listed 7.5/9 kW dual motors"
+          "1500 × 700 × 1100 mm",
+          "380 V",
+          "9 kW",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm"
         ]
       },
-      "seoTitle": "Hydraulic Concrete Spraying Machine | Pinjin 5 m³/h",
-      "imageCaption": "Hydraulic concrete spraying machine, شينغتاي catalogue — 5 m³/h, particle ≤8 mm, 295 kg",
+      "seoTitle": "Spray nozzle — Single-fluid nozzles",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Spray_nozzle",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with this sprayer?",
-          "answer": "No. This hydraulic row lists particle ≤8 mm. 1–3 cm stone belongs on a مضخة مقطورة such as Electric 15 or Electric 30."
+          "question": "هل يضيف «Single-fluid nozzles» خانة إلى Hydraulic Concrete Spraying Machine Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg."
         },
         {
-          "question": "When do I open the high-flow hydraulic sprayer?",
-          "answer": "The high-flow unit lists 11/15 kW, 7 m³/h, 8 MPa, 150 m / 70 m and 650 kg. Use that page when 7 m³/h or 150 m / 70 m is the printed window you need."
+          "question": "هل يستطيع «Two-fluid nozzles» ملء خانة فارغة لـ Hydraulic Concrete Spraying Machine Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Hydraulic Concrete Spraying Machine Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Hydraulic Concrete Spraying Machine Catalogue Row",
-      "description": "Синтай 380 V hydraulic concrete spraying machine lists dual copper motors 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 295 kg. It is not the 7 m³/h high-flow sprayer, not M9 plaster, not a diesel sprayer and not a trailer concrete pump. Quote only.",
-      "imageAlt": "Hydraulic concrete spraying machine factory product photo, Hebei Pinjin Machinery Синтай",
+      "title": "Hydraulic Concrete Spraying Machine Catalogue Row: Spray nozzle — Single-fluid nozzles / Two-fluid nozzles / Rotary atomizers / Ultrasonic atomizers",
+      "description": "“Single-fluid nozzles” не заменяет характеристику. Hydraulic Concrete Spraying Machine Catalogue Row остаётся напечатанной строкой. Уже напечатанные значения на этой странице: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+      "imageAlt": "Иллюстрация со страницы-источника: Spray nozzle",
       "relatedPathLabels": [
         "Hydraulic concrete spraying machine страница изделия",
         "Concrete spraying machine manufacturer China",
@@ -211,27 +224,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "This Синтай hydraulic concrete spraying machine is a 380 V dual-motor unit listing 7.5/9 kW, 5 m³/h, 8 MPa, hose 38/51 mm, particle ≤8 mm and 100 m / 50 m, 1500 × 700 × 1100 mm, 295 kg. It is not a trailer concrete pump, not the 7 m³/h high-flow sprayer, not the M9 plaster sprayer and not a diesel sprayer. Quote only; no list price.",
-        "who": "Contractors matching 5 m³/h, ≤8 mm particle and 380 V dual-motor supply to a spraying job whose hose stays inside 100 m / 50 m.",
+        "what": "“Single-fluid nozzles” не заменяет характеристику. Hydraulic Concrete Spraying Machine Catalogue Row остаётся напечатанной строкой. Уже напечатанные значения на этой странице: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg.",
+        "who": "Читатели, которые сверяют Hydraulic Concrete Spraying Machine Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Particle ≤8 mm and sand-cement ratio ≤1:3",
-          "Output 5 m³/h and pressure 8 MPa",
-          "Hose 38/51 mm and 100 m / 50 m",
-          "380 V for the listed 7.5/9 kW dual motors"
+          "1500 × 700 × 1100 mm",
+          "380 V",
+          "9 kW",
+          "5 m³/h",
+          "8 MPa",
+          "51 mm"
         ]
       },
-      "seoTitle": "Hydraulic Concrete Spraying Machine | Pinjin 5 m³/h",
-      "imageCaption": "Hydraulic concrete spraying machine, Синтай catalogue — 5 m³/h, particle ≤8 mm, 295 kg",
+      "seoTitle": "Spray nozzle — Single-fluid nozzles",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Spray_nozzle",
       "faqs": [
         {
-          "question": "Can I pump 1–3 cm stone with this sprayer?",
-          "answer": "No. This hydraulic row lists particle ≤8 mm. 1–3 cm stone belongs on a прицепной насос such as Electric 15 or Electric 30."
+          "question": "Добавляет ли “Single-fluid nozzles” клетку к Hydraulic Concrete Spraying Machine Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 1500 × 700 × 1100 mm, 380 V, 9 kW, 5 m³/h, 8 MPa, 51 mm, 8 mm, 295 kg."
         },
         {
-          "question": "When do I open the high-flow hydraulic sprayer?",
-          "answer": "The high-flow unit lists 11/15 kW, 7 m³/h, 8 MPa, 150 m / 70 m and 650 kg. Use that page when 7 m³/h or 150 m / 70 m is the printed window you need."
+          "question": "Может ли “Two-fluid nozzles” заполнить пустую клетку для Hydraulic Concrete Spraying Machine Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Hydraulic Concrete Spraying Machine Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

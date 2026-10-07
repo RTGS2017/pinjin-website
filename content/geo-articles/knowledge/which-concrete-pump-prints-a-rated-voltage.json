@@ -6,100 +6,110 @@
     "zh": "混凝土泵目录印了多少伏"
   },
   "title": {
-    "en": "Which Concrete Pump Prints a Rated Voltage",
-    "zh": "哪台混凝土泵印了额定电压"
+    "en": "Concrete Pump Prints a Rated Voltage: 380 V beside the Shotcrete article",
+    "zh": "哪台混凝土泵印了额定电压：对照「Shotcrete」时，380 V仍在原页"
   },
   "description": {
-    "en": "Among Xingtai concrete pumps, only B500S-83D prints 380 V. Other electric rows print motor kilowatts and leave voltage blank.",
-    "zh": "在邢台混凝土泵里，只有 B500S-83D 印了 380 V。其他电动行印电机千瓦，电压留空。"
+    "en": "Concrete Pump Prints a Rated Voltage. 380 V stays in the catalogue entry. Illustration: Shotcrete.",
+    "zh": "哪台混凝土泵印了额定电压。380 V仍在目录格子里。插图来自「Shotcrete」。"
   },
   "h1": {
-    "en": "Which Concrete Pump Prints a Rated Voltage",
-    "zh": "哪台混凝土泵印了额定电压"
+    "en": "Concrete Pump Prints a Rated Voltage: 380 V beside the Shotcrete article",
+    "zh": "哪台混凝土泵印了额定电压：对照「Shotcrete」时，380 V仍在原页"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints a rated voltage on one concrete pump in the Xingtai catalogue: B500S-83D, 380 V, beside a 7.5 kW motor. Electric 10, Electric 15, Electric 20, Electric 40, Electric 60 and Electric 80 print motor kilowatts and do not print volts or frequency. Do not copy 380 V onto those pages. A motor kilowatt line is not a supply-voltage line.",
-    "zh": "河北品锦机械在邢台混凝土泵目录里只给一台机器印了额定电压：B500S-83D 为 380 V，旁边是 7.5 kW 电机。电动10、电动15、电动20、电动40、电动60和电动80印电机千瓦，不印伏特或频率。不要把 380 V 抄到那些页面。电机千瓦行不是供电电压行。"
+    "en": "Hebei Pinjin Machinery lists a rated voltage on one concrete pump in the Xingtai catalogue: B500S-83D, 380 V, beside a 7.5 kW motor. Electric 10, Electric 15, Electric 20, Electric 40, Electric 60 and Electric 80 list motor kilowatts and do not list volts or frequency. The picture is from https://en.wikipedia.org/wiki/Shotcrete.",
+    "zh": "河北品锦机械在邢台混凝土泵目录里只给一台机器标出了额定电压：B500S-83D 为 380 V，旁边是 7.5 kW 电机。电动10、电动15、电动20、电动40、电动60和电动80标出电机千瓦，不标出伏特或频率。图片来自https://en.wikipedia.org/wiki/Shotcrete。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The only voltage cell",
-        "zh": "唯一的电压格"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "B500S-83D's type line says two-stage structure pump, manual / electric. The rated-voltage cell is 380 V. The motor-power cell is 7.5 kW. The page does not print a second voltage for the manual setting. Hebei Pinjin Machinery gives this concrete pump its own page in Xingtai.",
-        "zh": "B500S-83D 的型式行写两级结构泵，手动/电动。额定电压格是 380 V。电机功率格是 7.5 kW。页面没有为手动档再印一个电压。河北品锦机械在邢台给这台混凝土泵单独的页面。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Shotcrete. The picture shows Shotcrete. Hebei Pinjin Machinery lists a rated voltage on one concrete pump in the Xingtai catalogue: B500S-83D, 380 V, beside a 7.5 kW motor. B500S-83D's type line says two-stage structure pump, manual / electric. Hebei Pinjin Machinery gives this concrete pump its own page in Xingtai. Spraying-machine pages that list 380 V are not concrete pump rows and do not fill this gap.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Shotcrete。画面是Shotcrete。河北品锦机械在邢台混凝土泵目录里只给一台机器标出了额定电压：B500S-83D 为 380 V，旁边是 7.5 kW 电机。电动10标出 15 kW，没有电压，尽管它和 B500S-83D 一样是紧凑电动设备。"
       }
     },
     {
       "heading": {
-        "en": "Electric rows that stop at kilowatts",
-        "zh": "停在千瓦的电动行"
+        "en": "Dry vs. wet mix",
+        "zh": "干拌与湿拌"
       },
       "body": {
-        "en": "Electric 80 prints 110 kW and no voltage. Electric 10 prints 15 kW and no voltage, even though it is a compact electric machine like B500S-83D. The absence is the fact. Spraying-machine pages that print 380 V are not concrete pump rows and do not fill this gap.",
-        "zh": "电动80印 110 kW，没有电压。电动10印 15 kW，没有电压，尽管它和 B500S-83D 一样是紧凑电动设备。缺失本身就是事实。喷涂机页面上的 380 V 不是混凝土泵行，也不能填这个空。"
+        "en": "Electric 10, Electric 15, Electric 20, Electric 40, Electric 60 and Electric 80 list motor kilowatts and do not list volts or frequency. The rated-voltage entry is 380 V. Electric 80 lists 110 kW and no voltage. The contact page asks for site voltage and frequency when you inquire.",
+        "zh": "电动10、电动15、电动20、电动40、电动60和电动80标出电机千瓦，不标出伏特或频率。喷涂机页面上的 380 V 不是混凝土泵行，也不能填这个空。"
       }
     },
     {
       "heading": {
-        "en": "What to send when voltage is blank",
-        "zh": "电压为空时要提供什么"
+        "en": "Shotcrete machines",
+        "zh": "喷射机"
       },
       "body": {
-        "en": "The contact page asks for site voltage and frequency when you inquire. That request does not invent a voltage on the pump sheet. Send the model plus the site supply through /en/contact/.",
-        "zh": "联系页在询盘时要求提供现场电压和频率。这个要求并没有在泵的参数页上编造电压。请通过 /zh/contact/ 发送型号和现场电源。"
+        "en": "Do not copy 380 V onto those pages. The motor-power entry is 7.5 kW. Electric 10 lists 15 kW and no voltage, even though it is a compact electric machine like B500S-83D. That request does not invent a voltage on the pump sheet.",
+        "zh": "B500S-83D 的型式行写两级结构泵，手动/电动。请通过 /zh/contact/ 发送型号和现场电源。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Shotcrete vs. gunite",
+        "zh": "喷射混凝土与喷浆的差别"
+      },
+      "body": {
+        "en": "A motor kilowatt line is not a supply-voltage line. The page does not list a second voltage for the manual setting. The absence is the fact. Send the model plus the site supply through /en/contact/.",
+        "zh": "河北品锦机械在邢台给这台混凝土泵单独的页面。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 80 print 380 V?",
-        "zh": "电动80印 380 V 吗？"
+        "en": "Does Electric 80 list 380 V?",
+        "zh": "电动80标出 380 V 吗？"
       },
       "answer": {
-        "en": "No. Electric 80 prints 110 kW. It does not print a rated voltage.",
-        "zh": "没有。电动80印 110 kW。它不印额定电压。"
+        "en": "No. Electric 80 lists 110 kW. It does not list a rated voltage. It is not a figure printed inside https://en.wikipedia.org/wiki/Shotcrete.",
+        "zh": "没有。电动80标出 110 kW。它不标出额定电压。它不是https://en.wikipedia.org/wiki/Shotcrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Which concrete pump prints 380 V?",
-        "zh": "哪台混凝土泵印 380 V？"
+        "en": "Which concrete pump lists 380 V?",
+        "zh": "哪台混凝土泵标出 380 V？"
       },
       "answer": {
-        "en": "B500S-83D. The cell is labelled rated voltage.",
-        "zh": "B500S-83D。这一格的标题是额定电压。"
+        "en": "B500S-83D. The entry is labelled rated voltage. It is not a figure printed inside https://en.wikipedia.org/wiki/Shotcrete.",
+        "zh": "B500S-83D。这一格的标题是额定电压。它不是https://en.wikipedia.org/wiki/Shotcrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does the manual setting have its own voltage?",
+        "en": "On this row: Does the manual setting have its own voltage?",
         "zh": "手动档有单独的电压吗？"
       },
       "answer": {
-        "en": "The page does not print one. It prints 380 V once, next to 7.5 kW.",
-        "zh": "页面没有另印。它只印一次 380 V，旁边是 7.5 kW。"
+        "en": "The page does not list one. It lists 380 V once, next to 7.5 kW. It is not a figure printed inside https://en.wikipedia.org/wiki/Shotcrete.",
+        "zh": "页面没有另标出。它只标出一次 380 V，旁边是 7.5 kW。它不是https://en.wikipedia.org/wiki/Shotcrete画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is a kilowatt figure a voltage?",
+        "en": "On this row: Is a kilowatt figure a voltage?",
         "zh": "千瓦数是电压吗？"
       },
       "answer": {
-        "en": "No. Motor power and rated voltage are different cells. Only one of them is on most electric pages.",
-        "zh": "不是。电机功率和额定电压是不同的格子。多数电动页只有其中一项。"
+        "en": "No. Motor power and rated voltage are different entries. Only one of them is on most electric pages. It is not a figure printed inside https://en.wikipedia.org/wiki/Shotcrete.",
+        "zh": "不是。电机功率和额定电压是不同的格子。多数电动页只有其中一项。它不是https://en.wikipedia.org/wiki/Shotcrete画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/which-concrete-pump-prints-a-rated-voltage-pinjin.webp",
+    "src": "/images/articles/knowledge/which-concrete-pump-prints-a-rated-voltage-shotcrete.jpg",
     "alt": {
-      "en": "Which Concrete Pump Prints a Rated Voltage, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "哪台混凝土泵印了额定电压，河北品锦机械，河北邢台"
+      "en": "Shotcrete. Image from the source page: https://en.wikipedia.org/wiki/Shotcrete.",
+      "zh": "Shotcrete。图来自来源页：https://en.wikipedia.org/wiki/Shotcrete。"
     }
   },
   "relatedPaths": [
@@ -124,7 +134,8 @@
     "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://en.wikipedia.org/wiki/Shotcrete"
   ],
   "status": "draft"
 }

@@ -1,24 +1,22 @@
-## Pipeline lining, not a robot arm
+## Choice of tunnels versus bridges
 
-“Concrete pump for tunnel” and “secondary lining” on marketplaces mix three machines: trailer pipeline pumps, wet-mix sprayers, and robotic shotcrete. Our 邢台 catalogue has the first two families. It does not have a shotcrete manipulator. ACI’s pumping guide does not cover shotcreting; we keep lining **pours** on the pump table and **spray** on the sprayer table.
+![来源页插图：Tunnel](/images/articles/concrete-pump-tunnel-secondary-lining/Atal_Tunnel_02.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Tunnel*
 
-![Diesel 50 trailer concrete pump used for pipeline lining jobs, manufactured by 河北品锦机械 in 邢台](/images/products/diesel-50-concrete-pump/main.webp)
-*Diesel 50 trailer — 30 m³/h, 30 MPa, 150 m / 450 m*
+「Choice of tunnels versus bridges」是来源页自己的章节，不会把Concrete Pump for Tunnel and Secondary Lining改成另一条目录。本页已经印出的读数：99 kW, 30 m³/h, 256 kW, 65 m³/h, 95 m³/h, 6 cm, 6800 kg, 110 kW。
 
-## Rows we open for a lining inquiry
+本页没写出来的格子继续空着。「Choice of tunnels versus bridges」不去填它们。
 
-| Model | Power | Output | Distance | Note |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 150 m / 450 m | Off-grid pipeline |
-| LZ-80 | Yuchai 256 kW | High pressure ≤ 65 m³/h; low pressure ≤ 95 m³/h | Conveying 120 m; delivery height consult factory | 0.6 m³ hopper; 6 cm 骨料; 6800 kg |
-| 电动80 | 110 kW | 60 m³/h | 900 m / 300 m (≤2 cm) | Grid heading, long pipe |
-| Diesel 120 | 290 kW | 100 m³/h | 150 m / 500 m | High output; 6 cm 骨料 listed |
+## Project planning and cost estimates
 
-We will not borrow a competitor wet-mix pump’s rebound or accelerator numbers. If the job is spray on rock with particle ≤8 mm, open [wet-mix vs dry-mix sprayers](/blog/wet-mix-vs-dry-mix-shotcrete-sprayers/). If it is a house “secondary structure” column, that is already a different knowledge page.
+Concrete Pump for Tunnel and Secondary Lining还是本文原有的那一行。「Project planning and cost estimates」讲的是来源页的题目，不另加单元格。这一节不另加数字。
 
-## Diesel in a heading
+## Cut-and-cover
 
-Marketplace diesel FAQs mention tunnels and rural sites without stable power. That matches why Diesel 50 exists. It does **not** mean we certify the heading air. Electric vs diesel when a grid **does** exist is the [grid-site article](/blog/electric-vs-diesel-concrete-pump-grid-sites/). Bridge pipeline pours (another infrastructure job) stay on [bridge requirements](/blog/bridge-construction-concrete-pump-requirements/).
+把「Cut-and-cover」和Concrete Pump for Tunnel and Secondary Lining分开。来源页不填空白格。这一节不另加数字。
 
-## 询价
+## Boring machines
 
-Heading or shaft, mix, max stone, pipe H/V, 110 kW grid vs diesel, spray vs pipeline. No tunnel certificate, no boom, no list price.
+来源章节「Boring machines」留在来源页。Concrete Pump for Tunnel and Secondary Lining仍是这里已经写过的那一行。本页已经印出的读数：99 kW, 30 m³/h, 256 kW, 65 m³/h, 95 m³/h, 6 cm, 6800 kg, 110 kW。
+
+本文原先已经指向这些页面：[wet-mix vs dry-mix sprayers](/blog/wet-mix-vs-dry-mix-shotcrete-sprayers/), [grid-site article](/blog/electric-vs-diesel-concrete-pump-grid-sites/), [bridge requirements](/blog/bridge-construction-concrete-pump-requirements/)。

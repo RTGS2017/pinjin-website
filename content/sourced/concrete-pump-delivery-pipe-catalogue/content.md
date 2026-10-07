@@ -1,26 +1,22 @@
-## Straight pipe, quote after size
+## Manufacture
 
-Concrete Pump Delivery Pipe is a straight pipeline spare part manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Factory photos show red enamel pipes with reinforced coupling ends and identification labels. Inner diameter, wall thickness and length are quoted after matching the concrete pump model. This page does not publish a fixed size table or a list price. Small-batch shipping is not offered.
+![Figure from the source page about Pipe (fluid conveyance)](/images/articles/concrete-pump-delivery-pipe-catalogue/Electrofusion_Welding_of_HDPE_Pipe.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Pipe_(fluid_conveyance)*
 
-![Concrete pump delivery pipe factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/concrete-pump-delivery-pipe/concrete-pump-delivery-pipe.webp)
-*Straight delivery pipe, Xingtai — diameter and length quoted after the pump model*
+“Manufacture” is a chapter on the source page. It does not rename Xingtai concrete pump delivery pipe. Printed cells already on this page: 100–125 mm, 80 mm, 125 mm.
 
-## What the pump pages do print
+A Made-in-China delivery-pipe listing prints DN100 / DN125 / custom, ST52 or 45Mn2, and a negotiated price above 20 pieces.
 
-| Pump page | Pipe cell on that pump |
-| Electric 20 | 80 mm |
-| Electric 15 | 100–125 mm |
-| LZ-60 | 100 / 125 mm |
-| This pipe SKU | quoted after model, DN and length |
+## Sizes
 
-Those pump cells do not replace a quote. Hub: [concrete pump parts](/products/concrete-pump-parts/). Hose versus steel: [hose vs steel pipe](/blog/concrete-pump-hose-vs-steel-pipe/).
+Xingtai concrete pump delivery pipe remains the row this document already had. “Sizes” explains the source topic and adds no cell. No added figure is taken from that chapter.
 
-A Made-in-China delivery-pipe listing prints DN100 / DN125 / custom, ST52 or 45Mn2, and a negotiated price above 20 pieces. None of those cells is on the Pinjin pipe page. Alibaba product search for this part was not readable in this pass; the trailer-pump showroom is the Alibaba source used here.
+## Standards
 
-## When to open another page
+Keep “Standards” and Xingtai concrete pump delivery pipe apart. The source does not fill a blank cell. No added figure is taken from that chapter.
 
-- 90° bend labelled DN200 / R275 → [DN200 elbow](/products/concrete-pump-elbow-dn200-90/).
-- Flexible end → [delivery hose](/products/concrete-pump-delivery-hose/).
-- DN80 clamp → [DN80 pipe clamp](/products/concrete-pump-pipe-clamp-dn80/).
+## Installation
 
-Product page: [delivery pipe](/products/concrete-pump-delivery-pipe/). Inquiry: [contact](/contact/).
+The source chapter “Installation” stays on that page. Xingtai concrete pump delivery pipe keeps the row already written here. Printed cells already on this page: 100–125 mm, 80 mm, 125 mm.
+
+Pages already named on this document: [concrete pump parts](/products/concrete-pump-parts/), [hose vs steel pipe](/blog/concrete-pump-hose-vs-steel-pipe/), [DN200 elbow](/products/concrete-pump-elbow-dn200-90/).

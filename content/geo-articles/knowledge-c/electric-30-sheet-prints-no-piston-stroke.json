@@ -7,58 +7,38 @@
     "zh": "电动30型混凝土泵目录没有活塞行程"
   },
   "title": {
-    "en": "Why Electric 30 Concrete Pump Prints No Piston Stroke",
-    "zh": "为什么电动30型混凝土泵不印活塞行程"
+    "en": "Electric 30 Concrete Pump piston stroke not on the catalogue — Calculate air volume used by a single-acting piston.",
+    "zh": "电动30型混凝土泵目录没有活塞行程——计算单作用活塞消耗的空气体积"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai. The row does print Output Capacity 12–1",
-    "zh": "河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量12–15 m³/h和最大出口压力20 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是Belgium 6311 Treadmill 起重机 (13896807830)"
+    "en": "Electric 30 Concrete Pump piston stroke not on the catalogue Why Electric 30 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai.",
+    "zh": "电动30型混凝土泵目录没有活塞行程为什么电动30型混凝土泵不印活塞行程河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。"
   },
   "h1": {
-    "en": "Why Electric 30 Concrete Pump Prints No Piston Stroke",
-    "zh": "为什么电动30型混凝土泵不印活塞行程"
+    "en": "Electric 30 Concrete Pump piston stroke not on the catalogue — Calculate air volume used by a single-acting piston.",
+    "zh": "电动30型混凝土泵目录没有活塞行程——计算单作用活塞消耗的空气体积"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai. The row does print Output Capacity 12–15 m³/h and Max. Outlet Pressure 20 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Crane (machine)” shows Belgium 6311 Treadmill Crane (13896807830) and adds no stroke figure.",
-    "zh": "河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量12–15 m³/h和最大出口压力20 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是Belgium 6311 Treadmill 起重机 (13896807830)，也没有补上行程数字。"
+    "en": "Electric 30 Concrete Pump piston stroke not on the catalogue Why Electric 30 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai.",
+    "zh": "电动30型混凝土泵目录没有活塞行程为什么电动30型混凝土泵不印活塞行程河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Named parts are not a service procedure",
-        "zh": "点出名称不等于维修步骤"
+        "en": "Calculate air volume used by a single-acting piston.",
+        "zh": "计算单作用活塞消耗的空气体积"
       },
       "body": {
-        "en": "The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. This Electric 30 Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already prints. Hopper Capacity 0.3 m³. Fine Stone Pumping (H / V) 60 m / 180 m. Main Unit Weight 1200 kg.",
-        "zh": "另一份易损件清单用外径列出活塞和摆臂类替换件。电动30型混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有印出的材料牌号。料斗容积 0.3 m³。细石输送（水平/垂直） 60 m / 180 m。整机重量 1200 kg。"
-      }
-    },
-    {
-      "heading": {
-        "en": "The frame does not supply the missing stroke",
-        "zh": "这一帧不补上缺失的行程"
-      },
-      "body": {
-        "en": "From en.wikipedia.org, “Crane (machine)”. Subject: Belgium 6311 Treadmill Crane (13896807830). If a piston or valve is visible there, that is the subject of the frame. It is not a measured stroke for Electric 30 Concrete Pump.",
-        "zh": "来自 en.wikipedia.org，「Crane (machine)」。主体：Belgium 6311 Treadmill 起重机 (13896807830)。如果画面里能看到活塞或阀，那只是这一帧的主体。它不是电动30型混凝土泵的实测行程。"
-      }
-    },
-    {
-      "heading": {
-        "en": "Keep the printed duty",
-        "zh": "保留已经印出的工作参数"
-      },
-      "body": {
-        "en": "Output Capacity 12–15 m³/h. Max. Outlet Pressure 20 MPa. Pipeline length still has to be read from this model's own distance cells, not from the frame and not from a different pump.",
-        "zh": "理论输送量12–15 m³/h。最大出口压力20 MPa。管路长度仍要读这个型号自己的距离格，不读这一帧，也不读另一台泵。"
+        "en": "https://www.engineeringtoolbox.com/single-acting-piston-air-volume-d_1192.html Electric 30 Concrete Pump piston stroke not on the catalogue Why Electric 30 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai. The row does list Output Capacity 12–1 The row does list Output Capacity 12–15 m³/h and Max. Outlet Pressure 20 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Crane (machine)” shows Belgium 6311 Treadmill Crane (13896807830) and adds no stroke figure. Named parts are not a service procedure The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. This Electric 30 Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already lists. Hopper Capacity 0.3 m³. Fine Stone Pumping (H / V) 60 m / 180 m. Main Unit Weight 1200 kg. The frame does not supply the missing stroke Subject: Belgium 6311 Treadmill Crane (13896807830). If a piston or valve is visible there, that is the subject of the frame. It is not a measured stroke for Electric 30 Concrete Pump. Keep the listed duty Output Capacity 12–15 m³/h. Max. Outlet Pressure 20 MPa. Pipeline length still has to be read from this model's own distance cells, not from the frame and not from a different pump. Does Electric 30 Concrete Pump list a piston stroke? No. What duty is listed instead? Output Capacity 12–15 m³/h and Max. Outlet Pressure 20 MPa. Does a piston in the frame set the stroke? No. The frame is not a stroke measurement. Are service hours listed? No. Hours, torque and price stay unprinted. Hebei Pinjin Machinery, Xingtai, Hebei, China Belgium 6311 Treadmill Crane (13896807830). Subject of the frame for the Electric 30 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "https://www.engineeringtoolbox.com/single-acting-piston-air-volume-d_1192.html电动30型混凝土泵目录没有活塞行程为什么电动30型混凝土泵不印活塞行程河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行写了理论输送量12–15 m³/h和最大出口压力20 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是Belgium 6311 Treadmill 起重机 (13896807830)画面「Crane (machine)」的主体是Belgium 6311 Treadmill 起重机 (13896807830)，也没有补上行程数字。点出名称不等于维修步骤另一份易损件清单用外径列出活塞和摆臂类替换件。电动30型混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有写出的材料牌号。料斗容积 0.3 m³。细石输送（水平/垂直） 60 m / 180 m。整机重量 1200 kg。主体：Belgium 6311 Treadmill 起重机 (13896807830)。它不是电动30型混凝土泵的实测行程。保留已经写出的工作参数理论输送量12–15 m³/h。最大出口压力20 MPa。电动30型混凝土泵写了活塞行程吗？没有。那写了什么工作参数？理论输送量12–15 m³/h，最大出口压力20 MPa。画面里的活塞能确定行程吗？不能。写了保养小时吗？小时、扭矩和价格都没有印。河北品锦机械，中国河北邢台Belgium 6311 Treadmill 起重机 (13896807830)。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 30 Concrete Pump print a piston stroke?",
-        "zh": "电动30型混凝土泵印了活塞行程吗？"
+        "en": "Does Electric 30 Concrete Pump list a piston stroke?",
+        "zh": "电动30型混凝土泵写了活塞行程吗？"
       },
       "answer": {
         "en": "No.",
@@ -67,8 +47,8 @@
     },
     {
       "question": {
-        "en": "What duty is printed instead?",
-        "zh": "那印了什么工作参数？"
+        "en": "What duty is listed instead?",
+        "zh": "那写了什么工作参数？"
       },
       "answer": {
         "en": "Output Capacity 12–15 m³/h and Max. Outlet Pressure 20 MPa.",
@@ -87,8 +67,8 @@
     },
     {
       "question": {
-        "en": "Are service hours printed?",
-        "zh": "印了保养小时吗？"
+        "en": "Are service hours listed?",
+        "zh": "写了保养小时吗？"
       },
       "answer": {
         "en": "No. Hours, torque and price stay unprinted.",
@@ -97,10 +77,10 @@
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/belgium-6311-treadmill-crane-13896807830.webp",
+    "src": "/images/articles/knowledge/electric-30-sheet-prints-no-piston-stroke.png",
     "alt": {
-      "en": "Belgium 6311 Treadmill Crane (13896807830). Subject of the frame for the Electric 30 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "Belgium 6311 Treadmill 起重机 (13896807830)。电动30型混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/single-acting-piston-air-volume-d_1192.html",
+      "zh": "https://www.engineeringtoolbox.com/single-acting-piston-air-volume-d_1192.html"
     }
   },
   "relatedPaths": [
@@ -117,7 +97,8 @@
     "https://pinjinpump.com/en/products/electric-30-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-30-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/single-acting-piston-air-volume-d_1192.html"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +106,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai. The row does print Output Capacity 12–15 m³/h and Max. Outlet Pressure 20 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Crane (machine)” shows Belgium 6311 Treadmill Crane (13896807830) and adds no stroke figure.",
-      "zh": "河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量12–15 m³/h和最大出口压力20 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Crane (machine)」的主体是Belgium 6311 Treadmill 起重机 (13896807830)，也没有补上行程数字。"
+      "en": "Electric 30 Concrete Pump piston stroke not on the catalogue Why Electric 30 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the Electric 30 Concrete Pump in Xingtai.",
+      "zh": "电动30型混凝土泵目录没有活塞行程为什么电动30型混凝土泵不印活塞行程河北品锦机械没有在邢台的电动30型混凝土泵这一行印活塞行程、冲次或挤压间隙。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

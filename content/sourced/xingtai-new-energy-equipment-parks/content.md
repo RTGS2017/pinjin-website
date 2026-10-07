@@ -1,16 +1,22 @@
-Source: Xinhua Hebei Channel, 18 September 2026, credited on the page to the Wokan Xingtai client  
-http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html
+## Design and construction
 
-## City development zones and new-energy equipment
+![Figure from the source page about Wind turbine](/images/articles/xingtai-new-energy-equipment-parks/Wind_Turbines_5132099985_.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Wind_turbine*
 
-The page says city-level development zones are the main site, names CRRC, CSSC and JA Solar, and states a 100-billion-yuan new-energy equipment base. It sets city digital-information industry revenue at 500亿元, and names Shenzhen Electronics Information Industrial Park and Xingtai Intelligent Computing Industrial Park in the high-tech zone.
+Opening the source at “Design and construction” means reading that page, not a second catalogue for 邢台经开区 新能源装备. No added figure is taken from that chapter.
 
-In Xingtai Economic Development Zone, the CRRC new-energy equipment base is running a 100-metre-class wind-blade line. Investment on that project exceeds 50亿元. The page says trial production came 9 months after construction started.
+Source: Xinhua Hebei Channel, 18 September 2026, credited on the page to the Wokan Xingtai client http://he.news.cn/20260918/a499d415809f49c1b30c2c7c5a28261e/c.html The page says city-level development zones are the main site, names CRRC, CSSC and JA Solar, and states a 100-billion-yuan new-energy equipment base.
 
-New-energy equipment manufacturing in the city covers photovoltaic cells and modules, energy-storage batteries, wind turbines and parts, new-energy battery equipment, and new-energy vehicles.
+## Technology
 
-Wind equipment: CRRC New Energy and Goldwind are the two cores, with more than 30 supplier firms, from core parts through finished machines.
+“Technology” is a chapter on the source page. It does not rename 邢台经开区 新能源装备. No added figure is taken from that chapter.
 
-Xingtai Economic Development Zone was selected for the first national batch of safety and emergency-equipment specialty parks.
+## Wind turbines on public display
 
-![CRRC wind-blade line. Photo: Ji Mingquan, Li Liang. Xinhua Hebei page.](/images/parks/xingtai-crcc-wind-blade.webp)
+邢台经开区 新能源装备 remains the row this document already had. “Wind turbines on public display” explains the source topic and adds no cell. No added figure is taken from that chapter.
+
+## Small wind turbines
+
+Keep “Small wind turbines” and 邢台经开区 新能源装备 apart. The source does not fill a blank cell. No added figure is taken from that chapter.
+
+Blank cells on this page stay blank. “Small wind turbines” does not fill them.

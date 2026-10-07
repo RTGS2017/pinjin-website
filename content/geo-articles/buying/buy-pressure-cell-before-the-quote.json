@@ -3,100 +3,100 @@
   "category": "buying",
   "keyword": "concrete pump pressure cell on the inquiry",
   "title": {
-    "en": "Copy the Pressure Cell from the Xingtai Page You Order",
-    "zh": "从你订的邢台页面抄压力格"
+    "en": "Diesel 40 is 25 MPa is the concrete pump pressure cell on the inquiry cell under “Single Acting Cylinder”",
+    "zh": "「液压喷涂机印 8 MPa。」是「单 作用 缸」下面的从你订的邢台页面抄压力格格子"
   },
   "description": {
-    "en": "Outlet pressure at Hebei Pinjin Machinery in Xingtai is page-specific. Electric 20 prints 10 MPa. Electric 15 prints none. LZ-80 prints two limits. The inquiry should show which cell you mean.",
-    "zh": "河北品锦机械在邢台的出口压力按页区分。电动20印 10 MPa。电动15不印。LZ-80 印两个上限。询盘应写明你指的是哪一格。"
+    "en": "concrete pump pressure cell on the inquiry at /products/electric-20-concrete-pump. Diesel 40 is 25 MPa Electric 60 is 35 MPa",
+    "zh": "从你订的邢台页面抄压力格见 /products/electric-20-concrete-pump。液压喷涂机印 8 MPa。电动60是 35 MPa。"
   },
   "h1": {
-    "en": "The Pressure Figure on the Order Is the Printed Cell",
-    "zh": "订单上的压力数字就是印出的那一格"
+    "en": "Keep concrete pump pressure cell on the inquiry under “Air Cylinder - Pressure/Force Diagram” without new ratings",
+    "zh": "在「空气 缸 - 压力/力 图」下保留从你订的邢台页面抄压力格，不另写额定值"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints maximum outlet pressure or pumping pressure on most trailer pages and omits it on Electric 15. Electric 20 is 10 MPa. Electric Low Pressure 40 and Electric 30 and Diesel 30 are 20 MPa. Electric 40 is 23 MPa. Diesel 40 is 25 MPa. Electric 50 and Diesel 50 and Electric Low Pressure 60 are 30 MPa. Electric 60 is 35 MPa. Electric 80, HBT80-16, HBT8018 and Diesel 120 are 40 MPa. Copy the cell from the path you name.",
-    "zh": "河北品锦机械（邢台）在大多数拖泵页印最大出口压力或泵送压力，电动15不印。电动20是 10 MPa。电动低压40、电动30和柴油30是 20 MPa。电动40是 23 MPa。柴油40是 25 MPa。电动50、柴油50和电动低压60是 30 MPa。电动60是 35 MPa。电动80、HBT80-16、HBT8018 和柴油120是 40 MPa。从你点名的路径抄这一格。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for concrete pump pressure cell on the inquiry. The row to open is /products/electric-20-concrete-pump. Diesel 40 is 25 MPa. Electric 60 is 35 MPa. Electric 40 is 23 MPa. Electric 20 is 10 MPa. Type 511 prints 3–5 MPa. Hydraulic sprayers print 8 MPa. Do not insert 10 MPa from Electric 20. Low pressure is ≤ 22 MPa with output ≤ 95 m³/h. High pressure is ≤ 35 MPa with output ≤ 65 m³/h. An order that says only “35 MPa” has not chosen the mode. Electric 80, HBT80-16, HBT8018 and Diesel 120 are 40 MPa. Electric 50 and Diesel 50 and Electric Low Pressure 60 are 30 MPa. Electric Low Pressure 40 and Electric 30 and Diesel 30 are 20 MPa. Electric 80, HBT80-16, HBT8018 and Diesel 120 each print 40 MPa with different other cells. The Electric 15 specification list has motor, output, two distances, aggregate, pipe, dimensions and weight. Hebei Pinjin Machinery in Xingtai prints maximum outlet pressure or pumping pressure on most trailer pages and omits it on Electric 15. The section title “Single Acting Cylinder” comes from the source page and does not add a rating.",
+    "zh": "河北品锦机械在邢台印出的是从你订的邢台页面抄压力格的数字。要打开的行是 /products/electric-20-concrete-pump。液压喷涂机印 8 MPa。电动60是 35 MPa。柴油40是 25 MPa。电动40是 23 MPa。电动20是 10 MPa。511 印 3–5 MPa。不要从电动20填入 10 MPa。只写“35 MPa”的订单还没有选定模式。电动50、柴油50和电动低压60是 30 MPa。电动低压40、电动30和柴油30是 20 MPa。低压是 ≤ 22 MPa，输送量 ≤ 95 m³/h。高压是 ≤ 35 MPa，输送量 ≤ 65 m³/h。电动15的规格列表有电机、输送量、两个距离、骨料、管径、外形和重量。电动80、HBT80-16、HBT8018 和柴油120是 40 MPa。河北品锦机械（邢台）在大多数拖泵页印最大出口压力或泵送压力，电动15不印。电动80、HBT80-16、HBT8018 和柴油120都印 40 MPa，其他格子不同。节标题「单 作用 缸」来自来源页，不另加额定值。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Two pressures on LZ-80",
-        "zh": "LZ-80 上的两个压力"
+        "en": "Single Acting Cylinder",
+        "zh": "单 作用 缸"
       },
       "body": {
-        "en": "High pressure is ≤ 35 MPa with output ≤ 65 m³/h. Low pressure is ≤ 22 MPa with output ≤ 95 m³/h. An order that says only “35 MPa” has not chosen the mode.",
-        "zh": "高压是 ≤ 35 MPa，输送量 ≤ 65 m³/h。低压是 ≤ 22 MPa，输送量 ≤ 95 m³/h。只写“35 MPa”的订单还没有选定模式。"
+        "en": "concrete pump pressure cell on the inquiry is unchanged by the heading “Single Acting Cylinder”. Diesel 40 is 25 MPa. Electric 20 is 10 MPa. Do not insert 10 MPa from Electric 20. An order that says only “35 MPa” has not chosen the mode. Electric Low Pressure 40 and Electric 30 and Diesel 30 are 20 MPa. Hebei Pinjin Machinery in Xingtai prints maximum outlet pressure or pumping pressure on most trailer pages and omits it on Electric 15.",
+        "zh": "从你订的邢台页面抄压力格不因标题「单 作用 缸」而改动。柴油40是 25 MPa。电动20是 10 MPa。不要从电动20填入 10 MPa。只写“35 MPa”的订单还没有选定模式。电动低压40、电动30和柴油30是 20 MPa。河北品锦机械（邢台）在大多数拖泵页印最大出口压力或泵送压力，电动15不印。"
       }
     },
     {
       "heading": {
-        "en": "Electric 15 has no pressure to copy",
-        "zh": "电动15没有压力可抄"
+        "en": "Air Cylinder - Pressure/Force Diagram",
+        "zh": "空气 缸 - 压力/力 图"
       },
       "body": {
-        "en": "The Electric 15 specification list has motor, output, two distances, aggregate, pipe, dimensions and weight. Pressure is absent. Do not insert 10 MPa from Electric 20.",
-        "zh": "电动15的规格列表有电机、输送量、两个距离、骨料、管径、外形和重量。没有压力。不要从电动20填入 10 MPa。"
+        "en": "This section is titled “Air Cylinder - Pressure/Force Diagram”. concrete pump pressure cell on the inquiry still prints the cells below. Electric 60 is 35 MPa. Type 511 prints 3–5 MPa. Low pressure is ≤ 22 MPa with output ≤ 95 m³/h. Electric 80, HBT80-16, HBT8018 and Diesel 120 are 40 MPa. Electric 80, HBT80-16, HBT8018 and Diesel 120 each print 40 MPa with different other cells.",
+        "zh": "本节标题是「空气 缸 - 压力/力 图」。从你订的邢台页面抄压力格下面这些格子仍是印出来的。电动60是 35 MPa。511 印 3–5 MPa。低压是 ≤ 22 MPa，输送量 ≤ 95 m³/h。电动80、HBT80-16、HBT8018 和柴油120是 40 MPa。电动80、HBT80-16、HBT8018 和柴油120都印 40 MPa，其他格子不同。"
       }
     },
     {
       "heading": {
-        "en": "Sprayer pressures are not trailer pressures",
-        "zh": "喷涂机压力不是拖泵压力"
+        "en": "Double Acting Cylinder",
+        "zh": "双 作用 缸"
       },
       "body": {
-        "en": "Hydraulic sprayers print 8 MPa. Type 511 prints 3–5 MPa. Those rows are spraying machines. A trailer order uses the trailer cell. Ask [/en/contact/](/en/contact/) to quote the path.",
-        "zh": "液压喷涂机印 8 MPa。511 印 3–5 MPa。那些行是喷涂机。拖泵订单用拖泵的格子。请 [/zh/contact/](/zh/contact/) 对路径报价。"
+        "en": "Under “Double Acting Cylinder”, concrete pump pressure cell on the inquiry contributes only the printed cells in this part. Electric 40 is 23 MPa. Hydraulic sprayers print 8 MPa. High pressure is ≤ 35 MPa with output ≤ 65 m³/h. Electric 50 and Diesel 50 and Electric Low Pressure 60 are 30 MPa. The Electric 15 specification list has motor, output, two distances, aggregate, pipe, dimensions and weight. The photograph is an image from the source page https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html.",
+        "zh": "在「双 作用 缸」下，从你订的邢台页面抄压力格这一节只放已印出的格子。电动40是 23 MPa。液压喷涂机印 8 MPa。高压是 ≤ 35 MPa，输送量 ≤ 65 m³/h。电动50、柴油50和电动低压60是 30 MPa。电动15的规格列表有电机、输送量、两个距离、骨料、管径、外形和重量。配图来自来源页 https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 40 MPa unique to one pump?",
-        "zh": "40 MPa 只属于一台泵吗？"
+        "en": "Does “Single Acting Cylinder” replace Diesel 40 is 25 MPa?",
+        "zh": "「单 作用 缸」会替换「液压喷涂机印 8 MPa。」吗？"
       },
       "answer": {
-        "en": "No. Electric 80, HBT80-16, HBT8018 and Diesel 120 each print 40 MPa with different other cells.",
-        "zh": "不是。电动80、HBT80-16、HBT8018 和柴油120都印 40 MPa，其他格子不同。"
+        "en": "No. Diesel 40 is 25 MPa remains the printed wording for concrete pump pressure cell on the inquiry.",
+        "zh": "不会。液压喷涂机印 8 MPa。仍是从你订的邢台页面抄压力格已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Does higher pressure rewrite distance?",
-        "zh": "更高的压力会改写距离吗？"
+        "en": "Where does Electric 60 is 35 MPa belong on the concrete pump pressure cell on the inquiry row?",
+        "zh": "从你订的邢台页面抄压力格这一行里，「电动60是 35 MPa。」放在哪里？"
       },
       "answer": {
-        "en": "No. Distance stays on its own label. Do not calculate a new metre figure.",
-        "zh": "不会。距离留在它自己的标题上。不要算出一个新米数。"
+        "en": "It belongs on /products/electric-20-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-20-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Is pressure a price factor with a printed coefficient?",
-        "zh": "压力是带有已印系数的价格因素吗？"
+        "en": "What does “Air Cylinder - Pressure/Force Diagram” add to concrete pump pressure cell on the inquiry?",
+        "zh": "「空气 缸 - 压力/力 图」给从你订的邢台页面抄压力格增加了什么？"
       },
       "answer": {
-        "en": "No coefficient is printed. Price is inquiry-only.",
-        "zh": "没有印系数。价格只通过询盘。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "What do I send if I do not know pressure?",
-        "zh": "如果我不知道压力，发什么？"
+        "en": "Which path names the concrete pump pressure cell on the inquiry row?",
+        "zh": "哪条路径对应从你订的邢台页面抄压力格这一行？"
       },
       "answer": {
-        "en": "Send the path and the site distances. Do not invent an MPa the page does not show.",
-        "zh": "发送路径和现场距离。不要编造页面没有的 MPa。"
+        "en": "/products/electric-20-concrete-pump",
+        "zh": "/products/electric-20-concrete-pump"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-electric-80-pressure-cell-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-pressure-cell-before-the-quote-15561b72.png",
     "alt": {
-      "en": "Electric 80 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "电动80型混凝土泵，由河北品锦机械厂家制造，邢台"
+      "en": "Pneumatic Cylinder - Excerted Force vs. Pressure. Image from the source page: https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html.",
+      "zh": "Pneumatic Cylinder - Excerted Force vs. Pressure。图来自来源页：https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +125,8 @@
     "https://pinjinpump.com/en/products/diesel-120-concrete-pump/",
     "https://pinjinpump.com/zh/products/diesel-120-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/pneumatic-cylinder-force-d_1273.html"
   ],
   "status": "ready"
 }

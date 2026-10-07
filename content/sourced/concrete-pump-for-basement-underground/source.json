@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump for Basement and Underground Placement",
-  "seoTitle": "Concrete Pump for Basement Underground | Pinjin Xingtai",
-  "description": "Alibaba buying guides mention mini pumps for basement and indoor pours. Pinjin Electric 15 is 450 kg, 1900×900×1200 mm; B500S is 280 kg. Catalogue vertical metres are not a basement ventilation or confined-space spec. Match the listed row, then inquire.",
+  "title": "Basement — Design and structural considerations / Drainage considerations / Basement culture and finishings / Real estate floorspace measures",
+  "seoTitle": "Basement — Design and structural considerations",
+  "description": "“Design and structural considerations” is not a substitute specification. concrete pump for basement stays the printed row. Printed cells already on this page: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
   "primaryKeyword": "concrete pump for basement",
   "secondaryKeywords": [
     "underground concrete pump",
@@ -52,13 +52,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Alibaba’s concrete-pump buying guide and mini-pump listings mention basement, indoor and restricted-access pours as a marketplace observation. Pinjin’s compact listed rows: [Electric 15](/products/electric-15-concrete-pump/) 450 kg, 1900×900×1200 mm, 15 kW, 8–10 m³/h, 60–80 m horizontal / 15–20 m vertical; [B500S](/products/b500s-83d-two-stage-pump/) 280 kg, 5 m / 5 m, 7.5 kW. Those cells are factory dimensions and catalogue distances, not a basement ventilation rate, not a confined-space certificate, and not a diesel-in-cellar recommendation. Electric 15 is 380V 50Hz three-phase. Diesel rows belong outdoors with exhaust — see the diesel no-electricity article.",
-    "who": "Buyers pouring a basement slab or underground room who can measure door width, lift capacity and whether three-phase power exists on site.",
+    "what": "“Design and structural considerations” is not a substitute specification. concrete pump for basement stays the printed row. Printed cells already on this page: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+    "who": "Readers checking concrete pump for basement against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Measure door, corridor and lift against printed L×W×H and weight",
-      "Electric 15 needs 380V 50Hz three-phase; B500S-83D is 7.5 kW — not a diesel cellar spec",
-      "Catalogue 15–20 m vertical on Electric 15 is a listed distance, not a basement-floor count",
-      "Pinjin does not publish a confined-space or underground-ventilation rating"
+      "1900×900×1200 mm",
+      "915 × 550 × 550 mm",
+      "2800 × 1300 × 1500 mm",
+      "8–10 m³/h",
+      "60–80 m",
+      "15–20 m"
     ],
     "relatedModels": [
       "electric-15-concrete-pump",
@@ -68,24 +70,25 @@
   },
   "faqs": [
     {
-      "question": "Is Electric 15 a certified confined-space basement pump?",
-      "answer": "No such certificate is printed. Electric 15 is 450 kg, 1900×900×1200 mm, 15 kW, 380V 50Hz. Those are catalogue cells. We do not publish a ventilation rate or underground rating. Measure the opening and the lift, then inquire with the slug."
+      "question": "Does “Design and structural considerations” add a cell to concrete pump for basement?",
+      "answer": "No. What we do print: - Electric 15: 15 kW, 8–10 m³/h, 380V 50Hz, 60–80 m / 15–20 m, pipe 100–125 mm, 450 kg, 1900×900×1200 mm."
     },
     {
-      "question": "Can I run a diesel trailer pump in a closed basement?",
-      "answer": "Pinjin does not publish an indoor-diesel or basement-exhaust spec. Diesel rows are listed with engine power and catalogue distances. Exhaust and air-change rules are site and local-code, not a Xingtai cell. If the site has three-phase power, start from Electric 15 or Electric 20 instead of assuming a diesel cellar setup."
-    },
-    {
-      "question": "Is B500S enough for a basement slab?",
-      "answer": "B500S lists 280 kg, 7.5 kW, 5 m horizontal / 5 m vertical, sand and small stone 5–16 mm (no m³/h cell on this row). That is a fine-stone / mortar-range row, not a coarse-stone basement-slab guarantee. If the mix and distance exceed those cells, look at Electric 15 (8–10 m³/h, 60–80 m / 15–20 m) and send mix photos — we will not invent a cubic-metre basement yield."
+      "question": "Can “Drainage considerations” fill a blank cell for concrete pump for basement?",
+      "answer": "No. Blank cells for concrete pump for basement stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-15-concrete-pump/main.webp",
-    "alt": "Electric 15 compact trailer concrete pump 450 kg 1900 by 900 by 1200 mm from Hebei Pinjin Machinery Xingtai for restricted access",
-    "caption": "Electric 15 — 450 kg, 1900×900×1200 mm, 15 kW. Catalogue size, not a basement certificate."
+    "src": "/images/articles/concrete-pump-for-basement-underground/Crawl-space-inside.jpg",
+    "alt": "Figure from the source page about Basement",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Basement"
   },
   "sources": [
+    {
+      "name": "Basement (source page)",
+      "url": "https://en.wikipedia.org/wiki/Basement",
+      "type": "industry"
+    },
     {
       "name": "Alibaba buying guide: concrete pump machine (mini / indoor observation)",
       "url": "https://smartbuy.alibaba.com/buyingguides/concrete-pump-machine",
@@ -115,9 +118,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "地下室与地下浇筑用混凝土泵",
-      "description": "Alibaba 选购指南提到小型泵用于地下室。电动15为450 kg、1900×900×1200 mm；B500S-83D 为280 kg、7.5 kW。目录垂直米不是通风或受限空间规格。",
-      "imageAlt": "电动15 compact trailer concrete pump 450 kg 1900 by 900 by 1200 mm from 河北品锦机械 邢台 for restricted access",
+      "title": "地下室与地下浇筑用混凝土泵：Basement（Design and structural considerations / Drainage considerations / Basement culture and finishings / Real estate floorspace measures）",
+      "description": "「Design and structural considerations」不能代替规格。地下室与地下浇筑用混凝土泵维持已印的那一行。本页已经印出的读数：1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm。",
+      "imageAlt": "来源页插图：Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Mini concrete pump for narrow access",
@@ -125,36 +128,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Alibaba’s concrete-pump buying guide and mini-pump listings mention 地下室, indoor and restricted-access pours as a 平台观察. 品锦’s compact listed rows: [Electric 15](/products/electric-15-concrete-pump/) 450 kg, 1900×900×1200 mm, 15 kW, 8–10 m³/h, 60–80 m 水平 / 15–20 m 垂直; [B500S](/products/b500s-83d-two-stage-pump/) 280 kg, 5 m / 5 m, 7.5 kW. Those cells are factory dimensions and catalogue distances, not a 地下室 ventilation rate, not a 受限空间 certificate, and not a diesel-in-cellar recommendation. 电动15 is 380V 50Hz 三相. Diesel rows belong outdoors with exhaust — see the diesel no-electricity article.",
-        "who": "Buyers pouring a 地下室 slab or 地下 room who can measure door width, lift capacity and whether 三相 power exists on site.",
+        "what": "「Design and structural considerations」不能代替规格。地下室与地下浇筑用混凝土泵维持已印的那一行。本页已经印出的读数：1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm。",
+        "who": "想把地下室与地下浇筑用混凝土泵和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Measure door, corridor and lift against printed L×W×H and weight",
-          "电动15 needs 380V 50Hz 三相; B500S-83D is 7.5 kW — not a diesel cellar spec",
-          "Catalogue 15–20 m 垂直 on 电动15 is a listed distance, not a 地下室-floor count",
-          "品锦 does not publish a 受限空间 or 地下-ventilation rating"
+          "1900×900×1200 mm",
+          "915 × 550 × 550 mm",
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m"
         ]
       },
-      "seoTitle": "地下室地下浇筑混凝土泵 | 品锦邢台",
-      "imageCaption": "电动15 — 450 kg, 1900×900×1200 mm, 15 kW. Catalogue size, not a 地下室 certificate.",
+      "seoTitle": "Basement：Design and structural considerations",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Is 电动15 a certified 受限空间 地下室 pump?",
-          "answer": "No such certificate is printed. 电动15 is 450 kg, 1900×900×1200 mm, 15 kW, 380V 50Hz. Those are 目录单元格. We do not publish a ventilation rate or 地下 rating. Measure the opening and the lift, then inquire with the slug."
+          "question": "「Design and structural considerations」会给地下室与地下浇筑用混凝土泵增加单元格吗？",
+          "answer": "不会。Alibaba 选购指南和小型泵列表会提到地下室、室内和受限通道浇筑。那是平台观察。河北品锦机械不印“地下室机型”名称，也不印受限空间证书。"
         },
         {
-          "question": "Can I run a diesel 拖式泵 in a closed 地下室?",
-          "answer": "品锦 does not publish an indoor-diesel or 地下室-exhaust spec. Diesel rows are listed with engine power and catalogue distances. Exhaust and air-change rules are site and local-code, not a 邢台 cell. If the site has 三相 power, start from 电动15 or 电动20 instead of assuming a diesel cellar setup."
-        },
-        {
-          "question": "Is B500S enough for a 地下室 slab?",
-          "answer": "B500S lists 280 kg, 7.5 kW, 5 m 水平 / 5 m 垂直, sand and small stone 5–16 mm (no m³/h cell on this row). That is a 细石 / mortar-range row, not a coarse-stone 地下室-slab guarantee. If the mix and distance exceed those cells, look at 电动15 (8–10 m³/h, 60–80 m / 15–20 m) and send mix photos — we will not invent a cubic-metre 地下室 yield."
+          "question": "「Drainage considerations」能补上地下室与地下浇筑用混凝土泵的空白格吗？",
+          "answer": "不能。地下室与地下浇筑用混凝土泵没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump for Basement and Underground Placement",
-      "description": "Alibaba buying guides mention mini pumps for porão and indoor pours. Pinjin Electric 15 is 450 kg, 1900×900×1200 mm; B500S is 280 kg. Catalogue vertical metres are not a porão ventilation or espaço confinado spec. Match the listed row, then inquire.",
-      "imageAlt": "Electric 15 compact trailer concrete pump 450 kg 1900 by 900 by 1200 mm from Hebei Pinjin Machinery Xingtai for restricted access",
+      "title": "Concrete Pump for Basement and Underground Placement: Basement — Design and structural considerations / Drainage considerations / Basement culture and finishings / Real estate floorspace measures",
+      "description": "“Design and structural considerations” não substitui uma especificação. Concrete Pump for Basement and Underground Placement mantém a linha impressa. Valores já impressos nesta página: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+      "imageAlt": "Figura da página de origem sobre Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Mini concrete pump for narrow access",
@@ -162,36 +163,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Alibaba’s concrete-pump buying guide and mini-pump listings mention porão, indoor and restricted-access pours as a observação de marketplace. Pinjin’s compact listed rows: [Electric 15](/products/electric-15-concrete-pump/) 450 kg, 1900×900×1200 mm, 15 kW, 8–10 m³/h, 60–80 m horizontal / 15–20 m vertical; [B500S](/products/b500s-83d-two-stage-pump/) 280 kg, 5 m / 5 m, 7.5 kW. Those cells are factory dimensions and catalogue distances, not a porão ventilation rate, not a espaço confinado certificate, and not a diesel-in-cellar recommendation. Electric 15 is 380V 50Hz trifásico. Diesel rows belong outdoors with exhaust — see the diesel no-electricity article.",
-        "who": "Buyers pouring a porão slab or subterrâneo room who can measure door width, lift capacity and whether trifásico power exists on site.",
+        "what": "“Design and structural considerations” não substitui uma especificação. Concrete Pump for Basement and Underground Placement mantém a linha impressa. Valores já impressos nesta página: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+        "who": "Leitores que comparam Concrete Pump for Basement and Underground Placement com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Measure door, corridor and lift against printed L×W×H and weight",
-          "Electric 15 needs 380V 50Hz trifásico; B500S-83D is 7.5 kW — not a diesel cellar spec",
-          "Catalogue 15–20 m vertical on Electric 15 is a listed distance, not a porão-floor count",
-          "Pinjin does not publish a espaço confinado or subterrâneo-ventilation rating"
+          "1900×900×1200 mm",
+          "915 × 550 × 550 mm",
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m"
         ]
       },
-      "seoTitle": "Concrete Pump for Basement Underground | Pinjin Xingtai",
-      "imageCaption": "Electric 15 — 450 kg, 1900×900×1200 mm, 15 kW. Catalogue size, not a porão certificate.",
+      "seoTitle": "Basement — Design and structural considerations",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Is Electric 15 a certified espaço confinado porão pump?",
-          "answer": "No such certificate is printed. Electric 15 is 450 kg, 1900×900×1200 mm, 15 kW, 380V 50Hz. Those are células de catálogo. We do not publish a ventilation rate or subterrâneo rating. Measure the opening and the lift, then inquire with the slug."
+          "question": "“Design and structural considerations” acrescenta uma casa a Concrete Pump for Basement and Underground Placement?",
+          "answer": "Não. Valores já impressos nesta página: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm."
         },
         {
-          "question": "Can I run a diesel bomba reboque in a closed porão?",
-          "answer": "Pinjin does not publish an indoor-diesel or porão-exhaust spec. Diesel rows are listed with engine power and catalogue distances. Exhaust and air-change rules are site and local-code, not a Xingtai cell. If the site has trifásico power, start from Electric 15 or Electric 20 instead of assuming a diesel cellar setup."
-        },
-        {
-          "question": "Is B500S enough for a porão slab?",
-          "answer": "B500S lists 280 kg, 7.5 kW, 5 m horizontal / 5 m vertical, sand and small stone 5–16 mm (no m³/h cell on this row). That is a pedra fina / mortar-range row, not a coarse-stone porão-slab guarantee. If the mix and distance exceed those cells, look at Electric 15 (8–10 m³/h, 60–80 m / 15–20 m) and send mix photos — we will not invent a cubic-metre porão yield."
+          "question": "“Drainage considerations” pode preencher uma casa em branco de Concrete Pump for Basement and Underground Placement?",
+          "answer": "Não. As casas em branco de Concrete Pump for Basement and Underground Placement continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump for Basement and Underground Placement",
-      "description": "Alibaba buying guides mention mini pumps for قبو and indoor pours. Pinjin Electric 15 is 450 kg, 1900×900×1200 mm; B500S is 280 kg. Catalogue عمودي metres are not a قبو ventilation or مكان محصور spec. Match the listed row, then inquire.",
-      "imageAlt": "Electric 15 compact trailer concrete pump 450 kg 1900 by 900 by 1200 mm from Hebei Pinjin Machinery شينغتاي for restricted access",
+      "title": "Concrete Pump for Basement and Underground Placement: Basement — Design and structural considerations / Drainage considerations / Basement culture and finishings / Real estate floorspace measures",
+      "description": "«Design and structural considerations» لا يحل محل مواصفة. يبقى Concrete Pump for Basement and Underground Placement على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Mini concrete pump for narrow access",
@@ -199,36 +198,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Alibaba’s concrete-pump buying guide and mini-pump listings mention قبو, indoor and restricted-access pours as a ملاحظة من السوق. Pinjin’s compact listed rows: [Electric 15](/products/electric-15-concrete-pump/) 450 kg, 1900×900×1200 mm, 15 kW, 8–10 m³/h, 60–80 m أفقي / 15–20 m عمودي; [B500S](/products/b500s-83d-two-stage-pump/) 280 kg, 5 m / 5 m, 7.5 kW. Those cells are factory dimensions and catalogue distances, not a قبو ventilation rate, not a مكان محصور certificate, and not a diesel-in-cellar recommendation. Electric 15 is 380V 50Hz ثلاثي الطور. Diesel rows belong outdoors with exhaust — see the diesel no-electricity article.",
-        "who": "Buyers pouring a قبو slab or تحت الأرض room who can measure door width, lift capacity and whether ثلاثي الطور power exists on site.",
+        "what": "«Design and structural considerations» لا يحل محل مواصفة. يبقى Concrete Pump for Basement and Underground Placement على الصف المطبوع. قيم مطبوعة أصلًا في هذه الصفحة: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+        "who": "قرّاء يقارنون Concrete Pump for Basement and Underground Placement بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Measure door, corridor and lift against printed L×W×H and weight",
-          "Electric 15 needs 380V 50Hz ثلاثي الطور; B500S-83D is 7.5 kW — not a diesel cellar spec",
-          "Catalogue 15–20 m عمودي on Electric 15 is a listed distance, not a قبو-floor count",
-          "Pinjin does not publish a مكان محصور or تحت الأرض-ventilation rating"
+          "1900×900×1200 mm",
+          "915 × 550 × 550 mm",
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m"
         ]
       },
-      "seoTitle": "Concrete Pump for Basement Underground | Pinjin شينغتاي",
-      "imageCaption": "Electric 15 — 450 kg, 1900×900×1200 mm, 15 kW. Catalogue size, not a قبو certificate.",
+      "seoTitle": "Basement — Design and structural considerations",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Is Electric 15 a certified مكان محصور قبو pump?",
-          "answer": "No such certificate is printed. Electric 15 is 450 kg, 1900×900×1200 mm, 15 kW, 380V 50Hz. Those are خلايا الكتالوج. We do not publish a ventilation rate or تحت الأرض rating. Measure the opening and the lift, then inquire with the slug."
+          "question": "هل يضيف «Design and structural considerations» خانة إلى Concrete Pump for Basement and Underground Placement؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm."
         },
         {
-          "question": "Can I run a diesel مضخة مقطورة in a closed قبو?",
-          "answer": "Pinjin does not publish an indoor-diesel or قبو-exhaust spec. Diesel rows are listed with engine power and catalogue distances. Exhaust and air-change rules are site and local-code, not a شينغتاي cell. If the site has ثلاثي الطور power, start from Electric 15 or Electric 20 instead of assuming a diesel cellar setup."
-        },
-        {
-          "question": "Is B500S enough for a قبو slab?",
-          "answer": "B500S lists 280 kg, 7.5 kW, 5 m أفقي / 5 m عمودي, sand and small stone 5–16 mm (no m³/h cell on this row). That is a حصى ناعم / mortar-range row, not a coarse-stone قبو-slab guarantee. If the mix and distance exceed those cells, look at Electric 15 (8–10 m³/h, 60–80 m / 15–20 m) and send mix photos — we will not invent a cubic-metre قبو yield."
+          "question": "هل يستطيع «Drainage considerations» ملء خانة فارغة لـ Concrete Pump for Basement and Underground Placement؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump for Basement and Underground Placement تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump for Basement and Underground Placement",
-      "description": "Alibaba buying guides mention mini pumps for подвал and indoor pours. Pinjin Electric 15 is 450 kg, 1900×900×1200 mm; B500S is 280 kg. Catalogue вертикаль metres are not a подвал ventilation or замкнутое пространство spec. Match the listed row, then inquire.",
-      "imageAlt": "Electric 15 compact trailer concrete pump 450 kg 1900 by 900 by 1200 mm from Hebei Pinjin Machinery Синтай for restricted access",
+      "title": "Concrete Pump for Basement and Underground Placement: Basement — Design and structural considerations / Drainage considerations / Basement culture and finishings / Real estate floorspace measures",
+      "description": "“Design and structural considerations” не заменяет характеристику. Concrete Pump for Basement and Underground Placement остаётся напечатанной строкой. Уже напечатанные значения на этой странице: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Mini concrete pump for narrow access",
@@ -236,31 +233,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Alibaba’s concrete-pump buying guide and mini-pump listings mention подвал, indoor and restricted-access pours as a наблюдение маркетплейса. Pinjin’s compact listed rows: [Electric 15](/products/electric-15-concrete-pump/) 450 kg, 1900×900×1200 mm, 15 kW, 8–10 m³/h, 60–80 m горизонталь / 15–20 m вертикаль; [B500S](/products/b500s-83d-two-stage-pump/) 280 kg, 5 m / 5 m, 7.5 kW. Those cells are factory dimensions and catalogue distances, not a подвал ventilation rate, not a замкнутое пространство certificate, and not a diesel-in-cellar recommendation. Electric 15 is 380V 50Hz трёхфазный. Diesel rows belong outdoors with exhaust — see the diesel no-electricity article.",
-        "who": "Buyers pouring a подвал slab or подземный room who can measure door width, lift capacity and whether трёхфазный power exists on site.",
+        "what": "“Design and structural considerations” не заменяет характеристику. Concrete Pump for Basement and Underground Placement остаётся напечатанной строкой. Уже напечатанные значения на этой странице: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm.",
+        "who": "Читатели, которые сверяют Concrete Pump for Basement and Underground Placement со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Measure door, corridor and lift against printed L×W×H and weight",
-          "Electric 15 needs 380V 50Hz трёхфазный; B500S-83D is 7.5 kW — not a diesel cellar spec",
-          "Catalogue 15–20 m вертикаль on Electric 15 is a listed distance, not a подвал-floor count",
-          "Pinjin does not publish a замкнутое пространство or подземный-ventilation rating"
+          "1900×900×1200 mm",
+          "915 × 550 × 550 mm",
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m"
         ]
       },
-      "seoTitle": "Concrete Pump for Basement Underground | Pinjin Синтай",
-      "imageCaption": "Electric 15 — 450 kg, 1900×900×1200 mm, 15 kW. Catalogue size, not a подвал certificate.",
+      "seoTitle": "Basement — Design and structural considerations",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Is Electric 15 a certified замкнутое пространство подвал pump?",
-          "answer": "No such certificate is printed. Electric 15 is 450 kg, 1900×900×1200 mm, 15 kW, 380V 50Hz. Those are ячейки каталога. We do not publish a ventilation rate or подземный rating. Measure the opening and the lift, then inquire with the slug."
+          "question": "Добавляет ли “Design and structural considerations” клетку к Concrete Pump for Basement and Underground Placement?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 1900×900×1200 mm, 915 × 550 × 550 mm, 2800 × 1300 × 1500 mm, 8–10 m³/h, 60–80 m, 15–20 m, 100–125 mm, 5–16 mm."
         },
         {
-          "question": "Can I run a diesel прицепной насос in a closed подвал?",
-          "answer": "Pinjin does not publish an indoor-diesel or подвал-exhaust spec. Diesel rows are listed with engine power and catalogue distances. Exhaust and air-change rules are site and local-code, not a Синтай cell. If the site has трёхфазный power, start from Electric 15 or Electric 20 instead of assuming a diesel cellar setup."
-        },
-        {
-          "question": "Is B500S enough for a подвал slab?",
-          "answer": "B500S lists 280 kg, 7.5 kW, 5 m горизонталь / 5 m вертикаль, sand and small stone 5–16 mm (no m³/h cell on this row). That is a мелкий камень / mortar-range row, not a coarse-stone подвал-slab guarantee. If the mix and distance exceed those cells, look at Electric 15 (8–10 m³/h, 60–80 m / 15–20 m) and send mix photos — we will not invent a cubic-metre подвал yield."
+          "question": "Может ли “Drainage considerations” заполнить пустую клетку для Concrete Pump for Basement and Underground Placement?",
+          "answer": "Нет. Пустые клетки для Concrete Pump for Basement and Underground Placement остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

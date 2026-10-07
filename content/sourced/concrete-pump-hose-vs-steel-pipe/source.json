@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Hose vs Steel Pipe",
-  "seoTitle": "Concrete Pump Hose vs Steel Pipe | Pinjin Parts",
-  "description": "ACI 304.2R: a given length of hose needs about three times the pressure of the same length of steel, and 1 m hose ≈ 3 m pipe equivalent. Pinjin quotes delivery pipe and delivery hose by pump model. Long runs should be steel; hose is the placing end.",
+  "title": "Steel — Wootz and Damascus / Modern / Carbon / Alloy",
+  "seoTitle": "Steel — Wootz and Damascus",
+  "description": "The source chapter “Wootz and Damascus” stays on that page. concrete pump hose vs steel pipe keeps the row already written here. Printed cells already on this page: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
   "primaryKeyword": "concrete pump hose vs steel pipe",
   "secondaryKeywords": [
     "concrete pump delivery hose",
@@ -54,13 +54,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Steel delivery pipe is the long, rigid line. Rubber placing hose is the flexible end. ACI 304.2R notes that roughly three times more pressure is required through a given length of flexible hose than through the same length of steel, and cites ACPA: 1 m of rubber hose ≈ 3 m of pipe equivalent. Pinjin lists straight delivery pipes and delivery hoses, both quoted by pump model, DN and length — no size table, no list price, no small-batch parcels. DN80 clamps are marked EN14420-3 / PN10/16.",
-    "who": "Crews laying a long trailer pipeline who want to run hose the whole way, or buyers ordering ‘some rubber pipe’ without a DN.",
+    "what": "The source chapter “Wootz and Damascus” stays on that page. concrete pump hose vs steel pipe keeps the row already written here. Printed cells already on this page: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+    "who": "Readers checking concrete pump hose vs steel pipe against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Printed pump distance is not a hose-only budget",
-      "ACI/ACPA equivalent length for hose and elbows",
-      "Quote pipe and hose after model + DN + length",
-      "Remove hose from service when the lining shows reinforcement braiding (ACPA)"
+      "100–125 mm",
+      "60–80 m",
+      "80 mm",
+      "125 mm",
+      "1 m",
+      "3 m"
     ],
     "relatedModels": [
       "concrete-pump-delivery-hose",
@@ -70,24 +72,25 @@
   },
   "faqs": [
     {
-      "question": "Can I use rubber hose for the whole pumping distance?",
-      "answer": "ACPA/ACI: for long distance, use steel for as much of the run as practical; hose at the placing end. A metre of hose is not a metre of steel (about 1 m hose ≈ 3 m pipe equivalent in the ACPA note cited by ACI 304.2R). Pinjin catalogue distances are not ‘hose-only’ guarantees."
+      "question": "Does “Wootz and Damascus” add a cell to concrete pump hose vs steel pipe?",
+      "answer": "No. ACI 304.2R is blunt: about three times more pressure is needed to pump through a given length of flexible hose than through the same length of steel, and a curved hose can straighten under pressure."
     },
     {
-      "question": "Does Pinjin publish hose and pipe diameters on the parts pages?",
-      "answer": "Delivery pipe and delivery hose pages do not print a fixed DN/length table. Diameter and length are quoted after the pump model. The DN80 clamp page is labelled EN14420-3, DN80, PN10/16, 3″/89. Other diameters are quoted against the pipeline. Electric 20 lists 80 mm pipe; Electric 15 and the mixer pump list 100–125 mm / 100 / 125 mm."
-    },
-    {
-      "question": "When should a placing hose be taken out of service?",
-      "answer": "ACPA mechanics guidance: remove hose when the inside lining wears enough to show reinforcement braiding. Pinjin does not publish a replacement-hour table. Photograph the lining with the model slug when you inquire."
+      "question": "Can “Modern” fill a blank cell for concrete pump hose vs steel pipe?",
+      "answer": "No. Blank cells for concrete pump hose vs steel pipe stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/concrete-pump-delivery-hose/concrete-pump-delivery-hose.webp",
-    "alt": "Pinjin concrete pump delivery hoses with steel couplings packed in Xingtai for project quantities",
-    "caption": "Delivery hose — quoted by pump model, DN and length; not a small-batch parcel"
+    "src": "/images/articles/concrete-pump-hose-vs-steel-pipe/Bessemer_Converter_Sheffield.jpg",
+    "alt": "Figure from the source page about Steel",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Steel"
   },
   "sources": [
+    {
+      "name": "Steel (source page)",
+      "url": "https://en.wikipedia.org/wiki/Steel",
+      "type": "industry"
+    },
     {
       "name": "Pinjin concrete pump delivery hose",
       "url": "https://pinjinpump.com/en/products/concrete-pump-delivery-hose/",
@@ -117,9 +120,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Concrete Pump Hose vs Steel Pipe",
-      "description": "ACI 304.2R: a given length of hose needs about three times the pressure of the same length of steel, and 1 m hose ≈ 3 m pipe equivalent. 品锦 quotes 输送管 and 输送胶管 by pump model. Long runs should be steel; hose is the placing end.",
-      "imageAlt": "品锦 concrete pump 输送胶管s with steel couplings packed in 邢台 for project quantities",
+      "title": "Concrete Pump Hose vs Steel Pipe：Steel（Wootz and Damascus / Modern / Carbon / Alloy）",
+      "description": "来源章节「Wootz and Damascus」留在来源页。Concrete Pump Hose vs Steel Pipe仍是这里已经写过的那一行。本页已经印出的读数：100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m。",
+      "imageAlt": "来源页插图：Steel",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -127,36 +130,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Steel 输送管 is the long, rigid line. Rubber placing hose is the flexible end. ACI 304.2R notes that roughly three times more pressure is required through a given length of flexible hose than through the same length of steel, and cites ACPA: 1 m of 橡胶软管 ≈ 3 m of pipe equivalent. 品锦 lists straight 输送管s and 输送胶管s, both quoted by pump model, DN and length — no size table, no list price, no small-batch parcels. DN80 clamps are marked EN14420-3 / PN10/16.",
-        "who": "Crews laying a long trailer pipeline who want to run hose the whole way, or buyers ordering ‘some rubber pipe’ without a DN.",
+        "what": "来源章节「Wootz and Damascus」留在来源页。Concrete Pump Hose vs Steel Pipe仍是这里已经写过的那一行。本页已经印出的读数：100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m。",
+        "who": "想把Concrete Pump Hose vs Steel Pipe和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Printed pump distance is not a hose-only budget",
-          "ACI/ACPA equivalent length for hose and elbows",
-          "Quote pipe and hose after model + DN + length",
-          "Remove hose from service when the lining shows reinforcement braiding (ACPA)"
+          "100–125 mm",
+          "60–80 m",
+          "80 mm",
+          "125 mm",
+          "1 m",
+          "3 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hose vs Steel Pipe | 品锦 Parts",
-      "imageCaption": "Delivery hose — quoted by pump model, DN and length; not a small-batch parcel",
+      "seoTitle": "Steel：Wootz and Damascus",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Steel",
       "faqs": [
         {
-          "question": "Can I use 橡胶软管 for the whole pumping distance?",
-          "answer": "ACPA/ACI: for long distance, use steel for as much of the run as practical; hose at the placing end. A metre of hose is not a metre of steel (about 1 m hose ≈ 3 m pipe equivalent in the ACPA note cited by ACI 304.2R). 品锦 catalogue distances are not ‘hose-only’ guarantees."
+          "question": "「Wootz and Damascus」会给Concrete Pump Hose vs Steel Pipe增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m。"
         },
         {
-          "question": "Does 品锦 publish hose and pipe diameters on the parts pages?",
-          "answer": "输送管 and 输送胶管 pages do not print a fixed DN/length table. Diameter and length are quoted after the pump model. The DN80 clamp page is labelled EN14420-3, DN80, PN10/16, 3″/89. Other diameters are quoted against the pipeline. 电动20 lists 80 mm pipe; 电动15 and the 搅拌泵 list 100–125 mm / 100 / 125 mm."
-        },
-        {
-          "question": "When should a placing hose be taken out of service?",
-          "answer": "ACPA mechanics guidance: remove hose when the inside lining wears enough to show reinforcement braiding. 品锦 does not publish a replacement-hour table. Photograph the lining with the model slug when you inquire."
+          "question": "「Modern」能补上Concrete Pump Hose vs Steel Pipe的空白格吗？",
+          "answer": "不能。Concrete Pump Hose vs Steel Pipe没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Hose vs Steel Pipe",
-      "description": "ACI 304.2R: a given length of hose needs about three times the pressure of the same length of steel, and 1 m hose ≈ 3 m pipe equivalent. Pinjin quotes tubo de entrega and mangueira de entrega by pump model. Long runs should be steel; hose is the placing end.",
-      "imageAlt": "Pinjin concrete pump mangueira de entregas with steel couplings packed in Xingtai for project quantities",
+      "title": "Concrete Pump Hose vs Steel Pipe: Steel — Wootz and Damascus / Modern / Carbon / Alloy",
+      "description": "O capítulo “Wootz and Damascus” fica na página de origem. Concrete Pump Hose vs Steel Pipe continua a ser a linha já escrita aqui. Valores já impressos nesta página: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+      "imageAlt": "Figura da página de origem sobre Steel",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -164,36 +165,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Steel tubo de entrega is the long, rigid line. Rubber placing hose is the flexible end. ACI 304.2R notes that roughly three times more pressure is required through a given length of flexible hose than through the same length of steel, and cites ACPA: 1 m of mangueira de borracha ≈ 3 m of pipe equivalent. Pinjin lists straight tubo de entregas and mangueira de entregas, both quoted by pump model, DN and length — no size table, no list price, no small-batch parcels. DN80 clamps are marked EN14420-3 / PN10/16.",
-        "who": "Crews laying a long trailer pipeline who want to run hose the whole way, or buyers ordering ‘some rubber pipe’ without a DN.",
+        "what": "O capítulo “Wootz and Damascus” fica na página de origem. Concrete Pump Hose vs Steel Pipe continua a ser a linha já escrita aqui. Valores já impressos nesta página: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+        "who": "Leitores que comparam Concrete Pump Hose vs Steel Pipe com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Printed pump distance is not a hose-only budget",
-          "ACI/ACPA equivalent length for hose and elbows",
-          "Quote pipe and hose after model + DN + length",
-          "Remove hose from service when the lining shows reinforcement braiding (ACPA)"
+          "100–125 mm",
+          "60–80 m",
+          "80 mm",
+          "125 mm",
+          "1 m",
+          "3 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hose vs Steel Pipe | Pinjin Parts",
-      "imageCaption": "Delivery hose — quoted by pump model, DN and length; not a small-batch parcel",
+      "seoTitle": "Steel — Wootz and Damascus",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Steel",
       "faqs": [
         {
-          "question": "Can I use mangueira de borracha for the whole pumping distance?",
-          "answer": "ACPA/ACI: for long distance, use steel for as much of the run as practical; hose at the placing end. A metre of hose is not a metre of steel (about 1 m hose ≈ 3 m pipe equivalent in the ACPA note cited by ACI 304.2R). Pinjin catalogue distances are not ‘hose-only’ guarantees."
+          "question": "“Wootz and Damascus” acrescenta uma casa a Concrete Pump Hose vs Steel Pipe?",
+          "answer": "Não. Valores já impressos nesta página: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m."
         },
         {
-          "question": "Does Pinjin publish hose and pipe diameters on the parts pages?",
-          "answer": "Tubo de entrega and mangueira de entrega pages do not print a fixed DN/length table. Diameter and length are quoted after the pump model. The DN80 clamp page is labelled EN14420-3, DN80, PN10/16, 3″/89. Other diameters are quoted against the pipeline. Electric 20 lists 80 mm pipe; Electric 15 and the bomba misturadora list 100–125 mm / 100 / 125 mm."
-        },
-        {
-          "question": "When should a placing hose be taken out of service?",
-          "answer": "ACPA mechanics guidance: remove hose when the inside lining wears enough to show reinforcement braiding. Pinjin does not publish a replacement-hour table. Photograph the lining with the model slug when you inquire."
+          "question": "“Modern” pode preencher uma casa em branco de Concrete Pump Hose vs Steel Pipe?",
+          "answer": "Não. As casas em branco de Concrete Pump Hose vs Steel Pipe continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Hose vs Steel Pipe",
-      "description": "ACI 304.2R: a given length of hose needs about three times the pressure of the same length of steel, and 1 m hose ≈ 3 m pipe equivalent. Pinjin quotes أنبوب النقل and خرطوم النقل by pump model. Long runs should be steel; hose is the placing end.",
-      "imageAlt": "Pinjin concrete pump خرطوم النقلs with steel couplings packed in شينغتاي for project quantities",
+      "title": "Concrete Pump Hose vs Steel Pipe: Steel — Wootz and Damascus / Modern / Carbon / Alloy",
+      "description": "يبقى الفصل «Wootz and Damascus» في صفحة المصدر. Concrete Pump Hose vs Steel Pipe هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+      "imageAlt": "صورة من صفحة المصدر عن Steel",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -201,36 +200,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Steel أنبوب النقل is the long, rigid line. Rubber placing hose is the flexible end. ACI 304.2R notes that roughly three times more pressure is required through a given length of flexible hose than through the same length of steel, and cites ACPA: 1 m of خرطوم مطاطي ≈ 3 m of pipe equivalent. Pinjin lists straight أنبوب النقلs and خرطوم النقلs, both quoted by pump model, DN and length — no size table, no list price, no small-batch parcels. DN80 clamps are marked EN14420-3 / PN10/16.",
-        "who": "Crews laying a long trailer pipeline who want to run hose the whole way, or buyers ordering ‘some rubber pipe’ without a DN.",
+        "what": "يبقى الفصل «Wootz and Damascus» في صفحة المصدر. Concrete Pump Hose vs Steel Pipe هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+        "who": "قرّاء يقارنون Concrete Pump Hose vs Steel Pipe بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Printed pump distance is not a hose-only budget",
-          "ACI/ACPA equivalent length for hose and elbows",
-          "Quote pipe and hose after model + DN + length",
-          "Remove hose from service when the lining shows reinforcement braiding (ACPA)"
+          "100–125 mm",
+          "60–80 m",
+          "80 mm",
+          "125 mm",
+          "1 m",
+          "3 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hose vs Steel Pipe | Pinjin Parts",
-      "imageCaption": "Delivery hose — quoted by pump model, DN and length; not a small-batch parcel",
+      "seoTitle": "Steel — Wootz and Damascus",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Steel",
       "faqs": [
         {
-          "question": "Can I use خرطوم مطاطي for the whole pumping distance?",
-          "answer": "ACPA/ACI: for long distance, use steel for as much of the run as practical; hose at the placing end. A metre of hose is not a metre of steel (about 1 m hose ≈ 3 m pipe equivalent in the ACPA note cited by ACI 304.2R). Pinjin catalogue distances are not ‘hose-only’ guarantees."
+          "question": "هل يضيف «Wootz and Damascus» خانة إلى Concrete Pump Hose vs Steel Pipe؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m."
         },
         {
-          "question": "Does Pinjin publish hose and pipe diameters on the parts pages?",
-          "answer": "أنبوب النقل and خرطوم النقل pages do not print a fixed DN/length table. Diameter and length are quoted after the pump model. The DN80 clamp page is labelled EN14420-3, DN80, PN10/16, 3″/89. Other diameters are quoted against the pipeline. Electric 20 lists 80 mm pipe; Electric 15 and the مضخة خلاط list 100–125 mm / 100 / 125 mm."
-        },
-        {
-          "question": "When should a placing hose be taken out of service?",
-          "answer": "ACPA mechanics guidance: remove hose when the inside lining wears enough to show reinforcement braiding. Pinjin does not publish a replacement-hour table. Photograph the lining with the model slug when you inquire."
+          "question": "هل يستطيع «Modern» ملء خانة فارغة لـ Concrete Pump Hose vs Steel Pipe؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Hose vs Steel Pipe تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Hose vs Steel Pipe",
-      "description": "ACI 304.2R: a given length of hose needs about three times the pressure of the same length of steel, and 1 m hose ≈ 3 m pipe equivalent. Pinjin quotes бетоновод and рукав подачи by pump model. Long runs should be steel; hose is the placing end.",
-      "imageAlt": "Pinjin concrete pump рукав подачиs with steel couplings packed in Синтай for project quantities",
+      "title": "Concrete Pump Hose vs Steel Pipe: Steel — Wootz and Damascus / Modern / Carbon / Alloy",
+      "description": "Глава “Wootz and Damascus” остаётся на странице-источнике. Concrete Pump Hose vs Steel Pipe — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+      "imageAlt": "Иллюстрация со страницы-источника: Steel",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -238,31 +235,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Steel бетоновод is the long, rigid line. Rubber placing hose is the flexible end. ACI 304.2R notes that roughly three times more pressure is required through a given length of flexible hose than through the same length of steel, and cites ACPA: 1 m of резиновый рукав ≈ 3 m of pipe equivalent. Pinjin lists straight бетоноводs and рукав подачиs, both quoted by pump model, DN and length — no size table, no list price, no small-batch parcels. DN80 clamps are marked EN14420-3 / PN10/16.",
-        "who": "Crews laying a long trailer pipeline who want to run hose the whole way, or buyers ordering ‘some rubber pipe’ without a DN.",
+        "what": "Глава “Wootz and Damascus” остаётся на странице-источнике. Concrete Pump Hose vs Steel Pipe — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m.",
+        "who": "Читатели, которые сверяют Concrete Pump Hose vs Steel Pipe со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Printed pump distance is not a hose-only budget",
-          "ACI/ACPA equivalent length for hose and elbows",
-          "Quote pipe and hose after model + DN + length",
-          "Remove hose from service when the lining shows reinforcement braiding (ACPA)"
+          "100–125 mm",
+          "60–80 m",
+          "80 mm",
+          "125 mm",
+          "1 m",
+          "3 m"
         ]
       },
-      "seoTitle": "Concrete Pump Hose vs Steel Pipe | Pinjin Parts",
-      "imageCaption": "Delivery hose — quoted by pump model, DN and length; not a small-batch parcel",
+      "seoTitle": "Steel — Wootz and Damascus",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Steel",
       "faqs": [
         {
-          "question": "Can I use резиновый рукав for the whole pumping distance?",
-          "answer": "ACPA/ACI: for long distance, use steel for as much of the run as practical; hose at the placing end. A metre of hose is not a metre of steel (about 1 m hose ≈ 3 m pipe equivalent in the ACPA note cited by ACI 304.2R). Pinjin catalogue distances are not ‘hose-only’ guarantees."
+          "question": "Добавляет ли “Wootz and Damascus” клетку к Concrete Pump Hose vs Steel Pipe?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 100–125 mm, 60–80 m, 80 mm, 125 mm, 1 m, 3 m, 4 m, 80 m."
         },
         {
-          "question": "Does Pinjin publish hose and pipe diameters on the parts pages?",
-          "answer": "Бетоновод and рукав подачи pages do not print a fixed DN/length table. Diameter and length are quoted after the pump model. The DN80 clamp page is labelled EN14420-3, DN80, PN10/16, 3″/89. Other diameters are quoted against the pipeline. Electric 20 lists 80 mm pipe; Electric 15 and the бетононасос-миксер list 100–125 mm / 100 / 125 mm."
-        },
-        {
-          "question": "When should a placing hose be taken out of service?",
-          "answer": "ACPA mechanics guidance: remove hose when the inside lining wears enough to show reinforcement braiding. Pinjin does not publish a replacement-hour table. Photograph the lining with the model slug when you inquire."
+          "question": "Может ли “Modern” заполнить пустую клетку для Concrete Pump Hose vs Steel Pipe?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Hose vs Steel Pipe остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

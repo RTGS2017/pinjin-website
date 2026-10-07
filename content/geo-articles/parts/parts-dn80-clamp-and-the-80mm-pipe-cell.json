@@ -3,92 +3,82 @@
   "category": "parts",
   "keyword": "DN80 clamp and Electric 20 80 mm pipe",
   "title": {
-    "en": "Does the DN80 clamp belong to the 80 mm pipe cell?",
-    "zh": "DN80 管卡属于 80 mm 管径格吗？"
+    "en": "What the Connecting rod outline cannot add to DN80 clamp and Electric 20 80 mm pipe",
+    "zh": "《连杆杆》的大纲不能给DN80 clamp and Electric 20 80 mm pipe加数字"
   },
   "description": {
-    "en": "The clamp page prints DN80. Electric 20 prints delivery pipe inner diameter 80 mm. Hebei Pinjin Machinery does not print a sentence that joins the two pages.",
-    "zh": "管卡页印 DN80。电动20印输送管内径 80 mm。河北品锦机械没有印出把两页绑在一起的句子。"
+    "en": "Section titles come from Connecting rod; the DN80 clamp and Electric 20 80 mm pipe figures stay the printed ones. Both pages contain the number 80, in different units of meaning: the clamp is marked DN80 / 3″ / 89, and Electric 20's pipe cell is 80 mm. The catalogue does not state that the clamp fits Electric 20. Confirm the connection on the machine.",
+    "zh": "节标题来自《连杆杆》，DN80 clamp and Electric 20 80 mm pipe的数字仍是已印数字。两页都有数字 80，含义不同：管卡标记是 DN80 / 3″ / 89，电动20的管子格子是 80 mm。目录没有写这只管卡适配电动20。请在机器上核对连接。"
   },
   "h1": {
-    "en": "DN80 clamp beside the Electric 20 80 mm cell",
-    "zh": "DN80 管卡与电动20的 80 mm 格子"
+    "en": "Connecting rod headings over the DN80 clamp and Electric 20 80 mm pipe catalogue line",
+    "zh": "《连杆杆》的标题盖在DN80 clamp and Electric 20 80 mm pipe的目录行上"
   },
   "directAnswer": {
-    "en": "Both pages contain the number 80, in different units of meaning: the clamp is marked DN80 / 3″ / 89, and Electric 20's pipe cell is 80 mm. The catalogue does not state that the clamp fits Electric 20. Confirm the connection on the machine.",
-    "zh": "两页都有数字 80，含义不同：管卡标记是 DN80 / 3″ / 89，电动20的管子格子是 80 mm。目录没有写这只管卡适配电动20。请在机器上核对连接。"
+    "en": "The short answer for DN80 clamp and Electric 20 80 mm pipe uses the cells Xingtai already printed. Connecting rod is the outline those cells are filed under. Both pages contain the number 80, in different units of meaning: the clamp is marked DN80 / 3″ / 89, and Electric 20's pipe cell is 80 mm. The catalogue does not state that the clamp fits Electric 20. Confirm the connection on the machine.",
+    "zh": "DN80 clamp and Electric 20 80 mm pipe的简答只用邢台已经印出的格子。《连杆杆》是这些格子所依的大纲。 两页都有数字 80，含义不同：管卡标记是 DN80 / 3″ / 89，电动20的管子格子是 80 mm。目录没有写这只管卡适配电动20。请在机器上核对连接。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The clamp, as printed",
-        "zh": "管卡的原文"
+        "en": "Origins",
+        "zh": "来源章节：Origins"
       },
       "body": {
-        "en": "Hinged clamp, EN14420-3, DN80, PN10/16, 3″/89, grease nipple, two-hole base. No pump model is named. No service life is named.",
-        "zh": "铰接管卡，EN14420-3，DN80，PN10/16，3″/89，油嘴，双孔底座。没有点名泵型号。没有点名寿命。"
+        "en": "Read “Origins” as the source author’s section, not as a Pinjin test result. The sentence that follows is the printed fragment. Hinged clamp, EN14420-3, DN80, PN10/16, 3″/89, grease nipple, two-hole base. No pump model is named. No service life is named. Electric 20 is the only published pump with delivery pipe inner diameter 80 mm. Electric 15 is 100–125 mm. Four other pumps print 100 / 125 mm. Those pages do not mention EN14420-3. A 100 / 125 mm pump is not given this DN80 clamp by the catalogue. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. If the inquiry is for Electric 20 pipe, send 80 mm to the straight-pipe page. If the inquiry is for the clamp, send DN80 and EN14420-3. Ask the factory to confirm whether the two belong together. Do not treat the shared numeral as confirmation. The outline does not complete a blank.",
+        "zh": "把“来源章节：Origins”读成来源作者的分节，不要读成品锦的试验结果。后面跟的是已印片段。 铰接管卡，EN14420-3，DN80，PN10/16，3″/89，油嘴，双孔底座。没有点名泵型号。没有点名寿命。 电动20是唯一把输送管内径印成 80 mm 的已公布泵。电动15是 100–125 mm。另外四台印 100 / 125 mm。那些页面没有提到 EN14420-3。目录没有把这只 DN80 管卡配给 100 / 125 mm 的泵。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 若询的是电动20的管子，把 80 mm 发给直管页。若询的是管卡，写 DN80 和 EN14420-3。请工厂确认两者是否配套。不要把相同的数字当成确认。 大纲补不上空白格子。"
       }
     },
     {
       "heading": {
-        "en": "The only published 80 mm pipe cell",
-        "zh": "唯一印出的 80 mm 管径格"
+        "en": "Steam engines",
+        "zh": "蒸汽发动机"
       },
       "body": {
-        "en": "Electric 20 is the only published pump with delivery pipe inner diameter 80 mm. Electric 15 is 100–125 mm. Four other pumps print 100 / 125 mm. Those pages do not mention EN14420-3. A 100 / 125 mm pump is not given this DN80 clamp by the catalogue.",
-        "zh": "电动20是唯一把输送管内径印成 80 mm 的已公布泵。电动15是 100–125 mm。另外四台印 100 / 125 mm。那些页面没有提到 EN14420-3。目录没有把这只 DN80 管卡配给 100 / 125 mm 的泵。"
+        "en": "The source page divides this subject at “Steam engines”. The words under that heading, in this note, stay inside the Xingtai wording already printed. Both pages contain the number 80, in different units of meaning: the clamp is marked DN80 / 3″ / 89, and Electric 20's pipe cell is 80 mm. The catalogue does not state that the clamp fits Electric 20. Confirm the connection on the machine. No. 3″/89 is part of the clamp's nominal-size mark. Electric 20's 120 m / 40 m cell is conveying distance. No clamp page other than DN80 is published. Stop when the printed fragment stops.",
+        "zh": "来源页在“蒸汽发动机”处分开叙述。这一节沿用该标题，底下只重复邢台已经印出的说法。 两页都有数字 80，含义不同：管卡标记是 DN80 / 3″ / 89，电动20的管子格子是 80 mm。目录没有写这只管卡适配电动20。请在机器上核对连接。 不是。3″/89 是管卡公称尺寸标记的一部分。电动20的 120 m / 40 m 是输送距离。 除 DN80 以外，没有公布别的管卡页。 印出的片段结束，这句话也结束。"
       }
     },
     {
       "heading": {
-        "en": "What to write",
-        "zh": "询价怎么写"
+        "en": "Internal combustion engines",
+        "zh": "内部燃烧发动机"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. If the inquiry is for Electric 20 pipe, send 80 mm to the straight-pipe page. If the inquiry is for the clamp, send DN80 and EN14420-3. Ask the factory to confirm whether the two belong together. Do not treat the shared numeral as confirmation.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 若询的是电动20的管子，把 80 mm 发给直管页。若询的是管卡，写 DN80 和 EN14420-3。请工厂确认两者是否配套。不要把相同的数字当成确认。"
+        "en": "The source page divides this subject at “Internal combustion engines”. The words under that heading, in this note, stay inside the Xingtai wording already printed. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. Stop when the printed fragment stops. Image from the source page: https://en.wikipedia.org/wiki/Connecting_rod",
+        "zh": "来源页在“内部燃烧发动机”处分开叙述。这一节沿用该标题，底下只重复邢台已经印出的说法。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 印出的片段结束，这句话也结束。 图来自来源页：https://en.wikipedia.org/wiki/Connecting_rod"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 3″/89 equal to the Electric 20 pipe length?",
-        "zh": "3″/89 等于电动20的管子长度吗？"
+        "en": "Where does the photograph sit relative to the printed DN80 clamp and Electric 20 80 mm pipe cells?",
+        "zh": "这张配图相对DN80 clamp and Electric 20 80 mm pipe的已印格子处于什么位置？"
       },
       "answer": {
-        "en": "No. 3″/89 is part of the clamp's nominal-size mark. Electric 20's 120 m / 40 m cell is conveying distance.",
-        "zh": "不是。3″/89 是管卡公称尺寸标记的一部分。电动20的 120 m / 40 m 是输送距离。"
+        "en": "No. 3″/89 is part of the clamp's nominal-size mark. Electric 20's 120 m / 40 m cell is conveying distance. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。3″/89 是管卡公称尺寸标记的一部分。电动20的 120 m / 40 m 是输送距离。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is there a clamp page for 100 / 125 mm pumps?",
-        "zh": "100 / 125 mm 的泵有管卡页吗？"
+        "en": "Which printed fragment stays in force when the section is “Internal combustion engines” for DN80 clamp and Electric 20 80 mm pipe?",
+        "zh": "章节为“内部燃烧发动机”时，DN80 clamp and Electric 20 80 mm pipe仍以哪一句已印文字为准？"
       },
       "answer": {
-        "en": "No clamp page other than DN80 is published.",
-        "zh": "除 DN80 以外，没有公布别的管卡页。"
+        "en": "No clamp page other than DN80 is published. The heading and the source photograph do not add a further figure.",
+        "zh": "除 DN80 以外，没有公布别的管卡页。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is a list price printed?",
-        "zh": "印了标价吗？"
+        "en": "What should an inquiry repeat for DN80 clamp and Electric 20 80 mm pipe under the heading “Origins”?",
+        "zh": "询价DN80 clamp and Electric 20 80 mm pipe时，在“来源章节：Origins”这一节应当重复什么？"
       },
       "answer": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is service life printed?",
-        "zh": "印了寿命吗？"
-      },
-      "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. The heading and the source photograph do not add a further figure.",
+        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -149,14 +139,19 @@
       "name": "品锦目录：Electric 20 Concrete Pump",
       "url": "https://pinjinpump.com/zh/products/electric-20-concrete-pump/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Connecting rod",
+      "url": "https://en.wikipedia.org/wiki/Connecting_rod",
+      "type": "reference"
     }
   ],
   "status": "ready",
   "image": {
-    "src": "/images/geo/parts/pinjin-parts-dn80-clamp-and-the-80mm-pipe-cell.webp",
+    "src": "/images/articles/parts/parts-dn80-clamp-and-the-80mm-pipe-cell-96ced65c.jpg",
     "alt": {
-      "en": "DN80 clamp beside the Electric 20 80 mm cell, 品锦, Hebei Pinjin Machinery, Xingtai",
-      "zh": "DN80 管卡与电动20的 80 mm 格子，品锦机械，河北邢台"
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Connecting_rod",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Connecting_rod"
     }
   }
 }

@@ -1,28 +1,22 @@
-## Turbulência no redutor — ACPA, não um SKU Pinjin
+## Choked flow
 
-Marketplace searches for “concrete pump reducer” or “taper pipe” show hose-kit listings. Hebei Pinjin Machinery does not list a reducer SKU. ACI 304.2R’s contents cover pipeline, couplings and accessories; we do not republish a competitor wall-thickness chart from that guide.
+![Figura da página de origem sobre Venturi effect](/images/articles/concrete-pump-reducer-taper-pipe/Aircraft_venturi_3.JPG)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Venturi_effect*
 
-ACPA’s study guide is the field note we will cite: reducers and bends create turbulence inside the line. A lean or poorly graded mix may not pass. A reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure and the hose is still soft, the plug is in the reducer. Relieve pressure before opening a coupling.
+Abrir a origem em “Choked flow” é ler essa página, não um segundo catálogo de Concrete Pump Reducer / Taper Pipe. Valores já impressos nesta página: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.
 
-![Pinjin concrete pump tubo de entregas with coupling ends from Xingtai](/images/products/concrete-pump-delivery-pipe/concrete-pump-delivery-pipe.webp)
-*Straight red-enamel tubo de entrega — quoted after pump model, DN and length. No factory reducer table on this site.*
+As casas em branco nesta página continuam em branco. “Choked flow” não as preenche.
 
-## DN que realmente imprimimos
+## Expansion of the section
 
-| Model | Printed pipe ID | Notes |
-| [Electric 20](/products/electric-20-concrete-pump/) | 80 mm | 22 kW, 8–10 m³/h, 900 kg |
-| [Electric 15](/products/electric-15-concrete-pump/) | 100–125 mm | 15 kW, 8–10 m³/h, 450 kg |
-| [Integrated mixer pump](/products/integrated-mixer-pump/) | 100 / 125 mm | 45 kW + 14 kW, 21 m³/h |
-| [HBT8018](/products/hbt8018-concrete-pump/) | 100 / 125 mm | 132 kW, 60 m³/h |
+“Expansion of the section” é um capítulo da página de origem. Não muda o nome de Concrete Pump Reducer / Taper Pipe. Esse capítulo não acrescenta valor.
 
-The [pipe DN article](/blog/concrete-pump-pipe-dn-selection/) already says we do not publish reducer tables there. This page is the blockage and quotation note for a taper, not a second DN lecture.
+## Venturi tubes
 
-[Delivery pipe](/products/concrete-pump-delivery-pipe/) has coupling/flange ends and no fixed size table. [DN80 clamp](/products/concrete-pump-pipe-clamp-dn80/) is the listed coupling size. Other diameters are quoted against the pipeline — [clamp article](/blog/concrete-pump-clamp-coupling/).
+Concrete Pump Reducer / Taper Pipe continua a ser a linha que este texto já tinha. “Venturi tubes” explica o tema da origem e não acrescenta casa. Esse capítulo não acrescenta valor.
 
-## Se o tampão aparece na mudança de diâmetro
+## Orifice plate
 
-ACPA: nunca abra um acoplamento sob pressão. Our [blockage page](/blog/concrete-pump-blockage-causes-prevention/) restates reverse pumping and wash-out. After the pour, set concrete left in a reducer is a blockage you made — the maintenance checklist says the same.
+Separe “Orifice plate” e Concrete Pump Reducer / Taper Pipe. A origem não preenche uma casa em branco. Valores já impressos nesta página: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.
 
-## Consulta
-
-Pump model, both diameters if a transition is requested, length, quantity. Unpublished tapers are not promised. [Contact](/contact/).
+Páginas já indicadas neste texto: [Electric 20](/products/electric-20-concrete-pump/), [Electric 15](/products/electric-15-concrete-pump/), [Integrated mixer pump](/products/integrated-mixer-pump/).

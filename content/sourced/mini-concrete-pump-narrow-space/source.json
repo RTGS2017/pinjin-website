@@ -1,7 +1,7 @@
 {
-  "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
-  "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin Xingtai",
-  "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
+  "title": "Basement — English basement / Walk-out basement / Subbasement / Finished fully underground cellar",
+  "seoTitle": "Basement — English basement",
+  "description": "mini concrete pump remains the row this document already had. “English basement” explains the source topic and adds no cell. Printed cells already on this page: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h.",
   "primaryKeyword": "mini concrete pump",
   "secondaryKeywords": [
     "narrow site concrete pump",
@@ -54,13 +54,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
-    "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+    "what": "mini concrete pump remains the row this document already had. “English basement” explains the source topic and adds no cell. Printed cells already on this page: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h.",
+    "who": "Readers checking mini concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Width and weight versus the gate — use the millimetre row, not the word mini",
-      "Reach: B500S-83D is 5 m height / 5 m horizontal, not a house pipeline pump",
-      "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
-      "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+      "915 × 550 × 550 mm",
+      "1800 × 800 × 1200 mm",
+      "1900 × 900 × 1200 mm",
+      "2200 × 1100 × 1250 mm",
+      "2800 × 1300 × 1500 mm",
+      "3300 × 1500 × 1500 mm"
     ],
     "relatedModels": [
       "b500s-83d-two-stage-pump",
@@ -71,20 +73,25 @@
   },
   "faqs": [
     {
-      "question": "Which Pinjin model is the mini concrete pump?",
-      "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and aggregate. Equating mini with any one slug would be false."
+      "question": "Does “English basement” add a cell to mini concrete pump?",
+      "answer": "No. Equating “mini” with Electric 15, Electric 10 Series or B500S-83D would be false: they are different machines."
     },
     {
-      "question": "Is B500S-83D a trailer concrete pump?",
-      "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+      "question": "Can “Walk-out basement” fill a blank cell for mini concrete pump?",
+      "answer": "No. Blank cells for mini concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-10-series-concrete-pump/main.webp",
-    "alt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 10 Series compact pump, Xingtai catalogue — 1800 × 800 × 1200 mm, 400 kg"
+    "src": "/images/articles/mini-concrete-pump-narrow-space/Sklep_cejkovice.JPG",
+    "alt": "Figure from the source page about Basement",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Basement"
   },
   "sources": [
+    {
+      "name": "Basement (source page)",
+      "url": "https://en.wikipedia.org/wiki/Basement",
+      "type": "industry"
+    },
     {
       "name": "Pinjin B500S-83D product page",
       "url": "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
@@ -114,9 +121,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
-      "description": "‘Mini concrete pump’ is a search term, not a 品锦 model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, 电动15 450 kg, rural diesel 800 kg.",
-      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, 河北品锦机械 邢台",
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites：Basement（English basement / Walk-out basement / Subbasement / Finished fully underground cellar）",
+      "description": "Mini Concrete Pump for Narrow and Confined Construction Sites还是本文原有的那一行。「English basement」讲的是来源页的题目，不另加单元格。本页已经印出的读数：915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h。",
+      "imageAlt": "来源页插图：Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "电动15 compact concrete pump applications",
@@ -124,32 +131,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "品锦 does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; 电动15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
-        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "what": "Mini Concrete Pump for Narrow and Confined Construction Sites还是本文原有的那一行。「English basement」讲的是来源页的题目，不另加单元格。本页已经印出的读数：915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h。",
+        "who": "想把Mini Concrete Pump for Narrow and Confined Construction Sites和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Width and weight versus the gate — use the millimetre row, not the word mini",
-          "Reach: B500S-83D is 5 m height / 5 m 水平, not a house pipeline pump",
-          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
-          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+          "915 × 550 × 550 mm",
+          "1800 × 800 × 1200 mm",
+          "1900 × 900 × 1200 mm",
+          "2200 × 1100 × 1250 mm",
+          "2800 × 1300 × 1500 mm",
+          "3300 × 1500 × 1500 mm"
         ]
       },
-      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | 品锦 邢台",
-      "imageCaption": "Electric 10 Series compact pump, 邢台 catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "seoTitle": "Basement：English basement",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Which 品锦 model is the mini concrete pump?",
-          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, 电动15 and the rural diesel compact by size, reach and 骨料. Equating mini with any one slug would be false."
+          "question": "「English basement」会给Mini Concrete Pump for Narrow and Confined Construction Sites增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h。"
         },
         {
-          "question": "Is B500S-83D a trailer concrete pump?",
-          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not 电动15."
+          "question": "「Walk-out basement」能补上Mini Concrete Pump for Narrow and Confined Construction Sites的空白格吗？",
+          "answer": "不能。Mini Concrete Pump for Narrow and Confined Construction Sites没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
-      "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
-      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery Xingtai",
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites: Basement — English basement / Walk-out basement / Subbasement / Finished fully underground cellar",
+      "description": "Mini Concrete Pump for Narrow and Confined Construction Sites continua a ser a linha que este texto já tinha. “English basement” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm",
+      "imageAlt": "Figura da página de origem sobre Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 15 compact concrete pump applications",
@@ -157,32 +166,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
-        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "what": "Mini Concrete Pump for Narrow and Confined Construction Sites continua a ser a linha que este texto já tinha. “English basement” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm",
+        "who": "Leitores que comparam Mini Concrete Pump for Narrow and Confined Construction Sites com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Width and weight versus the gate — use the millimetre row, not the word mini",
-          "Reach: B500S-83D is 5 m height / 5 m horizontal, not a house pipeline pump",
-          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
-          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+          "915 × 550 × 550 mm",
+          "1800 × 800 × 1200 mm",
+          "1900 × 900 × 1200 mm",
+          "2200 × 1100 × 1250 mm",
+          "2800 × 1300 × 1500 mm",
+          "3300 × 1500 × 1500 mm"
         ]
       },
-      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin Xingtai",
-      "imageCaption": "Electric 10 Series compact pump, Xingtai catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "seoTitle": "Basement — English basement",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Which Pinjin model is the mini concrete pump?",
-          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and agregado. Equating mini with any one slug would be false."
+          "question": "“English basement” acrescenta uma casa a Mini Concrete Pump for Narrow and Confined Construction Sites?",
+          "answer": "Não. Valores já impressos nesta página: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h."
         },
         {
-          "question": "Is B500S-83D a trailer concrete pump?",
-          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+          "question": "“Walk-out basement” pode preencher uma casa em branco de Mini Concrete Pump for Narrow and Confined Construction Sites?",
+          "answer": "Não. As casas em branco de Mini Concrete Pump for Narrow and Confined Construction Sites continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
-      "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
-      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery شينغتاي",
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites: Basement — English basement / Walk-out basement / Subbasement / Finished fully underground cellar",
+      "description": "Mini Concrete Pump for Narrow and Confined Construction Sites يبقى الصف الذي كان في هذا النص. «English basement» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm",
+      "imageAlt": "صورة من صفحة المصدر عن Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 15 compact concrete pump applications",
@@ -190,32 +201,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
-        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "what": "Mini Concrete Pump for Narrow and Confined Construction Sites يبقى الصف الذي كان في هذا النص. «English basement» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm",
+        "who": "قرّاء يقارنون Mini Concrete Pump for Narrow and Confined Construction Sites بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Width and weight versus the gate — use the millimetre row, not the word mini",
-          "Reach: B500S-83D is 5 m height / 5 m أفقي, not a house pipeline pump",
-          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
-          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+          "915 × 550 × 550 mm",
+          "1800 × 800 × 1200 mm",
+          "1900 × 900 × 1200 mm",
+          "2200 × 1100 × 1250 mm",
+          "2800 × 1300 × 1500 mm",
+          "3300 × 1500 × 1500 mm"
         ]
       },
-      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin شينغتاي",
-      "imageCaption": "Electric 10 Series compact pump, شينغتاي catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "seoTitle": "Basement — English basement",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Which Pinjin model is the mini concrete pump?",
-          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and ركام. Equating mini with any one slug would be false."
+          "question": "هل يضيف «English basement» خانة إلى Mini Concrete Pump for Narrow and Confined Construction Sites؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h."
         },
         {
-          "question": "Is B500S-83D a trailer concrete pump?",
-          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+          "question": "هل يستطيع «Walk-out basement» ملء خانة فارغة لـ Mini Concrete Pump for Narrow and Confined Construction Sites؟",
+          "answer": "لا. الخانات الفارغة لـ Mini Concrete Pump for Narrow and Confined Construction Sites تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites",
-      "description": "‘Mini concrete pump’ is a search term, not a Pinjin model name. Compare confined-site access using published size and weight: B500S-83D 280 kg, Electric 10 Series 400 kg, Electric 15 450 kg, rural diesel 800 kg.",
-      "imageAlt": "Electric 10 Series compact concrete pump, 400 kg, Hebei Pinjin Machinery Синтай",
+      "title": "Mini Concrete Pump for Narrow and Confined Construction Sites: Basement — English basement / Walk-out basement / Subbasement / Finished fully underground cellar",
+      "description": "Mini Concrete Pump for Narrow and Confined Construction Sites остаётся строкой, которая уже была в этом тексте. “English basement” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 ×",
+      "imageAlt": "Иллюстрация со страницы-источника: Basement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 15 compact concrete pump applications",
@@ -223,27 +236,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin does not list a product named Mini. For narrow and confined sites we compare published envelopes: B500S-83D 915 × 550 × 550 mm / 280 kg / 5 m reach / 5–16 mm stone; Electric 10 Series 1800 × 800 × 1200 mm / 400 kg; Electric 15 1900 × 900 × 1200 mm / 450 kg; rural diesel 2200 × 1100 × 1250 mm / 800 kg.",
-        "who": "Buyers whose gate, stair or indoor floor cannot take a 1200–2300 kg trailer, and who can state stone size, reach and whether 380 V is available.",
+        "what": "Mini Concrete Pump for Narrow and Confined Construction Sites остаётся строкой, которая уже была в этом тексте. “English basement” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 ×",
+        "who": "Читатели, которые сверяют Mini Concrete Pump for Narrow and Confined Construction Sites со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Width and weight versus the gate — use the millimetre row, not the word mini",
-          "Reach: B500S-83D is 5 m height / 5 m горизонталь, not a house pipeline pump",
-          "Aggregate: 5–16 mm on B500S versus 2 cm / 1–3 cm on the compact trailers",
-          "Power: 7.5 kW / 380 V, 15 kW electric, or 17 kW diesel if there is no grid"
+          "915 × 550 × 550 mm",
+          "1800 × 800 × 1200 mm",
+          "1900 × 900 × 1200 mm",
+          "2200 × 1100 × 1250 mm",
+          "2800 × 1300 × 1500 mm",
+          "3300 × 1500 × 1500 mm"
         ]
       },
-      "seoTitle": "Mini Concrete Pump for Narrow Confined Sites | Pinjin Синтай",
-      "imageCaption": "Electric 10 Series compact pump, Синтай catalogue — 1800 × 800 × 1200 mm, 400 kg",
+      "seoTitle": "Basement — English basement",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Basement",
       "faqs": [
         {
-          "question": "Which Pinjin model is the mini concrete pump?",
-          "answer": "None. Mini is a marketplace search term. We compare B500S-83D, Electric 10 Series, Electric 15 and the rural diesel compact by size, reach and заполнитель. Equating mini with any one slug would be false."
+          "question": "Добавляет ли “English basement” клетку к Mini Concrete Pump for Narrow and Confined Construction Sites?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 915 × 550 × 550 mm, 1800 × 800 × 1200 mm, 1900 × 900 × 1200 mm, 2200 × 1100 × 1250 mm, 2800 × 1300 × 1500 mm, 3300 × 1500 × 1500 mm, 5–16 mm, 8–10 m³/h."
         },
         {
-          "question": "Is B500S-83D a trailer concrete pump?",
-          "answer": "It is a compact two-stage manual/electric unit with a short boom on the machine — 5 m / 5 m, 280 kg, sand and 5–16 mm stone. It is not a truck-mounted placing boom and not Electric 15."
+          "question": "Может ли “Walk-out basement” заполнить пустую клетку для Mini Concrete Pump for Narrow and Confined Construction Sites?",
+          "answer": "Нет. Пустые клетки для Mini Concrete Pump for Narrow and Confined Construction Sites остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

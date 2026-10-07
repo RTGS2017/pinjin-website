@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Output: How Many m³/h Do You Need?",
-  "seoTitle": "Concrete Pump Output m³/h Guide | Pinjin Catalogue",
-  "description": "Match required placing rate to Pinjin theoretical output rows from 5–8 m³/h compact diesels to 100 m³/h Diesel 120. Catalogue m³/h is not a guaranteed site rate. No invented floor-count formula — send pour volume, idle time and pipe with the inquiry.",
+  "title": "Flow measurement — Kinds and units of measurement / Primary flow element / Mechanical flowmeters / Pressure-based meters",
+  "seoTitle": "Flow measurement — Kinds and units of measurement",
+  "description": "“Kinds and units of measurement” is a chapter on the source page. It does not rename concrete pump output m³/h. Printed cells already on this page: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
   "primaryKeyword": "concrete pump output m³/h",
   "secondaryKeywords": [
     "concrete pump capacity",
@@ -54,13 +54,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Pinjin catalogue output is theoretical m³/h on the product page, not a guaranteed site placing rate. Compact examples: rural diesel 5–8 m³/h, Electric 15/20 8–10 m³/h, Electric 30/LP40 12–15 m³/h, Electric 40 21 m³/h, Electric 80 60 m³/h, Diesel 120 100 m³/h. We do not convert floor count into m³/h with a homemade formula. Send pour volume, idle time, pipe and mix.",
-    "who": "Buyers who were asked ‘how many cubes per hour’ and need to read the Xingtai output ladder instead of a model nickname.",
+    "what": "“Kinds and units of measurement” is a chapter on the source page. It does not rename concrete pump output m³/h. Printed cells already on this page: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+    "who": "Readers checking concrete pump output m³/h against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Theoretical output cell on the named model",
-      "Whether the job is 8–10, 12–15, 21, 60 or 100 m³/h class",
-      "Pipe distance and aggregate — output does not cancel an over-long line",
-      "Hopper size and mixer-pump dual motors where listed"
+      "5–8 m³/h",
+      "6–12 m³/h",
+      "8–10 m³/h",
+      "1–3 cm",
+      "12–15 m³/h",
+      "66–75 kW"
     ],
     "relatedModels": [
       "electric-15-concrete-pump",
@@ -71,20 +73,25 @@
   },
   "faqs": [
     {
-      "question": "Is catalogue m³/h what I will place on site?",
-      "answer": "No. The cell is theoretical output. Site rate depends on mix, pipe, crew and idle time. We do not guarantee on-site m³/h."
+      "question": "Does “Kinds and units of measurement” add a cell to concrete pump output m³/h?",
+      "answer": "No. B500S-83D does not list m³/h; it lists 5 m / 5 m reach."
     },
     {
-      "question": "Does Electric 10 Series 21 m³/h replace Electric 40?",
-      "answer": "No. Electric 10 Series lists 21 m³/h theoretical with 25 m horizontal and a 0.1 m³ hopper. Electric 40 lists 21 m³/h with 23 MPa, 0.4 m³ hopper and fine-stone 120 m / 360 m on a 2300 kg frame."
+      "question": "Can “Primary flow element” fill a blank cell for concrete pump output m³/h?",
+      "answer": "No. Blank cells for concrete pump output m³/h stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-80-concrete-pump/main.webp",
-    "alt": "Electric 80 high-capacity trailer concrete pump, 60 m³/h catalogue output, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 80 trailer pump, Xingtai catalogue — 60 m³/h theoretical output"
+    "src": "/images/articles/concrete-pump-output-m3h-guide/Tetley_s_brewery_Leeds_10th_May_2010_008.jpg",
+    "alt": "Figure from the source page about Flow measurement",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Flow_measurement"
   },
   "sources": [
+    {
+      "name": "Flow measurement (source page)",
+      "url": "https://en.wikipedia.org/wiki/Flow_measurement",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 15 product page",
       "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
@@ -114,9 +121,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Concrete Pump Output: How Many m³/h Do You Need?",
-      "description": "Match required placing rate to 品锦 理论输送量 rows from 5–8 m³/h compact diesels to 100 m³/h Diesel 120. Catalogue m³/h is not a guaranteed site rate. No invented floor-count formula — send pour volume, idle time and pipe with the inquiry.",
-      "imageAlt": "电动80 high-capacity trailer concrete pump, 60 m³/h catalogue output, 河北品锦机械 邢台",
+      "title": "Concrete Pump Output：Flow measurement（Kinds and units of measurement / Primary flow element / Mechanical flowmeters / Pressure-based meters）",
+      "description": "「Kinds and units of measurement」是来源页自己的章节，不会把Concrete Pump Output改成另一条目录。本页已经印出的读数：5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg。",
+      "imageAlt": "来源页插图：Flow measurement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "电动20 vs 30 output comparison",
@@ -124,32 +131,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "品锦 catalogue output is theoretical m³/h on the 产品页, not a guaranteed site placing rate. Compact examples: rural diesel 5–8 m³/h, 电动15/20 8–10 m³/h, 电动30/LP40 12–15 m³/h, 电动40 21 m³/h, 电动80 60 m³/h, Diesel 120 100 m³/h. We do not convert floor count into m³/h with a homemade formula. Send pour volume, idle time, pipe and mix.",
-        "who": "Buyers who were asked ‘how many cubes per hour’ and need to read the 邢台 output ladder instead of a model nickname.",
+        "what": "「Kinds and units of measurement」是来源页自己的章节，不会把Concrete Pump Output改成另一条目录。本页已经印出的读数：5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg。",
+        "who": "想把Concrete Pump Output和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Theoretical output cell on the named model",
-          "Whether the job is 8–10, 12–15, 21, 60 or 100 m³/h class",
-          "Pipe distance and 骨料 — output does not cancel an over-long line",
-          "Hopper size and mixer-pump dual motors where listed"
+          "5–8 m³/h",
+          "6–12 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "12–15 m³/h",
+          "66–75 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Output m³/h Guide | 品锦 Catalogue",
-      "imageCaption": "电动80 拖式泵, 邢台 catalogue — 60 m³/h 理论输送量",
+      "seoTitle": "Flow measurement：Kinds and units of measurement",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Flow_measurement",
       "faqs": [
         {
-          "question": "Is catalogue m³/h what I will place on site?",
-          "answer": "No. The cell is 理论输送量. Site rate depends on mix, pipe, crew and idle time. We do not guarantee on-site m³/h."
+          "question": "「Kinds and units of measurement」会给Concrete Pump Output增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg。"
         },
         {
-          "question": "Does Electric 10 Series 21 m³/h replace 电动40?",
-          "answer": "No. Electric 10 Series lists 21 m³/h theoretical with 25 m 水平 and a 0.1 m³ hopper. 电动40 lists 21 m³/h with 23 MPa, 0.4 m³ hopper and 细石 120 m / 360 m on a 2300 kg frame."
+          "question": "「Primary flow element」能补上Concrete Pump Output的空白格吗？",
+          "answer": "不能。Concrete Pump Output没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Output: How Many m³/h Do You Need?",
-      "description": "Match required placing rate to Pinjin saída teórica rows from 5–8 m³/h compact diesels to 100 m³/h Diesel 120. Catalogue m³/h is not a guaranteed site rate. No invented floor-count formula — send pour volume, idle time and pipe with the inquiry.",
-      "imageAlt": "Electric 80 high-capacity trailer concrete pump, 60 m³/h catalogue output, Hebei Pinjin Machinery Xingtai",
+      "title": "Concrete Pump Output: Flow measurement — Kinds and units of measurement / Primary flow element / Mechanical flowmeters / Pressure-based meters",
+      "description": "“Kinds and units of measurement” é um capítulo da página de origem. Não muda o nome de Concrete Pump Output. Valores já impressos nesta página: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+      "imageAlt": "Figura da página de origem sobre Flow measurement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 20 vs 30 output comparison",
@@ -157,32 +166,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin catalogue output is theoretical m³/h on the página do produto, not a guaranteed site placing rate. Compact examples: rural diesel 5–8 m³/h, Electric 15/20 8–10 m³/h, Electric 30/LP40 12–15 m³/h, Electric 40 21 m³/h, Electric 80 60 m³/h, Diesel 120 100 m³/h. We do not convert floor count into m³/h with a homemade formula. Send pour volume, idle time, pipe and mix.",
-        "who": "Buyers who were asked ‘how many cubes per hour’ and need to read the Xingtai output ladder instead of a model nickname.",
+        "what": "“Kinds and units of measurement” é um capítulo da página de origem. Não muda o nome de Concrete Pump Output. Valores já impressos nesta página: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+        "who": "Leitores que comparam Concrete Pump Output com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Theoretical output cell on the named model",
-          "Whether the job is 8–10, 12–15, 21, 60 or 100 m³/h class",
-          "Pipe distance and agregado — output does not cancel an over-long line",
-          "Hopper size and mixer-pump dual motors where listed"
+          "5–8 m³/h",
+          "6–12 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "12–15 m³/h",
+          "66–75 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Output m³/h Guide | Pinjin Catalogue",
-      "imageCaption": "Electric 80 bomba reboque, Xingtai catalogue — 60 m³/h saída teórica",
+      "seoTitle": "Flow measurement — Kinds and units of measurement",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Flow_measurement",
       "faqs": [
         {
-          "question": "Is catalogue m³/h what I will place on site?",
-          "answer": "No. The cell is saída teórica. Site rate depends on mix, pipe, crew and idle time. We do not guarantee on-site m³/h."
+          "question": "“Kinds and units of measurement” acrescenta uma casa a Concrete Pump Output?",
+          "answer": "Não. Valores já impressos nesta página: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg."
         },
         {
-          "question": "Does Electric 10 Series 21 m³/h replace Electric 40?",
-          "answer": "No. Electric 10 Series lists 21 m³/h theoretical with 25 m horizontal and a 0.1 m³ hopper. Electric 40 lists 21 m³/h with 23 MPa, 0.4 m³ hopper and pedra fina 120 m / 360 m on a 2300 kg frame."
+          "question": "“Primary flow element” pode preencher uma casa em branco de Concrete Pump Output?",
+          "answer": "Não. As casas em branco de Concrete Pump Output continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Output: How Many m³/h Do You Need?",
-      "description": "Match required placing rate to Pinjin الإنتاج النظري rows from 5–8 m³/h compact diesels to 100 m³/h Diesel 120. Catalogue m³/h is not a guaranteed site rate. No invented floor-count formula — send pour volume, idle time and pipe with the inquiry.",
-      "imageAlt": "Electric 80 high-capacity trailer concrete pump, 60 m³/h catalogue output, Hebei Pinjin Machinery شينغتاي",
+      "title": "Concrete Pump Output: Flow measurement — Kinds and units of measurement / Primary flow element / Mechanical flowmeters / Pressure-based meters",
+      "description": "«Kinds and units of measurement» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pump Output. قيم مطبوعة أصلًا في هذه الصفحة: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+      "imageAlt": "صورة من صفحة المصدر عن Flow measurement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 20 vs 30 output comparison",
@@ -190,32 +201,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin catalogue output is theoretical m³/h on the صفحة المنتج, not a guaranteed site placing rate. Compact examples: rural diesel 5–8 m³/h, Electric 15/20 8–10 m³/h, Electric 30/LP40 12–15 m³/h, Electric 40 21 m³/h, Electric 80 60 m³/h, Diesel 120 100 m³/h. We do not convert floor count into m³/h with a homemade formula. Send pour volume, idle time, pipe and mix.",
-        "who": "Buyers who were asked ‘how many cubes per hour’ and need to read the شينغتاي output ladder instead of a model nickname.",
+        "what": "«Kinds and units of measurement» فصل في صفحة المصدر. لا يغيّر اسم Concrete Pump Output. قيم مطبوعة أصلًا في هذه الصفحة: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+        "who": "قرّاء يقارنون Concrete Pump Output بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Theoretical output cell on the named model",
-          "Whether the job is 8–10, 12–15, 21, 60 or 100 m³/h class",
-          "Pipe distance and ركام — output does not cancel an over-long line",
-          "Hopper size and mixer-pump dual motors where listed"
+          "5–8 m³/h",
+          "6–12 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "12–15 m³/h",
+          "66–75 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Output m³/h Guide | Pinjin Catalogue",
-      "imageCaption": "Electric 80 مضخة مقطورة, شينغتاي catalogue — 60 m³/h الإنتاج النظري",
+      "seoTitle": "Flow measurement — Kinds and units of measurement",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Flow_measurement",
       "faqs": [
         {
-          "question": "Is catalogue m³/h what I will place on site?",
-          "answer": "No. The cell is الإنتاج النظري. Site rate depends on mix, pipe, crew and idle time. We do not guarantee on-site m³/h."
+          "question": "هل يضيف «Kinds and units of measurement» خانة إلى Concrete Pump Output؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg."
         },
         {
-          "question": "Does Electric 10 Series 21 m³/h replace Electric 40?",
-          "answer": "No. Electric 10 Series lists 21 m³/h theoretical with 25 m أفقي and a 0.1 m³ hopper. Electric 40 lists 21 m³/h with 23 MPa, 0.4 m³ hopper and حصى ناعم 120 m / 360 m on a 2300 kg frame."
+          "question": "هل يستطيع «Primary flow element» ملء خانة فارغة لـ Concrete Pump Output؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Output تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Output: How Many m³/h Do You Need?",
-      "description": "Match required placing rate to Pinjin теоретическая производительность rows from 5–8 m³/h compact diesels to 100 m³/h Diesel 120. Catalogue m³/h is not a guaranteed site rate. No invented floor-count formula — send pour volume, idle time and pipe with the inquiry.",
-      "imageAlt": "Electric 80 high-capacity trailer concrete pump, 60 m³/h catalogue output, Hebei Pinjin Machinery Синтай",
+      "title": "Concrete Pump Output: Flow measurement — Kinds and units of measurement / Primary flow element / Mechanical flowmeters / Pressure-based meters",
+      "description": "“Kinds and units of measurement” — глава на странице-источнике. Она не переименовывает Concrete Pump Output. Уже напечатанные значения на этой странице: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+      "imageAlt": "Иллюстрация со страницы-источника: Flow measurement",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 20 vs 30 output comparison",
@@ -223,27 +236,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin catalogue output is theoretical m³/h on the страница изделия, not a guaranteed site placing rate. Compact examples: rural diesel 5–8 m³/h, Electric 15/20 8–10 m³/h, Electric 30/LP40 12–15 m³/h, Electric 40 21 m³/h, Electric 80 60 m³/h, Diesel 120 100 m³/h. We do not convert floor count into m³/h with a homemade formula. Send pour volume, idle time, pipe and mix.",
-        "who": "Buyers who were asked ‘how many cubes per hour’ and need to read the Синтай output ladder instead of a model nickname.",
+        "what": "“Kinds and units of measurement” — глава на странице-источнике. Она не переименовывает Concrete Pump Output. Уже напечатанные значения на этой странице: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg.",
+        "who": "Читатели, которые сверяют Concrete Pump Output со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Theoretical output cell on the named model",
-          "Whether the job is 8–10, 12–15, 21, 60 or 100 m³/h class",
-          "Pipe distance and заполнитель — output does not cancel an over-long line",
-          "Hopper size and mixer-pump dual motors where listed"
+          "5–8 m³/h",
+          "6–12 m³/h",
+          "8–10 m³/h",
+          "1–3 cm",
+          "12–15 m³/h",
+          "66–75 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Output m³/h Guide | Pinjin Catalogue",
-      "imageCaption": "Electric 80 прицепной насос, Синтай catalogue — 60 m³/h теоретическая производительность",
+      "seoTitle": "Flow measurement — Kinds and units of measurement",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Flow_measurement",
       "faqs": [
         {
-          "question": "Is catalogue m³/h what I will place on site?",
-          "answer": "No. The cell is теоретическая производительность. Site rate depends on mix, pipe, crew and idle time. We do not guarantee on-site m³/h."
+          "question": "Добавляет ли “Kinds and units of measurement” клетку к Concrete Pump Output?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 5–8 m³/h, 6–12 m³/h, 8–10 m³/h, 1–3 cm, 12–15 m³/h, 66–75 kW, 17 kW, 800 kg."
         },
         {
-          "question": "Does Electric 10 Series 21 m³/h replace Electric 40?",
-          "answer": "No. Electric 10 Series lists 21 m³/h theoretical with 25 m горизонталь and a 0.1 m³ hopper. Electric 40 lists 21 m³/h with 23 MPa, 0.4 m³ hopper and мелкий камень 120 m / 360 m on a 2300 kg frame."
+          "question": "Может ли “Primary flow element” заполнить пустую клетку для Concrete Pump Output?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Output остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

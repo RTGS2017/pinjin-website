@@ -1,28 +1,22 @@
-## Printed Type 311 row
+## Composition
 
-Type 311 Mortar Spraying Machine is a mortar spraying machine manufactured by Hebei Pinjin Machinery in Синтай, Hebei, China. Printed parameters: power 220/380 V, motor 4 kW, output 2 m³/h, 3–5 MPa, hose 25 mm, sand-cement ratio ≤1:3, particle ≤2 mm, 15 m горизонталь / 5 m вертикаль, 1500 × 420 × 900 mm, 150 kg. Quote only; no list price.
+![Иллюстрация со страницы-источника: Portland cement](/images/articles/type-311-mortar-spraying-machine-guide/LDWisconsinTireInject.jpg)
+*Изображение со страницы-источника: https://en.wikipedia.org/wiki/Portland_cement*
 
-![Type 311 mortar spraying machine factory product photo, Hebei Pinjin Machinery Синтай](/images/products/type-311-mortar-spraying-machine/type-311-mortar-spraying-machine.webp)
-*Type 311, Синтай printed table — 4 kW, 2 m³/h, particle ≤2 mm, 15 m / 5 m*
+Открыть источник на “Composition” значит читать ту страницу, а не второй каталог Type 311 Mortar Spraying Machine Printed Table. Уже напечатанные значения на этой странице: 1500 × 420 × 900 mm, 3–5 MPa, 380 V, 4 kW, 2 m³/h, 25 mm, 2 mm, 150 kg.
 
-## Neighbour spraying rows (same factory table)
+Пустые клетки на этой странице остаются пустыми. “Composition” их не заполняет.
 
-| Model | Power | Output | Pressure | Particle | Hose | Distance (H / V) | Weight |
-| Type 311 | 220/380 V, 4 kW | 2 m³/h | 3–5 MPa | ≤2 mm | 25 mm | 15 m / 5 m | 150 kg |
-| Type 511 | 380 V, 7.5 kW | 3 m³/h | 3–5 MPa | ≤6 mm | 32/38 mm | 30 m / 15 m | 260 kg |
-| Double-cylinder plunger | 380 V, 9/11 kW | 4 m³/h | 8 MPa | ≤8 mm | 38/51 mm | 100 m / 40 m | 420 kg |
-| M9 plaster | 380 V/50 Hz | 30 L/min | 50 bar | ≤4 mm | 25 mm | 50 m / 20 m | 200 kg |
+## Manufacturing
 
-Trailer pipeline pumps are a different catalogue family: [fine stone pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/). Sprayers live on [spraying machines](/products/spraying-machines/).
+“Manufacturing” — глава на странице-источнике. Она не переименовывает Type 311 Mortar Spraying Machine Printed Table. Эта глава не добавляет цифру.
 
-## When this row fits
+## Setting and hardening
 
-Fine mortar spraying inside 2 m³/h and ≤2 mm particle. Short hose runs inside 15 m горизонталь / 5 m вертикаль. Sites that can supply 220 V or 380 V for the listed 4 kW motor.
+Type 311 Mortar Spraying Machine Printed Table остаётся строкой, которая уже была в этом тексте. “Setting and hardening” объясняет тему источника и не добавляет клетку. Эта глава не добавляет цифру.
 
-## When to open another page
+## Gas diffusion and radon permeability
 
-- Larger particle or longer hose → [Type 511](/products/type-511-mortar-spraying-machine/) or the [double-cylinder plunger machine](/products/double-cylinder-plunger-mortar-spraying-machine/).
-- Plaster at ≤4 mm → [M9](/products/m9-automatic-plaster-spraying-machine/).
-- Not a trailer concrete pump, mixing plant or truck-mounted автобетононасос со стрелой.
+Держите “Gas diffusion and radon permeability” и Type 311 Mortar Spraying Machine Printed Table отдельно. Источник не заполняет пустую клетку. Уже напечатанные значения на этой странице: 1500 × 420 × 900 mm, 3–5 MPa, 380 V, 4 kW, 2 m³/h, 25 mm, 2 mm, 150 kg.
 
-Product page: [Type 311 mortar spraying machine](/products/type-311-mortar-spraying-machine/). Запрос: [contact](/contact/).
+Страницы, уже указанные в этом тексте: [fine stone pump vs mortar sprayer](/blog/fine-stone-concrete-pump-vs-mortar-sprayer/), [spraying machines](/products/spraying-machines/), [Type 511](/products/type-511-mortar-spraying-machine/).

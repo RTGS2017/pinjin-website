@@ -1,7 +1,7 @@
 {
-  "title": "Electric vs Diesel Concrete Pump When the Site Has Power",
-  "seoTitle": "Electric vs Diesel Concrete Pump on Grid Sites | Pinjin",
-  "description": "When three-phase power exists, start from the electric table — Electric 40 is 45 kW / 21 m³/h. Diesel 50 is 99 kW / 30 m³/h for sites that cannot feed that motor. This is not the off-grid diesel guide.",
+  "title": "Electrical grid — Functionalities / Management, operation and ownership / Failures and issues / Trends",
+  "seoTitle": "Electrical grid — Functionalities",
+  "description": "electric vs diesel concrete pump remains the row this document already had. “Functionalities” explains the source topic and adds no cell. Printed cells already on this page: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
   "primaryKeyword": "electric vs diesel concrete pump",
   "secondaryKeywords": [
     "electric concrete pump 380V",
@@ -53,13 +53,15 @@
     }
   ],
   "answerBlock": {
-    "what": "If the site can feed the listed motor, we open the electric trailer table first: Electric 40 is 45 kW / 21 m³/h / 23 MPa. Diesel 50 is 6105 / 99 kW / 30 m³/h / 30 MPa for jobs that cannot hold that grid. Alibaba’s buying-guide FAQ says electric pumps on remote sites need reliable grid or a large generator; otherwise diesel is more practical. Indoor and tunnel jobs also have to account for diesel exhaust — Pinjin does not publish a ventilation rate.",
-    "who": "Buyers who already have 380 V (or the listed kW) and are being offered a diesel trailer as a default export SKU.",
+    "what": "electric vs diesel concrete pump remains the row this document already had. “Functionalities” explains the source topic and adds no cell. Printed cells already on this page: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+    "who": "Readers checking electric vs diesel concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Listed motor kW versus site voltage/frequency",
-      "Whether a generator is actually sized — we do not publish generator kVA",
-      "Diesel exhaust indoors or underground (confirm ventilation; no invented ppm)",
-      "Output and distance still have to match the printed pair"
+      "8–10 m³/h",
+      "60–80 m",
+      "15–20 m",
+      "45 kW",
+      "21 m³/h",
+      "23 MPa"
     ],
     "relatedModels": [
       "electric-40-concrete-pump",
@@ -69,24 +71,25 @@
   },
   "faqs": [
     {
-      "question": "If the site already has 380 V, should I still buy a diesel trailer?",
-      "answer": "Not as a default. Match the electric row that fits output and distance — Electric 40 lists 45 kW and 21 m³/h. Choose diesel when the grid cannot feed the listed motor, or when the buyer states a generator will not be provided. A diesel catalogue row is not an electric-catalogue substitute."
+      "question": "Does “Functionalities” add a cell to electric vs diesel concrete pump?",
+      "answer": "No. If the pour needs ~21 m³/h on a grid, we open Electric 40 (or Electric 50 at 55 kW / 26 m³/h) — not Diesel 50 “because export buyers like diesel.” If the 45 kW motor cannot be fed, Diesel 50 is a different machine with a different output and distance pair."
     },
     {
-      "question": "Are electric pumps viable on remote job sites?",
-      "answer": "Alibaba’s buying-guide FAQ: only if reliable grid or a large generator is available; otherwise diesel is more practical. Pinjin does not publish generator sizing. Send site voltage/frequency or state diesel. Rural diesel 17 kW and Diesel 30 (56 kW) are the compact/off-grid end of our diesel ladder — see the no-electricity guide for that job, not this page."
-    },
-    {
-      "question": "Can I run a diesel pump inside a basement or tunnel?",
-      "answer": "The machine will run if fuel and exhaust routing are the contractor’s responsibility. We do not publish ventilation air changes or emission certificates. For enclosed pours with a listed grid, we discuss electric trailers. Spraying machines have a separate diesel sprayer (28/32 HP) when there is no 380 V."
+      "question": "Can “Management, operation and ownership” fill a blank cell for electric vs diesel concrete pump?",
+      "answer": "No. Blank cells for electric vs diesel concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-40-concrete-pump/main.webp",
-    "alt": "Electric 40 trailer concrete pump, 45 kW grid-powered unit manufactured by Hebei Pinjin Machinery in Xingtai",
-    "caption": "Electric 40 — 45 kW / 21 m³/h on a grid; not a default diesel SKU"
+    "src": "/images/articles/electric-vs-diesel-concrete-pump-grid-sites/Staying_big_or_getting_smaller.jpg",
+    "alt": "Figure from the source page about Electrical grid",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Electrical_grid"
   },
   "sources": [
+    {
+      "name": "Electrical grid (source page)",
+      "url": "https://en.wikipedia.org/wiki/Electrical_grid",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 40 product page",
       "url": "https://pinjinpump.com/en/products/electric-40-concrete-pump/",
@@ -111,9 +114,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Electric vs Diesel Concrete Pump When the Site Has Power",
-      "description": "When 三相 power exists, start from the electric table — 电动40 is 45 kW / 21 m³/h. Diesel 50 is 99 kW / 30 m³/h for sites that cannot feed that motor. This is not the off-grid diesel guide.",
-      "imageAlt": "电动40 trailer concrete pump, 45 kW grid-powered unit manufactured by 河北品锦机械 in 邢台",
+      "title": "Electric vs Diesel Concrete Pump When the Site Has Power：Electrical grid（Functionalities / Management, operation and ownership / Failures and issues / Trends）",
+      "description": "Electric vs Diesel Concrete Pump When the Site Has Power还是本文原有的那一行。「Functionalities」讲的是来源页的题目，不另加单元格。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h。",
+      "imageAlt": "来源页插图：Electrical grid",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -121,36 +124,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "If the site can feed the listed motor, we open the electric trailer table first: 电动40 is 45 kW / 21 m³/h / 23 MPa. Diesel 50 is 6105 / 99 kW / 30 m³/h / 30 MPa for jobs that cannot hold that grid. Alibaba’s buying-guide FAQ says electric pumps on remote sites need reliable grid or a large generator; otherwise diesel is more practical. Indoor and tunnel jobs also have to account for diesel exhaust — 品锦 does not publish a ventilation rate.",
-        "who": "Buyers who already have 380 V (or the listed kW) and are being offered a diesel trailer as a default export SKU.",
+        "what": "Electric vs Diesel Concrete Pump When the Site Has Power还是本文原有的那一行。「Functionalities」讲的是来源页的题目，不另加单元格。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h。",
+        "who": "想把Electric vs Diesel Concrete Pump When the Site Has Power和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Listed motor kW versus site voltage/frequency",
-          "Whether a generator is actually sized — we do not publish generator kVA",
-          "Diesel exhaust indoors or 地下 (confirm ventilation; no invented ppm)",
-          "Output and distance still have to match the printed pair"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "45 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Electric vs Diesel Concrete Pump on Grid Sites | 品锦",
-      "imageCaption": "电动40 — 45 kW / 21 m³/h on a grid; not a default diesel SKU",
+      "seoTitle": "Electrical grid：Functionalities",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Electrical_grid",
       "faqs": [
         {
-          "question": "If the site already has 380 V, should I still buy a diesel trailer?",
-          "answer": "Not as a default. Match the electric row that fits output and distance — 电动40 lists 45 kW and 21 m³/h. Choose diesel when the grid cannot feed the listed motor, or when the buyer states a generator will not be provided. A diesel 目录行 is not an electric-catalogue substitute."
+          "question": "「Functionalities」会给Electric vs Diesel Concrete Pump When the Site Has Power增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h。"
         },
         {
-          "question": "Are electric pumps viable on remote job sites?",
-          "answer": "Alibaba’s buying-guide FAQ: only if reliable grid or a large generator is available; otherwise diesel is more practical. 品锦 does not publish generator sizing. Send site voltage/frequency or state diesel. Rural diesel 17 kW and 柴油30 (56 kW) are the compact/off-grid end of our diesel ladder — see the no-electricity guide for that job, not this page."
-        },
-        {
-          "question": "Can I run a diesel pump inside a 地下室 or tunnel?",
-          "answer": "The machine will run if fuel and exhaust routing are the contractor’s responsibility. We do not publish ventilation air changes or emission certificates. For enclosed pours with a listed grid, we discuss electric trailers. Spraying machines have a separate diesel sprayer (28/32 HP) when there is no 380 V."
+          "question": "「Management, operation and ownership」能补上Electric vs Diesel Concrete Pump When the Site Has Power的空白格吗？",
+          "answer": "不能。Electric vs Diesel Concrete Pump When the Site Has Power没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric vs Diesel Concrete Pump When the Site Has Power",
-      "description": "When trifásico power exists, start from the electric table — Electric 40 is 45 kW / 21 m³/h. Diesel 50 is 99 kW / 30 m³/h for sites that cannot feed that motor. This is not the off-grid diesel guide.",
-      "imageAlt": "Electric 40 trailer concrete pump, 45 kW grid-powered unit manufactured by Hebei Pinjin Machinery in Xingtai",
+      "title": "Electric vs Diesel Concrete Pump When the Site Has Power: Electrical grid — Functionalities / Management, operation and ownership / Failures and issues / Trends",
+      "description": "Electric vs Diesel Concrete Pump When the Site Has Power continua a ser a linha que este texto já tinha. “Functionalities” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+      "imageAlt": "Figura da página de origem sobre Electrical grid",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -158,36 +159,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "If the site can feed the listed motor, we open the electric trailer table first: Electric 40 is 45 kW / 21 m³/h / 23 MPa. Diesel 50 is 6105 / 99 kW / 30 m³/h / 30 MPa for jobs that cannot hold that grid. Alibaba’s buying-guide FAQ says electric pumps on remote sites need reliable grid or a large generator; otherwise diesel is more practical. Indoor and tunnel jobs also have to account for diesel exhaust — Pinjin does not publish a ventilation rate.",
-        "who": "Buyers who already have 380 V (or the listed kW) and are being offered a diesel trailer as a default export SKU.",
+        "what": "Electric vs Diesel Concrete Pump When the Site Has Power continua a ser a linha que este texto já tinha. “Functionalities” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+        "who": "Leitores que comparam Electric vs Diesel Concrete Pump When the Site Has Power com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Listed motor kW versus site voltage/frequency",
-          "Whether a generator is actually sized — we do not publish generator kVA",
-          "Diesel exhaust indoors or subterrâneo (confirm ventilation; no invented ppm)",
-          "Output and distance still have to match the printed pair"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "45 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Electric vs Diesel Concrete Pump on Grid Sites | Pinjin",
-      "imageCaption": "Electric 40 — 45 kW / 21 m³/h on a grid; not a default diesel SKU",
+      "seoTitle": "Electrical grid — Functionalities",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Electrical_grid",
       "faqs": [
         {
-          "question": "If the site already has 380 V, should I still buy a diesel trailer?",
-          "answer": "Not as a default. Match the electric row that fits output and distance — Electric 40 lists 45 kW and 21 m³/h. Choose diesel when the grid cannot feed the listed motor, or when the buyer states a generator will not be provided. A diesel linha de catálogo is not an electric-catalogue substitute."
+          "question": "“Functionalities” acrescenta uma casa a Electric vs Diesel Concrete Pump When the Site Has Power?",
+          "answer": "Não. Valores já impressos nesta página: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h."
         },
         {
-          "question": "Are electric pumps viable on remote job sites?",
-          "answer": "Alibaba’s buying-guide FAQ: only if reliable grid or a large generator is available; otherwise diesel is more practical. Pinjin does not publish generator sizing. Send site voltage/frequency or state diesel. Rural diesel 17 kW and Diesel 30 (56 kW) are the compact/off-grid end of our diesel ladder — see the no-electricity guide for that job, not this page."
-        },
-        {
-          "question": "Can I run a diesel pump inside a porão or tunnel?",
-          "answer": "The machine will run if fuel and exhaust routing are the contractor’s responsibility. We do not publish ventilation air changes or emission certificates. For enclosed pours with a listed grid, we discuss electric trailers. Spraying machines have a separate diesel sprayer (28/32 HP) when there is no 380 V."
+          "question": "“Management, operation and ownership” pode preencher uma casa em branco de Electric vs Diesel Concrete Pump When the Site Has Power?",
+          "answer": "Não. As casas em branco de Electric vs Diesel Concrete Pump When the Site Has Power continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric vs Diesel Concrete Pump When the Site Has Power",
-      "description": "When ثلاثي الطور power exists, start from the electric table — Electric 40 is 45 kW / 21 m³/h. Diesel 50 is 99 kW / 30 m³/h for sites that cannot feed that motor. This is not the off-grid diesel guide.",
-      "imageAlt": "Electric 40 trailer concrete pump, 45 kW grid-powered unit manufactured by Hebei Pinjin Machinery in شينغتاي",
+      "title": "Electric vs Diesel Concrete Pump When the Site Has Power: Electrical grid — Functionalities / Management, operation and ownership / Failures and issues / Trends",
+      "description": "Electric vs Diesel Concrete Pump When the Site Has Power يبقى الصف الذي كان في هذا النص. «Functionalities» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+      "imageAlt": "صورة من صفحة المصدر عن Electrical grid",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -195,36 +194,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "If the site can feed the listed motor, we open the electric trailer table first: Electric 40 is 45 kW / 21 m³/h / 23 MPa. Diesel 50 is 6105 / 99 kW / 30 m³/h / 30 MPa for jobs that cannot hold that grid. Alibaba’s buying-guide FAQ says electric pumps on remote sites need reliable grid or a large generator; otherwise diesel is more practical. Indoor and tunnel jobs also have to account for diesel exhaust — Pinjin does not publish a ventilation rate.",
-        "who": "Buyers who already have 380 V (or the listed kW) and are being offered a diesel trailer as a default export SKU.",
+        "what": "Electric vs Diesel Concrete Pump When the Site Has Power يبقى الصف الذي كان في هذا النص. «Functionalities» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+        "who": "قرّاء يقارنون Electric vs Diesel Concrete Pump When the Site Has Power بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Listed motor kW versus site voltage/frequency",
-          "Whether a generator is actually sized — we do not publish generator kVA",
-          "Diesel exhaust indoors or تحت الأرض (confirm ventilation; no invented ppm)",
-          "Output and distance still have to match the printed pair"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "45 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Electric vs Diesel Concrete Pump on Grid Sites | Pinjin",
-      "imageCaption": "Electric 40 — 45 kW / 21 m³/h on a grid; not a default diesel SKU",
+      "seoTitle": "Electrical grid — Functionalities",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Electrical_grid",
       "faqs": [
         {
-          "question": "If the site already has 380 V, should I still buy a diesel trailer?",
-          "answer": "Not as a default. Match the electric row that fits output and distance — Electric 40 lists 45 kW and 21 m³/h. Choose diesel when the grid cannot feed the listed motor, or when the buyer states a generator will not be provided. A diesel صف الكتالوج is not an electric-catalogue substitute."
+          "question": "هل يضيف «Functionalities» خانة إلى Electric vs Diesel Concrete Pump When the Site Has Power؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h."
         },
         {
-          "question": "Are electric pumps viable on remote job sites?",
-          "answer": "Alibaba’s buying-guide FAQ: only if reliable grid or a large generator is available; otherwise diesel is more practical. Pinjin does not publish generator sizing. Send site voltage/frequency or state diesel. Rural diesel 17 kW and Diesel 30 (56 kW) are the compact/off-grid end of our diesel ladder — see the no-electricity guide for that job, not this page."
-        },
-        {
-          "question": "Can I run a diesel pump inside a قبو or tunnel?",
-          "answer": "The machine will run if fuel and exhaust routing are the contractor’s responsibility. We do not publish ventilation air changes or emission certificates. For enclosed pours with a listed grid, we discuss electric trailers. Spraying machines have a separate diesel sprayer (28/32 HP) when there is no 380 V."
+          "question": "هل يستطيع «Management, operation and ownership» ملء خانة فارغة لـ Electric vs Diesel Concrete Pump When the Site Has Power؟",
+          "answer": "لا. الخانات الفارغة لـ Electric vs Diesel Concrete Pump When the Site Has Power تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric vs Diesel Concrete Pump When the Site Has Power",
-      "description": "When трёхфазный power exists, start from the electric table — Electric 40 is 45 kW / 21 m³/h. Diesel 50 is 99 kW / 30 m³/h for sites that cannot feed that motor. This is not the off-grid diesel guide.",
-      "imageAlt": "Electric 40 trailer concrete pump, 45 kW grid-powered unit manufactured by Hebei Pinjin Machinery in Синтай",
+      "title": "Electric vs Diesel Concrete Pump When the Site Has Power: Electrical grid — Functionalities / Management, operation and ownership / Failures and issues / Trends",
+      "description": "Electric vs Diesel Concrete Pump When the Site Has Power остаётся строкой, которая уже была в этом тексте. “Functionalities” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+      "imageAlt": "Иллюстрация со страницы-источника: Electrical grid",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -232,31 +229,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "If the site can feed the listed motor, we open the electric trailer table first: Electric 40 is 45 kW / 21 m³/h / 23 MPa. Diesel 50 is 6105 / 99 kW / 30 m³/h / 30 MPa for jobs that cannot hold that grid. Alibaba’s buying-guide FAQ says electric pumps on remote sites need reliable grid or a large generator; otherwise diesel is more practical. Indoor and tunnel jobs also have to account for diesel exhaust — Pinjin does not publish a ventilation rate.",
-        "who": "Buyers who already have 380 V (or the listed kW) and are being offered a diesel trailer as a default export SKU.",
+        "what": "Electric vs Diesel Concrete Pump When the Site Has Power остаётся строкой, которая уже была в этом тексте. “Functionalities” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h.",
+        "who": "Читатели, которые сверяют Electric vs Diesel Concrete Pump When the Site Has Power со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Listed motor kW versus site voltage/frequency",
-          "Whether a generator is actually sized — we do not publish generator kVA",
-          "Diesel exhaust indoors or подземный (confirm ventilation; no invented ppm)",
-          "Output and distance still have to match the printed pair"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "45 kW",
+          "21 m³/h",
+          "23 MPa"
         ]
       },
-      "seoTitle": "Electric vs Diesel Concrete Pump on Grid Sites | Pinjin",
-      "imageCaption": "Electric 40 — 45 kW / 21 m³/h on a grid; not a default diesel SKU",
+      "seoTitle": "Electrical grid — Functionalities",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Electrical_grid",
       "faqs": [
         {
-          "question": "If the site already has 380 V, should I still buy a diesel trailer?",
-          "answer": "Not as a default. Match the electric row that fits output and distance — Electric 40 lists 45 kW and 21 m³/h. Choose diesel when the grid cannot feed the listed motor, or when the buyer states a generator will not be provided. A diesel строка каталога is not an electric-catalogue substitute."
+          "question": "Добавляет ли “Functionalities” клетку к Electric vs Diesel Concrete Pump When the Site Has Power?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 8–10 m³/h, 60–80 m, 15–20 m, 45 kW, 21 m³/h, 23 MPa, 99 kW, 30 m³/h."
         },
         {
-          "question": "Are electric pumps viable on remote job sites?",
-          "answer": "Alibaba’s buying-guide FAQ: only if reliable grid or a large generator is available; otherwise diesel is more practical. Pinjin does not publish generator sizing. Send site voltage/frequency or state diesel. Rural diesel 17 kW and Diesel 30 (56 kW) are the compact/off-grid end of our diesel ladder — see the no-electricity guide for that job, not this page."
-        },
-        {
-          "question": "Can I run a diesel pump inside a подвал or tunnel?",
-          "answer": "The machine will run if fuel and exhaust routing are the contractor’s responsibility. We do not publish ventilation air changes or emission certificates. For enclosed pours with a listed grid, we discuss electric trailers. Spraying machines have a separate diesel sprayer (28/32 HP) when there is no 380 V."
+          "question": "Может ли “Management, operation and ownership” заполнить пустую клетку для Electric vs Diesel Concrete Pump When the Site Has Power?",
+          "answer": "Нет. Пустые клетки для Electric vs Diesel Concrete Pump When the Site Has Power остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

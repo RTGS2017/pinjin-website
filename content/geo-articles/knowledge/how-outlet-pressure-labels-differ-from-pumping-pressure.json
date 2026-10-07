@@ -6,100 +6,110 @@
     "zh": "混凝土泵出口压力和泵送压力怎么区分"
   },
   "title": {
-    "en": "Outlet Pressure and Pumping Pressure on Pinjin Sheets",
-    "zh": "品锦参数页上的出口压力和泵送压力"
+    "en": "Outlet Pressure and Pumping Pressure on Pinjin Sheets keeps its own figures; Hydrostatics is only the picture",
+    "zh": "品锦参数页上的出口压力和泵送压力保留自己的数字，「流体静力学」只是配图"
   },
   "description": {
-    "en": "Some Xingtai concrete pump rows say max. outlet pressure. Others say pumping pressure. The label is part of the cell.",
-    "zh": "邢台有的混凝土泵行写最大出口压力，有的写泵送压力。标题是格子的一部分。"
+    "en": "Outlet Pressure and Pumping Pressure on Pinjin Sheets. 10 MPa stays in the catalogue entry. Illustration: Hydrostatics.",
+    "zh": "品锦参数页上的出口压力和泵送压力。10 MPa仍在目录格子里。插图来自「流体静力学」。"
   },
   "h1": {
-    "en": "Outlet Pressure and Pumping Pressure on Pinjin Sheets",
-    "zh": "品锦参数页上的出口压力和泵送压力"
+    "en": "Outlet Pressure and Pumping Pressure on Pinjin Sheets keeps its own figures; Hydrostatics is only the picture",
+    "zh": "品锦参数页上的出口压力和泵送压力保留自己的数字，「流体静力学」只是配图"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints pressure in MPa on most concrete pumps made in Xingtai, but the label is not one phrase. Trailer rows such as Electric 20 and Diesel 30 say max. outlet pressure. HBT8018, HBT80-16, LZ-60, LZ-80, the tractor pump and the rural diesel pump say pumping pressure. Electric 15 and B500S-83D print no pressure row. The words are not a conversion factor.",
-    "zh": "河北品锦机械在邢台的多数混凝土泵以 MPa 印压力，但标题不是同一句话。电动20、柴油30这类拖泵行写最大出口压力。HBT8018、HBT80-16、LZ-60、LZ-80、拖拉机泵和农村柴油泵写泵送压力。电动15和 B500S-83D 没有压力行。这两个词不是换算系数。"
+    "en": "Hebei Pinjin Machinery lists pressure in MPa on most concrete pumps made in Xingtai, but the label is not one phrase. Trailer rows such as Electric 20 and Diesel 30 say max. The picture is from https://en.wikipedia.org/wiki/Hydrostatics.",
+    "zh": "河北品锦机械在邢台的多数混凝土泵以 MPa 标出压力，但标题不是同一句话。电动20、柴油30这类拖泵行写最大出口压力。图片来自https://en.wikipedia.org/wiki/Hydrostatics。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Which label the page chose",
-        "zh": "页面选了哪个标题"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "Read the label before the number. Electric 20 prints max. outlet pressure 10 MPa. Electric 40 prints 23 MPa. Electric 80 prints 40 MPa. Diesel 120 prints 40 MPa. HBT8018 prints pumping pressure 40 MPa. LZ-60 prints pumping pressure 35 MPa. The tractor and the rural diesel pump print pumping pressure 15 MPa. Hebei Pinjin Machinery does not print bar on these concrete pump rows.",
-        "zh": "先读标题再读数字。电动20的最大出口压力为 10 MPa。电动40为 23 MPa。电动80为 40 MPa。柴油120为 40 MPa。HBT8018 的泵送压力为 40 MPa。LZ-60 的泵送压力为 35 MPa。拖拉机泵和农村柴油泵的泵送压力为 15 MPa。河北品锦机械没有在这些混凝土泵行上印 bar。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Hydrostatics. The picture shows Hydrostatics. Hebei Pinjin Machinery lists pressure in MPa on most concrete pumps made in Xingtai, but the label is not one phrase. The words are not a conversion factor. Electric 40 lists 23 MPa. LZ-60 lists pumping pressure 35 MPa. B500S-83D lists 7.5 kW and 380 V, and it does not list a pressure. It is not a blockage-clearing procedure, and it is not a slump specification except where a page actually lists slump.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Hydrostatics。画面是Hydrostatics。河北品锦机械在邢台的多数混凝土泵以 MPa 标出压力，但标题不是同一句话。HBT8018 的泵送压力为 40 MPa。B500S-83D 标出了 7.5 kW 和 380 V，没有标出压力。如果工况需要参数页没有的压力，请走联系页。"
       }
     },
     {
       "heading": {
-        "en": "Pages with no pressure cell",
-        "zh": "没有压力格的页面"
+        "en": "Hydrostatics in ancient Greece and Rome",
+        "zh": "古希腊与古罗马的流体静力学"
       },
       "body": {
-        "en": "Electric 15 prints motor power, output and distance ranges, and it does not print a pressure. B500S-83D prints 7.5 kW and 380 V, and it does not print a pressure. Do not copy 10 MPa from Electric 20 onto either page. A missing pressure cell stays blank.",
-        "zh": "电动15印了电机、产量和距离范围，没有印压力。B500S-83D 印了 7.5 kW 和 380 V，没有印压力。不要把电动20的 10 MPa 抄到这两页。缺了的压力格保持空白。"
+        "en": "Trailer rows such as Electric 20 and Diesel 30 say max. Read the label before the number. Electric 80 lists 40 MPa. The tractor and the rural diesel pump list pumping pressure 15 MPa. Do not copy 10 MPa from Electric 20 onto either page. Only the Tractor-Driven 4100 lists slump, 180–220 mm.",
+        "zh": "电动20、柴油30这类拖泵行写最大出口压力。拖拉机泵和农村柴油泵的泵送压力为 15 MPa。不要把电动20的 10 MPa 抄到这两页。"
       }
     },
     {
       "heading": {
-        "en": "What the pressure cell is not",
-        "zh": "压力格不是什么"
+        "en": "Pascal's contribution in hydrostatics",
+        "zh": "帕斯卡对流体静力学的贡献"
       },
       "body": {
-        "en": "The printed MPa is the catalogue cell for that concrete pump. It is not a blockage-clearing procedure, and it is not a slump specification except where a page actually prints slump. Only the Tractor-Driven 4100 prints slump, 180–220 mm. Ask through the contact page if a job needs a pressure the sheet does not show.",
-        "zh": "印出的 MPa 是这台混凝土泵的目录格。它不是清堵步骤，也不是坍落度，除非该页真的印了坍落度。只有拖拉机带动4100印了坍落度 180–220 mm。如果工况需要参数页没有的压力，请走联系页。"
+        "en": "HBT8018, HBT80-16, LZ-60, LZ-80, the tractor pump and the rural diesel pump say pumping pressure. Electric 20 lists max. Diesel 120 lists 40 MPa. Hebei Pinjin Machinery does not list bar on these concrete pump rows. A missing pressure entry stays blank. Ask through the contact page if a job needs a pressure the sheet does not show.",
+        "zh": "HBT8018、HBT80-16、LZ-60、LZ-80、拖拉机泵和农村柴油泵写泵送压力。河北品锦机械没有在这些混凝土泵行上标出 bar。它不是清堵步骤，也不是坍落度，除非该页真的标出了坍落度。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Liquids (fluids with free surfaces)",
+        "zh": "液体（有自由表面的流体）"
+      },
+      "body": {
+        "en": "Electric 15 and B500S-83D list no pressure row. outlet pressure 10 MPa. HBT8018 lists pumping pressure 40 MPa. Electric 15 lists motor power, output and distance ranges, and it does not list a pressure. The shown MPa is the catalogue entry for that concrete pump.",
+        "zh": "电动15和 B500S-83D 没有压力行。电动15标出了电机、产量和距离范围，没有标出压力。只有拖拉机带动4100标出了坍落度 180–220 mm。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Do outlet pressure and pumping pressure convert by a published factor?",
+        "en": "On this row: Do outlet pressure and pumping pressure convert by a published factor?",
         "zh": "出口压力和泵送压力有公布的换算系数吗？"
       },
       "answer": {
-        "en": "No. Hebei Pinjin Machinery prints one label or the other on each Xingtai concrete pump page. There is no factor telling you to turn one phrase into the other.",
-        "zh": "没有。河北品锦机械在每台邢台混凝土泵上只印其中一个标题。没有系数让你把一种说法换成另一种。"
+        "en": "No. Hebei Pinjin Machinery lists one label or the other on each Xingtai concrete pump page. There is no factor telling you to turn one phrase into the other. It is not a figure printed inside https://en.wikipedia.org/wiki/Hydrostatics.",
+        "zh": "没有。河北品锦机械在每台邢台混凝土泵上只标出其中一个标题。没有系数让你把一种说法换成另一种。它不是https://en.wikipedia.org/wiki/Hydrostatics画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Which compact pumps omit pressure?",
+        "en": "On this row: Which compact pumps omit pressure?",
         "zh": "哪些紧凑泵没有压力？"
       },
       "answer": {
-        "en": "Electric 15 and B500S-83D do not print a pressure row. The rural diesel pump does print 15 MPa.",
-        "zh": "电动15和 B500S-83D 没有压力行。农村柴油泵印了 15 MPa。"
+        "en": "Electric 15 and B500S-83D do not list a pressure row. The rural diesel pump does list 15 MPa. It is not a figure printed inside https://en.wikipedia.org/wiki/Hydrostatics.",
+        "zh": "电动15和 B500S-83D 没有压力行。农村柴油泵标出了 15 MPa。它不是https://en.wikipedia.org/wiki/Hydrostatics画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is pressure printed in bar?",
-        "zh": "压力用 bar 印吗？"
+        "en": "Is pressure shown in bar?",
+        "zh": "压力用 bar 标出吗？"
       },
       "answer": {
-        "en": "Concrete pump rows cited here print MPa. Do not rewrite a cell into bar.",
-        "zh": "这里引用的混凝土泵行以 MPa 印出。不要把格子改写成 bar。"
+        "en": "Concrete pump rows cited here list MPa. Do not rewrite a entry into bar. It is not a figure printed inside https://en.wikipedia.org/wiki/Hydrostatics.",
+        "zh": "这里引用的混凝土泵行以 MPa 写出。不要把格子改写成 bar。它不是https://en.wikipedia.org/wiki/Hydrostatics画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Does a higher MPa on one model apply to the next model?",
+        "en": "On this row: Does a higher MPa on one model apply to the next model?",
         "zh": "一个型号更高的 MPa 能用到下一个型号吗？"
       },
       "answer": {
-        "en": "No. Electric 80 prints 40 MPa and Electric 60 prints 35 MPa. Keep each figure on its own page.",
-        "zh": "不能。电动80印 40 MPa，电动60印 35 MPa。数字留在各自页面。"
+        "en": "No. Electric 80 lists 40 MPa and Electric 60 lists 35 MPa. Keep each figure on its own page. It is not a figure printed inside https://en.wikipedia.org/wiki/Hydrostatics.",
+        "zh": "不能。电动80标出 40 MPa，电动60标出 35 MPa。数字留在各自页面。它不是https://en.wikipedia.org/wiki/Hydrostatics画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-outlet-pressure-labels-differ-from-pumping-pressure-pinjin.webp",
+    "src": "/images/articles/knowledge/how-outlet-pressure-labels-differ-from-pumping-pressure-hydrostatics.jpg",
     "alt": {
-      "en": "Concrete pump pressure cell on a Xingtai catalogue row, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "邢台目录行上的混凝土泵压力格，河北品锦机械，河北邢台"
+      "en": "Hydrostatics. Image from the source page: https://en.wikipedia.org/wiki/Hydrostatics.",
+      "zh": "Hydrostatics。图来自来源页：https://en.wikipedia.org/wiki/Hydrostatics。"
     }
   },
   "relatedPaths": [
@@ -134,7 +144,8 @@
     "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Hydrostatics"
   ],
   "status": "draft"
 }

@@ -3,100 +3,110 @@
   "category": "buying",
   "keyword": "maximum aggregate size on the pump order",
   "title": {
-    "en": "Put the Aggregate Cell on the Xingtai Purchase Order",
-    "zh": "把骨料格子写进邢台的采购订单"
+    "en": "“Head” leaves Electric 15 prints 1–3 cm on the maximum aggregate size on the pump order row",
+    "zh": "「扬程」不改把骨料格子写进邢台的采购订单这一行里的「柴油60写明未印骨料粒径。」"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints maximum aggregate on some pump pages and leaves it off others. The inquiry still asks for your maximum aggregate. Do not copy a neighbour’s stone size onto a blank page.",
-    "zh": "河北品锦机械在邢台的一些泵页印最大骨料，另一些不印。询盘仍然要求你的最大骨料。不要把邻页的石子粒径抄到空白页上。"
+    "en": "maximum aggregate size on the pump order at /products/electric-20-concrete-pump. Electric 15 prints 1–3 cm Electric 20 prints 1–2 cm",
+    "zh": "把骨料格子写进邢台的采购订单见 /products/electric-20-concrete-pump。柴油60写明未印骨料粒径。电动15印 1–3 cm。"
   },
   "h1": {
-    "en": "Order Against the Aggregate Cell That Is Actually Printed",
-    "zh": "按实际印出的骨料格下单"
+    "en": "Head does not retitle the maximum aggregate size on the pump order cells",
+    "zh": "「扬程」并不改写把骨料格子写进邢台的采购订单的格子"
   },
   "directAnswer": {
-    "en": "When Hebei Pinjin Machinery in Xingtai prints a maximum aggregate, that cell is part of the order. Electric 20 prints 1–2 cm. Electric 15 prints 1–3 cm. Electric 80 prints 24 mm (≤ 2 cm). HBT8018 prints 4 cm and below. Diesel 120 and LZ-80 print 6 cm and below. Diesel 60 states that aggregate size is not printed. Send your measured maximum anyway, and do not fill Diesel 60’s blank from LZ-60’s 4 cm line.",
-    "zh": "河北品锦机械（邢台）印了最大骨料时，这一格就是订单的一部分。电动20印 1–2 cm。电动15印 1–3 cm。电动80印 24 mm（≤ 2 cm）。HBT8018 印 4 cm 及以下。柴油120和 LZ-80 印 6 cm 及以下。柴油60写明未印骨料粒径。你的实测最大值仍然要发送，但不要用 LZ-60 的 4 cm 去填柴油60的空白。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for maximum aggregate size on the pump order. The row to open is /products/electric-20-concrete-pump. Electric 15 prints 1–3 cm. Electric 20 prints 1–2 cm. Electric 80 prints 24 mm (≤ 2 cm). Diesel 120 and LZ-80 print 6 cm and below. It prints 2 cm and below, with hopper 0.1 m³. B500S-83D prints sand and small stone, 5–16 mm. A ≤6 mm sprayer particle is a spraying-machine cell. Diesel 60 states that aggregate size is not printed. HBT8018 prints 4 cm and below on a pump-only page with 132 kW. The electric mixer prints aggregate 4 cm and below on its own sheet. Send your measured maximum anyway, and do not fill Diesel 60’s blank from LZ-60’s 4 cm line. It is not Electric 15’s 1–3 cm cell and not a licence to order a trailer pump for 16 mm only. Diesel 30’s description mentions 1 cm aggregate beside 60 m / 180 m, while the specification cell says 3 cm and below. Diesel 40 and Diesel 50 descriptions mention 1 cm aggregate beside the distance, without a separate maximum-aggregate specification row. The section title “Flow” comes from the source page and does not add a rating.",
+    "zh": "河北品锦机械在邢台印出的是把骨料格子写进邢台的采购订单的数字。要打开的行是 /products/electric-20-concrete-pump。柴油60写明未印骨料粒径。电动15印 1–3 cm。电动20印 1–2 cm。HBT8018 印 4 cm 及以下。喷涂机的 ≤6 mm 粒径是喷涂机格子。电动80印 24 mm（≤ 2 cm）。它印 2 cm 及以下，料斗 0.1 m³。电动搅拌泵在自己的表上印骨料 4 cm 及以下。B500S-83D 印砂和小石，5–16 mm。柴油120和 LZ-80 印 6 cm 及以下。它不是电动15的 1–3 cm，也不能据此只为 16 mm 去订一台拖泵。HBT8018 在只泵送的页面上印 4 cm 及以下，电机是 132 kW。柴油40和柴油50的说明在距离旁提到 1 cm 骨料，没有单独的最大骨料规格行。你的实测最大值仍然要发送，但不要用 LZ-60 的 4 cm 去填柴油60的空白。柴油30的说明在 60 m / 180 m 旁提到 1 cm 骨料，规格格则写 3 cm 及以下。节标题「流量」来自来源页，不另加额定值。"
   },
   "sections": [
     {
       "heading": {
-        "en": "B500S uses a material line, not a trailer aggregate line",
-        "zh": "B500S 用的是材料行，不是拖泵骨料行"
+        "en": "Flow",
+        "zh": "流量"
       },
       "body": {
-        "en": "B500S-83D prints sand and small stone, 5–16 mm. That is the material cell for the compact unit. It is not Electric 15’s 1–3 cm cell and not a licence to order a trailer pump for 16 mm only.",
-        "zh": "B500S-83D 印砂和小石，5–16 mm。这是紧凑机的材料格。它不是电动15的 1–3 cm，也不能据此只为 16 mm 去订一台拖泵。"
+        "en": "For maximum aggregate size on the pump order, the heading “Flow” does not replace a cell. Electric 15 prints 1–3 cm. It prints 2 cm and below, with hopper 0.1 m³. HBT8018 prints 4 cm and below on a pump-only page with 132 kW. Diesel 30’s description mentions 1 cm aggregate beside 60 m / 180 m, while the specification cell says 3 cm and below.",
+        "zh": "对把骨料格子写进邢台的采购订单而言，标题「流量」并不替换任何格子。电动15印 1–3 cm。它印 2 cm 及以下，料斗 0.1 m³。HBT8018 在只泵送的页面上印 4 cm 及以下，电机是 132 kW。柴油30的说明在 60 m / 180 m 旁提到 1 cm 骨料，规格格则写 3 cm 及以下。"
       }
     },
     {
       "heading": {
-        "en": "Description notes that are not a second cell",
-        "zh": "说明里的注释不是第二格"
+        "en": "Head",
+        "zh": "扬程"
       },
       "body": {
-        "en": "Diesel 30’s description mentions 1 cm aggregate beside 60 m / 180 m, while the specification cell says 3 cm and below. Diesel 40 and Diesel 50 descriptions mention 1 cm aggregate beside the distance, without a separate maximum-aggregate specification row. Quote both published wordings and add your stone size.",
-        "zh": "柴油30的说明在 60 m / 180 m 旁提到 1 cm 骨料，规格格则写 3 cm 及以下。柴油40和柴油50的说明在距离旁提到 1 cm 骨料，没有单独的最大骨料规格行。两处已公布文字都要引用，并加上你的石子粒径。"
+        "en": "maximum aggregate size on the pump order is unchanged by the heading “Head”. Electric 20 prints 1–2 cm. B500S-83D prints sand and small stone, 5–16 mm. The electric mixer prints aggregate 4 cm and below on its own sheet. Diesel 40 and Diesel 50 descriptions mention 1 cm aggregate beside the distance, without a separate maximum-aggregate specification row.",
+        "zh": "把骨料格子写进邢台的采购订单不因标题「扬程」而改动。电动20印 1–2 cm。B500S-83D 印砂和小石，5–16 mm。HBT8018 印 4 cm 及以下。柴油40和柴油50的说明在距离旁提到 1 cm 骨料，没有单独的最大骨料规格行。"
       }
     },
     {
       "heading": {
-        "en": "The inquiry field is mandatory in the factory wording",
-        "zh": "工厂口径里这一项是要发送的"
+        "en": "Efficiency",
+        "zh": "效率"
       },
       "body": {
-        "en": "Category pages ask for maximum aggregate together with output and distance. Send it to [/en/contact/](/en/contact/) even when you also paste the printed cell. Hebei Pinjin Machinery does not print a price that changes by millimetre on the site.",
-        "zh": "分类页要求最大骨料和输送量、距离一起发送。即使你已经贴了印出的格子，仍要发到 [/zh/contact/](/zh/contact/)。河北品锦机械没有在网站上印按毫米变化的价格。"
+        "en": "This section is titled “Efficiency”. maximum aggregate size on the pump order still prints the cells below. Electric 80 prints 24 mm (≤ 2 cm). A ≤6 mm sprayer particle is a spraying-machine cell. Send your measured maximum anyway, and do not fill Diesel 60’s blank from LZ-60’s 4 cm line.",
+        "zh": "本节标题是「效率」。把骨料格子写进邢台的采购订单下面这些格子仍是印出来的。电动80印 24 mm（≤ 2 cm）。喷涂机的 ≤6 mm 粒径是喷涂机格子。柴油60写明未印骨料粒径。电动搅拌泵在自己的表上印骨料 4 cm 及以下。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power - SI units",
+        "zh": "功率 - 国际单位制"
+      },
+      "body": {
+        "en": "Under “Power - SI units”, maximum aggregate size on the pump order contributes only the printed cells in this part. Diesel 120 and LZ-80 print 6 cm and below. Diesel 60 states that aggregate size is not printed. It is not Electric 15’s 1–3 cm cell and not a licence to order a trailer pump for 16 mm only. The photograph is an image from the source page https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html.",
+        "zh": "在「功率 - 国际单位制」下，把骨料格子写进邢台的采购订单这一节只放已印出的格子。柴油120和 LZ-80 印 6 cm 及以下。你的实测最大值仍然要发送，但不要用 LZ-60 的 4 cm 去填柴油60的空白。它不是电动15的 1–3 cm，也不能据此只为 16 mm 去订一台拖泵。配图来自来源页 https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is 4 cm on the mixer the same as 4 cm on HBT8018?",
-        "zh": "搅拌泵上的 4 cm 和 HBT8018 的 4 cm 是同一台机器吗？"
+        "en": "Does “Flow” replace Electric 15 prints 1–3 cm?",
+        "zh": "「流量」会替换「柴油60写明未印骨料粒径。」吗？"
       },
       "answer": {
-        "en": "No. The electric mixer prints aggregate 4 cm and below on its own sheet. HBT8018 prints 4 cm and below on a pump-only page with 132 kW.",
-        "zh": "不是。电动搅拌泵在自己的表上印骨料 4 cm 及以下。HBT8018 在只泵送的页面上印 4 cm 及以下，电机是 132 kW。"
+        "en": "No. Electric 15 prints 1–3 cm remains the printed wording for maximum aggregate size on the pump order.",
+        "zh": "不会。柴油60写明未印骨料粒径。仍是把骨料格子写进邢台的采购订单已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 10 Series print 2 cm?",
-        "zh": "电动10系列印 2 cm 吗？"
+        "en": "Where does Electric 20 prints 1–2 cm belong on the maximum aggregate size on the pump order row?",
+        "zh": "把骨料格子写进邢台的采购订单这一行里，「电动15印 1–3 cm。」放在哪里？"
       },
       "answer": {
-        "en": "It prints 2 cm and below, with hopper 0.1 m³.",
-        "zh": "它印 2 cm 及以下，料斗 0.1 m³。"
+        "en": "It belongs on /products/electric-20-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-20-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "What if the page is blank?",
-        "zh": "页面是空白怎么办？"
+        "en": "What does “Head” add to maximum aggregate size on the pump order?",
+        "zh": "「扬程」给把骨料格子写进邢台的采购订单增加了什么？"
       },
       "answer": {
-        "en": "Leave the catalogue cell blank. Send the measured stone as your site fact.",
-        "zh": "目录格保持空白。把实测石子作为现场事实发送。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Are sprayer particle sizes pump aggregate?",
-        "zh": "喷涂机粒径是泵的骨料吗？"
+        "en": "Which path names the maximum aggregate size on the pump order row?",
+        "zh": "哪条路径对应把骨料格子写进邢台的采购订单这一行？"
       },
       "answer": {
-        "en": "No. A ≤6 mm sprayer particle is a spraying-machine cell. It does not rewrite a trailer pump.",
-        "zh": "不是。喷涂机的 ≤6 mm 粒径是喷涂机格子。它不改写拖泵。"
+        "en": "/products/electric-20-concrete-pump",
+        "zh": "/products/electric-20-concrete-pump"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-electric-20-aggregate-cell-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-aggregate-cell-on-the-purchase-order-242dc310.png",
     "alt": {
-      "en": "Electric 20 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "电动20型混凝土泵，由河北品锦机械厂家制造，邢台"
+      "en": "Centrifugal Pumps - Influence of Viscosity. Image from the source page: https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html.",
+      "zh": "Centrifugal Pumps - Influence of Viscosity。图来自来源页：https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +135,8 @@
     "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/centrifugal-pumps-viscosity-d_670.html"
   ],
   "status": "ready"
 }

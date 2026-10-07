@@ -1,8 +1,8 @@
 {
   "slug": "electric-20-concrete-pump-catalogue",
-  "title": "Electric 20 Concrete Pump Catalogue Row",
-  "seoTitle": "Electric 20 Concrete Pump | Pinjin 22 kW 8–10 m³/h Xingtai",
-  "description": "Electric 20 is a Xingtai electric trailer pump: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed. It is not Electric 30 and not Electric 15.",
+  "title": "Three-phase electric power — Advantages and disadvantages / Generation and distribution / Transformer connections / Three-wire and four-wire circuits",
+  "seoTitle": "Three-phase electric power — Advantages and disadvantages",
+  "description": "Electric 20 concrete pump 22 kW remains the row this document already had. “Advantages and disadvantages” explains the source topic and adds no cell. Printed cells already on this page: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
   "primaryKeyword": "Electric 20 concrete pump 22 kW",
   "secondaryKeywords": [
     "22 kW electric trailer concrete pump",
@@ -45,13 +45,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Electric 20 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, delivery pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed on this page. It is not Electric 15 and not Electric 30.",
-    "who": "Grid sites matched to 8–10 m³/h, 10 MPa, 80 mm pipe and 1–2 cm stone on a 900 kg trailer.",
+    "what": "Electric 20 concrete pump 22 kW remains the row this document already had. “Advantages and disadvantages” explains the source topic and adds no cell. Printed cells already on this page: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+    "who": "Readers checking Electric 20 concrete pump 22 kW against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "22 kW / 80 mm / 900 kg versus Electric 15 at 15 kW / 100–125 mm / 450 kg, both 8–10 m³/h",
-      "Electric 30 is 30 kW / 12–15 m³/h / 20 MPa / 1200 kg",
-      "Voltage and frequency are not on the Electric 20 sheet",
-      "An Alibaba 10–20 m³/h title does not replace 8–10 m³/h"
+      "2800 × 1300 × 1500 mm",
+      "8–10 m³/h",
+      "1–2 cm",
+      "100–125 mm",
+      "12–15 m³/h",
+      "30–90 m³/h"
     ],
     "relatedModels": [
       "electric-20-concrete-pump",
@@ -61,20 +63,25 @@
   },
   "faqs": [
     {
-      "question": "Does Electric 20 print 380 V or 50 Hz?",
-      "answer": "No. Electric 20 prints 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm and 900 kg. Rated voltage is printed on B500S-83D (380 V), not on this page. Send the site voltage with the inquiry."
+      "question": "Does “Advantages and disadvantages” add a cell to Electric 20 concrete pump 22 kW?",
+      "answer": "No. Electric 20 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China."
     },
     {
-      "question": "Is Electric 20 the Alibaba 10–20 m³/h new-arrival pump?",
-      "answer": "No. A March 2025 Alibaba listing title reads 10 m³/h–20 m³/h. Electric 20 prints 8–10 m³/h. Use the Xingtai cell."
+      "question": "Can “Generation and distribution” fill a blank cell for Electric 20 concrete pump 22 kW?",
+      "answer": "No. Blank cells for Electric 20 concrete pump 22 kW stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-20-concrete-pump/electric-20-concrete-pump.webp",
-    "alt": "Electric 20 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 20 trailer pump, Xingtai catalogue — 22 kW, 8–10 m³/h, pipe 80 mm"
+    "src": "/images/articles/electric-20-concrete-pump-catalogue/Delta-Wye_Transformer.png",
+    "alt": "Figure from the source page about Three-phase electric power",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Three-phase_electric_power"
   },
   "sources": [
+    {
+      "name": "Three-phase electric power (source page)",
+      "url": "https://en.wikipedia.org/wiki/Three-phase_electric_power",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 20 product page",
       "url": "https://pinjinpump.com/en/products/electric-20-concrete-pump/",
@@ -107,11 +114,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "电动20型混凝土泵目录行",
-      "seoTitle": "Electric 20 Concrete Pump | 品锦 22 kW 8–10 m³/h 邢台",
-      "description": "Electric 20 is a Xingtai electric trailer pump: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed. It is not Electric 30 and not Electric 15.",
-      "imageAlt": "Electric 20 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 20 trailer pump, Xingtai catalogue — 22 kW, 8–10 m³/h, pipe 80 mm",
+      "title": "电动20型混凝土泵目录行：Three-phase electric power（Advantages and disadvantages / Generation and distribution / Transformer connections / Three-wire and four-wire circuits）",
+      "seoTitle": "Three-phase electric power：Advantages and disadvantages",
+      "description": "电动20型混凝土泵目录行还是本文原有的那一行。「Advantages and disadvantages」讲的是来源页的题目，不另加单元格。本页已经印出的读数：2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa。",
+      "imageAlt": "来源页插图：Three-phase electric power",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Three-phase_electric_power",
       "relatedPathLabels": [
         "Electric 20 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -119,32 +126,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 20 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, delivery pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed on this page. It is not Electric 15 and not Electric 30.",
-        "who": "Grid sites matched to 8–10 m³/h, 10 MPa, 80 mm pipe and 1–2 cm stone on a 900 kg trailer.",
+        "what": "电动20型混凝土泵目录行还是本文原有的那一行。「Advantages and disadvantages」讲的是来源页的题目，不另加单元格。本页已经印出的读数：2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa。",
+        "who": "想把电动20型混凝土泵目录行和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "22 kW / 80 mm / 900 kg versus Electric 15 at 15 kW / 100–125 mm / 450 kg, both 8–10 m³/h",
-          "Electric 30 is 30 kW / 12–15 m³/h / 20 MPa / 1200 kg",
-          "Voltage and frequency are not on the Electric 20 sheet",
-          "An Alibaba 10–20 m³/h title does not replace 8–10 m³/h"
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "1–2 cm",
+          "100–125 mm",
+          "12–15 m³/h",
+          "30–90 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 20 print 380 V or 50 Hz?",
-          "answer": "No. Electric 20 prints 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm and 900 kg. Rated voltage is printed on B500S-83D (380 V), not on this page. Send the site voltage with the inquiry."
+          "question": "「Advantages and disadvantages」会给电动20型混凝土泵目录行增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa。"
         },
         {
-          "question": "Is Electric 20 the Alibaba 10–20 m³/h new-arrival pump?",
-          "answer": "No. A March 2025 Alibaba listing title reads 10 m³/h–20 m³/h. Electric 20 prints 8–10 m³/h. Use the Xingtai cell."
+          "question": "「Generation and distribution」能补上电动20型混凝土泵目录行的空白格吗？",
+          "answer": "不能。电动20型混凝土泵目录行没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Electric 20 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 20 Concrete Pump | Pinjin 22 kW 8–10 m³/h Xingtai",
-      "description": "Electric 20 is a Xingtai electric trailer pump: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed. It is not Electric 30 and not Electric 15.",
-      "imageAlt": "Electric 20 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 20 trailer pump, Xingtai catalogue — 22 kW, 8–10 m³/h, pipe 80 mm",
+      "title": "Electric 20 Concrete Pump Catalogue Row: Three-phase electric power — Advantages and disadvantages / Generation and distribution / Transformer connections / Three-wire and four-wire circuits",
+      "seoTitle": "Three-phase electric power — Advantages and disadvantages",
+      "description": "Electric 20 Concrete Pump Catalogue Row continua a ser a linha que este texto já tinha. “Advantages and disadvantages” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+      "imageAlt": "Figura da página de origem sobre Three-phase electric power",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Three-phase_electric_power",
       "relatedPathLabels": [
         "Electric 20 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -152,32 +161,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 20 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, delivery pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed on this page. It is not Electric 15 and not Electric 30.",
-        "who": "Grid sites matched to 8–10 m³/h, 10 MPa, 80 mm pipe and 1–2 cm stone on a 900 kg trailer.",
+        "what": "Electric 20 Concrete Pump Catalogue Row continua a ser a linha que este texto já tinha. “Advantages and disadvantages” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+        "who": "Leitores que comparam Electric 20 Concrete Pump Catalogue Row com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "22 kW / 80 mm / 900 kg versus Electric 15 at 15 kW / 100–125 mm / 450 kg, both 8–10 m³/h",
-          "Electric 30 is 30 kW / 12–15 m³/h / 20 MPa / 1200 kg",
-          "Voltage and frequency are not on the Electric 20 sheet",
-          "An Alibaba 10–20 m³/h title does not replace 8–10 m³/h"
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "1–2 cm",
+          "100–125 mm",
+          "12–15 m³/h",
+          "30–90 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 20 print 380 V or 50 Hz?",
-          "answer": "No. Electric 20 prints 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm and 900 kg. Rated voltage is printed on B500S-83D (380 V), not on this page. Send the site voltage with the inquiry."
+          "question": "“Advantages and disadvantages” acrescenta uma casa a Electric 20 Concrete Pump Catalogue Row?",
+          "answer": "Não. Valores já impressos nesta página: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa."
         },
         {
-          "question": "Is Electric 20 the Alibaba 10–20 m³/h new-arrival pump?",
-          "answer": "No. A March 2025 Alibaba listing title reads 10 m³/h–20 m³/h. Electric 20 prints 8–10 m³/h. Use the Xingtai cell."
+          "question": "“Generation and distribution” pode preencher uma casa em branco de Electric 20 Concrete Pump Catalogue Row?",
+          "answer": "Não. As casas em branco de Electric 20 Concrete Pump Catalogue Row continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Electric 20 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 20 Concrete Pump | Pinjin 22 kW 8–10 m³/h Xingtai",
-      "description": "Electric 20 is a Xingtai electric trailer pump: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed. It is not Electric 30 and not Electric 15.",
-      "imageAlt": "Electric 20 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 20 trailer pump, Xingtai catalogue — 22 kW, 8–10 m³/h, pipe 80 mm",
+      "title": "Electric 20 Concrete Pump Catalogue Row: Three-phase electric power — Advantages and disadvantages / Generation and distribution / Transformer connections / Three-wire and four-wire circuits",
+      "seoTitle": "Three-phase electric power — Advantages and disadvantages",
+      "description": "Electric 20 Concrete Pump Catalogue Row يبقى الصف الذي كان في هذا النص. «Advantages and disadvantages» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+      "imageAlt": "صورة من صفحة المصدر عن Three-phase electric power",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Three-phase_electric_power",
       "relatedPathLabels": [
         "Electric 20 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -185,32 +196,34 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 20 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, delivery pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed on this page. It is not Electric 15 and not Electric 30.",
-        "who": "Grid sites matched to 8–10 m³/h, 10 MPa, 80 mm pipe and 1–2 cm stone on a 900 kg trailer.",
+        "what": "Electric 20 Concrete Pump Catalogue Row يبقى الصف الذي كان في هذا النص. «Advantages and disadvantages» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+        "who": "قرّاء يقارنون Electric 20 Concrete Pump Catalogue Row بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "22 kW / 80 mm / 900 kg versus Electric 15 at 15 kW / 100–125 mm / 450 kg, both 8–10 m³/h",
-          "Electric 30 is 30 kW / 12–15 m³/h / 20 MPa / 1200 kg",
-          "Voltage and frequency are not on the Electric 20 sheet",
-          "An Alibaba 10–20 m³/h title does not replace 8–10 m³/h"
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "1–2 cm",
+          "100–125 mm",
+          "12–15 m³/h",
+          "30–90 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 20 print 380 V or 50 Hz?",
-          "answer": "No. Electric 20 prints 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm and 900 kg. Rated voltage is printed on B500S-83D (380 V), not on this page. Send the site voltage with the inquiry."
+          "question": "هل يضيف «Advantages and disadvantages» خانة إلى Electric 20 Concrete Pump Catalogue Row؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa."
         },
         {
-          "question": "Is Electric 20 the Alibaba 10–20 m³/h new-arrival pump?",
-          "answer": "No. A March 2025 Alibaba listing title reads 10 m³/h–20 m³/h. Electric 20 prints 8–10 m³/h. Use the Xingtai cell."
+          "question": "هل يستطيع «Generation and distribution» ملء خانة فارغة لـ Electric 20 Concrete Pump Catalogue Row؟",
+          "answer": "لا. الخانات الفارغة لـ Electric 20 Concrete Pump Catalogue Row تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Electric 20 Concrete Pump Catalogue Row",
-      "seoTitle": "Electric 20 Concrete Pump | Pinjin 22 kW 8–10 m³/h Xingtai",
-      "description": "Electric 20 is a Xingtai electric trailer pump: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed. It is not Electric 30 and not Electric 15.",
-      "imageAlt": "Electric 20 concrete pump factory product photo, 河北品锦机械邢台",
-      "imageCaption": "Electric 20 trailer pump, Xingtai catalogue — 22 kW, 8–10 m³/h, pipe 80 mm",
+      "title": "Electric 20 Concrete Pump Catalogue Row: Three-phase electric power — Advantages and disadvantages / Generation and distribution / Transformer connections / Three-wire and four-wire circuits",
+      "seoTitle": "Three-phase electric power — Advantages and disadvantages",
+      "description": "Electric 20 Concrete Pump Catalogue Row остаётся строкой, которая уже была в этом тексте. “Advantages and disadvantages” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+      "imageAlt": "Иллюстрация со страницы-источника: Three-phase electric power",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Three-phase_electric_power",
       "relatedPathLabels": [
         "Electric 20 concrete pump 产品页",
         "Electric concrete pump manufacturer China",
@@ -218,25 +231,28 @@
         "联系河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Electric 20 Concrete Pump is an electric trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m horizontal / 40 m vertical, delivery pipe 80 mm, aggregate 1–2 cm, 2800 × 1300 × 1500 mm, 900 kg. Rated voltage is not printed on this page. It is not Electric 15 and not Electric 30.",
-        "who": "Grid sites matched to 8–10 m³/h, 10 MPa, 80 mm pipe and 1–2 cm stone on a 900 kg trailer.",
+        "what": "Electric 20 Concrete Pump Catalogue Row остаётся строкой, которая уже была в этом тексте. “Advantages and disadvantages” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa.",
+        "who": "Читатели, которые сверяют Electric 20 Concrete Pump Catalogue Row со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "22 kW / 80 mm / 900 kg versus Electric 15 at 15 kW / 100–125 mm / 450 kg, both 8–10 m³/h",
-          "Electric 30 is 30 kW / 12–15 m³/h / 20 MPa / 1200 kg",
-          "Voltage and frequency are not on the Electric 20 sheet",
-          "An Alibaba 10–20 m³/h title does not replace 8–10 m³/h"
+          "2800 × 1300 × 1500 mm",
+          "8–10 m³/h",
+          "1–2 cm",
+          "100–125 mm",
+          "12–15 m³/h",
+          "30–90 m³/h"
         ]
       },
       "faqs": [
         {
-          "question": "Does Electric 20 print 380 V or 50 Hz?",
-          "answer": "No. Electric 20 prints 22 kW, 8–10 m³/h, 10 MPa, hopper 0.25 m³, 120 m / 40 m, pipe 80 mm, aggregate 1–2 cm and 900 kg. Rated voltage is printed on B500S-83D (380 V), not on this page. Send the site voltage with the inquiry."
+          "question": "Добавляет ли “Advantages and disadvantages” клетку к Electric 20 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 2800 × 1300 × 1500 mm, 8–10 m³/h, 1–2 cm, 100–125 mm, 12–15 m³/h, 30–90 m³/h, 22 kW, 10 MPa."
         },
         {
-          "question": "Is Electric 20 the Alibaba 10–20 m³/h new-arrival pump?",
-          "answer": "No. A March 2025 Alibaba listing title reads 10 m³/h–20 m³/h. Electric 20 prints 8–10 m³/h. Use the Xingtai cell."
+          "question": "Может ли “Generation and distribution” заполнить пустую клетку для Electric 20 Concrete Pump Catalogue Row?",
+          "answer": "Нет. Пустые клетки для Electric 20 Concrete Pump Catalogue Row остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "electric 15 or rural diesel self-built",
   "title": {
-    "en": "Electric 15 or the rural diesel for a self-built house?",
-    "zh": "自建房选电动15还是农村柴油泵？"
+    "en": "One window only: Electric 15 or the rural diesel for a self-built house",
+    "zh": "只留一个窗口：自建房选电动15还是农村柴油泵"
   },
   "description": {
-    "en": "Grid and 15–20 m vertical: Electric 15 at 8–10 m³/h and 60–80 m horizontal. No grid: the 17 kW rural diesel at 5–8 m³/h and 30–50 m horizontal.",
-    "zh": "有电网且垂直 15–20 m：电动15，8–10 m³/h，水平 60–80 m。无电网：17 kW 农村柴油泵，5–8 m³/h，水平 30–50 m。"
+    "en": "Read it in the Xingtai table. If the house has a supply for 15 kW, open Electric 15: 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, 450 kg. Taken from the printed row: If it does not, open the rural diesel: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, 800 kg. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints rural self-built houses on both. The neighbouring machine is not this sentence. The distances are not the same.",
+    "zh": "按邢台表上的原文理解：住宅能供给 15 kW 时，打开电动15：8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、450 kg。不能时，打开农村柴油泵：17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、800 kg。邢台河北品锦机械在两台上都印了农村自建房。距离并不相同。"
   },
   "h1": {
-    "en": "Electric 15 or the rural diesel for a self-built house?",
-    "zh": "自建房选电动15还是农村柴油泵？"
+    "en": "One window only: Electric 15 or the rural diesel for a self-built house",
+    "zh": "只留一个窗口：自建房选电动15还是农村柴油泵"
   },
   "directAnswer": {
-    "en": "If the house has a supply for 15 kW, open Electric 15: 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, 450 kg. If it does not, open the rural diesel: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, 800 kg. Hebei Pinjin Machinery in Xingtai prints rural self-built houses on both. The distances are not the same.",
-    "zh": "住宅能供给 15 kW 时，打开电动15：8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、450 kg。不能时，打开农村柴油泵：17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、800 kg。邢台河北品锦机械在两台上都印了农村自建房。距离并不相同。"
+    "en": "Read it in the Xingtai table. If the house has a supply for 15 kW, open Electric 15: 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, 450 kg. Taken from the printed row: If it does not, open the rural diesel: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, 800 kg. Keep this cell as published. Hebei Pinjin Machinery in Xingtai prints rural self-built houses on both. The neighbouring machine is not this sentence. The distances are not the same.",
+    "zh": "按邢台表上的原文理解：住宅能供给 15 kW 时，打开电动15：8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、450 kg。不能时，打开农村柴油泵：17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、800 kg。邢台河北品锦机械在两台上都印了农村自建房。距离并不相同。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Shared stone is not shared reach",
-        "zh": "石子相同不等于距离相同"
+        "en": "Terminology",
+        "zh": "术语"
       },
       "body": {
-        "en": "Both allow 1–3 cm. Electric 15 does not print pressure. The diesel prints 15 MPa and a 0.2 m³ hopper. Electric 15 prints pipe 100–125 mm and does not print a hopper. A buyer who only matches “self-built” and “1–3 cm” has not chosen a pump yet.",
-        "zh": "两台都允许 1–3 cm。电动15没有印压力。柴油泵印了 15 MPa 和 0.2 m³ 料斗。电动15印了管径 100–125 mm，没有印料斗。只对照“自建房”和“1–3 cm”的采购方，还没有选定泵。"
+        "en": "Borrow “Terminology” from “Electric generator” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. Grid and 15–20 m vertical: Electric 15 at 8–10 m³/h and 60–80 m horizontal. Taken from the printed row: The distances are not the same. Keep this cell as published. A buyer who only matches “self-built” and “1–3 cm” has not chosen a pump yet. The neighbouring machine is not this sentence. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Read it in the Xingtai table. Electric 15, at 60–80 m, and only with grid power. Image from the source page: https://en.wikipedia.org/wiki/Electric_generator",
+        "zh": "把《Electric generator》的“术语”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：有电网且垂直 15–20 m：电动15，8–10 m³/h，水平 60–80 m。无电网：17 kW 农村柴油泵，5–8 m³/h，水平 30–50 m。目录里已经写着：请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://en.wikipedia.org/wiki/Electric_generator"
       }
     },
     {
       "heading": {
-        "en": "The published two-to-three-floor note stays electric",
-        "zh": "已发布的两三层说明留在电动这一侧"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "That note sits beside Electric 15’s 15–20 m vertical cell. It does not move onto the diesel, and this page still refuses to convert floors into metres. Without a grid, ignore the floor phrase and measure the diesel window instead.",
-        "zh": "那篇说明靠着电动15的垂直 15–20 m。它不会挪到柴油泵上，本页仍然拒绝把楼层换成米。没有电网时，放下楼层那句话，改为量柴油窗口。"
+        "en": "The reference page “Electric generator” uses “History” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: No grid: the 17 kW rural diesel at 5–8 m³/h and 30–50 m horizontal. Keep this cell as published. Both allow 1–3 cm. The neighbouring machine is not this sentence. That note sits beside Electric 15’s 15–20 m vertical cell. Read it in the Xingtai table. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Taken from the printed row: Electric 20 is the building and commercial row at 120 m / 40 m and 1–2 cm stone.",
+        "zh": "来源页《Electric generator》用“沿革”划分这一节。后面是邢台目录里已有内容，换一种说法写下。住宅能供给 15 kW 时，打开电动15：8–10 m³/h、垂直 15–20 m、水平 60–80 m、骨料 1–3 cm、450 kg。不能时，打开农村柴油泵：17 kW、5–8 m³/h、15 MPa、水平 30–50 m、垂直 10–30 m、骨料 1–3 cm、800 kg。河北品锦机械（邢台）在两台上都印了农村自建房。距离并不相同。这一格照已印出的读：电动15是 450 kg。农村柴油泵是 800 kg。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Specialised types of generator",
+        "zh": "分型发电机"
       },
       "body": {
-        "en": "Answer one question first: can the site feed 15 kW? Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请先回答一个问题：现场能否供给 15 kW？ 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Specialised types of generator” is an outline label from “Electric generator”. That label does not add a figure to the printed row. Keep this cell as published. If the house has a supply for 15 kW, open Electric 15: 8–10 m³/h, vertical 15–20 m, horizontal 60–80 m, aggregate 1–3 cm, 450 kg. The neighbouring machine is not this sentence. Electric 15 does not print pressure. Read it in the Xingtai table. It does not move onto the diesel, and this page still refuses to convert floors into metres. Taken from the printed row: Do not attach a project name, a country job or a daily volume the catalogue does not print. Keep this cell as published. It is not named as the rural model.",
+        "zh": "“分型发电机”是《Electric generator》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：两台都允许 1–3 cm。电动15没有印压力。柴油泵印了 15 MPa 和 0.2 m³ 料斗。电动15印了管径 100–125 mm，没有印料斗。只对照“自建房”和“1–3 cm”的采购方，还没有选定泵。旁边那一台不在这句话里。电动15，60–80 m，而且只有在有电网时。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Common use cases",
+        "zh": "常见做法用法情形"
+      },
+      "body": {
+        "en": "This block keeps the heading “Common use cases” from “Electric generator”, then stays with the cells already published. The neighbouring machine is not this sentence. If it does not, open the rural diesel: 17 kW, 5–8 m³/h, 15 MPa, horizontal 30–50 m, vertical 10–30 m, aggregate 1–3 cm, 800 kg. Read it in the Xingtai table. The diesel prints 15 MPa and a 0.2 m³ hopper. Taken from the printed row: Without a grid, ignore the floor phrase and measure the diesel window instead. Keep this cell as published. Electric 15 at 450 kg.",
+        "zh": "本节保留《Electric generator》的标题“常见做法用法情形”，正文仍只谈已经公布的格子。旁边那一台不在这句话里。那篇说明靠着电动15的垂直 15–20 m。它不会挪到柴油泵上，本页仍然拒绝把楼层换成米。没有电网时，放下楼层那句话，改为量柴油窗口。按邢台表上的原文理解：电动20是 120 m / 40 m、石子 1–2 cm 的建筑与商业行。它没有被命名为农村型号。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Equivalent circuit",
+        "zh": "回路"
+      },
+      "body": {
+        "en": "The section shape comes from “Equivalent circuit” in “Electric generator”. The sentences are a restatement of the catalogue, not of that article. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai prints rural self-built houses on both. Taken from the printed row: Electric 15 prints pipe 100–125 mm and does not print a hopper. Keep this cell as published. Answer one question first: can the site feed 15 kW? The neighbouring machine is not this sentence. The rural diesel is 800 kg.",
+        "zh": "这一节的形状来自《Electric generator》的“回路”。文字是目录的转述，不是那篇文章的原文。按邢台表上的原文理解：请先回答一个问题：现场能否供给 15 kW？"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which is lighter?",
-        "zh": "哪一台更轻？"
+        "en": "“Terminology” does not change the check: Which is lighter?",
+        "zh": "“术语”不改这一问：哪一台更轻？"
       },
       "answer": {
-        "en": "Electric 15 at 450 kg. The rural diesel is 800 kg.",
-        "zh": "电动15是 450 kg。农村柴油泵是 800 kg。"
+        "en": "Read it in the Xingtai table. Electric 15 at 450 kg. The rural diesel is 800 kg.",
+        "zh": "按邢台表上的原文理解：电动15是 450 kg。农村柴油泵是 800 kg。"
       }
     },
     {
       "question": {
-        "en": "Which horizontal cell is longer?",
-        "zh": "哪一格水平更长？"
+        "en": "Which horizontal cell is longer, once the outline says “History”?",
+        "zh": "大纲写着“沿革”时，哪一格水平更长？"
       },
       "answer": {
-        "en": "Electric 15, at 60–80 m, and only with grid power.",
-        "zh": "电动15，60–80 m，而且只有在有电网时。"
+        "en": "Taken from the printed row: Electric 15, at 60–80 m, and only with grid power.",
+        "zh": "目录里已经写着：电动15，60–80 m，而且只有在有电网时。"
       }
     },
     {
       "question": {
-        "en": "Is Electric 20 the self-built upgrade?",
-        "zh": "电动20是自建房的升级吗？"
+        "en": "Under “Specialised types of generator”, is Electric 20 the self-built upgrade?",
+        "zh": "在“分型发电机”这一节里，电动20是自建房的升级吗？"
       },
       "answer": {
-        "en": "Electric 20 is the building and commercial row at 120 m / 40 m and 1–2 cm stone. It is not named as the rural model.",
-        "zh": "电动20是 120 m / 40 m、石子 1–2 cm 的建筑与商业行。它没有被命名为农村型号。"
+        "en": "Keep this cell as published. Electric 20 is the building and commercial row at 120 m / 40 m and 1–2 cm stone. It is not named as the rural model.",
+        "zh": "这一格照已印出的读：电动20是 120 m / 40 m、石子 1–2 cm 的建筑与商业行。它没有被命名为农村型号。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/electric-15-or-rural-diesel-for-self-built.webp",
+    "src": "/images/articles/applications/electric-15-or-rural-diesel-for-self-built.jpg",
     "alt": {
-      "en": "Electric 15 concrete pump from Xingtai, the grid-powered self-built alternative to the rural diesel",
-      "zh": "邢台电动15型混凝土泵，相对农村柴油泵的有电网自建选择"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Electric_generator",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Electric_generator"
     }
   },
   "relatedPaths": [
@@ -101,7 +125,12 @@
   "sources": [
     "https://pinjinpump.com/products/electric-15-concrete-pump",
     "https://pinjinpump.com/products/rural-diesel-concrete-pump",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Electric_generator"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

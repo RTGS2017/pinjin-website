@@ -1,27 +1,22 @@
-## Catalogue swing-cylinder seal kits
+## Parts
 
-Concrete Pump Swing Cylinder Seal is a wear replacement kit supplied by Hebei Pinjin Machinery from Xingtai, Hebei, China. Catalogue sizes: φ60, φ70, φ80, φ90. Confirm the kit on the swing / pendulum cylinder that switches the S-tube. Quote only; not sold in small batches; no list price; not OEM parts of other pump brands.
+![Figure from the source page about Hydraulic cylinder](/images/articles/concrete-pump-swing-cylinder-seal-guide/Cutawayweldedcylinder544x123.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Hydraulic_cylinder*
 
-![Concrete pump swing cylinder seal factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/concrete-pump-swing-cylinder-seal/concrete-pump-swing-cylinder-seal.webp)
-*Swing cylinder seal kits, Xingtai catalogue — φ60 / φ70 / φ80 / φ90*
+concrete pump swing cylinder seal remains the row this document already had. “Parts” explains the source topic and adds no cell. No added figure is taken from that chapter.
 
-## Swing cylinder versus main cylinder
+S-valve swing-cylinder seal replacement after the OD matches φ60–φ90.
 
-| Kit | Sizes listed | Unit | Role on the pump |
-| Swing / pendulum cylinder | φ60 / φ70 / φ80 / φ90 | Set | Switches the S-tube |
-| Main cylinder | φ63 / φ80 / 80×125 / 90×140 / 90–160 / 95×140 / 100×150 / 461K | Set | Main pumping cylinder |
-| S-tube seal | large φ210 / 220 / 250; small φ80–105 | Set | S-tube ends |
+## Designs
 
-Related SKUs: [main cylinder seal](/products/concrete-pump-main-cylinder-seal/), [S-tube seal](/blog/concrete-pump-s-tube-seal-guide/), [swing-arm ball](/products/concrete-pump-swing-arm-ball/). Hub: [concrete pump parts](/products/concrete-pump-parts/).
+Keep “Designs” and concrete pump swing cylinder seal apart. The source does not fill a blank cell. No added figure is taken from that chapter.
 
-## When this kit fits
+## Piston rod construction
 
-S-valve swing-cylinder seal replacement after the OD matches φ60–φ90. Project quantities, not sample parcels.
+The source chapter “Piston rod construction” stays on that page. concrete pump swing cylinder seal keeps the row already written here. No added figure is taken from that chapter.
 
-## When to open another page
+## Distribution of forces on components
 
-- Main pumping-cylinder leak at 80×125 or 90×140 → [main cylinder seal](/products/concrete-pump-main-cylinder-seal/).
-- S-tube end leak → [S-tube seal](/products/concrete-pump-s-tube-seal/).
-- Pump output and distance → a trailer product page.
+“Distribution of forces on components” is not a substitute specification. concrete pump swing cylinder seal stays the printed row. No added figure is taken from that chapter.
 
-Inquiry: [contact](/contact/).
+Pages already named on this document: [main cylinder seal](/products/concrete-pump-main-cylinder-seal/), [S-tube seal](/blog/concrete-pump-s-tube-seal-guide/), [swing-arm ball](/products/concrete-pump-swing-arm-ball/).

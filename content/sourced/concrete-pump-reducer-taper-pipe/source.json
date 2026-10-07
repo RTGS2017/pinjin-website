@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
-  "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin Xingtai",
-  "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote delivery pipe after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
+  "title": "Venturi effect — Choked flow / Expansion of the section / Venturi tubes / Orifice plate",
+  "seoTitle": "Venturi effect — Choked flow",
+  "description": "Opening the source at “Choked flow” means reading that page, not a second catalogue for concrete pump reducer. Printed cells already on this page: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
   "primaryKeyword": "concrete pump reducer",
   "secondaryKeywords": [
     "concrete pump taper pipe",
@@ -52,13 +52,15 @@
     }
   ],
   "answerBlock": {
-    "what": "ACPA’s study guide: reducers and bends in the placing line create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
-    "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+    "what": "Opening the source at “Choked flow” means reading that page, not a second catalogue for concrete pump reducer. Printed cells already on this page: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+    "who": "Readers checking concrete pump reducer against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Start from the DN printed on the pump page",
-      "ACPA: inspect the reducer first when a plug forms; never open a coupling under pressure",
-      "Pinjin has no published reducer SKU or wall-thickness taper table",
-      "Quote straight pipe, clamps and hose after model, DN and quantity"
+      "8–10 m³/h",
+      "100–125 mm",
+      "80 mm",
+      "22 kW",
+      "900 kg",
+      "15 kW"
     ],
     "relatedModels": [
       "electric-20-concrete-pump",
@@ -68,24 +70,25 @@
   },
   "faqs": [
     {
-      "question": "Does Pinjin sell a catalogue concrete pump reducer?",
-      "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight delivery pipe, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from Xingtai — unpublished dimensions are not promised here."
+      "question": "Does “Choked flow” add a cell to concrete pump reducer?",
+      "answer": "No. ACI 304.2R’s contents cover pipeline, couplings and accessories; we do not republish a competitor wall-thickness chart from that guide."
     },
     {
-      "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
-      "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
-    },
-    {
-      "question": "Where should I look first if the line plugs after a diameter change?",
-      "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+      "question": "Can “Expansion of the section” fill a blank cell for concrete pump reducer?",
+      "answer": "No. Blank cells for concrete pump reducer stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/concrete-pump-delivery-pipe/concrete-pump-delivery-pipe.webp",
-    "alt": "Pinjin concrete pump delivery pipes with coupling ends packed in Xingtai, quoted after pump DN not as a reducer table",
-    "caption": "Straight delivery pipe from Xingtai — DN and length after the pump model; no published reducer SKU"
+    "src": "/images/articles/concrete-pump-reducer-taper-pipe/Aircraft_venturi_3.JPG",
+    "alt": "Figure from the source page about Venturi effect",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Venturi_effect"
   },
   "sources": [
+    {
+      "name": "Venturi effect (source page)",
+      "url": "https://en.wikipedia.org/wiki/Venturi_effect",
+      "type": "industry"
+    },
     {
       "name": "ACPA study guide: reducers and bends; plug often in the reducer",
       "url": "http://www.concretepumpers.com/sites/www.concretepumpers.com/files/study_guide.pdf",
@@ -120,9 +123,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "混凝土泵变径管：堵点常从这里开始",
-      "description": "ACPA：变径和弯头造成紊流；堵管时通常先看变径。品锦不列变径料号。输送管按泵 DN 报价——电动20为80 mm，电动15为100–125 mm。",
-      "imageAlt": "品锦 concrete pump 输送管s with coupling ends packed in 邢台, quoted after pump DN not as a reducer table",
+      "title": "混凝土泵变径管：Venturi effect（Choked flow / Expansion of the section / Venturi tubes / Orifice plate）",
+      "description": "翻到来源页的「Choked flow」，读的是那一页，不是混凝土泵变径管的第二份目录。本页已经印出的读数：8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm。",
+      "imageAlt": "来源页插图：Venturi effect",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -130,36 +133,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "ACPA’s study guide: reducers and bends in the 浇筑管路 create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. 品锦 does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. 电动20 lists 80 mm; 电动15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
-        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed 品锦 DN, not a competitor taper chart.",
+        "what": "翻到来源页的「Choked flow」，读的是那一页，不是混凝土泵变径管的第二份目录。本页已经印出的读数：8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm。",
+        "who": "想把混凝土泵变径管和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Start from the DN printed on the pump page",
-          "ACPA: inspect the reducer first when a plug forms; 禁止在带压时打开管接头",
-          "品锦 has no published reducer SKU or wall-thickness taper table",
-          "Quote straight pipe, clamps and hose after model, DN and quantity"
+          "8–10 m³/h",
+          "100–125 mm",
+          "80 mm",
+          "22 kW",
+          "900 kg",
+          "15 kW"
         ]
       },
-      "seoTitle": "混凝土泵变径管与锥管 | 品锦邢台",
-      "imageCaption": "Straight 输送管 from 邢台 — DN and length after the pump model; no published reducer SKU",
+      "seoTitle": "Venturi effect：Choked flow",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Venturi_effect",
       "faqs": [
         {
-          "question": "Does 品锦 sell a catalogue concrete pump reducer?",
-          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight 输送管, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a 品锦 table. Send the pump model and both diameters if you still need a transition quoted from 邢台 — unpublished dimensions are not promised here."
+          "question": "「Choked flow」会给混凝土泵变径管增加单元格吗？",
+          "answer": "不会。市场上搜 “concrete pump reducer” 或 “taper pipe” 会看到胶管套件列表。河北品锦机械不列变径管料号。ACI 304.2R 目录涵盖管路、接头与附件；我们不转载竞争对手的壁厚表。"
         },
         {
-          "question": "Can I drop 电动15’s 100–125 mm line onto 电动20’s 80 mm pipe with any taper?",
-          "answer": "We do not publish that transition. 电动20 lists 80 mm pipe. 电动15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
-        },
-        {
-          "question": "Where should I look first if the line plugs after a diameter change?",
-          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+          "question": "「Expansion of the section」能补上混凝土泵变径管的空白格吗？",
+          "answer": "不能。混凝土泵变径管没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
-      "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote tubo de entrega after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
-      "imageAlt": "Pinjin concrete pump tubo de entregas with coupling ends packed in Xingtai, quoted after pump DN not as a reducer table",
+      "title": "Concrete Pump Reducer / Taper Pipe: Venturi effect — Choked flow / Expansion of the section / Venturi tubes / Orifice plate",
+      "description": "Abrir a origem em “Choked flow” é ler essa página, não um segundo catálogo de Concrete Pump Reducer / Taper Pipe. Valores já impressos nesta página: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+      "imageAlt": "Figura da página de origem sobre Venturi effect",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -167,36 +168,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "ACPA’s study guide: reducers and bends in the linha de lançamento create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
-        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+        "what": "Abrir a origem em “Choked flow” é ler essa página, não um segundo catálogo de Concrete Pump Reducer / Taper Pipe. Valores já impressos nesta página: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+        "who": "Leitores que comparam Concrete Pump Reducer / Taper Pipe com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Start from the DN printed on the pump page",
-          "ACPA: inspect the reducer first when a plug forms; nunca abra um acoplamento sob pressão",
-          "Pinjin has no published reducer SKU or wall-thickness taper table",
-          "Quote straight pipe, clamps and hose after model, DN and quantity"
+          "8–10 m³/h",
+          "100–125 mm",
+          "80 mm",
+          "22 kW",
+          "900 kg",
+          "15 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin Xingtai",
-      "imageCaption": "Straight tubo de entrega from Xingtai — DN and length after the pump model; no published reducer SKU",
+      "seoTitle": "Venturi effect — Choked flow",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Venturi_effect",
       "faqs": [
         {
-          "question": "Does Pinjin sell a catalogue concrete pump reducer?",
-          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight tubo de entrega, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from Xingtai — unpublished dimensions are not promised here."
+          "question": "“Choked flow” acrescenta uma casa a Concrete Pump Reducer / Taper Pipe?",
+          "answer": "Não. Valores já impressos nesta página: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm."
         },
         {
-          "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
-          "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
-        },
-        {
-          "question": "Where should I look first if the line plugs after a diameter change?",
-          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+          "question": "“Expansion of the section” pode preencher uma casa em branco de Concrete Pump Reducer / Taper Pipe?",
+          "answer": "Não. As casas em branco de Concrete Pump Reducer / Taper Pipe continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
-      "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote أنبوب النقل after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
-      "imageAlt": "Pinjin concrete pump أنبوب النقلs with coupling ends packed in شينغتاي, quoted after pump DN not as a reducer table",
+      "title": "Concrete Pump Reducer / Taper Pipe: Venturi effect — Choked flow / Expansion of the section / Venturi tubes / Orifice plate",
+      "description": "فتح المصدر عند «Choked flow» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Concrete Pump Reducer / Taper Pipe. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+      "imageAlt": "صورة من صفحة المصدر عن Venturi effect",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -204,36 +203,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "ACPA’s study guide: reducers and bends in the خط الصب create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
-        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+        "what": "فتح المصدر عند «Choked flow» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Concrete Pump Reducer / Taper Pipe. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+        "who": "قرّاء يقارنون Concrete Pump Reducer / Taper Pipe بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Start from the DN printed on the pump page",
-          "ACPA: inspect the reducer first when a plug forms; لا تفتح الوصلة تحت الضغط",
-          "Pinjin has no published reducer SKU or wall-thickness taper table",
-          "Quote straight pipe, clamps and hose after model, DN and quantity"
+          "8–10 m³/h",
+          "100–125 mm",
+          "80 mm",
+          "22 kW",
+          "900 kg",
+          "15 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin شينغتاي",
-      "imageCaption": "Straight أنبوب النقل from شينغتاي — DN and length after the pump model; no published reducer SKU",
+      "seoTitle": "Venturi effect — Choked flow",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Venturi_effect",
       "faqs": [
         {
-          "question": "Does Pinjin sell a catalogue concrete pump reducer?",
-          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight أنبوب النقل, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from شينغتاي — unpublished dimensions are not promised here."
+          "question": "هل يضيف «Choked flow» خانة إلى Concrete Pump Reducer / Taper Pipe؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm."
         },
         {
-          "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
-          "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
-        },
-        {
-          "question": "Where should I look first if the line plugs after a diameter change?",
-          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+          "question": "هل يستطيع «Expansion of the section» ملء خانة فارغة لـ Concrete Pump Reducer / Taper Pipe؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Reducer / Taper Pipe تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Reducer / Taper Pipe: Where Plugs Start",
-      "description": "ACPA: reducers and bends create turbulence; a reducer is usually the first place to look when a plug occurs. Pinjin does not list a reducer SKU or a factory taper table. Quote бетоновод after the pump DN — Electric 20 is 80 mm; Electric 15 is 100–125 mm.",
-      "imageAlt": "Pinjin concrete pump бетоноводs with coupling ends packed in Синтай, quoted after pump DN not as a reducer table",
+      "title": "Concrete Pump Reducer / Taper Pipe: Venturi effect — Choked flow / Expansion of the section / Venturi tubes / Orifice plate",
+      "description": "Открыть источник на “Choked flow” значит читать ту страницу, а не второй каталог Concrete Pump Reducer / Taper Pipe. Уже напечатанные значения на этой странице: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+      "imageAlt": "Иллюстрация со страницы-источника: Venturi effect",
       "relatedPathLabels": [
         "Concrete pump parts manufacturer China",
         "Concrete pump pipe DN selection",
@@ -241,31 +238,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "ACPA’s study guide: reducers and bends in the линия укладки create turbulence. A lean or poorly graded mix may not pass; a reducer is usually the first place to look when a plug occurs. If the reducer rises under pressure but the hose is soft, the plug is in the reducer. Pinjin does not list a reducer or taper-pipe SKU and does not publish a factory reducer table. We quote [delivery pipe](/products/concrete-pump-delivery-pipe/) after the pump model and DN. Electric 20 lists 80 mm; Electric 15 lists 100–125 mm. Do not invent a transition that is not written on those pages.",
-        "who": "Buyers assembling a pipeline who saw “reducer” on a marketplace hose kit and need to match a listed Pinjin DN, not a competitor taper chart.",
+        "what": "Открыть источник на “Choked flow” значит читать ту страницу, а не второй каталог Concrete Pump Reducer / Taper Pipe. Уже напечатанные значения на этой странице: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm.",
+        "who": "Читатели, которые сверяют Concrete Pump Reducer / Taper Pipe со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Start from the DN printed on the pump page",
-          "ACPA: inspect the reducer first when a plug forms; не открывать соединение под давлением",
-          "Pinjin has no published reducer SKU or wall-thickness taper table",
-          "Quote straight pipe, clamps and hose after model, DN and quantity"
+          "8–10 m³/h",
+          "100–125 mm",
+          "80 mm",
+          "22 kW",
+          "900 kg",
+          "15 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Reducer and Taper Pipe | Pinjin Синтай",
-      "imageCaption": "Straight бетоновод from Синтай — DN and length after the pump model; no published reducer SKU",
+      "seoTitle": "Venturi effect — Choked flow",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Venturi_effect",
       "faqs": [
         {
-          "question": "Does Pinjin sell a catalogue concrete pump reducer?",
-          "answer": "No reducer or taper-pipe SKU is listed on the parts hub. We quote straight бетоновод, DN80 clamps, hoses and the DN200 90° elbow after size and quantity. A marketplace ‘reducer’ listing is not a Pinjin table. Send the pump model and both diameters if you still need a transition quoted from Синтай — unpublished dimensions are not promised here."
+          "question": "Добавляет ли “Choked flow” клетку к Concrete Pump Reducer / Taper Pipe?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 8–10 m³/h, 100–125 mm, 80 mm, 22 kW, 900 kg, 15 kW, 450 kg, 125 mm."
         },
         {
-          "question": "Can I drop Electric 15’s 100–125 mm line onto Electric 20’s 80 mm pipe with any taper?",
-          "answer": "We do not publish that transition. Electric 20 lists 80 mm pipe. Electric 15 lists 100–125 mm. The older DN article says clamps and hoses continue the pump diameter unless engineers agree a documented transition — and that page does not print a reducer table. Do not splice two model rows."
-        },
-        {
-          "question": "Where should I look first if the line plugs after a diameter change?",
-          "answer": "ACPA: a reducer is usually the first place to look. If the reducer rises as pressure is applied and the hose stays soft, the plug is in the reducer. Relieve pressure before opening any coupling. See the blockage safety page. Do not use compressed air to force a plug."
+          "question": "Может ли “Expansion of the section” заполнить пустую клетку для Concrete Pump Reducer / Taper Pipe?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Reducer / Taper Pipe остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

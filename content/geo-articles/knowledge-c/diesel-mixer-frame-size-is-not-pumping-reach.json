@@ -7,100 +7,90 @@
     "zh": "柴油搅拌泵一体机外形尺寸和泵送距离"
   },
   "title": {
-    "en": "Why Diesel Mixer Integrated Pump Frame Size Is Not Pumping Reach",
-    "zh": "为什么柴油搅拌泵一体机的外形尺寸不是泵送距离"
+    "en": "Reading Diesel Mixer Integrated Pump with a picture from Scale (map)",
+    "zh": "读为什么柴油搅拌泵一体机的外形尺寸不是泵送距离，配图来自「比例尺 (地圖)」"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery prints the Diesel Mixer Integrated Pump in Xingtai with Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main Unit Weight is 4200 kg. Those figures des",
-    "zh": "河北品锦机械在邢台把柴油搅拌泵一体机印成：外形尺寸是4100 × 2200 × 3000 mm。整机重量是4200 kg。这些数字描述的是机身，不是管路。理论输送量是25 m³/h，最大出口压力是23 MPa。画面「Excavator」的主体是Liebherr 314 轮式挖掘机，不是这个型号的工地实测。"
+    "en": "Diesel Mixer Integrated Pump. 4100 × 2200 × 3000 mm stays in the catalogue entry. Illustration: Scale (map).",
+    "zh": "为什么柴油搅拌泵一体机的外形尺寸不是泵送距离。4100 × 2200 × 3000 mm仍在目录格子里。插图来自「比例尺 (地圖)」。"
   },
   "h1": {
-    "en": "Why Diesel Mixer Integrated Pump Frame Size Is Not Pumping Reach",
-    "zh": "为什么柴油搅拌泵一体机的外形尺寸不是泵送距离"
+    "en": "Reading Diesel Mixer Integrated Pump with a picture from Scale (map)",
+    "zh": "读为什么柴油搅拌泵一体机的外形尺寸不是泵送距离，配图来自「比例尺 (地圖)」"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery prints the Diesel Mixer Integrated Pump in Xingtai with Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main Unit Weight is 4200 kg. Those figures describe the machine body, not the pipeline. Theoretical Output is 25 m³/h and Max. Outlet Pressure is 23 MPa. The frame “Excavator” shows Liebherr 314 wheeled excavator and is not a site measurement of this model.",
-    "zh": "河北品锦机械在邢台把柴油搅拌泵一体机印成：外形尺寸是4100 × 2200 × 3000 mm。整机重量是4200 kg。这些数字描述的是机身，不是管路。理论输送量是25 m³/h，最大出口压力是23 MPa。画面「Excavator」的主体是Liebherr 314 轮式挖掘机，不是这个型号的工地实测。"
+    "en": "Hebei Pinjin Machinery lists the Diesel Mixer Integrated Pump in Xingtai with Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main-unit weight is is 4200 kg. The picture is from https://en.wikipedia.org/wiki/Scale_(map).",
+    "zh": "河北品锦机械在邢台把柴油搅拌泵一体机写成：外形尺寸是4100 × 2200 × 3000 mm。理论输送量是25 m³/h，最大出口压力是23 MPa。图片来自https://en.wikipedia.org/wiki/Scale_(map)。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Body size and pumping duty use different units",
-        "zh": "机身尺寸和泵送工作用的不是同一套单位"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main Unit Weight is 4200 kg. Millimetres and kilograms do not become metres of pipeline. Distance cells, where the sheet prints them, keep their own labels.",
-        "zh": "外形尺寸是4100 × 2200 × 3000 mm。整机重量是4200 kg。毫米和千克不会变成管路的米。目录如果另印了距离格，那些格仍用自己的标题。"
+        "en": "Picture source: https://en.wikipedia.org/wiki/Scale_(map). Subject: Maßstabsleiste. Hebei Pinjin Machinery lists the Diesel Mixer Integrated Pump in Xingtai with Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. The frame “Excavator” shows Liebherr 314 wheeled excavator and is not a site measurement of this model. Distance entries, where the sheet lists them, keep their own labels. Max. Outlet Pressure is 23 MPa. None of these is a price, a service life or a country list.",
+        "zh": "图片来源：https://en.wikipedia.org/wiki/Scale_(map)。画面主体：Maßstabsleiste。河北品锦机械在邢台把柴油搅拌泵一体机写成：外形尺寸是4100 × 2200 × 3000 mm。目录如果另标出了距离格，那些格仍用自己的标题。"
       }
     },
     {
       "heading": {
-        "en": "Do not scale the frame into a capacity",
-        "zh": "不要把这一帧缩放成产量"
+        "en": "Terminology",
+        "zh": "术语"
       },
       "body": {
-        "en": "Source: en.wikipedia.org, “Excavator”. Subject: Liebherr 314 wheeled excavator. A wider-looking machine in a frame is not a higher Theoretical Output. The printed output stays 25 m³/h.",
-        "zh": "来源：en.wikipedia.org，「Excavator」。主体：Liebherr 314 轮式挖掘机。画面里机器看起来更宽，并不等于理论输送量更高。印出的输送量仍是25 m³/h。"
+        "en": "Main-unit weight is is 4200 kg. Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Subject: Liebherr 314 wheeled excavator. Hopper capacity is 0.4 m³.",
+        "zh": "理论输送量是25 m³/h，最大出口压力是23 MPa。主体：Liebherr 314 轮式挖掘机。"
       }
     },
     {
       "heading": {
-        "en": "Pressure stays in its own cell",
-        "zh": "压力留在自己的格子里"
+        "en": "Large-scale maps with curvature neglected",
+        "zh": "忽略曲率的大比例地图"
       },
       "body": {
-        "en": "Max. Outlet Pressure is 23 MPa. Hopper Capacity 0.4 m³. Stone Capacity (H / V, ≤ 1 inch) 100 / 300 m. Main Unit Weight 4200 kg. None of these is a price, a service life or a country list.",
-        "zh": "最大出口压力是23 MPa。料斗容积 0.4 m³。细石输送（水平/垂直） 100 / 300 m。整机重量 4200 kg。这些都不是价格、使用寿命或国家名单。"
+        "en": "Those figures describe the machine body, not the pipeline. Main-unit weight is is 4200 kg. A wider-looking machine in a frame is not a higher Theoretical Output. Stone Capacity (H / V, ≤ 1 inch) 100 / 300 m.",
+        "zh": "画面「Excavator」的主体是Liebherr 314 轮式挖掘机，不是这个型号的工地实测。画面里机器看起来更宽，并不等于理论输送量更高。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Point scale (or particular scale)",
+        "zh": "点比例尺（局部比例尺）"
+      },
+      "body": {
+        "en": "Theoretical Output is 25 m³/h and Max. Outlet Pressure is 23 MPa. Millimetres and kilograms do not become metres of pipeline. The shown output stays 25 m³/h. Main-unit weight is 4200 kg.",
+        "zh": "外形尺寸是4100 × 2200 × 3000 mm。细石输送（水平/垂直） 100 / 300 m。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What frame text does Diesel Mixer Integrated Pump print?",
-        "zh": "柴油搅拌泵一体机的外形文字是什么？"
-      },
-      "answer": {
-        "en": "Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main Unit Weight is 4200 kg.",
-        "zh": "外形尺寸是4100 × 2200 × 3000 mm。整机重量是4200 kg。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is that the pumping distance?",
+        "en": "On this row: Is that the pumping distance?",
         "zh": "那是泵送距离吗？"
       },
       "answer": {
-        "en": "No. Frame figures are body size or mass, not pipeline metres.",
-        "zh": "不是。外形数字是机身尺寸或质量，不是管路米数。"
+        "en": "No. Frame figures are body size or mass, not pipeline metres. It is not a figure printed inside https://en.wikipedia.org/wiki/Scale_(map).",
+        "zh": "不是。外形数字是机身尺寸或质量，不是管路米数。它不是https://en.wikipedia.org/wiki/Scale_(map)画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What is the printed output?",
-        "zh": "印出的输送量是多少？"
+        "en": "What is the shown output?",
+        "zh": "写出的输送量是多少？"
       },
       "answer": {
-        "en": "25 m³/h.",
-        "zh": "25 m³/h。"
-      }
-    },
-    {
-      "question": {
-        "en": "Can the frame's apparent size replace the sheet?",
-        "zh": "可以用画面里的外观尺寸代替目录吗？"
-      },
-      "answer": {
-        "en": "No. Use the printed dimension cell, and only if it exists.",
-        "zh": "不能。只用已经印出的外形尺寸格。"
+        "en": "25 m³/h. It is not a figure printed inside https://en.wikipedia.org/wiki/Scale_(map).",
+        "zh": "25 m³/h。它不是https://en.wikipedia.org/wiki/Scale_(map)画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/liebherr-314-wheeled-excavator.webp",
+    "src": "/images/articles/knowledge/diesel-mixer-frame-size-is-not-pumping-reach-ma-stabsleiste.png",
     "alt": {
-      "en": "Liebherr 314 wheeled excavator. Subject of the frame for the Diesel Mixer Integrated Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "Liebherr 314 轮式挖掘机。柴油搅拌泵一体机目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "Maßstabsleiste. Image from the source page: https://en.wikipedia.org/wiki/Scale_(map).",
+      "zh": "Maßstabsleiste。图来自来源页：https://en.wikipedia.org/wiki/Scale_(map)。"
     }
   },
   "relatedPaths": [
@@ -117,7 +107,8 @@
     "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
     "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Scale_(map)"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +116,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery prints the Diesel Mixer Integrated Pump in Xingtai with Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main Unit Weight is 4200 kg. Those figures describe the machine body, not the pipeline. Theoretical Output is 25 m³/h and Max. Outlet Pressure is 23 MPa. The frame “Excavator” shows Liebherr 314 wheeled excavator and is not a site measurement of this model.",
-      "zh": "河北品锦机械在邢台把柴油搅拌泵一体机印成：外形尺寸是4100 × 2200 × 3000 mm。整机重量是4200 kg。这些数字描述的是机身，不是管路。理论输送量是25 m³/h，最大出口压力是23 MPa。画面「Excavator」的主体是Liebherr 314 轮式挖掘机，不是这个型号的工地实测。"
+      "en": "Hebei Pinjin Machinery lists the Diesel Mixer Integrated Pump in Xingtai with Dimensions (L×W×H) is 4100 × 2200 × 3000 mm. Main-unit weight is is 4200 kg. The picture is from https://en.wikipedia.org/wiki/Scale_(map).",
+      "zh": "河北品锦机械在邢台把柴油搅拌泵一体机写成：外形尺寸是4100 × 2200 × 3000 mm。理论输送量是25 m³/h，最大出口压力是23 MPa。图片来自https://en.wikipedia.org/wiki/Scale_(map)。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

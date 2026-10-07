@@ -11,25 +11,25 @@
     "zh": "HBT8018建筑浇筑"
   },
   "title": {
-    "en": "This is a grid-powered building pour through a pipeline — HBT8018. The motor cell is 132 kW and the output cell is 60 m³/h.",
-    "zh": "这是有电网、走管道的建筑浇筑：HBT8018。电机格是 132 kW，输送量格是 60 m³/h。"
+    "en": "Printed-row question: This is a grid-powered building pour through a pipeline — HBT8018. The motor cell is 132 kW and the output cell is 60 m³/h.",
+    "zh": "先看已印出的行：这是有电网、走管道的建筑浇筑：HBT8018。电机格是 132 kW，输送量格是 60 m³/h。"
   },
   "description": {
-    "en": "This is a grid-powered building pour through a pipeline. The motor cell is 132 kW and the output cell is 60 m³/h. Conveying distance and delivery height are printed as 15",
-    "zh": "这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1"
+    "en": "The neighbouring machine is not this sentence. This is a grid-powered building pour through a pipeline. Read it in the Xingtai table. The motor cell is 132 kW and the output cell is 60 m³/h. Taken from the printed row: Conveying distance and delivery height are printed as 150 m and 450 m. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The neighbouring machine is not this sentence. The model cell also prints HBT8018-132S. Read it in the Xingtai table. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Taken from the printed row: The model cell also prints HBT80-1816-110. Keep this cell as published. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. It is not a Pinjin contract record. Read it in the Xingtai table. This page names no project, no country job, no price and no daily volume.",
+    "zh": "旁边那一台不在这句话里。这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "h1": {
-    "en": "This is a grid-powered building pour through a pipeline — HBT8018. The motor cell is 132 kW and the output cell is 60 m³/h.",
-    "zh": "这是有电网、走管道的建筑浇筑：HBT8018。电机格是 132 kW，输送量格是 60 m³/h。"
+    "en": "Printed-row question: This is a grid-powered building pour through a pipeline — HBT8018. The motor cell is 132 kW and the output cell is 60 m³/h.",
+    "zh": "先看已印出的行：这是有电网、走管道的建筑浇筑：HBT8018。电机格是 132 kW，输送量格是 60 m³/h。"
   },
   "directAnswer": {
-    "en": "This is a grid-powered building pour through a pipeline. The motor cell is 132 kW and the output cell is 60 m³/h. Conveying distance and delivery height are printed as 150 m and 450 m. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT8018-132S. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT80-1816-110. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-    "zh": "这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+    "en": "The neighbouring machine is not this sentence. This is a grid-powered building pour through a pipeline. Read it in the Xingtai table. The motor cell is 132 kW and the output cell is 60 m³/h. Taken from the printed row: Conveying distance and delivery height are printed as 150 m and 450 m. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The neighbouring machine is not this sentence. The model cell also prints HBT8018-132S. Read it in the Xingtai table. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Taken from the printed row: The model cell also prints HBT80-1816-110. Keep this cell as published. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. It is not a Pinjin contract record. Read it in the Xingtai table. This page names no project, no country job, no price and no daily volume.",
+    "zh": "旁边那一台不在这句话里。这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
   },
   "answerBlock": {
     "what": {
-      "en": "This is a grid-powered building pour through a pipeline. The motor cell is 132 kW and the output cell is 60 m³/h. Conveying distance and delivery height are printed as 150 m and 450 m. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT8018-132S. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT80-1816-110. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-      "zh": "这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+      "en": "The neighbouring machine is not this sentence. This is a grid-powered building pour through a pipeline. Read it in the Xingtai table. The motor cell is 132 kW and the output cell is 60 m³/h. Taken from the printed row: Conveying distance and delivery height are printed as 150 m and 450 m. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The neighbouring machine is not this sentence. The model cell also prints HBT8018-132S. Read it in the Xingtai table. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Taken from the printed row: The model cell also prints HBT80-1816-110. Keep this cell as published. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. It is not a Pinjin contract record. Read it in the Xingtai table. This page names no project, no country job, no price and no daily volume.",
+      "zh": "旁边那一台不在这句话里。这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",
@@ -43,72 +43,96 @@
   "sections": [
     {
       "heading": {
-        "en": "What the pour has to match",
-        "zh": "浇筑要对上什么"
+        "en": "History",
+        "zh": "沿革"
       },
       "body": {
-        "en": "This is a grid-powered building pour through a pipeline. The motor cell is 132 kW and the output cell is 60 m³/h. Conveying distance and delivery height are printed as 150 m and 450 m. The published HBT8018 row is 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT8018-132S.",
-        "zh": "这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。已公布的HBT8018是132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。"
+        "en": "The reference page “Induction motor” uses “History” as one of its own divisions. What follows is the Xingtai row, said again in different words. The neighbouring machine is not this sentence. This is a grid-powered building pour through a pipeline. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. Taken from the printed row: It is not a Pinjin contract record. Keep this cell as published. Hebei Pinjin Machinery in Xingtai lists HBT8018 at 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. The neighbouring machine is not this sentence. It is not a Pinjin contract record. Read it in the Xingtai table. The published HBT8018 row is 132 kW, 60 m³/h, 40 MPa, conveying distance 150 m, delivery height 450 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6700 × 1750 × 1800 mm and 6500 kg. Taken from the printed row: The photograph is a working-condition reference from a public article about this kind of work. Keep this cell as published. Do not attach a project name, a country job, a price or a daily volume. The neighbouring machine is not this sentence. Conveying distance and delivery height are printed as 150 m and 450 m. Image from the source page: https://en.wikipedia.org/wiki/Induction_motor",
+        "zh": "来源页《Induction motor》用“沿革”划分这一节。后面是邢台目录里已有内容，换一种说法写下。旁边那一台不在这句话里。这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1 这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。按邢台表上的原文理解：不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。图来自来源页面：https://en.wikipedia.org/wiki/Induction_motor"
       }
     },
     {
       "heading": {
-        "en": "Do not slide onto the neighbouring row",
-        "zh": "不要滑到相邻的那一行"
+        "en": "Principle",
+        "zh": "原理"
       },
       "body": {
-        "en": "HBT80-16 prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The model cell also prints HBT80-1816-110. The shared job site in the photograph does not merge the two tables. The photograph is a working-condition reference from a public article about this kind of work. It is not a Pinjin contract record. This page names no project, no country job, no price and no daily volume.",
-        "zh": "HBT80-16印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+        "en": "“Principle” is an outline label from “Induction motor”. That label does not add a figure to the printed row. Read it in the Xingtai table. The motor cell is 132 kW and the output cell is 60 m³/h. Taken from the printed row: The model cell also prints HBT8018-132S. Keep this cell as published. This page names no project, no country job, no price and no daily volume. The neighbouring machine is not this sentence. The model cell also prints HBT8018-132S. Read it in the Xingtai table. This page names no project, no country job, no price and no daily volume. Taken from the printed row: The model cell also prints HBT8018-132S. Keep this cell as published. It is not a Pinjin contract record. The neighbouring machine is not this sentence. No. Read it in the Xingtai table. No.",
+        "zh": "“原理”是《Induction motor》大纲上的标题。这个标题不给已印出的行增加数字。这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。邢台河北品锦机械把HBT8018列为132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。不要把同一工况挪到HBT80-16，那一行印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。本页配图下载自文中的来源页，只作参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。目录里已经写着：电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。"
       }
     },
     {
       "heading": {
-        "en": "What Xingtai should receive",
-        "zh": "向邢台要带上什么"
+        "en": "Construction",
+        "zh": "施工做法"
       },
       "body": {
-        "en": "Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job, a price or a daily volume.",
-        "zh": "请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。"
+        "en": "This block keeps the heading “Construction” from “Induction motor”, then stays with the cells already published. Taken from the printed row: Conveying distance and delivery height are printed as 15 This is a grid-powered building pour through a pipeline. Keep this cell as published. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The neighbouring machine is not this sentence. This is a grid-powered building pour through a pipeline. Read it in the Xingtai table. Do not move the same condition onto HBT80-16, which prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. Taken from the printed row: This is a grid-powered building pour through a pipeline. Keep this cell as published. HBT80-16 prints 110 kW, 50 m³/h, 40 MPa, horizontal conveying 120 m, delivery height 360 m, aggregate 4 cm and below, pipe 100 / 125 mm, 6600 × 1750 × 1800 mm and 6500 kg. The neighbouring machine is not this sentence. This page names no project, no country job, no price and no daily volume. Read it in the Xingtai table. It shows this kind of work. Taken from the printed row: HBT8018 prints theoretical catalogue figures only.",
+        "zh": "本节保留《Induction motor》的标题“施工做法”，正文仍只谈已经公布的格子。目录里已经写着：这是有电网、走管道的建筑浇筑。电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。已公布的HBT8018是132 kW、60 m³/h、40 MPa、输送距离 150 m、输送高度 450 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6700 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT8018-132S。这一格照已印出的读：不是。HBT8018只印理论目录数字。本页不写楼层、合同方量或价格。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Rotation reversal",
+        "zh": "旋转反转"
+      },
+      "body": {
+        "en": "The section shape comes from “Rotation reversal” in “Induction motor”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. The motor cell is 132 kW and the output cell is 60 m³/h. The neighbouring machine is not this sentence. The model cell also prints HBT80-1816-110. Read it in the Xingtai table. The motor cell is 132 kW and the output cell is 60 m³/h. Taken from the printed row: The model cell also prints HBT80-1816-110. Keep this cell as published. The motor cell is 132 kW and the output cell is 60 m³/h. The neighbouring machine is not this sentence. The model cell also prints HBT80-1816-110. Read it in the Xingtai table. Send the mix, the largest stone or particle, the output you need, the horizontal and vertical line you measured, and the supply the printed motor needs. Taken from the printed row: Hebei Pinjin Machinery does not name it as a contract record. Keep this cell as published. This page names no floor, no contract volume and no price.",
+        "zh": "这一节的形状来自《Induction motor》的“旋转反转”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：HBT80-16印的是110 kW、50 m³/h、40 MPa、水平输送 120 m、输送高度 360 m、骨料 4 cm 及以下、管内径 100 / 125 mm、外形 6600 × 1750 × 1800 mm、6500 kg。型号格同时印 HBT80-1816-110。照片里的同类现场不能把两张表并成一张。这张照片来自一篇公开文章，只作这类工况的参照。它不是品锦的合同记录。本页不写项目名称、国家工程、价格或日方量。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Power factor",
+        "zh": "功率因数"
+      },
+      "body": {
+        "en": "“Induction motor” breaks its subject at “Power factor”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. Conveying distance and delivery height are printed as 150 m and 450 m. Read it in the Xingtai table. The photograph is a working-condition reference from a public article about this kind of work. Taken from the printed row: Conveying distance and delivery height are printed as 150 m and 450 m. Keep this cell as published. The photograph is a working-condition reference from a public article about this kind of work. The neighbouring machine is not this sentence. Conveying distance and delivery height are printed as 150 m and 450 m. Read it in the Xingtai table. The shared job site in the photograph does not merge the two tables. Taken from the printed row: Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Keep this cell as published. The motor cell is 132 kW and the output cell is 60 m³/h.",
+        "zh": "《Induction motor》在“功率因数”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。请发送配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及已印电机需要的电源。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上项目名称、国家工程、价格或日方量。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is the photograph a Pinjin jobsite?",
-        "zh": "这张照片是品锦的工地吗？"
+        "en": "What should stay printed beside “History” — Is the photograph a Pinjin jobsite?",
+        "zh": "“沿革”旁边仍要印着的是什么：这张照片是品锦的工地吗？"
       },
       "answer": {
-        "en": "No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
-        "zh": "不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
+        "en": "The neighbouring machine is not this sentence. No. It shows this kind of work. Hebei Pinjin Machinery does not name it as a contract record.",
+        "zh": "旁边那一台不在这句话里。不是。它表示的是这类工况。河北品锦机械没有把它写成合同记录。"
       }
     },
     {
       "question": {
-        "en": "What does the HBT8018 row print for this check?",
-        "zh": "HBT8018这一行，这次要核对的数字是什么？"
+        "en": "“Principle” does not change the check: What does the HBT8018 row print for this check?",
+        "zh": "“原理”不改这一问：HBT8018这一行，这次要核对的数字是什么？"
       },
       "answer": {
-        "en": "The motor cell is 132 kW and the output cell is 60 m³/h. Conveying distance and delivery height are printed as 150 m and 450 m.",
-        "zh": "电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。"
+        "en": "Read it in the Xingtai table. The motor cell is 132 kW and the output cell is 60 m³/h. Conveying distance and delivery height are printed as 150 m and 450 m.",
+        "zh": "按邢台表上的原文理解：电机格是 132 kW，输送量格是 60 m³/h。输送距离和输送高度印的是 150 m 和 450 m。"
       }
     },
     {
       "question": {
-        "en": "Is the printed output a contract volume?",
-        "zh": "印出的输送量是合同方量吗？"
+        "en": "Is the printed output a contract volume, once the outline says “Construction”?",
+        "zh": "大纲写着“施工做法”时，印出的输送量是合同方量吗？"
       },
       "answer": {
-        "en": "No. HBT8018 prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
-        "zh": "不是。HBT8018只印理论目录数字。本页不写楼层、合同方量或价格。"
+        "en": "Taken from the printed row: No. HBT8018 prints theoretical catalogue figures only. This page names no floor, no contract volume and no price.",
+        "zh": "目录里已经写着：不是。HBT8018只印理论目录数字。本页不写楼层、合同方量或价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications-c/building-output-hbt8018-motor-cell.webp",
+    "src": "/images/articles/applications/building-output-hbt8018-motor-cell.jpg",
     "alt": {
-      "en": "This is a grid-powered building pour through a pipeline. Published row: HBT8018, Hebei Pinjin Machinery, Xingtai.",
-      "zh": "这是有电网、走管道的建筑浇筑。已公布机型：HBT8018，河北品锦机械，邢台。"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Induction_motor",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Induction_motor"
     }
   },
   "relatedPaths": [
@@ -124,7 +148,8 @@
     "https://pinjinpump.com/en/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt8018-concrete-pump/",
     "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
-    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/"
+    "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
+    "https://en.wikipedia.org/wiki/Induction_motor"
   ],
   "status": "ready"
 }

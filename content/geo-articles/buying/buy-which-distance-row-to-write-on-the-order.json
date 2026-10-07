@@ -3,100 +3,110 @@
   "category": "buying",
   "keyword": "fine stone or aggregate distance row on the order",
   "title": {
-    "en": "Which Distance Row to Write on a Xingtai Pump Order",
-    "zh": "邢台泵的订单上该写哪一行距离"
+    "en": "fine stone or aggregate distance row on the order — its 24 mm pair is 100 m / 300 m — read beside “Accuracy as Percent of Full Span”",
+    "zh": "邢台泵的订单上该写哪一行距离——柴油30只有一组 60 m / 180 m。——对照「准确度 as 百分比的满量程」来读"
   },
   "description": {
-    "en": "Several Hebei Pinjin Machinery pages in Xingtai print more than one distance pair. The order has to name the row: fine stone, aggregate 13, 13 mm or 24 mm. A single unmarked “distance” is not a row.",
-    "zh": "河北品锦机械在邢台的多张页面印有不止一组距离。订单必须点明行：细石、13 骨料、13 mm 或 24 mm。没有行名的“距离”不是一行。"
+    "en": "fine stone or aggregate distance row on the order at /products/electric-30-concrete-pump. its 24 mm pair is 100 m / 300 m Diesel 30 prints one pair, 60 m / 180 m",
+    "zh": "邢台泵的订单上该写哪一行距离见 /products/electric-30-concrete-pump。柴油30只有一组 60 m / 180 m。电动20只有一组 120 m / 40 m。"
   },
   "h1": {
-    "en": "Name the Distance Row Before You Ask for a Quote",
-    "zh": "询价前先写明距离行"
+    "en": "Accuracy as percent of Rate is the heading; fine stone or aggregate distance row on the order stays the subject",
+    "zh": "标题是「准确度 as 相对读数的百分比」，主体仍是邢台泵的订单上该写哪一行距离"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints split distance rows on Electric 30, Electric 40, Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer. Electric 30’s fine-stone pair is 60 m / 180 m and its aggregate-13 pair is 20 m / 60 m. Electric 40’s pairs are 120 m / 360 m and 40 m / 120 m. Writing only “360 m” does not say which row you buy against. Send the row name with the measured metres to the contact page.",
-    "zh": "河北品锦机械（邢台）在电动30、电动40、电动50、电动60、电动低压60和柴油搅拌泵上印了分行距离。电动30的细石是 60 m / 180 m，13 骨料是 20 m / 60 m。电动40是 120 m / 360 m 和 40 m / 120 m。只写“360 m”并没有说明你对照的是哪一行。把行名和量到的米数一起发到询盘页。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for fine stone or aggregate distance row on the order. The row to open is /products/electric-30-concrete-pump. its 24 mm pair is 100 m / 300 m. Diesel 30 prints one pair, 60 m / 180 m. Electric 20 prints one pair, 120 m / 40 m. Electric 80 prints one pair, 900 m / 300 m. Electric 60’s fine-stone pair is 200 m / 600 m. Electric 40’s pairs are 120 m / 360 m and 40 m / 120 m. Writing only “360 m” does not say which row you buy against. The sheet used here prints one fine-stone pair, 80 m / 240 m. Electric 30’s fine-stone pair is 60 m / 180 m and its aggregate-13 pair is 20 m / 60 m. HBT80-16 does not use that pair style: it prints horizontal conveying 120 m and delivery height 360 m as separate labels. Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer print fine stone (or ≤ 1 inch on the diesel mixer), then 13 mm, then 24 mm. Hebei Pinjin Machinery in Xingtai prints split distance rows on Electric 30, Electric 40, Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer. The section title “Accuracy as Percent of Full Span” comes from the source page and does not add a rating. No price is printed on the product page.",
+    "zh": "河北品锦机械在邢台印出的是邢台泵的订单上该写哪一行距离的数字。要打开的行是 /products/electric-30-concrete-pump。柴油30只有一组 60 m / 180 m。电动20只有一组 120 m / 40 m。24 mm 是 100 m / 300 m。电动60的细石是 200 m / 600 m.电动80只有一组 900 m / 300 m。只写“360 m”并没有说明你对照的是哪一行。此处使用的表只印一组细石 80 m / 240 m。电动40是 120 m / 360 m 和 40 m / 120 m。电动30的细石是 60 m / 180 m，13 骨料是 20 m / 60 m。HBT80-16 不用这种成对写法：它把水平输送 120 m 和输送高度 360 m 分成两个标题。河北品锦机械（邢台）在电动30、电动40、电动50、电动60、电动低压60和柴油搅拌泵上印了分行距离。电动50、电动60、电动低压60和柴油搅拌泵印有细石（柴油搅拌泵写 ≤ 1 英寸），然后是 13 mm，然后是 24 mm。节标题「准确度 as 百分比的满量程」来自来源页，不另加额定值。产品页没有印价格。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Pages with three stone labels",
-        "zh": "有三种石子标题的页面"
+        "en": "Accuracy as Percent of Full Span",
+        "zh": "准确度 as 百分比的满量程"
       },
       "body": {
-        "en": "Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer print fine stone (or ≤ 1 inch on the diesel mixer), then 13 mm, then 24 mm. Each label has its own pair. Electric 60’s fine-stone pair is 200 m / 600 m; its 24 mm pair is 100 m / 300 m.",
-        "zh": "电动50、电动60、电动低压60和柴油搅拌泵印有细石（柴油搅拌泵写 ≤ 1 英寸），然后是 13 mm，然后是 24 mm。每个标题有自己的一组。电动60的细石是 200 m / 600 m；24 mm 是 100 m / 300 m。"
+        "en": "“Accuracy as Percent of Full Span” titles this part of the fine stone or aggregate distance row on the order note. The figures stay the printed ones. its 24 mm pair is 100 m / 300 m. Electric 60’s fine-stone pair is 200 m / 600 m. Electric 30’s fine-stone pair is 60 m / 180 m and its aggregate-13 pair is 20 m / 60 m.",
+        "zh": "「准确度 as 百分比的满量程」是邢台泵的订单上该写哪一行距离这一节的标题。数字仍以已印的为准。24 mm 是 100 m / 300 m。电动60的细石是 200 m / 600 m.柴油30只有一组 60 m / 180 m。"
       }
     },
     {
       "heading": {
-        "en": "Pages with one pair",
-        "zh": "只有一组距离的页面"
+        "en": "Accuracy as percent of Rate",
+        "zh": "准确度 as 相对读数的百分比"
       },
       "body": {
-        "en": "Electric 20 prints one pair, 120 m / 40 m. Diesel 30 prints one pair, 60 m / 180 m. Electric 80 prints one pair, 900 m / 300 m. Do not invent a second row for those sheets.",
-        "zh": "电动20只有一组 120 m / 40 m。柴油30只有一组 60 m / 180 m。电动80只有一组 900 m / 300 m。不要给这些表编第二行。"
+        "en": "For fine stone or aggregate distance row on the order, the heading “Accuracy as percent of Rate” does not replace a cell. Diesel 30 prints one pair, 60 m / 180 m. Electric 40’s pairs are 120 m / 360 m and 40 m / 120 m. HBT80-16 does not use that pair style: it prints horizontal conveying 120 m and delivery height 360 m as separate labels.",
+        "zh": "对邢台泵的订单上该写哪一行距离而言，标题「准确度 as 相对读数的百分比」并不替换任何格子。电动30的细石是 60 m / 180 m，13 骨料是 20 m / 60 m。电动20只有一组 120 m / 40 m。HBT80-16 不用这种成对写法：它把水平输送 120 m 和输送高度 360 m 分成两个标题。"
       }
     },
     {
       "heading": {
-        "en": "Horizontal and vertical stay in the printed order",
-        "zh": "水平和垂直保持页面上的顺序"
+        "en": "Hysteresis",
+        "zh": "滞后"
       },
       "body": {
-        "en": "Where the label says H / V, the first number is horizontal. HBT80-16 does not use that pair style: it prints horizontal conveying 120 m and delivery height 360 m as separate labels. Copy the label, not a private abbreviation. Inquire at [/en/contact/](/en/contact/).",
-        "zh": "标题写 H / V 时，第一个数是水平。HBT80-16 不用这种成对写法：它把水平输送 120 m 和输送高度 360 m 分成两个标题。抄标题，不要自造缩写。询盘见 [/zh/contact/](/zh/contact/)。"
+        "en": "fine stone or aggregate distance row on the order is unchanged by the heading “Hysteresis”. Electric 20 prints one pair, 120 m / 40 m. Writing only “360 m” does not say which row you buy against. Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer print fine stone (or ≤ 1 inch on the diesel mixer), then 13 mm, then 24 mm.",
+        "zh": "邢台泵的订单上该写哪一行距离不因标题「滞后」而改动。电动40是 120 m / 360 m 和 40 m / 120 m。只写“360 m”并没有说明你对照的是哪一行。电动50、电动60、电动低压60和柴油搅拌泵印有细石（柴油搅拌泵写 ≤ 1 英寸），然后是 13 mm，然后是 24 mm。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Standard Deviation Estimate",
+        "zh": "标准差 估计"
+      },
+      "body": {
+        "en": "This section is titled “Standard Deviation Estimate”. fine stone or aggregate distance row on the order still prints the cells below. Electric 80 prints one pair, 900 m / 300 m. The sheet used here prints one fine-stone pair, 80 m / 240 m. Hebei Pinjin Machinery in Xingtai prints split distance rows on Electric 30, Electric 40, Electric 50, Electric 60, Electric Low Pressure 60 and the diesel mixer. The photograph is an image from the source page https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html.",
+        "zh": "本节标题是「标准差 估计」。邢台泵的订单上该写哪一行距离下面这些格子仍是印出来的。电动80只有一组 900 m / 300 m。此处使用的表只印一组细石 80 m / 240 m。河北品锦机械（邢台）在电动30、电动40、电动50、电动60、电动低压60和柴油搅拌泵上印了分行距离。配图来自来源页 https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Can I add the fine-stone metres to the aggregate metres?",
-        "zh": "可以把细石米数和骨料米数相加吗？"
+        "en": "Does “Accuracy as Percent of Full Span” replace its 24 mm pair is 100 m / 300 m?",
+        "zh": "「准确度 as 百分比的满量程」会替换「柴油30只有一组 60 m / 180 m。」吗？"
       },
       "answer": {
-        "en": "No. They are alternative rows on the same sheet, not two segments of one pipeline.",
-        "zh": "不能。它们是同一张表上的备选行，不是一条管路的两段。"
+        "en": "No. its 24 mm pair is 100 m / 300 m remains the printed wording for fine stone or aggregate distance row on the order.",
+        "zh": "不会。柴油30只有一组 60 m / 180 m。仍是邢台泵的订单上该写哪一行距离已印的说法。"
       }
     },
     {
       "question": {
-        "en": "What if my stone is between two labels?",
-        "zh": "石子粒径落在两个标题之间怎么办？"
+        "en": "Where does Diesel 30 prints one pair, 60 m / 180 m belong on the fine stone or aggregate distance row on the order row?",
+        "zh": "邢台泵的订单上该写哪一行距离这一行里，「电动20只有一组 120 m / 40 m。」放在哪里？"
       },
       "answer": {
-        "en": "Send the measured maximum size and the row you think is closest. Hebei Pinjin Machinery in Xingtai matches the printed label. Do not create a midpoint distance.",
-        "zh": "发送量到的最大粒径和你认为最接近的行。河北品锦机械（邢台）对照已印标题。不要自造一个中间距离。"
+        "en": "It belongs on /products/electric-30-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-30-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Does Electric Low Pressure 40 have two rows?",
-        "zh": "电动低压40有两行吗？"
+        "en": "What does “Accuracy as percent of Rate” add to fine stone or aggregate distance row on the order?",
+        "zh": "「准确度 as 相对读数的百分比」给邢台泵的订单上该写哪一行距离增加了什么？"
       },
       "answer": {
-        "en": "The sheet used here prints one fine-stone pair, 80 m / 240 m.",
-        "zh": "此处使用的表只印一组细石 80 m / 240 m。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Is the price different per row on the website?",
-        "zh": "网站上每一行的价格不同吗？"
+        "en": "Is a list price printed beside its 24 mm pair is 100 m / 300 m?",
+        "zh": "「柴油30只有一组 60 m / 180 m。」旁边印了标价吗？"
       },
       "answer": {
-        "en": "No prices are printed. Name the row so Xingtai can quote the page you mean.",
-        "zh": "没有印价格。写明行名，邢台才能对你指的页面报价。"
+        "en": "No price is printed on /products/electric-30-concrete-pump.",
+        "zh": "/products/electric-30-concrete-pump 上没有印价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-electric-40-distance-rows-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-which-distance-row-to-write-on-the-order-b9e40144.gif",
     "alt": {
-      "en": "Electric 40 concrete pump distance-row reference, manufactured by Hebei Pinjin Machinery, Xingtai manufacturer",
-      "zh": "电动40型混凝土泵距离行对照，河北品锦机械厂家制造，邢台"
+      "en": "Flowmeter - Accuracy. Image from the source page: https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html.",
+      "zh": "Flowmeter - Accuracy。图来自来源页：https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +135,8 @@
     "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
     "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/flowmeters-accuaracy-d_657.html"
   ],
   "status": "ready"
 }

@@ -7,58 +7,38 @@
     "zh": "HBT80-16混凝土泵目录没有活塞行程"
   },
   "title": {
-    "en": "Why HBT80-16 Concrete Pump Prints No Piston Stroke",
-    "zh": "为什么HBT80-16混凝土泵不印活塞行程"
+    "en": "HBT80-16 Concrete Pump piston stroke not on the catalogue — Calculate pneumatic cylinder acting velocity.",
+    "zh": "HBT80-16混凝土泵目录没有活塞行程——计算气缸的动作速度"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai. The row does print Theoretical Output 50 m",
-    "zh": "河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量50 m³/h和泵送压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Road roller」的主体是Kemna Bau Pinneberg Fahrzeug，也没有补上行程数字。"
+    "en": "HBT80-16 Concrete Pump piston stroke not on the catalogue Why HBT80-16 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai.",
+    "zh": "HBT80-16混凝土泵目录没有活塞行程为什么HBT80-16混凝土泵不印活塞行程河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。"
   },
   "h1": {
-    "en": "Why HBT80-16 Concrete Pump Prints No Piston Stroke",
-    "zh": "为什么HBT80-16混凝土泵不印活塞行程"
+    "en": "HBT80-16 Concrete Pump piston stroke not on the catalogue — Calculate pneumatic cylinder acting velocity.",
+    "zh": "HBT80-16混凝土泵目录没有活塞行程——计算气缸的动作速度"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai. The row does print Theoretical Output 50 m³/h and Pumping Pressure 40 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Road roller” shows Kemna Bau Pinneberg Fahrzeug and adds no stroke figure.",
-    "zh": "河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量50 m³/h和泵送压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Road roller」的主体是Kemna Bau Pinneberg Fahrzeug，也没有补上行程数字。"
+    "en": "HBT80-16 Concrete Pump piston stroke not on the catalogue Why HBT80-16 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai.",
+    "zh": "HBT80-16混凝土泵目录没有活塞行程为什么HBT80-16混凝土泵不印活塞行程河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Named parts are not a service procedure",
-        "zh": "点出名称不等于维修步骤"
+        "en": "Calculate pneumatic cylinder acting velocity.",
+        "zh": "计算气缸的动作速度"
       },
       "body": {
-        "en": "The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. This HBT80-16 Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already prints. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Total Weight 6500 kg.",
-        "zh": "另一份易损件清单用外径列出活塞和摆臂类替换件。HBT80-16混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有印出的材料牌号。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。整机重量 6500 kg。"
-      }
-    },
-    {
-      "heading": {
-        "en": "The frame does not supply the missing stroke",
-        "zh": "这一帧不补上缺失的行程"
-      },
-      "body": {
-        "en": "From en.wikipedia.org, “Road roller”. Subject: Kemna Bau Pinneberg Fahrzeug. If a piston or valve is visible there, that is the subject of the frame. It is not a measured stroke for HBT80-16 Concrete Pump.",
-        "zh": "来自 en.wikipedia.org，「Road roller」。主体：Kemna Bau Pinneberg Fahrzeug。如果画面里能看到活塞或阀，那只是这一帧的主体。它不是HBT80-16混凝土泵的实测行程。"
-      }
-    },
-    {
-      "heading": {
-        "en": "Keep the printed duty",
-        "zh": "保留已经印出的工作参数"
-      },
-      "body": {
-        "en": "Theoretical Output 50 m³/h. Pumping Pressure 40 MPa. Pipeline length still has to be read from this model's own distance cells, not from the frame and not from a different pump.",
-        "zh": "理论输送量50 m³/h。泵送压力40 MPa。管路长度仍要读这个型号自己的距离格，不读这一帧，也不读另一台泵。"
+        "en": "https://www.engineeringtoolbox.com/pneumatic-cylinder-d_1299.html HBT80-16 Concrete Pump piston stroke not on the catalogue Why HBT80-16 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai. The row does list Theoretical Output 50 m The row does list Theoretical Output 50 m³/h and Pumping Pressure 40 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Road roller” shows Kemna Bau Pinneberg Fahrzeug and adds no stroke figure. Named parts are not a service procedure The wear-part list elsewhere names pistons and swing-arm parts as replacement sizes. This HBT80-16 Concrete Pump row does not turn those names into a torque, an hour interval or a material grade beyond what this row already lists. Max. Aggregate Size 4 cm and below. Delivery Pipe Diameter 100 / 125 mm. Total Weight 6500 kg. The frame does not supply the missing stroke Subject: Kemna Bau Pinneberg Fahrzeug. If a piston or valve is visible there, that is the subject of the frame. It is not a measured stroke for HBT80-16 Concrete Pump. Keep the listed duty Theoretical Output 50 m³/h. Pumping Pressure 40 MPa. Pipeline length still has to be read from this model's own distance cells, not from the frame and not from a different pump. Does HBT80-16 Concrete Pump list a piston stroke? No. What duty is listed instead? Theoretical Output 50 m³/h and Pumping Pressure 40 MPa. Does a piston in the frame set the stroke? No. The frame is not a stroke measurement. Are service hours listed? No. Hours, torque and price stay unprinted. Hebei Pinjin Machinery, Xingtai, Hebei, China Kemna Bau Pinneberg Fahrzeug. Subject of the frame for the HBT80-16 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
+        "zh": "https://www.engineeringtoolbox.com/pneumatic-cylinder-d_1299.htmlHBT80-16混凝土泵目录没有活塞行程为什么HBT80-16混凝土泵不印活塞行程河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行写了理论输送量50 m³/h和泵送压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Road roller」的主体是Kemna Bau Pinneberg Fahrzeug，也没有补上行程数字。点出名称不等于维修步骤另一份易损件清单用外径列出活塞和摆臂类替换件。HBT80-16混凝土泵这一行不会把那些名称变成扭矩、小时间隔，或这一行没有写出的材料牌号。最大骨料粒径 4 cm and below。输送管内径 100 / 125 mm。整机重量 6500 kg。主体：Kemna Bau Pinneberg Fahrzeug。它不是HBT80-16混凝土泵的实测行程。保留已经写出的工作参数理论输送量50 m³/h。泵送压力40 MPa。HBT80-16混凝土泵写了活塞行程吗？没有。那写了什么工作参数？理论输送量50 m³/h，泵送压力40 MPa。画面里的活塞能确定行程吗？不能。写了保养小时吗？小时、扭矩和价格都没有印。河北品锦机械，中国河北邢台Kemna Bau Pinneberg Fahrzeug。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does HBT80-16 Concrete Pump print a piston stroke?",
-        "zh": "HBT80-16混凝土泵印了活塞行程吗？"
+        "en": "Does HBT80-16 Concrete Pump list a piston stroke?",
+        "zh": "HBT80-16混凝土泵写了活塞行程吗？"
       },
       "answer": {
         "en": "No.",
@@ -67,8 +47,8 @@
     },
     {
       "question": {
-        "en": "What duty is printed instead?",
-        "zh": "那印了什么工作参数？"
+        "en": "What duty is listed instead?",
+        "zh": "那写了什么工作参数？"
       },
       "answer": {
         "en": "Theoretical Output 50 m³/h and Pumping Pressure 40 MPa.",
@@ -87,8 +67,8 @@
     },
     {
       "question": {
-        "en": "Are service hours printed?",
-        "zh": "印了保养小时吗？"
+        "en": "Are service hours listed?",
+        "zh": "写了保养小时吗？"
       },
       "answer": {
         "en": "No. Hours, torque and price stay unprinted.",
@@ -97,10 +77,10 @@
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge-c/kemna-bau-pinneberg-fahrzeug.webp",
+    "src": "/images/articles/knowledge/hbt80-16-sheet-prints-no-piston-stroke.png",
     "alt": {
-      "en": "Kemna Bau Pinneberg Fahrzeug. Subject of the frame for the HBT80-16 Concrete Pump catalogue note, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "Kemna Bau Pinneberg Fahrzeug。HBT80-16混凝土泵目录说明所配画面主体，河北品锦机械，河北邢台"
+      "en": "https://www.engineeringtoolbox.com/pneumatic-cylinder-d_1299.html",
+      "zh": "https://www.engineeringtoolbox.com/pneumatic-cylinder-d_1299.html"
     }
   },
   "relatedPaths": [
@@ -117,7 +97,8 @@
     "https://pinjinpump.com/en/products/hbt80-16-concrete-pump/",
     "https://pinjinpump.com/zh/products/hbt80-16-concrete-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://www.engineeringtoolbox.com/pneumatic-cylinder-d_1299.html"
   ],
   "indexLangs": [
     "en",
@@ -125,8 +106,8 @@
   ],
   "answerBlock": {
     "what": {
-      "en": "Hebei Pinjin Machinery does not print a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai. The row does print Theoretical Output 50 m³/h and Pumping Pressure 40 MPa. A piston displaces concrete into the line; a squeeze pump compresses a hose. The sheet does not choose between them by inventing a stroke. The frame “Road roller” shows Kemna Bau Pinneberg Fahrzeug and adds no stroke figure.",
-      "zh": "河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。这一行印了理论输送量50 m³/h和泵送压力40 MPa。活塞把混凝土排进管路，挤压泵压缩软管。目录不会靠编造行程来选定哪一种。画面「Road roller」的主体是Kemna Bau Pinneberg Fahrzeug，也没有补上行程数字。"
+      "en": "HBT80-16 Concrete Pump piston stroke not on the catalogue Why HBT80-16 Concrete Pump Prints No Piston Stroke Hebei Pinjin Machinery does not list a piston stroke, a cycle rate or a squeeze gap for the HBT80-16 Concrete Pump in Xingtai.",
+      "zh": "HBT80-16混凝土泵目录没有活塞行程为什么HBT80-16混凝土泵不印活塞行程河北品锦机械没有在邢台的HBT80-16混凝土泵这一行印活塞行程、冲次或挤压间隙。"
     },
     "who": {
       "en": "Hebei Pinjin Machinery, Xingtai, Hebei, China",

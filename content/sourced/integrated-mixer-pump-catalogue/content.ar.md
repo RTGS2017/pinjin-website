@@ -1,28 +1,22 @@
-## Catalogue electric mixer-pump row
+## Repose batching plant
 
-Integrated Mixer Pump is an electric integrated concrete مضخة خلاط manufactured by Hebei Pinjin Machinery in شينغتاي, Hebei, China. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m. Hopper 0.4 m³, max ركام 4 cm and below, أنبوب النقل 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer.
+![صورة من صفحة المصدر عن Concrete plant](/images/articles/integrated-mixer-pump-catalogue/A_4-Bin_Inline_Blending_Concrete_Batch_Plant.jpg)
+*صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Concrete_plant*
 
-![Integrated مضخة خلاط factory product photo, Hebei Pinjin Machinery شينغتاي](/images/products/integrated-mixer-pump/integrated-mixer-pump.webp)
-*Integrated مضخة خلاط, شينغتاي catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m*
+«Repose batching plant» سياق من صفحة المصدر فقط، وليس لوحة جديدة لـ Integrated Mixer Pump Catalogue Row. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.
 
-## Neighbour mix / pump-only rows
+الخانات الفارغة في هذه الصفحة تبقى فارغة. «Repose batching plant» لا يملؤها.
 
-| Model | Power | Theoretical output | Pressure | Distance | Pipe | Weight |
-| Integrated مضخة خلاط (electric) | 45 kW + 14 kW | 21 m³/h | 23 MPa | 100 m / 300 m | 100 / 125 mm | 4500 kg |
-| Diesel mixer integrated | 4108 / 66–75 kW | 25 m³/h | 23 MPa | stone 100 / 300 m | see صفحة المنتج | 4200 kg |
-| Electric 40 (pump only) | 45 kW | 21 m³/h | 23 MPa | حصى ناعم 120 m / 360 m | see صفحة المنتج | 2300 kg |
+## Inline blending plant
 
-Plant versus trailer: [mixer pump vs concrete mixing plant](/blog/mixer-pump-vs-concrete-mixing-plant/). Pipe DN: [concrete pump pipe DN selection](/blog/concrete-pump-pipe-dn-selection/). Hub: [mixer pumps](/products/mixer-pumps/).
+فتح المصدر عند «Inline blending plant» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Integrated Mixer Pump Catalogue Row. هذا الفصل لا يضيف رقمًا.
 
-## When this row fits
+## Dry mix concrete plant
 
-Sites that mix and pump in one unit. Rural and self-built house pouring matching listed mixer and pump output. Projects that can supply the listed 45 kW + 14 kW motors.
+«Dry mix concrete plant» فصل في صفحة المصدر. لا يغيّر اسم Integrated Mixer Pump Catalogue Row. هذا الفصل لا يضيف رقمًا.
 
-## When to open another page
+## Wet mix concrete plant
 
-- No grid, mix-and-pump on diesel → [diesel mixer integrated pump](/products/diesel-mixer-integrated-pump/).
-- Mix already supplied, pump-only 21 m³/h → [Electric 40](/products/electric-40-concrete-pump/).
-- High-output electric trailer without mixer → [Electric 80](/products/electric-80-concrete-pump/).
-- Not a mixing plant, not a truck-mounted مضخة ذراع and not a spraying machine.
+Integrated Mixer Pump Catalogue Row يبقى الصف الذي كان في هذا النص. «Wet mix concrete plant» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.
 
-Product page: [integrated mixer pump](/products/integrated-mixer-pump/). استفسار: [contact](/contact/).
+صفحات مذكورة أصلًا في هذا النص: [mixer pump vs concrete mixing plant](/blog/mixer-pump-vs-concrete-mixing-plant/), [concrete pump pipe DN selection](/blog/concrete-pump-pipe-dn-selection/), [mixer pumps](/products/mixer-pumps/).

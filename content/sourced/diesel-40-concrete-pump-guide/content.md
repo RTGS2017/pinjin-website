@@ -1,29 +1,26 @@
-## Catalogue Diesel 40 row
+## Names
 
-Diesel 40 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: 4108 diesel 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m (1 cm aggregate). Hopper 0.4 m³, Kawasaki 112 hydraulic pump, 4200 × 1600 × 1800 mm, 2800 kg.
+Diesel fuel carries more than one everyday name, and those names describe the liquid, not a trailer model. Calling the machine “diesel” only says the drive burns that fuel.
 
-![Diesel 40 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/diesel-40-concrete-pump/diesel-40-concrete-pump.webp)
-*Diesel 40, Xingtai catalogue — 4108 / 66 kW, 26 m³/h, 120 m / 360 m (1 cm aggregate)*
+The nameplate we actually print is Diesel 40: 4108 diesel, 66 kW, 26 m³/h, 25 MPa, 120 m / 360 m at 1 cm aggregate, hopper 0.4 m³, frame 2800 kg. A fuel nickname does not move any of those cells.
 
-## Neighbour diesel trailer rows
+![Figure from the source page about diesel fuel](/images/articles/diesel-40-concrete-pump-guide/Essodiesel.jpg)
+*Image from the source page: https://en.wikipedia.org/wiki/Diesel_fuel*
 
-| Model | Engine | Theoretical output | Pressure | Distance | Weight |
-| Diesel 30 | 4105 / 56 kW | 15 m³/h | 20 MPa | 60 m / 180 m (1 cm aggregate) | 2000 kg |
-| Diesel 40 | 4108 / 66 kW | 26 m³/h | 25 MPa | 120 m / 360 m (1 cm aggregate) | 2800 kg |
-| Diesel 50 | 6105 / 99 kW | 30 m³/h | 30 MPa | 150 m / 450 m (1 cm aggregate) | 3300 kg |
-| Diesel 60 / HBT60-13.132 | 6105 / 144 kW | 35 m³/h | 30 MPa | 150 m / 350 m | 3500 kg |
+## History
 
-Sites without electricity: [diesel concrete pump for sites without electricity](/blog/diesel-concrete-pump-no-electricity/). Hub: [diesel concrete pumps](/products/diesel-concrete-pumps/).
+The history of the fuel is a story about how the liquid was named and refined. It is not a delivery record for this Xingtai trailer and not a list of countries we claim to have shipped.
 
-## When this row fits
+Diesel 30 remains the smaller printed neighbour at 56 kW and 15 m³/h. Diesel 50 is the 99 kW / 30 m³/h row. Keep those as separate pages.
 
-Sites without stable grid power matching 26 m³/h, 25 MPa and 120 m / 360 m (1 cm aggregate) on a 2800 kg trailer.
+## Types
 
-## When to open another page
+Fuel types differ by grade and season. That classification belongs to the liquid in the tank, not to a second concrete-pump model hiding inside the word diesel.
 
-- 15 m³/h / 56 kW → [Diesel 30](/products/diesel-30-concrete-pump/).
-- 30 m³/h / 99 kW → [Diesel 50](/products/diesel-50-concrete-pump/).
-- Grid already present at 21 m³/h electric → [Electric 40](/products/electric-40-concrete-pump/).
-- Not a truck-mounted placing boom and not a mixing plant.
+We do not print a seasonal fuel grade on the Diesel 40 page. The hydraulic name already printed beside the row is Kawasaki 112. Do not invent a second hydraulic pump to match a fuel type.
 
-Product page: [Diesel 40 concrete pump](/products/diesel-40-concrete-pump/). Inquiry: [contact](/contact/).
+## Storage and additives
+
+Storage and additives on the source page are warnings about the fuel itself: contamination, water, and what people blend in. They are not a factory recipe for concrete, and they are not a wear-part interval.
+
+Quote the Diesel 40 row from the product page after the printed cells are enough for the pour. This chapter does not add a price, a destination, or a case history.

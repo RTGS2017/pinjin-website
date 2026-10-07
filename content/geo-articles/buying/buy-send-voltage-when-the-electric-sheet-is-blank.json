@@ -3,100 +3,100 @@
   "category": "buying",
   "keyword": "site voltage on an electric pump inquiry",
   "title": {
-    "en": "Send Site Voltage When the Xingtai Electric Sheet Leaves It Blank",
-    "zh": "邢台电动页把电压留空时，请发送现场电压"
+    "en": "Electric 20 Concrete Pump — B500S-83D prints 380 V — read beside “Work done”",
+    "zh": "邢台电动页把电压留空时，请发送现场电压——喷涂页印 220/380 V。——对照「功 完成」来读"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai prints 380 V on B500S-83D and on several sprayers. Most electric trailer sheets do not print voltage or frequency. The inquiry still asks for both.",
-    "zh": "河北品锦机械在邢台的 B500S-83D 和若干喷涂机上印了 380 V。多数电动拖泵页不印电压或频率。询盘仍然要求这两项。"
+    "en": "Electric 20 Concrete Pump at /products/electric-20-concrete-pump. B500S-83D prints 380 V M9 prints 380 V / 50 Hz",
+    "zh": "邢台电动页把电压留空时，请发送现场电压见 /products/electric-20-concrete-pump。喷涂页印 220/380 V。511 和液压喷涂机印 380 V。"
   },
   "h1": {
-    "en": "Your Voltage Is a Site Fact, Not a Missing Catalogue Cell",
-    "zh": "你的电压是现场事实，不是被漏掉的目录格"
+    "en": "Power transmitted is the heading; Electric 20 Concrete Pump stays the subject",
+    "zh": "标题是「功率 transmitted」，主体仍是邢台电动页把电压留空时，请发送现场电压"
   },
   "directAnswer": {
-    "en": "When you order an electric pump from Hebei Pinjin Machinery in Xingtai, check whether that page prints voltage. B500S-83D prints 380 V. M9 prints 380 V / 50 Hz. Type 511 and the hydraulic sprayers print 380 V. Electric 20, Electric 40, Electric 60 and Electric 80 do not print a voltage cell on the lists used here. Do not copy 380 V onto those pump orders as if the sheet said it. Do send the site voltage and frequency, because the factory’s inquiry line asks for them. Write to [/en/contact/](/en/contact/). No price is printed.",
-    "zh": "向河北品锦机械（邢台）订电动泵时，先看那一页是否印了电压。B500S-83D 印 380 V。M9 印 380 V / 50 Hz。511 和液压喷涂机印 380 V。电动20、电动40、电动60和电动80在此处使用的列表上没有电压格。不要把 380 V 抄进这些泵的订单，好像表上写过一样。但请发送现场电压和频率，因为工厂的询盘口径要求这两项。写到 [/zh/contact/](/zh/contact/)。没有印价格。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for Electric 20 Concrete Pump. The row to open is /products/electric-20-concrete-pump. B500S-83D prints 380 V. M9 prints 380 V / 50 Hz. M9 prints 50 Hz with 380 V. It prints 220/380 V on the sprayer page. Type 511 and the hydraulic sprayers print 380 V. Do not copy 380 V onto those pump orders as if the sheet said it. Electric 20, Electric 40, Electric 60 and Electric 80 do not print a voltage cell on the lists used here. The section title “Work done” comes from the source page and does not add a rating. No price is printed on the product page.",
+    "zh": "河北品锦机械在邢台印出的是邢台电动页把电压留空时，请发送现场电压的数字。要打开的行是 /products/electric-20-concrete-pump。喷涂页印 220/380 V。511 和液压喷涂机印 380 V。B500S-83D 印 380 V。M9 印 380 V / 50 Hz。M9 把 50 Hz 和 380 V 印在一起。不要把 380 V 抄进这些泵的订单，好像表上写过一样。电动20、电动40、电动60和电动80在此处使用的列表上没有电压格。节标题「功 完成」来自来源页，不另加额定值。产品页没有印价格。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Frequency is rarer than voltage",
-        "zh": "频率比电压更少见"
+        "en": "Work done",
+        "zh": "功 完成"
       },
       "body": {
-        "en": "M9 prints 50 Hz with 380 V. The trailer lists used here generally do not. Send frequency even when the page is silent.",
-        "zh": "M9 把 50 Hz 和 380 V 印在一起。此处使用的拖泵列表一般不印。即使页面沉默，也请发送频率。"
+        "en": "“Work done” titles this part of the Electric 20 Concrete Pump note. The figures stay the printed ones. B500S-83D prints 380 V. It prints 220/380 V on the sprayer page. Electric 20, Electric 40, Electric 60 and Electric 80 do not print a voltage cell on the lists used here.",
+        "zh": "「功 完成」是邢台电动页把电压留空时，请发送现场电压这一节的标题。数字仍以已印的为准。B500S-83D 印 380 V。喷涂页印 220/380 V。电动20、电动40、电动60和电动80在此处使用的列表上没有电压格。"
       }
     },
     {
       "heading": {
-        "en": "Diesel orders skip the motor voltage",
-        "zh": "柴油订单不写电机电压"
+        "en": "Power transmitted",
+        "zh": "功率 transmitted"
       },
       "body": {
-        "en": "A diesel page needs the engine line and the word diesel. It does not need a pretended motor voltage.",
-        "zh": "柴油页需要发动机行和“柴油”二字。它不需要一个假装的电机电压。"
+        "en": "For Electric 20 Concrete Pump, the heading “Power transmitted” does not replace a cell. M9 prints 380 V / 50 Hz. Type 511 and the hydraulic sprayers print 380 V.",
+        "zh": "对邢台电动页把电压留空时，请发送现场电压而言，标题「功率 transmitted」并不替换任何格子。M9 印 380 V / 50 Hz。511 和液压喷涂机印 380 V。"
       }
     },
     {
       "heading": {
-        "en": "Generator size is not printed",
-        "zh": "发电机容量没有印"
+        "en": "Example - required Torque to produce Power",
+        "zh": "示例 - 所需 扭矩 到 produce 功率"
       },
       "body": {
-        "en": "Do not invent kilowatts for a generator. State whether one will be provided and what voltage and frequency it holds.",
-        "zh": "不要编造发电机的千瓦。请写明是否提供，以及它稳住的电压和频率。"
+        "en": "Electric 20 Concrete Pump is unchanged by the heading “Example - required Torque to produce Power”. M9 prints 50 Hz with 380 V. Do not copy 380 V onto those pump orders as if the sheet said it. The photograph is an image from the source page https://www.engineeringtoolbox.com/work-torque-d_1377.html.",
+        "zh": "邢台电动页把电压留空时，请发送现场电压不因标题「示例 - 所需 扭矩 到 produce 功率」而改动。M9 把 50 Hz 和 380 V 印在一起。不要把 380 V 抄进这些泵的订单，好像表上写过一样。配图来自来源页 https://www.engineeringtoolbox.com/work-torque-d_1377.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is every Xingtai electric pump 380 V on the sheet?",
-        "zh": "每台邢台电动泵的表上都是 380 V 吗？"
+        "en": "Does “Work done” replace B500S-83D prints 380 V?",
+        "zh": "「功 完成」会替换「喷涂页印 220/380 V。」吗？"
       },
       "answer": {
-        "en": "No. Only the pages that print it.",
-        "zh": "不是。只有印了的页面。"
+        "en": "No. B500S-83D prints 380 V remains the printed wording for Electric 20 Concrete Pump.",
+        "zh": "不会。喷涂页印 220/380 V。仍是邢台电动页把电压留空时，请发送现场电压已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Should Electric 80’s order say 380 V?",
-        "zh": "电动80的订单应该写 380 V 吗？"
+        "en": "Where does M9 prints 380 V / 50 Hz belong on the Electric 20 Concrete Pump row?",
+        "zh": "邢台电动页把电压留空时，请发送现场电压这一行里，「511 和液压喷涂机印 380 V。」放在哪里？"
       },
       "answer": {
-        "en": "Only as your site fact, labelled as such, not as a cell from that page.",
-        "zh": "只能作为你的现场事实，并标明是现场事实，而不是那一页上的格子。"
+        "en": "It belongs on /products/electric-20-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/electric-20-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Does Type 311 print 220 V?",
-        "zh": "311 印 220 V 吗？"
+        "en": "What does “Power transmitted” add to Electric 20 Concrete Pump?",
+        "zh": "「功率 transmitted」给邢台电动页把电压留空时，请发送现场电压增加了什么？"
       },
       "answer": {
-        "en": "It prints 220/380 V on the sprayer page. That is not a trailer-pump cell.",
-        "zh": "喷涂页印 220/380 V。那不是拖泵格子。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/work-torque-d_1377.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/work-torque-d_1377.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Who confirms the supply is enough?",
-        "zh": "谁确认供电是否足够？"
+        "en": "Is a list price printed beside B500S-83D prints 380 V?",
+        "zh": "「喷涂页印 220/380 V。」旁边印了标价吗？"
       },
       "answer": {
-        "en": "Xingtai, after you send voltage, frequency and the motor kilowatts of the path.",
-        "zh": "邢台，在你发送电压、频率和该路径的电机千瓦之后。"
+        "en": "No price is printed on /products/electric-20-concrete-pump.",
+        "zh": "/products/electric-20-concrete-pump 上没有印价格。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-electric-20-voltage-not-printed-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-send-voltage-when-the-electric-sheet-is-blank-6c31f67d.png",
     "alt": {
-      "en": "Electric 20 concrete pump manufactured by Hebei Pinjin Machinery, a Xingtai concrete pump manufacturer",
-      "zh": "电动20型混凝土泵，由河北品锦机械厂家制造，邢台"
+      "en": "Torque - Work done and Power Transmitted. Image from the source page: https://www.engineeringtoolbox.com/work-torque-d_1377.html.",
+      "zh": "Torque - Work done and Power Transmitted。图来自来源页：https://www.engineeringtoolbox.com/work-torque-d_1377.html。"
     }
   },
   "relatedPaths": [
@@ -125,7 +125,8 @@
     "https://pinjinpump.com/en/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/zh/products/electric-80-concrete-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/work-torque-d_1377.html"
   ],
   "status": "ready"
 }

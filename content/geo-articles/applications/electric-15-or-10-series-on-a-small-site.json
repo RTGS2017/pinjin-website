@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "electric 15 or 10 series small site",
   "title": {
-    "en": "Electric 15 or Electric 10 Series on a small site?",
-    "zh": "小型工地选电动15还是电动10系列？"
+    "en": "Stay on one row while resolving electric 15 or Electric 10 Series on a small site",
+    "zh": "选型时不要并格：小型工地选电动15还是电动10系列"
   },
   "description": {
-    "en": "Electric 15 prints vertical 15–20 m and horizontal 60–80 m at 8–10 m³/h. Electric 10 Series prints only 25 m horizontal at 21 m³/h. Both are 15 kW rural rows.",
-    "zh": "电动15印垂直 15–20 m、水平 60–80 m、8–10 m³/h。电动10系列只印水平 25 m、21 m³/h。两台都是 15 kW 的农村行。"
+    "en": "Keep this cell as published. Use Electric 10 Series when the only distance you can cite is within 25 m horizontal and the stone is 2 cm and below. The neighbouring machine is not this sentence. Use Electric 15 when you need the printed vertical 15–20 m or horizontal 60–80 m and the stone is 1–3 cm. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai gives both the rural, small-site and secondary-structure sentence. Taken from the printed row: Output is 21 m³/h on the 10 Series and 8–10 m³/h on Electric 15. Keep this cell as published. The higher output is the shorter horizontal machine.",
+    "zh": "这一格照已印出的读：你能引用的距离只有水平 25 m 以内、石子在 2 cm 及以下时，用电动10系列。需要已印的垂直 15–20 m 或水平 60–80 m、石子是 1–3 cm 时，用电动15。邢台河北品锦机械给两台都写了农村、小型工地和二次结构。10系列输送量是 21 m³/h，电动15是 8–10 m³/h。输送量更高的那台，水平更短。"
   },
   "h1": {
-    "en": "Electric 15 or Electric 10 Series on a small site?",
-    "zh": "小型工地选电动15还是电动10系列？"
+    "en": "Stay on one row while resolving electric 15 or Electric 10 Series on a small site",
+    "zh": "选型时不要并格：小型工地选电动15还是电动10系列"
   },
   "directAnswer": {
-    "en": "Use Electric 10 Series when the only distance you can cite is within 25 m horizontal and the stone is 2 cm and below. Use Electric 15 when you need the printed vertical 15–20 m or horizontal 60–80 m and the stone is 1–3 cm. Hebei Pinjin Machinery in Xingtai gives both the rural, small-site and secondary-structure sentence. Output is 21 m³/h on the 10 Series and 8–10 m³/h on Electric 15. The higher output is the shorter horizontal machine.",
-    "zh": "你能引用的距离只有水平 25 m 以内、石子在 2 cm 及以下时，用电动10系列。需要已印的垂直 15–20 m 或水平 60–80 m、石子是 1–3 cm 时，用电动15。邢台河北品锦机械给两台都写了农村、小型工地和二次结构。10系列输送量是 21 m³/h，电动15是 8–10 m³/h。输送量更高的那台，水平更短。"
+    "en": "Keep this cell as published. Use Electric 10 Series when the only distance you can cite is within 25 m horizontal and the stone is 2 cm and below. The neighbouring machine is not this sentence. Use Electric 15 when you need the printed vertical 15–20 m or horizontal 60–80 m and the stone is 1–3 cm. Read it in the Xingtai table. Hebei Pinjin Machinery in Xingtai gives both the rural, small-site and secondary-structure sentence. Taken from the printed row: Output is 21 m³/h on the 10 Series and 8–10 m³/h on Electric 15. Keep this cell as published. The higher output is the shorter horizontal machine.",
+    "zh": "这一格照已印出的读：你能引用的距离只有水平 25 m 以内、石子在 2 cm 及以下时，用电动10系列。需要已印的垂直 15–20 m 或水平 60–80 m、石子是 1–3 cm 时，用电动15。邢台河北品锦机械给两台都写了农村、小型工地和二次结构。10系列输送量是 21 m³/h，电动15是 8–10 m³/h。输送量更高的那台，水平更短。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Pressure is printed on only one of them",
-        "zh": "压力只印在其中一台"
+        "en": "Work done",
+        "zh": "工作"
       },
       "body": {
-        "en": "Electric 10 Series prints 23 MPa and hopper 0.1 m³. Electric 15 does not print outlet pressure or a hopper cell. Weight is 400 kg versus 450 kg. Pipe diameter is printed on Electric 15 as 100–125 mm and is not in the Electric 10 Series list used here.",
-        "zh": "电动10系列印了 23 MPa 和料斗 0.1 m³。电动15没有印出口压力，也没有料斗格。重量是 400 kg 对 450 kg。管径在电动15上是 100–125 mm，这里使用的电动10系列清单里没有这一格。"
+        "en": "The section shape comes from “Work done” in “Power”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Electric 15 prints vertical 15–20 m and horizontal 60–80 m at 8–10 m³/h. The neighbouring machine is not this sentence. Hebei Pinjin Machinery in Xingtai gives both the rural, small-site and secondary-structure sentence. Read it in the Xingtai table. Weight is 400 kg versus 450 kg. Taken from the printed row: Say which distance you measured: 25 m horizontal, or the Electric 15 pair. Keep this cell as published. Electric 15 is 8–10 m³/h. Image from the source page: https://www.engineeringtoolbox.com/power-d_1289.html",
+        "zh": "这一节的形状来自《Power》的“工作”。文字是目录的转述，不是那篇文章的原文。这一格照已印出的读：电动15印垂直 15–20 m、水平 60–80 m、8–10 m³/h。电动10系列只印水平 25 m、21 m³/h。两台都是 15 kW 的农村行。旁边那一台不在这句话里。请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。图来自来源页面：https://www.engineeringtoolbox.com/power-d_1289.html"
       }
     },
     {
       "heading": {
-        "en": "A small site can still leave both",
-        "zh": "小型工地仍可能离开两台"
+        "en": "Energy converted",
+        "zh": "能量换算后"
       },
       "body": {
-        "en": "Beyond 60–80 m horizontal, or when the commercial sentence applies, open Electric 20 (120 m / 40 m, 80 mm, 1–2 cm). Beyond 5 m but inside a 380 V tight plot with 5–16 mm stone, the selection guide also offers B500S-83D. Do not stretch either 15 kW table to cover that 5 m machine or the Electric 20 building row.",
-        "zh": "水平超过 60–80 m，或已经适用商业那句话时，打开电动20（120 m / 40 m、80 mm、1–2 cm）。超过 5 m 但仍是 380 V 狭小场地、石子 5–16 mm 时，选型指南还提供 B500S-83D。不要把两张 15 kW 的表拉去覆盖那台 5 m 的机器或电动20的建筑行。"
+        "en": "“Power” breaks its subject at “Energy converted”. Here the same break only holds the cells this model already prints. The neighbouring machine is not this sentence. Electric 10 Series prints only 25 m horizontal at 21 m³/h. Read it in the Xingtai table. Output is 21 m³/h on the 10 Series and 8–10 m³/h on Electric 15. Taken from the printed row: Pipe diameter is printed on Electric 15 as 100–125 mm and is not in the Electric 10 Series list used here. Keep this cell as published. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. The neighbouring machine is not this sentence. Electric 15 prints 1–3 cm.",
+        "zh": "《Power》在“能量换算后”处把题目拆开。这里这一段只放这台机器已经印出的格子。旁边那一台不在这句话里。你能引用的距离只有水平 25 m 以内、石子在 2 cm 及以下时，用电动10系列。需要已印的垂直 15–20 m 或水平 60–80 m、石子是 1–3 cm 时，用电动15。邢台河北品锦机械给两台都写了农村、小型工地和二次结构。10系列输送量是 21 m³/h，电动15是 8–10 m³/h。输送量更高的那台，水平更短。按邢台表上的原文理解：电动10系列。电动15是 8–10 m³/h。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Example - Power needed to lift a Mass",
+        "zh": "例子功率提升大体积"
       },
       "body": {
-        "en": "Say which distance you measured: 25 m horizontal, or the Electric 15 pair. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请说明你量到的是水平 25 m，还是电动15那一对距离。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "Borrow “Example - Power needed to lift a Mass” from “Power” as the skeleton, and fill it with the printed window for this page. Read it in the Xingtai table. Both are 15 kW rural rows. Taken from the printed row: The higher output is the shorter horizontal machine. Keep this cell as published. Beyond 60–80 m horizontal, or when the commercial sentence applies, open Electric 20 (120 m / 40 m, 80 mm, 1–2 cm). The neighbouring machine is not this sentence. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Read it in the Xingtai table. Electric 10 Series prints 2 cm and below.",
+        "zh": "把《Power》的“例子功率提升大体积”借来当骨架，里面填的是本页这一格已经印出的窗口。按邢台表上的原文理解：电动10系列印了 23 MPa 和料斗 0.1 m³。电动15没有印出口压力，也没有料斗格。重量是 400 kg 对 450 kg。管径在电动15上是 100–125 mm，这里使用的电动10系列清单里没有这一格。目录里已经写着：电动15印 1–3 cm。电动10系列印 2 cm 及以下。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Example - Work done by an Electric Motor",
+        "zh": "例子工作电动电动机"
+      },
+      "body": {
+        "en": "The reference page “Power” uses “Example - Work done by an Electric Motor” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: Use Electric 10 Series when the only distance you can cite is within 25 m horizontal and the stone is 2 cm and below. Keep this cell as published. Electric 10 Series prints 23 MPa and hopper 0.1 m³. The neighbouring machine is not this sentence. Beyond 5 m but inside a 380 V tight plot with 5–16 mm stone, the selection guide also offers B500S-83D. Read it in the Xingtai table. Do not attach a project name, a country job or a daily volume the catalogue does not print. Taken from the printed row: No.",
+        "zh": "来源页《Power》用“例子工作电动电动机”划分这一节。后面是邢台目录里已有内容，换一种说法写下。目录里已经写着：水平超过 60–80 m，或已经适用商业那句话时，打开电动20（120 m / 40 m、80 mm、1–2 cm）。超过 5 m 但仍是 380 V 狭小场地、石子 5–16 mm 时，选型指南还提供 B500S-83D。不要把两张 15 kW 的表拉去覆盖那台 5 m 的机器或电动20的建筑行。这一格照已印出的读：都不是。两台都需要能供给 15 kW 的电源。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Example - Electric Winch lifting a Mass",
+        "zh": "例子电动卷扬提升大体积"
+      },
+      "body": {
+        "en": "“Example - Electric Winch lifting a Mass” is an outline label from “Power”. That label does not add a figure to the printed row. Keep this cell as published. Use Electric 15 when you need the printed vertical 15–20 m or horizontal 60–80 m and the stone is 1–3 cm. The neighbouring machine is not this sentence. Electric 15 does not print outlet pressure or a hopper cell. Read it in the Xingtai table. Do not stretch either 15 kW table to cover that 5 m machine or the Electric 20 building row. Taken from the printed row: Electric 10 Series. Keep this cell as published. Both need a supply for 15 kW.",
+        "zh": "“例子电动卷扬提升大体积”是《Power》大纲上的标题。这个标题不给已印出的行增加数字。这一格照已印出的读：请说明你量到的是水平 25 m，还是电动15那一对距离。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Which prints 21 m³/h?",
-        "zh": "哪一台是 21 m³/h？"
+        "en": "Under “Work done”, which prints 21 m³/h?",
+        "zh": "在“工作”这一节里，哪一台是 21 m³/h？"
       },
       "answer": {
-        "en": "Electric 10 Series. Electric 15 is 8–10 m³/h.",
-        "zh": "电动10系列。电动15是 8–10 m³/h。"
+        "en": "Keep this cell as published. Electric 10 Series. Electric 15 is 8–10 m³/h.",
+        "zh": "这一格照已印出的读：电动10系列。电动15是 8–10 m³/h。"
       }
     },
     {
       "question": {
-        "en": "Do both allow 3 cm stone?",
-        "zh": "两台都允许 3 cm 石子吗？"
+        "en": "What should stay printed beside “Energy converted” — Do both allow 3 cm stone?",
+        "zh": "“能量换算后”旁边仍要印着的是什么：两台都允许 3 cm 石子吗？"
       },
       "answer": {
-        "en": "Electric 15 prints 1–3 cm. Electric 10 Series prints 2 cm and below.",
-        "zh": "电动15印 1–3 cm。电动10系列印 2 cm 及以下。"
+        "en": "The neighbouring machine is not this sentence. Electric 15 prints 1–3 cm. Electric 10 Series prints 2 cm and below.",
+        "zh": "旁边那一台不在这句话里。电动15印 1–3 cm。电动10系列印 2 cm 及以下。"
       }
     },
     {
       "question": {
-        "en": "Is either a diesel pump?",
-        "zh": "有一台是柴油泵吗？"
+        "en": "“Example - Power needed to lift a Mass” does not change the check: Is either a diesel pump?",
+        "zh": "“例子功率提升大体积”不改这一问：有一台是柴油泵吗？"
       },
       "answer": {
-        "en": "No. Both need a supply for 15 kW.",
-        "zh": "都不是。两台都需要能供给 15 kW 的电源。"
+        "en": "Read it in the Xingtai table. No. Both need a supply for 15 kW.",
+        "zh": "按邢台表上的原文理解：都不是。两台都需要能供给 15 kW 的电源。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/electric-15-or-10-series-on-a-small-site.webp",
+    "src": "/images/articles/applications/electric-15-or-10-series-on-a-small-site.png",
     "alt": {
-      "en": "Electric 15 concrete pump from Xingtai, the small-site row with a printed vertical cell",
-      "zh": "邢台电动15型混凝土泵，小型工地中印有垂直格的一行"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://www.engineeringtoolbox.com/power-d_1289.html",
+      "zh": "图来自来源页面：https://www.engineeringtoolbox.com/power-d_1289.html"
     }
   },
   "relatedPaths": [
@@ -101,7 +125,12 @@
   "sources": [
     "https://pinjinpump.com/products/electric-15-concrete-pump",
     "https://pinjinpump.com/products/electric-10-series-concrete-pump",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://www.engineeringtoolbox.com/power-d_1289.html"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

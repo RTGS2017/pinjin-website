@@ -1,28 +1,22 @@
-## Catalogue electric mixer-pump row
+## Repose batching plant
 
-Integrated Mixer Pump is an electric integrated concrete bomba misturadora manufactured by Hebei Pinjin Machinery in Xingtai, Hebei, China. Catalogue parameters: main motor 45 kW plus mixer 14 kW, 21 m³/h, 23 MPa, 100 m / 300 m. Hopper 0.4 m³, max agregado 4 cm and below, tubo de entrega 100 / 125 mm, 3900 × 1500 × 1600 mm, 4500 kg. Series note: 30 series with 400 mixer; 40/50 series with 500 mixer.
+![Figura da página de origem sobre Concrete plant](/images/articles/integrated-mixer-pump-catalogue/A_4-Bin_Inline_Blending_Concrete_Batch_Plant.jpg)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Concrete_plant*
 
-![Integrated bomba misturadora factory product photo, Hebei Pinjin Machinery Xingtai](/images/products/integrated-mixer-pump/integrated-mixer-pump.webp)
-*Integrated bomba misturadora, Xingtai catalogue — 45 kW + 14 kW, 21 m³/h, 100 m / 300 m*
+Leia “Repose batching plant” como contexto da origem. Não é uma placa nova para Integrated Mixer Pump Catalogue Row. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.
 
-## Neighbour mix / pump-only rows
+As casas em branco nesta página continuam em branco. “Repose batching plant” não as preenche.
 
-| Model | Power | Theoretical output | Pressure | Distance | Pipe | Weight |
-| Integrated bomba misturadora (electric) | 45 kW + 14 kW | 21 m³/h | 23 MPa | 100 m / 300 m | 100 / 125 mm | 4500 kg |
-| Diesel mixer integrated | 4108 / 66–75 kW | 25 m³/h | 23 MPa | stone 100 / 300 m | see página do produto | 4200 kg |
-| Electric 40 (pump only) | 45 kW | 21 m³/h | 23 MPa | pedra fina 120 m / 360 m | see página do produto | 2300 kg |
+## Inline blending plant
 
-Plant versus trailer: [mixer pump vs concrete mixing plant](/blog/mixer-pump-vs-concrete-mixing-plant/). Pipe DN: [concrete pump pipe DN selection](/blog/concrete-pump-pipe-dn-selection/). Hub: [mixer pumps](/products/mixer-pumps/).
+Abrir a origem em “Inline blending plant” é ler essa página, não um segundo catálogo de Integrated Mixer Pump Catalogue Row. Esse capítulo não acrescenta valor.
 
-## When this row fits
+## Dry mix concrete plant
 
-Sites that mix and pump in one unit. Rural and self-built house pouring matching listed mixer and pump output. Projects that can supply the listed 45 kW + 14 kW motors.
+“Dry mix concrete plant” é um capítulo da página de origem. Não muda o nome de Integrated Mixer Pump Catalogue Row. Esse capítulo não acrescenta valor.
 
-## When to open another page
+## Wet mix concrete plant
 
-- No grid, mix-and-pump on diesel → [diesel mixer integrated pump](/products/diesel-mixer-integrated-pump/).
-- Mix already supplied, pump-only 21 m³/h → [Electric 40](/products/electric-40-concrete-pump/).
-- High-output electric trailer without mixer → [Electric 80](/products/electric-80-concrete-pump/).
-- Not a mixing plant, not a truck-mounted bomba lança and not a spraying machine.
+Integrated Mixer Pump Catalogue Row continua a ser a linha que este texto já tinha. “Wet mix concrete plant” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 3900 × 1500 × 1600 mm, 66–75 kW, 45 kW, 14 kW, 21 m³/h, 23 MPa, 4 cm, 125 mm.
 
-Product page: [integrated mixer pump](/products/integrated-mixer-pump/). Consulta: [contact](/contact/).
+Páginas já indicadas neste texto: [mixer pump vs concrete mixing plant](/blog/mixer-pump-vs-concrete-mixing-plant/), [concrete pump pipe DN selection](/blog/concrete-pump-pipe-dn-selection/), [mixer pumps](/products/mixer-pumps/).

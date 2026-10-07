@@ -3,100 +3,100 @@
   "category": "buying",
   "keyword": "do not fill blank concrete pump specifications",
   "title": {
-    "en": "Leave Blank Xingtai Catalogue Cells Blank on the Order",
-    "zh": "邢台目录的空白格在订单上保持空白"
+    "en": "do not fill blank concrete pump specifications — B500S-83D does print 380 V — read beside “Capacity Regulating by Varying Speed”",
+    "zh": "邢台目录的空白格在订单上保持空白——水平格是 25 m。——对照「流量调节 通过 变速」来读"
   },
   "description": {
-    "en": "Hebei Pinjin Machinery in Xingtai leaves some cells empty: Diesel 60 has no aggregate, Electric 15 has no pressure or hopper, LZ-80’s delivery height says consult the factory. The purchase order repeats the blank.",
-    "zh": "河北品锦机械在邢台把一些格子留空：柴油60没有骨料，电动15没有压力或料斗，LZ-80 的输送高度写咨询工厂。采购订单照样留空。"
+    "en": "do not fill blank concrete pump specifications at /products/diesel-60-concrete-pump. B500S-83D does print 380 V The horizontal cell is 25 m",
+    "zh": "邢台目录的空白格在订单上保持空白见 /products/diesel-60-concrete-pump。水平格是 25 m。柴油60不印骨料粒径。"
   },
   "h1": {
-    "en": "A Blank Cell Is Part of the Published Sheet",
-    "zh": "空白格是已公布参数表的一部分"
+    "en": "Modulating Capacity at Constant Speed is the heading; do not fill blank concrete pump specifications stays the subject",
+    "zh": "标题是「调节 能力 在 恒定转速」，主体仍是邢台目录的空白格在订单上保持空白"
   },
   "directAnswer": {
-    "en": "Hebei Pinjin Machinery in Xingtai publishes blanks on purpose. Diesel 60 does not print aggregate size. Electric 15 does not print outlet pressure or hopper volume. Electric 10 Series does not print a vertical distance. Most electric pages do not print voltage; B500S-83D does print 380 V. LZ-80 prints delivery height as “consult factory standard” rather than a metre number. Copying a filled cell from the next model invents a specification. The order should say “not printed” and send the site measurement separately.",
-    "zh": "河北品锦机械（邢台）有意公布空白。柴油60不印骨料粒径。电动15不印出口压力或料斗容积。电动10系列不印垂直距离。多数电动页不印电压；B500S-83D 印了 380 V。LZ-80 的输送高度写成“咨询工厂标准”，而不是一个米数。从下一台型号抄一个已填格子，就是在编规格。订单应写“未印”，并把现场测量另行发送。"
+    "en": "Hebei Pinjin Machinery in Xingtai prints the figures for do not fill blank concrete pump specifications. The row to open is /products/diesel-60-concrete-pump. B500S-83D does print 380 V. The horizontal cell is 25 m. That voltage is printed on B500S-83D. Diesel 60 does not print aggregate size. LZ-80 prints that phrase for delivery height. Electric 10 Series does not print a vertical distance. Electric 15 does not print outlet pressure or hopper volume. HBT60-13.132 on Diesel 60 does not import LZ-60’s pipe or aggregate. HBT80-1816-110 on Electric 80 does not import HBT80-16’s 100 / 125 mm pipe. LZ-80 prints delivery height as “consult factory standard” rather than a metre number. The section title “Capacity Regulating by Varying Speed” comes from the source page and does not add a rating.",
+    "zh": "河北品锦机械在邢台印出的是邢台目录的空白格在订单上保持空白的数字。要打开的行是 /products/diesel-60-concrete-pump。水平格是 25 m。柴油60不印骨料粒径。电动10系列不印垂直距离。电动15不印出口压力或料斗容积。该电压印在 B500S-83D 上。LZ-80 的输送高度印的就是这句话。B500S-83D 印了 380 V。LZ-80 的输送高度写成“咨询工厂标准”，而不是一个米数。柴油60上的 HBT60-13.132 不会带入 LZ-60 的管径或骨料。电动80上的 HBT80-1816-110 不会带入 HBT80-16 的 100 / 125 mm 管径。节标题「流量调节 通过 变速」来自来源页，不另加额定值。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What you may still tell the factory",
-        "zh": "你仍然可以告诉工厂什么"
+        "en": "Capacity Regulating by Varying Speed",
+        "zh": "流量调节 通过 变速"
       },
       "body": {
-        "en": "Maximum aggregate, required output, horizontal and vertical metres, and voltage and frequency are inquiry facts about the site. They are not permission to rewrite the catalogue cell. Both can sit in one message to [/en/contact/](/en/contact/).",
-        "zh": "最大骨料、目标输送量、水平与垂直米数、电压和频率是关于现场的询盘事实。它们不是改写目录格的许可。两者可以放在发给 [/zh/contact/](/zh/contact/) 的同一封信里。"
+        "en": "“Capacity Regulating by Varying Speed” titles this part of the do not fill blank concrete pump specifications note. The figures stay the printed ones. B500S-83D does print 380 V. Diesel 60 does not print aggregate size. Electric 15 does not print outlet pressure or hopper volume. LZ-80 prints delivery height as “consult factory standard” rather than a metre number.",
+        "zh": "「流量调节 通过 变速」是邢台目录的空白格在订单上保持空白这一节的标题。数字仍以已印的为准。B500S-83D 印了 380 V。柴油60上的 HBT60-13.132 不会带入 LZ-60 的管径或骨料。电动15不印出口压力或料斗容积。LZ-80 的输送高度写成“咨询工厂标准”，而不是一个米数。"
       }
     },
     {
       "heading": {
-        "en": "Shared codes do not fill blanks",
-        "zh": "共享代码不会填补空白"
+        "en": "Modulating Capacity at Constant Speed",
+        "zh": "调节 能力 在 恒定转速"
       },
       "body": {
-        "en": "HBT60-13.132 on Diesel 60 does not import LZ-60’s pipe or aggregate. HBT80-1816-110 on Electric 80 does not import HBT80-16’s 100 / 125 mm pipe.",
-        "zh": "柴油60上的 HBT60-13.132 不会带入 LZ-60 的管径或骨料。电动80上的 HBT80-1816-110 不会带入 HBT80-16 的 100 / 125 mm 管径。"
+        "en": "For do not fill blank concrete pump specifications, the heading “Modulating Capacity at Constant Speed” does not replace a cell. The horizontal cell is 25 m. LZ-80 prints that phrase for delivery height. HBT60-13.132 on Diesel 60 does not import LZ-60’s pipe or aggregate.",
+        "zh": "对邢台目录的空白格在订单上保持空白而言，标题「调节 能力 在 恒定转速」并不替换任何格子。水平格是 25 m。电动80上的 HBT80-1816-110 不会带入 HBT80-16 的 100 / 125 mm 管径。柴油60不印骨料粒径。"
       }
     },
     {
       "heading": {
-        "en": "No certificate fills a blank either",
-        "zh": "证书也不能填补空白"
+        "en": "Pump Regulation and Power Consumption",
+        "zh": "泵的调节与功率消耗"
       },
       "body": {
-        "en": "The sheets do not print a certificate name, an export-country list or a production-day count. Asking for those does not create the missing cell. Hebei Pinjin Machinery confirms price only by inquiry.",
-        "zh": "这些表不印证书名称、出口国名单或生产天数。索取这些内容不会生成缺失的格子。河北品锦机械只通过询盘确认价格。"
+        "en": "do not fill blank concrete pump specifications is unchanged by the heading “Pump Regulation and Power Consumption”. That voltage is printed on B500S-83D. Electric 10 Series does not print a vertical distance. HBT80-1816-110 on Electric 80 does not import HBT80-16’s 100 / 125 mm pipe. The photograph is an image from the source page https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html.",
+        "zh": "邢台目录的空白格在订单上保持空白不因标题「泵的调节与功率消耗」而改动。该电压印在 B500S-83D 上。电动10系列不印垂直距离。LZ-80 的输送高度印的就是这句话。配图来自来源页 https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "May I write 380 V on Electric 20?",
-        "zh": "可以在电动20上写 380 V 吗？"
+        "en": "Does “Capacity Regulating by Varying Speed” replace B500S-83D does print 380 V?",
+        "zh": "「流量调节 通过 变速」会替换「水平格是 25 m。」吗？"
       },
       "answer": {
-        "en": "Not as a catalogue cell. That voltage is printed on B500S-83D. Send your site voltage as a site fact.",
-        "zh": "不能写成目录格。该电压印在 B500S-83D 上。请把现场电压写成现场事实。"
+        "en": "No. B500S-83D does print 380 V remains the printed wording for do not fill blank concrete pump specifications.",
+        "zh": "不会。水平格是 25 m。仍是邢台目录的空白格在订单上保持空白已印的说法。"
       }
     },
     {
       "question": {
-        "en": "Is “consult factory” a blank I can replace with 300 m?",
-        "zh": "“咨询工厂”是我可以改成 300 m 的空白吗？"
+        "en": "Where does The horizontal cell is 25 m belong on the do not fill blank concrete pump specifications row?",
+        "zh": "邢台目录的空白格在订单上保持空白这一行里，「柴油60不印骨料粒径。」放在哪里？"
       },
       "answer": {
-        "en": "No. LZ-80 prints that phrase for delivery height. Leave the phrase as printed.",
-        "zh": "不能。LZ-80 的输送高度印的就是这句话。保持原文。"
+        "en": "It belongs on /products/diesel-60-concrete-pump, beside the other printed cells, not under a guessed heading.",
+        "zh": "它属于 /products/diesel-60-concrete-pump，和其他已印格子在一起，不放到猜出来的标题下面。"
       }
     },
     {
       "question": {
-        "en": "Does Electric 10 have a hidden vertical rating?",
-        "zh": "电动10有隐藏的垂直参数吗？"
+        "en": "What does “Modulating Capacity at Constant Speed” add to do not fill blank concrete pump specifications?",
+        "zh": "「调节 能力 在 恒定转速」给邢台目录的空白格在订单上保持空白增加了什么？"
       },
       "answer": {
-        "en": "No vertical line is printed. The horizontal cell is 25 m.",
-        "zh": "没有印垂直行。水平格是 25 m。"
+        "en": "It is only the section title taken from https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html. It does not add a performance figure.",
+        "zh": "它只是取自 https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html 的节标题，不增加性能数字。"
       }
     },
     {
       "question": {
-        "en": "Who answers a blank?",
-        "zh": "谁来回答空白？"
+        "en": "Which path names the do not fill blank concrete pump specifications row?",
+        "zh": "哪条路径对应邢台目录的空白格在订单上保持空白这一行？"
       },
       "answer": {
-        "en": "Xingtai, if you ask on the contact page. The public sheet stays blank until the factory states otherwise.",
-        "zh": "如果你在询盘页询问，由邢台回答。在工厂另有说明之前，公开参数表保持空白。"
+        "en": "/products/diesel-60-concrete-pump",
+        "zh": "/products/diesel-60-concrete-pump"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/buying/pinjin-diesel-60-blank-aggregate-xingtai-manufacturer.webp",
+    "src": "/images/articles/buying/buy-blank-catalogue-cells-stay-blank-1546d834.png",
     "alt": {
-      "en": "Diesel 60 concrete pump, aggregate cell not printed, manufactured by Hebei Pinjin Machinery, Xingtai manufacturer",
-      "zh": "柴油60型混凝土泵，骨料格未印，河北品锦机械厂家，邢台"
+      "en": "Centrifugal Pumps - Capacity Modulation. Image from the source page: https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html.",
+      "zh": "Centrifugal Pumps - Capacity Modulation。图来自来源页：https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html。"
     }
   },
   "relatedPaths": [
@@ -129,7 +129,8 @@
     "https://pinjinpump.com/en/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/zh/products/b500s-83d-two-stage-pump/",
     "https://pinjinpump.com/en/contact/",
-    "https://pinjinpump.com/zh/contact/"
+    "https://pinjinpump.com/zh/contact/",
+    "https://www.engineeringtoolbox.com/pumps-discharge-regulation-d_310.html"
   ],
   "status": "ready"
 }

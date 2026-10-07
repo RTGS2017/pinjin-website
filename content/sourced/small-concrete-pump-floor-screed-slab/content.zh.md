@@ -1,34 +1,18 @@
-## Floor screed and small slabs: match the mix, then the pump
+## Screed board
 
-“Small concrete pump” is a search phrase. In our 邢台 catalogue it is not a model name. For floor screed and concrete slab construction we still read four printed rows: output, max 骨料, conveying distance, trailer size. We 不要编造 screed thickness, drying time or a guaranteed floor m² per hour.
+![来源页插图：Screed](/images/articles/small-concrete-pump-floor-screed-slab/All_in_One_Screed_Pumping_Truck.jpg)
+*图片来自来源页：https://en.wikipedia.org/wiki/Screed*
 
-![电动20 small trailer concrete pump at 河北品锦机械 邢台 factory](/images/products/electric-20-concrete-pump/main.webp)
-*电动20 拖式泵, 邢台 catalogue*
+来源章节「Screed board」留在来源页。Small Concrete Pump for Floor Screed and Concrete Slab Construction仍是这里已经写过的那一行。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa。
 
-## Published rows for floor work
+本页没写出来的格子继续空着。「Screed board」不去填它们。
 
-| Model | Output | Pressure | Distance | Max 骨料 | Weight |
-| 电动15 | 8–10 m³/h | not listed | 60–80 m H / 15–20 m V | 1–3 cm | 450 kg |
-| 电动20 | 8–10 m³/h | 10 MPa | 120 m / 40 m | 1–2 cm | 900 kg |
-| 电动30 | 12–15 m³/h | 20 MPa | 细石 60 m / 180 m; agg13 20 m / 60 m | ≤ 3 cm | 1200 kg |
-| Electric Low Pressure 40 | 12–15 m³/h | 20 MPa | 细石 80 m / 240 m | 细石 row on the 产品页 | 1200 kg |
+## Screed rails
 
-If the floor mix is 细石 and the pipe is longer than 电动30’s 细石 pair, Low Pressure 40 is the next printed step at the same 12–15 m³/h. If the mix carries 1–2 cm stone on a short house slab, 电动20’s 10 MPa / 80 mm pipe row may fit. 电动15 is the lightest electric trailer in this set (450 kg) when 8–10 m³/h and 1–3 cm stone are enough.
+「Screed rails」不能代替规格。Small Concrete Pump for Floor Screed and Concrete Slab Construction维持已印的那一行。这一节不另加数字。
 
-Electric 10 Series lists theoretical 21 m³/h with only 25 m 水平 and a 0.1 m³ hopper. That is a compact unit, not a slab-rate claim. Read it on its own page.
+## Liquid and flow screeds
 
-## Screed versus stone concrete versus spray mortar
+「Liquid and flow screeds」是背景。Small Concrete Pump for Floor Screed and Concrete Slab Construction的询价仍看已经写下的单元格。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa。
 
-- Stone still in the mix → trailer concrete pump (this page).
-- Fine-stone floor fill around heating pipes → [Fine Stone Concrete Pump for Floor Heating Backfill](/blog/fine-stone-concrete-pump-floor-heating/).
-- Particle ≤8 mm cement mortar or ≤4 mm plaster → [spraying machines](/products/spraying-machines/), not a small 拖式泵.
-
-We do not copy marketplace texts that call every floor machine a “screed pump”.
-
-## Related 品锦 models and next pages
-
-- [Electric 15](/products/electric-15-concrete-pump/), [Electric 20](/products/electric-20-concrete-pump/), [Electric 30](/products/electric-30-concrete-pump/), [Low Pressure 40](/products/electric-low-pressure-40-concrete-pump/)
-- Category: [electric concrete pumps](/products/electric-concrete-pumps/)
-- [Electric 20 vs 30](/blog/electric-20-vs-30-concrete-pump/) and [aggregate size selection](/blog/fine-stone-concrete-pump-aggregate-size/)
-
-Send mix, max stone, slab or screed description, pipe metres, voltage and access photos. We will say which printed row it is — or that it is not in this compact band.
+本文原先已经指向这些页面：[Fine Stone Concrete Pump for Floor Heating Backfill](/blog/fine-stone-concrete-pump-floor-heating/), [spraying machines](/products/spraying-machines/), [Electric 15](/products/electric-15-concrete-pump/)。

@@ -1,24 +1,22 @@
-## Metros verticais, não um SKU de ângulo de talude
+## Gravity
 
-Marketplace listings mention slope and retaining-wall pours. Hebei Pinjin Machinery does not print a slope angle, batter or wall-pressure certificate. We print vertical and horizontal metres on each trailer row.
+![Figura da página de origem sobre Retaining wall](/images/articles/concrete-pump-for-slope-retaining-wall/Bored_pile_retaining_wall_2012-03-12_11h19m.JPG)
+*Imagem da página de origem: https://en.wikipedia.org/wiki/Retaining_wall*
 
-- [Electric 15](/products/electric-15-concrete-pump/): 60–80 m / 15–20 m, 15 kW, 450 kg.
-- [Electric 40](/products/electric-40-concrete-pump/): pedra fina 120 m / 360 m, 45 kW, 21 m³/h, 23 MPa, 2300 kg.
-- [Diesel 40](/products/diesel-40-concrete-pump/): diesel row (26 m³/h, 66 kW, 120 m / 360 m) when the site has no 380V trifásico.
+O capítulo “Gravity” fica na página de origem. Concrete Pump for Slope and Retaining-Wall Placement continua a ser a linha já escrita aqui. Valores já impressos nesta página: 60–80 m, 15–20 m, 15 kW, 450 kg, 45 kW, 21 m³/h, 23 MPa, 2300 kg.
 
-[Vertical vs horizontal](/blog/concrete-pump-vertical-vs-horizontal-distance/) and [high-rise](/blog/high-rise-building-concrete-pump-selection/) already explain equivalent length. A muro de contenção is not a tower; it still consumes vertical metres. We will not invent “15° = N metres”.
+As casas em branco nesta página continuam em branco. “Gravity” não as preenche.
 
-![Electric 40 bomba reboque from Hebei Pinjin Machinery in Xingtai](/images/products/electric-40-concrete-pump/main.webp)
-*Electric 40 — printed 120 m / 360 m (pedra fina). Measure rise and line; do not treat this as a slope certificate.*
+## Cantilevered
 
-## Linha, mistura e deslocamento
+“Cantilevered” não substitui uma especificação. Concrete Pump for Slope and Retaining-Wall Placement mantém a linha impressa. Esse capítulo não acrescenta valor.
 
-Uphill hose still needs priming — [priming](/blog/concrete-pump-priming-grout-lubrication/). ACPA: a reducer is often where a plug shows — [reducer](/blog/concrete-pump-reducer-taper-pipe/). Match DN — [pipe DN](/blog/concrete-pump-pipe-dn-selection/).
+## Diaphragm wall
 
-Trailer mass for a bank-side set-up is the printed kg — [towing / chassis](/blog/trailer-concrete-pump-towing-chassis/). Electric 15 at 450 kg is a different envelope from Electric 40 at 2300 kg. Neither page is a hillside-anchor spec.
+“Diaphragm wall” é contexto. Um pedido sobre Concrete Pump for Slope and Retaining-Wall Placement continua a usar as casas já escritas. Esse capítulo não acrescenta valor.
 
-Diesel exhaust on a closed bank cut is a site and code fact, not a Pinjin cellar or trench rating — [basement](/blog/concrete-pump-for-basement-underground/) makes the same point for subterrâneo rooms.
+## Sheet piling
 
-## Consulta
+Leia “Sheet piling” como contexto da origem. Não é uma placa nova para Concrete Pump for Slope and Retaining-Wall Placement. Valores já impressos nesta página: 60–80 m, 15–20 m, 15 kW, 450 kg, 45 kW, 21 m³/h, 23 MPa, 2300 kg.
 
-Rise in metres, pipe vs hose length, mix / stone size, electric 380V or diesel. No unpublished angle chart. [Contact](/contact/).
+Páginas já indicadas neste texto: [Electric 15](/products/electric-15-concrete-pump/), [Electric 40](/products/electric-40-concrete-pump/), [Diesel 40](/products/diesel-40-concrete-pump/).

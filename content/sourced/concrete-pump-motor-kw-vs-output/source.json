@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump Motor kW vs Catalogue Output — Same m³/h, Different Drive",
-  "seoTitle": "Concrete Pump Motor kW vs Output | Pinjin Xingtai",
-  "description": "Electric 15 is 15 kW and Electric 20 is 22 kW; both list 8–10 m³/h. Motor kW is the drive cell, not a second output table. This page does not repeat the output m³/h buyer guide. Compare printed kW, pressure and distance on the same row, then inquire.",
+  "title": "Electric motor — Self-commutated motor / Externally commutated AC machine / Advanced types / Comparison by major categories",
+  "seoTitle": "Electric motor — Self-commutated motor",
+  "description": "concrete pump motor kW remains the row this document already had. “Self-commutated motor” explains the source topic and adds no cell. Printed cells already on this page: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
   "primaryKeyword": "concrete pump motor kW",
   "secondaryKeywords": [
     "concrete pump motor power vs output",
@@ -52,13 +52,15 @@
     }
   ],
   "answerBlock": {
-    "what": "Pinjin prints motor (or engine) power and theoretical output on the same product row. They are two cells, not a formula we will invent. Electric 15: 15 kW, 8–10 m³/h. Electric 20: 22 kW, 8–10 m³/h. Same output band, different kW, different mass (450 kg vs 900 kg) and different pipe (100–125 mm vs 80 mm). Electric 40: 45 kW, 21 m³/h. HBT8018: 132 kW, 60 m³/h. The older output-m³/h article already covers how to read the volume cell. This page only stops buyers from treating kW as a second m³/h table or from interpolating an unpublished 18 kW SKU.",
-    "who": "Buyers comparing two electric trailer rows who saw the same 8–10 m³/h and need the printed kW, mass and pipe cells — not a made-up efficiency ratio.",
+    "what": "concrete pump motor kW remains the row this document already had. “Self-commutated motor” explains the source topic and adds no cell. Printed cells already on this page: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+    "who": "Readers checking concrete pump motor kW against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Read kW and m³/h from the same model row; do not mix columns",
-      "Electric 15 and Electric 20 share 8–10 m³/h but not kW, mass or pipe DN",
-      "No published kW-to-m³/h conversion formula on Pinjin pages",
-      "Grid kVA and diesel kW are site facts — see electric vs diesel"
+      "8–10 m³/h",
+      "12–15 m³/h",
+      "100–125 mm",
+      "15 kW",
+      "450 kg",
+      "22 kW"
     ],
     "relatedModels": [
       "electric-15-concrete-pump",
@@ -68,24 +70,25 @@
   },
   "faqs": [
     {
-      "question": "If Electric 20 has more kW, why does it list the same 8–10 m³/h as Electric 15?",
-      "answer": "Because output and motor power are separate catalogue cells. Electric 15 is 15 kW, 450 kg, 100–125 mm pipe. Electric 20 is 22 kW, 900 kg, 80 mm pipe. We do not publish an efficiency ratio that turns 22 kW into a higher m³/h than printed. Compare the whole row, then inquire."
+      "question": "Does “Self-commutated motor” add a cell to concrete pump motor kW?",
+      "answer": "No. Electric 15 vs Electric 20 is already a comparison article — 15 vs 20."
     },
     {
-      "question": "Can I order a 18 kW motor on Electric 15 to get more output?",
-      "answer": "No 18 kW SKU is listed. Electric 15 is 15 kW. Electric 20 is 22 kW. Electric 40 is 45 kW. Unpublished motor swaps are not factory specs on this site. If you need 21 m³/h, that is the Electric 40 row (45 kW), not a restamped Electric 15."
-    },
-    {
-      "question": "Does this page replace the output m³/h selection article?",
-      "answer": "No. That article already explains how to read the volume cell against pour size. This page is only motor kW versus that cell, using the printed pairs. Do not duplicate the pour-size table here."
+      "question": "Can “Externally commutated AC machine” fill a blank cell for concrete pump motor kW?",
+      "answer": "No. Blank cells for concrete pump motor kW stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-20-concrete-pump/main.webp",
-    "alt": "Electric 20 concrete pump 22 kW 8 to 10 cubic metres per hour from Hebei Pinjin Machinery Xingtai",
-    "caption": "Electric 20 — 22 kW, 8–10 m³/h, 900 kg. kW and output are two cells, not a formula."
+    "src": "/images/articles/concrete-pump-motor-kw-vs-output/An_electric_motor_presented_to_Kelvin_by_James_Joule_in_1842_Hunterian_Museum_Glasgow.jpg",
+    "alt": "Figure from the source page about Electric motor",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Electric_motor"
   },
   "sources": [
+    {
+      "name": "Electric motor (source page)",
+      "url": "https://en.wikipedia.org/wiki/Electric_motor",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 15 product page (15 kW, 8–10 m³/h)",
       "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
@@ -115,9 +118,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "混凝土泵电机 kW 与目录输送量——相同 m³/h，不同驱动",
-      "description": "电动15为15 kW、电动20为22 kW，都列 8–10 m³/h。电机 kW 是驱动单元格，不是第二张输送量表。本页不重复 m³/h 选型文。",
-      "imageAlt": "电动20 concrete pump 22 kW 8 to 10 cubic metres per hour from 河北品锦机械 邢台",
+      "title": "混凝土泵电机 kW 与目录输送量：Electric motor（Self-commutated motor / Externally commutated AC machine / Advanced types / Comparison by major categories）",
+      "description": "混凝土泵电机 kW 与目录输送量还是本文原有的那一行。「Self-commutated motor」讲的是来源页的题目，不另加单元格。本页已经印出的读数：8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW。",
+      "imageAlt": "来源页插图：Electric motor",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump output m³/h selection",
@@ -125,36 +128,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "品锦 prints motor (or engine) power and 理论输送量 on the same product row. They are two cells, not a formula we will invent. 电动15: 15 kW, 8–10 m³/h. 电动20: 22 kW, 8–10 m³/h. Same output band, different kW, different mass (450 kg vs 900 kg) and different pipe (100–125 mm vs 80 mm). 电动40: 45 kW, 21 m³/h. HBT8018: 132 kW, 60 m³/h. The older output-m³/h article already covers how to read the volume cell. This page only stops buyers from treating kW as a second m³/h table or from interpolating an unpublished 18 kW SKU.",
-        "who": "Buyers comparing two electric trailer rows who saw the same 8–10 m³/h and need the printed kW, mass and pipe cells — not a made-up efficiency ratio.",
+        "what": "混凝土泵电机 kW 与目录输送量还是本文原有的那一行。「Self-commutated motor」讲的是来源页的题目，不另加单元格。本页已经印出的读数：8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW。",
+        "who": "想把混凝土泵电机 kW 与目录输送量和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Read kW and m³/h from the same model row; do not mix columns",
-          "电动15 and 电动20 share 8–10 m³/h but not kW, mass or pipe DN",
-          "No published kW-to-m³/h conversion formula on 品锦 pages",
-          "Grid kVA and diesel kW are site facts — see electric vs diesel"
+          "8–10 m³/h",
+          "12–15 m³/h",
+          "100–125 mm",
+          "15 kW",
+          "450 kg",
+          "22 kW"
         ]
       },
-      "seoTitle": "混凝土泵电机功率与输送量 | 品锦邢台",
-      "imageCaption": "电动20 — 22 kW, 8–10 m³/h, 900 kg. kW and output are two cells, not a formula.",
+      "seoTitle": "Electric motor：Self-commutated motor",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Electric_motor",
       "faqs": [
         {
-          "question": "If 电动20 has more kW, why does it list the same 8–10 m³/h as 电动15?",
-          "answer": "Because output and motor power are separate 目录单元格. 电动15 is 15 kW, 450 kg, 100–125 mm pipe. 电动20 is 22 kW, 900 kg, 80 mm pipe. We do not publish an efficiency ratio that turns 22 kW into a higher m³/h than printed. Compare the whole row, then inquire."
+          "question": "「Self-commutated motor」会给混凝土泵电机 kW 与目录输送量增加单元格吗？",
+          "answer": "不会。Alibaba 选购指南把动力源和输送量列为选型因素。那是平台观察。在品锦页面上，电机（或柴油机）kW 与理论 m³/h 印在同一行。我们不编造把 kW 变成额外立方米的换算。"
         },
         {
-          "question": "Can I order a 18 kW motor on 电动15 to get more output?",
-          "answer": "No 18 kW SKU is listed. 电动15 is 15 kW. 电动20 is 22 kW. 电动40 is 45 kW. Unpublished motor swaps are not factory specs on this site. If you need 21 m³/h, that is the 电动40 row (45 kW), not a restamped 电动15."
-        },
-        {
-          "question": "Does this page replace the output m³/h selection article?",
-          "answer": "No. That article already explains how to read the volume cell against pour size. This page is only motor kW versus that cell, using the printed pairs. Do not duplicate the pour-size table here."
+          "question": "「Externally commutated AC machine」能补上混凝土泵电机 kW 与目录输送量的空白格吗？",
+          "answer": "不能。混凝土泵电机 kW 与目录输送量没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump Motor kW vs Catalogue Output — Same m³/h, Different Drive",
-      "description": "Electric 15 is 15 kW and Electric 20 is 22 kW; both list 8–10 m³/h. Motor kW is the drive cell, not a second output table. This page does not repeat the output m³/h buyer guide. Compare printed kW, pressure and distance on the same row, then inquire.",
-      "imageAlt": "Electric 20 concrete pump 22 kW 8 to 10 cubic metres per hour from Hebei Pinjin Machinery Xingtai",
+      "title": "Concrete Pump Motor kW vs Catalogue Output: Electric motor — Self-commutated motor / Externally commutated AC machine / Advanced types / Comparison by major categories",
+      "description": "Concrete Pump Motor kW vs Catalogue Output continua a ser a linha que este texto já tinha. “Self-commutated motor” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+      "imageAlt": "Figura da página de origem sobre Electric motor",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump output m³/h selection",
@@ -162,36 +163,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin prints motor (or engine) power and saída teórica on the same product row. They are two cells, not a formula we will invent. Electric 15: 15 kW, 8–10 m³/h. Electric 20: 22 kW, 8–10 m³/h. Same output band, different kW, different mass (450 kg vs 900 kg) and different pipe (100–125 mm vs 80 mm). Electric 40: 45 kW, 21 m³/h. HBT8018: 132 kW, 60 m³/h. The older output-m³/h article already covers how to read the volume cell. This page only stops buyers from treating kW as a second m³/h table or from interpolating an unpublished 18 kW SKU.",
-        "who": "Buyers comparing two electric trailer rows who saw the same 8–10 m³/h and need the printed kW, mass and pipe cells — not a made-up efficiency ratio.",
+        "what": "Concrete Pump Motor kW vs Catalogue Output continua a ser a linha que este texto já tinha. “Self-commutated motor” explica o tema da origem e não acrescenta casa. Valores já impressos nesta página: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+        "who": "Leitores que comparam Concrete Pump Motor kW vs Catalogue Output com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Read kW and m³/h from the same model row; do not mix columns",
-          "Electric 15 and Electric 20 share 8–10 m³/h but not kW, mass or pipe DN",
-          "No published kW-to-m³/h conversion formula on Pinjin pages",
-          "Grid kVA and diesel kW are site facts — see electric vs diesel"
+          "8–10 m³/h",
+          "12–15 m³/h",
+          "100–125 mm",
+          "15 kW",
+          "450 kg",
+          "22 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Motor kW vs Output | Pinjin Xingtai",
-      "imageCaption": "Electric 20 — 22 kW, 8–10 m³/h, 900 kg. kW and output are two cells, not a formula.",
+      "seoTitle": "Electric motor — Self-commutated motor",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Electric_motor",
       "faqs": [
         {
-          "question": "If Electric 20 has more kW, why does it list the same 8–10 m³/h as Electric 15?",
-          "answer": "Because output and motor power are separate células de catálogo. Electric 15 is 15 kW, 450 kg, 100–125 mm pipe. Electric 20 is 22 kW, 900 kg, 80 mm pipe. We do not publish an efficiency ratio that turns 22 kW into a higher m³/h than printed. Compare the whole row, then inquire."
+          "question": "“Self-commutated motor” acrescenta uma casa a Concrete Pump Motor kW vs Catalogue Output?",
+          "answer": "Não. Valores já impressos nesta página: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW."
         },
         {
-          "question": "Can I order a 18 kW motor on Electric 15 to get more output?",
-          "answer": "No 18 kW SKU is listed. Electric 15 is 15 kW. Electric 20 is 22 kW. Electric 40 is 45 kW. Unpublished motor swaps are not factory specs on this site. If you need 21 m³/h, that is the Electric 40 row (45 kW), not a restamped Electric 15."
-        },
-        {
-          "question": "Does this page replace the output m³/h selection article?",
-          "answer": "No. That article already explains how to read the volume cell against pour size. This page is only motor kW versus that cell, using the printed pairs. Do not duplicate the pour-size table here."
+          "question": "“Externally commutated AC machine” pode preencher uma casa em branco de Concrete Pump Motor kW vs Catalogue Output?",
+          "answer": "Não. As casas em branco de Concrete Pump Motor kW vs Catalogue Output continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump Motor kW vs Catalogue Output — Same m³/h, Different Drive",
-      "description": "Electric 15 is 15 kW and Electric 20 is 22 kW; both list 8–10 m³/h. Motor kW is the drive cell, not a second output table. This page does not repeat the output m³/h buyer guide. Compare printed kW, pressure and distance on the same row, then inquire.",
-      "imageAlt": "Electric 20 concrete pump 22 kW 8 to 10 cubic metres per hour from Hebei Pinjin Machinery شينغتاي",
+      "title": "Concrete Pump Motor kW vs Catalogue Output: Electric motor — Self-commutated motor / Externally commutated AC machine / Advanced types / Comparison by major categories",
+      "description": "Concrete Pump Motor kW vs Catalogue Output يبقى الصف الذي كان في هذا النص. «Self-commutated motor» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+      "imageAlt": "صورة من صفحة المصدر عن Electric motor",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump output m³/h selection",
@@ -199,36 +198,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin prints motor (or engine) power and الإنتاج النظري on the same product row. They are two cells, not a formula we will invent. Electric 15: 15 kW, 8–10 m³/h. Electric 20: 22 kW, 8–10 m³/h. Same output band, different kW, different mass (450 kg vs 900 kg) and different pipe (100–125 mm vs 80 mm). Electric 40: 45 kW, 21 m³/h. HBT8018: 132 kW, 60 m³/h. The older output-m³/h article already covers how to read the volume cell. This page only stops buyers from treating kW as a second m³/h table or from interpolating an unpublished 18 kW SKU.",
-        "who": "Buyers comparing two electric trailer rows who saw the same 8–10 m³/h and need the printed kW, mass and pipe cells — not a made-up efficiency ratio.",
+        "what": "Concrete Pump Motor kW vs Catalogue Output يبقى الصف الذي كان في هذا النص. «Self-commutated motor» يشرح موضوع المصدر ولا يضيف خانة. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+        "who": "قرّاء يقارنون Concrete Pump Motor kW vs Catalogue Output بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Read kW and m³/h from the same model row; do not mix columns",
-          "Electric 15 and Electric 20 share 8–10 m³/h but not kW, mass or pipe DN",
-          "No published kW-to-m³/h conversion formula on Pinjin pages",
-          "Grid kVA and diesel kW are site facts — see electric vs diesel"
+          "8–10 m³/h",
+          "12–15 m³/h",
+          "100–125 mm",
+          "15 kW",
+          "450 kg",
+          "22 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Motor kW vs Output | Pinjin شينغتاي",
-      "imageCaption": "Electric 20 — 22 kW, 8–10 m³/h, 900 kg. kW and output are two cells, not a formula.",
+      "seoTitle": "Electric motor — Self-commutated motor",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Electric_motor",
       "faqs": [
         {
-          "question": "If Electric 20 has more kW, why does it list the same 8–10 m³/h as Electric 15?",
-          "answer": "Because output and motor power are separate خلايا الكتالوج. Electric 15 is 15 kW, 450 kg, 100–125 mm pipe. Electric 20 is 22 kW, 900 kg, 80 mm pipe. We do not publish an efficiency ratio that turns 22 kW into a higher m³/h than printed. Compare the whole row, then inquire."
+          "question": "هل يضيف «Self-commutated motor» خانة إلى Concrete Pump Motor kW vs Catalogue Output؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW."
         },
         {
-          "question": "Can I order a 18 kW motor on Electric 15 to get more output?",
-          "answer": "No 18 kW SKU is listed. Electric 15 is 15 kW. Electric 20 is 22 kW. Electric 40 is 45 kW. Unpublished motor swaps are not factory specs on this site. If you need 21 m³/h, that is the Electric 40 row (45 kW), not a restamped Electric 15."
-        },
-        {
-          "question": "Does this page replace the output m³/h selection article?",
-          "answer": "No. That article already explains how to read the volume cell against pour size. This page is only motor kW versus that cell, using the printed pairs. Do not duplicate the pour-size table here."
+          "question": "هل يستطيع «Externally commutated AC machine» ملء خانة فارغة لـ Concrete Pump Motor kW vs Catalogue Output؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump Motor kW vs Catalogue Output تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump Motor kW vs Catalogue Output — Same m³/h, Different Drive",
-      "description": "Electric 15 is 15 kW and Electric 20 is 22 kW; both list 8–10 m³/h. Motor kW is the drive cell, not a second output table. This page does not repeat the output m³/h buyer guide. Compare printed kW, pressure and distance on the same row, then inquire.",
-      "imageAlt": "Electric 20 concrete pump 22 kW 8 to 10 cubic metres per hour from Hebei Pinjin Machinery Синтай",
+      "title": "Concrete Pump Motor kW vs Catalogue Output: Electric motor — Self-commutated motor / Externally commutated AC machine / Advanced types / Comparison by major categories",
+      "description": "Concrete Pump Motor kW vs Catalogue Output остаётся строкой, которая уже была в этом тексте. “Self-commutated motor” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+      "imageAlt": "Иллюстрация со страницы-источника: Electric motor",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Concrete pump output m³/h selection",
@@ -236,31 +233,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Pinjin prints motor (or engine) power and теоретическая производительность on the same product row. They are two cells, not a formula we will invent. Electric 15: 15 kW, 8–10 m³/h. Electric 20: 22 kW, 8–10 m³/h. Same output band, different kW, different mass (450 kg vs 900 kg) and different pipe (100–125 mm vs 80 mm). Electric 40: 45 kW, 21 m³/h. HBT8018: 132 kW, 60 m³/h. The older output-m³/h article already covers how to read the volume cell. This page only stops buyers from treating kW as a second m³/h table or from interpolating an unpublished 18 kW SKU.",
-        "who": "Buyers comparing two electric trailer rows who saw the same 8–10 m³/h and need the printed kW, mass and pipe cells — not a made-up efficiency ratio.",
+        "what": "Concrete Pump Motor kW vs Catalogue Output остаётся строкой, которая уже была в этом тексте. “Self-commutated motor” объясняет тему источника и не добавляет клетку. Уже напечатанные значения на этой странице: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW.",
+        "who": "Читатели, которые сверяют Concrete Pump Motor kW vs Catalogue Output со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Read kW and m³/h from the same model row; do not mix columns",
-          "Electric 15 and Electric 20 share 8–10 m³/h but not kW, mass or pipe DN",
-          "No published kW-to-m³/h conversion formula on Pinjin pages",
-          "Grid kVA and diesel kW are site facts — see electric vs diesel"
+          "8–10 m³/h",
+          "12–15 m³/h",
+          "100–125 mm",
+          "15 kW",
+          "450 kg",
+          "22 kW"
         ]
       },
-      "seoTitle": "Concrete Pump Motor kW vs Output | Pinjin Синтай",
-      "imageCaption": "Electric 20 — 22 kW, 8–10 m³/h, 900 kg. kW and output are two cells, not a formula.",
+      "seoTitle": "Electric motor — Self-commutated motor",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Electric_motor",
       "faqs": [
         {
-          "question": "If Electric 20 has more kW, why does it list the same 8–10 m³/h as Electric 15?",
-          "answer": "Because output and motor power are separate ячейки каталога. Electric 15 is 15 kW, 450 kg, 100–125 mm pipe. Electric 20 is 22 kW, 900 kg, 80 mm pipe. We do not publish an efficiency ratio that turns 22 kW into a higher m³/h than printed. Compare the whole row, then inquire."
+          "question": "Добавляет ли “Self-commutated motor” клетку к Concrete Pump Motor kW vs Catalogue Output?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 8–10 m³/h, 12–15 m³/h, 100–125 mm, 15 kW, 450 kg, 22 kW, 900 kg, 30 kW."
         },
         {
-          "question": "Can I order a 18 kW motor on Electric 15 to get more output?",
-          "answer": "No 18 kW SKU is listed. Electric 15 is 15 kW. Electric 20 is 22 kW. Electric 40 is 45 kW. Unpublished motor swaps are not factory specs on this site. If you need 21 m³/h, that is the Electric 40 row (45 kW), not a restamped Electric 15."
-        },
-        {
-          "question": "Does this page replace the output m³/h selection article?",
-          "answer": "No. That article already explains how to read the volume cell against pour size. This page is only motor kW versus that cell, using the printed pairs. Do not duplicate the pour-size table here."
+          "question": "Может ли “Externally commutated AC machine” заполнить пустую клетку для Concrete Pump Motor kW vs Catalogue Output?",
+          "answer": "Нет. Пустые клетки для Concrete Pump Motor kW vs Catalogue Output остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

@@ -6,100 +6,110 @@
     "zh": "柴油搅拌泵三行石子距离怎么读"
   },
   "title": {
-    "en": "How the Diesel Mixer Prints Three Stone Rows",
-    "zh": "柴油搅拌泵的三行石子距离怎样读"
+    "en": "the Diesel Mixer Prints Three Stone Rows keeps its own figures; Conveyor belt is only the picture",
+    "zh": "柴油搅拌泵的三行石子距离怎样读保留自己的数字，「傳動帶」只是配图"
   },
   "description": {
-    "en": "The diesel mixer prints three distance rows, and the first is written 100 / 300 m rather than 100 m / 300 m.",
-    "zh": "柴油搅拌泵印了三行距离，第一行写成 100 / 300 m，而不是 100 m / 300 m。"
+    "en": "the Diesel Mixer Prints Three Stone Rows. 300 m stays in the catalogue entry. Illustration: Conveyor belt.",
+    "zh": "柴油搅拌泵的三行石子距离怎样读。300 m仍在目录格子里。插图来自「傳動帶」。"
   },
   "h1": {
-    "en": "How the Diesel Mixer Prints Three Stone Rows",
-    "zh": "柴油搅拌泵的三行石子距离怎样读"
+    "en": "the Diesel Mixer Prints Three Stone Rows keeps its own figures; Conveyor belt is only the picture",
+    "zh": "柴油搅拌泵的三行石子距离怎样读保留自己的数字，「傳動帶」只是配图"
   },
   "directAnswer": {
-    "en": "The diesel mixer concrete pump from Hebei Pinjin Machinery in Xingtai prints three distance rows. Stone capacity for ≤ 1 inch is written 100 / 300 m under a horizontal / vertical label. The 13 mm row is 60 / 180 m. The 24 mm row is 40 / 120 m. The unit m is written once at the end of each value. Output is 25 m³/h and the engine line is 4108 / 66–75 kW.",
-    "zh": "河北品锦机械在邢台的柴油搅拌混凝土泵印了三行距离。≤ 1 英寸的细石输送在水平/垂直标题下写成 100 / 300 m。13 mm 行是 60 / 180 m。24 mm 行是 40 / 120 m。单位 m 写在每个数值的末尾。产量是 25 m³/h，发动机行是 4108 / 66–75 kW。不要把标点改成另一台泵的样式，再把改写当成原格。"
+    "en": "The diesel mixer concrete pump from Hebei Pinjin Machinery in Xingtai lists three distance rows. Stone capacity for ≤ 1 inch is written 100 / 300 m under a horizontal / vertical label. The picture is from https://en.wikipedia.org/wiki/Conveyor_belt.",
+    "zh": "河北品锦机械在邢台的柴油搅拌混凝土泵标出了三行距离。≤ 1 英寸的细石输送在水平/垂直标题下写成 100 / 300 m。图片来自https://en.wikipedia.org/wiki/Conveyor_belt。"
   },
   "sections": [
     {
       "heading": {
-        "en": "Order inside each value",
-        "zh": "每个数值内部的顺序"
+        "en": "Overview",
+        "zh": "概述"
       },
       "body": {
-        "en": "The label says horizontal / vertical. On 100 / 300 m, 100 is horizontal and 300 is vertical. The same order applies to 60 / 180 m and 40 / 120 m. Hebei Pinjin Machinery did not print the unit after the first number.",
-        "zh": "标题是水平/垂直。在 100 / 300 m 里，100 是水平，300 是垂直。60 / 180 m 和 40 / 120 m 顺序相同。河北品锦机械没有把单位印在第一个数字后面。"
+        "en": "Image from the source page: https://en.wikipedia.org/wiki/Conveyor_belt. The picture shows AlbertaSulfurAtVancouverBC. The diesel mixer concrete pump from Hebei Pinjin Machinery in Xingtai lists three distance rows. The unit m is written once at the end of each value. The same order applies to 60 / 180 m and 40 / 120 m. Hopper capacity is 0.4 m³. Both are horizontal-then-vertical.",
+        "zh": "图来自来源页：https://en.wikipedia.org/wiki/Conveyor_belt。画面是AlbertaSulfurAtVancouverBC。河北品锦机械在邢台的柴油搅拌混凝土泵标出了三行距离。在 100 / 300 m 里，100 是水平，300 是垂直。"
       }
     },
     {
       "heading": {
-        "en": "One output beside three rows",
-        "zh": "三行旁边只有一个产量"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "25 m³/h is not split by stone size. Pressure is 23 MPa, also once. Hopper capacity is 0.4 m³. The three rows change the distance, not the output cell.",
-        "zh": "25 m³/h 没有按石子粒径拆开。压力 23 MPa 也只印一次。料斗 0.4 m³。三行改变的是距离，不是产量格。"
+        "en": "Stone capacity for ≤ 1 inch is written 100 / 300 m under a horizontal / vertical label. Output is 25 m³/h and the engine line is 4108 / 66–75 kW. Hebei Pinjin Machinery did not list the unit after the first number. The three rows change the distance, not the output entry. The characters still belong to the page that shown them.",
+        "zh": "≤ 1 英寸的细石输送在水平/垂直标题下写成 100 / 300 m。60 / 180 m 和 40 / 120 m 顺序相同。"
       }
     },
     {
       "heading": {
-        "en": "Do not borrow Electric 60's punctuation",
-        "zh": "不要借用电动60的标点"
+        "en": "Structure",
+        "zh": "结构"
       },
       "body": {
-        "en": "Electric 60 writes 200 m / 600 m, with m after each number. The diesel mixer writes 100 / 300 m. Both are horizontal-then-vertical. The characters still belong to the page that printed them.",
-        "zh": "电动60写成 200 m / 600 m，每个数字后都有 m。柴油搅拌泵写成 100 / 300 m。两边都是先水平后垂直。字符仍然属于印出它们的那一页。"
+        "en": "The 13 mm row is 60 / 180 m. The label says horizontal / vertical. 25 m³/h is not split by stone size. Electric 60 writes 200 m / 600 m, with m after each number.",
+        "zh": "产量是 25 m³/h，发动机行是 4108 / 66–75 kW。河北品锦机械没有把单位标出在第一个数字后面。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Applications",
+        "zh": "应用"
+      },
+      "body": {
+        "en": "The 24 mm row is 40 / 120 m. On 100 / 300 m, 100 is horizontal and 300 is vertical. Pressure is 23 MPa, also once. The diesel mixer writes 100 / 300 m.",
+        "zh": "不要把标点改成另一台泵的样式，再把改写当成原格。电动60写成 200 m / 600 m，每个数字后都有 m。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "What is vertical on the first row?",
+        "en": "On this row: What is vertical on the first row?",
         "zh": "第一行的垂直是多少？"
       },
       "answer": {
-        "en": "300 m, in the value 100 / 300 m.",
-        "zh": "300 m，写在 100 / 300 m 里。"
+        "en": "300 m, in the value 100 / 300 m. It is not a figure printed inside https://en.wikipedia.org/wiki/Conveyor_belt.",
+        "zh": "300 m，写在 100 / 300 m 里。它不是https://en.wikipedia.org/wiki/Conveyor_belt画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "What is the 24 mm pair?",
+        "en": "On this row: What is the 24 mm pair?",
         "zh": "24 mm 那一组是多少？"
       },
       "answer": {
-        "en": "40 / 120 m, horizontal then vertical.",
-        "zh": "40 / 120 m，先水平后垂直。"
+        "en": "40 / 120 m, horizontal then vertical. It is not a figure printed inside https://en.wikipedia.org/wiki/Conveyor_belt.",
+        "zh": "40 / 120 m，先水平后垂直。它不是https://en.wikipedia.org/wiki/Conveyor_belt画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Is output different for each stone?",
+        "en": "On this row: Is output different for each stone?",
         "zh": "每种石子的产量不同吗？"
       },
       "answer": {
-        "en": "The page does not print three outputs. It prints 25 m³/h once.",
-        "zh": "页面没有印三个产量。它只印一次 25 m³/h。"
+        "en": "The page does not list three outputs. It lists 25 m³/h once. It is not a figure printed inside https://en.wikipedia.org/wiki/Conveyor_belt.",
+        "zh": "页面没有标出三个产量。它只标出一次 25 m³/h。它不是https://en.wikipedia.org/wiki/Conveyor_belt画面里印出的数字。"
       }
     },
     {
       "question": {
-        "en": "Which engine line is on this page?",
+        "en": "On this row: Which engine line is on this page?",
         "zh": "这一页的发动机行是什么？"
       },
       "answer": {
-        "en": "4108 / 66–75 kW.",
-        "zh": "4108 / 66–75 kW。"
+        "en": "4108 / 66–75 kW. It is not a figure printed inside https://en.wikipedia.org/wiki/Conveyor_belt.",
+        "zh": "4108 / 66–75 kW。它不是https://en.wikipedia.org/wiki/Conveyor_belt画面里印出的数字。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/knowledge/how-the-diesel-mixer-prints-three-stone-rows-pinjin.webp",
+    "src": "/images/articles/knowledge/how-the-diesel-mixer-prints-three-stone-rows-albertasulfuratvancouverbc.jpg",
     "alt": {
-      "en": "How the Diesel Mixer Prints Three Stone Rows, Hebei Pinjin Machinery, Xingtai, Hebei",
-      "zh": "柴油搅拌泵的三行石子距离怎样读，河北品锦机械，河北邢台"
+      "en": "AlbertaSulfurAtVancouverBC. Image from the source page: https://en.wikipedia.org/wiki/Conveyor_belt.",
+      "zh": "AlbertaSulfurAtVancouverBC。图来自来源页：https://en.wikipedia.org/wiki/Conveyor_belt。"
     }
   },
   "relatedPaths": [
@@ -118,7 +128,8 @@
     "https://pinjinpump.com/en/products/diesel-mixer-integrated-pump/",
     "https://pinjinpump.com/zh/products/diesel-mixer-integrated-pump/",
     "https://pinjinpump.com/en/factory/",
-    "https://pinjinpump.com/zh/factory/"
+    "https://pinjinpump.com/zh/factory/",
+    "https://en.wikipedia.org/wiki/Conveyor_belt"
   ],
   "status": "draft"
 }

@@ -1,7 +1,7 @@
 {
-  "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction",
-  "seoTitle": "Small Concrete Pump for Floor Screed and Slab Construction | Pinjin",
-  "description": "Select a small concrete pump for floor screed and slab work from Xingtai catalogue output, aggregate and distance. Electric 15, Electric 20, Electric 30 and Low Pressure 40 are compared only on published rows — not invented screed thicknesses.",
+  "title": "Screed — Screed board / Screed rails / Liquid and flow screeds",
+  "seoTitle": "Screed — Screed board",
+  "description": "The source chapter “Screed board” stays on that page. small concrete pump keeps the row already written here. Printed cells already on this page: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
   "primaryKeyword": "small concrete pump",
   "secondaryKeywords": [
     "floor screed concrete pump",
@@ -53,13 +53,15 @@
     }
   ],
   "answerBlock": {
-    "what": "A small concrete pump for floor screed and slab work is a compact or mid trailer whose catalogue output, stone and pipe match the floor pour. Pinjin rows used here: Electric 15 (8–10 m³/h, 1–3 cm), Electric 20 (8–10 m³/h, 1–2 cm), Electric 30 and Low Pressure 40 (12–15 m³/h, fine-stone distance pairs). We do not publish screed millimetres.",
-    "who": "Contractors placing floor screeds, small slabs and indoor pipeline floors on sites with three-phase power, who can state stone size and pipe run.",
+    "what": "The source chapter “Screed board” stays on that page. small concrete pump keeps the row already written here. Printed cells already on this page: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+    "who": "Readers checking small concrete pump against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Mix: fine-stone versus 1–2 cm versus 1–3 cm against the printed max aggregate",
-      "Output band: 8–10 m³/h compact versus 12–15 m³/h Electric 30 / LP40",
-      "Fine-stone metres on Electric 30 (60/180) versus LP40 (80/240)",
-      "Trailer weight for indoor or courtyard access"
+      "8–10 m³/h",
+      "60–80 m",
+      "15–20 m",
+      "1–3 cm",
+      "1–2 cm",
+      "12–15 m³/h"
     ],
     "relatedModels": [
       "electric-15-concrete-pump",
@@ -70,20 +72,25 @@
   },
   "faqs": [
     {
-      "question": "What screed thickness does Pinjin recommend?",
-      "answer": "We do not publish thickness or floor-heating pipe cover. Those are design figures. We only match stone, output and pipe to a catalogue pump row."
+      "question": "Does “Screed board” add a cell to small concrete pump?",
+      "answer": "No. If the floor mix is fine-stone and the pipe is longer than Electric 30’s fine-stone pair, Low Pressure 40 is the next printed step at the same 12–15 m³/h."
     },
     {
-      "question": "Is a small concrete pump the same as a plaster sprayer?",
-      "answer": "No. Sprayers list particle ≤8 mm or ≤4 mm. Floor screed with stone is a trailer pump job. See the fine-stone versus mortar sprayer page."
+      "question": "Can “Screed rails” fill a blank cell for small concrete pump?",
+      "answer": "No. Blank cells for small concrete pump stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-20-concrete-pump/main.webp",
-    "alt": "Electric 20 small trailer concrete pump at Hebei Pinjin Machinery Xingtai factory",
-    "caption": "Electric 20 trailer pump, Xingtai catalogue — 8–10 m³/h, 1–2 cm aggregate"
+    "src": "/images/articles/small-concrete-pump-floor-screed-slab/All_in_One_Screed_Pumping_Truck.jpg",
+    "alt": "Figure from the source page about Screed",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Screed"
   },
   "sources": [
+    {
+      "name": "Screed (source page)",
+      "url": "https://en.wikipedia.org/wiki/Screed",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 15 product page",
       "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
@@ -108,9 +115,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction",
-      "description": "Select a small concrete pump for floor screed and slab work from 邢台 catalogue output, 骨料 and distance. 电动15, 电动20, 电动30 and Low Pressure 40 are compared only on published rows — not invented screed thicknesses.",
-      "imageAlt": "电动20 small trailer concrete pump at 河北品锦机械 邢台 factory",
+      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction：Screed（Screed board / Screed rails / Liquid and flow screeds）",
+      "description": "来源章节「Screed board」留在来源页。Small Concrete Pump for Floor Screed and Concrete Slab Construction仍是这里已经写过的那一行。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa。",
+      "imageAlt": "来源页插图：Screed",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "电动20 vs 电动30 concrete pump",
@@ -118,32 +125,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "A small concrete pump for floor screed and slab work is a compact or mid trailer whose catalogue output, stone and pipe match the floor pour. 品锦 rows used here: 电动15 (8–10 m³/h, 1–3 cm), 电动20 (8–10 m³/h, 1–2 cm), 电动30 and Low Pressure 40 (12–15 m³/h, 细石 distance pairs). We do not publish screed millimetres.",
-        "who": "Contractors placing floor screeds, small slabs and indoor pipeline floors on sites with 三相 power, who can state stone size and pipe run.",
+        "what": "来源章节「Screed board」留在来源页。Small Concrete Pump for Floor Screed and Concrete Slab Construction仍是这里已经写过的那一行。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa。",
+        "who": "想把Small Concrete Pump for Floor Screed and Concrete Slab Construction和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Mix: 细石 versus 1–2 cm versus 1–3 cm against the printed max 骨料",
-          "Output band: 8–10 m³/h compact versus 12–15 m³/h 电动30 / LP40",
-          "Fine-stone metres on 电动30 (60/180) versus LP40 (80/240)",
-          "Trailer weight for indoor or courtyard access"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "1–2 cm",
+          "12–15 m³/h"
         ]
       },
-      "seoTitle": "Small Concrete Pump for Floor Screed and Slab Construction | 品锦",
-      "imageCaption": "电动20 拖式泵, 邢台 catalogue — 8–10 m³/h, 1–2 cm 骨料",
+      "seoTitle": "Screed：Screed board",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Screed",
       "faqs": [
         {
-          "question": "What screed thickness does 品锦 recommend?",
-          "answer": "We do not publish thickness or floor-heating pipe cover. Those are design figures. We only match stone, output and pipe to a catalogue pump row."
+          "question": "「Screed board」会给Small Concrete Pump for Floor Screed and Concrete Slab Construction增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa。"
         },
         {
-          "question": "Is a small concrete pump the same as a plaster sprayer?",
-          "answer": "No. Sprayers list particle ≤8 mm or ≤4 mm. Floor screed with stone is a 拖式泵 job. See the 细石 versus 砂浆喷涂机 page."
+          "question": "「Screed rails」能补上Small Concrete Pump for Floor Screed and Concrete Slab Construction的空白格吗？",
+          "answer": "不能。Small Concrete Pump for Floor Screed and Concrete Slab Construction没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction",
-      "description": "Select a small concrete pump for floor screed and slab work from Xingtai catalogue output, agregado and distance. Electric 15, Electric 20, Electric 30 and Low Pressure 40 are compared only on published rows — not invented screed thicknesses.",
-      "imageAlt": "Electric 20 small trailer concrete pump at Hebei Pinjin Machinery Xingtai factory",
+      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction: Screed — Screed board / Screed rails / Liquid and flow screeds",
+      "description": "O capítulo “Screed board” fica na página de origem. Small Concrete Pump for Floor Screed and Concrete Slab Construction continua a ser a linha já escrita aqui. Valores já impressos nesta página: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+      "imageAlt": "Figura da página de origem sobre Screed",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 20 vs Electric 30 concrete pump",
@@ -151,32 +160,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A small concrete pump for floor screed and slab work is a compact or mid trailer whose catalogue output, stone and pipe match the floor pour. Pinjin rows used here: Electric 15 (8–10 m³/h, 1–3 cm), Electric 20 (8–10 m³/h, 1–2 cm), Electric 30 and Low Pressure 40 (12–15 m³/h, pedra fina distance pairs). We do not publish screed millimetres.",
-        "who": "Contractors placing floor screeds, small slabs and indoor pipeline floors on sites with trifásico power, who can state stone size and pipe run.",
+        "what": "O capítulo “Screed board” fica na página de origem. Small Concrete Pump for Floor Screed and Concrete Slab Construction continua a ser a linha já escrita aqui. Valores já impressos nesta página: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+        "who": "Leitores que comparam Small Concrete Pump for Floor Screed and Concrete Slab Construction com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Mix: pedra fina versus 1–2 cm versus 1–3 cm against the printed max agregado",
-          "Output band: 8–10 m³/h compact versus 12–15 m³/h Electric 30 / LP40",
-          "Fine-stone metres on Electric 30 (60/180) versus LP40 (80/240)",
-          "Trailer weight for indoor or courtyard access"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "1–2 cm",
+          "12–15 m³/h"
         ]
       },
-      "seoTitle": "Small Concrete Pump for Floor Screed and Slab Construction | Pinjin",
-      "imageCaption": "Electric 20 bomba reboque, Xingtai catalogue — 8–10 m³/h, 1–2 cm agregado",
+      "seoTitle": "Screed — Screed board",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Screed",
       "faqs": [
         {
-          "question": "What screed thickness does Pinjin recommend?",
-          "answer": "We do not publish thickness or floor-heating pipe cover. Those are design figures. We only match stone, output and pipe to a catalogue pump row."
+          "question": "“Screed board” acrescenta uma casa a Small Concrete Pump for Floor Screed and Concrete Slab Construction?",
+          "answer": "Não. Valores já impressos nesta página: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa."
         },
         {
-          "question": "Is a small concrete pump the same as a plaster sprayer?",
-          "answer": "No. Sprayers list particle ≤8 mm or ≤4 mm. Floor screed with stone is a bomba reboque job. See the pedra fina versus pulverizador de argamassa page."
+          "question": "“Screed rails” pode preencher uma casa em branco de Small Concrete Pump for Floor Screed and Concrete Slab Construction?",
+          "answer": "Não. As casas em branco de Small Concrete Pump for Floor Screed and Concrete Slab Construction continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction",
-      "description": "Select a small concrete pump for floor screed and slab work from شينغتاي catalogue output, ركام and distance. Electric 15, Electric 20, Electric 30 and Low Pressure 40 are compared only on published rows — not invented screed thicknesses.",
-      "imageAlt": "Electric 20 small trailer concrete pump at Hebei Pinjin Machinery شينغتاي factory",
+      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction: Screed — Screed board / Screed rails / Liquid and flow screeds",
+      "description": "يبقى الفصل «Screed board» في صفحة المصدر. Small Concrete Pump for Floor Screed and Concrete Slab Construction هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+      "imageAlt": "صورة من صفحة المصدر عن Screed",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 20 vs Electric 30 concrete pump",
@@ -184,32 +195,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A small concrete pump for floor screed and slab work is a compact or mid trailer whose catalogue output, stone and pipe match the floor pour. Pinjin rows used here: Electric 15 (8–10 m³/h, 1–3 cm), Electric 20 (8–10 m³/h, 1–2 cm), Electric 30 and Low Pressure 40 (12–15 m³/h, حصى ناعم distance pairs). We do not publish screed millimetres.",
-        "who": "Contractors placing floor screeds, small slabs and indoor pipeline floors on sites with ثلاثي الطور power, who can state stone size and pipe run.",
+        "what": "يبقى الفصل «Screed board» في صفحة المصدر. Small Concrete Pump for Floor Screed and Concrete Slab Construction هو الصف المكتوب هنا من قبل. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+        "who": "قرّاء يقارنون Small Concrete Pump for Floor Screed and Concrete Slab Construction بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Mix: حصى ناعم versus 1–2 cm versus 1–3 cm against the printed max ركام",
-          "Output band: 8–10 m³/h compact versus 12–15 m³/h Electric 30 / LP40",
-          "Fine-stone metres on Electric 30 (60/180) versus LP40 (80/240)",
-          "Trailer weight for indoor or courtyard access"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "1–2 cm",
+          "12–15 m³/h"
         ]
       },
-      "seoTitle": "Small Concrete Pump for Floor Screed and Slab Construction | Pinjin",
-      "imageCaption": "Electric 20 مضخة مقطورة, شينغتاي catalogue — 8–10 m³/h, 1–2 cm ركام",
+      "seoTitle": "Screed — Screed board",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Screed",
       "faqs": [
         {
-          "question": "What screed thickness does Pinjin recommend?",
-          "answer": "We do not publish thickness or floor-heating pipe cover. Those are design figures. We only match stone, output and pipe to a catalogue pump row."
+          "question": "هل يضيف «Screed board» خانة إلى Small Concrete Pump for Floor Screed and Concrete Slab Construction؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa."
         },
         {
-          "question": "Is a small concrete pump the same as a plaster sprayer?",
-          "answer": "No. Sprayers list particle ≤8 mm or ≤4 mm. Floor screed with stone is a مضخة مقطورة job. See the حصى ناعم versus رشاش الملاط page."
+          "question": "هل يستطيع «Screed rails» ملء خانة فارغة لـ Small Concrete Pump for Floor Screed and Concrete Slab Construction؟",
+          "answer": "لا. الخانات الفارغة لـ Small Concrete Pump for Floor Screed and Concrete Slab Construction تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction",
-      "description": "Select a small concrete pump for floor screed and slab work from Синтай catalogue output, заполнитель and distance. Electric 15, Electric 20, Electric 30 and Low Pressure 40 are compared only on published rows — not invented screed thicknesses.",
-      "imageAlt": "Electric 20 small trailer concrete pump at Hebei Pinjin Machinery Синтай factory",
+      "title": "Small Concrete Pump for Floor Screed and Concrete Slab Construction: Screed — Screed board / Screed rails / Liquid and flow screeds",
+      "description": "Глава “Screed board” остаётся на странице-источнике. Small Concrete Pump for Floor Screed and Concrete Slab Construction — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+      "imageAlt": "Иллюстрация со страницы-источника: Screed",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Electric 20 vs Electric 30 concrete pump",
@@ -217,27 +230,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A small concrete pump for floor screed and slab work is a compact or mid trailer whose catalogue output, stone and pipe match the floor pour. Pinjin rows used here: Electric 15 (8–10 m³/h, 1–3 cm), Electric 20 (8–10 m³/h, 1–2 cm), Electric 30 and Low Pressure 40 (12–15 m³/h, мелкий камень distance pairs). We do not publish screed millimetres.",
-        "who": "Contractors placing floor screeds, small slabs and indoor pipeline floors on sites with трёхфазный power, who can state stone size and pipe run.",
+        "what": "Глава “Screed board” остаётся на странице-источнике. Small Concrete Pump for Floor Screed and Concrete Slab Construction — это уже записанная здесь строка. Уже напечатанные значения на этой странице: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa.",
+        "who": "Читатели, которые сверяют Small Concrete Pump for Floor Screed and Concrete Slab Construction со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Mix: мелкий камень versus 1–2 cm versus 1–3 cm against the printed max заполнитель",
-          "Output band: 8–10 m³/h compact versus 12–15 m³/h Electric 30 / LP40",
-          "Fine-stone metres on Electric 30 (60/180) versus LP40 (80/240)",
-          "Trailer weight for indoor or courtyard access"
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "1–2 cm",
+          "12–15 m³/h"
         ]
       },
-      "seoTitle": "Small Concrete Pump for Floor Screed and Slab Construction | Pinjin",
-      "imageCaption": "Electric 20 прицепной насос, Синтай catalogue — 8–10 m³/h, 1–2 cm заполнитель",
+      "seoTitle": "Screed — Screed board",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Screed",
       "faqs": [
         {
-          "question": "What screed thickness does Pinjin recommend?",
-          "answer": "We do not publish thickness or floor-heating pipe cover. Those are design figures. We only match stone, output and pipe to a catalogue pump row."
+          "question": "Добавляет ли “Screed board” клетку к Small Concrete Pump for Floor Screed and Concrete Slab Construction?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 1–2 cm, 12–15 m³/h, 450 kg, 10 MPa."
         },
         {
-          "question": "Is a small concrete pump the same as a plaster sprayer?",
-          "answer": "No. Sprayers list particle ≤8 mm or ≤4 mm. Floor screed with stone is a прицепной насос job. See the мелкий камень versus растворонасос page."
+          "question": "Может ли “Screed rails” заполнить пустую клетку для Small Concrete Pump for Floor Screed and Concrete Slab Construction?",
+          "answer": "Нет. Пустые клетки для Small Concrete Pump for Floor Screed and Concrete Slab Construction остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

@@ -1,7 +1,7 @@
 {
-  "title": "Concrete Pump for House and Rural Building Pours",
-  "seoTitle": "Concrete Pump for House & Rural Building | Pinjin",
-  "description": "House pours on the Xingtai table: Electric 15 (8–10 m³/h, 15–20 m vertical, 450 kg), Tractor-Driven 4100 (6–12 m³/h), rural diesel (5–8 m³/h, 17 kW). Not Electric 80. Alibaba’s 30–60 m³/h house FAQ is not a Pinjin row.",
+  "title": "House — Layout / Parts / Middle Ages / Industrial Revolution",
+  "seoTitle": "House — Layout",
+  "description": "Opening the source at “Layout” means reading that page, not a second catalogue for concrete pump for house. Printed cells already on this page: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
   "primaryKeyword": "concrete pump for house",
   "secondaryKeywords": [
     "rural building concrete pump",
@@ -52,13 +52,15 @@
     }
   ],
   "answerBlock": {
-    "what": "A house or rural building pump at Pinjin is a compact trailer matched to a short pipe and small stone — not a 60 m³/h HBT. Electric 15 lists 15 kW, 8–10 m³/h, 15–20 m vertical / 60–80 m horizontal, 1–3 cm stone, 450 kg. Tractor-Driven 4100 lists 40 kW, 6–12 m³/h, 15 MPa, 40–100 m / 15–45 m, 1300 kg. Rural diesel lists 17 kW, 5–8 m³/h, 15 MPa, 30–50 m / 10–30 m, 800 kg. Mixer pump (21 m³/h) is for sites that mix and pump on one trailer.",
-    "who": "Self-builders and small contractors pouring 2–3 floor houses, courtyards or village roads who can state power, gate width and max stone.",
+    "what": "Opening the source at “Layout” means reading that page, not a second catalogue for concrete pump for house. Printed cells already on this page: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+    "who": "Readers checking concrete pump for house against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Grid 15 kW vs tractor PTO vs 17 kW diesel",
-      "Vertical metres (Electric 15 is 15–20 m, not a high-rise row)",
-      "Trailer weight through the gate (450 kg / 800 kg / 1300 kg)",
-      "Do not use Alibaba’s 30–60 m³/h house FAQ as a Pinjin spec"
+      "30–60 m³/h",
+      "8–10 m³/h",
+      "60–80 m",
+      "15–20 m",
+      "1–3 cm",
+      "6–12 m³/h"
     ],
     "relatedModels": [
       "electric-15-concrete-pump",
@@ -68,24 +70,25 @@
   },
   "faqs": [
     {
-      "question": "What size pump do I need for a single-family home?",
-      "answer": "Alibaba’s buying-guide FAQ cites a trailer or mini pump at 30–60 m³/h. Pinjin house rows are smaller: Electric 15 8–10 m³/h, Tractor-Driven 4100 6–12 m³/h, rural diesel 5–8 m³/h. Match stone, pipe and access to those printed rows. Diesel 50 at 30 m³/h is a different, heavier trailer (3300 kg)."
+      "question": "Does “Layout” add a cell to concrete pump for house?",
+      "answer": "No. A “concrete pump for house” search on Alibaba often lands next to 30–60 m³/h advice and mini-pump notes for basements."
     },
     {
-      "question": "Electric 15, tractor 4100 or rural diesel — which house pump?",
-      "answer": "Grid and a 450 kg frame that fits 1900 × 900 × 1200 mm → Electric 15. Tractor on site, 6–12 m³/h, 40–100 m / 15–45 m → 4100. No grid and no tractor, 17 kW, 5–8 m³/h, 30–50 m / 10–30 m, 800 kg → rural diesel. None of these is Electric 80."
-    },
-    {
-      "question": "Is a 2–3 floor self-built house inside Electric 15 vertical height?",
-      "answer": "Electric 15 lists 15–20 m vertical. A two- to three-storey house at about 3 m per floor can sit in that band if the pipe run is short and stone stays 1–3 cm. We still want your measured height and horizontal pipe — we do not convert storeys for you without those metres."
+      "question": "Can “Parts” fill a blank cell for concrete pump for house?",
+      "answer": "No. Blank cells for concrete pump for house stay blank."
     }
   ],
   "image": {
-    "src": "/images/products/electric-15-concrete-pump/main.webp",
-    "alt": "Electric 15 compact concrete pump for house pours, 450 kg, manufactured by Hebei Pinjin Machinery in Xingtai",
-    "caption": "Electric 15 — 8–10 m³/h, 15–20 m vertical, 450 kg house frame"
+    "src": "/images/articles/concrete-pump-for-house-rural-building/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_Hokan-ji_Temple_Kyoto_Japan.jpg",
+    "alt": "Figure from the source page about House",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/House"
   },
   "sources": [
+    {
+      "name": "House (source page)",
+      "url": "https://en.wikipedia.org/wiki/House",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Electric 15 product page",
       "url": "https://pinjinpump.com/en/products/electric-15-concrete-pump/",
@@ -115,9 +118,9 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Concrete Pump for House and Rural Building Pours",
-      "description": "House pours on the 邢台 table: 电动15 (8–10 m³/h, 15–20 m 垂直, 450 kg), Tractor-Driven 4100 (6–12 m³/h), rural diesel (5–8 m³/h, 17 kW). Not 电动80. Alibaba’s 30–60 m³/h house FAQ is not a 品锦 row.",
-      "imageAlt": "电动15 compact concrete pump for house pours, 450 kg, manufactured by 河北品锦机械 in 邢台",
+      "title": "Concrete Pump for House and Rural Building Pours：House（Layout / Parts / Middle Ages / Industrial Revolution）",
+      "description": "翻到来源页的「Layout」，读的是那一页，不是Concrete Pump for House and Rural Building Pours的第二份目录。本页已经印出的读数：30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。",
+      "imageAlt": "来源页插图：House",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -125,36 +128,34 @@
         "联系 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "A house or rural building pump at 品锦 is a compact trailer matched to a short pipe and small stone — not a 60 m³/h HBT. 电动15 lists 15 kW, 8–10 m³/h, 15–20 m 垂直 / 60–80 m 水平, 1–3 cm stone, 450 kg. Tractor-Driven 4100 lists 40 kW, 6–12 m³/h, 15 MPa, 40–100 m / 15–45 m, 1300 kg. Rural diesel lists 17 kW, 5–8 m³/h, 15 MPa, 30–50 m / 10–30 m, 800 kg. Mixer pump (21 m³/h) is for sites that mix and pump on one trailer.",
-        "who": "Self-builders and small contractors pouring 2–3 floor houses, courtyards or village roads who can state power, gate width and max stone.",
+        "what": "翻到来源页的「Layout」，读的是那一页，不是Concrete Pump for House and Rural Building Pours的第二份目录。本页已经印出的读数：30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。",
+        "who": "想把Concrete Pump for House and Rural Building Pours和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "Grid 15 kW vs tractor PTO vs 17 kW diesel",
-          "Vertical metres (电动15 is 15–20 m, not a high-rise row)",
-          "Trailer weight through the gate (450 kg / 800 kg / 1300 kg)",
-          "Do not use Alibaba’s 30–60 m³/h house FAQ as a 品锦 spec"
+          "30–60 m³/h",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
-      "seoTitle": "Concrete Pump for House & Rural Building | 品锦",
-      "imageCaption": "电动15 — 8–10 m³/h, 15–20 m 垂直, 450 kg house frame",
+      "seoTitle": "House：Layout",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/House",
       "faqs": [
         {
-          "question": "What size pump do I need for a single-family home?",
-          "answer": "Alibaba’s buying-guide FAQ cites a trailer or mini pump at 30–60 m³/h. 品锦 house rows are smaller: 电动15 8–10 m³/h, Tractor-Driven 4100 6–12 m³/h, rural diesel 5–8 m³/h. Match stone, pipe and access to those printed rows. Diesel 50 at 30 m³/h is a different, heavier trailer (3300 kg)."
+          "question": "「Layout」会给Concrete Pump for House and Rural Building Pours增加单元格吗？",
+          "answer": "不会。本页已经印出的读数：30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m。"
         },
         {
-          "question": "电动15, tractor 4100 or rural diesel — which house pump?",
-          "answer": "Grid and a 450 kg frame that fits 1900 × 900 × 1200 mm → 电动15. Tractor on site, 6–12 m³/h, 40–100 m / 15–45 m → 4100. No grid and no tractor, 17 kW, 5–8 m³/h, 30–50 m / 10–30 m, 800 kg → rural diesel. None of these is 电动80."
-        },
-        {
-          "question": "Is a 2–3 floor self-built house inside 电动15 垂直 height?",
-          "answer": "电动15 lists 15–20 m 垂直. A two- to three-storey house at about 3 m per floor can sit in that band if the pipe run is short and stone stays 1–3 cm. We still want your measured height and 水平 pipe — we do not convert storeys for you without those metres."
+          "question": "「Parts」能补上Concrete Pump for House and Rural Building Pours的空白格吗？",
+          "answer": "不能。Concrete Pump for House and Rural Building Pours没写出来的格子继续空着。"
         }
       ]
     },
     "pt": {
-      "title": "Concrete Pump for House and Rural Building Pours",
-      "description": "House pours on the Xingtai table: Electric 15 (8–10 m³/h, 15–20 m vertical, 450 kg), Tractor-Driven 4100 (6–12 m³/h), rural diesel (5–8 m³/h, 17 kW). Not Electric 80. Alibaba’s 30–60 m³/h house FAQ is not a Pinjin row.",
-      "imageAlt": "Electric 15 compact concrete pump for house pours, 450 kg, manufactured by Hebei Pinjin Machinery in Xingtai",
+      "title": "Concrete Pump for House and Rural Building Pours: House — Layout / Parts / Middle Ages / Industrial Revolution",
+      "description": "Abrir a origem em “Layout” é ler essa página, não um segundo catálogo de Concrete Pump for House and Rural Building Pours. Valores já impressos nesta página: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+      "imageAlt": "Figura da página de origem sobre House",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -162,36 +163,34 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A house or rural building pump at Pinjin is a compact trailer matched to a short pipe and small stone — not a 60 m³/h HBT. Electric 15 lists 15 kW, 8–10 m³/h, 15–20 m vertical / 60–80 m horizontal, 1–3 cm stone, 450 kg. Tractor-Driven 4100 lists 40 kW, 6–12 m³/h, 15 MPa, 40–100 m / 15–45 m, 1300 kg. Rural diesel lists 17 kW, 5–8 m³/h, 15 MPa, 30–50 m / 10–30 m, 800 kg. Mixer pump (21 m³/h) is for sites that mix and pump on one trailer.",
-        "who": "Self-builders and small contractors pouring 2–3 floor houses, courtyards or village roads who can state power, gate width and max stone.",
+        "what": "Abrir a origem em “Layout” é ler essa página, não um segundo catálogo de Concrete Pump for House and Rural Building Pours. Valores já impressos nesta página: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+        "who": "Leitores que comparam Concrete Pump for House and Rural Building Pours com a página de origem, sem tratar essa página como uma placa nova.",
         "factors": [
-          "Grid 15 kW vs tractor PTO vs 17 kW diesel",
-          "Vertical metres (Electric 15 is 15–20 m, not a high-rise row)",
-          "Trailer weight through the gate (450 kg / 800 kg / 1300 kg)",
-          "Do not use Alibaba’s 30–60 m³/h house FAQ as a Pinjin spec"
+          "30–60 m³/h",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
-      "seoTitle": "Concrete Pump for House & Rural Building | Pinjin",
-      "imageCaption": "Electric 15 — 8–10 m³/h, 15–20 m vertical, 450 kg house frame",
+      "seoTitle": "House — Layout",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/House",
       "faqs": [
         {
-          "question": "What size pump do I need for a single-family home?",
-          "answer": "Alibaba’s buying-guide FAQ cites a trailer or mini pump at 30–60 m³/h. Pinjin house rows are smaller: Electric 15 8–10 m³/h, Tractor-Driven 4100 6–12 m³/h, rural diesel 5–8 m³/h. Match stone, pipe and access to those printed rows. Diesel 50 at 30 m³/h is a different, heavier trailer (3300 kg)."
+          "question": "“Layout” acrescenta uma casa a Concrete Pump for House and Rural Building Pours?",
+          "answer": "Não. Valores já impressos nesta página: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m."
         },
         {
-          "question": "Electric 15, tractor 4100 or rural diesel — which house pump?",
-          "answer": "Grid and a 450 kg frame that fits 1900 × 900 × 1200 mm → Electric 15. Tractor on site, 6–12 m³/h, 40–100 m / 15–45 m → 4100. No grid and no tractor, 17 kW, 5–8 m³/h, 30–50 m / 10–30 m, 800 kg → rural diesel. None of these is Electric 80."
-        },
-        {
-          "question": "Is a 2–3 floor self-built house inside Electric 15 vertical height?",
-          "answer": "Electric 15 lists 15–20 m vertical. A two- to three-storey house at about 3 m per floor can sit in that band if the pipe run is short and stone stays 1–3 cm. We still want your measured height and horizontal pipe — we do not convert storeys for you without those metres."
+          "question": "“Parts” pode preencher uma casa em branco de Concrete Pump for House and Rural Building Pours?",
+          "answer": "Não. As casas em branco de Concrete Pump for House and Rural Building Pours continuam em branco."
         }
       ]
     },
     "ar": {
-      "title": "Concrete Pump for House and Rural Building Pours",
-      "description": "House pours on the شينغتاي table: Electric 15 (8–10 m³/h, 15–20 m عمودي, 450 kg), Tractor-Driven 4100 (6–12 m³/h), rural diesel (5–8 m³/h, 17 kW). Not Electric 80. Alibaba’s 30–60 m³/h house FAQ is not a Pinjin row.",
-      "imageAlt": "Electric 15 compact concrete pump for house pours, 450 kg, manufactured by Hebei Pinjin Machinery in شينغتاي",
+      "title": "Concrete Pump for House and Rural Building Pours: House — Layout / Parts / Middle Ages / Industrial Revolution",
+      "description": "فتح المصدر عند «Layout» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Concrete Pump for House and Rural Building Pours. قيم مطبوعة أصلًا في هذه الصفحة: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+      "imageAlt": "صورة من صفحة المصدر عن House",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -199,36 +198,34 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A house or rural building pump at Pinjin is a compact trailer matched to a short pipe and small stone — not a 60 m³/h HBT. Electric 15 lists 15 kW, 8–10 m³/h, 15–20 m عمودي / 60–80 m أفقي, 1–3 cm stone, 450 kg. Tractor-Driven 4100 lists 40 kW, 6–12 m³/h, 15 MPa, 40–100 m / 15–45 m, 1300 kg. Rural diesel lists 17 kW, 5–8 m³/h, 15 MPa, 30–50 m / 10–30 m, 800 kg. Mixer pump (21 m³/h) is for sites that mix and pump on one trailer.",
-        "who": "Self-builders and small contractors pouring 2–3 floor houses, courtyards or village roads who can state power, gate width and max stone.",
+        "what": "فتح المصدر عند «Layout» يعني قراءة تلك الصفحة، لا كتالوجًا ثانيًا لـ Concrete Pump for House and Rural Building Pours. قيم مطبوعة أصلًا في هذه الصفحة: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+        "who": "قرّاء يقارنون Concrete Pump for House and Rural Building Pours بصفحة المصدر دون اعتبارها لوحة جديدة.",
         "factors": [
-          "Grid 15 kW vs tractor PTO vs 17 kW diesel",
-          "Vertical metres (Electric 15 is 15–20 m, not a high-rise row)",
-          "Trailer weight through the gate (450 kg / 800 kg / 1300 kg)",
-          "Do not use Alibaba’s 30–60 m³/h house FAQ as a Pinjin spec"
+          "30–60 m³/h",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
-      "seoTitle": "Concrete Pump for House & Rural Building | Pinjin",
-      "imageCaption": "Electric 15 — 8–10 m³/h, 15–20 m عمودي, 450 kg house frame",
+      "seoTitle": "House — Layout",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/House",
       "faqs": [
         {
-          "question": "What size pump do I need for a single-family home?",
-          "answer": "Alibaba’s buying-guide FAQ cites a trailer or mini pump at 30–60 m³/h. Pinjin house rows are smaller: Electric 15 8–10 m³/h, Tractor-Driven 4100 6–12 m³/h, rural diesel 5–8 m³/h. Match stone, pipe and access to those printed rows. Diesel 50 at 30 m³/h is a different, heavier trailer (3300 kg)."
+          "question": "هل يضيف «Layout» خانة إلى Concrete Pump for House and Rural Building Pours؟",
+          "answer": "لا. قيم مطبوعة أصلًا في هذه الصفحة: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m."
         },
         {
-          "question": "Electric 15, tractor 4100 or rural diesel — which house pump?",
-          "answer": "Grid and a 450 kg frame that fits 1900 × 900 × 1200 mm → Electric 15. Tractor on site, 6–12 m³/h, 40–100 m / 15–45 m → 4100. No grid and no tractor, 17 kW, 5–8 m³/h, 30–50 m / 10–30 m, 800 kg → rural diesel. None of these is Electric 80."
-        },
-        {
-          "question": "Is a 2–3 floor self-built house inside Electric 15 عمودي height?",
-          "answer": "Electric 15 lists 15–20 m عمودي. A two- to three-storey house at about 3 m per floor can sit in that band if the pipe run is short and stone stays 1–3 cm. We still want your measured height and أفقي pipe — we do not convert storeys for you without those metres."
+          "question": "هل يستطيع «Parts» ملء خانة فارغة لـ Concrete Pump for House and Rural Building Pours؟",
+          "answer": "لا. الخانات الفارغة لـ Concrete Pump for House and Rural Building Pours تبقى فارغة."
         }
       ]
     },
     "ru": {
-      "title": "Concrete Pump for House and Rural Building Pours",
-      "description": "House pours on the Синтай table: Electric 15 (8–10 m³/h, 15–20 m вертикаль, 450 kg), Tractor-Driven 4100 (6–12 m³/h), rural diesel (5–8 m³/h, 17 kW). Not Electric 80. Alibaba’s 30–60 m³/h house FAQ is not a Pinjin row.",
-      "imageAlt": "Electric 15 compact concrete pump for house pours, 450 kg, manufactured by Hebei Pinjin Machinery in Синтай",
+      "title": "Concrete Pump for House and Rural Building Pours: House — Layout / Parts / Middle Ages / Industrial Revolution",
+      "description": "Открыть источник на “Layout” значит читать ту страницу, а не второй каталог Concrete Pump for House and Rural Building Pours. Уже напечатанные значения на этой странице: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+      "imageAlt": "Иллюстрация со страницы-источника: House",
       "relatedPathLabels": [
         "Electric concrete pump manufacturer China",
         "Diesel concrete pump manufacturer China",
@@ -236,31 +233,30 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "A house or rural building pump at Pinjin is a compact trailer matched to a short pipe and small stone — not a 60 m³/h HBT. Electric 15 lists 15 kW, 8–10 m³/h, 15–20 m вертикаль / 60–80 m горизонталь, 1–3 cm stone, 450 kg. Tractor-Driven 4100 lists 40 kW, 6–12 m³/h, 15 MPa, 40–100 m / 15–45 m, 1300 kg. Rural diesel lists 17 kW, 5–8 m³/h, 15 MPa, 30–50 m / 10–30 m, 800 kg. Mixer pump (21 m³/h) is for sites that mix and pump on one trailer.",
-        "who": "Self-builders and small contractors pouring 2–3 floor houses, courtyards or village roads who can state power, gate width and max stone.",
+        "what": "Открыть источник на “Layout” значит читать ту страницу, а не второй каталог Concrete Pump for House and Rural Building Pours. Уже напечатанные значения на этой странице: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m.",
+        "who": "Читатели, которые сверяют Concrete Pump for House and Rural Building Pours со страницей-источником и не принимают её за новую табличку.",
         "factors": [
-          "Grid 15 kW vs tractor PTO vs 17 kW diesel",
-          "Vertical metres (Electric 15 is 15–20 m, not a high-rise row)",
-          "Trailer weight through the gate (450 kg / 800 kg / 1300 kg)",
-          "Do not use Alibaba’s 30–60 m³/h house FAQ as a Pinjin spec"
+          "30–60 m³/h",
+          "8–10 m³/h",
+          "60–80 m",
+          "15–20 m",
+          "1–3 cm",
+          "6–12 m³/h"
         ]
       },
-      "seoTitle": "Concrete Pump for House & Rural Building | Pinjin",
-      "imageCaption": "Electric 15 — 8–10 m³/h, 15–20 m вертикаль, 450 kg house frame",
+      "seoTitle": "House — Layout",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/House",
       "faqs": [
         {
-          "question": "What size pump do I need for a single-family home?",
-          "answer": "Alibaba’s buying-guide FAQ cites a trailer or mini pump at 30–60 m³/h. Pinjin house rows are smaller: Electric 15 8–10 m³/h, Tractor-Driven 4100 6–12 m³/h, rural diesel 5–8 m³/h. Match stone, pipe and access to those printed rows. Diesel 50 at 30 m³/h is a different, heavier trailer (3300 kg)."
+          "question": "Добавляет ли “Layout” клетку к Concrete Pump for House and Rural Building Pours?",
+          "answer": "Нет. Уже напечатанные значения на этой странице: 30–60 m³/h, 8–10 m³/h, 60–80 m, 15–20 m, 1–3 cm, 6–12 m³/h, 40–100 m, 15–45 m."
         },
         {
-          "question": "Electric 15, tractor 4100 or rural diesel — which house pump?",
-          "answer": "Grid and a 450 kg frame that fits 1900 × 900 × 1200 mm → Electric 15. Tractor on site, 6–12 m³/h, 40–100 m / 15–45 m → 4100. No grid and no tractor, 17 kW, 5–8 m³/h, 30–50 m / 10–30 m, 800 kg → rural diesel. None of these is Electric 80."
-        },
-        {
-          "question": "Is a 2–3 floor self-built house inside Electric 15 вертикаль height?",
-          "answer": "Electric 15 lists 15–20 m вертикаль. A two- to three-storey house at about 3 m per floor can sit in that band if the pipe run is short and stone stays 1–3 cm. We still want your measured height and горизонталь pipe — we do not convert storeys for you without those metres."
+          "question": "Может ли “Parts” заполнить пустую клетку для Concrete Pump for House and Rural Building Pours?",
+          "answer": "Нет. Пустые клетки для Concrete Pump for House and Rural Building Pours остаются пустыми."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

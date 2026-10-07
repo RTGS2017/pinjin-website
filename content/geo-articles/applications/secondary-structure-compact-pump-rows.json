@@ -3,90 +3,114 @@
   "category": "application",
   "keyword": "secondary structure concrete pump",
   "title": {
-    "en": "Which pumps print secondary structure?",
-    "zh": "哪些泵印了二次结构？"
+    "en": "Which printed window fits this check: which pumps print secondary structure",
+    "zh": "这一问只对一个窗口：哪些泵印了二次结构"
   },
   "description": {
-    "en": "Four rows print small sites and secondary structure: Electric 15, Electric 10 Series, the rural diesel pump and the tractor-driven 4100. Distances are not shared.",
-    "zh": "四行印了小型工地与二次结构：电动15、电动10系列、农村柴油泵和拖拉机带动4100。距离并不共用。"
+    "en": "Four catalogue rows from Xingtai-based Hebei Pinjin Machinery in Xingtai: Electric 15, Electric 10 Series, the Rural Diesel Concrete Pump and the Tractor-Driven 4100. Short-to-medium pipelines, Each also says rural self-built houses. The neighbouring machine is not this sentence. Electric 15 is 15 kW, 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal, 1–3 cm and 450 kg. Read it in the Xingtai table. Electric 10 Series is 15 kW, 21 m³/h, 23 MPa, 25 m horizontal only, 2 cm and below and 400 kg. Taken from the printed row: The rural diesel is 17 kW, 5–8 m³/h, 30–50 m horizontal, 10–30 m vertical. The 4100 shows in the printed cell 40 kW, 6–12 m³/h, 40–100 m / 15–45 m and slump 180–220 mm.",
+    "zh": "河北品锦机械，人在邢台的四行目录：电动15、电动10系列、农村自建房柴油混凝土泵和拖拉机带动4100。每一行也写了农村自建房和中短距离管路。电动15是 15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、1–3 cm、450 kg。电动10系列是 15 kW、21 m³/h、23 MPa、只有水平 25 m、2 cm 及以下、400 kg。农村柴油泵是 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。4100 印的是 40 kW、6–12 m³/h、40–100 m / 15–45 m，以及坍落度 180–220 mm。"
   },
   "h1": {
-    "en": "Which pumps print secondary structure?",
-    "zh": "哪些泵印了二次结构？"
+    "en": "Which printed window fits this check: which pumps print secondary structure",
+    "zh": "这一问只对一个窗口：哪些泵印了二次结构"
   },
   "directAnswer": {
-    "en": "Four catalogue rows from Hebei Pinjin Machinery in Xingtai: Electric 15, Electric 10 Series, the Rural Diesel Concrete Pump and the Tractor-Driven 4100. Each also says rural self-built houses and short-to-medium pipelines. Electric 15 is 15 kW, 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal, 1–3 cm and 450 kg. Electric 10 Series is 15 kW, 21 m³/h, 23 MPa, 25 m horizontal only, 2 cm and below and 400 kg. The rural diesel is 17 kW, 5–8 m³/h, 30–50 m horizontal, 10–30 m vertical. The 4100 prints 40 kW, 6–12 m³/h, 40–100 m / 15–45 m and slump 180–220 mm.",
-    "zh": "邢台河北品锦机械的四行目录：电动15、电动10系列、农村自建房柴油混凝土泵和拖拉机带动4100。每一行也写了农村自建房和中短距离管路。电动15是 15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、1–3 cm、450 kg。电动10系列是 15 kW、21 m³/h、23 MPa、只有水平 25 m、2 cm 及以下、400 kg。农村柴油泵是 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。4100 印的是 40 kW、6–12 m³/h、40–100 m / 15–45 m，以及坍落度 180–220 mm。"
+    "en": "Four catalogue rows from Xingtai-based Hebei Pinjin Machinery in Xingtai: Electric 15, Electric 10 Series, the Rural Diesel Concrete Pump and the Tractor-Driven 4100. Short-to-medium pipelines, Each also says rural self-built houses. The neighbouring machine is not this sentence. Electric 15 is 15 kW, 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal, 1–3 cm and 450 kg. Read it in the Xingtai table. Electric 10 Series is 15 kW, 21 m³/h, 23 MPa, 25 m horizontal only, 2 cm and below and 400 kg. Taken from the printed row: The rural diesel is 17 kW, 5–8 m³/h, 30–50 m horizontal, 10–30 m vertical. The 4100 shows in the printed cell 40 kW, 6–12 m³/h, 40–100 m / 15–45 m and slump 180–220 mm.",
+    "zh": "河北品锦机械，人在邢台的四行目录：电动15、电动10系列、农村自建房柴油混凝土泵和拖拉机带动4100。每一行也写了农村自建房和中短距离管路。电动15是 15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、1–3 cm、450 kg。电动10系列是 15 kW、21 m³/h、23 MPa、只有水平 25 m、2 cm 及以下、400 kg。农村柴油泵是 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。4100 印的是 40 kW、6–12 m³/h、40–100 m / 15–45 m，以及坍落度 180–220 mm。"
   },
   "sections": [
     {
       "heading": {
-        "en": "The shared sentence is not a shared table",
-        "zh": "同一句话不是同一张表"
+        "en": "Naming",
+        "zh": "命名能力"
       },
       "body": {
-        "en": "Secondary structure does not copy Electric 15’s 60–80 m onto the Electric 10 Series, which stops at 25 m horizontal and has no vertical cell. It does not copy the 4100’s 40–100 m onto the 17 kW rural diesel. Electric 20’s building sentence is a different application line. Do not move a secondary-structure inquiry there while the pipe still fits a compact row.",
-        "zh": "二次结构不会把电动15的 60–80 m 抄到电动10系列上。电动10系列水平停在 25 m，而且没有垂直格。它也不会把 4100 的 40–100 m 抄到 17 kW 农村柴油泵上。电动20的建筑句是另一条应用。管路还落在紧凑行里时，不要把二次结构询盘挪过去。"
+        "en": "This block keeps the heading “Naming” from “Concrete block”, then stays with the cells already published. Secondary structure: Electric 15, Electric 10 Series, the rural diesel pump, the tractor-driven 4100, Four rows print small sites. Keep this cell as published. Electric 10 Series is 15 kW, 21 m³/h, 23 MPa, 25 m horizontal only, 2 cm and below and 400 kg. The neighbouring machine is not this sentence. Electric 20’s building sentence is a different application line. Does not use the secondary-structure sentence, B500S-83D is a separate 5 m tight-site unit. Taken from the printed row: No. Keep this cell as published. Match the compact row. Image from the source page: https://en.wikipedia.org/wiki/Concrete_block",
+        "zh": "本节保留《Concrete block》的标题“命名能力”，正文仍只谈已经公布的格子。目录里已经写着：四行印了小型工地与二次结构：电动15、电动10系列、农村柴油泵和拖拉机带动4100。距离并不共用。发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量，请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油。图来自来源页面：https://en.wikipedia.org/wiki/Concrete_block"
       }
     },
     {
       "heading": {
-        "en": "Grid or not decides the pair",
-        "zh": "有没有电网决定哪一对"
+        "en": "Composition",
+        "zh": "组成"
       },
       "body": {
-        "en": "With a grid and a vertical run inside 15–20 m, start at Electric 15. With a grid and only a short 25 m horizontal run, Electric 10 Series is the printed horizontal cell. Without a pump-motor supply, the named rural machine is the 17 kW diesel, and the tractor-driven sheet is the 4100. B500S-83D is a separate 5 m tight-site unit and does not use the secondary-structure sentence.",
-        "zh": "有电网且垂直在 15–20 m 内，从电动15开始。有电网且只有 25 m 水平短管，电动10系列才是那个水平格。没有泵用电机电源时，点名的农村机器是 17 kW 柴油泵，拖拉机带动参数页是 4100。B500S-83D 是单独的 5 m 狭小场地机，没有使用二次结构这句话。"
+        "en": "The section shape comes from “Composition” in “Concrete block”. The sentences are a restatement of the catalogue, not of that article. Keep this cell as published. Distances are not shared. The neighbouring machine is not this sentence. The rural diesel is 17 kW, 5–8 m³/h, 30–50 m horizontal, 10–30 m vertical. Leave aside move a secondary-structure inquiry there while the pipe still fits a compact row. And which of the four distance windows the pipe fits, Say whether the site has grid power. Commercial placement, Its scenario is building. Do not add a member size the catalogue leaves no figure for.",
+        "zh": "这一节的形状来自《Concrete block》的“组成”。文字是目录的转述，不是那篇文章的原文。邢台邢台这家河北品锦机械的四行目录：电动15、电动10系列、农村自建房柴油混凝土泵和拖拉机带动4100。每一行也写了农村自建房和中短距离管路。电动15是 15 kW、8–10 m³/h、垂直 15–20 m、水平 60–80 m、1–3 cm、450 kg。电动10系列是 15 kW、21 m³/h、23 MPa、只有水平 25 m、2 cm 及以下、400 kg。农村柴油泵是 17 kW、5–8 m³/h、水平 30–50 m、垂直 10–30 m。4100 印的是 40 kW、6–12 m³/h、40–100 m / 15–45 m，以及坍落度 180–220 mm。旁边那一台不在这句话里。没有。它的工况是建筑与商业浇筑。"
       }
     },
     {
       "heading": {
-        "en": "What should Xingtai receive with the inquiry?",
-        "zh": "向邢台询盘要带上什么？"
+        "en": "Sizes and structure",
+        "zh": "尺寸和结构"
       },
       "body": {
-        "en": "Say whether the site has grid power, and which of the four distance windows the pipe fits. Send Hebei Pinjin Machinery in Xingtai the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. Use /contact, the on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025. Do not attach a project name, a country job or a daily volume the catalogue does not print.",
-        "zh": "请说明现场有没有电网，以及管路落在四段距离窗口的哪一段。 请把配合比、最大石子或粒径、需要的输送量、量到的水平与垂直管路，以及现场是电网还是必须用柴油，发给邢台的河北品锦机械。途径是 /contact、站内 WhatsApp、PinjinHebei@Outlook.com 或 19912003025。不要附上目录里没有的项目名称、国家工程或日浇筑方量。"
+        "en": "“Concrete block” breaks its subject at “Sizes and structure”. Here the same break only holds the cells this model already prints. Four catalogue rows from Xingtai-based Hebei Pinjin Machinery in Xingtai: Electric 15, Electric 10 Series, the Rural Diesel Concrete Pump and the Tractor-Driven 4100. The 4100 shows in the printed cell 40 kW, 6–12 m³/h, 40–100 m / 15–45 m and slump 180–220 mm. A vertical run inside 15–20 m, start at Electric 15, With a grid. Send Xingtai-based Hebei Pinjin Machinery the mix, the largest stone or particle, the output you need, the horizontal and vertical pipe you measured, and whether the site has grid voltage or must use diesel. The neighbouring machine is not this sentence. Electric 15, the rural diesel and the 4100.",
+        "zh": "《Concrete block》在“尺寸和结构”处把题目拆开。这里这一段只放这台机器已经印出的格子。二次结构不会把电动15的 60–80 m 抄到电动10系列上。电动10系列水平停在 25 m，而且没有垂直格。它也不会把 4100 的 40–100 m 抄到 17 kW 农村柴油泵上。电动20的建筑句是另一条应用。管路还落在紧凑行里时，先不要把二次结构询盘挪过去。按邢台表上的原文理解：电动15、农村柴油泵和 4100。电动10系列印的是 2 cm 及以下。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Uses",
+        "zh": "用途"
+      },
+      "body": {
+        "en": "Borrow “Uses” from “Concrete block” as the skeleton, and fill it with the printed window for this page. Short-to-medium pipelines, Each also says rural self-built houses. Has no vertical cell, Secondary structure does not copy Electric 15’s 60–80 m onto the Electric 10 Series, which stops at 25 m horizontal. Only a short 25 m horizontal run, Electric 10 Series is the printed horizontal cell, With a grid. The on-site WhatsApp button, PinjinHebei@Outlook.com or 19912003025, Use /contact. Electric 10 Series shows in the printed cell 2 cm and below.",
+        "zh": "把《Concrete block》的“用途”借来当骨架，里面填的是本页这一格已经印出的窗口。没有使用二次结构这句话，有电网且垂直在 15–20 m 内，从电动15开始。有电网且只有 25 m 水平短管，电动10系列才是那个水平格。没有泵用电机电源时，点名的农村机器是 17 kW 柴油泵，拖拉机带动参数页是 4100。B500S-83D 是单独的 5 m 狭小场地机。没有。对照紧凑行即可。先别添加目录没印的构件尺寸。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Properties",
+        "zh": "性质"
+      },
+      "body": {
+        "en": "The reference page “Concrete block” uses “Properties” as one of its own divisions. What follows is the Xingtai row, said again in different words. Taken from the printed row: Electric 15 is 15 kW, 8–10 m³/h, 15–20 m vertical, 60–80 m horizontal, 1–3 cm and 450 kg. Keep this cell as published. It does not copy the 4100’s 40–100 m onto the 17 kW rural diesel. The named rural machine is the 17 kW diesel, and the tractor-driven sheet is the 4100, Without a pump-motor supply. A country job or a daily volume the catalogue does not print, Do not attach a project name. Taken from the printed row: No.",
+        "zh": "来源页《Concrete block》用“性质”划分这一节。后面是邢台目录里已有内容，换一种说法写下。以及管路落在四段距离窗口的哪一段，请说明现场有没有电网。"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Does Electric 40 print secondary structure?",
-        "zh": "电动40印了二次结构吗？"
+        "en": "Does Electric 40 print secondary structure, once the outline says “Naming”?",
+        "zh": "大纲写着“命名能力”时，电动40印了二次结构吗？"
       },
       "answer": {
-        "en": "No. Its scenario is building and commercial placement.",
-        "zh": "没有。它的工况是建筑与商业浇筑。"
+        "en": "Commercial placement, No. Its scenario is building.",
+        "zh": "目录里已经写着：没有。它的工况是建筑与商业浇筑。"
       }
     },
     {
       "question": {
-        "en": "Which three print 1–3 cm?",
-        "zh": "哪三台印了 1–3 cm？"
+        "en": "Under “Composition”, which three print 1–3 cm?",
+        "zh": "在“组成”这一节里，哪三台印了 1–3 cm？"
       },
       "answer": {
-        "en": "Electric 15, the rural diesel and the 4100. Electric 10 Series prints 2 cm and below.",
-        "zh": "电动15、农村柴油泵和 4100。电动10系列印的是 2 cm 及以下。"
+        "en": "Electric 15, the rural diesel and the 4100. Electric 10 Series shows in the printed cell 2 cm and below.",
+        "zh": "这一格照已印出的读：电动15、农村柴油泵和 4100。电动10系列印的是 2 cm 及以下。"
       }
     },
     {
       "question": {
-        "en": "Is a column or beam volume printed?",
-        "zh": "印了柱或梁的方量吗？"
+        "en": "What should stay printed beside “Sizes and structure” — Is a column or beam volume printed?",
+        "zh": "“尺寸和结构”旁边仍要印着的是什么：印了柱或梁的方量吗？"
       },
       "answer": {
-        "en": "No. Match the compact row. Do not add a member size the catalogue does not print.",
-        "zh": "没有。对照紧凑行即可。不要添加目录没印的构件尺寸。"
+        "en": "No. Match the compact row. Do not add a member size the catalogue leaves no figure for.",
+        "zh": "没有。对照紧凑行即可。先别添加目录没印的构件尺寸。"
       }
     }
   ],
   "image": {
-    "src": "/images/geo/applications/xingtai-secondary-structure-compact-concrete-pump.webp",
+    "src": "/images/articles/applications/secondary-structure-compact-pump-rows.jpg",
     "alt": {
-      "en": "Hebei Pinjin Machinery compact concrete pump on a construction site with operators",
-      "zh": "河北品锦机械紧凑型混凝土泵在施工现场与操作人员一起作业"
+      "en": "Reference figure from the cited source page, placed beside this catalogue note.",
+      "zh": "引自来源页的参照图，放在这条目录说明旁边。"
+    },
+    "caption": {
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Concrete_block",
+      "zh": "图来自来源页面：https://en.wikipedia.org/wiki/Concrete_block"
     }
   },
   "relatedPaths": [
@@ -139,7 +163,12 @@
     "https://pinjinpump.com/products/rural-diesel-concrete-pump",
     "https://pinjinpump.com/products/tractor-4100-concrete-pump",
     "https://pinjinpump.com/solutions/construction",
-    "https://pinjinpump.com/contact"
+    "https://pinjinpump.com/contact",
+    "https://en.wikipedia.org/wiki/Concrete_block"
   ],
-  "status": "ready"
+  "status": "ready",
+  "indexLangs": [
+    "en",
+    "zh"
+  ]
 }

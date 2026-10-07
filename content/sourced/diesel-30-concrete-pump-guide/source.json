@@ -1,7 +1,7 @@
 {
-  "title": "Diesel 30 Concrete Pump Catalogue Row",
-  "seoTitle": "Diesel 30 Concrete Pump | Pinjin 4105 56 kW",
-  "description": "Diesel 30 is a Xingtai diesel trailer pump listing 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm aggregate), hopper 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, aggregate 3 cm and below. It is not Diesel 40 (66 kW, 26 m³/h) and not Electric 30. Match the printed table, then inquire.",
+  "title": "Compression ignition is not a substitute for the Diesel 30 nameplate",
+  "seoTitle": "Diesel engine chapters beside the Diesel 30 trailer row",
+  "description": "The diesel-engine source separates introduction, history, operating principle and classification. Those chapters explain compression ignition. They do not replace the Xingtai cells already printed for Diesel 30.",
   "primaryKeyword": "Diesel 30 concrete pump",
   "secondaryKeywords": [
     "4105 diesel concrete pump 56 kW",
@@ -44,8 +44,8 @@
     }
   ],
   "answerBlock": {
-    "what": "Diesel 30 Concrete Pump is a diesel trailer concrete pump manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm aggregate), hopper 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, aggregate 3 cm and below. It is not Diesel 40, not Diesel 50 and not a spraying machine.",
-    "who": "Sites without stable grid power matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm aggregate) on a 2000 kg diesel trailer.",
+    "what": "This document follows the diesel-engine source outline. Diesel 30 remains the Xingtai row already printed as a 4105 diesel at 56 kW, 15 m³/h, 20 MPa and 60 m / 180 m for 1 cm aggregate.",
+    "who": "Readers who need the compression-ignition context before they open the Diesel 30 product page, not a copied catalogue skeleton.",
     "factors": [
       "4105 / 56 kW versus Diesel 40 at 4108 / 66 kW",
       "Theoretical output 15 m³/h",
@@ -60,20 +60,25 @@
   },
   "faqs": [
     {
-      "question": "Is Diesel 30 the diesel version of Electric 30?",
-      "answer": "No. Diesel 30 lists 4105 / 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm aggregate). Open the Electric 30 page for its own motor and output cells. Do not copy one table onto the other."
+      "question": "Does the diesel-engine history add a fuel rate for Diesel 30?",
+      "answer": "No. The history chapter is context. Fuel use is not printed on this page."
     },
     {
-      "question": "Does SmartBuy’s 30–90 m³/h trailer band cover Diesel 30?",
-      "answer": "The buying guide cites trailer-mounted pumps as typically 30–90 m³/h. Diesel 30 prints 15 m³/h. Use the Xingtai row, not the marketplace average."
+      "question": "Is Diesel 30 the same table as Electric 30?",
+      "answer": "No. Diesel 30 prints 4105 / 56 kW and 15 m³/h. Open the Electric 30 page for its own cells."
     }
   ],
   "image": {
-    "src": "/images/products/diesel-30-concrete-pump/diesel-30-concrete-pump.webp",
-    "alt": "Diesel 30 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-    "caption": "Diesel 30 trailer pump, Xingtai catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m"
+    "src": "/images/articles/diesel-30-concrete-pump-guide/Neckarsulm-AudiForum-Audi-R10-TDI.jpg",
+    "alt": "Figure from the source page about diesel engines",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Diesel_engine"
   },
   "sources": [
+    {
+      "name": "Diesel engine (source page)",
+      "url": "https://en.wikipedia.org/wiki/Diesel_engine",
+      "type": "industry"
+    },
     {
       "name": "Pinjin Diesel 30 product page",
       "url": "https://pinjinpump.com/en/products/diesel-30-concrete-pump/",
@@ -106,11 +111,11 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "Diesel 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 30 Concrete Pump | Pinjin 4105 56 kW",
-      "description": "Diesel 30 is a 邢台 diesel 拖式泵 listing 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm 骨料), 料斗 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, 骨料 3 cm and below. It is not Diesel 40 (66 kW, 26 m³/h) and not Electric 30. Match the printed table, then 询价.",
-      "imageAlt": "Diesel 30 concrete pump factory product photo, 河北品锦机械 邢台",
-      "imageCaption": "Diesel 30 拖式泵, 邢台 catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m",
+      "title": "压缩着火讲的是柴油机，不是柴油30的铭牌",
+      "seoTitle": "柴油机章节对照柴油30拖泵行",
+      "description": "柴油机来源页把引言、沿革、工作原理和分类分开。这些章节解释压缩着火，不替代邢台已经印出的柴油30格子。",
+      "imageAlt": "来源页上关于柴油机的图",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Diesel_engine",
       "relatedPathLabels": [
         "Diesel 30 concrete pump 产品页",
         "Diesel concrete pump manufacturer China",
@@ -118,8 +123,8 @@
         "Contact 河北品锦机械"
       ],
       "answerBlock": {
-        "what": "Diesel 30 Concrete Pump is a diesel 拖式混凝土泵 manufactured by 河北品锦机械 in 邢台. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm 骨料), 料斗 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, 骨料 3 cm and below. It is not Diesel 40, not Diesel 50 and not a spraying machine.",
-        "who": "Sites without stable grid power matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm 骨料) on a 2000 kg diesel trailer.",
+        "what": "这篇文档沿用柴油机来源页的大纲。柴油30仍是邢台已印的那一行：4105 柴油机、56 kW、15 m³/h、20 MPa，1 cm 骨料时 60 m / 180 m。",
+        "who": "想先弄清压缩着火的语境、再打开柴油30产品页的读者，而不是再读一篇套模板的目录文。",
         "factors": [
           "4105 / 56 kW versus Diesel 40 at 4108 / 66 kW",
           "Theoretical output 15 m³/h",
@@ -129,21 +134,21 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 30 the diesel version of Electric 30?",
-          "answer": "No. Diesel 30 lists 4105 / 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm 骨料). Open the Electric 30 page for its own motor and output cells. Do not copy one table onto the other."
+          "question": "柴油机沿革会给柴油30补一个油耗吗？",
+          "answer": "不会。沿革只是语境。本页不印油耗。"
         },
         {
-          "question": "Does SmartBuy’s 30–90 m³/h trailer band cover Diesel 30?",
-          "answer": "The buying guide cites trailer-mounted pumps as typically 30–90 m³/h. Diesel 30 prints 15 m³/h. Use the 邢台 row, not the marketplace average."
+          "question": "柴油30和电动30是同一张表吗？",
+          "answer": "不是。柴油30印的是 4105 / 56 kW 和 15 m³/h。电动30的格子在它自己的产品页。"
         }
       ]
     },
     "pt": {
-      "title": "Diesel 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 30 Concrete Pump | Pinjin 4105 56 kW",
-      "description": "Diesel 30 is a Xingtai diesel bomba reboque listing 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm agregado), tremonha 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, agregado 3 cm and below. It is not Diesel 40 (66 kW, 26 m³/h) and not Electric 30. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 30 concrete pump factory product photo, Hebei Pinjin Machinery Xingtai",
-      "imageCaption": "Diesel 30 bomba reboque, Xingtai catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m",
+      "title": "Ignição por compressão não substitui a placa do Diesel 30",
+      "seoTitle": "Capítulos do motor diesel ao lado da linha Diesel 30",
+      "description": "A página de origem do motor diesel separa introdução, história, princípio de funcionamento e classificação. Esses capítulos explicam a ignição por compressão e não substituem as células já impressas do Diesel 30.",
+      "imageAlt": "Figura da página de origem sobre motores diesel",
+      "imageCaption": "Imagem da página de origem: https://en.wikipedia.org/wiki/Diesel_engine",
       "relatedPathLabels": [
         "Diesel 30 concrete pump página do produto",
         "Diesel concrete pump manufacturer China",
@@ -151,8 +156,8 @@
         "Contato Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 30 Concrete Pump is a diesel bomba reboque manufactured by Hebei Pinjin Machinery in Xingtai. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm agregado), tremonha 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, agregado 3 cm and below. It is not Diesel 40, not Diesel 50 and not a spraying machine.",
-        "who": "Sites without stable grid power matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm agregado) on a 2000 kg diesel trailer.",
+        "what": "Este documento segue o sumário da página sobre o motor diesel. O Diesel 30 continua a ser a linha já impressa: diesel 4105, 56 kW, 15 m³/h, 20 MPa e 60 m / 180 m para agregado de 1 cm.",
+        "who": "Leitores que precisam do contexto de ignição por compressão antes de abrir a página do Diesel 30.",
         "factors": [
           "4105 / 56 kW versus Diesel 40 at 4108 / 66 kW",
           "Theoretical output 15 m³/h",
@@ -162,21 +167,21 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 30 the diesel version of Electric 30?",
-          "answer": "No. Diesel 30 lists 4105 / 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm agregado). Open the Electric 30 page for its own motor and output cells. Do not copy one table onto the other."
+          "question": "A história do motor diesel acrescenta consumo ao Diesel 30?",
+          "answer": "Não. A história é contexto. Esta página não publica consumo."
         },
         {
-          "question": "Does SmartBuy’s 30–90 m³/h trailer band cover Diesel 30?",
-          "answer": "The buying guide cites trailer-mounted pumps as typically 30–90 m³/h. Diesel 30 prints 15 m³/h. Use the Xingtai row, not the marketplace average."
+          "question": "Diesel 30 é a mesma tabela do Elétrico 30?",
+          "answer": "Não. O Diesel 30 imprime 4105 / 56 kW e 15 m³/h. As células do Elétrico 30 ficam na página dele."
         }
       ]
     },
     "ar": {
-      "title": "Diesel 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 30 Concrete Pump | Pinjin 4105 56 kW",
-      "description": "Diesel 30 is a شينغتاي diesel مضخة مقطورة listing 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm ركام), قادوس 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, ركام 3 cm and below. It is not Diesel 40 (66 kW, 26 m³/h) and not Electric 30. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 30 concrete pump factory product photo, Hebei Pinjin Machinery شينغتاي",
-      "imageCaption": "Diesel 30 مضخة مقطورة, شينغتاي catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m",
+      "title": "الاشتعال بالضغط لا يحل محل لوحة الديزل 30",
+      "seoTitle": "فصول محرك الديزل بجانب صف الديزل 30",
+      "description": "تفصل صفحة محرك الديزل المقدمة والتاريخ ومبدأ العمل والتصنيف. تشرح هذه الفصول الاشتعال بالضغط ولا تستبدل خلايا الديزل 30 المطبوعة.",
+      "imageAlt": "شكل من صفحة المصدر عن محركات الديزل",
+      "imageCaption": "صورة من صفحة المصدر: https://en.wikipedia.org/wiki/Diesel_engine",
       "relatedPathLabels": [
         "Diesel 30 concrete pump صفحة المنتج",
         "Diesel concrete pump manufacturer China",
@@ -184,8 +189,8 @@
         "اتصل Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 30 Concrete Pump is a diesel مضخة مقطورة manufactured by Hebei Pinjin Machinery in شينغتاي. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm ركام), قادوس 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, ركام 3 cm and below. It is not Diesel 40, not Diesel 50 and not a spraying machine.",
-        "who": "Sites without stable grid power matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm ركام) on a 2000 kg diesel trailer.",
+        "what": "تتبع هذه الوثيقة مخطط صفحة محرك الديزل. يبقى الديزل 30 الصف المطبوع: ديزل 4105، 56 كيلوواط، 15 م³/س، 20 ميغاباسكال، و60 م / 180 م لركام 1 سم.",
+        "who": "قرّاء يحتاجون سياق الاشتعال بالضغط قبل فتح صفحة الديزل 30.",
         "factors": [
           "4105 / 56 kW versus Diesel 40 at 4108 / 66 kW",
           "Theoretical output 15 m³/h",
@@ -195,21 +200,21 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 30 the diesel version of Electric 30?",
-          "answer": "No. Diesel 30 lists 4105 / 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm ركام). Open the Electric 30 page for its own motor and output cells. Do not copy one table onto the other."
+          "question": "هل يضيف تاريخ محرك الديزل استهلاك وقود للديزل 30؟",
+          "answer": "لا. التاريخ سياق فقط. هذه الصفحة لا تنشر الاستهلاك."
         },
         {
-          "question": "Does SmartBuy’s 30–90 m³/h trailer band cover Diesel 30?",
-          "answer": "The buying guide cites trailer-mounted pumps as typically 30–90 m³/h. Diesel 30 prints 15 m³/h. Use the شينغتاي row, not the marketplace average."
+          "question": "هل الديزل 30 والصفحة الكهربائية 30 جدول واحد؟",
+          "answer": "لا. الديزل 30 يطبع 4105 / 56 كيلوواط و15 م³/س. خلايا الكهربائي 30 في صفحته."
         }
       ]
     },
     "ru": {
-      "title": "Diesel 30 Concrete Pump Catalogue Row",
-      "seoTitle": "Diesel 30 Concrete Pump | Pinjin 4105 56 kW",
-      "description": "Diesel 30 is a Синтай diesel прицепной насос listing 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm заполнитель), бункер 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, заполнитель 3 cm and below. It is not Diesel 40 (66 kW, 26 m³/h) and not Electric 30. Match the printed table, then inquire.",
-      "imageAlt": "Diesel 30 concrete pump factory product photo, Hebei Pinjin Machinery Синтай",
-      "imageCaption": "Diesel 30 прицепной насос, Синтай catalogue — 4105 / 56 kW, 15 m³/h, 60 m / 180 m",
+      "title": "Воспламенение от сжатия не заменяет табличку Diesel 30",
+      "seoTitle": "Главы о дизеле рядом со строкой Diesel 30",
+      "description": "Страница о дизельном двигателе делит введение, историю, принцип работы и классификацию. Эти главы объясняют воспламенение от сжатия и не заменяют уже напечатанные ячейки Diesel 30.",
+      "imageAlt": "Иллюстрация со страницы-источника о дизельных двигателях",
+      "imageCaption": "Изображение со страницы-источника: https://en.wikipedia.org/wiki/Diesel_engine",
       "relatedPathLabels": [
         "Diesel 30 concrete pump страница изделия",
         "Diesel concrete pump manufacturer China",
@@ -217,8 +222,8 @@
         "Контакт Hebei Pinjin Machinery"
       ],
       "answerBlock": {
-        "what": "Diesel 30 Concrete Pump is a diesel прицепной насос manufactured by Hebei Pinjin Machinery in Синтай. Catalogue parameters: 4105 diesel 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm заполнитель), бункер 0.3 m³, 4000 × 1500 × 1800 mm, 2000 kg, заполнитель 3 cm and below. It is not Diesel 40, not Diesel 50 and not a spraying machine.",
-        "who": "Sites without stable grid power matching 15 m³/h, 20 MPa and 60 m / 180 m (1 cm заполнитель) on a 2000 kg diesel trailer.",
+        "what": "Этот документ идёт по оглавлению страницы о дизеле. Diesel 30 остаётся уже напечатанной строкой: дизель 4105, 56 кВт, 15 м³/ч, 20 МПа и 60 м / 180 м при заполнителе 1 см.",
+        "who": "Читатели, которым нужен контекст воспламенения от сжатия до страницы Diesel 30.",
         "factors": [
           "4105 / 56 kW versus Diesel 40 at 4108 / 66 kW",
           "Theoretical output 15 m³/h",
@@ -228,14 +233,15 @@
       },
       "faqs": [
         {
-          "question": "Is Diesel 30 the diesel version of Electric 30?",
-          "answer": "No. Diesel 30 lists 4105 / 56 kW, 15 m³/h, 20 MPa, 60 m / 180 m (1 cm заполнитель). Open the Electric 30 page for its own motor and output cells. Do not copy one table onto the other."
+          "question": "Добавляет ли история дизеля расход топлива для Diesel 30?",
+          "answer": "Нет. История — это контекст. Расход здесь не публикуется."
         },
         {
-          "question": "Does SmartBuy’s 30–90 m³/h trailer band cover Diesel 30?",
-          "answer": "The buying guide cites trailer-mounted pumps as typically 30–90 m³/h. Diesel 30 prints 15 m³/h. Use the Синтай row, not the marketplace average."
+          "question": "Diesel 30 и Electric 30 — одна таблица?",
+          "answer": "Нет. Diesel 30 печатает 4105 / 56 кВт и 15 м³/ч. Ячейки Electric 30 — на его странице."
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

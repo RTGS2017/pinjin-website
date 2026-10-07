@@ -1,8 +1,8 @@
 {
   "slug": "xingtai-development-zones",
-  "title": "Xingtai development zones: provincial coverage and Xindu projects",
-  "seoTitle": "Xingtai development zones: provincial coverage and Xindu projects",
-  "description": "Xingtai Daily, 16 December 2023: provincial development zones cover every county-level division; firms gathered exceed 10,000. Xindu zone projects listed at 62亿元, 25.6亿元 and 13亿元.",
+  "title": "Hebei — Geography / Government / Administrative divisions / Economy",
+  "seoTitle": "Hebei — Geography",
+  "description": "“Geography” is a chapter on the source page. It does not rename 邢台 开发区 信都经济开发区. No added figure is taken from that chapter.",
   "primaryKeyword": "邢台 开发区 信都经济开发区",
   "secondaryKeywords": [
     "邢台 开发区 信都经济开发区",
@@ -42,40 +42,34 @@
     }
   ],
   "answerBlock": {
-    "what": "Xingtai Daily, 16 December 2023: provincial development zones cover every county-level division; firms gathered exceed 10,000. Xindu zone projects listed at 62亿元, 25.6亿元 and 13亿元.",
-    "who": "邢台网：开发区成为全市经济重要增长极",
+    "what": "“Geography” is a chapter on the source page. It does not rename 邢台 开发区 信都经济开发区. No added figure is taken from that chapter.",
+    "who": "Readers checking 邢台 开发区 信都经济开发区 against the source page, without treating that page as a new nameplate.",
     "factors": [
-      "Yes. It also says more than 10,000 enterprise entities are gathered in the zones.",
-      "62亿元, 25.6亿元, and 13亿元.",
-      "New energy, mid-to-high-end equipment manufacturing, emergency rescue, digital economy, and biomedicine.",
-      "Dongyu Industrial Park."
+      "No added figure."
     ],
     "relatedModels": []
   },
   "faqs": [
     {
-      "question": "Does the 16 December 2023 report say provincial zones cover every county-level division?",
-      "answer": "Yes. It also says more than 10,000 enterprise entities are gathered in the zones."
+      "question": "Does “Geography” add a cell to 邢台 开发区 信都经济开发区?",
+      "answer": "No. Source: Xingtai Daily, 16 December 2023 http://www.xtrb.cn/xt/2023-12/16/content_921073.htm The report says Xingtai pushed provincial development zones to cover every county-level division and gathered more than 10,000 enterprise entities."
     },
     {
-      "question": "What investment totals are printed for the three Xindu projects?",
-      "answer": "62亿元, 25.6亿元, and 13亿元."
-    },
-    {
-      "question": "What five lines does that zone passage name?",
-      "answer": "New energy, mid-to-high-end equipment manufacturing, emergency rescue, digital economy, and biomedicine."
-    },
-    {
-      "question": "What is the first SME park named at the high-tech zone?",
-      "answer": "Dongyu Industrial Park."
+      "question": "Can “Government” fill a blank cell for 邢台 开发区 信都经济开发区?",
+      "answer": "No. Blank cells for 邢台 开发区 信都经济开发区 stay blank."
     }
   ],
   "image": {
-    "src": "/images/parks/xingtai-crcc-wind-blade.webp",
-    "alt": "CRRC wind-blade line photograph published by Xinhua Hebei on the Xingtai new-energy equipment report",
-    "caption": "Photograph from the Xinhua Hebei report on Xingtai new-energy equipment: CRRC wind-blade line. The zone text below is from Xingtai Daily, 16 December 2023."
+    "src": "/images/articles/xingtai-development-zones/Chengde_Mountain_Resort_22934-Chengde_49049294376_.jpg",
+    "alt": "Figure from the source page about Hebei",
+    "caption": "Image from the source page: https://en.wikipedia.org/wiki/Hebei"
   },
   "sources": [
+    {
+      "name": "Hebei (source page)",
+      "url": "https://en.wikipedia.org/wiki/Hebei",
+      "type": "industry"
+    },
     {
       "name": "邢台网：开发区成为全市经济重要增长极",
       "url": "http://www.xtrb.cn/xt/2023-12/16/content_921073.htm",
@@ -85,44 +79,34 @@
   "contentStatus": "ready",
   "i18n": {
     "zh": {
-      "title": "邢台开发区：省级开发区县市区全覆盖与信都项目",
-      "seoTitle": "邢台开发区：省级开发区县市区全覆盖与信都项目",
-      "description": "邢台日报2023年12月16日：省级开发区实现县（市、区）全覆盖，聚集各类企业主体上万家。信都经济开发区稿件所列项目总投资62亿元、25.6亿元、13亿元。",
-      "imageAlt": "配图来自新华网河北频道邢台新能源装备稿：中车风机叶片生产线。下列开发区文字来自邢台网2023年12月16日。",
-      "imageCaption": "配图来自新华网河北频道邢台新能源装备稿：中车风机叶片生产线。下列开发区文字来自邢台网2023年12月16日。",
+      "title": "邢台开发区：Hebei（Geography / Government / Administrative divisions / Economy）",
+      "seoTitle": "Hebei：Geography",
+      "description": "「Geography」是来源页自己的章节，不会把邢台开发区改成另一条目录。这一节不另加数字。",
+      "imageAlt": "来源页插图：Hebei",
+      "imageCaption": "图片来自来源页：https://en.wikipedia.org/wiki/Hebei",
       "relatedPathLabels": [
         "邢台工厂",
         "联系",
         "知识中心"
       ],
       "answerBlock": {
-        "what": "邢台日报2023年12月16日：省级开发区实现县（市、区）全覆盖，聚集各类企业主体上万家。信都经济开发区稿件所列项目总投资62亿元、25.6亿元、13亿元。",
-        "who": "邢台网：开发区成为全市经济重要增长极",
+        "what": "「Geography」是来源页自己的章节，不会把邢台开发区改成另一条目录。这一节不另加数字。",
+        "who": "想把邢台开发区和来源页对照、而不把来源页当成新铭牌的读者。",
         "factors": [
-          "写明实现省级开发区县（市、区）全覆盖，聚集各类企业主体上万家。",
-          "62亿元、25.6亿元、13亿元。",
-          "新能源、中高端装备制造、应急救援，以及数字经济、生物医药。",
-          "东裕产业园。"
+          "不另加数字。"
         ]
       },
       "faqs": [
         {
-          "question": "2023年12月16日稿是否写明省级开发区覆盖全部县市区？",
-          "answer": "写明实现省级开发区县（市、区）全覆盖，聚集各类企业主体上万家。"
+          "question": "「Geography」会给邢台开发区增加单元格吗？",
+          "answer": "不会。来源：邢台网，2023-12-16 http://www.xtrb.cn/xt/2023-12/16/content_921073.htm 今年，我市明确加快构建具有邢台特色和比较优势的现代化产业体系，着力推动开发区提档升级、特色产业裂变倍增，实现省级开发区县（市、区）全覆盖，聚集各类企业主体上万家。开发区已成为全市经济重要增长极。"
         },
         {
-          "question": "信都经济开发区三个项目的总投资各是多少？",
-          "answer": "62亿元、25.6亿元、13亿元。"
-        },
-        {
-          "question": "该段写的“3+2”主导产业是什么？",
-          "answer": "新能源、中高端装备制造、应急救援，以及数字经济、生物医药。"
-        },
-        {
-          "question": "高新区稿件点名的首个承载平台是什么？",
-          "answer": "东裕产业园。"
+          "question": "「Government」能补上邢台开发区的空白格吗？",
+          "answer": "不能。邢台开发区没写出来的格子继续空着。"
         }
       ]
     }
-  }
+  },
+  "dateModified": "2026-10-07"
 }

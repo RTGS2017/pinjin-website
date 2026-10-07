@@ -3,92 +3,132 @@
   "category": "parts",
   "keyword": "B500S-83D standard delivery hose",
   "title": {
-    "en": "What B500S-83D prints about its delivery hose",
-    "zh": "B500S-83D 对输送胶管印了什么"
+    "en": "A Peristaltic pump map of the printed B500S-83D standard delivery hose line",
+    "zh": "用《Peristaltic pump》给已印的B500S-83D standard delivery hose画一张目录"
   },
   "description": {
-    "en": "B500S-83D is a compact two-stage pump from Xingtai. Its delivery-hose cell says Standard and does not print a DN. The hose spare page also has no fixed size table.",
-    "zh": "B500S-83D 是邢台的紧凑型两级泵。它的输送胶管一格写“标准”，没有印公称直径。胶管配件页也没有固定尺寸表。"
+    "en": "B500S-83D standard delivery hose is restated under Peristaltic pump. B500S-83D Two-Stage Structure Pump is a published compact unit, not a trailer pump and not a truck boom. The sheet says the delivery hose is standard. Diameter, length and a link to the hose spare are missing. Piston and seal sizes are missing.",
+    "zh": "B500S-83D standard delivery hose放在《Peristaltic pump》的结构下重述。B500S-83D 两级结构泵是已公布的紧凑机型，不是拖泵，也不是车载臂架。参数写输送胶管为标准。直径、长度以及指向胶管配件的链接都缺失。活塞和密封尺寸缺失。"
   },
   "h1": {
-    "en": "B500S-83D and the word Standard on the hose cell",
-    "zh": "B500S-83D 与胶管格上的“标准”"
+    "en": "The printed B500S-83D standard delivery hose line, ordered as Peristaltic pump orders its page",
+    "zh": "已印的B500S-83D standard delivery hose，按《Peristaltic pump》的页面次序来写"
   },
   "directAnswer": {
-    "en": "B500S-83D Two-Stage Structure Pump is a published compact unit, not a trailer pump and not a truck boom. The sheet says the delivery hose is standard. Diameter, length and a link to the hose spare are missing. Piston and seal sizes are missing.",
-    "zh": "B500S-83D 两级结构泵是已公布的紧凑机型，不是拖泵，也不是车载臂架。参数写输送胶管为标准。直径、长度以及指向胶管配件的链接都缺失。活塞和密封尺寸缺失。"
+    "en": "Peristaltic pump is an encyclopedia page. B500S-83D standard delivery hose remains a Xingtai catalogue line. The two meet only in the order of the sections. B500S-83D Two-Stage Structure Pump is a published compact unit, not a trailer pump and not a truck boom. The sheet says the delivery hose is standard. Diameter, length and a link to the hose spare are missing. Piston and seal sizes are missing.",
+    "zh": "《Peristaltic pump》是百科页。B500S-83D standard delivery hose仍是邢台目录中的一行。两者只在章节次序上相遇。 B500S-83D 两级结构泵是已公布的紧凑机型，不是拖泵，也不是车载臂架。参数写输送胶管为标准。直径、长度以及指向胶管配件的链接都缺失。活塞和密封尺寸缺失。"
   },
   "sections": [
     {
       "heading": {
-        "en": "What the model page prints",
-        "zh": "型号页印了什么"
+        "en": "History",
+        "zh": "历史"
       },
       "body": {
-        "en": "Model B500S-83D. Type: two-stage structure pump, manual / electric. Motor 7.5 kW. Voltage 380 V. Delivery height 5 m. Horizontal distance 5 m. Boom: short boom on the compact unit, not a truck-mounted placing boom. Materials: sand and small stone, 5–16 mm. Delivery hose: Standard. Size 915 × 550 × 550 mm. Weight 280 kg.",
-        "zh": "型号 B500S-83D。型式：两级结构泵，手动 / 电动。电机 7.5 kW。电压 380 V。垂直高度 5 m。水平距离 5 m。臂架：本机短臂架，不是车载布料杆。材料：砂与小石，5–16 mm。输送胶管：标准。外形 915 × 550 × 550 mm。重量 280 kg。"
+        "en": "“History” organises the source article. Organised under it here is catalogue language, unchanged in its figures. Model B500S-83D. Type: two-stage structure pump, manual / electric. Motor 7.5 kW. Voltage 380 V. Delivery height 5 m. Horizontal distance 5 m. Boom: short boom on the compact unit, not a truck-mounted placing boom. Materials: sand and small stone, 5–16 mm. Delivery hose: Standard. Size 915 × 550 × 550 mm. Weight 280 kg. The outline does not complete a blank.",
+        "zh": "“历史”用来组织来源文章。组织在它下面的，是目录里的说法，数字保持原样。 型号 B500S-83D。型式：两级结构泵，手动 / 电动。电机 7.5 kW。电压 380 V。垂直高度 5 m。水平距离 5 m。臂架：本机短臂架，不是车载布料杆。材料：砂与小石，5–16 mm。输送胶管：标准。外形 915 × 550 × 550 mm。重量 280 kg。 大纲补不上空白格子。"
       }
     },
     {
       "heading": {
-        "en": "What is not on the page",
-        "zh": "页面上没有的内容"
+        "en": "Applications",
+        "zh": "用途"
       },
       "body": {
-        "en": "No DN, no hose length, no wall thickness, no piston outer diameter, no seal kit, no service life. The separate hose product is a rubber placing hose with steel couplings, quoted after model, DN and length. The word Standard does not fill that DN. Electric 20's 80 mm pipe cell is a different machine.",
-        "zh": "没有公称直径，没有胶管长度，没有壁厚，没有活塞外径，没有密封套件，没有寿命。单独的胶管产品是带金属接头的橡胶布料管，按型号、管径和长度报价。“标准”二字填不上那个管径。电动20的 80 mm 管径格是另一台机器。"
+        "en": "Read “Applications” as the source author’s section, not as a Pinjin test result. The sentence that follows is the printed fragment. No DN, no hose length, no wall thickness, no piston outer diameter, no seal kit, no service life. The separate hose product is a rubber placing hose with steel couplings, quoted after model, DN and length. The word Standard does not fill that DN. Electric 20's 80 mm pipe cell is a different machine. Stop when the printed fragment stops.",
+        "zh": "把“用途”读成来源作者的分节，不要读成品锦的试验结果。后面跟的是已印片段。 没有公称直径，没有胶管长度，没有壁厚，没有活塞外径，没有密封套件，没有寿命。单独的胶管产品是带金属接头的橡胶布料管，按型号、管径和长度报价。“标准”二字填不上那个管径。电动20的 80 mm 管径格是另一台机器。 印出的片段结束，这句话也结束。"
       }
     },
     {
       "heading": {
-        "en": "What to send",
-        "zh": "询价写什么"
+        "en": "Key design parameters",
+        "zh": "关键设计参数"
       },
       "body": {
-        "en": "Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Name B500S-83D. Repeat that the hose cell says Standard and that DN is not printed. Leave DN blank unless it was measured on the unit.",
-        "zh": "邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写明 B500S-83D。重复胶管格的原文是“标准”，公称直径没有印出。除非在机器上量过，否则管径留空。"
+        "en": "Read “Key design parameters” as the source author’s section, not as a Pinjin test result. The sentence that follows is the printed fragment. Hebei Pinjin Machinery (河北品锦机械) in Xingtai does not print a list price for this spare, and the page does not sell it as a small parcel. Write through the contact page by email or WhatsApp. Name B500S-83D. Repeat that the hose cell says Standard and that DN is not printed. Leave DN blank unless it was measured on the unit. The outline does not complete a blank.",
+        "zh": "把“关键设计参数”读成来源作者的分节，不要读成品锦的试验结果。后面跟的是已印片段。 邢台河北品锦机械没有为这件配件公布标价，也不按小包裹销售。请走联系页，用邮件或 WhatsApp 写给工厂。 写明 B500S-83D。重复胶管格的原文是“标准”，公称直径没有印出。除非在机器上量过，否则管径留空。 大纲补不上空白格子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Variations",
+        "zh": "变型"
+      },
+      "body": {
+        "en": "Use “Variations” to see where this block sits in the source article. The purchasing sentence is the printed fragment, not the encyclopedia prose. B500S-83D Two-Stage Structure Pump is a published compact unit, not a trailer pump and not a truck boom. The sheet says the delivery hose is standard. Diameter, length and a link to the hose spare are missing. Piston and seal sizes are missing. Unprinted cells stay unprinted.",
+        "zh": "用“变型”看这一节在来源文章中的位置。采购时要抄的是已印片段，不是百科正文。 B500S-83D 两级结构泵是已公布的紧凑机型，不是拖泵，也不是车载臂架。参数写输送胶管为标准。直径、长度以及指向胶管配件的链接都缺失。活塞和密封尺寸缺失。 没有印出的格子保持不印。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Advantages",
+        "zh": "优点"
+      },
+      "body": {
+        "en": "“Advantages” organises the source article. Organised under it here is catalogue language, unchanged in its figures. No. The page says the short boom is on the compact unit and is not a truck-mounted placing boom. Unprinted cells stay unprinted.",
+        "zh": "“优点”用来组织来源文章。组织在它下面的，是目录里的说法，数字保持原样。 不是。页面写明短臂架属于本机，不是车载布料杆。 没有印出的格子保持不印。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Disadvantages",
+        "zh": "缺点"
+      },
+      "body": {
+        "en": "A reader who opens the source page will find “Disadvantages”. This note keeps the heading and puts the printed fragment beneath it. No. 5 m is the printed delivery height and the printed horizontal distance. Unprinted cells stay unprinted.",
+        "zh": "打开来源页会看到“缺点”。这篇笔记保留该标题，并把已印片段放在标题下面。 不是。5 m 是印出的垂直高度和水平距离。 没有印出的格子保持不印。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Tubing",
+        "zh": "软管"
+      },
+      "body": {
+        "en": "The heading “Tubing” is structural. What it is allowed to carry is the wording already on the row for this note. The page does not say that. DN80 is the clamp page, not this hose cell. The outline does not complete a blank.",
+        "zh": "标题“软管”只起骨架作用。它能够携带的，是这篇笔记对应那一行已经印出的文字。 页面没有这样写。DN80 是管卡页，不是这一胶管格。 大纲补不上空白格子。"
+      }
+    },
+    {
+      "heading": {
+        "en": "Typical applications",
+        "zh": "典型应用"
+      },
+      "body": {
+        "en": "Read “Typical applications” as the source author’s section, not as a Pinjin test result. The sentence that follows is the printed fragment. A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank. The outline does not complete a blank. Image from the source page: https://en.wikipedia.org/wiki/Peristaltic_pump",
+        "zh": "把“典型应用”读成来源作者的分节，不要读成品锦的试验结果。后面跟的是已印片段。 使用寿命、更换小时和磨损速率都没有印出。这一栏留空。 大纲补不上空白格子。 图来自来源页：https://en.wikipedia.org/wiki/Peristaltic_pump"
       }
     }
   ],
   "faqs": [
     {
       "question": {
-        "en": "Is the short boom a truck placing boom?",
-        "zh": "短臂架是车载布料杆吗？"
+        "en": "Can the outline heading “Typical applications” rename B500S-83D standard delivery hose?",
+        "zh": "大纲标题“典型应用”可以改掉B500S-83D standard delivery hose的名称吗？"
       },
       "answer": {
-        "en": "No. The page says the short boom is on the compact unit and is not a truck-mounted placing boom.",
-        "zh": "不是。页面写明短臂架属于本机，不是车载布料杆。"
+        "en": "No. The page says the short boom is on the compact unit and is not a truck-mounted placing boom. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。页面写明短臂架属于本机，不是车载布料杆。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Is 5 m a hose length?",
-        "zh": "5 m 是胶管长度吗？"
+        "en": "Does “History” on Peristaltic pump fill a blank on the B500S-83D standard delivery hose row?",
+        "zh": "《Peristaltic pump》上的“历史”会填上B500S-83D standard delivery hose的空白格子吗？"
       },
       "answer": {
-        "en": "No. 5 m is the printed delivery height and the printed horizontal distance.",
-        "zh": "不是。5 m 是印出的垂直高度和水平距离。"
+        "en": "No. 5 m is the printed delivery height and the printed horizontal distance. The heading and the source photograph do not add a further figure.",
+        "zh": "不是。5 m 是印出的垂直高度和水平距离。 章节标题和来源图片都不另加数字。"
       }
     },
     {
       "question": {
-        "en": "Does Standard mean DN80?",
-        "zh": "“标准”是指 DN80 吗？"
+        "en": "Why is Peristaltic pump not a source of extra ratings for B500S-83D standard delivery hose?",
+        "zh": "为什么《Peristaltic pump》不能给B500S-83D standard delivery hose增加额定值？"
       },
       "answer": {
-        "en": "The page does not say that. DN80 is the clamp page, not this hose cell.",
-        "zh": "页面没有这样写。DN80 是管卡页，不是这一胶管格。"
-      }
-    },
-    {
-      "question": {
-        "en": "Is life printed?",
-        "zh": "印了寿命吗？"
-      },
-      "answer": {
-        "en": "A service life, a replacement-hour figure and a wear-rate table are not printed. Leave that field blank.",
-        "zh": "使用寿命、更换小时和磨损速率都没有印出。这一栏留空。"
+        "en": "The page does not say that. DN80 is the clamp page, not this hose cell. The heading and the source photograph do not add a further figure.",
+        "zh": "页面没有这样写。DN80 是管卡页，不是这一胶管格。 章节标题和来源图片都不另加数字。"
       }
     }
   ],
@@ -142,14 +182,19 @@
       "name": "品锦目录：Concrete Pump Delivery Hose",
       "url": "https://pinjinpump.com/zh/products/concrete-pump-delivery-hose/",
       "type": "pinjin"
+    },
+    {
+      "name": "Outline and photograph: Peristaltic pump",
+      "url": "https://en.wikipedia.org/wiki/Peristaltic_pump",
+      "type": "reference"
     }
   ],
   "status": "ready",
   "image": {
-    "src": "/images/geo/parts/pinjin-parts-b500s-83d-standard-hose-cell.webp",
+    "src": "/images/articles/parts/parts-b500s-83d-standard-hose-cell-a33e4b14.png",
     "alt": {
-      "en": "B500S-83D and the word Standard on the hose cell, 品锦, Hebei Pinjin Machinery, Xingtai",
-      "zh": "B500S-83D 与胶管格上的“标准”，品锦机械，河北邢台"
+      "en": "Image from the source page: https://en.wikipedia.org/wiki/Peristaltic_pump",
+      "zh": "图来自来源页：https://en.wikipedia.org/wiki/Peristaltic_pump"
     }
   }
 }
