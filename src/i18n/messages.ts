@@ -87,9 +87,9 @@ export const messages = {
       h3d: 'Equipment customization supported',
     },
     categories: {
-      title: 'PRODUCT LINES',
+      title: 'OUR PRODUCT RANGE',
       subtitle:
-        'Say the hourly output, the pipe run and whether the site has power. The right line is usually clear before you open a model page.',
+        'Electric concrete pumps, diesel concrete pumps, mixer pumps, spraying machines and pipeline spare parts from the Xingtai factory catalogue.',
       view: 'View Products →',
       concrete: 'CONCRETE PUMPS',
       concreteDesc: 'Transfer and concrete pumps for reliable material delivery.',
@@ -127,13 +127,12 @@ export const messages = {
       n4: 'Largest listed aggregate diameter',
     },
     applications: {
-      title: 'JOBS ON SITE',
-      subtitle:
-        'A floor pour, a long pipeline, a sprayed wall and a site without power do not share one specification.',
-      construction: 'Building floors',
-      concrete: 'Long pipelines',
-      mortar: 'Spray the wall',
-      plaster: 'No power on site',
+      title: 'Applications',
+      subtitle: 'Where Pinjin equipment is used on site.',
+      construction: 'Building Construction',
+      concrete: 'Infrastructure Projects',
+      mortar: 'Concrete Engineering',
+      plaster: 'Industrial Applications',
       viewDetails: 'View details',
       viewAll: 'View all applications',
       viewCase: 'View case',
@@ -156,9 +155,9 @@ export const messages = {
       v4d: 'Always take customer needs as the core, provide comprehensive and personalized supporting services, and fully ensure customer experience and satisfaction.',
     },
     factoryCapability: {
-      eyebrow: 'Xingtai factory',
-      title: 'Built here. Quoted here.',
-      body: 'Workshop, assembly, inspection and packing stay in Renze Industrial Park. The pump, the delivery pipe, the elbow and the piston can leave the same address.',
+      eyebrow: 'Factory',
+      title: 'Manufacturing Capability',
+      body: 'Source manufacturing in Xingtai, Hebei: workshop production, assembly, inspection and factory packing for concrete machinery.',
       i1: 'Production workshop',
       i2: 'Assembly capability',
       i3: 'Quality control',
@@ -178,8 +177,7 @@ export const messages = {
     },
     knowledge: {
       title: 'Knowledge Center',
-      subtitle:
-        'Three questions before a model name: who builds it, whether the site has power, and which printed row covers the pipe run.',
+      subtitle: 'Practical notes on equipment, manufacturing and site selection.',
       industry: 'Industry Trends',
       manufacturing: 'Manufacturing Knowledge',
       equipment: 'Equipment Guide',
@@ -222,9 +220,9 @@ export const messages = {
       cta: 'DISCUSS YOUR REQUIREMENTS',
     },
     cta: {
-      title: 'SEND THE POUR.\nWE NAME THE PUMP.',
+      title: 'LOOKING FOR THE RIGHT\nCONCRETE PUMP FOR YOUR PROJECT?',
       subtitle:
-        'Output, horizontal and vertical distance, aggregate size, and the power you have. WhatsApp or email. The reply is a catalogue model and a factory quote.',
+        'Send us your requirements and equipment specifications. Our team will get back to you with a suitable solution.',
       button: 'GET A QUOTE',
     },
     contact: {
@@ -344,9 +342,9 @@ export const messages = {
         'These replacement parts are not sold in small batches. Shipping is arranged for project quantities.',
     },
     selectionGuide: {
-      title: 'Four figures, one model',
+      title: 'Product Selection Guide',
       subtitle:
-        'Hourly output, horizontal metres, vertical metres, and electric or diesel.',
+        'Match project conditions to catalogue specifications and recommended models.',
       recommended: 'Recommended models',
       why: 'Based on catalogue parameters',
       viewProduct: 'View product',
@@ -456,7 +454,7 @@ export const messages = {
     process: {
       title: 'Manufacturing Process',
       subtitle:
-        'Name the pour first. We match a listed model, build it in Xingtai, then pack it for dispatch.',
+        'From incoming materials to factory packing, production follows full-process quality control described in the company profile.',
     },
     whyFactory: {
       title: 'Why Choose Our Factory',
@@ -573,7 +571,7 @@ export const messages = {
       applicationsSubtitle:
         'Typical use cases and selection points for Pinjin equipment.',
       selectionIntro:
-        'Add the stone size. The reply names a row already printed in the catalogue.',
+        'Match capacity, conveying distance, power type and site conditions to catalogue parameters to shortlist suitable models.',
     },
   },
   zh: {
@@ -656,9 +654,8 @@ export const messages = {
       h3d: '支持设备定制',
     },
     categories: {
-      title: '五条产品线',
-      subtitle:
-        '先说每小时打多少方、管路多远、现场有没有电。该进哪一条产品线，往往不用翻到型号页就清楚。',
+      title: '产品系列',
+      subtitle: '邢台工厂目录中的电动混凝土泵、柴油混凝土泵、搅拌泵、喷涂机与管路配件。',
       view: '查看产品 →',
       concrete: '混凝土泵',
       concreteDesc: '可靠的输送泵与混凝土泵系列。',
@@ -694,12 +691,12 @@ export const messages = {
       n4: '目录列出的最大骨料粒径',
     },
     applications: {
-      title: '现场工况',
-      subtitle: '楼层浇筑、长管路、喷墙，还有根本没有电的工地，不是同一张参数表。',
-      construction: '楼层浇筑',
-      concrete: '长距离管路',
-      mortar: '墙面喷涂',
-      plaster: '现场没有电',
+      title: '应用场景',
+      subtitle: '品锦设备在现场的使用方向。',
+      construction: '建筑施工',
+      concrete: '基建工程',
+      mortar: '混凝土工程',
+      plaster: '工业应用',
       viewDetails: '查看详情',
       viewAll: '查看全部应用',
       viewCase: '查看应用',
@@ -722,9 +719,9 @@ export const messages = {
       v4d: '始终以客户需求为核心，为客户提供全方位、个性化的配套服务，全力保障客户合作体验与满意度。',
     },
     factoryCapability: {
-      eyebrow: '邢台工厂',
-      title: '在这里造，在这里报价',
-      body: '车间、装配、检测和包装都在任泽工业园区。泵、输送管、弯管和活塞可以从同一家工厂发出。',
+      eyebrow: '工厂',
+      title: '制造能力',
+      body: '源头制造位于河北邢台：车间生产、装配、检测与出厂包装，服务混凝土机械。',
       i1: '生产车间',
       i2: '装配能力',
       i3: '质量管控',
@@ -744,7 +741,7 @@ export const messages = {
     },
     knowledge: {
       title: '知识中心',
-      subtitle: '报型号之前先问三件事：谁在造、现场有没有电、目录里哪一行盖得住这段管路。',
+      subtitle: '关于设备、制造与现场选型的实用说明。',
       industry: '行业趋势',
       manufacturing: '制造知识',
       equipment: '设备指南',
@@ -784,9 +781,8 @@ export const messages = {
       cta: '沟通您的需求',
     },
     cta: {
-      title: '把工况发过来。\n我们指出该用哪一台。',
-      subtitle:
-        '输送量、水平距离、垂直距离、骨料粒径，以及现场动力。WhatsApp 或邮件。回复是目录型号和出厂报价。',
+      title: '正在寻找适合项目的\n混凝土泵设备？',
+      subtitle: '发送您的需求与设备参数，我们将尽快回复合适方案。',
       button: '获取报价',
     },
     contact: {
@@ -895,8 +891,8 @@ export const messages = {
       noSmallBatch: '此类替换件不支持小批量发货，按工程量安排发运。',
     },
     selectionGuide: {
-      title: '四个数字，定一台泵',
-      subtitle: '每小时输送量、水平米数、垂直米数，以及电动还是柴油。',
+      title: '产品选型指南',
+      subtitle: '按工况与目录参数对照推荐合适型号。',
       recommended: '推荐对照型号',
       why: '依据目录参数',
       viewProduct: '查看产品',
@@ -998,7 +994,8 @@ export const messages = {
     },
     process: {
       title: '制造流程',
-      subtitle: '先把工况说清楚。我们对上目录型号，在邢台造出来，再包装发运。',
+      subtitle:
+        '从原材料到出厂包装，按企业简介中的全流程质量管控组织生产。',
     },
     whyFactory: {
       title: '为什么选择我们工厂',
@@ -1108,7 +1105,8 @@ export const messages = {
       contactEmail: '联系邮箱',
       applicationsHeading: '混凝土泵应用方向',
       applicationsSubtitle: '说明设备适用方向与选型要点。',
-      selectionIntro: '再加上石子粒径。回复会落到目录里已经印出的那一行。',
+      selectionIntro:
+        '根据输送量、输送距离、动力形式与工况，对照产品目录参数推荐合适型号。',
     },
   },
   pt: messagesPt,

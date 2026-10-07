@@ -8,40 +8,40 @@ export const manufacturingSteps = [
     id: 'materials',
     title: L('Raw materials', '原材料'),
     body: L(
-      'Materials are bought against the catalogue row you confirmed, not against a generic pump.',
-      '材料按你确认的那一行目录来备，不按一台笼统的泵来备。',
+      'Incoming materials are selected to match catalogue specifications before production starts.',
+      '生产前按目录参数要求组织原材料采购与准备。',
     ),
   },
   {
     id: 'machining',
     title: L('Machining', '机加工'),
     body: L(
-      'Pump parts are machined in the Xingtai workshop before they go to assembly.',
-      '泵的零件在邢台车间加工，再进入装配。',
+      'Parts are machined with the production equipment described in the company profile.',
+      '使用企业简介所述生产设备进行零部件加工。',
     ),
   },
   {
     id: 'assembly',
     title: L('Assembly', '装配'),
     body: L(
-      'The trailer pump is assembled at the same factory that will quote the spare pipes and pistons.',
-      '拖式泵在这家工厂装配，输送管和活塞也从这里报价。',
+      'Equipment is assembled as a source manufacturer covering R&D, production and sales.',
+      '作为集研发、生产与销售一体的源头厂家完成整机装配。',
     ),
   },
   {
     id: 'inspection',
     title: L('Quality inspection', '质量检测'),
     body: L(
-      'The pump is inspected in Xingtai before it is packed. We do not ship an unchecked machine and call it quality control.',
-      '泵在邢台检测之后才包装。不会把没检的机器装车，再叫质量管控。',
+      'A complete testing system supports full-process quality control before delivery.',
+      '完善检测体系支撑出厂前的全流程质量管控。',
     ),
   },
   {
     id: 'packing',
     title: L('Factory packing', '出厂包装'),
     body: L(
-      'The finished pump is packed in Renze Industrial Park and leaves from Xingtai.',
-      '成品泵在任泽工业园区包装，从邢台发出。',
+      'Finished equipment is packed at the factory in Renze Industrial Park, Xingtai, Hebei.',
+      '成品在河北省邢台市任泽工业园区工厂完成包装。',
     ),
   },
 ] as const;

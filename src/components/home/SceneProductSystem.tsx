@@ -33,7 +33,7 @@ export function SceneProductSystem() {
         {t.categories.title}
       </p>
       <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
-        {tx(homeCopy.productHeadline)}
+        {t.categories.title}
       </h2>
       <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
         {t.categories.subtitle}

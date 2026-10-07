@@ -38,18 +38,6 @@ export const homeCopy = {
   whatValue: L('Electric · Diesel · Mixer · Spraying', '电动 · 柴油 · 搅拌泵 · 喷涂机'),
   whereValue: L('Xingtai, Hebei, China', '中国河北邢台'),
   whyValue: L('Source manufacturer of delivery pumps', '输送泵源头生产厂家'),
-  productHeadline: L(
-    'One workshop. Five ways to place concrete.',
-    '一个车间，五条把混凝土送到位的路。',
-  ),
-  jobHeadline: L(
-    'Different pours do not share one machine.',
-    '不同浇筑，不是同一台机器。',
-  ),
-  questionHeadline: L(
-    'Ask this before you name a model.',
-    '先问清楚，再报型号。',
-  ),
   modelRange: L('Catalogue models', '目录型号'),
   explore: L('Explore', '查看分类'),
   nextQuestion: L('Next question', '下一问'),
@@ -68,8 +56,8 @@ export const homeCopy = {
     '成品在邢台工厂完成生产与检测后包装发运。',
   ),
   factoryLead: L(
-    'You buy from the factory that builds the pump.',
-    '买的是造泵的工厂，不是转手货。',
+    'Workshop production, assembly, inspection and packing at the Xingtai factory in Renze Industrial Park.',
+    '邢台任泽工业园区工厂：车间生产、装配、检测与包装。',
   ),
 };
 
@@ -95,8 +83,8 @@ export const factoryNarrativeCopy = [
     slideId: 'trailer-assembly',
     title: L('Assembly', '装配'),
     body: L(
-      'Electric and diesel trailer pumps are assembled here, then checked before they leave the yard.',
-      '电动和柴油拖式泵在这里装配，出厂前完成检测。',
+      'Trailer concrete pumps are assembled as a source manufacturer covering R&D, production and sales.',
+      '作为集研发、生产与销售一体的源头厂家完成拖式混凝土泵装配。',
     ),
   },
   {

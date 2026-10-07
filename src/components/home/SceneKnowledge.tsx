@@ -25,7 +25,7 @@ export function SceneKnowledge() {
         {tx(homeCopy.buyerQuestions)}
       </p>
       <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
-        {tx(homeCopy.questionHeadline)}
+        {tx(homeCopy.buyerQuestions)}
       </h2>
       <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
         {t.knowledge.subtitle}
