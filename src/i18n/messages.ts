@@ -58,12 +58,12 @@ export const messages = {
     },
     hero: {
       intro:
-        'Hebei Pinjin builds the pump in Xingtai. You deal with the factory, not a trading desk.',
-      title: 'The pump that fits the pour',
+        'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a professional concrete pump manufacturer in Xingtai, Hebei, China.',
+      title: 'China Professional Concrete Machinery Manufacturer',
       subtitle:
-        'Electric when the site has power. Diesel when it does not. A mixer pump when one machine must mix and place. A sprayer when the job is a wall, not a pipeline.',
+        'Electric concrete pumps, diesel concrete pumps, mixer pumps, spraying machines, pipeline spare parts and OEM customization from Xingtai.',
       directAnswer:
-        'Stable power: an electric trailer pump. No grid: diesel or tractor-driven. Mix and place on one machine: a mixer pump. Wall, mortar or plaster: a spraying machine, not a concrete pump.',
+        'Main products: electric concrete pumps, diesel trailer pumps, mixer pumps and spraying machines.',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
       clipsKicker: 'Jobsite clips',
@@ -627,12 +627,12 @@ export const messages = {
       allProducts: '查看全部产品 →',
     },
     hero: {
-      intro: '河北品锦在邢台造泵。你对接的是工厂，不是贸易柜台。',
-      title: '按浇筑选泵',
-      subtitle:
-        '有电选电动拖泵，没电选柴油或拖拉机带动。一台机器既要搅拌又要泵送，选搅拌泵。墙面、砂浆或石膏，选喷涂机，不是混凝土泵。',
+      intro:
+        '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，专业生产混凝土泵。',
+      title: '中国专业混凝土机械制造商',
+      subtitle: '电动混凝土泵、柴油混凝土泵、搅拌泵、喷涂机、管路配件，以及来自邢台的 OEM 定制。',
       directAnswer:
-        '现场有稳定电源，用电动拖泵。没有电网，用柴油泵或拖拉机带动泵。又要搅拌又要送到位，用搅拌泵。抹墙、喷砂浆或石膏，用喷涂机。',
+        '主要产品：电动混凝土泵、柴油拖式泵、搅拌泵、喷涂机。',
       explore: '浏览产品',
       quote: '联系工程师',
       clipsKicker: '工地短视频',

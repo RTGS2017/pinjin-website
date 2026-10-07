@@ -11,17 +11,16 @@ import {
   confirmFields,
   factoryProof,
   familyIds,
-  heroPhoto,
   homeFaqIds,
   jobCards,
   journey,
   replyExpectation,
   shipmentCards,
-  trustPoints,
   whyReasons,
   type ProofPhoto,
 } from '@/data/homeTrust';
 import { useI18n } from '@/i18n/I18nContext';
+import { SceneHero } from './SceneHero';
 
 function Photo({
   photo,
@@ -64,37 +63,7 @@ export function BuyerHome() {
 
   return (
     <div className="buyer-home">
-      <section className="buyer-hero container-site">
-        <div>
-          <p className="buyer-kicker">Pinjin Machinery · Xingtai</p>
-          <h1 className="heading-display buyer-h1">
-            {tx({
-              en: 'Concrete Pumps Built for Your Job.',
-              zh: '为这项工程制造的混凝土泵。',
-            })}
-          </h1>
-          <p className="buyer-lead">
-            {tx({
-              en: 'From compact residential pours to long-distance concrete conveying, Pinjin manufactures electric, diesel and mixer pumps in Xingtai, China. Output, pressure and conveying distance are published on each model page.',
-              zh: '从住宅小浇筑到长距离输送，品锦在中国邢台制造电动泵、柴油泵和搅拌泵。产量、压力和输送距离写在每个型号页上。',
-            })}
-          </p>
-          <div className="buyer-actions">
-            <Button to="/product-selection-guide" size="lg">
-              {tx({ en: 'Find the Right Pump', zh: '找到合适的泵' })}
-            </Button>
-            <Button to={contactInquiryPath} variant="ghost" size="lg">
-              {tx({ en: 'Request a Factory Quote', zh: '向工厂询价' })}
-            </Button>
-          </div>
-          <ul className="buyer-trust-strip">
-            {trustPoints.map((point) => (
-              <li key={point.en}>{tx(point)}</li>
-            ))}
-          </ul>
-        </div>
-        <Photo photo={heroPhoto} priority />
-      </section>
+      <SceneHero />
 
       <section className="buyer-band" id="trust">
         <div className="container-site">

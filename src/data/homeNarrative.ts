@@ -35,9 +35,9 @@ export const homeCopy = {
   where: L('Where', '产地'),
   why: L('Why', '定位'),
   whoValue: L('Hebei Pinjin Machinery', '河北品锦机械'),
-  whatValue: L('Electric · Diesel · Mix-and-pump · Spray', '电动 · 柴油 · 搅拌泵送 · 喷涂'),
+  whatValue: L('Electric · Diesel · Mixer · Spraying', '电动 · 柴油 · 搅拌泵 · 喷涂机'),
   whereValue: L('Xingtai, Hebei, China', '中国河北邢台'),
-  whyValue: L('Factory quote after the model matches the pour', '对上浇筑再报出厂价'),
+  whyValue: L('Source manufacturer of delivery pumps', '输送泵源头生产厂家'),
   productHeadline: L(
     'One workshop. Five ways to place concrete.',
     '一个车间，五条把混凝土送到位的路。',
