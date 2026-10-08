@@ -1,8 +1,5 @@
 /**
- * Future homepage video loading policy.
- * This module is not wired to a player. The live homepage does not ship video.
- *
- * When product-evidence clips are added later:
+ * Homepage application-clip loading policy.
  * - The active clip uses preload="auto" (muted, loop, playsInline).
  * - The previous and next clips use preload="metadata" only.
  * - Every other file stays poster-only: do not create a <video> network request.

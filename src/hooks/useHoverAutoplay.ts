@@ -9,9 +9,9 @@ import { carouselConfig } from '@/config/site';
 
 /**
  * Desktop + fine pointer autoplay. Hover / focus pauses; reduced-motion and
- * touch stay static (manual only). Shared by Product System and Factory.
+ * touch stay static (manual only). Shared by Product System, Applications and Factory.
  */
-export function useHoverAutoplay(count: number) {
+export function useHoverAutoplay(count: number, intervalMs: number = carouselConfig.autoplayMs) {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const [autoplay, setAutoplay] = useState(false);
@@ -42,9 +42,9 @@ export function useHoverAutoplay(count: number) {
     if (!autoplay || paused || count <= 1) return;
     const id = window.setInterval(() => {
       setIndex((current) => (current + 1) % count);
-    }, carouselConfig.autoplayMs);
+    }, intervalMs);
     return () => window.clearInterval(id);
-  }, [autoplay, paused, count]);
+  }, [autoplay, paused, count, intervalMs]);
 
   useEffect(() => {
     const onVisibility = () => {
