@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/Button';
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
-import { contactInquiryPath } from '@/config/site';
 import { heroGallery } from '@/data/gallery';
 import { homeCopy } from '@/data/homeNarrative';
 import { useI18n } from '@/i18n/I18nContext';
@@ -33,7 +32,7 @@ export function SceneHero() {
           <p className="text-[11px] font-semibold tracking-[0.18em] text-white/55">
             {t.hero.place}
           </p>
-          <h1 className="mt-4 heading-display text-4xl text-white sm:text-5xl lg:text-[3.15rem]">
+          <h1 className="mt-4 heading-display whitespace-pre-line text-4xl text-white sm:text-5xl lg:text-[3.15rem]">
             {t.hero.title}
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-white/82 sm:text-lg">
@@ -43,7 +42,7 @@ export function SceneHero() {
           <dl className="mt-8 grid gap-4 sm:grid-cols-3">
             {facts.map((fact) => (
               <div key={fact.k.en} className="border-t border-white/20 pt-3">
-                <dt className="text-[11px] font-semibold tracking-[0.16em] text-white/45 uppercase">
+                <dt className="text-[11px] font-semibold tracking-[0.08em] text-white/55">
                   {tx(fact.k)}
                 </dt>
                 <dd className="mt-1 text-sm font-semibold text-white">{tx(fact.v)}</dd>
@@ -52,16 +51,11 @@ export function SceneHero() {
           </dl>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Button to="/products" size="lg" className="w-full sm:w-auto">
-              {tx(homeCopy.viewProducts)}
+            <Button to="/product-selection-guide" size="lg" className="w-full sm:w-auto">
+              {t.hero.findEquipment}
             </Button>
-            <Button
-              to={contactInquiryPath}
-              variant="ghost"
-              size="lg"
-              className="w-full sm:w-auto"
-            >
-              {t.nav.getQuote}
+            <Button href="#applications" variant="ghost" size="lg" className="w-full sm:w-auto">
+              {t.hero.watchSite}
             </Button>
           </div>
         </div>

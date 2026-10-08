@@ -11,7 +11,7 @@ import {
 import { ImagePlaceholder } from '@/components/ui/ImagePlaceholder';
 import { LocaleLink } from '@/i18n/navigation';
 import { useI18n } from '@/i18n/I18nContext';
-import { categoryShowcaseSlugs, homeCopy } from '@/data/homeNarrative';
+import { categoryShowcaseSlugs, homeCopy, homeSceneLabels } from '@/data/homeNarrative';
 import { useHoverAutoplay } from '@/hooks/useHoverAutoplay';
 import { SceneFrame } from './homeScroll';
 
@@ -30,10 +30,10 @@ export function SceneProductSystem() {
   return (
     <SceneFrame sceneKey="products" tone="light">
       <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">
-        {t.categories.title}
+        {tx(homeSceneLabels.products)}
       </p>
       <h2 className="mt-3 heading-display max-w-3xl text-3xl sm:text-4xl lg:text-5xl">
-        {t.categories.title}
+        {tx(homeSceneLabels.products)}
       </h2>
       <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
         {t.categories.subtitle}

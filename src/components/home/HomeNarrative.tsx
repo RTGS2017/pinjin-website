@@ -4,7 +4,6 @@ import { SceneProductSystem } from './SceneProductSystem';
 import { SceneSelection } from './SceneSelection';
 import { SceneApplications } from './SceneApplications';
 import { SceneFactory } from './SceneFactory';
-import { SceneProcess } from './SceneProcess';
 import { SceneKnowledge } from './SceneKnowledge';
 import { SceneContact } from './SceneContact';
 
@@ -13,11 +12,10 @@ export function HomeNarrative() {
     <HomeScrollRoot>
       <SectionNavigator />
       <SceneHero />
-      <SceneProductSystem />
-      <SceneSelection />
       <SceneApplications />
+      <SceneProductSystem />
       <SceneFactory />
-      <SceneProcess />
+      <SceneSelection />
       <SceneKnowledge />
       <SceneContact />
     </HomeScrollRoot>

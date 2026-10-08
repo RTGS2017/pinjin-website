@@ -5,11 +5,10 @@ const L = (en: string, zh: string): LocalizedText => ({ en, zh });
 
 export const HOME_SCENES = [
   { key: 'hero', id: 'scene-hero', sticky: false, steps: 0 },
-  { key: 'products', id: 'scene-products', sticky: false, steps: 0 },
-  { key: 'selection', id: 'scene-selection', sticky: true, steps: 0 },
   { key: 'applications', id: 'applications', sticky: false, steps: 0 },
+  { key: 'products', id: 'scene-products', sticky: false, steps: 0 },
   { key: 'factory', id: 'why-pinjin', sticky: false, steps: 0 },
-  { key: 'process', id: 'scene-process', sticky: true, steps: 6 },
+  { key: 'selection', id: 'scene-selection', sticky: true, steps: 0 },
   { key: 'knowledge', id: 'scene-knowledge', sticky: false, steps: 0 },
   { key: 'contact', id: 'contact', sticky: false, steps: 0 },
 ] as const;
@@ -18,12 +17,11 @@ export type HomeSceneKey = (typeof HOME_SCENES)[number]['key'];
 
 export const homeSceneLabels: Record<HomeSceneKey, LocalizedText> = {
   hero: L('Hero', '首页'),
-  products: L('Product System', '产品系统'),
-  selection: L('Find the Right Pump', '按工况选型'),
   applications: L('Applications', '应用场景'),
-  factory: L('Factory', '工厂'),
-  process: L('From Inquiry to Shipment', '从询盘到发运'),
-  knowledge: L('Buyer Questions', '采购问答'),
+  products: L('Products', '产品'),
+  factory: L('Manufacturing Capability', '制造能力'),
+  selection: L('Product Selection Guide', '产品选型指南'),
+  knowledge: L('Buyer Questions', '采购常见问题'),
   contact: L('Contact', '联系工厂'),
 };
 
@@ -40,33 +38,51 @@ export const homeCopy = {
   whyValue: L('Source manufacturer of delivery pumps', '输送泵源头生产厂家'),
   heroFacts: [
     {
-      k: { en: 'Manufacturing', zh: '专业制造', pt: 'Fabricação', ar: 'تصنيع', ru: 'Производство' },
+      k: {
+        en: 'Lower the skill barrier',
+        zh: '降低操作门槛',
+        pt: 'Menos exigência de operação',
+        ar: 'خفض عتبة التشغيل',
+        ru: 'Ниже порог освоения',
+      },
       v: {
-        en: 'Concrete Pumps & Construction Equipment',
-        zh: '混凝土泵与工程输送设备',
-        pt: 'Bombas de concreto e equipamentos de obra',
-        ar: 'مضخات خرسانة ومعدات إنشائية',
-        ru: 'Бетононасосы и строительное оборудование',
+        en: 'Crews learn continuous pumping sooner.',
+        zh: '让施工人员更快掌握连续泵送。',
+        pt: 'A equipe aprende o bombeamento contínuo mais rápido.',
+        ar: 'يتعلم فريق العمل الضخ المتواصل بسرعة أكبر.',
+        ru: 'Бригада быстрее осваивает непрерывную подачу.',
       },
     },
     {
-      k: { en: 'Industry Cluster', zh: '产业集群', pt: 'Polo industrial', ar: 'التجمع الصناعي', ru: 'Промышленный кластер' },
+      k: {
+        en: 'Less manual carrying',
+        zh: '减少人工搬运',
+        pt: 'Menos transporte manual',
+        ar: 'تقليل النقل اليدوي',
+        ru: 'Меньше ручной переноски',
+      },
       v: {
-        en: 'Xingtai Machinery Manufacturing Hub',
-        zh: '邢台机械制造产业集群',
-        pt: 'Polo de máquinas de Xingtai',
-        ar: 'مركز شينغتاي لصناعة الآلات',
-        ru: 'Машиностроительный кластер Синтая',
+        en: 'Material goes through the pipeline to the placement point.',
+        zh: '材料直接通过管路输送到施工位置。',
+        pt: 'O material segue pela tubulação até o ponto de aplicação.',
+        ar: 'تصل المواد عبر الأنابيب إلى موضع التنفيذ.',
+        ru: 'Материал идёт по трубопроводу к месту укладки.',
       },
     },
     {
-      k: { en: 'Global Supply', zh: '全球供应', pt: 'Fornecimento global', ar: 'توريد عالمي', ru: 'Мировые поставки' },
+      k: {
+        en: 'Higher site efficiency',
+        zh: '提高施工效率',
+        pt: 'Mais eficiência na obra',
+        ar: 'رفع كفاءة التنفيذ',
+        ru: 'Выше эффективность работ',
+      },
       v: {
-        en: 'OEM · Export · Project Support',
-        zh: 'OEM · 出口 · 项目支持',
-        pt: 'OEM · Exportação · Apoio a projetos',
-        ar: 'OEM · تصدير · دعم المشاريع',
-        ru: 'OEM · Экспорт · Поддержка проектов',
+        en: 'More time stays on the work itself, not on carrying and tipping.',
+        zh: '把更多时间留给真正的施工，而不是搬料和倒料。',
+        pt: 'Mais tempo fica na execução, não em carregar e despejar.',
+        ar: 'يبقى وقت أطول للعمل نفسه، لا للحمل والتفريغ.',
+        ru: 'Больше времени остаётся на саму работу, а не на переноску и выгрузку.',
       },
     },
   ] as const,

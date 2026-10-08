@@ -60,11 +60,13 @@ export const messages = {
       place: 'Xingtai · Hebei · China',
       intro:
         'Hebei Pinjin Machinery Manufacturing Co., Ltd. is a professional concrete pump manufacturer in Xingtai, Hebei, China.',
-      title: 'Built in Xingtai’s Machinery Manufacturing Hub',
+      title: 'Make construction simpler,\nso efficiency no longer depends on skilled labor.',
       subtitle:
-        'Focused on concrete pumps and construction conveying equipment, providing reliable pumping solutions for construction projects worldwide.',
+        'Pinjin compact concrete pumps move concrete, fine aggregate and suitable mortar through a pipeline to the placement point. That cuts manual carrying and repeat handling, so small buildings, secondary structures and wall work can settle into a steadier, more efficient pace.',
       directAnswer:
-        'Focused on concrete pumps and construction conveying equipment, providing reliable pumping solutions for construction projects worldwide.',
+        'Pinjin compact concrete pumps move concrete, fine aggregate and suitable mortar through a pipeline to the placement point. That cuts manual carrying and repeat handling, so small buildings, secondary structures and wall work can settle into a steadier, more efficient pace.',
+      findEquipment: 'Find the equipment that fits',
+      watchSite: 'Watch the jobsite',
       explore: 'Explore Products',
       quote: 'Contact Engineer',
       clipsKicker: 'Jobsite clips',
@@ -629,10 +631,13 @@ export const messages = {
       place: '邢台 · 河北 · 中国',
       intro:
         '河北品锦机械制造有限公司位于河北省邢台市任泽工业园区，专业生产混凝土泵。',
-      title: '扎根邢台机械制造产业集群',
-      subtitle: '专注混凝土泵及工程输送设备，为全球施工项目提供可靠的泵送解决方案。',
+      title: '让施工更简单，\n让效率不再依赖熟练工。',
+      subtitle:
+        '品锦小型混凝土泵，将混凝土、细石和适用砂浆通过管路直接输送到施工位置，减少人工搬运与重复作业，让小型建筑、二次结构和墙面施工更容易进入稳定、高效的施工节奏。',
       directAnswer:
-        '专注混凝土泵及工程输送设备，为全球施工项目提供可靠的泵送解决方案。',
+        '品锦小型混凝土泵，将混凝土、细石和适用砂浆通过管路直接输送到施工位置，减少人工搬运与重复作业，让小型建筑、二次结构和墙面施工更容易进入稳定、高效的施工节奏。',
+      findEquipment: '找到适合你的设备',
+      watchSite: '观看施工现场',
       explore: '浏览产品',
       quote: '联系工程师',
       clipsKicker: '工地短视频',
