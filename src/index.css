@@ -548,6 +548,57 @@
   .site-header-menu {
     display: none;
   }
+
+  /* Long labels (en / pt / ar / ru) collide with the language and quote
+     buttons inside a 1280px bar. Keep the drawer until there is room. */
+  .site-header:not([data-lang='zh']) .site-header-nav,
+  .site-header:not([data-lang='zh']) .site-header-actions {
+    display: none;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-menu {
+    display: inline-flex;
+  }
+}
+
+@media (min-width: 1280px) {
+  .site-header:not([data-lang='zh']) .site-header-nav,
+  .site-header:not([data-lang='zh']) .site-header-actions {
+    display: flex;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-menu {
+    display: none;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-bar {
+    gap: 0.75rem;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-cluster {
+    gap: 0.85rem;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-tag,
+  .site-header:not([data-lang='zh']) .site-header-wa-label {
+    display: none;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-nav .site-header-item,
+  .site-header:not([data-lang='zh']) .site-header-quote,
+  .site-header:not([data-lang='zh']) .site-header-lang {
+    padding-inline: 0.45rem;
+    letter-spacing: 0.03em;
+    font-size: 0.75rem;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-lang {
+    min-width: 0;
+  }
+
+  .site-header:not([data-lang='zh']) .site-header-wa {
+    padding-inline: 0.55rem;
+  }
 }
 
 /* —— Home narrative scenes —— */

@@ -144,6 +144,7 @@ export function Header() {
       ]
         .filter(Boolean)
         .join(' ')}
+      data-lang={lang}
     >
       <div className="relative" onMouseLeave={scheduleClose}>
         <div className="site-header-rule">
@@ -221,9 +222,10 @@ export function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="site-header-item site-header-wa"
+                aria-label={t.contact.whatsapp}
               >
                 <MessageCircle className="site-header-caret" aria-hidden />
-                {t.contact.whatsapp}
+                <span className="site-header-wa-label">{t.contact.whatsapp}</span>
               </a>
               <LocaleLink to={contactInquiryPath} className="site-header-item site-header-quote">
                 {t.nav.getQuote}

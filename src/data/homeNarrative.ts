@@ -38,6 +38,38 @@ export const homeCopy = {
   whatValue: L('Electric · Diesel · Mixer · Spraying', '电动 · 柴油 · 搅拌泵 · 喷涂机'),
   whereValue: L('Xingtai, Hebei, China', '中国河北邢台'),
   whyValue: L('Source manufacturer of delivery pumps', '输送泵源头生产厂家'),
+  heroFacts: [
+    {
+      k: { en: 'Manufacturing', zh: '专业制造', pt: 'Fabricação', ar: 'تصنيع', ru: 'Производство' },
+      v: {
+        en: 'Concrete Pumps & Construction Equipment',
+        zh: '混凝土泵与工程输送设备',
+        pt: 'Bombas de concreto e equipamentos de obra',
+        ar: 'مضخات خرسانة ومعدات إنشائية',
+        ru: 'Бетононасосы и строительное оборудование',
+      },
+    },
+    {
+      k: { en: 'Industry Cluster', zh: '产业集群', pt: 'Polo industrial', ar: 'التجمع الصناعي', ru: 'Промышленный кластер' },
+      v: {
+        en: 'Xingtai Machinery Manufacturing Hub',
+        zh: '邢台机械制造产业集群',
+        pt: 'Polo de máquinas de Xingtai',
+        ar: 'مركز شينغتاي لصناعة الآلات',
+        ru: 'Машиностроительный кластер Синтая',
+      },
+    },
+    {
+      k: { en: 'Global Supply', zh: '全球供应', pt: 'Fornecimento global', ar: 'توريد عالمي', ru: 'Мировые поставки' },
+      v: {
+        en: 'OEM · Export · Project Support',
+        zh: 'OEM · 出口 · 项目支持',
+        pt: 'OEM · Exportação · Apoio a projetos',
+        ar: 'OEM · تصدير · دعم المشاريع',
+        ru: 'OEM · Экспорт · Поддержка проектов',
+      },
+    },
+  ] as const,
   modelRange: L('Catalogue models', '目录型号'),
   explore: L('Explore', '查看分类'),
   nextQuestion: L('Next question', '下一问'),
