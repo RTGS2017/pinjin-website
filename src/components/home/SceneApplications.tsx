@@ -1,7 +1,6 @@
 import type { CSSProperties } from 'react';
-import { applicationPages } from '@/data/applicationsContent';
-import { homeApplicationClips } from '@/data/homeApplicationClips';
-import { categoryMeta, getCategoryPath } from '@/data/products';
+import { homeApplicationClips, homeApplicationLead } from '@/data/homeApplicationClips';
+import { categoryMeta, getProductBySlug } from '@/data/products';
 import { LocaleLink } from '@/i18n/navigation';
 import { useI18n } from '@/i18n/I18nContext';
 import { useHoverAutoplay } from '@/hooks/useHoverAutoplay';
@@ -15,13 +14,6 @@ export function SceneApplications() {
     12000,
   );
 
-  const labels: Record<string, string> = {
-    building: t.applications.construction,
-    infrastructure: t.applications.concrete,
-    spraying: t.applications.mortar,
-    handling: t.applications.plaster,
-  };
-
   return (
     <SceneFrame sceneKey="applications" tone="light">
       <p className="text-xs font-semibold tracking-[0.16em] text-primary uppercase">
@@ -31,7 +23,7 @@ export function SceneApplications() {
         {t.applications.title}
       </h2>
       <p className="mt-4 max-w-2xl text-base text-text-secondary sm:text-lg">
-        {t.applications.subtitle}
+        {tx(homeApplicationLead)}
       </p>
 
       <div
@@ -43,16 +35,11 @@ export function SceneApplications() {
       >
         <div className="home-product-track">
           {homeApplicationClips.map((clip, index) => {
-            const item = applicationPages.find((page) => page.id === clip.appId);
-            if (!item) return null;
-            const title =
-              clip.id === 'spraying-scaffold' ? tx(item.title) : labels[item.id] || tx(item.title);
             const hidden = desktop && index !== active;
-            const categoryLabel = tx(categoryMeta[item.relatedCategory].label);
-            const image = item.images[0];
-            const alt = image
-              ? `${tx(image.alt)} — Xingtai concrete machinery manufacturer, China concrete pump factory`
-              : title;
+            const product = getProductBySlug(clip.productSlug);
+            const title = tx(clip.title);
+            const productName = product ? tx(product.name) : title;
+            const alt = `${tx(clip.alt)} — Xingtai concrete machinery manufacturer`;
 
             return (
               <article
@@ -78,34 +65,38 @@ export function SceneApplications() {
                     {String(index + 1).padStart(2, '0')}
                   </p>
                   <h3 className="mt-3 heading-display text-2xl sm:text-3xl">{title}</h3>
-                  <p className="mt-3 line-clamp-4 text-sm leading-relaxed text-text-secondary sm:text-base">
-                    {tx(item.summary)}
+                  {product ? (
+                    <p className="mt-3">
+                      <LocaleLink
+                        to={`/products/${product.slug}`}
+                        className="text-base font-semibold text-dark hover:text-primary"
+                        tabIndex={hidden ? -1 : undefined}
+                      >
+                        {productName}
+                      </LocaleLink>
+                    </p>
+                  ) : null}
+                  <p className="mt-3 text-sm leading-relaxed text-text-secondary sm:text-base">
+                    {tx(clip.summary)}
                   </p>
-                  {item.points.length ? (
+                  {clip.points.length ? (
                     <ul className="mt-5 space-y-2 text-sm text-dark">
-                      {item.points.slice(0, 3).map((point) => (
+                      {clip.points.map((point) => (
                         <li key={point.en}>{tx(point)}</li>
                       ))}
                     </ul>
                   ) : null}
-                  <p className="mt-6">
-                    <LocaleLink
-                      to={`/solutions/${item.solutionSlug}`}
-                      className="text-sm font-semibold tracking-wide text-dark hover:text-primary"
-                      tabIndex={hidden ? -1 : undefined}
-                    >
-                      {t.applications.viewCase} →
-                    </LocaleLink>
-                  </p>
-                  <p className="mt-2">
-                    <LocaleLink
-                      to={getCategoryPath(item.relatedCategory)}
-                      className="text-sm text-text-secondary hover:text-primary"
-                      tabIndex={hidden ? -1 : undefined}
-                    >
-                      {categoryLabel}
-                    </LocaleLink>
-                  </p>
+                  {product ? (
+                    <p className="mt-6">
+                      <LocaleLink
+                        to={`/products/${product.slug}`}
+                        className="text-sm font-semibold tracking-wide text-dark hover:text-primary"
+                        tabIndex={hidden ? -1 : undefined}
+                      >
+                        {productName} →
+                      </LocaleLink>
+                    </p>
+                  ) : null}
                 </div>
               </article>
             );
@@ -113,38 +104,29 @@ export function SceneApplications() {
         </div>
 
         <div className="home-product-dots" role="tablist" aria-label={t.applications.title}>
-          {homeApplicationClips.map((clip, index) => {
-            const item = applicationPages.find((page) => page.id === clip.appId);
-            const title =
-              clip.id === 'spraying-scaffold'
-                ? item
-                  ? tx(item.title)
-                  : clip.id
-                : labels[clip.appId] || clip.id;
-            return (
-              <button
-                key={clip.id}
-                type="button"
-                role="tab"
-                className="home-product-dot"
-                aria-selected={index === active}
-                aria-label={title}
-                onClick={() => setIndex(index)}
-                onFocus={() => setIndex(index)}
-              >
-                {String(index + 1).padStart(2, '0')}
-              </button>
-            );
-          })}
+          {homeApplicationClips.map((clip, index) => (
+            <button
+              key={clip.id}
+              type="button"
+              role="tab"
+              className="home-product-dot"
+              aria-selected={index === active}
+              aria-label={tx(clip.title)}
+              onClick={() => setIndex(index)}
+              onFocus={() => setIndex(index)}
+            >
+              {String(index + 1).padStart(2, '0')}
+            </button>
+          ))}
         </div>
       </div>
 
       <p className="mt-10">
         <LocaleLink
-          to="/solutions"
+          to="/products/spraying-machines"
           className="text-sm font-semibold text-dark hover:text-primary"
         >
-          {t.applications.viewAll} →
+          {tx(categoryMeta['spraying-machine'].label)} →
         </LocaleLink>
       </p>
     </SceneFrame>
